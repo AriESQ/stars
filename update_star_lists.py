@@ -4,6 +4,7 @@ import json
 import time
 from datetime import datetime, UTC
 import os
+import subprocess
 from loguru import logger
 import sys
 import re
@@ -155,13 +156,13 @@ def get_repos_in_list(list_url, session):
 
 def commit_and_push():
     try:
-        os.system('git config --global user.name "GitHub Action"')
-        os.system('git config --global user.email "action@github.com"')
-        os.system(f'git add {STARS_FILE}')
-        os.system('git commit -m "Update GitHub stars data"')
-        os.system('git push')
+        subprocess.run(['git', 'config', '--global', 'user.name', 'GitHub Action'], check=True)
+        subprocess.run(['git', 'config', '--global', 'user.email', 'action@github.com'], check=True)
+        subprocess.run(['git', 'add', STARS_FILE], check=True)
+        subprocess.run(['git', 'commit', '-m', 'Update GitHub stars data'], check=True)
+        subprocess.run(['git', 'push'], check=True)
         logger.info("Changes committed and pushed successfully.")
-    except Exception as e:
+    except subprocess.CalledProcessError as e:
         logger.error(f"Error during git operations: {e}")
 
 def update_star_lists(username, token):
