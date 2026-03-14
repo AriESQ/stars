@@ -90,7 +90,7 @@ def deduplicate_papers(papers):
     return unique_papers
 
 def fetch_arxiv_metadata_batch(arxiv_ids):
-    base_url = "http://export.arxiv.org/api/query"
+    base_url = "https://export.arxiv.org/api/query"
     params = {
         "id_list": ",".join(arxiv_ids),
         "max_results": len(arxiv_ids)
