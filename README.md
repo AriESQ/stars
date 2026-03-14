@@ -36,8 +36,28 @@ This project automatically scrapes and organizes your GitHub stars, including st
 3. Navigate to "Secrets and variables" > "Actions"
 4. Add the following repository secret:
    - `GITHUB_TOKEN`: A GitHub personal access token with `repo` scope
-5. The action will now run automatically every day, or you can trigger it manually from the "Actions" tab
-6. Enable GitHub Pages in your repository settings, setting the source to the `gh-pages` branch
+5. Update user-specific settings:
+   - In `package.json`, change the `homepage` field from `"https://dmarx.github.io/stars"` to `"https://<your-github-username>.github.io/stars"`
+   - In `.github/workflows/deploy-to-gh-pages.yml`, update the hardcoded deploy URL to match your username
+6. (Optional) The forked repo includes large JSON data files (`github_stars.json`, `public/github_stars.json`, `arxiv_metadata.json`) from the original user. These accumulate significantly in git history. To clean them out using git's built-in `filter-branch`:
+   ```bash
+   # Remove the data files from all history
+   git filter-branch --force --index-filter \
+     'git rm --cached --ignore-unmatch github_stars.json public/github_stars.json arxiv_metadata.json' \
+     --prune-empty -- --all
+
+   # Clean up the backup refs and garbage collect
+   rm -rf .git/refs/original/
+   git reflog expire --expire=now --all
+   git gc --prune=now --aggressive
+
+   # Force push the cleaned history
+   git push origin --force --all
+   git push origin --force --tags
+   ```
+   After this, the first scrape run will regenerate these files with your own data.
+7. The action will now run automatically every day, or you can trigger it manually from the "Actions" tab
+8. Enable GitHub Pages in your repository settings, setting the source to **GitHub Actions** (Settings > Pages > Source)
 
 ## File Structure
 - `scrape_stars.py`: Main script for fetching starred repositories and metadata
