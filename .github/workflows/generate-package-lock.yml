@@ -3,6 +3,9 @@ name: Generate package-lock.json
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate-package-lock:
     runs-on: ubuntu-latest

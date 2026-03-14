@@ -12,6 +12,9 @@ on:
       - .github/workflows/collect_arxiv_metadata.yaml
       - arxiv_metadata.json
 
+permissions:
+  contents: write
+
 jobs:
   collect-arxiv-metadata:
     runs-on: ubuntu-latest

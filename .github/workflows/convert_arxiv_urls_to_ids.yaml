@@ -3,6 +3,9 @@ name: Convert Arxiv URLs to IDs
 on:
   workflow_dispatch:  # Allow manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   convert-urls-to-ids:
     runs-on: ubuntu-latest
