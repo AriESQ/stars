@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# stars
-||||||| (empty tree)
-=======
 # GitHub Stars Scraper, Organizer, and Dashboard
 This project automatically scrapes and organizes your GitHub stars, including star lists (tags), using GitHub Actions. It also provides a web-based dashboard to explore and search through your starred repositories.
 
@@ -194,4 +190,3 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 └── utils.py
 
 ```
->>>>>>> 70cc0e8 (Initial commit from upstream dmarx/stars)
