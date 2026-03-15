@@ -135,7 +135,7 @@ def get_repos_in_list(list_url, session):
                 break
             
             for element in repo_elements:
-                repo_link = element.select_one('h3 a')
+                repo_link = element.select_one('h2 a') or element.select_one('h3 a')
                 if repo_link:
                     repo_name = repo_link.text.strip()
                     clean_name = clean_repo_name(repo_name)
