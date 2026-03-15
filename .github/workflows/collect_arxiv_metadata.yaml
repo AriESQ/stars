@@ -1,0 +1,41 @@
+name: Collect arXiv Metadata
+
+on:
+  workflow_dispatch:  # Allow manual triggering
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly on Sunday at 00:00 UTC
+  push:
+    branches:
+      - main
+    paths:
+      - arxiv_metadata_collector.py
+      - .github/workflows/collect_arxiv_metadata.yaml
+      - arxiv_metadata.json
+
+jobs:
+  collect-arxiv-metadata:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml loguru arxiv
+
+    - name: Run arXiv metadata collector
+      run: python arxiv_metadata_collector.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add arxiv_metadata.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update arXiv metadata" && git push)

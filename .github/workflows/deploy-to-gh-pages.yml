@@ -1,0 +1,65 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    # branches:
+    #   - main
+    # paths:
+    #   - 'src/**'
+    #   - '*.json'
+    #   - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+  workflow_run:
+    types: completed
+    workflows: 
+      - Scrape Github Stars
+      - Update Star Lists
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Copy data files to public directory
+      run: |
+        cp github_stars.json public/
+        cp arxiv_metadata.json public/
+
+    - name: Build
+      run: npm run build
+      env:
+        CI: false
+
+    - name: Debug - List directory contents
+      run: |
+        echo "Contents of the public directory:"
+        ls -R public
+        echo "Contents of the build directory:"
+        ls -R build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        force_orphan: true
+
+    - name: Output deployment URL
+      run: echo "Deployed to https://dmarx.github.io/stars"
