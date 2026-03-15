@@ -1,6 +1,7 @@
 [project]
-name = "dmarx_stars"
-description = "Tools to facilitate collaborating with LLMs"
+name = "stars"
+version = "0.1.0"
+description = "Scrape, organize, and browse GitHub starred repositories"
 requires-python = ">=3.11"
 
 [tool.readme.tree]
