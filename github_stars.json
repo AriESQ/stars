@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:20.662942+00:00",
+  "last_updated": "2026-03-17T23:14:22.442865+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -31394,7 +31394,8 @@
     "dan-v/lambda-nat-proxy": {
       "lists": [
         "AWS",
-        "Networking"
+        "Networking",
+        "QUIC"
       ],
       "metadata": {
         "id": 1003427424,
@@ -44736,7 +44737,8 @@
     },
     "noboruma/go-msquic": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "QUIC"
       ],
       "metadata": {
         "id": 928759566,
@@ -74232,7 +74234,8 @@
     },
     "quiclog/qvis": {
       "lists": [
-        "Networking"
+        "Networking",
+        "QUIC"
       ],
       "metadata": {
         "id": 161805646,
@@ -74259,7 +74262,8 @@
     },
     "quicwg/qlog": {
       "lists": [
-        "Networking"
+        "Networking",
+        "QUIC"
       ],
       "metadata": {
         "id": 179496936,
@@ -114426,7 +114430,8 @@
     "moul/quicssh": {
       "lists": [
         "GoLang",
-        "PKI"
+        "PKI",
+        "QUIC"
       ],
       "metadata": {
         "id": 196770665,
@@ -120137,7 +120142,9 @@
       "last_updated": "2026-03-17T22:14:19.077755+00:00"
     },
     "cloudflare/quiche": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 150891532,
         "name": "quiche",
@@ -126065,7 +126072,8 @@
     "xyproto/algernon": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "QUIC"
       ],
       "metadata": {
         "id": 31953662,
@@ -136053,7 +136061,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "QUIC"
       ],
       "metadata": {
         "id": 53174933,
@@ -136077,7 +136086,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "QUIC"
       ],
       "metadata": {
         "id": 28928522,
@@ -136626,7 +136636,8 @@
     "icing/qtools": {
       "lists": [
         "Infosec",
-        "Networking"
+        "Networking",
+        "QUIC"
       ],
       "metadata": {
         "id": 524938696,
@@ -140537,7 +140548,8 @@
     },
     "quic-go/quic-go": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "QUIC"
       ],
       "metadata": {
         "id": 55637575,
@@ -149556,7 +149568,9 @@
       "last_updated": "2026-03-17T22:18:45.684786+00:00"
     },
     "quic-interop/quic-interop-runner": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 215401285,
         "name": "quic-interop-runner",
@@ -150399,7 +150413,9 @@
       "last_updated": "2026-03-17T22:18:53.148147+00:00"
     },
     "microsoft/msquic": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 217654199,
         "name": "msquic",
@@ -150441,7 +150457,9 @@
       "last_updated": "2026-03-17T22:18:53.534360+00:00"
     },
     "mami-project/bpqd": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 141440404,
         "name": "bpqd",
@@ -150481,7 +150499,9 @@
       "last_updated": "2026-03-17T22:18:53.920673+00:00"
     },
     "signetlabdei/quic-ns-3": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 170828921,
         "name": "quic-ns-3",
@@ -150501,7 +150521,9 @@
       "last_updated": "2026-03-17T22:18:54.129888+00:00"
     },
     "bagder/http3-explained": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 120417550,
         "name": "http3-explained",
@@ -150521,7 +150543,9 @@
       "last_updated": "2026-03-17T22:18:54.316254+00:00"
     },
     "litespeedtech/lsquic": {
-      "lists": [],
+      "lists": [
+        "QUIC"
+      ],
       "metadata": {
         "id": 104516416,
         "name": "lsquic",
@@ -151417,7 +151441,8 @@
     },
     "aws/s2n-quic": {
       "lists": [
-        "PKI"
+        "PKI",
+        "QUIC"
       ],
       "metadata": {
         "id": 274987572,
