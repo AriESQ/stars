@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:37.914046+00:00",
+  "last_updated": "2026-03-17T23:14:40.618163+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -6543,7 +6543,8 @@
     },
     "Blood-Bank-Global/vizwasm": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "WASM"
       ],
       "metadata": {
         "id": 989664934,
@@ -10480,7 +10481,9 @@
       }
     },
     "wasmerio/kernel-wasm": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 184614639,
         "name": "kernel-wasm",
@@ -14252,7 +14255,9 @@
       }
     },
     "joelseverin/linux-wasm": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 1087285054,
         "name": "linux-wasm",
@@ -30628,7 +30633,8 @@
     "gametorch/image_to_pixel_art_wasm": {
       "lists": [
         "Music and Video",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 1009048253,
@@ -37935,7 +37941,9 @@
       }
     },
     "fourlexboehm/faasta": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 913695687,
         "name": "faasta",
@@ -38313,7 +38321,8 @@
     },
     "dphilla/boxer": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "WASM"
       ],
       "metadata": {
         "id": 467706461,
@@ -41434,7 +41443,8 @@
     },
     "hyperlight-dev/hyperlight-wasm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "WASM"
       ],
       "metadata": {
         "id": 955277538,
@@ -48052,7 +48062,9 @@
       }
     },
     "schteppe/imgui-wasm": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 162588340,
         "name": "imgui-wasm",
@@ -48189,7 +48201,8 @@
     "huggingface/transformers.js-examples": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "WASM"
       ],
       "metadata": {
         "id": 841397199,
@@ -48669,7 +48682,8 @@
       "lists": [
         "FFmpeg",
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "WASM"
       ],
       "metadata": {
         "id": 313005489,
@@ -49000,7 +49014,8 @@
     "IQEngine/WebFFT": {
       "lists": [
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "WASM"
       ],
       "metadata": {
         "id": 679379838,
@@ -53412,7 +53427,8 @@
     },
     "WebAssembly/wasi-nn": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "WASM"
       ],
       "metadata": {
         "id": 263765444,
@@ -55548,7 +55564,9 @@
       }
     },
     "aduros/wasm4": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 393196822,
         "name": "wasm4",
@@ -59681,7 +59699,8 @@
     },
     "leaningtech/webvm": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 454164378,
@@ -59708,7 +59727,8 @@
     },
     "leaningtech/cheerpx-meta": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 866471958,
@@ -60639,7 +60659,9 @@
       }
     },
     "GoogleChromeLabs/wasi-fs-access": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 299293649,
         "name": "wasi-fs-access",
@@ -60665,7 +60687,8 @@
     },
     "wasmerio/webassembly.sh": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 209115950,
@@ -60914,7 +60937,8 @@
     },
     "drogus/jawsm": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 875521855,
@@ -62657,7 +62681,9 @@
       }
     },
     "eshaz/wasm-audio-decoders": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 390863675,
         "name": "wasm-audio-decoders",
@@ -62766,7 +62792,8 @@
     },
     "bytecodealliance/jco": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 576428611,
@@ -68467,7 +68494,8 @@
     },
     "wasm3/embedded-wasm-apps": {
       "lists": [
-        "DIY"
+        "DIY",
+        "WASM"
       ],
       "metadata": {
         "id": 433879579,
@@ -76922,7 +76950,9 @@
       }
     },
     "unoplatform/Uno.Diagnostics.Eventing": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 176973794,
         "name": "Uno.Diagnostics.Eventing",
@@ -77308,7 +77338,9 @@
       }
     },
     "orca-app/orca": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 698354256,
         "name": "orca",
@@ -87620,7 +87652,9 @@
       }
     },
     "renderlet/wander": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 752848675,
         "name": "wander",
@@ -88635,7 +88669,9 @@
       }
     },
     "duckdb/duckdb-wasm": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 368257515,
         "name": "duckdb-wasm",
@@ -89740,7 +89776,8 @@
     },
     "SFBdragon/talc": {
       "lists": [
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 646434379,
@@ -91876,7 +91913,9 @@
       }
     },
     "juj/wasm_webgpu": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 333880370,
         "name": "wasm_webgpu",
@@ -91902,7 +91941,8 @@
     },
     "ffmpegwasm/ffmpeg.wasm": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "WASM"
       ],
       "metadata": {
         "id": 215530281,
@@ -94924,7 +94964,8 @@
     },
     "scalarhq/videotranscode.space": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "WASM"
       ],
       "metadata": {
         "id": 268657866,
@@ -95446,7 +95487,8 @@
     "container2wasm/container2wasm": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "WASM"
       ],
       "metadata": {
         "id": 601918925,
@@ -97112,7 +97154,8 @@
     "phoboslab/jsmpeg": {
       "lists": [
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "WASM"
       ],
       "metadata": {
         "id": 9934117,
@@ -97512,7 +97555,8 @@
     },
     "copy/v86": {
       "lists": [
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 14158237,
@@ -98716,7 +98760,9 @@
       "last_updated": "2026-03-17T22:10:54.402973+00:00"
     },
     "appcypher/awesome-wasm-runtimes": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 152063918,
         "name": "awesome-wasm-runtimes",
@@ -98736,7 +98782,9 @@
       "last_updated": "2026-03-17T22:10:54.687958+00:00"
     },
     "Xe/olin": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 146960461,
         "name": "olin",
@@ -98756,7 +98804,9 @@
       "last_updated": "2026-03-17T22:10:54.896032+00:00"
     },
     "wasienv/wasienv": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 215626440,
         "name": "wasienv",
@@ -98777,7 +98827,8 @@
     },
     "wasm3/wasm3-arduino": {
       "lists": [
-        "DIY"
+        "DIY",
+        "WASM"
       ],
       "metadata": {
         "id": 234966219,
@@ -98886,7 +98937,9 @@
       "last_updated": "2026-03-17T22:10:56.259058+00:00"
     },
     "turbolent/w2c2": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 398904359,
         "name": "w2c2",
@@ -100316,7 +100369,9 @@
       "last_updated": "2026-03-17T22:11:09.523096+00:00"
     },
     "WebAssembly/binaryen": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 45208608,
         "name": "binaryen",
@@ -100337,7 +100392,8 @@
     },
     "wasm-bindgen/wasm-bindgen": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 114685405,
@@ -100359,7 +100415,8 @@
     },
     "adamaq01/wasm-rp2040": {
       "lists": [
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 709999457,
@@ -104468,7 +104525,8 @@
     },
     "teamortix/golang-wasm": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "WASM"
       ],
       "metadata": {
         "id": 350429341,
@@ -106171,7 +106229,9 @@
       "last_updated": "2026-03-17T22:12:05.847668+00:00"
     },
     "eliben/wasm-wat-samples": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 629505071,
         "name": "wasm-wat-samples",
@@ -106726,7 +106786,8 @@
     },
     "fabiospampinato/pikchr-wasm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "WASM"
       ],
       "metadata": {
         "id": 408308689,
@@ -107435,7 +107496,9 @@
       "last_updated": "2026-03-17T22:12:16.978817+00:00"
     },
     "wasm3/wasm3": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 212152900,
         "name": "wasm3",
@@ -107478,7 +107541,9 @@
       "last_updated": "2026-03-17T22:12:17.396431+00:00"
     },
     "bytecodealliance/wasm-micro-runtime": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 184654298,
         "name": "wasm-micro-runtime",
@@ -107498,7 +107563,9 @@
       "last_updated": "2026-03-17T22:12:17.583466+00:00"
     },
     "WebAssembly/wabt": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 42467830,
         "name": "wabt",
@@ -107518,7 +107585,9 @@
       "last_updated": "2026-03-17T22:12:17.772479+00:00"
     },
     "WebAssembly/proposals": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 153359132,
         "name": "proposals",
@@ -107538,7 +107607,9 @@
       "last_updated": "2026-03-17T22:12:18.001107+00:00"
     },
     "WasmEdge/WasmEdge": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 224908244,
         "name": "WasmEdge",
@@ -107558,7 +107629,9 @@
       "last_updated": "2026-03-17T22:12:18.201541+00:00"
     },
     "mbasso/awesome-wasm": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 89355243,
         "name": "awesome-wasm",
@@ -107578,7 +107651,9 @@
       "last_updated": "2026-03-17T22:12:18.376252+00:00"
     },
     "bytecodealliance/wizer": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 314024477,
         "name": "wizer",
@@ -108784,7 +108859,9 @@
       "last_updated": "2026-03-17T22:12:29.949673+00:00"
     },
     "WebAssembly/WASI": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 179135166,
         "name": "WASI",
@@ -111308,7 +111385,8 @@
     "wasmerio/wasmer": {
       "lists": [
         "Devops",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 152572186,
@@ -112029,7 +112107,9 @@
       "last_updated": "2026-03-17T22:12:59.775800+00:00"
     },
     "WebAssembly/component-model": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 409307855,
         "name": "component-model",
@@ -112188,7 +112268,8 @@
     },
     "wasmerio/wapm-cli": {
       "lists": [
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 177042614,
@@ -112274,7 +112355,9 @@
       "last_updated": "2026-03-17T22:13:02.058518+00:00"
     },
     "singlestore-labs/wasix": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 447660427,
         "name": "wasix",
@@ -112295,7 +112378,8 @@
     },
     "john-sharratt/coreutils": {
       "lists": [
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 496605675,
@@ -112365,7 +112449,8 @@
     "wasmCloud/wasmCloud": {
       "lists": [
         "Devops",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 304403692,
@@ -112388,7 +112473,8 @@
     "bytecodealliance/wasmtime": {
       "lists": [
         "Devops",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 101767772,
@@ -117666,7 +117752,8 @@
       "lists": [
         "JavaScript",
         "Machine Learning",
-        "Python"
+        "Python",
+        "WASM"
       ],
       "metadata": {
         "id": 610043832,
@@ -118201,7 +118288,8 @@
     "fiatjaf/jq-web": {
       "lists": [
         "API",
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 90417462,
@@ -118340,7 +118428,9 @@
       "last_updated": "2026-03-17T22:13:59.412290+00:00"
     },
     "deislabs/wagi": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 302774423,
         "name": "wagi",
@@ -118383,7 +118473,8 @@
     },
     "spinframework/spin": {
       "lists": [
-        "Devops"
+        "Devops",
+        "WASM"
       ],
       "metadata": {
         "id": 423679664,
@@ -120273,7 +120364,8 @@
     },
     "r-wasm/jupyterlite-webr-kernel": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 593990921,
@@ -120295,7 +120387,8 @@
     },
     "pyodide/micropip": {
       "lists": [
-        "Python"
+        "Python",
+        "WASM"
       ],
       "metadata": {
         "id": 537177550,
@@ -120318,7 +120411,8 @@
     "pyodide/pyodide": {
       "lists": [
         "JavaScript",
-        "Python"
+        "Python",
+        "WASM"
       ],
       "metadata": {
         "id": 122663163,
@@ -120340,7 +120434,8 @@
     },
     "jupyterlite/jupyterlite": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 352160885,
@@ -120362,7 +120457,8 @@
     },
     "georgestagg/webr-webpack-example": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "WASM"
       ],
       "metadata": {
         "id": 617488402,
@@ -124873,7 +124969,9 @@
       "last_updated": "2026-03-17T22:14:58.471455+00:00"
     },
     "FastVM/Web49": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 557442599,
         "name": "Web49",
@@ -125685,7 +125783,8 @@
     "enarx/enarx": {
       "lists": [
         "PKI",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 206337472,
@@ -129129,7 +129228,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Rust"
+        "Rust",
+        "WASM"
       ],
       "metadata": {
         "id": 452780719,
@@ -137527,7 +137627,9 @@
       "last_updated": "2026-03-17T22:16:51.231918+00:00"
     },
     "bots-garden/capsule": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 516817189,
         "name": "capsule",
@@ -149576,7 +149678,8 @@
     },
     "wazero/wazero": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "WASM"
       ],
       "metadata": {
         "id": 261141187,
