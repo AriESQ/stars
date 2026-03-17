@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:40.618163+00:00",
+  "last_updated": "2026-03-17T23:14:45.474151+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -62,7 +62,8 @@
     "PowerShell/PowerShell-Docker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 134617246,
@@ -1100,7 +1101,9 @@
       }
     },
     "dorssel/usbipd-win": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 305202189,
         "name": "usbipd-win",
@@ -1568,7 +1571,8 @@
     "Aldaviva/AuthenticatorChooser": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Windows"
       ],
       "metadata": {
         "id": 771810714,
@@ -2971,7 +2975,9 @@
       }
     },
     "ntdevlabs/tiny11builder": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 606244443,
         "name": "tiny11builder",
@@ -2996,7 +3002,9 @@
       }
     },
     "CodingWonders/MicroWin": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1051972541,
         "name": "MicroWin",
@@ -3076,7 +3084,9 @@
       }
     },
     "marler8997/msvcup": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 997971027,
         "name": "msvcup",
@@ -3325,7 +3335,8 @@
     },
     "troennes/private-secure-windows": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 514230122,
@@ -3351,7 +3362,9 @@
       }
     },
     "WereDev/Wu10Man": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 133277182,
         "name": "Wu10Man",
@@ -3645,7 +3658,9 @@
       }
     },
     "shogunlab/awesome-hyper-v-exploitation": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 202475376,
         "name": "awesome-hyper-v-exploitation",
@@ -4836,7 +4851,9 @@
       }
     },
     "arcadesdude/BRU": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 121950348,
         "name": "BRU",
@@ -4861,7 +4878,9 @@
       }
     },
     "NextronSystems/sysmon-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 389019034,
         "name": "sysmon-config",
@@ -4886,7 +4905,9 @@
       }
     },
     "AutomatedLab/AutomatedLab": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 66317384,
         "name": "AutomatedLab",
@@ -5156,7 +5177,8 @@
     },
     "Windos/Random-Ansible-Resources": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Windows"
       ],
       "metadata": {
         "id": 784477032,
@@ -5210,7 +5232,8 @@
     },
     "lucab85/ansible-pilot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Windows"
       ],
       "metadata": {
         "id": 390009436,
@@ -5729,7 +5752,9 @@
       }
     },
     "Ryan-Adams57/Sysinternals-Windows-Group-Policy-Templates": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 856104558,
         "name": "Sysinternals-Windows-Group-Policy-Templates",
@@ -5755,7 +5780,8 @@
     },
     "pl4nty/web-admx-tool": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Windows"
       ],
       "metadata": {
         "id": 925907374,
@@ -5782,7 +5808,8 @@
     },
     "Harvester57/Security-ADMX": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 318139015,
@@ -5808,7 +5835,9 @@
       }
     },
     "gpoguy/gpologging": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 327959020,
         "name": "gpologging",
@@ -5944,7 +5973,9 @@
       }
     },
     "Ylianst/MeshCentral": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 101663032,
         "name": "MeshCentral",
@@ -5969,7 +6000,9 @@
       }
     },
     "amidaware/tacticalrmm": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 216919645,
         "name": "tacticalrmm",
@@ -6871,7 +6904,9 @@
       }
     },
     "kmaki565/EventLook": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 261219914,
         "name": "EventLook",
@@ -6950,7 +6985,9 @@
       }
     },
     "TibixDev/winboat": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 960420129,
         "name": "winboat",
@@ -8991,7 +9028,9 @@
       }
     },
     "ECP-Solutions/ASF": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1110993812,
         "name": "ASF",
@@ -9399,7 +9438,9 @@
       }
     },
     "winfsp/sshfs-win": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 61451917,
         "name": "sshfs-win",
@@ -10839,7 +10880,9 @@
       }
     },
     "zoicware/RemoveWindowsAI": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 811675345,
         "name": "RemoveWindowsAI",
@@ -12889,7 +12932,9 @@
       }
     },
     "vslavik/winsparkle": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 467582,
         "name": "winsparkle",
@@ -13466,7 +13511,9 @@
       }
     },
     "mccabeshell/PSComputerAuditing": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 112765359,
         "name": "PSComputerAuditing",
@@ -13491,7 +13538,9 @@
       }
     },
     "ralish/PSWinVitals": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 68506463,
         "name": "PSWinVitals",
@@ -13570,7 +13619,9 @@
       }
     },
     "microsoft/windows-dev-box-setup-scripts": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 127960203,
         "name": "windows-dev-box-setup-scripts",
@@ -14745,7 +14796,9 @@
       }
     },
     "skydive241/Regshot-Advanced": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 341161956,
         "name": "Regshot-Advanced",
@@ -15357,7 +15410,8 @@
     "dell/iDRAC-Redfish-Scripting": {
       "lists": [
         "Devops",
-        "Python"
+        "Python",
+        "Windows"
       ],
       "metadata": {
         "id": 98206096,
@@ -15383,7 +15437,9 @@
       }
     },
     "Pendraig/System-Inventory": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 847865082,
         "name": "System-Inventory",
@@ -15436,7 +15492,9 @@
       }
     },
     "keyboardcrunch/Inventory-BrowserExts": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 139905133,
         "name": "Inventory-BrowserExts",
@@ -15941,7 +15999,9 @@
       }
     },
     "sbirdsill/PowerShell-PC-Inventory": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 181219620,
         "name": "PowerShell-PC-Inventory",
@@ -16216,7 +16276,9 @@
       }
     },
     "Apoc70/PowerShell-Scripts": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 681135842,
         "name": "PowerShell-Scripts",
@@ -16241,7 +16303,9 @@
       }
     },
     "Sneakysecdoggo/Wynis": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 196762877,
         "name": "Wynis",
@@ -16351,7 +16415,8 @@
     },
     "techservicesillinois/SecOps-Powershell-CISDSC": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 273571228,
@@ -16377,7 +16442,9 @@
       }
     },
     "eneerge/CIS-Microsoft-Intune-For-Windows-IntuneProfile": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 600635707,
         "name": "CIS-Microsoft-Intune-For-Windows-IntuneProfile",
@@ -16402,7 +16469,9 @@
       }
     },
     "NVISOsecurity/posh-dsc-windows-hardening": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 214474204,
         "name": "posh-dsc-windows-hardening",
@@ -16427,7 +16496,9 @@
       }
     },
     "mrlacey/my-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 763492541,
         "name": "my-config",
@@ -16452,7 +16523,9 @@
       }
     },
     "atc-net/atc-dsc-configurations": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 741834548,
         "name": "atc-dsc-configurations",
@@ -16477,7 +16550,9 @@
       }
     },
     "dsccommunity/GPRegistryPolicyDsc": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 203738796,
         "name": "GPRegistryPolicyDsc",
@@ -16502,7 +16577,9 @@
       }
     },
     "dsccommunity/CertificateDsc": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 34297060,
         "name": "CertificateDsc",
@@ -16527,7 +16604,9 @@
       }
     },
     "dsccommunity/SecurityPolicyDsc": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 50862396,
         "name": "SecurityPolicyDsc",
@@ -16552,7 +16631,9 @@
       }
     },
     "dsccommunity/NetworkingDsc": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 34022240,
         "name": "NetworkingDsc",
@@ -16577,7 +16658,9 @@
       }
     },
     "dsccommunity/ComputerManagementDsc": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 34022223,
         "name": "ComputerManagementDsc",
@@ -16602,7 +16685,9 @@
       }
     },
     "dsccommunity/xPSDesiredStateConfiguration": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 34022246,
         "name": "xPSDesiredStateConfiguration",
@@ -16627,7 +16712,9 @@
       }
     },
     "PlagueHO/LabBuilder": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 41079260,
         "name": "LabBuilder",
@@ -16994,7 +17081,9 @@
       }
     },
     "techomancer/nvme2k": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1074018624,
         "name": "nvme2k",
@@ -17896,7 +17985,9 @@
       }
     },
     "stschulte/custom-windows-11-install": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 739081968,
         "name": "custom-windows-11-install",
@@ -17921,7 +18012,9 @@
       }
     },
     "lkrms/win10-unattended": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 286877993,
         "name": "win10-unattended",
@@ -17946,7 +18039,9 @@
       }
     },
     "nolesapex/DidMySettingsChange": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 812671382,
         "name": "DidMySettingsChange",
@@ -17996,7 +18091,9 @@
       }
     },
     "microsoft/ReverseDSC": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 101192200,
         "name": "ReverseDSC",
@@ -18403,7 +18500,9 @@
       }
     },
     "massgravel/TSforge": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 927639265,
         "name": "TSforge",
@@ -18428,7 +18527,9 @@
       }
     },
     "massgravel/hwid-kms38-tickets": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 948601093,
         "name": "hwid-kms38-tickets",
@@ -18453,7 +18554,9 @@
       }
     },
     "abbodi1406/WHD": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 149082257,
         "name": "WHD",
@@ -18645,7 +18748,9 @@
       }
     },
     "win32ss/supermium": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 638089306,
         "name": "supermium",
@@ -18670,7 +18775,9 @@
       }
     },
     "LegacyUpdate/LegacyUpdate": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 546741133,
         "name": "LegacyUpdate",
@@ -20759,7 +20866,9 @@
       }
     },
     "belgotux/ansible-role-wsl": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 527746718,
         "name": "ansible-role-wsl",
@@ -20784,7 +20893,9 @@
       }
     },
     "khangvum/homelab-ansible-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 982409981,
         "name": "homelab-ansible-config",
@@ -21113,7 +21224,9 @@
       }
     },
     "builtbybel/FlyOOBE": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 875403491,
         "name": "FlyOOBE",
@@ -22019,7 +22132,9 @@
       }
     },
     "OCSInventory-NG/WindowsAgent": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 36661442,
         "name": "WindowsAgent",
@@ -22044,7 +22159,9 @@
       }
     },
     "0PandaDEV/awesome-windows": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 849611230,
         "name": "awesome-windows",
@@ -22069,7 +22186,9 @@
       }
     },
     "jamesstringer90/Easy-GPU-PV": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 379414969,
         "name": "Easy-GPU-PV",
@@ -22094,7 +22213,9 @@
       }
     },
     "AlexNabokikh/windows-playbook": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 418101256,
         "name": "windows-playbook",
@@ -22119,7 +22240,9 @@
       }
     },
     "ansible-collections/ansible.windows": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 241710232,
         "name": "ansible.windows",
@@ -22144,7 +22267,9 @@
       }
     },
     "ansible-collections/community.windows": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 245053588,
         "name": "community.windows",
@@ -22225,7 +22350,8 @@
     },
     "ansible-lockdown/Windows-10-CIS": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 695258675,
@@ -22252,7 +22378,8 @@
     },
     "diyan/pywinrm": {
       "lists": [
-        "Python"
+        "Python",
+        "Windows"
       ],
       "metadata": {
         "id": 4926896,
@@ -22278,7 +22405,9 @@
       }
     },
     "oatakan/ansible-windows-0-day-bsod-recovery": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 843914219,
         "name": "ansible-windows-0-day-bsod-recovery",
@@ -22415,7 +22544,8 @@
     "microsoft/windows-container-tools": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 216456920,
@@ -22442,7 +22572,8 @@
     },
     "billywr/Low_level_wcow_containers_with_runhcs": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 1003681894,
@@ -22470,7 +22601,8 @@
     "microsoft/dotnet-computevirtualization": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 52707517,
@@ -22497,7 +22629,8 @@
     },
     "microsoft/hcsshim": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 38258831,
@@ -24210,7 +24343,9 @@
       }
     },
     "bitlogik/HushWin": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 387019513,
         "name": "HushWin",
@@ -25339,7 +25474,8 @@
     },
     "karkason/pywinsandbox": {
       "lists": [
-        "Python"
+        "Python",
+        "Windows"
       ],
       "metadata": {
         "id": 248972006,
@@ -26975,7 +27111,8 @@
     },
     "safing/portmaster": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 157402758,
@@ -30887,7 +31024,9 @@
       }
     },
     "npackd/npackd-cpp": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 32278884,
         "name": "npackd-cpp",
@@ -35156,7 +35295,9 @@
       }
     },
     "clawsoftware/clawPDF": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 169987297,
         "name": "clawPDF",
@@ -35222,7 +35363,8 @@
     },
     "microsoft/WSL": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Windows"
       ],
       "metadata": {
         "id": 55626935,
@@ -36359,7 +36501,8 @@
     },
     "MolotovCherry/virtual-display-rs": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 686128738,
@@ -36386,7 +36529,8 @@
     },
     "PrPlanIT/VirtualDisplayDriver_Wizard": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 853530648,
@@ -36413,7 +36557,8 @@
     },
     "nomi-san/parsec-vdd": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 562007145,
@@ -38268,7 +38413,9 @@
       }
     },
     "momo5502/sogen": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 842883987,
         "name": "sogen",
@@ -40921,7 +41068,9 @@
       }
     },
     "cschneegans/unattend-generator": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 760225433,
         "name": "unattend-generator",
@@ -41057,7 +41206,9 @@
       }
     },
     "oerg866/win98-quickinstall": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 585928720,
         "name": "win98-quickinstall",
@@ -41950,7 +42101,8 @@
     },
     "Devolutions/IronRDP": {
       "lists": [
-        "Rust"
+        "Rust",
+        "Windows"
       ],
       "metadata": {
         "id": 196274912,
@@ -42060,7 +42212,8 @@
     },
     "marchaesen/vcxsrv": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 754309614,
@@ -42518,7 +42671,9 @@
       }
     },
     "PowerShell/DSC-Samples": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 668450947,
         "name": "DSC-Samples",
@@ -42543,7 +42698,9 @@
       }
     },
     "PowerShell/DSC": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 572227672,
         "name": "DSC",
@@ -44334,7 +44491,9 @@
       }
     },
     "Raphire/Win11Debloat": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 307843105,
         "name": "Win11Debloat",
@@ -45588,7 +45747,9 @@
       }
     },
     "memstechtips/UnattendedWinstall": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 814597318,
         "name": "UnattendedWinstall",
@@ -45613,7 +45774,9 @@
       }
     },
     "memstechtips/Winhance": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 916105685,
         "name": "Winhance",
@@ -48960,7 +49123,9 @@
       }
     },
     "microsoft/profile-explorer": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 842089156,
         "name": "profile-explorer",
@@ -49886,7 +50051,9 @@
       }
     },
     "dnSpyEx/dnSpy": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 371358850,
         "name": "dnSpy",
@@ -52445,7 +52612,9 @@
       }
     },
     "pbatard/libwdi": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 4975854,
         "name": "libwdi",
@@ -55790,7 +55959,9 @@
       }
     },
     "ScoopInstaller/Scoop": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 9994688,
         "name": "Scoop",
@@ -56029,7 +56200,9 @@
       }
     },
     "UMSKT/UMSKT": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 644665204,
         "name": "UMSKT",
@@ -56166,7 +56339,9 @@
       }
     },
     "maharmstone/quibble": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 240162198,
         "name": "quibble",
@@ -56327,7 +56502,9 @@
       }
     },
     "hfiref0x/WinDepends": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 892915517,
         "name": "WinDepends",
@@ -60827,7 +61004,8 @@
     },
     "dockur/windows": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 743140652,
@@ -62111,7 +62289,8 @@
     },
     "VirtualDrivers/Virtual-Display-Driver": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 704889202,
@@ -62137,7 +62316,9 @@
       }
     },
     "kpsam2000Intel/GetEDID": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 832880035,
         "name": "GetEDID",
@@ -62273,7 +62454,9 @@
       }
     },
     "notepad-plus-plus/notepad-plus-plus": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 33014811,
         "name": "notepad-plus-plus",
@@ -64295,7 +64478,8 @@
     },
     "kebby/Capturinha": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 357639426,
@@ -65914,7 +66098,9 @@
       }
     },
     "henrypp/simplewall": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 66016134,
         "name": "simplewall",
@@ -66061,7 +66247,9 @@
       }
     },
     "M2Team/NanaBox": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 476726917,
         "name": "NanaBox",
@@ -66086,7 +66274,9 @@
       }
     },
     "CodingWonders/DISMTools": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 559601520,
         "name": "DISMTools",
@@ -71630,7 +71820,8 @@
     },
     "container-desktop/container-desktop": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 408801052,
@@ -74281,7 +74472,9 @@
       }
     },
     "HotCakeX/Harden-Windows-Security": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 569233100,
         "name": "Harden-Windows-Security",
@@ -74691,7 +74884,8 @@
     },
     "x64dbg/x64dbg": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 33791743,
@@ -74718,7 +74912,8 @@
     },
     "gnh1201/welsonjs": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Windows"
       ],
       "metadata": {
         "id": 275600068,
@@ -75770,7 +75965,9 @@
       }
     },
     "Atlas-OS/Atlas": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 336920522,
         "name": "Atlas",
@@ -76925,7 +77122,9 @@
       }
     },
     "microsoft/perfview": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 33010673,
         "name": "perfview",
@@ -76951,7 +77150,8 @@
     },
     "unoplatform/Uno.Diagnostics.Eventing": {
       "lists": [
-        "WASM"
+        "WASM",
+        "Windows"
       ],
       "metadata": {
         "id": 176973794,
@@ -76977,7 +77177,9 @@
       }
     },
     "Zhentar/Wpa.Demystifier": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 156136758,
         "name": "Wpa.Demystifier",
@@ -77926,7 +78128,9 @@
       }
     },
     "joshuacline/windick": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 551262304,
         "name": "windick",
@@ -80853,7 +81057,9 @@
       }
     },
     "hellzerg/optimizer": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 103370157,
         "name": "optimizer",
@@ -81951,7 +82157,9 @@
       }
     },
     "olafhartong/sysmon-modular": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 117379388,
         "name": "sysmon-modular",
@@ -81976,7 +82184,9 @@
       }
     },
     "SwiftOnSecurity/sysmon-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 80652174,
         "name": "sysmon-config",
@@ -84490,7 +84700,9 @@
       }
     },
     "kurone-kito/setup.windows": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 172217211,
         "name": "setup.windows",
@@ -84792,7 +85004,9 @@
       }
     },
     "JanBN/dnSpyEx": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 491381341,
         "name": "dnSpyEx",
@@ -84817,7 +85031,9 @@
       }
     },
     "icsharpcode/ILSpy": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1327739,
         "name": "ILSpy",
@@ -84869,7 +85085,9 @@
       }
     },
     "chocolatey/boxstarter": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 24042173,
         "name": "boxstarter",
@@ -88529,7 +88747,9 @@
       }
     },
     "MicrosoftDocs/windows-dev-docs": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 78895763,
         "name": "windows-dev-docs",
@@ -89334,7 +89554,9 @@
       }
     },
     "SasaDermanovic/2024-Winget-Setup-Guide-Windows-10-LTSC": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 690166628,
         "name": "2024-Winget-Setup-Guide-Windows-10-LTSC",
@@ -89750,7 +89972,9 @@
       }
     },
     "asheroto/winget-install": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 485097683,
         "name": "winget-install",
@@ -91586,7 +91810,8 @@
     },
     "kormix-io/KoordASIO": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 297599878,
@@ -96117,7 +96342,9 @@
       "last_updated": "2026-03-17T22:10:30.146510+00:00"
     },
     "activescott/lessmsi": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 11993845,
         "name": "lessmsi",
@@ -96137,7 +96364,9 @@
       "last_updated": "2026-03-17T22:10:30.342977+00:00"
     },
     "Bioruebe/UniExtract2": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 29245432,
         "name": "UniExtract2",
@@ -107452,7 +107681,8 @@
     },
     "dfir-dd/dfir-toolkit": {
       "lists": [
-        "Rust"
+        "Rust",
+        "Windows"
       ],
       "metadata": {
         "id": 663866341,
@@ -108311,7 +108541,9 @@
       "last_updated": "2026-03-17T22:12:24.558943+00:00"
     },
     "winsiderss/phnt": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 144783940,
         "name": "phnt",
@@ -108424,7 +108656,9 @@
       "last_updated": "2026-03-17T22:12:25.661510+00:00"
     },
     "torakiki/pdfsam": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 13062062,
         "name": "pdfsam",
@@ -108928,7 +109162,8 @@
     "vapoursynth/vapoursynth": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Windows"
       ],
       "metadata": {
         "id": 11136031,
@@ -108950,7 +109185,8 @@
     },
     "staxrip/staxrip": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Windows"
       ],
       "metadata": {
         "id": 185859151,
@@ -109309,7 +109545,9 @@
       "last_updated": "2026-03-17T22:12:34.227416+00:00"
     },
     "dokan-dev/dokany": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 27818365,
         "name": "dokany",
@@ -110057,7 +110295,8 @@
     },
     "ldpreload/BlackLotus": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 665649223,
@@ -112290,7 +112529,9 @@
       "last_updated": "2026-03-17T22:13:01.454195+00:00"
     },
     "kkkgo/LTSC-Add-MicrosoftStore": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 151663487,
         "name": "LTSC-Add-MicrosoftStore",
@@ -115009,7 +115250,8 @@
     },
     "lippertmarkus/containerd-installer": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 436637444,
@@ -115303,7 +115545,9 @@
       "last_updated": "2026-03-17T22:13:30.273674+00:00"
     },
     "asdcorp/Integrated_Patcher_3": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 432507793,
         "name": "Integrated_Patcher_3",
@@ -115345,7 +115589,9 @@
       "last_updated": "2026-03-17T22:13:30.678280+00:00"
     },
     "AveYo/fox": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 324252975,
         "name": "fox",
@@ -117796,7 +118042,9 @@
       "last_updated": "2026-03-17T22:13:53.312753+00:00"
     },
     "Kudaes/Fiber": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 625360563,
         "name": "Fiber",
@@ -118019,7 +118267,8 @@
     },
     "magicsword-io/LOLDrivers": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 600482495,
@@ -118040,7 +118289,9 @@
       "last_updated": "2026-03-17T22:13:55.703609+00:00"
     },
     "windirstat/windirstat": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 55435293,
         "name": "windirstat",
@@ -118060,7 +118311,9 @@
       "last_updated": "2026-03-17T22:13:55.897120+00:00"
     },
     "msys2/msys2.github.io": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 17098597,
         "name": "msys2.github.io",
@@ -119860,7 +120113,9 @@
       "last_updated": "2026-03-17T22:14:12.670059+00:00"
     },
     "lucasg/Dependencies": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 95366680,
         "name": "Dependencies",
@@ -125738,7 +125993,9 @@
       "last_updated": "2026-03-17T22:15:05.406253+00:00"
     },
     "Devolutions/UniGetUI": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 377163326,
         "name": "UniGetUI",
@@ -126402,7 +126659,8 @@
     },
     "wslutilities/wslu": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Windows"
       ],
       "metadata": {
         "id": 91957658,
@@ -127375,7 +127633,9 @@
       "last_updated": "2026-03-17T22:15:20.887350+00:00"
     },
     "SplashtopInc/winstall": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 265352760,
         "name": "winstall",
@@ -127395,7 +127655,9 @@
       "last_updated": "2026-03-17T22:15:21.114406+00:00"
     },
     "winget-run/wingetdotrun": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 267416232,
         "name": "wingetdotrun",
@@ -130218,7 +130480,9 @@
       "last_updated": "2026-03-17T22:15:45.914873+00:00"
     },
     "canonical/multipass": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 114128199,
         "name": "multipass",
@@ -130282,7 +130546,9 @@
       "last_updated": "2026-03-17T22:15:46.554277+00:00"
     },
     "jseerden/IntuneBackupAndRestore": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 175897433,
         "name": "IntuneBackupAndRestore",
@@ -131371,7 +131637,8 @@
     },
     "microsoft/Windows-Containers": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 268924826,
@@ -133077,7 +133344,8 @@
     "danieljoos/wincred": {
       "lists": [
         "GoLang",
-        "PKI"
+        "PKI",
+        "Windows"
       ],
       "metadata": {
         "id": 21683884,
@@ -135637,7 +135905,8 @@
     },
     "xforcered/AdvSim.Cryptography": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Windows"
       ],
       "metadata": {
         "id": 532588072,
@@ -136247,7 +136516,8 @@
     "virtio-win/kvm-guest-drivers-windows": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 2524933,
@@ -136270,7 +136540,8 @@
     "linuxkit/virtsock": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Windows"
       ],
       "metadata": {
         "id": 58654089,
@@ -138023,7 +138294,9 @@
       "last_updated": "2026-03-17T22:16:56.670451+00:00"
     },
     "classy-giraffe/WinShush": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 430350248,
         "name": "WinShush",
@@ -138043,7 +138316,9 @@
       "last_updated": "2026-03-17T22:16:56.859127+00:00"
     },
     "quinnzbellz/windows10ltsc-guide": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 435057394,
         "name": "windows10ltsc-guide",
@@ -138485,7 +138760,8 @@
     },
     "bottlesdevs/Bottles": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Windows"
       ],
       "metadata": {
         "id": 106949285,
@@ -138595,7 +138871,9 @@
       "last_updated": "2026-03-17T22:17:01.715163+00:00"
     },
     "microsoft/winget-pkgs": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 197275551,
         "name": "winget-pkgs",
@@ -140073,7 +140351,8 @@
       "lists": [
         "Docker and OCI containers",
         "Fuzzing",
-        "Python"
+        "Python",
+        "Windows"
       ],
       "metadata": {
         "id": 203799854,
@@ -141286,7 +141565,8 @@
     },
     "microsoft/WindowsProtocolTestSuites": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 40954650,
@@ -143074,7 +143354,9 @@
       "last_updated": "2026-03-17T22:17:41.005850+00:00"
     },
     "ChrisTitusTech/winutil": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 486418532,
         "name": "winutil",
@@ -143408,7 +143690,8 @@
     "quickemu-project/quickemu": {
       "lists": [
         "Apple and M1 virtualization",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Windows"
       ],
       "metadata": {
         "id": 247567645,
@@ -144963,7 +145246,9 @@
       "last_updated": "2026-03-17T22:17:58.218442+00:00"
     },
     "gdeliana/Optimize-Offline": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 385664365,
         "name": "Optimize-Offline",
@@ -144983,7 +145268,9 @@
       "last_updated": "2026-03-17T22:17:58.443312+00:00"
     },
     "AveYo/MediaCreationTool.bat": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 415421172,
         "name": "MediaCreationTool.bat",
@@ -145822,7 +146109,8 @@
     "microsoft/TSS.MSR": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Windows"
       ],
       "metadata": {
         "id": 46449228,
@@ -146315,7 +146603,9 @@
       "last_updated": "2026-03-17T22:18:09.939896+00:00"
     },
     "WinMerge/winmerge": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 26494018,
         "name": "winmerge",
@@ -147197,7 +147487,8 @@
     },
     "taviso/loadlibrary": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Windows"
       ],
       "metadata": {
         "id": 92219431,
@@ -148628,7 +148919,9 @@
       "last_updated": "2026-03-17T22:18:30.620873+00:00"
     },
     "massgravel/Microsoft-Activation-Scripts": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 233472199,
         "name": "Microsoft-Activation-Scripts",
@@ -149360,7 +149653,9 @@
       "last_updated": "2026-03-17T22:18:38.217049+00:00"
     },
     "winfsp/winfsp": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 59151203,
         "name": "winfsp",
@@ -149898,7 +150193,8 @@
     "buptczq/WinCryptSSHAgent": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Windows"
       ],
       "metadata": {
         "id": 187327715,
@@ -149961,7 +150257,9 @@
       "last_updated": "2026-03-17T22:18:43.559340+00:00"
     },
     "rgl/packer-plugin-windows-update": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 89509943,
         "name": "packer-plugin-windows-update",
@@ -157270,7 +157568,9 @@
       "last_updated": "2026-03-17T22:19:51.739969+00:00"
     },
     "10se1ucgo/DisableWinTracking": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 40093782,
         "name": "DisableWinTracking",
@@ -157290,7 +157590,9 @@
       "last_updated": "2026-03-17T22:19:51.904768+00:00"
     },
     "W4RH4WK/Debloat-Windows-10": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 40150605,
         "name": "Debloat-Windows-10",
@@ -157372,7 +157674,9 @@
       "last_updated": "2026-03-17T22:19:52.676451+00:00"
     },
     "stascorp/rdpwrap": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 25609086,
         "name": "rdpwrap",
@@ -157457,7 +157761,8 @@
     "mandiant/commando-vm": {
       "lists": [
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 177878919,
@@ -158034,7 +158339,9 @@
       "last_updated": "2026-03-17T22:19:59.027665+00:00"
     },
     "PowerShell/Win32-OpenSSH": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 42125787,
         "name": "Win32-OpenSSH",
@@ -158287,7 +158594,9 @@
       "last_updated": "2026-03-17T22:20:01.379123+00:00"
     },
     "microsoft/terminal": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 100060912,
         "name": "terminal",
@@ -159239,7 +159548,9 @@
       "last_updated": "2026-03-17T22:20:10.949366+00:00"
     },
     "Disassembler0/Win10-Initial-Setup-Script": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 49785387,
         "name": "Win10-Initial-Setup-Script",
@@ -160109,7 +160420,9 @@
       "last_updated": "2026-03-17T22:20:21.911912+00:00"
     },
     "modzero/fix-windows-privacy": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 73639238,
         "name": "fix-windows-privacy",
