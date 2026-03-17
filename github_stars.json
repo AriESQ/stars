@@ -1,9 +1,10 @@
 {
-  "last_updated": "2026-03-17T23:11:25.660261+00:00",
+  "last_updated": "2026-03-17T23:11:42.580462+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 1140644614,
@@ -441,7 +442,8 @@
     },
     "artginzburg/sudo-touchid": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 389117398,
@@ -469,7 +471,8 @@
     "jorgelbg/pinentry-touchid": {
       "lists": [
         "Apple and M1 virtualization",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 383950914,
@@ -600,7 +603,8 @@
     },
     "netalertx/NetAlertX": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 441062625,
@@ -896,7 +900,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 1142369668,
@@ -1053,7 +1058,8 @@
     "OWASP/Go-SCP": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 87070385,
@@ -1079,7 +1085,9 @@
       }
     },
     "OWASP/CheatSheetSeries": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 162723104,
         "name": "CheatSheetSeries",
@@ -1106,7 +1114,8 @@
     "PortSwigger/certsquirt": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 627894902,
@@ -1443,7 +1452,8 @@
     },
     "lowRISC/opentitan": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 204516692,
@@ -1469,7 +1479,9 @@
       }
     },
     "Aldaviva/AuthenticatorChooser": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 771810714,
         "name": "AuthenticatorChooser",
@@ -1522,7 +1534,8 @@
     },
     "VectorCamp/vectorscan": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 292834673,
@@ -1549,7 +1562,8 @@
     },
     "ghostsecurity/poltergeist": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 1035457311,
@@ -2192,7 +2206,9 @@
       }
     },
     "pixelPusher03/Camera-hacking": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 895284795,
         "name": "Camera-hacking",
@@ -2764,7 +2780,8 @@
     },
     "rickmark/mojo_thor": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 100866857,
@@ -3127,7 +3144,9 @@
       }
     },
     "troennes/private-secure-windows": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 514230122,
         "name": "private-secure-windows",
@@ -3205,7 +3224,8 @@
     },
     "JesseCHale/ESP32-DIV": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 1127542640,
@@ -3458,7 +3478,9 @@
       }
     },
     "qcontinuum1/spying-extensions": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1152274325,
         "name": "spying-extensions",
@@ -3483,7 +3505,9 @@
       }
     },
     "CloudSecurityAlliance/moltbook-skill": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1155532976,
         "name": "moltbook-skill",
@@ -3508,7 +3532,9 @@
       }
     },
     "CloudSecurityAlliance/openclaw-telemetry": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1155511719,
         "name": "openclaw-telemetry",
@@ -3978,7 +4004,8 @@
     },
     "kalil0321/reverse-api-engineer": {
       "lists": [
-        "API"
+        "API",
+        "Infosec"
       ],
       "metadata": {
         "id": 1121759870,
@@ -4080,7 +4107,8 @@
     },
     "Retsediv/WIFI_CSI_based_HAR": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 258157427,
@@ -4107,7 +4135,8 @@
     },
     "doronz88/harlogger": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 350311704,
@@ -4289,7 +4318,9 @@
       }
     },
     "viralvaghela/secret-finder": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 645895193,
         "name": "secret-finder",
@@ -4525,7 +4556,8 @@
     },
     "microsoft/litebox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 901607132,
@@ -5371,7 +5403,9 @@
       }
     },
     "Gowtham-Darkseid/AutoPentestX": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1106929732,
         "name": "AutoPentestX",
@@ -5446,7 +5480,9 @@
       }
     },
     "Harvester57/Security-ADMX": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 318139015,
         "name": "Security-ADMX",
@@ -6398,7 +6434,8 @@
     "openfga/openfga": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 501372599,
@@ -8022,7 +8059,8 @@
     },
     "BLGardner/prism.tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 1124767956,
@@ -9024,7 +9062,8 @@
     },
     "Cr4sh/pico_dma": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 703824780,
@@ -10474,7 +10513,8 @@
     },
     "AdamLaurie/raiden-pico": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 1084379446,
@@ -10501,7 +10541,8 @@
     },
     "jjsch-dev/pico_i2c_sniffer": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 380341708,
@@ -10555,7 +10596,8 @@
     },
     "AdamLaurie/esp32_flash_extract": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 560341150,
@@ -10609,7 +10651,8 @@
     },
     "AdamLaurie/killerbee": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 141801832,
@@ -10635,7 +10678,9 @@
       }
     },
     "AdamLaurie/RFIDIOt": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 2679840,
         "name": "RFIDIOt",
@@ -10661,7 +10706,8 @@
     },
     "newaetech/ChipSHOUTER": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 136679275,
@@ -10688,7 +10734,8 @@
     },
     "AdamLaurie/ChronIC": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 8604285,
@@ -10715,7 +10762,8 @@
     },
     "AdamLaurie/rompar": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 7936128,
@@ -11081,7 +11129,8 @@
     },
     "jdx/fnox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 1078762196,
@@ -11857,7 +11906,8 @@
     },
     "ataradov/usb-sniffer": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 649540986,
@@ -12301,7 +12351,8 @@
     },
     "facebookincubator/sks": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 191838304,
@@ -13050,7 +13101,8 @@
     },
     "octelium/octelium": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 985853356,
@@ -13363,7 +13415,9 @@
       }
     },
     "appledragon/DumpStorm": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1019294758,
         "name": "DumpStorm",
@@ -14188,7 +14242,9 @@
       }
     },
     "cisco-ai-defense/mcp-scanner": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1062952726,
         "name": "mcp-scanner",
@@ -15214,7 +15270,8 @@
     "salesforce/pam_oidc": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 355690448,
@@ -15394,7 +15451,9 @@
       }
     },
     "bomfather/tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1072582315,
         "name": "tools",
@@ -15419,7 +15478,9 @@
       }
     },
     "techservicesillinois/SecOps-Powershell-CISDSC": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 273571228,
         "name": "SecOps-Powershell-CISDSC",
@@ -15773,7 +15834,8 @@
     "chainguard-demo/cookbook": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 820995896,
@@ -15828,7 +15890,8 @@
     "chainguard-dev/incert": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 628599987,
@@ -15854,7 +15917,9 @@
       }
     },
     "chainguard-dev/edu": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 499499951,
         "name": "edu",
@@ -16124,7 +16189,8 @@
     },
     "chainguard-dev/malcontent-action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 1001040789,
@@ -16204,7 +16270,9 @@
       }
     },
     "cncf/tag-security": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 125122827,
         "name": "tag-security",
@@ -16256,7 +16324,9 @@
       }
     },
     "google/wireit": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 440909617,
         "name": "wireit",
@@ -16358,7 +16428,9 @@
       }
     },
     "google/testimony": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 33732094,
         "name": "testimony",
@@ -16410,7 +16482,8 @@
     "chainguard-demo/edu-images-demos": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 607765204,
@@ -16463,7 +16536,9 @@
       }
     },
     "iknowjason/Awesome-CloudSec-Labs": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 633824327,
         "name": "Awesome-CloudSec-Labs",
@@ -17053,7 +17128,8 @@
     },
     "Next-Flip/Momentum-Firmware": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 765553099,
@@ -17467,7 +17543,8 @@
     },
     "picatz/taint": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 576040396,
@@ -17544,7 +17621,8 @@
     },
     "francoismichel/ssh3": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 712363932,
@@ -17747,7 +17825,9 @@
       }
     },
     "actuator/Android-Security-Exploits-YouTube-Curriculum": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 714338410,
         "name": "Android-Security-Exploits-YouTube-Curriculum",
@@ -18124,7 +18204,8 @@
     },
     "bmorcelli/Launcher": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 755727720,
@@ -18439,7 +18520,9 @@
       }
     },
     "bodadotsh/npm-security-best-practices": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1060866328,
         "name": "npm-security-best-practices",
@@ -18464,7 +18547,9 @@
       }
     },
     "google/timesketch": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 21009909,
         "name": "timesketch",
@@ -18779,7 +18864,9 @@
       }
     },
     "FoxIO-LLC/ja4": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 695203140,
         "name": "ja4",
@@ -18804,7 +18891,9 @@
       }
     },
     "mandatoryprogrammer/thermoptic": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1048821975,
         "name": "thermoptic",
@@ -18936,7 +19025,8 @@
     },
     "SHUR1K-N/WiFi-Shadowapple-Resources": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 991885386,
@@ -18963,7 +19053,8 @@
     },
     "xchwarze/frieren": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 732840064,
@@ -18990,7 +19081,8 @@
     },
     "xchwarze/wifi-pineapple-cloner": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 716869750,
@@ -19098,7 +19190,8 @@
     },
     "FaradayRF/FaradayRF-Hardware": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 67573355,
@@ -19125,7 +19218,8 @@
     },
     "initbrain/Z-Attack": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 45698475,
@@ -19152,7 +19246,8 @@
     },
     "atlas0fd00m/rfcat": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 99347468,
@@ -19208,7 +19303,8 @@
     },
     "srsran/srsRAN_4G": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 14983921,
@@ -19235,7 +19331,8 @@
     },
     "NSSpiral/Blackb0x": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 383787088,
@@ -19261,7 +19358,9 @@
       }
     },
     "aleenzz/Cobalt_Strike_wiki": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 178549735,
         "name": "Cobalt_Strike_wiki",
@@ -19286,7 +19385,9 @@
       }
     },
     "zer0yu/Awesome-CobaltStrike": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 287713897,
         "name": "Awesome-CobaltStrike",
@@ -19311,7 +19412,9 @@
       }
     },
     "0x4m4/hexstrike-ai": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1017550802,
         "name": "hexstrike-ai",
@@ -19336,7 +19439,9 @@
       }
     },
     "MythicMeta/overview": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 630679925,
         "name": "overview",
@@ -19361,7 +19466,9 @@
       }
     },
     "its-a-feature/Mythic": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 139783546,
         "name": "Mythic",
@@ -19386,7 +19493,9 @@
       }
     },
     "gsmith257-cyber/better-sliver": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 730470987,
         "name": "better-sliver",
@@ -19411,7 +19520,9 @@
       }
     },
     "Immersive-Labs-Sec/SliverC2-Forensics": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 556235593,
         "name": "SliverC2-Forensics",
@@ -19436,7 +19547,9 @@
       }
     },
     "BishopFox/sliver": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 166304026,
         "name": "sliver",
@@ -19539,7 +19652,8 @@
     },
     "jayofelony/pwnagotchi": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 739143646,
@@ -19566,7 +19680,8 @@
     },
     "evilsocket/pwnagotchi": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 209556497,
@@ -19593,7 +19708,8 @@
     },
     "7h30th3r0n3/Evil-M5Project": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 734739273,
@@ -19620,7 +19736,8 @@
     },
     "BruceDevices/firmware": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 795166961,
@@ -19697,7 +19814,8 @@
     },
     "CJerkins/glinet-kismet-remote-cap": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 635077128,
@@ -19859,7 +19977,9 @@
       }
     },
     "juhovh/tailguard": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1048977614,
         "name": "tailguard",
@@ -20245,7 +20365,9 @@
       }
     },
     "GreyNoise-Intelligence/greynoise-psychic": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1032699773,
         "name": "greynoise-psychic",
@@ -20585,7 +20707,8 @@
     },
     "datapartyjs/meshmarauder": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 1035159334,
@@ -20720,7 +20843,9 @@
       }
     },
     "yaelwrites/Big-Ass-Data-Broker-Opt-Out-List": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 277895683,
         "name": "Big-Ass-Data-Broker-Opt-Out-List",
@@ -20999,7 +21124,9 @@
       }
     },
     "juju4/ansible-harden-windows": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 65157229,
         "name": "ansible-harden-windows",
@@ -21052,7 +21179,9 @@
       }
     },
     "ansible-lockdown/Windows-10-CIS": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 695258675,
         "name": "Windows-10-CIS",
@@ -21373,7 +21502,9 @@
       }
     },
     "codilime/veles": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 78717776,
         "name": "veles",
@@ -21502,7 +21633,9 @@
       }
     },
     "theori-io/aixcc-afc-archive": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1019798736,
         "name": "aixcc-afc-archive",
@@ -21527,7 +21660,9 @@
       }
     },
     "BlueprintLabIO/prompt-injector": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1046651854,
         "name": "prompt-injector",
@@ -21635,7 +21770,8 @@
     },
     "SocketDev/socket-cli": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Infosec"
       ],
       "metadata": {
         "id": 554765897,
@@ -21662,7 +21798,8 @@
     },
     "chainguard-dev/malcontent": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Infosec"
       ],
       "metadata": {
         "id": 753881685,
@@ -21816,7 +21953,9 @@
       }
     },
     "google/grr-doc": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 17029490,
         "name": "grr-doc",
@@ -22276,7 +22415,9 @@
       }
     },
     "nccgroup/TPMGenie": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 124109856,
         "name": "TPMGenie",
@@ -22327,7 +22468,8 @@
     },
     "yeswehack/pwn-machine": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 278879201,
@@ -22595,7 +22737,9 @@
       }
     },
     "divestedcg/real-ucode": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 708576167,
         "name": "real-ucode",
@@ -23591,7 +23735,9 @@
       }
     },
     "vpdotnet/vpnetd-sgx": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1038611565,
         "name": "vpnetd-sgx",
@@ -23818,7 +23964,9 @@
       }
     },
     "123ojp/GREtunnel-scanner": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 980570333,
         "name": "GREtunnel-scanner",
@@ -23894,7 +24042,8 @@
     },
     "wiz-sec-public/secure-rules-files": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Infosec"
       ],
       "metadata": {
         "id": 996959611,
@@ -25223,7 +25372,9 @@
       }
     },
     "cisagov/thorium": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 967688555,
         "name": "thorium",
@@ -25329,7 +25480,9 @@
       }
     },
     "trailofbits/pajaMAS": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1013337845,
         "name": "pajaMAS",
@@ -25356,7 +25509,9 @@
       }
     },
     "protonpass/android-authenticator": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1024829178,
         "name": "android-authenticator",
@@ -25506,7 +25661,9 @@
       }
     },
     "safing/portmaster": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 157402758,
         "name": "portmaster",
@@ -25663,7 +25820,8 @@
     },
     "IHATEGIVINGAUSERNAME/theProtector": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 1024884213,
@@ -25794,7 +25952,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 804443974,
@@ -27419,7 +27578,9 @@
       }
     },
     "dsekz/chrome-x-browser-validation-header": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1017715831,
         "name": "chrome-x-browser-validation-header",
@@ -27496,7 +27657,9 @@
       }
     },
     "gaasedelen/tenet": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 359834831,
         "name": "tenet",
@@ -28123,7 +28286,8 @@
     "trufflesecurity/force-push-scanner": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 1009034267,
@@ -28256,7 +28420,9 @@
       }
     },
     "panther-labs/panther-analysis": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 215863078,
         "name": "panther-analysis",
@@ -30100,7 +30266,9 @@
       }
     },
     "kevoreilly/CAPEv2": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 215366713,
         "name": "CAPEv2",
@@ -30125,7 +30293,9 @@
       }
     },
     "cert-ee/cuckoo3": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 436965945,
         "name": "cuckoo3",
@@ -30364,7 +30534,9 @@
       }
     },
     "google/minijail": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 192603905,
         "name": "minijail",
@@ -30389,7 +30561,9 @@
       }
     },
     "google/gvisor": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 131212638,
         "name": "gvisor",
@@ -30414,7 +30588,9 @@
       }
     },
     "jart/landlock-make": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 522211507,
         "name": "landlock-make",
@@ -30665,7 +30841,8 @@
     },
     "netblue30/firetools": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 40893015,
@@ -33137,7 +33314,8 @@
     "chainguard-dev/dfc": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 914450435,
@@ -33251,7 +33429,8 @@
     },
     "jumpserver/jumpserver": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 21484781,
@@ -33384,7 +33563,8 @@
     },
     "EliseZeroTwo/tx2hax": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 983698361,
@@ -35157,7 +35337,8 @@
     },
     "kexa-io/Kexa": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 551571079,
@@ -36210,7 +36391,8 @@
     },
     "jstawinski/GitHub-Actions-Attack-Diagram": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 836537250,
@@ -36313,7 +36495,9 @@
       }
     },
     "GrapheneOS/grapheneos.org": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 183515588,
         "name": "grapheneos.org",
@@ -36895,7 +37079,9 @@
       }
     },
     "crytic/slither": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 147583941,
         "name": "slither",
@@ -37183,7 +37369,8 @@
     },
     "github/advisory-database": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 458364565,
@@ -37265,7 +37452,8 @@
     },
     "microsoft/sarif-tutorials": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 214499280,
@@ -37292,7 +37480,8 @@
     },
     "fossas/fossa-cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 116995448,
@@ -37419,7 +37608,8 @@
     },
     "usnistgov/macos_security": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 269753140,
@@ -37583,7 +37773,9 @@
       }
     },
     "Netflix-Skunkworks/stethoscope": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 78471512,
         "name": "stethoscope",
@@ -38526,7 +38718,8 @@
     },
     "nabla-c0d3/sslyze": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 23058769,
@@ -38816,7 +39009,9 @@
       }
     },
     "praetorian-inc/noseyparker": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 563584480,
         "name": "noseyparker",
@@ -38969,7 +39164,9 @@
       }
     },
     "cisagov/ScubaGoggles": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 670199969,
         "name": "ScubaGoggles",
@@ -39254,7 +39451,9 @@
       }
     },
     "hippiiee/osgint": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 527215876,
         "name": "osgint",
@@ -39804,7 +40003,9 @@
       }
     },
     "GaloisInc/grease": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 944720164,
         "name": "grease",
@@ -39981,7 +40182,9 @@
       }
     },
     "freedomofpress/dangerzone": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 232181980,
         "name": "dangerzone",
@@ -40901,7 +41104,8 @@
     },
     "EFForg/rayhunter": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 716335769,
@@ -41135,7 +41339,8 @@
     },
     "denandz/sourcemapper": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 147779075,
@@ -41356,7 +41561,8 @@
     },
     "Foxboron/sbctl": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 260986040,
@@ -42124,7 +42330,9 @@
       }
     },
     "tetrelsec/depthcharge": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 851692716,
         "name": "depthcharge",
@@ -44306,7 +44514,9 @@
       }
     },
     "runZeroInc/runzero-tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 178256435,
         "name": "runzero-tools",
@@ -44333,7 +44543,8 @@
     "runZeroInc/sshamble": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 834618694,
@@ -44850,7 +45061,9 @@
       }
     },
     "freedombox/FreedomBox": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 12196957,
         "name": "FreedomBox",
@@ -45291,7 +45504,8 @@
     "pritunl/pritunl-zero": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 94962254,
@@ -45319,7 +45533,8 @@
     "cyberark/secretless-broker": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 107414536,
@@ -45349,7 +45564,8 @@
         "API",
         "Authentication",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 628096239,
@@ -45451,7 +45667,8 @@
     },
     "LaurieWired/Malimite": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 728914226,
@@ -46598,7 +46815,8 @@
     },
     "pinterest/snappass": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 13357878,
@@ -46951,7 +47169,8 @@
     "ghostunnel/ghostunnel": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 43837870,
@@ -47059,7 +47278,9 @@
       }
     },
     "blacklanternsecurity/bbot": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 468957086,
         "name": "bbot",
@@ -48620,7 +48841,9 @@
       }
     },
     "kees/ubuntu-cve-tracker": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 759202899,
         "name": "ubuntu-cve-tracker",
@@ -48853,7 +49076,9 @@
       }
     },
     "angea/pocorgtfo": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 138410890,
         "name": "pocorgtfo",
@@ -48930,7 +49155,8 @@
     "lexiforest/curl-impersonate": {
       "lists": [
         "API",
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 594291409,
@@ -50326,7 +50552,9 @@
       }
     },
     "ossf/cve-bin-tool": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 165313961,
         "name": "cve-bin-tool",
@@ -50351,7 +50579,9 @@
       }
     },
     "CriticalPathSecurity/Public-Intelligence-Feeds": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 433149726,
         "name": "Public-Intelligence-Feeds",
@@ -50377,7 +50607,8 @@
     },
     "RamboRogers/netventory": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 906866383,
@@ -52468,7 +52699,8 @@
     },
     "tillson/git-hound": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 197129669,
@@ -53040,7 +53272,9 @@
       }
     },
     "nahamsec/lazys3": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 97876566,
         "name": "lazys3",
@@ -53987,7 +54221,8 @@
     "warhorse/ansible-role-cobaltstrike-docker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 392113519,
@@ -54064,7 +54299,8 @@
     },
     "ajutamangdev/CloudPwn": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 892634943,
@@ -55293,7 +55529,9 @@
       }
     },
     "doxx/darkflare": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 891628186,
         "name": "darkflare",
@@ -57296,7 +57534,8 @@
     },
     "infinition/Bjorn": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 809326864,
@@ -60435,7 +60674,8 @@
     },
     "nh2/internal-contstrained-pki": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 874599925,
@@ -61017,7 +61257,8 @@
     },
     "CapibaraZero/fw": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 719214935,
@@ -61833,7 +62074,8 @@
     },
     "pilcrowonpaper/copenhagen": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 756958815,
@@ -62390,7 +62632,9 @@
       }
     },
     "antonio-morales/Fuzzing101": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 392405338,
         "name": "Fuzzing101",
@@ -62492,7 +62736,9 @@
       }
     },
     "mitmproxy/mitmproxy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 519832,
         "name": "mitmproxy",
@@ -64487,7 +64733,9 @@
       }
     },
     "capstone-engine/capstone": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 14735429,
         "name": "capstone",
@@ -66143,7 +66391,9 @@
       }
     },
     "jur1st/EMC-2": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 850173017,
         "name": "EMC-2",
@@ -67098,7 +67348,9 @@
       }
     },
     "trailofbits/LeftoverLocalsRelease": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 739931025,
         "name": "LeftoverLocalsRelease",
@@ -69288,7 +69540,9 @@
       }
     },
     "bryanpkc/corkscrew": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 64916837,
         "name": "corkscrew",
@@ -69313,7 +69567,9 @@
       }
     },
     "Gabriella439/holepunch": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 847409173,
         "name": "holepunch",
@@ -69646,7 +69902,9 @@
       }
     },
     "seekbytes/IPA": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 845972052,
         "name": "IPA",
@@ -69909,7 +70167,9 @@
       }
     },
     "shramos/Awesome-Cybersecurity-Datasets": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 146606468,
         "name": "Awesome-Cybersecurity-Datasets",
@@ -70376,7 +70636,9 @@
       }
     },
     "x64dbg/x64dbg": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 33791743,
         "name": "x64dbg",
@@ -74242,7 +74504,8 @@
     },
     "vimeo/psalm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 74386167,
@@ -77597,7 +77860,8 @@
     },
     "FiloSottile/age-plugin-tpm": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 817679455,
@@ -78103,7 +78367,9 @@
       }
     },
     "cifertech/ARPoLAN": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 808817502,
         "name": "ARPoLAN",
@@ -78749,7 +79015,9 @@
       }
     },
     "Pennyw0rth/NetExec": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 689013903,
         "name": "NetExec",
@@ -78984,7 +79252,9 @@
       }
     },
     "Corvus4n6/blackharrier": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 245079217,
         "name": "blackharrier",
@@ -79760,7 +80030,9 @@
       }
     },
     "DefectDojo/django-DefectDojo": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 31028375,
         "name": "django-DefectDojo",
@@ -79863,7 +80135,8 @@
     },
     "NHAS/wag": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 517558374,
@@ -80146,7 +80419,9 @@
       }
     },
     "cloud-simple/docker-ciscat": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 570160131,
         "name": "docker-ciscat",
@@ -80171,7 +80446,9 @@
       }
     },
     "hackertarget/pcap-did-what": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 781185760,
         "name": "pcap-did-what",
@@ -80805,7 +81082,8 @@
     },
     "BitBangingBytes/Glitchy": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 538188250,
@@ -82279,7 +82557,9 @@
       }
     },
     "PretendoNetwork/SSSL": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 749221352,
         "name": "SSSL",
@@ -82809,7 +83089,9 @@
       }
     },
     "discord/access": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 778067377,
         "name": "access",
@@ -82860,7 +83142,8 @@
     },
     "nccgroup/blackboxprotobuf": {
       "lists": [
-        "API"
+        "API",
+        "Infosec"
       ],
       "metadata": {
         "id": 133435465,
@@ -83295,7 +83578,9 @@
       }
     },
     "TarlogicSecurity/BlueSpy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 771435022,
         "name": "BlueSpy",
@@ -87077,7 +87362,9 @@
       }
     },
     "seemoo-lab/nexmon": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 72093010,
         "name": "nexmon",
@@ -87845,7 +88132,8 @@
     },
     "W00t3k/Awesome-Cellular-Hacking": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 187701900,
@@ -87877,7 +88165,8 @@
     },
     "jopohl/urh": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 55258005,
@@ -88169,7 +88458,8 @@
     "tellerops/teller": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 351043495,
@@ -90977,7 +91267,9 @@
       "last_updated": "2026-03-17T22:10:34.357150+00:00"
     },
     "open-source-cooperative/keyring-rs": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 51272473,
         "name": "keyring-rs",
@@ -90998,7 +91290,8 @@
     },
     "heyrema/server": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 384524655,
@@ -91020,7 +91313,8 @@
     },
     "dev-sec/hardening": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 19780110,
@@ -91043,7 +91337,8 @@
     "dev-sec/cis-docker-benchmark": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 59814924,
@@ -91065,7 +91360,8 @@
     },
     "dev-sec/linux-baseline": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 19782079,
@@ -91087,7 +91383,8 @@
     },
     "dev-sec/ansible-ssh-hardening": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 34468154,
@@ -91109,7 +91406,8 @@
     },
     "dev-sec/ansible-collection-hardening": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 35051828,
@@ -92067,7 +92365,9 @@
       "last_updated": "2026-03-17T22:10:45.098370+00:00"
     },
     "USBGuard/usbguard": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 32459566,
         "name": "usbguard",
@@ -93718,7 +94018,8 @@
     },
     "guardian/gu-who": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 16409692,
@@ -95366,7 +95667,8 @@
     },
     "suzuki-shunsuke/tfprovidercheck": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 714264169,
@@ -97229,7 +97531,9 @@
       "last_updated": "2026-03-17T22:11:37.213111+00:00"
     },
     "cloudflare/har-sanitizer": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 709364165,
         "name": "har-sanitizer",
@@ -98275,7 +98579,9 @@
       "last_updated": "2026-03-17T22:11:48.671149+00:00"
     },
     "ARPSyndicate/puncia": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 689642135,
         "name": "puncia",
@@ -98774,7 +99080,8 @@
     },
     "O-MG/MaliciousCableDetector": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 291578176,
@@ -98795,7 +99102,9 @@
       "last_updated": "2026-03-17T22:11:54.159720+00:00"
     },
     "cackle-rs/cackle": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 621101554,
         "name": "cackle",
@@ -98858,7 +99167,8 @@
     },
     "Shopify/ejson": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 19246943,
@@ -99005,7 +99315,9 @@
       "last_updated": "2026-03-17T22:11:56.316936+00:00"
     },
     "Tripwire/tripwire-open-source": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 35015083,
         "name": "tripwire-open-source",
@@ -99363,7 +99675,9 @@
       "last_updated": "2026-03-17T22:12:00.294366+00:00"
     },
     "reinderien/mimic": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 44424500,
         "name": "mimic",
@@ -100040,7 +100354,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 426240030,
@@ -100151,7 +100466,9 @@
       "last_updated": "2026-03-17T22:12:07.686278+00:00"
     },
     "decalage2/awesome-security-hardening": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 184064793,
         "name": "awesome-security-hardening",
@@ -100194,7 +100511,8 @@
     },
     "cybersecsi/houdini": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 445592141,
@@ -100217,7 +100535,8 @@
     "bunkerity/bunkerweb": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 203456148,
@@ -100345,7 +100664,8 @@
     },
     "grapheneX/grapheneX": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 177658548,
@@ -100367,7 +100687,8 @@
     },
     "rebootuser/LinEnum": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 12236152,
@@ -100389,7 +100710,8 @@
     },
     "mehrdadrad/mylg": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 61661892,
@@ -100432,7 +100754,8 @@
     "ttlequals0/autovpn": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 44927862,
@@ -100779,7 +101102,9 @@
       "last_updated": "2026-03-17T22:12:13.520876+00:00"
     },
     "federicodotta/Brida": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 98666120,
         "name": "Brida",
@@ -100848,7 +101173,8 @@
       "lists": [
         "CI/CD",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 549382695,
@@ -100893,7 +101219,8 @@
     },
     "REMnux/docker": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 27286734,
@@ -100917,7 +101244,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 73858181,
@@ -101338,7 +101666,8 @@
     "bettercap/bettercap": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 116576783,
@@ -101405,7 +101734,8 @@
     "ellerbrock/awesome-go-security": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 675140836,
@@ -101428,7 +101758,8 @@
     "docker/docker-bench-security": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 35394510,
@@ -101750,7 +102081,8 @@
     "Foxboron/ssh-tpm-agent": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 671549172,
@@ -101773,7 +102105,8 @@
     "omegion/ssh-manager": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 344174158,
@@ -101796,7 +102129,8 @@
     "cornfeedhobo/ssh-keydgen": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 110477993,
@@ -101818,7 +102152,8 @@
     },
     "thcipriani/sshecret": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 96237508,
@@ -101841,7 +102176,8 @@
     "smlx/piv-agent": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 307038773,
@@ -101950,7 +102286,8 @@
     "juanfont/headscale": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 273871859,
@@ -101973,7 +102310,8 @@
     "strongdm/comply": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 124157019,
@@ -102076,7 +102414,8 @@
     "spacesiren/spacesiren": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 285489285,
@@ -102222,7 +102561,9 @@
       "last_updated": "2026-03-17T22:12:27.682569+00:00"
     },
     "ossf/malicious-packages": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 611884074,
         "name": "malicious-packages",
@@ -102262,7 +102603,9 @@
       "last_updated": "2026-03-17T22:12:28.163903+00:00"
     },
     "minimaxir/big-list-of-naughty-strings": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 40416236,
         "name": "big-list-of-naughty-strings",
@@ -102451,7 +102794,9 @@
       "last_updated": "2026-03-17T22:12:30.139344+00:00"
     },
     "magicsword-io/bootloaders": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 648835906,
         "name": "bootloaders",
@@ -102687,7 +103032,8 @@
     "bridgecrewio/supplygoat": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 488209553,
@@ -102835,7 +103181,8 @@
       "lists": [
         "Authentication",
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 547447416,
@@ -103061,7 +103408,9 @@
       "last_updated": "2026-03-17T22:12:36.259087+00:00"
     },
     "noahbliss/mortar": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 233640466,
         "name": "mortar",
@@ -103081,7 +103430,9 @@
       "last_updated": "2026-03-17T22:12:36.445512+00:00"
     },
     "tpm2-software/tpm2-tss-engine": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 136935379,
         "name": "tpm2-tss-engine",
@@ -103101,7 +103452,9 @@
       "last_updated": "2026-03-17T22:12:36.656928+00:00"
     },
     "ionescu007/tpmtool": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 271381463,
         "name": "tpmtool",
@@ -103121,7 +103474,9 @@
       "last_updated": "2026-03-17T22:12:36.871528+00:00"
     },
     "wolfSSL/wolfTPM": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 119579647,
         "name": "wolfTPM",
@@ -103141,7 +103496,9 @@
       "last_updated": "2026-03-17T22:12:37.040772+00:00"
     },
     "ThomasHabets/simple-tpm-pk11": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 14754440,
         "name": "simple-tpm-pk11",
@@ -103161,7 +103518,9 @@
       "last_updated": "2026-03-17T22:12:37.211183+00:00"
     },
     "tpm2-software/tpm2-openssl": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 341633769,
         "name": "tpm2-openssl",
@@ -103477,7 +103836,8 @@
     },
     "linuxboot/heads": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 64810881,
@@ -103518,7 +103878,9 @@
       "last_updated": "2026-03-17T22:12:40.783515+00:00"
     },
     "ldpreload/Medusa": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 583854623,
         "name": "Medusa",
@@ -103538,7 +103900,9 @@
       "last_updated": "2026-03-17T22:12:40.979303+00:00"
     },
     "ldpreload/BlackLotus": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 665649223,
         "name": "BlackLotus",
@@ -103646,7 +104010,8 @@
     },
     "merge/skulls": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 116016865,
@@ -103799,7 +104164,8 @@
     "freifunkMUC/wg-access-server": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 342358823,
@@ -103821,7 +104187,8 @@
     },
     "zitadel/zitadel": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 247714750,
@@ -104104,7 +104471,9 @@
       "last_updated": "2026-03-17T22:12:46.620724+00:00"
     },
     "trimstray/the-practical-linux-hardening-guide": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 151885034,
         "name": "the-practical-linux-hardening-guide",
@@ -104257,7 +104626,9 @@
       "last_updated": "2026-03-17T22:12:48.121233+00:00"
     },
     "zmap/zmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 7765403,
         "name": "zmap",
@@ -104581,7 +104952,9 @@
       "last_updated": "2026-03-17T22:12:51.375519+00:00"
     },
     "hakluke/hakip2host": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 483689504,
         "name": "hakip2host",
@@ -105487,7 +105860,8 @@
     },
     "target/strelka": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 149654117,
@@ -105826,7 +106200,9 @@
       "last_updated": "2026-03-17T22:13:03.441475+00:00"
     },
     "hackerschoice/gsocket": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 296670766,
         "name": "gsocket",
@@ -105974,7 +106350,9 @@
       "last_updated": "2026-03-17T22:13:05.007468+00:00"
     },
     "hisxo/ReconAIzer": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 621999206,
         "name": "ReconAIzer",
@@ -106144,7 +106522,8 @@
     "openvex/go-vex": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 587100526,
@@ -106277,7 +106656,9 @@
       "last_updated": "2026-03-17T22:13:07.922844+00:00"
     },
     "disclose/research-threats": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 354852465,
         "name": "research-threats",
@@ -106319,7 +106700,9 @@
       "last_updated": "2026-03-17T22:13:08.344789+00:00"
     },
     "jart/pledge": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 629075588,
         "name": "pledge",
@@ -106359,7 +106742,9 @@
       "last_updated": "2026-03-17T22:13:08.782455+00:00"
     },
     "iBotPeaches/Apktool": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 3766706,
         "name": "Apktool",
@@ -106626,7 +107011,8 @@
     "slackhq/go-audit": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 73417046,
@@ -106820,7 +107206,8 @@
     "project-copacetic/copacetic": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 587859813,
@@ -107153,7 +107540,9 @@
       "last_updated": "2026-03-17T22:13:16.798676+00:00"
     },
     "h33tlit/secret-regex-list": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 462998055,
         "name": "secret-regex-list",
@@ -107599,7 +107988,9 @@
       "last_updated": "2026-03-17T22:13:21.267982+00:00"
     },
     "0xMrNiko/Awesome-Red-Teaming": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 465769152,
         "name": "Awesome-Red-Teaming",
@@ -107619,7 +108010,9 @@
       "last_updated": "2026-03-17T22:13:21.456471+00:00"
     },
     "simplerisk/code": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 16085812,
         "name": "code",
@@ -107982,7 +108375,8 @@
     "avito-tech/deepsecrets": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 627912288,
@@ -108337,7 +108731,9 @@
       "last_updated": "2026-03-17T22:13:29.245242+00:00"
     },
     "fail2ban/fail2ban": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 2476162,
         "name": "fail2ban",
@@ -108571,7 +108967,9 @@
       "last_updated": "2026-03-17T22:13:31.601534+00:00"
     },
     "ryantm/agenix": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 291897139,
         "name": "agenix",
@@ -108591,7 +108989,9 @@
       "last_updated": "2026-03-17T22:13:31.772146+00:00"
     },
     "FiloSottile/awesome-age": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 631214572,
         "name": "awesome-age",
@@ -108758,7 +109158,8 @@
     },
     "infosecB/LOOBins": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 611034982,
@@ -109120,7 +109521,8 @@
     },
     "freeipa/freeipa": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 4340318,
@@ -109519,7 +109921,8 @@
     },
     "donuts-are-good/pig": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 628530741,
@@ -109649,7 +110052,8 @@
     },
     "ustayready/cloudgpt": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 627571493,
@@ -109837,7 +110241,8 @@
     },
     "chainguard-images/images": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 563510952,
@@ -109881,7 +110286,8 @@
     },
     "Brandon7CC/mac-monitor": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 614452756,
@@ -109966,7 +110372,9 @@
       "last_updated": "2026-03-17T22:13:45.349977+00:00"
     },
     "intelowlproject/IntelOwl": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 231109256,
         "name": "IntelOwl",
@@ -110524,7 +110932,9 @@
       "last_updated": "2026-03-17T22:13:50.838685+00:00"
     },
     "ossf/alpha-omega": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 426394209,
         "name": "alpha-omega",
@@ -110628,7 +111038,8 @@
     "rams3sh/Aaia": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 199247716,
@@ -110650,7 +111061,8 @@
     },
     "widdix/complete-aws-iam-reference": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 64366979,
@@ -110674,7 +111086,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 131406584,
@@ -110697,7 +111110,8 @@
     "flosell/trailscraper": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 112079872,
@@ -110885,7 +111299,8 @@
     },
     "chromium/badssl.com": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 33571868,
@@ -110990,7 +111405,9 @@
       "last_updated": "2026-03-17T22:13:55.477571+00:00"
     },
     "magicsword-io/LOLDrivers": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 600482495,
         "name": "LOLDrivers",
@@ -111072,7 +111489,9 @@
       "last_updated": "2026-03-17T22:13:56.335605+00:00"
     },
     "danluu/post-mortems": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 40097225,
         "name": "post-mortems",
@@ -111222,7 +111641,8 @@
     },
     "justcallmekoko/ESP32Marauder": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 208325027,
@@ -111585,7 +112005,9 @@
       "last_updated": "2026-03-17T22:14:01.669943+00:00"
     },
     "Rnalter/ThunderCloud": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 344309990,
         "name": "ThunderCloud",
@@ -111708,7 +112130,8 @@
     },
     "aerleon/aerleon": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 536332225,
@@ -111750,7 +112173,8 @@
     },
     "byt3hx/jsleak": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 620805734,
@@ -112405,7 +112829,8 @@
     },
     "jedisct1/minisign": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 37023739,
@@ -112792,7 +113217,8 @@
     "pimox/pimox7": {
       "lists": [
         "DIY",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 396568341,
@@ -112897,7 +113323,9 @@
       "last_updated": "2026-03-17T22:14:14.355703+00:00"
     },
     "str4d/rage": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 213749542,
         "name": "rage",
@@ -112917,7 +113345,9 @@
       "last_updated": "2026-03-17T22:14:14.543618+00:00"
     },
     "GKNSB/WhoxySD": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 618091392,
         "name": "WhoxySD",
@@ -113026,7 +113456,9 @@
       "last_updated": "2026-03-17T22:14:15.571768+00:00"
     },
     "binareio/FastCVE": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 611271346,
         "name": "FastCVE",
@@ -113159,7 +113591,8 @@
     },
     "future-architect/vuls": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 54808920,
@@ -113369,7 +113802,9 @@
       "last_updated": "2026-03-17T22:14:18.921706+00:00"
     },
     "ryh04x/CEH-Exam-Questions": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 616170853,
         "name": "CEH-Exam-Questions",
@@ -113517,7 +113952,8 @@
     },
     "Zeus-Labs/ZeusCloud": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 599723612,
@@ -113986,7 +114422,8 @@
     },
     "aws-samples/hardeneks": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 576434460,
@@ -114314,7 +114751,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 542197924,
@@ -114421,7 +114859,9 @@
       "last_updated": "2026-03-17T22:14:28.831004+00:00"
     },
     "dirkjanm/ROADtools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 250760872,
         "name": "ROADtools",
@@ -114534,7 +114974,8 @@
     "aws-samples/aws-control-tower-terraform-modules": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 417562192,
@@ -114670,7 +115111,8 @@
     "awslabs/landing-zone-accelerator-on-aws": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 491973222,
@@ -114775,7 +115217,9 @@
       "last_updated": "2026-03-17T22:14:32.459525+00:00"
     },
     "GTFOBins/GTFOBins.github.io": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 134314037,
         "name": "GTFOBins.github.io",
@@ -114795,7 +115239,9 @@
       "last_updated": "2026-03-17T22:14:32.671362+00:00"
     },
     "peass-ng/PEASS-ng": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 165548191,
         "name": "PEASS-ng",
@@ -114880,7 +115326,9 @@
       "last_updated": "2026-03-17T22:14:33.495107+00:00"
     },
     "LionSec/xerosploit": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 64552869,
         "name": "xerosploit",
@@ -114946,7 +115394,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 335925753,
@@ -115202,7 +115651,9 @@
       "last_updated": "2026-03-17T22:14:36.360402+00:00"
     },
     "sunknudsen/guides": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 273265595,
         "name": "guides",
@@ -115222,7 +115673,9 @@
       "last_updated": "2026-03-17T22:14:36.568534+00:00"
     },
     "edoardottt/missing-cve-nuclei-templates": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 602683304,
         "name": "missing-cve-nuclei-templates",
@@ -115243,7 +115696,8 @@
     },
     "DataDog/guarddog": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Infosec"
       ],
       "metadata": {
         "id": 503403377,
@@ -115349,7 +115803,9 @@
       "last_updated": "2026-03-17T22:14:37.765030+00:00"
     },
     "google/fully-homomorphic-encryption": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 364705340,
         "name": "fully-homomorphic-encryption",
@@ -115518,7 +115974,8 @@
     },
     "mazen160/secrets-patterns-db": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Infosec"
       ],
       "metadata": {
         "id": 598684695,
@@ -115584,7 +116041,9 @@
       "last_updated": "2026-03-17T22:14:39.877553+00:00"
     },
     "zeek/zeek": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 4930716,
         "name": "zeek",
@@ -115627,7 +116086,8 @@
     },
     "praetorian-inc/gato": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 585973808,
@@ -115848,7 +116308,8 @@
     },
     "tinystacks/precloud": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 591369615,
@@ -115939,7 +116400,8 @@
     },
     "namecoin/certinject": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 259853423,
@@ -115960,7 +116422,9 @@
       "last_updated": "2026-03-17T22:14:43.256358+00:00"
     },
     "heiniovason/sslazy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 266390439,
         "name": "sslazy",
@@ -115980,7 +116444,9 @@
       "last_updated": "2026-03-17T22:14:43.420926+00:00"
     },
     "syncsynchalt/illustrated-tls12": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 151671321,
         "name": "illustrated-tls12",
@@ -116000,7 +116466,9 @@
       "last_updated": "2026-03-17T22:14:43.588356+00:00"
     },
     "gojue/ecapture": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 469303019,
         "name": "ecapture",
@@ -116715,7 +117183,9 @@
       "last_updated": "2026-03-17T22:14:50.324007+00:00"
     },
     "SteveMcGrath/DoFler": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 4309005,
         "name": "DoFler",
@@ -116867,7 +117337,8 @@
     },
     "Infisical/infisical": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 521655652,
@@ -116888,7 +117359,9 @@
       "last_updated": "2026-03-17T22:14:51.879808+00:00"
     },
     "elastic/Silhouette": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 554312144,
         "name": "Silhouette",
@@ -116930,7 +117403,8 @@
     "aws-samples/aws-security-reference-architecture-examples": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 288828390,
@@ -117077,7 +117551,8 @@
     },
     "bridgecrewio/cfngoat": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 258656556,
@@ -117122,7 +117597,8 @@
     },
     "bridgecrewio/checkov-vscode": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 312860722,
@@ -117316,7 +117792,9 @@
       "last_updated": "2026-03-17T22:14:55.796273+00:00"
     },
     "xnl-h4ck3r/xnLinkFinder": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 481754082,
         "name": "xnLinkFinder",
@@ -117798,7 +118276,9 @@
       "last_updated": "2026-03-17T22:15:00.162118+00:00"
     },
     "Arudjreis/awesome-security-GRC": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 351508399,
         "name": "awesome-security-GRC",
@@ -118021,7 +118501,8 @@
     },
     "NextronSystems/thor-lite": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 248736963,
@@ -118042,7 +118523,9 @@
       "last_updated": "2026-03-17T22:15:02.564636+00:00"
     },
     "NextronSystems/CyberChef": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 521921682,
         "name": "CyberChef",
@@ -118082,7 +118565,9 @@
       "last_updated": "2026-03-17T22:15:03.061995+00:00"
     },
     "romanz/trezor-agent": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 36983387,
         "name": "trezor-agent",
@@ -118144,7 +118629,9 @@
       "last_updated": "2026-03-17T22:15:03.626296+00:00"
     },
     "4ra1n/code-inspector": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 583057559,
         "name": "code-inspector",
@@ -118250,7 +118737,8 @@
     },
     "joxeankoret/diaphora": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 32557376,
@@ -118315,7 +118803,8 @@
     },
     "RfidResearchGroup/proxmark3": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 144465372,
@@ -118396,7 +118885,9 @@
       "last_updated": "2026-03-17T22:15:06.153291+00:00"
     },
     "str4d/age-plugin-yubikey": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 291547252,
         "name": "age-plugin-yubikey",
@@ -118417,7 +118908,8 @@
     },
     "FiloSottile/passage": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 398438761,
@@ -118439,7 +118931,8 @@
     },
     "stealthcopter/deepce": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 260022777,
@@ -118637,7 +119130,8 @@
     },
     "awnumar/memguard": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 89053003,
@@ -118871,7 +119365,9 @@
       "last_updated": "2026-03-17T22:15:11.362487+00:00"
     },
     "curl/curl-fuzzer": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 104416990,
         "name": "curl-fuzzer",
@@ -118978,7 +119474,8 @@
     },
     "MarginResearch/FOISted": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 505226247,
@@ -119113,7 +119610,9 @@
       "last_updated": "2026-03-17T22:15:13.515413+00:00"
     },
     "ly4k/Certipy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 414397086,
         "name": "Certipy",
@@ -119303,7 +119802,9 @@
       "last_updated": "2026-03-17T22:15:15.342322+00:00"
     },
     "apache/teaclave-trustzone-sdk": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 167625003,
         "name": "teaclave-trustzone-sdk",
@@ -119576,7 +120077,8 @@
     },
     "google/osv-scanner": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 565629124,
@@ -119679,7 +120181,9 @@
       "last_updated": "2026-03-17T22:15:18.865479+00:00"
     },
     "mozilla/cargo-vet": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 469920647,
         "name": "cargo-vet",
@@ -119699,7 +120203,9 @@
       "last_updated": "2026-03-17T22:15:19.089914+00:00"
     },
     "crev-dev/cargo-crev": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 145652047,
         "name": "cargo-crev",
@@ -119806,7 +120312,9 @@
       "last_updated": "2026-03-17T22:15:20.279178+00:00"
     },
     "JoelGMSec/AzureGraph": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 572647798,
         "name": "AzureGraph",
@@ -120083,7 +120591,8 @@
     },
     "subfinder/goaltdns": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 142674062,
@@ -120146,7 +120655,8 @@
     "scalefactory/s3audit-ts": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 212078123,
@@ -120169,7 +120679,8 @@
     "abhaybhargav/bucketeer": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 122057493,
@@ -120192,7 +120703,8 @@
     "aquasecurity/cloudsploit": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 38255391,
@@ -120860,7 +121372,8 @@
     "cornelinux/yubikey-luks": {
       "lists": [
         "Authentication",
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 17476175,
@@ -120883,7 +121396,8 @@
     "smessmer/decrypt_keyctl_yubikey": {
       "lists": [
         "Authentication",
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 529506792,
@@ -120905,7 +121419,8 @@
     },
     "tuxberlin/python-keyctl": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 83845218,
@@ -120927,7 +121442,8 @@
     },
     "jdukes/pykeyctl": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 31825852,
@@ -121157,7 +121673,8 @@
     "authzed/spicedb": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 396856161,
@@ -121329,7 +121846,8 @@
     },
     "franc-pentest/ldeep": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 154193829,
@@ -121727,7 +122245,9 @@
       "last_updated": "2026-03-17T22:15:38.189396+00:00"
     },
     "bellingcat/octosuite": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 462976341,
         "name": "octosuite",
@@ -122369,7 +122889,8 @@
     "sottlmarek/DevSecOps": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 138931215,
@@ -122392,7 +122913,8 @@
     "prowler-cloud/prowler": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 66474729,
@@ -122459,7 +122981,9 @@
       "last_updated": "2026-03-17T22:15:45.027699+00:00"
     },
     "cube0x0/PIVert-Relay": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 538112588,
         "name": "PIVert-Relay",
@@ -122479,7 +123003,9 @@
       "last_updated": "2026-03-17T22:15:45.233491+00:00"
     },
     "davisjam/safe-regex": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 90781457,
         "name": "safe-regex",
@@ -122499,7 +123025,9 @@
       "last_updated": "2026-03-17T22:15:45.513840+00:00"
     },
     "mozilla/bleach": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 525316,
         "name": "bleach",
@@ -122699,7 +123227,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 59531400,
@@ -122768,7 +123297,8 @@
     "ossf/package-analysis": {
       "lists": [
         "CI/CD",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 338377509,
@@ -122881,7 +123411,8 @@
     },
     "JosephHewitt/wardriver_rev3": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 472007809,
@@ -123131,7 +123662,8 @@
     },
     "nullt3r/udpx": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 566874067,
@@ -123311,7 +123843,8 @@
         "Authentication",
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 195654997,
@@ -123669,7 +124202,9 @@
       "last_updated": "2026-03-17T22:15:55.903495+00:00"
     },
     "sandflysecurity/sandfly-file-decloak": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 566233582,
         "name": "sandfly-file-decloak",
@@ -123998,7 +124533,8 @@
     },
     "drduh/Purse": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 135850078,
@@ -124021,7 +124557,8 @@
     "cloudflare/gokey": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 71583866,
@@ -124043,7 +124580,8 @@
     },
     "gopasspw/gopass": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 80723074,
@@ -124064,7 +124602,9 @@
       "last_updated": "2026-03-17T22:15:59.432852+00:00"
     },
     "apple/password-manager-resources": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 248599368,
         "name": "password-manager-resources",
@@ -124173,7 +124713,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 445161449,
@@ -124331,7 +124872,8 @@
     "aws-samples/aws-tf-kms": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 493307241,
@@ -124423,7 +124965,8 @@
     },
     "aws/aws-lc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 263967166,
@@ -124446,7 +124989,8 @@
     "ory/keto": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 125619154,
@@ -124469,7 +125013,8 @@
     "ory/kratos": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 135321861,
@@ -124518,7 +125063,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 521554664,
@@ -124715,7 +125261,8 @@
         "Bash",
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 58842707,
@@ -124737,7 +125284,8 @@
     },
     "sigstore/sigstore-python": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 447691086,
@@ -124806,7 +125354,8 @@
     },
     "projectdiscovery/katana": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 326228917,
@@ -124854,7 +125403,8 @@
       "lists": [
         "Authentication",
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 462233098,
@@ -124876,7 +125426,8 @@
     },
     "SpyGuard/SpyGuard": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 562494391,
@@ -124900,7 +125451,8 @@
       "lists": [
         "API",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 518195179,
@@ -124923,7 +125475,8 @@
     "bridgecrewio/AirIAM": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 241606408,
@@ -125145,7 +125698,8 @@
     },
     "radareorg/r2ghidra": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 323166300,
@@ -125320,7 +125874,8 @@
     },
     "zx2c4/password-store": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 82003203,
@@ -125404,7 +125959,9 @@
       "last_updated": "2026-03-17T22:16:11.891911+00:00"
     },
     "gchq/CyberChef": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 74962515,
         "name": "CyberChef",
@@ -125695,7 +126252,8 @@
     "PortSwigger/dastardly-github-action": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 552851897,
@@ -125997,7 +126555,9 @@
       "last_updated": "2026-03-17T22:16:17.531719+00:00"
     },
     "nttgin/BGPalerter": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 197530275,
         "name": "BGPalerter",
@@ -126227,7 +126787,8 @@
     },
     "incidentbot/incidentbot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 444585814,
@@ -126273,7 +126834,8 @@
     },
     "guacsec/guac": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 502127166,
@@ -126316,7 +126878,9 @@
       "last_updated": "2026-03-17T22:16:20.280644+00:00"
     },
     "Hack-with-Github/Awesome-Hacking": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 55076063,
         "name": "Awesome-Hacking",
@@ -126473,7 +127037,8 @@
     "meta-fun/awesome-software-supply-chain-security": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 460906824,
@@ -126517,7 +127082,8 @@
     },
     "devsecops/awesome-devsecops": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 43963567,
@@ -126779,7 +127345,8 @@
     },
     "roddhjav/apparmor.d": {
       "lists": [
-        "eBPF"
+        "eBPF",
+        "Infosec"
       ],
       "metadata": {
         "id": 365526415,
@@ -126801,7 +127368,8 @@
     },
     "pop3ret/AWSome-Pentesting": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 546260177,
@@ -126906,7 +127474,9 @@
       "last_updated": "2026-03-17T22:16:25.786099+00:00"
     },
     "redcanaryco/atomic-red-team": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 106586124,
         "name": "atomic-red-team",
@@ -126926,7 +127496,9 @@
       "last_updated": "2026-03-17T22:16:25.984258+00:00"
     },
     "Am0rphous/Unlock-LUKS-Encryption-Remotely": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 377478082,
         "name": "Unlock-LUKS-Encryption-Remotely",
@@ -126946,7 +127518,9 @@
       "last_updated": "2026-03-17T22:16:26.187106+00:00"
     },
     "fox-it/dissect": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 516286996,
         "name": "dissect",
@@ -126988,7 +127562,9 @@
       "last_updated": "2026-03-17T22:16:26.605038+00:00"
     },
     "trickest/wordlists": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 523315728,
         "name": "wordlists",
@@ -127028,7 +127604,9 @@
       "last_updated": "2026-03-17T22:16:27.009237+00:00"
     },
     "moonD4rk/HackBrowserData": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 273132277,
         "name": "HackBrowserData",
@@ -127131,7 +127709,9 @@
       "last_updated": "2026-03-17T22:16:27.978078+00:00"
     },
     "google/turbinia": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 42533053,
         "name": "turbinia",
@@ -127153,7 +127733,8 @@
     "aquasecurity/cloud-security-remediation-guides": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 156933342,
@@ -127174,7 +127755,9 @@
       "last_updated": "2026-03-17T22:16:28.430838+00:00"
     },
     "HackTricks-wiki/hacktricks-cloud": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 542614059,
         "name": "hacktricks-cloud",
@@ -127194,7 +127777,9 @@
       "last_updated": "2026-03-17T22:16:28.617941+00:00"
     },
     "stark0de/nginxpwner": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 355239629,
         "name": "nginxpwner",
@@ -127283,7 +127868,9 @@
       "last_updated": "2026-03-17T22:16:29.450762+00:00"
     },
     "DavidBuchanan314/monomorph": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 541353333,
         "name": "monomorph",
@@ -127326,7 +127913,9 @@
       "last_updated": "2026-03-17T22:16:29.837549+00:00"
     },
     "byt3bl33d3r/CrackMapExec": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 40718289,
         "name": "CrackMapExec",
@@ -127435,7 +128024,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 528884114,
@@ -127456,7 +128046,9 @@
       "last_updated": "2026-03-17T22:16:30.984558+00:00"
     },
     "signalapp/Signal-TLS-Proxy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 332911364,
         "name": "Signal-TLS-Proxy",
@@ -127607,7 +128199,8 @@
     },
     "hbmartin/awesome-flipper-plugins": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 372308565,
@@ -127805,7 +128398,8 @@
     },
     "bulwarkid/virtual-fido": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 537229823,
@@ -128131,7 +128725,8 @@
     "BishopFox/cloudfox": {
       "lists": [
         "AWS",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 534023067,
@@ -128152,7 +128747,9 @@
       "last_updated": "2026-03-17T22:16:38.038193+00:00"
     },
     "BishopFox/iam-vulnerable": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 344529392,
         "name": "iam-vulnerable",
@@ -128212,7 +128809,9 @@
       "last_updated": "2026-03-17T22:16:38.646290+00:00"
     },
     "PayloadSecurity/Sandbox_Scryer": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 511657129,
         "name": "Sandbox_Scryer",
@@ -128343,7 +128942,9 @@
       "last_updated": "2026-03-17T22:16:39.929234+00:00"
     },
     "six2dez/reconftw": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 325671936,
         "name": "reconftw",
@@ -128650,7 +129251,8 @@
     },
     "google/boringssl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 53174933,
@@ -128672,7 +129274,8 @@
     },
     "wolfSSL/wolfssl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 28928522,
@@ -128715,7 +129318,8 @@
     "aarondl/authboss": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 28735637,
@@ -128760,7 +129364,8 @@
     "elpy1/ssh-over-ssm": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 236282042,
@@ -128782,7 +129387,8 @@
     },
     "gl4ssesbo1/Nebula": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 358627334,
@@ -128851,7 +129457,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 369007647,
@@ -129039,7 +129646,8 @@
     },
     "theparanoids/pam-ysshca": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 512907686,
@@ -129062,7 +129670,8 @@
     "coreos/go-oidc": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 38275789,
@@ -129128,7 +129737,8 @@
     },
     "peasead/elastic-container": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 352501554,
@@ -129150,7 +129760,8 @@
     },
     "C3n7ral051nt4g3ncy/cURL_for_OSINT": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 528185875,
@@ -129191,7 +129802,9 @@
       "last_updated": "2026-03-17T22:16:47.632643+00:00"
     },
     "icing/qtools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 524938696,
         "name": "qtools",
@@ -129253,7 +129866,9 @@
       "last_updated": "2026-03-17T22:16:48.221730+00:00"
     },
     "fr0gger/jupyter-collection": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 473898894,
         "name": "jupyter-collection",
@@ -129359,7 +129974,9 @@
       "last_updated": "2026-03-17T22:16:49.134384+00:00"
     },
     "pypa/pip-audit": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 402468744,
         "name": "pip-audit",
@@ -129379,7 +129996,9 @@
       "last_updated": "2026-03-17T22:16:49.348647+00:00"
     },
     "carniz/ubuntu-yubikey-setup": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 163108820,
         "name": "ubuntu-yubikey-setup",
@@ -129644,7 +130263,8 @@
     "gravitational/teleport": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 31558937,
@@ -129667,7 +130287,8 @@
     "chainguard-dev/melange": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 467239260,
@@ -129709,7 +130330,8 @@
     },
     "kanidm/kanidm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 168782501,
@@ -129752,7 +130374,9 @@
       "last_updated": "2026-03-17T22:16:53.600071+00:00"
     },
     "pirxthepilot/wtfis": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 517607055,
         "name": "wtfis",
@@ -129836,7 +130460,8 @@
     },
     "nzymedefense/nzyme": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 73515052,
@@ -130050,7 +130675,9 @@
       "last_updated": "2026-03-17T22:16:57.404748+00:00"
     },
     "antopemo/ssh-agent-guide": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 298297367,
         "name": "ssh-agent-guide",
@@ -130139,7 +130766,9 @@
       "last_updated": "2026-03-17T22:16:58.264041+00:00"
     },
     "andreiverse/gorilla": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 522559944,
         "name": "gorilla",
@@ -130205,7 +130834,9 @@
       "last_updated": "2026-03-17T22:16:58.851453+00:00"
     },
     "juliocesarfort/public-pentesting-reports": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 65019435,
         "name": "public-pentesting-reports",
@@ -130287,7 +130918,9 @@
       "last_updated": "2026-03-17T22:16:59.668015+00:00"
     },
     "google/paranoid_crypto": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 490304872,
         "name": "paranoid_crypto",
@@ -130307,7 +130940,9 @@
       "last_updated": "2026-03-17T22:16:59.880192+00:00"
     },
     "tink-crypto/tink": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 20570214,
         "name": "tink",
@@ -130415,7 +131050,9 @@
       "last_updated": "2026-03-17T22:17:00.871226+00:00"
     },
     "six2dez/dorks_hunter": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 520860357,
         "name": "dorks_hunter",
@@ -130520,7 +131157,8 @@
     },
     "tls-attacker/TLS-Anvil": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 500928467,
@@ -130791,7 +131429,9 @@
       "last_updated": "2026-03-17T22:17:04.371939+00:00"
     },
     "kanidm/webauthn-rs": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 180746955,
         "name": "webauthn-rs",
@@ -130813,7 +131453,8 @@
     "anaynayak/aws-security-viz": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 2410040,
@@ -130836,7 +131477,8 @@
     "nccgroup/ScoutSuite": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 155376283,
@@ -130859,7 +131501,8 @@
     "sense-of-security/aws-maltego": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 207934200,
@@ -130992,7 +131635,9 @@
       "last_updated": "2026-03-17T22:17:06.152544+00:00"
     },
     "johndoe31415/x509sak": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 123972940,
         "name": "x509sak",
@@ -131012,7 +131657,9 @@
       "last_updated": "2026-03-17T22:17:06.362092+00:00"
     },
     "tpm2-software/tpm2-pkcs11": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 149639749,
         "name": "tpm2-pkcs11",
@@ -131033,7 +131680,8 @@
     },
     "go-webauthn/webauthn": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 438441323,
@@ -131055,7 +131703,8 @@
     },
     "google/CTAP2-test-tool": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 261977210,
@@ -131077,7 +131726,8 @@
     },
     "google/OpenSK": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Infosec"
       ],
       "metadata": {
         "id": 228682115,
@@ -131186,7 +131836,9 @@
       "last_updated": "2026-03-17T22:17:07.947256+00:00"
     },
     "laluka/bypass-url-parser": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 422729750,
         "name": "bypass-url-parser",
@@ -131292,7 +131944,8 @@
     "apache/casbin": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 87617508,
@@ -131401,7 +132054,9 @@
       "last_updated": "2026-03-17T22:17:09.941477+00:00"
     },
     "themains/password": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 487717534,
         "name": "password",
@@ -131471,7 +132126,8 @@
         "Devops",
         "Docker and OCI containers",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 206690330,
@@ -131493,7 +132149,8 @@
     },
     "A3h1nt/Dnsrr": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 380180233,
@@ -131670,7 +132327,8 @@
     },
     "djsime1/awesome-flipperzero": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 469703690,
@@ -131763,7 +132421,8 @@
       "lists": [
         "Bash",
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 483875816,
@@ -131786,7 +132445,8 @@
     "glassechidna/trackiam": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 216315825,
@@ -131853,7 +132513,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 491440930,
@@ -132122,7 +132783,9 @@
       "last_updated": "2026-03-17T22:17:16.521463+00:00"
     },
     "zer1t0/awsenum": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 506127301,
         "name": "awsenum",
@@ -132285,7 +132948,9 @@
       "last_updated": "2026-03-17T22:17:18.113074+00:00"
     },
     "GamehunterKaan/AutoPWN-Suite": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 491539517,
         "name": "AutoPWN-Suite",
@@ -132393,7 +133058,8 @@
     "turbot/steampipe-mod-aws-perimeter": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 491892915,
@@ -132506,7 +133172,8 @@
     },
     "projectdiscovery/tlsx": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 496628504,
@@ -132704,7 +133371,9 @@
       "last_updated": "2026-03-17T22:17:22.414038+00:00"
     },
     "bcgit/bc-java": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 10416648,
         "name": "bc-java",
@@ -132793,7 +133462,8 @@
     },
     "sekey/sekey": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 112631209,
@@ -133020,7 +133690,9 @@
       "last_updated": "2026-03-17T22:17:25.439242+00:00"
     },
     "microsoft/WindowsProtocolTestSuites": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 40954650,
         "name": "WindowsProtocolTestSuites",
@@ -133063,7 +133735,8 @@
     },
     "Neo23x0/auditd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 150223220,
@@ -133196,7 +133869,8 @@
     "alisdair/terraform-credentials-keychain": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 289056118,
@@ -133452,7 +134126,9 @@
       "last_updated": "2026-03-17T22:17:29.383344+00:00"
     },
     "lief-project/LIEF": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 85205851,
         "name": "LIEF",
@@ -133473,7 +134149,8 @@
     },
     "elastic/ember": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 129132478,
@@ -133495,7 +134172,8 @@
     },
     "Azure/2021-machine-learning-security-evasion-competition": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 366783185,
@@ -133580,7 +134258,9 @@
       "last_updated": "2026-03-17T22:17:30.658691+00:00"
     },
     "a13xp0p0v/linux-kernel-defence-map": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 128080814,
         "name": "linux-kernel-defence-map",
@@ -133601,7 +134281,8 @@
     },
     "a13xp0p0v/kernel-hardening-checker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 137949274,
@@ -133622,7 +134303,9 @@
       "last_updated": "2026-03-17T22:17:31.030904+00:00"
     },
     "hashview/hashview": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 315417563,
         "name": "hashview",
@@ -133643,7 +134326,8 @@
     },
     "0xbf00/simbple": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 143993665,
@@ -133706,7 +134390,9 @@
       "last_updated": "2026-03-17T22:17:31.861348+00:00"
     },
     "gorhill/uBlock": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 33263118,
         "name": "uBlock",
@@ -133773,7 +134459,8 @@
     },
     "liamg/traitor": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 332424498,
@@ -133818,7 +134505,8 @@
     "firefart/stunner": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 481937257,
@@ -133863,7 +134551,8 @@
     },
     "MarginResearch/cannoli": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 494242182,
@@ -134108,7 +134797,9 @@
       "last_updated": "2026-03-17T22:17:35.384552+00:00"
     },
     "fofapro/fapro": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 404975701,
         "name": "fapro",
@@ -134220,7 +134911,8 @@
     },
     "digininja/GitHunter": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 199662478,
@@ -134241,7 +134933,9 @@
       "last_updated": "2026-03-17T22:17:36.572241+00:00"
     },
     "vavkamil/awesome-bugbounty-tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 328770750,
         "name": "awesome-bugbounty-tools",
@@ -134261,7 +134955,9 @@
       "last_updated": "2026-03-17T22:17:36.816556+00:00"
     },
     "UnkL4b/GitMiner": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 52665794,
         "name": "GitMiner",
@@ -134281,7 +134977,9 @@
       "last_updated": "2026-03-17T22:17:37.016239+00:00"
     },
     "newrelic/rusty-hog": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 222316111,
         "name": "rusty-hog",
@@ -134302,7 +135000,8 @@
     },
     "projectdiscovery/subfinder": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 127519518,
@@ -134324,7 +135023,8 @@
     },
     "tomnomnom/assetfinder": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 193392376,
@@ -134346,7 +135046,8 @@
     },
     "edoardottt/scilla": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 298791469,
@@ -134367,7 +135068,9 @@
       "last_updated": "2026-03-17T22:17:37.753999+00:00"
     },
     "ossf/great-mfa-project": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 411435143,
         "name": "great-mfa-project",
@@ -134410,7 +135113,8 @@
     },
     "FiloSottile/yubikey-agent": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 258864129,
@@ -134454,7 +135158,9 @@
       "last_updated": "2026-03-17T22:17:38.536247+00:00"
     },
     "lanmaster53/recon-ng": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 178254323,
         "name": "recon-ng",
@@ -134475,7 +135181,8 @@
     },
     "google/oss-fuzz": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 63809205,
@@ -134652,7 +135359,9 @@
       "last_updated": "2026-03-17T22:17:40.244539+00:00"
     },
     "shellster/LDAPPER": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 273030731,
         "name": "LDAPPER",
@@ -134716,7 +135425,9 @@
       "last_updated": "2026-03-17T22:17:40.838288+00:00"
     },
     "christophetd/censys-subdomain-finder": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 117537050,
         "name": "censys-subdomain-finder",
@@ -134780,7 +135491,8 @@
     },
     "Rog3rSm1th/frelatage": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 465913676,
@@ -134892,7 +135604,8 @@
     },
     "alufers/mitmproxy2swagger": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 491304964,
@@ -134999,7 +135712,8 @@
     },
     "google/gcp_scanner": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 455697380,
@@ -135235,7 +135949,9 @@
       "last_updated": "2026-03-17T22:17:45.654092+00:00"
     },
     "wazuh/wazuh": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 40556106,
         "name": "wazuh",
@@ -135487,7 +136203,8 @@
     "aquasecurity/tfsec": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 173785481,
@@ -135679,7 +136396,8 @@
     },
     "open-policy-agent/opa": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 48714685,
@@ -135701,7 +136419,8 @@
     },
     "google/osv.dev": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 327775269,
@@ -135808,7 +136527,9 @@
       "last_updated": "2026-03-17T22:17:50.991255+00:00"
     },
     "jhaals/yopass": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 16027367,
         "name": "yopass",
@@ -135828,7 +136549,9 @@
       "last_updated": "2026-03-17T22:17:51.178098+00:00"
     },
     "resyncgg/ripgen": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 451309757,
         "name": "ripgen",
@@ -135911,7 +136634,8 @@
     },
     "golang/vuln": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 423907006,
@@ -135953,7 +136677,8 @@
     },
     "dnsviz/dnsviz": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 25643988,
@@ -136168,7 +136893,9 @@
       "last_updated": "2026-03-17T22:17:54.374190+00:00"
     },
     "C2SP/wycheproof": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 73226302,
         "name": "wycheproof",
@@ -136190,7 +136917,8 @@
     "nccgroup/PMapper": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 134493334,
@@ -136212,7 +136940,8 @@
     },
     "duo-labs/cloudmapper": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 118159195,
@@ -136234,7 +136963,8 @@
     },
     "ReversecLabs/awspx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 225895956,
@@ -136321,7 +137051,8 @@
     "notaryproject/specifications": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 233653574,
@@ -136344,7 +137075,8 @@
     "slsa-framework/slsa": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 346517502,
@@ -136366,7 +137098,8 @@
     },
     "s0md3v/Smap": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 471627548,
@@ -137346,7 +138079,9 @@
       "last_updated": "2026-03-17T22:18:05.083430+00:00"
     },
     "stefanberger/tpm2-tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 300393512,
         "name": "tpm2-tools",
@@ -137366,7 +138101,9 @@
       "last_updated": "2026-03-17T22:18:05.362952+00:00"
     },
     "stefanberger/swtpm": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 22190497,
         "name": "swtpm",
@@ -137387,7 +138124,8 @@
     },
     "google/go-tpm-tools": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 161976966,
@@ -137408,7 +138146,9 @@
       "last_updated": "2026-03-17T22:18:05.790452+00:00"
     },
     "microsoft/TSS.MSR": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 46449228,
         "name": "TSS.MSR",
@@ -137450,7 +138190,9 @@
       "last_updated": "2026-03-17T22:18:06.193462+00:00"
     },
     "tpm2-software/tpm2-tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 41126332,
         "name": "tpm2-tools",
@@ -137491,7 +138233,8 @@
     },
     "newren/git-filter-repo": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 145584971,
@@ -137513,7 +138256,8 @@
     },
     "gitleaks/gitleaks": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 119190187,
@@ -137733,7 +138477,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 206178287,
@@ -137842,7 +138587,8 @@
     },
     "projectdiscovery/nuclei": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 252813491,
@@ -137974,7 +138720,8 @@
     "gruntwork-io/allstar": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 472407840,
@@ -137995,7 +138742,9 @@
       "last_updated": "2026-03-17T22:18:11.036434+00:00"
     },
     "CVEProject/cvelist": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 309474524,
         "name": "cvelist",
@@ -138084,7 +138833,8 @@
     },
     "enenumxela/subdomains.sh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 380956820,
@@ -138107,7 +138857,8 @@
     "deepfence/PacketStreamer": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 474043179,
@@ -138194,7 +138945,8 @@
     "seveas/herd": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 256607259,
@@ -138381,7 +139133,9 @@
       "last_updated": "2026-03-17T22:18:14.724303+00:00"
     },
     "google/pkcs11test": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 26278460,
         "name": "pkcs11test",
@@ -138401,7 +139155,9 @@
       "last_updated": "2026-03-17T22:18:14.969374+00:00"
     },
     "OpenSC/OpenSC": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1999692,
         "name": "OpenSC",
@@ -138553,7 +139309,9 @@
       "last_updated": "2026-03-17T22:18:16.378617+00:00"
     },
     "SigmaHQ/pySigma": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 376964575,
         "name": "pySigma",
@@ -138598,7 +139356,8 @@
     },
     "falcosecurity/falco": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 49986046,
@@ -138620,7 +139379,8 @@
     },
     "osquery/osquery": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 22394357,
@@ -138644,7 +139404,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 457026559,
@@ -138715,7 +139476,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 99612558,
@@ -138826,7 +139588,9 @@
       "last_updated": "2026-03-17T22:18:18.831825+00:00"
     },
     "cure53/Contracts": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 472766974,
         "name": "Contracts",
@@ -138846,7 +139610,9 @@
       "last_updated": "2026-03-17T22:18:18.986338+00:00"
     },
     "Gerenios/AADInternals": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 154712144,
         "name": "AADInternals",
@@ -138868,7 +139634,8 @@
     "GitGuardian/ggshield": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 257326204,
@@ -138891,7 +139658,8 @@
     "GitGuardian/ggshield-action": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Infosec"
       ],
       "metadata": {
         "id": 272400318,
@@ -139063,7 +139831,8 @@
     },
     "buzzfeed/sso": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 145011089,
@@ -139086,7 +139855,8 @@
     "smallstep/cli": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 141352703,
@@ -139155,7 +139925,8 @@
     "ory/hydra": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 36071697,
@@ -139516,7 +140287,8 @@
     },
     "getsops/sops": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 40684033,
@@ -139622,7 +140394,8 @@
     },
     "github/codeql": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 143040428,
@@ -139705,7 +140478,9 @@
       "last_updated": "2026-03-17T22:18:26.985498+00:00"
     },
     "briar/briar": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 278638455,
         "name": "briar",
@@ -139726,7 +140501,8 @@
     },
     "theparanoids/crypki": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 190252257,
@@ -139748,7 +140524,8 @@
     },
     "namecoin/pkcs11mod": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 160297454,
@@ -139770,7 +140547,8 @@
     },
     "letsencrypt/pkcs11key": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 52291161,
@@ -139901,7 +140679,8 @@
     },
     "blackducksoftware/detect": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 170551715,
@@ -139924,7 +140703,8 @@
     "SonarSource/sonarqube": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 1222504,
@@ -140072,7 +140852,8 @@
     },
     "ravenlab/sha256": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 225603451,
@@ -140094,7 +140875,8 @@
     },
     "shaswata56/CheckSum_Util": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 194852559,
@@ -140267,7 +141049,8 @@
     },
     "maxgoedjen/secretive": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Infosec"
       ],
       "metadata": {
         "id": 241524703,
@@ -140334,7 +141117,8 @@
     "j3ssie/sdlookup": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 466948218,
@@ -140483,7 +141267,8 @@
     "netblue30/firejail": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 40418146,
@@ -140784,7 +141569,9 @@
       "last_updated": "2026-03-17T22:18:37.801318+00:00"
     },
     "ossf-cve-benchmark/ossf-cve-benchmark": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 308246564,
         "name": "ossf-cve-benchmark",
@@ -141050,7 +141837,9 @@
       "last_updated": "2026-03-17T22:18:40.393179+00:00"
     },
     "hackademix/noscript": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 139283020,
         "name": "noscript",
@@ -141217,7 +142006,9 @@
       "last_updated": "2026-03-17T22:18:41.901331+00:00"
     },
     "in-toto/specification": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 87951491,
         "name": "specification",
@@ -141237,7 +142028,9 @@
       "last_updated": "2026-03-17T22:18:42.079562+00:00"
     },
     "snyk/cli": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 45247496,
         "name": "cli",
@@ -141258,7 +142051,8 @@
     },
     "in-toto/witness": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 434639382,
@@ -141299,7 +142093,9 @@
       "last_updated": "2026-03-17T22:18:42.653302+00:00"
     },
     "lkrg-org/lkrg": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 285020891,
         "name": "lkrg",
@@ -141341,7 +142137,9 @@
       "last_updated": "2026-03-17T22:18:43.041166+00:00"
     },
     "buptczq/WinCryptSSHAgent": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 187327715,
         "name": "WinCryptSSHAgent",
@@ -141421,7 +142219,9 @@
       "last_updated": "2026-03-17T22:18:43.731830+00:00"
     },
     "openssl/openssl": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 7634677,
         "name": "openssl",
@@ -141501,7 +142301,9 @@
       "last_updated": "2026-03-17T22:18:44.506620+00:00"
     },
     "openssh/openssh-portable": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 15991457,
         "name": "openssh-portable",
@@ -141521,7 +142323,9 @@
       "last_updated": "2026-03-17T22:18:44.707655+00:00"
     },
     "chryzsh/DarthSidious": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 95007265,
         "name": "DarthSidious",
@@ -141561,7 +142365,9 @@
       "last_updated": "2026-03-17T22:18:45.043777+00:00"
     },
     "google/security-research": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 272394704,
         "name": "security-research",
@@ -141641,7 +142447,9 @@
       "last_updated": "2026-03-17T22:18:45.934785+00:00"
     },
     "wapiti-scanner/wapiti": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 270093755,
         "name": "wapiti",
@@ -141661,7 +142469,9 @@
       "last_updated": "2026-03-17T22:18:46.139829+00:00"
     },
     "D35m0nd142/LFISuite": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 93862304,
         "name": "LFISuite",
@@ -141681,7 +142491,9 @@
       "last_updated": "2026-03-17T22:18:46.310358+00:00"
     },
     "bee-san/RustScan": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 278933035,
         "name": "RustScan",
@@ -141701,7 +142513,9 @@
       "last_updated": "2026-03-17T22:18:46.480349+00:00"
     },
     "adamwiggins/rush": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 386,
         "name": "rush",
@@ -141721,7 +142535,9 @@
       "last_updated": "2026-03-17T22:18:46.661156+00:00"
     },
     "0xInfection/XSRFProbe": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 145513029,
         "name": "XSRFProbe",
@@ -141741,7 +142557,9 @@
       "last_updated": "2026-03-17T22:18:46.834630+00:00"
     },
     "exiftool/exiftool": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 132751855,
         "name": "exiftool",
@@ -141762,7 +142580,8 @@
     },
     "tomnomnom/qsreplace": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 215253770,
@@ -141783,7 +142602,9 @@
       "last_updated": "2026-03-17T22:18:47.213767+00:00"
     },
     "Fricciolosa-Red-Team/GoogleMapsApiScanner": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 360492865,
         "name": "GoogleMapsApiScanner",
@@ -141803,7 +142624,9 @@
       "last_updated": "2026-03-17T22:18:47.429214+00:00"
     },
     "swisskyrepo/SSRFmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 153167583,
         "name": "SSRFmap",
@@ -141823,7 +142646,9 @@
       "last_updated": "2026-03-17T22:18:47.595719+00:00"
     },
     "Security-Onion-Solutions/securityonion": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 120338179,
         "name": "securityonion",
@@ -141843,7 +142668,9 @@
       "last_updated": "2026-03-17T22:18:47.814676+00:00"
     },
     "PortSwigger/http-request-smuggler": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 199670398,
         "name": "http-request-smuggler",
@@ -141863,7 +142690,9 @@
       "last_updated": "2026-03-17T22:18:48.033348+00:00"
     },
     "Jewel591/xssmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 175831038,
         "name": "xssmap",
@@ -141883,7 +142712,9 @@
       "last_updated": "2026-03-17T22:18:48.213803+00:00"
     },
     "AnimeshShaw/Hash-Algorithm-Identifier": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 16921611,
         "name": "Hash-Algorithm-Identifier",
@@ -141904,7 +142735,8 @@
     },
     "danielmiessler/SecLists": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Infosec"
       ],
       "metadata": {
         "id": 3482588,
@@ -141925,7 +142757,9 @@
       "last_updated": "2026-03-17T22:18:48.604423+00:00"
     },
     "OJ/gobuster": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 26639347,
         "name": "gobuster",
@@ -141946,7 +142780,8 @@
     },
     "iamj0ker/bypass-403": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 310324131,
@@ -141967,7 +142802,9 @@
       "last_updated": "2026-03-17T22:18:48.959115+00:00"
     },
     "sullo/nikto": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 6836299,
         "name": "nikto",
@@ -141987,7 +142824,9 @@
       "last_updated": "2026-03-17T22:18:49.105909+00:00"
     },
     "nmap/nmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 3671479,
         "name": "nmap",
@@ -142007,7 +142846,9 @@
       "last_updated": "2026-03-17T22:18:49.295227+00:00"
     },
     "codingo/NoSQLMap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 13067823,
         "name": "NoSQLMap",
@@ -142027,7 +142868,9 @@
       "last_updated": "2026-03-17T22:18:49.509392+00:00"
     },
     "devanshbatham/ParamSpider": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 255061694,
         "name": "ParamSpider",
@@ -142047,7 +142890,9 @@
       "last_updated": "2026-03-17T22:18:49.709382+00:00"
     },
     "s0md3v/Arjun": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 123440315,
         "name": "Arjun",
@@ -142067,7 +142912,9 @@
       "last_updated": "2026-03-17T22:18:49.883901+00:00"
     },
     "Hackplayers/evil-winrm": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 189010173,
         "name": "evil-winrm",
@@ -142087,7 +142934,9 @@
       "last_updated": "2026-03-17T22:18:50.066336+00:00"
     },
     "openwall/john": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 2997204,
         "name": "john",
@@ -142107,7 +142956,9 @@
       "last_updated": "2026-03-17T22:18:50.267476+00:00"
     },
     "vanhauser-thc/thc-hydra": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 19112091,
         "name": "thc-hydra",
@@ -142127,7 +142978,9 @@
       "last_updated": "2026-03-17T22:18:50.441487+00:00"
     },
     "epinna/tplmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 62751496,
         "name": "tplmap",
@@ -142147,7 +143000,9 @@
       "last_updated": "2026-03-17T22:18:50.615046+00:00"
     },
     "commixproject/commix": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 32572504,
         "name": "commix",
@@ -142167,7 +143022,9 @@
       "last_updated": "2026-03-17T22:18:50.813257+00:00"
     },
     "sqlmapproject/sqlmap": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 4793392,
         "name": "sqlmap",
@@ -142247,7 +143104,9 @@
       "last_updated": "2026-03-17T22:18:51.610665+00:00"
     },
     "bp0lr/gauplus": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 302449734,
         "name": "gauplus",
@@ -142267,7 +143126,9 @@
       "last_updated": "2026-03-17T22:18:51.777104+00:00"
     },
     "TheRook/subbrute": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 4611815,
         "name": "subbrute",
@@ -142427,7 +143288,9 @@
       "last_updated": "2026-03-17T22:18:53.330089+00:00"
     },
     "bureado/awesome-software-supply-chain-security": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 461401576,
         "name": "awesome-software-supply-chain-security",
@@ -142547,7 +143410,9 @@
       "last_updated": "2026-03-17T22:18:54.515154+00:00"
     },
     "NanXiao/tcpdump-little-book": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 184562460,
         "name": "tcpdump-little-book",
@@ -142650,7 +143515,8 @@
     },
     "testssl/testssl.sh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 21385916,
@@ -142671,7 +143537,9 @@
       "last_updated": "2026-03-17T22:18:55.711449+00:00"
     },
     "tyki6/MyJWT": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 307492515,
         "name": "MyJWT",
@@ -142691,7 +143559,9 @@
       "last_updated": "2026-03-17T22:18:55.967001+00:00"
     },
     "ticarpi/jwt_tool": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 79848747,
         "name": "jwt_tool",
@@ -142736,7 +143606,9 @@
       "last_updated": "2026-03-17T22:18:56.331533+00:00"
     },
     "kgretzky/evilginx2": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 140412864,
         "name": "evilginx2",
@@ -142922,7 +143794,8 @@
     "slackhq/nebula": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 222172014,
@@ -143738,7 +144611,8 @@
     },
     "google/trillian": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 58654489,
@@ -143882,7 +144756,8 @@
     },
     "threatcl/threatcl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 406547757,
@@ -144607,7 +145482,8 @@
     },
     "ahuffman/ansible-sudoers": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 50736990,
@@ -144690,7 +145566,9 @@
       "last_updated": "2026-03-17T22:19:15.520022+00:00"
     },
     "drduh/YubiKey-Guide": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 50806714,
         "name": "YubiKey-Guide",
@@ -144731,7 +145609,8 @@
     },
     "flipperdevices/flipperzero-firmware": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec"
       ],
       "metadata": {
         "id": 284134871,
@@ -144877,7 +145756,8 @@
     },
     "sumitgouthaman/yubikey-ssh-gpg": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 323144733,
@@ -145061,7 +145941,8 @@
     },
     "keycloak/keycloak": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 11125589,
@@ -145303,7 +146184,8 @@
     },
     "authelia/authelia": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 75785240,
@@ -145731,7 +146613,8 @@
     "sigstore/rekor": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 272963353,
@@ -145756,7 +146639,8 @@
         "Devops",
         "Docker and OCI containers",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 335952417,
@@ -146209,7 +147093,8 @@
     "smallstep/certificates": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 155658556,
@@ -146334,7 +147219,8 @@
     "anchore/grype": {
       "lists": [
         "CI/CD",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 267054247,
@@ -146397,7 +147283,8 @@
     "projectdiscovery/httpx": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 267713284,
@@ -146648,7 +147535,8 @@
     },
     "tenable/terrascan": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 103084166,
@@ -146690,7 +147578,8 @@
     },
     "threathunters-io/laurel": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 392231408,
@@ -146713,7 +147602,8 @@
     "deepfence/ThreatMapper": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 238662977,
@@ -146734,7 +147624,9 @@
       "last_updated": "2026-03-17T22:19:35.094303+00:00"
     },
     "cassidoo/scrapers": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 56540657,
         "name": "scrapers",
@@ -146776,7 +147668,8 @@
     "salesforce/cloudsplaining": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 256772852,
@@ -146931,7 +147824,8 @@
     },
     "chrishunt/github-auth": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 9433873,
@@ -147097,7 +147991,8 @@
     },
     "CISOfy/lynis": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Infosec"
       ],
       "metadata": {
         "id": 15078635,
@@ -147222,7 +148117,8 @@
     },
     "owasp-amass/amass": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 140457254,
@@ -147244,7 +148140,8 @@
     },
     "zaproxy/zaproxy": {
       "lists": [
-        "API"
+        "API",
+        "Infosec"
       ],
       "metadata": {
         "id": 36817565,
@@ -147290,7 +148187,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 77726177,
@@ -147373,7 +148271,9 @@
       "last_updated": "2026-03-17T22:19:41.194441+00:00"
     },
     "SigmaHQ/sigma": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 77276660,
         "name": "sigma",
@@ -147393,7 +148293,9 @@
       "last_updated": "2026-03-17T22:19:41.384718+00:00"
     },
     "Yelp/detect-secrets": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 113111650,
         "name": "detect-secrets",
@@ -148418,7 +149320,8 @@
     "salesforce/policy_sentry": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 209652627,
@@ -148440,7 +149343,8 @@
     },
     "pritunl/pritunl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 12798028,
@@ -148664,7 +149568,8 @@
     },
     "mandiant/commando-vm": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Infosec"
       ],
       "metadata": {
         "id": 177878919,
@@ -149261,7 +150166,8 @@
     "bridgecrewio/checkov": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 224386599,
@@ -149752,7 +150658,8 @@
     "quay/clair": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 46140633,
@@ -149813,7 +150720,9 @@
       "last_updated": "2026-03-17T22:20:04.683267+00:00"
     },
     "cloudflare/flan": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 218104879,
         "name": "flan",
@@ -149936,7 +150845,8 @@
     },
     "ffuf/ffuf": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Infosec"
       ],
       "metadata": {
         "id": 156681830,
@@ -150040,7 +150950,8 @@
     },
     "toniblyx/my-arsenal-of-aws-security-tools": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 141482866,
@@ -150308,7 +151219,8 @@
     },
     "bitnami-labs/sealed-secrets": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 92702519,
@@ -151422,7 +152334,8 @@
     },
     "dagrz/aws_pwn": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Infosec"
       ],
       "metadata": {
         "id": 71204465,
