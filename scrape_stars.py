@@ -3,8 +3,7 @@ import json
 import os
 import re
 import sys
-import base64
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
 from datetime import datetime, timedelta, UTC
 import random
 import time
@@ -130,75 +129,6 @@ def extract_metadata(metadata, starred_at):
         'starred_at': starred_at
     }
 
-def get_readme_content(repo_full_name, token):
-    url = f"{GITHUB_API}/repos/{repo_full_name}/readme"
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github.v3+json"
-    }
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        content = response.json().get('content', '')
-        if content:
-            return base64.b64decode(content).decode('utf-8')
-    return None
-
-# def extract_arxiv_urls(text):
-#     arxiv_pattern = r'(?:arxiv\.org/(?:abs|pdf)/|arxiv:)(\d{4}\.\d{4,5})'
-#     return list(OrderedDict.fromkeys(re.findall(arxiv_pattern, text)))
-
-def extract_arxiv_id(url):
-    arxiv_pattern = r'(?:arxiv\.org/(?:abs|pdf)/|arxiv:)(\d{4}\.\d{4,5})'
-    match = re.search(arxiv_pattern, url)
-    return match.group(1) if match else None
-
-def extract_arxiv_ids(text):
-    arxiv_pattern = r'(?:arxiv\.org/(?:abs|pdf)/|arxiv:)(\d{4}\.\d{4,5})'
-    return list(OrderedDict.fromkeys(re.findall(arxiv_pattern, text)))
-
-def infer_primary_arxiv_id(description, readme_content, arxiv_ids):
-    if description and arxiv_ids:
-        desc_ids = extract_arxiv_ids(description)
-        if desc_ids:
-            return desc_ids[0]
-    
-    if readme_content:
-        # Check for arXiv badge
-        badge_pattern = r'\[!\[arXiv\].*\]\(https://arxiv\.org/abs/(\d{4}\.\d{4,5})\)'
-        badge_match = re.search(badge_pattern, readme_content)
-        if badge_match:
-            return badge_match.group(1)
-    
-    if len(arxiv_ids) == 1:
-        return arxiv_ids[0]
-    
-    return None
-
-def extract_bibtex(text):
-    bibtex_pattern = r'(@\w+\{[^@]*\})'
-    return re.findall(bibtex_pattern, text, re.DOTALL)
-
-def process_repo(repo_name, repo_data, token):
-    readme_content = get_readme_content(repo_name, token)
-    
-    arxiv_ids = []
-    if readme_content:
-        arxiv_ids = extract_arxiv_ids(readme_content)
-        bibtex_citations = extract_bibtex(readme_content)
-    else:
-        bibtex_citations = []
-    
-    description = repo_data['metadata'].get('description', '')
-    primary_arxiv_id = infer_primary_arxiv_id(description, readme_content, arxiv_ids)
-    
-    repo_data['arxiv'] = {
-        'ids': arxiv_ids,
-        'primary_id': primary_arxiv_id,
-        'bibtex_citations': bibtex_citations
-    }
-    
-    return repo_data
-
 def process_repo_batch(repos, token, existing_data):
     for item in repos:
         repo_name = item['repo']['full_name']
@@ -210,11 +140,6 @@ def process_repo_batch(repos, token, existing_data):
                     'metadata': extract_metadata(metadata, item['starred_at']),
                     'last_updated': datetime.now(UTC).isoformat()
                 }
-                existing_data['repositories'][repo_name] = process_repo(
-                    repo_name, 
-                    existing_data['repositories'][repo_name], 
-                    token
-                )
             else:
                 logger.warning(f"Skipping repo {repo_name} due to metadata retrieval failure.")
         else:
@@ -292,11 +217,6 @@ def process_stars(username, token, existing_data):
                         'metadata': extract_metadata(metadata, item['starred_at']),
                         'last_updated': datetime.now(UTC).isoformat()
                     }
-                    existing_data['repositories'][repo_name] = process_repo(
-                        repo_name, 
-                        existing_data['repositories'][repo_name], 
-                        token
-                    )
                     chunk_changes = True
                     changes_made = True
                 else:

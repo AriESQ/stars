@@ -45,7 +45,6 @@ jobs:
     - name: Copy data files to public directory
       run: |
         cp github_stars.json public/
-        cp arxiv_metadata.json public/
 
     - name: Build
       run: npm run build
