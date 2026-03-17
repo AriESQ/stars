@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T22:20:14.942296+00:00",
+  "last_updated": "2026-03-17T22:20:23.882771+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [],
@@ -144364,6 +144364,646 @@
         "starred_at": "2017-05-14T00:13:10Z"
       },
       "last_updated": "2026-03-17T22:20:14.942277+00:00"
+    },
+    "orlikoski/CDQR": {
+      "lists": [],
+      "metadata": {
+        "id": 49660976,
+        "name": "CDQR",
+        "full_name": "orlikoski/CDQR",
+        "description": "The Cold Disk Quick Response (CDQR) tool is a fast and easy to use forensic artifact parsing tool that works on disk images, mounted drives and extracted artifacts from Windows, Linux, MacOS, and Android devices",
+        "url": "https://github.com/orlikoski/CDQR",
+        "homepage": "",
+        "language": "Python",
+        "stars": 343,
+        "forks": 51,
+        "open_issues": 5,
+        "created_at": "2016-01-14T16:48:48Z",
+        "updated_at": "2026-02-20T13:52:52Z",
+        "pushed_at": "2022-06-25T16:20:38Z",
+        "starred_at": "2017-05-14T00:13:05Z"
+      },
+      "last_updated": "2026-03-17T22:20:17.479332+00:00"
+    },
+    "drduh/macOS-Security-and-Privacy-Guide": {
+      "lists": [],
+      "metadata": {
+        "id": 41654081,
+        "name": "macOS-Security-and-Privacy-Guide",
+        "full_name": "drduh/macOS-Security-and-Privacy-Guide",
+        "description": "Community guide to securing and improving privacy on macOS.",
+        "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+        "homepage": "https://drduh.github.io/macOS-Security-and-Privacy-Guide/",
+        "language": null,
+        "stars": 22489,
+        "forks": 1459,
+        "open_issues": 6,
+        "created_at": "2015-08-31T03:36:35Z",
+        "updated_at": "2026-03-17T21:59:35Z",
+        "pushed_at": "2026-01-02T02:27:53Z",
+        "starred_at": "2017-05-13T21:49:52Z"
+      },
+      "last_updated": "2026-03-17T22:20:17.653384+00:00"
+    },
+    "GAM-team/GAM": {
+      "lists": [],
+      "metadata": {
+        "id": 20185174,
+        "name": "GAM",
+        "full_name": "GAM-team/GAM",
+        "description": "command line management for Google Workspace",
+        "url": "https://github.com/GAM-team/GAM",
+        "homepage": "https://github.com/GAM-team/GAM/wiki",
+        "language": "Python",
+        "stars": 4097,
+        "forks": 516,
+        "open_issues": 37,
+        "created_at": "2014-05-26T12:19:02Z",
+        "updated_at": "2026-03-17T21:26:16Z",
+        "pushed_at": "2026-03-17T21:26:10Z",
+        "starred_at": "2017-05-13T03:23:17Z"
+      },
+      "last_updated": "2026-03-17T22:20:17.865070+00:00"
+    },
+    "httpie/http-prompt": {
+      "lists": [],
+      "metadata": {
+        "id": 55584626,
+        "name": "http-prompt",
+        "full_name": "httpie/http-prompt",
+        "description": "An interactive command-line HTTP and API testing client built on top of HTTPie featuring autocomplete, syntax highlighting, and more. https://twitter.com/httpie",
+        "url": "https://github.com/httpie/http-prompt",
+        "homepage": "https://http-prompt.com",
+        "language": "Python",
+        "stars": 9120,
+        "forks": 331,
+        "open_issues": 53,
+        "created_at": "2016-04-06T07:24:35Z",
+        "updated_at": "2026-03-17T10:45:05Z",
+        "pushed_at": "2024-05-21T06:03:21Z",
+        "starred_at": "2017-05-07T04:16:36Z"
+      },
+      "last_updated": "2026-03-17T22:20:18.119799+00:00"
+    },
+    "hashtagcyber/bropy": {
+      "lists": [],
+      "metadata": {
+        "id": 84832249,
+        "name": "bropy",
+        "full_name": "hashtagcyber/bropy",
+        "description": "Basic Anomaly IDS capabilities with Python and Bro",
+        "url": "https://github.com/hashtagcyber/bropy",
+        "homepage": "",
+        "language": "Python",
+        "stars": 105,
+        "forks": 15,
+        "open_issues": 7,
+        "created_at": "2017-03-13T13:53:02Z",
+        "updated_at": "2026-02-14T21:39:46Z",
+        "pushed_at": "2018-02-27T16:11:20Z",
+        "starred_at": "2017-05-01T03:00:41Z"
+      },
+      "last_updated": "2026-03-17T22:20:18.285119+00:00"
+    },
+    "jackullrich/ShellcodeStdio": {
+      "lists": [],
+      "metadata": {
+        "id": 88888296,
+        "name": "ShellcodeStdio",
+        "full_name": "jackullrich/ShellcodeStdio",
+        "description": "An extensible framework for easily writing compiler optimized position independent x86 / x64 shellcode for windows platforms.",
+        "url": "https://github.com/jackullrich/ShellcodeStdio",
+        "homepage": "",
+        "language": "C++",
+        "stars": 534,
+        "forks": 109,
+        "open_issues": 1,
+        "created_at": "2017-04-20T16:39:39Z",
+        "updated_at": "2026-03-17T06:19:30Z",
+        "pushed_at": "2025-07-02T19:40:53Z",
+        "starred_at": "2017-04-30T19:40:59Z"
+      },
+      "last_updated": "2026-03-17T22:20:18.465878+00:00"
+    },
+    "PatrolServer/bashscanner": {
+      "lists": [],
+      "metadata": {
+        "id": 41672911,
+        "name": "bashscanner",
+        "full_name": "PatrolServer/bashscanner",
+        "description": "A fast way to scan your server for outdated software and potential exploits.",
+        "url": "https://github.com/PatrolServer/bashscanner",
+        "homepage": "https://patrolserver.com",
+        "language": "Shell",
+        "stars": 380,
+        "forks": 34,
+        "open_issues": 4,
+        "created_at": "2015-08-31T11:58:24Z",
+        "updated_at": "2026-02-18T13:39:33Z",
+        "pushed_at": "2024-05-20T13:54:24Z",
+        "starred_at": "2017-04-30T03:56:32Z"
+      },
+      "last_updated": "2026-03-17T22:20:18.648707+00:00"
+    },
+    "bluscreenofjeff/Red-Team-Infrastructure-Wiki": {
+      "lists": [],
+      "metadata": {
+        "id": 82987976,
+        "name": "Red-Team-Infrastructure-Wiki",
+        "full_name": "bluscreenofjeff/Red-Team-Infrastructure-Wiki",
+        "description": "Wiki to collect Red Team infrastructure hardening resources",
+        "url": "https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki",
+        "homepage": null,
+        "language": null,
+        "stars": 4459,
+        "forks": 915,
+        "open_issues": 0,
+        "created_at": "2017-02-24T01:21:49Z",
+        "updated_at": "2026-03-16T16:33:30Z",
+        "pushed_at": "2025-10-01T17:10:58Z",
+        "starred_at": "2017-04-26T05:10:16Z"
+      },
+      "last_updated": "2026-03-17T22:20:18.837145+00:00"
+    },
+    "rvrsh3ll/PenTesting-Scripts": {
+      "lists": [],
+      "metadata": {
+        "id": 58404976,
+        "name": "PenTesting-Scripts",
+        "full_name": "rvrsh3ll/PenTesting-Scripts",
+        "description": "A ton of helpful tools",
+        "url": "https://github.com/rvrsh3ll/PenTesting-Scripts",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 39,
+        "forks": 11,
+        "open_issues": 0,
+        "created_at": "2016-05-09T20:12:49Z",
+        "updated_at": "2023-07-25T19:22:56Z",
+        "pushed_at": "2021-10-08T18:40:06Z",
+        "starred_at": "2017-04-23T15:00:37Z"
+      },
+      "last_updated": "2026-03-17T22:20:19.103161+00:00"
+    },
+    "rvrsh3ll/Misc-Powershell-Scripts": {
+      "lists": [],
+      "metadata": {
+        "id": 30797492,
+        "name": "Misc-Powershell-Scripts",
+        "full_name": "rvrsh3ll/Misc-Powershell-Scripts",
+        "description": "Random Tools",
+        "url": "https://github.com/rvrsh3ll/Misc-Powershell-Scripts",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 849,
+        "forks": 213,
+        "open_issues": 3,
+        "created_at": "2015-02-14T13:34:49Z",
+        "updated_at": "2026-03-10T16:46:54Z",
+        "pushed_at": "2022-10-20T10:23:08Z",
+        "starred_at": "2017-04-23T15:00:26Z"
+      },
+      "last_updated": "2026-03-17T22:20:19.305995+00:00"
+    },
+    "OWASP/glue": {
+      "lists": [],
+      "metadata": {
+        "id": 41494312,
+        "name": "glue",
+        "full_name": "OWASP/glue",
+        "description": "Application Security Automation",
+        "url": "https://github.com/OWASP/glue",
+        "homepage": "",
+        "language": "Ruby",
+        "stars": 527,
+        "forks": 110,
+        "open_issues": 73,
+        "created_at": "2015-08-27T15:15:30Z",
+        "updated_at": "2026-02-23T04:34:08Z",
+        "pushed_at": "2023-09-05T21:43:17Z",
+        "starred_at": "2017-03-26T00:21:06Z"
+      },
+      "last_updated": "2026-03-17T22:20:19.535473+00:00"
+    },
+    "netdata/netdata": {
+      "lists": [],
+      "metadata": {
+        "id": 10744183,
+        "name": "netdata",
+        "full_name": "netdata/netdata",
+        "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+        "url": "https://github.com/netdata/netdata",
+        "homepage": "https://www.netdata.cloud",
+        "language": "C",
+        "stars": 78100,
+        "forks": 6388,
+        "open_issues": 244,
+        "created_at": "2013-06-17T18:39:10Z",
+        "updated_at": "2026-03-17T21:57:13Z",
+        "pushed_at": "2026-03-17T21:38:11Z",
+        "starred_at": "2017-03-21T02:26:50Z"
+      },
+      "last_updated": "2026-03-17T22:20:19.705865+00:00"
+    },
+    "angristan/openvpn-install": {
+      "lists": [],
+      "metadata": {
+        "id": 74272018,
+        "name": "openvpn-install",
+        "full_name": "angristan/openvpn-install",
+        "description": "Set up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS, Arch Linux and more",
+        "url": "https://github.com/angristan/openvpn-install",
+        "homepage": "https://stanislas.blog/2019/01/how-to-setup-vpn-server-wireguard-nat-ipv6/",
+        "language": "Shell",
+        "stars": 15662,
+        "forks": 3286,
+        "open_issues": 14,
+        "created_at": "2016-11-20T12:18:45Z",
+        "updated_at": "2026-03-17T22:15:03Z",
+        "pushed_at": "2026-03-14T13:42:08Z",
+        "starred_at": "2017-03-10T04:14:58Z"
+      },
+      "last_updated": "2026-03-17T22:20:19.933465+00:00"
+    },
+    "fros1y/epo-download": {
+      "lists": [],
+      "metadata": {
+        "id": 80310595,
+        "name": "epo-download",
+        "full_name": "fros1y/epo-download",
+        "description": "Building API and tools for EPO OPS patent data",
+        "url": "https://github.com/fros1y/epo-download",
+        "homepage": null,
+        "language": "Haskell",
+        "stars": 10,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2017-01-28T21:02:46Z",
+        "updated_at": "2024-04-14T12:55:56Z",
+        "pushed_at": "2017-03-16T23:50:55Z",
+        "starred_at": "2017-03-09T03:01:38Z"
+      },
+      "last_updated": "2026-03-17T22:20:20.163528+00:00"
+    },
+    "ion-storm/sysmon-config": {
+      "lists": [],
+      "metadata": {
+        "id": 82400741,
+        "name": "sysmon-config",
+        "full_name": "ion-storm/sysmon-config",
+        "description": "Advanced Sysmon ATT&CK configuration focusing on Detecting the Most Techniques per Data source in MITRE ATT&CK,  Provide Visibility into Forensic Artifact Events for UEBA, Detect Exploitation events with wide CVE Coverage, and Risk Scoring of CVE, UEBA, Forensic,  and MITRE ATT&CK Events.",
+        "url": "https://github.com/ion-storm/sysmon-config",
+        "homepage": "",
+        "language": "PowerShell",
+        "stars": 822,
+        "forks": 143,
+        "open_issues": 6,
+        "created_at": "2017-02-18T16:40:59Z",
+        "updated_at": "2026-03-04T01:53:53Z",
+        "pushed_at": "2023-11-05T03:31:58Z",
+        "starred_at": "2017-03-01T04:58:31Z"
+      },
+      "last_updated": "2026-03-17T22:20:20.401819+00:00"
+    },
+    "marcan/takeover.sh": {
+      "lists": [],
+      "metadata": {
+        "id": 81583227,
+        "name": "takeover.sh",
+        "full_name": "marcan/takeover.sh",
+        "description": "Wipe and reinstall a running Linux system via SSH, without rebooting. You know you want to.",
+        "url": "https://github.com/marcan/takeover.sh",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 7321,
+        "forks": 362,
+        "open_issues": 3,
+        "created_at": "2017-02-10T16:22:47Z",
+        "updated_at": "2026-03-15T13:33:07Z",
+        "pushed_at": "2021-07-27T10:25:35Z",
+        "starred_at": "2017-02-11T17:19:59Z"
+      },
+      "last_updated": "2026-03-17T22:20:20.573325+00:00"
+    },
+    "enaqx/awesome-pentest": {
+      "lists": [],
+      "metadata": {
+        "id": 22585805,
+        "name": "awesome-pentest",
+        "full_name": "enaqx/awesome-pentest",
+        "description": "A collection of awesome penetration testing resources, tools and other shiny things",
+        "url": "https://github.com/enaqx/awesome-pentest",
+        "homepage": null,
+        "language": null,
+        "stars": 25565,
+        "forks": 4762,
+        "open_issues": 39,
+        "created_at": "2014-08-03T23:13:53Z",
+        "updated_at": "2026-03-17T18:33:37Z",
+        "pushed_at": "2026-01-25T05:57:08Z",
+        "starred_at": "2017-02-11T05:39:03Z"
+      },
+      "last_updated": "2026-03-17T22:20:20.773364+00:00"
+    },
+    "Gallopsled/pwntools": {
+      "lists": [],
+      "metadata": {
+        "id": 9750233,
+        "name": "pwntools",
+        "full_name": "Gallopsled/pwntools",
+        "description": "CTF framework and exploit development library",
+        "url": "https://github.com/Gallopsled/pwntools",
+        "homepage": "http://pwntools.com",
+        "language": "Python",
+        "stars": 13317,
+        "forks": 1821,
+        "open_issues": 132,
+        "created_at": "2013-04-29T14:43:03Z",
+        "updated_at": "2026-03-17T17:35:18Z",
+        "pushed_at": "2026-03-17T09:31:58Z",
+        "starred_at": "2017-02-01T03:45:51Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.009755+00:00"
+    },
+    "hannob/hackercon": {
+      "lists": [],
+      "metadata": {
+        "id": 79923290,
+        "name": "hackercon",
+        "full_name": "hannob/hackercon",
+        "description": "List of Free Software and IT Security related conferences",
+        "url": "https://github.com/hannob/hackercon",
+        "homepage": null,
+        "language": null,
+        "stars": 52,
+        "forks": 12,
+        "open_issues": 2,
+        "created_at": "2017-01-24T15:19:45Z",
+        "updated_at": "2023-08-22T00:59:28Z",
+        "pushed_at": "2023-12-04T10:46:43Z",
+        "starred_at": "2017-01-25T10:22:45Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.179313+00:00"
+    },
+    "wtsxDev/Penetration-Testing": {
+      "lists": [],
+      "metadata": {
+        "id": 79034887,
+        "name": "Penetration-Testing",
+        "full_name": "wtsxDev/Penetration-Testing",
+        "description": "List of awesome penetration testing resources, tools and other shiny things",
+        "url": "https://github.com/wtsxDev/Penetration-Testing",
+        "homepage": null,
+        "language": null,
+        "stars": 2728,
+        "forks": 718,
+        "open_issues": 17,
+        "created_at": "2017-01-15T13:39:20Z",
+        "updated_at": "2026-03-17T10:33:08Z",
+        "pushed_at": "2023-10-18T18:27:08Z",
+        "starred_at": "2017-01-16T22:07:51Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.345647+00:00"
+    },
+    "Raikia/FiercePhish": {
+      "lists": [],
+      "metadata": {
+        "id": 77753786,
+        "name": "FiercePhish",
+        "full_name": "Raikia/FiercePhish",
+        "description": "FiercePhish is a full-fledged phishing framework to manage all phishing engagements.  It allows you to track separate phishing campaigns, schedule sending of emails, and much more.",
+        "url": "https://github.com/Raikia/FiercePhish",
+        "homepage": "https://github.com/Raikia/FiercePhish/wiki",
+        "language": "PHP",
+        "stars": 1408,
+        "forks": 257,
+        "open_issues": 50,
+        "created_at": "2016-12-31T19:41:24Z",
+        "updated_at": "2026-03-17T08:05:25Z",
+        "pushed_at": "2024-01-09T02:59:26Z",
+        "starred_at": "2017-01-11T09:48:52Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.558109+00:00"
+    },
+    "joe-shenouda/awesome-cyber-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 78006975,
+        "name": "awesome-cyber-skills",
+        "full_name": "joe-shenouda/awesome-cyber-skills",
+        "description": "A curated list of hacking environments where you can train your cyber skills legally and safely",
+        "url": "https://github.com/joe-shenouda/awesome-cyber-skills",
+        "homepage": "https://www.cyber-consult.org",
+        "language": null,
+        "stars": 4253,
+        "forks": 507,
+        "open_issues": 4,
+        "created_at": "2017-01-04T10:44:10Z",
+        "updated_at": "2026-03-17T05:45:02Z",
+        "pushed_at": "2024-07-02T03:39:39Z",
+        "starred_at": "2017-01-07T07:19:01Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.717110+00:00"
+    },
+    "JC-SoCal/CC_Playground": {
+      "lists": [],
+      "metadata": {
+        "id": 33577289,
+        "name": "CC_Playground",
+        "full_name": "JC-SoCal/CC_Playground",
+        "description": null,
+        "url": "https://github.com/JC-SoCal/CC_Playground",
+        "homepage": null,
+        "language": "Python",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2015-04-08T01:18:25Z",
+        "updated_at": "2017-01-06T01:49:12Z",
+        "pushed_at": "2015-07-21T22:14:36Z",
+        "starred_at": "2017-01-05T00:47:23Z"
+      },
+      "last_updated": "2026-03-17T22:20:21.911912+00:00"
+    },
+    "modzero/fix-windows-privacy": {
+      "lists": [],
+      "metadata": {
+        "id": 73639238,
+        "name": "fix-windows-privacy",
+        "full_name": "modzero/fix-windows-privacy",
+        "description": "Fix Windows 10 Privacy",
+        "url": "https://github.com/modzero/fix-windows-privacy",
+        "homepage": null,
+        "language": "C++",
+        "stars": 486,
+        "forks": 25,
+        "open_issues": 9,
+        "created_at": "2016-11-13T19:54:43Z",
+        "updated_at": "2026-01-24T14:29:09Z",
+        "pushed_at": "2017-01-04T23:52:32Z",
+        "starred_at": "2017-01-04T06:07:12Z"
+      },
+      "last_updated": "2026-03-17T22:20:22.215519+00:00"
+    },
+    "froztbyte/script-partials": {
+      "lists": [],
+      "metadata": {
+        "id": 67132251,
+        "name": "script-partials",
+        "full_name": "froztbyte/script-partials",
+        "description": "A collection of boilerplate components that I need at times",
+        "url": "https://github.com/froztbyte/script-partials",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2016-09-01T13:11:17Z",
+        "updated_at": "2017-01-02T22:28:26Z",
+        "pushed_at": "2016-09-01T14:11:12Z",
+        "starred_at": "2017-01-02T22:28:26Z"
+      },
+      "last_updated": "2026-03-17T22:20:22.431291+00:00"
+    },
+    "lgandx/Responder": {
+      "lists": [],
+      "metadata": {
+        "id": 67535141,
+        "name": "Responder",
+        "full_name": "lgandx/Responder",
+        "description": "Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. ",
+        "url": "https://github.com/lgandx/Responder",
+        "homepage": "",
+        "language": "Python",
+        "stars": 6380,
+        "forks": 857,
+        "open_issues": 30,
+        "created_at": "2016-09-06T18:21:54Z",
+        "updated_at": "2026-03-17T16:26:43Z",
+        "pushed_at": "2026-01-26T22:48:48Z",
+        "starred_at": "2016-12-30T22:45:31Z"
+      },
+      "last_updated": "2026-03-17T22:20:22.748329+00:00"
+    },
+    "mubix/post-exploitation": {
+      "lists": [],
+      "metadata": {
+        "id": 5552468,
+        "name": "post-exploitation",
+        "full_name": "mubix/post-exploitation",
+        "description": "Post Exploitation Collection",
+        "url": "https://github.com/mubix/post-exploitation",
+        "homepage": null,
+        "language": "C",
+        "stars": 1572,
+        "forks": 359,
+        "open_issues": 1,
+        "created_at": "2012-08-25T15:22:55Z",
+        "updated_at": "2026-03-17T12:35:39Z",
+        "pushed_at": "2020-05-01T17:31:34Z",
+        "starred_at": "2016-12-30T21:33:45Z"
+      },
+      "last_updated": "2026-03-17T22:20:22.914544+00:00"
+    },
+    "jessek/hashdeep": {
+      "lists": [],
+      "metadata": {
+        "id": 4636548,
+        "name": "hashdeep",
+        "full_name": "jessek/hashdeep",
+        "description": null,
+        "url": "https://github.com/jessek/hashdeep",
+        "homepage": null,
+        "language": "C++",
+        "stars": 764,
+        "forks": 135,
+        "open_issues": 135,
+        "created_at": "2012-06-12T11:35:31Z",
+        "updated_at": "2026-03-09T12:55:54Z",
+        "pushed_at": "2025-09-20T21:28:41Z",
+        "starred_at": "2016-12-29T05:06:45Z"
+      },
+      "last_updated": "2026-03-17T22:20:23.097844+00:00"
+    },
+    "RedBalloonShenanigans/MonitorDarkly": {
+      "lists": [],
+      "metadata": {
+        "id": 61491184,
+        "name": "MonitorDarkly",
+        "full_name": "RedBalloonShenanigans/MonitorDarkly",
+        "description": "Poc, Presentation of Monitor OSD Exploitation, and shenanigans of high quality.",
+        "url": "https://github.com/RedBalloonShenanigans/MonitorDarkly",
+        "homepage": null,
+        "language": "Python",
+        "stars": 917,
+        "forks": 133,
+        "open_issues": 8,
+        "created_at": "2016-06-19T17:13:42Z",
+        "updated_at": "2026-03-03T04:30:48Z",
+        "pushed_at": "2017-06-27T18:18:16Z",
+        "starred_at": "2016-12-12T06:43:44Z"
+      },
+      "last_updated": "2026-03-17T22:20:23.320957+00:00"
+    },
+    "dagrz/aws_pwn": {
+      "lists": [],
+      "metadata": {
+        "id": 71204465,
+        "name": "aws_pwn",
+        "full_name": "dagrz/aws_pwn",
+        "description": "A collection of AWS penetration testing junk",
+        "url": "https://github.com/dagrz/aws_pwn",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1221,
+        "forks": 195,
+        "open_issues": 3,
+        "created_at": "2016-10-18T03:14:33Z",
+        "updated_at": "2026-03-16T20:02:37Z",
+        "pushed_at": "2023-08-30T11:12:51Z",
+        "starred_at": "2016-11-19T05:15:47Z"
+      },
+      "last_updated": "2026-03-17T22:20:23.492261+00:00"
+    },
+    "rshipp/awesome-malware-analysis": {
+      "lists": [],
+      "metadata": {
+        "id": 35313712,
+        "name": "awesome-malware-analysis",
+        "full_name": "rshipp/awesome-malware-analysis",
+        "description": "Defund the Police.",
+        "url": "https://github.com/rshipp/awesome-malware-analysis",
+        "homepage": "https://gazafunds.com/",
+        "language": null,
+        "stars": 13522,
+        "forks": 2662,
+        "open_issues": 24,
+        "created_at": "2015-05-09T03:39:28Z",
+        "updated_at": "2026-03-17T21:49:33Z",
+        "pushed_at": "2024-06-07T05:09:47Z",
+        "starred_at": "2016-11-17T16:09:03Z"
+      },
+      "last_updated": "2026-03-17T22:20:23.725866+00:00"
+    },
+    "rushter/MLAlgorithms": {
+      "lists": [],
+      "metadata": {
+        "id": 70036319,
+        "name": "MLAlgorithms",
+        "full_name": "rushter/MLAlgorithms",
+        "description": "Minimal and clean examples of machine learning algorithms implementations",
+        "url": "https://github.com/rushter/MLAlgorithms",
+        "homepage": "",
+        "language": "Python",
+        "stars": 10963,
+        "forks": 1760,
+        "open_issues": 10,
+        "created_at": "2016-10-05T06:46:45Z",
+        "updated_at": "2026-03-17T12:30:21Z",
+        "pushed_at": "2025-06-15T21:18:17Z",
+        "starred_at": "2016-11-15T15:19:14Z"
+      },
+      "last_updated": "2026-03-17T22:20:23.882752+00:00"
     }
   },
   "last_processed_index": 0
