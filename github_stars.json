@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:12:09.842922+00:00",
+  "last_updated": "2026-03-17T23:12:35.407691+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -31,7 +31,8 @@
     },
     "Siege-Perilous/counterslayer": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1161020024,
@@ -87,7 +88,8 @@
     "docker/mcp-gateway": {
       "lists": [
         "Docker and OCI containers",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 970603579,
@@ -345,7 +347,9 @@
       }
     },
     "knowsuchagency/mcp2cli": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1176469774,
         "name": "mcp2cli",
@@ -371,7 +375,8 @@
     },
     "open-gitagent/gitagent": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1165855406,
@@ -422,7 +427,9 @@
       }
     },
     "edenaion/EZ-CorridorKey": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1169478663,
         "name": "EZ-CorridorKey",
@@ -745,7 +752,9 @@
       }
     },
     "HKUDS/ViMax": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 957480611,
         "name": "ViMax",
@@ -770,7 +779,9 @@
       }
     },
     "HKUDS/CLI-Anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1176011916,
         "name": "CLI-Anything",
@@ -795,7 +806,9 @@
       }
     },
     "HKUDS/RAG-Anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 997220241,
         "name": "RAG-Anything",
@@ -824,7 +837,9 @@
       }
     },
     "HKUDS/LightRAG": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 866513204,
         "name": "LightRAG",
@@ -963,7 +978,9 @@
       }
     },
     "rtk-ai/rtk": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1139971460,
         "name": "rtk",
@@ -1258,7 +1275,8 @@
     },
     "eugene1g/agent-safehouse": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1153806672,
@@ -1337,7 +1355,8 @@
     },
     "es617/claude-replay": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1170431836,
@@ -1440,7 +1459,9 @@
       }
     },
     "phuryn/pm-skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1170266927,
         "name": "pm-skills",
@@ -1603,7 +1624,9 @@
       }
     },
     "manaflow-ai/cmux": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1144115288,
         "name": "cmux",
@@ -1808,7 +1831,9 @@
       }
     },
     "maderix/ANE": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1169170504,
         "name": "ANE",
@@ -1833,7 +1858,9 @@
       }
     },
     "bmad-code-org/BMAD-METHOD": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 965615190,
         "name": "BMAD-METHOD",
@@ -1859,7 +1886,8 @@
     },
     "Fission-AI/OpenSpec": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1032459340,
@@ -1887,7 +1915,8 @@
     "papercomputeco/tapes": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1135990494,
@@ -1966,7 +1995,9 @@
       }
     },
     "mksglu/context-mode": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1164477708,
         "name": "context-mode",
@@ -2072,7 +2103,9 @@
       }
     },
     "Frikallo/parakeet.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1166341098,
         "name": "parakeet.cpp",
@@ -2097,7 +2130,9 @@
       }
     },
     "THU-BPM/MarkLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 801547807,
         "name": "MarkLLM",
@@ -2173,7 +2208,9 @@
       }
     },
     "neonwatty/meme-search": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 812434636,
         "name": "meme-search",
@@ -2381,7 +2418,9 @@
       }
     },
     "huggingface/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1102903896,
         "name": "skills",
@@ -2432,7 +2471,8 @@
     },
     "badlogic/pi-mono": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1035029907,
@@ -2566,7 +2606,8 @@
     },
     "tnm/zclaw": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1159494869,
@@ -2592,7 +2633,9 @@
       }
     },
     "xaskasdf/ntransformer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1161267371,
         "name": "ntransformer",
@@ -2911,7 +2954,8 @@
     },
     "github/gh-aw": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1036865607,
@@ -3150,7 +3194,9 @@
       }
     },
     "2389-research/gsuite-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1110787822,
         "name": "gsuite-mcp",
@@ -3284,7 +3330,8 @@
     },
     "jasonjmcghee/WebMCP": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 942407303,
@@ -3338,7 +3385,8 @@
     },
     "webmachinelearning/webmcp": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1032542721,
@@ -3545,7 +3593,8 @@
     },
     "CloudSecurityAlliance/moltbook-skill": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1155532976,
@@ -3573,7 +3622,8 @@
     "CloudSecurityAlliance/openclaw-telemetry": {
       "lists": [
         "Infosec",
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1155511719,
@@ -3599,7 +3649,9 @@
       }
     },
     "CloudSecurityAlliance/openclaw-detect": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1155511688,
         "name": "openclaw-detect",
@@ -3651,7 +3703,9 @@
       }
     },
     "zai-org/GLM-OCR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1147992203,
         "name": "GLM-OCR",
@@ -3733,7 +3787,8 @@
     },
     "microsoft/playwright-cli": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 273562379,
@@ -3811,7 +3866,9 @@
       }
     },
     "Azure/PyRIT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 730753909,
         "name": "PyRIT",
@@ -3890,7 +3947,9 @@
       }
     },
     "antirez/voxtral.c": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1150763716,
         "name": "voxtral.c",
@@ -4054,7 +4113,8 @@
     "kalil0321/reverse-api-engineer": {
       "lists": [
         "API",
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1121759870,
@@ -4245,7 +4305,9 @@
       }
     },
     "roflcoopter/viseron": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 291498455,
         "name": "viseron",
@@ -4270,7 +4332,9 @@
       }
     },
     "HumanSignal/label-studio": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 192640529,
         "name": "label-studio",
@@ -4297,7 +4361,9 @@
       }
     },
     "CVHub520/X-AnyLabeling": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 644293378,
         "name": "X-AnyLabeling",
@@ -4324,7 +4390,9 @@
       }
     },
     "gradient-ai/YOLO": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 625018845,
         "name": "YOLO",
@@ -4976,7 +5044,9 @@
       }
     },
     "cisco-ai-defense/skill-scanner": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1144727401,
         "name": "skill-scanner",
@@ -5028,7 +5098,9 @@
       }
     },
     "deepseek-ai/DeepSeek-R1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 919443098,
         "name": "DeepSeek-R1",
@@ -5084,7 +5156,9 @@
       }
     },
     "bearspear/claude-takeout": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1136996994,
         "name": "claude-takeout",
@@ -5110,7 +5184,8 @@
     },
     "coleam00/second-brain-research-dashboard": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1146326676,
@@ -5269,7 +5344,9 @@
       }
     },
     "MODSetter/SurfSense": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 835975784,
         "name": "SurfSense",
@@ -6133,7 +6210,9 @@
       }
     },
     "Rust-GPU/rust-gpu": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 827357591,
         "name": "rust-gpu",
@@ -6186,7 +6265,8 @@
     },
     "steipete/mcporter": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1089959414,
@@ -6314,7 +6394,9 @@
       }
     },
     "divyaprakash0426/autoshorts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1140373611,
         "name": "autoshorts",
@@ -6364,7 +6446,9 @@
       }
     },
     "gsd-build/get-shit-done": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1116260703,
         "name": "get-shit-done",
@@ -6466,7 +6550,9 @@
       }
     },
     "corbindavenport/just-the-browser": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1129945442,
         "name": "just-the-browser",
@@ -6722,7 +6808,9 @@
       }
     },
     "intel/llm-scaler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1004769308,
         "name": "llm-scaler",
@@ -6747,7 +6835,9 @@
       }
     },
     "block/frfr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1082801828,
         "name": "frfr",
@@ -6922,7 +7012,9 @@
       }
     },
     "chunkhound/chunkhound": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 995920026,
         "name": "chunkhound",
@@ -7159,7 +7251,9 @@
       }
     },
     "shebe-oss/shebe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1123979025,
         "name": "shebe",
@@ -7184,7 +7278,9 @@
       }
     },
     "ed3dai/ed3d-plugins": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1134604756,
         "name": "ed3d-plugins",
@@ -7209,7 +7305,9 @@
       }
     },
     "cosinusalpha/webctl": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1133433983,
         "name": "webctl",
@@ -7259,7 +7357,9 @@
       }
     },
     "haykgrigo3/TimeCapsuleLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1012781500,
         "name": "TimeCapsuleLLM",
@@ -7576,7 +7676,9 @@
       }
     },
     "Puzer/github-repo-embeddings": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1124099789,
         "name": "github-repo-embeddings",
@@ -7601,7 +7703,9 @@
       }
     },
     "anomalyco/opencode": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 975734319,
         "name": "opencode",
@@ -7758,7 +7862,9 @@
       }
     },
     "chrisboden/mcp_template": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 930955710,
         "name": "mcp_template",
@@ -7810,7 +7916,9 @@
       }
     },
     "patchy631/ai-engineering-hub": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 876064934,
         "name": "ai-engineering-hub",
@@ -7835,7 +7943,9 @@
       }
     },
     "unslothai/notebooks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 900487856,
         "name": "notebooks",
@@ -8184,7 +8294,9 @@
       }
     },
     "wedow/ticket": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1126828714,
         "name": "ticket",
@@ -8209,7 +8321,9 @@
       }
     },
     "ulab-uiuc/LLMRouter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1071843152,
         "name": "LLMRouter",
@@ -8274,7 +8388,9 @@
       }
     },
     "dair-ai/Prompt-Engineering-Guide": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 579082810,
         "name": "Prompt-Engineering-Guide",
@@ -8411,7 +8527,9 @@
       }
     },
     "bornpresident/Volatility-MCP-Server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 957763517,
         "name": "Volatility-MCP-Server",
@@ -8959,7 +9077,8 @@
     },
     "Dicklesworthstone/beads_viewer": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1104804402,
@@ -9195,7 +9314,9 @@
       }
     },
     "NVIDIA/cuda-tile": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1090473997,
         "name": "cuda-tile",
@@ -9247,7 +9368,9 @@
       }
     },
     "VibiumDev/vibium": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1114840147,
         "name": "vibium",
@@ -9354,7 +9477,9 @@
       }
     },
     "pytorch/executorch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 463628495,
         "name": "executorch",
@@ -9917,7 +10042,9 @@
       }
     },
     "anthropics/claude-plugins-official": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1100776768,
         "name": "claude-plugins-official",
@@ -10017,7 +10144,9 @@
       }
     },
     "apple/ml-sharp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1114899133,
         "name": "ml-sharp",
@@ -10071,7 +10200,9 @@
       }
     },
     "agentskills/agentskills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1117639997,
         "name": "agentskills",
@@ -10248,7 +10379,9 @@
       }
     },
     "Lab700xOrg/aisbom": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1111526906,
         "name": "aisbom",
@@ -10298,7 +10431,9 @@
       }
     },
     "ghadinehme/VideoCAD": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1079441024,
         "name": "VideoCAD",
@@ -10480,7 +10615,8 @@
     },
     "musistudio/claude-code-router": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 938468965,
@@ -10531,7 +10667,9 @@
       }
     },
     "karpathy/micrograd": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 255231293,
         "name": "micrograd",
@@ -10556,7 +10694,9 @@
       }
     },
     "tinygrad/tinygrad": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 305144746,
         "name": "tinygrad",
@@ -10910,7 +11050,9 @@
       }
     },
     "danielmiessler/Personal_AI_Infrastructure": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1052845083,
         "name": "Personal_AI_Infrastructure",
@@ -11070,7 +11212,9 @@
       }
     },
     "g-l-i-t-c-h-o-r-s-e/SubScrape": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 999260972,
         "name": "SubScrape",
@@ -11336,7 +11480,9 @@
       }
     },
     "Vicomtech/video-content-description-VCD": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 244319188,
         "name": "video-content-description-VCD",
@@ -11361,7 +11507,9 @@
       }
     },
     "linjieli222/HERO_Video_Feature_Extractor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 317681559,
         "name": "HERO_Video_Feature_Extractor",
@@ -11392,7 +11540,9 @@
       }
     },
     "v-iashin/video_features": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 268593905,
         "name": "video_features",
@@ -11450,7 +11600,9 @@
       }
     },
     "ryanfox/video-to-sqlite": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 533604410,
         "name": "video-to-sqlite",
@@ -11475,7 +11627,9 @@
       }
     },
     "yunlong10/Awesome-LLMs-for-Video-Understanding": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 666960664,
         "name": "Awesome-LLMs-for-Video-Understanding",
@@ -11685,7 +11839,9 @@
       }
     },
     "kkahatapitiya/LangRepo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 774424112,
         "name": "LangRepo",
@@ -11714,7 +11870,9 @@
       }
     },
     "CeeZh/LLoVi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 734900603,
         "name": "LLoVi",
@@ -11744,7 +11902,9 @@
       }
     },
     "sherlockchou86/VideoPipe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 529094231,
         "name": "VideoPipe",
@@ -11769,7 +11929,9 @@
       }
     },
     "QwenLM/Qwen3-VL": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 849239437,
         "name": "Qwen3-VL",
@@ -11804,7 +11966,9 @@
       }
     },
     "dmlc/decord": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 166483718,
         "name": "decord",
@@ -11883,7 +12047,9 @@
       }
     },
     "Kitware/dive": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 219046251,
         "name": "dive",
@@ -11908,7 +12074,9 @@
       }
     },
     "VIAME/VIAME": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 65310972,
         "name": "VIAME",
@@ -11933,7 +12101,9 @@
       }
     },
     "insight-platform/Savant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 489591401,
         "name": "Savant",
@@ -12228,7 +12398,9 @@
       }
     },
     "anthropics/claude-cookbooks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 678973052,
         "name": "claude-cookbooks",
@@ -12383,7 +12555,8 @@
     },
     "poloclub/transformer-explainer": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 801763739,
@@ -12438,7 +12611,9 @@
       }
     },
     "npuichigo/openai_trtllm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 714889746,
         "name": "openai_trtllm",
@@ -12463,7 +12638,9 @@
       }
     },
     "NVIDIA/nccl": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 46153892,
         "name": "nccl",
@@ -12518,7 +12695,8 @@
     },
     "mikesmitty/file-search": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1101363787,
@@ -12852,7 +13030,9 @@
       }
     },
     "HandsOnLLM/Hands-On-Large-Language-Models": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 821372392,
         "name": "Hands-On-Large-Language-Models",
@@ -13187,7 +13367,9 @@
       }
     },
     "HazyResearch/HipKittens": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1087355826,
         "name": "HipKittens",
@@ -13272,7 +13454,8 @@
     },
     "f/git-rewrite-commits": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1093131244,
@@ -13381,7 +13564,9 @@
       }
     },
     "Motion-Project/motion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 20822620,
         "name": "motion",
@@ -13435,7 +13620,8 @@
     },
     "anthropic-experimental/sandbox-runtime": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1079560616,
@@ -13672,7 +13858,9 @@
       }
     },
     "unsplash/datasets": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 274497109,
         "name": "datasets",
@@ -13941,7 +14129,9 @@
       }
     },
     "microsoft/vscode-copilot-chat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 999686447,
         "name": "vscode-copilot-chat",
@@ -14019,7 +14209,9 @@
       }
     },
     "parca-dev/parca-agent": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 364992209,
         "name": "parca-agent",
@@ -14096,7 +14288,9 @@
       }
     },
     "withzombies/hyperpowers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1084508224,
         "name": "hyperpowers",
@@ -14147,7 +14341,8 @@
     },
     "vortex-data/vortex": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 764020969,
@@ -14201,7 +14396,8 @@
     },
     "7mind/sick": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 461297869,
@@ -14278,7 +14474,8 @@
     },
     "toon-format/toon": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1081397957,
@@ -14304,7 +14501,9 @@
       }
     },
     "obra/superpowers-developing-for-claude-code": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1080206224,
         "name": "superpowers-developing-for-claude-code",
@@ -14329,7 +14528,9 @@
       }
     },
     "obra/superpowers-marketplace": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1073224871,
         "name": "superpowers-marketplace",
@@ -14355,7 +14556,8 @@
     },
     "obra/superpowers-chrome": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1078592806,
@@ -14410,7 +14612,8 @@
     },
     "cisco-ai-defense/mcp-scanner": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1062952726,
@@ -14436,7 +14639,9 @@
       }
     },
     "apple/pico-banana-400k": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1080777367,
         "name": "pico-banana-400k",
@@ -14544,7 +14749,9 @@
       }
     },
     "meta-pytorch/tokenizers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 892924584,
         "name": "tokenizers",
@@ -14569,7 +14776,9 @@
       }
     },
     "meta-pytorch/torchcomms": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1080065885,
         "name": "torchcomms",
@@ -14646,7 +14855,8 @@
     "firebase/genkit": {
       "lists": [
         "GoLang",
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 793795224,
@@ -14803,7 +15013,9 @@
       }
     },
     "PKU-YuanGroup/Video-LLaVA": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 708655533,
         "name": "Video-LLaVA",
@@ -15079,7 +15291,9 @@
       }
     },
     "ryancnelson/deli-gator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1077036101,
         "name": "deli-gator",
@@ -15105,7 +15319,8 @@
     },
     "steveyegge/beads": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1074561042,
@@ -15235,7 +15450,9 @@
       }
     },
     "obra/superpowers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1073224795,
         "name": "superpowers",
@@ -15285,7 +15502,9 @@
       }
     },
     "CuriousLearner/devkit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1079528853,
         "name": "devkit",
@@ -15310,7 +15529,9 @@
       }
     },
     "deepseek-ai/DeepSeek-OCR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1078049937,
         "name": "DeepSeek-OCR",
@@ -15366,7 +15587,9 @@
       }
     },
     "ilya-zlobintsev/LACT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 304892612,
         "name": "LACT",
@@ -15499,7 +15722,9 @@
       }
     },
     "anthropics/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1061953414,
         "name": "skills",
@@ -15601,7 +15826,9 @@
       }
     },
     "tttapa/cross-pytorch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 799566738,
         "name": "cross-pytorch",
@@ -16418,7 +16645,9 @@
       }
     },
     "karpathy/nanochat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1075431749,
         "name": "nanochat",
@@ -16527,7 +16756,9 @@
       }
     },
     "intel/intel-extension-for-pytorch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 256061008,
         "name": "intel-extension-for-pytorch",
@@ -16552,7 +16783,9 @@
       }
     },
     "microsoft/edgeai-for-beginners": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1009652092,
         "name": "edgeai-for-beginners",
@@ -16920,7 +17153,9 @@
       }
     },
     "psalias2006/gpu-hot": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1070160746,
         "name": "gpu-hot",
@@ -17777,7 +18012,9 @@
       }
     },
     "sqliteai/sqlite-vector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 961916425,
         "name": "sqlite-vector",
@@ -17831,7 +18068,9 @@
       }
     },
     "deepfakes/faceswap": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 114747226,
         "name": "faceswap",
@@ -17857,7 +18096,8 @@
     },
     "cloudflare/vibesdk": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1044360605,
@@ -18174,7 +18414,9 @@
       }
     },
     "ndif-team/nnsight": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 707771473,
         "name": "nnsight",
@@ -18365,7 +18607,9 @@
       }
     },
     "taha-yassine/token-cli": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 960852965,
         "name": "token-cli",
@@ -19468,7 +19712,9 @@
       }
     },
     "BICLab/SpikingBrain-7B": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1049683969,
         "name": "SpikingBrain-7B",
@@ -19820,7 +20066,8 @@
     },
     "apecloud/ApeRAG": {
       "lists": [
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 656181752,
@@ -19878,7 +20125,8 @@
     "evilsocket/pwnagotchi": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 209556497,
@@ -20226,7 +20474,9 @@
       }
     },
     "brayevalerien/ComfyUI-resynthesizer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 877343954,
         "name": "ComfyUI-resynthesizer",
@@ -20278,7 +20528,9 @@
       }
     },
     "badlogic/cchistory": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1030976764,
         "name": "cchistory",
@@ -20539,7 +20791,9 @@
       }
     },
     "github/spec-kit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1042367133,
         "name": "spec-kit",
@@ -20670,7 +20924,9 @@
       }
     },
     "Adam-CAD/CADAM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1048601047,
         "name": "CADAM",
@@ -20989,7 +21245,9 @@
       }
     },
     "Tencent-Hunyuan/HunyuanWorld-Voyager": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1045509486,
         "name": "HunyuanWorld-Voyager",
@@ -21543,7 +21801,8 @@
     },
     "microsoft/dstoolkit-devcontainers": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 618205348,
@@ -21841,7 +22100,8 @@
     },
     "theori-io/aixcc-afc-archive": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1019798736,
@@ -21869,7 +22129,8 @@
     "BlueprintLabIO/prompt-injector": {
       "lists": [
         "Infosec",
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1046651854,
@@ -21895,7 +22156,9 @@
       }
     },
     "VectifyAI/PageIndex": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 958531089,
         "name": "PageIndex",
@@ -22034,7 +22297,9 @@
       }
     },
     "onestardao/WFGY": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 996124831,
         "name": "WFGY",
@@ -22317,7 +22582,8 @@
     },
     "flyteorg/flyte": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 216628419,
@@ -22370,7 +22636,9 @@
       }
     },
     "mafiosnik777/enhancr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 527555739,
         "name": "enhancr",
@@ -22812,7 +23080,9 @@
       }
     },
     "pbdeuchler/agentcontainers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1042217378,
         "name": "agentcontainers",
@@ -22892,7 +23162,8 @@
     },
     "milvus-io/milvus": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 208728772,
@@ -22921,7 +23192,9 @@
       }
     },
     "microsoft/graphrag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 778431525,
         "name": "graphrag",
@@ -23054,7 +23327,9 @@
       }
     },
     "aishwaryanr/awesome-generative-ai-guide": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 753750990,
         "name": "awesome-generative-ai-guide",
@@ -23158,7 +23433,9 @@
       }
     },
     "karpathy/rendergit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1041136312,
         "name": "rendergit",
@@ -23335,7 +23612,9 @@
       }
     },
     "trailofbits/anamorpher": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1041479763,
         "name": "anamorpher",
@@ -23360,7 +23639,9 @@
       }
     },
     "trailofbits/buttercup": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 916045259,
         "name": "buttercup",
@@ -23385,7 +23666,9 @@
       }
     },
     "trailofbits/mcp-context-protector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 974354158,
         "name": "mcp-context-protector",
@@ -23904,7 +24187,9 @@
       }
     },
     "threedle/ll3m": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1033321063,
         "name": "ll3m",
@@ -23929,7 +24214,9 @@
       }
     },
     "winfunc/opcode": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1004995740,
         "name": "opcode",
@@ -24008,7 +24295,9 @@
       }
     },
     "hangwin/mcp-chrome": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 998796026,
         "name": "mcp-chrome",
@@ -24215,7 +24504,9 @@
       }
     },
     "microsoft-foundry/foundry-samples": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 970996146,
         "name": "foundry-samples",
@@ -24269,7 +24560,8 @@
     "wiz-sec-public/secure-rules-files": {
       "lists": [
         "CI/CD",
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 996959611,
@@ -24295,7 +24587,9 @@
       }
     },
     "omnara-ai/omnara": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1016411413,
         "name": "omnara",
@@ -24420,7 +24714,9 @@
       }
     },
     "facebookresearch/faiss": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 81227005,
         "name": "faiss",
@@ -24506,7 +24802,9 @@
       }
     },
     "RichardAtCT/claude-code-openai-wrapper": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1012385189,
         "name": "claude-code-openai-wrapper",
@@ -24886,7 +25184,8 @@
     },
     "metorial/metorial-index": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 996697140,
@@ -24912,7 +25211,9 @@
       }
     },
     "NVIDIA/TensorRT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 184657328,
         "name": "TensorRT",
@@ -24937,7 +25238,9 @@
       }
     },
     "mem0ai/mem0": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 656099147,
         "name": "mem0",
@@ -24964,7 +25267,9 @@
       }
     },
     "openai/harmony": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1029817410,
         "name": "harmony",
@@ -25019,7 +25324,8 @@
     "awslabs/ai-on-eks": {
       "lists": [
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 952578139,
@@ -25205,7 +25511,9 @@
       }
     },
     "docling-project/docling": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 826168160,
         "name": "docling",
@@ -25348,7 +25656,9 @@
       }
     },
     "ggozad/haiku.rag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 872015964,
         "name": "haiku.rag",
@@ -25375,7 +25685,9 @@
       }
     },
     "asg017/sqlite-vec": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 789538509,
         "name": "sqlite-vec",
@@ -25427,7 +25739,9 @@
       }
     },
     "Geeksfino/kb-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 939909194,
         "name": "kb-mcp-server",
@@ -25452,7 +25766,9 @@
       }
     },
     "zilliztech/claude-context": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 997125912,
         "name": "claude-context",
@@ -25552,7 +25868,9 @@
       }
     },
     "kockie69/Visualizer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 476462499,
         "name": "Visualizer",
@@ -25577,7 +25895,9 @@
       }
     },
     "jujumilk3/leaked-system-prompts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 641205268,
         "name": "leaked-system-prompts",
@@ -25711,7 +26031,8 @@
     },
     "trailofbits/pajaMAS": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1013337845,
@@ -26002,7 +26323,9 @@
       }
     },
     "flesler/mcp-tasks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1021625336,
         "name": "mcp-tasks",
@@ -26107,7 +26430,9 @@
       }
     },
     "mozilla-ai/any-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1019609805,
         "name": "any-llm",
@@ -26132,7 +26457,9 @@
       }
     },
     "networkx/networkx": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 890377,
         "name": "networkx",
@@ -26157,7 +26484,9 @@
       }
     },
     "vibrantlabsai/ragas": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 637924634,
         "name": "ragas",
@@ -26424,7 +26753,9 @@
       }
     },
     "crewAIInc/crewAI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 710601088,
         "name": "crewAI",
@@ -26449,7 +26780,9 @@
       }
     },
     "getzep/graphiti": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 840056306,
         "name": "graphiti",
@@ -26476,7 +26809,9 @@
       }
     },
     "comet-ml/opik": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 638951438,
         "name": "opik",
@@ -26501,7 +26836,9 @@
       }
     },
     "rinadelph/Agent-MCP": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 982917344,
         "name": "Agent-MCP",
@@ -26554,7 +26891,9 @@
       }
     },
     "tracel-ai/burn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 515368123,
         "name": "burn",
@@ -26579,7 +26918,9 @@
       }
     },
     "Fyusion/LLFF": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 184649653,
         "name": "LLFF",
@@ -26633,7 +26974,9 @@
       }
     },
     "coleam00/mcp-mem0": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 965353278,
         "name": "mcp-mem0",
@@ -26658,7 +27001,9 @@
       }
     },
     "Wirasm/mcp-crawl4ai-rag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 997326064,
         "name": "mcp-crawl4ai-rag",
@@ -26683,7 +27028,9 @@
       }
     },
     "Wirasm/PRPs-agentic-eng": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1005961842,
         "name": "PRPs-agentic-eng",
@@ -26734,7 +27081,8 @@
     },
     "langgenius/dify": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 626805178,
@@ -26760,7 +27108,9 @@
       }
     },
     "qdrant/qdrant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 268163609,
         "name": "qdrant",
@@ -26785,7 +27135,9 @@
       }
     },
     "mindsdb/mindsdb": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 143328315,
         "name": "mindsdb",
@@ -26810,7 +27162,9 @@
       }
     },
     "Upsonic/Upsonic": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 806192576,
         "name": "Upsonic",
@@ -26836,7 +27190,8 @@
     },
     "Atonomy-AI/AtoRAG": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1016428430,
@@ -27052,7 +27407,9 @@
       }
     },
     "BeehiveInnovations/pal-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 998428732,
         "name": "pal-mcp-server",
@@ -27077,7 +27434,9 @@
       }
     },
     "trymirai/uzu": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1007360921,
         "name": "uzu",
@@ -27371,7 +27730,9 @@
       }
     },
     "coleam00/mcp-crawl4ai-rag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 977155585,
         "name": "mcp-crawl4ai-rag",
@@ -27396,7 +27757,9 @@
       }
     },
     "coleam00/local-ai-packaged": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 933862859,
         "name": "local-ai-packaged",
@@ -27422,7 +27785,8 @@
     },
     "coleam00/remote-mcp-server-with-auth": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1016191343,
@@ -27448,7 +27812,9 @@
       }
     },
     "slowmist/MCP-Security-Checklist": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 965174988,
         "name": "MCP-Security-Checklist",
@@ -27474,7 +27840,8 @@
     },
     "weaviate/weaviate": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 55072677,
@@ -27500,7 +27867,9 @@
       }
     },
     "nkapila6/mcp-local-rag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 947802631,
         "name": "mcp-local-rag",
@@ -27860,7 +28229,9 @@
       }
     },
     "agno-agi/agno": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 488641606,
         "name": "agno",
@@ -27885,7 +28256,9 @@
       }
     },
     "OpenPipe/ART": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 946178371,
         "name": "ART",
@@ -28051,7 +28424,8 @@
     },
     "MiguelsPizza/WebMCP": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1001283156,
@@ -28077,7 +28451,9 @@
       }
     },
     "BoundaryML/baml": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 701494311,
         "name": "baml",
@@ -28286,7 +28662,8 @@
     },
     "indragiek/Context": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1008713200,
@@ -28312,7 +28689,9 @@
       }
     },
     "ROCm/TheRock": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 765605091,
         "name": "TheRock",
@@ -28470,7 +28849,9 @@
       }
     },
     "MrLesk/Backlog.md": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 996329491,
         "name": "Backlog.md",
@@ -28497,7 +28878,8 @@
     "terryso/claude-auto-resume": {
       "lists": [
         "Bash",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1014448317,
@@ -28578,7 +28960,8 @@
     },
     "neeltom92/eagle-eye-mcp": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1012291623,
@@ -28711,7 +29094,9 @@
       }
     },
     "marv1nnnnn/llm-min.txt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 973601138,
         "name": "llm-min.txt",
@@ -28764,7 +29149,8 @@
     },
     "anthropics/claude-code": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 937253475,
@@ -28790,7 +29176,9 @@
       }
     },
     "unslothai/unsloth": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 725205304,
         "name": "unsloth",
@@ -28818,7 +29206,8 @@
     },
     "RedPlanetHQ/core": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 991092853,
@@ -28921,7 +29310,9 @@
       }
     },
     "deepbeepmeep/mmgp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 901866226,
         "name": "mmgp",
@@ -29002,7 +29393,8 @@
     "smtg-ai/claude-squad": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 945605057,
@@ -29082,7 +29474,9 @@
       }
     },
     "oraios/serena": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 953683578,
         "name": "serena",
@@ -29188,7 +29582,9 @@
       }
     },
     "amranu/cli-agent": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1005790289,
         "name": "cli-agent",
@@ -29268,7 +29664,8 @@
     },
     "lobehub/lobehub": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 643445235,
@@ -29294,7 +29691,9 @@
       }
     },
     "M4THYOU/TokenDagger": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1006651266,
         "name": "TokenDagger",
@@ -29319,7 +29718,9 @@
       }
     },
     "punkpeye/awesome-mcp-servers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 896335270,
         "name": "awesome-mcp-servers",
@@ -29344,7 +29745,9 @@
       }
     },
     "kagisearch/kagimcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 902662933,
         "name": "kagimcp",
@@ -29394,7 +29797,9 @@
       }
     },
     "ray-project/ray": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 71932349,
         "name": "ray",
@@ -29450,7 +29855,9 @@
       }
     },
     "katanemo/plano": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 826498000,
         "name": "plano",
@@ -29661,7 +30068,8 @@
     },
     "RayFernando1337/LLM-Calc": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 792863435,
@@ -29713,7 +30121,8 @@
     },
     "google-gemini/gemini-cli": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 968197216,
@@ -29792,7 +30201,8 @@
     },
     "amantus-ai/llm-codes": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1001934624,
@@ -29818,7 +30228,9 @@
       }
     },
     "basetenlabs/truss": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 511003180,
         "name": "truss",
@@ -29843,7 +30255,9 @@
       }
     },
     "VectorSpaceLab/OmniGen2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 997256882,
         "name": "OmniGen2",
@@ -29983,7 +30397,9 @@
       }
     },
     "ryoppippi/ccusage": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 992755069,
         "name": "ccusage",
@@ -30033,7 +30449,9 @@
       }
     },
     "letta-ai/letta-leaderboard": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 985049279,
         "name": "letta-leaderboard",
@@ -30196,7 +30614,9 @@
       }
     },
     "LMCache/LMCache": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 807305060,
         "name": "LMCache",
@@ -30226,7 +30646,9 @@
       }
     },
     "magenta/magenta-realtime": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1001012484,
         "name": "magenta-realtime",
@@ -30280,7 +30702,9 @@
       }
     },
     "upstash/context7": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 955620917,
         "name": "context7",
@@ -30305,7 +30729,9 @@
       }
     },
     "daytonaio/daytona": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 753490180,
         "name": "daytona",
@@ -30330,7 +30756,9 @@
       }
     },
     "babelcloud/gbox": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 951033363,
         "name": "gbox",
@@ -30355,7 +30783,9 @@
       }
     },
     "mcpjungle/MCPJungle": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 984119889,
         "name": "MCPJungle",
@@ -30380,7 +30810,9 @@
       }
     },
     "browserable/browserable": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 962079433,
         "name": "browserable",
@@ -30486,7 +30918,9 @@
       }
     },
     "MervinPraison/PraisonAI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 774497032,
         "name": "PraisonAI",
@@ -30511,7 +30945,9 @@
       }
     },
     "mcp-use/mcp-use": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 956472076,
         "name": "mcp-use",
@@ -30536,7 +30972,9 @@
       }
     },
     "mit-han-lab/TinyChatEngine": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 644799767,
         "name": "TinyChatEngine",
@@ -30617,7 +31055,8 @@
     "hashicorp/terraform-mcp-server": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 969282615,
@@ -30644,7 +31083,8 @@
     },
     "github/github-mcp-server": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 942771284,
@@ -30672,7 +31112,8 @@
     "anthropics/devcontainer-features": {
       "lists": [
         "Docker and OCI containers",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 941826422,
@@ -30699,7 +31140,8 @@
     },
     "openai/codex": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 965415649,
@@ -30752,7 +31194,9 @@
       }
     },
     "seanpoyner/claude-desktop-mcp-playground": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 994277924,
         "name": "claude-desktop-mcp-playground",
@@ -30913,7 +31357,9 @@
       }
     },
     "webrecorder/archiveweb.page": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 239604498,
         "name": "archiveweb.page",
@@ -30939,7 +31385,8 @@
     },
     "webrecorder/browsertrix": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 381178875,
@@ -30965,7 +31412,9 @@
       }
     },
     "internetarchive/warcprox": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 13874432,
         "name": "warcprox",
@@ -30990,7 +31439,9 @@
       }
     },
     "internetarchive/brozzler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 39043260,
         "name": "brozzler",
@@ -31015,7 +31466,9 @@
       }
     },
     "yousef-rafat/miniDiffusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 944540873,
         "name": "miniDiffusion",
@@ -31092,7 +31545,9 @@
       }
     },
     "steipete/agent-rules": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1000814478,
         "name": "agent-rules",
@@ -31117,7 +31572,9 @@
       }
     },
     "firecrawl/firecrawl": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 787076358,
         "name": "firecrawl",
@@ -31198,7 +31655,9 @@
       }
     },
     "deepset-ai/hayhooks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 734975513,
         "name": "hayhooks",
@@ -31223,7 +31682,9 @@
       }
     },
     "apache/hamilton": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 605682921,
         "name": "hamilton",
@@ -31251,7 +31712,9 @@
       }
     },
     "apache/burr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 750069596,
         "name": "burr",
@@ -31304,7 +31767,9 @@
       }
     },
     "letta-ai/letta": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 703411624,
         "name": "letta",
@@ -31384,7 +31849,8 @@
     },
     "Lspace-io/lspace-server": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 992756892,
@@ -31410,7 +31876,9 @@
       }
     },
     "jjsantos01/jupyter-notebook-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 955540579,
         "name": "jupyter-notebook-mcp",
@@ -31435,7 +31903,9 @@
       }
     },
     "GongRzhe/Human-In-the-Loop-MCP-Server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 990549334,
         "name": "Human-In-the-Loop-MCP-Server",
@@ -31461,7 +31931,8 @@
     },
     "GongRzhe/APIWeaver": {
       "lists": [
-        "API"
+        "API",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 965866617,
@@ -31488,7 +31959,8 @@
     },
     "GreatScottyMac/context-portal": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 977795489,
@@ -31514,7 +31986,9 @@
       }
     },
     "topoteretes/cognee": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 679343504,
         "name": "cognee",
@@ -31543,7 +32017,9 @@
       }
     },
     "peless/claude-thread-continuity": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 998065006,
         "name": "claude-thread-continuity",
@@ -31568,7 +32044,9 @@
       }
     },
     "basicmachines-co/basic-memory": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 897595329,
         "name": "basic-memory",
@@ -31593,7 +32071,9 @@
       }
     },
     "neo4j-contrib/mcp-neo4j": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 897992568,
         "name": "mcp-neo4j",
@@ -31619,7 +32099,8 @@
     },
     "david-strejc/cldmemory": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 998653497,
@@ -31783,7 +32264,8 @@
     },
     "eyaltoledano/claude-task-master": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 942837343,
@@ -31809,7 +32291,9 @@
       }
     },
     "modelcontextprotocol/inspector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 867337374,
         "name": "inspector",
@@ -31834,7 +32318,9 @@
       }
     },
     "modelcontextprotocol/modelcontextprotocol": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 862570523,
         "name": "modelcontextprotocol",
@@ -31886,7 +32372,9 @@
       }
     },
     "coderamp-labs/gitingest": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 895942941,
         "name": "gitingest",
@@ -31911,7 +32399,9 @@
       }
     },
     "apple/coremltools": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 95862535,
         "name": "coremltools",
@@ -32078,7 +32568,8 @@
     },
     "EvanCarroll/claude-podman": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 976363475,
@@ -32106,7 +32597,8 @@
     "RchGrav/claudebox": {
       "lists": [
         "Docker and OCI containers",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 997659566,
@@ -32132,7 +32624,9 @@
       }
     },
     "Muvon/octocode": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 994165011,
         "name": "octocode",
@@ -32207,7 +32701,9 @@
       }
     },
     "boldsoftware/sketch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 959470185,
         "name": "sketch",
@@ -32257,7 +32753,9 @@
       }
     },
     "sharath29/cline-memory-bank": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 944858097,
         "name": "cline-memory-bank",
@@ -32359,7 +32857,9 @@
       }
     },
     "collidingScopes/3d-model-playground": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 995379598,
         "name": "3d-model-playground",
@@ -32677,7 +33177,9 @@
       }
     },
     "huggingface/xet-core": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 855423236,
         "name": "xet-core",
@@ -32729,7 +33231,9 @@
       }
     },
     "decoderesearch/circuit-tracer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 992197344,
         "name": "circuit-tracer",
@@ -32912,7 +33416,9 @@
       }
     },
     "codelion/pts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 976377835,
         "name": "pts",
@@ -33525,7 +34031,9 @@
       }
     },
     "ML-GSAI/LLaDA": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 932356580,
         "name": "LLaDA",
@@ -33694,7 +34202,9 @@
       }
     },
     "habedi/cogitator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 974969380,
         "name": "cogitator",
@@ -34158,7 +34668,9 @@
       }
     },
     "containers/ramalama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 833306239,
         "name": "ramalama",
@@ -34472,7 +34984,9 @@
       }
     },
     "hllllkkkkkk/Moving-Object-Detector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 685102252,
         "name": "Moving-Object-Detector",
@@ -34497,7 +35011,9 @@
       }
     },
     "apple/ml-fastvlm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 976325482,
         "name": "ml-fastvlm",
@@ -35176,7 +35692,9 @@
       }
     },
     "asgeirtj/system_prompts_leaks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 976921297,
         "name": "system_prompts_leaks",
@@ -35307,7 +35825,9 @@
       }
     },
     "wsargent/groundedllm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 958116908,
         "name": "groundedllm",
@@ -35361,7 +35881,9 @@
       }
     },
     "Foreseerr/TScale": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 912961342,
         "name": "TScale",
@@ -35441,7 +35963,8 @@
     },
     "Anemll/Anemll": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 912587006,
@@ -35608,7 +36131,8 @@
     },
     "andreaostuni/opengl": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 587906656,
@@ -35660,7 +36184,8 @@
     },
     "intel/iaprof": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 974455932,
@@ -35843,7 +36368,9 @@
       }
     },
     "snyk/agent-scan": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 962024783,
         "name": "agent-scan",
@@ -36002,7 +36529,9 @@
       }
     },
     "skyzh/tiny-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 969286259,
         "name": "tiny-llm",
@@ -36571,7 +37100,8 @@
     },
     "jina-ai/reader": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 784546140,
@@ -36597,7 +37127,9 @@
       }
     },
     "cocoindex-io/cocoindex": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 942312530,
         "name": "cocoindex",
@@ -36960,7 +37492,9 @@
       }
     },
     "The-Pocket/PocketFlow": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 907624056,
         "name": "PocketFlow",
@@ -37037,7 +37571,9 @@
       }
     },
     "intel/AI-Playground": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 826984591,
         "name": "AI-Playground",
@@ -37089,7 +37625,9 @@
       }
     },
     "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 959473422,
         "name": "PocketFlow-Tutorial-Codebase-Knowledge",
@@ -37771,7 +38309,9 @@
       }
     },
     "deepseek-ai/open-infra-index": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 936395702,
         "name": "open-infra-index",
@@ -37799,7 +38339,9 @@
       }
     },
     "run-llama/llama_index": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 560704231,
         "name": "llama_index",
@@ -37959,7 +38501,9 @@
       }
     },
     "Rust-GPU/rust-cuda": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 418282394,
         "name": "rust-cuda",
@@ -38585,7 +39129,8 @@
     },
     "BrowserMCP/mcp": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 956283541,
@@ -38693,7 +39238,9 @@
       }
     },
     "OpenRouterTeam/openrouter-runner": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 686132938,
         "name": "openrouter-runner",
@@ -38718,7 +39265,9 @@
       }
     },
     "OpenRouterTeam/open-deep-research": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 927337651,
         "name": "open-deep-research",
@@ -38743,7 +39292,9 @@
       }
     },
     "OpenRouterTeam/ai-sdk-provider": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 830375401,
         "name": "ai-sdk-provider",
@@ -38795,7 +39346,9 @@
       }
     },
     "Niek/chatgpt-web": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 608780941,
         "name": "chatgpt-web",
@@ -38930,7 +39483,8 @@
     "idosal/git-mcp": {
       "lists": [
         "API",
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 956842312,
@@ -39147,7 +39701,9 @@
       }
     },
     "jmgirard/honeypot": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 900065600,
         "name": "honeypot",
@@ -39280,7 +39836,9 @@
       }
     },
     "rashidazarang/chatgpt-chat-exporter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 954396456,
         "name": "chatgpt-chat-exporter",
@@ -39524,7 +40082,9 @@
       }
     },
     "traceloop/openllmetry": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 686364232,
         "name": "openllmetry",
@@ -39603,7 +40163,9 @@
       }
     },
     "kevmo314/scuda": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 848600003,
         "name": "scuda",
@@ -39628,7 +40190,9 @@
       }
     },
     "microsoft/playwright-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 952688112,
         "name": "playwright-mcp",
@@ -39890,7 +40454,9 @@
       }
     },
     "AMD-AGI/Instella": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 940243090,
         "name": "Instella",
@@ -40029,7 +40595,9 @@
       }
     },
     "onnx/turnkeyml": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 725429681,
         "name": "turnkeyml",
@@ -40055,7 +40623,8 @@
     },
     "hyperbrowserai/mcp": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 938957096,
@@ -40081,7 +40650,9 @@
       }
     },
     "amd/gaia": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 903960898,
         "name": "gaia",
@@ -40106,7 +40677,9 @@
       }
     },
     "Wan-Video/Wan2.1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 938717878,
         "name": "Wan2.1",
@@ -40370,7 +40943,9 @@
       }
     },
     "HumainLabs/claude-chatgpt-backup-extension": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 948638793,
         "name": "claude-chatgpt-backup-extension",
@@ -40864,7 +41439,9 @@
       }
     },
     "CMU-Perceptual-Computing-Lab/openpose": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 89247811,
         "name": "openpose",
@@ -40899,7 +41476,9 @@
       }
     },
     "tenxlenx/GpuDct": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 684013928,
         "name": "GpuDct",
@@ -40924,7 +41503,9 @@
       }
     },
     "andrewmm511/Cuda-pHash": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 915748281,
         "name": "Cuda-pHash",
@@ -41219,7 +41800,9 @@
       }
     },
     "johnbean393/Sidekick": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 869881190,
         "name": "Sidekick",
@@ -41244,7 +41827,9 @@
       }
     },
     "multimodal-art-projection/YuE": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 920995232,
         "name": "YuE",
@@ -41299,7 +41884,9 @@
       }
     },
     "kuzudb/kuzu": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 298763623,
         "name": "kuzu",
@@ -41324,7 +41911,9 @@
       }
     },
     "mbilker/vgpu_unlock-rs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 407464445,
         "name": "vgpu_unlock-rs",
@@ -41374,7 +41963,9 @@
       }
     },
     "Cinnamon/kotaemon": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 777111718,
         "name": "kotaemon",
@@ -41454,7 +42045,8 @@
     },
     "DonTizi/rlama": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 943027712,
@@ -41586,7 +42178,9 @@
       }
     },
     "ixlab/vidformer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 842723851,
         "name": "vidformer",
@@ -41668,7 +42262,8 @@
     },
     "signerlabs/Klee": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 939749593,
@@ -41694,7 +42289,9 @@
       }
     },
     "Alkali-Sim/SmartestKid": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 941840990,
         "name": "SmartestKid",
@@ -41719,7 +42316,9 @@
       }
     },
     "wild-card-ai/agents-json": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 924733941,
         "name": "agents-json",
@@ -41826,7 +42425,9 @@
       }
     },
     "langfuse/oss-llmops-stack": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 929486770,
         "name": "oss-llmops-stack",
@@ -41851,7 +42452,9 @@
       }
     },
     "salesforce/Merlion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 390401992,
         "name": "Merlion",
@@ -41934,7 +42537,9 @@
       }
     },
     "allenai/olmocr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 858798469,
         "name": "olmocr",
@@ -42153,7 +42758,9 @@
       }
     },
     "deepseek-ai/DeepGEMM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 932038801,
         "name": "DeepGEMM",
@@ -42178,7 +42785,9 @@
       }
     },
     "Novecento99/Holophonor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 928917444,
         "name": "Holophonor",
@@ -42203,7 +42812,9 @@
       }
     },
     "deepseek-ai/DeepSeek-V3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 908531752,
         "name": "DeepSeek-V3",
@@ -42232,7 +42843,9 @@
       }
     },
     "deepseek-ai/DeepEP": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 933928679,
         "name": "DeepEP",
@@ -42260,7 +42873,8 @@
     },
     "yamadashy/repomix": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 828119367,
@@ -42528,7 +43142,9 @@
       }
     },
     "lmcinnes/umap": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 95995403,
         "name": "umap",
@@ -42699,7 +43315,9 @@
       }
     },
     "nunchaku-ai/nunchaku": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 884123664,
         "name": "nunchaku",
@@ -42792,7 +43410,9 @@
       }
     },
     "therealoliver/Deepdive-llama3-from-scratch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 935453448,
         "name": "Deepdive-llama3-from-scratch",
@@ -43088,7 +43708,9 @@
       }
     },
     "dhealy05/frames_of_mind": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 932431071,
         "name": "frames_of_mind",
@@ -43273,7 +43895,9 @@
       }
     },
     "openvinotoolkit/openvino_notebooks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 346639494,
         "name": "openvino_notebooks",
@@ -43298,7 +43922,9 @@
       }
     },
     "facebookresearch/demucs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 217436984,
         "name": "demucs",
@@ -43333,7 +43959,9 @@
       }
     },
     "intel/openvino-plugins-ai-audacity": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 688195394,
         "name": "openvino-plugins-ai-audacity",
@@ -43391,7 +44019,8 @@
     },
     "JetsonHacksNano/bootFromUSB": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 345271029,
@@ -43417,7 +44046,9 @@
       }
     },
     "microsoft/OmniParser": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 860252770,
         "name": "OmniParser",
@@ -43473,7 +44104,9 @@
       }
     },
     "kreuzberg-dev/kreuzberg": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 925434317,
         "name": "kreuzberg",
@@ -43553,7 +44186,9 @@
       }
     },
     "pAI-OS/paios": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 829056489,
         "name": "paios",
@@ -43578,7 +44213,9 @@
       }
     },
     "OpenVoiceOS/ovos-buildroot": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 155408801,
         "name": "ovos-buildroot",
@@ -43603,7 +44240,9 @@
       }
     },
     "OCR4all/OCR4all": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 167159229,
         "name": "OCR4all",
@@ -43630,7 +44269,9 @@
       }
     },
     "warmshao/FasterLivePortrait": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 828587680,
         "name": "FasterLivePortrait",
@@ -43655,7 +44296,9 @@
       }
     },
     "lllyasviel/stable-diffusion-webui-forge": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 743116659,
         "name": "stable-diffusion-webui-forge",
@@ -44414,7 +45057,9 @@
       }
     },
     "Pravko-Solutions/FlashLearn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 917748781,
         "name": "FlashLearn",
@@ -45073,7 +45718,9 @@
       }
     },
     "huggingface/smolagents": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 898968194,
         "name": "smolagents",
@@ -45127,7 +45774,9 @@
       }
     },
     "hollowaykeanho/Upscaler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 633822652,
         "name": "Upscaler",
@@ -45309,7 +45958,9 @@
       }
     },
     "Seprentes/ScaleUp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 671657637,
         "name": "ScaleUp",
@@ -45388,7 +46039,9 @@
       }
     },
     "block/goose": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 846698999,
         "name": "goose",
@@ -45438,7 +46091,9 @@
       }
     },
     "pomoke/torch-apu-helper": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 671009772,
         "name": "torch-apu-helper",
@@ -45620,7 +46275,9 @@
       }
     },
     "Mirascope/mirascope": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 727495773,
         "name": "mirascope",
@@ -45670,7 +46327,9 @@
       }
     },
     "thomasahle/tensorgrad": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 781088863,
         "name": "tensorgrad",
@@ -46186,7 +46845,8 @@
     },
     "huggingface/transformers.js-examples": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 841397199,
@@ -46212,7 +46872,9 @@
       }
     },
     "scikit-learn/scikit-learn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 843222,
         "name": "scikit-learn",
@@ -46506,7 +47168,8 @@
     },
     "antmicro/m2-smart-iot-module": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 395038566,
@@ -46851,7 +47514,9 @@
       }
     },
     "Tsadoq/ErisForge": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 873846133,
         "name": "ErisForge",
@@ -47321,7 +47986,8 @@
     },
     "ggml-org/llama.vscode": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 912789210,
@@ -47458,7 +48124,9 @@
       }
     },
     "Tencent-Hunyuan/Hunyuan3D-2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 919835586,
         "name": "Hunyuan3D-2",
@@ -47518,7 +48186,9 @@
       }
     },
     "picahq/pica": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 782597014,
         "name": "pica",
@@ -47595,7 +48265,8 @@
     "jjcm/llmpeg": {
       "lists": [
         "FFmpeg",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 916911236,
@@ -48426,7 +49097,8 @@
     },
     "browserbase/stagehand": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 776908852,
@@ -48477,7 +49149,9 @@
       }
     },
     "Dealizey/subtitle_translate_with_LLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 831610717,
         "name": "subtitle_translate_with_LLM",
@@ -48502,7 +49176,9 @@
       }
     },
     "Inokinoki/ai-no-jimaku-gumi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 901565839,
         "name": "ai-no-jimaku-gumi",
@@ -48577,7 +49253,9 @@
       }
     },
     "lights0123/hipscript": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 905516369,
         "name": "hipscript",
@@ -48783,7 +49461,8 @@
     },
     "danny-avila/LibreChat": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 600596928,
@@ -48884,7 +49563,9 @@
       }
     },
     "MindPal-Space/awesome-free-ai-tool": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 795433181,
         "name": "awesome-free-ai-tool",
@@ -48909,7 +49590,9 @@
       }
     },
     "ai-boost/awesome-prompts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 745546184,
         "name": "awesome-prompts",
@@ -48973,7 +49656,9 @@
       }
     },
     "browser-use/browser-use": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 881458615,
         "name": "browser-use",
@@ -49180,7 +49865,9 @@
       }
     },
     "mahseema/awesome-ai-tools": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 683212753,
         "name": "awesome-ai-tools",
@@ -49206,7 +49893,8 @@
     },
     "web-infra-dev/midscene": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 832452447,
@@ -49287,7 +49975,8 @@
     },
     "armbues/SiLLM": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 742061877,
@@ -49314,7 +50003,8 @@
     },
     "riccardomusmeci/mlx-llm": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 728758093,
@@ -49503,7 +50193,9 @@
       }
     },
     "Lightning-AI/litgpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 636372163,
         "name": "litgpt",
@@ -49707,7 +50399,9 @@
       }
     },
     "OpenSPG/KAG": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 860912552,
         "name": "KAG",
@@ -50285,7 +50979,9 @@
       }
     },
     "exo-explore/exo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 819554665,
         "name": "exo",
@@ -50310,7 +51006,9 @@
       }
     },
     "abeleinin/Metal-Puzzles": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 855567211,
         "name": "Metal-Puzzles",
@@ -50335,7 +51033,9 @@
       }
     },
     "FlyingFireCo/tiled_ksampler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 677742110,
         "name": "tiled_ksampler",
@@ -50626,7 +51326,9 @@
       }
     },
     "fudan-generative-vision/champ": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 773229604,
         "name": "champ",
@@ -50812,7 +51514,9 @@
       }
     },
     "Brandon-c-tech/RAG-logger": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 906884305,
         "name": "RAG-logger",
@@ -50837,7 +51541,9 @@
       }
     },
     "princeton-vl/infinigen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 654905384,
         "name": "infinigen",
@@ -51143,7 +51849,9 @@
       }
     },
     "openvinotoolkit/openvino": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 153097643,
         "name": "openvino",
@@ -51168,7 +51876,9 @@
       }
     },
     "WebAssembly/wasi-nn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 263765444,
         "name": "wasi-nn",
@@ -51219,7 +51929,8 @@
     },
     "openai/openai-realtime-embedded": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 888689565,
@@ -51300,7 +52011,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 221778368,
@@ -51733,7 +52445,9 @@
       }
     },
     "hao-ai-lab/FastVideo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 877649153,
         "name": "FastVideo",
@@ -51788,7 +52502,9 @@
       }
     },
     "langfuse/langfuse": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 642497346,
         "name": "langfuse",
@@ -51949,7 +52665,9 @@
       }
     },
     "facebookresearch/Ego4d": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 431206320,
         "name": "Ego4d",
@@ -51977,7 +52695,9 @@
       }
     },
     "facebookresearch/videoseal": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 895245856,
         "name": "videoseal",
@@ -52012,7 +52732,9 @@
       }
     },
     "facebookresearch/SONAR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 673526020,
         "name": "SONAR",
@@ -52335,7 +53057,9 @@
       }
     },
     "Francis-Rings/StableAnimator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 894346372,
         "name": "StableAnimator",
@@ -52416,7 +53140,9 @@
       }
     },
     "ChenDarYen/NitroFusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 901267662,
         "name": "NitroFusion",
@@ -52445,7 +53171,9 @@
       }
     },
     "microsoft/TRELLIS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 897148306,
         "name": "TRELLIS",
@@ -52685,7 +53413,9 @@
       }
     },
     "Vidvox/ISF-Files": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 154378604,
         "name": "ISF-Files",
@@ -52737,7 +53467,9 @@
       }
     },
     "EleutherAI/cookbook": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 734117107,
         "name": "cookbook",
@@ -52924,7 +53656,9 @@
       }
     },
     "yoeven/ai-video-search-engine": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 723397986,
         "name": "ai-video-search-engine",
@@ -53706,7 +54440,9 @@
       }
     },
     "dmarx/ComfyUI-Keyframed": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 727415389,
         "name": "ComfyUI-Keyframed",
@@ -53732,7 +54468,8 @@
     },
     "dmarx/ai-gha": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 877541111,
@@ -54149,7 +54886,9 @@
       }
     },
     "towhee-io/towhee": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 385532537,
         "name": "towhee",
@@ -54224,7 +54963,9 @@
       }
     },
     "google-ai-edge/mediapipe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 191820100,
         "name": "mediapipe",
@@ -54251,7 +54992,9 @@
       }
     },
     "gabrielelanzafamee/viral-clips-extractor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 693379996,
         "name": "viral-clips-extractor",
@@ -54276,7 +55019,9 @@
       }
     },
     "BlueBash/Autogen_Video_Refinement": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 790607898,
         "name": "Autogen_Video_Refinement",
@@ -54301,7 +55046,9 @@
       }
     },
     "realwarpie/shortfactory": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 889562722,
         "name": "shortfactory",
@@ -54326,7 +55073,9 @@
       }
     },
     "ae9is/ezsam": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 740798129,
         "name": "ezsam",
@@ -54351,7 +55100,9 @@
       }
     },
     "FolhaSP/mosaico": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 888701975,
         "name": "mosaico",
@@ -54376,7 +55127,9 @@
       }
     },
     "neezr/AI-Media-Pool-Sorter-for-DaVinci-Resolve": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 791971561,
         "name": "AI-Media-Pool-Sorter-for-DaVinci-Resolve",
@@ -54401,7 +55154,9 @@
       }
     },
     "google-marketing-solutions/vigenair": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 797524842,
         "name": "vigenair",
@@ -54426,7 +55181,9 @@
       }
     },
     "HectorPulido/Youtubers-toolkit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 256681828,
         "name": "Youtubers-toolkit",
@@ -54453,7 +55210,8 @@
     "HymEric/AIWebMatting": {
       "lists": [
         "Docker and OCI containers",
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 220653809,
@@ -54479,7 +55237,9 @@
       }
     },
     "HymEric/Segmentation-Series-Chaos": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 196127407,
         "name": "Segmentation-Series-Chaos",
@@ -55026,7 +55786,9 @@
       }
     },
     "abus-aikorea/voice-pro": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 835174033,
         "name": "voice-pro",
@@ -55478,7 +56240,9 @@
       }
     },
     "modelcontextprotocol/servers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 890668799,
         "name": "servers",
@@ -55655,7 +56419,9 @@
       }
     },
     "huggingface/smollm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 883143171,
         "name": "smollm",
@@ -55791,7 +56557,9 @@
       }
     },
     "mayeaux/generate-subtitles": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 562525046,
         "name": "generate-subtitles",
@@ -55816,7 +56584,9 @@
       }
     },
     "m1guelpf/auto-subtitle": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 542349171,
         "name": "auto-subtitle",
@@ -55896,7 +56666,9 @@
       }
     },
     "AnswerDotAI/llms-txt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 850496504,
         "name": "llms-txt",
@@ -55948,7 +56720,9 @@
       }
     },
     "PaulPauls/llama3_interpretability_sae": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 892179639,
         "name": "llama3_interpretability_sae",
@@ -56275,7 +57049,8 @@
     },
     "tmc/langchaingo": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 603535454,
@@ -56382,7 +57157,9 @@
       }
     },
     "f/prompts.chat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 574523116,
         "name": "prompts.chat",
@@ -56407,7 +57184,9 @@
       }
     },
     "DocumindHQ/documind": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 889684712,
         "name": "documind",
@@ -56538,7 +57317,9 @@
       }
     },
     "circlemind-ai/fast-graphrag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 880986730,
         "name": "fast-graphrag",
@@ -56747,7 +57528,9 @@
       }
     },
     "arkohut/pensieve": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 806342999,
         "name": "pensieve",
@@ -56772,7 +57555,9 @@
       }
     },
     "NVIDIA/garak": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 639097338,
         "name": "garak",
@@ -56958,7 +57743,9 @@
       }
     },
     "Nutlope/llama-ocr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 886992639,
         "name": "llama-ocr",
@@ -57408,7 +58195,9 @@
       }
     },
     "LiheYoung/Depth-Anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 746430967,
         "name": "Depth-Anything",
@@ -57537,7 +58326,9 @@
       }
     },
     "facebookresearch/watermark-anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 886961378,
         "name": "watermark-anything",
@@ -58078,7 +58869,9 @@
       }
     },
     "mbird1258/Audio-Decomposition": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 830113907,
         "name": "Audio-Decomposition",
@@ -58294,7 +59087,9 @@
       }
     },
     "OpenCoder-llm/OpenCoder-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 878879204,
         "name": "OpenCoder-llm",
@@ -58507,7 +59302,9 @@
       }
     },
     "breadboard-ai/breadboard": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 730833649,
         "name": "breadboard",
@@ -58611,7 +59408,9 @@
       }
     },
     "devflowinc/firecrawl-simple": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 859715790,
         "name": "firecrawl-simple",
@@ -59117,7 +59916,9 @@
       }
     },
     "Tencent-Hunyuan/Tencent-Hunyuan-Large": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 877138933,
         "name": "Tencent-Hunyuan-Large",
@@ -59146,7 +59947,9 @@
       }
     },
     "SelfExplainML/PiML-Toolbox": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 486898701,
         "name": "PiML-Toolbox",
@@ -59569,7 +60372,8 @@
     },
     "lmstudio-ai/venvstacks": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 866643544,
@@ -60070,7 +60874,8 @@
     },
     "microsoft/genaiscript": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 679784368,
@@ -60121,7 +60926,9 @@
       }
     },
     "VectorSpaceLab/OmniGen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 858323825,
         "name": "OmniGen",
@@ -60178,7 +60985,8 @@
     },
     "kelindar/search": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 864976834,
@@ -60286,7 +61094,9 @@
       }
     },
     "meta-llama/llama-cookbook": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 667297720,
         "name": "llama-cookbook",
@@ -60338,7 +61148,9 @@
       }
     },
     "open-mmlab/Amphion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 719017363,
         "name": "Amphion",
@@ -60522,7 +61334,9 @@
       }
     },
     "n00mkrad/flowframes": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 315330275,
         "name": "flowframes",
@@ -60651,7 +61465,9 @@
       }
     },
     "Cerebras/modelzoo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 479424977,
         "name": "modelzoo",
@@ -61076,7 +61892,9 @@
       }
     },
     "ArthurBrussee/brush": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 762378215,
         "name": "brush",
@@ -61229,7 +62047,9 @@
       }
     },
     "microsoft/BitNet": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 838253246,
         "name": "BitNet",
@@ -61371,7 +62191,8 @@
     },
     "kasmtech/workspaces-data-science": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 370765850,
@@ -61398,7 +62219,8 @@
     },
     "kasmtech/workspaces-machine-learning": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 371068722,
@@ -61524,7 +62346,9 @@
       }
     },
     "deforum/sd-webui-deforum": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 551689337,
         "name": "sd-webui-deforum",
@@ -61549,7 +62373,9 @@
       }
     },
     "CiaraStrawberry/TemporalKit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 627128173,
         "name": "TemporalKit",
@@ -61575,7 +62401,8 @@
     },
     "google/magika": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 681566005,
@@ -61601,7 +62428,9 @@
       }
     },
     "apache/tvm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 70746484,
         "name": "tvm",
@@ -61676,7 +62505,9 @@
       }
     },
     "SWivid/F5-TTS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 869549554,
         "name": "F5-TTS",
@@ -61710,7 +62541,9 @@
       }
     },
     "jy0205/Pyramid-Flow": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 868466289,
         "name": "Pyramid-Flow",
@@ -61740,7 +62573,9 @@
       }
     },
     "anthropics/claude-quickstarts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 849553306,
         "name": "claude-quickstarts",
@@ -61819,7 +62654,8 @@
     "replicate/cog": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 342728683,
@@ -62103,7 +62939,9 @@
       }
     },
     "FunAudioLLM/SenseVoice": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 823429665,
         "name": "SenseVoice",
@@ -62309,7 +63147,9 @@
       }
     },
     "pgvector/pgvector-python": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 376300726,
         "name": "pgvector-python",
@@ -62334,7 +63174,9 @@
       }
     },
     "IST-DASLab/gptq": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 554293908,
         "name": "gptq",
@@ -62363,7 +63205,9 @@
       }
     },
     "floneum/floneum": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 644995806,
         "name": "floneum",
@@ -62388,7 +63232,9 @@
       }
     },
     "MistApproach/callm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 817660773,
         "name": "callm",
@@ -62413,7 +63259,9 @@
       }
     },
     "ShelbyJenkins/llm_client": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 731655642,
         "name": "llm_client",
@@ -62438,7 +63286,9 @@
       }
     },
     "neferdata/allms": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 719621329,
         "name": "allms",
@@ -62463,7 +63313,9 @@
       }
     },
     "intelligentnet/llmclient": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 774030462,
         "name": "llmclient",
@@ -62488,7 +63340,9 @@
       }
     },
     "huggingface/candle": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 655797848,
         "name": "candle",
@@ -62513,7 +63367,9 @@
       }
     },
     "EricLBuehler/mistral.rs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 763774926,
         "name": "mistral.rs",
@@ -62538,7 +63394,9 @@
       }
     },
     "huggingface/ratchet": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 742001976,
         "name": "ratchet",
@@ -62563,7 +63421,9 @@
       }
     },
     "rustformers/llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 613486352,
         "name": "llm",
@@ -62588,7 +63448,9 @@
       }
     },
     "samuel-vitorino/lm.rs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 828071646,
         "name": "lm.rs",
@@ -62613,7 +63475,9 @@
       }
     },
     "anordin95/run-llama-locally": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 865534392,
         "name": "run-llama-locally",
@@ -62883,7 +63747,9 @@
       }
     },
     "PromtEngineer/localGPT-Vision": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 865767808,
         "name": "localGPT-Vision",
@@ -62987,7 +63853,9 @@
       }
     },
     "ModelTC/LightLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 669420857,
         "name": "LightLLM",
@@ -63019,7 +63887,9 @@
       }
     },
     "gptme/gptme": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 618514446,
         "name": "gptme",
@@ -63044,7 +63914,9 @@
       }
     },
     "FoundationAgents/MetaGPT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 660551251,
         "name": "MetaGPT",
@@ -63074,7 +63946,9 @@
       }
     },
     "PsyChip/machina": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 869199614,
         "name": "machina",
@@ -63149,7 +64023,9 @@
       }
     },
     "THUDM/LongWriter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 841541826,
         "name": "LongWriter",
@@ -63259,7 +64135,9 @@
       }
     },
     "ListfulAl/gpl": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 866208149,
         "name": "gpl",
@@ -63363,7 +64241,9 @@
       }
     },
     "OpenKinect/libfreenect": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1073722,
         "name": "libfreenect",
@@ -63445,7 +64325,8 @@
     },
     "livekit/agents-js": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 780635287,
@@ -63471,7 +64352,9 @@
       }
     },
     "livekit/agents": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 707441527,
         "name": "agents",
@@ -63497,7 +64380,8 @@
     },
     "continuedev/continue": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 644686905,
@@ -63628,7 +64512,9 @@
       }
     },
     "neural-maze/agentic-patterns-course": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 826663079,
         "name": "agentic-patterns-course",
@@ -63653,7 +64539,9 @@
       }
     },
     "stephansturges/WALDO": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 560914326,
         "name": "WALDO",
@@ -63678,7 +64566,9 @@
       }
     },
     "slashml/slash_docker": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 715853408,
         "name": "slash_docker",
@@ -63703,7 +64593,9 @@
       }
     },
     "slashml/awesome-small-language-models": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 848491705,
         "name": "awesome-small-language-models",
@@ -63733,7 +64625,9 @@
       }
     },
     "slashml/awesome-finetuning": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 847485287,
         "name": "awesome-finetuning",
@@ -63758,7 +64652,9 @@
       }
     },
     "slashml/awesome-coding-copilot": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 836965119,
         "name": "awesome-coding-copilot",
@@ -63798,7 +64694,9 @@
       }
     },
     "slashml/amd_inference": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 866391216,
         "name": "amd_inference",
@@ -63929,7 +64827,9 @@
       }
     },
     "langchain-ai/langgraph": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 676672661,
         "name": "langgraph",
@@ -64004,7 +64904,9 @@
       }
     },
     "screenpipe/screenpipe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 817326197,
         "name": "screenpipe",
@@ -64084,7 +64986,9 @@
       }
     },
     "z-x-yang/AOT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 373738033,
         "name": "AOT",
@@ -64223,7 +65127,9 @@
       }
     },
     "NVIDIA-AI-IOT/deepstream_libraries": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 790876268,
         "name": "deepstream_libraries",
@@ -64248,7 +65154,9 @@
       }
     },
     "facebookresearch/segment-anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 618058471,
         "name": "segment-anything",
@@ -64304,7 +65212,9 @@
       }
     },
     "menyifang/MIMO": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 862421352,
         "name": "MIMO",
@@ -64333,7 +65243,9 @@
       }
     },
     "mrRay/ISF_Spec": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 98932663,
         "name": "ISF_Spec",
@@ -64383,7 +65295,9 @@
       }
     },
     "cloudinary/ssimulacra2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 518375561,
         "name": "ssimulacra2",
@@ -64752,7 +65666,9 @@
       }
     },
     "mlabonne/mergekit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 740134023,
         "name": "mergekit",
@@ -64782,7 +65698,9 @@
       }
     },
     "mlabonne/llm-autoeval": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 737906215,
         "name": "llm-autoeval",
@@ -65480,7 +66398,9 @@
       }
     },
     "marimo-team/marimo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 678526156,
         "name": "marimo",
@@ -65533,7 +66453,9 @@
       }
     },
     "srush/GPU-Puzzles": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 512867291,
         "name": "GPU-Puzzles",
@@ -65765,7 +66687,9 @@
       }
     },
     "MadcowD/ell": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 831914256,
         "name": "ell",
@@ -66157,7 +67081,9 @@
       }
     },
     "cupy/cupy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 72523920,
         "name": "cupy",
@@ -66292,7 +67218,9 @@
       }
     },
     "nteract/papermill": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 96454557,
         "name": "papermill",
@@ -66460,7 +67388,9 @@
       }
     },
     "ictnlp/LLaMA-Omni": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 855162700,
         "name": "LLaMA-Omni",
@@ -66489,7 +67419,9 @@
       }
     },
     "QwenLM/Qwen3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 752925682,
         "name": "Qwen3",
@@ -66520,7 +67452,9 @@
       }
     },
     "facebookresearch/encodec": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 554807775,
         "name": "encodec",
@@ -66549,7 +67483,9 @@
       }
     },
     "kyutai-labs/moshi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 839238906,
         "name": "moshi",
@@ -66581,7 +67517,9 @@
       }
     },
     "Liyan06/MiniCheck": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 786577569,
         "name": "MiniCheck",
@@ -66611,7 +67549,9 @@
       }
     },
     "punnerud/Local_Knowledge_Graph": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 859265308,
         "name": "Local_Knowledge_Graph",
@@ -66838,7 +67778,9 @@
       }
     },
     "zlwaterfield/scramble": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 859053145,
         "name": "scramble",
@@ -66863,7 +67805,9 @@
       }
     },
     "rspeer/wordfreq": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 13941524,
         "name": "wordfreq",
@@ -67022,7 +67966,8 @@
     },
     "jur1st/EMC-2": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 850173017,
@@ -67048,7 +67993,9 @@
       }
     },
     "n8n-io/self-hosted-ai-starter-kit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 762303728,
         "name": "self-hosted-ai-starter-kit",
@@ -67073,7 +68020,9 @@
       }
     },
     "a16z-infra/ai-town": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 666931247,
         "name": "ai-town",
@@ -67127,7 +68076,9 @@
       }
     },
     "build-with-groq/g1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 857125840,
         "name": "g1",
@@ -67179,7 +68130,9 @@
       }
     },
     "frost-beta/sisi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 857272396,
         "name": "sisi",
@@ -67205,7 +68158,8 @@
     },
     "frost-beta/node-mlx": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 785167272,
@@ -67312,7 +68266,9 @@
       }
     },
     "dleemiller/WordLlama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 813900971,
         "name": "WordLlama",
@@ -67418,7 +68374,8 @@
     },
     "anyscale/llm-router": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 820234688,
@@ -67476,7 +68433,8 @@
     },
     "Writesonic/GPTRouter": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 731449710,
@@ -67579,7 +68537,9 @@
       }
     },
     "ScrapeGraphAI/Scrapegraph-ai": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 749126547,
         "name": "Scrapegraph-ai",
@@ -67656,7 +68616,9 @@
       }
     },
     "kili-technology/awesome-datasets": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 496356803,
         "name": "awesome-datasets",
@@ -67681,7 +68643,9 @@
       }
     },
     "SJTU-DMTai/awesome-ml-data-quality-papers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 767484103,
         "name": "awesome-ml-data-quality-papers",
@@ -67810,7 +68774,9 @@
       }
     },
     "vikhyat/moondream": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 736812439,
         "name": "moondream",
@@ -67863,7 +68829,9 @@
       }
     },
     "felafax/felafax": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 816222259,
         "name": "felafax",
@@ -67889,7 +68857,8 @@
     },
     "Aider-AI/aider": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 638629097,
@@ -67997,7 +68966,8 @@
     },
     "trailofbits/LeftoverLocalsRelease": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 739931025,
@@ -68642,7 +69612,9 @@
       }
     },
     "deepspeedai/DeepSpeed": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 235860204,
         "name": "DeepSpeed",
@@ -68702,7 +69674,9 @@
       }
     },
     "DAMO-NLP-SG/VCD": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 723675517,
         "name": "VCD",
@@ -68731,7 +69705,9 @@
       }
     },
     "DAMO-NLP-SG/Video-LLaMA": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 637126931,
         "name": "Video-LLaMA",
@@ -68760,7 +69736,9 @@
       }
     },
     "DAMO-NLP-SG/VideoLLaMA2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 808716789,
         "name": "VideoLLaMA2",
@@ -68795,7 +69773,9 @@
       }
     },
     "Breakthrough/PySceneDetect": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 20470449,
         "name": "PySceneDetect",
@@ -68820,7 +69800,9 @@
       }
     },
     "TristanGomez44/sceneDetection": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 174371789,
         "name": "sceneDetection",
@@ -68845,7 +69827,9 @@
       }
     },
     "lm-sys/llm-decontaminator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 705972277,
         "name": "llm-decontaminator",
@@ -68875,7 +69859,8 @@
     },
     "Mintplex-Labs/anything-llm": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 649170660,
@@ -69057,7 +70042,9 @@
       }
     },
     "SqueezeAILab/KVQuant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 750973875,
         "name": "KVQuant",
@@ -69088,7 +70075,9 @@
       }
     },
     "Xilinx/Vitis-AI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 215649623,
         "name": "Vitis-AI",
@@ -69113,7 +70102,9 @@
       }
     },
     "microsoft/Olive": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 201991558,
         "name": "Olive",
@@ -69138,7 +70129,9 @@
       }
     },
     "microsoft/onnxruntime": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 156939672,
         "name": "onnxruntime",
@@ -69163,7 +70156,9 @@
       }
     },
     "amd/ryzen-ai-documentation": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 663409294,
         "name": "ryzen-ai-documentation",
@@ -69188,7 +70183,9 @@
       }
     },
     "Xilinx/Vitis-AI-Tutorials": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 244495264,
         "name": "Vitis-AI-Tutorials",
@@ -69213,7 +70210,9 @@
       }
     },
     "onnx/models": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 105952367,
         "name": "models",
@@ -69282,7 +70281,8 @@
     },
     "huggingface/huggingface.js": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 598261814,
@@ -69335,7 +70335,9 @@
       }
     },
     "RWKV/rwkv.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 621343419,
         "name": "rwkv.cpp",
@@ -69417,7 +70419,8 @@
     },
     "cline/cline": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 824874689,
@@ -69471,7 +70474,9 @@
       }
     },
     "TIGER-AI-Lab/AnyV2V": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 769264114,
         "name": "AnyV2V",
@@ -69551,7 +70556,8 @@
     },
     "TypingMind/typingmind": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 755161958,
@@ -69631,7 +70637,9 @@
       }
     },
     "openinterpreter/open-interpreter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 666299222,
         "name": "open-interpreter",
@@ -69657,7 +70665,8 @@
     },
     "openinterpreter/01": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 741790915,
@@ -70293,7 +71302,9 @@
       }
     },
     "anthropics/courses": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 808207942,
         "name": "courses",
@@ -70343,7 +71354,9 @@
       }
     },
     "ali-vilab/VGen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 714940169,
         "name": "VGen",
@@ -70410,7 +71423,9 @@
       }
     },
     "jmcastelo/fosforo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 322667703,
         "name": "fosforo",
@@ -70435,7 +71450,9 @@
       }
     },
     "jmcastelo/MorphogenCV": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 263060812,
         "name": "MorphogenCV",
@@ -70501,7 +71518,9 @@
       }
     },
     "Storia-AI/sage": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 846768454,
         "name": "sage",
@@ -70632,7 +71651,9 @@
       }
     },
     "NousResearch/DisTrO": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 847808811,
         "name": "DisTrO",
@@ -71036,7 +72057,9 @@
       }
     },
     "lmstudio-ai/lms": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 786925690,
         "name": "lms",
@@ -71139,7 +72162,9 @@
       }
     },
     "jhj0517/Whisper-WebUI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 608663046,
         "name": "Whisper-WebUI",
@@ -71401,7 +72426,9 @@
       }
     },
     "taichi-dev/taichi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 74660642,
         "name": "taichi",
@@ -71561,7 +72588,9 @@
       }
     },
     "AILab-CVC/YOLO-World": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 749596944,
         "name": "YOLO-World",
@@ -71826,7 +72855,9 @@
       }
     },
     "clemlesne/scrape-it-now": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 842905162,
         "name": "scrape-it-now",
@@ -71903,7 +72934,9 @@
       }
     },
     "ali1234/comfyui-job-iterator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 689393644,
         "name": "comfyui-job-iterator",
@@ -72170,7 +73203,9 @@
       }
     },
     "libAudioFlux/audioFlux": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 589514195,
         "name": "audioFlux",
@@ -72301,7 +73336,9 @@
       }
     },
     "louisbrulenaudet/ragoon": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 802957147,
         "name": "ragoon",
@@ -72485,7 +73522,9 @@
       }
     },
     "cckuailong/SuperAdapters": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 650519468,
         "name": "SuperAdapters",
@@ -72537,7 +73576,9 @@
       }
     },
     "ml-explore/mlx-examples": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 724855841,
         "name": "mlx-examples",
@@ -72591,7 +73632,9 @@
       }
     },
     "Cxsmo-ai/OBS-Live-Webcam-Deepfakes---Virtual-Camera-Deepfakes---Deepfacelive---Ome.tv-Trolling---Snapcamera": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 594089414,
         "name": "OBS-Live-Webcam-Deepfakes---Virtual-Camera-Deepfakes---Deepfacelive---Ome.tv-Trolling---Snapcamera",
@@ -72616,7 +73659,9 @@
       }
     },
     "hacksider/Deep-Live-Cam": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 695864515,
         "name": "Deep-Live-Cam",
@@ -72770,7 +73815,9 @@
       }
     },
     "mikex86/LibreCuda": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 832955422,
         "name": "LibreCuda",
@@ -72874,7 +73921,9 @@
       }
     },
     "gptscript-ai/clio": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 827052836,
         "name": "clio",
@@ -72976,7 +74025,9 @@
       }
     },
     "black-forest-labs/flux": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 836642963,
         "name": "flux",
@@ -73137,7 +74188,9 @@
       }
     },
     "adefossez/demucs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 719554886,
         "name": "demucs",
@@ -73736,7 +74789,9 @@
       }
     },
     "jamriska/ebsynth": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 129672510,
         "name": "ebsynth",
@@ -73763,7 +74818,9 @@
       }
     },
     "Fanghua-Yu/SUPIR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 734312577,
         "name": "SUPIR",
@@ -73819,7 +74876,9 @@
       }
     },
     "Stability-AI/stable-fast-3d": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 829951024,
         "name": "stable-fast-3d",
@@ -73898,7 +74957,9 @@
       }
     },
     "facebookresearch/sam2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 835452752,
         "name": "sam2",
@@ -73927,7 +74988,9 @@
       }
     },
     "flame/blis": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 16143904,
         "name": "blis",
@@ -74010,7 +75073,9 @@
       }
     },
     "computer-reinvention/ChainFactory": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 827868708,
         "name": "ChainFactory",
@@ -74035,7 +75100,9 @@
       }
     },
     "ROCm/rocBLAS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 43909607,
         "name": "rocBLAS",
@@ -74171,7 +75238,8 @@
     },
     "open-webui/open-webui": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 701547123,
@@ -74299,7 +75367,9 @@
       }
     },
     "eyaler/word2vec-slim": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 67515642,
         "name": "word2vec-slim",
@@ -74325,7 +75395,8 @@
     },
     "arunsupe/semantic-grep": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 833920230,
@@ -74351,7 +75422,9 @@
       }
     },
     "zeroxoxo/ComfyUI-Fast-Style-Transfer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 819748454,
         "name": "ComfyUI-Fast-Style-Transfer",
@@ -74559,7 +75632,9 @@
       }
     },
     "ryanfb/torch-warp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 64505795,
         "name": "torch-warp",
@@ -74584,7 +75659,9 @@
       }
     },
     "manuelruder/fast-artistic-videos": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 121040302,
         "name": "fast-artistic-videos",
@@ -74614,7 +75691,9 @@
       }
     },
     "manuelruder/artistic-videos": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 56937993,
         "name": "artistic-videos",
@@ -74669,7 +75748,9 @@
       }
     },
     "thinkst/zippy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 651465148,
         "name": "zippy",
@@ -74694,7 +75775,9 @@
       }
     },
     "mlfoundations/MINT-1T": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 816039515,
         "name": "MINT-1T",
@@ -74751,7 +75834,9 @@
       }
     },
     "vllm-project/vllm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 599547518,
         "name": "vllm",
@@ -74970,7 +76055,9 @@
       }
     },
     "bugbakery/audapolis": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 402782644,
         "name": "audapolis",
@@ -75020,7 +76107,9 @@
       }
     },
     "neuml/txtai": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 286301447,
         "name": "txtai",
@@ -75353,7 +76442,9 @@
       }
     },
     "ruapotato/VirtWorkForce": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 828105725,
         "name": "VirtWorkForce",
@@ -75460,7 +76551,9 @@
       }
     },
     "AnswerDotAI/gpu.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 808280286,
         "name": "gpu.cpp",
@@ -75562,7 +76655,9 @@
       }
     },
     "acids-ircam/RAVE": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 380178613,
         "name": "RAVE",
@@ -75691,7 +76786,9 @@
       }
     },
     "lm-sys/RouteLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 809559722,
         "name": "RouteLLM",
@@ -75745,7 +76842,9 @@
       }
     },
     "instructlab/instructlab": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 761481176,
         "name": "instructlab",
@@ -76022,7 +77121,9 @@
       }
     },
     "facebookresearch/MobileLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 826013014,
         "name": "MobileLLM",
@@ -76650,7 +77751,9 @@
       }
     },
     "josephwilk/shaderview": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 38209043,
         "name": "shaderview",
@@ -76700,7 +77803,9 @@
       }
     },
     "danielmiessler/Fabric": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 738733003,
         "name": "Fabric",
@@ -76727,7 +77832,9 @@
       }
     },
     "LemurPwned/video-sampler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 693818002,
         "name": "video-sampler",
@@ -77760,7 +78867,9 @@
       }
     },
     "dbolya/yolact": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 138796699,
         "name": "yolact",
@@ -78025,7 +79134,8 @@
     },
     "jeroenjanssens/data-science-at-the-command-line": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 12871240,
@@ -78078,7 +79188,9 @@
       }
     },
     "run-llama/llama_deploy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 807727161,
         "name": "llama_deploy",
@@ -78416,7 +79528,9 @@
       }
     },
     "stanfordnlp/dspy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 587050620,
         "name": "dspy",
@@ -78560,7 +79674,9 @@
       }
     },
     "mezbaul-h/june": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 809877633,
         "name": "june",
@@ -79007,7 +80123,8 @@
     },
     "ml-explore/mlx": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 724854743,
@@ -79199,7 +80316,9 @@
       }
     },
     "mlabonne/llm-course": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 655099582,
         "name": "llm-course",
@@ -79512,7 +80631,9 @@
       }
     },
     "harvard-lil/warc-gpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 709018475,
         "name": "warc-gpt",
@@ -79664,7 +80785,9 @@
       }
     },
     "SilasMarvin/lsp-ai": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 723094714,
         "name": "lsp-ai",
@@ -80767,7 +81890,9 @@
       }
     },
     "reworkd/tarsier": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 716799237,
         "name": "tarsier",
@@ -80822,7 +81947,8 @@
     },
     "nkasmanoff/pi-card": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 796033132,
@@ -81136,7 +82262,9 @@
       }
     },
     "lilipads/gradient_descent_viz": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 268355327,
         "name": "gradient_descent_viz",
@@ -81292,7 +82420,9 @@
       }
     },
     "tesseract-ocr/tesseract": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 22887094,
         "name": "tesseract",
@@ -81741,7 +82871,8 @@
     },
     "vrunk11/cvbs-ai-decode": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 681285909,
@@ -81905,7 +83036,9 @@
       }
     },
     "apple/corenet": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 788562361,
         "name": "corenet",
@@ -82128,7 +83261,9 @@
       }
     },
     "LWJGL/lwjgl3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 7296244,
         "name": "lwjgl3",
@@ -83361,7 +84496,9 @@
       }
     },
     "airbnb/chronon": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 300087031,
         "name": "chronon",
@@ -83511,7 +84648,9 @@
       }
     },
     "v8hid/infinite-zoom-automatic1111-webui": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 617864263,
         "name": "infinite-zoom-automatic1111-webui",
@@ -83638,7 +84777,9 @@
       }
     },
     "intel/ipex-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 66823715,
         "name": "ipex-llm",
@@ -83692,7 +84833,8 @@
     },
     "infiniflow/ragflow": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 730534580,
@@ -83895,7 +85037,9 @@
       }
     },
     "upscayl/upscayl": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 519577891,
         "name": "upscayl",
@@ -84439,7 +85583,9 @@
       }
     },
     "YingfanWang/PaCMAP": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 286032881,
         "name": "PaCMAP",
@@ -84469,7 +85615,9 @@
       }
     },
     "isaacus-dev/semchunk": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 714508356,
         "name": "semchunk",
@@ -84544,7 +85692,9 @@
       }
     },
     "Jacob-Pitsenberger/OpenCV-Color-Analysis-and-Manipulation": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 729874929,
         "name": "OpenCV-Color-Analysis-and-Manipulation",
@@ -84569,7 +85719,9 @@
       }
     },
     "mlcommons/inference": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 148566613,
         "name": "inference",
@@ -84967,7 +86119,9 @@
       }
     },
     "openai/transformer-debugger": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 770650220,
         "name": "transformer-debugger",
@@ -84996,7 +86150,9 @@
       }
     },
     "KhoomeiK/LlamaGym": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 765496406,
         "name": "LlamaGym",
@@ -85152,7 +86308,9 @@
       }
     },
     "simonw/llm-claude-3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 767029679,
         "name": "llm-claude-3",
@@ -85228,7 +86386,8 @@
     },
     "invoke-ai/InvokeAI": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 525592995,
@@ -85307,7 +86466,8 @@
     },
     "easydiffusion/easydiffusion": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 528152092,
@@ -85333,7 +86493,9 @@
       }
     },
     "ai-collection/ai-collection": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 584639396,
         "name": "ai-collection",
@@ -85385,7 +86547,9 @@
       }
     },
     "vladmandic/sdnext": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 581913613,
         "name": "sdnext",
@@ -85410,7 +86574,9 @@
       }
     },
     "jina-ai/discoart": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 509153572,
         "name": "discoart",
@@ -85435,7 +86601,9 @@
       }
     },
     "jina-ai/dalle-flow": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 487309566,
         "name": "dalle-flow",
@@ -85621,7 +86789,9 @@
       }
     },
     "deezer/spleeter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 211124697,
         "name": "spleeter",
@@ -85835,7 +87005,9 @@
       }
     },
     "PeterL1n/RobustVideoMatting": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 401484223,
         "name": "RobustVideoMatting",
@@ -85860,7 +87032,9 @@
       }
     },
     "killian31/VideoBackgroundRemoval": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 662260577,
         "name": "VideoBackgroundRemoval",
@@ -85885,7 +87059,9 @@
       }
     },
     "opencog/learn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 172389294,
         "name": "learn",
@@ -86158,7 +87334,9 @@
       }
     },
     "Astropulse/sd-palettize": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 606126248,
         "name": "sd-palettize",
@@ -86926,7 +88104,9 @@
       }
     },
     "rhasspy/piper": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 587499842,
         "name": "piper",
@@ -86951,7 +88131,9 @@
       }
     },
     "OHF-Voice/hassil": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 580121899,
         "name": "hassil",
@@ -88393,7 +89575,9 @@
       }
     },
     "GPUOpen-Tools/GPU-Reshape": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 416726539,
         "name": "GPU-Reshape",
@@ -88499,7 +89683,9 @@
       }
     },
     "pytti-tools/pytti-notebook": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 452413475,
         "name": "pytti-notebook",
@@ -89085,7 +90271,9 @@
       }
     },
     "tencent-ailab/IP-Adapter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 679073548,
         "name": "IP-Adapter",
@@ -89139,7 +90327,9 @@
       }
     },
     "nod-ai/AMD-SHARK-Studio": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 466309974,
         "name": "AMD-SHARK-Studio",
@@ -89432,7 +90622,9 @@
       }
     },
     "isl-org/ZoeDepth": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 565837677,
         "name": "ZoeDepth",
@@ -89561,7 +90753,9 @@
       }
     },
     "lllyasviel/Fooocus": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 676676006,
         "name": "Fooocus",
@@ -89615,7 +90809,9 @@
       }
     },
     "microsoft/VideoX": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 223094600,
         "name": "VideoX",
@@ -89911,7 +91107,9 @@
       }
     },
     "deforum/deforum-stable-diffusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 559050967,
         "name": "deforum-stable-diffusion",
@@ -90578,7 +91776,9 @@
       "last_updated": "2026-03-17T22:10:18.951512+00:00"
     },
     "ali-vilab/videocomposer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 648133004,
         "name": "videocomposer",
@@ -91609,7 +92809,9 @@
       "last_updated": "2026-03-17T22:10:29.275560+00:00"
     },
     "hartator/wayback-machine-downloader": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 39706711,
         "name": "wayback-machine-downloader",
@@ -91830,7 +93032,8 @@
     },
     "apple/ml-ane-transformers": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 499580907,
@@ -92102,7 +93305,9 @@
       "last_updated": "2026-03-17T22:10:34.177106+00:00"
     },
     "Comfy-Org/ComfyUI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 589831718,
         "name": "ComfyUI",
@@ -92601,7 +93806,9 @@
       "last_updated": "2026-03-17T22:10:38.890184+00:00"
     },
     "cumulo-autumn/StreamDiffusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 724635656,
         "name": "StreamDiffusion",
@@ -92911,7 +94118,9 @@
       "last_updated": "2026-03-17T22:10:41.989035+00:00"
     },
     "TuneNN/TuneNN": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 733310001,
         "name": "TuneNN",
@@ -93400,7 +94609,9 @@
       "last_updated": "2026-03-17T22:10:46.743521+00:00"
     },
     "pelennor2170/NAM_models": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 597914650,
         "name": "NAM_models",
@@ -93440,7 +94651,9 @@
       "last_updated": "2026-03-17T22:10:47.113166+00:00"
     },
     "sdatkinson/neural-amp-modeler": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 163906234,
         "name": "neural-amp-modeler",
@@ -93651,7 +94864,9 @@
       "last_updated": "2026-03-17T22:10:49.081772+00:00"
     },
     "simonw/llm-gemini": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 731319430,
         "name": "llm-gemini",
@@ -94268,7 +95483,9 @@
       "last_updated": "2026-03-17T22:10:55.293879+00:00"
     },
     "microsoft/vscode-ai-toolkit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 729302588,
         "name": "vscode-ai-toolkit",
@@ -94330,7 +95547,9 @@
       "last_updated": "2026-03-17T22:10:55.983938+00:00"
     },
     "Mozilla-Ocho/Memory-Cache": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 694754514,
         "name": "Memory-Cache",
@@ -94370,7 +95589,9 @@
       "last_updated": "2026-03-17T22:10:56.435896+00:00"
     },
     "elfvingralf/macOSpilot-ai-assistant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 727547989,
         "name": "macOSpilot-ai-assistant",
@@ -94704,7 +95925,9 @@
       "last_updated": "2026-03-17T22:10:59.622960+00:00"
     },
     "blakeblackshear/frigate": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 167694194,
         "name": "frigate",
@@ -94724,7 +95947,9 @@
       "last_updated": "2026-03-17T22:10:59.857643+00:00"
     },
     "cztomsik/ava": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 671643300,
         "name": "ava",
@@ -94744,7 +95969,9 @@
       "last_updated": "2026-03-17T22:11:00.050452+00:00"
     },
     "khoj-ai/khoj": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 396569538,
         "name": "khoj",
@@ -94764,7 +95991,9 @@
       "last_updated": "2026-03-17T22:11:00.239564+00:00"
     },
     "onyx-dot-app/onyx": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 633262635,
         "name": "onyx",
@@ -94785,7 +96014,8 @@
     },
     "SecureAI-Tools/SecureAI-Tools": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 723888316,
@@ -94980,7 +96210,8 @@
     },
     "thesephist/revery": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 391537329,
@@ -95002,7 +96233,8 @@
     },
     "thesephist/monocle": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 382495185,
@@ -95391,7 +96623,9 @@
       "last_updated": "2026-03-17T22:11:06.343999+00:00"
     },
     "mozilla-ai/llamafile": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 689773665,
         "name": "llamafile",
@@ -95411,7 +96645,9 @@
       "last_updated": "2026-03-17T22:11:06.579102+00:00"
     },
     "ProfSynapse/Professor-Synapse": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 675335937,
         "name": "Professor-Synapse",
@@ -95431,7 +96667,9 @@
       "last_updated": "2026-03-17T22:11:06.785362+00:00"
     },
     "567-labs/instructor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 653589102,
         "name": "instructor",
@@ -95451,7 +96689,9 @@
       "last_updated": "2026-03-17T22:11:06.985676+00:00"
     },
     "dottxt-ai/outlines": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 615403340,
         "name": "outlines",
@@ -95551,7 +96791,9 @@
       "last_updated": "2026-03-17T22:11:07.950735+00:00"
     },
     "innovatorved/subtitle": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 719979605,
         "name": "subtitle",
@@ -95571,7 +96813,9 @@
       "last_updated": "2026-03-17T22:11:08.136060+00:00"
     },
     "abi/screenshot-to-code": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 718741813,
         "name": "screenshot-to-code",
@@ -95611,7 +96855,9 @@
       "last_updated": "2026-03-17T22:11:08.617527+00:00"
     },
     "Acly/krita-ai-diffusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 686161611,
         "name": "krita-ai-diffusion",
@@ -95671,7 +96917,9 @@
       "last_updated": "2026-03-17T22:11:09.304951+00:00"
     },
     "protectai/ai-exploits": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 709957829,
         "name": "ai-exploits",
@@ -95815,7 +97063,9 @@
       "last_updated": "2026-03-17T22:11:10.793774+00:00"
     },
     "huggingface/transformers.js": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 601161044,
         "name": "transformers.js",
@@ -95835,7 +97085,9 @@
       "last_updated": "2026-03-17T22:11:10.988078+00:00"
     },
     "flwrlabs/flower": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 241095326,
         "name": "flower",
@@ -97063,7 +98315,9 @@
       "last_updated": "2026-03-17T22:11:23.219617+00:00"
     },
     "simonw/ospeak": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 715389408,
         "name": "ospeak",
@@ -97233,7 +98487,9 @@
       "last_updated": "2026-03-17T22:11:24.942894+00:00"
     },
     "IST-DASLab/QUIK": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 704503088,
         "name": "QUIK",
@@ -97755,7 +99011,9 @@
       "last_updated": "2026-03-17T22:11:30.248764+00:00"
     },
     "lllyasviel/ControlNet": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 595893961,
         "name": "ControlNet",
@@ -97775,7 +99033,9 @@
       "last_updated": "2026-03-17T22:11:30.432832+00:00"
     },
     "Sxela/WarpFusion": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 535201282,
         "name": "WarpFusion",
@@ -98206,7 +99466,9 @@
       "last_updated": "2026-03-17T22:11:34.911842+00:00"
     },
     "rany2/edge-tts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 366146447,
         "name": "edge-tts",
@@ -98290,7 +99552,9 @@
       "last_updated": "2026-03-17T22:11:35.720143+00:00"
     },
     "davila7/google-flan-t5": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 597152729,
         "name": "google-flan-t5",
@@ -98310,7 +99574,9 @@
       "last_updated": "2026-03-17T22:11:35.929680+00:00"
     },
     "davila7/talk-to-gpt-3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 606162452,
         "name": "talk-to-gpt-3",
@@ -98330,7 +99596,9 @@
       "last_updated": "2026-03-17T22:11:36.215428+00:00"
     },
     "davila7/file-gpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 602828635,
         "name": "file-gpt",
@@ -98350,7 +99618,9 @@
       "last_updated": "2026-03-17T22:11:36.390702+00:00"
     },
     "davila7/youtube-gpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 598827181,
         "name": "youtube-gpt",
@@ -98371,7 +99641,8 @@
     },
     "JudiniLabs/code-gpt-docs": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 586428671,
@@ -98723,7 +99994,9 @@
       "last_updated": "2026-03-17T22:11:41.040889+00:00"
     },
     "mozilla/DeepSpeech": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 60273704,
         "name": "DeepSpeech",
@@ -99487,7 +100760,8 @@
     },
     "ARPSyndicate/puncia": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 689642135,
@@ -99632,7 +100906,9 @@
       "last_updated": "2026-03-17T22:11:50.135229+00:00"
     },
     "ermig1979/Simd": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 32873163,
         "name": "Simd",
@@ -100209,7 +101485,9 @@
       "last_updated": "2026-03-17T22:11:56.105397+00:00"
     },
     "microsoft/autogen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 680120071,
         "name": "autogen",
@@ -100271,7 +101549,9 @@
       "last_updated": "2026-03-17T22:11:56.735973+00:00"
     },
     "PaddlePaddle/PaddleSpeech": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 110688239,
         "name": "PaddleSpeech",
@@ -100291,7 +101571,9 @@
       "last_updated": "2026-03-17T22:11:56.948374+00:00"
     },
     "chidiwilliams/buzz": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 540842713,
         "name": "buzz",
@@ -100377,7 +101659,9 @@
       "last_updated": "2026-03-17T22:11:57.789011+00:00"
     },
     "google/paxml": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 503429749,
         "name": "paxml",
@@ -100724,7 +102008,9 @@
       "last_updated": "2026-03-17T22:12:01.615846+00:00"
     },
     "OpenPipe/OpenPipe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 655949187,
         "name": "OpenPipe",
@@ -100854,7 +102140,9 @@
       "last_updated": "2026-03-17T22:12:02.794292+00:00"
     },
     "promptfoo/promptfoo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 633927609,
         "name": "promptfoo",
@@ -101062,7 +102350,8 @@
     },
     "Ironclad/rivet": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 631169911,
@@ -101236,7 +102525,9 @@
       "last_updated": "2026-03-17T22:12:06.224488+00:00"
     },
     "Sahith02/machine-learning-algorithms": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 275114236,
         "name": "machine-learning-algorithms",
@@ -101979,7 +103270,9 @@
       "last_updated": "2026-03-17T22:12:12.927945+00:00"
     },
     "pluja/whishper": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 683336280,
         "name": "whishper",
@@ -102209,7 +103502,9 @@
       "last_updated": "2026-03-17T22:12:14.875848+00:00"
     },
     "meta-llama/codellama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 682604510,
         "name": "codellama",
@@ -102229,7 +103524,9 @@
       "last_updated": "2026-03-17T22:12:15.048278+00:00"
     },
     "trholding/llama2.c": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 669885965,
         "name": "llama2.c",
@@ -102752,7 +104049,9 @@
       "last_updated": "2026-03-17T22:12:20.061829+00:00"
     },
     "bigscience-workshop/petals": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 502482803,
         "name": "petals",
@@ -102924,7 +104223,9 @@
       "last_updated": "2026-03-17T22:12:21.876566+00:00"
     },
     "PromtEngineer/localGPT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 644715009,
         "name": "localGPT",
@@ -102944,7 +104245,9 @@
       "last_updated": "2026-03-17T22:12:22.166466+00:00"
     },
     "facebookresearch/hydra": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 191632914,
         "name": "hydra",
@@ -102988,7 +104291,9 @@
       "last_updated": "2026-03-17T22:12:22.610208+00:00"
     },
     "roboflow/supervision": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 571613891,
         "name": "supervision",
@@ -103221,7 +104526,9 @@
       "last_updated": "2026-03-17T22:12:24.796404+00:00"
     },
     "ollama/ollama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 658928958,
         "name": "ollama",
@@ -103329,7 +104636,9 @@
       "last_updated": "2026-03-17T22:12:25.876658+00:00"
     },
     "BerriAI/litellm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 671269505,
         "name": "litellm",
@@ -103476,7 +104785,9 @@
       "last_updated": "2026-03-17T22:12:27.306171+00:00"
     },
     "dvgodoy/dl-visuals": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 369182484,
         "name": "dl-visuals",
@@ -103844,7 +105155,9 @@
       "last_updated": "2026-03-17T22:12:31.038550+00:00"
     },
     "Nyandwi/awesomest": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 421971527,
         "name": "awesomest",
@@ -103864,7 +105177,9 @@
       "last_updated": "2026-03-17T22:12:31.262480+00:00"
     },
     "Nyandwi/machine_learning_complete": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 410249461,
         "name": "machine_learning_complete",
@@ -104259,7 +105574,9 @@
       "last_updated": "2026-03-17T22:12:35.018311+00:00"
     },
     "huggingface/sentence-transformers": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 198616978,
         "name": "sentence-transformers",
@@ -104279,7 +105596,9 @@
       "last_updated": "2026-03-17T22:12:35.233348+00:00"
     },
     "horovod/horovod": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 99846383,
         "name": "horovod",
@@ -104583,7 +105902,9 @@
       "last_updated": "2026-03-17T22:12:38.104354+00:00"
     },
     "a16z-infra/llama2-chatbot": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 666689558,
         "name": "llama2-chatbot",
@@ -104603,7 +105924,9 @@
       "last_updated": "2026-03-17T22:12:38.312037+00:00"
     },
     "replicate/cog-llama-template": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 659624312,
         "name": "cog-llama-template",
@@ -104754,7 +106077,8 @@
     },
     "simonw/llm": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 622352364,
@@ -105038,7 +106362,9 @@
       "last_updated": "2026-03-17T22:12:42.421280+00:00"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 527591471,
         "name": "stable-diffusion-webui",
@@ -105695,7 +107021,9 @@
       "last_updated": "2026-03-17T22:12:48.874152+00:00"
     },
     "bentoml/OpenLLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 629749002,
         "name": "OpenLLM",
@@ -106005,7 +107333,8 @@
     },
     "SamurAIGPT/Generative-Media-Skills": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 645381450,
@@ -106243,7 +107572,9 @@
       "last_updated": "2026-03-17T22:12:54.106991+00:00"
     },
     "facebookincubator/AITemplate": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 514321895,
         "name": "AITemplate",
@@ -106559,7 +107890,9 @@
       "last_updated": "2026-03-17T22:12:57.014653+00:00"
     },
     "clovaai/donut": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 515792028,
         "name": "donut",
@@ -106759,7 +108092,8 @@
     },
     "praeclarum/webgpu-torch": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 634678515,
@@ -106780,7 +108114,9 @@
       "last_updated": "2026-03-17T22:12:59.033883+00:00"
     },
     "VertaAI/modeldb": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 71305435,
         "name": "modeldb",
@@ -106800,7 +108136,9 @@
       "last_updated": "2026-03-17T22:12:59.231533+00:00"
     },
     "salesforce/CodeT5": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 396609706,
         "name": "CodeT5",
@@ -106933,7 +108271,8 @@
     },
     "zackproser/automations": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 641210684,
@@ -107166,7 +108505,9 @@
       "last_updated": "2026-03-17T22:13:02.790218+00:00"
     },
     "smol-ai/developer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 640161038,
         "name": "developer",
@@ -107296,7 +108637,9 @@
       "last_updated": "2026-03-17T22:13:04.074882+00:00"
     },
     "deepset-ai/haystack": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 221654678,
         "name": "haystack",
@@ -107361,7 +108704,9 @@
       "last_updated": "2026-03-17T22:13:04.769904+00:00"
     },
     "brexhq/prompt-engineering": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 630694684,
         "name": "prompt-engineering",
@@ -107382,7 +108727,8 @@
     },
     "hisxo/ReconAIzer": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 621999206,
@@ -107403,7 +108749,9 @@
       "last_updated": "2026-03-17T22:13:05.193244+00:00"
     },
     "zylon-ai/private-gpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 635240594,
         "name": "private-gpt",
@@ -107804,7 +109152,9 @@
       "last_updated": "2026-03-17T22:13:08.996773+00:00"
     },
     "openai/evals": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 592489166,
         "name": "evals",
@@ -107824,7 +109174,9 @@
       "last_updated": "2026-03-17T22:13:09.242265+00:00"
     },
     "oobabooga/text-generation-webui": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 580642043,
         "name": "text-generation-webui",
@@ -107845,7 +109197,8 @@
     },
     "TiesdeKok/chat-gpt-jupyter-extension": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 581938177,
@@ -107906,7 +109259,9 @@
       "last_updated": "2026-03-17T22:13:10.112267+00:00"
     },
     "nadermx/backgroundremover": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 370209029,
         "name": "backgroundremover",
@@ -108013,7 +109368,9 @@
       "last_updated": "2026-03-17T22:13:11.124749+00:00"
     },
     "mlc-ai/mlc-en": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 497332576,
         "name": "mlc-en",
@@ -108143,7 +109500,9 @@
       "last_updated": "2026-03-17T22:13:12.395397+00:00"
     },
     "tloen/alpaca-lora": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 613591358,
         "name": "alpaca-lora",
@@ -108209,7 +109568,9 @@
       "last_updated": "2026-03-17T22:13:13.030884+00:00"
     },
     "openai/chatgpt-retrieval-plugin": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 617798408,
         "name": "chatgpt-retrieval-plugin",
@@ -108321,7 +109682,8 @@
     },
     "sevazhidkov/prompts-ai": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 281653207,
@@ -108342,7 +109704,9 @@
       "last_updated": "2026-03-17T22:13:14.299150+00:00"
     },
     "pgvector/pgvector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 359952601,
         "name": "pgvector",
@@ -108446,7 +109810,9 @@
       "last_updated": "2026-03-17T22:13:15.301913+00:00"
     },
     "kingoflolz/mesh-transformer-jax": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 347502287,
         "name": "mesh-transformer-jax",
@@ -108466,7 +109832,9 @@
       "last_updated": "2026-03-17T22:13:15.485413+00:00"
     },
     "NVIDIA/JAX-Toolbox": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 601182235,
         "name": "JAX-Toolbox",
@@ -108486,7 +109854,9 @@
       "last_updated": "2026-03-17T22:13:15.717902+00:00"
     },
     "nlpxucan/evol-instruct": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 631252037,
         "name": "evol-instruct",
@@ -108550,7 +109920,9 @@
       "last_updated": "2026-03-17T22:13:16.341197+00:00"
     },
     "openai/openai-cookbook": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 468576060,
         "name": "openai-cookbook",
@@ -108571,7 +109943,8 @@
     },
     "go-skynet/go-llama.cpp": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 623199119,
@@ -108658,7 +110031,9 @@
       "last_updated": "2026-03-17T22:13:17.407346+00:00"
     },
     "jax-ml/jax": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 154739597,
         "name": "jax",
@@ -108678,7 +110053,9 @@
       "last_updated": "2026-03-17T22:13:17.632111+00:00"
     },
     "Sea-Snell/JAX_llama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 608924167,
         "name": "JAX_llama",
@@ -108698,7 +110075,9 @@
       "last_updated": "2026-03-17T22:13:17.847025+00:00"
     },
     "young-geng/EasyLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 569265598,
         "name": "EasyLM",
@@ -108718,7 +110097,9 @@
       "last_updated": "2026-03-17T22:13:18.047878+00:00"
     },
     "openlm-research/open_llama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 634055064,
         "name": "open_llama",
@@ -108828,7 +110209,8 @@
     },
     "1rgs/jsonformer": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 634379415,
@@ -109112,7 +110494,9 @@
       "last_updated": "2026-03-17T22:13:21.864793+00:00"
     },
     "menloparklab/langchain-cohere-qdrant-doc-retrieval": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 634077598,
         "name": "langchain-cohere-qdrant-doc-retrieval",
@@ -109179,7 +110563,9 @@
       "last_updated": "2026-03-17T22:13:22.509257+00:00"
     },
     "jdagdelen/hyperDB": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 628503457,
         "name": "hyperDB",
@@ -109221,7 +110607,9 @@
       "last_updated": "2026-03-17T22:13:22.900788+00:00"
     },
     "NVIDIA/Megatron-LM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 176982014,
         "name": "Megatron-LM",
@@ -109241,7 +110629,9 @@
       "last_updated": "2026-03-17T22:13:23.111721+00:00"
     },
     "AI-Hypercomputer/maxtext": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 607845880,
         "name": "maxtext",
@@ -109283,7 +110673,9 @@
       "last_updated": "2026-03-17T22:13:23.531232+00:00"
     },
     "mlc-ai/mlc-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 634081686,
         "name": "mlc-llm",
@@ -109480,7 +110872,9 @@
       "last_updated": "2026-03-17T22:13:26.160417+00:00"
     },
     "chroma-core/chroma": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 546206616,
         "name": "chroma",
@@ -109522,7 +110916,9 @@
       "last_updated": "2026-03-17T22:13:26.559960+00:00"
     },
     "EleutherAI/the-pile": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 290621741,
         "name": "the-pile",
@@ -109653,7 +111049,9 @@
       "last_updated": "2026-03-17T22:13:27.860435+00:00"
     },
     "karpathy/minGPT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 288108533,
         "name": "minGPT",
@@ -109673,7 +111071,9 @@
       "last_updated": "2026-03-17T22:13:28.019570+00:00"
     },
     "karpathy/nanoGPT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 582822129,
         "name": "nanoGPT",
@@ -109693,7 +111093,9 @@
       "last_updated": "2026-03-17T22:13:28.227299+00:00"
     },
     "Lightning-AI/lit-llama": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 617504730,
         "name": "lit-llama",
@@ -109713,7 +111115,9 @@
       "last_updated": "2026-03-17T22:13:28.442341+00:00"
     },
     "salesforce/LAVIS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 528238131,
         "name": "LAVIS",
@@ -109733,7 +111137,9 @@
       "last_updated": "2026-03-17T22:13:28.618773+00:00"
     },
     "salesforce/CodeGen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 475174123,
         "name": "CodeGen",
@@ -110145,7 +111551,9 @@
       "last_updated": "2026-03-17T22:13:32.632473+00:00"
     },
     "griptape-ai/griptape": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 588992876,
         "name": "griptape",
@@ -110185,7 +111593,9 @@
       "last_updated": "2026-03-17T22:13:33.043863+00:00"
     },
     "danielgross/LlamaAcademy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 629748288,
         "name": "LlamaAcademy",
@@ -110431,7 +111841,9 @@
       "last_updated": "2026-03-17T22:13:35.302968+00:00"
     },
     "Stability-AI/StableLM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 630023030,
         "name": "StableLM",
@@ -110496,7 +111908,8 @@
     },
     "empath-nirvana/magic-happens": {
       "lists": [
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 628722679,
@@ -110537,7 +111950,9 @@
       "last_updated": "2026-03-17T22:13:36.331413+00:00"
     },
     "nomic-ai/gpt4all-chat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 627512543,
         "name": "gpt4all-chat",
@@ -110557,7 +111972,9 @@
       "last_updated": "2026-03-17T22:13:36.559780+00:00"
     },
     "Vision-CAIR/MiniGPT-4": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 628419800,
         "name": "MiniGPT-4",
@@ -110577,7 +111994,9 @@
       "last_updated": "2026-03-17T22:13:36.788329+00:00"
     },
     "jina-ai/thinkgpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 627959104,
         "name": "thinkgpt",
@@ -111142,7 +112561,8 @@
     "ustayready/cloudgpt": {
       "lists": [
         "AWS",
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 627571493,
@@ -111186,7 +112606,9 @@
       "last_updated": "2026-03-17T22:13:42.559995+00:00"
     },
     "ggml-org/whisper.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 541269386,
         "name": "whisper.cpp",
@@ -111268,7 +112690,9 @@
       "last_updated": "2026-03-17T22:13:43.475861+00:00"
     },
     "mlc-ai/web-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 627561173,
         "name": "web-llm",
@@ -111668,7 +113092,9 @@
       "last_updated": "2026-03-17T22:13:47.209184+00:00"
     },
     "imaurer/awesome-llm-json": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 620552483,
         "name": "awesome-llm-json",
@@ -111688,7 +113114,9 @@
       "last_updated": "2026-03-17T22:13:47.395397+00:00"
     },
     "databrickslabs/dolly": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 618511002,
         "name": "dolly",
@@ -112254,7 +113682,8 @@
     },
     "mlc-ai/web-stable-diffusion": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 610043832,
@@ -112424,7 +113853,9 @@
       "last_updated": "2026-03-17T22:13:54.577862+00:00"
     },
     "TabbyML/tabby": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 614764248,
         "name": "tabby",
@@ -112444,7 +113875,9 @@
       "last_updated": "2026-03-17T22:13:54.788925+00:00"
     },
     "FMInference/FlexLLMGen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 602270517,
         "name": "FlexLLMGen",
@@ -112488,7 +113921,9 @@
       "last_updated": "2026-03-17T22:13:55.244133+00:00"
     },
     "lm-sys/FastChat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 615882673,
         "name": "FastChat",
@@ -112637,7 +114072,9 @@
       "last_updated": "2026-03-17T22:13:56.724363+00:00"
     },
     "langchain-ai/langchain": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 552661142,
         "name": "langchain",
@@ -112969,7 +114406,9 @@
       "last_updated": "2026-03-17T22:14:00.137158+00:00"
     },
     "tatsu-lab/stanford_alpaca": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 612427246,
         "name": "stanford_alpaca",
@@ -113031,7 +114470,9 @@
       "last_updated": "2026-03-17T22:14:00.796663+00:00"
     },
     "nomic-ai/gpt4all": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 619959033,
         "name": "gpt4all",
@@ -113141,7 +114582,9 @@
       "last_updated": "2026-03-17T22:14:01.863852+00:00"
     },
     "qwopqwop200/GPTQ-for-LLaMa": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 610307205,
         "name": "GPTQ-for-LLaMa",
@@ -113162,7 +114605,8 @@
     },
     "vast-ai/vast-cli": {
       "lists": [
-        "API"
+        "API",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 168062479,
@@ -113205,7 +114649,9 @@
       "last_updated": "2026-03-17T22:14:02.413361+00:00"
     },
     "hpcaitech/ColossalAI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 422274596,
         "name": "ColossalAI",
@@ -113406,7 +114852,9 @@
       "last_updated": "2026-03-17T22:14:04.207175+00:00"
     },
     "determined-ai/determined": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 253846879,
         "name": "determined",
@@ -114090,7 +115538,9 @@
       "last_updated": "2026-03-17T22:14:10.696835+00:00"
     },
     "serge-chat/serge": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 615973283,
         "name": "serge",
@@ -114523,7 +115973,8 @@
     "NVIDIA/nvidia-docker": {
       "lists": [
         "Docker and OCI containers",
-        "FFmpeg"
+        "FFmpeg",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 45557469,
@@ -115010,7 +116461,8 @@
     },
     "rakyll/openai-go": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 606223247,
@@ -115053,7 +116505,9 @@
       "last_updated": "2026-03-17T22:14:19.880525+00:00"
     },
     "awslabs/graphstorm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 573398710,
         "name": "graphstorm",
@@ -115838,7 +117292,9 @@
       "last_updated": "2026-03-17T22:14:27.222736+00:00"
     },
     "ggml-org/llama.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 612354784,
         "name": "llama.cpp",
@@ -117919,7 +119375,9 @@
       "last_updated": "2026-03-17T22:14:46.058748+00:00"
     },
     "LAION-AI/Open-Assistant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 577603990,
         "name": "Open-Assistant",
@@ -118178,7 +119636,9 @@
       "last_updated": "2026-03-17T22:14:48.411616+00:00"
     },
     "Farama-Foundation/Gymnasium": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 534011733,
         "name": "Gymnasium",
@@ -118220,7 +119680,9 @@
       "last_updated": "2026-03-17T22:14:48.846881+00:00"
     },
     "huggingface/huggingface_hub": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 323591830,
         "name": "huggingface_hub",
@@ -119744,7 +121206,9 @@
       "last_updated": "2026-03-17T22:15:02.845628+00:00"
     },
     "openai/gpt-2-output-dataset": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 184690694,
         "name": "gpt-2-output-dataset",
@@ -119786,7 +121250,9 @@
       "last_updated": "2026-03-17T22:15:03.242441+00:00"
     },
     "Aesthetikx/openai_pipe": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 581621643,
         "name": "openai_pipe",
@@ -121212,7 +122678,9 @@
       "last_updated": "2026-03-17T22:15:17.090392+00:00"
     },
     "fairlearn/fairlearn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 133444044,
         "name": "fairlearn",
@@ -121667,7 +123135,9 @@
       "last_updated": "2026-03-17T22:15:21.524550+00:00"
     },
     "openai/whisper": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 537603333,
         "name": "whisper",
@@ -121688,7 +123158,8 @@
     },
     "orchest/orchest": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 265911693,
@@ -121962,7 +123433,8 @@
     "dbt-labs/dbt-core": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 53548867,
@@ -122127,7 +123599,9 @@
       "last_updated": "2026-03-17T22:15:25.871659+00:00"
     },
     "mlflow/mlflow": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 136202695,
         "name": "mlflow",
@@ -122147,7 +123621,9 @@
       "last_updated": "2026-03-17T22:15:26.056319+00:00"
     },
     "gradio-app/gradio": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 162405963,
         "name": "gradio",
@@ -122167,7 +123643,9 @@
       "last_updated": "2026-03-17T22:15:26.260945+00:00"
     },
     "streamlit/streamlit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 204086862,
         "name": "streamlit",
@@ -122188,7 +123666,8 @@
     },
     "treeverse/dvc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 83878269,
@@ -122757,7 +124236,9 @@
       "last_updated": "2026-03-17T22:15:31.486442+00:00"
     },
     "abhishekkrthakur/colabcode": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 294074614,
         "name": "colabcode",
@@ -122777,7 +124258,9 @@
       "last_updated": "2026-03-17T22:15:31.695730+00:00"
     },
     "WassimBenzarti/colab-ssh": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 244010692,
         "name": "colab-ssh",
@@ -122837,7 +124320,9 @@
       "last_updated": "2026-03-17T22:15:32.268725+00:00"
     },
     "taranjeet/unofficial-chatgpt-api": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 573547054,
         "name": "unofficial-chatgpt-api",
@@ -122857,7 +124342,9 @@
       "last_updated": "2026-03-17T22:15:32.476102+00:00"
     },
     "MayerDaniel/ida_gpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 574071929,
         "name": "ida_gpt",
@@ -122968,7 +124455,9 @@
       "last_updated": "2026-03-17T22:15:33.369454+00:00"
     },
     "CodedotAl/gpt-code-clippy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 382145926,
         "name": "gpt-code-clippy",
@@ -122988,7 +124477,9 @@
       "last_updated": "2026-03-17T22:15:33.582426+00:00"
     },
     "huggingface/deep-rl-class": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 484003883,
         "name": "deep-rl-class",
@@ -123008,7 +124499,9 @@
       "last_updated": "2026-03-17T22:15:33.777722+00:00"
     },
     "llm-workflow-engine/llm-workflow-engine": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 573822937,
         "name": "llm-workflow-engine",
@@ -130173,7 +131666,8 @@
     },
     "rhasspy/rhasspy": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 232658394,
@@ -135510,7 +137004,9 @@
       "last_updated": "2026-03-17T22:17:28.588611+00:00"
     },
     "borisdayma/dalle-mini": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 382680786,
         "name": "dalle-mini",
