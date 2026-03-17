@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:22.442865+00:00",
+  "last_updated": "2026-03-17T23:14:27.540215+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -1015,7 +1015,8 @@
     },
     "rtk-ai/rtk": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 1139971460,
@@ -1701,7 +1702,9 @@
       }
     },
     "googleworkspace/cli": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1171026502,
         "name": "cli",
@@ -1836,7 +1839,8 @@
     },
     "russelltg/srt-rs": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 122903838,
@@ -2303,7 +2307,9 @@
       }
     },
     "josefbacik/systing": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 874233571,
         "name": "systing",
@@ -2825,7 +2831,8 @@
     },
     "SwagRGB/spek-cli": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 1129751069,
@@ -3369,7 +3376,8 @@
       "lists": [
         "FFmpeg",
         "Linux CLI Tools",
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 1129169520,
@@ -5340,7 +5348,8 @@
     },
     "containers/krunvm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 333174273,
@@ -6174,7 +6183,8 @@
     "ratatui/mousefood": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 950531141,
@@ -6365,7 +6375,8 @@
     "Rust-GPU/rust-gpu": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 827357591,
@@ -7966,7 +7977,8 @@
     },
     "grovesNL/glow": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 163432534,
@@ -9601,7 +9613,8 @@
     },
     "sinelaw/fresh": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 907990001,
@@ -10517,7 +10530,8 @@
     },
     "astral-sh/ty": {
       "lists": [
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 976731654,
@@ -10598,7 +10612,8 @@
     },
     "schwwaaa/shadecore": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 1117912327,
@@ -15500,7 +15515,8 @@
     },
     "OpenDevicePartnership/patina": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Rust"
       ],
       "metadata": {
         "id": 866262351,
@@ -15772,7 +15788,9 @@
       }
     },
     "bilinearlabs/rs-merkle-tree": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1056680159,
         "name": "rs-merkle-tree",
@@ -15825,7 +15843,8 @@
     },
     "ariebovenberg/whenever": {
       "lists": [
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 717223794,
@@ -16126,7 +16145,8 @@
     },
     "superfly/corrosion": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 631619767,
@@ -17416,7 +17436,9 @@
       }
     },
     "SinTan1729/chhoto-url": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 568595546,
         "name": "chhoto-url",
@@ -17768,7 +17790,9 @@
       }
     },
     "peteretelej/tree": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 637099077,
         "name": "tree",
@@ -18459,7 +18483,9 @@
       }
     },
     "confidential-containers/trustee": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 485367944,
         "name": "trustee",
@@ -18924,7 +18950,8 @@
     },
     "Boddlnagg/midir": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Rust"
       ],
       "metadata": {
         "id": 40397197,
@@ -18951,7 +18978,8 @@
     },
     "probe-rs/rtt-target": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Rust"
       ],
       "metadata": {
         "id": 253102866,
@@ -19145,7 +19173,8 @@
     "ashvardanian/NumKong": {
       "lists": [
         "JavaScript",
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 613772664,
@@ -19176,7 +19205,8 @@
       "lists": [
         "GoLang",
         "JavaScript",
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 287616631,
@@ -22471,7 +22501,8 @@
     "youki-dev/youki": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 352051262,
@@ -22637,7 +22668,8 @@
     "theori-io/aixcc-afc-archive": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 1019798736,
@@ -22999,7 +23031,9 @@
       }
     },
     "typst/typst": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 210702427,
         "name": "typst",
@@ -24949,7 +24983,8 @@
     },
     "deshaw/procfd": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 1010153991,
@@ -26280,7 +26315,8 @@
     },
     "houseabsolute/ubi": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 327105217,
@@ -26610,7 +26646,8 @@
     },
     "cisagov/thorium": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 967688555,
@@ -27828,7 +27865,8 @@
     },
     "qdrant/qdrant": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 268163609,
@@ -28657,7 +28695,8 @@
     },
     "oldrev/edgelinkd": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Rust"
       ],
       "metadata": {
         "id": 1016794856,
@@ -29344,7 +29383,8 @@
     },
     "cbiffle/drupes": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 874025389,
@@ -29536,7 +29576,8 @@
     "JFryy/systemd-lsp": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 1006356243,
@@ -30561,7 +30602,8 @@
     },
     "gametorch/image_to_pixel_art_wasm": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 1009048253,
@@ -30649,7 +30691,8 @@
     },
     "katanemo/plano": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 826498000,
@@ -31174,7 +31217,8 @@
     },
     "volllly/rotz": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 451930303,
@@ -31958,7 +32002,8 @@
     "openai/codex": {
       "lists": [
         "Linux CLI Tools",
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 965415649,
@@ -32961,7 +33006,8 @@
     "Schniz/fnm": {
       "lists": [
         "JavaScript",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 166045424,
@@ -33488,7 +33534,9 @@
       }
     },
     "EmbarkStudios/puffin": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 286426536,
         "name": "puffin",
@@ -34037,7 +34085,8 @@
     },
     "huggingface/xet-core": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 855423236,
@@ -34373,7 +34422,8 @@
     },
     "ahdinosaur/blinksy": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 955018135,
@@ -34401,7 +34451,8 @@
     "abhinav/restack": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 106304167,
@@ -34514,7 +34565,8 @@
     },
     "ruffle-rs/ruffle": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 183483988,
@@ -35667,7 +35719,8 @@
     },
     "containers/libkrun": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Rust"
       ],
       "metadata": {
         "id": 287326438,
@@ -35998,7 +36051,8 @@
     },
     "maia-s/sdl3-sys-rs": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 842699559,
@@ -38256,7 +38310,9 @@
       }
     },
     "verus-lang/verus": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 419028280,
         "name": "verus",
@@ -39551,7 +39607,8 @@
     },
     "Rust-GPU/rust-cuda": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 418282394,
@@ -40486,7 +40543,8 @@
     },
     "ntsc-rs/ntsc-rs": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 682371900,
@@ -40514,7 +40572,8 @@
     "proot-me/proot-rs": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 81742782,
@@ -41039,7 +41098,8 @@
     },
     "praetorian-inc/noseyparker": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 563584480,
@@ -41095,7 +41155,8 @@
     },
     "medialab/xan": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 140488417,
@@ -41312,7 +41373,8 @@
     },
     "hyperlight-dev/hyperlight": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 883829350,
@@ -41843,7 +41905,9 @@
       }
     },
     "Devolutions/IronRDP": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 196274912,
         "name": "IronRDP",
@@ -41923,7 +41987,8 @@
     },
     "k06a/playder": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 912233951,
@@ -43048,7 +43113,9 @@
       }
     },
     "rust-lang/rustup": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 43192623,
         "name": "rustup",
@@ -43239,7 +43306,8 @@
     "EFForg/rayhunter": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 716335769,
@@ -43518,7 +43586,8 @@
     "michidk/vscli": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 609615063,
@@ -44765,7 +44834,8 @@
     },
     "obelisk/rustica": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Rust"
       ],
       "metadata": {
         "id": 328859185,
@@ -46374,7 +46444,9 @@
       }
     },
     "n0-computer/iroh": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 469877060,
         "name": "iroh",
@@ -46399,7 +46471,9 @@
       }
     },
     "n0-computer/sendme": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 730576320,
         "name": "sendme",
@@ -48726,7 +48800,8 @@
     },
     "antmicro/wrap-vt100": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 431634477,
@@ -49478,7 +49553,8 @@
     },
     "picahq/pica": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 782597014,
@@ -50335,7 +50411,8 @@
     },
     "alexpasmantier/television": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 857898245,
@@ -50442,7 +50519,8 @@
     },
     "thewh1teagle/vibe": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 740293013,
@@ -50499,7 +50577,8 @@
     "Inokinoki/ai-no-jimaku-gumi": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 901565839,
@@ -50827,7 +50906,9 @@
       }
     },
     "GitoxideLabs/gitoxide": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 136510559,
         "name": "gitoxide",
@@ -51165,7 +51246,8 @@
     },
     "WootingKb/wooting-analog-sdk": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 194277328,
@@ -51303,7 +51385,8 @@
     },
     "nannou-org/nannou": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 102113773,
@@ -52834,7 +52917,8 @@
     },
     "PyO3/pyo3": {
       "lists": [
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 91151442,
@@ -54472,7 +54556,9 @@
       }
     },
     "DioxusLabs/dioxus": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 329782568,
         "name": "dioxus",
@@ -54759,7 +54845,9 @@
       }
     },
     "succinctlabs/sp1": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 727489129,
         "name": "sp1",
@@ -56463,7 +56551,8 @@
     },
     "gyroflow/gyroflow": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 427166323,
@@ -57152,7 +57241,8 @@
     },
     "RustAudio/dasp": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 30742812,
@@ -57937,7 +58027,8 @@
     },
     "Quozul/seamless": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 624907072,
@@ -58464,7 +58555,9 @@
       }
     },
     "cross-rs/cross": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 77338532,
         "name": "cross",
@@ -58634,7 +58727,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 844670429,
@@ -63467,7 +63561,8 @@
     },
     "edeetee/ffgl-rs": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 609774106,
@@ -64498,7 +64593,8 @@
     },
     "microsoft/openvmm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 765938063,
@@ -65108,7 +65204,8 @@
     },
     "floneum/floneum": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 644995806,
@@ -65135,7 +65232,8 @@
     },
     "MistApproach/callm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 817660773,
@@ -65162,7 +65260,8 @@
     },
     "ShelbyJenkins/llm_client": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 731655642,
@@ -65189,7 +65288,8 @@
     },
     "neferdata/allms": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 719621329,
@@ -65216,7 +65316,8 @@
     },
     "intelligentnet/llmclient": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 774030462,
@@ -65243,7 +65344,8 @@
     },
     "huggingface/candle": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 655797848,
@@ -65270,7 +65372,8 @@
     },
     "EricLBuehler/mistral.rs": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 763774926,
@@ -65297,7 +65400,8 @@
     },
     "huggingface/ratchet": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 742001976,
@@ -65324,7 +65428,8 @@
     },
     "rustformers/llm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 613486352,
@@ -65351,7 +65456,8 @@
     },
     "samuel-vitorino/lm.rs": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 828071646,
@@ -67961,7 +68067,8 @@
     },
     "voxell-tech/motiongfx": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 706354145,
@@ -68428,7 +68535,8 @@
     "moghtech/komodo": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 469321930,
@@ -72694,7 +72802,8 @@
     },
     "SoptikHa2/desed": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 257128429,
@@ -73163,7 +73272,8 @@
     },
     "ratatui/ratatui": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 600886023,
@@ -75696,7 +75806,8 @@
     },
     "jessstringham/murrelet": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 818689313,
@@ -76900,7 +77011,9 @@
       }
     },
     "tree-sitter/tree-sitter": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 14164618,
         "name": "tree-sitter",
@@ -79677,7 +79790,8 @@
     },
     "gfx-rs/wgpu": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 148686316,
@@ -82101,7 +82215,8 @@
     "ffplayout/ffplayout": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 116565468,
@@ -85732,7 +85847,8 @@
     },
     "fluendo/fluster": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Rust"
       ],
       "metadata": {
         "id": 265563896,
@@ -85919,7 +86035,9 @@
       }
     },
     "alexpusch/rust-magic-patterns": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 541280938,
         "name": "rust-magic-patterns",
@@ -86771,7 +86889,8 @@
     },
     "indygreg/apple-platform-rs": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Rust"
       ],
       "metadata": {
         "id": 537908064,
@@ -87342,7 +87461,8 @@
     },
     "astral-sh/uv": {
       "lists": [
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 699532645,
@@ -88157,7 +88277,8 @@
     },
     "Y2Z/monolith": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 82530909,
@@ -89571,7 +89692,9 @@
       }
     },
     "SFBdragon/talc": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 646434379,
         "name": "talc",
@@ -89708,7 +89831,8 @@
     },
     "BurntSushi/ripgrep": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 53631945,
@@ -97337,7 +97461,9 @@
       "last_updated": "2026-03-17T22:10:43.371404+00:00"
     },
     "copy/v86": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 14158237,
         "name": "v86",
@@ -99067,7 +99193,8 @@
     },
     "fujiapple852/trippy": {
       "lists": [
-        "Networking"
+        "Networking",
+        "Rust"
       ],
       "metadata": {
         "id": 474961035,
@@ -99677,7 +99804,8 @@
     },
     "fengalin/midi-sniffer": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 470671950,
@@ -99722,7 +99850,8 @@
     "AmrDeveloper/GQL": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 649816851,
@@ -100179,7 +100308,9 @@
       "last_updated": "2026-03-17T22:11:09.962636+00:00"
     },
     "adamaq01/wasm-rp2040": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 709999457,
         "name": "wasm-rp2040",
@@ -101821,7 +101952,8 @@
     },
     "greatest-ape/OctaSine": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 197913230,
@@ -101843,7 +101975,8 @@
     },
     "icsga/Yazz": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 261939115,
@@ -103266,7 +103399,8 @@
     },
     "subalterngames/cacophony": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 603857865,
@@ -104762,7 +104896,8 @@
     "cackle-rs/cackle": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 621101554,
@@ -106346,7 +106481,8 @@
     "rcoh/angle-grinder": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 123365228,
@@ -107191,7 +107327,9 @@
       "last_updated": "2026-03-17T22:12:16.589301+00:00"
     },
     "dfir-dd/dfir-toolkit": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 663866341,
         "name": "dfir-toolkit",
@@ -108731,7 +108869,8 @@
     },
     "zellij-org/zellij": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 292014229,
@@ -108975,7 +109114,8 @@
     },
     "nicholaschiasson/fcidr": {
       "lists": [
-        "Networking"
+        "Networking",
+        "Rust"
       ],
       "metadata": {
         "id": 662232160,
@@ -109605,7 +109745,8 @@
     "stacked-git/stgit": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 93957881,
@@ -109717,7 +109858,9 @@
       "last_updated": "2026-03-17T22:12:40.575266+00:00"
     },
     "blitz/obiwan": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 648666019,
         "name": "obiwan",
@@ -110772,7 +110915,8 @@
     },
     "openobserve/openobserve": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 596377730,
@@ -111079,7 +111223,8 @@
     },
     "wasmerio/wasmer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 152572186,
@@ -111310,7 +111455,8 @@
     "nikstur/bombon": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 526398555,
@@ -111425,7 +111571,8 @@
     "anthonyharrison/sbom4rust": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 545003439,
@@ -111941,7 +112088,9 @@
       "last_updated": "2026-03-17T22:13:01.201143+00:00"
     },
     "wasmerio/wapm-cli": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 177042614,
         "name": "wapm-cli",
@@ -111981,7 +112130,9 @@
       "last_updated": "2026-03-17T22:13:01.629129+00:00"
     },
     "redox-os/redox": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 34275705,
         "name": "redox",
@@ -112044,7 +112195,9 @@
       "last_updated": "2026-03-17T22:13:02.308158+00:00"
     },
     "john-sharratt/coreutils": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 496605675,
         "name": "coreutils",
@@ -112112,7 +112265,8 @@
     },
     "wasmCloud/wasmCloud": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 304403692,
@@ -112134,7 +112288,8 @@
     },
     "bytecodealliance/wasmtime": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 101767772,
@@ -112451,7 +112606,8 @@
     },
     "helix-editor/helix": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 268424739,
@@ -112948,7 +113104,9 @@
       "last_updated": "2026-03-17T22:13:10.924521+00:00"
     },
     "rust-lang/rustlings": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 42489829,
         "name": "rustlings",
@@ -113727,7 +113885,8 @@
     },
     "lycheeverse/lychee-action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 320929718,
@@ -114273,7 +114432,8 @@
     },
     "quickwit-oss/quickwit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 357707809,
@@ -114500,7 +114660,8 @@
     },
     "chroma-core/chroma": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 546206616,
@@ -114903,7 +115064,9 @@
       "last_updated": "2026-03-17T22:13:29.853730+00:00"
     },
     "flox/flox": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 581225647,
         "name": "flox",
@@ -115506,7 +115669,9 @@
       "last_updated": "2026-03-17T22:13:35.515267+00:00"
     },
     "unicode-org/icu4x": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 243395141,
         "name": "icu4x",
@@ -116536,7 +116701,8 @@
     },
     "dotcypress/ula": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Rust"
       ],
       "metadata": {
         "id": 627094231,
@@ -117538,7 +117704,8 @@
     },
     "TabbyML/tabby": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 614764248,
@@ -117736,7 +117903,8 @@
     "PaulJuliusMartinez/jless": {
       "lists": [
         "JSON",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 361079646,
@@ -118142,7 +118310,8 @@
     },
     "rustls/rustls-ffi": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 320029760,
@@ -119386,7 +119555,8 @@
     },
     "alacritty/alacritty": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 51980455,
@@ -119427,7 +119597,9 @@
       "last_updated": "2026-03-17T22:14:12.468381+00:00"
     },
     "ngrok/ngrok-rust": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 554851841,
         "name": "ngrok-rust",
@@ -119625,7 +119797,8 @@
     "str4d/rage": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 213749542,
@@ -119740,7 +119913,9 @@
       "last_updated": "2026-03-17T22:14:15.363866+00:00"
     },
     "lapce/lapce": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 120425779,
         "name": "lapce",
@@ -120143,7 +120318,8 @@
     },
     "cloudflare/quiche": {
       "lists": [
-        "QUIC"
+        "QUIC",
+        "Rust"
       ],
       "metadata": {
         "id": 150891532,
@@ -120436,7 +120612,8 @@
     "jdx/mise": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 586920414,
@@ -120667,7 +120844,8 @@
     },
     "tsirysndr/superviseur": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 608738662,
@@ -121189,7 +121367,8 @@
     },
     "qarmin/czkawka": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 292065578,
@@ -122138,7 +122317,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 523043277,
@@ -122161,7 +122341,8 @@
     "parseablehq/parseable": {
       "lists": [
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Rust"
       ],
       "metadata": {
         "id": 520784735,
@@ -122333,7 +122514,8 @@
     },
     "wezterm/wezterm": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 120568143,
@@ -122926,7 +123108,8 @@
     },
     "obi1kenobi/trustfall": {
       "lists": [
-        "API"
+        "API",
+        "Rust"
       ],
       "metadata": {
         "id": 446669912,
@@ -123933,7 +124116,9 @@
       "last_updated": "2026-03-17T22:14:53.291357+00:00"
     },
     "onekey-sec/unblob": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 374917397,
         "name": "unblob",
@@ -124153,7 +124338,8 @@
     },
     "aaronjanse/dns-over-wikipedia": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 250977311,
@@ -124600,7 +124786,8 @@
     },
     "casey/just": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 61349723,
@@ -124782,7 +124969,8 @@
     "korandoru/hawkeye": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 584255967,
@@ -125207,7 +125395,9 @@
       "last_updated": "2026-03-17T22:15:04.741537+00:00"
     },
     "aurae-runtime/aurae": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 531874744,
         "name": "aurae",
@@ -125294,7 +125484,8 @@
     },
     "lldap/lldap": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 343753772,
@@ -125316,7 +125507,8 @@
     },
     "enarx/enarx": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 206337472,
@@ -125339,7 +125531,8 @@
     "str4d/age-plugin-yubikey": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 291547252,
@@ -126296,7 +126489,8 @@
     "apache/teaclave-trustzone-sdk": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 167625003,
@@ -126607,7 +126801,9 @@
       "last_updated": "2026-03-17T22:15:18.075714+00:00"
     },
     "Rigellute/spotify-tui": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 202787876,
         "name": "spotify-tui",
@@ -126627,7 +126823,9 @@
       "last_updated": "2026-03-17T22:15:18.252982+00:00"
     },
     "jpochyla/psst": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 267374872,
         "name": "psst",
@@ -126648,7 +126846,8 @@
     },
     "Spotifyd/spotifyd": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 27839676,
@@ -126692,7 +126891,8 @@
     },
     "mozilla/cargo-vet": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 469920647,
@@ -126714,7 +126914,8 @@
     },
     "crev-dev/cargo-crev": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 145652047,
@@ -127001,7 +127202,8 @@
     },
     "Ryu0118/Kusa": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 505919315,
@@ -127161,7 +127363,9 @@
       "last_updated": "2026-03-17T22:15:23.442931+00:00"
     },
     "model-checking/kani": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 351882164,
         "name": "kani",
@@ -127531,7 +127735,8 @@
     "arxanas/git-branchless": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Rust"
       ],
       "metadata": {
         "id": 320370787,
@@ -128137,7 +128342,9 @@
       "last_updated": "2026-03-17T22:15:31.885998+00:00"
     },
     "divviup/libprio-rs": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 275900956,
         "name": "libprio-rs",
@@ -128157,7 +128364,9 @@
       "last_updated": "2026-03-17T22:15:32.077534+00:00"
     },
     "divviup/janus": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 465438718,
         "name": "janus",
@@ -128724,7 +128933,8 @@
     "containerd/runwasi": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 452780719,
@@ -131817,7 +132027,8 @@
     },
     "cloud-hypervisor/cloud-hypervisor": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 184341774,
@@ -131949,7 +132160,9 @@
       "last_updated": "2026-03-17T22:16:05.505606+00:00"
     },
     "kimono-koans/httm": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 467297999,
         "name": "httm",
@@ -132874,7 +133087,8 @@
     },
     "tealdeer-rs/tealdeer": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 48739367,
@@ -133014,7 +133228,8 @@
     },
     "tokio-rs/turmoil": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 521063122,
@@ -133423,7 +133638,8 @@
     },
     "linux-credentials/libwebauthn": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 255356874,
@@ -136251,7 +136467,8 @@
     },
     "sigstore/sigstore-rs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 413517218,
@@ -136613,7 +136830,8 @@
     },
     "starship/starship": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 178991158,
@@ -136679,7 +136897,8 @@
     },
     "vectordotdev/vector": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 146327667,
@@ -137159,7 +137378,8 @@
     },
     "uutils/coreutils": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 11847500,
@@ -137183,7 +137403,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 168782501,
@@ -137207,7 +137428,8 @@
       "lists": [
         "Devops",
         "Linux CLI Tools",
-        "Networking"
+        "Networking",
+        "Rust"
       ],
       "metadata": {
         "id": 258827107,
@@ -138134,7 +138356,8 @@
     "indygreg/PyOxidizer": {
       "lists": [
         "Devops",
-        "Python"
+        "Python",
+        "Rust"
       ],
       "metadata": {
         "id": 162357299,
@@ -138337,7 +138560,8 @@
     "kanidm/webauthn-rs": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 180746955,
@@ -138650,7 +138874,8 @@
       "lists": [
         "Authentication",
         "Infosec",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 228682115,
@@ -139585,7 +139810,8 @@
     },
     "parallaxsecond/rust-cryptoki": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 344199423,
@@ -139652,7 +139878,8 @@
     },
     "mheese/rust-pkcs11": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 109721397,
@@ -140464,7 +140691,8 @@
         "Apple and M1 virtualization",
         "Infosec",
         "Linux CLI Tools",
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 112631209,
@@ -140830,7 +141058,8 @@
     },
     "rustdesk/rustdesk": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Rust"
       ],
       "metadata": {
         "id": 299354207,
@@ -141576,7 +141805,8 @@
     "MarginResearch/cannoli": {
       "lists": [
         "Fuzzing",
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 494242182,
@@ -142003,7 +142233,8 @@
     },
     "newrelic/rusty-hog": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 222316111,
@@ -143591,7 +143822,8 @@
     },
     "resyncgg/ripgen": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Rust"
       ],
       "metadata": {
         "id": 451309757,
@@ -144450,7 +144682,9 @@
       "last_updated": "2026-03-17T22:17:58.942915+00:00"
     },
     "BurntSushi/xsv": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 23560214,
         "name": "xsv",
@@ -144684,7 +144918,8 @@
     },
     "dandavison/delta": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Rust"
       ],
       "metadata": {
         "id": 193526915,
@@ -144705,7 +144940,9 @@
       "last_updated": "2026-03-17T22:18:01.036248+00:00"
     },
     "genonullfree/teleporter": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 403199169,
         "name": "teleporter",
@@ -145417,7 +145654,9 @@
       "last_updated": "2026-03-17T22:18:07.446829+00:00"
     },
     "Wilfred/difftastic": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 162276894,
         "name": "difftastic",
@@ -146001,7 +146240,9 @@
       "last_updated": "2026-03-17T22:18:12.575196+00:00"
     },
     "rpearce/nix-rust-template": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 427245476,
         "name": "nix-rust-template",
@@ -146305,7 +146546,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Rust"
       ],
       "metadata": {
         "id": 77071454,
@@ -148276,7 +148518,9 @@
       "last_updated": "2026-03-17T22:18:32.969314+00:00"
     },
     "stratis-storage/stratisd": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 66564704,
         "name": "stratisd",
@@ -148991,7 +149235,8 @@
     "firecracker-microvm/firecracker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 107505869,
@@ -150930,7 +151175,8 @@
     },
     "rustls/rustls": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 57920736,
@@ -152432,7 +152678,8 @@
     "google/crosvm": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Rust"
       ],
       "metadata": {
         "id": 405863130,
@@ -153539,7 +153786,8 @@
     },
     "build-trust/ockam": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Rust"
       ],
       "metadata": {
         "id": 159866229,
@@ -154806,7 +155054,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "JSON"
+        "JSON",
+        "Rust"
       ],
       "metadata": {
         "id": 392231408,
