@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:07.162772+00:00",
+  "last_updated": "2026-03-17T23:11:25.660261+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -286,7 +286,9 @@
       }
     },
     "ddworken/hishtory": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 446655824,
         "name": "hishtory",
@@ -466,7 +468,8 @@
     },
     "jorgelbg/pinentry-touchid": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 383950914,
@@ -863,7 +866,8 @@
     },
     "driftlessaf/terraform-infra-reconcilers": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 1143426402,
@@ -891,7 +895,8 @@
     "driftlessaf/go-driftlessaf": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 1142369668,
@@ -1047,7 +1052,8 @@
     },
     "OWASP/Go-SCP": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 87070385,
@@ -1099,7 +1105,8 @@
     },
     "PortSwigger/certsquirt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 627894902,
@@ -1333,7 +1340,9 @@
       }
     },
     "taiseiue/primitive-playground": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1168474686,
         "name": "primitive-playground",
@@ -1539,7 +1548,9 @@
       }
     },
     "ghostsecurity/poltergeist": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1035457311,
         "name": "poltergeist",
@@ -1741,7 +1752,9 @@
       }
     },
     "datarhei/gosrt": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 308081952,
         "name": "gosrt",
@@ -1842,7 +1855,8 @@
     },
     "papercomputeco/tapes": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 1135990494,
@@ -1869,7 +1883,8 @@
     },
     "restic/rest-server": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 72937609,
@@ -2696,7 +2711,8 @@
     },
     "openrundev/openrun": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 627567877,
@@ -2824,7 +2840,9 @@
       }
     },
     "ashishb/wp2hugo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 769482911,
         "name": "wp2hugo",
@@ -2901,7 +2919,9 @@
       }
     },
     "autobrr/mkbrr": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 918738660,
         "name": "mkbrr",
@@ -5504,7 +5524,8 @@
     },
     "loft-sh/loft": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 265079366,
@@ -8412,7 +8433,8 @@
     },
     "runmedev/runme": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 515087779,
@@ -8792,7 +8814,9 @@
       }
     },
     "Dicklesworthstone/beads_viewer": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1104804402,
         "name": "beads_viewer",
@@ -9577,7 +9601,9 @@
       }
     },
     "wabarc/wayback": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 271984275,
         "name": "wayback",
@@ -12274,7 +12300,9 @@
       }
     },
     "facebookincubator/sks": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 191838304,
         "name": "sks",
@@ -12299,7 +12327,9 @@
       }
     },
     "mikesmitty/file-search": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1101363787,
         "name": "file-search",
@@ -12451,7 +12481,9 @@
       }
     },
     "small-teton/mpeg-ts-analyzer": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 64757571,
         "name": "mpeg-ts-analyzer",
@@ -12990,7 +13022,9 @@
       }
     },
     "perkeep/perkeep": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1217831,
         "name": "perkeep",
@@ -14385,7 +14419,9 @@
       }
     },
     "firebase/genkit": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 793795224,
         "name": "genkit",
@@ -14706,7 +14742,8 @@
     },
     "google/go-licenses": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 221192652,
@@ -14759,7 +14796,9 @@
       }
     },
     "sigstore/rekor-monitor": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 337157341,
         "name": "rekor-monitor",
@@ -14784,7 +14823,9 @@
       }
     },
     "transparency-dev/witness": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 598529823,
         "name": "witness",
@@ -14834,7 +14875,9 @@
       }
     },
     "steveyegge/beads": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1074561042,
         "name": "beads",
@@ -15170,7 +15213,8 @@
     },
     "salesforce/pam_oidc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 355690448,
@@ -15973,7 +16017,9 @@
       }
     },
     "swig/swig": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 7372528,
         "name": "swig",
@@ -16104,7 +16150,9 @@
       }
     },
     "chainguard-dev/yam": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 587847096,
         "name": "yam",
@@ -16569,7 +16617,9 @@
       }
     },
     "gofiber/fiber": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 234231371,
         "name": "fiber",
@@ -17029,7 +17079,9 @@
       }
     },
     "SagerNet/sing-box": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 509091576,
         "name": "sing-box",
@@ -17414,7 +17466,9 @@
       }
     },
     "picatz/taint": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 576040396,
         "name": "taint",
@@ -17489,7 +17543,9 @@
       }
     },
     "francoismichel/ssh3": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 712363932,
         "name": "ssh3",
@@ -18121,7 +18177,9 @@
       }
     },
     "ashvardanian/StringZilla": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 287616631,
         "name": "StringZilla",
@@ -18694,7 +18752,8 @@
     },
     "seaweedfs/seaweedfs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 21827146,
@@ -19665,7 +19724,8 @@
     },
     "google/capslock": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 670375499,
@@ -19745,7 +19805,8 @@
     },
     "x-stp/rxtls": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 978268692,
@@ -19976,7 +20037,9 @@
       }
     },
     "go-monk/from-bash-to-go-part-ii": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1047365625,
         "name": "from-bash-to-go-part-ii",
@@ -21651,7 +21714,8 @@
     },
     "shurcooL/githubv4": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 92572310,
@@ -21904,7 +21968,9 @@
       }
     },
     "flyteorg/flyte": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 216628419,
         "name": "flyte",
@@ -22183,7 +22249,9 @@
       }
     },
     "osrg/gobgp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 24011030,
         "name": "gobgp",
@@ -22443,7 +22511,9 @@
       }
     },
     "usememos/memos": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 436297812,
         "name": "memos",
@@ -22468,7 +22538,9 @@
       }
     },
     "milvus-io/milvus": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 208728772,
         "name": "milvus",
@@ -24543,7 +24615,8 @@
     },
     "ContentSquare/chproxy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 103940483,
@@ -24816,7 +24889,8 @@
     },
     "aquaproj/aqua": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 399811207,
@@ -24868,7 +24942,8 @@
     },
     "stacklok/frizbee": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 721113155,
@@ -24946,7 +25021,9 @@
       }
     },
     "longsleep/golang-deb": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 121664407,
         "name": "golang-deb",
@@ -25716,7 +25793,8 @@
     "google/oss-rebuild": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 804443974,
@@ -26382,7 +26460,9 @@
       }
     },
     "chubin/wttr.in": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 48623558,
         "name": "wttr.in",
@@ -26512,7 +26592,8 @@
     },
     "retr0h/gilt": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 229168243,
@@ -26640,7 +26721,8 @@
     "ssup2/kpexec": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 242557925,
@@ -26667,7 +26749,8 @@
     },
     "solo-io/kdiag": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 472349272,
@@ -26978,7 +27061,9 @@
       }
     },
     "weaviate/weaviate": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 55072677,
         "name": "weaviate",
@@ -27437,7 +27522,8 @@
     },
     "ForgeRock/secret-agent": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 259435361,
@@ -27491,7 +27577,8 @@
     },
     "google/yamlfmt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 523428811,
@@ -27517,7 +27604,9 @@
       }
     },
     "foks-proj/go-foks": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 969793818,
         "name": "go-foks",
@@ -27901,7 +27990,8 @@
     },
     "bridgecrewio/yor": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 335331498,
@@ -28476,7 +28566,9 @@
       }
     },
     "smtg-ai/claude-squad": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 945605057,
         "name": "claude-squad",
@@ -30059,7 +30151,8 @@
     },
     "hashicorp/terraform-mcp-server": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 969282615,
@@ -30085,7 +30178,9 @@
       }
     },
     "github/github-mcp-server": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 942771284,
         "name": "github-mcp-server",
@@ -31118,7 +31213,8 @@
     },
     "peak/s5cmd": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 73909333,
@@ -32455,7 +32551,8 @@
     "ejoffe/spr": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 370007792,
@@ -32719,7 +32816,9 @@
       }
     },
     "AlexxIT/go2rtc": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 526081371,
         "name": "go2rtc",
@@ -33521,7 +33620,8 @@
     },
     "GoogleContainerTools/container-debug-support": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 136355548,
@@ -34842,7 +34942,9 @@
       }
     },
     "anyproto/anytype-heart": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 644881886,
         "name": "anytype-heart",
@@ -34867,7 +34969,9 @@
       }
     },
     "kubernetes-sigs/kro": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 856507666,
         "name": "kro",
@@ -34893,7 +34997,8 @@
     },
     "yannh/kubeconform": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 268015482,
@@ -35180,7 +35285,9 @@
       }
     },
     "TecharoHQ/anubis": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 950140488,
         "name": "anubis",
@@ -35230,7 +35337,9 @@
       }
     },
     "kubernetes-sigs/kubebuilder": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 125275487,
         "name": "kubebuilder",
@@ -35384,7 +35493,9 @@
       }
     },
     "asciimoo/omnom": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 359514956,
         "name": "omnom",
@@ -35513,7 +35624,9 @@
       }
     },
     "keel-hq/keel": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 93942998,
         "name": "keel",
@@ -36225,7 +36338,9 @@
       }
     },
     "makew0rld/didder": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 362903245,
         "name": "didder",
@@ -36476,7 +36591,8 @@
     },
     "attunehq/attune": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 964360888,
@@ -37384,7 +37500,9 @@
       }
     },
     "filebrowser/filebrowser": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 42332863,
         "name": "filebrowser",
@@ -37410,7 +37528,8 @@
     },
     "Excoriate/tftest": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 772947107,
@@ -38323,7 +38442,8 @@
     },
     "picosh/pico": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 528247705,
@@ -38349,7 +38469,9 @@
       }
     },
     "bytedance/sonic": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 370557198,
         "name": "sonic",
@@ -38376,7 +38498,8 @@
     "Skyscanner/turbolift": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 355476462,
@@ -38454,7 +38577,9 @@
       }
     },
     "astavonin/go-optimization-guide": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 951828264,
         "name": "go-optimization-guide",
@@ -38664,7 +38789,8 @@
     },
     "crdsdev/doc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 241378733,
@@ -38716,7 +38842,8 @@
     },
     "ChristofferNissen/helmper": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 785420224,
@@ -38917,7 +39044,9 @@
       }
     },
     "go-chi/chi": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 44344606,
         "name": "chi",
@@ -39206,7 +39335,9 @@
       }
     },
     "tdewolff/argp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 336797785,
         "name": "argp",
@@ -39259,7 +39390,8 @@
     },
     "Zouuup/landrun": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 952651301,
@@ -40376,7 +40508,8 @@
     },
     "kyverno/kyverno": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 169108858,
@@ -40402,7 +40535,9 @@
       }
     },
     "open-policy-agent/gatekeeper": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 154894457,
         "name": "gatekeeper",
@@ -40793,7 +40928,8 @@
     },
     "mjl-/mox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 595136650,
@@ -40998,7 +41134,9 @@
       }
     },
     "denandz/sourcemapper": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 147779075,
         "name": "sourcemapper",
@@ -41536,7 +41674,8 @@
     },
     "djthorpe/gopi": {
       "lists": [
-        "DIY"
+        "DIY",
+        "GoLang"
       ],
       "metadata": {
         "id": 36790939,
@@ -41892,7 +42031,9 @@
       }
     },
     "square/certigo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 59852599,
         "name": "certigo",
@@ -42034,7 +42175,8 @@
     },
     "equinix-labs/otel-cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 328012280,
@@ -42113,7 +42255,8 @@
     },
     "subtrace/subtrace": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 800632485,
@@ -42164,7 +42307,9 @@
       }
     },
     "cashapp/pivit": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 536699455,
         "name": "pivit",
@@ -42189,7 +42334,9 @@
       }
     },
     "noboruma/go-msquic": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 928759566,
         "name": "go-msquic",
@@ -42568,7 +42715,9 @@
       }
     },
     "kcp-dev/kcp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 353364259,
         "name": "kcp",
@@ -44130,7 +44279,9 @@
       }
     },
     "zcalusic/sysinfo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 66230957,
         "name": "sysinfo",
@@ -44181,7 +44332,8 @@
     },
     "runZeroInc/sshamble": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 834618694,
@@ -45006,7 +45158,8 @@
     },
     "kelseyhightower/confd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 13234395,
@@ -45165,7 +45318,8 @@
     },
     "cyberark/secretless-broker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 107414536,
@@ -45194,7 +45348,8 @@
       "lists": [
         "API",
         "Authentication",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 628096239,
@@ -46387,7 +46542,9 @@
       }
     },
     "evanpurkhiser/prolink-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 74754810,
         "name": "prolink-go",
@@ -46413,7 +46570,8 @@
     },
     "yassinebenaid/bunster": {
       "lists": [
-        "Bash"
+        "Bash",
+        "GoLang"
       ],
       "metadata": {
         "id": 831420946,
@@ -46635,7 +46793,8 @@
     },
     "binwiederhier/ntfy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 420503947,
@@ -46791,7 +46950,8 @@
     },
     "ghostunnel/ghostunnel": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 43837870,
@@ -46872,7 +47032,8 @@
     },
     "henrygd/beszel": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 825470378,
@@ -47209,7 +47370,8 @@
     "DWSR/krmfn-sealedsecret-from-1password": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 915526148,
@@ -47236,7 +47398,8 @@
     },
     "Miodec/deej": {
       "lists": [
-        "DIY"
+        "DIY",
+        "GoLang"
       ],
       "metadata": {
         "id": 379748458,
@@ -47312,7 +47475,9 @@
       }
     },
     "meehow/privtracker": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 319112812,
         "name": "privtracker",
@@ -48349,7 +48514,9 @@
       }
     },
     "zasper-io/zasper": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 846263966,
         "name": "zasper",
@@ -48559,7 +48726,8 @@
     },
     "Adyen/kubectl-rexec": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 902797342,
@@ -49228,7 +49396,9 @@
       }
     },
     "siyuan-note/siyuan": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 291438522,
         "name": "siyuan",
@@ -49305,7 +49475,9 @@
       }
     },
     "AllenDang/cimgui-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 522798019,
         "name": "cimgui-go",
@@ -49642,7 +49814,9 @@
       }
     },
     "magodo/pipeform": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 902851079,
         "name": "pipeform",
@@ -50466,7 +50640,8 @@
     "42-Project-Templates/go-project-template": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 749482214,
@@ -50936,7 +51111,9 @@
       }
     },
     "tomnomnom/hacks": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 101120466,
         "name": "hacks",
@@ -51293,7 +51470,9 @@
       }
     },
     "ameyrk99/dvdts": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 188915056,
         "name": "dvdts",
@@ -52288,7 +52467,9 @@
       }
     },
     "tillson/git-hound": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 197129669,
         "name": "git-hound",
@@ -54900,7 +55081,9 @@
       }
     },
     "hound-search/hound": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 28930512,
         "name": "hound",
@@ -54950,7 +55133,9 @@
       }
     },
     "mholt/caddy-l4": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 263121767,
         "name": "caddy-l4",
@@ -55056,7 +55241,8 @@
     },
     "lyft/clutch": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 259751605,
@@ -55297,7 +55483,9 @@
       }
     },
     "tmc/langchaingo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 603535454,
         "name": "langchaingo",
@@ -55684,7 +55872,8 @@
     },
     "padok-team/burrito": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 563468160,
@@ -55918,7 +56107,9 @@
       }
     },
     "juls0730/zqdgr": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 889414461,
         "name": "zqdgr",
@@ -55996,7 +56187,9 @@
       }
     },
     "noneback/go-taskflow": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 767894250,
         "name": "go-taskflow",
@@ -56384,7 +56577,9 @@
       }
     },
     "google/go-safeweb": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 265190306,
         "name": "go-safeweb",
@@ -58896,7 +59091,8 @@
     },
     "richardmarshall/dnsbench": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 155609165,
@@ -59158,7 +59354,9 @@
       }
     },
     "kelindar/search": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 864976834,
         "name": "search",
@@ -60293,7 +60491,8 @@
     },
     "overmindtech/cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 658761557,
@@ -60845,7 +61044,8 @@
     },
     "AlexanderGrooff/mermaid-ascii": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 605908758,
@@ -61712,7 +61912,8 @@
     },
     "andrearaponi/dito": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 870207723,
@@ -62137,7 +62338,9 @@
       }
     },
     "neilotoole/sq": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 51800292,
         "name": "sq",
@@ -62548,7 +62751,8 @@
     },
     "bjesus/pipet": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 850417985,
@@ -62973,7 +63177,9 @@
       }
     },
     "kopia/kopia": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 48299818,
         "name": "kopia",
@@ -62999,7 +63205,8 @@
     },
     "sqlc-dev/sqlc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 193160679,
@@ -63218,7 +63425,9 @@
       }
     },
     "maragudk/gomponents": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 294889564,
         "name": "gomponents",
@@ -63841,7 +64050,9 @@
       }
     },
     "kaey/framebuffer": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 8076632,
         "name": "framebuffer",
@@ -65026,7 +65237,8 @@
     },
     "MightyMoud/sidekick": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 823365697,
@@ -65106,7 +65318,9 @@
       }
     },
     "go-shiori/shiori": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 118617559,
         "name": "shiori",
@@ -65236,7 +65450,8 @@
     },
     "noperator/sol": {
       "lists": [
-        "Bash"
+        "Bash",
+        "GoLang"
       ],
       "metadata": {
         "id": 847868327,
@@ -65291,7 +65506,8 @@
     "abhinav/git-spice": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 660623402,
@@ -65548,7 +65764,9 @@
       }
     },
     "quii/learn-go-with-tests": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 123572362,
         "name": "learn-go-with-tests",
@@ -66262,7 +66480,9 @@
       }
     },
     "alexellis/k3sup": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 202523140,
         "name": "k3sup",
@@ -68854,7 +69074,8 @@
     },
     "ymtdzzz/otel-tui": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 776805339,
@@ -70467,7 +70688,9 @@
       }
     },
     "TomWright/dasel": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 297615696,
         "name": "dasel",
@@ -71148,7 +71371,9 @@
       }
     },
     "kubernetes-sigs/kubebuilder-declarative-pattern": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 171560361,
         "name": "kubebuilder-declarative-pattern",
@@ -72491,7 +72716,9 @@
       }
     },
     "teivah/100-go-mistakes": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 320818962,
         "name": "100-go-mistakes",
@@ -72923,7 +73150,8 @@
     },
     "tofuutils/tenv": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 739378779,
@@ -73128,7 +73356,9 @@
       }
     },
     "arunsupe/semantic-grep": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 833920230,
         "name": "semantic-grep",
@@ -73576,7 +73806,9 @@
       }
     },
     "jmoiron/sqlx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 7877397,
         "name": "sqlx",
@@ -74219,7 +74451,9 @@
       }
     },
     "lucasepe/modgv": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 294981550,
         "name": "modgv",
@@ -75274,7 +75508,9 @@
       }
     },
     "stashapp/stash": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 135951540,
         "name": "stash",
@@ -76864,7 +77100,8 @@
     },
     "JFryy/qq": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 819154949,
@@ -77359,7 +77596,9 @@
       }
     },
     "FiloSottile/age-plugin-tpm": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 817679455,
         "name": "age-plugin-tpm",
@@ -77914,7 +78153,9 @@
       }
     },
     "lmittmann/tint": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 616184794,
         "name": "tint",
@@ -80591,7 +80832,8 @@
     },
     "version-fox/vfox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 729446906,
@@ -81409,7 +81651,8 @@
     },
     "goreleaser/example-supply-chain": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 440961117,
@@ -81617,7 +81860,8 @@
     },
     "open-telemetry/opentelemetry-ebpf-profiler": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 786905655,
@@ -82920,7 +83164,8 @@
     },
     "PuerkitoBio/goquery": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 5594766,
@@ -84448,7 +84693,9 @@
       }
     },
     "u-root/gobusybox": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 292972020,
         "name": "gobusybox",
@@ -84604,7 +84851,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 282309982,
@@ -87920,7 +88168,8 @@
     },
     "tellerops/teller": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 351043495,
@@ -90606,7 +90855,9 @@
       "last_updated": "2026-03-17T22:10:33.175646+00:00"
     },
     "jasonjmcghee/compute-shaders": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 647074457,
         "name": "compute-shaders",
@@ -92258,7 +92509,8 @@
     },
     "securego/gosec": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 63625434,
@@ -92383,7 +92635,9 @@
       "last_updated": "2026-03-17T22:10:50.464476+00:00"
     },
     "go-rod/rod": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 235431922,
         "name": "rod",
@@ -93656,7 +93910,8 @@
     },
     "mattn/jsonargs": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 73453161,
@@ -93924,7 +94179,9 @@
       "last_updated": "2026-03-17T22:11:06.106558+00:00"
     },
     "Shopify/toxiproxy": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 23664475,
         "name": "toxiproxy",
@@ -95480,7 +95737,9 @@
       "last_updated": "2026-03-17T22:11:22.057318+00:00"
     },
     "junegunn/fzf": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 13807606,
         "name": "fzf",
@@ -95502,7 +95761,8 @@
     "uber-go/automaxprocs": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 90336564,
@@ -96373,7 +96633,9 @@
       "last_updated": "2026-03-17T22:11:31.055900+00:00"
     },
     "charmbracelet/vhs": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 515619101,
         "name": "vhs",
@@ -98073,7 +98335,9 @@
       "last_updated": "2026-03-17T22:11:49.298628+00:00"
     },
     "teamortix/golang-wasm": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 350429341,
         "name": "golang-wasm",
@@ -98615,7 +98879,9 @@
       "last_updated": "2026-03-17T22:11:55.018917+00:00"
     },
     "grpc-ecosystem/grpc-health-probe": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 148666822,
         "name": "grpc-health-probe",
@@ -98819,7 +99085,9 @@
       "last_updated": "2026-03-17T22:11:57.146563+00:00"
     },
     "hashicorp/errwrap": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 25494583,
         "name": "errwrap",
@@ -98905,7 +99173,8 @@
     "s0rg/decompose": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 679395781,
@@ -99050,7 +99319,9 @@
       "last_updated": "2026-03-17T22:11:59.852834+00:00"
     },
     "akuity/kargo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 514062293,
         "name": "kargo",
@@ -99240,7 +99511,9 @@
       "last_updated": "2026-03-17T22:12:01.821312+00:00"
     },
     "u-root/u-root": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 46462030,
         "name": "u-root",
@@ -99305,7 +99578,9 @@
       "last_updated": "2026-03-17T22:12:02.409632+00:00"
     },
     "awslabs/aws-lambda-go-api-proxy": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 119417294,
         "name": "aws-lambda-go-api-proxy",
@@ -99388,7 +99663,8 @@
     },
     "overmindtech/aws-source": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 433801917,
@@ -99432,7 +99708,8 @@
     },
     "skydive-project/skydive": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 44610195,
@@ -99478,7 +99755,8 @@
     "steeve85/tfviz": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 284381230,
@@ -99608,7 +99886,9 @@
       "last_updated": "2026-03-17T22:12:05.273975+00:00"
     },
     "ogen-go/ogen": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 372032505,
         "name": "ogen",
@@ -99759,7 +100039,8 @@
     "primait/nuvola": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 426240030,
@@ -99825,7 +100106,8 @@
     },
     "cyberark/summon": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 35568823,
@@ -99958,7 +100240,8 @@
     "bcicen/ctop": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 77419377,
@@ -100105,7 +100388,9 @@
       "last_updated": "2026-03-17T22:12:09.941357+00:00"
     },
     "mehrdadrad/mylg": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 61661892,
         "name": "mylg",
@@ -100169,7 +100454,8 @@
     },
     "gopikchr/gopikchr": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 450694176,
@@ -100383,7 +100669,8 @@
     },
     "netbirdio/netbird": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 357897199,
@@ -100404,7 +100691,9 @@
       "last_updated": "2026-03-17T22:12:12.711421+00:00"
     },
     "dragondrop-cloud/cloud-concierge": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 657338184,
         "name": "cloud-concierge",
@@ -100444,7 +100733,9 @@
       "last_updated": "2026-03-17T22:12:13.079873+00:00"
     },
     "go-piv/piv-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 232227589,
         "name": "piv-go",
@@ -100556,7 +100847,8 @@
     "reproducible-containers/repro-get": {
       "lists": [
         "CI/CD",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 549382695,
@@ -100578,7 +100870,8 @@
     },
     "reproducible-containers/diffoci": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 681865222,
@@ -100687,7 +100980,8 @@
     "cloudposse/atmos": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 292427680,
@@ -100878,7 +101172,9 @@
       "last_updated": "2026-03-17T22:12:17.196555+00:00"
     },
     "future-architect/tftarget": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 619377631,
         "name": "tftarget",
@@ -101041,7 +101337,8 @@
     },
     "bettercap/bettercap": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 116576783,
@@ -101062,7 +101359,9 @@
       "last_updated": "2026-03-17T22:12:18.952490+00:00"
     },
     "markbates/goth": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 25225549,
         "name": "goth",
@@ -101082,7 +101381,9 @@
       "last_updated": "2026-03-17T22:12:19.140793+00:00"
     },
     "JamesHovious/hashid": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 170311000,
         "name": "hashid",
@@ -101103,7 +101404,8 @@
     },
     "ellerbrock/awesome-go-security": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 675140836,
@@ -101254,7 +101556,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 297622945,
@@ -101381,7 +101684,8 @@
     },
     "opencontainers/umoci": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 72283469,
@@ -101422,7 +101726,9 @@
       "last_updated": "2026-03-17T22:12:22.847881+00:00"
     },
     "protobom/protobom": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 649429434,
         "name": "protobom",
@@ -101443,7 +101749,8 @@
     },
     "Foxboron/ssh-tpm-agent": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 671549172,
@@ -101465,7 +101772,8 @@
     },
     "omegion/ssh-manager": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 344174158,
@@ -101487,7 +101795,8 @@
     },
     "cornfeedhobo/ssh-keydgen": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 110477993,
@@ -101531,7 +101840,8 @@
     },
     "smlx/piv-agent": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 307038773,
@@ -101639,7 +101949,8 @@
     },
     "juanfont/headscale": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 273871859,
@@ -101661,7 +101972,8 @@
     },
     "strongdm/comply": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 124157019,
@@ -101806,7 +102118,8 @@
     },
     "DataDog/orchestrion": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 608346290,
@@ -102285,7 +102598,8 @@
     },
     "dapr/dapr": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 192632000,
@@ -102326,7 +102640,9 @@
       "last_updated": "2026-03-17T22:12:32.164503+00:00"
     },
     "sgreben/slack-emoji-upload": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 148332787,
         "name": "slack-emoji-upload",
@@ -102561,7 +102877,8 @@
     },
     "BeryJu/gravity": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 511075089,
@@ -102582,7 +102899,9 @@
       "last_updated": "2026-03-17T22:12:34.601213+00:00"
     },
     "antonmedv/fx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 118945118,
         "name": "fx",
@@ -102885,7 +103204,9 @@
       "last_updated": "2026-03-17T22:12:37.680761+00:00"
     },
     "xeol-io/xeol": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 581609881,
         "name": "xeol",
@@ -102986,7 +103307,8 @@
     },
     "mudler/luet": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 190435398,
@@ -103132,7 +103454,9 @@
       "last_updated": "2026-03-17T22:12:40.181848+00:00"
     },
     "mchmarny/s3cme": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 588304121,
         "name": "s3cme",
@@ -103276,7 +103600,9 @@
       "last_updated": "2026-03-17T22:12:41.590443+00:00"
     },
     "kedacore/keda": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 170411418,
         "name": "keda",
@@ -103297,7 +103623,8 @@
     },
     "inngest/inngest": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 374763231,
@@ -103448,7 +103775,8 @@
     },
     "tilt-dev/ctlptl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 304708734,
@@ -103470,7 +103798,8 @@
     },
     "freifunkMUC/wg-access-server": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 342358823,
@@ -103906,7 +104235,9 @@
       "last_updated": "2026-03-17T22:12:47.939159+00:00"
     },
     "fatedier/frp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 48378947,
         "name": "frp",
@@ -104009,7 +104340,8 @@
     },
     "zix99/rare": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 210987929,
@@ -104207,7 +104539,9 @@
       "last_updated": "2026-03-17T22:12:50.893331+00:00"
     },
     "urfave/cli": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 11393110,
         "name": "cli",
@@ -104368,7 +104702,8 @@
     },
     "semaphoreui/semaphore": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 23267883,
@@ -104540,7 +104875,9 @@
       "last_updated": "2026-03-17T22:12:54.303011+00:00"
     },
     "hickford/git-credential-oauth": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 551557177,
         "name": "git-credential-oauth",
@@ -104650,7 +104987,8 @@
     },
     "intelops/compage": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 503516905,
@@ -104716,7 +105054,8 @@
     "interlynk-io/sbomasm": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 635984325,
@@ -104739,7 +105078,8 @@
     "vinted/sbomsftw": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 464860347,
@@ -104849,7 +105189,8 @@
     },
     "shinobistack/waymond": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 607864410,
@@ -104871,7 +105212,8 @@
     },
     "josephburnett/jd": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 72809829,
@@ -104932,7 +105274,9 @@
       "last_updated": "2026-03-17T22:12:58.073600+00:00"
     },
     "gcla/termshark": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 182353393,
         "name": "termshark",
@@ -104952,7 +105296,9 @@
       "last_updated": "2026-03-17T22:12:58.261337+00:00"
     },
     "shenwei356/csvtk": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 55350474,
         "name": "csvtk",
@@ -104973,7 +105319,8 @@
     },
     "zc2638/swag": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 308492021,
@@ -105074,7 +105421,9 @@
       "last_updated": "2026-03-17T22:12:59.434547+00:00"
     },
     "FiloSottile/torchwood": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 640577696,
         "name": "torchwood",
@@ -105137,7 +105486,9 @@
       "last_updated": "2026-03-17T22:12:59.961316+00:00"
     },
     "target/strelka": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 149654117,
         "name": "strelka",
@@ -105158,7 +105509,8 @@
     },
     "charmbracelet/charm": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 236106066,
@@ -105223,7 +105575,9 @@
       "last_updated": "2026-03-17T22:13:00.805134+00:00"
     },
     "AlecAivazis/survey": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 72362833,
         "name": "survey",
@@ -105492,7 +105846,9 @@
       "last_updated": "2026-03-17T22:13:03.639108+00:00"
     },
     "gohugoio/hugo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 11180687,
         "name": "hugo",
@@ -105512,7 +105868,9 @@
       "last_updated": "2026-03-17T22:13:03.867211+00:00"
     },
     "cli/oauth": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 319138550,
         "name": "oauth",
@@ -105552,7 +105910,9 @@
       "last_updated": "2026-03-17T22:13:04.400522+00:00"
     },
     "rgburke/grv": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 102900463,
         "name": "grv",
@@ -105572,7 +105932,9 @@
       "last_updated": "2026-03-17T22:13:04.569175+00:00"
     },
     "gobuffalo/buffalo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 25594973,
         "name": "buffalo",
@@ -105653,7 +106015,8 @@
     },
     "ElementTech/terracove": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 625306431,
@@ -105780,7 +106143,8 @@
     },
     "openvex/go-vex": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 587100526,
@@ -105802,7 +106166,8 @@
     },
     "kubernetes-sigs/yaml": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 155749886,
@@ -105824,7 +106189,8 @@
     },
     "kentaro/verity": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 13475057,
@@ -105889,7 +106255,9 @@
       "last_updated": "2026-03-17T22:13:07.702957+00:00"
     },
     "DataDog/gohai": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 19779512,
         "name": "gohai",
@@ -106257,7 +106625,8 @@
     },
     "slackhq/go-audit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 73417046,
@@ -106278,7 +106647,9 @@
       "last_updated": "2026-03-17T22:13:11.811605+00:00"
     },
     "discord/lilliput": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 86122120,
         "name": "lilliput",
@@ -106361,7 +106732,8 @@
     },
     "temporalio/temporal": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 215654064,
@@ -106447,7 +106819,8 @@
     },
     "project-copacetic/copacetic": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 587859813,
@@ -106694,7 +107067,9 @@
       "last_updated": "2026-03-17T22:13:15.900681+00:00"
     },
     "distribyted/distribyted": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 259392969,
         "name": "distribyted",
@@ -106714,7 +107089,9 @@
       "last_updated": "2026-03-17T22:13:16.119217+00:00"
     },
     "jackc/pgx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 9120526,
         "name": "pgx",
@@ -106754,7 +107131,9 @@
       "last_updated": "2026-03-17T22:13:16.553442+00:00"
     },
     "go-skynet/go-llama.cpp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 623199119,
         "name": "go-llama.cpp",
@@ -106794,7 +107173,9 @@
       "last_updated": "2026-03-17T22:13:17.002567+00:00"
     },
     "terrastruct/d2": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 533087958,
         "name": "d2",
@@ -106981,7 +107362,8 @@
     },
     "release-argus/Argus": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 480057906,
@@ -107151,7 +107533,9 @@
       "last_updated": "2026-03-17T22:13:20.570661+00:00"
     },
     "TIBCOSoftware/flogo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 62978868,
         "name": "flogo",
@@ -107171,7 +107555,9 @@
       "last_updated": "2026-03-17T22:13:20.788037+00:00"
     },
     "devspace-sh/devspace": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 145153231,
         "name": "devspace",
@@ -107191,7 +107577,9 @@
       "last_updated": "2026-03-17T22:13:21.009564+00:00"
     },
     "Madh93/tpm": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 628738862,
         "name": "tpm",
@@ -107315,7 +107703,8 @@
     },
     "fluxcd/flux2": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 258469100,
@@ -107356,7 +107745,9 @@
       "last_updated": "2026-03-17T22:13:22.666752+00:00"
     },
     "chainguard-dev/go-apk": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 633737960,
         "name": "go-apk",
@@ -107481,7 +107872,8 @@
     },
     "aidansteele/s3zipper": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 633675820,
@@ -107566,7 +107958,9 @@
       "last_updated": "2026-03-17T22:13:24.773517+00:00"
     },
     "moul/quicssh": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 196770665,
         "name": "quicssh",
@@ -107609,7 +108003,9 @@
       "last_updated": "2026-03-17T22:13:25.221240+00:00"
     },
     "rakyll/statik": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 16514887,
         "name": "statik",
@@ -107961,7 +108357,9 @@
       "last_updated": "2026-03-17T22:13:29.450389+00:00"
     },
     "projectcalico/calico": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 63882194,
         "name": "calico",
@@ -107981,7 +108379,9 @@
       "last_updated": "2026-03-17T22:13:29.641162+00:00"
     },
     "openziti/zrok": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 515311500,
         "name": "zrok",
@@ -108106,7 +108506,8 @@
     },
     "konstructio/kubefirst": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 332999480,
@@ -108148,7 +108549,8 @@
     },
     "go-gorm/gorm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 13855476,
@@ -108486,7 +108888,8 @@
     },
     "chainguard-dev/policy-catalog": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 626017140,
@@ -108594,7 +108997,8 @@
     "99designs/iamy": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 40580894,
@@ -108779,7 +109183,9 @@
       "last_updated": "2026-03-17T22:13:37.589066+00:00"
     },
     "joho/godotenv": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 11759482,
         "name": "godotenv",
@@ -109046,7 +109452,8 @@
     },
     "grokify/goauth": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "GoLang"
       ],
       "metadata": {
         "id": 94632819,
@@ -109089,7 +109496,9 @@
       "last_updated": "2026-03-17T22:13:40.643258+00:00"
     },
     "zalando/go-keyring": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 63615252,
         "name": "go-keyring",
@@ -109109,7 +109518,9 @@
       "last_updated": "2026-03-17T22:13:40.855925+00:00"
     },
     "donuts-are-good/pig": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 628530741,
         "name": "pig",
@@ -109215,7 +109626,9 @@
       "last_updated": "2026-03-17T22:13:41.894283+00:00"
     },
     "cli/cli": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 212613049,
         "name": "cli",
@@ -109257,7 +109670,9 @@
       "last_updated": "2026-03-17T22:13:42.315175+00:00"
     },
     "opencontrolplane/civo-opencontrolplane": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 587675342,
         "name": "civo-opencontrolplane",
@@ -109337,7 +109752,9 @@
       "last_updated": "2026-03-17T22:13:43.221479+00:00"
     },
     "yggdrasil-network/yggdrasil-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 115685026,
         "name": "yggdrasil-go",
@@ -109441,7 +109858,9 @@
       "last_updated": "2026-03-17T22:13:44.313025+00:00"
     },
     "uber-go/fx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 72056048,
         "name": "fx",
@@ -109483,7 +109902,9 @@
       "last_updated": "2026-03-17T22:13:44.759855+00:00"
     },
     "GetStream/vg": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 92923096,
         "name": "vg",
@@ -109613,7 +110034,8 @@
     "ktock/buildg": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 490156339,
@@ -109635,7 +110057,8 @@
     },
     "swaggo/http-swagger": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 122907158,
@@ -109658,7 +110081,8 @@
     "sigstore/fulcio": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 341596960,
@@ -109805,7 +110229,8 @@
     },
     "mikermcneil/fleet-nanomdm": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 515731852,
@@ -109826,7 +110251,9 @@
       "last_updated": "2026-03-17T22:13:48.087055+00:00"
     },
     "fleetdm/fleet": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 309820286,
         "name": "fleet",
@@ -109971,7 +110398,9 @@
       "last_updated": "2026-03-17T22:13:49.606141+00:00"
     },
     "interlynk-io/sbomqs": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 595838775,
         "name": "sbomqs",
@@ -110051,7 +110480,9 @@
       "last_updated": "2026-03-17T22:13:50.430028+00:00"
     },
     "metallb/metallb": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 110027931,
         "name": "metallb",
@@ -110242,7 +110673,8 @@
     "flosell/iam-policy-json-to-terraform": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 131406584,
@@ -110368,7 +110800,9 @@
       "last_updated": "2026-03-17T22:13:53.504117+00:00"
     },
     "tidwall/wal": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 231150319,
         "name": "wal",
@@ -110408,7 +110842,9 @@
       "last_updated": "2026-03-17T22:13:53.932313+00:00"
     },
     "psampaz/go-mod-outdated": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 182219589,
         "name": "go-mod-outdated",
@@ -110512,7 +110948,8 @@
     "TykTechnologies/tyk": {
       "lists": [
         "API",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 19537979,
@@ -110613,7 +111050,9 @@
       "last_updated": "2026-03-17T22:13:56.127445+00:00"
     },
     "spakin/xmorph": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 330529946,
         "name": "xmorph",
@@ -110738,7 +111177,8 @@
     },
     "bytebase/bytebase": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 333303663,
@@ -110759,7 +111199,9 @@
       "last_updated": "2026-03-17T22:13:57.733966+00:00"
     },
     "slsa-framework/slsa-verifier": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 474162642,
         "name": "slsa-verifier",
@@ -110867,7 +111309,9 @@
       "last_updated": "2026-03-17T22:13:58.744968+00:00"
     },
     "kubernetes-sigs/bom": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 429800698,
         "name": "bom",
@@ -111119,7 +111563,8 @@
     },
     "abdfnx/resto": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 433152564,
@@ -111304,7 +111749,9 @@
       "last_updated": "2026-03-17T22:14:03.198569+00:00"
     },
     "byt3hx/jsleak": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 620805734,
         "name": "jsleak",
@@ -111324,7 +111771,9 @@
       "last_updated": "2026-03-17T22:14:03.406034+00:00"
     },
     "reugn/go-quartz": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 181355200,
         "name": "go-quartz",
@@ -111390,7 +111839,8 @@
     "testifysec/policy-tool": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 613423328,
@@ -111453,7 +111903,9 @@
       "last_updated": "2026-03-17T22:14:04.616082+00:00"
     },
     "samber/lo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 465303307,
         "name": "lo",
@@ -111475,7 +111927,8 @@
     "pipetail/cloudlint": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 258132471,
@@ -111496,7 +111949,9 @@
       "last_updated": "2026-03-17T22:14:05.065482+00:00"
     },
     "flant/shell-operator": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 177105422,
         "name": "shell-operator",
@@ -111517,7 +111972,8 @@
     },
     "parca-dev/parca": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 159351868,
@@ -111539,7 +111995,8 @@
     },
     "pipe-cd/pipecd": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 271714774,
@@ -111583,7 +112040,8 @@
     },
     "werf/werf": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 50365232,
@@ -111627,7 +112085,8 @@
     },
     "getporter/porter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 155893691,
@@ -111650,7 +112109,8 @@
     "open-feature/flagd": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 496604518,
@@ -111672,7 +112132,8 @@
     },
     "tinkerbell/tink": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 215102779,
@@ -111694,7 +112155,8 @@
     },
     "longhorn/longhorn-engine": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 55807230,
@@ -111717,7 +112179,8 @@
     "goharbor/harbor": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 50613991,
@@ -111761,7 +112224,9 @@
       "last_updated": "2026-03-17T22:14:07.658509+00:00"
     },
     "notaryproject/notary": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 37743436,
         "name": "notary",
@@ -111781,7 +112246,9 @@
       "last_updated": "2026-03-17T22:14:07.842292+00:00"
     },
     "charmbracelet/soft-serve": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 391209033,
         "name": "soft-serve",
@@ -111892,7 +112359,8 @@
     "aws/ec2-macos-init": {
       "lists": [
         "Apple and M1 virtualization",
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 288842558,
@@ -112385,7 +112853,9 @@
       "last_updated": "2026-03-17T22:14:13.895105+00:00"
     },
     "pseudo-dynamic/terraform-provider-value": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 532507679,
         "name": "terraform-provider-value",
@@ -112405,7 +112875,9 @@
       "last_updated": "2026-03-17T22:14:14.113092+00:00"
     },
     "deuill/grawkit": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 76757838,
         "name": "grawkit",
@@ -112512,7 +112984,8 @@
     "rogerwelin/cfnctl": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 403886429,
@@ -112594,7 +113067,8 @@
     },
     "prometheus/promlens": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 547991185,
@@ -112617,7 +113091,8 @@
     "jauderho/dive": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 420604847,
@@ -112639,7 +113114,8 @@
     },
     "minamijoyo/tflock": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 229205509,
@@ -112682,7 +113158,9 @@
       "last_updated": "2026-03-17T22:14:16.871307+00:00"
     },
     "future-architect/vuls": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 54808920,
         "name": "vuls",
@@ -112703,7 +113181,8 @@
     },
     "AlexNabokikh/tfsort": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 603065557,
@@ -112846,7 +113325,8 @@
     "diggerhq/digger": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 605995490,
@@ -112949,7 +113429,9 @@
       "last_updated": "2026-03-17T22:14:19.481806+00:00"
     },
     "rakyll/openai-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 606223247,
         "name": "openai-go",
@@ -113078,7 +113560,9 @@
       "last_updated": "2026-03-17T22:14:20.828917+00:00"
     },
     "aschey/godocdown": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 571351827,
         "name": "godocdown",
@@ -113121,7 +113605,8 @@
     },
     "go-gitea/gitea": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 72495579,
@@ -113208,7 +113693,8 @@
     "goreleaser/nfpm": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 116259506,
@@ -113230,7 +113716,8 @@
     },
     "walterwanderley/sqlc-grpc": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 369915860,
@@ -113318,7 +113805,8 @@
     "siderolabs/conform": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 93275422,
@@ -113362,7 +113850,8 @@
     },
     "dexidp/dex": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 40916314,
@@ -113451,7 +113940,8 @@
     },
     "kevholditch/go-pagerduty-slack-sync": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 310698126,
@@ -113665,7 +114155,9 @@
       "last_updated": "2026-03-17T22:14:26.507934+00:00"
     },
     "blampe/goat": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 51354712,
         "name": "goat",
@@ -113797,7 +114289,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 475074978,
@@ -113820,7 +114313,8 @@
     "Bearer/bearer": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 542197924,
@@ -113865,7 +114359,8 @@
     "advanced-security/gh-sbom": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 603185332,
@@ -114060,7 +114555,9 @@
       "last_updated": "2026-03-17T22:14:30.310507+00:00"
     },
     "rusq/slackdump": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 423075524,
         "name": "slackdump",
@@ -114319,7 +114816,8 @@
     },
     "idealo/terraform-provider-controltower": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 368975183,
@@ -114447,7 +114945,8 @@
     "iann0036/iamlive": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 335925753,
@@ -114621,7 +115120,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 416059533,
@@ -114955,7 +115455,8 @@
     },
     "alexei-led/pumba": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 54481074,
@@ -115039,7 +115540,8 @@
     },
     "mvdan/sh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "GoLang"
       ],
       "metadata": {
         "id": 49766020,
@@ -115102,7 +115604,9 @@
       "last_updated": "2026-03-17T22:14:40.070555+00:00"
     },
     "nevinpuri/erlog": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 592075646,
         "name": "erlog",
@@ -115434,7 +115938,9 @@
       "last_updated": "2026-03-17T22:14:43.047386+00:00"
     },
     "namecoin/certinject": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 259853423,
         "name": "certinject",
@@ -115863,7 +116369,9 @@
       "last_updated": "2026-03-17T22:14:47.004892+00:00"
     },
     "kovetskiy/mark": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 42784968,
         "name": "mark",
@@ -115883,7 +116391,9 @@
       "last_updated": "2026-03-17T22:14:47.168760+00:00"
     },
     "grokify/mogo": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 30695025,
         "name": "mogo",
@@ -115904,7 +116414,8 @@
     },
     "containrrr/watchtower": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 39038086,
@@ -116140,7 +116651,8 @@
     },
     "weaveworks/footloose": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 168339205,
@@ -116268,7 +116780,8 @@
     },
     "lightstep/opentelemetry-examples": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 234150325,
@@ -116672,7 +117185,9 @@
       "last_updated": "2026-03-17T22:14:54.718652+00:00"
     },
     "twpayne/chezmoi": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 157245200,
         "name": "chezmoi",
@@ -116757,7 +117272,8 @@
     },
     "flipt-io/flipt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 72894587,
@@ -116778,7 +117294,9 @@
       "last_updated": "2026-03-17T22:14:55.635323+00:00"
     },
     "melbahja/goph": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 246402552,
         "name": "goph",
@@ -116841,7 +117359,8 @@
     },
     "Khan/genqlient": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 234450184,
@@ -116887,7 +117406,8 @@
     "oras-project/oras": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 162945532,
@@ -116910,7 +117430,8 @@
     "oras-project/artifacts-spec": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 387901682,
@@ -116933,7 +117454,8 @@
     "oras-project/distribution": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 396918021,
@@ -117099,7 +117621,8 @@
     },
     "zchee/go-vmnet": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 71581328,
@@ -117121,7 +117644,8 @@
     },
     "cloudflare/cloudflare-go": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 47340306,
@@ -117142,7 +117666,9 @@
       "last_updated": "2026-03-17T22:14:59.097410+00:00"
     },
     "kost/tty2web": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 213529386,
         "name": "tty2web",
@@ -117184,7 +117710,9 @@
       "last_updated": "2026-03-17T22:14:59.422643+00:00"
     },
     "bxcodec/go-clean-arch": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 93808874,
         "name": "go-clean-arch",
@@ -117248,7 +117776,8 @@
     },
     "go-task/task": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "GoLang"
       ],
       "metadata": {
         "id": 83252983,
@@ -117313,7 +117842,8 @@
     "aws-observability/aws-otel-collector": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 295875994,
@@ -117402,7 +117932,8 @@
     },
     "cloudtools/cloudsweeper": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 144322270,
@@ -117424,7 +117955,8 @@
     },
     "ncabatoff/process-exporter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 64079945,
@@ -117488,7 +118020,9 @@
       "last_updated": "2026-03-17T22:15:02.350228+00:00"
     },
     "NextronSystems/thor-lite": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 248736963,
         "name": "thor-lite",
@@ -117693,7 +118227,8 @@
     },
     "thebsdbox/ginit": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 465681895,
@@ -118014,7 +118549,8 @@
     },
     "okteto/okteto": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 143846881,
@@ -118036,7 +118572,8 @@
     },
     "telepresenceio/telepresence": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 82933315,
@@ -118099,7 +118636,9 @@
       "last_updated": "2026-03-17T22:15:08.330565+00:00"
     },
     "awnumar/memguard": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 89053003,
         "name": "memguard",
@@ -118352,7 +118891,9 @@
       "last_updated": "2026-03-17T22:15:11.613506+00:00"
     },
     "cloudflare/cfssl": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 21591001,
         "name": "cfssl",
@@ -118505,7 +119046,9 @@
       "last_updated": "2026-03-17T22:15:12.967047+00:00"
     },
     "xyproto/wallutils": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 169589601,
         "name": "wallutils",
@@ -118525,7 +119068,9 @@
       "last_updated": "2026-03-17T22:15:13.129860+00:00"
     },
     "micro-editor/micro": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 53632140,
         "name": "micro",
@@ -118546,7 +119091,8 @@
     },
     "xyproto/algernon": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 31953662,
@@ -118587,7 +119133,9 @@
       "last_updated": "2026-03-17T22:15:13.700133+00:00"
     },
     "nadoo/glider": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 97128069,
         "name": "glider",
@@ -118689,7 +119237,9 @@
       "last_updated": "2026-03-17T22:15:14.709371+00:00"
     },
     "caddyserver/certmagic": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 161109499,
         "name": "certmagic",
@@ -119025,7 +119575,9 @@
       "last_updated": "2026-03-17T22:15:17.883346+00:00"
     },
     "google/osv-scanner": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 565629124,
         "name": "osv-scanner",
@@ -119187,7 +119739,9 @@
       "last_updated": "2026-03-17T22:15:19.574307+00:00"
     },
     "walles/moor": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 13996764,
         "name": "moor",
@@ -119208,7 +119762,8 @@
     },
     "awslabs/eks-node-viewer": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 575555632,
@@ -119272,7 +119827,8 @@
     },
     "terramate-io/terramate": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 411630635,
@@ -119439,7 +119995,8 @@
     "jetify-com/devbox": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 526363266,
@@ -119460,7 +120017,9 @@
       "last_updated": "2026-03-17T22:15:22.433500+00:00"
     },
     "SecureAuthCorp/oauth2c": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 507841912,
         "name": "oauth2c",
@@ -119523,7 +120082,9 @@
       "last_updated": "2026-03-17T22:15:23.006536+00:00"
     },
     "subfinder/goaltdns": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 142674062,
         "name": "goaltdns",
@@ -120033,7 +120594,9 @@
       "last_updated": "2026-03-17T22:15:27.919295+00:00"
     },
     "cweill/gotests": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 49927767,
         "name": "gotests",
@@ -120055,7 +120618,8 @@
     "buildkite/agent": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 16347164,
@@ -120076,7 +120640,9 @@
       "last_updated": "2026-03-17T22:15:28.302910+00:00"
     },
     "buildkite/terminal-to-html": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 21603730,
         "name": "terminal-to-html",
@@ -120204,7 +120770,9 @@
       "last_updated": "2026-03-17T22:15:29.538317+00:00"
     },
     "noahgorstein/jqp": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 529775188,
         "name": "jqp",
@@ -120246,7 +120814,9 @@
       "last_updated": "2026-03-17T22:15:29.880359+00:00"
     },
     "DNH-Computing/terraform-provider-edgerouter": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 395290700,
         "name": "terraform-provider-edgerouter",
@@ -120266,7 +120836,9 @@
       "last_updated": "2026-03-17T22:15:30.102878+00:00"
     },
     "ddelnano/terraform-provider-mikrotik": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 173301111,
         "name": "terraform-provider-mikrotik",
@@ -120377,7 +120949,8 @@
     },
     "jsipprell/keyctl": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "GoLang"
       ],
       "metadata": {
         "id": 43807400,
@@ -120583,7 +121156,8 @@
     },
     "authzed/spicedb": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 396856161,
@@ -120606,7 +121180,8 @@
     "coder/coder": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 440752086,
@@ -120797,7 +121372,9 @@
       "last_updated": "2026-03-17T22:15:34.950464+00:00"
     },
     "maaslalani/nap": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 565010765,
         "name": "nap",
@@ -120840,7 +121417,8 @@
     },
     "sony/sonyflake": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 36485077,
@@ -120902,7 +121480,8 @@
     },
     "sorintlab/stolon": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 43884372,
@@ -120924,7 +121503,8 @@
     },
     "dineshba/tf-summarize": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 447641855,
@@ -120946,7 +121526,8 @@
     },
     "puppetlabs/vault-plugin-secrets-oauthapp": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 209159033,
@@ -120990,7 +121571,8 @@
     },
     "terraform-linters/tflint": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 71487396,
@@ -121100,7 +121682,8 @@
     "bwhaley/ssmsh": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 107459865,
@@ -121122,7 +121705,8 @@
     },
     "emicklei/go-restful": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 6701057,
@@ -121245,7 +121829,9 @@
       "last_updated": "2026-03-17T22:15:39.221461+00:00"
     },
     "wader/fq": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 336895436,
         "name": "fq",
@@ -121291,7 +121877,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 146641150,
@@ -121314,7 +121901,8 @@
     "runfinch/finch": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 562778457,
@@ -121402,7 +121990,8 @@
     },
     "derailed/k9s": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 167596393,
@@ -121424,7 +122013,8 @@
     },
     "containerd/go-cni": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 121671786,
@@ -121468,7 +122058,8 @@
     },
     "twmb/franz-go": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 177659629,
@@ -121490,7 +122081,8 @@
     },
     "smallstep/step-issuer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 202023779,
@@ -121533,7 +122125,8 @@
     "cloud-native-skunkworks/ohmyyaml": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 431551065,
@@ -121555,7 +122148,8 @@
     },
     "lileio/lile": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 80036106,
@@ -121642,7 +122236,9 @@
       "last_updated": "2026-03-17T22:15:42.918350+00:00"
     },
     "square/go-jose": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 26651710,
         "name": "go-jose",
@@ -121662,7 +122258,9 @@
       "last_updated": "2026-03-17T22:15:43.120698+00:00"
     },
     "stretchr/testify": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 6247705,
         "name": "testify",
@@ -121747,7 +122345,8 @@
     },
     "gravitl/netmaker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 351486934,
@@ -121815,7 +122414,8 @@
     },
     "crc-org/vfkit": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 452727744,
@@ -121837,7 +122437,8 @@
     },
     "Code-Hex/vz": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 319086813,
@@ -121921,7 +122522,8 @@
       "lists": [
         "Devops",
         "DIY",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 109451092,
@@ -122052,7 +122654,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 344950560,
@@ -122164,7 +122767,8 @@
     },
     "ossf/package-analysis": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 338377509,
@@ -122254,7 +122858,8 @@
     "kubevirt/kubevirt": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 76686583,
@@ -122412,7 +123017,8 @@
     },
     "grafana/loki": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 129717717,
@@ -122434,7 +123040,8 @@
     },
     "grafana/mimir": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 385634291,
@@ -122523,7 +123130,9 @@
       "last_updated": "2026-03-17T22:15:51.253215+00:00"
     },
     "nullt3r/udpx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 566874067,
         "name": "udpx",
@@ -122544,7 +123153,8 @@
     },
     "datreeio/datree": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 357885318,
@@ -122612,7 +123222,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 16607898,
@@ -122699,7 +123310,8 @@
       "lists": [
         "Authentication",
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 195654997,
@@ -122789,7 +123401,8 @@
     },
     "jacksontj/promxy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 106239956,
@@ -122811,7 +123424,8 @@
     },
     "thanos-io/thanos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 109162639,
@@ -122833,7 +123447,8 @@
     },
     "cortexproject/cortex": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 67793333,
@@ -122924,7 +123539,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 18950460,
@@ -122967,7 +123583,8 @@
     "testcontainers/testcontainers-go": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 141451032,
@@ -123095,7 +123712,8 @@
     },
     "terralist/terralist": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 443985581,
@@ -123139,7 +123757,8 @@
     },
     "gin-gonic/gin": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 20904437,
@@ -123266,7 +123885,8 @@
     "containerd/nerdctl": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 318476701,
@@ -123309,7 +123929,9 @@
       "last_updated": "2026-03-17T22:15:58.291760+00:00"
     },
     "dlvhdr/gh-dash": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 417230885,
         "name": "gh-dash",
@@ -123353,7 +123975,8 @@
     "amir20/dozzle": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 155297903,
@@ -123397,7 +124020,8 @@
     },
     "cloudflare/gokey": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 71583866,
@@ -123418,7 +124042,9 @@
       "last_updated": "2026-03-17T22:15:59.257919+00:00"
     },
     "gopasspw/gopass": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 80723074,
         "name": "gopass",
@@ -123502,7 +124128,8 @@
     "disneystreaming/ssm-helpers": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 222777077,
@@ -123617,7 +124244,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 255432450,
@@ -123817,7 +124445,8 @@
     },
     "ory/keto": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 125619154,
@@ -123839,7 +124468,8 @@
     },
     "ory/kratos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 135321861,
@@ -123863,7 +124493,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 118654121,
@@ -123886,7 +124517,8 @@
     "padok-team/yatas": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 521554664,
@@ -123908,7 +124540,8 @@
     },
     "contentful-labs/terraform-diff": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 236779168,
@@ -123951,7 +124584,9 @@
       "last_updated": "2026-03-17T22:16:04.408657+00:00"
     },
     "charmbracelet/bubbletea": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 233130089,
         "name": "bubbletea",
@@ -123972,7 +124607,8 @@
     },
     "pasztorpisti/qs": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 79725695,
@@ -124124,7 +124760,8 @@
     "tensorchord/envd": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 480303698,
@@ -124146,7 +124783,8 @@
     },
     "xceejay/rest-api-starter": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 554200414,
@@ -124167,7 +124805,9 @@
       "last_updated": "2026-03-17T22:16:06.455923+00:00"
     },
     "projectdiscovery/katana": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 326228917,
         "name": "katana",
@@ -124189,7 +124829,8 @@
     "Optum/dce": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 190038645,
@@ -124481,7 +125122,8 @@
     },
     "taskctl/taskctl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 221222446,
@@ -124611,7 +125253,9 @@
       "last_updated": "2026-03-17T22:16:10.436526+00:00"
     },
     "danieljoos/wincred": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 21683884,
         "name": "wincred",
@@ -124653,7 +125297,9 @@
       "last_updated": "2026-03-17T22:16:10.852395+00:00"
     },
     "teamhanko/hanko": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 469828818,
         "name": "hanko",
@@ -124696,7 +125342,8 @@
     },
     "dvyukov/go-fuzz": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "GoLang"
       ],
       "metadata": {
         "id": 33994380,
@@ -124779,7 +125426,8 @@
     "lxc/distrobuilder": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 118796601,
@@ -124823,7 +125471,9 @@
       "last_updated": "2026-03-17T22:16:12.473474+00:00"
     },
     "hashicorp/terraform-provider-template": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 93446108,
         "name": "terraform-provider-template",
@@ -124954,7 +125604,8 @@
     },
     "containernetworking/plugins": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 84575398,
@@ -124978,7 +125629,8 @@
       "lists": [
         "Bash",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 332097123,
@@ -125019,7 +125671,9 @@
       "last_updated": "2026-03-17T22:16:14.341527+00:00"
     },
     "pocketbase/pocketbase": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 510607652,
         "name": "pocketbase",
@@ -125131,7 +125785,8 @@
     "jszwedko/ec2-metadatafs": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 49930758,
@@ -125154,7 +125809,8 @@
     "dump247/ec2metaproxy": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 26609615,
@@ -125177,7 +125833,8 @@
     "common-fate/glide": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 511176455,
@@ -125385,7 +126042,8 @@
     },
     "busser/tfautomv": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 482225540,
@@ -125474,7 +126132,9 @@
       "last_updated": "2026-03-17T22:16:18.713500+00:00"
     },
     "uber-go/zap": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 52034309,
         "name": "zap",
@@ -125496,7 +126156,8 @@
     "tazjin/nixery": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 199516328,
@@ -125519,7 +126180,8 @@
     "felipecruz91/debug-ctr": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 555941688,
@@ -125542,7 +126204,8 @@
     "iximiuz/cdebug": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 555891400,
@@ -125587,7 +126250,8 @@
     "ahsand97/upload-assets-to-release-with-go": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 553894917,
@@ -125608,7 +126272,9 @@
       "last_updated": "2026-03-17T22:16:19.915788+00:00"
     },
     "guacsec/guac": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 502127166,
         "name": "guac",
@@ -126178,7 +126844,8 @@
     "abiosoft/colima": {
       "lists": [
         "Apple and M1 virtualization",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 403020531,
@@ -126299,7 +126966,9 @@
       "last_updated": "2026-03-17T22:16:26.395807+00:00"
     },
     "gocolly/colly": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 105279544,
         "name": "colly",
@@ -126765,7 +127434,8 @@
     "allero-io/allero": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 528884114,
@@ -126959,7 +127629,8 @@
     },
     "auth0/go-auth0": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 454421380,
@@ -127065,7 +127736,8 @@
     },
     "Lukasa/mkcert": {
       "lists": [
-        "API"
+        "API",
+        "GoLang"
       ],
       "metadata": {
         "id": 23677524,
@@ -127132,7 +127804,9 @@
       "last_updated": "2026-03-17T22:16:34.957916+00:00"
     },
     "bulwarkid/virtual-fido": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 537229823,
         "name": "virtual-fido",
@@ -127192,7 +127866,9 @@
       "last_updated": "2026-03-17T22:16:35.502548+00:00"
     },
     "EtoDemerzel0427/ANSI-art": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 385181450,
         "name": "ANSI-art",
@@ -127278,7 +127954,8 @@
     },
     "nirasan/go-oauth-pkce-code-verifier": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "GoLang"
       ],
       "metadata": {
         "id": 100671892,
@@ -127299,7 +127976,9 @@
       "last_updated": "2026-03-17T22:16:36.551928+00:00"
     },
     "refraction-networking/utls": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 102533852,
         "name": "utls",
@@ -127451,7 +128130,8 @@
     },
     "BishopFox/cloudfox": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 534023067,
@@ -127575,7 +128255,8 @@
     },
     "google/pprof": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 50629145,
@@ -127640,7 +128321,8 @@
     },
     "linuxkit/virtsock": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 58654089,
@@ -127703,7 +128385,8 @@
     "awslabs/soci-snapshotter": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 523372474,
@@ -127788,7 +128471,9 @@
       "last_updated": "2026-03-17T22:16:41.100701+00:00"
     },
     "spf13/cobra": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 12574344,
         "name": "cobra",
@@ -127809,7 +128494,8 @@
     },
     "therootcompany/sclient": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 306156862,
@@ -127831,7 +128517,8 @@
     },
     "crossplane/crossplane": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 147886080,
@@ -127854,7 +128541,8 @@
     "tilt-dev/tilt": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 143896900,
@@ -127877,7 +128565,8 @@
     "kubernetes-sigs/kind": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 148545807,
@@ -127898,7 +128587,9 @@
       "last_updated": "2026-03-17T22:16:42.057252+00:00"
     },
     "usbarmory/GoTEE": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 364510419,
         "name": "GoTEE",
@@ -128023,7 +128714,8 @@
     },
     "aarondl/authboss": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 28735637,
@@ -128260,7 +128952,9 @@
       "last_updated": "2026-03-17T22:16:45.389753+00:00"
     },
     "opensbom-generator/spdx-sbom-generator": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 368981583,
         "name": "spdx-sbom-generator",
@@ -128300,7 +128994,9 @@
       "last_updated": "2026-03-17T22:16:45.779230+00:00"
     },
     "avelino/awesome-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 21540759,
         "name": "awesome-go",
@@ -128342,7 +129038,9 @@
       "last_updated": "2026-03-17T22:16:46.163843+00:00"
     },
     "theparanoids/pam-ysshca": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 512907686,
         "name": "pam-ysshca",
@@ -128363,7 +129061,8 @@
     },
     "coreos/go-oidc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 38275789,
@@ -128386,7 +129085,8 @@
     "firecracker-microvm/firecracker-containerd": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 157781317,
@@ -128573,7 +129273,9 @@
       "last_updated": "2026-03-17T22:16:48.392978+00:00"
     },
     "projectdiscovery/notify": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 310094389,
         "name": "notify",
@@ -128718,7 +129420,8 @@
     },
     "go-jira/jira": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 30621185,
@@ -128739,7 +129442,9 @@
       "last_updated": "2026-03-17T22:16:49.930009+00:00"
     },
     "mikepea/go-jira-ui": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 48951130,
         "name": "go-jira-ui",
@@ -128915,7 +129620,8 @@
     },
     "tinygo-org/tinygo": {
       "lists": [
-        "DIY"
+        "DIY",
+        "GoLang"
       ],
       "metadata": {
         "id": 136505169,
@@ -128937,7 +129643,8 @@
     },
     "gravitational/teleport": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 31558937,
@@ -129150,7 +129857,9 @@
       "last_updated": "2026-03-17T22:16:55.621637+00:00"
     },
     "Phantas0s/devdash": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 143766121,
         "name": "devdash",
@@ -129296,7 +130005,8 @@
     },
     "ankitpokhrel/jira-cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 314995099,
@@ -129318,7 +130028,8 @@
     },
     "timo-reymann/deterministic-zip": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 373321576,
@@ -129472,7 +130183,8 @@
     "grafana/pyroscope": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "GoLang"
       ],
       "metadata": {
         "id": 325724738,
@@ -129533,7 +130245,9 @@
       "last_updated": "2026-03-17T22:16:59.217696+00:00"
     },
     "charmbracelet/gum": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 502193049,
         "name": "gum",
@@ -129635,7 +130349,8 @@
     "mercari/tfnotify": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 128383825,
@@ -129910,7 +130625,9 @@
       "last_updated": "2026-03-17T22:17:02.897102+00:00"
     },
     "jqlang/playground": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 17960964,
         "name": "playground",
@@ -129930,7 +130647,9 @@
       "last_updated": "2026-03-17T22:17:03.134286+00:00"
     },
     "gwuhaolin/livego": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 92648433,
         "name": "livego",
@@ -129970,7 +130689,9 @@
       "last_updated": "2026-03-17T22:17:03.490379+00:00"
     },
     "itchyny/gojq": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 180954037,
         "name": "gojq",
@@ -130311,7 +131032,9 @@
       "last_updated": "2026-03-17T22:17:06.564167+00:00"
     },
     "go-webauthn/webauthn": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 438441323,
         "name": "webauthn",
@@ -130375,7 +131098,9 @@
       "last_updated": "2026-03-17T22:17:07.205402+00:00"
     },
     "spf13/viper": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 18369373,
         "name": "viper",
@@ -130566,7 +131291,8 @@
     },
     "apache/casbin": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 87617508,
@@ -130609,7 +131335,9 @@
       "last_updated": "2026-03-17T22:17:09.355106+00:00"
     },
     "gpanders/ijq": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 277560176,
         "name": "ijq",
@@ -130651,7 +131379,9 @@
       "last_updated": "2026-03-17T22:17:09.705501+00:00"
     },
     "perlin-network/noise": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 137223491,
         "name": "noise",
@@ -130692,7 +131422,8 @@
     },
     "akvorado/akvorado": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 508330030,
@@ -130739,7 +131470,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 206690330,
@@ -130853,7 +131585,9 @@
       "last_updated": "2026-03-17T22:17:11.501785+00:00"
     },
     "simeji/jid": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 60534669,
         "name": "jid",
@@ -130981,7 +131715,8 @@
     "runatlantis/atlantis": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 120519269,
@@ -131073,7 +131808,8 @@
     },
     "synalice/gobox": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 492484593,
@@ -131116,7 +131852,8 @@
     "aquasecurity/chain-bench": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 491440930,
@@ -131363,7 +132100,8 @@
     },
     "aquasecurity/libbpfgo": {
       "lists": [
-        "eBPF"
+        "eBPF",
+        "GoLang"
       ],
       "metadata": {
         "id": 366477581,
@@ -131406,7 +132144,8 @@
     "jamiewri/tfctl": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 491843145,
@@ -131429,7 +132168,8 @@
     "sil-org/tfc-ops": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 124249756,
@@ -131452,7 +132192,8 @@
     "iggy/terrarific": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 243152038,
@@ -131475,7 +132216,8 @@
     "hashicorp/go-tfe": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 131622334,
@@ -131498,7 +132240,8 @@
     "awslabs/tecli": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 338400342,
@@ -131520,7 +132263,8 @@
     },
     "bendrucker/terraform-cloud-cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 262483395,
@@ -131692,7 +132436,8 @@
     "srl-labs/containerlab": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 290960521,
@@ -131760,7 +132505,9 @@
       "last_updated": "2026-03-17T22:17:20.510821+00:00"
     },
     "projectdiscovery/tlsx": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 496628504,
         "name": "tlsx",
@@ -131784,7 +132531,8 @@
         "Bash",
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 80134675,
@@ -131808,7 +132556,8 @@
       "lists": [
         "Bash",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 10567197,
@@ -131977,7 +132726,8 @@
     "cycloidio/inframap": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 277649384,
@@ -131998,7 +132748,9 @@
       "last_updated": "2026-03-17T22:17:22.778922+00:00"
     },
     "sachaos/viddy": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 395917032,
         "name": "viddy",
@@ -132018,7 +132770,9 @@
       "last_updated": "2026-03-17T22:17:22.977382+00:00"
     },
     "99designs/keyring": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 100223776,
         "name": "keyring",
@@ -132120,7 +132874,9 @@
       "last_updated": "2026-03-17T22:17:23.982357+00:00"
     },
     "quic-go/quic-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 55637575,
         "name": "quic-go",
@@ -132462,7 +133218,8 @@
     },
     "bendrucker/terraform-credentials-keychain": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "GoLang"
       ],
       "metadata": {
         "id": 265729773,
@@ -132485,7 +133242,8 @@
     "palantir/policy-bot": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 151643522,
@@ -132572,7 +133330,8 @@
     "mutagen-io/mutagen": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 78026877,
@@ -132777,7 +133536,9 @@
       "last_updated": "2026-03-17T22:17:30.253871+00:00"
     },
     "sensepost/gowitness": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 108967484,
         "name": "gowitness",
@@ -133011,7 +133772,9 @@
       "last_updated": "2026-03-17T22:17:32.396134+00:00"
     },
     "liamg/traitor": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 332424498,
         "name": "traitor",
@@ -133054,7 +133817,8 @@
     },
     "firefart/stunner": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 481937257,
@@ -133408,7 +134172,8 @@
     "lima-vm/sshocker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 297068457,
@@ -133432,7 +134197,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 367284699,
@@ -133453,7 +134219,9 @@
       "last_updated": "2026-03-17T22:17:36.350069+00:00"
     },
     "digininja/GitHunter": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 199662478,
         "name": "GitHunter",
@@ -133533,7 +134301,9 @@
       "last_updated": "2026-03-17T22:17:37.209554+00:00"
     },
     "projectdiscovery/subfinder": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 127519518,
         "name": "subfinder",
@@ -133553,7 +134323,9 @@
       "last_updated": "2026-03-17T22:17:37.407941+00:00"
     },
     "tomnomnom/assetfinder": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 193392376,
         "name": "assetfinder",
@@ -133573,7 +134345,9 @@
       "last_updated": "2026-03-17T22:17:37.572926+00:00"
     },
     "edoardottt/scilla": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 298791469,
         "name": "scilla",
@@ -133635,7 +134409,9 @@
       "last_updated": "2026-03-17T22:17:38.120941+00:00"
     },
     "FiloSottile/yubikey-agent": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 258864129,
         "name": "yubikey-agent",
@@ -133656,7 +134432,8 @@
     },
     "StackExchange/dnscontrol": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 66963716,
@@ -133809,7 +134586,8 @@
     "sethvargo/ratchet": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 475208896,
@@ -134045,7 +134823,9 @@
       "last_updated": "2026-03-17T22:17:41.765697+00:00"
     },
     "slimtoolkit/colly": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 283631992,
         "name": "colly",
@@ -134067,7 +134847,8 @@
     "slimtoolkit/slim": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 42194129,
@@ -134133,7 +134914,8 @@
     },
     "minamijoyo/tfmigrate": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 275169025,
@@ -134174,7 +134956,9 @@
       "last_updated": "2026-03-17T22:17:43.145003+00:00"
     },
     "aquasecurity/table": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 491424372,
         "name": "table",
@@ -134341,7 +135125,8 @@
     "cirruslabs/cirrus-cli": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 278458949,
@@ -134701,7 +135486,8 @@
     },
     "aquasecurity/tfsec": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 173785481,
@@ -134765,7 +135551,8 @@
     },
     "cli/go-gh": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 401809473,
@@ -134847,7 +135634,8 @@
     },
     "mouuff/go-rocket-update": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 318841716,
@@ -134868,7 +135656,9 @@
       "last_updated": "2026-03-17T22:17:49.568250+00:00"
     },
     "traefik/yaegi": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 116938442,
         "name": "yaegi",
@@ -134888,7 +135678,9 @@
       "last_updated": "2026-03-17T22:17:49.760920+00:00"
     },
     "open-policy-agent/opa": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 48714685,
         "name": "opa",
@@ -134951,7 +135743,8 @@
     },
     "netlify/gotrue": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 58974323,
@@ -134973,7 +135766,8 @@
     },
     "redpanda-data/connect": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 54435102,
@@ -135116,7 +135910,9 @@
       "last_updated": "2026-03-17T22:17:51.995837+00:00"
     },
     "golang/vuln": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 423907006,
         "name": "vuln",
@@ -135179,7 +135975,8 @@
     },
     "bobuhiro11/gokvm": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 334352225,
@@ -135282,7 +136079,8 @@
     "direnv/direnv": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 1219305,
@@ -135567,7 +136365,9 @@
       "last_updated": "2026-03-17T22:17:56.286516+00:00"
     },
     "s0md3v/Smap": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 471627548,
         "name": "Smap",
@@ -135631,7 +136431,8 @@
     "aws/karpenter-provider-aws": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 278480393,
@@ -135737,7 +136538,8 @@
     "canonical/lxd": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 26192117,
@@ -135842,7 +136644,9 @@
       "last_updated": "2026-03-17T22:17:58.785892+00:00"
     },
     "tomnomnom/gron": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 5724223,
         "name": "gron",
@@ -135906,7 +136710,8 @@
     "mikefarah/yq": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 43225113,
@@ -136021,7 +136826,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "eBPF"
+        "eBPF",
+        "GoLang"
       ],
       "metadata": {
         "id": 209313689,
@@ -136045,7 +136851,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 28366058,
@@ -136068,7 +136875,8 @@
     "google/go-containerregistry": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 125253663,
@@ -136149,7 +136957,9 @@
       "last_updated": "2026-03-17T22:18:01.421666+00:00"
     },
     "golang/lint": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 10443324,
         "name": "lint",
@@ -136169,7 +136979,9 @@
       "last_updated": "2026-03-17T22:18:01.618613+00:00"
     },
     "dominikh/go-tools": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 79954708,
         "name": "go-tools",
@@ -136273,7 +137085,9 @@
       "last_updated": "2026-03-17T22:18:02.641964+00:00"
     },
     "transparency-dev/merkle": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 423523582,
         "name": "merkle",
@@ -136295,7 +137109,8 @@
     "iovisor/iovisor-ovn": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "GoLang"
       ],
       "metadata": {
         "id": 66822651,
@@ -136402,7 +137217,8 @@
     },
     "blushft/go-diagrams": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 295016801,
@@ -136570,7 +137386,9 @@
       "last_updated": "2026-03-17T22:18:05.568401+00:00"
     },
     "google/go-tpm-tools": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 161976966,
         "name": "go-tpm-tools",
@@ -136610,7 +137428,9 @@
       "last_updated": "2026-03-17T22:18:05.985046+00:00"
     },
     "google/go-tpm": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 22929140,
         "name": "go-tpm",
@@ -136692,7 +137512,9 @@
       "last_updated": "2026-03-17T22:18:06.750657+00:00"
     },
     "gitleaks/gitleaks": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 119190187,
         "name": "gitleaks",
@@ -136756,7 +137578,9 @@
       "last_updated": "2026-03-17T22:18:07.279230+00:00"
     },
     "windtf/wireproxy": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 468743437,
         "name": "wireproxy",
@@ -136820,7 +137644,8 @@
     },
     "turbot/steampipe": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 330405184,
@@ -136907,7 +137732,8 @@
     "ForAllSecure/rootfs_builder": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 206178287,
@@ -136928,7 +137754,9 @@
       "last_updated": "2026-03-17T22:18:08.795746+00:00"
     },
     "uber-go/guide": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 157008425,
         "name": "guide",
@@ -136991,7 +137819,8 @@
     },
     "aptly-dev/aptly": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 15171803,
@@ -137012,7 +137841,9 @@
       "last_updated": "2026-03-17T22:18:09.582626+00:00"
     },
     "projectdiscovery/nuclei": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 252813491,
         "name": "nuclei",
@@ -137032,7 +137863,9 @@
       "last_updated": "2026-03-17T22:18:09.755375+00:00"
     },
     "godbus/dbus": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 18187912,
         "name": "dbus",
@@ -137093,7 +137926,8 @@
     },
     "gruntwork-io/fetch": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 56711104,
@@ -137116,7 +137950,8 @@
     "gruntwork-io/git-xargs": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 348310601,
@@ -137138,7 +137973,8 @@
     },
     "gruntwork-io/allstar": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 472407840,
@@ -137182,7 +138018,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 222824662,
@@ -137204,7 +138041,8 @@
     },
     "terraform-lxd/terraform-provider-lxd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 47083172,
@@ -137268,7 +138106,8 @@
     },
     "deepfence/PacketStreamer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 474043179,
@@ -137354,7 +138193,8 @@
     },
     "seveas/herd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 256607259,
@@ -137603,7 +138443,8 @@
     "goreleaser/goreleaser-action": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 209873006,
@@ -137626,7 +138467,8 @@
     "goreleaser/goreleaser": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 77071454,
@@ -137689,7 +138531,9 @@
       "last_updated": "2026-03-17T22:18:16.179636+00:00"
     },
     "restic/restic": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 19205896,
         "name": "restic",
@@ -137799,7 +138643,8 @@
     "chainguard-dev/apko": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 457026559,
@@ -137869,7 +138714,8 @@
     "GoogleContainerTools/container-diff": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 99612558,
@@ -137935,7 +138781,8 @@
     },
     "purpleidea/mgmt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 43111018,
@@ -137957,7 +138804,8 @@
     },
     "network-quality/goresponsiveness": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 436873161,
@@ -138147,7 +138995,8 @@
     },
     "greenpau/caddy-security": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 448352597,
@@ -138191,7 +139040,8 @@
     },
     "casdoor/casdoor": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 306366900,
@@ -138212,7 +139062,9 @@
       "last_updated": "2026-03-17T22:18:21.005678+00:00"
     },
     "buzzfeed/sso": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 145011089,
         "name": "sso",
@@ -138233,7 +139085,8 @@
     },
     "smallstep/cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 141352703,
@@ -138255,7 +139108,8 @@
     },
     "oauth2-proxy/oauth2-proxy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 105262714,
@@ -138300,7 +139154,8 @@
     },
     "ory/hydra": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 36071697,
@@ -138322,7 +139177,8 @@
     },
     "im2nguyen/rover": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 379820284,
@@ -138344,7 +139200,8 @@
     },
     "zeromicro/go-zero": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 285864199,
@@ -138387,7 +139244,8 @@
     "containernetworking/cni": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 33429211,
@@ -138410,7 +139268,8 @@
     "openfaas/faasd": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 229264940,
@@ -138432,7 +139291,8 @@
     },
     "openfaas/faas": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 77144337,
@@ -138454,7 +139314,8 @@
     },
     "duo-labs/webauthn": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 108435716,
@@ -138499,7 +139360,8 @@
     },
     "jesseduffield/lazygit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 134017286,
@@ -138521,7 +139383,8 @@
     },
     "jesseduffield/lazydocker": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 187335810,
@@ -138652,7 +139515,9 @@
       "last_updated": "2026-03-17T22:18:25.186554+00:00"
     },
     "getsops/sops": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 40684033,
         "name": "sops",
@@ -138714,7 +139579,9 @@
       "last_updated": "2026-03-17T22:18:25.761784+00:00"
     },
     "go-delve/delve": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 19994257,
         "name": "delve",
@@ -138858,7 +139725,9 @@
       "last_updated": "2026-03-17T22:18:27.165385+00:00"
     },
     "theparanoids/crypki": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 190252257,
         "name": "crypki",
@@ -138878,7 +139747,9 @@
       "last_updated": "2026-03-17T22:18:27.343251+00:00"
     },
     "namecoin/pkcs11mod": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 160297454,
         "name": "pkcs11mod",
@@ -138898,7 +139769,9 @@
       "last_updated": "2026-03-17T22:18:27.577885+00:00"
     },
     "letsencrypt/pkcs11key": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 52291161,
         "name": "pkcs11key",
@@ -138918,7 +139791,9 @@
       "last_updated": "2026-03-17T22:18:27.774130+00:00"
     },
     "miekg/pkcs11": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 5886905,
         "name": "pkcs11",
@@ -138938,7 +139813,9 @@
       "last_updated": "2026-03-17T22:18:27.945809+00:00"
     },
     "jessevdk/go-flags": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 5629366,
         "name": "go-flags",
@@ -138959,7 +139836,8 @@
     },
     "bitfield/script": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 182416829,
@@ -139193,7 +140071,9 @@
       "last_updated": "2026-03-17T22:18:30.204978+00:00"
     },
     "ravenlab/sha256": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 225603451,
         "name": "sha256",
@@ -139213,7 +140093,9 @@
       "last_updated": "2026-03-17T22:18:30.435712+00:00"
     },
     "shaswata56/CheckSum_Util": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 194852559,
         "name": "CheckSum_Util",
@@ -139317,7 +140199,9 @@
       "last_updated": "2026-03-17T22:18:31.452620+00:00"
     },
     "Foxboron/go-uefi": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 257731293,
         "name": "go-uefi",
@@ -139340,7 +140224,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 177010499,
@@ -139403,7 +140288,9 @@
       "last_updated": "2026-03-17T22:18:32.218247+00:00"
     },
     "sourcegraph/zoekt": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 151158582,
         "name": "zoekt",
@@ -139446,7 +140333,8 @@
     },
     "j3ssie/sdlookup": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 466948218,
@@ -139467,7 +140355,9 @@
       "last_updated": "2026-03-17T22:18:32.767206+00:00"
     },
     "gorilla/mux": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 6051812,
         "name": "mux",
@@ -139569,7 +140459,8 @@
     "kata-containers/kata-containers": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 113404957,
@@ -139657,7 +140548,9 @@
       "last_updated": "2026-03-17T22:18:35.493921+00:00"
     },
     "codenotary/immudb": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 220186120,
         "name": "immudb",
@@ -139721,7 +140614,8 @@
     "containers/skopeo": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 53356367,
@@ -139786,7 +140680,9 @@
       "last_updated": "2026-03-17T22:18:36.752603+00:00"
     },
     "0xKitsune/Reproducible-Go-Binaries": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 448958746,
         "name": "Reproducible-Go-Binaries",
@@ -140092,7 +140988,9 @@
       "last_updated": "2026-03-17T22:18:39.805922+00:00"
     },
     "google/certificate-transparency-go": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 90636971,
         "name": "certificate-transparency-go",
@@ -140235,7 +141133,9 @@
       "last_updated": "2026-03-17T22:18:41.109151+00:00"
     },
     "wazero/wazero": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 261141187,
         "name": "wazero",
@@ -140861,7 +141761,9 @@
       "last_updated": "2026-03-17T22:18:47.030674+00:00"
     },
     "tomnomnom/qsreplace": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 215253770,
         "name": "qsreplace",
@@ -141705,7 +142607,9 @@
       "last_updated": "2026-03-17T22:18:55.152934+00:00"
     },
     "crtsh/go-certlint": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 147685675,
         "name": "go-certlint",
@@ -141810,7 +142714,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 163883279,
@@ -142016,7 +142921,8 @@
     },
     "slackhq/nebula": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 222172014,
@@ -142207,7 +143113,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 246903803,
@@ -142830,7 +143737,9 @@
       "last_updated": "2026-03-17T22:19:06.118212+00:00"
     },
     "google/trillian": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 58654489,
         "name": "trillian",
@@ -142870,7 +143779,9 @@
       "last_updated": "2026-03-17T22:19:06.488993+00:00"
     },
     "google/trillian-examples": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 119151672,
         "name": "trillian-examples",
@@ -143100,7 +144011,9 @@
       "last_updated": "2026-03-17T22:19:08.832011+00:00"
     },
     "agl/crlset-tools": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 3229815,
         "name": "crlset-tools",
@@ -143547,7 +144460,9 @@
       "last_updated": "2026-03-17T22:19:13.266346+00:00"
     },
     "johnkerl/miller": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 35003822,
         "name": "miller",
@@ -143879,7 +144794,9 @@
       "last_updated": "2026-03-17T22:19:16.446699+00:00"
     },
     "tailscale/tailscale": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 237523442,
         "name": "tailscale",
@@ -144813,7 +145730,8 @@
     },
     "sigstore/rekor": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 272963353,
@@ -144837,7 +145755,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 335952417,
@@ -145289,7 +146208,8 @@
     },
     "smallstep/certificates": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 155658556,
@@ -145390,7 +146310,9 @@
       "last_updated": "2026-03-17T22:19:30.886459+00:00"
     },
     "anchore/syft": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 262126497,
         "name": "syft",
@@ -145411,7 +146333,8 @@
     },
     "anchore/grype": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "GoLang"
       ],
       "metadata": {
         "id": 267054247,
@@ -145473,7 +146396,8 @@
     },
     "projectdiscovery/httpx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 267713284,
@@ -145788,7 +146712,8 @@
     },
     "deepfence/ThreatMapper": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 238662977,
@@ -146214,7 +147139,8 @@
     },
     "wagoodman/dive": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 133251103,
@@ -146295,7 +147221,9 @@
       "last_updated": "2026-03-17T22:19:39.728906+00:00"
     },
     "owasp-amass/amass": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 140457254,
         "name": "amass",
@@ -146361,7 +147289,8 @@
     "trufflesecurity/trufflehog": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 77726177,
@@ -146607,7 +147536,9 @@
       "last_updated": "2026-03-17T22:19:42.816391+00:00"
     },
     "terraform-docs/terraform-docs": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 60978152,
         "name": "terraform-docs",
@@ -147221,7 +148152,8 @@
     },
     "mislav/hub": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 401025,
@@ -147709,7 +148641,9 @@
       "last_updated": "2026-03-17T22:19:53.224368+00:00"
     },
     "paultyng/go-unifi": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 233111588,
         "name": "go-unifi",
@@ -147853,7 +148787,8 @@
     "gruntwork-io/cloud-nuke": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 90905599,
@@ -147916,7 +148851,8 @@
     "99designs/aws-vault": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 40539602,
@@ -148114,7 +149050,8 @@
     },
     "rebuy-de/aws-nuke": {
       "lists": [
-        "AWS"
+        "AWS",
+        "GoLang"
       ],
       "metadata": {
         "id": 74891203,
@@ -148157,7 +149094,8 @@
     "GoogleContainerTools/distroless": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 88674404,
@@ -148385,7 +149323,8 @@
     },
     "gruntwork-io/terratest": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 53174289,
@@ -148507,7 +149446,8 @@
     },
     "allinurl/goaccess": {
       "lists": [
-        "Devops"
+        "Devops",
+        "GoLang"
       ],
       "metadata": {
         "id": 11397939,
@@ -148811,7 +149751,8 @@
     },
     "quay/clair": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "GoLang"
       ],
       "metadata": {
         "id": 46140633,
@@ -148994,7 +149935,9 @@
       "last_updated": "2026-03-17T22:20:06.008312+00:00"
     },
     "ffuf/ffuf": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 156681830,
         "name": "ffuf",
