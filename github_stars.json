@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:42.580462+00:00",
+  "last_updated": "2026-03-17T23:11:53.463915+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -30,7 +30,9 @@
       }
     },
     "Siege-Perilous/counterslayer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1161020024,
         "name": "counterslayer",
@@ -366,7 +368,9 @@
       }
     },
     "open-gitagent/gitagent": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1165855406,
         "name": "gitagent",
@@ -630,7 +634,9 @@
       }
     },
     "Crosstalk-Solutions/project-nomad": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1007827531,
         "name": "project-nomad",
@@ -927,7 +933,9 @@
       }
     },
     "zulip/zulip": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 43160685,
         "name": "zulip",
@@ -1142,7 +1150,8 @@
     },
     "9001/copyparty": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 188700274,
@@ -1324,7 +1333,9 @@
       }
     },
     "es617/claude-replay": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1170431836,
         "name": "claude-replay",
@@ -1640,7 +1651,8 @@
     },
     "azu/har-extractor": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 138033840,
@@ -1843,7 +1855,9 @@
       }
     },
     "Fission-AI/OpenSpec": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1032459340,
         "name": "OpenSpec",
@@ -2410,7 +2424,9 @@
       }
     },
     "badlogic/pi-mono": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1035029907,
         "name": "pi-mono",
@@ -2515,7 +2531,8 @@
     },
     "ryrotella/decorate_3D_portal": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1153936338,
@@ -3068,7 +3085,8 @@
     },
     "selkies-project/selkies": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 408290342,
@@ -3094,7 +3112,9 @@
       }
     },
     "gildas-lormeau/single-file-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 498404221,
         "name": "single-file-cli",
@@ -3251,7 +3271,9 @@
       }
     },
     "jasonjmcghee/WebMCP": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 942407303,
         "name": "WebMCP",
@@ -3301,7 +3323,9 @@
       }
     },
     "webmachinelearning/webmcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1032542721,
         "name": "webmcp",
@@ -3427,7 +3451,8 @@
     },
     "Lissy93/dashy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 343078060,
@@ -3533,7 +3558,8 @@
     },
     "CloudSecurityAlliance/openclaw-telemetry": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1155511719,
@@ -3640,7 +3666,9 @@
       }
     },
     "muxinc/media-chrome": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 208394975,
         "name": "media-chrome",
@@ -3690,7 +3718,9 @@
       }
     },
     "microsoft/playwright-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 273562379,
         "name": "playwright-cli",
@@ -3715,7 +3745,9 @@
       }
     },
     "electron/electron": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 9384267,
         "name": "electron",
@@ -3978,7 +4010,9 @@
       }
     },
     "cyrus-and/chrome-remote-interface": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 9503997,
         "name": "chrome-remote-interface",
@@ -4031,7 +4065,9 @@
       }
     },
     "micmro/PerfCascade": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 48284446,
         "name": "PerfCascade",
@@ -4056,7 +4092,9 @@
       }
     },
     "mswjs/source": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 338697765,
         "name": "source",
@@ -4081,7 +4119,9 @@
       }
     },
     "mswjs/msw": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 157397583,
         "name": "msw",
@@ -4345,7 +4385,9 @@
       }
     },
     "webmastersmith/facebook-sort": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 812668572,
         "name": "facebook-sort",
@@ -4370,7 +4412,9 @@
       }
     },
     "libapps/libapps-mirror": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 14158394,
         "name": "libapps-mirror",
@@ -4997,7 +5041,9 @@
       }
     },
     "tadpolehq/tadpole": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1148391367,
         "name": "tadpole",
@@ -5047,7 +5093,9 @@
       }
     },
     "coleam00/second-brain-research-dashboard": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1146326676,
         "name": "second-brain-research-dashboard",
@@ -5153,7 +5201,9 @@
       }
     },
     "kmamal/node-sdl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 348811443,
         "name": "node-sdl",
@@ -5278,7 +5328,9 @@
       }
     },
     "cables-gl/cables-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 121062504,
         "name": "cables-cli",
@@ -5455,7 +5507,9 @@
       }
     },
     "pl4nty/web-admx-tool": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 925907374,
         "name": "web-admx-tool",
@@ -5716,7 +5770,9 @@
       }
     },
     "outline/outline": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 59435364,
         "name": "outline",
@@ -5741,7 +5797,9 @@
       }
     },
     "requarks/wiki": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 65848095,
         "name": "wiki",
@@ -5791,7 +5849,9 @@
       }
     },
     "EmulatorJS/EmulatorJS": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 354955148,
         "name": "EmulatorJS",
@@ -6001,7 +6061,9 @@
       }
     },
     "elementdavv/internet_archive_downloader": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 610627911,
         "name": "internet_archive_downloader",
@@ -6076,7 +6138,9 @@
       }
     },
     "doersino/uji": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 366686480,
         "name": "uji",
@@ -6101,7 +6165,9 @@
       }
     },
     "steipete/mcporter": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1089959414,
         "name": "mcporter",
@@ -7021,7 +7087,9 @@
       }
     },
     "KhronosGroup/SPIRV-Visualizer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 318321328,
         "name": "SPIRV-Visualizer",
@@ -7223,7 +7291,9 @@
       }
     },
     "humanbydefinition/textmode.filters.js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1106802721,
         "name": "textmode.filters.js",
@@ -7248,7 +7318,9 @@
       }
     },
     "humanbydefinition/textmode.synth.js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1120626117,
         "name": "textmode.synth.js",
@@ -7380,7 +7452,9 @@
       }
     },
     "Loading617/SoundScope": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 883890247,
         "name": "SoundScope",
@@ -7792,7 +7866,9 @@
       }
     },
     "dxviie/HYDRACTRL": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 977520218,
         "name": "HYDRACTRL",
@@ -8060,7 +8136,8 @@
     "BLGardner/prism.tools": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1124767956,
@@ -8229,7 +8306,8 @@
     },
     "garethgeorge/backrest": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 716967634,
@@ -9747,7 +9825,8 @@
     },
     "dgallegos/edidreader": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 7906246,
@@ -10362,7 +10441,9 @@
       }
     },
     "musistudio/claude-code-router": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 938468965,
         "name": "claude-code-router",
@@ -10841,7 +10922,9 @@
       }
     },
     "8beeeaaat/touchdesigner-mcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 965721987,
         "name": "touchdesigner-mcp",
@@ -10972,7 +11055,9 @@
       }
     },
     "g-l-i-t-c-h-o-r-s-e/wayback-machine-downloader": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1089112521,
         "name": "wayback-machine-downloader",
@@ -11076,7 +11161,9 @@
       }
     },
     "mrdoob/glsl-sandbox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 2742407,
         "name": "glsl-sandbox",
@@ -11699,7 +11786,9 @@
       }
     },
     "humanbydefinition/textmode.js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1019649473,
         "name": "textmode.js",
@@ -12246,7 +12335,9 @@
       }
     },
     "poloclub/transformer-explainer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 801763739,
         "name": "transformer-explainer",
@@ -12430,7 +12521,9 @@
       }
     },
     "internetarchive/wayback-machine-webextension": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 79169085,
         "name": "wayback-machine-webextension",
@@ -13128,7 +13221,9 @@
       }
     },
     "f/git-rewrite-commits": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1093131244,
         "name": "git-rewrite-commits",
@@ -13416,7 +13511,8 @@
     },
     "appledragon/DumpStorm": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1019294758,
@@ -14190,7 +14286,9 @@
       }
     },
     "obra/superpowers-chrome": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1078592806,
         "name": "superpowers-chrome",
@@ -14325,7 +14423,9 @@
       }
     },
     "rclone/rclone-webui-react": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 189567442,
         "name": "rclone-webui-react",
@@ -14476,7 +14576,8 @@
     },
     "firebase/genkit": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 793795224,
@@ -16769,7 +16870,9 @@
       }
     },
     "scribeocr/scribeocr": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 465499570,
         "name": "scribeocr",
@@ -16846,7 +16949,9 @@
       }
     },
     "yjs/yjs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 22392639,
         "name": "yjs",
@@ -16871,7 +16976,9 @@
       }
     },
     "googleworkspace/apps-script-samples": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 10655461,
         "name": "apps-script-samples",
@@ -17673,7 +17780,9 @@
       }
     },
     "cloudflare/vibesdk": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1044360605,
         "name": "vibesdk",
@@ -17775,7 +17884,9 @@
       }
     },
     "compute-toys/compute.toys": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 625826870,
         "name": "compute.toys",
@@ -18231,7 +18342,9 @@
       }
     },
     "ashvardanian/NumKong": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 613772664,
         "name": "NumKong",
@@ -18259,7 +18372,8 @@
     },
     "ashvardanian/StringZilla": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 287616631,
@@ -18521,7 +18635,8 @@
     },
     "bodadotsh/npm-security-best-practices": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1060866328,
@@ -18918,7 +19033,9 @@
       }
     },
     "w3c/webdriver-bidi": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 266819102,
         "name": "webdriver-bidi",
@@ -20818,7 +20935,9 @@
       }
     },
     "hidao80/embed-images-in-markdown": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 591844872,
         "name": "embed-images-in-markdown",
@@ -21581,7 +21700,9 @@
       }
     },
     "usebruno/bruno": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 542284380,
         "name": "bruno",
@@ -21661,7 +21782,8 @@
     },
     "BlueprintLabIO/prompt-injector": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1046651854,
@@ -21771,7 +21893,8 @@
     "SocketDev/socket-cli": {
       "lists": [
         "CI/CD",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 554765897,
@@ -22920,7 +23043,9 @@
       }
     },
     "Mesh2Motion/mesh2motion-app": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 728438436,
         "name": "mesh2motion-app",
@@ -23295,7 +23420,9 @@
       }
     },
     "mixmark-io/turndown": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 2630230,
         "name": "turndown",
@@ -23635,7 +23762,9 @@
       }
     },
     "Ameobea/sketches-3d": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 525535853,
         "name": "sketches-3d",
@@ -23762,7 +23891,9 @@
       }
     },
     "ChromeDevTools/devtools-protocol": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 86491149,
         "name": "devtools-protocol",
@@ -23938,7 +24069,8 @@
     },
     "projen/projen": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 262943932,
@@ -24016,7 +24148,9 @@
       }
     },
     "walter-arrighetti/3dLUT2js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 70541451,
         "name": "3dLUT2js",
@@ -25561,7 +25695,9 @@
       }
     },
     "Tampermonkey/tampermonkey": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 32345677,
         "name": "tampermonkey",
@@ -25586,7 +25722,9 @@
       }
     },
     "gnuns/allOrigins": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 51700399,
         "name": "allOrigins",
@@ -25741,7 +25879,8 @@
     },
     "githubocto/flat": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 340160323,
@@ -26494,7 +26633,9 @@
       }
     },
     "langgenius/dify": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 626805178,
         "name": "dify",
@@ -26594,7 +26735,9 @@
       }
     },
     "Atonomy-AI/AtoRAG": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1016428430,
         "name": "AtoRAG",
@@ -26698,7 +26841,9 @@
       }
     },
     "humanbydefinition/p5.asciify": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 828548286,
         "name": "p5.asciify",
@@ -26778,7 +26923,9 @@
       }
     },
     "sinclairzx81/typebox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 87454905,
         "name": "typebox",
@@ -27170,7 +27317,9 @@
       }
     },
     "coleam00/remote-mcp-server-with-auth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1016191343,
         "name": "remote-mcp-server-with-auth",
@@ -27374,7 +27523,9 @@
       }
     },
     "eypacha/nodebit": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 874402744,
         "name": "nodebit",
@@ -27794,7 +27945,9 @@
       }
     },
     "MiguelsPizza/WebMCP": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1001283156,
         "name": "WebMCP",
@@ -28499,7 +28652,9 @@
       }
     },
     "anthropics/claude-code": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 937253475,
         "name": "claude-code",
@@ -28551,7 +28706,9 @@
       }
     },
     "RedPlanetHQ/core": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 991092853,
         "name": "core",
@@ -28838,7 +28995,9 @@
       }
     },
     "stan-smith/FossFLOW": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1011253718,
         "name": "FossFLOW",
@@ -28890,7 +29049,9 @@
       }
     },
     "11ty/eleventy": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 112150776,
         "name": "eleventy",
@@ -28994,7 +29155,9 @@
       }
     },
     "lobehub/lobehub": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 643445235,
         "name": "lobehub",
@@ -29385,7 +29548,9 @@
       }
     },
     "RayFernando1337/LLM-Calc": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 792863435,
         "name": "LLM-Calc",
@@ -29435,7 +29600,9 @@
       }
     },
     "google-gemini/gemini-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 968197216,
         "name": "gemini-cli",
@@ -29510,7 +29677,9 @@
       }
     },
     "amantus-ai/llm-codes": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1001934624,
         "name": "llm-codes",
@@ -30114,7 +30283,9 @@
       }
     },
     "CrashServer/super-hydra-turbo-edition": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 998510435,
         "name": "super-hydra-turbo-edition",
@@ -30166,7 +30337,9 @@
       }
     },
     "meodai/poline": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 585602940,
         "name": "poline",
@@ -30640,7 +30813,9 @@
       }
     },
     "webrecorder/browsertrix": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 381178875,
         "name": "browsertrix",
@@ -31079,7 +31254,9 @@
       }
     },
     "Lspace-io/lspace-server": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 992756892,
         "name": "lspace-server",
@@ -31312,7 +31489,9 @@
       }
     },
     "david-strejc/cldmemory": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 998653497,
         "name": "cldmemory",
@@ -31337,7 +31516,9 @@
       }
     },
     "Schniz/fnm": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 166045424,
         "name": "fnm",
@@ -31418,7 +31599,8 @@
     },
     "good-lly/s3mini": {
       "lists": [
-        "AWS"
+        "AWS",
+        "JavaScript"
       ],
       "metadata": {
         "id": 936532892,
@@ -31469,7 +31651,9 @@
       }
     },
     "eyaltoledano/claude-task-master": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 942837343,
         "name": "claude-task-master",
@@ -31705,7 +31889,8 @@
     },
     "eelab-dev/EEcircuit": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 303270762,
@@ -33020,7 +33205,9 @@
       }
     },
     "lodash/lodash": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 3955647,
         "name": "lodash",
@@ -33045,7 +33232,9 @@
       }
     },
     "Dhaxor/super-utils-plus": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 989542973,
         "name": "super-utils-plus",
@@ -34301,7 +34490,9 @@
       }
     },
     "jaypyles/Scraperr": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 825062215,
         "name": "Scraperr",
@@ -35728,7 +35919,9 @@
       }
     },
     "zumerlab/snapdom": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 973606777,
         "name": "snapdom",
@@ -36211,7 +36404,9 @@
       }
     },
     "jina-ai/reader": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 784546140,
         "name": "reader",
@@ -36699,7 +36894,9 @@
       }
     },
     "Zavy86/WikiDocs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 163814651,
         "name": "WikiDocs",
@@ -36904,7 +37101,9 @@
       }
     },
     "emilwidlund/alma": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 498532278,
         "name": "alma",
@@ -37029,7 +37228,9 @@
       }
     },
     "stevensona/shader-toy": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 63455566,
         "name": "shader-toy",
@@ -37115,7 +37316,8 @@
     },
     "muxinc/mipp": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "JavaScript"
       ],
       "metadata": {
         "id": 788150000,
@@ -37141,7 +37343,9 @@
       }
     },
     "observablehq/framework": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 697495192,
         "name": "framework",
@@ -37166,7 +37370,9 @@
       }
     },
     "captbaritone/webamp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 26149893,
         "name": "webamp",
@@ -37990,7 +38196,9 @@
       }
     },
     "beryann/Hydra-Functions-Compilation": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 891955687,
         "name": "Hydra-Functions-Compilation",
@@ -38016,7 +38224,8 @@
     },
     "Rob--W/cors-anywhere": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 7431133,
@@ -38117,7 +38326,9 @@
       }
     },
     "kubernetes-sigs/headlamp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 220546758,
         "name": "headlamp",
@@ -38194,7 +38405,9 @@
       }
     },
     "BrowserMCP/mcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 956283541,
         "name": "mcp",
@@ -38532,7 +38745,8 @@
     },
     "idosal/git-mcp": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 956842312,
@@ -38558,7 +38772,9 @@
       }
     },
     "juliangarnier/anime": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 53809090,
         "name": "anime",
@@ -38851,7 +39067,8 @@
     "ajnart/dcm": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 950728976,
@@ -39089,7 +39306,9 @@
       }
     },
     "iib0011/omni-tools": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 814882742,
         "name": "omni-tools",
@@ -39139,7 +39358,9 @@
       }
     },
     "immich-app/immich": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 455229168,
         "name": "immich",
@@ -39641,7 +39862,9 @@
       }
     },
     "hyperbrowserai/mcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 938957096,
         "name": "mcp",
@@ -39725,7 +39948,9 @@
       }
     },
     "antiboredom/ffmpeg-explorer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 680634750,
         "name": "ffmpeg-explorer",
@@ -40080,7 +40305,9 @@
       }
     },
     "gildas-lormeau/SingleFile": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 906022,
         "name": "SingleFile",
@@ -40262,7 +40489,9 @@
       }
     },
     "Link-/starred_search": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 271088007,
         "name": "starred_search",
@@ -40416,7 +40645,9 @@
       }
     },
     "redscientistlabs/jsRTC": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 226962200,
         "name": "jsRTC",
@@ -41213,7 +41444,9 @@
       }
     },
     "logseq/logseq": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 266231149,
         "name": "logseq",
@@ -41238,7 +41471,9 @@
       }
     },
     "signerlabs/Klee": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 939749593,
         "name": "Klee",
@@ -41340,7 +41575,8 @@
     "denandz/sourcemapper": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 147779075,
@@ -41827,7 +42063,9 @@
       }
     },
     "yamadashy/repomix": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 828119367,
         "name": "repomix",
@@ -42624,7 +42862,9 @@
       }
     },
     "eclipse-langium/langium": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 341208284,
         "name": "langium",
@@ -43679,7 +43919,9 @@
       }
     },
     "msgbyte/tianji": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 685392779,
         "name": "tianji",
@@ -43730,7 +43972,8 @@
     },
     "fosrl/pangolin": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 863835427,
@@ -44728,7 +44971,9 @@
       }
     },
     "hack-chat/main": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 124626168,
         "name": "main",
@@ -45295,7 +45540,9 @@
       }
     },
     "idflood/ThreeNodes.js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 2571314,
         "name": "ThreeNodes.js",
@@ -45722,7 +45969,9 @@
       }
     },
     "huggingface/transformers.js-examples": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 841397199,
         "name": "transformers.js-examples",
@@ -46067,7 +46316,9 @@
       }
     },
     "antmicro/kenning-pipeline-manager": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 592374337,
         "name": "kenning-pipeline-manager",
@@ -46168,7 +46419,8 @@
     },
     "antmicro/screen-recorder": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "JavaScript"
       ],
       "metadata": {
         "id": 313005489,
@@ -46480,7 +46732,9 @@
       }
     },
     "IQEngine/WebFFT": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 679379838,
         "name": "WebFFT",
@@ -46659,7 +46913,9 @@
       }
     },
     "remotion-dev/remotion": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 274495425,
         "name": "remotion",
@@ -46842,7 +47098,9 @@
       }
     },
     "ggml-org/llama.vscode": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 912789210,
         "name": "llama.vscode",
@@ -47431,7 +47689,8 @@
     },
     "tcort/markdown-link-check": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 49756018,
@@ -47539,7 +47798,9 @@
       }
     },
     "summerstyle/jsonTreeViewer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 19369718,
         "name": "jsonTreeViewer",
@@ -47564,7 +47825,9 @@
       }
     },
     "The-01-Company/jsontr.ee": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 894105996,
         "name": "jsontr.ee",
@@ -47933,7 +48196,9 @@
       }
     },
     "browserbase/stagehand": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 776908852,
         "name": "stagehand",
@@ -48109,7 +48374,8 @@
     },
     "TinyTapeout/tinytapeout_gds_viewer": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 559984101,
@@ -48287,7 +48553,9 @@
       }
     },
     "danny-avila/LibreChat": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 600596928,
         "name": "LibreChat",
@@ -48708,7 +48976,9 @@
       }
     },
     "web-infra-dev/midscene": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 832452447,
         "name": "midscene",
@@ -49420,7 +49690,9 @@
       }
     },
     "PavelDoGreat/WebGL-Fluid-Simulation": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 101109137,
         "name": "WebGL-Fluid-Simulation",
@@ -49521,7 +49793,8 @@
     },
     "ahmedkhaleel2004/gitdiagram": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 903700733,
@@ -49547,7 +49820,9 @@
       }
     },
     "liriliri/eruda": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 53256950,
         "name": "eruda",
@@ -49623,7 +49898,8 @@
     },
     "siyuan-note/siyuan": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 291438522,
@@ -50816,7 +51092,9 @@
       }
     },
     "microsoft/vscode-js-debug": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 198896556,
         "name": "vscode-js-debug",
@@ -50951,7 +51229,9 @@
       }
     },
     "racz16/WebGL-GLSL-Editor": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 236056614,
         "name": "WebGL-GLSL-Editor",
@@ -50978,7 +51258,8 @@
     "dotenvx/dotenvx": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 720267554,
@@ -51004,7 +51285,9 @@
       }
     },
     "GeForceLegend/vscode-glsl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 342086544,
         "name": "vscode-glsl",
@@ -51054,7 +51337,9 @@
       }
     },
     "actarian/glsl-canvas": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 164337670,
         "name": "glsl-canvas",
@@ -51079,7 +51364,9 @@
       }
     },
     "edeetee/isf-support": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 539306027,
         "name": "isf-support",
@@ -51104,7 +51391,9 @@
       }
     },
     "tldraw/tldraw": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 365739812,
         "name": "tldraw",
@@ -51181,7 +51470,8 @@
     "anomalyco/openauth": {
       "lists": [
         "API",
-        "Authentication"
+        "Authentication",
+        "JavaScript"
       ],
       "metadata": {
         "id": 887503379,
@@ -52573,7 +52863,9 @@
       }
     },
     "wizgrav/clubber": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 67536518,
         "name": "clubber",
@@ -52964,7 +53256,9 @@
       }
     },
     "mark-when/markwhen": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 369351526,
         "name": "markwhen",
@@ -53014,7 +53308,9 @@
       }
     },
     "stackgl/headless-gl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 7904864,
         "name": "headless-gl",
@@ -53914,7 +54210,8 @@
     },
     "HymEric/AIWebMatting": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 220653809,
@@ -53969,7 +54266,9 @@
       }
     },
     "thiagobergami/yt-shoorts-automation": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 716162137,
         "name": "yt-shoorts-automation",
@@ -54378,7 +54677,9 @@
       }
     },
     "patriciogonzalezvivo/glslCanvas": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 39027776,
         "name": "glslCanvas",
@@ -55133,7 +55434,8 @@
     },
     "specfy/stack-analyser": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 632494180,
@@ -55318,7 +55620,8 @@
     },
     "hound-search/hound": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 28930512,
@@ -55478,7 +55781,8 @@
     "lyft/clutch": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 259751605,
@@ -55750,7 +56054,8 @@
     "repository-settings/app": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 79733281,
@@ -56529,7 +56834,9 @@
       }
     },
     "leaningtech/webvm": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 454164378,
         "name": "webvm",
@@ -56554,7 +56861,9 @@
       }
     },
     "leaningtech/cheerpx-meta": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 866471958,
         "name": "cheerpx-meta",
@@ -57050,7 +57359,9 @@
       }
     },
     "magdesign/openmapper": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 189834947,
         "name": "openmapper",
@@ -57458,7 +57769,9 @@
       }
     },
     "wasmerio/webassembly.sh": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 209115950,
         "name": "webassembly.sh",
@@ -57616,7 +57929,9 @@
       }
     },
     "regl-project/regl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 52315611,
         "name": "regl",
@@ -57695,7 +58010,9 @@
       }
     },
     "drogus/jawsm": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 875521855,
         "name": "jawsm",
@@ -57985,7 +58302,9 @@
       }
     },
     "zumerlab/orbit": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 607167827,
         "name": "orbit",
@@ -59098,7 +59417,9 @@
       }
     },
     "benoitlahoz/isf-transitions": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 811301922,
         "name": "isf-transitions",
@@ -59148,7 +59469,9 @@
       }
     },
     "fabiospampinato/cash": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 24229490,
         "name": "cash",
@@ -59462,7 +59785,9 @@
       }
     },
     "bytecodealliance/jco": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 576428611,
         "name": "jco",
@@ -59487,7 +59812,9 @@
       }
     },
     "microsoft/genaiscript": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 679784368,
         "name": "genaiscript",
@@ -60013,7 +60340,8 @@
     },
     "davidmarkclements/0x": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 52283973,
@@ -62181,7 +62509,9 @@
       }
     },
     "ffd8/P5LIVE": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 165936006,
         "name": "P5LIVE",
@@ -62208,7 +62538,8 @@
     "pyro2927/AWS_SSO_Containers": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 482149892,
@@ -62261,7 +62592,9 @@
       }
     },
     "nasser/thixels": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 147984890,
         "name": "thixels",
@@ -62338,7 +62671,9 @@
       }
     },
     "cocopon/tweakpane": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 58473989,
         "name": "tweakpane",
@@ -62844,7 +63179,9 @@
       }
     },
     "livekit/agents-js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 780635287,
         "name": "agents-js",
@@ -62894,7 +63231,9 @@
       }
     },
     "continuedev/continue": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 644686905,
         "name": "continue",
@@ -63298,7 +63637,9 @@
       }
     },
     "molstar/molstar": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 117818549,
         "name": "molstar",
@@ -63857,7 +64198,8 @@
     },
     "nginx/njs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 43038779,
@@ -64527,7 +64869,9 @@
       }
     },
     "astrofox-io/astrofox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 140798646,
         "name": "astrofox",
@@ -65458,7 +65802,8 @@
     },
     "testcontainers/testcontainers-node": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 116414510,
@@ -65593,7 +65938,9 @@
       }
     },
     "karakeep-app/karakeep": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 753589979,
         "name": "karakeep",
@@ -65726,7 +66073,8 @@
     },
     "githubocto/flat-viewer": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 346845202,
@@ -66316,7 +66664,9 @@
       }
     },
     "raphaelameaume/fragment": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 226928112,
         "name": "fragment",
@@ -66366,7 +66716,9 @@
       }
     },
     "mifi/editly": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 255940939,
         "name": "editly",
@@ -66470,7 +66822,9 @@
       }
     },
     "anvaka/fieldplay": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 107498895,
         "name": "fieldplay",
@@ -66572,7 +66926,9 @@
       }
     },
     "frost-beta/node-mlx": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 785167272,
         "name": "node-mlx",
@@ -66840,7 +67196,9 @@
       }
     },
     "Writesonic/GPTRouter": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 731449710,
         "name": "GPTRouter",
@@ -67198,7 +67556,9 @@
       }
     },
     "get-set-fetch/extension": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 135053277,
         "name": "extension",
@@ -67273,7 +67633,9 @@
       }
     },
     "denoland/deno": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 133442384,
         "name": "deno",
@@ -67298,7 +67660,9 @@
       }
     },
     "yournextstore/yournextstore": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 838508060,
         "name": "yournextstore",
@@ -68220,7 +68584,9 @@
       }
     },
     "Mintplex-Labs/anything-llm": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 649170660,
         "name": "anything-llm",
@@ -68297,7 +68663,9 @@
       }
     },
     "RaisinTen/electron-snapshot-experiment": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 836582274,
         "name": "electron-snapshot-experiment",
@@ -68623,7 +68991,9 @@
       }
     },
     "huggingface/huggingface.js": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 598261814,
         "name": "huggingface.js",
@@ -68756,7 +69126,9 @@
       }
     },
     "cline/cline": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 824874689,
         "name": "cline",
@@ -68888,7 +69260,9 @@
       }
     },
     "TypingMind/typingmind": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 755161958,
         "name": "typingmind",
@@ -68938,7 +69312,9 @@
       }
     },
     "calebj0seph/spectro": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 244123002,
         "name": "spectro",
@@ -69300,7 +69676,9 @@
       }
     },
     "vizdom-dev/vizdom": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 823419403,
         "name": "vizdom",
@@ -69709,7 +70087,9 @@
       }
     },
     "keithclark/imagedata-planar": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 802442403,
         "name": "imagedata-planar",
@@ -70061,7 +70441,9 @@
       }
     },
     "ducan-ne/remove-bg": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 847344185,
         "name": "remove-bg",
@@ -70482,7 +70864,9 @@
       }
     },
     "vega/vega": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 7994556,
         "name": "vega",
@@ -70559,7 +70943,9 @@
       }
     },
     "Surfer-Org/Protocol": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 840123414,
         "name": "Protocol",
@@ -70663,7 +71049,9 @@
       }
     },
     "gnh1201/welsonjs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 275600068,
         "name": "welsonjs",
@@ -70765,7 +71153,9 @@
       }
     },
     "williamyang98/3D-Cellular-Automata": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 264931120,
         "name": "3D-Cellular-Automata",
@@ -70790,7 +71180,9 @@
       }
     },
     "usrnamealreadytaken/slack-scraper": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 796892129,
         "name": "slack-scraper",
@@ -71054,7 +71446,9 @@
       }
     },
     "iulspop/slack-web-scraper": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 403736269,
         "name": "slack-web-scraper",
@@ -71449,7 +71843,8 @@
     },
     "zuplo/rate-my-openapi": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 653466139,
@@ -71712,7 +72107,9 @@
       }
     },
     "riad-azz/instagram-video-downloader": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 619411442,
         "name": "instagram-video-downloader",
@@ -72095,7 +72492,9 @@
       }
     },
     "espruino/Espruino": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 13123142,
         "name": "Espruino",
@@ -72120,7 +72519,9 @@
       }
     },
     "jerryscript-project/jerryscript": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 33339660,
         "name": "jerryscript",
@@ -73466,7 +73867,9 @@
       }
     },
     "open-webui/open-webui": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 701547123,
         "name": "open-webui",
@@ -74228,7 +74631,9 @@
       }
     },
     "googlecreativelab/chrome-music-lab": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 52817073,
         "name": "chrome-music-lab",
@@ -75721,7 +76126,9 @@
       }
     },
     "patriciogonzalezvivo/glslEditor": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 49336543,
         "name": "glslEditor",
@@ -76109,7 +76516,8 @@
     },
     "CKegel/Web-SSTV": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 731843794,
@@ -76338,7 +76746,9 @@
       }
     },
     "doxas/twigl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 255299127,
         "name": "twigl",
@@ -76363,7 +76773,9 @@
       }
     },
     "shader-park/shader-park-core": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 192394585,
         "name": "shader-park-core",
@@ -76388,7 +76800,9 @@
       }
     },
     "septag/glslcc": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 150963482,
         "name": "glslcc",
@@ -76413,7 +76827,9 @@
       }
     },
     "ertdfgcvb/play.core": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 290441835,
         "name": "play.core",
@@ -76595,7 +77011,8 @@
     },
     "rwaldron/johnny-five": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 3880513,
@@ -76621,7 +77038,9 @@
       }
     },
     "munshkr/browserglue": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 338330131,
         "name": "browserglue",
@@ -76646,7 +77065,9 @@
       }
     },
     "jdomizz/vscode-hydra": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 783972852,
         "name": "vscode-hydra",
@@ -76671,7 +77092,9 @@
       }
     },
     "geikha/hydra-antlia": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 261170201,
         "name": "hydra-antlia",
@@ -76721,7 +77144,9 @@
       }
     },
     "geikha/hyper-hydra": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 443672344,
         "name": "hyper-hydra",
@@ -77540,7 +77965,9 @@
       }
     },
     "jdomizz/hydra-element": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 395438663,
         "name": "hydra-element",
@@ -77565,7 +77992,9 @@
       }
     },
     "wolenetz/mse-in-workers-demo": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 306750678,
         "name": "mse-in-workers-demo",
@@ -77590,7 +78019,9 @@
       }
     },
     "w3c/webcodecs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 193165015,
         "name": "webcodecs",
@@ -77640,7 +78071,9 @@
       }
     },
     "meyda/meyda": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 22857662,
         "name": "meyda",
@@ -79069,7 +79502,9 @@
       }
     },
     "verdaccio/verdaccio": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 56333861,
         "name": "verdaccio",
@@ -79094,7 +79529,9 @@
       }
     },
     "tayre/klv-decoder": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 123948419,
         "name": "klv-decoder",
@@ -79460,7 +79897,9 @@
       }
     },
     "charlieroberts/screamer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 805070119,
         "name": "screamer",
@@ -79978,7 +80417,9 @@
       }
     },
     "paradigms-of-intelligence/swissgl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 598237502,
         "name": "swissgl",
@@ -80262,7 +80703,9 @@
       }
     },
     "ulyssesdotcodes/nodysseus": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 378088043,
         "name": "nodysseus",
@@ -81595,7 +82038,9 @@
       }
     },
     "cypress-io/cypress": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 31629751,
         "name": "cypress",
@@ -81750,7 +82195,8 @@
     },
     "pfalstad/circuitjs1": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 64078919,
@@ -81903,7 +82349,9 @@
       }
     },
     "Nuvotion-Visuals/Formation": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 521865563,
         "name": "Formation",
@@ -82112,7 +82560,9 @@
       }
     },
     "rastapasta/mapscii": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 68485692,
         "name": "mapscii",
@@ -82914,7 +83364,9 @@
       }
     },
     "infiniflow/ragflow": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 730534580,
         "name": "ragflow",
@@ -83502,7 +83954,8 @@
     },
     "Adawg4/openapi-autospec": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 760891853,
@@ -83605,7 +84058,9 @@
       }
     },
     "ffd8/HY5LIVE": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 757207173,
         "name": "HY5LIVE",
@@ -84020,7 +84475,8 @@
     },
     "forwardemail/supertest": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 4813464,
@@ -84047,7 +84503,8 @@
     },
     "vitest-dev/vitest": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 434708679,
@@ -84073,7 +84530,9 @@
       }
     },
     "puppeteer/puppeteer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 90796663,
         "name": "puppeteer",
@@ -84150,7 +84609,8 @@
     "microsoft/playwright": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 221981891,
@@ -84436,7 +84896,9 @@
       }
     },
     "invoke-ai/InvokeAI": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 525592995,
         "name": "InvokeAI",
@@ -84486,7 +84948,9 @@
       }
     },
     "theatre-js/theatre": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 15393566,
         "name": "theatre",
@@ -84511,7 +84975,9 @@
       }
     },
     "easydiffusion/easydiffusion": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 528152092,
         "name": "easydiffusion",
@@ -84561,7 +85027,9 @@
       }
     },
     "williamngan/pts": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 86075041,
         "name": "pts",
@@ -84926,7 +85394,9 @@
       }
     },
     "nativefier/nativefier": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 38558578,
         "name": "nativefier",
@@ -85190,7 +85660,9 @@
       }
     },
     "hydra-synth/hydra-synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 126085334,
         "name": "hydra-synth",
@@ -85296,7 +85768,9 @@
       }
     },
     "coolantleak/ansiedad-editor": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 266905479,
         "name": "ansiedad-editor",
@@ -85321,7 +85795,9 @@
       }
     },
     "gibber-cc/gibber": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 3394639,
         "name": "gibber",
@@ -85527,7 +86003,9 @@
       }
     },
     "phhu/videojs-abloop": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 52015630,
         "name": "videojs-abloop",
@@ -85681,7 +86159,9 @@
       }
     },
     "chee/mojimosi": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 455323015,
         "name": "mojimosi",
@@ -85784,7 +86264,8 @@
     },
     "fluent-ffmpeg/node-fluent-ffmpeg": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "JavaScript"
       ],
       "metadata": {
         "id": 1602811,
@@ -85838,7 +86319,8 @@
     },
     "transitive-bullshit/ffmpeg-concat": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "JavaScript"
       ],
       "metadata": {
         "id": 128102393,
@@ -86159,7 +86641,8 @@
     },
     "yaqwsx/Pinion": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 369534830,
@@ -86237,7 +86720,9 @@
       }
     },
     "awslabs/llrt": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 694161442,
         "name": "llrt",
@@ -86724,7 +87209,9 @@
       }
     },
     "ryc9092/tv-wall": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 708611994,
         "name": "tv-wall",
@@ -86774,7 +87261,9 @@
       }
     },
     "jdeboi/p5.mapper": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 425353235,
         "name": "p5.mapper",
@@ -86799,7 +87288,9 @@
       }
     },
     "jberg/butterchurn": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 130538481,
         "name": "butterchurn",
@@ -87108,7 +87599,9 @@
       }
     },
     "pcktm/glitchbox-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 274493546,
         "name": "glitchbox-cli",
@@ -87133,7 +87626,9 @@
       }
     },
     "morukutsu/popart-io": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 55600787,
         "name": "popart-io",
@@ -87394,7 +87889,8 @@
     },
     "louislam/uptime-kuma": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 382496361,
@@ -87448,7 +87944,8 @@
     },
     "louislam/dockge": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 708775091,
@@ -87580,7 +88077,9 @@
       }
     },
     "knightcrawler25/GLSL-PathTracer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 156878562,
         "name": "GLSL-PathTracer",
@@ -88323,7 +88822,9 @@
       }
     },
     "steveseguin/vdo.ninja": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 249234386,
         "name": "vdo.ninja",
@@ -88935,7 +89436,9 @@
       }
     },
     "shadcn-ui/ui": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 585146387,
         "name": "ui",
@@ -89039,7 +89542,9 @@
       }
     },
     "prideout/knotgl": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 4308313,
         "name": "knotgl",
@@ -89328,7 +89833,9 @@
       }
     },
     "jonathanneels/Ziggurat": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 396866743,
         "name": "Ziggurat",
@@ -89939,7 +90446,9 @@
       "last_updated": "2026-03-17T22:10:21.465858+00:00"
     },
     "vcync/modV": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 28110874,
         "name": "modV",
@@ -91000,7 +91509,9 @@
       "last_updated": "2026-03-17T22:10:31.578473+00:00"
     },
     "ojack/hydra": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 503042599,
         "name": "hydra",
@@ -91167,7 +91678,9 @@
       "last_updated": "2026-03-17T22:10:33.369411+00:00"
     },
     "drakh/acid-generator": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 673756589,
         "name": "acid-generator",
@@ -91826,7 +92339,9 @@
       "last_updated": "2026-03-17T22:10:39.639143+00:00"
     },
     "phoboslab/jsmpeg": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 9934117,
         "name": "jsmpeg",
@@ -93057,7 +93572,9 @@
       "last_updated": "2026-03-17T22:10:51.796013+00:00"
     },
     "hydra-synth/hydra": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 112378220,
         "name": "hydra",
@@ -93651,7 +94168,9 @@
       "last_updated": "2026-03-17T22:10:57.923753+00:00"
     },
     "zarquin/ASCII-Simple-Video-Synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 182615145,
         "name": "ASCII-Simple-Video-Synth",
@@ -93671,7 +94190,9 @@
       "last_updated": "2026-03-17T22:10:58.102360+00:00"
     },
     "steveblue/synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 13114891,
         "name": "synth",
@@ -93731,7 +94252,9 @@
       "last_updated": "2026-03-17T22:10:58.658503+00:00"
     },
     "gridwalk/pixel-synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 118069944,
         "name": "pixel-synth",
@@ -93913,7 +94436,9 @@
       "last_updated": "2026-03-17T22:11:00.414741+00:00"
     },
     "SecureAI-Tools/SecureAI-Tools": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 723888316,
         "name": "SecureAI-Tools",
@@ -94106,7 +94631,9 @@
       "last_updated": "2026-03-17T22:11:02.439130+00:00"
     },
     "thesephist/revery": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 391537329,
         "name": "revery",
@@ -94126,7 +94653,9 @@
       "last_updated": "2026-03-17T22:11:02.659691+00:00"
     },
     "thesephist/monocle": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 382495185,
         "name": "monocle",
@@ -94233,7 +94762,9 @@
       "last_updated": "2026-03-17T22:11:03.642395+00:00"
     },
     "NERDDISCO/luminave": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 86910361,
         "name": "luminave",
@@ -94253,7 +94784,9 @@
       "last_updated": "2026-03-17T22:11:03.867622+00:00"
     },
     "oscarrc/nts-web": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 318505114,
         "name": "nts-web",
@@ -94273,7 +94806,9 @@
       "last_updated": "2026-03-17T22:11:04.073507+00:00"
     },
     "igorski/efflux-tracker": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 55540129,
         "name": "efflux-tracker",
@@ -94313,7 +94848,9 @@
       "last_updated": "2026-03-17T22:11:04.467865+00:00"
     },
     "Ameobea/web-synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 157130783,
         "name": "web-synth",
@@ -94355,7 +94892,9 @@
       "last_updated": "2026-03-17T22:11:04.878445+00:00"
     },
     "maximecb/noisecraft": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 370396971,
         "name": "noisecraft",
@@ -94459,7 +94998,8 @@
     },
     "wokwi/rp2040js": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 333224195,
@@ -94822,7 +95362,9 @@
       "last_updated": "2026-03-17T22:11:09.741605+00:00"
     },
     "wasm-bindgen/wasm-bindgen": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 114685405,
         "name": "wasm-bindgen",
@@ -94882,7 +95424,9 @@
       "last_updated": "2026-03-17T22:11:10.426706+00:00"
     },
     "mod-audio/mod-ui": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 11796548,
         "name": "mod-ui",
@@ -95564,7 +96108,9 @@
       "last_updated": "2026-03-17T22:11:17.317487+00:00"
     },
     "tidalcycles/strudel": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 450927247,
         "name": "strudel",
@@ -97467,7 +98013,9 @@
       "last_updated": "2026-03-17T22:11:36.602032+00:00"
     },
     "JudiniLabs/code-gpt-docs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 586428671,
         "name": "code-gpt-docs",
@@ -97532,7 +98080,8 @@
     },
     "cloudflare/har-sanitizer": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 709364165,
@@ -98178,7 +98727,8 @@
     },
     "AndrewWalsh/openapi-devtools": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 709571808,
@@ -99124,7 +99674,9 @@
       "last_updated": "2026-03-17T22:11:54.376857+00:00"
     },
     "ggerganov/dot-to-ascii": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 225024134,
         "name": "dot-to-ascii",
@@ -99654,7 +100206,8 @@
     },
     "hyperdxio/hyperdx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 690825026,
@@ -99698,7 +100251,8 @@
     },
     "beekeeper-studio/beekeeper-studio": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 198484780,
@@ -99762,7 +100316,8 @@
     },
     "franeklubi/pocket-operator-simulator": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 146791752,
@@ -99784,7 +100339,8 @@
     },
     "rileyjshaw/po-33": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 283382852,
@@ -99955,7 +100511,8 @@
     },
     "netreplica/graphite": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 457231862,
@@ -100000,7 +100557,8 @@
     },
     "tinystacks/opsconsole": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 601792277,
@@ -100093,7 +100651,8 @@
     "FlorianPfisterer/vpc-flow-log-analysis": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 298768591,
@@ -100116,7 +100675,8 @@
     "oslabs-beta/cloudband": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 581668075,
@@ -100137,7 +100697,9 @@
       "last_updated": "2026-03-17T22:12:04.698029+00:00"
     },
     "Ironclad/rivet": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 631169911,
         "name": "rivet",
@@ -100180,7 +100742,9 @@
       "last_updated": "2026-03-17T22:12:05.070921+00:00"
     },
     "nanofuzz/nanofuzz": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 511620193,
         "name": "nanofuzz",
@@ -100489,7 +101053,8 @@
     },
     "digitalocean/nginxconfig.io": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 116392709,
@@ -100845,7 +101410,8 @@
     "pistazie/cdk-dia": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 336620403,
@@ -100868,7 +101434,8 @@
     "ljacobsson/cfn-diagram": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 263753576,
@@ -100909,7 +101476,9 @@
       "last_updated": "2026-03-17T22:12:11.736782+00:00"
     },
     "httptoolkit/httptoolkit": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 159495816,
         "name": "httptoolkit",
@@ -101781,7 +102350,8 @@
     },
     "facebook/docusaurus": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 94911145,
@@ -102540,7 +103110,8 @@
     },
     "AykutSarac/jsoncrack.com": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 453717720,
@@ -102583,7 +103154,9 @@
       "last_updated": "2026-03-17T22:12:27.997289+00:00"
     },
     "pomber/git-history": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 169149127,
         "name": "git-history",
@@ -103730,7 +104303,9 @@
       "last_updated": "2026-03-17T22:12:39.394322+00:00"
     },
     "kahole/edamagit": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 225475618,
         "name": "edamagit",
@@ -104670,7 +105245,9 @@
       "last_updated": "2026-03-17T22:12:48.540370+00:00"
     },
     "square/jirafy": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 8892026,
         "name": "jirafy",
@@ -104994,7 +105571,9 @@
       "last_updated": "2026-03-17T22:12:51.752465+00:00"
     },
     "SamurAIGPT/Generative-Media-Skills": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 645381450,
         "name": "Generative-Media-Skills",
@@ -105338,7 +105917,8 @@
     },
     "scanoss/sbom-workbench": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 375663611,
@@ -105361,7 +105941,8 @@
     "intelops/compage": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 503516905,
@@ -105607,7 +106188,9 @@
       "last_updated": "2026-03-17T22:12:57.666867+00:00"
     },
     "AlexNisnevich/untrusted": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 8663885,
         "name": "untrusted",
@@ -105734,7 +106317,9 @@
       "last_updated": "2026-03-17T22:12:58.837215+00:00"
     },
     "praeclarum/webgpu-torch": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 634678515,
         "name": "webgpu-torch",
@@ -106115,7 +106700,8 @@
     "loft-sh/devpod": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 592748160,
@@ -106804,7 +107390,9 @@
       "last_updated": "2026-03-17T22:13:09.505743+00:00"
     },
     "TiesdeKok/chat-gpt-jupyter-extension": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 581938177,
         "name": "chat-gpt-jupyter-extension",
@@ -106929,7 +107517,9 @@
       "last_updated": "2026-03-17T22:13:10.740099+00:00"
     },
     "corbindavenport/link-cleaner": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 367772748,
         "name": "link-cleaner",
@@ -107077,7 +107667,9 @@
       "last_updated": "2026-03-17T22:13:12.200195+00:00"
     },
     "AndrejGajdos/link-preview-generator": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 221217696,
         "name": "link-preview-generator",
@@ -107272,7 +107864,9 @@
       "last_updated": "2026-03-17T22:13:14.084885+00:00"
     },
     "sevazhidkov/prompts-ai": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 281653207,
         "name": "prompts-ai",
@@ -107879,7 +108473,8 @@
     },
     "BetaHuhn/repo-file-sync-action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 327705279,
@@ -108439,7 +109034,9 @@
       "last_updated": "2026-03-17T22:13:26.370330+00:00"
     },
     "bradleyboy/tuql": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 111353411,
         "name": "tuql",
@@ -108480,7 +109077,8 @@
     },
     "Noovolari/leapp": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 283141462,
@@ -108689,7 +109287,9 @@
       "last_updated": "2026-03-17T22:13:28.798561+00:00"
     },
     "Kanaries/Rath": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 204949916,
         "name": "Rath",
@@ -109313,7 +109913,8 @@
     "github/safe-settings": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 292561501,
@@ -109335,7 +109936,8 @@
     },
     "probot/probot": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 68414068,
@@ -109565,7 +110167,9 @@
       "last_updated": "2026-03-17T22:13:37.420903+00:00"
     },
     "motdotla/dotenv": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 11205780,
         "name": "dotenv",
@@ -109627,7 +110231,9 @@
       "last_updated": "2026-03-17T22:13:38.098166+00:00"
     },
     "pixijs/pixijs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 7741856,
         "name": "pixijs",
@@ -110511,7 +111117,9 @@
       "last_updated": "2026-03-17T22:13:46.478445+00:00"
     },
     "typio/emoojees": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 610172448,
         "name": "emoojees",
@@ -111152,7 +111760,9 @@
       "last_updated": "2026-03-17T22:13:52.890083+00:00"
     },
     "mlc-ai/web-stable-diffusion": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 610043832,
         "name": "web-stable-diffusion",
@@ -111664,7 +112274,8 @@
     },
     "fiatjaf/jq-web": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 90417462,
@@ -112174,7 +112785,8 @@
     "byt3hx/jsleak": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 620805734,
@@ -113239,7 +113851,9 @@
       "last_updated": "2026-03-17T22:14:13.472449+00:00"
     },
     "airbnb/javascript": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 6498492,
         "name": "javascript",
@@ -113636,7 +114250,9 @@
       "last_updated": "2026-03-17T22:14:17.256792+00:00"
     },
     "r-wasm/jupyterlite-webr-kernel": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 593990921,
         "name": "jupyterlite-webr-kernel",
@@ -113676,7 +114292,9 @@
       "last_updated": "2026-03-17T22:14:17.640411+00:00"
     },
     "pyodide/pyodide": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 122663163,
         "name": "pyodide",
@@ -113696,7 +114314,9 @@
       "last_updated": "2026-03-17T22:14:17.856008+00:00"
     },
     "jupyterlite/jupyterlite": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 352160885,
         "name": "jupyterlite",
@@ -113716,7 +114336,9 @@
       "last_updated": "2026-03-17T22:14:18.073642+00:00"
     },
     "georgestagg/webr-webpack-example": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 617488402,
         "name": "webr-webpack-example",
@@ -113953,7 +114575,8 @@
     "Zeus-Labs/ZeusCloud": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 599723612,
@@ -114174,7 +114797,9 @@
       "last_updated": "2026-03-17T22:14:22.496080+00:00"
     },
     "yuzutech/kroki": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 165063056,
         "name": "kroki",
@@ -114218,7 +114843,8 @@
     "wagoid/commitlint-github-action": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 212203144,
@@ -114264,7 +114890,8 @@
     },
     "semantic-release/semantic-release": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 24063576,
@@ -114637,7 +115264,8 @@
     },
     "adamiBs/vscode-terraform-live-graph": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 611937513,
@@ -115177,7 +115805,9 @@
       "last_updated": "2026-03-17T22:14:32.038698+00:00"
     },
     "evolus/pencil": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 20989983,
         "name": "pencil",
@@ -115546,7 +116176,9 @@
       "last_updated": "2026-03-17T22:14:35.379448+00:00"
     },
     "rrweb-io/rrweb": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 151843254,
         "name": "rrweb",
@@ -116177,7 +116809,9 @@
       "last_updated": "2026-03-17T22:14:41.139597+00:00"
     },
     "motion-canvas/motion-canvas": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 520955562,
         "name": "motion-canvas",
@@ -116244,7 +116878,8 @@
     },
     "NangoHQ/nango": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 254328371,
@@ -116309,7 +116944,8 @@
     "tinystacks/precloud": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 591369615,
@@ -116355,7 +116991,8 @@
     "humanmade/cf-to-tf": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 99177245,
@@ -116378,7 +117015,8 @@
     "microsoft/typespec": {
       "lists": [
         "API",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 381857226,
@@ -116645,7 +117283,8 @@
     },
     "indexzero/git-lint": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 43478774,
@@ -117184,7 +117823,8 @@
     },
     "SteveMcGrath/DoFler": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 4309005,
@@ -117338,7 +117978,8 @@
     "Infisical/infisical": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 521655652,
@@ -117381,7 +118022,9 @@
       "last_updated": "2026-03-17T22:14:52.088091+00:00"
     },
     "cyrus-and/chrome-har-capturer": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 7083204,
         "name": "chrome-har-capturer",
@@ -118524,7 +119167,8 @@
     },
     "NextronSystems/CyberChef": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 521921682,
@@ -118651,7 +119295,9 @@
       "last_updated": "2026-03-17T22:15:03.831135+00:00"
     },
     "nrwl/nx": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 100061716,
         "name": "nx",
@@ -119871,7 +120517,8 @@
     "googleapis/release-please": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 183499464,
@@ -120034,7 +120681,9 @@
       "last_updated": "2026-03-17T22:15:17.510981+00:00"
     },
     "nwtgck/piping-server": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 149115206,
         "name": "piping-server",
@@ -120419,7 +121068,9 @@
       "last_updated": "2026-03-17T22:15:21.317457+00:00"
     },
     "gitkraken/vscode-gitlens": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 65212856,
         "name": "vscode-gitlens",
@@ -120547,7 +121198,9 @@
       "last_updated": "2026-03-17T22:15:22.647640+00:00"
     },
     "tone-row/flowchart-fun": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 343261217,
         "name": "flowchart-fun",
@@ -120656,7 +121309,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 212078123,
@@ -120704,7 +121358,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 38255391,
@@ -120748,7 +121403,9 @@
       "last_updated": "2026-03-17T22:15:24.430954+00:00"
     },
     "yuvadm/cidr.xyz": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 47655428,
         "name": "cidr.xyz",
@@ -122713,7 +123370,8 @@
     },
     "glideapps/quicktype": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 97062850,
@@ -123004,7 +123662,8 @@
     },
     "davisjam/safe-regex": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 90781457,
@@ -123158,7 +123817,8 @@
     "cloudflare/miniflare": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 369150691,
@@ -123435,7 +124095,8 @@
     "podman-desktop/podman-desktop": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 465844859,
@@ -123640,7 +124301,8 @@
     },
     "Codesee-io/oss-port": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 401803769,
@@ -123818,7 +124480,8 @@
     "actions/starter-workflows": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 199488860,
@@ -123890,7 +124553,9 @@
       "last_updated": "2026-03-17T22:15:53.144679+00:00"
     },
     "Budibase/budibase": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 190729906,
         "name": "budibase",
@@ -124511,7 +125176,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 155297903,
@@ -125404,7 +126070,8 @@
         "Authentication",
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 462233098,
@@ -125427,7 +126094,8 @@
     "SpyGuard/SpyGuard": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 562494391,
@@ -125498,7 +126166,8 @@
     },
     "chrislewisdev/prettyplan": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 141223446,
@@ -125520,7 +126189,8 @@
     },
     "hieven/terraform-visual": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 266294981,
@@ -125960,7 +126630,8 @@
     },
     "gchq/CyberChef": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 74962515,
@@ -126208,7 +126879,9 @@
       "last_updated": "2026-03-17T22:16:14.132923+00:00"
     },
     "dendronhq/dendron": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 274724694,
         "name": "dendron",
@@ -126556,7 +127229,8 @@
     },
     "nttgin/BGPalerter": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 197530275,
@@ -127434,7 +128108,9 @@
       "last_updated": "2026-03-17T22:16:25.338669+00:00"
     },
     "codesandbox/sandpack": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 340299463,
         "name": "sandpack",
@@ -128504,7 +129180,9 @@
       "last_updated": "2026-03-17T22:16:35.879670+00:00"
     },
     "1Password/electron-secure-defaults": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 360981855,
         "name": "electron-secure-defaults",
@@ -128594,7 +129272,8 @@
     "Unleash/unleash": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 24594933,
@@ -129624,7 +130303,8 @@
     },
     "advanced-rest-client/arc-electron": {
       "lists": [
-        "API"
+        "API",
+        "JavaScript"
       ],
       "metadata": {
         "id": 105956507,
@@ -129716,7 +130396,9 @@
       "last_updated": "2026-03-17T22:16:46.824751+00:00"
     },
     "danielstjules/swaddle": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 89751327,
         "name": "swaddle",
@@ -130177,7 +130859,8 @@
     "BretFisher/nodejs-rocks-in-docker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "JavaScript"
       ],
       "metadata": {
         "id": 184485638,
@@ -130546,7 +131229,9 @@
       "last_updated": "2026-03-17T22:16:56.224786+00:00"
     },
     "oven-sh/bun": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 357728969,
         "name": "bun",
@@ -130699,7 +131384,8 @@
     "anomalyco/sst": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 285092252,
@@ -130898,7 +131584,9 @@
       "last_updated": "2026-03-17T22:16:59.424934+00:00"
     },
     "redwoodjs/graphql": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 191051391,
         "name": "graphql",
@@ -131179,7 +131867,9 @@
       "last_updated": "2026-03-17T22:17:02.108162+00:00"
     },
     "quarto-dev/quarto-cli": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 298579934,
         "name": "quarto-cli",
@@ -131264,7 +131954,8 @@
     },
     "jqlang/playground": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 17960964,
@@ -131369,7 +132060,9 @@
       "last_updated": "2026-03-17T22:17:03.856229+00:00"
     },
     "remy/jqterm": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 111248066,
         "name": "jqterm",
@@ -131389,7 +132082,9 @@
       "last_updated": "2026-03-17T22:17:04.022525+00:00"
     },
     "rjz/jq-tutorial": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 15848545,
         "name": "jq-tutorial",
@@ -131902,7 +132597,9 @@
       "last_updated": "2026-03-17T22:17:08.559059+00:00"
     },
     "sanack/node-jq": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 60918486,
         "name": "node-jq",
@@ -132078,7 +132775,8 @@
     "akvorado/akvorado": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "JavaScript"
       ],
       "metadata": {
         "id": 508330030,
@@ -134391,7 +135089,8 @@
     },
     "gorhill/uBlock": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 33263118,
@@ -135270,7 +135969,8 @@
     "renovatebot/renovate": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 76734068,
@@ -135338,7 +136038,8 @@
     },
     "curlconverter/curlconverter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 28468993,
@@ -136528,7 +137229,8 @@
     },
     "jhaals/yopass": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 16027367,
@@ -137995,7 +138697,9 @@
       "last_updated": "2026-03-17T22:18:04.271400+00:00"
     },
     "networkcube/vistorian": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 64884268,
         "name": "vistorian",
@@ -138902,7 +139606,8 @@
     },
     "google/styleguide": {
       "lists": [
-        "Bash"
+        "Bash",
+        "JavaScript"
       ],
       "metadata": {
         "id": 35969061,
@@ -139680,7 +140385,9 @@
       "last_updated": "2026-03-17T22:18:19.573839+00:00"
     },
     "javascriptdata/danfojs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 263751330,
         "name": "danfojs",
@@ -139700,7 +140407,9 @@
       "last_updated": "2026-03-17T22:18:19.743478+00:00"
     },
     "nocodb/nocodb": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 108761645,
         "name": "nocodb",
@@ -139993,7 +140702,9 @@
       "last_updated": "2026-03-17T22:18:22.518600+00:00"
     },
     "QwikDev/partytown": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 398349583,
         "name": "partytown",
@@ -140265,7 +140976,8 @@
     },
     "backstage/backstage": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 236095576,
@@ -140725,7 +141437,9 @@
       "last_updated": "2026-03-17T22:18:29.065089+00:00"
     },
     "anvaka/npmgraph.an": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 16677055,
         "name": "npmgraph.an",
@@ -140745,7 +141459,9 @@
       "last_updated": "2026-03-17T22:18:29.234445+00:00"
     },
     "pastelsky/bundlephobia": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 86363993,
         "name": "bundlephobia",
@@ -141487,7 +142203,9 @@
       "last_updated": "2026-03-17T22:18:37.024760+00:00"
     },
     "coder/code-server": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 172953845,
         "name": "code-server",
@@ -145632,7 +146350,8 @@
     },
     "MagicMirrorOrg/MagicMirror": {
       "lists": [
-        "DIY"
+        "DIY",
+        "JavaScript"
       ],
       "metadata": {
         "id": 16989371,
@@ -147603,7 +148322,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 238662977,
@@ -147669,7 +148389,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 256772852,
@@ -148141,7 +148862,8 @@
     "zaproxy/zaproxy": {
       "lists": [
         "API",
-        "Infosec"
+        "Infosec",
+        "JavaScript"
       ],
       "metadata": {
         "id": 36817565,
