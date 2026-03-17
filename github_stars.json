@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:09:37.287578+00:00",
+  "last_updated": "2026-03-17T23:09:39.484966+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -6240,7 +6240,9 @@
       }
     },
     "openfga/openfga": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 501372599,
         "name": "openfga",
@@ -12862,7 +12864,9 @@
       }
     },
     "simonrob/email-oauth2-proxy": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 338363935,
         "name": "email-oauth2-proxy",
@@ -41107,7 +41111,9 @@
       }
     },
     "obelisk/rustica": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 328859185,
         "name": "rustica",
@@ -41803,7 +41809,8 @@
     },
     "noperator/yknotify": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Authentication"
       ],
       "metadata": {
         "id": 931763027,
@@ -42629,7 +42636,9 @@
       }
     },
     "pocket-id/pocket-id": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 841141075,
         "name": "pocket-id",
@@ -43936,7 +43945,9 @@
       }
     },
     "pritunl/pritunl-zero": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 94962254,
         "name": "pritunl-zero",
@@ -43987,7 +43998,8 @@
     },
     "superfly/tokenizer": {
       "lists": [
-        "API"
+        "API",
+        "Authentication"
       ],
       "metadata": {
         "id": 628096239,
@@ -45192,7 +45204,9 @@
       }
     },
     "pinterest/snappass": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 13357878,
         "name": "snappass",
@@ -45242,7 +45256,9 @@
       }
     },
     "NASA-IMPACT/veda-keycloak": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 873751237,
         "name": "veda-keycloak",
@@ -45267,7 +45283,9 @@
       }
     },
     "adorsys/keycloak-config-cli": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 110106499,
         "name": "keycloak-config-cli",
@@ -45574,7 +45592,9 @@
       }
     },
     "arunoruto/tsidp": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 909048423,
         "name": "tsidp",
@@ -45924,7 +45944,9 @@
       }
     },
     "DWSR/krmfn-sealedsecret-from-1password": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 915526148,
         "name": "krmfn-sealedsecret-from-1password",
@@ -47443,7 +47465,8 @@
     },
     "lexiforest/curl-impersonate": {
       "lists": [
-        "API"
+        "API",
+        "Authentication"
       ],
       "metadata": {
         "id": 594291409,
@@ -48507,7 +48530,9 @@
       }
     },
     "skariel/keypub": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 906339627,
         "name": "keypub",
@@ -49391,7 +49416,8 @@
     },
     "anomalyco/openauth": {
       "lists": [
-        "API"
+        "API",
+        "Authentication"
       ],
       "metadata": {
         "id": 887503379,
@@ -55835,7 +55861,9 @@
       }
     },
     "PowerShell/SecretStore": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 281176352,
         "name": "SecretStore",
@@ -55860,7 +55888,9 @@
       }
     },
     "sorah/envchain": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 19921794,
         "name": "envchain",
@@ -60023,7 +60053,9 @@
       }
     },
     "pilcrowonpaper/copenhagen": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 756958815,
         "name": "copenhagen",
@@ -60150,7 +60182,9 @@
       }
     },
     "pyro2927/AWS_SSO_Containers": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 482149892,
         "name": "AWS_SSO_Containers",
@@ -99692,7 +99726,9 @@
       "last_updated": "2026-03-17T22:12:34.011711+00:00"
     },
     "noqdev/iambic": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 547447416,
         "name": "iambic",
@@ -105984,7 +106020,9 @@
       "last_updated": "2026-03-17T22:13:40.249278+00:00"
     },
     "grokify/goauth": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 94632819,
         "name": "goauth",
@@ -106574,7 +106612,9 @@
       "last_updated": "2026-03-17T22:13:46.268320+00:00"
     },
     "sigstore/fulcio": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 341596960,
         "name": "fulcio",
@@ -116626,7 +116666,9 @@
       "last_updated": "2026-03-17T22:15:30.306829+00:00"
     },
     "cornelinux/yubikey-luks": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 17476175,
         "name": "yubikey-luks",
@@ -116646,7 +116688,9 @@
       "last_updated": "2026-03-17T22:15:30.491725+00:00"
     },
     "smessmer/decrypt_keyctl_yubikey": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 529506792,
         "name": "decrypt_keyctl_yubikey",
@@ -116666,7 +116710,9 @@
       "last_updated": "2026-03-17T22:15:30.670359+00:00"
     },
     "tuxberlin/python-keyctl": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 83845218,
         "name": "python-keyctl",
@@ -116686,7 +116732,9 @@
       "last_updated": "2026-03-17T22:15:30.965037+00:00"
     },
     "jdukes/pykeyctl": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 31825852,
         "name": "pykeyctl",
@@ -116706,7 +116754,9 @@
       "last_updated": "2026-03-17T22:15:31.143360+00:00"
     },
     "jsipprell/keyctl": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 43807400,
         "name": "keyctl",
@@ -117066,7 +117116,9 @@
       "last_updated": "2026-03-17T22:15:34.572329+00:00"
     },
     "franc-pentest/ldeep": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 154193829,
         "name": "ldeep",
@@ -118864,7 +118916,9 @@
       "last_updated": "2026-03-17T22:15:52.763786+00:00"
     },
     "gjbae1212/gossm": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 195654997,
         "name": "gossm",
@@ -120254,7 +120308,9 @@
       "last_updated": "2026-03-17T22:16:06.882724+00:00"
     },
     "thomasmichaelwallace/serverless-better-credentials": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 462233098,
         "name": "serverless-better-credentials",
@@ -123110,7 +123166,9 @@
       "last_updated": "2026-03-17T22:16:36.384271+00:00"
     },
     "nirasan/go-oauth-pkce-code-verifier": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 100671892,
         "name": "go-oauth-pkce-code-verifier",
@@ -126020,7 +126078,9 @@
       "last_updated": "2026-03-17T22:17:06.980490+00:00"
     },
     "google/OpenSK": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 228682115,
         "name": "OpenSK",
