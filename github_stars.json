@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:09:48.751936+00:00",
+  "last_updated": "2026-03-17T23:09:53.244236+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -11655,7 +11655,8 @@
     },
     "sparkle-project/Sparkle": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "CI/CD"
       ],
       "metadata": {
         "id": 274782,
@@ -11682,7 +11683,8 @@
     },
     "GuillaumeFalourd/sign-and-notarize-gha": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "CI/CD"
       ],
       "metadata": {
         "id": 474016628,
@@ -13172,7 +13174,9 @@
       }
     },
     "openstack/virtualbmc": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 56780032,
         "name": "virtualbmc",
@@ -14367,7 +14371,9 @@
       }
     },
     "google/go-licenses": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 221192652,
         "name": "go-licenses",
@@ -15501,7 +15507,9 @@
       }
     },
     "pypa/cibuildwheel": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 85508223,
         "name": "cibuildwheel",
@@ -15551,7 +15559,9 @@
       }
     },
     "robotpy/crossenv": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 122020788,
         "name": "crossenv",
@@ -15980,7 +15990,9 @@
       }
     },
     "chainguard-demo/edu-images-demos": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 607765204,
         "name": "edu-images-demos",
@@ -19169,7 +19181,9 @@
       }
     },
     "google/capslock": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 670375499,
         "name": "capslock",
@@ -21011,7 +21025,9 @@
       }
     },
     "SocketDev/socket-cli": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 554765897,
         "name": "socket-cli",
@@ -21036,7 +21052,9 @@
       }
     },
     "chainguard-dev/malcontent": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 753881685,
         "name": "malcontent",
@@ -23226,7 +23244,9 @@
       }
     },
     "wiz-sec-public/secure-rules-files": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 996959611,
         "name": "secure-rules-files",
@@ -24241,7 +24261,9 @@
       }
     },
     "stacklok/frizbee": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 721113155,
         "name": "frizbee",
@@ -25074,7 +25096,9 @@
       }
     },
     "google/oss-rebuild": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 804443974,
         "name": "oss-rebuild",
@@ -25274,7 +25298,9 @@
       }
     },
     "Alexbeav/devops-phonebook-demo": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 1019660836,
         "name": "devops-phonebook-demo",
@@ -43159,7 +43185,9 @@
       }
     },
     "ChewKeanHo/software-automataci": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 607463866,
         "name": "software-automataci",
@@ -45303,7 +45331,8 @@
     },
     "NASA-IMPACT/veda-keycloak": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "CI/CD"
       ],
       "metadata": {
         "id": 873751237,
@@ -45330,7 +45359,8 @@
     },
     "adorsys/keycloak-config-cli": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "CI/CD"
       ],
       "metadata": {
         "id": 110106499,
@@ -45381,7 +45411,9 @@
       }
     },
     "jreleaser/jreleaser": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 316752534,
         "name": "jreleaser",
@@ -45915,7 +45947,9 @@
       }
     },
     "wiremock/wiremock": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 2544305,
         "name": "wiremock",
@@ -47262,7 +47296,9 @@
       }
     },
     "jeremyevans/ruby-refrigerator": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 82251333,
         "name": "ruby-refrigerator",
@@ -50704,7 +50740,9 @@
       }
     },
     "DataDog/supply-chain-firewall": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 839407506,
         "name": "supply-chain-firewall",
@@ -51061,7 +51099,9 @@
       }
     },
     "rpardini/docker-registry-proxy": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 139076329,
         "name": "docker-registry-proxy",
@@ -53869,7 +53909,9 @@
       }
     },
     "zizmorcore/zizmor": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 844670429,
         "name": "zizmor",
@@ -55947,7 +55989,8 @@
     },
     "sorah/envchain": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "CI/CD"
       ],
       "metadata": {
         "id": 19921794,
@@ -55998,7 +56041,9 @@
       }
     },
     "rhysd/actionlint": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 370668507,
         "name": "actionlint",
@@ -58587,7 +58632,9 @@
       }
     },
     "systemd/mkosi": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 63237385,
         "name": "mkosi",
@@ -61909,7 +61956,9 @@
       }
     },
     "enspirit/makefile-for-monorepos": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 392370032,
         "name": "makefile-for-monorepos",
@@ -62866,7 +62915,9 @@
       }
     },
     "moghtech/komodo": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 469321930,
         "name": "komodo",
@@ -63695,7 +63746,9 @@
       }
     },
     "abhinav/git-spice": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 660623402,
         "name": "git-spice",
@@ -63720,7 +63773,9 @@
       }
     },
     "VirtusLab/git-machete": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 122743101,
         "name": "git-machete",
@@ -66650,7 +66705,9 @@
       }
     },
     "test-kitchen/test-kitchen": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 4137249,
         "name": "test-kitchen",
@@ -67812,7 +67869,9 @@
       }
     },
     "ninja-build/ninja": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 1335132,
         "name": "ninja",
@@ -68870,7 +68929,9 @@
       }
     },
     "kyegomez/Python-Package-Template": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 685710744,
         "name": "Python-Package-Template",
@@ -75912,7 +75973,9 @@
       }
     },
     "exajobs/ci-cd-collection": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 455667094,
         "name": "ci-cd-collection",
@@ -75937,7 +76000,9 @@
       }
     },
     "Correia-jpv/fucking-awesome-actions": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 456143999,
         "name": "fucking-awesome-actions",
@@ -81608,7 +81673,9 @@
       }
     },
     "microsoft/playwright": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 221981891,
         "name": "playwright",
@@ -82241,7 +82308,9 @@
       }
     },
     "runs-on/runs-on": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 729502940,
         "name": "runs-on",
@@ -82570,7 +82639,9 @@
       }
     },
     "hmarr/codeowners": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 282309982,
         "name": "codeowners",
@@ -91464,7 +91535,9 @@
       "last_updated": "2026-03-17T22:11:05.470952+00:00"
     },
     "AmrDeveloper/GQL": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 649816851,
         "name": "GQL",
@@ -92084,7 +92157,9 @@
       "last_updated": "2026-03-17T22:11:12.044786+00:00"
     },
     "testcontainers/testcontainers-python": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 85802819,
         "name": "testcontainers-python",
@@ -97942,7 +98017,9 @@
       "last_updated": "2026-03-17T22:12:13.907651+00:00"
     },
     "reproducible-containers/buildkit-nix": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 434595633,
         "name": "buildkit-nix",
@@ -97962,7 +98039,9 @@
       "last_updated": "2026-03-17T22:12:14.124073+00:00"
     },
     "reproducible-containers/repro-get": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 549382695,
         "name": "repro-get",
@@ -98022,7 +98101,9 @@
       "last_updated": "2026-03-17T22:12:14.703039+00:00"
     },
     "eliasgranderubio/dagda": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 73858181,
         "name": "dagda",
@@ -98634,7 +98715,8 @@
     },
     "snyk/driftctl": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 297622945,
@@ -98656,7 +98738,8 @@
     },
     "Netflix-Skunkworks/policyuniverse": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 91367525,
@@ -98937,7 +99020,9 @@
       "last_updated": "2026-03-17T22:12:24.345635+00:00"
     },
     "goss-org/goss": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 43526066,
         "name": "goss",
@@ -99713,7 +99798,9 @@
       "last_updated": "2026-03-17T22:12:32.551396+00:00"
     },
     "bridgecrewio/supplygoat": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 488209553,
         "name": "supplygoat",
@@ -101146,7 +101233,9 @@
       "last_updated": "2026-03-17T22:12:47.281214+00:00"
     },
     "fluidattacks/makes": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 379004794,
         "name": "makes",
@@ -101872,7 +101961,9 @@
       "last_updated": "2026-03-17T22:12:54.910767+00:00"
     },
     "scanoss/engine": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 279111723,
         "name": "engine",
@@ -101932,7 +102023,9 @@
       "last_updated": "2026-03-17T22:12:55.544623+00:00"
     },
     "nikstur/bombon": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 526398555,
         "name": "bombon",
@@ -101972,7 +102065,9 @@
       "last_updated": "2026-03-17T22:12:55.946897+00:00"
     },
     "interlynk-io/sbomasm": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 635984325,
         "name": "sbomasm",
@@ -101992,7 +102087,9 @@
       "last_updated": "2026-03-17T22:12:56.171002+00:00"
     },
     "vinted/sbomsftw": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 464860347,
         "name": "sbomsftw",
@@ -102012,7 +102109,9 @@
       "last_updated": "2026-03-17T22:12:56.388832+00:00"
     },
     "anthonyharrison/lib4sbom": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 565531298,
         "name": "lib4sbom",
@@ -102032,7 +102131,9 @@
       "last_updated": "2026-03-17T22:12:56.623681+00:00"
     },
     "anthonyharrison/sbom4rust": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 545003439,
         "name": "sbom4rust",
@@ -104502,7 +104603,9 @@
       "last_updated": "2026-03-17T22:13:22.289553+00:00"
     },
     "fluxcd/flux2": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 258469100,
         "name": "flux2",
@@ -104768,7 +104871,9 @@
       "last_updated": "2026-03-17T22:13:25.031609+00:00"
     },
     "avito-tech/deepsecrets": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 627912288,
         "name": "deepsecrets",
@@ -107236,7 +107341,9 @@
       "last_updated": "2026-03-17T22:13:51.099735+00:00"
     },
     "wntrblm/nox": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 52413187,
         "name": "nox",
@@ -108477,7 +108584,9 @@
       "last_updated": "2026-03-17T22:14:03.961372+00:00"
     },
     "testifysec/policy-tool": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 613423328,
         "name": "policy-tool",
@@ -108619,7 +108728,9 @@
       "last_updated": "2026-03-17T22:14:05.470359+00:00"
     },
     "pipe-cd/pipecd": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 271714774,
         "name": "pipecd",
@@ -108719,7 +108830,9 @@
       "last_updated": "2026-03-17T22:14:06.493660+00:00"
     },
     "open-feature/flagd": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 496604518,
         "name": "flagd",
@@ -108799,7 +108912,9 @@
       "last_updated": "2026-03-17T22:14:07.415732+00:00"
     },
     "JustinCappos/tuf": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 20899518,
         "name": "tuf",
@@ -109152,7 +109267,9 @@
       "last_updated": "2026-03-17T22:14:11.156990+00:00"
     },
     "seeeverything/publish-terraform-modules": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 403530015,
         "name": "publish-terraform-modules",
@@ -110100,7 +110217,9 @@
       "last_updated": "2026-03-17T22:14:21.116849+00:00"
     },
     "spinnaker/orca": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 19834314,
         "name": "orca",
@@ -110202,7 +110321,9 @@
       "last_updated": "2026-03-17T22:14:22.113327+00:00"
     },
     "goreleaser/nfpm": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 116259506,
         "name": "nfpm",
@@ -110286,7 +110407,9 @@
       "last_updated": "2026-03-17T22:14:22.874125+00:00"
     },
     "wagoid/commitlint-github-action": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 212203144,
         "name": "commitlint-github-action",
@@ -110306,7 +110429,9 @@
       "last_updated": "2026-03-17T22:14:23.067355+00:00"
     },
     "siderolabs/conform": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 93275422,
         "name": "conform",
@@ -110762,7 +110887,9 @@
       "last_updated": "2026-03-17T22:14:27.619246+00:00"
     },
     "slsa-framework/slsa-github-generator": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 475074978,
         "name": "slsa-github-generator",
@@ -110782,7 +110909,9 @@
       "last_updated": "2026-03-17T22:14:27.836600+00:00"
     },
     "Bearer/bearer": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 542197924,
         "name": "bearer",
@@ -110824,7 +110953,9 @@
       "last_updated": "2026-03-17T22:14:28.239810+00:00"
     },
     "advanced-security/gh-sbom": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 603185332,
         "name": "gh-sbom",
@@ -111408,7 +111539,9 @@
       "last_updated": "2026-03-17T22:14:34.267188+00:00"
     },
     "woodpecker-ci/woodpecker": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 179344069,
         "name": "woodpecker",
@@ -111448,7 +111581,9 @@
       "last_updated": "2026-03-17T22:14:34.626319+00:00"
     },
     "mizzy/serverspec": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 8981131,
         "name": "serverspec",
@@ -111548,7 +111683,9 @@
       "last_updated": "2026-03-17T22:14:35.592760+00:00"
     },
     "depot/cli": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 416059533,
         "name": "cli",
@@ -111668,7 +111805,9 @@
       "last_updated": "2026-03-17T22:14:36.746643+00:00"
     },
     "DataDog/guarddog": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 503403377,
         "name": "guarddog",
@@ -111728,7 +111867,9 @@
       "last_updated": "2026-03-17T22:14:37.377265+00:00"
     },
     "astral-sh/ruff": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 523043277,
         "name": "ruff",
@@ -111930,7 +112071,9 @@
       "last_updated": "2026-03-17T22:14:39.342170+00:00"
     },
     "mazen160/secrets-patterns-db": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 598684695,
         "name": "secrets-patterns-db",
@@ -112966,7 +113109,9 @@
       "last_updated": "2026-03-17T22:14:49.256528+00:00"
     },
     "editorconfig/editorconfig": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 2567177,
         "name": "editorconfig",
@@ -113393,7 +113538,8 @@
     },
     "cirruslabs/macos-image-templates": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "CI/CD"
       ],
       "metadata": {
         "id": 129415801,
@@ -114050,7 +114196,9 @@
       "last_updated": "2026-03-17T22:14:59.766020+00:00"
     },
     "briancaffey/django-step-by-step": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 352811488,
         "name": "django-step-by-step",
@@ -114152,7 +114300,9 @@
       "last_updated": "2026-03-17T22:15:00.771899+00:00"
     },
     "korandoru/hawkeye": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 584255967,
         "name": "hawkeye",
@@ -115239,7 +115389,8 @@
     },
     "hashicorp/guides-configuration": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 87031689,
@@ -115462,7 +115613,9 @@
       "last_updated": "2026-03-17T22:15:14.880896+00:00"
     },
     "sigstore/gh-action-sigstore-python": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 508560980,
         "name": "gh-action-sigstore-python",
@@ -115542,7 +115695,9 @@
       "last_updated": "2026-03-17T22:15:15.745987+00:00"
     },
     "commitizen-tools/commitizen": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 106127589,
         "name": "commitizen",
@@ -115562,7 +115717,9 @@
       "last_updated": "2026-03-17T22:15:15.912688+00:00"
     },
     "googleapis/release-please": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 183499464,
         "name": "release-please",
@@ -116374,7 +116531,9 @@
       "last_updated": "2026-03-17T22:15:24.238369+00:00"
     },
     "dbt-labs/dbt-core": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 53548867,
         "name": "dbt-core",
@@ -116762,7 +116921,9 @@
       "last_updated": "2026-03-17T22:15:28.100834+00:00"
     },
     "buildkite/agent": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 16347164,
         "name": "agent",
@@ -117662,7 +117823,9 @@
       "last_updated": "2026-03-17T22:15:36.749509+00:00"
     },
     "terraform-linters/tflint": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 71487396,
         "name": "tflint",
@@ -117950,7 +118113,9 @@
       "last_updated": "2026-03-17T22:15:39.637463+00:00"
     },
     "tektoncd/pipeline": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 146641150,
         "name": "pipeline",
@@ -118010,7 +118175,9 @@
       "last_updated": "2026-03-17T22:15:40.288330+00:00"
     },
     "GoogleContainerTools/jib": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 118497841,
         "name": "jib",
@@ -118398,7 +118565,9 @@
       "last_updated": "2026-03-17T22:15:44.136273+00:00"
     },
     "sottlmarek/DevSecOps": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 138931215,
         "name": "DevSecOps",
@@ -118644,7 +118813,9 @@
       "last_updated": "2026-03-17T22:15:46.760512+00:00"
     },
     "cloudflare/miniflare": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 369150691,
         "name": "miniflare",
@@ -118664,7 +118835,9 @@
       "last_updated": "2026-03-17T22:15:46.976572+00:00"
     },
     "argoproj-labs/argocd-autopilot": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 344950560,
         "name": "argocd-autopilot",
@@ -118704,7 +118877,9 @@
       "last_updated": "2026-03-17T22:15:47.361908+00:00"
     },
     "in-toto/in-toto": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 59531400,
         "name": "in-toto",
@@ -118724,7 +118899,9 @@
       "last_updated": "2026-03-17T22:15:47.589848+00:00"
     },
     "ossf/s2c2f": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 554243176,
         "name": "s2c2f",
@@ -118744,7 +118921,9 @@
       "last_updated": "2026-03-17T22:15:47.904298+00:00"
     },
     "ossf/wg-supply-chain-integrity": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 277614573,
         "name": "wg-supply-chain-integrity",
@@ -118764,7 +118943,9 @@
       "last_updated": "2026-03-17T22:15:48.121397+00:00"
     },
     "ossf/package-analysis": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 338377509,
         "name": "package-analysis",
@@ -118804,7 +118985,9 @@
       "last_updated": "2026-03-17T22:15:48.526812+00:00"
     },
     "widdix/aws-cf-templates": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 45096760,
         "name": "aws-cf-templates",
@@ -118906,7 +119089,9 @@
       "last_updated": "2026-03-17T22:15:49.425716+00:00"
     },
     "gocd/gocd": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 15155534,
         "name": "gocd",
@@ -119030,7 +119215,9 @@
       "last_updated": "2026-03-17T22:15:50.564968+00:00"
     },
     "tox-dev/tox": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 68465360,
         "name": "tox",
@@ -119130,7 +119317,9 @@
       "last_updated": "2026-03-17T22:15:51.600967+00:00"
     },
     "aws-actions/configure-aws-credentials": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 220391287,
         "name": "configure-aws-credentials",
@@ -119170,7 +119359,9 @@
       "last_updated": "2026-03-17T22:15:51.949340+00:00"
     },
     "harness/harness": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 16607898,
         "name": "harness",
@@ -119230,7 +119421,9 @@
       "last_updated": "2026-03-17T22:15:52.559093+00:00"
     },
     "actions/starter-workflows": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 199488860,
         "name": "starter-workflows",
@@ -119274,7 +119467,8 @@
     },
     "ARM-software/AVH-GetStarted": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "CI/CD"
       ],
       "metadata": {
         "id": 399113632,
@@ -119397,7 +119591,9 @@
       "last_updated": "2026-03-17T22:15:54.115029+00:00"
     },
     "buildkite/docs": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 44090229,
         "name": "docs",
@@ -119437,7 +119633,9 @@
       "last_updated": "2026-03-17T22:15:54.530012+00:00"
     },
     "rundeck/rundeck": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 886774,
         "name": "rundeck",
@@ -119457,7 +119655,9 @@
       "last_updated": "2026-03-17T22:15:54.710751+00:00"
     },
     "concourse/concourse": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 18950460,
         "name": "concourse",
@@ -120046,7 +120246,8 @@
     },
     "aws-samples/devsecops-terraform-dojo-codepipeline": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 445161449,
@@ -120090,7 +120291,8 @@
     },
     "aws-samples/gitlab-cicd-runners-terraform": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 383790300,
@@ -120111,7 +120313,9 @@
       "last_updated": "2026-03-17T22:16:01.129073+00:00"
     },
     "paketo-buildpacks/go": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 255432450,
         "name": "go",
@@ -120340,7 +120544,9 @@
       "last_updated": "2026-03-17T22:16:03.565747+00:00"
     },
     "GoogleContainerTools/skaffold": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 118654121,
         "name": "skaffold",
@@ -120547,7 +120753,8 @@
     },
     "trailofbits/algo": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 58842707,
@@ -120716,7 +120923,8 @@
     },
     "metlo-labs/metlo": {
       "lists": [
-        "API"
+        "API",
+        "CI/CD"
       ],
       "metadata": {
         "id": 518195179,
@@ -121775,7 +121983,8 @@
     },
     "cloudtools/troposphere": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 7137821,
@@ -121817,7 +122026,8 @@
     },
     "stelligent/cfn_nag": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 51515624,
@@ -122122,7 +122332,9 @@
       "last_updated": "2026-03-17T22:16:21.126016+00:00"
     },
     "ssbostan/jenkins-tutorial": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 399533657,
         "name": "jenkins-tutorial",
@@ -122162,7 +122374,9 @@
       "last_updated": "2026-03-17T22:16:21.551236+00:00"
     },
     "doeac/awesome-pipeline-as-code": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 336862873,
         "name": "awesome-pipeline-as-code",
@@ -122182,7 +122396,9 @@
       "last_updated": "2026-03-17T22:16:21.801776+00:00"
     },
     "meta-fun/awesome-software-supply-chain-security": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 460906824,
         "name": "awesome-software-supply-chain-security",
@@ -122403,7 +122619,8 @@
     },
     "kward/shunit2": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 38091119,
@@ -122890,7 +123107,9 @@
       "last_updated": "2026-03-17T22:16:28.793209+00:00"
     },
     "schemathesis/schemathesis": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 203157084,
         "name": "schemathesis",
@@ -122910,7 +123129,9 @@
       "last_updated": "2026-03-17T22:16:29.018235+00:00"
     },
     "Azure/setup-helm": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 210310251,
         "name": "setup-helm",
@@ -123628,7 +123849,9 @@
       "last_updated": "2026-03-17T22:16:36.735219+00:00"
     },
     "Unleash/unleash": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 24594933,
         "name": "unleash",
@@ -123668,7 +123891,9 @@
       "last_updated": "2026-03-17T22:16:37.084753+00:00"
     },
     "openzfs/zfs-buildbot": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 45947097,
         "name": "zfs-buildbot",
@@ -123688,7 +123913,9 @@
       "last_updated": "2026-03-17T22:16:37.275526+00:00"
     },
     "buildbot/buildbot": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 760165,
         "name": "buildbot",
@@ -124419,7 +124646,8 @@
     },
     "turbot/steampipe-mod-aws-compliance": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 369007647,
@@ -124885,7 +125113,8 @@
     },
     "GoogleCloudPlatform/terraformer": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 184490584,
@@ -125834,7 +126063,9 @@
       "last_updated": "2026-03-17T22:17:00.281995+00:00"
     },
     "mercari/tfnotify": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 128383825,
         "name": "tfnotify",
@@ -125855,7 +126086,8 @@
     },
     "veertuinc/getting-started": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "CI/CD"
       ],
       "metadata": {
         "id": 264281020,
@@ -125956,7 +126188,9 @@
       "last_updated": "2026-03-17T22:17:01.450311+00:00"
     },
     "sigstore/gitsign": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 491573171,
         "name": "gitsign",
@@ -126904,7 +127138,9 @@
       "last_updated": "2026-03-17T22:17:10.545051+00:00"
     },
     "eth0izzle/shhgit": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 206690330,
         "name": "shhgit",
@@ -126947,7 +127183,8 @@
     },
     "marshall7m/terrace": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 327685612,
@@ -127134,7 +127371,9 @@
       "last_updated": "2026-03-17T22:17:12.590118+00:00"
     },
     "runatlantis/atlantis": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 120519269,
         "name": "atlantis",
@@ -127177,7 +127416,8 @@
     },
     "the-cashman/pre-commit-trufflehog": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 483875816,
@@ -127260,7 +127500,9 @@
       "last_updated": "2026-03-17T22:17:13.669261+00:00"
     },
     "aquasecurity/chain-bench": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 491440930,
         "name": "chain-bench",
@@ -127540,7 +127782,9 @@
       "last_updated": "2026-03-17T22:17:16.706989+00:00"
     },
     "jamiewri/tfctl": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 491843145,
         "name": "tfctl",
@@ -127560,7 +127804,9 @@
       "last_updated": "2026-03-17T22:17:16.885004+00:00"
     },
     "sil-org/tfc-ops": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 124249756,
         "name": "tfc-ops",
@@ -127580,7 +127826,9 @@
       "last_updated": "2026-03-17T22:17:17.150433+00:00"
     },
     "iggy/terrarific": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 243152038,
         "name": "terrarific",
@@ -127600,7 +127848,9 @@
       "last_updated": "2026-03-17T22:17:17.371933+00:00"
     },
     "hashicorp/go-tfe": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 131622334,
         "name": "go-tfe",
@@ -127620,7 +127870,9 @@
       "last_updated": "2026-03-17T22:17:17.667234+00:00"
     },
     "awslabs/tecli": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 338400342,
         "name": "tecli",
@@ -127891,7 +128143,8 @@
     },
     "containers/buildah": {
       "lists": [
-        "Bash"
+        "Bash",
+        "CI/CD"
       ],
       "metadata": {
         "id": 80134675,
@@ -129837,7 +130090,9 @@
       "last_updated": "2026-03-17T22:17:39.496755+00:00"
     },
     "renovatebot/renovate": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 76734068,
         "name": "renovate",
@@ -129857,7 +130112,9 @@
       "last_updated": "2026-03-17T22:17:39.681210+00:00"
     },
     "sethvargo/ratchet": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 475208896,
         "name": "ratchet",
@@ -131971,7 +132228,9 @@
       "last_updated": "2026-03-17T22:18:00.433068+00:00"
     },
     "distribution/distribution": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 28366058,
         "name": "distribution",
@@ -133055,7 +133314,9 @@
       "last_updated": "2026-03-17T22:18:11.207128+00:00"
     },
     "dagger/dagger": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 222824662,
         "name": "dagger",
@@ -133479,7 +133740,9 @@
       "last_updated": "2026-03-17T22:18:15.592508+00:00"
     },
     "goreleaser/goreleaser": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 77071454,
         "name": "goreleaser",
@@ -133843,7 +134106,9 @@
       "last_updated": "2026-03-17T22:18:19.161303+00:00"
     },
     "GitGuardian/ggshield": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 257326204,
         "name": "ggshield",
@@ -134805,7 +135070,9 @@
       "last_updated": "2026-03-17T22:18:28.886697+00:00"
     },
     "SonarSource/sonarqube": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 1222504,
         "name": "sonarqube",
@@ -135085,7 +135352,9 @@
       "last_updated": "2026-03-17T22:18:31.608334+00:00"
     },
     "ko-build/ko": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 177010499,
         "name": "ko",
@@ -137511,7 +137780,9 @@
       "last_updated": "2026-03-17T22:18:56.142299+00:00"
     },
     "nektos/act": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 163883279,
         "name": "act",
@@ -137895,7 +138166,9 @@
       "last_updated": "2026-03-17T22:18:59.778096+00:00"
     },
     "earthly/earthly": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 246903803,
         "name": "earthly",
@@ -141057,7 +141330,9 @@
       "last_updated": "2026-03-17T22:19:31.077954+00:00"
     },
     "anchore/grype": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 267054247,
         "name": "grype",
@@ -141981,7 +142256,9 @@
       "last_updated": "2026-03-17T22:19:40.370180+00:00"
     },
     "trufflesecurity/trufflehog": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 77726177,
         "name": "trufflehog",
@@ -142446,7 +142723,8 @@
     },
     "localstack/localstack": {
       "lists": [
-        "AWS"
+        "AWS",
+        "CI/CD"
       ],
       "metadata": {
         "id": 71948498,
@@ -143913,7 +144191,9 @@
       "last_updated": "2026-03-17T22:19:59.216532+00:00"
     },
     "bridgecrewio/checkov": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 224386599,
         "name": "checkov",
