@@ -12,8 +12,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrape_stars import (
     get_starred_repos, get_repo_metadata, extract_metadata,
-    get_readme_content, extract_arxiv_id, extract_arxiv_ids,
-    extract_bibtex, infer_primary_arxiv_id, process_repo,
     process_stars, handle_rate_limit, check_initial_rate_limit
 )
 
@@ -70,53 +68,6 @@ def test_extract_metadata(mock_repo_metadata):
     assert extracted['id'] == 1
     assert extracted['name'] == "test-repo"
     assert extracted['starred_at'] == starred_at
-
-def test_get_readme_content(mock_response):
-    mock_response.status_code = 200
-    mock_response.json.return_value = {"content": base64.b64encode(b"Test README").decode('utf-8')}
-    with patch('scrape_stars.requests.get', return_value=mock_response):
-        content = get_readme_content("test/repo", 'testtoken')
-    assert content == "Test README"
-
-def test_extract_arxiv_id():
-    assert extract_arxiv_id("https://arxiv.org/abs/2104.08653") == "2104.08653"
-    assert extract_arxiv_id("arxiv:2105.14075") == "2105.14075"
-    assert extract_arxiv_id("No arXiv ID here") is None
-
-def test_extract_arxiv_ids():
-    text = "Check out arxiv.org/abs/2104.08653 and arxiv:2105.14075"
-    ids = extract_arxiv_ids(text)
-    assert ids == ['2104.08653', '2105.14075']
-
-def test_extract_bibtex():
-    text = "@article{test2021, title={Test}, author={Tester}, year={2021}}"
-    bibtex = extract_bibtex(text)
-    assert bibtex == [text]
-
-def test_infer_primary_arxiv_id():
-    description = "Implementation of arxiv:2104.08653"
-    readme = "Check out our paper: [arXiv:2105.14075](https://arxiv.org/abs/2105.14075)"
-    ids = ['2104.08653', '2105.14075']
-    primary = infer_primary_arxiv_id(description, readme, ids)
-    assert primary == "2104.08653"
-
-@pytest.mark.parametrize("repo_data,expected_ids,expected_primary", [
-    (
-        {"metadata": {"description": "arxiv:2104.08653"}},
-        ["2104.08653"],
-        "2104.08653"
-    ),
-    (
-        {"metadata": {"description": "No arXiv"}},
-        [],
-        None
-    )
-])
-def test_process_repo(repo_data, expected_ids, expected_primary):
-    with patch('scrape_stars.get_readme_content', return_value="arxiv:2104.08653" if expected_ids else ""):
-        processed = process_repo("test/repo", repo_data, 'testtoken')
-    assert processed['arxiv']['ids'] == expected_ids
-    assert processed['arxiv']['primary_id'] == expected_primary
 
 def test_handle_rate_limit():
     mock_response = MagicMock()
