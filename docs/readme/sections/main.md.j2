@@ -20,7 +20,6 @@ This project automatically scrapes and organizes your GitHub stars, including st
    - Fetch all starred repositories and their metadata
    - Retrieve all star lists (tags) for the user
    - Associate each repository with its corresponding lists
-   - Extract arXiv URLs and BibTeX citations from README files (when available)
    - Handle rate limiting using both preemptive and reactive strategies
 4. Results are saved in `github_stars.json`
 5. If there are changes, the action commits and pushes the updated file to the repository
@@ -53,12 +52,10 @@ src/
 │   ├── SortDropdown.js
 │   ├── AdvancedSearchCondition.js
 │   ├── AdvancedSearch.js
-│   ├── ArXivBadge.js
 │   └── ExpandedRepoView.js
 ├── hooks/
 │   └── useRepositories.js
 └── utils/
-    ├── arxivUtils.js
     └── sortUtils.js
 ```
 
@@ -67,7 +64,7 @@ The dashboard is built using React and Tailwind CSS. It provides the following f
 - Search functionality to find repositories by name or description
 - Filtering by star lists (tags)
 - Expandable repository cards showing detailed information
-- Links to GitHub repositories and associated arXiv papers (when available)
+- Links to GitHub repositories
 
 To view the dashboard, visit `https://<your-github-username>.github.io/stars/` after the GitHub Actions workflow has completed.
 
@@ -90,7 +87,6 @@ After the action runs successfully, you can view the updated `github_stars.json`
 - `repositories`: An object where each key is a repository name, and the value is another object containing:
   - `lists`: An array of lists (tags) associated with that repository
   - `metadata`: An object containing the collected metadata for the repository
-  - `arxiv`: An object containing arXiv-related information (if available)
 
 You can also explore your starred repositories interactively using the deployed dashboard.
 
