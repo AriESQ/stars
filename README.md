@@ -20,7 +20,6 @@ This project automatically scrapes and organizes your GitHub stars, including st
    - Fetch all starred repositories and their metadata
    - Retrieve all star lists (tags) for the user
    - Associate each repository with its corresponding lists
-   - Extract arXiv URLs and BibTeX citations from README files (when available)
    - Handle rate limiting using both preemptive and reactive strategies
 4. Results are saved in `github_stars.json`
 5. If there are changes, the action commits and pushes the updated file to the repository
@@ -35,11 +34,11 @@ This project automatically scrapes and organizes your GitHub stars, including st
 5. Update user-specific settings:
    - In `package.json`, change the `homepage` field from `"https://dmarx.github.io/stars"` to `"https://<your-github-username>.github.io/stars"`
    - In `.github/workflows/deploy-to-gh-pages.yml`, update the hardcoded deploy URL to match your username
-6. (Optional) The forked repo includes large JSON data files (`github_stars.json`, `public/github_stars.json`, `arxiv_metadata.json`) from the original user. These accumulate significantly in git history. To clean them out using git's built-in `filter-branch`:
+6. (Optional) The forked repo includes large JSON data files (`github_stars.json`, `public/github_stars.json`) from the original user. These accumulate significantly in git history. To clean them out using git's built-in `filter-branch`:
    ```bash
    # Remove the data files from all history
    git filter-branch --force --index-filter \
-     'git rm --cached --ignore-unmatch github_stars.json public/github_stars.json arxiv_metadata.json' \
+     'git rm --cached --ignore-unmatch github_stars.json public/github_stars.json' \
      --prune-empty -- --all
 
    # Clean up the backup refs and garbage collect
@@ -73,12 +72,10 @@ src/
 │   ├── SortDropdown.js
 │   ├── AdvancedSearchCondition.js
 │   ├── AdvancedSearch.js
-│   ├── ArXivBadge.js
 │   └── ExpandedRepoView.js
 ├── hooks/
 │   └── useRepositories.js
 └── utils/
-    ├── arxivUtils.js
     └── sortUtils.js
 ```
 
@@ -87,7 +84,7 @@ The dashboard is built using React and Tailwind CSS. It provides the following f
 - Search functionality to find repositories by name or description
 - Filtering by star lists (tags)
 - Expandable repository cards showing detailed information
-- Links to GitHub repositories and associated arXiv papers (when available)
+- Links to GitHub repositories
 
 To view the dashboard, visit `https://<your-github-username>.github.io/stars/` after the GitHub Actions workflow has completed.
 
@@ -110,7 +107,6 @@ After the action runs successfully, you can view the updated `github_stars.json`
 - `repositories`: An object where each key is a repository name, and the value is another object containing:
   - `lists`: An array of lists (tags) associated with that repository
   - `metadata`: An object containing the collected metadata for the repository
-  - `arxiv`: An object containing arXiv-related information (if available)
 
 You can also explore your starred repositories interactively using the deployed dashboard.
 
@@ -129,11 +125,7 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── .github
 │   └── workflows
 │       ├── build_readme.yml
-│       ├── collect_article_metadata.yaml
-│       ├── collect_arxiv_metadata.yaml
-│       ├── convert_arxiv_urls_to_ids.yaml
 │       ├── deploy-to-gh-pages.yml
-│       ├── fix_arxiv_categories.yaml
 │       ├── generate-package-lock.yml
 │       ├── generate_summaries.yml
 │       ├── main.yml
@@ -141,9 +133,6 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── article_metadata_collector.py
-├── arxiv_metadata.json
-├── arxiv_metadata_collector.py
 ├── config.yaml
 ├── docs
 │   └── readme
@@ -161,7 +150,6 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── pyproject.toml
 ├── scrape_stars.py
 ├── scripts
-│   ├── convert_arxiv_urls_to_ids.py
 │   ├── generate-package-lock.js
 │   └── transform_categories.py
 ├── src
@@ -170,7 +158,6 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 │   ├── components
 │   │   ├── AdvancedSearch.js
 │   │   ├── AdvancedSearchCondition.js
-│   │   ├── ArXivBadge.js
 │   │   ├── Dashboard.js
 │   │   ├── ExpandedRepoView.js
 │   │   └── SortDropdown.js
@@ -179,12 +166,10 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 │   ├── index.css
 │   ├── index.js
 │   └── utils
-│       ├── arxivUtils.js
 │       └── sortUtils.js
 ├── tailwind.config.js
 ├── tests
 │   ├── __init__.py
-│   ├── test_article_metadata_collector.py
 │   └── test_scrape.py
 ├── update_star_lists.py
 └── utils.py
