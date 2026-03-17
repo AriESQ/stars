@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:10:49.585471+00:00",
+  "last_updated": "2026-03-17T23:10:57.111995+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -55,7 +55,8 @@
     },
     "PowerShell/PowerShell-Docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 134617246,
@@ -81,7 +82,9 @@
       }
     },
     "docker/mcp-gateway": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 970603579,
         "name": "mcp-gateway",
@@ -645,7 +648,9 @@
       }
     },
     "peaceiris/hugo-extended-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 237312103,
         "name": "hugo-extended-docker",
@@ -1989,7 +1994,9 @@
       }
     },
     "containers/podman-compose": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 173708338,
         "name": "podman-compose",
@@ -2419,7 +2426,9 @@
       }
     },
     "MediaBrowser/Emby": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 8231466,
         "name": "Emby",
@@ -2575,7 +2584,9 @@
       }
     },
     "alexta69/metube": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 224896494,
         "name": "metube",
@@ -3012,7 +3023,9 @@
       }
     },
     "selkies-project/selkies": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 408290342,
         "name": "selkies",
@@ -3856,7 +3869,8 @@
     },
     "jnidzwetzki/pg-dev-container": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 872563268,
@@ -4423,7 +4437,9 @@
       }
     },
     "drone-plugins/drone-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 35643417,
         "name": "drone-docker",
@@ -7796,7 +7812,9 @@
       }
     },
     "BoltzmannEntropy/batch-ocr": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 1121531942,
         "name": "batch-ocr",
@@ -8044,7 +8062,8 @@
     },
     "microsoft/vscode-remote-try-python": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 181778131,
@@ -8771,7 +8790,8 @@
     },
     "torokernel/torokernel": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 79719063,
@@ -13143,7 +13163,9 @@
       }
     },
     "anthropic-experimental/sandbox-runtime": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 1079560616,
         "name": "sandbox-runtime",
@@ -15667,7 +15689,8 @@
     },
     "chainguard-demo/cookbook": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 820995896,
@@ -15721,7 +15744,8 @@
     },
     "chainguard-dev/incert": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 628599987,
@@ -18177,7 +18201,9 @@
       }
     },
     "rootless-containers/slirp4netns": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 140418870,
         "name": "slirp4netns",
@@ -18202,7 +18228,9 @@
       }
     },
     "thyrlian/AndroidSDK": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 64508433,
         "name": "AndroidSDK",
@@ -18227,7 +18255,9 @@
       }
     },
     "DeviceFarmer/docker-adb": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 246433615,
         "name": "docker-adb",
@@ -18252,7 +18282,9 @@
       }
     },
     "DeviceFarmer/stf": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 246332156,
         "name": "stf",
@@ -19638,7 +19670,8 @@
     },
     "ublue-os/blincus": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 730897303,
@@ -19869,7 +19902,8 @@
     },
     "losfair/bake": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 1051639819,
@@ -21061,7 +21095,9 @@
       }
     },
     "microsoft/dstoolkit-devcontainers": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 618205348,
         "name": "dstoolkit-devcontainers",
@@ -21087,7 +21123,8 @@
     },
     "microsoft/windows-container-tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 216456920,
@@ -21113,7 +21150,9 @@
       }
     },
     "billywr/Low_level_wcow_containers_with_runhcs": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 1003681894,
         "name": "Low_level_wcow_containers_with_runhcs",
@@ -21139,7 +21178,8 @@
     },
     "microsoft/dotnet-computevirtualization": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 52707517,
@@ -21165,7 +21205,9 @@
       }
     },
     "microsoft/hcsshim": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 38258831,
         "name": "hcsshim",
@@ -21191,7 +21233,8 @@
     },
     "youki-dev/youki": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 352051262,
@@ -22163,7 +22206,9 @@
       }
     },
     "yeswehack/pwn-machine": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 278879201,
         "name": "pwn-machine",
@@ -23005,7 +23050,9 @@
       }
     },
     "george-hawkins/no-gpu-docker-cuda": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 624437386,
         "name": "no-gpu-docker-cuda",
@@ -23031,7 +23078,8 @@
     },
     "george-hawkins/boto3-renderer": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 497403699,
@@ -23058,7 +23106,8 @@
     },
     "george-hawkins/aws-notes": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 502628781,
@@ -23084,7 +23133,9 @@
       }
     },
     "nytimes/rd-blender-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 233888552,
         "name": "rd-blender-docker",
@@ -24330,7 +24381,9 @@
       }
     },
     "metorial/metorial-index": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 996697140,
         "name": "metorial-index",
@@ -26522,7 +26575,8 @@
     },
     "ssup2/kpexec": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 242557925,
@@ -26575,7 +26629,9 @@
       }
     },
     "artemkaxboy/docker-opener": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 387781770,
         "name": "docker-opener",
@@ -26601,7 +26657,8 @@
     },
     "zeromake/docker-debug": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 170485616,
@@ -26628,7 +26685,8 @@
     },
     "justincormack/addmount": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 367666685,
@@ -27987,7 +28045,8 @@
     },
     "sylabs/singularity": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 364269021,
@@ -28866,7 +28925,9 @@
       }
     },
     "osbuild/bootc-image-builder": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 717124565,
         "name": "bootc-image-builder",
@@ -29975,7 +30036,9 @@
       }
     },
     "anthropics/devcontainer-features": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 941826422,
         "name": "devcontainer-features",
@@ -30105,7 +30168,8 @@
     },
     "jsburckhardt/devcontainer-features": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 575256666,
@@ -30431,7 +30495,9 @@
       }
     },
     "netblue30/firetools": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 40893015,
         "name": "firetools",
@@ -30561,7 +30627,9 @@
       }
     },
     "apptainer/apptainer": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 433446895,
         "name": "apptainer",
@@ -30763,7 +30831,9 @@
       }
     },
     "GreatScottyMac/context-portal": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 977795489,
         "name": "context-portal",
@@ -31123,7 +31193,9 @@
       }
     },
     "containers/shortnames": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 306375275,
         "name": "shortnames",
@@ -31199,7 +31271,8 @@
     },
     "apple/containerization": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 992765044,
@@ -31226,7 +31299,8 @@
     },
     "apple/container": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 993475914,
@@ -31252,7 +31326,9 @@
       }
     },
     "google/nsjail": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 35638505,
         "name": "nsjail",
@@ -31305,7 +31381,8 @@
     },
     "devcontainers/templates": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 490426137,
@@ -31331,7 +31408,9 @@
       }
     },
     "EvanCarroll/claude-podman": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 976363475,
         "name": "claude-podman",
@@ -31356,7 +31435,9 @@
       }
     },
     "RchGrav/claudebox": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 997659566,
         "name": "claudebox",
@@ -31634,7 +31715,8 @@
     },
     "openshift/source-to-image": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 16323162,
@@ -31686,7 +31768,8 @@
     },
     "ublue-os/toolboxes": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 740197443,
@@ -31713,7 +31796,8 @@
     },
     "ublue-os/main": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 608408199,
@@ -31842,7 +31926,9 @@
       }
     },
     "rice9797/ws4channels": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 963742809,
         "name": "ws4channels",
@@ -31867,7 +31953,9 @@
       }
     },
     "rmitchellscott/pagecaster": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 830748013,
         "name": "pagecaster",
@@ -32859,7 +32947,8 @@
     },
     "chainguard-dev/dfc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 914450435,
@@ -33153,7 +33242,9 @@
       }
     },
     "jhwanchoi/gpu-video-splitter": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 931451002,
         "name": "gpu-video-splitter",
@@ -33178,7 +33269,9 @@
       }
     },
     "BruParis/ffmpeg-nvenc-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 918616374,
         "name": "ffmpeg-nvenc-docker",
@@ -33203,7 +33296,9 @@
       }
     },
     "abdur75648/ffmpeg-gpu": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 916490139,
         "name": "ffmpeg-gpu",
@@ -33328,7 +33423,9 @@
       }
     },
     "GoogleContainerTools/container-debug-support": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 136355548,
         "name": "container-debug-support",
@@ -33407,7 +33504,8 @@
     "AsahiLinux/muvm": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 797254495,
@@ -33462,7 +33560,8 @@
     "containers/krunkit": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 756461160,
@@ -33717,7 +33816,9 @@
       }
     },
     "jrottenberg/ffmpeg": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 23471285,
         "name": "ffmpeg",
@@ -33767,7 +33868,9 @@
       }
     },
     "wader/static-ffmpeg": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 129968573,
         "name": "static-ffmpeg",
@@ -34713,7 +34816,8 @@
     },
     "sameersbn/docker-apt-cacher-ng": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 21348087,
@@ -34766,7 +34870,9 @@
       }
     },
     "andreaostuni/opengl": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 587906656,
         "name": "opengl",
@@ -35274,7 +35380,9 @@
       }
     },
     "NVIDIA/libnvidia-container": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 88311197,
         "name": "libnvidia-container",
@@ -35574,7 +35682,9 @@
       }
     },
     "mviereck/dockerfile-x11docker-xserver": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 447394943,
         "name": "dockerfile-x11docker-xserver",
@@ -35828,7 +35938,9 @@
       }
     },
     "dphilla/boxer": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 467706461,
         "name": "boxer",
@@ -35953,7 +36065,9 @@
       }
     },
     "mviereck/x11docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 43082133,
         "name": "x11docker",
@@ -37104,7 +37218,8 @@
     },
     "avkcode/container-tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 933660890,
@@ -37707,7 +37822,8 @@
     },
     "clemcer/LoggiFly": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 916246515,
@@ -38303,7 +38419,8 @@
     },
     "ajnart/dcm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 950728976,
@@ -38483,7 +38600,9 @@
       }
     },
     "ChristofferNissen/helmper": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 785420224,
         "name": "helmper",
@@ -39020,7 +39139,9 @@
       }
     },
     "Zouuup/landrun": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 952651301,
         "name": "landrun",
@@ -39658,7 +39779,8 @@
     },
     "oneclickvirt/docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 633698278,
@@ -39970,7 +40092,8 @@
     },
     "varnish/tinykvm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 287761351,
@@ -40774,7 +40897,8 @@
     },
     "michidk/vscli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 609615063,
@@ -40854,7 +40978,9 @@
       }
     },
     "dan-r/syncstorage-rs-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 727925836,
         "name": "syncstorage-rs-docker",
@@ -41070,7 +41196,9 @@
       }
     },
     "hemashushu/docker-archlinux-gui": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 940129467,
         "name": "docker-archlinux-gui",
@@ -43664,7 +43792,9 @@
       }
     },
     "goodreasonai/ScrapeServ": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 927981080,
         "name": "ScrapeServ",
@@ -45059,7 +45189,8 @@
     },
     "wolfi-dev/os": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 533917104,
@@ -45186,7 +45317,8 @@
     },
     "drfrancintosh/pico-docker": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 862085093,
@@ -45267,7 +45399,8 @@
     },
     "antmicro/dockersave": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 249980865,
@@ -46570,7 +46703,8 @@
     "arunoruto/tsidp": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 909048423,
@@ -47864,7 +47998,8 @@
     },
     "productiveops/dokemon": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 726820564,
@@ -49845,7 +49980,8 @@
     },
     "netbox-community/netbox-docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 88978363,
@@ -50075,7 +50211,9 @@
       }
     },
     "thomas-gale/hello-gl": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 320359218,
         "name": "hello-gl",
@@ -50101,7 +50239,8 @@
     },
     "NVIDIA/nvidia-container-toolkit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 221778368,
@@ -50153,7 +50292,8 @@
     },
     "42-Project-Templates/cpp-opengl-template": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 584081837,
@@ -50180,7 +50320,8 @@
     },
     "42-Project-Templates/go-project-template": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 749482214,
@@ -50207,7 +50348,8 @@
     },
     "danielbraun89/devcontainer-features": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 551878542,
@@ -50284,7 +50426,8 @@
     },
     "dotenvx/dotenvx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 720267554,
@@ -50594,7 +50737,8 @@
     },
     "mbentley/docker-timemachine": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 68353485,
@@ -52108,7 +52252,8 @@
     "rpardini/docker-registry-proxy": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 139076329,
@@ -53202,7 +53347,9 @@
       }
     },
     "HymEric/AIWebMatting": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 220653809,
         "name": "AIWebMatting",
@@ -53507,7 +53654,8 @@
     },
     "warhorse/ansible-role-cobaltstrike-docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 392113519,
@@ -53635,7 +53783,9 @@
       }
     },
     "Jip-Hop/jailmaker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 591017923,
         "name": "jailmaker",
@@ -56053,7 +56203,8 @@
     },
     "containers/podman": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 109145553,
@@ -56823,7 +56974,8 @@
     },
     "dockur/macos": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 809475352,
@@ -56849,7 +57001,9 @@
       }
     },
     "dockur/windows": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 743140652,
         "name": "windows",
@@ -57215,7 +57369,9 @@
       }
     },
     "docker-archive-public/docker.labs": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 56728437,
         "name": "docker.labs",
@@ -57742,7 +57898,8 @@
     },
     "whalebrew/whalebrew": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 79717956,
@@ -60026,7 +60183,9 @@
       }
     },
     "kasmtech/workspaces-data-science": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 370765850,
         "name": "workspaces-data-science",
@@ -60051,7 +60210,9 @@
       }
     },
     "kasmtech/workspaces-machine-learning": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 371068722,
         "name": "workspaces-machine-learning",
@@ -60468,7 +60629,8 @@
     },
     "replicate/cog": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 342728683,
@@ -60828,7 +60990,8 @@
     },
     "bootc-dev/bootc": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 572685958,
@@ -64158,7 +64321,8 @@
     },
     "AllexVeldman/pyoci": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 693559349,
@@ -64466,7 +64630,8 @@
     },
     "iongion/container-desktop": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 435470319,
@@ -64669,7 +64834,9 @@
       }
     },
     "testcontainers/testcontainers-node": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 116414510,
         "name": "testcontainers-node",
@@ -66942,7 +67109,9 @@
       }
     },
     "container-desktop/container-desktop": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 408801052,
         "name": "container-desktop",
@@ -69610,7 +69779,8 @@
     },
     "ptrsr/pi-ci": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 367995470,
@@ -75468,7 +75638,8 @@
     },
     "edera-dev/krata": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 740675058,
@@ -85018,7 +85189,9 @@
       }
     },
     "ryanfb/docker_ffmpeg-shadertoy": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 644648263,
         "name": "docker_ffmpeg-shadertoy",
@@ -86532,7 +86705,9 @@
       }
     },
     "louislam/dockge": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 708775091,
         "name": "dockge",
@@ -88630,7 +88805,8 @@
     },
     "mthalman/dredge": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 328278273,
@@ -89338,7 +89514,8 @@
     },
     "container2wasm/container2wasm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 601918925,
@@ -90401,7 +90578,8 @@
     },
     "dev-sec/cis-docker-benchmark": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 59814924,
@@ -91277,7 +91455,8 @@
     },
     "ottomatica/slim": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 178554377,
@@ -91319,7 +91498,8 @@
     },
     "unikraft/unikraft": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 181022316,
@@ -91341,7 +91521,8 @@
     },
     "harvester/harvester": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 279592699,
@@ -91719,7 +91900,8 @@
     },
     "lxc/incus": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 669486760,
@@ -94004,7 +94186,9 @@
       "last_updated": "2026-03-17T22:11:11.225779+00:00"
     },
     "qoomon/docker-host": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 107676899,
         "name": "docker-host",
@@ -94088,7 +94272,8 @@
     "testcontainers/testcontainers-python": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 85802819,
@@ -95096,7 +95281,8 @@
     },
     "uber-go/automaxprocs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 90336564,
@@ -98498,7 +98684,8 @@
     },
     "s0rg/decompose": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 679395781,
@@ -99047,7 +99234,8 @@
     },
     "nickshine/dot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 214674470,
@@ -99503,7 +99691,9 @@
       "last_updated": "2026-03-17T22:12:08.080677+00:00"
     },
     "cybersecsi/houdini": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 445592141,
         "name": "houdini",
@@ -99524,7 +99714,8 @@
     },
     "bunkerity/bunkerweb": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 203456148,
@@ -99546,7 +99737,8 @@
     },
     "bcicen/ctop": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 77419377,
@@ -100054,7 +100246,8 @@
     "developer-guy/buildkit-machine": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 445901199,
@@ -100117,7 +100310,8 @@
     "reproducible-containers/buildkit-nix": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 434595633,
@@ -100139,7 +100333,8 @@
     },
     "reproducible-containers/repro-get": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 549382695,
@@ -100160,7 +100355,9 @@
       "last_updated": "2026-03-17T22:12:14.305122+00:00"
     },
     "reproducible-containers/diffoci": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 681865222,
         "name": "diffoci",
@@ -100180,7 +100377,9 @@
       "last_updated": "2026-03-17T22:12:14.503712+00:00"
     },
     "REMnux/docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 27286734,
         "name": "docker",
@@ -100202,7 +100401,8 @@
     "eliasgranderubio/dagda": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 73858181,
@@ -100701,7 +100901,8 @@
     },
     "docker/docker-bench-security": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 35394510,
@@ -100893,7 +101094,9 @@
       "last_updated": "2026-03-17T22:12:21.681060+00:00"
     },
     "silascutler/awesome-docker-malware-analysis": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 679790262,
         "name": "awesome-docker-malware-analysis",
@@ -100953,7 +101156,9 @@
       "last_updated": "2026-03-17T22:12:22.429657+00:00"
     },
     "opencontainers/umoci": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 72283469,
         "name": "umoci",
@@ -101147,7 +101352,8 @@
     "goss-org/goss": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 43526066,
@@ -101913,7 +102119,8 @@
     },
     "cloudposse/geodesic": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 75686762,
@@ -102550,7 +102757,9 @@
       "last_updated": "2026-03-17T22:12:38.776281+00:00"
     },
     "mudler/luet": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 190435398,
         "name": "luet",
@@ -102590,7 +102799,9 @@
       "last_updated": "2026-03-17T22:12:39.179610+00:00"
     },
     "MottainaiCI/lxd-compose": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 273662980,
         "name": "lxd-compose",
@@ -102901,7 +103112,8 @@
     },
     "basecamp/kamal": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 586265895,
@@ -103442,7 +103654,8 @@
     },
     "nlewo/nix2container": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 441133093,
@@ -103630,7 +103843,8 @@
     },
     "nicolaka/netshoot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 66426242,
@@ -103964,7 +104178,9 @@
       "last_updated": "2026-03-17T22:12:52.978619+00:00"
     },
     "docker/roadmap": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 245231382,
         "name": "roadmap",
@@ -104029,7 +104245,8 @@
     },
     "containers/crun": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 103446460,
@@ -104934,7 +105151,8 @@
     },
     "loft-sh/devpod": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 592748160,
@@ -105701,7 +105919,8 @@
     },
     "containers/toolbox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 146918141,
@@ -107311,7 +107530,9 @@
       "last_updated": "2026-03-17T22:13:27.672339+00:00"
     },
     "lippertmarkus/containerd-installer": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 436637444,
         "name": "containerd-installer",
@@ -107451,7 +107672,9 @@
       "last_updated": "2026-03-17T22:13:29.036705+00:00"
     },
     "Lissy93/portainer-templates": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 628549096,
         "name": "portainer-templates",
@@ -108382,7 +108605,9 @@
       "last_updated": "2026-03-17T22:13:38.509426+00:00"
     },
     "browserless/browserless": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 111058386,
         "name": "browserless",
@@ -108936,7 +109161,9 @@
       "last_updated": "2026-03-17T22:13:44.097403+00:00"
     },
     "chainguard-images/images": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 563510952,
         "name": "images",
@@ -109104,7 +109331,8 @@
     "tonistiigi/xx": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 150307921,
@@ -109126,7 +109354,8 @@
     },
     "ktock/buildg": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 490156339,
@@ -109837,7 +110066,9 @@
       "last_updated": "2026-03-17T22:13:53.096868+00:00"
     },
     "waydroid/waydroid": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 358446986,
         "name": "waydroid",
@@ -110459,7 +110690,9 @@
       "last_updated": "2026-03-17T22:13:59.703184+00:00"
     },
     "hocus-dev/hocus": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 514377842,
         "name": "hocus",
@@ -110521,7 +110754,9 @@
       "last_updated": "2026-03-17T22:14:00.325758+00:00"
     },
     "travelping/docker-pcap": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 137036407,
         "name": "docker-pcap",
@@ -111217,7 +111452,8 @@
     },
     "goharbor/harbor": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 50613991,
@@ -111367,7 +111603,9 @@
       "last_updated": "2026-03-17T22:14:08.801430+00:00"
     },
     "veertuinc/docker-compose-etcd-cluster": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 331653908,
         "name": "docker-compose-etcd-cluster",
@@ -111500,7 +111738,8 @@
     },
     "HariSekhon/Dockerfiles": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 49797937,
@@ -111817,7 +112056,8 @@
     },
     "pimox/pimox7": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 396568341,
@@ -111958,7 +112198,9 @@
       "last_updated": "2026-03-17T22:14:14.749006+00:00"
     },
     "nico1510/registry-explorer-extension": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 599106798,
         "name": "registry-explorer-extension",
@@ -111978,7 +112220,9 @@
       "last_updated": "2026-03-17T22:14:14.977865+00:00"
     },
     "NVIDIA/nvidia-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 45557469,
         "name": "nvidia-docker",
@@ -112104,7 +112348,8 @@
     },
     "jauderho/dive": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 420604847,
@@ -112498,7 +112743,8 @@
     },
     "flatcar/Flatcar": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 123948145,
@@ -112888,7 +113134,9 @@
       "last_updated": "2026-03-17T22:14:23.816780+00:00"
     },
     "tsirysndr/superviseur": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 608738662,
         "name": "superviseur",
@@ -112954,7 +113202,8 @@
     },
     "awslabs/aws-container-images-toolkit": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 309745760,
@@ -113210,7 +113459,8 @@
     },
     "sidpalas/devops-directive-docker-course": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 592373929,
@@ -114098,7 +114348,8 @@
     "depot/cli": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 416059533,
@@ -114409,7 +114660,8 @@
     },
     "progrium/docker-stress": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 22035837,
@@ -114731,7 +114983,8 @@
     },
     "wowu/docker-rollout": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 598306361,
@@ -115272,7 +115525,8 @@
     },
     "danielhoherd/vagrant-playground": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 49393050,
@@ -115375,7 +115629,9 @@
       "last_updated": "2026-03-17T22:14:47.317708+00:00"
     },
     "containrrr/watchtower": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 39038086,
         "name": "watchtower",
@@ -115396,7 +115652,8 @@
     },
     "markdegrootnl/unifi-protect-arm64": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 359421322,
@@ -115499,7 +115756,9 @@
       "last_updated": "2026-03-17T22:14:48.638365+00:00"
     },
     "devcontainers/spec": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 446956014,
         "name": "spec",
@@ -115584,7 +115843,9 @@
       "last_updated": "2026-03-17T22:14:49.536986+00:00"
     },
     "lippertmarkus/cross-building-windows-and-linux-multi-arch-images": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 433505417,
         "name": "cross-building-windows-and-linux-multi-arch-images",
@@ -115604,7 +115865,9 @@
       "last_updated": "2026-03-17T22:14:49.716461+00:00"
     },
     "weaveworks/footloose": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 168339205,
         "name": "footloose",
@@ -116349,7 +116612,8 @@
     },
     "oras-project/oras": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 162945532,
@@ -116371,7 +116635,8 @@
     },
     "oras-project/artifacts-spec": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 387901682,
@@ -116393,7 +116658,8 @@
     },
     "oras-project/distribution": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 396918021,
@@ -116904,7 +117170,8 @@
     },
     "veggiemonk/awesome-docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 24297122,
@@ -117149,7 +117416,9 @@
       "last_updated": "2026-03-17T22:15:04.385641+00:00"
     },
     "thebsdbox/ginit": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 465681895,
         "name": "ginit",
@@ -117210,7 +117479,8 @@
     },
     "tuananh/how-small-can-it-be": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 583732450,
@@ -117355,7 +117625,9 @@
       "last_updated": "2026-03-17T22:15:06.496228+00:00"
     },
     "stealthcopter/deepce": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 260022777,
         "name": "deepce",
@@ -117570,7 +117842,8 @@
     },
     "kamon-io/docker-grafana-graphite": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 19045397,
@@ -117612,7 +117885,8 @@
     },
     "logzio/jmx2graphite": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 46633465,
@@ -117736,7 +118010,8 @@
     },
     "linuxserver-archive/docker-unifi-controller": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 170030720,
@@ -117930,7 +118205,8 @@
       "lists": [
         "Bash",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 87031689,
@@ -118879,7 +119155,8 @@
     },
     "jetify-com/devbox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 526363266,
@@ -120043,7 +120320,8 @@
     },
     "coder/coder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 440752086,
@@ -120212,7 +120490,9 @@
       "last_updated": "2026-03-17T22:15:34.780776+00:00"
     },
     "proot-me/proot": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 1147698,
         "name": "proot",
@@ -120447,7 +120727,8 @@
     },
     "containerd/runwasi": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 452780719,
@@ -120597,7 +120878,9 @@
       "last_updated": "2026-03-17T22:15:38.408530+00:00"
     },
     "devcontainers/images": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 490311232,
         "name": "images",
@@ -120698,7 +120981,8 @@
     },
     "bottlerocket-os/bottlerocket": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 179385712,
@@ -120721,7 +121005,8 @@
     "tektoncd/pipeline": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 146641150,
@@ -120743,7 +121028,8 @@
     },
     "runfinch/finch": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 562778457,
@@ -120785,7 +121071,8 @@
     },
     "GoogleContainerTools/jib": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 118497841,
@@ -120807,7 +121094,8 @@
     },
     "GoogleContainerTools/kaniko": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 119419195,
@@ -120850,7 +121138,9 @@
       "last_updated": "2026-03-17T22:15:40.951858+00:00"
     },
     "containerd/go-cni": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 121671786,
         "name": "go-cni",
@@ -120957,7 +121247,8 @@
     },
     "cloud-native-skunkworks/ohmyyaml": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 431551065,
@@ -121000,7 +121291,9 @@
       "last_updated": "2026-03-17T22:15:42.381827+00:00"
     },
     "Evalle/DCA": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 105917988,
         "name": "DCA",
@@ -121342,7 +121635,8 @@
     "siderolabs/talos": {
       "lists": [
         "Devops",
-        "DIY"
+        "DIY",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 109451092,
@@ -121468,7 +121762,8 @@
     "argoproj-labs/argocd-autopilot": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 344950560,
@@ -121511,7 +121806,8 @@
     "in-toto/in-toto": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 59531400,
@@ -121645,7 +121941,8 @@
     "techiescamp/vagrant-kubeadm-kubernetes": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 367798512,
@@ -121667,7 +121964,8 @@
     },
     "kubevirt/kubevirt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 76686583,
@@ -121711,7 +122009,8 @@
     },
     "podman-desktop/podman-desktop": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 465844859,
@@ -121734,7 +122033,8 @@
     "gocd/gocd": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 15155534,
@@ -122021,7 +122321,8 @@
     "harness/harness": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 16607898,
@@ -122306,7 +122607,8 @@
     "rundeck/rundeck": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 886774,
@@ -122329,7 +122631,8 @@
     "concourse/concourse": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 18950460,
@@ -122371,7 +122674,8 @@
     },
     "testcontainers/testcontainers-go": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 141451032,
@@ -122434,7 +122738,9 @@
       "last_updated": "2026-03-17T22:15:55.695882+00:00"
     },
     "microsoft/Windows-Containers": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 268924826,
         "name": "Windows-Containers",
@@ -122665,7 +122971,8 @@
     },
     "containerd/nerdctl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 318476701,
@@ -122751,7 +123058,8 @@
     },
     "amir20/dozzle": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 155297903,
@@ -123014,7 +123322,8 @@
     "paketo-buildpacks/go": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 255432450,
@@ -123258,7 +123567,8 @@
     "GoogleContainerTools/skaffold": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 118654121,
@@ -123324,7 +123634,9 @@
       "last_updated": "2026-03-17T22:16:04.210814+00:00"
     },
     "cloud-hypervisor/cloud-hypervisor": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 184341774,
         "name": "cloud-hypervisor",
@@ -123471,7 +123783,8 @@
       "lists": [
         "Bash",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 58842707,
@@ -123515,7 +123828,8 @@
     },
     "tensorchord/envd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 480303698,
@@ -124165,7 +124479,8 @@
     },
     "lxc/distrobuilder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 118796601,
@@ -124187,7 +124502,8 @@
     },
     "HuaweiSwitch/LXC_Rootfs": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 48093851,
@@ -124600,7 +124916,9 @@
       "last_updated": "2026-03-17T22:16:16.354536+00:00"
     },
     "kasmtech/ansible": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 404515483,
         "name": "ansible",
@@ -124874,7 +125192,8 @@
     },
     "tazjin/nixery": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 199516328,
@@ -124896,7 +125215,8 @@
     },
     "felipecruz91/debug-ctr": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 555941688,
@@ -124918,7 +125238,8 @@
     },
     "iximiuz/cdebug": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 555891400,
@@ -125549,7 +125870,8 @@
     },
     "abiosoft/colima": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 403020531,
@@ -125791,7 +126113,8 @@
     },
     "iximiuz/awesome-container-tinkering": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 536481566,
@@ -126473,7 +126796,8 @@
     "kaysond/trafficjam": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 249029243,
@@ -126979,7 +127303,8 @@
     },
     "virtio-win/kvm-guest-drivers-windows": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 2524933,
@@ -127000,7 +127325,9 @@
       "last_updated": "2026-03-17T22:16:39.704004+00:00"
     },
     "linuxkit/virtsock": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 58654089,
         "name": "virtsock",
@@ -127061,7 +127388,8 @@
     },
     "awslabs/soci-snapshotter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 523372474,
@@ -127211,7 +127539,8 @@
     },
     "tilt-dev/tilt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 143896900,
@@ -127233,7 +127562,8 @@
     },
     "kubernetes-sigs/kind": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 148545807,
@@ -127468,7 +127798,8 @@
     },
     "vmorganp/Lazytainer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 416584454,
@@ -127740,7 +128071,8 @@
     },
     "firecracker-microvm/firecracker-containerd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 157781317,
@@ -127781,7 +128113,9 @@
       "last_updated": "2026-03-17T22:16:47.008745+00:00"
     },
     "peasead/elastic-container": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 352501554,
         "name": "elastic-container",
@@ -128112,7 +128446,8 @@
     },
     "linuxserver/docker-mods": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 181233957,
@@ -128134,7 +128469,8 @@
     },
     "linuxserver-archive/docker-docker-compose": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 265317617,
@@ -128156,7 +128492,8 @@
     },
     "linuxserver/docker-swag": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 284714819,
@@ -128178,7 +128515,8 @@
     },
     "just-containers/s6-overlay": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 31464002,
@@ -128200,7 +128538,8 @@
     },
     "BretFisher/nodejs-rocks-in-docker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 184485638,
@@ -128306,7 +128645,8 @@
     },
     "chainguard-dev/melange": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 467239260,
@@ -128412,7 +128752,8 @@
     },
     "devcontainers/cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 486125557,
@@ -128727,7 +129068,9 @@
       "last_updated": "2026-03-17T22:16:57.798832+00:00"
     },
     "0xricksanchez/like-dbg": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 504825085,
         "name": "like-dbg",
@@ -128748,7 +129091,8 @@
     },
     "coreos/toolbox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 18648432,
@@ -130070,7 +130414,8 @@
     "eth0izzle/shhgit": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 206690330,
@@ -130116,7 +130461,8 @@
       "lists": [
         "Bash",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 327685612,
@@ -130332,7 +130678,8 @@
     },
     "kholia/OSX-KVM": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 45680749,
@@ -130399,7 +130746,9 @@
       "last_updated": "2026-03-17T22:17:13.317367+00:00"
     },
     "synalice/gobox": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 492484593,
         "name": "gobox",
@@ -130462,7 +130811,9 @@
       "last_updated": "2026-03-17T22:17:13.981857+00:00"
     },
     "qilingframework/qiling": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 203799854,
         "name": "qiling",
@@ -131011,7 +131362,8 @@
     },
     "srl-labs/containerlab": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 290960521,
@@ -131056,7 +131408,8 @@
     "qemu/qemu": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 5383731,
@@ -131100,7 +131453,8 @@
       "lists": [
         "Bash",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 80134675,
@@ -131123,7 +131477,8 @@
     "dokku/dokku": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 10567197,
@@ -131885,7 +132240,8 @@
     },
     "mutagen-io/mutagen": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 78026877,
@@ -132279,7 +132635,8 @@
     },
     "89luca89/distrobox": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 429485913,
@@ -132716,7 +133073,8 @@
     },
     "lima-vm/sshocker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 297068457,
@@ -132739,7 +133097,8 @@
     "lima-vm/lima": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 367284699,
@@ -133286,7 +133645,8 @@
     },
     "netenglabs/suzieq": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 232338630,
@@ -133370,7 +133730,8 @@
     },
     "slimtoolkit/slim": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 42194129,
@@ -133580,7 +133941,8 @@
     },
     "quickemu-project/quickemu": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 247567645,
@@ -133642,7 +134004,8 @@
     },
     "cirruslabs/cirrus-cli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 278458949,
@@ -133665,7 +134028,8 @@
     "cirruslabs/tart": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 454359710,
@@ -134478,7 +134842,9 @@
       "last_updated": "2026-03-17T22:17:52.615714+00:00"
     },
     "bobuhiro11/gokvm": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 334352225,
         "name": "gokvm",
@@ -134646,7 +135012,8 @@
     },
     "virt-manager/virt-manager": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 36043078,
@@ -134796,7 +135163,9 @@
       "last_updated": "2026-03-17T22:17:55.660713+00:00"
     },
     "checkpoint-restore/criu": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 15999638,
         "name": "criu",
@@ -134817,7 +135186,8 @@
     },
     "notaryproject/specifications": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 233653574,
@@ -134839,7 +135209,8 @@
     },
     "slsa-framework/slsa": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 346517502,
@@ -134923,7 +135294,8 @@
     },
     "aws/karpenter-provider-aws": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 278480393,
@@ -135005,7 +135377,8 @@
     },
     "lxc/linuxcontainers.org": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 26509324,
@@ -135027,7 +135400,8 @@
     },
     "canonical/lxd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 26192117,
@@ -135048,7 +135422,9 @@
       "last_updated": "2026-03-17T22:17:58.022432+00:00"
     },
     "DockerSecurityPlayground/DSP": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 104040182,
         "name": "DSP",
@@ -135238,7 +135614,8 @@
     },
     "bpftrace/bpftrace": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 146842101,
@@ -135260,7 +135637,8 @@
     },
     "ntop/ntopng": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 34847907,
@@ -135302,7 +135680,8 @@
     },
     "aquasecurity/tracee": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 209313689,
@@ -135325,7 +135704,8 @@
     "distribution/distribution": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 28366058,
@@ -135347,7 +135727,8 @@
     },
     "google/go-containerregistry": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 125253663,
@@ -135595,7 +135976,8 @@
     },
     "openvswitch/ovs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 18383364,
@@ -136072,7 +136454,8 @@
     },
     "ovn-org/ovn": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 182148991,
@@ -136137,7 +136520,8 @@
     "debuerreotype/debuerreotype": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 91498459,
@@ -136179,7 +136563,8 @@
     },
     "ForAllSecure/rootfs_builder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 206178287,
@@ -136450,7 +136835,8 @@
     "dagger/dagger": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 222824662,
@@ -136998,7 +137384,8 @@
     "nestybox/sysbox": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 284555713,
@@ -137064,7 +137451,8 @@
     },
     "chainguard-dev/apko": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 457026559,
@@ -137086,7 +137474,8 @@
     },
     "oracle/graal": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 49662222,
@@ -137109,7 +137498,8 @@
     "purpleidea/vagrant-builder": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 21224351,
@@ -137131,7 +137521,8 @@
     },
     "GoogleContainerTools/container-diff": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 99612558,
@@ -137536,7 +137927,8 @@
     },
     "nanovms/nanos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 115159616,
@@ -137644,7 +138036,8 @@
     },
     "containernetworking/cni": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 33429211,
@@ -137666,7 +138059,8 @@
     },
     "openfaas/faasd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 229264940,
@@ -137732,7 +138126,8 @@
     },
     "hashicorp/terraform-aws-vault": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 103201301,
@@ -137775,7 +138170,9 @@
       "last_updated": "2026-03-17T22:18:24.018348+00:00"
     },
     "jesseduffield/lazydocker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 187335810,
         "name": "lazydocker",
@@ -138355,7 +138752,9 @@
       "last_updated": "2026-03-17T22:18:29.403110+00:00"
     },
     "lxc/lxc-ci": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 17649526,
         "name": "lxc-ci",
@@ -138495,7 +138894,9 @@
       "last_updated": "2026-03-17T22:18:30.806731+00:00"
     },
     "rancher/elemental-toolkit": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 327869068,
         "name": "elemental-toolkit",
@@ -138515,7 +138916,9 @@
       "last_updated": "2026-03-17T22:18:31.032869+00:00"
     },
     "rancher-sandbox/rancher-desktop": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 306701996,
         "name": "rancher-desktop",
@@ -138577,7 +138980,8 @@
     "ko-build/ko": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 177010499,
@@ -138805,7 +139209,8 @@
     },
     "kata-containers/kata-containers": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 113404957,
@@ -138827,7 +139232,8 @@
     },
     "netblue30/firejail": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 40418146,
@@ -138848,7 +139254,9 @@
       "last_updated": "2026-03-17T22:18:34.128271+00:00"
     },
     "amir73il/unionmount-testsuite": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 68276244,
         "name": "unionmount-testsuite",
@@ -138868,7 +139276,9 @@
       "last_updated": "2026-03-17T22:18:34.342629+00:00"
     },
     "moby/moby": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 7691631,
         "name": "moby",
@@ -138928,7 +139338,9 @@
       "last_updated": "2026-03-17T22:18:35.987721+00:00"
     },
     "containers/bubblewrap": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 51868010,
         "name": "bubblewrap",
@@ -138949,7 +139361,8 @@
     },
     "containers/skopeo": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 53356367,
@@ -138970,7 +139383,9 @@
       "last_updated": "2026-03-17T22:18:36.386434+00:00"
     },
     "opencontainers/selinux": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 82343557,
         "name": "selinux",
@@ -138990,7 +139405,9 @@
       "last_updated": "2026-03-17T22:18:36.555969+00:00"
     },
     "opencontainers/image-tools": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 67737264,
         "name": "image-tools",
@@ -139393,7 +139810,8 @@
     },
     "firecracker-microvm/firecracker": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 107505869,
@@ -141412,7 +141830,8 @@
     "earthly/earthly": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 246903803,
@@ -142650,7 +143069,8 @@
     },
     "google/crosvm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 405863130,
@@ -142917,7 +143337,9 @@
       "last_updated": "2026-03-17T22:19:14.757163+00:00"
     },
     "cyware-labs/Threat-Response-Docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 342840968,
         "name": "Threat-Response-Docker",
@@ -143770,7 +144192,8 @@
     },
     "includeos/IncludeOS": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 21562567,
@@ -144034,7 +144457,8 @@
     },
     "sigstore/cosign": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 335952417,
@@ -144197,7 +144621,9 @@
       "last_updated": "2026-03-17T22:19:27.095806+00:00"
     },
     "sameersbn/docker-squid": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 24605580,
         "name": "docker-squid",
@@ -145068,7 +145494,8 @@
     },
     "abourget/secrets-bridge": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 80393655,
@@ -145405,7 +145832,9 @@
       "last_updated": "2026-03-17T22:19:39.007772+00:00"
     },
     "wagoodman/dive": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 133251103,
         "name": "dive",
@@ -146166,7 +146595,8 @@
     },
     "sickcodes/Docker-OSX": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 269336148,
@@ -146918,7 +147348,9 @@
       "last_updated": "2026-03-17T22:19:53.397987+00:00"
     },
     "mandiant/commando-vm": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 177878919,
         "name": "commando-vm",
@@ -147188,7 +147620,9 @@
       "last_updated": "2026-03-17T22:19:56.293147+00:00"
     },
     "lionelnicolas/docker-tiny-cloud-init": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 76703870,
         "name": "docker-tiny-cloud-init",
@@ -147208,7 +147642,9 @@
       "last_updated": "2026-03-17T22:19:56.512449+00:00"
     },
     "robuye/cloudinit-docker": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 82425528,
         "name": "cloudinit-docker",
@@ -147273,7 +147709,8 @@
     },
     "myoung34/docker-github-actions-runner": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 223951404,
@@ -147337,7 +147774,8 @@
     },
     "GoogleContainerTools/distroless": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 88674404,
@@ -147990,7 +148428,9 @@
       "last_updated": "2026-03-17T22:20:04.057448+00:00"
     },
     "quay/clair": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 46140633,
         "name": "clair",
