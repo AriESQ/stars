@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:01.717347+00:00",
+  "last_updated": "2026-03-17T23:11:03.556351+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -104385,7 +104385,9 @@
       "last_updated": "2026-03-17T22:12:53.902099+00:00"
     },
     "icicle-emu/icicle": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 564609317,
         "name": "icicle",
@@ -117097,7 +117099,9 @@
       "last_updated": "2026-03-17T22:14:59.949883+00:00"
     },
     "go-task/task": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 83252983,
         "name": "task",
@@ -117562,7 +117566,9 @@
       "last_updated": "2026-03-17T22:15:04.591452+00:00"
     },
     "joxeankoret/diaphora": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 32557376,
         "name": "diaphora",
@@ -122951,7 +122957,9 @@
       "last_updated": "2026-03-17T22:15:56.480762+00:00"
     },
     "ufrisk/MemProcFS": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 158113416,
         "name": "MemProcFS",
@@ -124334,7 +124342,9 @@
       "last_updated": "2026-03-17T22:16:09.478178+00:00"
     },
     "radareorg/r2ghidra": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 323166300,
         "name": "r2ghidra",
@@ -124525,7 +124535,9 @@
       "last_updated": "2026-03-17T22:16:11.227525+00:00"
     },
     "dvyukov/go-fuzz": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 33994380,
         "name": "go-fuzz",
@@ -126498,7 +126510,9 @@
       "last_updated": "2026-03-17T22:16:29.998509+00:00"
     },
     "wkz/kmemd": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 539204618,
         "name": "kmemd",
@@ -129201,7 +129215,8 @@
     },
     "0xricksanchez/like-dbg": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Fuzzing"
       ],
       "metadata": {
         "id": 504825085,
@@ -129620,7 +129635,9 @@
       "last_updated": "2026-03-17T22:17:01.907239+00:00"
     },
     "tls-attacker/TLS-Anvil": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 500928467,
         "name": "TLS-Anvil",
@@ -129660,7 +129677,9 @@
       "last_updated": "2026-03-17T22:17:02.288135+00:00"
     },
     "WerWolv/ImHex": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 311683390,
         "name": "ImHex",
@@ -130143,7 +130162,9 @@
       "last_updated": "2026-03-17T22:17:06.768323+00:00"
     },
     "google/CTAP2-test-tool": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 261977210,
         "name": "CTAP2-test-tool",
@@ -130945,7 +130966,8 @@
     },
     "qilingframework/qiling": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Fuzzing"
       ],
       "metadata": {
         "id": 203799854,
@@ -132902,7 +132924,9 @@
       "last_updated": "2026-03-17T22:17:33.105427+00:00"
     },
     "MarginResearch/cannoli": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 494242182,
         "name": "cannoli",
@@ -133802,7 +133826,9 @@
       "last_updated": "2026-03-17T22:17:41.380226+00:00"
     },
     "Rog3rSm1th/frelatage": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 465913676,
         "name": "frelatage",
@@ -136746,7 +136772,9 @@
       "last_updated": "2026-03-17T22:18:08.970415+00:00"
     },
     "ForAllSecure/mayhem-examples": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 344544896,
         "name": "mayhem-examples",
@@ -137684,7 +137712,9 @@
       "last_updated": "2026-03-17T22:18:18.092220+00:00"
     },
     "taviso/loadlibrary": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 92219431,
         "name": "loadlibrary",
@@ -138482,7 +138512,9 @@
       "last_updated": "2026-03-17T22:18:25.548864+00:00"
     },
     "fgsect/FitM": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 334654383,
         "name": "FitM",
@@ -138937,7 +138969,9 @@
       "last_updated": "2026-03-17T22:18:29.791615+00:00"
     },
     "chrismcguire/gobberish": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 31344423,
         "name": "gobberish",
@@ -139794,7 +139828,9 @@
       "last_updated": "2026-03-17T22:18:38.962136+00:00"
     },
     "andrewffff/utf8fuzz": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 6879314,
         "name": "utf8fuzz",
@@ -140077,7 +140113,9 @@
       "last_updated": "2026-03-17T22:18:41.700883+00:00"
     },
     "stateafl/stateafl": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 416413666,
         "name": "stateafl",
@@ -140199,7 +140237,9 @@
       "last_updated": "2026-03-17T22:18:42.845462+00:00"
     },
     "google/fuzzing": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 181763124,
         "name": "fuzzing",
@@ -140779,7 +140819,9 @@
       "last_updated": "2026-03-17T22:18:48.414485+00:00"
     },
     "danielmiessler/SecLists": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 3482588,
         "name": "SecLists",
