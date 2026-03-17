@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:09:39.484966+00:00",
+  "last_updated": "2026-03-17T23:09:44.879272+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -22539,7 +22539,9 @@
       }
     },
     "george-hawkins/boto3-renderer": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 497403699,
         "name": "boto3-renderer",
@@ -22564,7 +22566,9 @@
       }
     },
     "george-hawkins/aws-notes": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 502628781,
         "name": "aws-notes",
@@ -28862,7 +28866,9 @@
       }
     },
     "dan-v/lambda-nat-proxy": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 1003427424,
         "name": "lambda-nat-proxy",
@@ -30336,7 +30342,9 @@
       }
     },
     "peak/s5cmd": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 73909333,
         "name": "s5cmd",
@@ -30361,7 +30369,9 @@
       }
     },
     "good-lly/s3mini": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 936532892,
         "name": "s3mini",
@@ -31801,7 +31811,9 @@
       }
     },
     "versity/versitygw": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 636903576,
         "name": "versitygw",
@@ -36484,7 +36496,9 @@
       }
     },
     "Netflix/aminator": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 8144887,
         "name": "aminator",
@@ -36534,7 +36548,9 @@
       }
     },
     "aws-ia/terraform-aws-eks-blueprints": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 355360954,
         "name": "terraform-aws-eks-blueprints",
@@ -36559,7 +36575,9 @@
       }
     },
     "aws-samples/eks-workshop-v2": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 463303596,
         "name": "eks-workshop-v2",
@@ -36584,7 +36602,9 @@
       }
     },
     "terraform-aws-modules/terraform-aws-eks": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 136401408,
         "name": "terraform-aws-eks",
@@ -37134,7 +37154,9 @@
       }
     },
     "dubrowin/AWS-Reasonable-Account-Defaults": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 806467239,
         "name": "AWS-Reasonable-Account-Defaults",
@@ -38399,7 +38421,9 @@
       }
     },
     "hashicorp/terraform-provider-awscc": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 358316740,
         "name": "terraform-provider-awscc",
@@ -48149,7 +48173,9 @@
       }
     },
     "pvarentsov/terraform-aws-free-tier": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 232789565,
         "name": "terraform-aws-free-tier",
@@ -48174,7 +48200,9 @@
       }
     },
     "estigma88/social-media-publisher": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 217777098,
         "name": "social-media-publisher",
@@ -48226,7 +48254,9 @@
       }
     },
     "rogeriomm/aws-lab": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 598783048,
         "name": "aws-lab",
@@ -48251,7 +48281,9 @@
       }
     },
     "yannickvr/aws-free-tier-stack": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 778297100,
         "name": "aws-free-tier-stack",
@@ -53325,7 +53357,9 @@
       }
     },
     "plus3it/terraform-aws-tardigrade-org-new-account-delete-cloudtrail": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 677147217,
         "name": "terraform-aws-tardigrade-org-new-account-delete-cloudtrail",
@@ -53350,7 +53384,9 @@
       }
     },
     "serverless/serverless": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 34302698,
         "name": "serverless",
@@ -57112,7 +57148,9 @@
       }
     },
     "Permiso-io-tools/SkyScalpel": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 877545010,
         "name": "SkyScalpel",
@@ -57412,7 +57450,9 @@
       }
     },
     "andrew-womeldorf/awsiam": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 880892380,
         "name": "awsiam",
@@ -84308,7 +84348,9 @@
       }
     },
     "cloudposse/terraform-aws-components": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 131209713,
         "name": "terraform-aws-components",
@@ -85187,7 +85229,9 @@
       }
     },
     "aws/eks-charts": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 211971675,
         "name": "eks-charts",
@@ -88144,7 +88188,9 @@
       "last_updated": "2026-03-17T22:10:32.009499+00:00"
     },
     "Authress-Engineering/dynamodb-armor": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 428214966,
         "name": "dynamodb-armor",
@@ -96672,7 +96718,9 @@
       "last_updated": "2026-03-17T22:12:02.229438+00:00"
     },
     "terraform-aws-modules/terraform-aws-vpc": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 101660954,
         "name": "terraform-aws-vpc",
@@ -96772,7 +96820,9 @@
       "last_updated": "2026-03-17T22:12:03.199548+00:00"
     },
     "overmindtech/aws-source": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 433801917,
         "name": "aws-source",
@@ -96852,7 +96902,9 @@
       "last_updated": "2026-03-17T22:12:04.102046+00:00"
     },
     "steeve85/tfviz": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 284381230,
         "name": "tfviz",
@@ -96872,7 +96924,9 @@
       "last_updated": "2026-03-17T22:12:04.305714+00:00"
     },
     "FlorianPfisterer/vpc-flow-log-analysis": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 298768591,
         "name": "vpc-flow-log-analysis",
@@ -96892,7 +96946,9 @@
       "last_updated": "2026-03-17T22:12:04.508272+00:00"
     },
     "oslabs-beta/cloudband": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 581668075,
         "name": "cloudband",
@@ -96932,7 +96988,9 @@
       "last_updated": "2026-03-17T22:12:04.885346+00:00"
     },
     "disneystreaming/automated-cloud-advisor": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 294720171,
         "name": "automated-cloud-advisor",
@@ -97092,7 +97150,9 @@
       "last_updated": "2026-03-17T22:12:06.421517+00:00"
     },
     "welldone-cloud/aws-list-resources": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 551589245,
         "name": "aws-list-resources",
@@ -97112,7 +97172,9 @@
       "last_updated": "2026-03-17T22:12:06.629017+00:00"
     },
     "primait/nuvola": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 426240030,
         "name": "nuvola",
@@ -97132,7 +97194,9 @@
       "last_updated": "2026-03-17T22:12:06.871311+00:00"
     },
     "joshlarsen/aws-recon": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 277947677,
         "name": "aws-recon",
@@ -97192,7 +97256,9 @@
       "last_updated": "2026-03-17T22:12:07.467775+00:00"
     },
     "nozaq/terraform-aws-secure-baseline": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 121206877,
         "name": "terraform-aws-secure-baseline",
@@ -97472,7 +97538,9 @@
       "last_updated": "2026-03-17T22:12:10.396051+00:00"
     },
     "ttlequals0/autovpn": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 44927862,
         "name": "autovpn",
@@ -97552,7 +97620,9 @@
       "last_updated": "2026-03-17T22:12:11.144512+00:00"
     },
     "pistazie/cdk-dia": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 336620403,
         "name": "cdk-dia",
@@ -97572,7 +97642,9 @@
       "last_updated": "2026-03-17T22:12:11.327921+00:00"
     },
     "ljacobsson/cfn-diagram": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 263753576,
         "name": "cfn-diagram",
@@ -97974,7 +98046,9 @@
       "last_updated": "2026-03-17T22:12:15.290170+00:00"
     },
     "cloudposse/atmos": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 292427680,
         "name": "atmos",
@@ -97994,7 +98068,9 @@
       "last_updated": "2026-03-17T22:12:15.473340+00:00"
     },
     "theipster/aws-cloudformation-graphviz": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 323769266,
         "name": "aws-cloudformation-graphviz",
@@ -98034,7 +98110,9 @@
       "last_updated": "2026-03-17T22:12:15.965476+00:00"
     },
     "ArjenSchwarz/cloudformation-macros": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 158666759,
         "name": "cloudformation-macros",
@@ -98518,7 +98596,9 @@
       "last_updated": "2026-03-17T22:12:21.067537+00:00"
     },
     "snyk/driftctl": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 297622945,
         "name": "driftctl",
@@ -98538,7 +98618,9 @@
       "last_updated": "2026-03-17T22:12:21.251753+00:00"
     },
     "Netflix-Skunkworks/policyuniverse": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 91367525,
         "name": "policyuniverse",
@@ -98998,7 +99080,9 @@
       "last_updated": "2026-03-17T22:12:26.287498+00:00"
     },
     "spacesiren/spacesiren": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 285489285,
         "name": "spacesiren",
@@ -99262,7 +99346,9 @@
       "last_updated": "2026-03-17T22:12:28.989051+00:00"
     },
     "aws/aws-eks-best-practices": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 217173687,
         "name": "aws-eks-best-practices",
@@ -99324,7 +99410,9 @@
       "last_updated": "2026-03-17T22:12:29.681513+00:00"
     },
     "aws-cloudformation/cloudformation-guard": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 271888852,
         "name": "cloudformation-guard",
@@ -99384,7 +99472,9 @@
       "last_updated": "2026-03-17T22:12:30.348418+00:00"
     },
     "terraform-aws-modules/terraform-aws-ec2-instance": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 103173578,
         "name": "terraform-aws-ec2-instance",
@@ -99606,7 +99696,9 @@
       "last_updated": "2026-03-17T22:12:32.839520+00:00"
     },
     "aws/copilot-cli": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 202018792,
         "name": "copilot-cli",
@@ -99727,7 +99819,8 @@
     },
     "noqdev/iambic": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "AWS"
       ],
       "metadata": {
         "id": 547447416,
@@ -100610,7 +100703,9 @@
       "last_updated": "2026-03-17T22:12:43.046413+00:00"
     },
     "mattsta/aws-vpc-global-planner": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 449032240,
         "name": "aws-vpc-global-planner",
@@ -100990,7 +101085,9 @@
       "last_updated": "2026-03-17T22:12:47.058836+00:00"
     },
     "DontShaveTheYak/cf2tf": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 482517530,
         "name": "cf2tf",
@@ -101272,7 +101369,9 @@
       "last_updated": "2026-03-17T22:12:50.107295+00:00"
     },
     "aidansteele/rdsconn": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 654333281,
         "name": "rdsconn",
@@ -102780,7 +102879,9 @@
       "last_updated": "2026-03-17T22:13:05.751651+00:00"
     },
     "cartography-cncf/cartography": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 172811550,
         "name": "cartography",
@@ -104086,7 +104187,9 @@
       "last_updated": "2026-03-17T22:13:19.450168+00:00"
     },
     "benkehoe/aws-error-utils": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 264486967,
         "name": "aws-error-utils",
@@ -104326,7 +104429,9 @@
       "last_updated": "2026-03-17T22:13:22.106746+00:00"
     },
     "simonw/s3-credentials": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 423984522,
         "name": "s3-credentials",
@@ -104506,7 +104611,9 @@
       "last_updated": "2026-03-17T22:13:23.940997+00:00"
     },
     "aidansteele/s3zipper": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 633675820,
         "name": "s3zipper",
@@ -104526,7 +104633,9 @@
       "last_updated": "2026-03-17T22:13:24.188047+00:00"
     },
     "corretto/amazon-corretto-crypto-provider": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 178964735,
         "name": "amazon-corretto-crypto-provider",
@@ -104728,7 +104837,9 @@
       "last_updated": "2026-03-17T22:13:27.002856+00:00"
     },
     "aws-samples/aws-secure-environment-accelerator": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 250817403,
         "name": "aws-secure-environment-accelerator",
@@ -105252,7 +105363,9 @@
       "last_updated": "2026-03-17T22:13:32.348744+00:00"
     },
     "build-on-aws/cloud-clubs-learner-library": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 591683116,
         "name": "cloud-clubs-learner-library",
@@ -105578,7 +105691,9 @@
       "last_updated": "2026-03-17T22:13:35.727902+00:00"
     },
     "99designs/iamy": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 40580894,
         "name": "iamy",
@@ -106206,7 +106321,9 @@
       "last_updated": "2026-03-17T22:13:42.138013+00:00"
     },
     "ustayready/cloudgpt": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 627571493,
         "name": "cloudgpt",
@@ -106366,7 +106483,9 @@
       "last_updated": "2026-03-17T22:13:43.857917+00:00"
     },
     "awslabs/resource-lister": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 618657703,
         "name": "resource-lister",
@@ -106674,7 +106793,9 @@
       "last_updated": "2026-03-17T22:13:46.955660+00:00"
     },
     "aws-otel/aws-otel.github.io": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 305530303,
         "name": "aws-otel.github.io",
@@ -106856,7 +106977,9 @@
       "last_updated": "2026-03-17T22:13:48.967901+00:00"
     },
     "richlamdev/tf-syslog-ng": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 470441470,
         "name": "tf-syslog-ng",
@@ -107136,7 +107259,9 @@
       "last_updated": "2026-03-17T22:13:51.905992+00:00"
     },
     "rams3sh/Aaia": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 199247716,
         "name": "Aaia",
@@ -107156,7 +107281,9 @@
       "last_updated": "2026-03-17T22:13:52.082070+00:00"
     },
     "widdix/complete-aws-iam-reference": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 64366979,
         "name": "complete-aws-iam-reference",
@@ -107176,7 +107303,9 @@
       "last_updated": "2026-03-17T22:13:52.295396+00:00"
     },
     "flosell/iam-policy-json-to-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 131406584,
         "name": "iam-policy-json-to-terraform",
@@ -107196,7 +107325,9 @@
       "last_updated": "2026-03-17T22:13:52.494113+00:00"
     },
     "flosell/trailscraper": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 112079872,
         "name": "trailscraper",
@@ -107618,7 +107749,9 @@
       "last_updated": "2026-03-17T22:13:56.945097+00:00"
     },
     "aws-samples/service-catalog-engine-for-terraform-os": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 595283949,
         "name": "service-catalog-engine-for-terraform-os",
@@ -108366,7 +108499,9 @@
       "last_updated": "2026-03-17T22:14:04.840769+00:00"
     },
     "pipetail/cloudlint": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 258132471,
         "name": "cloudlint",
@@ -108751,7 +108886,8 @@
     },
     "aws/ec2-macos-init": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "AWS"
       ],
       "metadata": {
         "id": 288842558,
@@ -108814,7 +108950,9 @@
       "last_updated": "2026-03-17T22:14:09.681790+00:00"
     },
     "awsdocs/iam-user-guide": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 112771924,
         "name": "iam-user-guide",
@@ -108894,7 +109032,9 @@
       "last_updated": "2026-03-17T22:14:10.458417+00:00"
     },
     "aws-samples/aws-modernization-with-hashicorp-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 387833315,
         "name": "aws-modernization-with-hashicorp-terraform",
@@ -108994,7 +109134,9 @@
       "last_updated": "2026-03-17T22:14:11.602130+00:00"
     },
     "hashicorp/tfc-guide-example": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 216647708,
         "name": "tfc-guide-example",
@@ -109014,7 +109156,9 @@
       "last_updated": "2026-03-17T22:14:11.820699+00:00"
     },
     "hashicorp/terraform-guides": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 110382488,
         "name": "terraform-guides",
@@ -109334,7 +109478,9 @@
       "last_updated": "2026-03-17T22:14:15.187089+00:00"
     },
     "rogerwelin/cfnctl": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 403886429,
         "name": "cfnctl",
@@ -109854,7 +110000,9 @@
       "last_updated": "2026-03-17T22:14:20.615467+00:00"
     },
     "Systanics/CloudGlance": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 515726702,
         "name": "CloudGlance",
@@ -110056,7 +110204,9 @@
       "last_updated": "2026-03-17T22:14:22.688774+00:00"
     },
     "cloudandthings/terraform-aws-clickops-notifier": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 469002061,
         "name": "terraform-aws-clickops-notifier",
@@ -110196,7 +110346,9 @@
       "last_updated": "2026-03-17T22:14:23.982099+00:00"
     },
     "nginx/nginx-s3-gateway": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 296727267,
         "name": "nginx-s3-gateway",
@@ -110256,7 +110408,9 @@
       "last_updated": "2026-03-17T22:14:24.651966+00:00"
     },
     "aws-samples/hardeneks": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 576434460,
         "name": "hardeneks",
@@ -110316,7 +110470,9 @@
       "last_updated": "2026-03-17T22:14:25.299330+00:00"
     },
     "awslabs/terraform-iam-policy-validator": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 526791859,
         "name": "terraform-iam-policy-validator",
@@ -110336,7 +110492,9 @@
       "last_updated": "2026-03-17T22:14:25.546647+00:00"
     },
     "awslabs/aws-terraform-dev-container": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 550729194,
         "name": "aws-terraform-dev-container",
@@ -110356,7 +110514,9 @@
       "last_updated": "2026-03-17T22:14:25.793654+00:00"
     },
     "awslabs/operational-readiness-review-custom-war-lens": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 610478619,
         "name": "operational-readiness-review-custom-war-lens",
@@ -110436,7 +110596,9 @@
       "last_updated": "2026-03-17T22:14:26.684700+00:00"
     },
     "common-fate/cf-provider-cloudwatch-log-groups": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 610518515,
         "name": "cf-provider-cloudwatch-log-groups",
@@ -110700,7 +110862,9 @@
       "last_updated": "2026-03-17T22:14:29.290659+00:00"
     },
     "aws-samples/hub-and-spoke-with-inspection-vpc-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 437248686,
         "name": "hub-and-spoke-with-inspection-vpc-terraform",
@@ -110720,7 +110884,9 @@
       "last_updated": "2026-03-17T22:14:29.564553+00:00"
     },
     "aws-samples/non-routable-secondary-vpc-cidr-patterns": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 536253312,
         "name": "non-routable-secondary-vpc-cidr-patterns",
@@ -110740,7 +110906,9 @@
       "last_updated": "2026-03-17T22:14:29.825856+00:00"
     },
     "aws-samples/aws-transit-gateway-vpc-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 591082055,
         "name": "aws-transit-gateway-vpc-terraform",
@@ -110760,7 +110928,9 @@
       "last_updated": "2026-03-17T22:14:30.058373+00:00"
     },
     "aws-samples/aws-control-tower-terraform-modules": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 417562192,
         "name": "aws-control-tower-terraform-modules",
@@ -110800,7 +110970,9 @@
       "last_updated": "2026-03-17T22:14:30.487708+00:00"
     },
     "TeraSky-OSS/laze": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 426273461,
         "name": "laze",
@@ -110820,7 +110992,9 @@
       "last_updated": "2026-03-17T22:14:30.787279+00:00"
     },
     "karadikid/landing-zone": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 133411681,
         "name": "landing-zone",
@@ -110840,7 +111014,9 @@
       "last_updated": "2026-03-17T22:14:30.968961+00:00"
     },
     "devk-insurance/landing-zone": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 243519694,
         "name": "landing-zone",
@@ -110860,7 +111036,9 @@
       "last_updated": "2026-03-17T22:14:31.177365+00:00"
     },
     "clouddrove/cloudformation-aws-landing-zone": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 172382750,
         "name": "cloudformation-aws-landing-zone",
@@ -110880,7 +111058,9 @@
       "last_updated": "2026-03-17T22:14:31.382820+00:00"
     },
     "awslabs/landing-zone-accelerator-on-aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 491973222,
         "name": "landing-zone-accelerator-on-aws",
@@ -110900,7 +111080,9 @@
       "last_updated": "2026-03-17T22:14:31.642894+00:00"
     },
     "simonw/s3-ocr": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 508461227,
         "name": "s3-ocr",
@@ -111140,7 +111322,9 @@
       "last_updated": "2026-03-17T22:14:34.091885+00:00"
     },
     "iann0036/iamlive": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 335925753,
         "name": "iamlive",
@@ -111802,7 +111986,9 @@
       "last_updated": "2026-03-17T22:14:40.463387+00:00"
     },
     "cloudposse-archives/reference-architectures": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 162383180,
         "name": "reference-architectures",
@@ -111822,7 +112008,9 @@
       "last_updated": "2026-03-17T22:14:40.665621+00:00"
     },
     "clowdhaus/vpc-reference-architecture": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 468130225,
         "name": "vpc-reference-architecture",
@@ -111842,7 +112030,9 @@
       "last_updated": "2026-03-17T22:14:40.891046+00:00"
     },
     "SimpleITAutomation/bb-devops-tf-aws-organizations": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 243588114,
         "name": "bb-devops-tf-aws-organizations",
@@ -111882,7 +112072,9 @@
       "last_updated": "2026-03-17T22:14:41.334478+00:00"
     },
     "antonbabenko/terragrunt-reference-architecture": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 185387357,
         "name": "terragrunt-reference-architecture",
@@ -112004,7 +112196,9 @@
       "last_updated": "2026-03-17T22:14:42.472134+00:00"
     },
     "cloudposse/terraform-aws-cloudformation-stack": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 220947914,
         "name": "terraform-aws-cloudformation-stack",
@@ -112024,7 +112218,9 @@
       "last_updated": "2026-03-17T22:14:42.679211+00:00"
     },
     "humanmade/cf-to-tf": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 99177245,
         "name": "cf-to-tf",
@@ -112208,7 +112404,9 @@
       "last_updated": "2026-03-17T22:14:44.367430+00:00"
     },
     "binbashar/le-tf-infra-aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 175842832,
         "name": "le-tf-infra-aws",
@@ -112228,7 +112426,9 @@
       "last_updated": "2026-03-17T22:14:44.582430+00:00"
     },
     "neocorp/aws_vpc_ec2": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 160425322,
         "name": "aws_vpc_ec2",
@@ -112248,7 +112448,9 @@
       "last_updated": "2026-03-17T22:14:44.768824+00:00"
     },
     "aws-samples/baseline-environment-on-aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 360516538,
         "name": "baseline-environment-on-aws",
@@ -112268,7 +112470,9 @@
       "last_updated": "2026-03-17T22:14:45.008704+00:00"
     },
     "org-formation/org-formation-reference": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 327900202,
         "name": "org-formation-reference",
@@ -112670,7 +112874,9 @@
       "last_updated": "2026-03-17T22:14:49.059566+00:00"
     },
     "aws-cloudformation/cfn-lint": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 129005655,
         "name": "cfn-lint",
@@ -112770,7 +112976,9 @@
       "last_updated": "2026-03-17T22:14:50.136860+00:00"
     },
     "IBM/NetDash": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 142632522,
         "name": "NetDash",
@@ -112890,7 +113098,9 @@
       "last_updated": "2026-03-17T22:14:51.267988+00:00"
     },
     "aws-samples/ecs-refarch-cloudformation": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 67635521,
         "name": "ecs-refarch-cloudformation",
@@ -112990,7 +113200,9 @@
       "last_updated": "2026-03-17T22:14:52.273024+00:00"
     },
     "aws-samples/aws-security-reference-architecture-examples": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 288828390,
         "name": "aws-security-reference-architecture-examples",
@@ -113132,7 +113344,9 @@
       "last_updated": "2026-03-17T22:14:53.735996+00:00"
     },
     "bridgecrewio/cfngoat": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 258656556,
         "name": "cfngoat",
@@ -113152,7 +113366,9 @@
       "last_updated": "2026-03-17T22:14:53.918428+00:00"
     },
     "bridgecrewio/HowCrew": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 190057417,
         "name": "HowCrew",
@@ -113416,7 +113632,9 @@
       "last_updated": "2026-03-17T22:14:56.345219+00:00"
     },
     "SummitRoute/aws_breaking_changes": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 184758505,
         "name": "aws_breaking_changes",
@@ -113840,7 +114058,9 @@
       "last_updated": "2026-03-17T22:15:00.528855+00:00"
     },
     "aws-observability/aws-otel-collector": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 295875994,
         "name": "aws-otel-collector",
@@ -115646,7 +115866,9 @@
       "last_updated": "2026-03-17T22:15:19.771605+00:00"
     },
     "awslabs/eks-node-viewer": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 575555632,
         "name": "eks-node-viewer",
@@ -115926,7 +116148,9 @@
       "last_updated": "2026-03-17T22:15:22.831267+00:00"
     },
     "Cloud-Architects/cloudiscovery": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 260712454,
         "name": "cloudiscovery",
@@ -116006,7 +116230,9 @@
       "last_updated": "2026-03-17T22:15:23.669412+00:00"
     },
     "scalefactory/s3audit-ts": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 212078123,
         "name": "s3audit-ts",
@@ -116026,7 +116252,9 @@
       "last_updated": "2026-03-17T22:15:23.852511+00:00"
     },
     "abhaybhargav/bucketeer": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 122057493,
         "name": "bucketeer",
@@ -116046,7 +116274,9 @@
       "last_updated": "2026-03-17T22:15:24.008757+00:00"
     },
     "aquasecurity/cloudsploit": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 38255391,
         "name": "cloudsploit",
@@ -116326,7 +116556,9 @@
       "last_updated": "2026-03-17T22:15:26.891254+00:00"
     },
     "MayaraCloud/apt-transport-s3": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 22605370,
         "name": "apt-transport-s3",
@@ -116366,7 +116598,9 @@
       "last_updated": "2026-03-17T22:15:27.287225+00:00"
     },
     "aws-quickstart/quickstart-aws-vpc": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 57407552,
         "name": "quickstart-aws-vpc",
@@ -116386,7 +116620,9 @@
       "last_updated": "2026-03-17T22:15:27.492553+00:00"
     },
     "awslabs/aws-well-architected-labs": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 133082838,
         "name": "aws-well-architected-labs",
@@ -116406,7 +116642,9 @@
       "last_updated": "2026-03-17T22:15:27.693555+00:00"
     },
     "aws-samples/aws-vpc-peering-terraform-inspec": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 384309224,
         "name": "aws-vpc-peering-terraform-inspec",
@@ -117382,7 +117620,9 @@
       "last_updated": "2026-03-17T22:15:37.166923+00:00"
     },
     "aws-samples/amazon-ec2-auto-scaling-group-examples": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 353089723,
         "name": "amazon-ec2-auto-scaling-group-examples",
@@ -117444,7 +117684,9 @@
       "last_updated": "2026-03-17T22:15:37.837275+00:00"
     },
     "bwhaley/ssmsh": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 107459865,
         "name": "ssmsh",
@@ -117990,7 +118232,9 @@
       "last_updated": "2026-03-17T22:15:43.294994+00:00"
     },
     "jorgebastida/awslogs": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 29613985,
         "name": "awslogs",
@@ -118090,7 +118334,9 @@
       "last_updated": "2026-03-17T22:15:44.392970+00:00"
     },
     "prowler-cloud/prowler": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 66474729,
         "name": "prowler",
@@ -118917,7 +119163,8 @@
     },
     "gjbae1212/gossm": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "AWS"
       ],
       "metadata": {
         "id": 195654997,
@@ -119664,7 +119911,9 @@
       "last_updated": "2026-03-17T22:15:59.950661+00:00"
     },
     "disneystreaming/ssm-helpers": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 222777077,
         "name": "ssm-helpers",
@@ -119704,7 +119953,9 @@
       "last_updated": "2026-03-17T22:16:00.367181+00:00"
     },
     "aws-samples/devsecops-terraform-dojo-codepipeline": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 445161449,
         "name": "devsecops-terraform-dojo-codepipeline",
@@ -119724,7 +119975,9 @@
       "last_updated": "2026-03-17T22:16:00.615074+00:00"
     },
     "aws-samples/aws-startup-landing-zone-terraform-example": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 436455380,
         "name": "aws-startup-landing-zone-terraform-example",
@@ -119744,7 +119997,9 @@
       "last_updated": "2026-03-17T22:16:00.875773+00:00"
     },
     "aws-samples/gitlab-cicd-runners-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 383790300,
         "name": "gitlab-cicd-runners-terraform",
@@ -119824,7 +120079,9 @@
       "last_updated": "2026-03-17T22:16:01.703883+00:00"
     },
     "aws-samples/terraform-sample-workshop": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 331712292,
         "name": "terraform-sample-workshop",
@@ -119844,7 +120101,9 @@
       "last_updated": "2026-03-17T22:16:01.984900+00:00"
     },
     "aws-samples/aws-tf-kms": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 493307241,
         "name": "aws-tf-kms",
@@ -119864,7 +120123,9 @@
       "last_updated": "2026-03-17T22:16:02.242695+00:00"
     },
     "aws-samples/aws2tf": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 309733152,
         "name": "aws2tf",
@@ -119884,7 +120145,9 @@
       "last_updated": "2026-03-17T22:16:02.480195+00:00"
     },
     "aws-samples/hub-and-spoke-with-shared-services-vpc-terraform": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 445445953,
         "name": "hub-and-spoke-with-shared-services-vpc-terraform",
@@ -120004,7 +120267,9 @@
       "last_updated": "2026-03-17T22:16:03.745753+00:00"
     },
     "padok-team/yatas": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 521554664,
         "name": "yatas",
@@ -120106,7 +120371,9 @@
       "last_updated": "2026-03-17T22:16:04.832354+00:00"
     },
     "chime/terraform-aws-alternat": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 529406391,
         "name": "terraform-aws-alternat",
@@ -120288,7 +120555,9 @@
       "last_updated": "2026-03-17T22:16:06.648167+00:00"
     },
     "Optum/dce": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 190038645,
         "name": "dce",
@@ -120309,7 +120578,8 @@
     },
     "thomasmichaelwallace/serverless-better-credentials": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "AWS"
       ],
       "metadata": {
         "id": 462233098,
@@ -120372,7 +120642,9 @@
       "last_updated": "2026-03-17T22:16:07.481522+00:00"
     },
     "bridgecrewio/AirIAM": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 241606408,
         "name": "AirIAM",
@@ -120654,7 +120926,9 @@
       "last_updated": "2026-03-17T22:16:10.217766+00:00"
     },
     "awsdocs/aws-doc-sdk-examples": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 66023605,
         "name": "aws-doc-sdk-examples",
@@ -120954,7 +121228,9 @@
       "last_updated": "2026-03-17T22:16:13.246065+00:00"
     },
     "aws-cloudformation/aws-cloudformation-templates": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 47648925,
         "name": "aws-cloudformation-templates",
@@ -121114,7 +121390,9 @@
       "last_updated": "2026-03-17T22:16:14.937430+00:00"
     },
     "SungardAS/ec2-metadata": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 71912160,
         "name": "ec2-metadata",
@@ -121134,7 +121412,9 @@
       "last_updated": "2026-03-17T22:16:15.149509+00:00"
     },
     "insight-infrastructure/terraform-aws-ec2-basic": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 203874434,
         "name": "terraform-aws-ec2-basic",
@@ -121154,7 +121434,9 @@
       "last_updated": "2026-03-17T22:16:15.397018+00:00"
     },
     "jszwedko/ec2-metadatafs": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 49930758,
         "name": "ec2-metadatafs",
@@ -121174,7 +121456,9 @@
       "last_updated": "2026-03-17T22:16:15.578399+00:00"
     },
     "dump247/ec2metaproxy": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 26609615,
         "name": "ec2metaproxy",
@@ -121194,7 +121478,9 @@
       "last_updated": "2026-03-17T22:16:15.803480+00:00"
     },
     "common-fate/glide": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 511176455,
         "name": "glide",
@@ -121374,7 +121660,9 @@
       "last_updated": "2026-03-17T22:16:17.726546+00:00"
     },
     "cloudtools/troposphere": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 7137821,
         "name": "troposphere",
@@ -121414,7 +121702,9 @@
       "last_updated": "2026-03-17T22:16:18.107279+00:00"
     },
     "stelligent/cfn_nag": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 51515624,
         "name": "cfn_nag",
@@ -121434,7 +121724,9 @@
       "last_updated": "2026-03-17T22:16:18.316332+00:00"
     },
     "stelligent/stelligent-u": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 307450568,
         "name": "stelligent-u",
@@ -122076,7 +122368,9 @@
       "last_updated": "2026-03-17T22:16:24.820700+00:00"
     },
     "pop3ret/AWSome-Pentesting": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 546260177,
         "name": "AWSome-Pentesting",
@@ -122418,7 +122712,9 @@
       "last_updated": "2026-03-17T22:16:28.245751+00:00"
     },
     "aquasecurity/cloud-security-remediation-guides": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 156933342,
         "name": "cloud-security-remediation-guides",
@@ -123328,7 +123624,9 @@
       "last_updated": "2026-03-17T22:16:37.852832+00:00"
     },
     "BishopFox/cloudfox": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 534023067,
         "name": "cloudfox",
@@ -123908,7 +124206,9 @@
       "last_updated": "2026-03-17T22:16:43.559745+00:00"
     },
     "elpy1/ssh-over-ssm": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 236282042,
         "name": "ssh-over-ssm",
@@ -123928,7 +124228,9 @@
       "last_updated": "2026-03-17T22:16:43.750975+00:00"
     },
     "gl4ssesbo1/Nebula": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 358627334,
         "name": "Nebula",
@@ -123988,7 +124290,9 @@
       "last_updated": "2026-03-17T22:16:44.326215+00:00"
     },
     "turbot/steampipe-mod-aws-compliance": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 369007647,
         "name": "steampipe-mod-aws-compliance",
@@ -124450,7 +124754,9 @@
       "last_updated": "2026-03-17T22:16:48.936958+00:00"
     },
     "GoogleCloudPlatform/terraformer": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 184490584,
         "name": "terraformer",
@@ -125012,7 +125318,9 @@
       "last_updated": "2026-03-17T22:16:56.428147+00:00"
     },
     "tenable/access-undenied-aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 451608660,
         "name": "access-undenied-aws",
@@ -125132,7 +125440,9 @@
       "last_updated": "2026-03-17T22:16:57.587222+00:00"
     },
     "anomalyco/sst": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 285092252,
         "name": "sst",
@@ -125836,7 +126146,9 @@
       "last_updated": "2026-03-17T22:17:04.575190+00:00"
     },
     "anaynayak/aws-security-viz": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 2410040,
         "name": "aws-security-viz",
@@ -125856,7 +126168,9 @@
       "last_updated": "2026-03-17T22:17:04.739554+00:00"
     },
     "nccgroup/ScoutSuite": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 155376283,
         "name": "ScoutSuite",
@@ -125876,7 +126190,9 @@
       "last_updated": "2026-03-17T22:17:04.912440+00:00"
     },
     "sense-of-security/aws-maltego": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 207934200,
         "name": "aws-maltego",
@@ -125896,7 +126212,9 @@
       "last_updated": "2026-03-17T22:17:05.144679+00:00"
     },
     "swoodford/aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 27456468,
         "name": "aws",
@@ -125917,7 +126235,8 @@
     },
     "linaro-its/aws2-wrap": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "AWS"
       ],
       "metadata": {
         "id": 231330732,
@@ -125938,7 +126257,9 @@
       "last_updated": "2026-03-17T22:17:05.520456+00:00"
     },
     "fwdcloudsec/granted": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 459240458,
         "name": "granted",
@@ -126504,7 +126825,9 @@
       "last_updated": "2026-03-17T22:17:11.089191+00:00"
     },
     "broamski/aws-mfa": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 48399035,
         "name": "aws-mfa",
@@ -126728,7 +127051,9 @@
       "last_updated": "2026-03-17T22:17:13.115020+00:00"
     },
     "glassechidna/trackiam": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 216315825,
         "name": "trackiam",
@@ -127292,7 +127617,9 @@
       "last_updated": "2026-03-17T22:17:19.480530+00:00"
     },
     "turbot/steampipe-mod-aws-perimeter": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 491892915,
         "name": "steampipe-mod-aws-perimeter",
@@ -127598,7 +127925,9 @@
       "last_updated": "2026-03-17T22:17:22.594195+00:00"
     },
     "cycloidio/inframap": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 277649384,
         "name": "inframap",
@@ -130862,7 +131191,9 @@
       "last_updated": "2026-03-17T22:17:54.676948+00:00"
     },
     "nccgroup/PMapper": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 134493334,
         "name": "PMapper",
@@ -131822,7 +132153,9 @@
       "last_updated": "2026-03-17T22:18:04.094426+00:00"
     },
     "mingrammer/diagrams": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 237791077,
         "name": "diagrams",
@@ -140724,7 +141057,9 @@
       "last_updated": "2026-03-17T22:19:33.357894+00:00"
     },
     "infracost/infracost": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 274625369,
         "name": "infracost",
@@ -140924,7 +141259,9 @@
       "last_updated": "2026-03-17T22:19:35.485612+00:00"
     },
     "salesforce/cloudsplaining": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 256772852,
         "name": "cloudsplaining",
@@ -140964,7 +141301,9 @@
       "last_updated": "2026-03-17T22:19:35.879973+00:00"
     },
     "amazonlinux/amazon-linux-2023": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 427207813,
         "name": "amazon-linux-2023",
@@ -141606,7 +141945,9 @@
       "last_updated": "2026-03-17T22:19:42.405136+00:00"
     },
     "open-guides/og-aws": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 63266213,
         "name": "og-aws",
@@ -141766,7 +142107,9 @@
       "last_updated": "2026-03-17T22:19:43.962407+00:00"
     },
     "bloomreach/s4cmd": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 6624198,
         "name": "s4cmd",
@@ -141866,7 +142209,9 @@
       "last_updated": "2026-03-17T22:19:45.037304+00:00"
     },
     "localstack/localstack": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 71948498,
         "name": "localstack",
@@ -142508,7 +142853,9 @@
       "last_updated": "2026-03-17T22:19:51.128188+00:00"
     },
     "salesforce/policy_sentry": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 209652627,
         "name": "policy_sentry",
@@ -142868,7 +143215,9 @@
       "last_updated": "2026-03-17T22:19:54.746151+00:00"
     },
     "gruntwork-io/cloud-nuke": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 90905599,
         "name": "cloud-nuke",
@@ -142928,7 +143277,9 @@
       "last_updated": "2026-03-17T22:19:55.374669+00:00"
     },
     "99designs/aws-vault": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 40539602,
         "name": "aws-vault",
@@ -143108,7 +143459,9 @@
       "last_updated": "2026-03-17T22:19:57.226261+00:00"
     },
     "rebuy-de/aws-nuke": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 74891203,
         "name": "aws-nuke",
@@ -143168,7 +143521,9 @@
       "last_updated": "2026-03-17T22:19:57.893639+00:00"
     },
     "cloud-custodian/cloud-custodian": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 52837350,
         "name": "cloud-custodian",
@@ -144068,7 +144423,9 @@
       "last_updated": "2026-03-17T22:20:06.994453+00:00"
     },
     "toniblyx/my-arsenal-of-aws-security-tools": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 141482866,
         "name": "my-arsenal-of-aws-security-tools",
@@ -145428,7 +145785,9 @@
       "last_updated": "2026-03-17T22:20:23.320957+00:00"
     },
     "dagrz/aws_pwn": {
-      "lists": [],
+      "lists": [
+        "AWS"
+      ],
       "metadata": {
         "id": 71204465,
         "name": "aws_pwn",
