@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:10:57.111995+00:00",
+  "last_updated": "2026-03-17T23:10:58.862359+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -6077,7 +6077,9 @@
       }
     },
     "danthegoodman1/netfence": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 1136069581,
         "name": "netfence",
@@ -6863,7 +6865,9 @@
       }
     },
     "loresuso/psc": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 1124600679,
         "name": "psc",
@@ -34250,7 +34254,8 @@
     },
     "qpoint-io/qtap": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 967512112,
@@ -55791,7 +55796,8 @@
     },
     "hengyoush/kyanos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 793985221,
@@ -58974,7 +58980,9 @@
       }
     },
     "intel/processwatch": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 541777520,
         "name": "processwatch",
@@ -64808,7 +64816,8 @@
     },
     "mozillazg/ptcpdump": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 782416935,
@@ -94314,7 +94323,9 @@
       "last_updated": "2026-03-17T22:11:12.461689+00:00"
     },
     "eunomia-bpf/bpftime": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 676866666,
         "name": "bpftime",
@@ -103567,7 +103578,8 @@
     },
     "oracle/bpftune": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 638533777,
@@ -104968,7 +104980,9 @@
       "last_updated": "2026-03-17T22:13:00.606428+00:00"
     },
     "cilium/coverbee": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 507832634,
         "name": "coverbee",
@@ -107510,7 +107524,9 @@
       "last_updated": "2026-03-17T22:13:27.442043+00:00"
     },
     "google/buzzer": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 616981397,
         "name": "buzzer",
@@ -111538,7 +111554,8 @@
     },
     "odigos-io/odigos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 501095512,
@@ -119855,7 +119872,8 @@
     },
     "cilium/hubble": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 222612062,
@@ -125807,7 +125825,9 @@
       "last_updated": "2026-03-17T22:16:24.664004+00:00"
     },
     "roddhjav/apparmor.d": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 365526415,
         "name": "apparmor.d",
@@ -126284,7 +126304,9 @@
       "last_updated": "2026-03-17T22:16:29.224475+00:00"
     },
     "libbpf/bpftool": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 448429441,
         "name": "bpftool",
@@ -126325,7 +126347,8 @@
     },
     "brendangregg/perf-tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 21708091,
@@ -129156,7 +129179,8 @@
     },
     "grafana/pyroscope": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 325724738,
@@ -131035,7 +131059,9 @@
       "last_updated": "2026-03-17T22:17:16.308898+00:00"
     },
     "aquasecurity/libbpfgo": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 366477581,
         "name": "libbpfgo",
@@ -135615,7 +135641,8 @@
     "bpftrace/bpftrace": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "eBPF"
       ],
       "metadata": {
         "id": 146842101,
@@ -135638,7 +135665,8 @@
     "ntop/ntopng": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "eBPF"
       ],
       "metadata": {
         "id": 34847907,
@@ -135681,7 +135709,8 @@
     "aquasecurity/tracee": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "eBPF"
       ],
       "metadata": {
         "id": 209313689,
@@ -135954,7 +135983,8 @@
     },
     "iovisor/iovisor-ovn": {
       "lists": [
-        "Devops"
+        "Devops",
+        "eBPF"
       ],
       "metadata": {
         "id": 66822651,
@@ -135998,7 +136028,9 @@
       "last_updated": "2026-03-17T22:18:03.293239+00:00"
     },
     "iovisor/ubpf": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 42490910,
         "name": "ubpf",
@@ -141481,7 +141513,9 @@
       "last_updated": "2026-03-17T22:18:56.515705+00:00"
     },
     "qmonnet/awesome-ebpf": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 109623221,
         "name": "awesome-ebpf",
@@ -141501,7 +141535,9 @@
       "last_updated": "2026-03-17T22:18:56.696811+00:00"
     },
     "iovisor/bcc": {
-      "lists": [],
+      "lists": [
+        "eBPF"
+      ],
       "metadata": {
         "id": 34921116,
         "name": "bcc",
