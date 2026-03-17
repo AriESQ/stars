@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-03-17T23:13:52.255068+00:00",
+  "last_updated": "2026-03-17T23:13:59.152192+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
         "Apple and M1 virtualization",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 1140644614,
@@ -474,7 +475,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 389117398,
@@ -503,7 +505,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 383950914,
@@ -1167,7 +1170,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 627894902,
@@ -1548,7 +1552,8 @@
     },
     "Aldaviva/AuthenticatorChooser": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 771810714,
@@ -11673,7 +11678,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 1078762196,
@@ -12579,7 +12585,8 @@
     },
     "square/Valet": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "PKI"
       ],
       "metadata": {
         "id": 36665359,
@@ -12636,7 +12643,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "PKI"
       ],
       "metadata": {
         "id": 474016628,
@@ -27789,7 +27797,9 @@
       }
     },
     "bcgit/pc-dart": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 225955561,
         "name": "pc-dart",
@@ -33630,7 +33640,9 @@
       }
     },
     "volution/punchcard-key-backup": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 993754621,
         "name": "punchcard-key-backup",
@@ -36208,7 +36220,8 @@
     "qpoint-io/qtap": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "PKI"
       ],
       "metadata": {
         "id": 967512112,
@@ -40417,7 +40430,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 528247705,
@@ -41154,7 +41168,9 @@
       }
     },
     "openpubkey/opkssh": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 949493073,
         "name": "opkssh",
@@ -43470,7 +43486,8 @@
     "Foxboron/sbctl": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 260986040,
@@ -44164,7 +44181,8 @@
     },
     "square/certigo": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 59852599,
@@ -44450,7 +44468,8 @@
     "cashapp/pivit": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 536699455,
@@ -46570,7 +46589,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 834618694,
@@ -51412,7 +51432,8 @@
         "API",
         "Authentication",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 594291409,
@@ -52556,7 +52577,8 @@
     "skariel/keypub": {
       "lists": [
         "Authentication",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 906339627,
@@ -53536,7 +53558,8 @@
       "lists": [
         "API",
         "Authentication",
-        "JavaScript"
+        "JavaScript",
+        "PKI"
       ],
       "metadata": {
         "id": 887503379,
@@ -63566,7 +63589,8 @@
     "nh2/internal-contstrained-pki": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 874599925,
@@ -79514,7 +79538,8 @@
     },
     "antonputra/nginx-certbot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 825388500,
@@ -95297,7 +95322,9 @@
       "last_updated": "2026-03-17T22:10:29.629074+00:00"
     },
     "FiloSottile/sunlight": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 737347651,
         "name": "sunlight",
@@ -95806,7 +95833,8 @@
     "open-source-cooperative/keyring-rs": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 51272473,
@@ -95829,7 +95857,8 @@
     "heyrema/server": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 384524655,
@@ -97379,7 +97408,9 @@
       "last_updated": "2026-03-17T22:10:48.633931+00:00"
     },
     "Nitrokey/nitrokey-start-firmware": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 40630184,
         "name": "nitrokey-start-firmware",
@@ -102514,7 +102545,9 @@
       "last_updated": "2026-03-17T22:11:37.426237+00:00"
     },
     "osresearch/hackerspace-zone": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 487940405,
         "name": "hackerspace-zone",
@@ -104183,7 +104216,8 @@
     },
     "cackle-rs/cackle": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 621101554,
@@ -104251,7 +104285,8 @@
     "Shopify/ejson": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 19246943,
@@ -106114,7 +106149,8 @@
     "cedrickchee/awesome-wireguard": {
       "lists": [
         "Devops",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 381382807,
@@ -106137,7 +106173,8 @@
     "netbirdio/netbird": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 357897199,
@@ -106203,7 +106240,8 @@
     },
     "go-piv/piv-go": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 232227589,
@@ -106844,7 +106882,8 @@
     },
     "markbates/goth": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 25225549,
@@ -106867,7 +106906,8 @@
     "JamesHovious/hashid": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 170311000,
@@ -107249,7 +107289,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 671549172,
@@ -107274,7 +107315,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 344174158,
@@ -107299,7 +107341,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 110477993,
@@ -107323,7 +107366,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 96237508,
@@ -107348,7 +107392,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 307038773,
@@ -108617,7 +108662,8 @@
     "noahbliss/mortar": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 233640466,
@@ -108639,7 +108685,8 @@
     },
     "tpm2-software/tpm2-tss-engine": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 136935379,
@@ -108662,7 +108709,8 @@
     "ionescu007/tpmtool": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 271381463,
@@ -108684,7 +108732,8 @@
     },
     "wolfSSL/wolfTPM": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 119579647,
@@ -108707,7 +108756,8 @@
     "ThomasHabets/simple-tpm-pk11": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 14754440,
@@ -108730,7 +108780,8 @@
     "tpm2-software/tpm2-openssl": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 341633769,
@@ -109417,7 +109468,8 @@
     "zitadel/zitadel": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 247714750,
@@ -109809,7 +109861,9 @@
       "last_updated": "2026-03-17T22:12:47.497420+00:00"
     },
     "authlib/authlib": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 108510280,
         "name": "authlib",
@@ -109897,7 +109951,8 @@
     },
     "openenclave/openenclave": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 101804230,
@@ -110515,7 +110570,8 @@
     },
     "hickford/git-credential-oauth": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 551557177,
@@ -111538,7 +111594,8 @@
     },
     "cli/oauth": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 319138550,
@@ -112141,7 +112198,9 @@
       "last_updated": "2026-03-17T22:13:09.721079+00:00"
     },
     "certifi/python-certifi": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 3060959,
         "name": "python-certifi",
@@ -113399,7 +113458,8 @@
     },
     "arekinath/pivy": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 127060932,
@@ -113731,7 +113791,8 @@
     },
     "moul/quicssh": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 196770665,
@@ -114373,7 +114434,8 @@
     "ryantm/agenix": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 291897139,
@@ -114396,7 +114458,8 @@
     "FiloSottile/awesome-age": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 631214572,
@@ -114417,7 +114480,9 @@
       "last_updated": "2026-03-17T22:13:31.945424+00:00"
     },
     "glyph/tokenring": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 626578893,
         "name": "tokenring",
@@ -114657,7 +114722,8 @@
     },
     "DataDog/yubikey": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 119881265,
@@ -114948,7 +115014,8 @@
     "freeipa/freeipa": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 4340318,
@@ -115167,7 +115234,9 @@
       "last_updated": "2026-03-17T22:13:39.112615+00:00"
     },
     "syncsynchalt/dime-a-tap": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 151443668,
         "name": "dime-a-tap",
@@ -115187,7 +115256,9 @@
       "last_updated": "2026-03-17T22:13:39.340844+00:00"
     },
     "syncsynchalt/illustrated-ssh": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 567021759,
         "name": "illustrated-ssh",
@@ -115207,7 +115278,9 @@
       "last_updated": "2026-03-17T22:13:39.540677+00:00"
     },
     "syncsynchalt/animated-curves": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 494179586,
         "name": "animated-curves",
@@ -115293,7 +115366,8 @@
     "grokify/goauth": {
       "lists": [
         "Authentication",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 94632819,
@@ -115338,7 +115412,8 @@
     "zalando/go-keyring": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 63615252,
@@ -116771,7 +116846,8 @@
     "chromium/badssl.com": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 33571868,
@@ -117390,7 +117466,9 @@
       "last_updated": "2026-03-17T22:14:00.542167+00:00"
     },
     "rustls/rustls-ffi": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 320029760,
         "name": "rustls-ffi",
@@ -117816,7 +117894,8 @@
     },
     "robertdebock/vault-sop-generator": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 619858726,
@@ -118142,7 +118221,8 @@
     "JustinCappos/tuf": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 20899518,
@@ -118164,7 +118244,8 @@
     },
     "notaryproject/notary": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 37743436,
@@ -118345,7 +118426,8 @@
     "jedisct1/minisign": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 37023739,
@@ -119833,7 +119915,8 @@
     "dexidp/dex": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 40916314,
@@ -121206,7 +121289,9 @@
       "last_updated": "2026-03-17T22:14:36.194359+00:00"
     },
     "hamelsmu/oauth-tutorial": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 600256096,
         "name": "oauth-tutorial",
@@ -121988,7 +122073,8 @@
     "namecoin/certinject": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 259853423,
@@ -122010,7 +122096,8 @@
     },
     "heiniovason/sslazy": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 266390439,
@@ -122032,7 +122119,8 @@
     },
     "syncsynchalt/illustrated-tls12": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 151671321,
@@ -122054,7 +122142,8 @@
     },
     "gojue/ecapture": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 469303019,
@@ -124181,7 +124270,8 @@
     },
     "romanz/trezor-agent": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 36983387,
@@ -124466,7 +124556,9 @@
       "last_updated": "2026-03-17T22:15:05.707556+00:00"
     },
     "lldap/lldap": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 343753772,
         "name": "lldap",
@@ -124486,7 +124578,9 @@
       "last_updated": "2026-03-17T22:15:05.880771+00:00"
     },
     "enarx/enarx": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 206337472,
         "name": "enarx",
@@ -124507,7 +124601,8 @@
     },
     "str4d/age-plugin-yubikey": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 291547252,
@@ -124530,7 +124625,8 @@
     "FiloSottile/passage": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 398438761,
@@ -124575,7 +124671,8 @@
     },
     "nickolashkraus/self-signed": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 202397377,
@@ -124760,7 +124857,8 @@
     "awnumar/memguard": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 89053003,
@@ -125021,7 +125119,8 @@
     "cloudflare/cfssl": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 21591001,
@@ -125356,7 +125455,9 @@
       "last_updated": "2026-03-17T22:15:14.541813+00:00"
     },
     "jsore/multi-github-ssh-keys": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 183691400,
         "name": "multi-github-ssh-keys",
@@ -125377,7 +125478,8 @@
     },
     "caddyserver/certmagic": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 161109499,
@@ -125401,7 +125503,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "PKI"
       ],
       "metadata": {
         "id": 508560980,
@@ -125443,7 +125546,8 @@
     },
     "apache/teaclave-trustzone-sdk": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 167625003,
@@ -126189,7 +126293,8 @@
     "SecureAuthCorp/oauth2c": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 507841912,
@@ -127062,7 +127167,8 @@
         "Authentication",
         "Bash",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 17476175,
@@ -127087,7 +127193,8 @@
         "Authentication",
         "Bash",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 529506792,
@@ -127111,7 +127218,8 @@
       "lists": [
         "Authentication",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 83845218,
@@ -127135,7 +127243,8 @@
       "lists": [
         "Authentication",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 31825852,
@@ -127159,7 +127268,8 @@
       "lists": [
         "Authentication",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 43807400,
@@ -127225,7 +127335,8 @@
     },
     "WassimBenzarti/colab-ssh": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "PKI"
       ],
       "metadata": {
         "id": 244010692,
@@ -127375,7 +127486,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 396856161,
@@ -127757,7 +127869,8 @@
     "puppetlabs/vault-plugin-secrets-oauthapp": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 209159033,
@@ -127890,7 +128003,9 @@
       "last_updated": "2026-03-17T22:15:37.584835+00:00"
     },
     "crtsh/root_programs": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 280537979,
         "name": "root_programs",
@@ -128325,7 +128440,8 @@
     "smallstep/step-issuer": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 202023779,
@@ -128709,7 +128825,8 @@
     },
     "cube0x0/PIVert-Relay": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 538112588,
@@ -129592,7 +129709,8 @@
         "GoLang",
         "Infosec",
         "Linux CLI Tools",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 195654997,
@@ -130298,7 +130416,8 @@
       "lists": [
         "Bash",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 135850078,
@@ -130323,7 +130442,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 71583866,
@@ -130347,7 +130467,8 @@
       "lists": [
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 80723074,
@@ -130369,7 +130490,8 @@
     },
     "apple/password-manager-resources": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 248599368,
@@ -130439,7 +130561,8 @@
         "Devops",
         "GoLang",
         "Linux CLI Tools",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 222777077,
@@ -130647,7 +130770,8 @@
         "AWS",
         "Devops",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 493307241,
@@ -130742,7 +130866,8 @@
     "aws/aws-lc": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 263967166,
@@ -130766,7 +130891,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 125619154,
@@ -130790,7 +130916,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 135321861,
@@ -131044,7 +131171,8 @@
         "Devops",
         "Docker and OCI containers",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 58842707,
@@ -131067,7 +131195,8 @@
     "sigstore/sigstore-python": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 447691086,
@@ -131530,7 +131659,9 @@
       "last_updated": "2026-03-17T22:16:09.863567+00:00"
     },
     "st3fan/arduino-aws-hsm": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 7381830,
         "name": "arduino-aws-hsm",
@@ -131596,7 +131727,8 @@
     },
     "danieljoos/wincred": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 21683884,
@@ -131618,7 +131750,8 @@
     },
     "git-ecosystem/git-credential-manager": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 158405551,
@@ -131640,7 +131773,8 @@
     },
     "teamhanko/hanko": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 469828818,
@@ -131663,7 +131797,8 @@
     "zx2c4/password-store": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 82003203,
@@ -132475,7 +132610,9 @@
       "last_updated": "2026-03-17T22:16:18.493868+00:00"
     },
     "linux-credentials/libwebauthn": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 255356874,
         "name": "libwebauthn",
@@ -133305,7 +133442,8 @@
     "Am0rphous/Unlock-LUKS-Encryption-Remotely": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 377478082,
@@ -133859,7 +133997,8 @@
     },
     "signalapp/Signal-TLS-Proxy": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 332911364,
@@ -133948,7 +134087,9 @@
       "last_updated": "2026-03-17T22:16:31.990944+00:00"
     },
     "cyberphone/ctap2-sign": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 525950303,
         "name": "ctap2-sign",
@@ -134037,7 +134178,8 @@
     "auth0/go-auth0": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 454421380,
@@ -134122,7 +134264,9 @@
       "last_updated": "2026-03-17T22:16:33.613469+00:00"
     },
     "xforcered/AdvSim.Cryptography": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 532588072,
         "name": "AdvSim.Cryptography",
@@ -134144,7 +134288,8 @@
     "Lukasa/mkcert": {
       "lists": [
         "API",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 23677524,
@@ -134214,7 +134359,8 @@
     "bulwarkid/virtual-fido": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 537229823,
@@ -134348,7 +134494,8 @@
     "spiffe/spiffe": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 99618772,
@@ -134371,7 +134518,8 @@
     "nirasan/go-oauth-pkce-code-verifier": {
       "lists": [
         "Authentication",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 100671892,
@@ -134393,7 +134541,8 @@
     },
     "refraction-networking/utls": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 102533852,
@@ -134927,7 +135076,8 @@
         "Devops",
         "GoLang",
         "Linux CLI Tools",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 306156862,
@@ -135086,7 +135236,8 @@
     "google/boringssl": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 53174933,
@@ -135109,7 +135260,8 @@
     "wolfSSL/wolfssl": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 28928522,
@@ -135153,7 +135305,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 28735637,
@@ -135200,7 +135353,8 @@
         "AWS",
         "Devops",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 236282042,
@@ -135489,7 +135643,8 @@
     "theparanoids/pam-ysshca": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 512907686,
@@ -135513,7 +135668,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 38275789,
@@ -135848,7 +136004,8 @@
     "carniz/ubuntu-yubikey-setup": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 163108820,
@@ -136117,7 +136274,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 31558937,
@@ -136186,7 +136344,8 @@
     "kanidm/kanidm": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 168782501,
@@ -136546,7 +136705,8 @@
     "antopemo/ssh-agent-guide": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 298297367,
@@ -136797,7 +136957,8 @@
     },
     "google/paranoid_crypto": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 490304872,
@@ -136819,7 +136980,8 @@
     },
     "tink-crypto/tink": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 20570214,
@@ -136996,7 +137158,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "PKI"
       ],
       "metadata": {
         "id": 491573171,
@@ -137039,7 +137202,8 @@
     "tls-attacker/TLS-Anvil": {
       "lists": [
         "Fuzzing",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 500928467,
@@ -137328,7 +137492,8 @@
     },
     "kanidm/webauthn-rs": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 180746955,
@@ -137541,7 +137706,8 @@
     },
     "johndoe31415/x509sak": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 123972940,
@@ -137564,7 +137730,8 @@
     "tpm2-software/tpm2-pkcs11": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 149639749,
@@ -137587,7 +137754,8 @@
     "go-webauthn/webauthn": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 438441323,
@@ -137610,7 +137778,8 @@
     "google/CTAP2-test-tool": {
       "lists": [
         "Fuzzing",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 261977210,
@@ -137633,7 +137802,8 @@
     "google/OpenSK": {
       "lists": [
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 228682115,
@@ -137863,7 +138033,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 87617508,
@@ -138515,7 +138686,9 @@
       "last_updated": "2026-03-17T22:17:14.367988+00:00"
     },
     "Nitrokey/nitrokey-encryption-tool": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 105879870,
         "name": "nitrokey-encryption-tool",
@@ -138535,7 +138708,9 @@
       "last_updated": "2026-03-17T22:17:14.573077+00:00"
     },
     "ThalesGroup/pycryptoki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 65906301,
         "name": "pycryptoki",
@@ -138555,7 +138730,9 @@
       "last_updated": "2026-03-17T22:17:14.770674+00:00"
     },
     "parallaxsecond/rust-cryptoki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 344199423,
         "name": "rust-cryptoki",
@@ -138576,7 +138753,8 @@
     },
     "Mastercard/pkcs11-tools": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 160555428,
@@ -138597,7 +138775,9 @@
       "last_updated": "2026-03-17T22:17:15.204684+00:00"
     },
     "softhsm/SoftHSMv2": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 10314787,
         "name": "SoftHSMv2",
@@ -138617,7 +138797,9 @@
       "last_updated": "2026-03-17T22:17:15.438696+00:00"
     },
     "mheese/rust-pkcs11": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 109721397,
         "name": "rust-pkcs11",
@@ -138638,7 +138820,8 @@
     },
     "Yubico/libfido2": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 130169332,
@@ -138660,7 +138843,8 @@
     },
     "Yubico/yubikey-manager": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 62567919,
@@ -138682,7 +138866,8 @@
     },
     "Yubico/yubico-piv-tool": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 16697663,
@@ -139324,7 +139509,8 @@
     },
     "bcgit/bc-java": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 10416648,
@@ -139394,7 +139580,8 @@
     },
     "99designs/keyring": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 100223776,
@@ -139418,7 +139605,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 112631209,
@@ -139848,7 +140036,8 @@
     "bendrucker/terraform-credentials-keychain": {
       "lists": [
         "Apple and M1 virtualization",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 265729773,
@@ -141366,7 +141555,8 @@
     },
     "paramiko/paramiko": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 119609,
@@ -142645,7 +142835,8 @@
     "dnsviz/dnsviz": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 25643988,
@@ -142861,7 +143052,8 @@
     },
     "C2SP/wycheproof": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 73226302,
@@ -143021,7 +143213,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 233653574,
@@ -143732,7 +143925,9 @@
       "last_updated": "2026-03-17T22:18:02.046937+00:00"
     },
     "beemdevelopment/Aegis": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 65757761,
         "name": "Aegis",
@@ -143795,7 +143990,8 @@
     },
     "transparency-dev/merkle": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 423523582,
@@ -144058,7 +144254,8 @@
     },
     "stefanberger/tpm2-tools": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 300393512,
@@ -144080,7 +144277,8 @@
     },
     "stefanberger/swtpm": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 22190497,
@@ -144103,7 +144301,8 @@
     "google/go-tpm-tools": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 161976966,
@@ -144125,7 +144324,8 @@
     },
     "microsoft/TSS.MSR": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 46449228,
@@ -144147,7 +144347,8 @@
     },
     "google/go-tpm": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 22929140,
@@ -144169,7 +144370,8 @@
     },
     "tpm2-software/tpm2-tools": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 41126332,
@@ -144929,7 +145131,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 256607259,
@@ -145117,7 +145320,8 @@
     },
     "google/pkcs11test": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 26278460,
@@ -145139,7 +145343,8 @@
     },
     "OpenSC/OpenSC": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 1999692,
@@ -145753,7 +145958,8 @@
     "greenpau/caddy-security": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 448352597,
@@ -145775,7 +145981,8 @@
     },
     "goauthentik/authentik": {
       "lists": [
-        "Devops"
+        "Devops",
+        "PKI"
       ],
       "metadata": {
         "id": 230885748,
@@ -145798,7 +146005,8 @@
     "casdoor/casdoor": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 306366900,
@@ -145821,7 +146029,8 @@
     "buzzfeed/sso": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 145011089,
@@ -145845,7 +146054,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 141352703,
@@ -145868,7 +146078,8 @@
     "oauth2-proxy/oauth2-proxy": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 105262714,
@@ -145915,7 +146126,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 36071697,
@@ -146077,7 +146289,8 @@
     "duo-labs/webauthn": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 108435716,
@@ -146189,7 +146402,9 @@
       "last_updated": "2026-03-17T22:18:24.392256+00:00"
     },
     "gruntwork-io/private-tls-cert": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 100378434,
         "name": "private-tls-cert",
@@ -146280,7 +146495,8 @@
     "getsops/sops": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 40684033,
@@ -146409,7 +146625,8 @@
     },
     "chainguard-dev/actions": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "PKI"
       ],
       "metadata": {
         "id": 461955941,
@@ -146494,7 +146711,8 @@
     "theparanoids/crypki": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 190252257,
@@ -146517,7 +146735,8 @@
     "namecoin/pkcs11mod": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 160297454,
@@ -146540,7 +146759,8 @@
     "letsencrypt/pkcs11key": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 52291161,
@@ -146562,7 +146782,8 @@
     },
     "miekg/pkcs11": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 5886905,
@@ -147048,7 +147269,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 241524703,
@@ -147332,7 +147554,8 @@
     },
     "codenotary/immudb": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 220186120,
@@ -147508,7 +147731,9 @@
       "last_updated": "2026-03-17T22:18:37.199900+00:00"
     },
     "debops/ansible-pki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 23525843,
         "name": "ansible-pki",
@@ -147656,7 +147881,9 @@
       "last_updated": "2026-03-17T22:18:38.619413+00:00"
     },
     "rgdd/ctor": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 198200806,
         "name": "ctor",
@@ -147738,7 +147965,9 @@
       "last_updated": "2026-03-17T22:18:39.364490+00:00"
     },
     "sigstore/sigstore": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 338633268,
         "name": "sigstore",
@@ -147758,7 +147987,9 @@
       "last_updated": "2026-03-17T22:18:39.568248+00:00"
     },
     "system-transparency/system-transparency": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 218316868,
         "name": "system-transparency",
@@ -147779,7 +148010,8 @@
     },
     "google/certificate-transparency-go": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 90636971,
@@ -148010,7 +148242,8 @@
     },
     "in-toto/specification": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 87951491,
@@ -148055,7 +148288,8 @@
     "in-toto/witness": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 434639382,
@@ -148141,7 +148375,8 @@
     },
     "buptczq/WinCryptSSHAgent": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 187327715,
@@ -148162,7 +148397,9 @@
       "last_updated": "2026-03-17T22:18:43.220470+00:00"
     },
     "FiloSottile/mkcert": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 138547797,
         "name": "mkcert",
@@ -148223,7 +148460,8 @@
     },
     "openssl/openssl": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 7634677,
@@ -148264,7 +148502,9 @@
       "last_updated": "2026-03-17T22:18:44.102282+00:00"
     },
     "dogtagpki/pki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 82218569,
         "name": "pki",
@@ -148305,7 +148545,8 @@
     },
     "openssh/openssh-portable": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 15991457,
@@ -148348,7 +148589,9 @@
       "last_updated": "2026-03-17T22:18:44.861215+00:00"
     },
     "Netflix/bettertls": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 77945659,
         "name": "bettertls",
@@ -149231,7 +149474,9 @@
       "last_updated": "2026-03-17T22:18:52.752951+00:00"
     },
     "SSSD/sssd": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 37479167,
         "name": "sssd",
@@ -149476,7 +149721,8 @@
     },
     "crtsh/go-certlint": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 147685675,
@@ -149519,7 +149765,8 @@
     "testssl/testssl.sh": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 21385916,
@@ -149775,7 +150022,9 @@
       "last_updated": "2026-03-17T22:18:57.797762+00:00"
     },
     "rustls/rustls": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 57920736,
         "name": "rustls",
@@ -150072,7 +150321,9 @@
       "last_updated": "2026-03-17T22:19:00.572044+00:00"
     },
     "PeculiarVentures/fortify-tools": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 103245413,
         "name": "fortify-tools",
@@ -150092,7 +150343,9 @@
       "last_updated": "2026-03-17T22:19:00.824524+00:00"
     },
     "PeculiarVentures/PKI.js": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 16589302,
         "name": "PKI.js",
@@ -150112,7 +150365,9 @@
       "last_updated": "2026-03-17T22:19:01.048614+00:00"
     },
     "PeculiarVentures/tl-create": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 44296139,
         "name": "tl-create",
@@ -150172,7 +150427,9 @@
       "last_updated": "2026-03-17T22:19:01.718285+00:00"
     },
     "SSLMate/tlsconfigguide": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 27826393,
         "name": "tlsconfigguide",
@@ -150212,7 +150469,9 @@
       "last_updated": "2026-03-17T22:19:02.153197+00:00"
     },
     "SSLMate/certspotter": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 64409269,
         "name": "certspotter",
@@ -150252,7 +150511,9 @@
       "last_updated": "2026-03-17T22:19:02.534672+00:00"
     },
     "aws/s2n-tls": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 21287076,
         "name": "s2n-tls",
@@ -150272,7 +150533,9 @@
       "last_updated": "2026-03-17T22:19:02.734385+00:00"
     },
     "aws/s2n-quic": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 274987572,
         "name": "s2n-quic",
@@ -150352,7 +150615,9 @@
       "last_updated": "2026-03-17T22:19:03.574078+00:00"
     },
     "briansmith/ring": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 39527318,
         "name": "ring",
@@ -150372,7 +150637,9 @@
       "last_updated": "2026-03-17T22:19:03.758437+00:00"
     },
     "paritytech/x509-signature": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 253352680,
         "name": "x509-signature",
@@ -150575,7 +150842,9 @@
       "last_updated": "2026-03-17T22:19:05.684707+00:00"
     },
     "briansmith/webpki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 41473746,
         "name": "webpki",
@@ -150617,7 +150886,8 @@
     "google/trillian": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 58654489,
@@ -150659,7 +150929,8 @@
     },
     "google/trillian-examples": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 119151672,
@@ -150680,7 +150951,9 @@
       "last_updated": "2026-03-17T22:19:06.693746+00:00"
     },
     "GoogleChrome/CertificateTransparency": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 88559363,
         "name": "CertificateTransparency",
@@ -150806,7 +151079,8 @@
     },
     "getfatday/keytool-importkeypair": {
       "lists": [
-        "Bash"
+        "Bash",
+        "PKI"
       ],
       "metadata": {
         "id": 488091,
@@ -150828,7 +151102,8 @@
     },
     "thatmattlove/pem-to-pfx": {
       "lists": [
-        "Bash"
+        "Bash",
+        "PKI"
       ],
       "metadata": {
         "id": 230980649,
@@ -150872,7 +151147,8 @@
     },
     "ricardobranco777/certinfo.sh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "PKI"
       ],
       "metadata": {
         "id": 60128560,
@@ -150894,7 +151170,8 @@
     },
     "agl/crlset-tools": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "PKI"
       ],
       "metadata": {
         "id": 3229815,
@@ -150978,7 +151255,9 @@
       "last_updated": "2026-03-17T22:19:09.627100+00:00"
     },
     "opencryptoki/opencryptoki": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 92066127,
         "name": "opencryptoki",
@@ -151580,7 +151859,8 @@
     },
     "drduh/YubiKey-Guide": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 50806714,
@@ -151772,7 +152052,8 @@
     "sumitgouthaman/yubikey-ssh-gpg": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 323144733,
@@ -152018,7 +152299,9 @@
       "last_updated": "2026-03-17T22:19:19.349998+00:00"
     },
     "ThomasHabets/tlscheck": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 125393055,
         "name": "tlscheck",
@@ -152118,7 +152401,9 @@
       "last_updated": "2026-03-17T22:19:20.288818+00:00"
     },
     "google/hiba": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 401256895,
         "name": "hiba",
@@ -152200,7 +152485,8 @@
     "authelia/authelia": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 75785240,
@@ -152343,7 +152629,9 @@
       "last_updated": "2026-03-17T22:19:22.450801+00:00"
     },
     "build-trust/ockam": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 159866229,
         "name": "ockam",
@@ -152629,7 +152917,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 272963353,
@@ -152655,7 +152944,8 @@
         "Docker and OCI containers",
         "Github Actions",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 335952417,
@@ -152757,7 +153047,8 @@
     },
     "ccontavalli/ssh-ident": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 8012080,
@@ -153113,7 +153404,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 155658556,
@@ -153154,7 +153446,9 @@
       "last_updated": "2026-03-17T22:19:30.383985+00:00"
     },
     "guyoung/CaptfEncoder": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 134218423,
         "name": "CaptfEncoder",
@@ -153490,7 +153784,8 @@
     "StackExchange/blackbox": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "PKI"
       ],
       "metadata": {
         "id": 18495400,
@@ -153849,7 +154144,8 @@
     "chrishunt/github-auth": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "PKI"
       ],
       "metadata": {
         "id": 9433873,
@@ -155378,7 +155674,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Networking"
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 12798028,
@@ -155499,7 +155796,9 @@
       "last_updated": "2026-03-17T22:19:52.493735+00:00"
     },
     "eth0izzle/bucket-stream": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 112541651,
         "name": "bucket-stream",
