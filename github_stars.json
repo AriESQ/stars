@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:30.694889+00:00",
+  "last_updated": "2026-03-17T23:14:32.435517+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -31454,7 +31454,8 @@
       "lists": [
         "AWS",
         "Networking",
-        "QUIC"
+        "QUIC",
+        "Serverless"
       ],
       "metadata": {
         "id": 1003427424,
@@ -41950,7 +41951,8 @@
     },
     "stelviodev/stelvio": {
       "lists": [
-        "Python"
+        "Python",
+        "Serverless"
       ],
       "metadata": {
         "id": 921676630,
@@ -58237,7 +58239,8 @@
     },
     "serverless/serverless": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Serverless"
       ],
       "metadata": {
         "id": 34302698,
@@ -110031,7 +110034,8 @@
     "inngest/inngest": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Serverless"
       ],
       "metadata": {
         "id": 374763231,
@@ -117695,7 +117699,9 @@
       "last_updated": "2026-03-17T22:13:53.705508+00:00"
     },
     "upstash/ratelimit-js": {
-      "lists": [],
+      "lists": [
+        "Serverless"
+      ],
       "metadata": {
         "id": 483551930,
         "name": "ratelimit-js",
@@ -130099,7 +130105,8 @@
         "CI/CD",
         "Devops",
         "JavaScript",
-        "Networking"
+        "Networking",
+        "Serverless"
       ],
       "metadata": {
         "id": 369150691,
@@ -131337,7 +131344,8 @@
     },
     "antonbabenko/serverless.tf": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Serverless"
       ],
       "metadata": {
         "id": 266538906,
@@ -132431,7 +132439,8 @@
         "AWS",
         "Devops",
         "Infosec",
-        "JavaScript"
+        "JavaScript",
+        "Serverless"
       ],
       "metadata": {
         "id": 462233098,
@@ -137846,7 +137855,8 @@
         "Devops",
         "GoLang",
         "Linux CLI Tools",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Serverless"
       ],
       "metadata": {
         "id": 373321576,
