@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:55.755762+00:00",
+  "last_updated": "2026-03-17T23:11:59.294126+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -5615,7 +5615,8 @@
     "loft-sh/loft": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 265079366,
@@ -5642,7 +5643,8 @@
     },
     "loft-sh/vcluster": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 355946670,
@@ -5668,7 +5670,9 @@
       }
     },
     "siderolabs/extensions": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 450215084,
         "name": "extensions",
@@ -13278,7 +13282,9 @@
       }
     },
     "kubernetes-sigs/cloud-provider-kind": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 609171582,
         "name": "cloud-provider-kind",
@@ -13643,7 +13649,8 @@
     },
     "siderolabs/omni": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 765195418,
@@ -19752,7 +19759,9 @@
       }
     },
     "apecloud/ApeRAG": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 656181752,
         "name": "ApeRAG",
@@ -22523,7 +22532,8 @@
     },
     "osrg/gobgp": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 24011030,
@@ -24939,7 +24949,8 @@
     },
     "awslabs/ai-on-eks": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 952578139,
@@ -26312,7 +26323,8 @@
     "Alexbeav/devops-phonebook-demo": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 1019660836,
@@ -27042,7 +27054,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 242557925,
@@ -27070,7 +27083,8 @@
     "solo-io/kdiag": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 472349272,
@@ -27851,7 +27865,8 @@
     "ForgeRock/secret-agent": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 259435361,
@@ -33633,7 +33648,8 @@
     "jumpserver/jumpserver": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 21484781,
@@ -35355,7 +35371,8 @@
     },
     "kubernetes-sigs/kro": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 856507666,
@@ -35383,7 +35400,8 @@
     "yannh/kubeconform": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 268015482,
@@ -35724,7 +35742,8 @@
     },
     "kubernetes-sigs/kubebuilder": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 125275487,
@@ -36013,7 +36032,8 @@
     },
     "keel-hq/keel": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 93942998,
@@ -38022,7 +38042,8 @@
     "aws-ia/terraform-aws-eks-blueprints": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 355360954,
@@ -38050,7 +38071,8 @@
     "aws-samples/eks-workshop-v2": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 463303596,
@@ -38078,7 +38100,8 @@
     "terraform-aws-modules/terraform-aws-eks": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 136401408,
@@ -38132,7 +38155,8 @@
     },
     "kelseyhightower/kubernetes-the-hard-way": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 62812261,
@@ -38159,7 +38183,8 @@
     },
     "danielfoehrKn/kubeswitch": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 230920758,
@@ -38341,7 +38366,8 @@
     },
     "kubernetes-sigs/headlamp": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 220546758,
@@ -38394,7 +38420,9 @@
       }
     },
     "sailor-sh/CK-X": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 958990445,
         "name": "CK-X",
@@ -38446,7 +38474,9 @@
       }
     },
     "peterkeen/k8stuff": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 961686127,
         "name": "k8stuff",
@@ -38601,7 +38631,9 @@
       }
     },
     "kubernetes-sigs/ingate": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 897541297,
         "name": "ingate",
@@ -39187,7 +39219,8 @@
     },
     "grafana/k8s-monitoring-helm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 632011972,
@@ -39215,7 +39248,8 @@
     "crdsdev/doc": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 241378733,
@@ -39270,7 +39304,8 @@
     "ChristofferNissen/helmper": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 785420224,
@@ -40958,7 +40993,8 @@
     "kyverno/kyverno": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 169108858,
@@ -40985,7 +41021,8 @@
     },
     "open-policy-agent/gatekeeper": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 154894457,
@@ -42379,7 +42416,8 @@
     },
     "DushanthaS/kubernetes-the-hard-way-on-proxmox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 755766821,
@@ -42689,7 +42727,8 @@
     },
     "Kong/gke-renovate-datasource": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 704028433,
@@ -43179,7 +43218,8 @@
     },
     "kcp-dev/kcp": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 353364259,
@@ -45634,7 +45674,8 @@
     "kelseyhightower/confd": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 13234395,
@@ -47874,7 +47915,8 @@
       "lists": [
         "Authentication",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 915526148,
@@ -49239,7 +49281,8 @@
     "Adyen/kubectl-rexec": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 902797342,
@@ -52037,7 +52080,9 @@
       }
     },
     "aptakube/kubespec.dev": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 868456438,
         "name": "kubespec.dev",
@@ -54670,7 +54715,8 @@
     },
     "Jip-Hop/jailmaker": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 591017923,
@@ -54773,7 +54819,9 @@
       }
     },
     "andrewthetechie/home-k8s-pub": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 893241686,
         "name": "home-k8s-pub",
@@ -55275,7 +55323,9 @@
       }
     },
     "siderolabs/image-factory": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 675694938,
         "name": "image-factory",
@@ -65592,7 +65642,8 @@
     },
     "gitops-bridge-dev/gitops-bridge": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 668469583,
@@ -67110,7 +67161,8 @@
     },
     "alexellis/k3sup": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 202523140,
@@ -67711,7 +67763,9 @@
       }
     },
     "kubernetes-sigs/descheduler": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 98671007,
         "name": "descheduler",
@@ -72053,7 +72107,8 @@
     },
     "kubernetes-sigs/kubebuilder-declarative-pattern": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 171560361,
@@ -74439,7 +74494,8 @@
     },
     "operator-framework/operator-sdk": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 120650407,
@@ -88445,7 +88501,8 @@
     },
     "aws/eks-charts": {
       "lists": [
-        "AWS"
+        "AWS",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 211971675,
@@ -92827,7 +92884,8 @@
     "harvester/harvester": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 279592699,
@@ -100214,7 +100272,8 @@
     },
     "akuity/kargo": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 514062293,
@@ -102823,7 +102882,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 43526066,
@@ -103293,7 +103353,8 @@
     "aws/aws-eks-best-practices": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 217173687,
@@ -104190,7 +104251,9 @@
       "last_updated": "2026-03-17T22:12:37.881240+00:00"
     },
     "lensapp/lens": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 157166750,
         "name": "lens",
@@ -104572,7 +104635,8 @@
     },
     "kedacore/keda": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 170411418,
@@ -104748,7 +104812,8 @@
     "tilt-dev/ctlptl": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 304708734,
@@ -104836,7 +104901,9 @@
       "last_updated": "2026-03-17T22:12:44.191266+00:00"
     },
     "ccremer/kubernetes-zfs-provisioner": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 253203290,
         "name": "kubernetes-zfs-provisioner",
@@ -104856,7 +104923,9 @@
       "last_updated": "2026-03-17T22:12:44.373771+00:00"
     },
     "openebs/zfs-localpv": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 203545818,
         "name": "zfs-localpv",
@@ -105386,7 +105455,8 @@
     "nicolaka/netshoot": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 66426242,
@@ -105974,7 +106044,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "JavaScript"
+        "JavaScript",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 503516905,
@@ -108575,7 +108646,8 @@
     },
     "devspace-sh/devspace": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 145153231,
@@ -108727,7 +108799,8 @@
     "fluxcd/flux2": {
       "lists": [
         "CI/CD",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 258469100,
@@ -109389,7 +109462,8 @@
     },
     "projectcalico/calico": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 63882194,
@@ -109538,7 +109612,8 @@
     "konstructio/kubefirst": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 332999480,
@@ -109925,7 +110000,8 @@
     "chainguard-dev/policy-catalog": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 626017140,
@@ -110057,7 +110133,9 @@
       "last_updated": "2026-03-17T22:13:35.940110+00:00"
     },
     "empath-nirvana/magic-happens": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 628722679,
         "name": "magic-happens",
@@ -110716,7 +110794,8 @@
     },
     "opencontrolplane/civo-opencontrolplane": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 587675342,
@@ -111345,7 +111424,8 @@
     },
     "awslabs/amazon-eks-ami": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 136244218,
@@ -111366,7 +111446,9 @@
       "last_updated": "2026-03-17T22:13:48.725653+00:00"
     },
     "bjw-s-labs/helm-charts": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 518073730,
         "name": "helm-charts",
@@ -111532,7 +111614,8 @@
     },
     "metallb/metallb": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 110027931,
@@ -112356,7 +112439,8 @@
     },
     "kapicorp/kapitan": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 106306056,
@@ -112378,7 +112462,8 @@
     },
     "kubernetes-sigs/bom": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 429800698,
@@ -113023,7 +113108,8 @@
     },
     "flant/shell-operator": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 177105422,
@@ -113091,7 +113177,8 @@
     },
     "observatorium/observatorium": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 190750461,
@@ -113114,7 +113201,8 @@
     "werf/werf": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 50365232,
@@ -113229,7 +113317,8 @@
     "longhorn/longhorn-engine": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 55807230,
@@ -113253,7 +113342,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 50613991,
@@ -113723,7 +113813,8 @@
     "hashicorp/terraform-guides": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 110382488,
@@ -115087,7 +115178,8 @@
     "aws-samples/hardeneks": {
       "lists": [
         "AWS",
-        "Infosec"
+        "Infosec",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 576434460,
@@ -116452,7 +116544,8 @@
     },
     "parseablehq/parseable": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 520784735,
@@ -117366,7 +117459,8 @@
     },
     "m9sweeper/m9sweeper": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 558915653,
@@ -119660,7 +119754,8 @@
     },
     "Azure/draft": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 429509802,
@@ -119727,7 +119822,8 @@
     "okteto/okteto": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 143846881,
@@ -119750,7 +119846,8 @@
     "telepresenceio/telepresence": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 82933315,
@@ -119772,7 +119869,8 @@
     },
     "metalbear-co/mirrord": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 454467716,
@@ -120958,7 +121056,8 @@
     "awslabs/eks-node-viewer": {
       "lists": [
         "AWS",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 575555632,
@@ -121565,7 +121664,9 @@
       "last_updated": "2026-03-17T22:15:25.656994+00:00"
     },
     "kube-HPC/hkube": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 111555721,
         "name": "hkube",
@@ -121915,7 +122016,8 @@
     "cilium/hubble": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 222612062,
@@ -122003,7 +122105,8 @@
     },
     "hashicorp-education/learn-terraform-provision-eks-cluster": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 245519256,
@@ -122396,7 +122499,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 440752086,
@@ -122697,7 +122801,8 @@
     "sorintlab/stolon": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 43884372,
@@ -123097,7 +123202,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 146641150,
@@ -123187,7 +123293,8 @@
     "GoogleContainerTools/kaniko": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 119419195,
@@ -123210,7 +123317,8 @@
     "derailed/k9s": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 167596393,
@@ -123255,7 +123363,8 @@
     },
     "cloud-native-skunkworks/gitops-kubernetes-bootstrap": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 520095973,
@@ -123345,7 +123454,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 431551065,
@@ -123753,7 +123863,8 @@
         "Devops",
         "DIY",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 109451092,
@@ -123886,7 +123997,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 344950560,
@@ -124068,7 +124180,8 @@
       "lists": [
         "Bash",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 367798512,
@@ -124092,7 +124205,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 76686583,
@@ -124139,7 +124253,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "JavaScript"
+        "JavaScript",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 465844859,
@@ -124391,7 +124506,8 @@
     "datreeio/datree": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 357885318,
@@ -124436,7 +124552,9 @@
       "last_updated": "2026-03-17T22:15:51.774190+00:00"
     },
     "pluralsh/plural": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 206191048,
         "name": "plural",
@@ -125750,7 +125868,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 118654121,
@@ -126345,7 +126464,8 @@
     },
     "gitpod-io/gitpod": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 130879558,
@@ -126878,7 +126998,8 @@
     "containernetworking/plugins": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 84575398,
@@ -128109,7 +128230,9 @@
       "last_updated": "2026-03-17T22:16:24.993562+00:00"
     },
     "alexellis/arkade": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 243213207,
         "name": "arkade",
@@ -128546,7 +128669,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 210310251,
@@ -128811,7 +128935,8 @@
     "JovianX/helm-release-plugin": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 510344774,
@@ -128834,7 +128959,8 @@
     "aslafy-z/helm-git": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 166056432,
@@ -129845,7 +129971,8 @@
     "crossplane/crossplane": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 147886080,
@@ -129869,7 +129996,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 143896900,
@@ -129893,7 +130021,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 148545807,
@@ -137360,7 +137489,8 @@
     },
     "pixie-io/pixie": {
       "lists": [
-        "Devops"
+        "Devops",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 243394576,
@@ -152022,7 +152152,8 @@
     "bitnami-labs/sealed-secrets": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "K8S - Kubernetes"
       ],
       "metadata": {
         "id": 92702519,
