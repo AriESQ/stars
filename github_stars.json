@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:34.255952+00:00",
+  "last_updated": "2026-03-17T23:14:37.914046+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -930,7 +930,8 @@
     "driftlessaf/terraform-infra-reconcilers": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 1143426402,
@@ -2583,7 +2584,8 @@
     },
     "giner/terraform-github-repo": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 899928999,
@@ -16731,7 +16733,8 @@
     },
     "chainguard-dev/terraform-infra-common": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 729571690,
@@ -26275,7 +26278,8 @@
     "suzuki-shunsuke/tfaction": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Terraform"
       ],
       "metadata": {
         "id": 448888766,
@@ -27102,7 +27106,8 @@
     },
     "terranix/terranix": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 161065873,
@@ -29651,7 +29656,8 @@
     },
     "minamijoyo/tfupdate": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 201781630,
@@ -31937,7 +31943,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Machine Learning"
+        "Machine Learning",
+        "Terraform"
       ],
       "metadata": {
         "id": 969282615,
@@ -39713,7 +39720,8 @@
     },
     "spacelift-io-examples/dynamic-spacelift-stacks-example": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 509617486,
@@ -39768,7 +39776,8 @@
     "Excoriate/tftest": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 772947107,
@@ -39910,7 +39919,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Terraform"
       ],
       "metadata": {
         "id": 136401408,
@@ -39937,7 +39947,8 @@
     },
     "antonbabenko/terraform-cost-estimation": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 260142643,
@@ -41901,7 +41912,8 @@
     "hashicorp/terraform-provider-awscc": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 358316740,
@@ -48713,7 +48725,8 @@
     "antmicro/github-actions-runner-terraform": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Terraform"
       ],
       "metadata": {
         "id": 391145900,
@@ -52553,7 +52566,8 @@
     "pvarentsov/terraform-aws-free-tier": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 232789565,
@@ -52637,7 +52651,8 @@
     },
     "rogeriomm/aws-lab": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 598783048,
@@ -52746,7 +52761,8 @@
     },
     "magodo/pipeform": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 902851079,
@@ -58216,7 +58232,8 @@
     },
     "plus3it/terraform-aws-tardigrade-org-new-account-delete-cloudtrail": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 677147217,
@@ -59222,7 +59239,8 @@
     "padok-team/burrito": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 563468160,
@@ -64112,7 +64130,8 @@
     "overmindtech/cli": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 658761557,
@@ -77576,7 +77595,8 @@
     "tofuutils/tenv": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 739378779,
@@ -91993,7 +92013,8 @@
     "cloudposse/terraform-aws-components": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 131209713,
@@ -101226,7 +101247,8 @@
     "suzuki-shunsuke/tfprovidercheck": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 714264169,
@@ -102115,7 +102137,8 @@
     },
     "tailscale/terraform-provider-tailscale": {
       "lists": [
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 327685695,
@@ -105736,7 +105759,8 @@
     "terraform-aws-modules/terraform-aws-vpc": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 101660954,
@@ -105940,7 +105964,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 284381230,
@@ -106101,7 +106126,8 @@
     },
     "JamesWoolfenden/pike": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 499752618,
@@ -106166,7 +106192,8 @@
     },
     "opentofu/opentofu": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 679421146,
@@ -106328,7 +106355,8 @@
     "nozaq/terraform-aws-secure-baseline": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 121206877,
@@ -106923,7 +106951,8 @@
     },
     "dragondrop-cloud/cloud-concierge": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 657338184,
@@ -107227,7 +107256,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 292427680,
@@ -107426,7 +107456,8 @@
     },
     "future-architect/tftarget": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 619377631,
@@ -108796,7 +108827,8 @@
     },
     "terraform-aws-modules/terraform-aws-ec2-instance": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 103173578,
@@ -108953,7 +108985,8 @@
     },
     "cisco-open/stacks": {
       "lists": [
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 614556206,
@@ -110176,7 +110209,8 @@
     "mattsta/aws-vpc-global-planner": {
       "lists": [
         "AWS",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 449032240,
@@ -112131,7 +112165,9 @@
       "last_updated": "2026-03-17T22:13:00.987450+00:00"
     },
     "terrateamio/archived-terrateam-repo": {
-      "lists": [],
+      "lists": [
+        "Terraform"
+      ],
       "metadata": {
         "id": 641107265,
         "name": "archived-terrateam-repo",
@@ -112579,7 +112615,8 @@
     "ElementTech/terracove": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 625306431,
@@ -114249,7 +114286,8 @@
     },
     "Madh93/tpm": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 628738862,
@@ -115560,7 +115598,8 @@
     },
     "github-aws-runners/terraform-aws-github-runner": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Terraform"
       ],
       "metadata": {
         "id": 258465213,
@@ -116356,7 +116395,8 @@
     "ysoftwareab/tfrepl": {
       "lists": [
         "Bash",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 628501876,
@@ -116624,7 +116664,9 @@
       "last_updated": "2026-03-17T22:13:43.666951+00:00"
     },
     "ThiagoPanini/terraglue": {
-      "lists": [],
+      "lists": [
+        "Terraform"
+      ],
       "metadata": {
         "id": 542326557,
         "name": "terraglue",
@@ -117193,7 +117235,8 @@
     "richlamdev/tf-syslog-ng": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 470441470,
@@ -118042,7 +118085,8 @@
     },
     "aws-samples/service-catalog-engine-for-terraform-os": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 595283949,
@@ -118179,7 +118223,8 @@
     },
     "pie-r/terragrunt-vs-terraspace": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 409985106,
@@ -118845,7 +118890,8 @@
     "robertdebock/vault-sop-generator": {
       "lists": [
         "Devops",
-        "PKI"
+        "PKI",
+        "Terraform"
       ],
       "metadata": {
         "id": 619858726,
@@ -119469,7 +119515,8 @@
     },
     "coinbase/terraform-landscape": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 83470613,
@@ -119492,7 +119539,8 @@
     "aws-samples/aws-modernization-with-hashicorp-terraform": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 387833315,
@@ -119562,7 +119610,8 @@
       "lists": [
         "CI/CD",
         "Github Actions",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 403530015,
@@ -119584,7 +119633,8 @@
     },
     "x4v13r64/terraform-registry-watch": {
       "lists": [
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 475571356,
@@ -119607,7 +119657,8 @@
     "hashicorp/tfc-guide-example": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 216647708,
@@ -119631,7 +119682,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Terraform"
       ],
       "metadata": {
         "id": 110382488,
@@ -119852,7 +119904,8 @@
     },
     "pseudo-dynamic/terraform-provider-value": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 532507679,
@@ -119992,7 +120045,8 @@
         "AWS",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 403886429,
@@ -120127,7 +120181,8 @@
     "minamijoyo/tflock": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 229205509,
@@ -120195,7 +120250,8 @@
     "AlexNabokikh/tfsort": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 603065557,
@@ -120352,7 +120408,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 605995490,
@@ -120804,7 +120861,8 @@
     },
     "cloudandthings/terraform-aws-clickops-notifier": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 469002061,
@@ -121081,7 +121139,8 @@
     },
     "minamijoyo/hcledit": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 231227654,
@@ -121104,7 +121163,8 @@
     "awslabs/terraform-iam-policy-validator": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 526791859,
@@ -121127,7 +121187,8 @@
     "awslabs/aws-terraform-dev-container": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 550729194,
@@ -121263,7 +121324,8 @@
     "adamiBs/vscode-terraform-live-graph": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Terraform"
       ],
       "metadata": {
         "id": 611937513,
@@ -121539,7 +121601,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 437248686,
@@ -121586,7 +121649,8 @@
     "aws-samples/aws-transit-gateway-vpc-terraform": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 591082055,
@@ -121610,7 +121674,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 417562192,
@@ -121655,7 +121720,8 @@
     "TeraSky-OSS/laze": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 426273461,
@@ -121904,7 +121970,8 @@
     "idealo/terraform-provider-controltower": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 368975183,
@@ -122596,7 +122663,9 @@
       "last_updated": "2026-03-17T22:14:38.942739+00:00"
     },
     "trussworks/terraform-aws-bootstrap": {
-      "lists": [],
+      "lists": [
+        "Terraform"
+      ],
       "metadata": {
         "id": 142079799,
         "name": "terraform-aws-bootstrap",
@@ -122800,7 +122869,8 @@
     "clowdhaus/vpc-reference-architecture": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 468130225,
@@ -122823,7 +122893,8 @@
     "SimpleITAutomation/bb-devops-tf-aws-organizations": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 243588114,
@@ -122868,7 +122939,8 @@
     "antonbabenko/terragrunt-reference-architecture": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 185387357,
@@ -123005,7 +123077,8 @@
     "cloudposse/terraform-aws-cloudformation-stack": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 220947914,
@@ -123350,7 +123423,8 @@
     },
     "cloudposse/terraform-aws-vpn-connection": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 166615565,
@@ -126300,7 +126374,8 @@
         "Bash",
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Terraform"
       ],
       "metadata": {
         "id": 87031689,
@@ -126572,7 +126647,9 @@
       "last_updated": "2026-03-17T22:15:15.094066+00:00"
     },
     "kasmtech/terraform": {
-      "lists": [],
+      "lists": [
+        "Terraform"
+      ],
       "metadata": {
         "id": 390476972,
         "name": "terraform",
@@ -127154,7 +127231,8 @@
     "terramate-io/terramate": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 411630635,
@@ -127176,7 +127254,8 @@
     },
     "boltops-tools/terraspace": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 263436045,
@@ -127956,7 +128035,8 @@
     "aws-samples/aws-vpc-peering-terraform-inspec": {
       "lists": [
         "AWS",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 384309224,
@@ -128112,7 +128192,9 @@
       "last_updated": "2026-03-17T22:15:29.096372+00:00"
     },
     "cloud-village/ctfd-infra": {
-      "lists": [],
+      "lists": [
+        "Terraform"
+      ],
       "metadata": {
         "id": 278776438,
         "name": "ctfd-infra",
@@ -128134,7 +128216,8 @@
     "tfutils/tfenv": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 64857500,
@@ -128181,7 +128264,8 @@
     "hashicorp-education/learn-terraform-provision-eks-cluster": {
       "lists": [
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Terraform"
       ],
       "metadata": {
         "id": 245519256,
@@ -128204,7 +128288,8 @@
     "DNH-Computing/terraform-provider-edgerouter": {
       "lists": [
         "GoLang",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 395290700,
@@ -128227,7 +128312,8 @@
     "ddelnano/terraform-provider-mikrotik": {
       "lists": [
         "GoLang",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 173301111,
@@ -128379,7 +128465,8 @@
     "thecjharries/dso-dojo-2022-12": {
       "lists": [
         "Devops",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 569503152,
@@ -128608,7 +128695,8 @@
         "Devops",
         "Docker and OCI containers",
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Terraform"
       ],
       "metadata": {
         "id": 440752086,
@@ -128946,7 +129034,8 @@
     "dineshba/tf-summarize": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 447641855,
@@ -129015,7 +129104,8 @@
     "terraform-linters/tflint": {
       "lists": [
         "CI/CD",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 71487396,
@@ -129590,7 +129680,8 @@
         "Devops",
         "Docker and OCI containers",
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Terraform"
       ],
       "metadata": {
         "id": 431551065,
@@ -130757,7 +130848,8 @@
     },
     "naorlivne/terraformize": {
       "lists": [
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 213015466,
@@ -131225,7 +131317,8 @@
     "patricklubach/python-terraform-registry": {
       "lists": [
         "API",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 448992861,
@@ -131248,7 +131341,8 @@
     "terralist/terralist": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 443985581,
@@ -131358,7 +131452,8 @@
     "antonbabenko/serverless.tf": {
       "lists": [
         "Devops",
-        "Serverless"
+        "Serverless",
+        "Terraform"
       ],
       "metadata": {
         "id": 266538906,
@@ -131494,7 +131589,8 @@
     },
     "sudokar/generator-tf-module": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 174820850,
@@ -131734,7 +131830,8 @@
         "AWS",
         "CI/CD",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 445161449,
@@ -131758,7 +131855,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 436455380,
@@ -131782,7 +131880,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 383790300,
@@ -131874,7 +131973,8 @@
     "aws-samples/terraform-sample-workshop": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 331712292,
@@ -131900,7 +132000,8 @@
         "Devops",
         "Infosec",
         "Networking",
-        "PKI"
+        "PKI",
+        "Terraform"
       ],
       "metadata": {
         "id": 493307241,
@@ -131924,7 +132025,8 @@
       "lists": [
         "AWS",
         "Bash",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 309733152,
@@ -131948,7 +132050,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 445445953,
@@ -132121,7 +132224,8 @@
     "contentful-labs/terraform-diff": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 236779168,
@@ -132213,7 +132317,8 @@
     "chime/terraform-aws-alternat": {
       "lists": [
         "AWS",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 529406391,
@@ -132529,7 +132634,8 @@
         "AWS",
         "Devops",
         "Infosec",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 241606408,
@@ -132552,7 +132658,8 @@
     "chrislewisdev/prettyplan": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Terraform"
       ],
       "metadata": {
         "id": 141223446,
@@ -132575,7 +132682,8 @@
     "hieven/terraform-visual": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Terraform"
       ],
       "metadata": {
         "id": 266294981,
@@ -132597,7 +132705,8 @@
     },
     "gruberdev/blast-radius": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 368383368,
@@ -133093,7 +133202,8 @@
     },
     "hashicorp/terraform-provider-template": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 93446108,
@@ -133392,7 +133502,8 @@
     },
     "insight-infrastructure/terraform-aws-ec2-basic": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Terraform"
       ],
       "metadata": {
         "id": 203874434,
@@ -133686,7 +133797,8 @@
     "busser/tfautomv": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 482225540,
@@ -133734,7 +133846,8 @@
     "stelligent/stelligent-u": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 307450568,
@@ -133990,7 +134103,8 @@
     },
     "tf2project/terraform-awesome": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 501197189,
@@ -134012,7 +134126,8 @@
     },
     "devopshobbies/terraform-templates": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 468393301,
@@ -134034,7 +134149,8 @@
     },
     "howtoautomateinth/awesome-terraform": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 237881446,
@@ -134302,7 +134418,8 @@
     },
     "shuaibiyy/awesome-tf": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 58478671,
@@ -135878,7 +135995,8 @@
     },
     "BishopFox/iam-vulnerable": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 344529392,
@@ -136493,7 +136611,8 @@
     },
     "apparentlymart/terraform-provider-testing": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 176037661,
@@ -137134,7 +137253,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 184490584,
@@ -138216,7 +138336,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 128383825,
@@ -139473,7 +139594,8 @@
         "Devops",
         "Docker and OCI containers",
         "Github Actions",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 327685612,
@@ -139681,7 +139803,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 120519269,
@@ -140146,7 +140269,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 491843145,
@@ -140171,7 +140295,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 124249756,
@@ -140196,7 +140321,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 243152038,
@@ -140220,7 +140346,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 131622334,
@@ -140245,7 +140372,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Terraform"
       ],
       "metadata": {
         "id": 338400342,
@@ -140268,7 +140396,8 @@
     "bendrucker/terraform-cloud-cli": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 262483395,
@@ -140677,7 +140806,8 @@
     },
     "kreuzwerker/m1-terraform-provider-helper": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Terraform"
       ],
       "metadata": {
         "id": 379896850,
@@ -140748,7 +140878,8 @@
         "AWS",
         "Devops",
         "GoLang",
-        "Networking"
+        "Networking",
+        "Terraform"
       ],
       "metadata": {
         "id": 277649384,
@@ -141258,7 +141389,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "GoLang",
-        "PKI"
+        "PKI",
+        "Terraform"
       ],
       "metadata": {
         "id": 265729773,
@@ -143025,7 +143157,8 @@
     "minamijoyo/tfmigrate": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 275169025,
@@ -143305,7 +143438,8 @@
     },
     "ned1313/terraform-tuesdays": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 268796910,
@@ -143602,7 +143736,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 173785481,
@@ -144393,7 +144528,8 @@
     },
     "hashicorp/hcl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 22485114,
@@ -145158,7 +145294,8 @@
     },
     "hashicorp/terraform-provider-scaffolding": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 109027391,
@@ -145403,7 +145540,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Python"
+        "Python",
+        "Terraform"
       ],
       "metadata": {
         "id": 237791077,
@@ -145739,7 +145877,8 @@
     },
     "hashicorp/tfc-getting-started": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 311757724,
@@ -146234,7 +146373,8 @@
     "terraform-lxd/terraform-provider-lxd": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 47083172,
@@ -146562,7 +146702,8 @@
     },
     "ruanbekker/terraformfiles": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Terraform"
       ],
       "metadata": {
         "id": 298600237,
@@ -147417,7 +147558,8 @@
     "im2nguyen/rover": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 379820284,
@@ -147580,7 +147722,8 @@
     "hashicorp/terraform-aws-vault": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Terraform"
       ],
       "metadata": {
         "id": 103201301,
@@ -147670,7 +147813,8 @@
     },
     "gruntwork-io/private-tls-cert": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Terraform"
       ],
       "metadata": {
         "id": 100378434,
@@ -152328,7 +152472,8 @@
     "threatcl/threatcl": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 406547757,
@@ -155149,7 +155294,8 @@
     "tenable/terrascan": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Terraform"
       ],
       "metadata": {
         "id": 103084166,
@@ -156065,7 +156211,8 @@
     },
     "terraform-docs/terraform-docs": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 60978152,
@@ -157871,7 +158018,8 @@
     "gruntwork-io/terratest": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Terraform"
       ],
       "metadata": {
         "id": 53174289,
