@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T22:20:23.882771+00:00",
+  "last_updated": "2026-03-17T23:09:33.389563+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [],
@@ -1562,7 +1562,9 @@
       }
     },
     "azu/har-extractor": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 138033840,
         "name": "har-extractor",
@@ -3848,7 +3850,9 @@
       }
     },
     "kalil0321/reverse-api-engineer": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 1121759870,
         "name": "reverse-api-engineer",
@@ -4227,7 +4231,9 @@
       }
     },
     "bryanmorganoverbey/marketplace-api": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 1036750707,
         "name": "marketplace-api",
@@ -4252,7 +4258,9 @@
       }
     },
     "kyleronayne/marketplace-api": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 466192986,
         "name": "marketplace-api",
@@ -7999,7 +8007,9 @@
       }
     },
     "mxschmitt/awesome-playwright": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 246150059,
         "name": "awesome-playwright",
@@ -8507,7 +8517,9 @@
       }
     },
     "j-brooke/FracturedJson": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 304152687,
         "name": "FracturedJson",
@@ -15743,7 +15755,9 @@
       }
     },
     "rictic/jsonriver": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 870911441,
         "name": "jsonriver",
@@ -21018,7 +21032,9 @@
       }
     },
     "shurcooL/githubv4": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 92572310,
         "name": "githubv4",
@@ -25752,7 +25768,9 @@
       }
     },
     "smithy-lang/smithy": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 177212349,
         "name": "smithy",
@@ -30031,7 +30049,9 @@
       }
     },
     "GongRzhe/APIWeaver": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 965866617,
         "name": "APIWeaver",
@@ -37138,7 +37158,9 @@
       }
     },
     "idosal/git-mcp": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 956842312,
         "name": "git-mcp",
@@ -40107,7 +40129,9 @@
       }
     },
     "superglue-ai/superglue": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 914997268,
         "name": "superglue",
@@ -43886,7 +43910,9 @@
       }
     },
     "superfly/tokenizer": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 628096239,
         "name": "tokenizer",
@@ -47159,7 +47185,9 @@
       }
     },
     "apiparrot/apiparrot-desktop-releases": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 792796832,
         "name": "apiparrot-desktop-releases",
@@ -47330,7 +47358,9 @@
       }
     },
     "lexiforest/curl-impersonate": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 594291409,
         "name": "curl-impersonate",
@@ -49274,7 +49304,9 @@
       }
     },
     "anomalyco/openauth": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 887503379,
         "name": "openauth",
@@ -53217,7 +53249,9 @@
       }
     },
     "alpaylan/tjq": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 892180239,
         "name": "tjq",
@@ -60779,7 +60813,9 @@
       }
     },
     "bjesus/pipet": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 850417985,
         "name": "pipet",
@@ -68974,7 +69010,9 @@
       }
     },
     "zuplo/rate-my-openapi": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 653466139,
         "name": "rate-my-openapi",
@@ -75602,7 +75640,9 @@
       }
     },
     "ynqa/jnv": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 773832743,
         "name": "jnv",
@@ -77169,7 +77209,9 @@
       }
     },
     "google/wuffs": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 110482267,
         "name": "wuffs",
@@ -80346,7 +80388,9 @@
       }
     },
     "nccgroup/blackboxprotobuf": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 133435465,
         "name": "blackboxprotobuf",
@@ -80646,7 +80690,9 @@
       }
     },
     "PuerkitoBio/goquery": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 5594766,
         "name": "goquery",
@@ -80696,7 +80742,9 @@
       }
     },
     "Adawg4/openapi-autospec": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 760891853,
         "name": "openapi-autospec",
@@ -81205,7 +81253,9 @@
       }
     },
     "forwardemail/supertest": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 4813464,
         "name": "supertest",
@@ -81230,7 +81280,9 @@
       }
     },
     "vitest-dev/vitest": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 434708679,
         "name": "vitest",
@@ -82263,7 +82315,9 @@
       }
     },
     "freeCodeCamp/devdocs": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 13840241,
         "name": "devdocs",
@@ -90966,7 +91020,9 @@
       "last_updated": "2026-03-17T22:11:03.465318+00:00"
     },
     "mattn/jsonargs": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 73453161,
         "name": "jsonargs",
@@ -94826,7 +94882,9 @@
       "last_updated": "2026-03-17T22:11:44.603640+00:00"
     },
     "AndrewWalsh/openapi-devtools": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 709571808,
         "name": "openapi-devtools",
@@ -95686,7 +95744,9 @@
       "last_updated": "2026-03-17T22:11:53.686082+00:00"
     },
     "scalar/scalar": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 679280065,
         "name": "scalar",
@@ -98886,7 +98946,9 @@
       "last_updated": "2026-03-17T22:12:27.494687+00:00"
     },
     "AykutSarac/jsoncrack.com": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 453717720,
         "name": "jsoncrack.com",
@@ -99266,7 +99328,9 @@
       "last_updated": "2026-03-17T22:12:31.681818+00:00"
     },
     "dapr/dapr": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 192632000,
         "name": "dapr",
@@ -99826,7 +99890,9 @@
       "last_updated": "2026-03-17T22:12:37.414378+00:00"
     },
     "hercules-team/augeas": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 59056,
         "name": "augeas",
@@ -101726,7 +101792,9 @@
       "last_updated": "2026-03-17T22:12:57.491195+00:00"
     },
     "josephburnett/jd": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 72809829,
         "name": "jd",
@@ -101826,7 +101894,9 @@
       "last_updated": "2026-03-17T22:12:58.446305+00:00"
     },
     "zc2638/swag": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 308492021,
         "name": "swag",
@@ -102006,7 +102076,9 @@
       "last_updated": "2026-03-17T22:13:00.206773+00:00"
     },
     "charmbracelet/charm": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 236106066,
         "name": "charm",
@@ -103106,7 +103178,9 @@
       "last_updated": "2026-03-17T22:13:12.014107+00:00"
     },
     "jacebrowning/memegen": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 37385246,
         "name": "memegen",
@@ -105446,7 +105520,9 @@
       "last_updated": "2026-03-17T22:13:37.243420+00:00"
     },
     "altair-graphql/altair": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 86188653,
         "name": "altair",
@@ -105866,7 +105942,9 @@
       "last_updated": "2026-03-17T22:13:41.436297+00:00"
     },
     "swagger-api/swagger-editor": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 19390712,
         "name": "swagger-editor",
@@ -105886,7 +105964,9 @@
       "last_updated": "2026-03-17T22:13:41.645490+00:00"
     },
     "apisyouwonthate/openapi.tools": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 114417462,
         "name": "openapi.tools",
@@ -106306,7 +106386,9 @@
       "last_updated": "2026-03-17T22:13:46.089678+00:00"
     },
     "swaggo/http-swagger": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 122907158,
         "name": "http-swagger",
@@ -107146,7 +107228,9 @@
       "last_updated": "2026-03-17T22:13:54.977571+00:00"
     },
     "TykTechnologies/tyk": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 19537979,
         "name": "tyk",
@@ -107426,7 +107510,9 @@
       "last_updated": "2026-03-17T22:13:58.150122+00:00"
     },
     "fiatjaf/jq-web": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 90417462,
         "name": "jq-web",
@@ -107526,7 +107612,9 @@
       "last_updated": "2026-03-17T22:13:59.201849+00:00"
     },
     "fipso/ccurl.sh": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 620003044,
         "name": "ccurl.sh",
@@ -107726,7 +107814,9 @@
       "last_updated": "2026-03-17T22:14:01.487960+00:00"
     },
     "abdfnx/resto": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 433152564,
         "name": "resto",
@@ -107786,7 +107876,9 @@
       "last_updated": "2026-03-17T22:14:02.034696+00:00"
     },
     "vast-ai/vast-cli": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 168062479,
         "name": "vast-cli",
@@ -108466,7 +108558,9 @@
       "last_updated": "2026-03-17T22:14:09.285741+00:00"
     },
     "stepci/stepci": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 537500924,
         "name": "stepci",
@@ -109706,7 +109800,9 @@
       "last_updated": "2026-03-17T22:14:22.298308+00:00"
     },
     "walterwanderley/sqlc-grpc": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 369915860,
         "name": "sqlc-grpc",
@@ -111606,7 +111702,9 @@
       "last_updated": "2026-03-17T22:14:41.670941+00:00"
     },
     "NangoHQ/nango": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 254328371,
         "name": "nango",
@@ -111726,7 +111824,9 @@
       "last_updated": "2026-03-17T22:14:42.864787+00:00"
     },
     "microsoft/typespec": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 381857226,
         "name": "typespec",
@@ -111866,7 +111966,9 @@
       "last_updated": "2026-03-17T22:14:44.175953+00:00"
     },
     "obi1kenobi/trustfall": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 446669912,
         "name": "trustfall",
@@ -113066,7 +113168,9 @@
       "last_updated": "2026-03-17T22:14:56.140200+00:00"
     },
     "Khan/genqlient": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 234450184,
         "name": "genqlient",
@@ -113326,7 +113430,9 @@
       "last_updated": "2026-03-17T22:14:58.887341+00:00"
     },
     "cloudflare/cloudflare-go": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 47340306,
         "name": "cloudflare-go",
@@ -116966,7 +117072,9 @@
       "last_updated": "2026-03-17T22:15:36.490238+00:00"
     },
     "WebAssembly/wasi-grpc": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 540193864,
         "name": "wasi-grpc",
@@ -117106,7 +117214,9 @@
       "last_updated": "2026-03-17T22:15:38.030033+00:00"
     },
     "emicklei/go-restful": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 6701057,
         "name": "go-restful",
@@ -117506,7 +117616,9 @@
       "last_updated": "2026-03-17T22:15:42.168688+00:00"
     },
     "lileio/lile": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 80036106,
         "name": "lile",
@@ -117546,7 +117658,9 @@
       "last_updated": "2026-03-17T22:15:42.552370+00:00"
     },
     "glideapps/quicktype": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 97062850,
         "name": "quicktype",
@@ -118246,7 +118360,9 @@
       "last_updated": "2026-03-17T22:15:49.818797+00:00"
     },
     "PostgREST/postgrest": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 20787122,
         "name": "postgrest",
@@ -118886,7 +119002,9 @@
       "last_updated": "2026-03-17T22:15:56.100293+00:00"
     },
     "patricklubach/python-terraform-registry": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 448992861,
         "name": "python-terraform-registry",
@@ -119706,7 +119824,9 @@
       "last_updated": "2026-03-17T22:16:04.636427+00:00"
     },
     "pasztorpisti/qs": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 79725695,
         "name": "qs",
@@ -119866,7 +119986,9 @@
       "last_updated": "2026-03-17T22:16:06.268520+00:00"
     },
     "xceejay/rest-api-starter": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 554200414,
         "name": "rest-api-starter",
@@ -119966,7 +120088,9 @@
       "last_updated": "2026-03-17T22:16:07.293892+00:00"
     },
     "metlo-labs/metlo": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 518195179,
         "name": "metlo",
@@ -122566,7 +122690,9 @@
       "last_updated": "2026-03-17T22:16:34.354125+00:00"
     },
     "Lukasa/mkcert": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 23677524,
         "name": "mkcert",
@@ -122586,7 +122712,9 @@
       "last_updated": "2026-03-17T22:16:34.555657+00:00"
     },
     "nicholasaleks/CrackQL": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 509172159,
         "name": "CrackQL",
@@ -123746,7 +123874,9 @@
       "last_updated": "2026-03-17T22:16:45.936524+00:00"
     },
     "advanced-rest-client/arc-electron": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 105956507,
         "name": "arc-electron",
@@ -140886,7 +141016,9 @@
       "last_updated": "2026-03-17T22:19:39.946102+00:00"
     },
     "zaproxy/zaproxy": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 36817565,
         "name": "zaproxy",
