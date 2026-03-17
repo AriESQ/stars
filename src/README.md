@@ -11,12 +11,10 @@ src/
 │   ├── SortDropdown.js
 │   ├── AdvancedSearchCondition.js
 │   ├── AdvancedSearch.js
-│   ├── ArXivBadge.js
 │   └── ExpandedRepoView.js
 ├── hooks/
 │   └── useRepositories.js
 ├── utils/
-│   ├── arxivUtils.js
 │   └── sortUtils.js
 ├── App.js
 ├── index.js
@@ -48,9 +46,6 @@ Renders a single condition in the advanced search feature. It includes fields fo
 ### AdvancedSearch.js
 Manages the advanced search feature, allowing users to add, remove, and modify search conditions.
 
-### ArXivBadge.js
-A small component that displays an arXiv badge for repositories linked to arXiv papers.
-
 ### ExpandedRepoView.js
 Renders detailed information about a repository when it's expanded in the list view.
 
@@ -60,9 +55,6 @@ Renders detailed information about a repository when it's expanded in the list v
 A custom hook that manages the fetching, filtering, and sorting of repository data. It encapsulates the complex logic for data manipulation, making it easier to test and maintain.
 
 ## Utilities
-
-### arxivUtils.js
-Contains utility functions for working with arXiv-related data, such as extracting arXiv IDs and retrieving specific fields from arXiv metadata.
 
 ### sortUtils.js
 Provides utility functions and constants related to sorting and field operations, including field options, operator lists, and input type determination.

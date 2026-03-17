@@ -133,7 +133,6 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── config.yaml
 ├── docs
 │   └── readme
 │       ├── base.md.j2
@@ -150,8 +149,7 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── pyproject.toml
 ├── scrape_stars.py
 ├── scripts
-│   ├── generate-package-lock.js
-│   └── transform_categories.py
+│   └── generate-package-lock.js
 ├── src
 │   ├── App.js
 │   ├── README.md
@@ -171,7 +169,6 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 ├── tests
 │   ├── __init__.py
 │   └── test_scrape.py
-├── update_star_lists.py
-└── utils.py
+└── update_star_lists.py
 
 ```

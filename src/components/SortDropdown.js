@@ -10,8 +10,6 @@ const SortDropdown = ({ sortOption, sortDirection, handleSortChange }) => {
     { value: 'created_at', label: 'Created' },
     { value: 'pushed_at', label: 'Last Pushed' },
     { value: 'starred_at', label: 'Starred At' },
-    { value: 'arxiv_published', label: 'arXiv Published Date' },
-    { value: 'arxiv_updated', label: 'arXiv Updated Date' },
   ];
 
   return (

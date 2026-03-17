@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Search, SlidersHorizontal, ArrowDown, ArrowUp, ChevronDown, ChevronUp, Github as GithubIcon } from 'lucide-react';
 import SortDropdown from './SortDropdown';
 import AdvancedSearch from './AdvancedSearch';
-import ArXivBadge from './ArXivBadge';
 import ExpandedRepoView from './ExpandedRepoView';
 import useRepositories from '../hooks/useRepositories';
 import { fieldOptions } from '../utils/sortUtils';
@@ -15,10 +14,8 @@ const Dashboard = () => {
     data,
     filteredRepos,
     allLists,
-    allCategories,
     handleSortChange,
     toggleSortDirection,
-    arxivMetadata,
     sortOption,
     sortDirection,
     textSearch,
@@ -71,7 +68,7 @@ const Dashboard = () => {
             {showAdvancedSearch ? 'Hide' : 'Show'} Advanced Search
           </button>
           <div className="flex items-center space-x-2">
-            <SortDropdown 
+            <SortDropdown
               sortOption={sortOption}
               sortDirection={sortDirection}
               handleSortChange={handleSortChange}
@@ -86,22 +83,21 @@ const Dashboard = () => {
           </div>
         </div>
         {showAdvancedSearch && (
-          <AdvancedSearch 
+          <AdvancedSearch
             conditions={searchConditions}
             setConditions={setSearchConditions}
             fieldOptions={fieldOptions}
             allLists={allLists}
-            allCategories={allCategories}
           />
         )}
       </header>
-      
+
       <main>
         <h2 className="text-2xl font-semibold mb-4">Repositories ({filteredRepos.length})</h2>
         <ul className="space-y-4">
           {filteredRepos.map(([name, repo]) => (
             <li key={name} className="bg-white shadow rounded-lg overflow-hidden">
-              <div 
+              <div
                 className="px-6 py-4 cursor-pointer hover:bg-gray-50"
                 onClick={(e) => toggleRepoExpansion(name, e)}
               >
@@ -118,16 +114,13 @@ const Dashboard = () => {
                       {name}
                     </a>
                     <span className="text-sm font-medium text-gray-600">{repo.metadata.stars} ★</span>
-                    {repo.arxiv && (repo.arxiv.primary_id || repo.arxiv.primary_url) && (
-                      <ArXivBadge arxivInfo={repo.arxiv} arxivMetadata={arxivMetadata} />
-                    )}
                   </div>
                   {expandedRepo === name ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
                 </div>
                 <p className="text-sm text-gray-600 mt-2">{repo.metadata.description}</p>
               </div>
               {expandedRepo === name && (
-                <ExpandedRepoView repo={repo} name={name} arxivMetadata={arxivMetadata} />
+                <ExpandedRepoView repo={repo} name={name} />
               )}
             </li>
           ))}
