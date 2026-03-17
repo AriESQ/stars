@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:27.540215+00:00",
+  "last_updated": "2026-03-17T23:14:30.694889+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -960,7 +960,8 @@
         "Devops",
         "Github Actions",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 1142369668,
@@ -14603,7 +14604,9 @@
       }
     },
     "AGWA/build-go1.20": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 1025209183,
         "name": "build-go1.20",
@@ -14870,7 +14873,9 @@
       }
     },
     "chainguard-demo/vibelympics": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 1081296623,
         "name": "vibelympics",
@@ -15680,7 +15685,8 @@
     },
     "sigstore/rekor-monitor": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 337157341,
@@ -15707,7 +15713,8 @@
     },
     "transparency-dev/witness": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 598529823,
@@ -16306,7 +16313,8 @@
     },
     "bomfather/tools": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 1072582315,
@@ -16692,7 +16700,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 820995896,
@@ -16775,7 +16784,8 @@
     },
     "chainguard-dev/edu": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 499499951,
@@ -16801,7 +16811,9 @@
       }
     },
     "chainguard-dev/ssc-reading-list": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 491584323,
         "name": "ssc-reading-list",
@@ -26814,7 +26826,9 @@
       }
     },
     "VIDA-NYU/reprozip": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 19500159,
         "name": "reprozip",
@@ -27256,7 +27270,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 804443974,
@@ -36760,7 +36775,8 @@
     },
     "DependencyTrack/dependency-track": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 11457947,
@@ -36787,7 +36803,8 @@
     },
     "chainloop-dev/chainloop": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 610316941,
@@ -83676,7 +83693,9 @@
       }
     },
     "anthonyharrison/sbom2dot": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 595190904,
         "name": "sbom2dot",
@@ -85284,7 +85303,8 @@
     },
     "vmware-samples/sbom-composer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 515991391,
@@ -94053,7 +94073,9 @@
       }
     },
     "chainguard-dev/bomshell": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 650903735,
         "name": "bomshell",
@@ -104694,7 +104716,9 @@
       "last_updated": "2026-03-17T22:11:52.092961+00:00"
     },
     "nix-community/lanzaboote": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 568764733,
         "name": "lanzaboote",
@@ -106759,7 +106783,8 @@
     },
     "trailofbits/it-depends": {
       "lists": [
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 333981819,
@@ -107028,7 +107053,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 434595633,
@@ -107972,7 +107998,8 @@
     },
     "protobom/protobom": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 649429434,
@@ -108124,7 +108151,8 @@
     },
     "railwayapp/nixpacks": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 474540881,
@@ -108261,7 +108289,9 @@
       "last_updated": "2026-03-17T22:12:25.435711+00:00"
     },
     "cdxgen/cdxgen": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 230924711,
         "name": "cdxgen",
@@ -108498,7 +108528,8 @@
     },
     "ossf/malicious-packages": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 611884074,
@@ -109296,7 +109327,9 @@
       "last_updated": "2026-03-17T22:12:35.461724+00:00"
     },
     "the-nix-way/real-world-devops-with-nix": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 527943231,
         "name": "real-world-devops-with-nix",
@@ -109316,7 +109349,9 @@
       "last_updated": "2026-03-17T22:12:35.659225+00:00"
     },
     "the-nix-way/dev-templates": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 512942885,
         "name": "dev-templates",
@@ -109547,7 +109582,8 @@
     },
     "xeol-io/xeol": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 581609881,
@@ -109814,7 +109850,8 @@
     },
     "mchmarny/s3cme": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 588304121,
@@ -110107,7 +110144,9 @@
       "last_updated": "2026-03-17T22:12:42.850238+00:00"
     },
     "RobMarion/sbom-pocs": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 631037293,
         "name": "sbom-pocs",
@@ -110574,7 +110613,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 379004794,
@@ -110982,7 +111022,9 @@
       "last_updated": "2026-03-17T22:12:51.112133+00:00"
     },
     "fosslight/fosslight": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 362768156,
         "name": "fosslight",
@@ -111338,7 +111380,8 @@
     "tiiuae/sbomnix": {
       "lists": [
         "Devops",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 575807395,
@@ -111407,7 +111450,8 @@
     "scanoss/sbom-workbench": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 375663611,
@@ -111432,7 +111476,8 @@
         "Devops",
         "GoLang",
         "JavaScript",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 503516905,
@@ -111456,7 +111501,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Rust"
+        "Rust",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 526398555,
@@ -111477,7 +111523,9 @@
       "last_updated": "2026-03-17T22:12:55.752822+00:00"
     },
     "hrbrmstr/sbom": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 497649190,
         "name": "sbom",
@@ -111500,7 +111548,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 635984325,
@@ -111524,7 +111573,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 464860347,
@@ -111548,7 +111598,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 565531298,
@@ -111572,7 +111623,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Rust"
+        "Rust",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 545003439,
@@ -111595,7 +111647,8 @@
     "nitram2342/update-python-venv-requirements-and-sbom": {
       "lists": [
         "Devops",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 617212101,
@@ -111888,7 +111941,8 @@
     },
     "FiloSottile/torchwood": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 640577696,
@@ -112628,7 +112682,9 @@
       "last_updated": "2026-03-17T22:13:06.375307+00:00"
     },
     "chainguard-sandbox/bom-shelter": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 459730853,
         "name": "bom-shelter",
@@ -113530,7 +113586,9 @@
       "last_updated": "2026-03-17T22:13:14.904346+00:00"
     },
     "GitHubSecurityLab/gh-qldb": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 632936903,
         "name": "gh-qldb",
@@ -114364,7 +114422,8 @@
     },
     "chainguard-dev/go-apk": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 633737960,
@@ -115065,7 +115124,8 @@
     },
     "flox/flox": {
       "lists": [
-        "Rust"
+        "Rust",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 581225647,
@@ -115087,7 +115147,8 @@
     },
     "cachix/devenv": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 555988330,
@@ -115242,7 +115303,8 @@
       "lists": [
         "Infosec",
         "Linux CLI Tools",
-        "PKI"
+        "PKI",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 291897139,
@@ -115555,7 +115617,8 @@
     },
     "dustinlyons/nixos-config": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 420004805,
@@ -115579,7 +115642,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 626017140,
@@ -116008,7 +116072,8 @@
     },
     "advanced-security/spdx-dependency-submission-action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 605798379,
@@ -116030,7 +116095,8 @@
     },
     "advanced-security/component-detection-dependency-submission-action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 604441937,
@@ -116592,7 +116658,8 @@
     "chainguard-images/images": {
       "lists": [
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 563510952,
@@ -116843,7 +116910,8 @@
       "lists": [
         "Authentication",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 341596960,
@@ -117043,7 +117111,8 @@
     },
     "ublue-os/fleek": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 614635646,
@@ -117132,7 +117201,9 @@
       "last_updated": "2026-03-17T22:13:49.151233+00:00"
     },
     "omnibor/spec": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 457901840,
         "name": "spec",
@@ -117152,7 +117223,9 @@
       "last_updated": "2026-03-17T22:13:49.408456+00:00"
     },
     "package-url/purl-spec": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 110339177,
         "name": "purl-spec",
@@ -117173,7 +117246,8 @@
     },
     "interlynk-io/sbomqs": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 595838775,
@@ -117194,7 +117268,9 @@
       "last_updated": "2026-03-17T22:13:49.829791+00:00"
     },
     "spdx/ntia-conformance-checker": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 515347540,
         "name": "ntia-conformance-checker",
@@ -117214,7 +117290,9 @@
       "last_updated": "2026-03-17T22:13:50.022279+00:00"
     },
     "eBay/sbom-scorecard": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 561538068,
         "name": "sbom-scorecard",
@@ -118016,7 +118094,8 @@
     },
     "slsa-framework/slsa-verifier": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 474162642,
@@ -118132,7 +118211,8 @@
     "kubernetes-sigs/bom": {
       "lists": [
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 429800698,
@@ -118154,7 +118234,8 @@
     },
     "tern-tools/tern": {
       "lists": [
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 112261191,
@@ -118677,7 +118758,8 @@
     },
     "microsoft/sbom-tool": {
       "lists": [
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 498824328,
@@ -118701,7 +118783,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 613423328,
@@ -119640,7 +119723,8 @@
     },
     "obfusk/apksigcopier": {
       "lists": [
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 351271708,
@@ -119662,7 +119746,8 @@
     },
     "obfusk/reproducible-apk-tools": {
       "lists": [
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 569093378,
@@ -121093,7 +121178,9 @@
       "last_updated": "2026-03-17T22:14:26.309970+00:00"
     },
     "NixOS/nixpkgs": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 4542716,
         "name": "nixpkgs",
@@ -121254,7 +121341,8 @@
         "CI/CD",
         "Devops",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 475074978,
@@ -126446,7 +126534,8 @@
         "Devops",
         "Github Actions",
         "PKI",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 508560980,
@@ -129275,7 +129364,9 @@
       "last_updated": "2026-03-17T22:15:40.078552+00:00"
     },
     "bmwiedemann/theunreproduciblepackage": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 108797187,
         "name": "theunreproduciblepackage",
@@ -130082,7 +130173,8 @@
         "Devops",
         "Docker and OCI containers",
         "Infosec",
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 59531400,
@@ -130105,7 +130197,8 @@
     "ossf/s2c2f": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 554243176,
@@ -130128,7 +130221,8 @@
     "ossf/wg-supply-chain-integrity": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 277614573,
@@ -130949,7 +131043,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 18950460,
@@ -133685,7 +133780,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 199516328,
@@ -133804,7 +133900,8 @@
     "guacsec/guac": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 502127166,
@@ -136325,7 +136422,8 @@
     },
     "python-poetry/poetry": {
       "lists": [
-        "Python"
+        "Python",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 123303402,
@@ -136468,7 +136566,8 @@
     "sigstore/sigstore-rs": {
       "lists": [
         "Devops",
-        "Rust"
+        "Rust",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 413517218,
@@ -136601,7 +136700,8 @@
     },
     "opensbom-generator/spdx-sbom-generator": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 368981583,
@@ -137611,7 +137711,8 @@
     },
     "oasislinux/oasis": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 60745639,
@@ -137744,7 +137845,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 373321576,
@@ -139696,7 +139798,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 491440930,
@@ -145746,7 +145849,8 @@
       "lists": [
         "Bash",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 91498459,
@@ -146241,7 +146345,8 @@
     },
     "rpearce/nix-rust-template": {
       "lists": [
-        "Rust"
+        "Rust",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 427245476,
@@ -148694,7 +148799,8 @@
     "codenotary/immudb": {
       "lists": [
         "GoLang",
-        "PKI"
+        "PKI",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 220186120,
@@ -148715,7 +148821,9 @@
       "last_updated": "2026-03-17T22:18:35.704960+00:00"
     },
     "dotnet/reproducible-builds": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 362575136,
         "name": "reproducible-builds",
@@ -148827,7 +148935,8 @@
     },
     "0xKitsune/Reproducible-Go-Binaries": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 448958746,
@@ -149429,7 +149538,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 434639382,
@@ -152041,7 +152151,8 @@
       "lists": [
         "GoLang",
         "Infosec",
-        "PKI"
+        "PKI",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 58654489,
@@ -154102,7 +154213,8 @@
         "Github Actions",
         "GoLang",
         "Infosec",
-        "PKI"
+        "PKI",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 335952417,
@@ -154667,7 +154779,8 @@
     },
     "anchore/syft": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "SBOM and Reproducible Builds"
       ],
       "metadata": {
         "id": 262126497,
