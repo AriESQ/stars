@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:14:32.435517+00:00",
+  "last_updated": "2026-03-17T23:14:34.255952+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -15686,7 +15686,8 @@
     "sigstore/rekor-monitor": {
       "lists": [
         "GoLang",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 337157341,
@@ -15714,7 +15715,8 @@
     "transparency-dev/witness": {
       "lists": [
         "GoLang",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 598529823,
@@ -15796,7 +15798,8 @@
     },
     "bilinearlabs/rs-merkle-tree": {
       "lists": [
-        "Rust"
+        "Rust",
+        "Sigstore"
       ],
       "metadata": {
         "id": 1056680159,
@@ -20911,7 +20914,8 @@
     "x-stp/rxtls": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Sigstore"
       ],
       "metadata": {
         "id": 978268692,
@@ -111946,7 +111950,8 @@
     "FiloSottile/torchwood": {
       "lists": [
         "GoLang",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 640577696,
@@ -113591,7 +113596,8 @@
     },
     "GitHubSecurityLab/gh-qldb": {
       "lists": [
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 632936903,
@@ -115647,7 +115653,8 @@
         "Devops",
         "GoLang",
         "K8S - Kubernetes",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 626017140,
@@ -116663,7 +116670,8 @@
       "lists": [
         "Docker and OCI containers",
         "Infosec",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 563510952,
@@ -116915,7 +116923,8 @@
         "Authentication",
         "Devops",
         "GoLang",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 341596960,
@@ -126541,7 +126550,8 @@
         "Github Actions",
         "PKI",
         "Python",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 508560980,
@@ -130181,7 +130191,8 @@
         "Docker and OCI containers",
         "Infosec",
         "Python",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 59531400,
@@ -130205,7 +130216,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 554243176,
@@ -130229,7 +130241,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Sigstore"
       ],
       "metadata": {
         "id": 277614573,
@@ -132318,7 +132331,8 @@
         "Devops",
         "Infosec",
         "PKI",
-        "Python"
+        "Python",
+        "Sigstore"
       ],
       "metadata": {
         "id": 447691086,
@@ -138336,7 +138350,8 @@
         "CI/CD",
         "Devops",
         "Github Actions",
-        "PKI"
+        "PKI",
+        "Sigstore"
       ],
       "metadata": {
         "id": 491573171,
@@ -154196,7 +154211,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "PKI"
+        "PKI",
+        "Sigstore"
       ],
       "metadata": {
         "id": 272963353,
