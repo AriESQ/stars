@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:13:48.340859+00:00",
+  "last_updated": "2026-03-17T23:13:52.255068+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -13748,7 +13748,8 @@
     "octelium/octelium": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 985853356,
@@ -14429,7 +14430,8 @@
     },
     "spr-networks/super": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 402212200,
@@ -17206,7 +17208,9 @@
       }
     },
     "chili-chips-ba/wireguard-fpga": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 828348416,
         "name": "wireguard-fpga",
@@ -17448,7 +17452,8 @@
     },
     "gofiber/fiber": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 234231371,
@@ -17923,7 +17928,8 @@
     },
     "SagerNet/sing-box": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 509091576,
@@ -19185,7 +19191,8 @@
     },
     "rootless-containers/slirp4netns": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 140418870,
@@ -19669,7 +19676,8 @@
     },
     "FoxIO-LLC/ja4": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 695203140,
@@ -19696,7 +19704,8 @@
     },
     "mandatoryprogrammer/thermoptic": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 1048821975,
@@ -20793,7 +20802,8 @@
     },
     "juhovh/tailguard": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 1048977614,
@@ -22418,7 +22428,8 @@
     },
     "napalm-automation/napalm": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 32737992,
@@ -22586,7 +22597,9 @@
       }
     },
     "rajsinghtech/tsflow": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 993696959,
         "name": "tsflow",
@@ -23287,7 +23300,8 @@
     "osrg/gobgp": {
       "lists": [
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Networking"
       ],
       "metadata": {
         "id": 24011030,
@@ -24943,7 +24957,8 @@
     },
     "123ojp/GREtunnel-scanner": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 980570333,
@@ -31185,7 +31200,8 @@
     },
     "dan-v/lambda-nat-proxy": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Networking"
       ],
       "metadata": {
         "id": 1003427424,
@@ -44707,7 +44723,8 @@
     },
     "dvershinin/gixy": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 198842952,
@@ -45709,7 +45726,8 @@
     "fosrl/pangolin": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 863835427,
@@ -46551,7 +46569,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 834618694,
@@ -46578,7 +46597,8 @@
     },
     "traviscross/mtr": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 7972402,
@@ -46714,7 +46734,8 @@
     },
     "apenwarr/blip": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 9688764,
@@ -46904,7 +46925,8 @@
     },
     "SuperQ/smokeping_prober": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 156078712,
@@ -46931,7 +46953,8 @@
     },
     "oetiker/SmokePing": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 2516976,
@@ -47038,7 +47061,9 @@
       }
     },
     "GyulyVGC/sniffnet": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 519895363,
         "name": "sniffnet",
@@ -47562,7 +47587,8 @@
       "lists": [
         "Authentication",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 94962254,
@@ -49048,7 +49074,9 @@
       }
     },
     "wireshark/wireshark": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 21329550,
         "name": "wireshark",
@@ -49190,7 +49218,9 @@
       }
     },
     "nguyenchiemminhvu/LinuxNetworkProgramming": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 859389597,
         "name": "LinuxNetworkProgramming",
@@ -49303,7 +49333,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 43837870,
@@ -51380,7 +51411,8 @@
       "lists": [
         "API",
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 594291409,
@@ -51598,7 +51630,8 @@
     },
     "seemoo-lab/CellGuard": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 815166789,
@@ -52779,7 +52812,8 @@
     },
     "netbox-community/netbox-topology-views": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 252408164,
@@ -52807,7 +52841,8 @@
     "netbox-community/netbox-docker": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 88978363,
@@ -52890,7 +52925,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 906866383,
@@ -55180,7 +55216,8 @@
     },
     "bsmithio/OPNsense-Dashboard": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 428851980,
@@ -57937,7 +57974,8 @@
     },
     "mholt/caddy-l4": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 263121767,
@@ -58104,7 +58142,8 @@
     },
     "doxx/darkflare": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 891628186,
@@ -58130,7 +58169,9 @@
       }
     },
     "cvmiller/nat64": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 66487325,
         "name": "nat64",
@@ -58155,7 +58196,9 @@
       }
     },
     "gmelodie/awesome-ipv6": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 222522254,
         "name": "awesome-ipv6",
@@ -58683,7 +58726,8 @@
     },
     "PlatformLab/HomaModule": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 139636077,
@@ -65096,7 +65140,8 @@
     "andrearaponi/dito": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 870207723,
@@ -65703,7 +65748,8 @@
     },
     "mitmproxy/mitmproxy": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 519832,
@@ -66892,7 +66938,8 @@
     "nginx/njs": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 43038779,
@@ -68547,7 +68594,8 @@
     "mozillazg/ptcpdump": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "Networking"
       ],
       "metadata": {
         "id": 782416935,
@@ -68741,7 +68789,8 @@
     },
     "OpenNMS/opennms": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 9377198,
@@ -71533,7 +71582,8 @@
     },
     "nginx/nginx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 37912398,
@@ -72878,7 +72928,8 @@
     "bryanpkc/corkscrew": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 64916837,
@@ -72905,7 +72956,8 @@
     },
     "Gabriella439/holepunch": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 847409173,
@@ -73746,7 +73798,9 @@
       }
     },
     "quiclog/qvis": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 161805646,
         "name": "qvis",
@@ -73771,7 +73825,9 @@
       }
     },
     "quicwg/qlog": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 179496936,
         "name": "qlog",
@@ -76874,7 +76930,8 @@
     "lima-vm/socket_vmnet": {
       "lists": [
         "Apple and M1 virtualization",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 490630627,
@@ -81020,7 +81077,8 @@
     },
     "boinkor-net/tsnsrv": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 666879968,
@@ -82182,7 +82240,8 @@
     },
     "cifertech/ARPoLAN": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 808817502,
@@ -84043,7 +84102,8 @@
     "NHAS/wag": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 517558374,
@@ -85113,7 +85173,9 @@
       }
     },
     "bastibl/gr-ieee802-11": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 8989077,
         "name": "gr-ieee802-11",
@@ -85218,7 +85280,8 @@
     },
     "open-sdr/openwifi": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 220449772,
@@ -85788,7 +85851,8 @@
     },
     "isginf/pcap-diff": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 7819975,
@@ -91634,7 +91698,8 @@
     },
     "seemoo-lab/nexmon": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 72093010,
@@ -98449,7 +98514,9 @@
       "last_updated": "2026-03-17T22:10:59.440697+00:00"
     },
     "fujiapple852/trippy": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 474961035,
         "name": "trippy",
@@ -98732,7 +98799,8 @@
     },
     "espressif/esp32-wifi-lib": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 65913279,
@@ -99162,7 +99230,8 @@
     },
     "Shopify/toxiproxy": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 23664475,
@@ -101319,7 +101388,9 @@
       "last_updated": "2026-03-17T22:11:26.610947+00:00"
     },
     "tailscale/terraform-provider-tailscale": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 327685695,
         "name": "terraform-provider-tailscale",
@@ -102134,7 +102205,8 @@
     },
     "CZ-NIC/knot-resolver": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 33183004,
@@ -104553,7 +104625,8 @@
     },
     "cminyard/ser2net": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 78758889,
@@ -104995,7 +105068,8 @@
     "netreplica/graphite": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 457231862,
@@ -105135,7 +105209,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 298768591,
@@ -105293,7 +105368,8 @@
     },
     "leandromoreira/linux-network-performance-parameters": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 134344489,
@@ -105772,7 +105848,8 @@
       "lists": [
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 61661892,
@@ -105816,7 +105893,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 44927862,
@@ -106035,7 +106113,8 @@
     },
     "cedrickchee/awesome-wireguard": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 381382807,
@@ -107382,7 +107461,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 273871859,
@@ -107836,7 +107916,9 @@
       "last_updated": "2026-03-17T22:12:29.442217+00:00"
     },
     "hoxnox/eve-ng": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 175192854,
         "name": "eve-ng",
@@ -108272,7 +108354,9 @@
       "last_updated": "2026-03-17T22:12:33.821052+00:00"
     },
     "nicholaschiasson/fcidr": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 662232160,
         "name": "fcidr",
@@ -108339,7 +108423,8 @@
     "BeryJu/gravity": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 511075089,
@@ -109308,7 +109393,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 342358823,
@@ -109947,7 +110033,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Networking"
       ],
       "metadata": {
         "id": 66426242,
@@ -110837,7 +110924,8 @@
     "gcla/termshark": {
       "lists": [
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 182353393,
@@ -111405,7 +111493,8 @@
     },
     "hackerschoice/gsocket": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 296670766,
@@ -113109,7 +113198,9 @@
       "last_updated": "2026-03-17T22:13:19.664903+00:00"
     },
     "openwisp/openwisp-controller": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 77444607,
         "name": "openwisp-controller",
@@ -113129,7 +113220,9 @@
       "last_updated": "2026-03-17T22:13:19.839156+00:00"
     },
     "RADIUSdesk/rdcore": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 445026647,
         "name": "rdcore",
@@ -114060,7 +114153,8 @@
     "projectcalico/calico": {
       "lists": [
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Networking"
       ],
       "metadata": {
         "id": 63882194,
@@ -114082,7 +114176,8 @@
     },
     "openziti/zrok": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 515311500,
@@ -114231,7 +114326,9 @@
       "last_updated": "2026-03-17T22:13:31.091709+00:00"
     },
     "robertdebock/ansible-role-tailscale": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 629432127,
         "name": "ansible-role-tailscale",
@@ -115130,7 +115227,9 @@
       "last_updated": "2026-03-17T22:13:39.730346+00:00"
     },
     "syncsynchalt/illustrated-quic": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 480212826,
         "name": "illustrated-quic",
@@ -115150,7 +115249,9 @@
       "last_updated": "2026-03-17T22:13:39.920289+00:00"
     },
     "syncsynchalt/illustrated-tls13": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 155298214,
         "name": "illustrated-tls13",
@@ -115461,7 +115562,9 @@
       "last_updated": "2026-03-17T22:13:42.771563+00:00"
     },
     "zerotier/ZeroTierOne": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 9647856,
         "name": "ZeroTierOne",
@@ -115481,7 +115584,9 @@
       "last_updated": "2026-03-17T22:13:43.052777+00:00"
     },
     "gsliepen/tinc": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 1248151,
         "name": "tinc",
@@ -115502,7 +115607,8 @@
     },
     "yggdrasil-network/yggdrasil-go": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 115685026,
@@ -117262,7 +117368,8 @@
     },
     "travelping/docker-pcap": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 137036407,
@@ -117528,7 +117635,8 @@
     "aerleon/aerleon": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 536332225,
@@ -119793,7 +119901,8 @@
     "nginx/nginx-s3-gateway": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 296727267,
@@ -119994,7 +120103,9 @@
       "last_updated": "2026-03-17T22:14:26.055754+00:00"
     },
     "kirin-attack/mrtgen": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 417111577,
         "name": "mrtgen",
@@ -120354,7 +120465,8 @@
     "aws-samples/hub-and-spoke-with-inspection-vpc-terraform": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 437248686,
@@ -120377,7 +120489,8 @@
     "aws-samples/non-routable-secondary-vpc-cidr-patterns": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 536253312,
@@ -121507,7 +121620,8 @@
     },
     "zeek/zeek": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 4930716,
@@ -122231,7 +122345,8 @@
     },
     "Dasharo/dasharo-issues": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 316353412,
@@ -122386,7 +122501,8 @@
     "markdegrootnl/unifi-protect-arm64": {
       "lists": [
         "DIY",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 359421322,
@@ -122646,7 +122762,8 @@
     },
     "IBM/NetDash": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Networking"
       ],
       "metadata": {
         "id": 142632522,
@@ -122691,7 +122808,8 @@
     },
     "imohitmayank/jaal": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 333369736,
@@ -122713,7 +122831,8 @@
     },
     "librenms/librenms": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 13914116,
@@ -124501,7 +124620,8 @@
     },
     "dangowrt/owrt-ubi-installer": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 341315193,
@@ -124523,7 +124643,8 @@
     },
     "julyworlds/openwrt-cudy-x6": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 428746642,
@@ -124832,7 +124953,8 @@
     "linuxserver-archive/docker-unifi-controller": {
       "lists": [
         "DIY",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 170030720,
@@ -124943,7 +125065,8 @@
     },
     "karubits/unifi-network-controller-playbook": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 524541526,
@@ -124988,7 +125111,8 @@
     "MarginResearch/FOISted": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 505226247,
@@ -126293,7 +126417,8 @@
     },
     "yuvadm/cidr.xyz": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 47655428,
@@ -126640,7 +126765,8 @@
     },
     "aws-samples/aws-vpc-peering-terraform-inspec": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Networking"
       ],
       "metadata": {
         "id": 384309224,
@@ -126774,7 +126900,8 @@
       "lists": [
         "Devops",
         "eBPF",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Networking"
       ],
       "metadata": {
         "id": 222612062,
@@ -126886,7 +127013,8 @@
     },
     "DNH-Computing/terraform-provider-edgerouter": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 395290700,
@@ -126908,7 +127036,8 @@
     },
     "ddelnano/terraform-provider-mikrotik": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 173301111,
@@ -127359,7 +127488,8 @@
     },
     "irmen/Pyro5": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Networking"
       ],
       "metadata": {
         "id": 83903998,
@@ -128462,7 +128592,8 @@
     "gravitl/netmaker": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 351486934,
@@ -128757,7 +128888,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 369150691,
@@ -128804,7 +128936,9 @@
       "last_updated": "2026-03-17T22:15:47.181843+00:00"
     },
     "GeekVisit/uproot": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 402100900,
         "name": "uproot",
@@ -129270,7 +129404,8 @@
       "lists": [
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 566874067,
@@ -129456,7 +129591,8 @@
         "Devops",
         "GoLang",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 195654997,
@@ -129778,7 +129914,8 @@
     },
     "FRRouting/frr": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 76599439,
@@ -130019,7 +130156,9 @@
       "last_updated": "2026-03-17T22:15:57.662382+00:00"
     },
     "omniedgeio/omniedge": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 507467361,
         "name": "omniedge",
@@ -130299,7 +130438,8 @@
         "AWS",
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 222777077,
@@ -130367,7 +130507,8 @@
     "aws-samples/aws-startup-landing-zone-terraform-example": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 436455380,
@@ -130505,7 +130646,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 493307241,
@@ -130552,7 +130694,8 @@
     "aws-samples/hub-and-spoke-with-shared-services-vpc-terraform": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 445445953,
@@ -130811,7 +130954,8 @@
     },
     "chime/terraform-aws-alternat": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Networking"
       ],
       "metadata": {
         "id": 529406391,
@@ -130899,7 +131043,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 58842707,
@@ -131066,7 +131211,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 562494391,
@@ -131808,7 +131954,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Networking"
       ],
       "metadata": {
         "id": 84575398,
@@ -132211,7 +132358,8 @@
     "nttgin/BGPalerter": {
       "lists": [
         "Infosec",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 197530275,
@@ -133576,7 +133724,8 @@
     },
     "byt3bl33d3r/CrackMapExec": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 40718289,
@@ -134041,7 +134190,8 @@
       "lists": [
         "Bash",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 249029243,
@@ -134776,7 +134926,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 306156862,
@@ -135048,7 +135199,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 236282042,
@@ -135498,7 +135650,8 @@
     },
     "icing/qtools": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 524938696,
@@ -136056,7 +136209,8 @@
     "ogham/dog": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Networking"
       ],
       "metadata": {
         "id": 258827107,
@@ -136168,7 +136322,8 @@
     "nzymedefense/nzyme": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 73515052,
@@ -137798,7 +137953,8 @@
     },
     "perlin-network/noise": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 137223491,
@@ -137844,7 +138000,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "JavaScript"
+        "JavaScript",
+        "Networking"
       ],
       "metadata": {
         "id": 508330030,
@@ -138895,7 +139052,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 290960521,
@@ -139190,7 +139348,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 277649384,
@@ -141272,7 +141431,8 @@
     "netenglabs/suzieq": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 232338630,
@@ -144185,7 +144345,8 @@
     "ovn-org/ovn": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Networking"
       ],
       "metadata": {
         "id": 182148991,
@@ -145068,7 +145229,8 @@
     },
     "anderspitman/awesome-tunneling": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 296142821,
@@ -149636,7 +149798,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 222172014,
@@ -151525,7 +151688,8 @@
     },
     "tailscale/tailscale": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 237523442,
@@ -154027,7 +154191,8 @@
     },
     "netbox-community/netbox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Networking"
       ],
       "metadata": {
         "id": 52796596,
@@ -155212,7 +155377,8 @@
     "pritunl/pritunl": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 12798028,
@@ -155414,7 +155580,8 @@
     },
     "paultyng/go-unifi": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Networking"
       ],
       "metadata": {
         "id": 233111588,
