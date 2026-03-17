@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:09:44.879272+00:00",
+  "last_updated": "2026-03-17T23:09:48.751936+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -8114,7 +8114,9 @@
       }
     },
     "Linuxmaster14/yt-playlist-downloader": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1127584616,
         "name": "yt-playlist-downloader",
@@ -9474,7 +9476,9 @@
       }
     },
     "FOBshippingpoint/shittp": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1083641424,
         "name": "shittp",
@@ -20980,7 +20984,9 @@
       }
     },
     "Linutronix/elbe": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 7684555,
         "name": "elbe",
@@ -21407,7 +21413,9 @@
       }
     },
     "jkool702/timep": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1016784026,
         "name": "timep",
@@ -24937,7 +24945,9 @@
       }
     },
     "IHATEGIVINGAUSERNAME/theProtector": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1024884213,
         "name": "theProtector",
@@ -26597,7 +26607,9 @@
       }
     },
     "gabochi/bANSh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 283626524,
         "name": "bANSh",
@@ -26774,7 +26786,9 @@
       }
     },
     "junguler/_image-manipulation": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 411005627,
         "name": "_image-manipulation",
@@ -27278,7 +27292,9 @@
       }
     },
     "terryso/claude-auto-resume": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1014448317,
         "name": "claude-auto-resume",
@@ -28591,7 +28607,9 @@
       }
     },
     "akinomyoga/ble.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 40722355,
         "name": "ble.sh",
@@ -28616,7 +28634,9 @@
       }
     },
     "rcaloras/bash-preexec": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 27421773,
         "name": "bash-preexec",
@@ -45203,7 +45223,9 @@
       }
     },
     "yassinebenaid/bunster": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 831420946,
         "name": "bunster",
@@ -63621,7 +63643,9 @@
       }
     },
     "noperator/sol": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 847868327,
         "name": "sol",
@@ -64708,7 +64732,9 @@
       }
     },
     "serkan-ozal/otel-bash": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 666481168,
         "name": "otel-bash",
@@ -77328,7 +77354,9 @@
       }
     },
     "amber-lang/amber": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 516106592,
         "name": "amber",
@@ -82111,7 +82139,9 @@
       }
     },
     "SixArm/unix-shell-script-kit": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 154057596,
         "name": "unix-shell-script-kit",
@@ -83044,7 +83074,9 @@
       }
     },
     "dzove855/Bash-web-server": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 444444001,
         "name": "Bash-web-server",
@@ -97216,7 +97248,9 @@
       "last_updated": "2026-03-17T22:12:07.052905+00:00"
     },
     "cyberark/bash-lib": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 181513803,
         "name": "bash-lib",
@@ -97478,7 +97512,9 @@
       "last_updated": "2026-03-17T22:12:09.738069+00:00"
     },
     "rebootuser/LinEnum": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 12236152,
         "name": "LinEnum",
@@ -98069,7 +98105,8 @@
     },
     "theipster/aws-cloudformation-graphviz": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Bash"
       ],
       "metadata": {
         "id": 323769266,
@@ -100663,7 +100700,9 @@
       "last_updated": "2026-03-17T22:12:42.625176+00:00"
     },
     "binpash/try": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 642077719,
         "name": "try",
@@ -102297,7 +102336,9 @@
       "last_updated": "2026-03-17T22:12:59.606399+00:00"
     },
     "chaselambda/makefiletutorial": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 26828574,
         "name": "makefiletutorial",
@@ -102379,7 +102420,9 @@
       "last_updated": "2026-03-17T22:13:00.392085+00:00"
     },
     "zackproser/automations": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 641210684,
         "name": "automations",
@@ -102859,7 +102902,9 @@
       "last_updated": "2026-03-17T22:13:05.583401+00:00"
     },
     "ivan-hc/AppImaGen": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 636545096,
         "name": "AppImaGen",
@@ -103101,7 +103146,9 @@
       "last_updated": "2026-03-17T22:13:08.149043+00:00"
     },
     "dylanaraps/neofetch": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 48795298,
         "name": "neofetch",
@@ -103543,7 +103590,9 @@
       "last_updated": "2026-03-17T22:13:12.811724+00:00"
     },
     "bradfeehan/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 7063180,
         "name": "dotfiles",
@@ -103583,7 +103632,9 @@
       "last_updated": "2026-03-17T22:13:13.241319+00:00"
     },
     "jandamm/zgenom": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 296924338,
         "name": "zgenom",
@@ -106217,7 +106268,9 @@
       "last_updated": "2026-03-17T22:13:41.042362+00:00"
     },
     "ysoftwareab/tfrepl": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 628501876,
         "name": "tfrepl",
@@ -106669,7 +106722,9 @@
       "last_updated": "2026-03-17T22:13:45.727423+00:00"
     },
     "tonistiigi/xx": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 150307921,
         "name": "xx",
@@ -106773,7 +106828,9 @@
       "last_updated": "2026-03-17T22:13:46.672525+00:00"
     },
     "rockymadden/slack-cli": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 47231877,
         "name": "slack-cli",
@@ -107954,7 +108011,8 @@
     },
     "fipso/ccurl.sh": {
       "lists": [
-        "API"
+        "API",
+        "Bash"
       ],
       "metadata": {
         "id": 620003044,
@@ -110082,7 +110140,9 @@
       "last_updated": "2026-03-17T22:14:21.548761+00:00"
     },
     "rustyflavor/clr.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 615127615,
         "name": "clr.sh",
@@ -110306,7 +110366,9 @@
       "last_updated": "2026-03-17T22:14:23.666116+00:00"
     },
     "vaniacer/sshto": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 110962221,
         "name": "sshto",
@@ -110388,7 +110450,9 @@
       "last_updated": "2026-03-17T22:14:24.367175+00:00"
     },
     "awslabs/aws-container-images-toolkit": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 309745760,
         "name": "aws-container-images-toolkit",
@@ -111886,7 +111950,9 @@
       "last_updated": "2026-03-17T22:14:39.516701+00:00"
     },
     "mvdan/sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 49766020,
         "name": "sh",
@@ -112094,7 +112160,9 @@
       "last_updated": "2026-03-17T22:14:41.503453+00:00"
     },
     "wowu/docker-rollout": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 598306361,
         "name": "docker-rollout",
@@ -112652,7 +112720,9 @@
       "last_updated": "2026-03-17T22:14:46.803226+00:00"
     },
     "awesome-lists/awesome-bash": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 51288857,
         "name": "awesome-bash",
@@ -113734,7 +113804,9 @@
       "last_updated": "2026-03-17T22:14:57.466913+00:00"
     },
     "pmarreck/tinytestlib": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 439124286,
         "name": "tinytestlib",
@@ -114600,7 +114672,9 @@
       "last_updated": "2026-03-17T22:15:06.320343+00:00"
     },
     "FiloSottile/passage": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 398438761,
         "name": "passage",
@@ -115000,7 +115074,9 @@
       "last_updated": "2026-03-17T22:15:11.142728+00:00"
     },
     "Ronsor/cosmo-cross-sdk": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 582441008,
         "name": "cosmo-cross-sdk",
@@ -115162,7 +115238,9 @@
       "last_updated": "2026-03-17T22:15:12.736827+00:00"
     },
     "hashicorp/guides-configuration": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 87031689,
         "name": "guides-configuration",
@@ -116804,7 +116882,9 @@
       "last_updated": "2026-03-17T22:15:29.347427+00:00"
     },
     "tfutils/tfenv": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 64857500,
         "name": "tfenv",
@@ -116905,7 +116985,8 @@
     },
     "cornelinux/yubikey-luks": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Bash"
       ],
       "metadata": {
         "id": 17476175,
@@ -116927,7 +117008,8 @@
     },
     "smessmer/decrypt_keyctl_yubikey": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Bash"
       ],
       "metadata": {
         "id": 529506792,
@@ -118254,7 +118336,9 @@
       "last_updated": "2026-03-17T22:15:43.459406+00:00"
     },
     "adoyle-h/lobash": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 98386647,
         "name": "lobash",
@@ -118740,7 +118824,9 @@
       "last_updated": "2026-03-17T22:15:48.722493+00:00"
     },
     "techiescamp/vagrant-kubeadm-kubernetes": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 367798512,
         "name": "vagrant-kubeadm-kubernetes",
@@ -118882,7 +118968,9 @@
       "last_updated": "2026-03-17T22:15:49.992076+00:00"
     },
     "cbodden/gcp_dyndns": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 568550813,
         "name": "gcp_dyndns",
@@ -119227,7 +119315,9 @@
       "last_updated": "2026-03-17T22:15:53.316697+00:00"
     },
     "kvz/cronlock": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 4547247,
         "name": "cronlock",
@@ -119791,7 +119881,9 @@
       "last_updated": "2026-03-17T22:15:58.832317+00:00"
     },
     "drduh/Purse": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 135850078,
         "name": "Purse",
@@ -120124,7 +120216,8 @@
     },
     "aws-samples/aws2tf": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Bash"
       ],
       "metadata": {
         "id": 309733152,
@@ -120453,7 +120546,9 @@
       "last_updated": "2026-03-17T22:16:05.666851+00:00"
     },
     "trailofbits/algo": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 58842707,
         "name": "algo",
@@ -120724,7 +120819,9 @@
       "last_updated": "2026-03-17T22:16:08.320677+00:00"
     },
     "posix-shell-tests/posix-shell-tests": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 175826847,
         "name": "posix-shell-tests",
@@ -120744,7 +120841,9 @@
       "last_updated": "2026-03-17T22:16:08.525522+00:00"
     },
     "rogalmic/vscode-bash-debug": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 72192306,
         "name": "vscode-bash-debug",
@@ -120764,7 +120863,9 @@
       "last_updated": "2026-03-17T22:16:08.706497+00:00"
     },
     "kward/shlib": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 103582403,
         "name": "shlib",
@@ -120804,7 +120905,9 @@
       "last_updated": "2026-03-17T22:16:09.092967+00:00"
     },
     "HariSekhon/DevOps-Bash-tools": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 49816796,
         "name": "DevOps-Bash-tools",
@@ -121008,7 +121111,9 @@
       "last_updated": "2026-03-17T22:16:11.054433+00:00"
     },
     "zx2c4/password-store": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 82003203,
         "name": "password-store",
@@ -121128,7 +121233,9 @@
       "last_updated": "2026-03-17T22:16:12.240893+00:00"
     },
     "HuaweiSwitch/LXC_Rootfs": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 48093851,
         "name": "LXC_Rootfs",
@@ -121168,7 +121275,9 @@
       "last_updated": "2026-03-17T22:16:12.709223+00:00"
     },
     "bats-core/bats-core": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 104130720,
         "name": "bats-core",
@@ -121188,7 +121297,9 @@
       "last_updated": "2026-03-17T22:16:12.902931+00:00"
     },
     "christian-draeger/increment-semantic-version": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 234625407,
         "name": "increment-semantic-version",
@@ -121290,7 +121401,9 @@
       "last_updated": "2026-03-17T22:16:13.916746+00:00"
     },
     "WillAbides/setup-go-faster": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 332097123,
         "name": "setup-go-faster",
@@ -121391,7 +121504,8 @@
     },
     "SungardAS/ec2-metadata": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Bash"
       ],
       "metadata": {
         "id": 71912160,
@@ -122288,7 +122402,9 @@
       "last_updated": "2026-03-17T22:16:24.073658+00:00"
     },
     "kward/shunit2": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 38091119,
         "name": "shunit2",
@@ -123034,7 +123150,9 @@
       "last_updated": "2026-03-17T22:16:31.426702+00:00"
     },
     "JovianX/helm-release-plugin": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 510344774,
         "name": "helm-release-plugin",
@@ -123054,7 +123172,9 @@
       "last_updated": "2026-03-17T22:16:31.682909+00:00"
     },
     "aslafy-z/helm-git": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 166056432,
         "name": "helm-git",
@@ -123300,7 +123420,9 @@
       "last_updated": "2026-03-17T22:16:34.748134+00:00"
     },
     "kaysond/trafficjam": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 249029243,
         "name": "trafficjam",
@@ -123442,7 +123564,9 @@
       "last_updated": "2026-03-17T22:16:36.149984+00:00"
     },
     "spiffe/spiffe": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 99618772,
         "name": "spiffe",
@@ -123906,7 +124030,9 @@
       "last_updated": "2026-03-17T22:16:40.731573+00:00"
     },
     "cbodden/yamss": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 69601071,
         "name": "yamss",
@@ -123926,7 +124052,9 @@
       "last_updated": "2026-03-17T22:16:40.878428+00:00"
     },
     "cbodden/screenfill": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 69425824,
         "name": "screenfill",
@@ -124574,7 +124702,9 @@
       "last_updated": "2026-03-17T22:16:47.209278+00:00"
     },
     "C3n7ral051nt4g3ncy/cURL_for_OSINT": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 528185875,
         "name": "cURL_for_OSINT",
@@ -126213,7 +126343,8 @@
     },
     "swoodford/aws": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Bash"
       ],
       "metadata": {
         "id": 27456468,
@@ -126279,7 +126410,9 @@
       "last_updated": "2026-03-17T22:17:05.704565+00:00"
     },
     "bashup/mdsh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 99276039,
         "name": "mdsh",
@@ -126441,7 +126574,9 @@
       "last_updated": "2026-03-17T22:17:07.376771+00:00"
     },
     "metal3d/bashsimplecurses": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 37226582,
         "name": "bashsimplecurses",
@@ -126545,7 +126680,9 @@
       "last_updated": "2026-03-17T22:17:08.347382+00:00"
     },
     "joelpurra/jq-hopkok": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 22752196,
         "name": "jq-hopkok",
@@ -126625,7 +126762,9 @@
       "last_updated": "2026-03-17T22:17:09.174745+00:00"
     },
     "onceupon/Bash-Oneliner": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 61099017,
         "name": "Bash-Oneliner",
@@ -126785,7 +126924,9 @@
       "last_updated": "2026-03-17T22:17:10.730285+00:00"
     },
     "A3h1nt/Dnsrr": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 380180233,
         "name": "Dnsrr",
@@ -126805,7 +126946,9 @@
       "last_updated": "2026-03-17T22:17:10.913072+00:00"
     },
     "marshall7m/terrace": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 327685612,
         "name": "terrace",
@@ -126847,7 +126990,9 @@
       "last_updated": "2026-03-17T22:17:11.315494+00:00"
     },
     "takluyver/bash_kernel": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 21259107,
         "name": "bash_kernel",
@@ -127031,7 +127176,9 @@
       "last_updated": "2026-03-17T22:17:12.946348+00:00"
     },
     "the-cashman/pre-commit-trufflehog": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 483875816,
         "name": "pre-commit-trufflehog",
@@ -127597,7 +127744,9 @@
       "last_updated": "2026-03-17T22:17:19.270955+00:00"
     },
     "serialhex/nano-highlight": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1851118,
         "name": "nano-highlight",
@@ -127741,7 +127890,9 @@
       "last_updated": "2026-03-17T22:17:20.679248+00:00"
     },
     "containers/buildah": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 80134675,
         "name": "buildah",
@@ -127761,7 +127912,9 @@
       "last_updated": "2026-03-17T22:17:20.941715+00:00"
     },
     "dokku/dokku": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 10567197,
         "name": "dokku",
@@ -127885,7 +128038,9 @@
       "last_updated": "2026-03-17T22:17:22.141605+00:00"
     },
     "kyclark/parallelprocs": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 192974882,
         "name": "parallelprocs",
@@ -128229,7 +128384,9 @@
       "last_updated": "2026-03-17T22:17:25.662351+00:00"
     },
     "binpash/pash": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 194473604,
         "name": "pash",
@@ -128269,7 +128426,9 @@
       "last_updated": "2026-03-17T22:17:26.024230+00:00"
     },
     "rossmacarthur/sheldon": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 173543221,
         "name": "sheldon",
@@ -128373,7 +128532,9 @@
       "last_updated": "2026-03-17T22:17:26.894980+00:00"
     },
     "alisdair/terraform-credentials-keychain": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 289056118,
         "name": "terraform-credentials-keychain",
@@ -128879,7 +129040,9 @@
       "last_updated": "2026-03-17T22:17:32.030457+00:00"
     },
     "89luca89/distrobox": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 429485913,
         "name": "distrobox",
@@ -128981,7 +129144,9 @@
       "last_updated": "2026-03-17T22:17:32.923554+00:00"
     },
     "holoiso-eol/holoiso": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 487576737,
         "name": "holoiso",
@@ -129021,7 +129186,9 @@
       "last_updated": "2026-03-17T22:17:33.310401+00:00"
     },
     "RiverGumSecurity/RegEx": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 422220321,
         "name": "RegEx",
@@ -129064,7 +129231,8 @@
     },
     "AnErrupTion/Virtainer": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Bash"
       ],
       "metadata": {
         "id": 340370807,
@@ -129501,7 +129669,9 @@
       "last_updated": "2026-03-17T22:17:37.954506+00:00"
     },
     "conda-forge/miniforge": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 221584272,
         "name": "miniforge",
@@ -129581,7 +129751,9 @@
       "last_updated": "2026-03-17T22:17:38.710361+00:00"
     },
     "google/oss-fuzz": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 63809205,
         "name": "oss-fuzz",
@@ -129621,7 +129793,9 @@
       "last_updated": "2026-03-17T22:17:39.145902+00:00"
     },
     "wfxr/forgit": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 110850974,
         "name": "forgit",
@@ -131091,7 +131265,9 @@
       "last_updated": "2026-03-17T22:17:53.585058+00:00"
     },
     "direnv/direnv": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 1219305,
         "name": "direnv",
@@ -131693,7 +131869,9 @@
       "last_updated": "2026-03-17T22:17:59.494409+00:00"
     },
     "asdf-vm/asdf": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 27291507,
         "name": "asdf",
@@ -132575,7 +132753,9 @@
       "last_updated": "2026-03-17T22:18:08.207071+00:00"
     },
     "debuerreotype/debuerreotype": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 91498459,
         "name": "debuerreotype",
@@ -132935,7 +133115,9 @@
       "last_updated": "2026-03-17T22:18:11.766336+00:00"
     },
     "enenumxela/subdomains.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 380956820,
         "name": "subdomains.sh",
@@ -132995,7 +133177,9 @@
       "last_updated": "2026-03-17T22:18:12.348527+00:00"
     },
     "google/styleguide": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 35969061,
         "name": "styleguide",
@@ -133395,7 +133579,9 @@
       "last_updated": "2026-03-17T22:18:16.592928+00:00"
     },
     "nestybox/sysbox": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 284555713,
         "name": "sysbox",
@@ -133495,7 +133681,9 @@
       "last_updated": "2026-03-17T22:18:17.688561+00:00"
     },
     "purpleidea/vagrant-builder": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 21224351,
         "name": "vagrant-builder",
@@ -134195,7 +134383,9 @@
       "last_updated": "2026-03-17T22:18:24.796308+00:00"
     },
     "gruntwork-io/bash-commons": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 128768909,
         "name": "bash-commons",
@@ -136557,7 +136747,9 @@
       "last_updated": "2026-03-17T22:18:48.774237+00:00"
     },
     "iamj0ker/bypass-403": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 310324131,
         "name": "bypass-403",
@@ -137257,7 +137449,9 @@
       "last_updated": "2026-03-17T22:18:55.521806+00:00"
     },
     "testssl/testssl.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 21385916,
         "name": "testssl.sh",
@@ -137577,7 +137771,9 @@
       "last_updated": "2026-03-17T22:18:58.546995+00:00"
     },
     "jqlang/awesome-jq": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 121669629,
         "name": "awesome-jq",
@@ -137617,7 +137813,9 @@
       "last_updated": "2026-03-17T22:18:58.936906+00:00"
     },
     "dotike/pd-trigger": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 86355335,
         "name": "pd-trigger",
@@ -138237,7 +138435,9 @@
       "last_updated": "2026-03-17T22:19:05.290375+00:00"
     },
     "dylanaraps/pure-bash-bible": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 137147386,
         "name": "pure-bash-bible",
@@ -138497,7 +138697,9 @@
       "last_updated": "2026-03-17T22:19:08.008681+00:00"
     },
     "getfatday/keytool-importkeypair": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 488091,
         "name": "keytool-importkeypair",
@@ -138517,7 +138719,9 @@
       "last_updated": "2026-03-17T22:19:08.210427+00:00"
     },
     "thatmattlove/pem-to-pfx": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 230980649,
         "name": "pem-to-pfx",
@@ -138537,7 +138741,9 @@
       "last_updated": "2026-03-17T22:19:08.419166+00:00"
     },
     "nareshdagra07/pem_key_generator": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 66079701,
         "name": "pem_key_generator",
@@ -138557,7 +138763,9 @@
       "last_updated": "2026-03-17T22:19:08.613929+00:00"
     },
     "ricardobranco777/certinfo.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 60128560,
         "name": "certinfo.sh",
@@ -138777,7 +138985,9 @@
       "last_updated": "2026-03-17T22:19:10.777813+00:00"
     },
     "geekcomputers/Shell": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 3370841,
         "name": "Shell",
@@ -138897,7 +139107,9 @@
       "last_updated": "2026-03-17T22:19:12.082979+00:00"
     },
     "dylanaraps/pure-sh-bible": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 209492067,
         "name": "pure-sh-bible",
@@ -139877,7 +140089,9 @@
       "last_updated": "2026-03-17T22:19:21.443291+00:00"
     },
     "Bash-it/bash-it": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 957012,
         "name": "bash-it",
@@ -140397,7 +140611,9 @@
       "last_updated": "2026-03-17T22:19:26.734019+00:00"
     },
     "danielrobbins/keychain": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 254092,
         "name": "keychain",
@@ -140537,7 +140753,9 @@
       "last_updated": "2026-03-17T22:19:28.146282+00:00"
     },
     "alebcay/awesome-shell": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 21552971,
         "name": "awesome-shell",
@@ -140557,7 +140775,9 @@
       "last_updated": "2026-03-17T22:19:28.349417+00:00"
     },
     "danielhoherd/pub-bin": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 175497367,
         "name": "pub-bin",
@@ -141099,7 +141319,9 @@
       "last_updated": "2026-03-17T22:19:33.749377+00:00"
     },
     "sobolevn/git-secret": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 51747445,
         "name": "git-secret",
@@ -141119,7 +141341,9 @@
       "last_updated": "2026-03-17T22:19:33.903703+00:00"
     },
     "dex4er/shrot": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 8101522,
         "name": "shrot",
@@ -141323,7 +141547,9 @@
       "last_updated": "2026-03-17T22:19:36.141810+00:00"
     },
     "markus-perl/ffmpeg-build-script": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 25530912,
         "name": "ffmpeg-build-script",
@@ -141343,7 +141569,9 @@
       "last_updated": "2026-03-17T22:19:36.413765+00:00"
     },
     "SlaSerX/ffmpeg-build-script": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 428563567,
         "name": "ffmpeg-build-script",
@@ -141363,7 +141591,9 @@
       "last_updated": "2026-03-17T22:19:36.717127+00:00"
     },
     "kward/shflags": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 38091291,
         "name": "shflags",
@@ -141483,7 +141713,9 @@
       "last_updated": "2026-03-17T22:19:37.817238+00:00"
     },
     "matejak/argbash": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 40683223,
         "name": "argbash",
@@ -141523,7 +141755,9 @@
       "last_updated": "2026-03-17T22:19:38.216466+00:00"
     },
     "agriffis/pure-getopt": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 8887208,
         "name": "pure-getopt",
@@ -141563,7 +141797,9 @@
       "last_updated": "2026-03-17T22:19:38.598477+00:00"
     },
     "CISOfy/lynis": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 15078635,
         "name": "lynis",
@@ -142271,7 +142507,9 @@
       "last_updated": "2026-03-17T22:19:45.605601+00:00"
     },
     "Drewsif/PiShrink": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 56025125,
         "name": "PiShrink",
@@ -142553,7 +142791,9 @@
       "last_updated": "2026-03-17T22:19:48.163498+00:00"
     },
     "aristocratos/bashtop": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 250761246,
         "name": "bashtop",
@@ -142753,7 +142993,9 @@
       "last_updated": "2026-03-17T22:19:50.127460+00:00"
     },
     "mathiasbynens/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 2329766,
         "name": "dotfiles",
@@ -143299,7 +143541,9 @@
       "last_updated": "2026-03-17T22:19:55.552607+00:00"
     },
     "mbailey/bash-my-aws": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 28942758,
         "name": "bash-my-aws",
@@ -143399,7 +143643,9 @@
       "last_updated": "2026-03-17T22:19:56.672193+00:00"
     },
     "nibalizer/bash-tricks": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 43722819,
         "name": "bash-tricks",
@@ -143419,7 +143665,9 @@
       "last_updated": "2026-03-17T22:19:56.849623+00:00"
     },
     "docopt/docopts": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 5340352,
         "name": "docopts",
@@ -143439,7 +143687,9 @@
       "last_updated": "2026-03-17T22:19:57.030556+00:00"
     },
     "myoung34/docker-github-actions-runner": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 223951404,
         "name": "docker-github-actions-runner",
@@ -143943,7 +144193,9 @@
       "last_updated": "2026-03-17T22:20:01.971945+00:00"
     },
     "21y4d/nmapAutomator": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 175854445,
         "name": "nmapAutomator",
@@ -144263,7 +144515,9 @@
       "last_updated": "2026-03-17T22:20:05.288783+00:00"
     },
     "trimstray/sandmap": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 126193885,
         "name": "sandmap",
@@ -144445,7 +144699,9 @@
       "last_updated": "2026-03-17T22:20:07.209679+00:00"
     },
     "ohmyzsh/ohmyzsh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 291137,
         "name": "ohmyzsh",
@@ -144565,7 +144821,9 @@
       "last_updated": "2026-03-17T22:20:08.496340+00:00"
     },
     "pld-linux/PowerChutePlus": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 5025844,
         "name": "PowerChutePlus",
@@ -145325,7 +145583,9 @@
       "last_updated": "2026-03-17T22:20:18.465878+00:00"
     },
     "PatrolServer/bashscanner": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 41672911,
         "name": "bashscanner",
@@ -145445,7 +145705,9 @@
       "last_updated": "2026-03-17T22:20:19.705865+00:00"
     },
     "angristan/openvpn-install": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 74272018,
         "name": "openvpn-install",
@@ -145505,7 +145767,9 @@
       "last_updated": "2026-03-17T22:20:20.401819+00:00"
     },
     "marcan/takeover.sh": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 81583227,
         "name": "takeover.sh",
@@ -145685,7 +145949,9 @@
       "last_updated": "2026-03-17T22:20:22.215519+00:00"
     },
     "froztbyte/script-partials": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 67132251,
         "name": "script-partials",
