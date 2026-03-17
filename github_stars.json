@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:10:28.880096+00:00",
+  "last_updated": "2026-03-17T23:10:49.585471+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -156,7 +156,9 @@
       }
     },
     "Nold360/LibreHDMI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 909348011,
         "name": "LibreHDMI",
@@ -306,7 +308,9 @@
       }
     },
     "NawfalMotii79/PLFM_RADAR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1176340473,
         "name": "PLFM_RADAR",
@@ -980,7 +984,9 @@
       }
     },
     "adafruit/Adafruit_DAP": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 100627682,
         "name": "Adafruit_DAP",
@@ -1417,7 +1423,9 @@
       }
     },
     "lowRISC/opentitan": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 204516692,
         "name": "opentitan",
@@ -1927,7 +1935,9 @@
       }
     },
     "bar2098/WAAAVE-POOL-RP5-PORT": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1168830122,
         "name": "WAAAVE-POOL-RP5-PORT",
@@ -1952,7 +1962,9 @@
       }
     },
     "issalig/rgbs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 345344764,
         "name": "rgbs",
@@ -2278,7 +2290,9 @@
       }
     },
     "steve-m/ms213x_flash": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1165155570,
         "name": "ms213x_flash",
@@ -2455,7 +2469,9 @@
       }
     },
     "ryrotella/decorate_3D_portal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1153936338,
         "name": "decorate_3D_portal",
@@ -2480,7 +2496,9 @@
       }
     },
     "tnm/zclaw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1159494869,
         "name": "zclaw",
@@ -2530,7 +2548,9 @@
       }
     },
     "psyb0t/piraterf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1058480615,
         "name": "piraterf",
@@ -2580,7 +2600,9 @@
       }
     },
     "bbbbbr/gameboy_qr_paint": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1141747768,
         "name": "gameboy_qr_paint",
@@ -2886,7 +2908,9 @@
       }
     },
     "rootless-containers/PRoot": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 129351362,
         "name": "PRoot",
@@ -2911,7 +2935,9 @@
       }
     },
     "green-green-avk/build-proot-android": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 192263257,
         "name": "build-proot-android",
@@ -3136,7 +3162,9 @@
       }
     },
     "JesseCHale/ESP32-DIV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1127542640,
         "name": "ESP32-DIV",
@@ -3488,7 +3516,9 @@
       }
     },
     "syssi/esphome-atorch-dl24": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 409115797,
         "name": "esphome-atorch-dl24",
@@ -3798,7 +3828,9 @@
       }
     },
     "bitluni/ESP32CompositeVideo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 122273288,
         "name": "ESP32CompositeVideo",
@@ -4004,7 +4036,9 @@
       }
     },
     "Retsediv/WIFI_CSI_based_HAR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 258157427,
         "name": "WIFI_CSI_based_HAR",
@@ -4593,7 +4627,9 @@
       }
     },
     "L-Spiro/MhsX": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 67064172,
         "name": "MhsX",
@@ -5009,7 +5045,9 @@
       }
     },
     "freerouting/freerouting": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 21307203,
         "name": "freerouting",
@@ -5409,7 +5447,9 @@
       }
     },
     "f4exb/sdrangel": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 41646286,
         "name": "sdrangel",
@@ -5563,7 +5603,9 @@
       }
     },
     "GridSpace/grid-apps": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 88670779,
         "name": "grid-apps",
@@ -5688,7 +5730,9 @@
       }
     },
     "mayermakes/GimmeGPIO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1056536149,
         "name": "GimmeGPIO",
@@ -5740,7 +5784,9 @@
       }
     },
     "ratatui/mousefood": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 950531141,
         "name": "mousefood",
@@ -6165,7 +6211,9 @@
       }
     },
     "elk-audio/elkpi-sdk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 219541049,
         "name": "elkpi-sdk",
@@ -6722,7 +6770,9 @@
       }
     },
     "berg/sigrok-build": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1123350425,
         "name": "sigrok-build",
@@ -6822,7 +6872,9 @@
       }
     },
     "greatscottgadgets/hackrf-pro": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1131457855,
         "name": "hackrf-pro",
@@ -7124,7 +7176,9 @@
       }
     },
     "sle118/squeezelite-esp32": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 187874998,
         "name": "squeezelite-esp32",
@@ -7176,7 +7230,9 @@
       }
     },
     "torvalds/AudioNoise": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1130786764,
         "name": "AudioNoise",
@@ -7301,7 +7357,9 @@
       }
     },
     "FluxGarage/RoboEyes": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 825406551,
         "name": "RoboEyes",
@@ -7376,7 +7434,9 @@
       }
     },
     "amaranth-lang/amaranth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 236501540,
         "name": "amaranth",
@@ -7603,7 +7663,9 @@
       }
     },
     "napframework/nap": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 308651874,
         "name": "nap",
@@ -7653,7 +7715,9 @@
       }
     },
     "fbiego/BLE_IR_Android": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 373094087,
         "name": "BLE_IR_Android",
@@ -7678,7 +7742,9 @@
       }
     },
     "Irdroid/USB_Infrared_Transceiver": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 79912610,
         "name": "USB_Infrared_Transceiver",
@@ -7703,7 +7769,9 @@
       }
     },
     "dekuNukem/Nintendo_Switch_Reverse_Engineering": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 84457022,
         "name": "Nintendo_Switch_Reverse_Engineering",
@@ -7778,7 +7846,9 @@
       }
     },
     "shift/sun50iw12p1-research": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1059403261,
         "name": "sun50iw12p1-research",
@@ -7803,7 +7873,9 @@
       }
     },
     "DrSchottky/Allwinner-BROM-dumper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 145624252,
         "name": "Allwinner-BROM-dumper",
@@ -7828,7 +7900,9 @@
       }
     },
     "DeciHD/allwinner_docs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 664277328,
         "name": "allwinner_docs",
@@ -7853,7 +7927,9 @@
       }
     },
     "satchmo91/BF_8": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1038833752,
         "name": "BF_8",
@@ -8074,7 +8150,8 @@
     },
     "Slayingripper/MacOS-SDR": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "DIY"
       ],
       "metadata": {
         "id": 862360064,
@@ -8439,7 +8516,9 @@
       }
     },
     "tgorochowik/linux-vsniffer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 41084475,
         "name": "linux-vsniffer",
@@ -8743,7 +8822,9 @@
       }
     },
     "nmur/M5Stack-CompositeTestPatternGenerator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1039969565,
         "name": "M5Stack-CompositeTestPatternGenerator",
@@ -8818,7 +8899,9 @@
       }
     },
     "GerryDazoo/Slinger": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 475451079,
         "name": "Slinger",
@@ -8868,7 +8951,9 @@
       }
     },
     "Cr4sh/pico_dma": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 703824780,
         "name": "pico_dma",
@@ -8968,7 +9053,9 @@
       }
     },
     "ds-hwang/gbm_es2_demo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 57391492,
         "name": "gbm_es2_demo",
@@ -8993,7 +9080,9 @@
       }
     },
     "CuarzoSoftware/SRM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 631691704,
         "name": "SRM",
@@ -9068,7 +9157,9 @@
       }
     },
     "kreier/cru": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 918292419,
         "name": "cru",
@@ -9093,7 +9184,9 @@
       }
     },
     "guimpt/iot_hdmi_mux": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 926519951,
         "name": "iot_hdmi_mux",
@@ -9118,7 +9211,9 @@
       }
     },
     "SzymonSlupik/CEC-Tiny": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 443056803,
         "name": "CEC-Tiny",
@@ -9143,7 +9238,9 @@
       }
     },
     "xtreme8000/picoAVE": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 804601999,
         "name": "picoAVE",
@@ -9168,7 +9265,9 @@
       }
     },
     "mlorenzati/pico-rgb2hdmi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 453830614,
         "name": "pico-rgb2hdmi",
@@ -9193,7 +9292,9 @@
       }
     },
     "stb-tester/stb-tester": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4739298,
         "name": "stb-tester",
@@ -9218,7 +9319,9 @@
       }
     },
     "fhoedemakers/pico-infonesPlus": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 560124268,
         "name": "pico-infonesPlus",
@@ -9243,7 +9346,9 @@
       }
     },
     "linuxhw/hw-probe": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 47073191,
         "name": "hw-probe",
@@ -9268,7 +9373,9 @@
       }
     },
     "benjojo/de-ip-hdmi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 61758649,
         "name": "de-ip-hdmi",
@@ -9393,7 +9500,9 @@
       }
     },
     "rockowitz/ddcutil": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 48345012,
         "name": "ddcutil",
@@ -9493,7 +9602,9 @@
       }
     },
     "galkinvv/edid-checked-writer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 822136404,
         "name": "edid-checked-writer",
@@ -9518,7 +9629,9 @@
       }
     },
     "dgallegos/edidreader": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 7906246,
         "name": "edidreader",
@@ -9874,7 +9987,9 @@
       }
     },
     "flaviut/ir-pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 969814109,
         "name": "ir-pico",
@@ -10003,7 +10118,9 @@
       }
     },
     "ginbot86/ColorLCDVape-RE": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 785154722,
         "name": "ColorLCDVape-RE",
@@ -10278,7 +10395,9 @@
       }
     },
     "AdamLaurie/raiden-pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1084379446,
         "name": "raiden-pico",
@@ -10303,7 +10422,9 @@
       }
     },
     "jjsch-dev/pico_i2c_sniffer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 380341708,
         "name": "pico_i2c_sniffer",
@@ -10328,7 +10449,9 @@
       }
     },
     "AdamLaurie/i2c-dump": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 293789477,
         "name": "i2c-dump",
@@ -10353,7 +10476,9 @@
       }
     },
     "AdamLaurie/esp32_flash_extract": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 560341150,
         "name": "esp32_flash_extract",
@@ -10378,7 +10503,9 @@
       }
     },
     "AdamLaurie/mphidflash": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 51296645,
         "name": "mphidflash",
@@ -10403,7 +10530,9 @@
       }
     },
     "AdamLaurie/killerbee": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 141801832,
         "name": "killerbee",
@@ -10453,7 +10582,9 @@
       }
     },
     "newaetech/ChipSHOUTER": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 136679275,
         "name": "ChipSHOUTER",
@@ -10478,7 +10609,9 @@
       }
     },
     "AdamLaurie/ChronIC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 8604285,
         "name": "ChronIC",
@@ -10503,7 +10636,9 @@
       }
     },
     "AdamLaurie/rompar": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 7936128,
         "name": "rompar",
@@ -10630,7 +10765,9 @@
       }
     },
     "AdamLaurie/hdmi-sniff": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 8265069,
         "name": "hdmi-sniff",
@@ -10655,7 +10792,9 @@
       }
     },
     "ZitaoTech/HackberryPiCM5": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 956393555,
         "name": "HackberryPiCM5",
@@ -10730,7 +10869,9 @@
       }
     },
     "raspberrypi/userland": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 6367886,
         "name": "userland",
@@ -10830,7 +10971,9 @@
       }
     },
     "SzymonSlupik/CEC-Tiny-Pro": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 443158517,
         "name": "CEC-Tiny-Pro",
@@ -10882,7 +11025,9 @@
       }
     },
     "AncientJames/multivox": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 908804957,
         "name": "multivox",
@@ -11548,7 +11693,9 @@
       }
     },
     "Ralim/usb-pd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 326650812,
         "name": "usb-pd",
@@ -11573,7 +11720,9 @@
       }
     },
     "manuelbl/usb-pd-arduino": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 632170022,
         "name": "usb-pd-arduino",
@@ -11598,7 +11747,9 @@
       }
     },
     "pdsink/pdsink": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 923805927,
         "name": "pdsink",
@@ -11623,7 +11774,9 @@
       }
     },
     "ataradov/usb-sniffer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 649540986,
         "name": "usb-sniffer",
@@ -11856,7 +12009,9 @@
       }
     },
     "thelastoutpostworkshop/ESPConnect": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1083887818,
         "name": "ESPConnect",
@@ -11881,7 +12036,9 @@
       }
     },
     "jonbro/Audcalc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 230762793,
         "name": "Audcalc",
@@ -12185,7 +12342,9 @@
       }
     },
     "raspberrypi/usbboot": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 69877175,
         "name": "usbboot",
@@ -12487,7 +12646,9 @@
       }
     },
     "schlae/VapeRE": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1063032832,
         "name": "VapeRE",
@@ -12562,7 +12723,9 @@
       }
     },
     "tomverbeure/tek420a": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 270090504,
         "name": "tek420a",
@@ -12612,7 +12775,9 @@
       }
     },
     "francescopace/espectre": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1083590674,
         "name": "espectre",
@@ -12687,7 +12852,9 @@
       }
     },
     "libwifi/libwifi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 433608349,
         "name": "libwifi",
@@ -12844,7 +13011,8 @@
     },
     "plougher/squashfs-tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "DIY"
       ],
       "metadata": {
         "id": 6493050,
@@ -12895,7 +13063,9 @@
       }
     },
     "radioconda/radioconda-installer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 346154793,
         "name": "radioconda-installer",
@@ -13334,7 +13504,9 @@
       }
     },
     "dawsonjon/PicoSSTV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 911558218,
         "name": "PicoSSTV",
@@ -13359,7 +13531,9 @@
       }
     },
     "vanviegen/hue-thief": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 100311491,
         "name": "hue-thief",
@@ -13384,7 +13558,9 @@
       }
     },
     "ngscopeclient/scopehal-apps": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 139762258,
         "name": "scopehal-apps",
@@ -13409,7 +13585,9 @@
       }
     },
     "ngscopeclient/scopehal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 139762015,
         "name": "scopehal",
@@ -13434,7 +13612,9 @@
       }
     },
     "spr-networks/super": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 402212200,
         "name": "super",
@@ -14169,7 +14349,9 @@
       }
     },
     "itszor/vc4-toolchain": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 56881203,
         "name": "vc4-toolchain",
@@ -14331,7 +14513,9 @@
       }
     },
     "allanrbo/meshtastic-talk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1034883083,
         "name": "meshtastic-talk",
@@ -14356,7 +14540,9 @@
       }
     },
     "OpenDevicePartnership/patina": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 866262351,
         "name": "patina",
@@ -14637,7 +14823,9 @@
       }
     },
     "IQEngine/IQEngine": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 591547457,
         "name": "IQEngine",
@@ -14893,7 +15081,9 @@
       }
     },
     "steve-m/Pico-100BASE-TX": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1077900776,
         "name": "Pico-100BASE-TX",
@@ -15047,7 +15237,9 @@
       }
     },
     "rbenrax/upyOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 707580134,
         "name": "upyOS",
@@ -15638,7 +15830,9 @@
       }
     },
     "dongola7/n2ycr_chirp": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1064405528,
         "name": "n2ycr_chirp",
@@ -15766,7 +15960,9 @@
       }
     },
     "datapartyjs/MeshTNC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1035165633,
         "name": "MeshTNC",
@@ -15791,7 +15987,9 @@
       }
     },
     "dawsonjon/PicoRX": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 586529530,
         "name": "PicoRX",
@@ -16020,7 +16218,9 @@
       }
     },
     "MicroPythonOS/MicroPythonOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 975472483,
         "name": "MicroPythonOS",
@@ -16123,7 +16323,9 @@
       }
     },
     "minthanthtoo/signal-processing-roadmap": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 972757097,
         "name": "signal-processing-roadmap",
@@ -16198,7 +16400,9 @@
       }
     },
     "olgierd/ad8317_powermeter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 234942057,
         "name": "ad8317_powermeter",
@@ -16248,7 +16452,9 @@
       }
     },
     "NomDeTom/NiceRa": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 828375750,
         "name": "NiceRa",
@@ -16398,7 +16604,9 @@
       }
     },
     "mostav02/Remove_IntelME_FPT": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 255251715,
         "name": "Remove_IntelME_FPT",
@@ -16523,7 +16731,9 @@
       }
     },
     "davecrump/portsdown5": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 804444188,
         "name": "portsdown5",
@@ -16548,7 +16758,9 @@
       }
     },
     "davecrump/portsdown4": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 281480685,
         "name": "portsdown4",
@@ -16698,7 +16910,9 @@
       }
     },
     "VanceVagell/kv4p-ht": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 766697934,
         "name": "kv4p-ht",
@@ -16723,7 +16937,9 @@
       }
     },
     "Next-Flip/Momentum-Firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 765553099,
         "name": "Momentum-Firmware",
@@ -16848,7 +17064,9 @@
       }
     },
     "adafruit/Fruit-Jam-OS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 960711318,
         "name": "Fruit-Jam-OS",
@@ -16973,7 +17191,9 @@
       }
     },
     "meshtastic/firmware-ota-wifi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 951552293,
         "name": "firmware-ota-wifi",
@@ -17023,7 +17243,9 @@
       }
     },
     "eabase/meshtastic_sdr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 884594022,
         "name": "meshtastic_sdr",
@@ -17423,7 +17645,9 @@
       }
     },
     "sh123/esp32_loraprs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 183367878,
         "name": "esp32_loraprs",
@@ -17448,7 +17672,9 @@
       }
     },
     "jumbo5566/cm108direwolfWinLinuxVHFigate": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1042110533,
         "name": "cm108direwolfWinLinuxVHFigate",
@@ -17473,7 +17699,9 @@
       }
     },
     "wb2osz/direwolf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 40158752,
         "name": "direwolf",
@@ -17498,7 +17726,9 @@
       }
     },
     "johnboiles/BaofengUV5R-TRRS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 12747012,
         "name": "BaofengUV5R-TRRS",
@@ -17523,7 +17753,9 @@
       }
     },
     "sarweiler/vp-buddy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 643255137,
         "name": "vp-buddy",
@@ -17577,7 +17809,9 @@
       }
     },
     "Boddlnagg/midir": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 40397197,
         "name": "midir",
@@ -17602,7 +17836,9 @@
       }
     },
     "probe-rs/rtt-target": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 253102866,
         "name": "rtt-target",
@@ -17627,7 +17863,9 @@
       }
     },
     "eblot/pyftdi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1162758,
         "name": "pyftdi",
@@ -17652,7 +17890,9 @@
       }
     },
     "nickbild/usb_gpio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 805085074,
         "name": "usb_gpio",
@@ -17677,7 +17917,9 @@
       }
     },
     "rgrr/yapicoprobe": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 573598563,
         "name": "yapicoprobe",
@@ -17702,7 +17944,9 @@
       }
     },
     "Marus/cortex-debug": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 116060855,
         "name": "cortex-debug",
@@ -17752,7 +17996,9 @@
       }
     },
     "bmorcelli/Launcher": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 755727720,
         "name": "Launcher",
@@ -17829,7 +18075,9 @@
       }
     },
     "pyocd/pyOCD": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 13862423,
         "name": "pyOCD",
@@ -18129,7 +18377,9 @@
       }
     },
     "Affirmatech/MeshSense": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 856555877,
         "name": "MeshSense",
@@ -18154,7 +18404,9 @@
       }
     },
     "meshtastic/firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 237647258,
         "name": "firmware",
@@ -18179,7 +18431,9 @@
       }
     },
     "meshtastic/meshtastic": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 339301222,
         "name": "meshtastic",
@@ -18204,7 +18458,9 @@
       }
     },
     "controlpaths/hackbat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 793056157,
         "name": "hackbat",
@@ -18229,7 +18485,9 @@
       }
     },
     "cdanis/meshtastic-wireshark": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 953518030,
         "name": "meshtastic-wireshark",
@@ -18254,7 +18512,9 @@
       }
     },
     "kanflo/opendps": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 84124758,
         "name": "opendps",
@@ -18456,7 +18716,9 @@
       }
     },
     "tom-acco/Meshtastic_SDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 929338906,
         "name": "Meshtastic_SDR",
@@ -18508,7 +18770,9 @@
       }
     },
     "mandiclab/djc-diy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1015429445,
         "name": "djc-diy",
@@ -18533,7 +18797,9 @@
       }
     },
     "SHUR1K-N/WiFi-Shadowapple-Resources": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 991885386,
         "name": "WiFi-Shadowapple-Resources",
@@ -18558,7 +18824,9 @@
       }
     },
     "xchwarze/frieren": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 732840064,
         "name": "frieren",
@@ -18583,7 +18851,9 @@
       }
     },
     "xchwarze/wifi-pineapple-cloner": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 716869750,
         "name": "wifi-pineapple-cloner",
@@ -18608,7 +18878,9 @@
       }
     },
     "kiisu-io/kiisu-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 973522260,
         "name": "kiisu-firmware",
@@ -18633,7 +18905,9 @@
       }
     },
     "la5nta/pat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 52305585,
         "name": "pat",
@@ -18658,7 +18932,9 @@
       }
     },
     "craigerl/digipi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 493703578,
         "name": "digipi",
@@ -18683,7 +18959,9 @@
       }
     },
     "FaradayRF/FaradayRF-Hardware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 67573355,
         "name": "FaradayRF-Hardware",
@@ -18708,7 +18986,9 @@
       }
     },
     "initbrain/Z-Attack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 45698475,
         "name": "Z-Attack",
@@ -18733,7 +19013,9 @@
       }
     },
     "atlas0fd00m/rfcat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 99347468,
         "name": "rfcat",
@@ -18787,7 +19069,9 @@
       }
     },
     "srsran/srsRAN_4G": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 14983921,
         "name": "srsRAN_4G",
@@ -19116,7 +19400,9 @@
       }
     },
     "jayofelony/pwnagotchi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 739143646,
         "name": "pwnagotchi",
@@ -19141,7 +19427,9 @@
       }
     },
     "evilsocket/pwnagotchi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 209556497,
         "name": "pwnagotchi",
@@ -19166,7 +19454,9 @@
       }
     },
     "7h30th3r0n3/Evil-M5Project": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 734739273,
         "name": "Evil-M5Project",
@@ -19191,7 +19481,9 @@
       }
     },
     "BruceDevices/firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 795166961,
         "name": "firmware",
@@ -19266,7 +19558,9 @@
       }
     },
     "CJerkins/glinet-kismet-remote-cap": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 635077128,
         "name": "glinet-kismet-remote-cap",
@@ -19726,7 +20020,9 @@
       }
     },
     "xnappo/ez_dv_edid_fw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 540541890,
         "name": "ez_dv_edid_fw",
@@ -19751,7 +20047,9 @@
       }
     },
     "ShakataGaNai/awesome-meshtastic": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 808393820,
         "name": "awesome-meshtastic",
@@ -19851,7 +20149,9 @@
       }
     },
     "dpellegr/PolyGear": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 205525919,
         "name": "PolyGear",
@@ -19876,7 +20176,9 @@
       }
     },
     "elalish/manifold": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 172846478,
         "name": "manifold",
@@ -20028,7 +20330,9 @@
       }
     },
     "Fr4nkFletcher/ESP32-Marauder-Cheap-Yellow-Display": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 752129920,
         "name": "ESP32-Marauder-Cheap-Yellow-Display",
@@ -20053,7 +20357,9 @@
       }
     },
     "cjheath/hackrf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 164987716,
         "name": "hackrf",
@@ -20078,7 +20384,9 @@
       }
     },
     "gqrx-sdr/gqrx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1033271,
         "name": "gqrx",
@@ -20103,7 +20411,9 @@
       }
     },
     "miek/inspectrum": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 36628229,
         "name": "inspectrum",
@@ -20128,7 +20438,9 @@
       }
     },
     "datapartyjs/meshmarauder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1035159334,
         "name": "meshmarauder",
@@ -20339,7 +20651,9 @@
       }
     },
     "agstenf/eurorack-modules": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1048105631,
         "name": "eurorack-modules",
@@ -20666,7 +20980,9 @@
       }
     },
     "edk2-porting/edk2-rk3588": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 567314232,
         "name": "edk2-rk3588",
@@ -20691,7 +21007,9 @@
       }
     },
     "HubbleNetwork/hubble-device-sdk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1009224151,
         "name": "hubble-device-sdk",
@@ -20716,7 +21034,9 @@
       }
     },
     "Oran2009/TeensyMidiToRS232C": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1014596577,
         "name": "TeensyMidiToRS232C",
@@ -20999,7 +21319,9 @@
       }
     },
     "IanWraith/24DownConvert": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 197435535,
         "name": "24DownConvert",
@@ -21512,7 +21834,9 @@
       }
     },
     "alexbsys/macrosilicon_ms2107_research": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 979053834,
         "name": "macrosilicon_ms2107_research",
@@ -21864,7 +22188,9 @@
       }
     },
     "cyberboy666/ofxVideoArtTools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 188847886,
         "name": "ofxVideoArtTools",
@@ -21889,7 +22215,9 @@
       }
     },
     "cyberboy666/recurBOY": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 196193609,
         "name": "recurBOY",
@@ -21989,7 +22317,9 @@
       }
     },
     "piersfinlayson/airfrog": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1020781558,
         "name": "airfrog",
@@ -22119,7 +22449,9 @@
       }
     },
     "VoltCyclone/Hurra": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1008110874,
         "name": "Hurra",
@@ -22144,7 +22476,9 @@
       }
     },
     "VoltCyclone/PCILeechFWGenerator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 994386315,
         "name": "PCILeechFWGenerator",
@@ -23590,7 +23924,9 @@
       }
     },
     "geo-tp/ESP32-Bus-Pirate": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1014515436,
         "name": "ESP32-Bus-Pirate",
@@ -23765,7 +24101,9 @@
       }
     },
     "hydrausb3/hydrausb3_fw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 519542489,
         "name": "hydrausb3_fw",
@@ -23865,7 +24203,9 @@
       }
     },
     "steeviebops/hacktv-gui": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 312900303,
         "name": "hacktv-gui",
@@ -24171,7 +24511,9 @@
       }
     },
     "gdsports/dspg1": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 151793820,
         "name": "dspg1",
@@ -24196,7 +24538,9 @@
       }
     },
     "heartscrytech/DigisparkMIDI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 43192435,
         "name": "DigisparkMIDI",
@@ -24221,7 +24565,9 @@
       }
     },
     "micronucleus/micronucleus": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 5923020,
         "name": "micronucleus",
@@ -24246,7 +24592,9 @@
       }
     },
     "beau-seidon/TinyMIDI2CV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 727087362,
         "name": "TinyMIDI2CV",
@@ -24271,7 +24619,9 @@
       }
     },
     "obdev/v-usb": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 7033798,
         "name": "v-usb",
@@ -24710,7 +25060,9 @@
       }
     },
     "Snow4DV/msdisplay-driver": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 815106269,
         "name": "msdisplay-driver",
@@ -24735,7 +25087,9 @@
       }
     },
     "MindShow/USBDisplay": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 307249823,
         "name": "USBDisplay",
@@ -24760,7 +25114,9 @@
       }
     },
     "zwodev/vm1-video-mixer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 691945532,
         "name": "vm1-video-mixer",
@@ -25961,7 +26317,9 @@
       }
     },
     "martindevices/Martin-Devices": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 673090977,
         "name": "Martin-Devices",
@@ -26296,7 +26654,9 @@
       }
     },
     "offa/android-foss": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 85591077,
         "name": "android-foss",
@@ -26571,7 +26931,9 @@
       }
     },
     "oldrev/edgelinkd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1016794856,
         "name": "edgelinkd",
@@ -27651,7 +28013,9 @@
       }
     },
     "SICKAG/sick_scan_xd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 416768700,
         "name": "sick_scan_xd",
@@ -27878,7 +28242,9 @@
       }
     },
     "PeteHaughie/synchronator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 960653965,
         "name": "synchronator",
@@ -27928,7 +28294,9 @@
       }
     },
     "codingjoe/MusicBeam": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 6123879,
         "name": "MusicBeam",
@@ -28003,7 +28371,9 @@
       }
     },
     "unixorn/internet-of-trash": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 715824698,
         "name": "internet-of-trash",
@@ -28105,7 +28475,9 @@
       }
     },
     "PaulSlocum/omxplayer-sync-3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 129557732,
         "name": "omxplayer-sync-3",
@@ -28180,7 +28552,9 @@
       }
     },
     "YosysHQ/yosys": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 7454197,
         "name": "yosys",
@@ -28205,7 +28579,9 @@
       }
     },
     "elkayem/usbMIDI2CV_MC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 115668681,
         "name": "usbMIDI2CV_MC",
@@ -28515,7 +28891,9 @@
       }
     },
     "psieg/Lightpack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 28306829,
         "name": "Lightpack",
@@ -29053,7 +29431,9 @@
       }
     },
     "bootlin/simplest-yocto-setup": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 644485886,
         "name": "simplest-yocto-setup",
@@ -30562,7 +30942,9 @@
       }
     },
     "mgschwan/viture_virtual_display": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 997580905,
         "name": "viture_virtual_display",
@@ -30895,7 +31277,9 @@
       }
     },
     "eelab-dev/EEcircuit": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 303270762,
         "name": "EEcircuit",
@@ -31172,7 +31556,9 @@
       }
     },
     "YosysHQ/apicula": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 223360084,
         "name": "apicula",
@@ -32000,7 +32386,9 @@
       }
     },
     "loopj/wavephoenix": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 972326537,
         "name": "wavephoenix",
@@ -32713,7 +33101,9 @@
       }
     },
     "EliseZeroTwo/tx2hax": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 983698361,
         "name": "tx2hax",
@@ -33529,7 +33919,9 @@
       }
     },
     "chrultrabook/docs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 650331640,
         "name": "docs",
@@ -34112,7 +34504,9 @@
       }
     },
     "morrownr/USB-WiFi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 325667246,
         "name": "USB-WiFi",
@@ -34474,7 +34868,9 @@
       }
     },
     "pmarques-dev/PicoEncoder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 798047074,
         "name": "PicoEncoder",
@@ -35278,7 +35674,9 @@
       }
     },
     "ardera/flutter-pi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 190380053,
         "name": "flutter-pi",
@@ -35932,7 +36330,9 @@
       }
     },
     "gsuberland/altium_jlcpcb_libraries": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 573290545,
         "name": "altium_jlcpcb_libraries",
@@ -37204,7 +37604,9 @@
       }
     },
     "sbrin/lopaka": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 649434687,
         "name": "lopaka",
@@ -37331,7 +37733,9 @@
       }
     },
     "yaqwsx/jlcparts": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 296939938,
         "name": "jlcparts",
@@ -37509,7 +37913,9 @@
       }
     },
     "erica-synths/diy-eurorack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 278413578,
         "name": "diy-eurorack",
@@ -38535,7 +38941,9 @@
       }
     },
     "b0xspread/rpi4-crt": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 263127823,
         "name": "rpi4-crt",
@@ -38585,7 +38993,9 @@
       }
     },
     "raspberrypi/rpi-image-gen": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 900731244,
         "name": "rpi-image-gen",
@@ -39661,7 +40071,9 @@
       }
     },
     "SpenserCai/nfc_apdu_runner": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 944556874,
         "name": "nfc_apdu_runner",
@@ -39686,7 +40098,9 @@
       }
     },
     "steve-m/hsdaohSDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 809488618,
         "name": "hsdaohSDR",
@@ -39763,7 +40177,9 @@
       }
     },
     "procount/pinn": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 54271497,
         "name": "pinn",
@@ -39970,7 +40386,9 @@
       }
     },
     "hominoids/SBC_Case_Builder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 480096721,
         "name": "SBC_Case_Builder",
@@ -40097,7 +40515,9 @@
       }
     },
     "EFForg/rayhunter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 716335769,
         "name": "rayhunter",
@@ -40459,7 +40879,9 @@
       }
     },
     "zst123/PAL-Streamer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 267871376,
         "name": "PAL-Streamer",
@@ -40515,7 +40937,9 @@
       }
     },
     "GeoSpark/ILI9341-font-packer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 73829501,
         "name": "ILI9341-font-packer",
@@ -40540,7 +40964,9 @@
       }
     },
     "Foxboron/sbctl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 260986040,
         "name": "sbctl",
@@ -40617,7 +41043,9 @@
       }
     },
     "unknown321/wampy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 908528202,
         "name": "wampy",
@@ -40825,7 +41253,9 @@
       }
     },
     "pasthev/sensus": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 480561897,
         "name": "sensus",
@@ -40850,7 +41280,9 @@
       }
     },
     "djthorpe/gopi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 36790939,
         "name": "gopi",
@@ -40875,7 +41307,9 @@
       }
     },
     "bengtmartensson/RemoteLocator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 365945826,
         "name": "RemoteLocator",
@@ -40900,7 +41334,9 @@
       }
     },
     "gerald-guiony/ESPInfraredTransceiver": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 241702097,
         "name": "ESPInfraredTransceiver",
@@ -40952,7 +41388,9 @@
       }
     },
     "Aldaviva/RemoteControl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 861759555,
         "name": "RemoteControl",
@@ -40977,7 +41415,9 @@
       }
     },
     "probonopd/MakeHex": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 38323639,
         "name": "MakeHex",
@@ -41027,7 +41467,9 @@
       }
     },
     "rescuezilla/rescuezilla": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 209983790,
         "name": "rescuezilla",
@@ -41137,7 +41579,9 @@
       }
     },
     "theICTlab/3DUNDERWORLD-Structured-Light-Scanner": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 18800881,
         "name": "3DUNDERWORLD-Structured-Light-Scanner",
@@ -41255,7 +41699,8 @@
     },
     "buildroot/buildroot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "DIY"
       ],
       "metadata": {
         "id": 9752041,
@@ -41614,7 +42059,9 @@
       }
     },
     "eclab/grains": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 719038669,
         "name": "grains",
@@ -41639,7 +42086,9 @@
       }
     },
     "Allen-Synthesis/EuroPi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 417490830,
         "name": "EuroPi",
@@ -41689,7 +42138,9 @@
       }
     },
     "rtestardi/StickOS2": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 694724737,
         "name": "StickOS2",
@@ -41741,7 +42192,9 @@
       }
     },
     "fhdm-dev/scoppy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 347862761,
         "name": "scoppy",
@@ -41880,7 +42333,9 @@
       }
     },
     "JetsonHacksNano/bootFromUSB": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 345271029,
         "name": "bootFromUSB",
@@ -41934,7 +42389,9 @@
       }
     },
     "RfidResearchGroup/ChameleonUltra": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 581338100,
         "name": "ChameleonUltra",
@@ -42011,7 +42468,9 @@
       }
     },
     "stm32duino/Arduino_Core_STM32": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 90867899,
         "name": "Arduino_Core_STM32",
@@ -42416,7 +42875,9 @@
       }
     },
     "Sev5000/RP2350B_DualADC_DualPCM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 926785479,
         "name": "RP2350B_DualADC_DualPCM",
@@ -42491,7 +42952,9 @@
       }
     },
     "doe300/VC4CL": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 106172036,
         "name": "VC4CL",
@@ -42516,7 +42979,9 @@
       }
     },
     "hermanhermitage/videocoreiv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4830434,
         "name": "videocoreiv",
@@ -42541,7 +43006,9 @@
       }
     },
     "Idein/py-videocore": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 45764236,
         "name": "py-videocore",
@@ -42566,7 +43033,9 @@
       }
     },
     "Idein/py-videocore6": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 214144749,
         "name": "py-videocore6",
@@ -42693,7 +43162,9 @@
       }
     },
     "c0pperdragon/LumaCode": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 657196909,
         "name": "LumaCode",
@@ -42718,7 +43189,9 @@
       }
     },
     "jesset/RPi-audio-kernel-build": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 125970256,
         "name": "RPi-audio-kernel-build",
@@ -42743,7 +43216,9 @@
       }
     },
     "Choominator/rpi-hdmi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 796376920,
         "name": "rpi-hdmi",
@@ -42768,7 +43243,9 @@
       }
     },
     "maurogull/digital-sound-mixer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 449445380,
         "name": "digital-sound-mixer",
@@ -42793,7 +43270,9 @@
       }
     },
     "psychogenic/riffpga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 921969154,
         "name": "riffpga",
@@ -42818,7 +43297,9 @@
       }
     },
     "RetroPie/EmulationStation": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 34201178,
         "name": "EmulationStation",
@@ -42893,7 +43374,9 @@
       }
     },
     "davidmoreno/rtpmidid": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 171186513,
         "name": "rtpmidid",
@@ -42918,7 +43401,9 @@
       }
     },
     "ravelox/pimidi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 10202994,
         "name": "pimidi",
@@ -42943,7 +43428,9 @@
       }
     },
     "espressif/arduino-esp32": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 70127218,
         "name": "arduino-esp32",
@@ -42968,7 +43455,9 @@
       }
     },
     "adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 69245843,
         "name": "ch340g-ch34g-ch34x-mac-os-x-driver",
@@ -43071,7 +43560,9 @@
       }
     },
     "sinedied/pi-midi-host": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 334430377,
         "name": "pi-midi-host",
@@ -43121,7 +43612,9 @@
       }
     },
     "roge-rm/sugarshieldXL": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 804608862,
         "name": "sugarshieldXL",
@@ -44119,7 +44612,9 @@
       }
     },
     "kevinkewang/cadet-c1-crystal-adapter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 804407571,
         "name": "cadet-c1-crystal-adapter",
@@ -44144,7 +44639,9 @@
       }
     },
     "raspberrypi/utils": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 122364051,
         "name": "utils",
@@ -44296,7 +44793,9 @@
       }
     },
     "billw2/rpi-clone": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 7671332,
         "name": "rpi-clone",
@@ -44346,7 +44845,9 @@
       }
     },
     "Autr/video-circuits-berlin": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 176823860,
         "name": "video-circuits-berlin",
@@ -44684,7 +45185,9 @@
       }
     },
     "drfrancintosh/pico-docker": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 862085093,
         "name": "pico-docker",
@@ -44709,7 +45212,9 @@
       }
     },
     "drfrancintosh/GVga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 857773304,
         "name": "GVga",
@@ -44734,7 +45239,9 @@
       }
     },
     "antmicro/kvm-aosp-jetson-nano": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 284732965,
         "name": "kvm-aosp-jetson-nano",
@@ -44786,7 +45293,9 @@
       }
     },
     "antmicro/fpga-isp-core": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 414553215,
         "name": "fpga-isp-core",
@@ -44811,7 +45320,9 @@
       }
     },
     "antmicro/gerber2blend": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 802024681,
         "name": "gerber2blend",
@@ -44836,7 +45347,9 @@
       }
     },
     "antmicro/snickerdoodle-hdmi-breakout": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 248192009,
         "name": "snickerdoodle-hdmi-breakout",
@@ -44861,7 +45374,9 @@
       }
     },
     "antmicro/snickerdoodle-hdmi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 287211471,
         "name": "snickerdoodle-hdmi",
@@ -44886,7 +45401,9 @@
       }
     },
     "antmicro/m2-smart-iot-module": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 395038566,
         "name": "m2-smart-iot-module",
@@ -45036,7 +45553,9 @@
       }
     },
     "antmicro/sdi-mipi-bridge-hw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 269041615,
         "name": "sdi-mipi-bridge-hw",
@@ -45138,7 +45657,9 @@
       }
     },
     "antmicro/video-signal-booster-board": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 250488393,
         "name": "video-signal-booster-board",
@@ -45188,7 +45709,9 @@
       }
     },
     "antmicro/zynq-video-board": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 172003075,
         "name": "zynq-video-board",
@@ -45288,7 +45811,9 @@
       }
     },
     "Marian-Vittek/raspberry-pi-dshot-pio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 919376422,
         "name": "raspberry-pi-dshot-pio",
@@ -46298,7 +46823,9 @@
       }
     },
     "blackmagic-debug/blackmagic": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1335680,
         "name": "blackmagic",
@@ -46429,7 +46956,9 @@
       }
     },
     "Miodec/deej": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 379748458,
         "name": "deej",
@@ -46529,7 +47058,9 @@
       }
     },
     "TactilityProject/Tactility": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 735565340,
         "name": "Tactility",
@@ -46554,7 +47085,9 @@
       }
     },
     "lzxindustries/firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 167615066,
         "name": "firmware",
@@ -46579,7 +47112,9 @@
       }
     },
     "lzxindustries/lzxdocs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 160886257,
         "name": "lzxdocs",
@@ -46604,7 +47139,9 @@
       }
     },
     "lzxindustries/lzxmodular": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 511633263,
         "name": "lzxmodular",
@@ -46629,7 +47166,9 @@
       }
     },
     "YuzukiHD/YuzukiLOHCC-PRO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 546419811,
         "name": "YuzukiLOHCC-PRO",
@@ -46904,7 +47443,9 @@
       }
     },
     "TinyTapeout/tinytapeout_gds_viewer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 559984101,
         "name": "tinytapeout_gds_viewer",
@@ -47054,7 +47595,9 @@
       }
     },
     "cloppycorp/MIDI_Goblin": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 902627366,
         "name": "MIDI_Goblin",
@@ -47293,7 +47836,9 @@
       }
     },
     "terrabite3/Snowflake": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 903910768,
         "name": "Snowflake",
@@ -47445,7 +47990,9 @@
       }
     },
     "1847123212/vl670": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 440024658,
         "name": "vl670",
@@ -48041,7 +48588,9 @@
       }
     },
     "ARM-software/CMSIS-DSP": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 498776365,
         "name": "CMSIS-DSP",
@@ -48066,7 +48615,9 @@
       }
     },
     "rjp5th/beyond-ble-tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 909669761,
         "name": "beyond-ble-tools",
@@ -48143,7 +48694,9 @@
       }
     },
     "seemoo-lab/CellGuard": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 815166789,
         "name": "CellGuard",
@@ -48834,7 +49387,9 @@
       }
     },
     "LennartZebandt/platformio-devcontainer-template": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 271366703,
         "name": "platformio-devcontainer-template",
@@ -48913,7 +49468,9 @@
       }
     },
     "nishad2m8/Squareline-OBP": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 817237258,
         "name": "Squareline-OBP",
@@ -48938,7 +49495,9 @@
       }
     },
     "nGoline/squarelinestudio-boards": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 884221353,
         "name": "squarelinestudio-boards",
@@ -49123,7 +49682,9 @@
       }
     },
     "TomWhitwell/PianoMatic3000": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4915759,
         "name": "PianoMatic3000",
@@ -49148,7 +49709,9 @@
       }
     },
     "TomWhitwell/Euclidean-sequencer-": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4916229,
         "name": "Euclidean-sequencer-",
@@ -49173,7 +49736,9 @@
       }
     },
     "TomWhitwell/8mu_Public": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 578066907,
         "name": "8mu_Public",
@@ -49198,7 +49763,9 @@
       }
     },
     "16n-faderbank/16next_firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 644444078,
         "name": "16next_firmware",
@@ -49223,7 +49790,9 @@
       }
     },
     "16n-faderbank/16nx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 855840960,
         "name": "16nx",
@@ -49454,7 +50023,9 @@
       }
     },
     "openai/openai-realtime-embedded": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 888689565,
         "name": "openai-realtime-embedded",
@@ -50126,7 +50697,9 @@
       }
     },
     "drmad/rpi-framebuffer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 41576141,
         "name": "rpi-framebuffer",
@@ -50271,7 +50844,9 @@
       }
     },
     "MustBeArt/SlowSoftSerial": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 225123968,
         "name": "SlowSoftSerial",
@@ -50296,7 +50871,9 @@
       }
     },
     "PaulStoffregen/AltSoftSerial": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 20702280,
         "name": "AltSoftSerial",
@@ -50321,7 +50898,9 @@
       }
     },
     "dchristl/macless-haystack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 589547242,
         "name": "macless-haystack",
@@ -50346,7 +50925,9 @@
       }
     },
     "seemoo-lab/openhaystack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 341208122,
         "name": "openhaystack",
@@ -50579,7 +51160,9 @@
       }
     },
     "inaxeon/hacktv-hackrf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 865294784,
         "name": "hacktv-hackrf",
@@ -50737,7 +51320,9 @@
       }
     },
     "schollz/miditocv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 885866499,
         "name": "miditocv",
@@ -50787,7 +51372,9 @@
       }
     },
     "Sev5000/Pico2_12bitADC_PCMAudio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 900473116,
         "name": "Pico2_12bitADC_PCMAudio",
@@ -50812,7 +51399,9 @@
       }
     },
     "circuitvalley/Intel_FPGA_Board_98Y2610": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 899234556,
         "name": "Intel_FPGA_Board_98Y2610",
@@ -50837,7 +51426,9 @@
       }
     },
     "polachp/pl2303-legacy-w11": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 504817013,
         "name": "pl2303-legacy-w11",
@@ -51461,7 +52052,9 @@
       }
     },
     "JuniorIsAJitterbug/cxadc-win": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 887563158,
         "name": "cxadc-win",
@@ -51741,7 +52334,9 @@
       }
     },
     "tigard-tools/tigard": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 263842525,
         "name": "tigard",
@@ -51766,7 +52361,9 @@
       }
     },
     "szymonh/JTAGscan": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 271103296,
         "name": "JTAGscan",
@@ -52249,7 +52846,9 @@
       }
     },
     "s60sc/ESP32-CAM_MJPEG2SD": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 238784472,
         "name": "ESP32-CAM_MJPEG2SD",
@@ -53286,7 +53885,9 @@
       }
     },
     "Builty/TonexOneController": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 880092022,
         "name": "TonexOneController",
@@ -54309,7 +54910,9 @@
       }
     },
     "someweisguy/esp_dmx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 323453236,
         "name": "esp_dmx",
@@ -54469,7 +55072,9 @@
       }
     },
     "midilab/aciduino": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 124693844,
         "name": "aciduino",
@@ -54594,7 +55199,9 @@
       }
     },
     "MattMills/radiocapture-rf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 8284045,
         "name": "radiocapture-rf",
@@ -54800,7 +55407,9 @@
       }
     },
     "steve-m/hsdaoh-rp2350": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 890020032,
         "name": "hsdaoh-rp2350",
@@ -55133,7 +55742,9 @@
       }
     },
     "Cs4System/Eurorack": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 336472250,
         "name": "Eurorack",
@@ -55726,7 +56337,9 @@
       }
     },
     "kr15h/ofxPiMapper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 19200612,
         "name": "ofxPiMapper",
@@ -56028,7 +56641,9 @@
       }
     },
     "richonguzman/LoRa_APRS_Tracker": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 646915306,
         "name": "LoRa_APRS_Tracker",
@@ -56053,7 +56668,9 @@
       }
     },
     "richonguzman/LoRa_APRS_iGate": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 599559357,
         "name": "LoRa_APRS_iGate",
@@ -56178,7 +56795,9 @@
       }
     },
     "infinition/Bjorn": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 809326864,
         "name": "Bjorn",
@@ -56280,7 +56899,9 @@
       }
     },
     "probonopd/irdb": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 40058332,
         "name": "irdb",
@@ -56305,7 +56926,9 @@
       }
     },
     "bengtmartensson/IrScrutinizer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 32629201,
         "name": "IrScrutinizer",
@@ -56717,7 +57340,9 @@
       }
     },
     "steve-m/hsdaoh-fpga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 796093768,
         "name": "hsdaoh-fpga",
@@ -56742,7 +57367,9 @@
       }
     },
     "Mental-Noise/Synapse": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 267667101,
         "name": "Synapse",
@@ -56767,7 +57394,9 @@
       }
     },
     "gdsports/MIDIUARTUSB": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 122818815,
         "name": "MIDIUARTUSB",
@@ -56792,7 +57421,9 @@
       }
     },
     "popcornell/MIDIno": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 65389698,
         "name": "MIDIno",
@@ -56817,7 +57448,9 @@
       }
     },
     "markwheeler/midi-mixer-one": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 284846491,
         "name": "midi-mixer-one",
@@ -56842,7 +57475,9 @@
       }
     },
     "gdsports/midiuartusbh": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 152178936,
         "name": "midiuartusbh",
@@ -56867,7 +57502,9 @@
       }
     },
     "rppicomidi/usb_midi_host": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 678969087,
         "name": "usb_midi_host",
@@ -56892,7 +57529,9 @@
       }
     },
     "robinz-labs/digishow": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 293338640,
         "name": "digishow",
@@ -56917,7 +57556,9 @@
       }
     },
     "TheKikGen/USBMidiKliK": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 119636734,
         "name": "USBMidiKliK",
@@ -56942,7 +57583,9 @@
       }
     },
     "TheKikGen/USBMidiKliK4x4": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 125889626,
         "name": "USBMidiKliK4x4",
@@ -56992,7 +57635,9 @@
       }
     },
     "lathoub/Arduino-USBMIDI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 245603667,
         "name": "Arduino-USBMIDI",
@@ -57042,7 +57687,9 @@
       }
     },
     "lathoub/Arduino-BLE-MIDI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 154387259,
         "name": "Arduino-BLE-MIDI",
@@ -57067,7 +57714,9 @@
       }
     },
     "earlephilhower/ESP8266Audio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 100118525,
         "name": "ESP8266Audio",
@@ -57364,7 +58013,9 @@
       }
     },
     "geerlingguy/pi-kiosk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 883338367,
         "name": "pi-kiosk",
@@ -57464,7 +58115,9 @@
       }
     },
     "stuckonretro/CRTPi-Project": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 261220169,
         "name": "CRTPi-Project",
@@ -57489,7 +58142,9 @@
       }
     },
     "astefanutti/kms-glsl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 321704829,
         "name": "kms-glsl",
@@ -57616,7 +58271,9 @@
       }
     },
     "ItsRiprod/DeskThing": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 807455484,
         "name": "DeskThing",
@@ -57818,7 +58475,9 @@
       }
     },
     "LOM-instruments/Priezor": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 126830803,
         "name": "Priezor",
@@ -57895,7 +58554,9 @@
       }
     },
     "BluDood/GlanceThing": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 877420028,
         "name": "GlanceThing",
@@ -58000,7 +58661,9 @@
       }
     },
     "magdesign/PocketVJ-CP-v3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 51093637,
         "name": "PocketVJ-CP-v3",
@@ -58231,7 +58894,9 @@
       }
     },
     "lvgl/lvgl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 60667730,
         "name": "lvgl",
@@ -59829,7 +60494,9 @@
       }
     },
     "CapibaraZero/fw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 719214935,
         "name": "fw",
@@ -60056,7 +60723,9 @@
       }
     },
     "technoblogy/sound-lab": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 808107752,
         "name": "sound-lab",
@@ -60131,7 +60800,9 @@
       }
     },
     "ppelikan/drlut": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 371441435,
         "name": "drlut",
@@ -60796,7 +61467,9 @@
       }
     },
     "ohss/RGBNDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 124194591,
         "name": "RGBNDR",
@@ -60871,7 +61544,9 @@
       }
     },
     "openwch/ch32v003": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 557070079,
         "name": "ch32v003",
@@ -61238,7 +61913,9 @@
       }
     },
     "ayushsharma82/ElegantOTA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 176553209,
         "name": "ElegantOTA",
@@ -61338,7 +62015,9 @@
       }
     },
     "endail/hx711-pico-c": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 480413976,
         "name": "hx711-pico-c",
@@ -61791,7 +62470,9 @@
       }
     },
     "thliebig/openEMS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 3997670,
         "name": "openEMS",
@@ -61816,7 +62497,9 @@
       }
     },
     "eeTools/SimulIDE-dev": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 775814292,
         "name": "SimulIDE-dev",
@@ -62338,7 +63021,9 @@
       }
     },
     "DNedic/lfbb": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 527223257,
         "name": "lfbb",
@@ -62363,7 +63048,9 @@
       }
     },
     "raspberrypi/pico-sdk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 331380723,
         "name": "pico-sdk",
@@ -62542,7 +63229,9 @@
       }
     },
     "DatanoiseTV/PicoADK-Hardware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 512845195,
         "name": "PicoADK-Hardware",
@@ -62567,7 +63256,9 @@
       }
     },
     "drfrancintosh/GDvi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 854223901,
         "name": "GDvi",
@@ -62899,7 +63590,9 @@
       }
     },
     "sean-lawless/computersystems": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 190340191,
         "name": "computersystems",
@@ -62924,7 +63617,9 @@
       }
     },
     "funnygeeker/micropython-easydisplay": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 595787567,
         "name": "micropython-easydisplay",
@@ -63124,7 +63819,9 @@
       }
     },
     "FrameOS/frameos": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 669318006,
         "name": "frameos",
@@ -63174,7 +63871,9 @@
       }
     },
     "PedroMVillar/ARMv8-FrameArtist": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 812170867,
         "name": "ARMv8-FrameArtist",
@@ -63301,7 +64000,9 @@
       }
     },
     "wasm3/embedded-wasm-apps": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 433879579,
         "name": "embedded-wasm-apps",
@@ -63326,7 +64027,9 @@
       }
     },
     "vshymanskyy/wasm2mpy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 846785662,
         "name": "wasm2mpy",
@@ -63583,7 +64286,9 @@
       }
     },
     "cyberboy666/_rotary_": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 650923506,
         "name": "_rotary_",
@@ -64016,7 +64721,9 @@
       }
     },
     "kaszarobert1/-ESP32Fmsynth-": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 593331241,
         "name": "-ESP32Fmsynth-",
@@ -64145,7 +64852,9 @@
       }
     },
     "bancika/diy-layout-creator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 32992800,
         "name": "diy-layout-creator",
@@ -65085,7 +65794,9 @@
       }
     },
     "julienchevalley/k0ntr0l": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 217321813,
         "name": "k0ntr0l",
@@ -65110,7 +65821,9 @@
       }
     },
     "subatomicglue/x0xs3q": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 282238812,
         "name": "x0xs3q",
@@ -65135,7 +65848,9 @@
       }
     },
     "TzuHuanTai/RaspberryPi-WebRTC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 490155405,
         "name": "RaspberryPi-WebRTC",
@@ -65345,7 +66060,9 @@
       }
     },
     "LOM-instruments/Elektrosluch-3-plus": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 68750646,
         "name": "Elektrosluch-3-plus",
@@ -65876,7 +66593,9 @@
       }
     },
     "robertojguerra/orangepi-zero-full-setup": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 618674908,
         "name": "orangepi-zero-full-setup",
@@ -65901,7 +66620,9 @@
       }
     },
     "Joshua-Riek/ubuntu-rockchip": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 587553349,
         "name": "ubuntu-rockchip",
@@ -65980,7 +66701,9 @@
       }
     },
     "tgorochowik/hdmi-sniffer-fpga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 188244695,
         "name": "hdmi-sniffer-fpga",
@@ -66005,7 +66728,9 @@
       }
     },
     "splinedrive/my_hdmi_device": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 338904772,
         "name": "my_hdmi_device",
@@ -66030,7 +66755,9 @@
       }
     },
     "timvideos/litex-buildenv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 115785208,
         "name": "litex-buildenv",
@@ -66055,7 +66782,9 @@
       }
     },
     "mghibli2/CEC-arduinobeetle": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 752781832,
         "name": "CEC-arduinobeetle",
@@ -66080,7 +66809,9 @@
       }
     },
     "lplassman/V4L2-to-NDI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 443644187,
         "name": "V4L2-to-NDI",
@@ -66105,7 +66836,9 @@
       }
     },
     "klogg/fl2000_drm": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 143307099,
         "name": "fl2000_drm",
@@ -66130,7 +66863,9 @@
       }
     },
     "timvideos/HDMI2USB-litex-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 38310461,
         "name": "HDMI2USB-litex-firmware",
@@ -66180,7 +66915,9 @@
       }
     },
     "zephyrproject-rtos/zephyr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 59771425,
         "name": "zephyr",
@@ -66255,7 +66992,9 @@
       }
     },
     "cnlohr/channel3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 50746813,
         "name": "channel3",
@@ -66280,7 +67019,9 @@
       }
     },
     "cnlohr/rv003usb": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 640391458,
         "name": "rv003usb",
@@ -66305,7 +67046,9 @@
       }
     },
     "martinloren/HScope": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 152026051,
         "name": "HScope",
@@ -66330,7 +67073,9 @@
       }
     },
     "jmwilson/oshw-active-probe": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 737414214,
         "name": "oshw-active-probe",
@@ -66355,7 +67100,9 @@
       }
     },
     "EEVengers/TS.NET": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 447557026,
         "name": "TS.NET",
@@ -67146,7 +67893,9 @@
       }
     },
     "orangepi-xunlong/orangepi-build": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 308497370,
         "name": "orangepi-build",
@@ -67171,7 +67920,9 @@
       }
     },
     "cyberboy666/lateral_led_controller": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 730957907,
         "name": "lateral_led_controller",
@@ -67428,7 +68179,9 @@
       }
     },
     "openinterpreter/01": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 741790915,
         "name": "01",
@@ -67530,7 +68283,9 @@
       }
     },
     "derrickthomin/DJBB-Midi-Loopster": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 692567302,
         "name": "DJBB-Midi-Loopster",
@@ -67580,7 +68335,9 @@
       }
     },
     "victor-semenovich-dev/intercom-automated-tool": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 749983862,
         "name": "intercom-automated-tool",
@@ -67605,7 +68362,9 @@
       }
     },
     "kimiastrid/Panasonic-WJ-AVE5-circuit-bend": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 686764793,
         "name": "Panasonic-WJ-AVE5-circuit-bend",
@@ -67630,7 +68389,9 @@
       }
     },
     "vaan2010/ZC702-Video-Mixer-Output-Flow": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 802171953,
         "name": "ZC702-Video-Mixer-Output-Flow",
@@ -67807,7 +68568,9 @@
       }
     },
     "ctag-fh-kiel/PSU-30W": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 207350060,
         "name": "PSU-30W",
@@ -67832,7 +68595,9 @@
       }
     },
     "ctag-fh-kiel/esp32-eurorack-audio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 173151228,
         "name": "esp32-eurorack-audio",
@@ -67857,7 +68622,9 @@
       }
     },
     "ctag-fh-kiel/ctag-straempler": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 182228537,
         "name": "ctag-straempler",
@@ -67882,7 +68649,9 @@
       }
     },
     "ctag-fh-kiel/ctag-tbd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 247808857,
         "name": "ctag-tbd",
@@ -67932,7 +68701,9 @@
       }
     },
     "mirdej/vmix": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 289000772,
         "name": "vmix",
@@ -68263,7 +69034,9 @@
       }
     },
     "lzxindustries/lzxcapsule": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 361934897,
         "name": "lzxcapsule",
@@ -68443,7 +69216,9 @@
       }
     },
     "gusmanb/logicanalyzer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 510038761,
         "name": "logicanalyzer",
@@ -68520,7 +69295,9 @@
       }
     },
     "derrickthomin/DJBB-Loopster-2.0": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 834582180,
         "name": "DJBB-Loopster-2.0",
@@ -68545,7 +69322,9 @@
       }
     },
     "derrickthomin/djbb-midi-box": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 487335332,
         "name": "djbb-midi-box",
@@ -68595,7 +69374,9 @@
       }
     },
     "hsetlik/USB_C_PSU": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 847391969,
         "name": "USB_C_PSU",
@@ -68672,7 +69453,9 @@
       }
     },
     "tejeez/fl2k-tool": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 226712694,
         "name": "fl2k-tool",
@@ -68697,7 +69480,9 @@
       }
     },
     "winterrace2/rtl_fl2k_433": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 171954441,
         "name": "rtl_fl2k_433",
@@ -68722,7 +69507,9 @@
       }
     },
     "l29ah/fl2k_signal_generator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 234771496,
         "name": "fl2k_signal_generator",
@@ -68822,7 +69609,9 @@
       }
     },
     "ptrsr/pi-ci": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 367995470,
         "name": "pi-ci",
@@ -68897,7 +69686,9 @@
       }
     },
     "ohmtech-rdi/eurorack-blocks": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 318002647,
         "name": "eurorack-blocks",
@@ -68972,7 +69763,9 @@
       }
     },
     "jaku/DEFCON-32-BadgeFirmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 840106374,
         "name": "DEFCON-32-BadgeFirmware",
@@ -69303,7 +70096,9 @@
       }
     },
     "sipeed/NanoKVM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 823484490,
         "name": "NanoKVM",
@@ -69533,7 +70328,9 @@
       }
     },
     "vha3/Hunter-Adams-RP2040-Demos": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 509537064,
         "name": "Hunter-Adams-RP2040-Demos",
@@ -69608,7 +70405,9 @@
       }
     },
     "ali1234/ttxi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 808831166,
         "name": "ttxi",
@@ -69633,7 +70432,9 @@
       }
     },
     "ali1234/raspi-teletext": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 30389126,
         "name": "raspi-teletext",
@@ -69683,7 +70484,9 @@
       }
     },
     "librerpi/rpi-tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 241039016,
         "name": "rpi-tools",
@@ -69708,7 +70511,9 @@
       }
     },
     "Panda381/PicoQVGA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 407303449,
         "name": "PicoQVGA",
@@ -69733,7 +70538,9 @@
       }
     },
     "markqvist/NomadNet": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 364357715,
         "name": "NomadNet",
@@ -69758,7 +70565,9 @@
       }
     },
     "Wren6991/PicoDVI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 331532749,
         "name": "PicoDVI",
@@ -69783,7 +70592,9 @@
       }
     },
     "pinout-xyz/Pinout.xyz": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 31254079,
         "name": "Pinout.xyz",
@@ -69912,7 +70723,9 @@
       }
     },
     "gregdavill/PD-sniffer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 331536674,
         "name": "PD-sniffer",
@@ -69937,7 +70750,9 @@
       }
     },
     "harrypm/FL2K-TBC-Player": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 554655461,
         "name": "FL2K-TBC-Player",
@@ -70039,7 +70854,9 @@
       }
     },
     "HDR/RP2350_KiCad": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 840628784,
         "name": "RP2350_KiCad",
@@ -70343,7 +71160,9 @@
       }
     },
     "raspberrypi/pico-bootrom-rp2350": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 788368441,
         "name": "pico-bootrom-rp2350",
@@ -70368,7 +71187,9 @@
       }
     },
     "Wren6991/Hazard3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 369765988,
         "name": "Hazard3",
@@ -70543,7 +71364,9 @@
       }
     },
     "marcinbor85/SmartButton": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 284528188,
         "name": "SmartButton",
@@ -70648,7 +71471,9 @@
       }
     },
     "schollz/midi2cv-pi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 293899729,
         "name": "midi2cv-pi",
@@ -70673,7 +71498,9 @@
       }
     },
     "elkayem/midi2cv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 107931167,
         "name": "midi2cv",
@@ -70698,7 +71525,9 @@
       }
     },
     "tanby-dynamics/midi-to-cv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 828031602,
         "name": "midi-to-cv",
@@ -70808,7 +71637,9 @@
       }
     },
     "shorepine/alles": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 136823526,
         "name": "alles",
@@ -70833,7 +71664,9 @@
       }
     },
     "RocketManRC/tulipcc-headless": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 829597469,
         "name": "tulipcc-headless",
@@ -71212,7 +72045,9 @@
       }
     },
     "mbugert/volca-case": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 103987637,
         "name": "volca-case",
@@ -71337,7 +72172,9 @@
       }
     },
     "FOSSEE/eSim": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 32133565,
         "name": "eSim",
@@ -71714,7 +72551,9 @@
       }
     },
     "OpenframeProject/Openframe": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 42020836,
         "name": "Openframe",
@@ -71843,7 +72682,9 @@
       }
     },
     "tttapa/Control-Surface": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 102390805,
         "name": "Control-Surface",
@@ -72416,7 +73257,9 @@
       }
     },
     "BertoldVdb/ms-tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 389440098,
         "name": "ms-tools",
@@ -72441,7 +73284,9 @@
       }
     },
     "hdl-util/hdmi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 202815014,
         "name": "hdmi",
@@ -72466,7 +73311,9 @@
       }
     },
     "girlflux/LZX-Castle-MOUSER-BOM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 239885916,
         "name": "LZX-Castle-MOUSER-BOM",
@@ -72491,7 +73338,9 @@
       }
     },
     "martinmarinov/TempestSDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 14776505,
         "name": "TempestSDR",
@@ -72999,7 +73848,9 @@
       }
     },
     "cellularmitosis/app-notes": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 138101160,
         "name": "app-notes",
@@ -73074,7 +73925,9 @@
       }
     },
     "foxinghour/foxdocs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 430913899,
         "name": "foxdocs",
@@ -73226,7 +74079,9 @@
       }
     },
     "mikesmitty/power-manifold": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 820488911,
         "name": "power-manifold",
@@ -73688,7 +74543,9 @@
       }
     },
     "homegrownVHS/NI-VGA01": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 825798530,
         "name": "NI-VGA01",
@@ -73713,7 +74570,9 @@
       }
     },
     "homegrownVHS/3D-Printable-Eurorack-Tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 825816900,
         "name": "3D-Printable-Eurorack-Tools",
@@ -73765,7 +74624,9 @@
       }
     },
     "Aodrulez/blueTag": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 410987287,
         "name": "blueTag",
@@ -73840,7 +74701,9 @@
       }
     },
     "kala13x/flipper-xremote": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 697527328,
         "name": "flipper-xremote",
@@ -73865,7 +74728,9 @@
       }
     },
     "RogueMaster/flipperzero-firmware-wPlugins": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 492005030,
         "name": "flipperzero-firmware-wPlugins",
@@ -74169,7 +75034,9 @@
       }
     },
     "shorepine/tulipcc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 498083946,
         "name": "tulipcc",
@@ -74398,7 +75265,9 @@
       }
     },
     "CKegel/Web-SSTV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 731843794,
         "name": "Web-SSTV",
@@ -74750,7 +75619,9 @@
       }
     },
     "steve-m/sigrok-firmware-fx2lafw": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 741675338,
         "name": "sigrok-firmware-fx2lafw",
@@ -74800,7 +75671,9 @@
       }
     },
     "DrSDR/IQ-Analog-Picture-TV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 456592715,
         "name": "IQ-Analog-Picture-TV",
@@ -74825,7 +75698,9 @@
       }
     },
     "dosdude1/2.5-inch-ide-ssd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 590286516,
         "name": "2.5-inch-ide-ssd",
@@ -74875,7 +75750,9 @@
       }
     },
     "rwaldron/johnny-five": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 3880513,
         "name": "johnny-five",
@@ -75431,7 +76308,9 @@
       }
     },
     "cleverca22/rptl-datasheets": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 706515552,
         "name": "rptl-datasheets",
@@ -75456,7 +76335,9 @@
       }
     },
     "tandersn/GNRC-Flowgraphs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 502118110,
         "name": "GNRC-Flowgraphs",
@@ -75506,7 +76387,9 @@
       }
     },
     "windytan/redsea": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 2017232,
         "name": "redsea",
@@ -75583,7 +76466,9 @@
       }
     },
     "ali1234/vhs-teletext": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 2178323,
         "name": "vhs-teletext",
@@ -75973,7 +76858,9 @@
       }
     },
     "qbancoffee/imac_g3_ivad_board_init": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 235732062,
         "name": "imac_g3_ivad_board_init",
@@ -75998,7 +76885,9 @@
       }
     },
     "dojoe/Twonkie": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 339557385,
         "name": "Twonkie",
@@ -76175,7 +77064,9 @@
       }
     },
     "littlekernel/lk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 3058456,
         "name": "lk",
@@ -76354,7 +77245,9 @@
       }
     },
     "tsandmann/freertos-teensy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 264540635,
         "name": "freertos-teensy",
@@ -76431,7 +77324,9 @@
       }
     },
     "libretro/Lakka-LibreELEC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 66725653,
         "name": "Lakka-LibreELEC",
@@ -77187,7 +78082,9 @@
       }
     },
     "ik1xpv/ExtIO_sddc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 102012107,
         "name": "ExtIO_sddc",
@@ -77287,7 +78184,9 @@
       }
     },
     "librerpi/lk-overlay": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 353545782,
         "name": "lk-overlay",
@@ -77362,7 +78261,9 @@
       }
     },
     "awawa-dev/HyperHDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 284335610,
         "name": "HyperHDR",
@@ -77518,7 +78419,9 @@
       }
     },
     "v3l0c1r4pt0r/lkv-wiki": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 100732916,
         "name": "lkv-wiki",
@@ -77543,7 +78446,9 @@
       }
     },
     "drandyhaas/Haasoscope": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 112978342,
         "name": "Haasoscope",
@@ -77643,7 +78548,9 @@
       }
     },
     "frederic/superbird-bulkcmd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 538816532,
         "name": "superbird-bulkcmd",
@@ -77895,7 +78802,9 @@
       }
     },
     "CTXz/Video-Glitch-Array": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 205233983,
         "name": "Video-Glitch-Array",
@@ -77945,7 +78854,9 @@
       }
     },
     "stimmer/DueVGA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 8526768,
         "name": "DueVGA",
@@ -78022,7 +78933,9 @@
       }
     },
     "gueldenstone/MIDI2CV": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 250845025,
         "name": "MIDI2CV",
@@ -78047,7 +78960,9 @@
       }
     },
     "leoheck/kiri": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 347776918,
         "name": "kiri",
@@ -78124,7 +79039,9 @@
       }
     },
     "namazso/cxadc-clockgen-mod": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 754354987,
         "name": "cxadc-clockgen-mod",
@@ -78278,7 +79195,9 @@
       }
     },
     "nkasmanoff/pi-card": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 796033132,
         "name": "pi-card",
@@ -78505,7 +79424,9 @@
       }
     },
     "groda/the_ultimate_gitignore_guide": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 577058980,
         "name": "the_ultimate_gitignore_guide",
@@ -78557,7 +79478,9 @@
       }
     },
     "zircothc/DRUM_2004_V1": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 791939159,
         "name": "DRUM_2004_V1",
@@ -78682,7 +79605,9 @@
       }
     },
     "Qucs/qucs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 16213441,
         "name": "qucs",
@@ -78810,7 +79735,9 @@
       }
     },
     "osmocom/osmo-fl2k": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 193220360,
         "name": "osmo-fl2k",
@@ -78835,7 +79762,9 @@
       }
     },
     "vrunk11/fl2k_2": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 551324288,
         "name": "fl2k_2",
@@ -78860,7 +79789,9 @@
       }
     },
     "osresearch/pixel-wrangler": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 602750227,
         "name": "pixel-wrangler",
@@ -78885,7 +79816,9 @@
       }
     },
     "EEVengers/ThunderScope": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 190029235,
         "name": "ThunderScope",
@@ -78937,7 +79870,9 @@
       }
     },
     "black2279/OpenHantek6022": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 183437706,
         "name": "OpenHantek6022",
@@ -78987,7 +79922,9 @@
       }
     },
     "steve-m/fx2adc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 743723108,
         "name": "fx2adc",
@@ -79012,7 +79949,9 @@
       }
     },
     "DiSlord/NanoVNA-D": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 285542064,
         "name": "NanoVNA-D",
@@ -79037,7 +79976,9 @@
       }
     },
     "P1sec/QCSuper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 195964900,
         "name": "QCSuper",
@@ -79062,7 +80003,9 @@
       }
     },
     "portapack-mayhem/mayhem-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 251043704,
         "name": "mayhem-firmware",
@@ -79162,7 +80105,9 @@
       }
     },
     "vrunk11/cvbs-ai-decode": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 681285909,
         "name": "cvbs-ai-decode",
@@ -79187,7 +80132,9 @@
       }
     },
     "riraosan/ESP32_8BIT_CVBS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 477653375,
         "name": "ESP32_8BIT_CVBS",
@@ -79212,7 +80159,9 @@
       }
     },
     "cnlohr/fx3fun": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 115380483,
         "name": "fx3fun",
@@ -79237,7 +80186,9 @@
       }
     },
     "antmicro/cvbs-mipi-bridge": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 543060582,
         "name": "cvbs-mipi-bridge",
@@ -79262,7 +80213,9 @@
       }
     },
     "BitBangingBytes/Glitchy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 538188250,
         "name": "Glitchy",
@@ -79379,7 +80332,9 @@
       }
     },
     "mitxela/kicad-round-tracks": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 327990770,
         "name": "kicad-round-tracks",
@@ -79454,7 +80409,9 @@
       }
     },
     "open-sdr/openwifi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 220449772,
         "name": "openwifi",
@@ -79504,7 +80461,9 @@
       }
     },
     "JanosGit/SoftwareDefinedRadio4JUCE": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 166415934,
         "name": "SoftwareDefinedRadio4JUCE",
@@ -79554,7 +80513,9 @@
       }
     },
     "ghostop14/gr-clenabled": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 82074135,
         "name": "gr-clenabled",
@@ -79629,7 +80590,9 @@
       }
     },
     "Jokippo/Vectrex_MiSTer_XYZ": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 717021190,
         "name": "Vectrex_MiSTer_XYZ",
@@ -79679,7 +80642,9 @@
       }
     },
     "knutwurst/gbs-control-atmega": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 122369414,
         "name": "gbs-control-atmega",
@@ -79704,7 +80669,9 @@
       }
     },
     "mackieks/Shinobi-Scaler": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 556808114,
         "name": "Shinobi-Scaler",
@@ -79729,7 +80696,9 @@
       }
     },
     "Softdrink117/gbsc-sync-combiner": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 422425827,
         "name": "gbsc-sync-combiner",
@@ -79804,7 +80773,9 @@
       }
     },
     "Teletect/VS-009_BNC_ADAPT": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 347759269,
         "name": "VS-009_BNC_ADAPT",
@@ -79879,7 +80850,9 @@
       }
     },
     "Stefan-Olt/MISRC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 736740372,
         "name": "MISRC",
@@ -79904,7 +80877,9 @@
       }
     },
     "pfalstad/circuitjs1": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 64078919,
         "name": "circuitjs1",
@@ -80183,7 +81158,9 @@
       }
     },
     "benkuper/Chataigne": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 72221136,
         "name": "Chataigne",
@@ -80208,7 +81185,9 @@
       }
     },
     "DarthAffe/RGB.NET": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 78947762,
         "name": "RGB.NET",
@@ -80233,7 +81212,9 @@
       }
     },
     "jasoncoon/led-mapper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 455023996,
         "name": "led-mapper",
@@ -80335,7 +81316,9 @@
       }
     },
     "matan-h/adb-shell": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 786396339,
         "name": "adb-shell",
@@ -80412,7 +81395,9 @@
       }
     },
     "wireviz/WireViz": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 265635506,
         "name": "WireViz",
@@ -80589,7 +81574,9 @@
       }
     },
     "newaetech/chipwhisperer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 23514290,
         "name": "chipwhisperer",
@@ -80614,7 +81601,9 @@
       }
     },
     "PythonHacker24/fault-injector": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 775468696,
         "name": "fault-injector",
@@ -81375,7 +82364,9 @@
       }
     },
     "Roger-random/ESP_8_BIT_composite": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 361068921,
         "name": "ESP_8_BIT_composite",
@@ -81602,7 +82593,9 @@
       }
     },
     "omriharel/deej": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 235685125,
         "name": "deej",
@@ -82428,7 +83421,9 @@
       }
     },
     "dsp56300/gearmulator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 385748634,
         "name": "gearmulator",
@@ -82453,7 +83448,9 @@
       }
     },
     "benschreyer/ESP32-Audio-Visualizer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 443451685,
         "name": "ESP32-Audio-Visualizer",
@@ -82830,7 +83827,9 @@
       }
     },
     "richy486/sega-megadrive-synth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 350007622,
         "name": "sega-megadrive-synth",
@@ -82855,7 +83854,9 @@
       }
     },
     "trasher23/SegaSynth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 266226030,
         "name": "SegaSynth",
@@ -82880,7 +83881,9 @@
       }
     },
     "Sigbeqboibe/SFRTV5": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 696015702,
         "name": "SFRTV5",
@@ -83010,7 +84013,9 @@
       }
     },
     "lightmusicvisuals/Archer-Bender-1590XX": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 609945178,
         "name": "Archer-Bender-1590XX",
@@ -83268,7 +84273,9 @@
       }
     },
     "BojanJurca/Esp32_oscilloscope": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 204138683,
         "name": "Esp32_oscilloscope",
@@ -83318,7 +84325,9 @@
       }
     },
     "steveicarus/iverilog": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 16267,
         "name": "iverilog",
@@ -83343,7 +84352,9 @@
       }
     },
     "wntrblm/Micronova": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 495522866,
         "name": "Micronova",
@@ -83368,7 +84379,9 @@
       }
     },
     "emlyn/sonic-pixels": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 81674484,
         "name": "sonic-pixels",
@@ -83572,7 +84585,9 @@
       }
     },
     "adafruit/pi_video_looper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 30624010,
         "name": "pi_video_looper",
@@ -83647,7 +84662,9 @@
       }
     },
     "derrickthomin/DJBB-X-NOCO-NF-Mini-Dirty-Video-Mixer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 760650824,
         "name": "DJBB-X-NOCO-NF-Mini-Dirty-Video-Mixer",
@@ -83799,7 +84816,9 @@
       }
     },
     "rmull/tinkup": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 445853098,
         "name": "tinkup",
@@ -84074,7 +85093,9 @@
       }
     },
     "marqs85/ossc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 52311345,
         "name": "ossc",
@@ -84099,7 +85120,9 @@
       }
     },
     "no-carrier/NESFlix": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 54430197,
         "name": "NESFlix",
@@ -84124,7 +85147,9 @@
       }
     },
     "no-carrier/glitchNES-0.2": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 54431610,
         "name": "glitchNES-0.2",
@@ -84149,7 +85174,9 @@
       }
     },
     "osresearch/vst": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 46620665,
         "name": "vst",
@@ -84224,7 +85251,9 @@
       }
     },
     "yaqwsx/Pinion": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 369534830,
         "name": "Pinion",
@@ -84474,7 +85503,9 @@
       }
     },
     "Lucaslhm/Flipper-IRDB": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 469235243,
         "name": "Flipper-IRDB",
@@ -84578,7 +85609,9 @@
       }
     },
     "Soundpauli/NI404": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 746342091,
         "name": "NI404",
@@ -85005,7 +86038,9 @@
       }
     },
     "cerkit/fpga-lunetta-vga-synth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 453418096,
         "name": "fpga-lunetta-vga-synth",
@@ -85030,7 +86065,9 @@
       }
     },
     "tamask/arcanebolt": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 2699601,
         "name": "arcanebolt",
@@ -85208,7 +86245,9 @@
       }
     },
     "adult-video/acid-app": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 340713497,
         "name": "acid-app",
@@ -85233,7 +86272,9 @@
       }
     },
     "Lcchy/Eyesy_for_fates": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 310071301,
         "name": "Eyesy_for_fates",
@@ -85464,7 +86505,9 @@
       }
     },
     "Teletect/IP-Differentiator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 333282295,
         "name": "IP-Differentiator",
@@ -85514,7 +86557,9 @@
       }
     },
     "lfantoniosi/rgb2vga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 24563261,
         "name": "rgb2vga",
@@ -85539,7 +86584,9 @@
       }
     },
     "cfoge/MAX4LIVE_V8_V4": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 356174850,
         "name": "MAX4LIVE_V8_V4",
@@ -85564,7 +86611,9 @@
       }
     },
     "cfoge/VIDEO_XCHNG": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 377376576,
         "name": "VIDEO_XCHNG",
@@ -85639,7 +86688,9 @@
       }
     },
     "508-loop-detected/ec500": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 197095560,
         "name": "ec500",
@@ -85664,7 +86715,9 @@
       }
     },
     "sharpie7/pico-pattern": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 482879031,
         "name": "pico-pattern",
@@ -85714,7 +86767,9 @@
       }
     },
     "ttrftech/NanoVNA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 79353227,
         "name": "NanoVNA",
@@ -85739,7 +86794,9 @@
       }
     },
     "erikkaashoek/tinySA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 240480710,
         "name": "tinySA",
@@ -85889,7 +86946,9 @@
       }
     },
     "meltdream/strange-loop": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 236302797,
         "name": "strange-loop",
@@ -85914,7 +86973,9 @@
       }
     },
     "akirasrebirth/MHzxER": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 183889050,
         "name": "MHzxER",
@@ -85966,7 +87027,9 @@
       }
     },
     "Teletect/VS-002_Dual-Enhancer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 239622429,
         "name": "VS-002_Dual-Enhancer",
@@ -85991,7 +87054,9 @@
       }
     },
     "flashrom/flashrom": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1474948,
         "name": "flashrom",
@@ -86041,7 +87106,9 @@
       }
     },
     "greatscottgadgets/luna": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 215722076,
         "name": "luna",
@@ -86066,7 +87133,9 @@
       }
     },
     "greatscottgadgets/facedancer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 80500802,
         "name": "facedancer",
@@ -86091,7 +87160,9 @@
       }
     },
     "d3cker/sdrppcontroller": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 477295658,
         "name": "sdrppcontroller",
@@ -86116,7 +87187,9 @@
       }
     },
     "AlexandreRouma/SDRPlusPlus": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 271154586,
         "name": "SDRPlusPlus",
@@ -86141,7 +87214,9 @@
       }
     },
     "W00t3k/Awesome-Cellular-Hacking": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 187701900,
         "name": "Awesome-Cellular-Hacking",
@@ -86171,7 +87246,9 @@
       }
     },
     "jopohl/urh": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 55258005,
         "name": "urh",
@@ -86196,7 +87273,9 @@
       }
     },
     "Schm1tz1/awesome-rtl-sdr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 69637174,
         "name": "awesome-rtl-sdr",
@@ -86350,7 +87429,9 @@
       }
     },
     "steveseguin/raspberry_ninja": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 336145612,
         "name": "raspberry_ninja",
@@ -86375,7 +87456,9 @@
       }
     },
     "CedarGroveStudios/CircuitPython_WaveViz": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 740771995,
         "name": "CircuitPython_WaveViz",
@@ -86425,7 +87508,9 @@
       }
     },
     "Ho-Ro/Hantek6022API": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 168508074,
         "name": "Hantek6022API",
@@ -86477,7 +87562,9 @@
       }
     },
     "OpenHantek/OpenHantek6022": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 183421768,
         "name": "OpenHantek6022",
@@ -86502,7 +87589,9 @@
       }
     },
     "OpenHantek/openhantek": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 43814616,
         "name": "openhantek",
@@ -86733,7 +87822,9 @@
       }
     },
     "neroroxxx/BMC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 279652203,
         "name": "BMC",
@@ -86788,7 +87879,9 @@
       }
     },
     "juj/fbcp-ili9341": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 111223550,
         "name": "fbcp-ili9341",
@@ -86813,7 +87906,9 @@
       }
     },
     "labodejuguete/VIDIFFEKTOR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 129109379,
         "name": "VIDIFFEKTOR",
@@ -86838,7 +87933,9 @@
       }
     },
     "Ralim/IronOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 68082730,
         "name": "IronOS",
@@ -86863,7 +87960,9 @@
       }
     },
     "HDR/Gameboy-Camera-Flashcart": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 290892320,
         "name": "Gameboy-Camera-Flashcart",
@@ -86938,7 +88037,9 @@
       }
     },
     "librerpi/rpi-open-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 224932894,
         "name": "rpi-open-firmware",
@@ -86988,7 +88089,9 @@
       }
     },
     "jacobvosmaer/DaisyAudioMangler": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 712382857,
         "name": "DaisyAudioMangler",
@@ -87063,7 +88166,9 @@
       }
     },
     "alanpreed/pico-composite-video": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 382572249,
         "name": "pico-composite-video",
@@ -87088,7 +88193,9 @@
       }
     },
     "akshaybaweja/component-tester-oled": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 273624804,
         "name": "component-tester-oled",
@@ -87113,7 +88220,9 @@
       }
     },
     "DDRBoxman/picodeck": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 511616439,
         "name": "picodeck",
@@ -87163,7 +88272,9 @@
       }
     },
     "todbot/picostepseq": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 521769562,
         "name": "picostepseq",
@@ -87213,7 +88324,9 @@
       }
     },
     "TheTechnobear/MEC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 77284566,
         "name": "MEC",
@@ -87238,7 +88351,9 @@
       }
     },
     "TheTechnobear/Mi4Pd": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 96206533,
         "name": "Mi4Pd",
@@ -87263,7 +88378,9 @@
       }
     },
     "franklinscudder/Midi2PO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 371096080,
         "name": "Midi2PO",
@@ -87313,7 +88430,9 @@
       }
     },
     "okyeron/EYESY_OS_for_RasPi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 323239061,
         "name": "EYESY_OS_for_RasPi",
@@ -87378,7 +88497,9 @@
       "last_updated": "2026-03-17T22:10:15.988312+00:00"
     },
     "okyeron/neotrellis-monome": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 226188313,
         "name": "neotrellis-monome",
@@ -87398,7 +88519,9 @@
       "last_updated": "2026-03-17T22:10:16.294738+00:00"
     },
     "okyeron/OMX-27": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 319209744,
         "name": "OMX-27",
@@ -87418,7 +88541,9 @@
       "last_updated": "2026-03-17T22:10:16.501986+00:00"
     },
     "okyeron/fates": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 183079154,
         "name": "fates",
@@ -87438,7 +88563,9 @@
       "last_updated": "2026-03-17T22:10:16.673512+00:00"
     },
     "rossumur/espflix": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 270021240,
         "name": "espflix",
@@ -87458,7 +88585,9 @@
       "last_updated": "2026-03-17T22:10:16.849021+00:00"
     },
     "MartijnVerhallen/Video-Documentation": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 624117157,
         "name": "Video-Documentation",
@@ -87478,7 +88607,9 @@
       "last_updated": "2026-03-17T22:10:17.004689+00:00"
     },
     "cbodden/exttab": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 102693280,
         "name": "exttab",
@@ -87540,7 +88671,9 @@
       "last_updated": "2026-03-17T22:10:17.722487+00:00"
     },
     "openscopeproject/InteractiveHtmlBom": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 142263436,
         "name": "InteractiveHtmlBom",
@@ -87560,7 +88693,9 @@
       "last_updated": "2026-03-17T22:10:17.930991+00:00"
     },
     "UzixLS/rgb2ypbpr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 283585205,
         "name": "rgb2ypbpr",
@@ -87580,7 +88715,9 @@
       "last_updated": "2026-03-17T22:10:18.166911+00:00"
     },
     "UzixLS/rgb2svideo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 403023431,
         "name": "rgb2svideo",
@@ -87600,7 +88737,9 @@
       "last_updated": "2026-03-17T22:10:18.353431+00:00"
     },
     "minimumattic/recalbox-rpi4-composite-configs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 509500569,
         "name": "recalbox-rpi4-composite-configs",
@@ -87620,7 +88759,9 @@
       "last_updated": "2026-03-17T22:10:18.535995+00:00"
     },
     "TheSonders/COLOR_PAL": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 565545017,
         "name": "COLOR_PAL",
@@ -87640,7 +88781,9 @@
       "last_updated": "2026-03-17T22:10:18.733786+00:00"
     },
     "guruthree/pico-composite-PAL-colour": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 469479219,
         "name": "pico-composite-PAL-colour",
@@ -87762,7 +88905,9 @@
       "last_updated": "2026-03-17T22:10:20.030332+00:00"
     },
     "PiSupply/Gert-VGA-666": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 58657231,
         "name": "Gert-VGA-666",
@@ -87782,7 +88927,9 @@
       "last_updated": "2026-03-17T22:10:20.645693+00:00"
     },
     "fdivitto/FabGL": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 169951787,
         "name": "FabGL",
@@ -87802,7 +88949,9 @@
       "last_updated": "2026-03-17T22:10:20.832784+00:00"
     },
     "Elohzee/NES-CHR-Model": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 728924499,
         "name": "NES-CHR-Model",
@@ -87882,7 +89031,9 @@
       "last_updated": "2026-03-17T22:10:21.724933+00:00"
     },
     "lightmusicvisuals/archer_experimenter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 591961968,
         "name": "archer_experimenter",
@@ -87922,7 +89073,9 @@
       "last_updated": "2026-03-17T22:10:22.109761+00:00"
     },
     "dekkit/Composite-Video-to-RGB": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 452257962,
         "name": "Composite-Video-to-RGB",
@@ -87942,7 +89095,9 @@
       "last_updated": "2026-03-17T22:10:22.368803+00:00"
     },
     "Megatokio/kilipili": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 686951610,
         "name": "kilipili",
@@ -87962,7 +89117,9 @@
       "last_updated": "2026-03-17T22:10:22.570230+00:00"
     },
     "tandersn/cxadc-hw-mod": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 423561694,
         "name": "cxadc-hw-mod",
@@ -87982,7 +89139,9 @@
       "last_updated": "2026-03-17T22:10:22.787240+00:00"
     },
     "fsphil/hacktv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 92094375,
         "name": "hacktv",
@@ -88002,7 +89161,9 @@
       "last_updated": "2026-03-17T22:10:22.981810+00:00"
     },
     "oyvindln/vhs-decode": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 171295907,
         "name": "vhs-decode",
@@ -88022,7 +89183,9 @@
       "last_updated": "2026-03-17T22:10:23.210760+00:00"
     },
     "happycube/cxadc-linux3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 9434068,
         "name": "cxadc-linux3",
@@ -88042,7 +89205,9 @@
       "last_updated": "2026-03-17T22:10:23.418102+00:00"
     },
     "happycube/ld-decode": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 9764678,
         "name": "ld-decode",
@@ -88062,7 +89227,9 @@
       "last_updated": "2026-03-17T22:10:23.603874+00:00"
     },
     "SukkoPera/OpenVideoModulator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 176834272,
         "name": "OpenVideoModulator",
@@ -88082,7 +89249,9 @@
       "last_updated": "2026-03-17T22:10:23.777121+00:00"
     },
     "bkw777/rgb2vga": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 423345132,
         "name": "rgb2vga",
@@ -88102,7 +89271,9 @@
       "last_updated": "2026-03-17T22:10:24.043136+00:00"
     },
     "amoore2600/GBS-C_AIO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 327940996,
         "name": "GBS-C_AIO",
@@ -88122,7 +89293,9 @@
       "last_updated": "2026-03-17T22:10:24.230427+00:00"
     },
     "Syntonie/documentation": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 171136069,
         "name": "documentation",
@@ -88142,7 +89315,9 @@
       "last_updated": "2026-03-17T22:10:24.427059+00:00"
     },
     "Sound-Study-Modular/VidPix": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 380315074,
         "name": "VidPix",
@@ -88204,7 +89379,9 @@
       "last_updated": "2026-03-17T22:10:25.055256+00:00"
     },
     "wednesdayayay/Spread": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 248383833,
         "name": "Spread",
@@ -88224,7 +89401,9 @@
       "last_updated": "2026-03-17T22:10:25.259160+00:00"
     },
     "wednesdayayay/Scrawl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 237685120,
         "name": "Scrawl",
@@ -88244,7 +89423,9 @@
       "last_updated": "2026-03-17T22:10:25.469851+00:00"
     },
     "cyberboy666/robs-whiteboard-funhouse-companion-circuits": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 271778207,
         "name": "robs-whiteboard-funhouse-companion-circuits",
@@ -88284,7 +89465,9 @@
       "last_updated": "2026-03-17T22:10:25.873047+00:00"
     },
     "codaris/picovga-cmake": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 422778196,
         "name": "picovga-cmake",
@@ -88304,7 +89487,9 @@
       "last_updated": "2026-03-17T22:10:26.095165+00:00"
     },
     "Panda381/PicoVGA": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 375693700,
         "name": "PicoVGA",
@@ -88324,7 +89509,9 @@
       "last_updated": "2026-03-17T22:10:26.261542+00:00"
     },
     "ramapcsx2/gbs-control": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 111216143,
         "name": "gbs-control",
@@ -88404,7 +89591,9 @@
       "last_updated": "2026-03-17T22:10:27.055973+00:00"
     },
     "RussellKramer/Mainbow": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 367474628,
         "name": "Mainbow",
@@ -88424,7 +89613,9 @@
       "last_updated": "2026-03-17T22:10:27.255430+00:00"
     },
     "timatron/videolooper-raspbian": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 58828153,
         "name": "videolooper-raspbian",
@@ -88464,7 +89655,9 @@
       "last_updated": "2026-03-17T22:10:27.695464+00:00"
     },
     "cnlohr/avr_vhf": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 30843798,
         "name": "avr_vhf",
@@ -88484,7 +89677,9 @@
       "last_updated": "2026-03-17T22:10:27.910773+00:00"
     },
     "cybergrunge-ops/TVOutColor_Minimal_FSC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 440997900,
         "name": "TVOutColor_Minimal_FSC",
@@ -88504,7 +89699,9 @@
       "last_updated": "2026-03-17T22:10:28.098916+00:00"
     },
     "AtlasFPGA/MULTICORE-ESdUDO-ROJO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 654512927,
         "name": "MULTICORE-ESdUDO-ROJO",
@@ -88524,7 +89721,9 @@
       "last_updated": "2026-03-17T22:10:28.325877+00:00"
     },
     "hkzlab/SCART_SyncSplitter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 713834465,
         "name": "SCART_SyncSplitter",
@@ -88544,7 +89743,9 @@
       "last_updated": "2026-03-17T22:10:28.533985+00:00"
     },
     "jsanpe/c2c-64": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 406914812,
         "name": "c2c-64",
@@ -88584,7 +89785,9 @@
       "last_updated": "2026-03-17T22:10:28.924486+00:00"
     },
     "LMP88959/PL3D-KC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 519555067,
         "name": "PL3D-KC",
@@ -88604,7 +89807,9 @@
       "last_updated": "2026-03-17T22:10:29.115107+00:00"
     },
     "LMP88959/NTSC-CRT": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 579563736,
         "name": "NTSC-CRT",
@@ -88989,7 +90194,9 @@
       "last_updated": "2026-03-17T22:10:32.976024+00:00"
     },
     "todbot/PicoDVI_experiments": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 621511091,
         "name": "PicoDVI_experiments",
@@ -89301,7 +90508,9 @@
       "last_updated": "2026-03-17T22:10:36.060472+00:00"
     },
     "seancuttlefish/composite-bitluni": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 483035092,
         "name": "composite-bitluni",
@@ -89341,7 +90550,9 @@
       "last_updated": "2026-03-17T22:10:36.440089+00:00"
     },
     "aquaticus/esp32_composite_video_demo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 471942013,
         "name": "esp32_composite_video_demo",
@@ -89361,7 +90572,9 @@
       "last_updated": "2026-03-17T22:10:36.651664+00:00"
     },
     "xovox/RetroCRT": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 197443045,
         "name": "RetroCRT",
@@ -89381,7 +90594,9 @@
       "last_updated": "2026-03-17T22:10:36.959207+00:00"
     },
     "kFYatek/tweakvec": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 348904585,
         "name": "tweakvec",
@@ -89401,7 +90616,9 @@
       "last_updated": "2026-03-17T22:10:37.165502+00:00"
     },
     "breakintoprogram/pico-mposite": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 338559263,
         "name": "pico-mposite",
@@ -89421,7 +90638,9 @@
       "last_updated": "2026-03-17T22:10:37.344407+00:00"
     },
     "elpuri/NTSC-composite-encoder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 16930856,
         "name": "NTSC-composite-encoder",
@@ -89441,7 +90660,9 @@
       "last_updated": "2026-03-17T22:10:37.532824+00:00"
     },
     "obstruse/pico-composite8": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 373993244,
         "name": "pico-composite8",
@@ -89461,7 +90682,9 @@
       "last_updated": "2026-03-17T22:10:37.741340+00:00"
     },
     "sharpie7/circuitjs1": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 37438565,
         "name": "circuitjs1",
@@ -89621,7 +90844,9 @@
       "last_updated": "2026-03-17T22:10:39.249076+00:00"
     },
     "cfoge/Video_EQ": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 335127830,
         "name": "Video_EQ",
@@ -89821,7 +91046,9 @@
       "last_updated": "2026-03-17T22:10:41.421354+00:00"
     },
     "cyberboy666/sync_ope": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 217857375,
         "name": "sync_ope",
@@ -89841,7 +91068,9 @@
       "last_updated": "2026-03-17T22:10:41.621952+00:00"
     },
     "guysoft/CustomPiOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 94749337,
         "name": "CustomPiOS",
@@ -89861,7 +91090,9 @@
       "last_updated": "2026-03-17T22:10:41.804897+00:00"
     },
     "guysoft/FullPageOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 44012035,
         "name": "FullPageOS",
@@ -89901,7 +91132,9 @@
       "last_updated": "2026-03-17T22:10:42.207833+00:00"
     },
     "hathach/tinyusb": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 6860771,
         "name": "tinyusb",
@@ -89921,7 +91154,9 @@
       "last_updated": "2026-03-17T22:10:42.395493+00:00"
     },
     "colonelwatch/ESP32-oled-spectrum": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 288855045,
         "name": "ESP32-oled-spectrum",
@@ -90227,7 +91462,9 @@
       "last_updated": "2026-03-17T22:10:45.506056+00:00"
     },
     "wjklimek1/SSD1322_OLED_library": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 304363495,
         "name": "SSD1322_OLED_library",
@@ -90247,7 +91484,9 @@
       "last_updated": "2026-03-17T22:10:45.703556+00:00"
     },
     "supercollider/supercollider": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4228314,
         "name": "supercollider",
@@ -90267,7 +91506,9 @@
       "last_updated": "2026-03-17T22:10:45.918647+00:00"
     },
     "ErikOostveen/UberClock": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 483977177,
         "name": "UberClock",
@@ -90287,7 +91528,9 @@
       "last_updated": "2026-03-17T22:10:46.172695+00:00"
     },
     "ErikOostveen/PerfectBeat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 262870877,
         "name": "PerfectBeat",
@@ -90307,7 +91550,9 @@
       "last_updated": "2026-03-17T22:10:46.383796+00:00"
     },
     "ErikOostveen/Dimensions": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 348046898,
         "name": "Dimensions",
@@ -90327,7 +91572,9 @@
       "last_updated": "2026-03-17T22:10:46.567612+00:00"
     },
     "ErikOostveen/Slimshader": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 406415677,
         "name": "Slimshader",
@@ -90407,7 +91654,9 @@
       "last_updated": "2026-03-17T22:10:47.334776+00:00"
     },
     "Santroller/Santroller": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 147811325,
         "name": "Santroller",
@@ -90447,7 +91696,9 @@
       "last_updated": "2026-03-17T22:10:47.727705+00:00"
     },
     "marcel-licence/esp32_multitrack_looper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 356692526,
         "name": "esp32_multitrack_looper",
@@ -90529,7 +91780,9 @@
       "last_updated": "2026-03-17T22:10:48.452127+00:00"
     },
     "hyperion-project/hyperion.ng": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 61202664,
         "name": "hyperion.ng",
@@ -90629,7 +91882,9 @@
       "last_updated": "2026-03-17T22:10:49.484077+00:00"
     },
     "cyberboy666/r_e_c_u_r": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 100596524,
         "name": "r_e_c_u_r",
@@ -90649,7 +91904,9 @@
       "last_updated": "2026-03-17T22:10:49.652111+00:00"
     },
     "cyberboy666/d_e_t_o_u_r": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 181531341,
         "name": "d_e_t_o_u_r",
@@ -90991,7 +92248,9 @@
       "last_updated": "2026-03-17T22:10:53.160517+00:00"
     },
     "Blackaddr/BALibrary": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 148033502,
         "name": "BALibrary",
@@ -91171,7 +92430,9 @@
       "last_updated": "2026-03-17T22:10:55.107517+00:00"
     },
     "wasm3/wasm3-arduino": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 234966219,
         "name": "wasm3-arduino",
@@ -91231,7 +92492,9 @@
       "last_updated": "2026-03-17T22:10:55.739678+00:00"
     },
     "JuliusCode/MP4MUSEUM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 224631804,
         "name": "MP4MUSEUM",
@@ -91371,7 +92634,9 @@
       "last_updated": "2026-03-17T22:10:57.161312+00:00"
     },
     "sourya-sen/rPi_synth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 115797650,
         "name": "rPi_synth",
@@ -91391,7 +92656,9 @@
       "last_updated": "2026-03-17T22:10:57.443226+00:00"
     },
     "hadesbox/VidBoi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 129197895,
         "name": "VidBoi",
@@ -91411,7 +92678,9 @@
       "last_updated": "2026-03-17T22:10:57.670464+00:00"
     },
     "Ttreintaysiete/chaves": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 114156236,
         "name": "chaves",
@@ -91571,7 +92840,9 @@
       "last_updated": "2026-03-17T22:10:59.267872+00:00"
     },
     "koush/scrypted": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 398474859,
         "name": "scrypted",
@@ -91731,7 +93002,9 @@
       "last_updated": "2026-03-17T22:11:00.802946+00:00"
     },
     "platformio/platformio-core": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 19606299,
         "name": "platformio-core",
@@ -91751,7 +93024,9 @@
       "last_updated": "2026-03-17T22:11:01.040610+00:00"
     },
     "hoeken/PsychicHttp": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 720660307,
         "name": "PsychicHttp",
@@ -91833,7 +93108,9 @@
       "last_updated": "2026-03-17T22:11:01.986348+00:00"
     },
     "n0xa/m5stick-nemo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 694486730,
         "name": "m5stick-nemo",
@@ -91853,7 +93130,9 @@
       "last_updated": "2026-03-17T22:11:02.204608+00:00"
     },
     "espressif/esp32-wifi-lib": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 65913279,
         "name": "esp32-wifi-lib",
@@ -91933,7 +93212,9 @@
       "last_updated": "2026-03-17T22:11:03.038039+00:00"
     },
     "libretro/RetroArch": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 689344,
         "name": "RetroArch",
@@ -91953,7 +93234,9 @@
       "last_updated": "2026-03-17T22:11:03.278536+00:00"
     },
     "antonioginer/crt_tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 224998722,
         "name": "crt_tools",
@@ -92095,7 +93378,9 @@
       "last_updated": "2026-03-17T22:11:04.654910+00:00"
     },
     "shanteacontrols/OpenDeck": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 19407252,
         "name": "OpenDeck",
@@ -92217,7 +93502,9 @@
       "last_updated": "2026-03-17T22:11:05.885991+00:00"
     },
     "wokwi/rp2040js": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 333224195,
         "name": "rp2040js",
@@ -92757,7 +94044,9 @@
       "last_updated": "2026-03-17T22:11:11.622384+00:00"
     },
     "me-no-dev/EspExceptionDecoder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 50574931,
         "name": "EspExceptionDecoder",
@@ -92860,7 +94149,9 @@
       "last_updated": "2026-03-17T22:11:12.658857+00:00"
     },
     "dj-fractalus/leap-midi-lights": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 502154526,
         "name": "leap-midi-lights",
@@ -93020,7 +94311,9 @@
       "last_updated": "2026-03-17T22:11:14.299265+00:00"
     },
     "monome/norns-shield": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 208627602,
         "name": "norns-shield",
@@ -93060,7 +94353,9 @@
       "last_updated": "2026-03-17T22:11:14.768761+00:00"
     },
     "chris-jh/mt32-pi-midi-hat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 318764535,
         "name": "mt32-pi-midi-hat",
@@ -93080,7 +94375,9 @@
       "last_updated": "2026-03-17T22:11:14.939720+00:00"
     },
     "kmwebnet/simplecodec3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 400733157,
         "name": "simplecodec3",
@@ -93100,7 +94397,9 @@
       "last_updated": "2026-03-17T22:11:15.188203+00:00"
     },
     "Audio-Injector/stereo-and-zero": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 126314914,
         "name": "stereo-and-zero",
@@ -93260,7 +94559,9 @@
       "last_updated": "2026-03-17T22:11:16.933302+00:00"
     },
     "Koromix/tytools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 23473180,
         "name": "tytools",
@@ -93340,7 +94641,9 @@
       "last_updated": "2026-03-17T22:11:17.719718+00:00"
     },
     "FreeCAD/FreeCAD": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 5736080,
         "name": "FreeCAD",
@@ -93482,7 +94785,9 @@
       "last_updated": "2026-03-17T22:11:19.236909+00:00"
     },
     "ardyesp/DLO-138": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 83137257,
         "name": "DLO-138",
@@ -93522,7 +94827,9 @@
       "last_updated": "2026-03-17T22:11:19.634483+00:00"
     },
     "risgk/digital-synth-pra32-u": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 636121681,
         "name": "digital-synth-pra32-u",
@@ -93582,7 +94889,9 @@
       "last_updated": "2026-03-17T22:11:20.267674+00:00"
     },
     "otem/Raspberry-Pi-Looper-synth-drum-thing": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 91197196,
         "name": "Raspberry-Pi-Looper-synth-drum-thing",
@@ -93602,7 +94911,9 @@
       "last_updated": "2026-03-17T22:11:20.460656+00:00"
     },
     "rsta2/pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 430428672,
         "name": "pico",
@@ -93622,7 +94933,9 @@
       "last_updated": "2026-03-17T22:11:20.622937+00:00"
     },
     "rsta2/circle": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 25676773,
         "name": "circle",
@@ -93904,7 +95217,9 @@
       "last_updated": "2026-03-17T22:11:23.418335+00:00"
     },
     "ex-zee-ex/VIDEO_WAAAVES_2.5_suite": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 196727158,
         "name": "VIDEO_WAAAVES_2.5_suite",
@@ -93966,7 +95281,9 @@
       "last_updated": "2026-03-17T22:11:24.047075+00:00"
     },
     "gmcn42/clumsyMIDI": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 316275196,
         "name": "clumsyMIDI",
@@ -93986,7 +95303,9 @@
       "last_updated": "2026-03-17T22:11:24.286982+00:00"
     },
     "bitfieldaudio/OTTO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 82694455,
         "name": "OTTO",
@@ -94026,7 +95345,9 @@
       "last_updated": "2026-03-17T22:11:24.698245+00:00"
     },
     "dwhinham/mt32-pi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 79130283,
         "name": "mt32-pi",
@@ -94226,7 +95547,9 @@
       "last_updated": "2026-03-17T22:11:26.807322+00:00"
     },
     "SpotlightKid/python-rtmidi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 38002454,
         "name": "python-rtmidi",
@@ -94286,7 +95609,9 @@
       "last_updated": "2026-03-17T22:11:27.473301+00:00"
     },
     "OpenELEC/OpenELEC.tv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1093060,
         "name": "OpenELEC.tv",
@@ -94326,7 +95651,9 @@
       "last_updated": "2026-03-17T22:11:27.950322+00:00"
     },
     "moode-player/moode": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 111308189,
         "name": "moode",
@@ -94366,7 +95693,9 @@
       "last_updated": "2026-03-17T22:11:28.399400+00:00"
     },
     "dhrone/pydPiper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 57391505,
         "name": "pydPiper",
@@ -94386,7 +95715,9 @@
       "last_updated": "2026-03-17T22:11:28.606817+00:00"
     },
     "osmc/osmc": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 20389482,
         "name": "osmc",
@@ -94426,7 +95757,9 @@
       "last_updated": "2026-03-17T22:11:29.026008+00:00"
     },
     "pschatzmann/arduino-audio-tools": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 362356367,
         "name": "arduino-audio-tools",
@@ -94446,7 +95779,9 @@
       "last_updated": "2026-03-17T22:11:29.227171+00:00"
     },
     "Nicolai-Electronics/esp32-component-bus-i2c": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 412928010,
         "name": "esp32-component-bus-i2c",
@@ -94466,7 +95801,9 @@
       "last_updated": "2026-03-17T22:11:29.459163+00:00"
     },
     "Nicolai-Electronics/rp2040-i2c-interface": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 559105169,
         "name": "rp2040-i2c-interface",
@@ -94486,7 +95823,9 @@
       "last_updated": "2026-03-17T22:11:29.664412+00:00"
     },
     "wled/WLED": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 76990209,
         "name": "WLED",
@@ -94506,7 +95845,9 @@
       "last_updated": "2026-03-17T22:11:29.852807+00:00"
     },
     "espotek-org/Labrador": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 67556346,
         "name": "Labrador",
@@ -94846,7 +96187,9 @@
       "last_updated": "2026-03-17T22:11:33.500810+00:00"
     },
     "jameshball/osci-render": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 235408465,
         "name": "osci-render",
@@ -94926,7 +96269,9 @@
       "last_updated": "2026-03-17T22:11:34.320909+00:00"
     },
     "pikvm/pikvm": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 208804714,
         "name": "pikvm",
@@ -95008,7 +96353,9 @@
       "last_updated": "2026-03-17T22:11:35.115824+00:00"
     },
     "WiringPi/WiringPi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4830334,
         "name": "WiringPi",
@@ -95028,7 +96375,9 @@
       "last_updated": "2026-03-17T22:11:35.349534+00:00"
     },
     "witnessmenow/ESP32-Cheap-Yellow-Display": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 642997489,
         "name": "ESP32-Cheap-Yellow-Display",
@@ -95272,7 +96621,9 @@
       "last_updated": "2026-03-17T22:11:37.846236+00:00"
     },
     "BlokasLabs/pisound-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 78584372,
         "name": "pisound-firmware",
@@ -95312,7 +96663,9 @@
       "last_updated": "2026-03-17T22:11:38.326808+00:00"
     },
     "BlokasLabs/patchbox-os-gen": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 119435635,
         "name": "patchbox-os-gen",
@@ -96334,7 +97687,9 @@
       "last_updated": "2026-03-17T22:11:49.516626+00:00"
     },
     "probonopd/MiniDexed": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 455922808,
         "name": "MiniDexed",
@@ -96596,7 +97951,9 @@
       "last_updated": "2026-03-17T22:11:52.307257+00:00"
     },
     "metrasynth/sunvox-guide": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 74903100,
         "name": "sunvox-guide",
@@ -96616,7 +97973,9 @@
       "last_updated": "2026-03-17T22:11:52.515673+00:00"
     },
     "warmplace/sunvox": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 69474680,
         "name": "sunvox",
@@ -96636,7 +97995,9 @@
       "last_updated": "2026-03-17T22:11:52.715228+00:00"
     },
     "asb2m10/dexed": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 14973783,
         "name": "dexed",
@@ -96656,7 +98017,9 @@
       "last_updated": "2026-03-17T22:11:52.916053+00:00"
     },
     "KXStudio/Repository": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 39372848,
         "name": "Repository",
@@ -96676,7 +98039,9 @@
       "last_updated": "2026-03-17T22:11:53.237449+00:00"
     },
     "steinbergmedia/vst3sdk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 83790078,
         "name": "vst3sdk",
@@ -96738,7 +98103,9 @@
       "last_updated": "2026-03-17T22:11:53.916072+00:00"
     },
     "O-MG/MaliciousCableDetector": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 291578176,
         "name": "MaliciousCableDetector",
@@ -96798,7 +98165,9 @@
       "last_updated": "2026-03-17T22:11:54.591043+00:00"
     },
     "bangcorrupt/hacktribe": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 414709466,
         "name": "hacktribe",
@@ -96900,7 +98269,9 @@
       "last_updated": "2026-03-17T22:11:55.680808+00:00"
     },
     "oscillatorsink/nts-1-research": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 250643485,
         "name": "nts-1-research",
@@ -96920,7 +98291,9 @@
       "last_updated": "2026-03-17T22:11:55.876875+00:00"
     },
     "plinkysynth/plinky_public": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 660207910,
         "name": "plinky_public",
@@ -97060,7 +98433,9 @@
       "last_updated": "2026-03-17T22:11:57.374393+00:00"
     },
     "korginc/logue-sdk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 130293213,
         "name": "logue-sdk",
@@ -97080,7 +98455,9 @@
       "last_updated": "2026-03-17T22:11:57.588475+00:00"
     },
     "schollz/pikocore": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 667617348,
         "name": "pikocore",
@@ -97162,7 +98539,9 @@
       "last_updated": "2026-03-17T22:11:58.392304+00:00"
     },
     "cminyard/ser2net": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 78758889,
         "name": "ser2net",
@@ -97390,7 +98769,9 @@
       "last_updated": "2026-03-17T22:12:01.105089+00:00"
     },
     "franeklubi/pocket-operator-simulator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 146791752,
         "name": "pocket-operator-simulator",
@@ -97410,7 +98791,9 @@
       "last_updated": "2026-03-17T22:12:01.327405+00:00"
     },
     "rileyjshaw/po-33": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 283382852,
         "name": "po-33",
@@ -100656,7 +102039,9 @@
       "last_updated": "2026-03-17T22:12:33.612512+00:00"
     },
     "arendst/Tasmota": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 80286288,
         "name": "Tasmota",
@@ -101327,7 +102712,9 @@
       "last_updated": "2026-03-17T22:12:40.363505+00:00"
     },
     "linuxboot/heads": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 64810881,
         "name": "heads",
@@ -101491,7 +102878,9 @@
       "last_updated": "2026-03-17T22:12:41.973488+00:00"
     },
     "merge/skulls": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 116016865,
         "name": "skulls",
@@ -102262,7 +103651,9 @@
       "last_updated": "2026-03-17T22:12:49.900326+00:00"
     },
     "shaka-project/shaka-packager": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 19000603,
         "name": "shaka-packager",
@@ -105603,7 +106994,9 @@
       "last_updated": "2026-03-17T22:13:23.749372+00:00"
     },
     "ndeadly/MissionControl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 245268140,
         "name": "MissionControl",
@@ -107191,7 +108584,9 @@
       "last_updated": "2026-03-17T22:13:40.444920+00:00"
     },
     "greatscottgadgets/gr-bluetooth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 10199657,
         "name": "gr-bluetooth",
@@ -107643,7 +109038,9 @@
       "last_updated": "2026-03-17T22:13:45.163179+00:00"
     },
     "dotcypress/ula": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 627094231,
         "name": "ula",
@@ -108827,7 +110224,9 @@
       "last_updated": "2026-03-17T22:13:57.290320+00:00"
     },
     "system76/firmware-open": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 176309967,
         "name": "firmware-open",
@@ -108889,7 +110288,9 @@
       "last_updated": "2026-03-17T22:13:57.954363+00:00"
     },
     "justcallmekoko/ESP32Marauder": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 208325027,
         "name": "ESP32Marauder",
@@ -110415,7 +111816,9 @@
       "last_updated": "2026-03-17T22:14:13.269912+00:00"
     },
     "pimox/pimox7": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 396568341,
         "name": "pimox7",
@@ -112291,7 +113694,9 @@
       "last_updated": "2026-03-17T22:14:31.842925+00:00"
     },
     "paperless-ngx/paperless-ngx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 458648791,
         "name": "paperless-ngx",
@@ -112496,7 +113901,8 @@
     },
     "clayrisser/linux-factory": {
       "lists": [
-        "Devops"
+        "Devops",
+        "DIY"
       ],
       "metadata": {
         "id": 65759229,
@@ -112563,7 +113969,9 @@
       "last_updated": "2026-03-17T22:14:34.458251+00:00"
     },
     "shinyquagsire23/lg_display_manager": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 604929880,
         "name": "lg_display_manager",
@@ -113128,7 +114536,9 @@
       "last_updated": "2026-03-17T22:14:39.673845+00:00"
     },
     "maia-sdr/maia-sdr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 599171744,
         "name": "maia-sdr",
@@ -113839,7 +115249,9 @@
       "last_updated": "2026-03-17T22:14:46.252884+00:00"
     },
     "Dasharo/dasharo-issues": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 316353412,
         "name": "dasharo-issues",
@@ -113983,7 +115395,9 @@
       "last_updated": "2026-03-17T22:14:47.499416+00:00"
     },
     "markdegrootnl/unifi-protect-arm64": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 359421322,
         "name": "unifi-protect-arm64",
@@ -115631,7 +117045,9 @@
       "last_updated": "2026-03-17T22:15:03.455362+00:00"
     },
     "skuep/AIOC": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 546064104,
         "name": "AIOC",
@@ -115691,7 +117107,9 @@
       "last_updated": "2026-03-17T22:15:04.010673+00:00"
     },
     "ocmarin/ssd-bot": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 312021663,
         "name": "ssd-bot",
@@ -115813,7 +117231,9 @@
       "last_updated": "2026-03-17T22:15:05.213005+00:00"
     },
     "RfidResearchGroup/proxmark3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 144465372,
         "name": "proxmark3",
@@ -115999,7 +117419,9 @@
       "last_updated": "2026-03-17T22:15:07.088322+00:00"
     },
     "dangowrt/owrt-ubi-installer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 341315193,
         "name": "owrt-ubi-installer",
@@ -116019,7 +117441,9 @@
       "last_updated": "2026-03-17T22:15:07.262204+00:00"
     },
     "julyworlds/openwrt-cudy-x6": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 428746642,
         "name": "openwrt-cudy-x6",
@@ -116311,7 +117735,9 @@
       "last_updated": "2026-03-17T22:15:10.964087+00:00"
     },
     "linuxserver-archive/docker-unifi-controller": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 170030720,
         "name": "docker-unifi-controller",
@@ -116415,7 +117841,9 @@
       "last_updated": "2026-03-17T22:15:11.991723+00:00"
     },
     "karubits/unifi-network-controller-playbook": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 524541526,
         "name": "unifi-network-controller-playbook",
@@ -116455,7 +117883,9 @@
       "last_updated": "2026-03-17T22:15:12.352324+00:00"
     },
     "MarginResearch/FOISted": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 505226247,
         "name": "FOISted",
@@ -118694,7 +120124,9 @@
       "last_updated": "2026-03-17T22:15:33.986404+00:00"
     },
     "irmen/Pyro5": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 83903998,
         "name": "Pyro5",
@@ -118714,7 +120146,9 @@
       "last_updated": "2026-03-17T22:15:34.165833+00:00"
     },
     "Pulse-Eight/libcec": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 16184296,
         "name": "libcec",
@@ -118734,7 +120168,9 @@
       "last_updated": "2026-03-17T22:15:34.360509+00:00"
     },
     "sigrokproject/pulseview": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 83142464,
         "name": "pulseview",
@@ -119905,7 +121341,8 @@
     },
     "siderolabs/talos": {
       "lists": [
-        "Devops"
+        "Devops",
+        "DIY"
       ],
       "metadata": {
         "id": 109451092,
@@ -120251,7 +121688,9 @@
       "last_updated": "2026-03-17T22:15:49.072528+00:00"
     },
     "JosephHewitt/wardriver_rev3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 472007809,
         "name": "wardriver_rev3",
@@ -120316,7 +121755,9 @@
       "last_updated": "2026-03-17T22:15:49.620422+00:00"
     },
     "haimgel/display-switch": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 283323929,
         "name": "display-switch",
@@ -120427,7 +121868,8 @@
     "tox-dev/tox": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "DIY"
       ],
       "metadata": {
         "id": 68465360,
@@ -120448,7 +121890,9 @@
       "last_updated": "2026-03-17T22:15:50.760709+00:00"
     },
     "jessfraz/jessfraz": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 477091934,
         "name": "jessfraz",
@@ -121136,7 +122580,9 @@
       "last_updated": "2026-03-17T22:15:57.087027+00:00"
     },
     "gnuradio/volk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 30209641,
         "name": "volk",
@@ -124809,7 +126255,9 @@
       "last_updated": "2026-03-17T22:16:32.184166+00:00"
     },
     "H4ckd4ddy/flipperzero-sentry-safe-plugin": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 508459183,
         "name": "flipperzero-sentry-safe-plugin",
@@ -124829,7 +126277,9 @@
       "last_updated": "2026-03-17T22:16:32.359408+00:00"
     },
     "Gioman101/FlipperAmiibo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 484291308,
         "name": "FlipperAmiibo",
@@ -124849,7 +126299,9 @@
       "last_updated": "2026-03-17T22:16:32.600781+00:00"
     },
     "hbmartin/awesome-flipper-plugins": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 372308565,
         "name": "awesome-flipper-plugins",
@@ -124933,7 +126385,9 @@
       "last_updated": "2026-03-17T22:16:33.358843+00:00"
     },
     "elvisimprsntr/QnapFreeLCD": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 371998466,
         "name": "QnapFreeLCD",
@@ -125460,7 +126914,9 @@
       "last_updated": "2026-03-17T22:16:38.883588+00:00"
     },
     "rhasspy/rhasspy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 232658394,
         "name": "rhasspy",
@@ -126805,7 +128261,9 @@
       "last_updated": "2026-03-17T22:16:51.507886+00:00"
     },
     "tinygo-org/tinygo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 136505169,
         "name": "tinygo",
@@ -128504,7 +129962,9 @@
       "last_updated": "2026-03-17T22:17:09.532157+00:00"
     },
     "nccgroup/Sniffle": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 202839525,
         "name": "Sniffle",
@@ -128804,7 +130264,9 @@
       "last_updated": "2026-03-17T22:17:12.248239+00:00"
     },
     "djsime1/awesome-flipperzero": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 469703690,
         "name": "awesome-flipperzero",
@@ -128824,7 +130286,9 @@
       "last_updated": "2026-03-17T22:17:12.403391+00:00"
     },
     "UberGuidoZ/Flipper": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 490465859,
         "name": "Flipper",
@@ -130071,7 +131535,9 @@
       "last_updated": "2026-03-17T22:17:24.996196+00:00"
     },
     "derHeinz/divoom-adapter": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 85494730,
         "name": "divoom-adapter",
@@ -130091,7 +131557,9 @@
       "last_updated": "2026-03-17T22:17:25.177852+00:00"
     },
     "RomRider/node-divoom-timebox-evo": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 204760838,
         "name": "node-divoom-timebox-evo",
@@ -130374,7 +131842,9 @@
       "last_updated": "2026-03-17T22:17:27.741066+00:00"
     },
     "ventoy/Ventoy": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 246335987,
         "name": "Ventoy",
@@ -130918,7 +132388,8 @@
     },
     "holoiso-eol/holoiso": {
       "lists": [
-        "Bash"
+        "Bash",
+        "DIY"
       ],
       "metadata": {
         "id": 487576737,
@@ -141546,7 +143017,9 @@
       "last_updated": "2026-03-17T22:19:15.861450+00:00"
     },
     "flipperdevices/flipperzero-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 284134871,
         "name": "flipperzero-firmware",
@@ -141566,7 +143039,9 @@
       "last_updated": "2026-03-17T22:19:16.056524+00:00"
     },
     "MagicMirrorOrg/MagicMirror": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 16989371,
         "name": "MagicMirror",
