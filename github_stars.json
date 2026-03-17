@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:59.294126+00:00",
+  "last_updated": "2026-03-17T23:12:09.842922+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -86,7 +86,8 @@
     },
     "docker/mcp-gateway": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 970603579,
@@ -290,7 +291,8 @@
     },
     "ddworken/hishtory": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 446655824,
@@ -447,7 +449,8 @@
     "artginzburg/sudo-touchid": {
       "lists": [
         "Apple and M1 virtualization",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 389117398,
@@ -2247,7 +2250,9 @@
       }
     },
     "EduApps-CDG/OpenDX": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 601219908,
         "name": "OpenDX",
@@ -2297,7 +2302,9 @@
       }
     },
     "eliukblau/pixterm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 80685217,
         "name": "pixterm",
@@ -2691,7 +2698,9 @@
       }
     },
     "SwagRGB/spek-cli": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1129751069,
         "name": "spek-cli",
@@ -2981,7 +2990,8 @@
     },
     "rootless-containers/PRoot": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 129351362,
@@ -3113,7 +3123,8 @@
     },
     "gildas-lormeau/single-file-cli": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 498404221,
@@ -3217,7 +3228,8 @@
     },
     "NapoleonWils0n/ffmpeg-rust-scripts": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1129169520,
@@ -3298,7 +3310,9 @@
       }
     },
     "ngutman/configs": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1156195378,
         "name": "configs",
@@ -3902,7 +3916,8 @@
     },
     "kiviktnm/decman": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 790305104,
@@ -4203,7 +4218,8 @@
     },
     "twelvelabs/gh-repo-config": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 557107651,
@@ -7688,7 +7704,8 @@
     },
     "justunsix/dotfiles-playbook": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 618886459,
@@ -8284,7 +8301,9 @@
       }
     },
     "wbrown/img2ansi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 837355298,
         "name": "img2ansi",
@@ -8443,7 +8462,8 @@
     },
     "Linuxmaster14/yt-playlist-downloader": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1127584616,
@@ -8630,7 +8650,9 @@
       }
     },
     "dvdhrm/docs": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 5794549,
         "name": "docs",
@@ -8655,7 +8677,9 @@
       }
     },
     "erikh/ansiview": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 264442431,
         "name": "ansiview",
@@ -9196,7 +9220,9 @@
       }
     },
     "sinelaw/fresh": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 907990001,
         "name": "fresh",
@@ -9274,7 +9300,8 @@
     },
     "CuarzoSoftware/SRM": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 631691704,
@@ -9300,7 +9327,9 @@
       }
     },
     "karol-broda/snitch": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1045478697,
         "name": "snitch",
@@ -9540,7 +9569,8 @@
     },
     "linuxhw/hw-probe": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 47073191,
@@ -9645,7 +9675,9 @@
       }
     },
     "tgorochowik/tmds2rgb": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 41589397,
         "name": "tmds2rgb",
@@ -9696,7 +9728,8 @@
     },
     "rockowitz/ddcutil": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 48345012,
@@ -9857,7 +9890,8 @@
     },
     "FOBshippingpoint/shittp": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1083641424,
@@ -10547,7 +10581,9 @@
       }
     },
     "jjjake/internetarchive": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 5430433,
         "name": "internetarchive",
@@ -11221,7 +11257,8 @@
     "jdx/fnox": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1078762196,
@@ -11386,7 +11423,9 @@
       }
     },
     "chapmanjacobd/library": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 435093073,
         "name": "library",
@@ -11817,7 +11856,9 @@
       }
     },
     "taviso/ctypes.sh": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 39756569,
         "name": "ctypes.sh",
@@ -12449,7 +12490,8 @@
     "facebookincubator/sks": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 191838304,
@@ -12658,7 +12700,9 @@
       }
     },
     "leandromoreira/video-containers-debugging-tools": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 268278551,
         "name": "video-containers-debugging-tools",
@@ -13256,7 +13300,8 @@
     "plougher/squashfs-tools": {
       "lists": [
         "Devops",
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 6493050,
@@ -13466,7 +13511,9 @@
       }
     },
     "andrewthetechie/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 724417698,
         "name": "dotfiles",
@@ -13573,7 +13620,9 @@
       }
     },
     "jquast/ucs-detect": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 268389959,
         "name": "ucs-detect",
@@ -13705,7 +13754,8 @@
     },
     "google/perfetto": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 227091502,
@@ -13917,7 +13967,8 @@
     },
     "FreeRDP/Remmina": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 2696306,
@@ -14122,7 +14173,9 @@
       }
     },
     "attogram/bash-screensavers": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1036073889,
         "name": "bash-screensavers",
@@ -14329,7 +14382,8 @@
     },
     "wimpysworld/deb-get": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 482789449,
@@ -14697,7 +14751,9 @@
       }
     },
     "Swordfish90/cool-retro-term": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 14614344,
         "name": "cool-retro-term",
@@ -14837,7 +14893,8 @@
     },
     "tuna-f1sh/cyme": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 564788291,
@@ -15151,7 +15208,9 @@
       }
     },
     "bdashrad/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 17917371,
         "name": "dotfiles",
@@ -17745,7 +17804,8 @@
     "francoismichel/ssh3": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 712363932,
@@ -20191,7 +20251,9 @@
       }
     },
     "mmulet/term.everything": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1051928239,
         "name": "term.everything",
@@ -20900,7 +20962,9 @@
       }
     },
     "ast-grep/ast-grep": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 509566212,
         "name": "ast-grep",
@@ -21088,7 +21152,9 @@
       }
     },
     "microsoft/ProcMon-for-Linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 278748700,
         "name": "ProcMon-for-Linux",
@@ -22330,7 +22396,8 @@
     },
     "jkool702/timep": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1016784026,
@@ -23966,7 +24033,9 @@
       }
     },
     "deshaw/procfd": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1010153991,
         "name": "procfd",
@@ -25197,7 +25266,8 @@
     "aquaproj/aqua": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 399811207,
@@ -25223,7 +25293,9 @@
       }
     },
     "houseabsolute/ubi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 327105217,
         "name": "ubi",
@@ -26116,7 +26188,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 804443974,
@@ -26143,7 +26216,8 @@
     },
     "DeterminateSystems/nix-installer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 532049613,
@@ -26453,7 +26527,8 @@
     },
     "ottok/debcraft": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 730473068,
@@ -26788,7 +26863,8 @@
     },
     "chubin/wttr.in": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 48623558,
@@ -28128,7 +28204,9 @@
       }
     },
     "cbiffle/drupes": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 874025389,
         "name": "drupes",
@@ -28153,7 +28231,9 @@
       }
     },
     "adrianlopezroche/fdupes": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 19813003,
         "name": "fdupes",
@@ -28308,7 +28388,8 @@
     },
     "JFryy/systemd-lsp": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1006356243,
@@ -28415,7 +28496,8 @@
     },
     "terryso/claude-auto-resume": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1014448317,
@@ -28919,7 +29001,8 @@
     },
     "smtg-ai/claude-squad": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 945605057,
@@ -29681,7 +29764,9 @@
       }
     },
     "atuinsh/atuin": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 301244405,
         "name": "atuin",
@@ -29789,7 +29874,8 @@
     },
     "akinomyoga/ble.sh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 40722355,
@@ -29816,7 +29902,8 @@
     },
     "rcaloras/bash-preexec": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 27421773,
@@ -29842,7 +29929,9 @@
       }
     },
     "b3nj5m1n/xdg-ninja": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 491527855,
         "name": "xdg-ninja",
@@ -29867,7 +29956,9 @@
       }
     },
     "volllly/rotz": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 451930303,
         "name": "rotz",
@@ -29968,7 +30059,8 @@
     },
     "EbodShojaei/bake": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 965576317,
@@ -30050,7 +30142,8 @@
     },
     "bootlin/toolchains-builder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 90953608,
@@ -30578,7 +30671,8 @@
     },
     "anthropics/devcontainer-features": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 941826422,
@@ -30604,7 +30698,9 @@
       }
     },
     "openai/codex": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 965415649,
         "name": "codex",
@@ -30944,7 +31040,9 @@
       }
     },
     "coryarcangel/Cookery": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 367097103,
         "name": "Cookery",
@@ -31046,7 +31144,8 @@
     "netblue30/firetools": {
       "lists": [
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 40893015,
@@ -31178,7 +31277,8 @@
     },
     "apptainer/apptainer": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 433446895,
@@ -31546,7 +31646,8 @@
     },
     "Schniz/fnm": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 166045424,
@@ -31601,7 +31702,8 @@
     "peak/s5cmd": {
       "lists": [
         "AWS",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 73909333,
@@ -31891,7 +31993,8 @@
     },
     "google/nsjail": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 35638505,
@@ -31947,7 +32050,8 @@
     "devcontainers/templates": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 490426137,
@@ -32001,7 +32105,8 @@
     },
     "RchGrav/claudebox": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 997659566,
@@ -32334,7 +32439,8 @@
     "ublue-os/toolboxes": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 740197443,
@@ -32362,7 +32468,8 @@
     "ublue-os/main": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 608408199,
@@ -33077,7 +33184,9 @@
       }
     },
     "xcaeser/zli": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 983732269,
         "name": "zli",
@@ -33339,7 +33448,8 @@
     },
     "KDAB/hotspot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 76978254,
@@ -33621,7 +33731,9 @@
       }
     },
     "microsoft/WSL": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 55626935,
         "name": "WSL",
@@ -34599,7 +34711,9 @@
       }
     },
     "fd0/grobi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 43595398,
         "name": "grobi",
@@ -34676,7 +34790,9 @@
       }
     },
     "DisplayLink/evdi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 40113584,
         "name": "evdi",
@@ -34801,7 +34917,9 @@
       }
     },
     "fragmede/schroot": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 50214016,
         "name": "schroot",
@@ -34826,7 +34944,9 @@
       }
     },
     "csmith-project/creduce": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 3572572,
         "name": "creduce",
@@ -35081,7 +35201,9 @@
       }
     },
     "al13n321/nnd": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 789066824,
         "name": "nnd",
@@ -35264,7 +35386,9 @@
       }
     },
     "Jacksaur/Gorgeous-GRUB": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 514898725,
         "name": "Gorgeous-GRUB",
@@ -35456,7 +35580,8 @@
     },
     "nlohmann/cmake_min_version": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 247358029,
@@ -35534,7 +35659,9 @@
       }
     },
     "intel/iaprof": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 974455932,
         "name": "iaprof",
@@ -35795,7 +35922,8 @@
     },
     "void-linux/void-runit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 137503466,
@@ -35847,7 +35975,8 @@
     },
     "skarnet/s6": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 31460641,
@@ -36059,7 +36188,9 @@
       }
     },
     "Xpra-org/xpra": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 331941572,
         "name": "xpra",
@@ -36310,7 +36441,8 @@
     },
     "mviereck/dockerfile-x11docker-xserver": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 447394943,
@@ -36853,7 +36985,9 @@
       }
     },
     "lunixbochs/meta": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1764522,
         "name": "meta",
@@ -37007,7 +37141,8 @@
     "attunehq/attune": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 964360888,
@@ -37797,7 +37932,9 @@
       }
     },
     "cheadrian/termux-chroot-proot-wine-box86_64": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 637163326,
         "name": "termux-chroot-proot-wine-box86_64",
@@ -38764,7 +38901,8 @@
     },
     "proot-me/proot-rs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 81742782,
@@ -38897,7 +39035,8 @@
     "picosh/pico": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 528247705,
@@ -39331,7 +39470,9 @@
       }
     },
     "medialab/xan": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 140488417,
         "name": "xan",
@@ -39861,7 +40002,8 @@
     "Zouuup/landrun": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 952651301,
@@ -40912,7 +41054,9 @@
       }
     },
     "zerebos/ghostty-config": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 847565467,
         "name": "ghostty-config",
@@ -42808,7 +42952,8 @@
     },
     "cashapp/pivit": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 536699455,
@@ -43354,7 +43499,8 @@
     },
     "lunixbochs/orca": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 284850217,
@@ -44241,7 +44387,9 @@
       }
     },
     "elektronoide/SD-Card-Format-Free": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 702168374,
         "name": "SD-Card-Format-Free",
@@ -44556,7 +44704,9 @@
       }
     },
     "heap-exploitation/heap-explorer": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 914589393,
         "name": "heap-explorer",
@@ -44760,7 +44910,9 @@
       }
     },
     "TheTumultuousUnicornOfDarkness/CPU-X": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 24292801,
         "name": "CPU-X",
@@ -44813,7 +44965,8 @@
     },
     "runZeroInc/runzero-tools": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 178256435,
@@ -45129,7 +45282,8 @@
     },
     "monasticacademy/httptap": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 873013059,
@@ -45335,7 +45489,8 @@
     },
     "trycua/cua": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 925270205,
@@ -45438,7 +45593,9 @@
       }
     },
     "stevenshiau/clonezilla": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 5407827,
         "name": "clonezilla",
@@ -45727,7 +45884,8 @@
     },
     "billw2/rpi-clone": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 7671332,
@@ -45919,7 +46077,9 @@
       }
     },
     "Seagate/openSeaChest": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 110262805,
         "name": "openSeaChest",
@@ -46558,7 +46718,8 @@
     },
     "antmicro/tui-selector": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 364894957,
@@ -46636,7 +46797,9 @@
       }
     },
     "antmicro/wrap-vt100": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 431634477,
         "name": "wrap-vt100",
@@ -47102,7 +47265,8 @@
     "yassinebenaid/bunster": {
       "lists": [
         "Bash",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 831420946,
@@ -47430,7 +47594,8 @@
     },
     "jjcm/llmpeg": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 916911236,
@@ -47457,7 +47622,8 @@
     },
     "kainctl/isd": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 917864037,
@@ -48182,7 +48348,9 @@
       }
     },
     "alexpasmantier/television": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 857898245,
         "name": "television",
@@ -49988,7 +50156,8 @@
     },
     "rxrbln/t2sde": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 366994091,
@@ -50591,7 +50760,8 @@
     },
     "skariel/keypub": {
       "lists": [
-        "Authentication"
+        "Authentication",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 906339627,
@@ -50946,7 +51116,8 @@
     "RamboRogers/netventory": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 906866383,
@@ -51128,7 +51299,8 @@
     "NVIDIA/nvidia-container-toolkit": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 221778368,
@@ -51505,7 +51677,9 @@
       }
     },
     "pwr-Solaar/Solaar": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 5772041,
         "name": "Solaar",
@@ -51668,7 +51842,8 @@
     },
     "unixorn/tumult.plugin.zsh": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 47377855,
@@ -51695,7 +51870,8 @@
     },
     "tomnomnom/hacks": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 101120466,
@@ -52349,7 +52525,8 @@
     },
     "NapoleonWils0n/ffmpeg-scripts": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 216374051,
@@ -53321,7 +53498,8 @@
     },
     "mark-when/markwhen": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 369351526,
@@ -54794,7 +54972,9 @@
       }
     },
     "ajaiantilal/i7z": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 7042404,
         "name": "i7z",
@@ -56252,7 +56432,9 @@
       }
     },
     "charmbracelet/sequin": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 880055789,
         "name": "sequin",
@@ -56329,7 +56511,9 @@
       }
     },
     "rothgar/awesome-tuis": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 178716643,
         "name": "awesome-tuis",
@@ -57114,7 +57298,8 @@
     },
     "epasveer/seer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 402099758,
@@ -57169,7 +57354,8 @@
     "containers/podman": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 109145553,
@@ -60073,7 +60259,8 @@
     },
     "cli-guidelines/cli-guidelines": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 258673347,
@@ -60412,7 +60599,8 @@
     "davidmarkclements/0x": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 52283973,
@@ -61386,7 +61574,9 @@
       }
     },
     "google/magika": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 681566005,
         "name": "magika",
@@ -61992,7 +62182,8 @@
     "bootc-dev/bootc": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 572685958,
@@ -62527,7 +62718,9 @@
       }
     },
     "larkmjc/glkitty": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 314182865,
         "name": "glkitty",
@@ -62987,7 +63180,8 @@
     },
     "neilotoole/sq": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 51800292,
@@ -64477,7 +64671,9 @@
       }
     },
     "cacalabs/libcaca": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 29090568,
         "name": "libcaca",
@@ -64502,7 +64698,9 @@
       }
     },
     "cmatsuoka/figlet": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1239151,
         "name": "figlet",
@@ -65176,7 +65374,8 @@
     },
     "paololazzari/play": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 695915883,
@@ -66120,7 +66319,8 @@
     "noperator/sol": {
       "lists": [
         "Bash",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 847868327,
@@ -66177,7 +66377,8 @@
       "lists": [
         "CI/CD",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 660623402,
@@ -66204,7 +66405,8 @@
     },
     "VirtusLab/git-machete": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 122743101,
@@ -66688,7 +66890,9 @@
       }
     },
     "phiresky/ripgrep-all": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 190254663,
         "name": "ripgrep-all",
@@ -67684,7 +67888,9 @@
       }
     },
     "Aider-AI/aider": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 638629097,
         "name": "aider",
@@ -67817,7 +68023,9 @@
       }
     },
     "glasskube/gitops-template": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 833986590,
         "name": "gitops-template",
@@ -67897,7 +68105,8 @@
     },
     "dbcli/litecli": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 133243075,
@@ -67924,7 +68133,8 @@
     },
     "digital-fabric/iou": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 848819015,
@@ -68218,7 +68428,9 @@
       }
     },
     "dansalias/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 82035005,
         "name": "dotfiles",
@@ -69365,7 +69577,9 @@
       }
     },
     "SoptikHa2/desed": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 257128429,
         "name": "desed",
@@ -69783,7 +69997,8 @@
     "ymtdzzz/otel-tui": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 776805339,
@@ -69809,7 +70024,9 @@
       }
     },
     "ratatui/ratatui": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 600886023,
         "name": "ratatui",
@@ -69997,7 +70214,8 @@
     },
     "bryanpkc/corkscrew": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 64916837,
@@ -70335,7 +70553,9 @@
       }
     },
     "queer/boxxy": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 599299079,
         "name": "boxxy",
@@ -70467,7 +70687,9 @@
       }
     },
     "benthamite/internet-archive": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 727874827,
         "name": "internet-archive",
@@ -72342,7 +72564,9 @@
       }
     },
     "evilsocket/opensnitch": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 88417028,
         "name": "opensnitch",
@@ -74152,7 +74376,9 @@
       }
     },
     "Troels51/dtui": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 571706351,
         "name": "dtui",
@@ -74279,7 +74505,9 @@
       }
     },
     "tolik518/bitmap_type_tracer": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 710387145,
         "name": "bitmap_type_tracer",
@@ -74304,7 +74532,9 @@
       }
     },
     "landley/toybox": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 3374554,
         "name": "toybox",
@@ -75096,7 +75326,8 @@
     },
     "dicksites/KUtrace": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 195860922,
@@ -75148,7 +75379,8 @@
     },
     "jordansissel/pleaserun": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 11361791,
@@ -77792,7 +78024,9 @@
       }
     },
     "jeroenjanssens/data-science-at-the-command-line": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 12871240,
         "name": "data-science-at-the-command-line",
@@ -77872,7 +78106,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 819154949,
@@ -78858,7 +79093,8 @@
     },
     "brandonhilkert/fucking_shell_scripts": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 12164926,
@@ -79720,7 +79956,8 @@
     },
     "sharkdp/hyperfine": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 117356231,
@@ -79774,7 +80011,8 @@
     },
     "Corvus4n6/blackharrier": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 245079217,
@@ -80290,7 +80528,8 @@
     },
     "amber-lang/amber": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 516106592,
@@ -80816,7 +81055,8 @@
     "groda/the_ultimate_gitignore_guide": {
       "lists": [
         "DIY",
-        "Github Actions"
+        "Github Actions",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 577058980,
@@ -81638,7 +81878,8 @@
     "version-fox/vfox": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 729446906,
@@ -82488,7 +82729,9 @@
       }
     },
     "unixorn/git-extra-commands": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 24296070,
         "name": "git-extra-commands",
@@ -84090,7 +84333,9 @@
       }
     },
     "Y2Z/monolith": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 82530909,
         "name": "monolith",
@@ -84641,7 +84886,9 @@
       }
     },
     "samueltardieu/recoverjpeg": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1108684,
         "name": "recoverjpeg",
@@ -85506,7 +85753,8 @@
     },
     "xpipe-io/xpipe": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 593867048,
@@ -85533,7 +85781,8 @@
     },
     "u-root/gobusybox": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 292972020,
@@ -85559,7 +85808,9 @@
       }
     },
     "BurntSushi/ripgrep": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 53631945,
         "name": "ripgrep",
@@ -85661,7 +85912,8 @@
     "freeCodeCamp/devdocs": {
       "lists": [
         "API",
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 13840241,
@@ -86958,7 +87210,9 @@
       }
     },
     "cwensley/pablodraw": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 115094782,
         "name": "pablodraw",
@@ -87242,7 +87496,8 @@
     },
     "Bhupesh-V/ugit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 356491069,
@@ -87866,7 +88121,9 @@
       }
     },
     "axboe/fio": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 6331631,
         "name": "fio",
@@ -91866,7 +92123,8 @@
     },
     "open-source-cooperative/keyring-rs": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 51272473,
@@ -91959,7 +92217,8 @@
     "dev-sec/linux-baseline": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 19782079,
@@ -92967,7 +93226,8 @@
     },
     "USBGuard/usbguard": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 32459566,
@@ -93307,7 +93567,9 @@
       "last_updated": "2026-03-17T22:10:48.272049+00:00"
     },
     "r4d10n/retrogram-rtlsdr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 161385762,
         "name": "retrogram-rtlsdr",
@@ -96673,7 +96935,8 @@
     },
     "junegunn/fzf": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 13807606,
@@ -96718,7 +96981,9 @@
       "last_updated": "2026-03-17T22:11:22.433331+00:00"
     },
     "unixorn/zsh-quickstart-kit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 17031094,
         "name": "zsh-quickstart-kit",
@@ -96988,7 +97253,9 @@
       "last_updated": "2026-03-17T22:11:25.162976+00:00"
     },
     "microsoft/inshellisense": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 702159481,
         "name": "inshellisense",
@@ -97548,7 +97815,9 @@
       "last_updated": "2026-03-17T22:11:30.811526+00:00"
     },
     "asciinema/asciinema": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 2823326,
         "name": "asciinema",
@@ -97569,7 +97838,8 @@
     },
     "charmbracelet/vhs": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 515619101,
@@ -99425,7 +99695,9 @@
       "last_updated": "2026-03-17T22:11:50.865232+00:00"
     },
     "ocrmypdf/OCRmyPDF": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 15333471,
         "name": "OCRmyPDF",
@@ -99871,7 +100143,9 @@
       "last_updated": "2026-03-17T22:11:55.482329+00:00"
     },
     "9fans/plan9port": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 26095474,
         "name": "plan9port",
@@ -100471,7 +100745,8 @@
     },
     "u-root/u-root": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 46462030,
@@ -101052,7 +101327,8 @@
     },
     "cyberark/bash-lib": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 181513803,
@@ -101235,7 +101511,9 @@
       "last_updated": "2026-03-17T22:12:08.690455+00:00"
     },
     "zevv/lsofgraph": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 51298282,
         "name": "lsofgraph",
@@ -101255,7 +101533,9 @@
       "last_updated": "2026-03-17T22:12:08.902557+00:00"
     },
     "akme/lsofgraph-python": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 129093632,
         "name": "lsofgraph-python",
@@ -101276,7 +101556,8 @@
     },
     "rcoh/angle-grinder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 123365228,
@@ -101297,7 +101578,9 @@
       "last_updated": "2026-03-17T22:12:09.304389+00:00"
     },
     "weechat/weechat": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 17359210,
         "name": "weechat",
@@ -101342,7 +101625,8 @@
     "rebootuser/LinEnum": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 12236152,
@@ -101365,7 +101649,8 @@
     "mehrdadrad/mylg": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 61661892,
@@ -102078,7 +102363,9 @@
       "last_updated": "2026-03-17T22:12:16.404299+00:00"
     },
     "ColinIanKing/stress-ng": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 36930672,
         "name": "stress-ng",
@@ -102118,7 +102405,9 @@
       "last_updated": "2026-03-17T22:12:16.799830+00:00"
     },
     "borgbackup/borg": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 35517126,
         "name": "borg",
@@ -102325,7 +102614,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 116576783,
@@ -102369,7 +102659,8 @@
     },
     "JamesHovious/hashid": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 170311000,
@@ -102675,7 +102966,8 @@
     "opencontainers/umoci": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 72283469,
@@ -102741,7 +103033,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 671549172,
@@ -102765,7 +103058,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 344174158,
@@ -102789,7 +103083,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 110477993,
@@ -102812,7 +103107,8 @@
     "thcipriani/sshecret": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 96237508,
@@ -102836,7 +103132,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 307038773,
@@ -103587,7 +103884,9 @@
       "last_updated": "2026-03-17T22:12:31.449769+00:00"
     },
     "zellij-org/zellij": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 292014229,
         "name": "zellij",
@@ -103674,7 +103973,8 @@
     "cloudposse/geodesic": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 75686762,
@@ -103761,7 +104061,9 @@
       "last_updated": "2026-03-17T22:12:33.240382+00:00"
     },
     "1j01/textual-paint": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 626145619,
         "name": "textual-paint",
@@ -103913,7 +104215,8 @@
     "antonmedv/fx": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 118945118,
@@ -103934,7 +104237,9 @@
       "last_updated": "2026-03-17T22:12:34.815053+00:00"
     },
     "rtyley/bfg-repo-cleaner": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 7266492,
         "name": "bfg-repo-cleaner",
@@ -104075,7 +104380,8 @@
     },
     "noahbliss/mortar": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 233640466,
@@ -104119,7 +104425,8 @@
     },
     "ionescu007/tpmtool": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 271381463,
@@ -104163,7 +104470,8 @@
     },
     "ThomasHabets/simple-tpm-pk11": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 14754440,
@@ -104185,7 +104493,8 @@
     },
     "tpm2-software/tpm2-openssl": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 341633769,
@@ -104208,7 +104517,8 @@
     "hercules-team/augeas": {
       "lists": [
         "API",
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 59056,
@@ -104443,7 +104753,9 @@
       "last_updated": "2026-03-17T22:12:39.797737+00:00"
     },
     "simonw/llm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 622352364,
         "name": "llm",
@@ -104881,7 +105193,9 @@
       "last_updated": "2026-03-17T22:12:44.006805+00:00"
     },
     "vemonet/EmojiMart": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 658765852,
         "name": "EmojiMart",
@@ -104965,7 +105279,9 @@
       "last_updated": "2026-03-17T22:12:44.780899+00:00"
     },
     "mijorus/smile": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 436770473,
         "name": "smile",
@@ -104985,7 +105301,9 @@
       "last_updated": "2026-03-17T22:12:44.971018+00:00"
     },
     "jordansissel/xdotool": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1372254,
         "name": "xdotool",
@@ -105025,7 +105343,9 @@
       "last_updated": "2026-03-17T22:12:45.424529+00:00"
     },
     "tom-james-watson/Emote": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 253234080,
         "name": "Emote",
@@ -105045,7 +105365,9 @@
       "last_updated": "2026-03-17T22:12:45.610846+00:00"
     },
     "Drarig29/auto-paste-emoji": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 379656659,
         "name": "auto-paste-emoji",
@@ -105065,7 +105387,9 @@
       "last_updated": "2026-03-17T22:12:45.791697+00:00"
     },
     "dkogan/feedgnuplot": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 443380,
         "name": "feedgnuplot",
@@ -105105,7 +105429,9 @@
       "last_updated": "2026-03-17T22:12:46.181892+00:00"
     },
     "rsnapshot/rsnapshot": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 4130226,
         "name": "rsnapshot",
@@ -105126,7 +105452,8 @@
     },
     "Orange-OpenSource/hurl": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 290243101,
@@ -105390,7 +105717,8 @@
     "zix99/rare": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 210987929,
@@ -105411,7 +105739,9 @@
       "last_updated": "2026-03-17T22:12:49.273393+00:00"
     },
     "Genivia/ugrep": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 183980799,
         "name": "ugrep",
@@ -105590,7 +105920,8 @@
     },
     "urfave/cli": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 11393110,
@@ -105757,7 +106088,8 @@
     "semaphoreui/semaphore": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 23267883,
@@ -105778,7 +106110,9 @@
       "last_updated": "2026-03-17T22:12:52.803467+00:00"
     },
     "tsirysndr/crosup": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 646204150,
         "name": "crosup",
@@ -106271,7 +106605,8 @@
       "lists": [
         "API",
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 72809829,
@@ -106335,7 +106670,8 @@
     },
     "gcla/termshark": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 182353393,
@@ -106357,7 +106693,8 @@
     },
     "shenwei356/csvtk": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 55350474,
@@ -106573,7 +106910,8 @@
     "charmbracelet/charm": {
       "lists": [
         "API",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 236106066,
@@ -106639,7 +106977,8 @@
     },
     "AlecAivazis/survey": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 72362833,
@@ -106741,7 +107080,8 @@
     },
     "ostreedev/ostree": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 4614541,
@@ -106977,7 +107317,8 @@
     },
     "rgburke/grv": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 102900463,
@@ -107150,7 +107491,9 @@
       "last_updated": "2026-03-17T22:13:05.971002+00:00"
     },
     "imthenachoman/How-To-Secure-A-Linux-Server": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 169839893,
         "name": "How-To-Secure-A-Linux-Server",
@@ -107170,7 +107513,9 @@
       "last_updated": "2026-03-17T22:13:06.153547+00:00"
     },
     "helix-editor/helix": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 268424739,
         "name": "helix",
@@ -107259,7 +107604,8 @@
     "kentaro/verity": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 13475057,
@@ -107281,7 +107627,8 @@
     },
     "chef/ohai": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 108289,
@@ -107303,7 +107650,8 @@
     },
     "puppetlabs/facter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 910757,
@@ -107325,7 +107673,8 @@
     },
     "DataDog/gohai": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 19779512,
@@ -107369,7 +107718,8 @@
     },
     "dylanaraps/neofetch": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 48795298,
@@ -107837,7 +108187,8 @@
     },
     "bradfeehan/dotfiles": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 7063180,
@@ -107879,7 +108230,8 @@
     },
     "jandamm/zgenom": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 296924338,
@@ -108010,7 +108362,9 @@
       "last_updated": "2026-03-17T22:13:14.481207+00:00"
     },
     "chancez/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 6662991,
         "name": "dotfiles",
@@ -108282,7 +108636,9 @@
       "last_updated": "2026-03-17T22:13:17.207563+00:00"
     },
     "DonyorM/weresync": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 72903177,
         "name": "weresync",
@@ -108734,7 +109090,9 @@
       "last_updated": "2026-03-17T22:13:21.691324+00:00"
     },
     "arekinath/pivy": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 127060932,
         "name": "pivy",
@@ -109678,7 +110036,8 @@
     },
     "ryantm/agenix": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 291897139,
@@ -109700,7 +110059,8 @@
     },
     "FiloSottile/awesome-age": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 631214572,
@@ -109956,7 +110316,9 @@
       "last_updated": "2026-03-17T22:13:34.229079+00:00"
     },
     "DataDog/yubikey": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 119881265,
         "name": "yubikey",
@@ -110324,7 +110686,9 @@
       "last_updated": "2026-03-17T22:13:37.833123+00:00"
     },
     "curl/trurl": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 621725724,
         "name": "trurl",
@@ -110366,7 +110730,9 @@
       "last_updated": "2026-03-17T22:13:38.315029+00:00"
     },
     "AltraMayor/f3": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 2984156,
         "name": "f3",
@@ -110618,7 +110984,8 @@
     },
     "zalando/go-keyring": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 63615252,
@@ -110641,7 +111008,8 @@
     "donuts-are-good/pig": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 628530741,
@@ -110663,7 +111031,8 @@
     },
     "ysoftwareab/tfrepl": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 628501876,
@@ -110749,7 +111118,8 @@
     },
     "cli/cli": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 212613049,
@@ -111403,7 +111773,9 @@
       "last_updated": "2026-03-17T22:13:48.327410+00:00"
     },
     "ublue-os/fleek": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 614635646,
         "name": "fleek",
@@ -111702,7 +112074,9 @@
       "last_updated": "2026-03-17T22:13:51.297415+00:00"
     },
     "JonathonReinhart/staticx": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 92617077,
         "name": "staticx",
@@ -111837,7 +112211,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 112079872,
@@ -112240,7 +112615,8 @@
     },
     "PaulJuliusMartinez/jless": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 361079646,
@@ -112372,7 +112748,8 @@
     "justcallmekoko/ESP32Marauder": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 208325027,
@@ -112506,7 +112883,8 @@
     "fipso/ccurl.sh": {
       "lists": [
         "API",
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 620003044,
@@ -112673,7 +113051,9 @@
       "last_updated": "2026-03-17T22:14:01.036065+00:00"
     },
     "pyenv/pyenv-virtualenv": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 8268387,
         "name": "pyenv-virtualenv",
@@ -112717,7 +113097,8 @@
     "abdfnx/resto": {
       "lists": [
         "API",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 433152564,
@@ -112802,7 +113183,9 @@
       "last_updated": "2026-03-17T22:14:02.247262+00:00"
     },
     "unixorn/awesome-zsh-plugins": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 24878875,
         "name": "awesome-zsh-plugins",
@@ -112842,7 +113225,9 @@
       "last_updated": "2026-03-17T22:14:02.613813+00:00"
     },
     "Syllo/nvtop": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 94530674,
         "name": "nvtop",
@@ -112885,7 +113270,9 @@
       "last_updated": "2026-03-17T22:14:02.991863+00:00"
     },
     "yadm-dev/yadm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 39074570,
         "name": "yadm",
@@ -113835,7 +114222,9 @@
       "last_updated": "2026-03-17T22:14:12.027405+00:00"
     },
     "alacritty/alacritty": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 51980455,
         "name": "alacritty",
@@ -114066,7 +114455,8 @@
     },
     "str4d/rage": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 213749542,
@@ -114157,7 +114547,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 403886429,
@@ -114486,7 +114877,9 @@
       "last_updated": "2026-03-17T22:14:18.248712+00:00"
     },
     "curl/everything-curl": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 43095089,
         "name": "everything-curl",
@@ -114594,7 +114987,9 @@
       "last_updated": "2026-03-17T22:14:19.275784+00:00"
     },
     "coreutils/coreutils": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 11233590,
         "name": "coreutils",
@@ -114857,7 +115252,8 @@
     },
     "jdx/mise": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 586920414,
@@ -115064,7 +115460,8 @@
     },
     "vaniacer/sshto": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 110962221,
@@ -115220,7 +115617,9 @@
       "last_updated": "2026-03-17T22:14:25.105209+00:00"
     },
     "minamijoyo/hcledit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 231227654,
         "name": "hcledit",
@@ -115349,7 +115748,8 @@
     },
     "blampe/goat": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 51354712,
@@ -115597,7 +115997,9 @@
       "last_updated": "2026-03-17T22:14:28.635311+00:00"
     },
     "qarmin/czkawka": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 292065578,
         "name": "czkawka",
@@ -115914,7 +116316,8 @@
     },
     "paperless-ngx/paperless-ngx": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 458648791,
@@ -116000,7 +116403,8 @@
     },
     "peass-ng/PEASS-ng": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 165548191,
@@ -116066,7 +116470,9 @@
       "last_updated": "2026-03-17T22:14:33.302766+00:00"
     },
     "Spearfoot/disk-burnin-and-testing": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 84958824,
         "name": "disk-burnin-and-testing",
@@ -116130,7 +116536,8 @@
     "clayrisser/linux-factory": {
       "lists": [
         "Devops",
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 65759229,
@@ -116266,7 +116673,9 @@
       "last_updated": "2026-03-17T22:14:35.011826+00:00"
     },
     "rafmagana/screenrc": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 525246,
         "name": "screenrc",
@@ -116286,7 +116695,9 @@
       "last_updated": "2026-03-17T22:14:35.212711+00:00"
     },
     "sontek/homies": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 369293,
         "name": "homies",
@@ -116716,7 +117127,9 @@
       "last_updated": "2026-03-17T22:14:39.154940+00:00"
     },
     "wezterm/wezterm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 120568143,
         "name": "wezterm",
@@ -117031,7 +117444,9 @@
       "last_updated": "2026-03-17T22:14:41.834184+00:00"
     },
     "jgm/pandoc": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 571770,
         "name": "pandoc",
@@ -117415,7 +117830,8 @@
     "indexzero/git-lint": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 43478774,
@@ -117481,7 +117897,9 @@
       "last_updated": "2026-03-17T22:14:45.830792+00:00"
     },
     "livialima/linuxupskillchallenge-oldfork": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 338819682,
         "name": "linuxupskillchallenge-oldfork",
@@ -118087,7 +118505,8 @@
     },
     "initialcommit-com/git-sim": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 553679010,
@@ -118200,7 +118619,9 @@
       "last_updated": "2026-03-17T22:14:52.585317+00:00"
     },
     "canonical/workshops": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 503797546,
         "name": "workshops",
@@ -118437,7 +118858,8 @@
     },
     "twpayne/chezmoi": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 157245200,
@@ -118920,7 +119342,8 @@
     },
     "kost/tty2web": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 213529386,
@@ -120172,7 +120595,8 @@
     },
     "cloudflare/cfssl": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 21591001,
@@ -120237,7 +120661,9 @@
       "last_updated": "2026-03-17T22:15:12.154505+00:00"
     },
     "wslutilities/wslu": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 91957658,
         "name": "wslu",
@@ -120350,7 +120776,8 @@
     },
     "micro-editor/micro": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 53632140,
@@ -120480,7 +120907,9 @@
       "last_updated": "2026-03-17T22:15:14.304972+00:00"
     },
     "verisign/dnstop": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 4932089,
         "name": "dnstop",
@@ -120739,7 +121168,9 @@
       "last_updated": "2026-03-17T22:15:16.679537+00:00"
     },
     "marp-team/marp": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 126696700,
         "name": "marp",
@@ -120759,7 +121190,9 @@
       "last_updated": "2026-03-17T22:15:16.881862+00:00"
     },
     "zbm-dev/zfsbootmenu": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 191274890,
         "name": "zfsbootmenu",
@@ -120799,7 +121232,9 @@
       "last_updated": "2026-03-17T22:15:17.307546+00:00"
     },
     "mobile-shell/mosh": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1234783,
         "name": "mosh",
@@ -120926,7 +121361,9 @@
       "last_updated": "2026-03-17T22:15:18.460520+00:00"
     },
     "Spotifyd/spotifyd": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 27839676,
         "name": "spotifyd",
@@ -121033,7 +121470,8 @@
     },
     "walles/moor": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 13996764,
@@ -121271,7 +121709,9 @@
       "last_updated": "2026-03-17T22:15:21.910962+00:00"
     },
     "Ryu0118/Kusa": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 505919315,
         "name": "Kusa",
@@ -121316,7 +121756,8 @@
     },
     "SecureAuthCorp/oauth2c": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 507841912,
@@ -122083,7 +122524,8 @@
     "noahgorstein/jqp": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 529775188,
@@ -122174,7 +122616,8 @@
       "lists": [
         "Authentication",
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 17476175,
@@ -122198,7 +122641,8 @@
       "lists": [
         "Authentication",
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 529506792,
@@ -122221,7 +122665,8 @@
     "tuxberlin/python-keyctl": {
       "lists": [
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 83845218,
@@ -122244,7 +122689,8 @@
     "jdukes/pykeyctl": {
       "lists": [
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 31825852,
@@ -122267,7 +122713,8 @@
     "jsipprell/keyctl": {
       "lists": [
         "Authentication",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 43807400,
@@ -122671,7 +123118,8 @@
     },
     "proot-me/proot": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1147698,
@@ -122693,7 +123141,8 @@
     },
     "maaslalani/nap": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 565010765,
@@ -123004,7 +123453,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 107459865,
@@ -123049,7 +123499,8 @@
     },
     "bellingcat/octosuite": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 462976341,
@@ -123112,7 +123563,9 @@
       "last_updated": "2026-03-17T22:15:38.784482+00:00"
     },
     "eradman/entr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 126983399,
         "name": "entr",
@@ -123154,7 +123607,8 @@
     "wader/fq": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 336895436,
@@ -123227,7 +123681,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 562778457,
@@ -124254,7 +124709,8 @@
         "Devops",
         "Docker and OCI containers",
         "JavaScript",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 465844859,
@@ -124483,7 +124939,8 @@
     "nullt3r/udpx": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 566874067,
@@ -124668,7 +125125,8 @@
         "AWS",
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 195654997,
@@ -124945,7 +125403,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 141451032,
@@ -124966,7 +125425,9 @@
       "last_updated": "2026-03-17T22:15:55.309631+00:00"
     },
     "pre-commit/pre-commit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 17689377,
         "name": "pre-commit",
@@ -125206,7 +125667,9 @@
       "last_updated": "2026-03-17T22:15:57.499053+00:00"
     },
     "trapd00r/LS_COLORS": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1592065,
         "name": "LS_COLORS",
@@ -125249,7 +125712,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 318476701,
@@ -125293,7 +125757,8 @@
     },
     "dlvhdr/gh-dash": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 417230885,
@@ -125363,7 +125828,8 @@
     "drduh/Purse": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 135850078,
@@ -125387,7 +125853,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 71583866,
@@ -125410,7 +125877,8 @@
     "gopasspw/gopass": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 80723074,
@@ -125475,7 +125943,9 @@
       "last_updated": "2026-03-17T22:15:59.777105+00:00"
     },
     "clux/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 45788837,
         "name": "dotfiles",
@@ -125498,7 +125968,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 222777077,
@@ -125636,7 +126107,9 @@
       "last_updated": "2026-03-17T22:16:01.348888+00:00"
     },
     "brendangregg/FlameGraph": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 2992074,
         "name": "FlameGraph",
@@ -125772,7 +126245,8 @@
     "GerritCodeReview/git-repo": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 47751782,
@@ -125961,7 +126435,8 @@
     },
     "charmbracelet/bubbletea": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 233130089,
@@ -126047,7 +126522,9 @@
       "last_updated": "2026-03-17T22:16:05.294207+00:00"
     },
     "feenkcom/gtoolkit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 100369621,
         "name": "gtoolkit",
@@ -126976,7 +127453,9 @@
       "last_updated": "2026-03-17T22:16:13.492462+00:00"
     },
     "tealdeer-rs/tealdeer": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 48739367,
         "name": "tealdeer",
@@ -127294,7 +127773,9 @@
       "last_updated": "2026-03-17T22:16:16.564957+00:00"
     },
     "Eli-the-Bearded/vt100-slowcat": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 289585803,
         "name": "vt100-slowcat",
@@ -127334,7 +127815,9 @@
       "last_updated": "2026-03-17T22:16:16.910698+00:00"
     },
     "cmang/durdraw": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 18199420,
         "name": "durdraw",
@@ -128341,7 +128824,8 @@
     },
     "Am0rphous/Unlock-LUKS-Encryption-Remotely": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 377478082,
@@ -128737,7 +129221,8 @@
     "brendangregg/perf-tools": {
       "lists": [
         "Devops",
-        "eBPF"
+        "eBPF",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 21708091,
@@ -128781,7 +129266,8 @@
     },
     "wkz/kmemd": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 539204618,
@@ -129267,7 +129753,9 @@
       "last_updated": "2026-03-17T22:16:35.164993+00:00"
     },
     "smxi/inxi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 41121631,
         "name": "inxi",
@@ -129287,7 +129775,9 @@
       "last_updated": "2026-03-17T22:16:35.321501+00:00"
     },
     "termstandard/colors": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 172474334,
         "name": "colors",
@@ -129308,7 +129798,8 @@
     },
     "EtoDemerzel0427/ANSI-art": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 385181450,
@@ -129881,7 +130372,8 @@
     },
     "cbodden/yamss": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 69601071,
@@ -129903,7 +130395,8 @@
     },
     "cbodden/screenfill": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 69425824,
@@ -129925,7 +130418,8 @@
     },
     "spf13/cobra": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 12574344,
@@ -129948,7 +130442,8 @@
     "therootcompany/sclient": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 306156862,
@@ -130334,7 +130829,9 @@
       "last_updated": "2026-03-17T22:16:44.625731+00:00"
     },
     "ajgon/street-fighter-motd": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 76468565,
         "name": "street-fighter-motd",
@@ -130354,7 +130851,9 @@
       "last_updated": "2026-03-17T22:16:44.792511+00:00"
     },
     "cbodden/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 3664825,
         "name": "dotfiles",
@@ -130374,7 +130873,9 @@
       "last_updated": "2026-03-17T22:16:44.987485+00:00"
     },
     "radiorabe/motd-ansi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 82181624,
         "name": "motd-ansi",
@@ -130619,7 +131120,8 @@
     "C3n7ral051nt4g3ncy/cURL_for_OSINT": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 528185875,
@@ -130640,7 +131142,9 @@
       "last_updated": "2026-03-17T22:16:47.387406+00:00"
     },
     "starship/starship": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 178991158,
         "name": "starship",
@@ -130788,7 +131292,9 @@
       "last_updated": "2026-03-17T22:16:48.768538+00:00"
     },
     "onetrueawk/awk": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 7287136,
         "name": "awk",
@@ -130855,7 +131361,8 @@
     },
     "carniz/ubuntu-yubikey-setup": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 163108820,
@@ -131123,7 +131630,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 31558937,
@@ -131168,7 +131676,9 @@
       "last_updated": "2026-03-17T22:16:52.166878+00:00"
     },
     "uutils/coreutils": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 11847500,
         "name": "coreutils",
@@ -131212,7 +131722,8 @@
     },
     "ogham/dog": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 258827107,
@@ -131234,7 +131745,8 @@
     },
     "pirxthepilot/wtfis": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 517607055,
@@ -131257,7 +131769,8 @@
     "devcontainers/cli": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 486125557,
@@ -131298,7 +131811,9 @@
       "last_updated": "2026-03-17T22:16:55.231051+00:00"
     },
     "kovidgoyal/kitty": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 71056775,
         "name": "kitty",
@@ -131342,7 +131857,8 @@
     },
     "Phantas0s/devdash": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 143766121,
@@ -131385,7 +131901,9 @@
       "last_updated": "2026-03-17T22:16:56.014277+00:00"
     },
     "oasislinux/oasis": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 60745639,
         "name": "oasis",
@@ -131492,7 +132010,8 @@
     "ankitpokhrel/jira-cli": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 314995099,
@@ -131515,7 +132034,8 @@
     "timo-reymann/deterministic-zip": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 373321576,
@@ -131537,7 +132057,8 @@
     },
     "antopemo/ssh-agent-guide": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 298297367,
@@ -131584,7 +132105,8 @@
     "0xricksanchez/like-dbg": {
       "lists": [
         "Docker and OCI containers",
-        "Fuzzing"
+        "Fuzzing",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 504825085,
@@ -131607,7 +132129,8 @@
     "coreos/toolbox": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 18648432,
@@ -131718,7 +132241,9 @@
       "last_updated": "2026-03-17T22:16:59.061751+00:00"
     },
     "volitank/nala": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 435661228,
         "name": "nala",
@@ -131739,7 +132264,8 @@
     },
     "charmbracelet/gum": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 502193049,
@@ -131849,7 +132375,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 128383825,
@@ -131894,7 +132421,9 @@
       "last_updated": "2026-03-17T22:17:00.674301+00:00"
     },
     "bottlesdevs/Bottles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 106949285,
         "name": "Bottles",
@@ -132066,7 +132595,8 @@
     },
     "WerWolv/ImHex": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 311683390,
@@ -132197,7 +132727,8 @@
     "itchyny/gojq": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 180954037,
@@ -132218,7 +132749,9 @@
       "last_updated": "2026-03-17T22:17:03.653719+00:00"
     },
     "jonas/tig": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 140656,
         "name": "tig",
@@ -132284,7 +132817,9 @@
       "last_updated": "2026-03-17T22:17:04.197538+00:00"
     },
     "jarun/nnn": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 66150122,
         "name": "nnn",
@@ -132401,7 +132936,8 @@
       "lists": [
         "AWS",
         "Bash",
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 27456468,
@@ -132424,7 +132960,8 @@
     "linaro-its/aws2-wrap": {
       "lists": [
         "Apple and M1 virtualization",
-        "AWS"
+        "AWS",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 231330732,
@@ -132447,7 +132984,8 @@
     "fwdcloudsec/granted": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 459240458,
@@ -132469,7 +133007,8 @@
     },
     "bashup/mdsh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 99276039,
@@ -132491,7 +133030,8 @@
     },
     "bashup/jqmd": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 95397487,
@@ -132535,7 +133075,8 @@
     },
     "tpm2-software/tpm2-pkcs11": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 149639749,
@@ -132626,7 +133167,8 @@
     },
     "spf13/viper": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 18369373,
@@ -132648,7 +133190,8 @@
     },
     "metal3d/bashsimplecurses": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 37226582,
@@ -132693,7 +133236,8 @@
     },
     "pypa/pipx": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 151871286,
@@ -132761,7 +133305,8 @@
     "joelpurra/jq-hopkok": {
       "lists": [
         "Bash",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 22752196,
@@ -132875,7 +133420,8 @@
     "gpanders/ijq": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 277560176,
@@ -133037,7 +133583,8 @@
     "A3h1nt/Dnsrr": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 380180233,
@@ -133063,7 +133610,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "Github Actions"
+        "Github Actions",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 327685612,
@@ -133086,7 +133634,8 @@
     "broamski/aws-mfa": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 48399035,
@@ -133131,7 +133680,8 @@
     "simeji/jid": {
       "lists": [
         "GoLang",
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 60534669,
@@ -133153,7 +133703,8 @@
     },
     "catilac/plistwatch": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 283363577,
@@ -133382,7 +133933,9 @@
       "last_updated": "2026-03-17T22:17:13.490233+00:00"
     },
     "haampie/libtree": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 253045183,
         "name": "libtree",
@@ -133532,7 +134085,9 @@
       "last_updated": "2026-03-17T22:17:14.999208+00:00"
     },
     "Mastercard/pkcs11-tools": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 160555428,
         "name": "pkcs11-tools",
@@ -133592,7 +134147,9 @@
       "last_updated": "2026-03-17T22:17:15.604865+00:00"
     },
     "Yubico/libfido2": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 130169332,
         "name": "libfido2",
@@ -133612,7 +134169,9 @@
       "last_updated": "2026-03-17T22:17:15.853488+00:00"
     },
     "Yubico/yubikey-manager": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 62567919,
         "name": "yubikey-manager",
@@ -133632,7 +134191,9 @@
       "last_updated": "2026-03-17T22:17:16.082089+00:00"
     },
     "Yubico/yubico-piv-tool": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 16697663,
         "name": "yubico-piv-tool",
@@ -133724,7 +134285,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 124249756,
@@ -133748,7 +134310,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 243152038,
@@ -133796,7 +134359,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 338400342,
@@ -133906,7 +134470,9 @@
       "last_updated": "2026-03-17T22:17:19.029394+00:00"
     },
     "dhondta/python-codext": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 236679865,
         "name": "python-codext",
@@ -133927,7 +134493,8 @@
     },
     "serialhex/nano-highlight": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1851118,
@@ -134159,7 +134726,9 @@
       "last_updated": "2026-03-17T22:17:21.309237+00:00"
     },
     "tldr-pages/tldr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 15019962,
         "name": "tldr",
@@ -134310,7 +134879,8 @@
     },
     "sachaos/viddy": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 395917032,
@@ -134355,7 +134925,8 @@
     "sekey/sekey": {
       "lists": [
         "Apple and M1 virtualization",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 112631209,
@@ -134853,7 +135424,8 @@
     },
     "ventoy/Ventoy": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 246335987,
@@ -135307,7 +135879,8 @@
     "89luca89/distrobox": {
       "lists": [
         "Bash",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 429485913,
@@ -137165,7 +137738,8 @@
     "cli/go-gh": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 401809473,
@@ -138533,7 +139107,9 @@
       "last_updated": "2026-03-17T22:18:00.816430+00:00"
     },
     "dandavison/delta": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 193526915,
         "name": "delta",
@@ -139141,7 +139717,8 @@
     "newren/git-filter-repo": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 145584971,
@@ -139472,7 +140049,8 @@
     "aptly-dev/aptly": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 15171803,
@@ -140197,7 +140775,8 @@
     },
     "restic/restic": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 19205896,
@@ -141531,7 +142110,8 @@
     "bitfield/script": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 182416829,
@@ -141970,7 +142550,8 @@
     "maxgoedjen/secretive": {
       "lists": [
         "Apple and M1 virtualization",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 241524703,
@@ -142320,7 +142901,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 53356367,
@@ -145453,7 +146035,8 @@
     },
     "dylanaraps/pure-bash-bible": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 137147386,
@@ -145659,7 +146242,9 @@
       "last_updated": "2026-03-17T22:19:07.325489+00:00"
     },
     "Textualize/rich": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 220809393,
         "name": "rich",
@@ -145833,7 +146418,8 @@
     },
     "jqlang/jq": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 5101141,
@@ -146453,7 +147039,9 @@
       "last_updated": "2026-03-17T22:19:15.136081+00:00"
     },
     "chromebrew/chromebrew": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 11909954,
         "name": "chromebrew",
@@ -147669,7 +148257,9 @@
       "last_updated": "2026-03-17T22:19:26.443322+00:00"
     },
     "ccontavalli/ssh-ident": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 8012080,
         "name": "ssh-ident",
@@ -147836,7 +148426,8 @@
     },
     "alebcay/awesome-shell": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 21552971,
@@ -147858,7 +148449,8 @@
     },
     "danielhoherd/pub-bin": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 175497367,
@@ -148212,7 +148804,8 @@
       "lists": [
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 267713284,
@@ -148397,7 +148990,8 @@
     },
     "StackExchange/blackbox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 18495400,
@@ -148838,7 +149432,8 @@
     },
     "matejak/argbash": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 40683223,
@@ -148923,7 +149518,8 @@
     "CISOfy/lynis": {
       "lists": [
         "Bash",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 15078635,
@@ -148966,7 +149562,8 @@
     "wagoodman/dive": {
       "lists": [
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 133251103,
@@ -149120,7 +149717,8 @@
         "CI/CD",
         "Devops",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 77726177,
@@ -149493,7 +150091,8 @@
     },
     "bloomreach/s4cmd": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 6624198,
@@ -149803,7 +150402,9 @@
       "last_updated": "2026-03-17T22:19:46.839127+00:00"
     },
     "ggreer/the_silver_searcher": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 2810455,
         "name": "the_silver_searcher",
@@ -150689,7 +151290,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 40539602,
@@ -151285,7 +151887,8 @@
     "allinurl/goaccess": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 11397939,
@@ -151905,7 +152508,8 @@
     },
     "ohmyzsh/ohmyzsh": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 291137,
@@ -152235,7 +152839,8 @@
     },
     "tstack/lnav": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 306147,
@@ -152717,7 +153322,8 @@
     },
     "GAM-team/GAM": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 20185174,
