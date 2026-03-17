@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:13:59.152192+00:00",
+  "last_updated": "2026-03-17T23:14:20.662942+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -200,7 +200,8 @@
     },
     "derrod/legendary": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 249938026,
@@ -227,7 +228,8 @@
     },
     "groverburger/grobpaint": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1181941526,
@@ -254,7 +256,8 @@
     },
     "mikedh/trimesh": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 11745275,
@@ -363,7 +366,8 @@
     },
     "knowsuchagency/mcp2cli": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1176469774,
@@ -446,7 +450,8 @@
     "edenaion/EZ-CorridorKey": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1169478663,
@@ -642,7 +647,8 @@
     "netalertx/NetAlertX": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 441062625,
@@ -778,7 +784,8 @@
     "HKUDS/ViMax": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 957480611,
@@ -805,7 +812,8 @@
     },
     "HKUDS/CLI-Anything": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1176011916,
@@ -979,7 +987,8 @@
     },
     "zulip/zulip": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 43160685,
@@ -1032,7 +1041,9 @@
       }
     },
     "D4Vinci/Scrapling": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 872119017,
         "name": "Scrapling",
@@ -1199,7 +1210,8 @@
     "9001/copyparty": {
       "lists": [
         "Devops",
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 188700274,
@@ -1742,7 +1754,9 @@
       }
     },
     "shosatojp/ffcache": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 293691370,
         "name": "ffcache",
@@ -2126,7 +2140,8 @@
     },
     "containers/podman-compose": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 173708338,
@@ -2180,7 +2195,8 @@
     },
     "THU-BPM/MarkLLM": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 801547807,
@@ -2232,7 +2248,9 @@
       }
     },
     "Psycojoker/prosopopee": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 47613127,
         "name": "prosopopee",
@@ -2311,7 +2329,8 @@
     },
     "pixelPusher03/Camera-hacking": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 895284795,
@@ -3155,7 +3174,8 @@
     },
     "bgencarelle/pytvProject": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1001460373,
@@ -3182,7 +3202,8 @@
     },
     "BlackBoyZeus/videous-friends": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 987996256,
@@ -3211,7 +3232,8 @@
       "lists": [
         "Docker and OCI containers",
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 408290342,
@@ -3666,7 +3688,8 @@
     "CloudSecurityAlliance/moltbook-skill": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1155532976,
@@ -3941,7 +3964,8 @@
     },
     "Azure/PyRIT": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 730753909,
@@ -4195,7 +4219,8 @@
       "lists": [
         "API",
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1121759870,
@@ -4608,7 +4633,8 @@
     },
     "bryanmorganoverbey/marketplace-api": {
       "lists": [
-        "API"
+        "API",
+        "Python"
       ],
       "metadata": {
         "id": 1036750707,
@@ -4635,7 +4661,8 @@
     },
     "kyleronayne/marketplace-api": {
       "lists": [
-        "API"
+        "API",
+        "Python"
       ],
       "metadata": {
         "id": 466192986,
@@ -4689,7 +4716,8 @@
     },
     "ndrscalia/asciify-them": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1127182939,
@@ -5284,7 +5312,8 @@
     "coleam00/second-brain-research-dashboard": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1146326676,
@@ -6116,7 +6145,8 @@
     },
     "oban-bg/oban-py": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 943974639,
@@ -7908,7 +7938,8 @@
     },
     "amaranth-lang/amaranth": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 236501540,
@@ -8044,7 +8075,8 @@
     },
     "chrisboden/mcp_template": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 930955710,
@@ -8071,7 +8103,8 @@
     },
     "MarketingPipeline/Python-Selenium-Action": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 498160631,
@@ -8125,7 +8158,8 @@
     },
     "unslothai/notebooks": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 900487856,
@@ -8510,7 +8544,8 @@
     },
     "ulab-uiuc/LLMRouter": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1071843152,
@@ -8550,7 +8585,8 @@
     "microsoft/vscode-remote-try-python": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 181778131,
@@ -8855,7 +8891,8 @@
     },
     "mir-aidj/all-in-one": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 671042844,
@@ -10202,7 +10239,8 @@
     "galkinvv/edid-checked-writer": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 822136404,
@@ -10395,7 +10433,8 @@
     "apple/ml-sharp": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1114899133,
@@ -10477,7 +10516,9 @@
       }
     },
     "astral-sh/ty": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 976731654,
         "name": "ty",
@@ -10637,7 +10678,8 @@
     },
     "Lab700xOrg/aisbom": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1111526906,
@@ -10691,7 +10733,8 @@
     },
     "ghadinehme/VideoCAD": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1079441024,
@@ -10721,7 +10764,9 @@
       }
     },
     "threedo/DarkHorse": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 939071440,
         "name": "DarkHorse",
@@ -10853,7 +10898,8 @@
     },
     "eshaz/cc_decoder": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1030967030,
@@ -10935,7 +10981,8 @@
     },
     "karpathy/micrograd": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 255231293,
@@ -10962,7 +11009,8 @@
     },
     "tinygrad/tinygrad": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 305144746,
@@ -10989,7 +11037,8 @@
     },
     "jjjake/internetarchive": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 5430433,
@@ -11097,7 +11146,8 @@
     },
     "AdamLaurie/i2c-dump": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 293789477,
@@ -11125,7 +11175,8 @@
     "AdamLaurie/esp32_flash_extract": {
       "lists": [
         "DIY",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 560341150,
@@ -11207,7 +11258,8 @@
     },
     "AdamLaurie/RFIDIOt": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 2679840,
@@ -11484,7 +11536,8 @@
     "g-l-i-t-c-h-o-r-s-e/SubScrape": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 999260972,
@@ -11790,7 +11843,8 @@
     "linjieli222/HERO_Video_Feature_Extractor": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 317681559,
@@ -11858,7 +11912,8 @@
     "chapmanjacobd/library": {
       "lists": [
         "Linux CLI Tools",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 435093073,
@@ -11886,7 +11941,8 @@
     "ryanfox/video-to-sqlite": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 533604410,
@@ -12127,7 +12183,8 @@
     "kkahatapitiya/LangRepo": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 774424112,
@@ -12159,7 +12216,8 @@
     "CeeZh/LLoVi": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 734900603,
@@ -12220,7 +12278,8 @@
     "QwenLM/Qwen3-VL": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 849239437,
@@ -12258,7 +12317,8 @@
     "dmlc/decord": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 166483718,
@@ -12397,7 +12457,8 @@
     "insight-platform/Savant": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 489591401,
@@ -12671,7 +12732,8 @@
     },
     "ijl/orjson": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Python"
       ],
       "metadata": {
         "id": 158618772,
@@ -13245,7 +13307,8 @@
     },
     "nett-things/transport-stream-parser": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 776576574,
@@ -13299,7 +13362,8 @@
     },
     "kholbrook1303/projectm-frontend-sdl-py": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1047846320,
@@ -13924,7 +13988,8 @@
     "simonrob/email-oauth2-proxy": {
       "lists": [
         "Authentication",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 338363935,
@@ -14142,7 +14207,8 @@
     },
     "jquast/ucs-detect": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 268389959,
@@ -14304,7 +14370,9 @@
       }
     },
     "gaogaotiantian/viztracer": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 285134677,
         "name": "viztracer",
@@ -14952,7 +15020,8 @@
     "cisco-ai-defense/mcp-scanner": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1062952726,
@@ -15120,7 +15189,8 @@
     },
     "meta-pytorch/torchcomms": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1080065885,
@@ -15146,7 +15216,9 @@
       }
     },
     "hugovk/free-threaded-wheels": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 841375781,
         "name": "free-threaded-wheels",
@@ -15201,7 +15273,8 @@
       "lists": [
         "GoLang",
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 793795224,
@@ -15256,7 +15329,8 @@
     },
     "dell/iDRAC-Redfish-Scripting": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 98206096,
@@ -15507,7 +15581,9 @@
       }
     },
     "sphinx-doc/sphinx": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 28710753,
         "name": "sphinx",
@@ -15748,7 +15824,9 @@
       }
     },
     "ariebovenberg/whenever": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 717223794,
         "name": "whenever",
@@ -16152,7 +16230,8 @@
     },
     "rbenrax/upyOS": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 707580134,
@@ -16179,7 +16258,8 @@
     },
     "tttapa/cross-pytorch": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 799566738,
@@ -16534,7 +16614,9 @@
       }
     },
     "microsoft/pyright": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 175129788,
         "name": "pyright",
@@ -16560,7 +16642,8 @@
     },
     "pypa/manylinux": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 49401134,
@@ -16730,7 +16813,8 @@
     "pypa/cibuildwheel": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 85508223,
@@ -16785,7 +16869,8 @@
     "robotpy/crossenv": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 122020788,
@@ -16811,7 +16896,9 @@
       }
     },
     "mypyc/mypyc": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 98179846,
         "name": "mypyc",
@@ -16837,7 +16924,8 @@
     },
     "swig/swig": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Python"
       ],
       "metadata": {
         "id": 7372528,
@@ -17109,7 +17197,8 @@
     },
     "intel/intel-extension-for-pytorch": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 256061008,
@@ -17163,7 +17252,8 @@
     },
     "MicroPythonOS/MicroPythonOS": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 975472483,
@@ -17379,7 +17469,8 @@
     },
     "Khendi1/PVS": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 981427488,
@@ -17515,7 +17606,8 @@
     },
     "psalias2006/gpu-hot": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1070160746,
@@ -17595,7 +17687,9 @@
       }
     },
     "y-crdt/pycrdt": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 694184693,
         "name": "pycrdt",
@@ -17963,7 +18057,9 @@
       }
     },
     "ArjanCodes/betterpython": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 330415623,
         "name": "betterpython",
@@ -18043,7 +18139,8 @@
     },
     "adafruit/Fruit-Jam-OS": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 960711318,
@@ -18070,7 +18167,8 @@
     },
     "andrewthetechie/gha-cookiecutter": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 501873365,
@@ -18124,7 +18222,8 @@
     },
     "alyssaq/face_morpher": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 31775800,
@@ -18442,7 +18541,8 @@
     },
     "deepfakes/faceswap": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 114747226,
@@ -18792,7 +18892,8 @@
     },
     "ndif-team/nnsight": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 707771473,
@@ -18877,7 +18978,8 @@
     },
     "eblot/pyftdi": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 1162758,
@@ -18904,7 +19006,8 @@
     },
     "nickbild/usb_gpio": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 805085074,
@@ -18985,7 +19088,8 @@
     },
     "taha-yassine/token-cli": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 960852965,
@@ -19040,7 +19144,8 @@
     },
     "ashvardanian/NumKong": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 613772664,
@@ -19070,7 +19175,8 @@
     "ashvardanian/StringZilla": {
       "lists": [
         "GoLang",
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 287616631,
@@ -19097,7 +19203,8 @@
     },
     "pyocd/pyOCD": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 13862423,
@@ -19576,7 +19683,9 @@
       }
     },
     "NVIDIA/nvmath-python": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 788208729,
         "name": "nvmath-python",
@@ -20400,7 +20509,9 @@
       }
     },
     "amoffat/sh": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 3182350,
         "name": "sh",
@@ -20701,7 +20812,9 @@
       }
     },
     "whyisdifficult/jiratui": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1031945919,
         "name": "jiratui",
@@ -21190,7 +21303,8 @@
     },
     "github/spec-kit": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1042367133,
@@ -21355,7 +21469,8 @@
     },
     "chrisssstos/interactive-rave-software": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 496143008,
@@ -22082,7 +22197,9 @@
       }
     },
     "diyan/pywinrm": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 4926896,
         "name": "pywinrm",
@@ -22437,7 +22554,8 @@
     "napalm-automation/napalm": {
       "lists": [
         "Devops",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 32737992,
@@ -22575,7 +22693,8 @@
     },
     "VectifyAI/PageIndex": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 958531089,
@@ -22826,7 +22945,9 @@
       }
     },
     "dahlia/awesome-sqlalchemy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 24311052,
         "name": "awesome-sqlalchemy",
@@ -22931,7 +23052,8 @@
     },
     "opencinemac/vtc-py": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 363001125,
@@ -22958,7 +23080,8 @@
     },
     "PyAV-Org/PyAV": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Python"
       ],
       "metadata": {
         "id": 6854611,
@@ -22984,7 +23107,9 @@
       }
     },
     "flyteorg/flytekit": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 203634431,
         "name": "flytekit",
@@ -23122,7 +23247,8 @@
     },
     "octimot/StoryToolkitAI": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 543063415,
@@ -23149,7 +23275,8 @@
     },
     "byjlw/video-analyzer": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 886299924,
@@ -23176,7 +23303,8 @@
     },
     "video-db/Director": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 872550457,
@@ -23203,7 +23331,8 @@
     },
     "Djdefrag/QualityScaler": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 477370194,
@@ -23230,7 +23359,8 @@
     },
     "Zulko/moviepy": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 12052630,
@@ -23281,7 +23411,9 @@
       }
     },
     "dagster-io/dagster": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 131619646,
         "name": "dagster",
@@ -23638,7 +23770,8 @@
     },
     "microsoft/graphrag": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 778431525,
@@ -23828,7 +23961,9 @@
       }
     },
     "bellingcat/auto-archiver": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 329880580,
         "name": "auto-archiver",
@@ -23882,7 +24017,8 @@
     },
     "karpathy/rendergit": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1041136312,
@@ -24042,7 +24178,8 @@
     },
     "trailofbits/graphtage": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Python"
       ],
       "metadata": {
         "id": 257655337,
@@ -24069,7 +24206,8 @@
     },
     "trailofbits/anamorpher": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1041479763,
@@ -24096,7 +24234,8 @@
     },
     "trailofbits/buttercup": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 916045259,
@@ -24123,7 +24262,8 @@
     },
     "trailofbits/mcp-context-protector": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 974354158,
@@ -24203,7 +24343,9 @@
       }
     },
     "browser-use/cdp-use": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1014949108,
         "name": "cdp-use",
@@ -24228,7 +24370,9 @@
       }
     },
     "autoscrape-labs/pydoll": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 879320294,
         "name": "pydoll",
@@ -24669,7 +24813,8 @@
     "threedle/ll3m": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 1033321063,
@@ -24830,7 +24975,9 @@
       }
     },
     "deshaw/pyflyby": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 151776282,
         "name": "pyflyby",
@@ -25021,7 +25168,8 @@
     "walter-arrighetti/3dLUT2js": {
       "lists": [
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 70541451,
@@ -25050,7 +25198,8 @@
       "lists": [
         "CI/CD",
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 996959611,
@@ -25103,7 +25252,9 @@
       }
     },
     "freelawproject/juriscraper": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 22757589,
         "name": "juriscraper",
@@ -25128,7 +25279,9 @@
       }
     },
     "karkason/pywinsandbox": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 248972006,
         "name": "pywinsandbox",
@@ -25296,7 +25449,8 @@
     },
     "RichardAtCT/claude-code-openai-wrapper": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1012385189,
@@ -26035,7 +26189,8 @@
     },
     "docling-project/docling": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 826168160,
@@ -26180,7 +26335,8 @@
     },
     "ggozad/haiku.rag": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 872015964,
@@ -26263,7 +26419,8 @@
     },
     "Geeksfino/kb-mcp-server": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 939909194,
@@ -26972,7 +27129,8 @@
     },
     "mozilla-ai/any-llm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1019609805,
@@ -26999,7 +27157,8 @@
     },
     "networkx/networkx": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 890377,
@@ -27026,7 +27185,8 @@
     },
     "vibrantlabsai/ragas": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 637924634,
@@ -27248,7 +27408,9 @@
       }
     },
     "bloomberg/pystack": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 593714137,
         "name": "pystack",
@@ -27303,7 +27465,8 @@
     },
     "crewAIInc/crewAI": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 710601088,
@@ -27330,7 +27493,8 @@
     },
     "getzep/graphiti": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 840056306,
@@ -27359,7 +27523,8 @@
     },
     "comet-ml/opik": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 638951438,
@@ -27386,7 +27551,8 @@
     },
     "rinadelph/Agent-MCP": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 982917344,
@@ -27552,7 +27718,8 @@
     },
     "Wirasm/mcp-crawl4ai-rag": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 997326064,
@@ -27688,7 +27855,8 @@
     },
     "mindsdb/mindsdb": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 143328315,
@@ -27715,7 +27883,8 @@
     },
     "Upsonic/Upsonic": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 806192576,
@@ -28241,7 +28410,8 @@
     },
     "dreerr/vlc_sync_video_looper": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 952734605,
@@ -28268,7 +28438,8 @@
     },
     "dreerr/pi_video_looper": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 949107344,
@@ -28813,7 +28984,8 @@
     },
     "agno-agi/agno": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 488641606,
@@ -28869,7 +29041,8 @@
     },
     "gaasedelen/tenet": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 359834831,
@@ -29225,7 +29398,8 @@
     },
     "PrefectHQ/prefect": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 139199684,
@@ -29529,7 +29703,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 1009034267,
@@ -29667,7 +29842,8 @@
     },
     "panther-labs/panther-analysis": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 215863078,
@@ -30081,7 +30257,8 @@
     },
     "oraios/serena": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 953683578,
@@ -30301,7 +30478,8 @@
     },
     "M4THYOU/TokenDagger": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1006651266,
@@ -30355,7 +30533,8 @@
     },
     "kagisearch/kagimcp": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 902662933,
@@ -30409,7 +30588,8 @@
     },
     "ray-project/ray": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 71932349,
@@ -30658,7 +30838,9 @@
       }
     },
     "mosra/m.css": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 95897280,
         "name": "m.css",
@@ -30849,7 +31031,8 @@
     },
     "basetenlabs/truss": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 511003180,
@@ -31238,7 +31421,8 @@
     },
     "LMCache/LMCache": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 807305060,
@@ -31356,7 +31540,8 @@
     },
     "daytonaio/daytona": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 753490180,
@@ -31574,7 +31759,8 @@
     },
     "mcp-use/mcp-use": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 956472076,
@@ -31628,7 +31814,8 @@
     },
     "kevoreilly/CAPEv2": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 215366713,
@@ -31655,7 +31842,8 @@
     },
     "cert-ee/cuckoo3": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 436965945,
@@ -32041,7 +32229,8 @@
     },
     "internetarchive/warcprox": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 13874432,
@@ -32068,7 +32257,8 @@
     },
     "internetarchive/brozzler": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 39043260,
@@ -32287,7 +32477,8 @@
     },
     "deepset-ai/hayhooks": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 734975513,
@@ -32314,7 +32505,8 @@
     },
     "apache/hamilton": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 605682921,
@@ -32399,7 +32591,8 @@
     },
     "letta-ai/letta": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 703411624,
@@ -32508,7 +32701,8 @@
     },
     "jjsantos01/jupyter-notebook-mcp": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 955540579,
@@ -32535,7 +32729,8 @@
     },
     "GongRzhe/Human-In-the-Loop-MCP-Server": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 990549334,
@@ -32563,7 +32758,8 @@
     "GongRzhe/APIWeaver": {
       "lists": [
         "API",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 965866617,
@@ -32591,7 +32787,8 @@
     "GreatScottyMac/context-portal": {
       "lists": [
         "Docker and OCI containers",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 977795489,
@@ -32618,7 +32815,8 @@
     },
     "topoteretes/cognee": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 679343504,
@@ -32649,7 +32847,8 @@
     },
     "peless/claude-thread-continuity": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 998065006,
@@ -32676,7 +32875,8 @@
     },
     "basicmachines-co/basic-memory": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 897595329,
@@ -32703,7 +32903,8 @@
     },
     "neo4j-contrib/mcp-neo4j": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 897992568,
@@ -33007,7 +33208,8 @@
     },
     "coderamp-labs/gitingest": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 895942941,
@@ -33365,7 +33567,8 @@
     },
     "sina-cb/pymft": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 822275539,
@@ -33887,7 +34090,8 @@
     },
     "decoderesearch/circuit-tracer": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 992197344,
@@ -33943,7 +34147,8 @@
     },
     "python-developer-tooling-handbook/demo-uv": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 920890741,
@@ -33998,7 +34203,8 @@
     "kkroening/ffmpeg-python": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 91222097,
@@ -34026,7 +34232,8 @@
     "livingbio/typed-ffmpeg": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 722865845,
@@ -34137,7 +34344,8 @@
     },
     "burningion/video-editing-mcp": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 898031405,
@@ -34249,7 +34457,8 @@
     "ezyang/ghstack": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 153046276,
@@ -34711,7 +34920,8 @@
     },
     "ML-GSAI/LLaDA": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 932356580,
@@ -34777,7 +34987,9 @@
       }
     },
     "OKUA1/juvio": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 985949172,
         "name": "juvio",
@@ -34884,7 +35096,8 @@
     },
     "habedi/cogitator": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 974969380,
@@ -35369,7 +35582,8 @@
     },
     "containers/ramalama": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 833306239,
@@ -36572,7 +36786,8 @@
     },
     "wsargent/groundedllm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 958116908,
@@ -37934,7 +38149,9 @@
       }
     },
     "procrastinate-org/procrastinate": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 170681179,
         "name": "procrastinate",
@@ -38228,7 +38445,8 @@
     },
     "manoelpiovesan/dither-guy": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 940311488,
@@ -38282,7 +38500,8 @@
     },
     "The-Pocket/PocketFlow": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 907624056,
@@ -38361,7 +38580,8 @@
     },
     "intel/AI-Playground": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 826984591,
@@ -38797,7 +39017,8 @@
     },
     "crytic/slither": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 147583941,
@@ -38943,7 +39164,8 @@
     },
     "cgoldberg/xvfbwrapper": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 6598202,
@@ -39163,7 +39385,8 @@
     },
     "run-llama/llama_index": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 560704231,
@@ -41275,7 +41498,8 @@
     },
     "hippiiee/osgint": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 527215876,
@@ -41643,7 +41867,9 @@
       }
     },
     "stelviodev/stelvio": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 921676630,
         "name": "stelvio",
@@ -41963,7 +42189,9 @@
       }
     },
     "suitenumerique/docs": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 741012134,
         "name": "docs",
@@ -42070,7 +42298,8 @@
     },
     "oregonjim/leetv": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 135192436,
@@ -42151,7 +42380,9 @@
       }
     },
     "nhtlongcs/StarListify": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 875841976,
         "name": "StarListify",
@@ -42702,7 +42933,8 @@
     "multimodal-art-projection/YuE": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 920995232,
@@ -42841,7 +43073,8 @@
     },
     "Cinnamon/kotaemon": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 777111718,
@@ -43623,7 +43856,8 @@
     },
     "tach-org/tach": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 751038600,
@@ -43705,7 +43939,8 @@
     },
     "deepseek-ai/DeepSeek-V3": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 908531752,
@@ -43736,7 +43971,8 @@
     },
     "deepseek-ai/DeepEP": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 933928679,
@@ -43902,7 +44138,8 @@
     },
     "redhat-openstack/infrared": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 51534449,
@@ -44035,7 +44272,8 @@
     },
     "lmcinnes/umap": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 95995403,
@@ -44209,7 +44447,8 @@
     },
     "nunchaku-ai/nunchaku": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 884123664,
@@ -44277,7 +44516,8 @@
     },
     "tetrelsec/depthcharge": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 851692716,
@@ -44605,7 +44845,8 @@
     },
     "dhealy05/frames_of_mind": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 932431071,
@@ -45009,7 +45250,8 @@
     },
     "kreuzberg-dev/kreuzberg": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 925434317,
@@ -45202,7 +45444,8 @@
     },
     "lllyasviel/stable-diffusion-webui-forge": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 743116659,
@@ -45307,7 +45550,8 @@
     },
     "pygobject/pycairo": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 87304089,
@@ -46315,7 +46559,8 @@
     },
     "goodreasonai/ScrapeServ": {
       "lists": [
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 927981080,
@@ -46918,7 +47163,8 @@
     },
     "Seprentes/ScaleUp": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 671657637,
@@ -47245,7 +47491,8 @@
     },
     "Mirascope/mirascope": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 727495773,
@@ -47746,7 +47993,9 @@
       }
     },
     "browserstack/browserstack-local-python": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 51923039,
         "name": "browserstack-local-python",
@@ -47856,7 +48105,8 @@
     },
     "scikit-learn/scikit-learn": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 843222,
@@ -47883,7 +48133,8 @@
     },
     "mps-youtube/yewtube": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 16469697,
@@ -48022,7 +48273,8 @@
     "antmicro/dockersave": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 249980865,
@@ -48050,7 +48302,8 @@
     "antmicro/fpga-isp-core": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 414553215,
@@ -48078,7 +48331,8 @@
     "antmicro/gerber2blend": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 802024681,
@@ -48190,7 +48444,8 @@
     },
     "antmicro/kenning-pipeline-manager": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 592374337,
@@ -48217,7 +48472,8 @@
     },
     "antmicro/pyvidctrl": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 198982151,
@@ -48244,7 +48500,8 @@
     },
     "antmicro/pyrav4l2": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 548804520,
@@ -48271,7 +48528,8 @@
     },
     "antmicro/raviewer": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 428613981,
@@ -48410,7 +48668,9 @@
       }
     },
     "antmicro/tuttest": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 227220338,
         "name": "tuttest",
@@ -48519,7 +48779,8 @@
     },
     "Tsadoq/ErisForge": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 873846133,
@@ -48897,7 +49158,8 @@
     },
     "flesniak/python-prodj-link": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 100021810,
@@ -48982,7 +49244,8 @@
     "pinterest/snappass": {
       "lists": [
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 13357878,
@@ -49150,7 +49413,8 @@
     },
     "Tencent-Hunyuan/Hunyuan3D-2": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 919835586,
@@ -49324,7 +49588,8 @@
     "kainctl/isd": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 917864037,
@@ -49465,7 +49730,8 @@
     },
     "blacklanternsecurity/bbot": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 468957086,
@@ -49597,7 +49863,9 @@
       }
     },
     "santinic/audiblez": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 916662373,
         "name": "audiblez",
@@ -50200,7 +50468,8 @@
     "Dealizey/subtitle_translate_with_LLM": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 831610717,
@@ -50282,7 +50551,8 @@
     },
     "SmartJog/python-mxf": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 5020879,
@@ -51277,7 +51547,8 @@
     },
     "Lightning-AI/litgpt": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 636372163,
@@ -51378,7 +51649,9 @@
       }
     },
     "panel-extensions/panel-graphic-walker": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 878687356,
         "name": "panel-graphic-walker",
@@ -51403,7 +51676,9 @@
       }
     },
     "holoviz/panel": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 145848899,
         "name": "panel",
@@ -51516,7 +51791,9 @@
       }
     },
     "duolingo/minject": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 754195710,
         "name": "minject",
@@ -51895,7 +52172,8 @@
     },
     "libredirect/instances": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 588250231,
@@ -52138,7 +52416,8 @@
     },
     "FlyingFireCo/tiled_ksampler": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 677742110,
@@ -52220,7 +52499,8 @@
     },
     "CPJKU/madmom": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 42099318,
@@ -52412,7 +52692,8 @@
     },
     "simplifieduser/resolve-beat-marker": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 579322655,
@@ -52550,7 +52831,9 @@
       }
     },
     "PyO3/pyo3": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 91151442,
         "name": "pyo3",
@@ -52632,7 +52915,8 @@
     },
     "Brandon-c-tech/RAG-logger": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 906884305,
@@ -52975,7 +53259,8 @@
     },
     "openvinotoolkit/openvino": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 153097643,
@@ -53502,7 +53787,8 @@
     },
     "LoSinCos/movie-iris": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 273762334,
@@ -53879,7 +54165,8 @@
     },
     "facebookresearch/SONAR": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 673526020,
@@ -54074,7 +54361,9 @@
       }
     },
     "microsoft/markitdown": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 888092115,
         "name": "markitdown",
@@ -54882,7 +55171,8 @@
     "DataDog/supply-chain-firewall": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 839407506,
@@ -54908,7 +55198,9 @@
       }
     },
     "gruns/icecream": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 121422840,
         "name": "icecream",
@@ -54961,7 +55253,8 @@
     },
     "wardzin/animusic": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 305556546,
@@ -54988,7 +55281,8 @@
     },
     "hanhung/Creating-Audio-Reactive-Visuals-With-StyleGAN": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 206623447,
@@ -55642,7 +55936,8 @@
     "dmarx/ComfyUI-Keyframed": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 727415389,
@@ -55670,7 +55965,8 @@
     "dmarx/ai-gha": {
       "lists": [
         "Github Actions",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 877541111,
@@ -55830,7 +56126,8 @@
     },
     "shader-slang/slang-torch": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 784553841,
@@ -55995,7 +56292,8 @@
     },
     "videoflow/videoflow": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 181554939,
@@ -56107,7 +56405,8 @@
     },
     "towhee-io/towhee": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 385532537,
@@ -56134,7 +56433,8 @@
     },
     "WyattBlue/auto-editor": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 260117248,
@@ -56219,7 +56519,8 @@
     "gabrielelanzafamee/viral-clips-extractor": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 693379996,
@@ -56247,7 +56548,8 @@
     "BlueBash/Autogen_Video_Refinement": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 790607898,
@@ -56275,7 +56577,8 @@
     "realwarpie/shortfactory": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 889562722,
@@ -56303,7 +56606,8 @@
     "ae9is/ezsam": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 740798129,
@@ -56331,7 +56635,8 @@
     "FolhaSP/mosaico": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 888701975,
@@ -56359,7 +56664,8 @@
     "neezr/AI-Media-Pool-Sorter-for-DaVinci-Resolve": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 791971561,
@@ -56387,7 +56693,8 @@
     "google-marketing-solutions/vigenair": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 797524842,
@@ -56415,7 +56722,8 @@
     "HectorPulido/Youtubers-toolkit": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 256681828,
@@ -56445,7 +56753,8 @@
         "Docker and OCI containers",
         "JavaScript",
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 220653809,
@@ -56505,7 +56814,8 @@
     "thiagobergami/yt-shoorts-automation": {
       "lists": [
         "JavaScript",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 716162137,
@@ -56532,7 +56842,8 @@
     },
     "snickerdudle/instacut-ai-video-editor": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 652772217,
@@ -56559,7 +56870,8 @@
     },
     "umutseven92/LaFontaine": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 159174287,
@@ -56586,7 +56898,8 @@
     },
     "Toemazz/VideoStitcher": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 119873713,
@@ -56613,7 +56926,8 @@
     },
     "Red5d/edlkit": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 18880871,
@@ -56640,7 +56954,8 @@
     },
     "antiboredom/automating-video-itp": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 87327193,
@@ -56667,7 +56982,8 @@
     },
     "librosa/librosa": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 6309729,
@@ -56694,7 +57010,8 @@
     },
     "scherroman/mugen": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 73780798,
@@ -56721,7 +57038,8 @@
     },
     "JollyToday/GhostCut-auto_video_translation": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 620374601,
@@ -56748,7 +57066,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 770153867,
@@ -56803,7 +57122,9 @@
       }
     },
     "IndieSmiths/nodezator": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 414636482,
         "name": "nodezator",
@@ -56857,7 +57178,8 @@
     "ajutamangdev/CloudPwn": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 892634943,
@@ -58025,7 +58347,8 @@
     },
     "PaulPauls/llama3_interpretability_sae": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 892179639,
@@ -58247,7 +58570,8 @@
     },
     "Tencent/DepthCrafter": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 852027111,
@@ -59547,7 +59871,8 @@
     "LiheYoung/Depth-Anything": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 746430967,
@@ -59686,7 +60011,8 @@
     },
     "facebookresearch/watermark-anything": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 886961378,
@@ -60256,7 +60582,8 @@
     "mbird1258/Audio-Decomposition": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 830113907,
@@ -61363,7 +61690,8 @@
     },
     "SelfExplainML/PiML-Toolbox": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 486898701,
@@ -61431,7 +61759,8 @@
     },
     "critterandguitari/EYESY_Modes_Pygame": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 286579907,
@@ -61809,7 +62138,8 @@
     "lmstudio-ai/venvstacks": {
       "lists": [
         "Devops",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 866643544,
@@ -62080,7 +62410,8 @@
     },
     "mxmlnkn/ratarmount": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 171697459,
@@ -62106,7 +62437,9 @@
       }
     },
     "google/python-fire": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 82729529,
         "name": "python-fire",
@@ -62377,7 +62710,8 @@
     },
     "VectorSpaceLab/OmniGen": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 858323825,
@@ -62602,7 +62936,8 @@
     "open-mmlab/Amphion": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 719017363,
@@ -62799,7 +63134,8 @@
     "n00mkrad/flowframes": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 315330275,
@@ -62826,7 +63162,8 @@
     },
     "pygfx/wgpu-py": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 228486057,
@@ -62853,7 +63190,8 @@
     },
     "pygfx/pygfx": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 184745675,
@@ -62963,7 +63301,8 @@
     },
     "t3kt/raytk": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 291621879,
@@ -63017,7 +63356,8 @@
     },
     "olegchomp/TDDepthAnything": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 761419015,
@@ -63424,7 +63764,8 @@
     "systemd/mkosi": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 63237385,
@@ -63555,7 +63896,8 @@
     },
     "microsoft/BitNet": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 838253246,
@@ -63616,7 +63958,9 @@
       }
     },
     "plasma-umass/scalene": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 228700143,
         "name": "scalene",
@@ -64318,7 +64662,8 @@
     },
     "mido/mido": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 10889417,
@@ -64507,7 +64852,9 @@
       }
     },
     "plotly/plotly.py": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 14579099,
         "name": "plotly.py",
@@ -64671,7 +65018,8 @@
     },
     "Synopsis/Ozu-Media-Test-Suite": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 851183748,
@@ -64698,7 +65046,8 @@
     },
     "pgvector/pgvector-python": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 376300726,
@@ -64725,7 +65074,8 @@
     },
     "IST-DASLab/gptq": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 554293908,
@@ -65305,7 +65655,8 @@
     "PromtEngineer/localGPT-Vision": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 865767808,
@@ -65411,7 +65762,8 @@
     },
     "ModelTC/LightLLM": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 669420857,
@@ -65445,7 +65797,8 @@
     },
     "gptme/gptme": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 618514446,
@@ -65640,7 +65993,9 @@
       }
     },
     "ManimCommunity/manim": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 265122478,
         "name": "manim",
@@ -65773,7 +66128,8 @@
     "mitmproxy/mitmproxy": {
       "lists": [
         "Infosec",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 519832,
@@ -65967,7 +66323,8 @@
     },
     "PaperMtn/slack-watchman": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 258988017,
@@ -66076,7 +66433,8 @@
     },
     "neural-maze/agentic-patterns-course": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 826663079,
@@ -66103,7 +66461,8 @@
     },
     "stephansturges/WALDO": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 560914326,
@@ -66285,7 +66644,8 @@
     },
     "akirasrebirth/vectorsynthesis": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 342831110,
@@ -66394,7 +66754,8 @@
     },
     "langchain-ai/langgraph": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 676672661,
@@ -66448,7 +66809,8 @@
     },
     "mriale/PyDPainter": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 284165726,
@@ -66622,7 +66984,8 @@
     },
     "RomanArzumanyan/VALI": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 715584230,
@@ -66649,7 +67012,8 @@
     },
     "moderngl/moderngl-window": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 172498670,
@@ -66678,7 +67042,8 @@
     },
     "moderngl/moderngl": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 53077133,
@@ -66707,7 +67072,8 @@
     },
     "NVIDIA-AI-IOT/deepstream_libraries": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 790876268,
@@ -66794,7 +67160,8 @@
     "menyifang/MIMO": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 862421352,
@@ -67317,7 +67684,8 @@
     },
     "pygame/pygame": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 86245815,
@@ -67453,7 +67821,8 @@
     },
     "raspiduino/libpyfb": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 325826641,
@@ -67535,7 +67904,8 @@
     },
     "funnygeeker/micropython-easydisplay": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 595787567,
@@ -67616,7 +67986,8 @@
     },
     "rezoo/movis": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 678676229,
@@ -67643,7 +68014,8 @@
     },
     "aiXander/Realtime_PyAudio_FFT": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 263412964,
@@ -67970,7 +68342,8 @@
     },
     "vshymanskyy/wasm2mpy": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 846785662,
@@ -68024,7 +68397,8 @@
     },
     "marimo-team/marimo": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 678526156,
@@ -68107,7 +68481,8 @@
     "AllexVeldman/pyoci": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 693559349,
@@ -68184,7 +68559,8 @@
     },
     "lwthiker/curl-impersonate": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 460514332,
@@ -68210,7 +68586,9 @@
       }
     },
     "salesforce/ja3": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 94265371,
         "name": "ja3",
@@ -68291,7 +68669,8 @@
     },
     "knjcode/imgdupes": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 134734721,
@@ -68318,7 +68697,8 @@
     },
     "MadcowD/ell": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 831914256,
@@ -68345,7 +68725,8 @@
     },
     "ryanfox/retread": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 59712135,
@@ -68372,7 +68753,8 @@
     },
     "akamhy/videohash": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 330458533,
@@ -68455,7 +68837,8 @@
     },
     "akamhy/dhashpy": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 412116301,
@@ -68482,7 +68865,8 @@
     },
     "JohannesBuchner/imagehash": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 8528872,
@@ -68730,7 +69114,8 @@
     },
     "cupy/cupy": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 72523920,
@@ -68868,7 +69253,8 @@
     },
     "nteract/papermill": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 96454557,
@@ -68983,7 +69369,8 @@
     "VirtusLab/git-machete": {
       "lists": [
         "CI/CD",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 122743101,
@@ -69133,7 +69520,8 @@
     },
     "kyutai-labs/moshi": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 839238906,
@@ -69199,7 +69587,8 @@
     },
     "punnerud/Local_Knowledge_Graph": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 859265308,
@@ -70162,7 +70551,9 @@
       }
     },
     "za3k/qr-backup": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 372085931,
         "name": "qr-backup",
@@ -70213,7 +70604,8 @@
     },
     "ScrapeGraphAI/Scrapegraph-ai": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 749126547,
@@ -70418,7 +70810,9 @@
       }
     },
     "PaddlePaddle/PaddleOCR": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 262296122,
         "name": "PaddleOCR",
@@ -71301,7 +71695,8 @@
     },
     "deepspeedai/DeepSpeed": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 235860204,
@@ -71364,7 +71759,8 @@
     "DAMO-NLP-SG/VCD": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 723675517,
@@ -71396,7 +71792,8 @@
     "DAMO-NLP-SG/Video-LLaMA": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 637126931,
@@ -71428,7 +71825,8 @@
     "DAMO-NLP-SG/VideoLLaMA2": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 808716789,
@@ -71466,7 +71864,8 @@
     "Breakthrough/PySceneDetect": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 20470449,
@@ -71493,7 +71892,8 @@
     },
     "TristanGomez44/sceneDetection": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 174371789,
@@ -71520,7 +71920,8 @@
     },
     "lm-sys/llm-decontaminator": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 705972277,
@@ -71802,7 +72203,8 @@
     },
     "microsoft/Olive": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 201991558,
@@ -72176,7 +72578,8 @@
     "TIGER-AI-Lab/AnyV2V": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 769264114,
@@ -72344,7 +72747,8 @@
     },
     "openinterpreter/open-interpreter": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 666299222,
@@ -72646,7 +73050,8 @@
     },
     "AlessioMichelassi/openPyVision_013": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 816388799,
@@ -73007,7 +73412,9 @@
       }
     },
     "jpmorganchase/python-training": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 198832400,
         "name": "python-training",
@@ -73086,7 +73493,8 @@
     "ali-vilab/VGen": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 714940169,
@@ -73554,7 +73962,8 @@
     "derrickthomin/DJBB-Loopster-2.0": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 834582180,
@@ -73905,7 +74314,8 @@
     },
     "jhj0517/Whisper-WebUI": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 608663046,
@@ -74177,7 +74587,8 @@
     },
     "taichi-dev/taichi": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 74660642,
@@ -74287,7 +74698,8 @@
     "Twinklebear/fbed": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 313164304,
@@ -74315,7 +74727,8 @@
     "schwwaaa/videobeaux": {
       "lists": [
         "FFmpeg",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 817099075,
@@ -74508,7 +74921,8 @@
     },
     "abhiTronix/vidgear": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 176048362,
@@ -74565,7 +74979,8 @@
     "kyegomez/Python-Package-Template": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 685710744,
@@ -74591,7 +75006,9 @@
       }
     },
     "Rapptz/discord.py": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 41179827,
         "name": "discord.py",
@@ -74698,7 +75115,8 @@
     },
     "ali1234/comfyui-job-iterator": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 689393644,
@@ -74974,7 +75392,8 @@
     "libAudioFlux/audioFlux": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 589514195,
@@ -75245,7 +75664,9 @@
       }
     },
     "instaloader/instaloader": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 61200117,
         "name": "instaloader",
@@ -75810,7 +76231,8 @@
     },
     "black-forest-labs/flux": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 836642963,
@@ -76047,7 +76469,8 @@
     "RocketManRC/tulipcc-headless": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 829597469,
@@ -76899,7 +77322,8 @@
     },
     "computer-reinvention/ChainFactory": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 827868708,
@@ -77564,7 +77988,9 @@
       }
     },
     "igrek51/wat": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 799963434,
         "name": "wat",
@@ -77590,7 +78016,8 @@
     },
     "thinkst/zippy": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 651465148,
@@ -77956,7 +78383,8 @@
     },
     "neuml/txtai": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 286301447,
@@ -78118,7 +78546,8 @@
     },
     "Akascape/FF-Dissolve-Glitch": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 455846362,
@@ -78992,7 +79421,9 @@
       }
     },
     "apify/crawlee-python": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 741365632,
         "name": "crawlee-python",
@@ -79404,7 +79835,8 @@
     },
     "satyarth/pixelsort": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 30243570,
@@ -79621,7 +80053,8 @@
     "shorepine/tulipcc": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 498083946,
@@ -79759,7 +80192,8 @@
     "LemurPwned/video-sampler": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 693818002,
@@ -81539,7 +81973,8 @@
     },
     "stanfordnlp/dspy": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 587050620,
@@ -81772,7 +82207,8 @@
     "copier-org/copier": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 2690104,
@@ -81881,7 +82317,9 @@
       }
     },
     "amphi-ai/amphi-etl": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 774759366,
         "name": "amphi-etl",
@@ -82762,7 +83200,9 @@
       }
     },
     "mesop-dev/mesop": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 704728050,
         "name": "mesop",
@@ -82815,7 +83255,8 @@
     },
     "piku/piku": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 54778964,
@@ -84448,7 +84889,8 @@
     },
     "hackertarget/pcap-did-what": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 781185760,
@@ -84501,7 +84943,9 @@
       }
     },
     "ytdl-org/youtube-dl": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1039520,
         "name": "youtube-dl",
@@ -84553,7 +84997,9 @@
       }
     },
     "datalab-to/marker": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 712111618,
         "name": "marker",
@@ -84935,7 +85381,8 @@
     },
     "jim-easterbrook/pyctools-pal": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 26116791,
@@ -85226,7 +85673,8 @@
     },
     "mitxela/kicad-round-tracks": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 327990770,
@@ -85252,7 +85700,9 @@
       }
     },
     "XlogicX/toeknife": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 771219128,
         "name": "toeknife",
@@ -85712,7 +86162,8 @@
     },
     "tobloef/glitch-tool": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 142513275,
@@ -85739,7 +86190,8 @@
     },
     "Akascape/Pure-Glitch": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 541938731,
@@ -86040,7 +86492,8 @@
     },
     "JuniorIsAJitterbug/tbc-video-export": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 690783894,
@@ -86475,7 +86928,9 @@
       }
     },
     "hynek/structlog": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 12085960,
         "name": "structlog",
@@ -86745,7 +87200,8 @@
     },
     "itsKaspar/tomato": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 86384893,
@@ -86826,7 +87282,8 @@
     },
     "v8hid/infinite-zoom-automatic1111-webui": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 617864263,
@@ -86853,7 +87310,8 @@
     },
     "nicolargo/glances": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 2909429,
@@ -86879,7 +87337,9 @@
       }
     },
     "astral-sh/uv": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 699532645,
         "name": "uv",
@@ -86959,7 +87419,8 @@
     },
     "intel/ipex-llm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 66823715,
@@ -87015,7 +87476,8 @@
     "infiniflow/ragflow": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 730534580,
@@ -87204,7 +87666,8 @@
     },
     "discord/access": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 778067377,
@@ -87416,7 +87879,8 @@
     },
     "bartlomiejduda/Tools": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 149971621,
@@ -87661,7 +88125,9 @@
       }
     },
     "ArchiveBox/ArchiveBox": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 90356372,
         "name": "ArchiveBox",
@@ -87769,7 +88235,8 @@
     },
     "Qirky/FoxDot": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 41629698,
@@ -87796,7 +88263,8 @@
     },
     "YingfanWang/PaCMAP": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 286032881,
@@ -87828,7 +88296,8 @@
     },
     "isaacus-dev/semchunk": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 714508356,
@@ -87908,7 +88377,8 @@
     "Jacob-Pitsenberger/OpenCV-Color-Analysis-and-Manipulation": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 729874929,
@@ -88044,7 +88514,8 @@
     },
     "makew0rld/live-glitch": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 252604728,
@@ -88071,7 +88542,8 @@
     },
     "g-l-i-t-c-h-o-r-s-e/SoniFFPy": {
       "lists": [
-        "FFmpeg"
+        "FFmpeg",
+        "Python"
       ],
       "metadata": {
         "id": 714172494,
@@ -88098,7 +88570,8 @@
     },
     "CTXz/Glitch-Art-Sandbox": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 129299375,
@@ -88125,7 +88598,8 @@
     },
     "fjebaker/brimage": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 250317085,
@@ -88152,7 +88626,8 @@
     },
     "pskl/glitch3d": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 73633454,
@@ -88289,7 +88764,8 @@
     },
     "rishi1999/pixel-shuffle": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 332958951,
@@ -88376,7 +88852,8 @@
     },
     "KhoomeiK/LlamaGym": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 765496406,
@@ -88540,7 +89017,8 @@
     },
     "simonw/llm-claude-3": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 767029679,
@@ -88566,7 +89044,9 @@
       }
     },
     "marceloprates/prettymaps": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 344802603,
         "name": "prettymaps",
@@ -88783,7 +89263,8 @@
     },
     "vladmandic/sdnext": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 581913613,
@@ -88810,7 +89291,8 @@
     },
     "jina-ai/discoart": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 509153572,
@@ -88837,7 +89319,8 @@
     },
     "jina-ai/dalle-flow": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 487309566,
@@ -89030,7 +89513,8 @@
     "deezer/spleeter": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 211124697,
@@ -89248,7 +89732,8 @@
     "PeterL1n/RobustVideoMatting": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 401484223,
@@ -89276,7 +89761,8 @@
     "killian31/VideoBackgroundRemoval": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 662260577,
@@ -89500,7 +89986,8 @@
     "emlyn/sonic-pixels": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 81674484,
@@ -89583,7 +90070,8 @@
     },
     "Astropulse/sd-palettize": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 606126248,
@@ -89610,7 +90098,8 @@
     },
     "limacv/VideoLoop3D": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 518774562,
@@ -89641,7 +90130,8 @@
     },
     "bbc/video-loop-finder": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 221248499,
@@ -89695,7 +90185,8 @@
     },
     "nyavramov/loopifi": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 165741989,
@@ -89832,7 +90323,8 @@
     },
     "gabochi/ANSIedad": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 265880681,
@@ -89886,7 +90378,8 @@
     },
     "voc/voctomix": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 22359452,
@@ -89996,7 +90489,8 @@
     },
     "yt-dlp/yt-dlp": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 307260205,
@@ -90413,7 +90907,8 @@
     },
     "OHF-Voice/hassil": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 580121899,
@@ -90441,7 +90936,8 @@
     "yaqwsx/Pinion": {
       "lists": [
         "DIY",
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 369534830,
@@ -90468,7 +90964,8 @@
     },
     "shiX0/Projection-Mapping": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 733115999,
@@ -91395,7 +91892,8 @@
     },
     "CubeZeero/datamoshing_GUI": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 442093992,
@@ -91422,7 +91920,8 @@
     },
     "tiberiuiancu/datamoshing": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 342891816,
@@ -91561,7 +92060,8 @@
     },
     "burningion/pygame-video-synthesizer": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 111867764,
@@ -92034,7 +92534,8 @@
     },
     "pytti-tools/pytti-notebook": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 452413475,
@@ -92639,7 +93140,8 @@
     },
     "tencent-ailab/IP-Adapter": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 679073548,
@@ -92697,7 +93199,8 @@
     },
     "nod-ai/AMD-SHARK-Studio": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 466309974,
@@ -92753,7 +93256,8 @@
     "steveseguin/raspberry_ninja": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 336145612,
@@ -92780,7 +93284,8 @@
     },
     "CedarGroveStudios/CircuitPython_WaveViz": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 740771995,
@@ -92835,7 +93340,8 @@
     },
     "Ho-Ro/Hantek6022API": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 168508074,
@@ -93111,7 +93617,8 @@
     },
     "JargeZ/ntscqt": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 302085531,
@@ -93138,7 +93645,8 @@
     },
     "lllyasviel/Fooocus": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 676676006,
@@ -93498,7 +94006,8 @@
     },
     "deforum/deforum-stable-diffusion": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 559050967,
@@ -96042,7 +96551,8 @@
     },
     "critterandguitari/EYESY_OS": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 264435741,
@@ -96801,7 +97311,8 @@
     },
     "chrisleewoo/PyTracker-MIDI": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 200772131,
@@ -97451,7 +97962,8 @@
     },
     "simonw/llm-gemini": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 731319430,
@@ -97542,7 +98054,8 @@
     },
     "macumbista/vectorsynthesis": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 98221510,
@@ -97669,7 +98182,9 @@
       "last_updated": "2026-03-17T22:10:51.116740+00:00"
     },
     "scrapy/scrapy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 529502,
         "name": "scrapy",
@@ -97689,7 +98204,9 @@
       "last_updated": "2026-03-17T22:10:51.386277+00:00"
     },
     "alirezamika/autoscraper": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 291703561,
         "name": "autoscraper",
@@ -98568,7 +99085,8 @@
     },
     "blakeblackshear/frigate": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 167694194,
@@ -98634,7 +99152,8 @@
     },
     "onyx-dot-app/onyx": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 633262635,
@@ -98678,7 +99197,9 @@
       "last_updated": "2026-03-17T22:11:00.625948+00:00"
     },
     "chriskiehl/Gooey": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 15570122,
         "name": "Gooey",
@@ -98699,7 +99220,8 @@
     },
     "platformio/platformio-core": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 19606299,
@@ -98742,7 +99264,9 @@
       "last_updated": "2026-03-17T22:11:01.265774+00:00"
     },
     "PySimpleGUI/PySimpleGUI": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 140614233,
         "name": "PySimpleGUI",
@@ -99413,7 +99937,9 @@
       "last_updated": "2026-03-17T22:11:07.565980+00:00"
     },
     "davidfstr/webcrystal": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 53184001,
         "name": "webcrystal",
@@ -99871,7 +100397,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Python"
       ],
       "metadata": {
         "id": 85802819,
@@ -100137,7 +100664,8 @@
     },
     "Wasted-Audio/hvcc": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 343553019,
@@ -101064,7 +101592,8 @@
     },
     "simonw/ospeak": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 715389408,
@@ -101443,7 +101972,8 @@
     "SpotlightKid/python-rtmidi": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 38002454,
@@ -101599,7 +102129,8 @@
     "dhrone/pydPiper": {
       "lists": [
         "DIY",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 57391505,
@@ -101861,7 +102392,8 @@
     },
     "asciinema/asciinema": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 2823326,
@@ -102279,7 +102811,8 @@
     },
     "rany2/edge-tts": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 366146447,
@@ -102368,7 +102901,8 @@
     },
     "davila7/google-flan-t5": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 597152729,
@@ -102390,7 +102924,8 @@
     },
     "davila7/talk-to-gpt-3": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 606162452,
@@ -102412,7 +102947,8 @@
     },
     "davila7/file-gpt": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 602828635,
@@ -102434,7 +102970,8 @@
     },
     "davila7/youtube-gpt": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 598827181,
@@ -102479,7 +103016,8 @@
     },
     "ansible/molecule": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 46383942,
@@ -103473,7 +104011,8 @@
     },
     "irmen/synthesizer": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 51039211,
@@ -103672,7 +104211,8 @@
     "ARPSyndicate/puncia": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 689642135,
@@ -103805,7 +104345,8 @@
     },
     "zynthian/zynthian-ui": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 52090005,
@@ -104418,7 +104959,8 @@
     },
     "microsoft/autogen": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 680120071,
@@ -104482,7 +105024,8 @@
     },
     "PaddlePaddle/PaddleSpeech": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 110688239,
@@ -104504,7 +105047,8 @@
     },
     "chidiwilliams/buzz": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 540842713,
@@ -104594,7 +105138,8 @@
     },
     "google/paxml": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 503429749,
@@ -104639,7 +105184,9 @@
       "last_updated": "2026-03-17T22:11:58.207126+00:00"
     },
     "jstrieb/github-stats": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 287110655,
         "name": "github-stats",
@@ -104813,7 +105360,8 @@
     },
     "reinderien/mimic": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 44424500,
@@ -104879,7 +105427,9 @@
       "last_updated": "2026-03-17T22:12:00.928365+00:00"
     },
     "barracuda-fsh/pyobd": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 680134384,
         "name": "pyobd",
@@ -105491,7 +106041,8 @@
     "welldone-cloud/aws-list-resources": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 551589245,
@@ -105767,7 +106318,8 @@
     },
     "akme/lsofgraph-python": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 129093632,
@@ -105835,7 +106387,8 @@
     "grapheneX/grapheneX": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 177658548,
@@ -106065,7 +106618,9 @@
       "last_updated": "2026-03-17T22:12:11.510061+00:00"
     },
     "trailofbits/it-depends": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 333981819,
         "name": "it-depends",
@@ -106429,7 +106984,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 73858181,
@@ -106451,7 +107007,8 @@
     },
     "meta-llama/codellama": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 682604510,
@@ -106651,7 +107208,8 @@
     },
     "borgbackup/borg": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 35517126,
@@ -107000,7 +107558,8 @@
     },
     "bigscience-workshop/petals": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 502482803,
@@ -107021,7 +107580,9 @@
       "last_updated": "2026-03-17T22:12:20.405613+00:00"
     },
     "rapidfuzz/RapidFuzz": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 243985373,
         "name": "RapidFuzz",
@@ -107041,7 +107602,9 @@
       "last_updated": "2026-03-17T22:12:20.655674+00:00"
     },
     "life4/textdistance": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 90356012,
         "name": "textdistance",
@@ -107110,7 +107673,8 @@
     "Netflix-Skunkworks/policyuniverse": {
       "lists": [
         "AWS",
-        "CI/CD"
+        "CI/CD",
+        "Python"
       ],
       "metadata": {
         "id": 91367525,
@@ -107174,7 +107738,8 @@
     },
     "PromtEngineer/localGPT": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 644715009,
@@ -107196,7 +107761,8 @@
     },
     "facebookresearch/hydra": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 191632914,
@@ -107367,7 +107933,8 @@
         "Devops",
         "Infosec",
         "Linux CLI Tools",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 96237508,
@@ -107593,7 +108160,8 @@
     },
     "BerriAI/litellm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 671269505,
@@ -108203,7 +108771,9 @@
       "last_updated": "2026-03-17T22:12:31.929242+00:00"
     },
     "cisco-open/stacks": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 614556206,
         "name": "stacks",
@@ -108336,7 +108906,8 @@
     },
     "1j01/textual-paint": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 626145619,
@@ -108559,7 +109130,8 @@
     },
     "horovod/horovod": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 99846383,
@@ -108620,7 +109192,9 @@
       "last_updated": "2026-03-17T22:12:35.854156+00:00"
     },
     "trailofbits/polyfile": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 193975534,
         "name": "polyfile",
@@ -108640,7 +109214,9 @@
       "last_updated": "2026-03-17T22:12:36.070269+00:00"
     },
     "gto76/python-cheatsheet": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 118861276,
         "name": "python-cheatsheet",
@@ -108957,7 +109533,9 @@
       "last_updated": "2026-03-17T22:12:38.953755+00:00"
     },
     "pyinvoke/invoke": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 3587206,
         "name": "invoke",
@@ -109046,7 +109624,8 @@
     "simonw/llm": {
       "lists": [
         "Linux CLI Tools",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 622352364,
@@ -109067,7 +109646,9 @@
       "last_updated": "2026-03-17T22:12:39.975173+00:00"
     },
     "jazzband/pip-tools": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 5746963,
         "name": "pip-tools",
@@ -109197,7 +109778,8 @@
     },
     "dask/distributed": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 42408083,
@@ -109218,7 +109800,9 @@
       "last_updated": "2026-03-17T22:12:41.393024+00:00"
     },
     "dask/dask": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 28782747,
         "name": "dask",
@@ -109332,7 +109916,8 @@
     "AUTOMATIC1111/stable-diffusion-webui": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 527591471,
@@ -109396,7 +109981,8 @@
     },
     "mattsta/aws-vpc-global-planner": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Python"
       ],
       "metadata": {
         "id": 449032240,
@@ -109840,7 +110426,8 @@
     "fluidattacks/makes": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 379004794,
@@ -109862,7 +110449,8 @@
     },
     "authlib/authlib": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 108510280,
@@ -109996,7 +110584,8 @@
     },
     "bentoml/OpenLLM": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 629749002,
@@ -110309,7 +110898,8 @@
     "SamurAIGPT/Generative-Media-Skills": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 645381450,
@@ -110330,7 +110920,9 @@
       "last_updated": "2026-03-17T22:12:51.980370+00:00"
     },
     "hjwp/pytest-icdiff": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 143096658,
         "name": "pytest-icdiff",
@@ -110350,7 +110942,9 @@
       "last_updated": "2026-03-17T22:12:52.189195+00:00"
     },
     "jeffkaufman/icdiff": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 812328,
         "name": "icdiff",
@@ -110548,7 +111142,8 @@
     },
     "facebookincubator/AITemplate": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 514321895,
@@ -110593,7 +111188,8 @@
     },
     "tiiuae/sbomnix": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 575807395,
@@ -110615,7 +111211,8 @@
     },
     "scanoss/scanoss.py": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 377273245,
@@ -110800,7 +111397,8 @@
     "anthonyharrison/lib4sbom": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 565531298,
@@ -110845,7 +111443,8 @@
     },
     "nitram2342/update-python-venv-requirements-and-sbom": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 617212101,
@@ -110867,7 +111466,8 @@
     },
     "clovaai/donut": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 515792028,
@@ -111114,7 +111714,8 @@
     },
     "salesforce/CodeT5": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 396609706,
@@ -111202,7 +111803,8 @@
     "target/strelka": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 149654117,
@@ -111483,7 +112085,8 @@
     },
     "smol-ai/developer": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 640161038,
@@ -111617,7 +112220,8 @@
     },
     "deepset-ai/haystack": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 221654678,
@@ -111729,7 +112333,8 @@
     },
     "zylon-ai/private-gpt": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 635240594,
@@ -111797,7 +112402,8 @@
     "cartography-cncf/cartography": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 172811550,
@@ -112089,7 +112695,9 @@
       "last_updated": "2026-03-17T22:13:08.527898+00:00"
     },
     "ipyflow/ipyflow": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 233903484,
         "name": "ipyflow",
@@ -112132,7 +112740,8 @@
     },
     "openai/evals": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 592489166,
@@ -112154,7 +112763,8 @@
     },
     "oobabooga/text-generation-webui": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 580642043,
@@ -112177,7 +112787,8 @@
     "TiesdeKok/chat-gpt-jupyter-extension": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 581938177,
@@ -112199,7 +112810,8 @@
     },
     "certifi/python-certifi": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 3060959,
@@ -112220,7 +112832,9 @@
       "last_updated": "2026-03-17T22:13:09.897046+00:00"
     },
     "ddelange/pipgrip": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 230768810,
         "name": "pipgrip",
@@ -112241,7 +112855,8 @@
     },
     "nadermx/backgroundremover": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 370209029,
@@ -112438,7 +113053,8 @@
     },
     "jacebrowning/memegen": {
       "lists": [
-        "API"
+        "API",
+        "Python"
       ],
       "metadata": {
         "id": 37385246,
@@ -112619,7 +113235,8 @@
     },
     "keephq/keep": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 597502256,
@@ -112729,7 +113346,9 @@
       "last_updated": "2026-03-17T22:13:14.688993+00:00"
     },
     "mkdocs/mkdocs": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 15830664,
         "name": "mkdocs",
@@ -112991,7 +113610,8 @@
     },
     "DonyorM/weresync": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 72903177,
@@ -113013,7 +113633,8 @@
     },
     "jax-ml/jax": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 154739597,
@@ -113057,7 +113678,8 @@
     },
     "young-geng/EasyLM": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 569265598,
@@ -113191,7 +113813,8 @@
     "1rgs/jsonformer": {
       "lists": [
         "JSON",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 634379415,
@@ -113236,7 +113859,8 @@
     "benkehoe/aws-error-utils": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 264486967,
@@ -113258,7 +113882,8 @@
     },
     "openwisp/openwisp-controller": {
       "lists": [
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 77444607,
@@ -113325,7 +113950,8 @@
     },
     "andrewthetechie/gha-repo-manager": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 502463513,
@@ -113481,7 +114107,8 @@
     },
     "menloparklab/langchain-cohere-qdrant-doc-retrieval": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 634077598,
@@ -113504,7 +114131,8 @@
     "simonw/s3-credentials": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 423984522,
@@ -113550,7 +114178,8 @@
     },
     "jdagdelen/hyperDB": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 628503457,
@@ -113594,7 +114223,8 @@
     },
     "NVIDIA/Megatron-LM": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 176982014,
@@ -113616,7 +114246,8 @@
     },
     "AI-Hypercomputer/maxtext": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 607845880,
@@ -113660,7 +114291,8 @@
     },
     "mlc-ai/mlc-llm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 634081686,
@@ -113770,7 +114402,9 @@
       "last_updated": "2026-03-17T22:13:24.575026+00:00"
     },
     "dynobo/normcap": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 202401693,
         "name": "normcap",
@@ -113816,7 +114450,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 627912288,
@@ -114037,7 +114672,8 @@
     },
     "karpathy/minGPT": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 288108533,
@@ -114059,7 +114695,8 @@
     },
     "karpathy/nanoGPT": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 582822129,
@@ -114081,7 +114718,8 @@
     },
     "Lightning-AI/lit-llama": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 617504730,
@@ -114191,7 +114829,8 @@
     },
     "fail2ban/fail2ban": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 2476162,
@@ -114481,7 +115120,8 @@
     },
     "glyph/tokenring": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 626578893,
@@ -114547,7 +115187,8 @@
     },
     "griptape-ai/griptape": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 588992876,
@@ -114656,7 +115297,8 @@
     },
     "dortania/OpenCore-Legacy-Patcher": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Python"
       ],
       "metadata": {
         "id": 315490189,
@@ -114905,7 +115547,8 @@
     "empath-nirvana/magic-happens": {
       "lists": [
         "K8S - Kubernetes",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 628722679,
@@ -114926,7 +115569,9 @@
       "last_updated": "2026-03-17T22:13:36.156231+00:00"
     },
     "xnuinside/codegraph": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 236208358,
         "name": "codegraph",
@@ -114991,7 +115636,8 @@
     },
     "jina-ai/thinkgpt": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 627959104,
@@ -115015,7 +115661,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 4340318,
@@ -115344,7 +115991,9 @@
       "last_updated": "2026-03-17T22:13:40.085063+00:00"
     },
     "Anorov/cloudflare-scrape": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 8490649,
         "name": "cloudflare-scrape",
@@ -115571,7 +116220,8 @@
       "lists": [
         "AWS",
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 627571493,
@@ -115705,7 +116355,8 @@
     },
     "mlc-ai/web-llm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 627561173,
@@ -115747,7 +116398,8 @@
     },
     "awslabs/resource-lister": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Python"
       ],
       "metadata": {
         "id": 618657703,
@@ -115901,7 +116553,8 @@
     },
     "intelowlproject/IntelOwl": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 231109256,
@@ -115923,7 +116576,8 @@
     },
     "Neo23x0/littlesnitch-log-exporter": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Python"
       ],
       "metadata": {
         "id": 326161547,
@@ -116150,7 +116804,9 @@
       "last_updated": "2026-03-17T22:13:47.604479+00:00"
     },
     "joblib/joblib": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 654608,
         "name": "joblib",
@@ -116495,7 +117151,8 @@
     },
     "wntrblm/nox": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Python"
       ],
       "metadata": {
         "id": 52413187,
@@ -116538,7 +117195,9 @@
       "last_updated": "2026-03-17T22:13:51.498998+00:00"
     },
     "pantsbuild/pants": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 7209075,
         "name": "pants",
@@ -116558,7 +117217,9 @@
       "last_updated": "2026-03-17T22:13:51.699338+00:00"
     },
     "pex-tool/pex": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 22072746,
         "name": "pex",
@@ -116581,7 +117242,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 199247716,
@@ -116654,7 +117316,8 @@
         "AWS",
         "Devops",
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 112079872,
@@ -116697,7 +117360,8 @@
     "mlc-ai/web-stable-diffusion": {
       "lists": [
         "JavaScript",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 610043832,
@@ -116937,7 +117601,8 @@
     },
     "lm-sys/FastChat": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 615882673,
@@ -117088,7 +117753,8 @@
     },
     "langchain-ai/langchain": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 552661142,
@@ -117269,7 +117935,8 @@
     "kapicorp/kapitan": {
       "lists": [
         "Devops",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Python"
       ],
       "metadata": {
         "id": 106306056,
@@ -117313,7 +117980,9 @@
       "last_updated": "2026-03-17T22:13:59.003652+00:00"
     },
     "tern-tools/tern": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 112261191,
         "name": "tern",
@@ -117422,7 +118091,8 @@
     },
     "tatsu-lab/stanford_alpaca": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 612427246,
@@ -117489,7 +118159,8 @@
     },
     "nomic-ai/gpt4all": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 619959033,
@@ -117511,7 +118182,8 @@
     },
     "pyenv/pyenv-virtualenv": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 8268387,
@@ -117579,7 +118251,8 @@
     },
     "Rnalter/ThunderCloud": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 344309990,
@@ -117601,7 +118274,8 @@
     },
     "qwopqwop200/GPTQ-for-LLaMa": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 610307205,
@@ -117624,7 +118298,8 @@
     "vast-ai/vast-cli": {
       "lists": [
         "API",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 168062479,
@@ -117714,7 +118389,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 536332225,
@@ -117736,7 +118412,8 @@
     },
     "yadm-dev/yadm": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 39074570,
@@ -117872,7 +118549,8 @@
     },
     "determined-ai/determined": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 253846879,
@@ -118079,7 +118757,8 @@
     },
     "keylime/keylime": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 71359873,
@@ -118472,7 +119151,8 @@
     },
     "HariSekhon/DevOps-Python-tools": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 45049026,
@@ -118562,7 +119242,8 @@
     },
     "serge-chat/serge": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 615973283,
@@ -118584,7 +119265,8 @@
     },
     "graphite-project/whisper": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 4254334,
@@ -118607,7 +119289,8 @@
     "seeeverything/publish-terraform-modules": {
       "lists": [
         "CI/CD",
-        "Github Actions"
+        "Github Actions",
+        "Python"
       ],
       "metadata": {
         "id": 403530015,
@@ -118628,7 +119311,9 @@
       "last_updated": "2026-03-17T22:14:11.417331+00:00"
     },
     "x4v13r64/terraform-registry-watch": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 475571356,
         "name": "terraform-registry-watch",
@@ -118777,7 +119462,9 @@
       "last_updated": "2026-03-17T22:14:12.879411+00:00"
     },
     "obfusk/apksigcopier": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 351271708,
         "name": "apksigcopier",
@@ -118797,7 +119484,9 @@
       "last_updated": "2026-03-17T22:14:13.085401+00:00"
     },
     "obfusk/reproducible-apk-tools": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 569093378,
         "name": "reproducible-apk-tools",
@@ -118863,7 +119552,9 @@
       "last_updated": "2026-03-17T22:14:13.703418+00:00"
     },
     "simonw/datasette": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 107914493,
         "name": "datasette",
@@ -118951,7 +119642,8 @@
     },
     "GKNSB/WhoxySD": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 618091392,
@@ -119064,7 +119756,8 @@
     },
     "binareio/FastCVE": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 611271346,
@@ -119265,7 +119958,9 @@
       "last_updated": "2026-03-17T22:14:17.453571+00:00"
     },
     "pyodide/micropip": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 537177550,
         "name": "micropip",
@@ -119286,7 +119981,8 @@
     },
     "pyodide/pyodide": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Python"
       ],
       "metadata": {
         "id": 122663163,
@@ -119529,7 +120225,8 @@
     },
     "awslabs/graphstorm": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 573398710,
@@ -119708,7 +120405,9 @@
       "last_updated": "2026-03-17T22:14:21.763753+00:00"
     },
     "RDFLib/rdflib": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 3342046,
         "name": "rdflib",
@@ -120187,7 +120886,8 @@
     },
     "kirin-attack/mrtgen": {
       "lists": [
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 417111577,
@@ -120252,7 +120952,8 @@
     },
     "common-fate/cf-provider-cloudwatch-log-groups": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Python"
       ],
       "metadata": {
         "id": 610518515,
@@ -120779,7 +121480,8 @@
     },
     "simonw/s3-ocr": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Python"
       ],
       "metadata": {
         "id": 508461227,
@@ -120802,7 +121504,8 @@
     "paperless-ngx/paperless-ngx": {
       "lists": [
         "DIY",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 458648791,
@@ -120999,7 +121702,9 @@
       "last_updated": "2026-03-17T22:14:33.714560+00:00"
     },
     "ContinuumIO/anaconda-recipes": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 39790371,
         "name": "anaconda-recipes",
@@ -121022,7 +121727,8 @@
       "lists": [
         "Devops",
         "DIY",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 65759229,
@@ -121137,7 +121843,8 @@
     },
     "pytest-dev/pytest-testinfra": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 32283257,
@@ -121269,7 +121976,9 @@
       "last_updated": "2026-03-17T22:14:36.005402+00:00"
     },
     "sqlalchemy/sqlalchemy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 159271175,
         "name": "sqlalchemy",
@@ -121357,7 +122066,8 @@
     "DataDog/guarddog": {
       "lists": [
         "CI/CD",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 503403377,
@@ -121420,7 +122130,8 @@
     "astral-sh/ruff": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 523043277,
@@ -122185,7 +122896,8 @@
     },
     "weaveworks/grafanalib": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 75401165,
@@ -122675,7 +123387,8 @@
     },
     "Farama-Foundation/Gymnasium": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 534011733,
@@ -122852,7 +123565,8 @@
     "IBM/NetDash": {
       "lists": [
         "AWS",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 142632522,
@@ -122898,7 +123612,8 @@
     "imohitmayank/jaal": {
       "lists": [
         "Devops",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 333369736,
@@ -122965,7 +123680,9 @@
       "last_updated": "2026-03-17T22:14:51.035074+00:00"
     },
     "tox-dev/pipdeptree": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 16459325,
         "name": "pipdeptree",
@@ -123009,7 +123726,8 @@
     "initialcommit-com/git-sim": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 553679010,
@@ -123144,7 +123862,9 @@
       "last_updated": "2026-03-17T22:14:52.763610+00:00"
     },
     "bpython/bpython": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 21508865,
         "name": "bpython",
@@ -123493,7 +124213,8 @@
     },
     "xnl-h4ck3r/xnLinkFinder": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 481754082,
@@ -123698,7 +124419,9 @@
       "last_updated": "2026-03-17T22:14:57.669221+00:00"
     },
     "ToolJet/ToolJet": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 352933140,
         "name": "ToolJet",
@@ -123758,7 +124481,9 @@
       "last_updated": "2026-03-17T22:14:58.267333+00:00"
     },
     "evyatar9/GptHidra": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 582458494,
         "name": "GptHidra",
@@ -123911,7 +124636,9 @@
       "last_updated": "2026-03-17T22:14:59.612412+00:00"
     },
     "alexmojaki/futurecoder": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 231656051,
         "name": "futurecoder",
@@ -123933,7 +124660,8 @@
     "briancaffey/django-step-by-step": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 352811488,
@@ -124271,7 +124999,8 @@
     "romanz/trezor-agent": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 36983387,
@@ -124381,7 +125110,8 @@
     },
     "ocmarin/ssd-bot": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 312021663,
@@ -124969,7 +125699,9 @@
       "last_updated": "2026-03-17T22:15:09.329269+00:00"
     },
     "exaloop/codon": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 410989014,
         "name": "codon",
@@ -124989,7 +125721,9 @@
       "last_updated": "2026-03-17T22:15:09.542503+00:00"
     },
     "ClericPy/zipapps": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 305079560,
         "name": "zipapps",
@@ -125009,7 +125743,9 @@
       "last_updated": "2026-03-17T22:15:10.554713+00:00"
     },
     "pyinstaller/pyinstaller": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 2835111,
         "name": "pyinstaller",
@@ -125029,7 +125765,9 @@
       "last_updated": "2026-03-17T22:15:10.764769+00:00"
     },
     "Nuitka/Nuitka": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 9626741,
         "name": "Nuitka",
@@ -125142,7 +125880,8 @@
     },
     "mitogen-hq/mitogen": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 65646228,
@@ -125348,7 +126087,8 @@
     },
     "ly4k/Certipy": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 414397086,
@@ -125504,7 +126244,8 @@
         "CI/CD",
         "Devops",
         "Github Actions",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 508560980,
@@ -125592,7 +126333,8 @@
     "commitizen-tools/commitizen": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 106127589,
@@ -125637,7 +126379,9 @@
       "last_updated": "2026-03-17T22:15:16.124151+00:00"
     },
     "daolis/git-graph": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 23716463,
         "name": "git-graph",
@@ -125744,7 +126488,8 @@
     },
     "fairlearn/fairlearn": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 133444044,
@@ -126201,7 +126946,8 @@
     },
     "openai/whisper": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 537603333,
@@ -126224,7 +126970,8 @@
     "orchest/orchest": {
       "lists": [
         "Devops",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 265911693,
@@ -126339,7 +127086,8 @@
     "Cloud-Architects/cloudiscovery": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 260712454,
@@ -126383,7 +127131,9 @@
       "last_updated": "2026-03-17T22:15:23.215237+00:00"
     },
     "fastapi/typer": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 229937405,
         "name": "typer",
@@ -126451,7 +127201,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 122057493,
@@ -126500,7 +127251,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 53548867,
@@ -126544,7 +127296,9 @@
       "last_updated": "2026-03-17T22:15:24.642669+00:00"
     },
     "schematics/schematics": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1199632,
         "name": "schematics",
@@ -126564,7 +127318,9 @@
       "last_updated": "2026-03-17T22:15:24.849100+00:00"
     },
     "keleshev/schema": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 5473383,
         "name": "schema",
@@ -126584,7 +127340,9 @@
       "last_updated": "2026-03-17T22:15:25.030570+00:00"
     },
     "python-jsonschema/jsonschema": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 3072629,
         "name": "jsonschema",
@@ -126604,7 +127362,9 @@
       "last_updated": "2026-03-17T22:15:25.213257+00:00"
     },
     "Pylons/colander": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1372698,
         "name": "colander",
@@ -126624,7 +127384,9 @@
       "last_updated": "2026-03-17T22:15:25.450553+00:00"
     },
     "pyeve/cerberus": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 6155413,
         "name": "cerberus",
@@ -126667,7 +127429,8 @@
     },
     "mlflow/mlflow": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 136202695,
@@ -126689,7 +127452,8 @@
     },
     "gradio-app/gradio": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 162405963,
@@ -126711,7 +127475,8 @@
     },
     "streamlit/streamlit": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 204086862,
@@ -126734,7 +127499,8 @@
     "treeverse/dvc": {
       "lists": [
         "Devops",
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 83878269,
@@ -126780,7 +127546,8 @@
     "MayaraCloud/apt-transport-s3": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 22605370,
@@ -127219,7 +127986,8 @@
         "Authentication",
         "Infosec",
         "Linux CLI Tools",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 83845218,
@@ -127244,7 +128012,8 @@
         "Authentication",
         "Infosec",
         "Linux CLI Tools",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 31825852,
@@ -127291,7 +128060,8 @@
     },
     "thecjharries/dso-dojo-2022-12": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 569503152,
@@ -127313,7 +128083,8 @@
     },
     "abhishekkrthakur/colabcode": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 294074614,
@@ -127336,7 +128107,8 @@
     "WassimBenzarti/colab-ssh": {
       "lists": [
         "Machine Learning",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 244010692,
@@ -127463,7 +128235,9 @@
       "last_updated": "2026-03-17T22:15:32.836065+00:00"
     },
     "jakevdp/PythonDataScienceHandbook": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 65388917,
         "name": "PythonDataScienceHandbook",
@@ -127534,7 +128308,8 @@
     },
     "CodedotAl/gpt-code-clippy": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 382145926,
@@ -127578,7 +128353,8 @@
     },
     "llm-workflow-engine/llm-workflow-engine": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 573822937,
@@ -127601,7 +128377,8 @@
     "irmen/Pyro5": {
       "lists": [
         "DIY",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 83903998,
@@ -127668,7 +128445,8 @@
     "franc-pentest/ldeep": {
       "lists": [
         "Authentication",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 154193829,
@@ -128075,7 +128853,8 @@
     "bellingcat/octosuite": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 462976341,
@@ -128643,7 +129422,8 @@
     },
     "jorgebastida/awslogs": {
       "lists": [
-        "AWS"
+        "AWS",
+        "Python"
       ],
       "metadata": {
         "id": 29613985,
@@ -128686,7 +129466,9 @@
       "last_updated": "2026-03-17T22:15:43.650902+00:00"
     },
     "fauxpilot/fauxpilot": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 520708737,
         "name": "fauxpilot",
@@ -128757,7 +129539,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 66474729,
@@ -128871,7 +129654,8 @@
     },
     "mozilla/bleach": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 525316,
@@ -129079,7 +129863,8 @@
         "CI/CD",
         "Devops",
         "Docker and OCI containers",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 59531400,
@@ -129452,7 +130237,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "DIY"
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 68465360,
@@ -129638,7 +130424,9 @@
       "last_updated": "2026-03-17T22:15:52.198444+00:00"
     },
     "naorlivne/terraformize": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 213015466,
         "name": "terraformize",
@@ -129658,7 +130446,9 @@
       "last_updated": "2026-03-17T22:15:52.371211+00:00"
     },
     "asottile/pyupgrade": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 83462592,
         "name": "pyupgrade",
@@ -130010,7 +130800,8 @@
     },
     "pre-commit/pre-commit": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 17689377,
@@ -130077,7 +130868,8 @@
     },
     "sandflysecurity/sandfly-file-decloak": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 566233582,
@@ -130099,7 +130891,8 @@
     },
     "patricklubach/python-terraform-registry": {
       "lists": [
-        "API"
+        "API",
+        "Python"
       ],
       "metadata": {
         "id": 448992861,
@@ -130723,7 +131516,9 @@
       "last_updated": "2026-03-17T22:16:01.517679+00:00"
     },
     "pydantic/pydantic": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 90194616,
         "name": "pydantic",
@@ -130843,7 +131638,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 47751782,
@@ -131172,7 +131968,8 @@
         "Docker and OCI containers",
         "Infosec",
         "Networking",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 58842707,
@@ -131196,7 +131993,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 447691086,
@@ -131220,7 +132018,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "GoLang"
+        "GoLang",
+        "Python"
       ],
       "metadata": {
         "id": 480303698,
@@ -131390,7 +132189,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 241606408,
@@ -131682,7 +132482,8 @@
     },
     "dynaconf/dynaconf": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 40736676,
@@ -132343,7 +133144,9 @@
       "last_updated": "2026-03-17T22:16:16.151334+00:00"
     },
     "bumble-tech/private-detector": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 543961877,
         "name": "private-detector",
@@ -132518,7 +133321,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 7137821,
@@ -132728,7 +133532,8 @@
     "incidentbot/incidentbot": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 444585814,
@@ -133465,7 +134270,8 @@
     },
     "fox-it/dissect": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 516286996,
@@ -133656,7 +134462,8 @@
     },
     "google/turbinia": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 42533053,
@@ -133724,7 +134531,8 @@
     },
     "stark0de/nginxpwner": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 355239629,
@@ -133747,7 +134555,8 @@
     "schemathesis/schemathesis": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 203157084,
@@ -133863,7 +134672,8 @@
     "byt3bl33d3r/CrackMapExec": {
       "lists": [
         "Infosec",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 40718289,
@@ -133928,7 +134738,8 @@
     },
     "jdyke/gcp-iam-analyzer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 482307252,
@@ -134632,7 +135443,8 @@
     "buildbot/buildbot": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 760165,
@@ -134675,7 +135487,9 @@
       "last_updated": "2026-03-17T22:16:37.679027+00:00"
     },
     "python/mypy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 7053637,
         "name": "mypy",
@@ -135194,7 +136008,9 @@
       "last_updated": "2026-03-17T22:16:42.284305+00:00"
     },
     "jamesls/jmes-cookiecutter-python-package": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 47171327,
         "name": "jmes-cookiecutter-python-package",
@@ -135282,7 +136098,9 @@
       "last_updated": "2026-03-17T22:16:43.039207+00:00"
     },
     "python-poetry/poetry": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 123303402,
         "name": "poetry",
@@ -135377,7 +136195,8 @@
     "gl4ssesbo1/Nebula": {
       "lists": [
         "AWS",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 358627334,
@@ -135871,7 +136690,8 @@
     },
     "fr0gger/jupyter-collection": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 473898894,
@@ -135914,7 +136734,9 @@
       "last_updated": "2026-03-17T22:16:48.582980+00:00"
     },
     "driscollis/pytips": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 425953448,
         "name": "pytips",
@@ -135981,7 +136803,8 @@
     },
     "pypa/pip-audit": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 402468744,
@@ -136026,7 +136849,9 @@
       "last_updated": "2026-03-17T22:16:49.520897+00:00"
     },
     "pycontribs/jira": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 21303988,
         "name": "jira",
@@ -136207,7 +137032,9 @@
       "last_updated": "2026-03-17T22:16:51.051497+00:00"
     },
     "python-pillow/Pillow": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 5171600,
         "name": "Pillow",
@@ -136392,7 +137219,8 @@
     "pirxthepilot/wtfis": {
       "lists": [
         "Infosec",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 517607055,
@@ -136458,7 +137286,8 @@
     },
     "kovidgoyal/kitty": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 71056775,
@@ -137002,7 +137831,9 @@
       "last_updated": "2026-03-17T22:17:00.080821+00:00"
     },
     "baserow/baserow": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 281073868,
         "name": "baserow",
@@ -137094,7 +137925,8 @@
     },
     "six2dez/dorks_hunter": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 520860357,
@@ -137290,7 +138122,8 @@
     },
     "indygreg/PyOxidizer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 162357299,
@@ -137541,7 +138374,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 155376283,
@@ -137565,7 +138399,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 207934200,
@@ -137707,7 +138542,8 @@
     "johndoe31415/x509sak": {
       "lists": [
         "Infosec",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 123972940,
@@ -137895,7 +138731,8 @@
     "pypa/pipx": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 151871286,
@@ -137917,7 +138754,8 @@
     },
     "laluka/bypass-url-parser": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 422729750,
@@ -138296,7 +139134,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 48399035,
@@ -138318,7 +139157,8 @@
     },
     "takluyver/bash_kernel": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Python"
       ],
       "metadata": {
         "id": 21259107,
@@ -138643,7 +139483,8 @@
     "qilingframework/qiling": {
       "lists": [
         "Docker and OCI containers",
-        "Fuzzing"
+        "Fuzzing",
+        "Python"
       ],
       "metadata": {
         "id": 203799854,
@@ -138687,7 +139528,8 @@
     },
     "Nitrokey/nitrokey-encryption-tool": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 105879870,
@@ -138709,7 +139551,8 @@
     },
     "ThalesGroup/pycryptoki": {
       "lists": [
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 65906301,
@@ -138912,7 +139755,8 @@
     },
     "zer1t0/awsenum": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 506127301,
@@ -139080,7 +139924,8 @@
     },
     "GamehunterKaan/AutoPWN-Suite": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 491539517,
@@ -139146,7 +139991,8 @@
     },
     "dhondta/python-codext": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 236679865,
@@ -139487,7 +140333,8 @@
     },
     "kyclark/parallelprocs": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Python"
       ],
       "metadata": {
         "id": 192974882,
@@ -139647,7 +140494,9 @@
       "last_updated": "2026-03-17T22:17:23.607432+00:00"
     },
     "miso-belica/sumy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 8313091,
         "name": "sumy",
@@ -139769,7 +140618,9 @@
       "last_updated": "2026-03-17T22:17:24.777361+00:00"
     },
     "amanusk/s-tui": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 87705200,
         "name": "s-tui",
@@ -139989,7 +140840,8 @@
     },
     "cookiecutter/cookiecutter": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 11407242,
@@ -140083,7 +140935,8 @@
     },
     "aws-samples/ec2-classic-resource-finder": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 348107363,
@@ -140192,7 +141045,8 @@
     },
     "borisdayma/dalle-mini": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 382680786,
@@ -140233,7 +141087,9 @@
       "last_updated": "2026-03-17T22:17:28.994035+00:00"
     },
     "EleutherAI/gpt-neox": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 323651234,
         "name": "gpt-neox",
@@ -140253,7 +141109,9 @@
       "last_updated": "2026-03-17T22:17:29.195325+00:00"
     },
     "huggingface/transformers": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 155220641,
         "name": "transformers",
@@ -140320,7 +141178,8 @@
     "Azure/2021-machine-learning-security-evasion-competition": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 366783185,
@@ -140429,7 +141288,8 @@
     "a13xp0p0v/kernel-hardening-checker": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 137949274,
@@ -140451,7 +141311,8 @@
     },
     "hashview/hashview": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 315417563,
@@ -140495,7 +141356,9 @@
       "last_updated": "2026-03-17T22:17:31.465326+00:00"
     },
     "freelawproject/doctor": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 294418204,
         "name": "doctor",
@@ -140925,7 +141788,8 @@
     },
     "duo-labs/markdown-to-confluence": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 229082100,
@@ -141240,7 +142104,8 @@
     },
     "conda-forge/miniforge": {
       "lists": [
-        "Bash"
+        "Bash",
+        "Python"
       ],
       "metadata": {
         "id": 221584272,
@@ -141308,7 +142173,8 @@
     },
     "lanmaster53/recon-ng": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 178254323,
@@ -141511,7 +142377,8 @@
     },
     "shellster/LDAPPER": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 273030731,
@@ -141533,7 +142400,8 @@
     },
     "fabric/fabric": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 189840,
@@ -141556,7 +142424,8 @@
     "paramiko/paramiko": {
       "lists": [
         "Devops",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 119609,
@@ -141578,7 +142447,8 @@
     },
     "christophetd/censys-subdomain-finder": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 117537050,
@@ -141622,7 +142492,8 @@
       "lists": [
         "Devops",
         "Docker and OCI containers",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 232338630,
@@ -141645,7 +142516,8 @@
     "Rog3rSm1th/frelatage": {
       "lists": [
         "Fuzzing",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 465913676,
@@ -142126,7 +142998,8 @@
     },
     "sqlalchemy/alembic": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 159267771,
@@ -142940,7 +143813,9 @@
       "last_updated": "2026-03-17T22:17:53.364710+00:00"
     },
     "bloomberg/memray": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 479491550,
         "name": "memray",
@@ -143077,7 +143952,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 134493334,
@@ -143838,7 +144714,8 @@
     },
     "kellyjonbrazil/jc": {
       "lists": [
-        "JSON"
+        "JSON",
+        "Python"
       ],
       "metadata": {
         "id": 215404927,
@@ -144101,7 +144978,9 @@
       "last_updated": "2026-03-17T22:18:03.758518+00:00"
     },
     "jrfonseca/xdot.py": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 10011909,
         "name": "xdot.py",
@@ -144146,7 +145025,8 @@
     "mingrammer/diagrams": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 237791077,
@@ -145087,7 +145967,8 @@
       "lists": [
         "Bash",
         "JavaScript",
-        "JSON"
+        "JSON",
+        "Python"
       ],
       "metadata": {
         "id": 35969061,
@@ -145825,7 +146706,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 257326204,
@@ -145982,7 +146864,8 @@
     "goauthentik/authentik": {
       "lists": [
         "Devops",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 230885748,
@@ -151014,7 +151897,8 @@
     },
     "Textualize/rich": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 220809393,
@@ -153240,7 +154124,8 @@
     "danielhoherd/pub-bin": {
       "lists": [
         "Bash",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 175497367,
@@ -154488,7 +155373,8 @@
     "netbox-community/netbox": {
       "lists": [
         "Devops",
-        "Networking"
+        "Networking",
+        "Python"
       ],
       "metadata": {
         "id": 52796596,
@@ -154620,7 +155506,8 @@
     },
     "Yelp/detect-secrets": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 113111650,
@@ -154888,7 +155775,8 @@
     "bloomreach/s4cmd": {
       "lists": [
         "AWS",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 6624198,
@@ -154992,7 +155880,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 71948498,
@@ -155650,7 +156539,8 @@
       "lists": [
         "AWS",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 209652627,
@@ -155675,7 +156565,8 @@
         "Devops",
         "Infosec",
         "Networking",
-        "PKI"
+        "PKI",
+        "Python"
       ],
       "metadata": {
         "id": 12798028,
@@ -156358,7 +157249,8 @@
     "cloud-custodian/cloud-custodian": {
       "lists": [
         "AWS",
-        "Devops"
+        "Devops",
+        "Python"
       ],
       "metadata": {
         "id": 52837350,
@@ -156502,7 +157394,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Python"
       ],
       "metadata": {
         "id": 224386599,
@@ -158124,7 +159017,8 @@
     "GAM-team/GAM": {
       "lists": [
         "Devops",
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Python"
       ],
       "metadata": {
         "id": 20185174,
