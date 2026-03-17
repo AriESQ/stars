@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:53.463915+00:00",
+  "last_updated": "2026-03-17T23:11:55.755762+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -12156,7 +12156,9 @@
       }
     },
     "ijl/orjson": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 158618772,
         "name": "orjson",
@@ -14086,7 +14088,9 @@
       }
     },
     "vortex-data/vortex": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 764020969,
         "name": "vortex",
@@ -14136,7 +14140,9 @@
       }
     },
     "7mind/sick": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 461297869,
         "name": "sick",
@@ -14211,7 +14217,9 @@
       }
     },
     "toon-format/toon": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 1081397957,
         "name": "toon",
@@ -16399,7 +16407,8 @@
     },
     "rictic/jsonriver": {
       "lists": [
-        "API"
+        "API",
+        "JSON"
       ],
       "metadata": {
         "id": 870911441,
@@ -18926,7 +18935,9 @@
       }
     },
     "skirdey-inflection/jslon": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 944876224,
         "name": "jslon",
@@ -23220,7 +23231,9 @@
       }
     },
     "trailofbits/graphtage": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 257655337,
         "name": "graphtage",
@@ -26924,7 +26937,8 @@
     },
     "sinclairzx81/typebox": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 87454905,
@@ -38878,7 +38892,8 @@
     },
     "bytedance/sonic": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 370557198,
@@ -46501,7 +46516,9 @@
       }
     },
     "antmicro/tui-selector": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 364894957,
         "name": "tui-selector",
@@ -47799,7 +47816,8 @@
     },
     "summerstyle/jsonTreeViewer": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 19369718,
@@ -47826,7 +47844,8 @@
     },
     "The-01-Company/jsontr.ee": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 894105996,
@@ -57071,7 +57090,9 @@
       }
     },
     "jart/json.cpp": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 880625712,
         "name": "json.cpp",
@@ -65104,7 +65125,9 @@
       }
     },
     "paololazzari/play": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 695915883,
         "name": "play",
@@ -67557,7 +67580,8 @@
     },
     "get-set-fetch/extension": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 135053277,
@@ -74173,7 +74197,9 @@
       }
     },
     "burningtree/awesome-json": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 33020765,
         "name": "awesome-json",
@@ -77789,7 +77815,8 @@
     "JFryy/qq": {
       "lists": [
         "Devops",
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 819154949,
@@ -78661,7 +78688,8 @@
     },
     "ynqa/jnv": {
       "lists": [
-        "API"
+        "API",
+        "JSON"
       ],
       "metadata": {
         "id": 773832743,
@@ -94741,7 +94769,8 @@
     "mattn/jsonargs": {
       "lists": [
         "API",
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 73453161,
@@ -99296,7 +99325,8 @@
     },
     "simdjson/simdjson": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JSON"
       ],
       "metadata": {
         "id": 126412363,
@@ -103111,7 +103141,8 @@
     "AykutSarac/jsoncrack.com": {
       "lists": [
         "API",
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 453717720,
@@ -103820,7 +103851,8 @@
     },
     "antonmedv/fx": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 118945118,
@@ -106167,7 +106199,8 @@
     "josephburnett/jd": {
       "lists": [
         "API",
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 72809829,
@@ -108367,7 +108400,9 @@
       "last_updated": "2026-03-17T22:13:19.047814+00:00"
     },
     "1rgs/jsonformer": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 634379415,
         "name": "jsonformer",
@@ -112121,7 +112156,9 @@
       "last_updated": "2026-03-17T22:13:56.549680+00:00"
     },
     "PaulJuliusMartinez/jless": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 361079646,
         "name": "jless",
@@ -115330,7 +115367,8 @@
     },
     "google/jsonnet": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JSON"
       ],
       "metadata": {
         "id": 22527161,
@@ -119821,7 +119859,9 @@
       "last_updated": "2026-03-17T22:15:08.688356+00:00"
     },
     "logzio/sawmill": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 69273058,
         "name": "sawmill",
@@ -121940,7 +121980,8 @@
     },
     "noahgorstein/jqp": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 529775188,
@@ -123007,7 +123048,8 @@
     },
     "wader/fq": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 336895436,
@@ -123371,7 +123413,8 @@
     "glideapps/quicktype": {
       "lists": [
         "API",
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 97062850,
@@ -124759,7 +124802,9 @@
       "last_updated": "2026-03-17T22:15:54.909142+00:00"
     },
     "jmespath-community/jmespath.spec": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 464077914,
         "name": "jmespath.spec",
@@ -129687,7 +129732,9 @@
       "last_updated": "2026-03-17T22:16:40.545917+00:00"
     },
     "nicofff/vscode-preview-yaml-as-json": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 240797772,
         "name": "vscode-preview-yaml-as-json",
@@ -131955,7 +132002,8 @@
     "jqlang/playground": {
       "lists": [
         "GoLang",
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 17960964,
@@ -132019,7 +132067,8 @@
     },
     "itchyny/gojq": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 180954037,
@@ -132061,7 +132110,8 @@
     },
     "remy/jqterm": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 111248066,
@@ -132083,7 +132133,8 @@
     },
     "rjz/jq-tutorial": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 15848545,
@@ -132310,7 +132361,9 @@
       "last_updated": "2026-03-17T22:17:05.917496+00:00"
     },
     "bashup/jqmd": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 95397487,
         "name": "jqmd",
@@ -132488,7 +132541,8 @@
     },
     "nire0510/jqi": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "JSON"
       ],
       "metadata": {
         "id": 94864287,
@@ -132554,7 +132608,8 @@
     },
     "mondok/jqui": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "JSON"
       ],
       "metadata": {
         "id": 41713571,
@@ -132576,7 +132631,8 @@
     },
     "joelpurra/jq-hopkok": {
       "lists": [
-        "Bash"
+        "Bash",
+        "JSON"
       ],
       "metadata": {
         "id": 22752196,
@@ -132598,7 +132654,8 @@
     },
     "sanack/node-jq": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 60918486,
@@ -132619,7 +132676,9 @@
       "last_updated": "2026-03-17T22:17:08.797421+00:00"
     },
     "eiiches/jackson-jq": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 45832751,
         "name": "jackson-jq",
@@ -132686,7 +132745,8 @@
     },
     "gpanders/ijq": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 277560176,
@@ -132941,7 +133001,8 @@
     },
     "simeji/jid": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 60534669,
@@ -132984,7 +133045,9 @@
       "last_updated": "2026-03-17T22:17:11.883550+00:00"
     },
     "wellsjo/JSON-Splora": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 71188401,
         "name": "JSON-Splora",
@@ -133004,7 +133067,9 @@
       "last_updated": "2026-03-17T22:17:12.080041+00:00"
     },
     "kantord/jq-in-the-browser": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 120067619,
         "name": "jq-in-the-browser",
@@ -136283,7 +136348,8 @@
     },
     "github/rest-api-description": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JSON"
       ],
       "metadata": {
         "id": 274190073,
@@ -137709,7 +137775,9 @@
       "last_updated": "2026-03-17T22:17:55.489335+00:00"
     },
     "json-schema-org/understanding-json-schema": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 12618908,
         "name": "understanding-json-schema",
@@ -138080,7 +138148,8 @@
     },
     "tomnomnom/gron": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 5724223,
@@ -138122,7 +138191,8 @@
     },
     "kislyuk/yq": {
       "lists": [
-        "Devops"
+        "Devops",
+        "JSON"
       ],
       "metadata": {
         "id": 78888191,
@@ -138146,7 +138216,8 @@
       "lists": [
         "Devops",
         "Github Actions",
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 43225113,
@@ -138372,7 +138443,9 @@
       "last_updated": "2026-03-17T22:18:01.239432+00:00"
     },
     "kellyjonbrazil/jc": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 215404927,
         "name": "jc",
@@ -139607,7 +139680,8 @@
     "google/styleguide": {
       "lists": [
         "Bash",
-        "JavaScript"
+        "JavaScript",
+        "JSON"
       ],
       "metadata": {
         "id": 35969061,
@@ -142267,7 +142341,9 @@
       "last_updated": "2026-03-17T22:18:37.607927+00:00"
     },
     "saulpw/visidata": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 72070681,
         "name": "visidata",
@@ -145626,7 +145702,9 @@
       "last_updated": "2026-03-17T22:19:09.007234+00:00"
     },
     "jqlang/jq": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 5101141,
         "name": "jq",
@@ -146054,7 +146132,8 @@
     },
     "johnkerl/miller": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "JSON"
       ],
       "metadata": {
         "id": 35003822,
@@ -148298,7 +148377,8 @@
     "threathunters-io/laurel": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "JSON"
       ],
       "metadata": {
         "id": 392231408,
