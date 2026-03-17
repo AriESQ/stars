@@ -8,10 +8,6 @@ export const fieldOptions = [
   { value: 'pushed_at', label: 'Pushed At' },
   { value: 'starred_at', label: 'Starred At' },
   { value: 'lists', label: 'Lists' },
-  { value: 'arxiv_category', label: 'arXiv Category' },
-  { value: 'arxiv_published', label: 'arXiv Published Date' },
-  { value: 'arxiv_updated', label: 'arXiv Updated Date' },
-  { value: 'arxiv_primary', label: 'Has Primary arXiv Article' },
 ];
 
 export const getOperators = (fieldType) => {
@@ -53,11 +49,8 @@ export const getInputType = (field) => {
     case 'updated_at':
     case 'pushed_at':
     case 'starred_at':
-    case 'arxiv_published':
-    case 'arxiv_updated':
       return 'date';
     case 'lists':
-    case 'arxiv_category':
       return 'list';
     default:
       return 'text';

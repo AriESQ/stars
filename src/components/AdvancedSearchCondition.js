@@ -1,11 +1,11 @@
 import React from 'react';
 import { getOperators, getInputType } from '../utils/sortUtils';
 
-const AdvancedSearchCondition = ({ condition, updateCondition, fieldOptions, allLists, allCategories }) => {
+const AdvancedSearchCondition = ({ condition, updateCondition, fieldOptions, allLists }) => {
   const renderInput = () => {
     const inputType = getInputType(condition.field);
     const inputClass = "w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500";
-    
+
     switch (inputType) {
       case 'number':
         return (
@@ -26,7 +26,6 @@ const AdvancedSearchCondition = ({ condition, updateCondition, fieldOptions, all
           />
         );
       case 'list':
-        const options = condition.field === 'lists' ? allLists : allCategories;
         return (
           <select
             multiple
@@ -34,7 +33,7 @@ const AdvancedSearchCondition = ({ condition, updateCondition, fieldOptions, all
             onChange={(e) => updateCondition({ ...condition, value: Array.from(e.target.selectedOptions, option => option.value).join(',') })}
             className={inputClass}
           >
-            {options.map(option => (
+            {allLists.map(option => (
               <option key={option} value={option}>{option}</option>
             ))}
           </select>

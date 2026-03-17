@@ -2,7 +2,7 @@ import React from 'react';
 import { Plus, Trash2 } from 'lucide-react';
 import AdvancedSearchCondition from './AdvancedSearchCondition';
 
-const AdvancedSearch = ({ conditions, setConditions, fieldOptions, allLists, allCategories }) => {
+const AdvancedSearch = ({ conditions, setConditions, fieldOptions, allLists }) => {
   const addCondition = () => {
     setConditions([...conditions, { field: 'name', operator: 'contains', value: '', conjunction: 'AND' }]);
   };
@@ -41,7 +41,6 @@ const AdvancedSearch = ({ conditions, setConditions, fieldOptions, allLists, all
                 updateCondition={(newCondition) => updateCondition(index, newCondition)}
                 fieldOptions={fieldOptions}
                 allLists={allLists}
-                allCategories={allCategories}
               />
             </div>
             <button

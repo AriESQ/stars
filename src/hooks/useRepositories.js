@@ -1,24 +1,19 @@
 import { useState, useEffect } from 'react';
-import { getArxivFieldValue } from '../utils/arxivUtils';
 
 const useRepositories = () => {
   const [data, setData] = useState(null);
   const [filteredRepos, setFilteredRepos] = useState([]);
   const [allLists, setAllLists] = useState([]);
-  const [arxivMetadata, setArxivMetadata] = useState({});
   const [sortOption, setSortOption] = useState('starred_at');
   const [sortDirection, setSortDirection] = useState('desc');
   const [textSearch, setTextSearch] = useState('');
   const [searchConditions, setSearchConditions] = useState([]);
 
   useEffect(() => {
-    Promise.all([
-      fetch(`${process.env.PUBLIC_URL}/github_stars.json`).then(response => response.json()),
-      fetch(`${process.env.PUBLIC_URL}/arxiv_metadata.json`).then(response => response.json())
-    ])
-    .then(([jsonData, metadata]) => {
+    fetch(`${process.env.PUBLIC_URL}/github_stars.json`)
+    .then(response => response.json())
+    .then(jsonData => {
       setData(jsonData);
-      setArxivMetadata(metadata);
       const lists = new Set();
       Object.values(jsonData.repositories).forEach(repo => {
         (repo.lists || []).forEach(list => lists.add(list));
@@ -31,22 +26,21 @@ const useRepositories = () => {
   useEffect(() => {
     if (data && data.repositories) {
       let filtered = Object.entries(data.repositories).filter(([name, repo]) => {
-        const matchesTextSearch = 
+        const matchesTextSearch =
           textSearch === '' ||
           name.toLowerCase().includes(textSearch.toLowerCase()) ||
           (repo.metadata.description && repo.metadata.description.toLowerCase().includes(textSearch.toLowerCase()));
 
         const matchesAdvancedSearch = searchConditions.every((condition) => {
-          const fieldValue = condition.field === 'name' ? name : 
+          const fieldValue = condition.field === 'name' ? name :
                              condition.field === 'lists' ? repo.lists || [] :
-                             condition.field.startsWith('arxiv_') ? getArxivFieldValue(repo, condition.field, arxivMetadata) :
                              repo.metadata[condition.field];
-          
+
           if (fieldValue === null || fieldValue === undefined) return false;
           let matches;
           switch (condition.operator) {
             case 'contains':
-              matches = Array.isArray(fieldValue) 
+              matches = Array.isArray(fieldValue)
                 ? fieldValue.some(value => String(value).toLowerCase().includes(condition.value.toLowerCase()))
                 : String(fieldValue).toLowerCase().includes(condition.value.toLowerCase());
               break;
@@ -74,12 +68,12 @@ const useRepositories = () => {
               matches = new Date(fieldValue) < new Date(condition.value);
               break;
             case 'includes':
-              matches = Array.isArray(fieldValue) && condition.value.split(',').some(val => 
+              matches = Array.isArray(fieldValue) && condition.value.split(',').some(val =>
                 fieldValue.some(category => category.toLowerCase().includes(val.toLowerCase()))
               );
               break;
             case 'excludes':
-              matches = Array.isArray(fieldValue) && !condition.value.split(',').some(val => 
+              matches = Array.isArray(fieldValue) && !condition.value.split(',').some(val =>
                 fieldValue.some(category => category.toLowerCase().includes(val.toLowerCase()))
               );
               break;
@@ -105,12 +99,7 @@ const useRepositories = () => {
           case 'created_at':
           case 'pushed_at':
           case 'starred_at':
-            return (new Date(repoA.metadata[sortOption]) - new Date(repoB.metadata[sortOption])) * direction; // Fixed order
-          case 'arxiv_published':
-          case 'arxiv_updated':
-            const dateA = new Date(getArxivFieldValue(repoA, sortOption, arxivMetadata) || 0);
-            const dateB = new Date(getArxivFieldValue(repoB, sortOption, arxivMetadata) || 0);
-            return (dateA - dateB) * direction; // Fixed order
+            return (new Date(repoA.metadata[sortOption]) - new Date(repoB.metadata[sortOption])) * direction;
           default:
             return 0;
         }
@@ -118,7 +107,7 @@ const useRepositories = () => {
 
       setFilteredRepos(filtered);
     }
-  }, [data, sortOption, sortDirection, textSearch, searchConditions, arxivMetadata]);
+  }, [data, sortOption, sortDirection, textSearch, searchConditions]);
 
   const handleSortChange = (option) => {
     if (option === sortOption) {
@@ -137,10 +126,8 @@ const useRepositories = () => {
     data,
     filteredRepos,
     allLists,
-    allCategories: [...new Set(Object.values(arxivMetadata).flatMap(paper => paper.categories))],
     handleSortChange,
     toggleSortDirection,
-    arxivMetadata,
     sortOption,
     sortDirection,
     textSearch,
