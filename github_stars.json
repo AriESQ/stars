@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:11:03.556351+00:00",
+  "last_updated": "2026-03-17T23:11:07.162772+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -675,7 +675,9 @@
       }
     },
     "peaceiris/actions-mdbook": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 224423059,
         "name": "actions-mdbook",
@@ -700,7 +702,9 @@
       }
     },
     "peaceiris/actions-hugo": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 187902720,
         "name": "actions-hugo",
@@ -886,7 +890,8 @@
     },
     "driftlessaf/go-driftlessaf": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 1142369668,
@@ -2844,7 +2849,9 @@
       }
     },
     "github/gh-aw": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1036865607,
         "name": "gh-aw",
@@ -4106,7 +4113,9 @@
       }
     },
     "twelvelabs/gh-repo-config": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 557107651,
         "name": "gh-repo-config",
@@ -4389,7 +4398,9 @@
       }
     },
     "myzkey/gh-repo-settings": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1105652139,
         "name": "gh-repo-settings",
@@ -5854,7 +5865,9 @@
       }
     },
     "cycjimmy/semantic-release-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 215775505,
         "name": "semantic-release-action",
@@ -5904,7 +5917,9 @@
       }
     },
     "flightlessmango/MangoHud": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 236648333,
         "name": "MangoHud",
@@ -6921,7 +6936,9 @@
       }
     },
     "wei/pull": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 134992035,
         "name": "pull",
@@ -7226,7 +7243,8 @@
     },
     "lawrencegripper/actions-term-on-fail": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 1124366727,
@@ -7560,7 +7578,9 @@
       }
     },
     "actions/setup-node": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 189476904,
         "name": "setup-node",
@@ -7610,7 +7630,9 @@
       }
     },
     "MarketingPipeline/Python-Selenium-Action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 498160631,
         "name": "Python-Selenium-Action",
@@ -9580,7 +9602,9 @@
       }
     },
     "upptime/upptime": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 286080143,
         "name": "upptime",
@@ -10768,7 +10792,9 @@
       }
     },
     "McFlyboy/Miracle": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 432818085,
         "name": "Miracle",
@@ -11938,7 +11964,8 @@
     "GuillaumeFalourd/sign-and-notarize-gha": {
       "lists": [
         "Apple and M1 virtualization",
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 474016628,
@@ -14100,7 +14127,9 @@
       }
     },
     "wimpysworld/deb-get": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 482789449,
         "name": "deb-get",
@@ -16048,7 +16077,9 @@
       }
     },
     "chainguard-dev/malcontent-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1001040789,
         "name": "malcontent-action",
@@ -17125,7 +17156,9 @@
       }
     },
     "andrewthetechie/gha-cookiecutter": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 501873365,
         "name": "gha-cookiecutter",
@@ -17581,7 +17614,9 @@
       }
     },
     "csm-actions/securefix-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 947590271,
         "name": "securefix-action",
@@ -19966,7 +20001,9 @@
       }
     },
     "droctothorpe/gha-docs": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1052993976,
         "name": "gha-docs",
@@ -20925,7 +20962,8 @@
     },
     "arillso/action.playbook": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 251373134,
@@ -22326,7 +22364,9 @@
       }
     },
     "peter-evans/create-pull-request": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 197176365,
         "name": "create-pull-request",
@@ -23299,7 +23339,9 @@
       }
     },
     "george-hawkins/video-in-github-markdown": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 933310455,
         "name": "video-in-github-markdown",
@@ -23350,7 +23392,8 @@
     },
     "github/platform-samples": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 8445877,
@@ -24745,7 +24788,8 @@
     },
     "suzuki-shunsuke/tfaction": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 448888766,
@@ -25435,7 +25479,9 @@
       }
     },
     "GuillaumeFalourd/useful-actions": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 354367459,
         "name": "useful-actions",
@@ -25460,7 +25506,9 @@
       }
     },
     "githubocto/flat": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 340160323,
         "name": "flat",
@@ -26463,7 +26511,9 @@
       }
     },
     "retr0h/gilt": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 229168243,
         "name": "gilt",
@@ -27982,7 +28032,8 @@
     },
     "trufflesecurity/force-push-scanner": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 1009034267,
@@ -28165,7 +28216,9 @@
       }
     },
     "DWSR/actions": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 933946626,
         "name": "actions",
@@ -28890,7 +28943,8 @@
     },
     "jj-vcs/jj": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 322484700,
@@ -28917,7 +28971,8 @@
     },
     "actions/github-script": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 205262760,
@@ -29484,7 +29539,8 @@
     },
     "github/gh-actions-importer": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 560182652,
@@ -30697,7 +30753,9 @@
       }
     },
     "ejwa/gitinspector": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 41260052,
         "name": "gitinspector",
@@ -30722,7 +30780,9 @@
       }
     },
     "reposense/RepoSense": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 92653253,
         "name": "RepoSense",
@@ -32288,7 +32348,9 @@
       }
     },
     "douglascamata/setup-docker-macos-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 522565081,
         "name": "setup-docker-macos-action",
@@ -32364,7 +32426,8 @@
     },
     "abhinav/restack": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 106304167,
@@ -32391,7 +32454,8 @@
     },
     "ejoffe/spr": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 370007792,
@@ -32418,7 +32482,8 @@
     },
     "ezyang/ghstack": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 153046276,
@@ -32445,7 +32510,8 @@
     },
     "github/docs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 189621607,
@@ -35343,7 +35409,9 @@
       }
     },
     "AdnaneKhan/gato-x": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 749160816,
         "name": "gato-x",
@@ -36028,7 +36096,9 @@
       }
     },
     "jstawinski/GitHub-Actions-Attack-Diagram": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 836537250,
         "name": "GitHub-Actions-Attack-Diagram",
@@ -36996,7 +37066,9 @@
       }
     },
     "github/advisory-database": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 458364565,
         "name": "advisory-database",
@@ -38303,7 +38375,8 @@
     },
     "Skyscanner/turbolift": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 355476462,
@@ -39724,7 +39797,9 @@
       }
     },
     "actions/publish-immutable-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 720199320,
         "name": "publish-immutable-action",
@@ -39952,7 +40027,9 @@
       }
     },
     "estruyf/playwright-github-actions-reporter": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 679698681,
         "name": "playwright-github-actions-reporter",
@@ -39977,7 +40054,9 @@
       }
     },
     "octo-sts/app": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 745584888,
         "name": "app",
@@ -42006,7 +42085,9 @@
       }
     },
     "Kong/gke-renovate-datasource": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 704028433,
         "name": "gke-renovate-datasource",
@@ -42161,7 +42242,8 @@
     },
     "octobox/octobox": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 76692542,
@@ -45768,7 +45850,8 @@
     },
     "antmicro/github-actions-runner-terraform": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 391145900,
@@ -46965,7 +47048,9 @@
       }
     },
     "tcort/markdown-link-check": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 49756018,
         "name": "markdown-link-check",
@@ -52695,7 +52780,9 @@
       }
     },
     "dmarx/ai-gha": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 877541111,
         "name": "ai-gha",
@@ -52720,7 +52807,9 @@
       }
     },
     "dmarx/stars": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 868581537,
         "name": "stars",
@@ -55151,7 +55240,8 @@
     "zizmorcore/zizmor": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 844670429,
@@ -55233,7 +55323,8 @@
     },
     "repository-settings/app": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 79733281,
@@ -57331,7 +57422,8 @@
     },
     "rhysd/actionlint": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 370668507,
@@ -65170,7 +65262,9 @@
       }
     },
     "githubocto/flat-viewer": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 346845202,
         "name": "flat-viewer",
@@ -65196,7 +65290,8 @@
     },
     "abhinav/git-spice": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 660623402,
@@ -77290,7 +77385,8 @@
     },
     "copier-org/copier": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 2690104,
@@ -77714,7 +77810,8 @@
     "Correia-jpv/fucking-awesome-actions": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 456143999,
@@ -79677,7 +79774,8 @@
     },
     "groda/the_ultimate_gitignore_guide": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Github Actions"
       ],
       "metadata": {
         "id": 577058980,
@@ -81883,7 +81981,8 @@
     },
     "jonico/awesome-runners": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 336353479,
@@ -83186,7 +83285,8 @@
     },
     "apenwarr/git-subtrac": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 220635884,
@@ -84503,7 +84603,8 @@
     "hmarr/codeowners": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 282309982,
@@ -88935,7 +89036,9 @@
       "last_updated": "2026-03-17T22:10:17.415800+00:00"
     },
     "bfra-me/renovate-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 694926541,
         "name": "renovate-action",
@@ -92154,7 +92257,9 @@
       "last_updated": "2026-03-17T22:10:49.271269+00:00"
     },
     "securego/gosec": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 63625434,
         "name": "gosec",
@@ -93380,7 +93485,9 @@
       "last_updated": "2026-03-17T22:11:01.668218+00:00"
     },
     "WarpBuilds/action-debugger": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 697719778,
         "name": "action-debugger",
@@ -93753,7 +93860,8 @@
     },
     "AmrDeveloper/GQL": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 649816851,
@@ -100400,7 +100508,9 @@
       "last_updated": "2026-03-17T22:12:13.689223+00:00"
     },
     "github/codespaces-actions-playground": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 599795433,
         "name": "codespaces-actions-playground",
@@ -100621,7 +100731,9 @@
       "last_updated": "2026-03-17T22:12:15.735456+00:00"
     },
     "actions/toolkit": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 182299236,
         "name": "toolkit",
@@ -102958,7 +103070,8 @@
     },
     "stacked-git/stgit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 93957881,
@@ -106801,7 +106914,9 @@
       "last_updated": "2026-03-17T22:13:18.232075+00:00"
     },
     "lycheeverse/lychee-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 320929718,
         "name": "lychee-action",
@@ -106821,7 +106936,9 @@
       "last_updated": "2026-03-17T22:13:18.433944+00:00"
     },
     "celinekurpershoek/link-checker": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 232084668,
         "name": "link-checker",
@@ -106841,7 +106958,9 @@
       "last_updated": "2026-03-17T22:13:18.617750+00:00"
     },
     "sdras/awesome-actions": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 153500249,
         "name": "awesome-actions",
@@ -106988,7 +107107,9 @@
       "last_updated": "2026-03-17T22:13:20.062677+00:00"
     },
     "BetaHuhn/repo-file-sync-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 327705279,
         "name": "repo-file-sync-action",
@@ -107008,7 +107129,9 @@
       "last_updated": "2026-03-17T22:13:20.280520+00:00"
     },
     "andrewthetechie/gha-repo-manager": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 502463513,
         "name": "gha-repo-manager",
@@ -108276,7 +108399,9 @@
       "last_updated": "2026-03-17T22:13:33.802024+00:00"
     },
     "github-aws-runners/terraform-aws-github-runner": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 258465213,
         "name": "terraform-aws-github-runner",
@@ -108296,7 +108421,9 @@
       "last_updated": "2026-03-17T22:13:34.038333+00:00"
     },
     "machulav/ec2-github-runner": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 320320607,
         "name": "ec2-github-runner",
@@ -108381,7 +108508,8 @@
     },
     "github/safe-settings": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 292561501,
@@ -108402,7 +108530,9 @@
       "last_updated": "2026-03-17T22:13:35.082327+00:00"
     },
     "probot/probot": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 68414068,
         "name": "probot",
@@ -108751,7 +108881,9 @@
       "last_updated": "2026-03-17T22:13:38.709312+00:00"
     },
     "advanced-security/spdx-dependency-submission-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 605798379,
         "name": "spdx-dependency-submission-action",
@@ -108771,7 +108903,9 @@
       "last_updated": "2026-03-17T22:13:38.898298+00:00"
     },
     "advanced-security/component-detection-dependency-submission-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 604441937,
         "name": "component-detection-dependency-submission-action",
@@ -109937,7 +110071,9 @@
       "last_updated": "2026-03-17T22:13:50.625895+00:00"
     },
     "testifysec/witness-run-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 624483576,
         "name": "witness-run-action",
@@ -110960,7 +111096,9 @@
       "last_updated": "2026-03-17T22:14:01.269430+00:00"
     },
     "actions/runner": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 184286875,
         "name": "runner",
@@ -111206,7 +111344,9 @@
       "last_updated": "2026-03-17T22:14:03.571792+00:00"
     },
     "actions/go-dependency-submission": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 503437039,
         "name": "go-dependency-submission",
@@ -111774,7 +111914,8 @@
     },
     "stepci/stepci": {
       "lists": [
-        "API"
+        "API",
+        "Github Actions"
       ],
       "metadata": {
         "id": 537500924,
@@ -111973,7 +112114,8 @@
     },
     "seeeverything/publish-terraform-modules": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 403530015,
@@ -112703,7 +112845,8 @@
     },
     "diggerhq/digger": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 605995490,
@@ -113151,7 +113294,8 @@
     },
     "wagoid/commitlint-github-action": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 212203144,
@@ -113173,7 +113317,8 @@
     },
     "siderolabs/conform": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 93275422,
@@ -113651,7 +113796,8 @@
     "slsa-framework/slsa-github-generator": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 475074978,
@@ -114976,7 +115122,9 @@
       "last_updated": "2026-03-17T22:14:40.274830+00:00"
     },
     "praetorian-inc/gato": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 585973808,
         "name": "gato",
@@ -118563,7 +118711,8 @@
     "sigstore/gh-action-sigstore-python": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 508560980,
@@ -118956,7 +119105,9 @@
       "last_updated": "2026-03-17T22:15:18.648527+00:00"
     },
     "krlmlr/actions-sync": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 317787236,
         "name": "actions-sync",
@@ -119747,7 +119898,8 @@
     },
     "arxanas/git-branchless": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 320370787,
@@ -121810,7 +121962,9 @@
       "last_updated": "2026-03-17T22:15:46.141962+00:00"
     },
     "nixbuild/nix-quick-install-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 296639338,
         "name": "nix-quick-install-action",
@@ -121830,7 +121984,9 @@
       "last_updated": "2026-03-17T22:15:46.386705+00:00"
     },
     "cachix/install-nix-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 212301524,
         "name": "install-nix-action",
@@ -122411,7 +122567,8 @@
     "aws-actions/configure-aws-credentials": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 220391287,
@@ -122517,7 +122674,8 @@
     },
     "actions/starter-workflows": {
       "lists": [
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 199488860,
@@ -122565,7 +122723,8 @@
       "lists": [
         "Apple and M1 virtualization",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 399113632,
@@ -123613,7 +123772,8 @@
     },
     "GerritCodeReview/git-repo": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 47751782,
@@ -124708,7 +124868,8 @@
     "christian-draeger/increment-semantic-version": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 234625407,
@@ -124816,7 +124977,8 @@
     "WillAbides/setup-go-faster": {
       "lists": [
         "Bash",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 332097123,
@@ -124878,7 +125040,8 @@
     },
     "PortSwigger/dastardly-github-action": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 552851897,
@@ -125246,7 +125409,8 @@
       "lists": [
         "AWS",
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 51515624,
@@ -125422,7 +125586,8 @@
     },
     "ahsand97/upload-assets-to-release-with-go": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 553894917,
@@ -125618,7 +125783,8 @@
     "doeac/awesome-pipeline-as-code": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 336862873,
@@ -126404,7 +126570,8 @@
     "Azure/setup-helm": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 210310251,
@@ -126597,7 +126764,8 @@
     },
     "allero-io/allero": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 528884114,
@@ -129594,7 +129762,8 @@
     "sigstore/gitsign": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 491573171,
@@ -130569,7 +130738,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Github Actions"
       ],
       "metadata": {
         "id": 206690330,
@@ -130616,7 +130786,8 @@
         "Bash",
         "CI/CD",
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Github Actions"
       ],
       "metadata": {
         "id": 327685612,
@@ -130856,7 +131027,8 @@
     "the-cashman/pre-commit-trufflehog": {
       "lists": [
         "Bash",
-        "CI/CD"
+        "CI/CD",
+        "Github Actions"
       ],
       "metadata": {
         "id": 483875816,
@@ -131542,7 +131714,8 @@
     },
     "actions/runner-images": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 190416463,
@@ -132311,7 +132484,8 @@
     },
     "palantir/policy-bot": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 151643522,
@@ -132970,7 +133144,8 @@
     },
     "hkratz/gha-runner-osx-arm64": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Github Actions"
       ],
       "metadata": {
         "id": 395714940,
@@ -135730,7 +135905,8 @@
     },
     "mikefarah/yq": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 43225113,
@@ -136939,7 +137115,8 @@
     },
     "gruntwork-io/git-xargs": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 348310601,
@@ -137425,7 +137602,8 @@
     },
     "goreleaser/goreleaser-action": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 209873006,
@@ -137864,7 +138042,8 @@
     },
     "GitGuardian/ggshield-action": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 272400318,
@@ -138406,7 +138585,8 @@
     },
     "gruntwork-io/pre-commit": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 133653910,
@@ -138596,7 +138776,9 @@
       "last_updated": "2026-03-17T22:18:26.314051+00:00"
     },
     "chainguard-dev/actions": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 461955941,
         "name": "actions",
@@ -141627,7 +141809,8 @@
     "nektos/act": {
       "lists": [
         "CI/CD",
-        "Devops"
+        "Devops",
+        "Github Actions"
       ],
       "metadata": {
         "id": 163883279,
@@ -144653,7 +144836,8 @@
     "sigstore/cosign": {
       "lists": [
         "Devops",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Github Actions"
       ],
       "metadata": {
         "id": 335952417,
@@ -147907,7 +148091,8 @@
     "myoung34/docker-github-actions-runner": {
       "lists": [
         "Bash",
-        "Docker and OCI containers"
+        "Docker and OCI containers",
+        "Github Actions"
       ],
       "metadata": {
         "id": 223951404,
