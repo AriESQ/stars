@@ -1,8 +1,10 @@
 {
-  "last_updated": "2026-03-17T23:09:33.389563+00:00",
+  "last_updated": "2026-03-17T23:09:37.287578+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1140644614,
         "name": "ViscosityTouchID",
@@ -427,7 +429,9 @@
       }
     },
     "artginzburg/sudo-touchid": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 389117398,
         "name": "sudo-touchid",
@@ -452,7 +456,9 @@
       }
     },
     "jorgelbg/pinentry-touchid": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 383950914,
         "name": "pinentry-touchid",
@@ -477,7 +483,9 @@
       }
     },
     "dss99911/keychain-fingerprint": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1128927061,
         "name": "keychain-fingerprint",
@@ -502,7 +510,9 @@
       }
     },
     "johnthethird/keymaster": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 500489286,
         "name": "keymaster",
@@ -1187,7 +1197,9 @@
       }
     },
     "eugene1g/agent-safehouse": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1153806672,
         "name": "agent-safehouse",
@@ -1437,7 +1449,9 @@
       }
     },
     "objective-see/KnockKnock": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 334791536,
         "name": "KnockKnock",
@@ -2590,7 +2604,9 @@
       }
     },
     "KosalaHerath/macos-installer-builder": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 174401958,
         "name": "macos-installer-builder",
@@ -2665,7 +2681,9 @@
       }
     },
     "rickmark/mojo_thor": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 100866857,
         "name": "mojo_thor",
@@ -3977,7 +3995,9 @@
       }
     },
     "doronz88/harlogger": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 350311704,
         "name": "harlogger",
@@ -4360,7 +4380,9 @@
       }
     },
     "macfuse/macfuse": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1867347,
         "name": "macfuse",
@@ -4610,7 +4632,9 @@
       }
     },
     "ArtemioUrbina/MDFourier": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 178350178,
         "name": "MDFourier",
@@ -4660,7 +4684,9 @@
       }
     },
     "IPAlibrary/IPA": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 773696227,
         "name": "IPA",
@@ -7982,7 +8008,9 @@
       }
     },
     "Slayingripper/MacOS-SDR": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 862360064,
         "name": "MacOS-SDR",
@@ -11593,7 +11621,9 @@
       }
     },
     "square/Valet": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 36665359,
         "name": "Valet",
@@ -11618,7 +11648,9 @@
       }
     },
     "sparkle-project/Sparkle": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 274782,
         "name": "Sparkle",
@@ -11643,7 +11675,9 @@
       }
     },
     "GuillaumeFalourd/sign-and-notarize-gha": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 474016628,
         "name": "sign-and-notarize-gha",
@@ -13003,7 +13037,9 @@
       }
     },
     "HexFiend/HexFiend": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 2928534,
         "name": "HexFiend",
@@ -13453,7 +13489,9 @@
       }
     },
     "spieglt/VideoResizer": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1083679680,
         "name": "VideoResizer",
@@ -14244,7 +14282,9 @@
       }
     },
     "tuna-f1sh/cyme": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 564788291,
         "name": "cyme",
@@ -18642,7 +18682,9 @@
       }
     },
     "NSSpiral/Blackb0x": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 383787088,
         "name": "Blackb0x",
@@ -19819,7 +19861,9 @@
       }
     },
     "Sikarugir-App/Sikarugir": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 836956455,
         "name": "Sikarugir",
@@ -27024,7 +27068,9 @@
       }
     },
     "indragiek/Context": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1008713200,
         "name": "Context",
@@ -29071,7 +29117,9 @@
       }
     },
     "alin23/Lunar": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 139616172,
         "name": "Lunar",
@@ -29346,7 +29394,9 @@
       }
     },
     "noghartt/container-compose": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1001686470,
         "name": "container-compose",
@@ -29771,7 +29821,9 @@
       }
     },
     "s7ephen/OSX-Sandbox--Seatbelt--Profiles": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1388143,
         "name": "OSX-Sandbox--Seatbelt--Profiles",
@@ -30505,7 +30557,9 @@
       }
     },
     "apple/containerization": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 992765044,
         "name": "containerization",
@@ -30530,7 +30584,9 @@
       }
     },
     "apple/container": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 993475914,
         "name": "container",
@@ -31105,7 +31161,9 @@
       }
     },
     "zerocore-ai/microsandbox": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 867192625,
         "name": "microsandbox",
@@ -31230,7 +31288,9 @@
       }
     },
     "rsyncOSX/RsyncUI": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 345094038,
         "name": "RsyncUI",
@@ -32639,7 +32699,9 @@
       }
     },
     "FEX-Emu/FEX": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 245352386,
         "name": "FEX",
@@ -32664,7 +32726,9 @@
       }
     },
     "AsahiLinux/muvm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 797254495,
         "name": "muvm",
@@ -32689,7 +32753,9 @@
       }
     },
     "containers/libkrun": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 287326438,
         "name": "libkrun",
@@ -32714,7 +32780,9 @@
       }
     },
     "containers/krunkit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 756461160,
         "name": "krunkit",
@@ -33845,7 +33913,9 @@
       }
     },
     "Anemll/Anemll": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 912587006,
         "name": "Anemll",
@@ -36283,7 +36353,9 @@
       }
     },
     "usnistgov/macos_security": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 269753140,
         "name": "macos_security",
@@ -41730,7 +41802,9 @@
       }
     },
     "noperator/yknotify": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 931763027,
         "name": "yknotify",
@@ -43407,7 +43481,9 @@
       }
     },
     "trycua/cua": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 925270205,
         "name": "cua",
@@ -44012,7 +44088,9 @@
       }
     },
     "LaurieWired/Malimite": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 728914226,
         "name": "Malimite",
@@ -44912,7 +44990,9 @@
       }
     },
     "SideStore/apple-private-apis": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 589783030,
         "name": "apple-private-apis",
@@ -47010,7 +47090,9 @@
       }
     },
     "armbues/SiLLM": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 742061877,
         "name": "SiLLM",
@@ -47035,7 +47117,9 @@
       }
     },
     "riccardomusmeci/mlx-llm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 728758093,
         "name": "mlx-llm",
@@ -47540,7 +47624,9 @@
       }
     },
     "seemoo-lab/BaseTrace": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 864498620,
         "name": "BaseTrace",
@@ -49411,7 +49497,9 @@
       }
     },
     "mbentley/docker-timemachine": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 68353485,
         "name": "docker-timemachine",
@@ -49436,7 +49524,9 @@
       }
     },
     "unixorn/tumult.plugin.zsh": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 47377855,
         "name": "tumult.plugin.zsh",
@@ -49858,7 +49948,9 @@
       }
     },
     "luchina-gabriel/OSX-PROXMOX": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 424069513,
         "name": "OSX-PROXMOX",
@@ -50378,7 +50470,9 @@
       }
     },
     "deric/DaVinciResolve-metadata": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 306164329,
         "name": "DaVinciResolve-metadata",
@@ -50453,7 +50547,9 @@
       }
     },
     "ptitSeb/box64": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 317493442,
         "name": "box64",
@@ -51539,7 +51635,9 @@
       }
     },
     "ruanjx/VideoLab": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 340840202,
         "name": "VideoLab",
@@ -51641,7 +51739,9 @@
       }
     },
     "MetalPetal/MetalPetal": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 95336438,
         "name": "MetalPetal",
@@ -55529,7 +55629,9 @@
       }
     },
     "dockur/macos": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 809475352,
         "name": "macos",
@@ -56408,7 +56510,9 @@
       }
     },
     "whalebrew/whalebrew": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 79717956,
         "name": "whalebrew",
@@ -56433,7 +56537,9 @@
       }
     },
     "Homebrew/homebrew-bundle": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1952825,
         "name": "homebrew-bundle",
@@ -59942,7 +60048,9 @@
       }
     },
     "Stengo/DeskPad": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 480938261,
         "name": "DeskPad",
@@ -63539,7 +63647,9 @@
       }
     },
     "Vargol/ffmpeg-apple-arm64-build": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 365471956,
         "name": "ffmpeg-apple-arm64-build",
@@ -69364,7 +69474,9 @@
       }
     },
     "tlkh/asitop": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 421880637,
         "name": "asitop",
@@ -70878,7 +70990,9 @@
       }
     },
     "lima-vm/socket_vmnet": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 490630627,
         "name": "socket_vmnet",
@@ -73313,7 +73427,9 @@
       }
     },
     "icloud-photos-downloader/icloud_photos_downloader": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 58774373,
         "name": "icloud_photos_downloader",
@@ -75667,7 +75783,9 @@
       }
     },
     "ml-explore/mlx": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 724854743,
         "name": "mlx",
@@ -76959,7 +77077,9 @@
       }
     },
     "Marginal/QuickLookVideo": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 21910366,
         "name": "QuickLookVideo",
@@ -77665,7 +77785,9 @@
       }
     },
     "kkebo/DNSecure": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 281972880,
         "name": "DNSecure",
@@ -79508,7 +79630,9 @@
       }
     },
     "indygreg/apple-platform-rs": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 537908064,
         "name": "apple-platform-rs",
@@ -83596,7 +83720,9 @@
       }
     },
     "coteditor/CotEditor": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 9243402,
         "name": "CotEditor",
@@ -83621,7 +83747,9 @@
       }
     },
     "textmate/textmate": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 5344375,
         "name": "textmate",
@@ -87920,7 +88048,9 @@
       "last_updated": "2026-03-17T22:10:31.392533+00:00"
     },
     "apple/ml-ane-transformers": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 499580907,
         "name": "ml-ane-transformers",
@@ -92982,7 +93112,9 @@
       "last_updated": "2026-03-17T22:11:23.829056+00:00"
     },
     "AudioKit/AudioKit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 16096528,
         "name": "AudioKit",
@@ -97606,7 +97738,9 @@
       "last_updated": "2026-03-17T22:12:13.282204+00:00"
     },
     "developer-guy/buildkit-machine": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 445901199,
         "name": "buildkit-machine",
@@ -97886,7 +98020,9 @@
       "last_updated": "2026-03-17T22:12:16.162313+00:00"
     },
     "mas-cli/mas": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 40092232,
         "name": "mas",
@@ -98326,7 +98462,9 @@
       "last_updated": "2026-03-17T22:12:20.870523+00:00"
     },
     "jakehilborn/displayplacer": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 36645584,
         "name": "displayplacer",
@@ -99028,7 +99166,9 @@
       "last_updated": "2026-03-17T22:12:28.399799+00:00"
     },
     "herrbischoff/awesome-macos-command-line": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 42956467,
         "name": "awesome-macos-command-line",
@@ -99108,7 +99248,9 @@
       "last_updated": "2026-03-17T22:12:29.191938+00:00"
     },
     "Brezel31/BetterDummy": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 509157731,
         "name": "BetterDummy",
@@ -101032,7 +101174,9 @@
       "last_updated": "2026-03-17T22:12:49.510369+00:00"
     },
     "eventi/noreallyjustfuckingstopalready": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 61129360,
         "name": "noreallyjustfuckingstopalready",
@@ -101112,7 +101256,9 @@
       "last_updated": "2026-03-17T22:12:50.298141+00:00"
     },
     "evansm7/vftool": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 316015482,
         "name": "vftool",
@@ -103360,7 +103506,9 @@
       "last_updated": "2026-03-17T22:13:13.866719+00:00"
     },
     "orbstack/orbstack": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 602943934,
         "name": "orbstack",
@@ -103880,7 +104028,9 @@
       "last_updated": "2026-03-17T22:13:19.261162+00:00"
     },
     "google/santa": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 25009012,
         "name": "santa",
@@ -104360,7 +104510,9 @@
       "last_updated": "2026-03-17T22:13:24.400222+00:00"
     },
     "will-stone/browserosaurus": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 94893151,
         "name": "browserosaurus",
@@ -104560,7 +104712,9 @@
       "last_updated": "2026-03-17T22:13:27.242811+00:00"
     },
     "dustinrue/ControlPlane": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 2039783,
         "name": "ControlPlane",
@@ -104880,7 +105034,9 @@
       "last_updated": "2026-03-17T22:13:30.482780+00:00"
     },
     "ExistentialAudio/BlackHole": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 211381291,
         "name": "BlackHole",
@@ -105160,7 +105316,9 @@
       "last_updated": "2026-03-17T22:13:33.443508+00:00"
     },
     "infosecB/LOOBins": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 611034982,
         "name": "LOOBins",
@@ -105180,7 +105338,9 @@
       "last_updated": "2026-03-17T22:13:33.611720+00:00"
     },
     "dortania/OpenCore-Legacy-Patcher": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 315490189,
         "name": "OpenCore-Legacy-Patcher",
@@ -105260,7 +105420,9 @@
       "last_updated": "2026-03-17T22:13:34.444267+00:00"
     },
     "dustinlyons/nixos-config": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 420004805,
         "name": "nixos-config",
@@ -106226,7 +106388,9 @@
       "last_updated": "2026-03-17T22:13:44.591544+00:00"
     },
     "Brandon7CC/mac-monitor": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 614452756,
         "name": "mac-monitor",
@@ -106326,7 +106490,9 @@
       "last_updated": "2026-03-17T22:13:45.532789+00:00"
     },
     "Neo23x0/littlesnitch-log-exporter": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 326161547,
         "name": "littlesnitch-log-exporter",
@@ -106548,7 +106714,9 @@
       "last_updated": "2026-03-17T22:13:47.851696+00:00"
     },
     "mikermcneil/fleet-nanomdm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 515731852,
         "name": "fleet-nanomdm",
@@ -108478,7 +108646,9 @@
       "last_updated": "2026-03-17T22:14:08.405178+00:00"
     },
     "XcodesOrg/xcodes": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 171964196,
         "name": "xcodes",
@@ -108498,7 +108668,9 @@
       "last_updated": "2026-03-17T22:14:08.602076+00:00"
     },
     "XcodesOrg/XcodesApp": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 315822591,
         "name": "XcodesApp",
@@ -108538,7 +108710,9 @@
       "last_updated": "2026-03-17T22:14:09.036380+00:00"
     },
     "aws/ec2-macos-init": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 288842558,
         "name": "ec2-macos-init",
@@ -110362,7 +110536,9 @@
       "last_updated": "2026-03-17T22:14:28.050691+00:00"
     },
     "odlp/bluesnooze": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 254602878,
         "name": "bluesnooze",
@@ -110462,7 +110638,9 @@
       "last_updated": "2026-03-17T22:14:29.016027+00:00"
     },
     "deweller/switchaudio-osx": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 21323300,
         "name": "switchaudio-osx",
@@ -111322,7 +111500,9 @@
       "last_updated": "2026-03-17T22:14:37.993067+00:00"
     },
     "sveinbjornt/Sloth": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1535038,
         "name": "Sloth",
@@ -112368,7 +112548,9 @@
       "last_updated": "2026-03-17T22:14:48.144267+00:00"
     },
     "MonitorControl/MonitorControl": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 103784142,
         "name": "MonitorControl",
@@ -112888,7 +113070,9 @@
       "last_updated": "2026-03-17T22:14:53.502334+00:00"
     },
     "cirruslabs/macos-image-templates": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 129415801,
         "name": "macos-image-templates",
@@ -112988,7 +113172,9 @@
       "last_updated": "2026-03-17T22:14:54.527130+00:00"
     },
     "michaelbarton/ansible-mac-dev-playbook": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 518585803,
         "name": "ansible-mac-dev-playbook",
@@ -113410,7 +113596,9 @@
       "last_updated": "2026-03-17T22:14:58.671388+00:00"
     },
     "zchee/go-vmnet": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 71581328,
         "name": "go-vmnet",
@@ -114692,7 +114880,9 @@
       "last_updated": "2026-03-17T22:15:12.573840+00:00"
     },
     "exelban/stats": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 189285554,
         "name": "stats",
@@ -114852,7 +115042,9 @@
       "last_updated": "2026-03-17T22:15:14.100990+00:00"
     },
     "zero-sh/zero.sh": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 231861251,
         "name": "zero.sh",
@@ -115212,7 +115404,9 @@
       "last_updated": "2026-03-17T22:15:17.719165+00:00"
     },
     "Dunedan/mbp-2016-linux": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 79715377,
         "name": "mbp-2016-linux",
@@ -116932,7 +117126,9 @@
       "last_updated": "2026-03-17T22:15:35.121963+00:00"
     },
     "afbjorklund/lima-gui": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 418131505,
         "name": "lima-gui",
@@ -117154,7 +117350,9 @@
       "last_updated": "2026-03-17T22:15:37.409332+00:00"
     },
     "moby/vpnkit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 58395340,
         "name": "vpnkit",
@@ -117860,7 +118058,9 @@
       "last_updated": "2026-03-17T22:15:44.636841+00:00"
     },
     "crc-org/vfkit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 452727744,
         "name": "vfkit",
@@ -117880,7 +118080,9 @@
       "last_updated": "2026-03-17T22:15:44.826245+00:00"
     },
     "Code-Hex/vz": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 319086813,
         "name": "vz",
@@ -118682,7 +118884,9 @@
       "last_updated": "2026-03-17T22:15:52.945887+00:00"
     },
     "ARM-software/AVH-GetStarted": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 399113632,
         "name": "AVH-GetStarted",
@@ -119204,7 +119408,9 @@
       "last_updated": "2026-03-17T22:15:58.103788+00:00"
     },
     "keith/xcode-man-pages": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 244047017,
         "name": "xcode-man-pages",
@@ -120330,7 +120536,9 @@
       "last_updated": "2026-03-17T22:16:09.667246+00:00"
     },
     "objective-see/ProcessMonitor": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 206727829,
         "name": "ProcessMonitor",
@@ -121350,7 +121558,9 @@
       "last_updated": "2026-03-17T22:16:20.102030+00:00"
     },
     "jaywcjlove/awesome-mac": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 63539055,
         "name": "awesome-mac",
@@ -121850,7 +122060,9 @@
       "last_updated": "2026-03-17T22:16:25.155569+00:00"
     },
     "abiosoft/colima": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 403020531,
         "name": "colima",
@@ -122610,7 +122822,9 @@
       "last_updated": "2026-03-17T22:16:33.006070+00:00"
     },
     "blinksh/blink": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 54967868,
         "name": "blink",
@@ -122834,7 +123048,9 @@
       "last_updated": "2026-03-17T22:16:35.705072+00:00"
     },
     "insidegui/VirtualBuddy": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 480592980,
         "name": "VirtualBuddy",
@@ -124676,7 +124892,9 @@
       "last_updated": "2026-03-17T22:16:55.849207+00:00"
     },
     "ospfranco/sol": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 448648008,
         "name": "sol",
@@ -124936,7 +125154,9 @@
       "last_updated": "2026-03-17T22:16:58.451652+00:00"
     },
     "munki/munki": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 24219473,
         "name": "munki",
@@ -125136,7 +125356,9 @@
       "last_updated": "2026-03-17T22:17:00.479170+00:00"
     },
     "veertuinc/getting-started": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 264281020,
         "name": "getting-started",
@@ -125636,7 +125858,9 @@
       "last_updated": "2026-03-17T22:17:05.321649+00:00"
     },
     "linaro-its/aws2-wrap": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 231330732,
         "name": "aws2-wrap",
@@ -125856,7 +126080,9 @@
       "last_updated": "2026-03-17T22:17:07.564174+00:00"
     },
     "nire0510/jqi": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 94864287,
         "name": "jqi",
@@ -125916,7 +126142,9 @@
       "last_updated": "2026-03-17T22:17:08.142499+00:00"
     },
     "mondok/jqui": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 41713571,
         "name": "jqui",
@@ -126276,7 +126504,9 @@
       "last_updated": "2026-03-17T22:17:11.682476+00:00"
     },
     "catilac/plistwatch": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 283363577,
         "name": "plistwatch",
@@ -126396,7 +126626,9 @@
       "last_updated": "2026-03-17T22:17:12.801495+00:00"
     },
     "kholia/OSX-KVM": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 45680749,
         "name": "OSX-KVM",
@@ -126916,7 +127148,9 @@
       "last_updated": "2026-03-17T22:17:18.319833+00:00"
     },
     "ianyh/Amethyst": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 10115880,
         "name": "Amethyst",
@@ -126936,7 +127170,9 @@
       "last_updated": "2026-03-17T22:17:18.484450+00:00"
     },
     "Hammerspoon/hammerspoon": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 24956772,
         "name": "hammerspoon",
@@ -127076,7 +127312,9 @@
       "last_updated": "2026-03-17T22:17:20.335696+00:00"
     },
     "qemu/qemu": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 5383731,
         "name": "qemu",
@@ -127156,7 +127394,9 @@
       "last_updated": "2026-03-17T22:17:21.137803+00:00"
     },
     "ppggff/vagrant-qemu": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 441379979,
         "name": "vagrant-qemu",
@@ -127236,7 +127476,9 @@
       "last_updated": "2026-03-17T22:17:21.919914+00:00"
     },
     "kreuzwerker/m1-terraform-provider-helper": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 379896850,
         "name": "m1-terraform-provider-helper",
@@ -127356,7 +127598,9 @@
       "last_updated": "2026-03-17T22:17:23.164937+00:00"
     },
     "sekey/sekey": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 112631209,
         "name": "sekey",
@@ -127656,7 +127900,9 @@
       "last_updated": "2026-03-17T22:17:26.203761+00:00"
     },
     "asmvik/skhd": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 99607082,
         "name": "skhd",
@@ -127676,7 +127922,9 @@
       "last_updated": "2026-03-17T22:17:26.380862+00:00"
     },
     "asmvik/yabai": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 184909163,
         "name": "yabai",
@@ -127756,7 +128004,9 @@
       "last_updated": "2026-03-17T22:17:27.087887+00:00"
     },
     "bendrucker/terraform-credentials-keychain": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 265729773,
         "name": "terraform-credentials-keychain",
@@ -128076,7 +128326,9 @@
       "last_updated": "2026-03-17T22:17:30.471644+00:00"
     },
     "lwouis/alt-tab-macos": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 202353432,
         "name": "alt-tab-macos",
@@ -128156,7 +128408,9 @@
       "last_updated": "2026-03-17T22:17:31.283500+00:00"
     },
     "0xbf00/simbple": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 143993665,
         "name": "simbple",
@@ -128256,7 +128510,9 @@
       "last_updated": "2026-03-17T22:17:32.219375+00:00"
     },
     "jbeisser/ansible": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 48254464,
         "name": "ansible",
@@ -128396,7 +128652,9 @@
       "last_updated": "2026-03-17T22:17:33.555986+00:00"
     },
     "hkratz/gha-runner-osx-arm64": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 395714940,
         "name": "gha-runner-osx-arm64",
@@ -128416,7 +128674,9 @@
       "last_updated": "2026-03-17T22:17:33.777543+00:00"
     },
     "AnErrupTion/Virtainer": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 340370807,
         "name": "Virtainer",
@@ -128436,7 +128696,9 @@
       "last_updated": "2026-03-17T22:17:33.946516+00:00"
     },
     "s-u/macosvm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 429247703,
         "name": "macosvm",
@@ -128456,7 +128718,9 @@
       "last_updated": "2026-03-17T22:17:34.130733+00:00"
     },
     "therealchjones/mkmacvm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 451622105,
         "name": "mkmacvm",
@@ -128476,7 +128740,9 @@
       "last_updated": "2026-03-17T22:17:34.334853+00:00"
     },
     "BITespresso/createinstalliso": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 352407283,
         "name": "createinstalliso",
@@ -128496,7 +128762,9 @@
       "last_updated": "2026-03-17T22:17:34.515370+00:00"
     },
     "tech-otaku/vmware-vm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 198819148,
         "name": "vmware-vm",
@@ -128516,7 +128784,9 @@
       "last_updated": "2026-03-17T22:17:34.847145+00:00"
     },
     "falafalafala1668/vf_macOS": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 438920663,
         "name": "vf_macOS",
@@ -128536,7 +128806,9 @@
       "last_updated": "2026-03-17T22:17:35.015955+00:00"
     },
     "yep/virtualOS": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 480112951,
         "name": "virtualOS",
@@ -128616,7 +128888,9 @@
       "last_updated": "2026-03-17T22:17:35.713018+00:00"
     },
     "KhaosT/MacVM": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 382252060,
         "name": "MacVM",
@@ -128656,7 +128930,9 @@
       "last_updated": "2026-03-17T22:17:36.115366+00:00"
     },
     "lima-vm/lima": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 367284699,
         "name": "lima",
@@ -128976,7 +129252,9 @@
       "last_updated": "2026-03-17T22:17:39.331418+00:00"
     },
     "ming900518/macOS-Virtual-Machine": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 381289087,
         "name": "macOS-Virtual-Machine",
@@ -129036,7 +129314,9 @@
       "last_updated": "2026-03-17T22:17:39.858745+00:00"
     },
     "utmapp/UTM": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 181042062,
         "name": "UTM",
@@ -129456,7 +129736,9 @@
       "last_updated": "2026-03-17T22:17:44.125033+00:00"
     },
     "quickemu-project/quickemu": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 247567645,
         "name": "quickemu",
@@ -129536,7 +129818,9 @@
       "last_updated": "2026-03-17T22:17:44.916923+00:00"
     },
     "cirruslabs/tart": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 454359710,
         "name": "tart",
@@ -129836,7 +130120,9 @@
       "last_updated": "2026-03-17T22:17:47.902425+00:00"
     },
     "waydabber/BetterDisplay": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 420628737,
         "name": "BetterDisplay",
@@ -134256,7 +134542,9 @@
       "last_updated": "2026-03-17T22:18:32.062721+00:00"
     },
     "maxgoedjen/secretive": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 241524703,
         "name": "secretive",
@@ -141658,7 +141946,9 @@
       "last_updated": "2026-03-17T22:19:46.304112+00:00"
     },
     "sickcodes/Docker-OSX": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 269336148,
         "name": "Docker-OSX",
