@@ -110,6 +110,20 @@ After the action runs successfully, you can view the updated `github_stars.json`
 
 You can also explore your starred repositories interactively using the deployed dashboard.
 
+## Local Testing
+
+You can test the scraper locally using a Podman (or Docker) container:
+
+```bash
+# Build the container
+podman build -t stars-test -f Containerfile .
+
+# Run with your GitHub token
+podman run --rm -e GITHUB_TOKEN="$GITHUB_TOKEN" stars-test
+```
+
+Since all repos are already in `github_stars.json`, it should process all chunks with no changes and exit cleanly (no commit attempted).
+
 ## Limitations
 - The script can only retrieve up to 3000 repositories per list due to GitHub's pagination limits.
 - Web scraping is used for retrieving star lists, which may break if GitHub significantly changes their HTML structure.
@@ -131,6 +145,7 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 │       ├── main.yml
 │       └── update_star_lists.yml
 ├── .gitignore
+├── Containerfile
 ├── LICENSE
 ├── README.md
 ├── docs

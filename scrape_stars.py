@@ -148,11 +148,13 @@ def process_repo_batch(repos, token, existing_data):
 
 def commit_and_push():
     try:
-        subprocess.run(["git", "config", "--global", "user.name", "GitHub Action"], check=True)
-        subprocess.run(["git", "config", "--global", "user.email", "action@github.com"], check=True)
+        if os.environ.get("GITHUB_ACTIONS"):
+            subprocess.run(["git", "config", "--global", "user.name", "GitHub Action"], check=True)
+            subprocess.run(["git", "config", "--global", "user.email", "action@github.com"], check=True)
         subprocess.run(["git", "add", STARS_FILE], check=True)
         subprocess.run(["git", "commit", "-m", "Update GitHub stars data"], check=True)
-        subprocess.run(["git", "push"], check=True)
+        if os.environ.get("GITHUB_ACTIONS"):
+            subprocess.run(["git", "push"], check=True)
         logger.info("Changes committed and pushed successfully.")
     except subprocess.CalledProcessError as e:
         logger.error(f"Error during git operations: {e}")
@@ -197,15 +199,15 @@ def process_stars(username, token, existing_data):
     
     logger.info(f"Found {total_repos} total starred repositories.")
 
-    changes_made = False
+    uncommitted_changes = False
     chunks_processed = 0
 
     for i in range(0, total_repos, CHUNK_SIZE):
         chunk = all_starred[i:i+CHUNK_SIZE]
         logger.info(f"Processing chunk {i//CHUNK_SIZE + 1} of {total_repos//CHUNK_SIZE + 1}")
-        
+
         chunk_changes = False
-        
+
         for item in chunk:
             repo_name = item['repo']['full_name']
             if repo_name not in existing_data['repositories']:
@@ -217,21 +219,22 @@ def process_stars(username, token, existing_data):
                         'last_updated': datetime.now(UTC).isoformat()
                     }
                     chunk_changes = True
-                    changes_made = True
+                    uncommitted_changes = True
                 else:
                     logger.warning(f"Skipping repo {repo_name} due to metadata retrieval failure.")
-        
+
         if chunk_changes:
             existing_data['last_updated'] = datetime.now(UTC).isoformat()
             save_data(existing_data)
             chunks_processed += 1
-        
+
         # Commit and push every COMMIT_INTERVAL chunks with changes
         if chunk_changes and (chunks_processed % COMMIT_INTERVAL == 0):
             commit_and_push()
+            uncommitted_changes = False
 
     # Final commit if there are any uncommitted changes
-    if changes_made:
+    if uncommitted_changes:
         save_data(existing_data)
         commit_and_push()
     

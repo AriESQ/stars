@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T19:55:34.866154+00:00",
+  "last_updated": "2026-03-27T21:37:03.407467+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -161787,6 +161787,66 @@
         "starred_at": "2022-12-26T06:03:28Z"
       },
       "last_updated": "2026-03-27T19:55:34.866110+00:00"
+    },
+    "RobertMCortese/Open-MRU": {
+      "lists": [],
+      "metadata": {
+        "id": 1052439110,
+        "name": "Open-MRU",
+        "full_name": "RobertMCortese/Open-MRU",
+        "description": "An open source Memory Recording Unit to record a firewire stream based on the Raspberry Pi 5.",
+        "url": "https://github.com/RobertMCortese/Open-MRU",
+        "homepage": null,
+        "language": "Python",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-09-08T03:58:57Z",
+        "updated_at": "2026-03-27T19:56:20Z",
+        "pushed_at": "2025-09-08T04:12:39Z",
+        "starred_at": "2026-03-27T19:56:19Z"
+      },
+      "last_updated": "2026-03-27T21:37:02.285843+00:00"
+    },
+    "microsoft/PyRIT": {
+      "lists": [],
+      "metadata": {
+        "id": 730753909,
+        "name": "PyRIT",
+        "full_name": "microsoft/PyRIT",
+        "description": "The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.",
+        "url": "https://github.com/microsoft/PyRIT",
+        "homepage": "https://microsoft.github.io/PyRIT/",
+        "language": "Python",
+        "stars": 3619,
+        "forks": 709,
+        "open_issues": 109,
+        "created_at": "2023-12-12T15:46:28Z",
+        "updated_at": "2026-03-27T21:34:35Z",
+        "pushed_at": "2026-03-27T20:18:52Z",
+        "starred_at": "2026-02-10T21:19:33Z"
+      },
+      "last_updated": "2026-03-27T21:37:02.961851+00:00"
+    },
+    "AriESQ/oscopes": {
+      "lists": [],
+      "metadata": {
+        "id": 714360724,
+        "name": "oscopes",
+        "full_name": "AriESQ/oscopes",
+        "description": "Oscilloscope notes with a focus on audio waveforms",
+        "url": "https://github.com/AriESQ/oscopes",
+        "homepage": null,
+        "language": null,
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-11-04T17:18:19Z",
+        "updated_at": "2025-11-03T01:59:38Z",
+        "pushed_at": "2025-11-03T01:59:34Z",
+        "starred_at": "2023-11-04T18:16:52Z"
+      },
+      "last_updated": "2026-03-27T21:37:03.407254+00:00"
     }
   },
   "last_processed_index": 0
