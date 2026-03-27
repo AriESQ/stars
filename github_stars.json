@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T18:35:38.556075+00:00",
+  "last_updated": "2026-03-27T19:55:32.064964+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -160607,6 +160607,1086 @@
         "starred_at": "2016-11-15T15:19:14Z"
       },
       "last_updated": "2026-03-17T22:20:23.882752+00:00"
+    },
+    "huggingface/text-embeddings-inference": {
+      "lists": [],
+      "metadata": {
+        "id": 704543233,
+        "name": "text-embeddings-inference",
+        "full_name": "huggingface/text-embeddings-inference",
+        "description": "A blazing fast inference solution for text embeddings models",
+        "url": "https://github.com/huggingface/text-embeddings-inference",
+        "homepage": "https://huggingface.co/docs/text-embeddings-inference/quick_tour",
+        "language": "Rust",
+        "stars": 4630,
+        "forks": 376,
+        "open_issues": 177,
+        "created_at": "2023-10-13T13:36:51Z",
+        "updated_at": "2026-03-27T19:00:13Z",
+        "pushed_at": "2026-03-23T11:57:19Z",
+        "starred_at": "2026-03-27T18:23:05Z"
+      },
+      "last_updated": "2026-03-27T19:55:17.438431+00:00"
+    },
+    "Umio-Yasuno/amdgpu_top": {
+      "lists": [],
+      "metadata": {
+        "id": 608814472,
+        "name": "amdgpu_top",
+        "full_name": "Umio-Yasuno/amdgpu_top",
+        "description": "Tool to display AMDGPU usage",
+        "url": "https://github.com/Umio-Yasuno/amdgpu_top",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 1476,
+        "forks": 49,
+        "open_issues": 2,
+        "created_at": "2023-03-02T19:45:14Z",
+        "updated_at": "2026-03-27T17:39:34Z",
+        "pushed_at": "2026-03-21T21:54:18Z",
+        "starred_at": "2026-03-27T17:39:33Z"
+      },
+      "last_updated": "2026-03-27T19:55:17.687443+00:00"
+    },
+    "vishu42/github-token": {
+      "lists": [],
+      "metadata": {
+        "id": 672154495,
+        "name": "github-token",
+        "full_name": "vishu42/github-token",
+        "description": "github-token",
+        "url": "https://github.com/vishu42/github-token",
+        "homepage": null,
+        "language": "Go",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-07-29T05:19:49Z",
+        "updated_at": "2026-03-27T00:45:49Z",
+        "pushed_at": "2023-08-01T12:43:07Z",
+        "starred_at": "2026-03-27T00:45:49Z"
+      },
+      "last_updated": "2026-03-27T19:55:17.981507+00:00"
+    },
+    "AmadeusITGroup/gh-app-auth": {
+      "lists": [],
+      "metadata": {
+        "id": 1074453376,
+        "name": "gh-app-auth",
+        "full_name": "AmadeusITGroup/gh-app-auth",
+        "description": "GitHub CLI extension for Git credential authentication using GitHub Apps and PATs with pattern-based routing and encrypted storage",
+        "url": "https://github.com/AmadeusITGroup/gh-app-auth",
+        "homepage": "",
+        "language": "Go",
+        "stars": 10,
+        "forks": 3,
+        "open_issues": 5,
+        "created_at": "2025-10-11T20:23:48Z",
+        "updated_at": "2026-03-26T22:19:03Z",
+        "pushed_at": "2026-03-24T06:06:45Z",
+        "starred_at": "2026-03-26T22:19:02Z"
+      },
+      "last_updated": "2026-03-27T19:55:18.256749+00:00"
+    },
+    "pu2clr/SI5351": {
+      "lists": [],
+      "metadata": {
+        "id": 280222498,
+        "name": "SI5351",
+        "full_name": "pu2clr/SI5351",
+        "description": "Multipurpose signal generator with SI5351",
+        "url": "https://github.com/pu2clr/SI5351",
+        "homepage": "",
+        "language": "C++",
+        "stars": 36,
+        "forks": 17,
+        "open_issues": 1,
+        "created_at": "2020-07-16T17:58:49Z",
+        "updated_at": "2026-03-26T18:30:59Z",
+        "pushed_at": "2025-11-04T17:36:47Z",
+        "starred_at": "2026-03-26T18:30:58Z"
+      },
+      "last_updated": "2026-03-27T19:55:18.479999+00:00"
+    },
+    "doomedraven/Tools": {
+      "lists": [],
+      "metadata": {
+        "id": 148789569,
+        "name": "Tools",
+        "full_name": "doomedraven/Tools",
+        "description": "Combination of different utilities, have fun! ",
+        "url": "https://github.com/doomedraven/Tools",
+        "homepage": "",
+        "language": "Python",
+        "stars": 224,
+        "forks": 93,
+        "open_issues": 1,
+        "created_at": "2018-09-14T13:05:59Z",
+        "updated_at": "2026-03-26T17:16:45Z",
+        "pushed_at": "2024-02-05T13:29:28Z",
+        "starred_at": "2026-03-26T17:16:45Z"
+      },
+      "last_updated": "2026-03-27T19:55:18.724572+00:00"
+    },
+    "moutons/skills-validator": {
+      "lists": [],
+      "metadata": {
+        "id": 1157826007,
+        "name": "skills-validator",
+        "full_name": "moutons/skills-validator",
+        "description": "This tool validates agent skills according to the Agent Skills specification, informed by the OpenCode and Claude Code implementations.",
+        "url": "https://github.com/moutons/skills-validator",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2026-02-14T11:05:51Z",
+        "updated_at": "2026-03-26T01:11:58Z",
+        "pushed_at": "2026-03-22T09:12:42Z",
+        "starred_at": "2026-03-26T01:11:58Z"
+      },
+      "last_updated": "2026-03-27T19:55:18.982892+00:00"
+    },
+    "thalter/DVDStyler": {
+      "lists": [],
+      "metadata": {
+        "id": 1071611982,
+        "name": "DVDStyler",
+        "full_name": "thalter/DVDStyler",
+        "description": "Fork of https://git.code.sf.net/p/dvdstyler/DVDStyler dvdstyler-DVDStyler",
+        "url": "https://github.com/thalter/DVDStyler",
+        "homepage": null,
+        "language": "C++",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-10-07T15:21:02Z",
+        "updated_at": "2026-03-25T20:52:09Z",
+        "pushed_at": "2026-01-18T20:09:31Z",
+        "starred_at": "2026-03-25T20:52:09Z"
+      },
+      "last_updated": "2026-03-27T19:55:19.194508+00:00"
+    },
+    "kattecon/gh-app-access-token-gen": {
+      "lists": [],
+      "metadata": {
+        "id": 616194314,
+        "name": "gh-app-access-token-gen",
+        "full_name": "kattecon/gh-app-access-token-gen",
+        "description": "Generate a temporary access token for a github app using app id and its private key and either installtation id or installation repository name.",
+        "url": "https://github.com/kattecon/gh-app-access-token-gen",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 2,
+        "created_at": "2023-03-19T21:42:58Z",
+        "updated_at": "2026-03-24T22:21:12Z",
+        "pushed_at": "2026-03-24T22:33:37Z",
+        "starred_at": "2026-03-24T18:42:10Z"
+      },
+      "last_updated": "2026-03-27T19:55:19.434709+00:00"
+    },
+    "ofnode/of": {
+      "lists": [],
+      "metadata": {
+        "id": 68203495,
+        "name": "of",
+        "full_name": "ofnode/of",
+        "description": "CMake openFrameworks for Linux, OS X and Windows.",
+        "url": "https://github.com/ofnode/of",
+        "homepage": "",
+        "language": "C",
+        "stars": 74,
+        "forks": 13,
+        "open_issues": 12,
+        "created_at": "2016-09-14T12:15:54Z",
+        "updated_at": "2026-03-24T18:13:38Z",
+        "pushed_at": "2019-08-29T20:47:50Z",
+        "starred_at": "2026-03-24T18:13:37Z"
+      },
+      "last_updated": "2026-03-27T19:55:19.703211+00:00"
+    },
+    "EmotiBit/ofxEmotiBit": {
+      "lists": [],
+      "metadata": {
+        "id": 170698682,
+        "name": "ofxEmotiBit",
+        "full_name": "EmotiBit/ofxEmotiBit",
+        "description": "OpenFrameworks library and examples for the EmotiBit",
+        "url": "https://github.com/EmotiBit/ofxEmotiBit",
+        "homepage": null,
+        "language": "C++",
+        "stars": 41,
+        "forks": 13,
+        "open_issues": 78,
+        "created_at": "2019-02-14T13:50:41Z",
+        "updated_at": "2026-03-24T18:12:31Z",
+        "pushed_at": "2026-03-26T13:11:59Z",
+        "starred_at": "2026-03-24T18:12:31Z"
+      },
+      "last_updated": "2026-03-27T19:55:20.004303+00:00"
+    },
+    "actions/create-github-app-token": {
+      "lists": [],
+      "metadata": {
+        "id": 642580244,
+        "name": "create-github-app-token",
+        "full_name": "actions/create-github-app-token",
+        "description": "GitHub Action for creating a GitHub App Installation Access Token",
+        "url": "https://github.com/actions/create-github-app-token",
+        "homepage": "https://github.com/marketplace/actions/create-github-app-token",
+        "language": "JavaScript",
+        "stars": 768,
+        "forks": 142,
+        "open_issues": 35,
+        "created_at": "2023-05-18T22:34:57Z",
+        "updated_at": "2026-03-27T13:00:47Z",
+        "pushed_at": "2026-03-20T06:35:23Z",
+        "starred_at": "2026-03-24T02:51:58Z"
+      },
+      "last_updated": "2026-03-27T19:55:20.283423+00:00"
+    },
+    "andrinoff/yubikey-github": {
+      "lists": [],
+      "metadata": {
+        "id": 1019106069,
+        "name": "yubikey-github",
+        "full_name": "andrinoff/yubikey-github",
+        "description": "Guide for Yubikey usage with GitHub (SSH & OpenGPG)",
+        "url": "https://github.com/andrinoff/yubikey-github",
+        "homepage": "http://andrinoff.com/yubikey-github/",
+        "language": "Shell",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2025-07-13T18:44:17Z",
+        "updated_at": "2026-03-23T23:37:01Z",
+        "pushed_at": "2025-07-15T11:38:43Z",
+        "starred_at": "2026-03-23T23:37:00Z"
+      },
+      "last_updated": "2026-03-27T19:55:20.555953+00:00"
+    },
+    "allcloud-io/clisso": {
+      "lists": [],
+      "metadata": {
+        "id": 95244633,
+        "name": "clisso",
+        "full_name": "allcloud-io/clisso",
+        "description": "Get temporary credentials for cloud providers from the command line.",
+        "url": "https://github.com/allcloud-io/clisso",
+        "homepage": "",
+        "language": "Go",
+        "stars": 48,
+        "forks": 15,
+        "open_issues": 23,
+        "created_at": "2017-06-23T18:08:56Z",
+        "updated_at": "2026-03-23T20:43:32Z",
+        "pushed_at": "2025-11-20T02:14:46Z",
+        "starred_at": "2026-03-23T20:43:32Z"
+      },
+      "last_updated": "2026-03-27T19:55:20.846018+00:00"
+    },
+    "ByteNess/aws-vault": {
+      "lists": [],
+      "metadata": {
+        "id": 988616604,
+        "name": "aws-vault",
+        "full_name": "ByteNess/aws-vault",
+        "description": "A vault for securely storing and accessing AWS credentials in development environments",
+        "url": "https://github.com/ByteNess/aws-vault",
+        "homepage": "",
+        "language": "Go",
+        "stars": 271,
+        "forks": 17,
+        "open_issues": 13,
+        "created_at": "2025-05-22T20:15:33Z",
+        "updated_at": "2026-03-27T18:32:39Z",
+        "pushed_at": "2026-03-24T15:56:27Z",
+        "starred_at": "2026-03-23T20:39:45Z"
+      },
+      "last_updated": "2026-03-27T19:55:21.113955+00:00"
+    },
+    "bpceee/oldest": {
+      "lists": [],
+      "metadata": {
+        "id": 134560007,
+        "name": "oldest",
+        "full_name": "bpceee/oldest",
+        "description": "Go to the oldest page of commits.",
+        "url": "https://github.com/bpceee/oldest",
+        "homepage": "https://bpceee.github.io/oldest/",
+        "language": "JavaScript",
+        "stars": 92,
+        "forks": 7,
+        "open_issues": 1,
+        "created_at": "2018-05-23T11:32:19Z",
+        "updated_at": "2026-03-23T20:30:46Z",
+        "pushed_at": "2023-04-18T08:56:22Z",
+        "starred_at": "2026-03-23T20:30:46Z"
+      },
+      "last_updated": "2026-03-27T19:55:21.409884+00:00"
+    },
+    "SquareLineStudio/board_index": {
+      "lists": [],
+      "metadata": {
+        "id": 543541666,
+        "name": "board_index",
+        "full_name": "SquareLineStudio/board_index",
+        "description": "Links to boards to list in SquareLine Studio",
+        "url": "https://github.com/SquareLineStudio/board_index",
+        "homepage": null,
+        "language": null,
+        "stars": 2,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2022-09-30T10:13:43Z",
+        "updated_at": "2026-03-23T03:55:34Z",
+        "pushed_at": "2024-05-13T13:36:54Z",
+        "starred_at": "2026-03-23T03:55:33Z"
+      },
+      "last_updated": "2026-03-27T19:55:21.709227+00:00"
+    },
+    "addfox/addfox": {
+      "lists": [],
+      "metadata": {
+        "id": 1188197833,
+        "name": "addfox",
+        "full_name": "addfox/addfox",
+        "description": "\ud83e\udde9 Accelerate your browser extension development. Built on Rsbuild \u2014 fast, simple, and free",
+        "url": "https://github.com/addfox/addfox",
+        "homepage": "https://addfox.dev",
+        "language": "TypeScript",
+        "stars": 67,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-21T18:43:57Z",
+        "updated_at": "2026-03-27T15:59:39Z",
+        "pushed_at": "2026-03-27T16:00:44Z",
+        "starred_at": "2026-03-22T22:43:14Z"
+      },
+      "last_updated": "2026-03-27T19:55:22.005094+00:00"
+    },
+    "macports/macports-ports": {
+      "lists": [],
+      "metadata": {
+        "id": 70365100,
+        "name": "macports-ports",
+        "full_name": "macports/macports-ports",
+        "description": "The MacPorts ports tree",
+        "url": "https://github.com/macports/macports-ports",
+        "homepage": "https://trac.macports.org",
+        "language": "Tcl",
+        "stars": 1752,
+        "forks": 1473,
+        "open_issues": 95,
+        "created_at": "2016-10-09T00:31:44Z",
+        "updated_at": "2026-03-27T19:44:16Z",
+        "pushed_at": "2026-03-27T19:44:12Z",
+        "starred_at": "2026-03-22T20:32:27Z"
+      },
+      "last_updated": "2026-03-27T19:55:22.262755+00:00"
+    },
+    "dmno-dev/varlock": {
+      "lists": [],
+      "metadata": {
+        "id": 964356943,
+        "name": "varlock",
+        "full_name": "dmno-dev/varlock",
+        "description": "AI-safe .env files: Schemas for agents, Secrets for humans.",
+        "url": "https://github.com/dmno-dev/varlock",
+        "homepage": "https://varlock.dev",
+        "language": "TypeScript",
+        "stars": 2886,
+        "forks": 75,
+        "open_issues": 50,
+        "created_at": "2025-04-11T05:00:36Z",
+        "updated_at": "2026-03-27T19:23:45Z",
+        "pushed_at": "2026-03-27T05:14:22Z",
+        "starred_at": "2026-03-22T16:48:17Z"
+      },
+      "last_updated": "2026-03-27T19:55:22.555960+00:00"
+    },
+    "rebaker501/capev2install": {
+      "lists": [],
+      "metadata": {
+        "id": 567859127,
+        "name": "capev2install",
+        "full_name": "rebaker501/capev2install",
+        "description": "These are my instruction for getting CAPEv2 Malware Sandbox up and running",
+        "url": "https://github.com/rebaker501/capev2install",
+        "homepage": null,
+        "language": null,
+        "stars": 31,
+        "forks": 8,
+        "open_issues": 2,
+        "created_at": "2022-11-18T18:50:11Z",
+        "updated_at": "2026-03-22T14:22:23Z",
+        "pushed_at": "2024-06-17T15:33:45Z",
+        "starred_at": "2026-03-22T14:22:23Z"
+      },
+      "last_updated": "2026-03-27T19:55:22.840047+00:00"
+    },
+    "KoboldAI/KoboldAI-Client": {
+      "lists": [],
+      "metadata": {
+        "id": 363765247,
+        "name": "KoboldAI-Client",
+        "full_name": "KoboldAI/KoboldAI-Client",
+        "description": "For GGUF support, see KoboldCPP: https://github.com/LostRuins/koboldcpp",
+        "url": "https://github.com/KoboldAI/KoboldAI-Client",
+        "homepage": "https://koboldai.com",
+        "language": "Python",
+        "stars": 3869,
+        "forks": 857,
+        "open_issues": 121,
+        "created_at": "2021-05-02T22:43:07Z",
+        "updated_at": "2026-03-27T05:02:41Z",
+        "pushed_at": "2025-01-16T17:01:49Z",
+        "starred_at": "2026-03-22T12:28:31Z"
+      },
+      "last_updated": "2026-03-27T19:55:23.123154+00:00"
+    },
+    "bitsandbytes-foundation/bitsandbytes": {
+      "lists": [],
+      "metadata": {
+        "id": 373674258,
+        "name": "bitsandbytes",
+        "full_name": "bitsandbytes-foundation/bitsandbytes",
+        "description": "Accessible large language models via k-bit quantization for PyTorch.",
+        "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+        "homepage": "https://huggingface.co/docs/bitsandbytes/main/en/index",
+        "language": "Python",
+        "stars": 8080,
+        "forks": 838,
+        "open_issues": 47,
+        "created_at": "2021-06-04T00:10:34Z",
+        "updated_at": "2026-03-27T17:32:51Z",
+        "pushed_at": "2026-03-27T14:29:58Z",
+        "starred_at": "2026-03-22T12:27:11Z"
+      },
+      "last_updated": "2026-03-27T19:55:23.392719+00:00"
+    },
+    "astralapp/astral": {
+      "lists": [],
+      "metadata": {
+        "id": 32222363,
+        "name": "astral",
+        "full_name": "astralapp/astral",
+        "description": "Organize Your GitHub Stars With Ease",
+        "url": "https://github.com/astralapp/astral",
+        "homepage": "https://astralapp.com",
+        "language": "PHP",
+        "stars": 3503,
+        "forks": 155,
+        "open_issues": 41,
+        "created_at": "2015-03-14T16:59:41Z",
+        "updated_at": "2026-03-27T19:05:03Z",
+        "pushed_at": "2025-05-22T16:14:24Z",
+        "starred_at": "2026-03-22T05:23:53Z"
+      },
+      "last_updated": "2026-03-27T19:55:23.664922+00:00"
+    },
+    "hectorvent/floci": {
+      "lists": [],
+      "metadata": {
+        "id": 1160497244,
+        "name": "floci",
+        "full_name": "hectorvent/floci",
+        "description": "Light, fluffy, and always free - AWS Local Emulator ",
+        "url": "https://github.com/hectorvent/floci",
+        "homepage": "http://hectorvent.dev/floci/",
+        "language": "Java",
+        "stars": 1935,
+        "forks": 78,
+        "open_issues": 49,
+        "created_at": "2026-02-18T02:28:29Z",
+        "updated_at": "2026-03-27T19:23:07Z",
+        "pushed_at": "2026-03-27T19:06:48Z",
+        "starred_at": "2026-03-22T04:28:12Z"
+      },
+      "last_updated": "2026-03-27T19:55:23.924152+00:00"
+    },
+    "shapely/shapely": {
+      "lists": [],
+      "metadata": {
+        "id": 3080613,
+        "name": "shapely",
+        "full_name": "shapely/shapely",
+        "description": "Manipulation and analysis of geometric objects",
+        "url": "https://github.com/shapely/shapely",
+        "homepage": "https://shapely.readthedocs.io/en/stable/",
+        "language": "Python",
+        "stars": 4407,
+        "forks": 609,
+        "open_issues": 221,
+        "created_at": "2011-12-31T19:43:11Z",
+        "updated_at": "2026-03-27T10:23:06Z",
+        "pushed_at": "2026-03-10T08:57:35Z",
+        "starred_at": "2026-03-22T04:05:40Z"
+      },
+      "last_updated": "2026-03-27T19:55:24.198288+00:00"
+    },
+    "Velocidex/velociraptor": {
+      "lists": [],
+      "metadata": {
+        "id": 126576769,
+        "name": "velociraptor",
+        "full_name": "Velocidex/velociraptor",
+        "description": "Digging Deeper....",
+        "url": "https://github.com/Velocidex/velociraptor",
+        "homepage": "https://docs.velociraptor.app/",
+        "language": "Go",
+        "stars": 3855,
+        "forks": 600,
+        "open_issues": 69,
+        "created_at": "2018-03-24T07:39:32Z",
+        "updated_at": "2026-03-27T03:59:53Z",
+        "pushed_at": "2026-03-26T00:21:05Z",
+        "starred_at": "2026-03-22T02:55:04Z"
+      },
+      "last_updated": "2026-03-27T19:55:24.516838+00:00"
+    },
+    "mohebifar/tooscut": {
+      "lists": [],
+      "metadata": {
+        "id": 1147640360,
+        "name": "tooscut",
+        "full_name": "mohebifar/tooscut",
+        "description": "Professional video editing, right in your browser. Made with Rust, WebGPU, WASM, and Tanstack Start.",
+        "url": "https://github.com/mohebifar/tooscut",
+        "homepage": "https://tooscut.app",
+        "language": "TypeScript",
+        "stars": 554,
+        "forks": 33,
+        "open_issues": 2,
+        "created_at": "2026-02-02T03:02:59Z",
+        "updated_at": "2026-03-27T17:54:20Z",
+        "pushed_at": "2026-03-27T06:59:18Z",
+        "starred_at": "2026-03-22T02:23:43Z"
+      },
+      "last_updated": "2026-03-27T19:55:24.779665+00:00"
+    },
+    "chromiumembedded/cef": {
+      "lists": [],
+      "metadata": {
+        "id": 87006077,
+        "name": "cef",
+        "full_name": "chromiumembedded/cef",
+        "description": "Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.",
+        "url": "https://github.com/chromiumembedded/cef",
+        "homepage": "https://chromiumembedded.github.io/cef/",
+        "language": "C++",
+        "stars": 4455,
+        "forks": 590,
+        "open_issues": 215,
+        "created_at": "2017-04-02T18:19:23Z",
+        "updated_at": "2026-03-27T14:22:42Z",
+        "pushed_at": "2026-03-26T14:29:01Z",
+        "starred_at": "2026-03-21T21:38:17Z"
+      },
+      "last_updated": "2026-03-27T19:55:25.098654+00:00"
+    },
+    "software-mansion/TypeGPU": {
+      "lists": [],
+      "metadata": {
+        "id": 758923102,
+        "name": "TypeGPU",
+        "full_name": "software-mansion/TypeGPU",
+        "description": "A modular and open-ended toolkit for WebGPU, with advanced type inference and the ability to write shaders in TypeScript",
+        "url": "https://github.com/software-mansion/TypeGPU",
+        "homepage": "http://typegpu.com",
+        "language": "TypeScript",
+        "stars": 2274,
+        "forks": 56,
+        "open_issues": 200,
+        "created_at": "2024-02-17T13:29:14Z",
+        "updated_at": "2026-03-27T18:24:38Z",
+        "pushed_at": "2026-03-27T19:02:48Z",
+        "starred_at": "2026-03-21T21:21:41Z"
+      },
+      "last_updated": "2026-03-27T19:55:25.338470+00:00"
+    },
+    "suzuki-shunsuke/ghtkn": {
+      "lists": [],
+      "metadata": {
+        "id": 1046372472,
+        "name": "ghtkn",
+        "full_name": "suzuki-shunsuke/ghtkn",
+        "description": "A CLI to create short-lived (8 hours) GitHub App User Access Token for secure local development",
+        "url": "https://github.com/suzuki-shunsuke/ghtkn",
+        "homepage": "",
+        "language": "Go",
+        "stars": 101,
+        "forks": 1,
+        "open_issues": 15,
+        "created_at": "2025-08-28T15:34:45Z",
+        "updated_at": "2026-03-26T16:47:07Z",
+        "pushed_at": "2026-03-23T14:30:59Z",
+        "starred_at": "2026-03-21T19:28:41Z"
+      },
+      "last_updated": "2026-03-27T19:55:25.596970+00:00"
+    },
+    "bhoffmann93/gradient-fitter": {
+      "lists": [],
+      "metadata": {
+        "id": 1179852149,
+        "name": "gradient-fitter",
+        "full_name": "bhoffmann93/gradient-fitter",
+        "description": "A webtool to generate procedural palette functions from images.",
+        "url": "https://github.com/bhoffmann93/gradient-fitter",
+        "homepage": "http://www.bernhard-hoffmann.com/gradient-fitter/",
+        "language": "JavaScript",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-12T12:56:15Z",
+        "updated_at": "2026-03-27T08:40:16Z",
+        "pushed_at": "2026-03-27T08:40:12Z",
+        "starred_at": "2026-03-21T18:47:19Z"
+      },
+      "last_updated": "2026-03-27T19:55:25.827592+00:00"
+    },
+    "arnoldrobbins/LinuxByExample-2e": {
+      "lists": [],
+      "metadata": {
+        "id": 1013401190,
+        "name": "LinuxByExample-2e",
+        "full_name": "arnoldrobbins/LinuxByExample-2e",
+        "description": null,
+        "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+        "homepage": null,
+        "language": "C",
+        "stars": 253,
+        "forks": 15,
+        "open_issues": 0,
+        "created_at": "2025-07-03T20:54:10Z",
+        "updated_at": "2026-03-27T02:21:09Z",
+        "pushed_at": "2025-10-13T08:20:51Z",
+        "starred_at": "2026-03-21T05:41:59Z"
+      },
+      "last_updated": "2026-03-27T19:55:26.081577+00:00"
+    },
+    "atlassian-labs/json-schema-viewer": {
+      "lists": [],
+      "metadata": {
+        "id": 331230933,
+        "name": "json-schema-viewer",
+        "full_name": "atlassian-labs/json-schema-viewer",
+        "description": "A JSON Schema Viewer for any JSON Schema on earth.",
+        "url": "https://github.com/atlassian-labs/json-schema-viewer",
+        "homepage": "https://json-schema.app/",
+        "language": "TypeScript",
+        "stars": 180,
+        "forks": 31,
+        "open_issues": 26,
+        "created_at": "2021-01-20T07:46:30Z",
+        "updated_at": "2026-03-27T17:52:48Z",
+        "pushed_at": "2025-10-07T14:40:28Z",
+        "starred_at": "2026-03-19T22:56:05Z"
+      },
+      "last_updated": "2026-03-27T19:55:26.363686+00:00"
+    },
+    "ProfileCreator/ProfileCreator": {
+      "lists": [],
+      "metadata": {
+        "id": 41657454,
+        "name": "ProfileCreator",
+        "full_name": "ProfileCreator/ProfileCreator",
+        "description": "macOS app to create standard or customized configuration profiles.",
+        "url": "https://github.com/ProfileCreator/ProfileCreator",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 1476,
+        "forks": 113,
+        "open_issues": 76,
+        "created_at": "2015-08-31T05:28:24Z",
+        "updated_at": "2026-03-23T10:53:34Z",
+        "pushed_at": "2025-01-11T21:49:01Z",
+        "starred_at": "2026-03-19T02:29:43Z"
+      },
+      "last_updated": "2026-03-27T19:55:26.636581+00:00"
+    },
+    "timsutton/mcxToProfile": {
+      "lists": [],
+      "metadata": {
+        "id": 4731090,
+        "name": "mcxToProfile",
+        "full_name": "timsutton/mcxToProfile",
+        "description": "Convert macOS property lists, defaults and MCX into Configuration Profiles with Custom Settings payloads",
+        "url": "https://github.com/timsutton/mcxToProfile",
+        "homepage": "",
+        "language": "Python",
+        "stars": 577,
+        "forks": 90,
+        "open_issues": 12,
+        "created_at": "2012-06-20T20:30:01Z",
+        "updated_at": "2026-03-19T02:29:25Z",
+        "pushed_at": "2024-08-10T05:10:20Z",
+        "starred_at": "2026-03-19T02:29:24Z"
+      },
+      "last_updated": "2026-03-27T19:55:26.882715+00:00"
+    },
+    "tobi/qmd": {
+      "lists": [],
+      "metadata": {
+        "id": 1112365301,
+        "name": "qmd",
+        "full_name": "tobi/qmd",
+        "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+        "url": "https://github.com/tobi/qmd",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 17064,
+        "forks": 1021,
+        "open_issues": 274,
+        "created_at": "2025-12-08T14:22:57Z",
+        "updated_at": "2026-03-27T19:53:28Z",
+        "pushed_at": "2026-03-14T12:10:38Z",
+        "starred_at": "2026-03-19T01:48:37Z"
+      },
+      "last_updated": "2026-03-27T19:55:27.111677+00:00"
+    },
+    "NVIDIA/NemoClaw": {
+      "lists": [],
+      "metadata": {
+        "id": 1182547092,
+        "name": "NemoClaw",
+        "full_name": "NVIDIA/NemoClaw",
+        "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+        "url": "https://github.com/NVIDIA/NemoClaw",
+        "homepage": "https://docs.nvidia.com/nemoclaw/latest/",
+        "language": "JavaScript",
+        "stars": 17273,
+        "forks": 1957,
+        "open_issues": 458,
+        "created_at": "2026-03-15T17:04:09Z",
+        "updated_at": "2026-03-27T19:40:55Z",
+        "pushed_at": "2026-03-27T19:15:17Z",
+        "starred_at": "2026-03-18T22:01:35Z"
+      },
+      "last_updated": "2026-03-27T19:55:27.345129+00:00"
+    },
+    "khoi/sand": {
+      "lists": [],
+      "metadata": {
+        "id": 1132534352,
+        "name": "sand",
+        "full_name": "khoi/sand",
+        "description": "Self-hosted Github Runner on ephemeral macOS VMs on Apple Silicon",
+        "url": "https://github.com/khoi/sand",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 18,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-01-12T05:09:59Z",
+        "updated_at": "2026-03-25T03:14:17Z",
+        "pushed_at": "2026-02-06T09:35:36Z",
+        "starred_at": "2026-03-18T21:30:58Z"
+      },
+      "last_updated": "2026-03-27T19:55:27.634978+00:00"
+    },
+    "skeeto/w64devkit": {
+      "lists": [],
+      "metadata": {
+        "id": 262681272,
+        "name": "w64devkit",
+        "full_name": "skeeto/w64devkit",
+        "description": "Portable C and C++ Development Kit for x64 (and x86) Windows",
+        "url": "https://github.com/skeeto/w64devkit",
+        "homepage": "",
+        "language": "C",
+        "stars": 4369,
+        "forks": 315,
+        "open_issues": 79,
+        "created_at": "2020-05-10T00:05:47Z",
+        "updated_at": "2026-03-27T13:53:19Z",
+        "pushed_at": "2026-03-27T16:21:37Z",
+        "starred_at": "2026-03-18T19:15:58Z"
+      },
+      "last_updated": "2026-03-27T19:55:27.878460+00:00"
+    },
+    "SCons/scons": {
+      "lists": [],
+      "metadata": {
+        "id": 104670160,
+        "name": "scons",
+        "full_name": "SCons/scons",
+        "description": "SCons - a software construction tool",
+        "url": "https://github.com/SCons/scons",
+        "homepage": "http://scons.org",
+        "language": "Python",
+        "stars": 2360,
+        "forks": 342,
+        "open_issues": 659,
+        "created_at": "2017-09-24T19:23:46Z",
+        "updated_at": "2026-03-27T15:07:01Z",
+        "pushed_at": "2026-03-15T01:43:25Z",
+        "starred_at": "2026-03-18T19:14:30Z"
+      },
+      "last_updated": "2026-03-27T19:55:28.140069+00:00"
+    },
+    "sashiko-dev/sashiko": {
+      "lists": [],
+      "metadata": {
+        "id": 1126937619,
+        "name": "sashiko",
+        "full_name": "sashiko-dev/sashiko",
+        "description": "Agentic review of Linux Kernel code changes",
+        "url": "https://github.com/sashiko-dev/sashiko",
+        "homepage": "https://sashiko.dev",
+        "language": "Rust",
+        "stars": 488,
+        "forks": 47,
+        "open_issues": 17,
+        "created_at": "2026-01-02T21:15:32Z",
+        "updated_at": "2026-03-27T18:38:14Z",
+        "pushed_at": "2026-03-27T19:06:39Z",
+        "starred_at": "2026-03-18T16:04:22Z"
+      },
+      "last_updated": "2026-03-27T19:55:28.414511+00:00"
+    },
+    "zerobootdev/zeroboot": {
+      "lists": [],
+      "metadata": {
+        "id": 1182712729,
+        "name": "zeroboot",
+        "full_name": "zerobootdev/zeroboot",
+        "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+        "url": "https://github.com/zerobootdev/zeroboot",
+        "homepage": "https://tally.so/r/aQGkpb",
+        "language": "Rust",
+        "stars": 1972,
+        "forks": 90,
+        "open_issues": 12,
+        "created_at": "2026-03-15T21:49:32Z",
+        "updated_at": "2026-03-27T19:07:30Z",
+        "pushed_at": "2026-03-21T22:53:51Z",
+        "starred_at": "2026-03-18T04:02:44Z"
+      },
+      "last_updated": "2026-03-27T19:55:28.694183+00:00"
+    },
+    "mstange/samply": {
+      "lists": [],
+      "metadata": {
+        "id": 266852617,
+        "name": "samply",
+        "full_name": "mstange/samply",
+        "description": "Command-line sampling profiler for macOS, Linux, and Windows",
+        "url": "https://github.com/mstange/samply",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 4036,
+        "forks": 90,
+        "open_issues": 93,
+        "created_at": "2020-05-25T18:30:46Z",
+        "updated_at": "2026-03-27T07:34:01Z",
+        "pushed_at": "2026-03-24T18:54:42Z",
+        "starred_at": "2026-03-18T01:27:08Z"
+      },
+      "last_updated": "2026-03-27T19:55:28.981338+00:00"
+    },
+    "raylib4Consoles/raylib4PlayStation2": {
+      "lists": [],
+      "metadata": {
+        "id": 1060246065,
+        "name": "raylib4PlayStation2",
+        "full_name": "raylib4Consoles/raylib4PlayStation2",
+        "description": "Raylib port for PlayStation 2",
+        "url": "https://github.com/raylib4Consoles/raylib4PlayStation2",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 34,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-09-19T15:46:24Z",
+        "updated_at": "2026-03-18T01:15:10Z",
+        "pushed_at": "2025-09-19T16:50:28Z",
+        "starred_at": "2026-03-18T01:15:09Z"
+      },
+      "last_updated": "2026-03-27T19:55:29.246217+00:00"
+    },
+    "raysan5/raylib": {
+      "lists": [],
+      "metadata": {
+        "id": 13836499,
+        "name": "raylib",
+        "full_name": "raysan5/raylib",
+        "description": "A simple and easy-to-use library to enjoy videogames programming",
+        "url": "https://github.com/raysan5/raylib",
+        "homepage": "http://www.raylib.com",
+        "language": "C",
+        "stars": 31750,
+        "forks": 2993,
+        "open_issues": 5,
+        "created_at": "2013-10-24T15:46:04Z",
+        "updated_at": "2026-03-27T19:40:09Z",
+        "pushed_at": "2026-03-27T08:26:53Z",
+        "starred_at": "2026-03-18T01:14:57Z"
+      },
+      "last_updated": "2026-03-27T19:55:29.475302+00:00"
+    },
+    "HailToDodongo/pyrite64": {
+      "lists": [],
+      "metadata": {
+        "id": 1062843332,
+        "name": "pyrite64",
+        "full_name": "HailToDodongo/pyrite64",
+        "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
+        "url": "https://github.com/HailToDodongo/pyrite64",
+        "homepage": "https://hailtododongo.github.io/pyrite64/",
+        "language": "C++",
+        "stars": 2750,
+        "forks": 108,
+        "open_issues": 33,
+        "created_at": "2025-09-23T20:07:13Z",
+        "updated_at": "2026-03-27T19:41:54Z",
+        "pushed_at": "2026-03-27T18:20:46Z",
+        "starred_at": "2026-03-18T01:13:39Z"
+      },
+      "last_updated": "2026-03-27T19:55:29.736813+00:00"
+    },
+    "C0mposer/C-Game-Modding-Utility": {
+      "lists": [],
+      "metadata": {
+        "id": 716404931,
+        "name": "C-Game-Modding-Utility",
+        "full_name": "C0mposer/C-Game-Modding-Utility",
+        "description": "A game modding utility that makes injecting C/C++ code easier.",
+        "url": "https://github.com/C0mposer/C-Game-Modding-Utility",
+        "homepage": "",
+        "language": "Python",
+        "stars": 62,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2023-11-09T04:08:59Z",
+        "updated_at": "2026-03-18T01:11:08Z",
+        "pushed_at": "2026-01-15T02:38:53Z",
+        "starred_at": "2026-03-18T01:11:08Z"
+      },
+      "last_updated": "2026-03-27T19:55:29.981480+00:00"
+    },
+    "Skarsnik/SNESTilesKitten": {
+      "lists": [],
+      "metadata": {
+        "id": 86000796,
+        "name": "SNESTilesKitten",
+        "full_name": "Skarsnik/SNESTilesKitten",
+        "description": "A Snes tile viewer/importer/exporter",
+        "url": "https://github.com/Skarsnik/SNESTilesKitten",
+        "homepage": "https://skarsnik.github.io/SNESTilesKitten/",
+        "language": "C++",
+        "stars": 68,
+        "forks": 8,
+        "open_issues": 2,
+        "created_at": "2017-03-23T21:48:26Z",
+        "updated_at": "2026-03-22T06:59:36Z",
+        "pushed_at": "2025-06-25T08:59:53Z",
+        "starred_at": "2026-03-18T00:41:55Z"
+      },
+      "last_updated": "2026-03-27T19:55:30.258214+00:00"
+    },
+    "genkit-ai/genkit": {
+      "lists": [],
+      "metadata": {
+        "id": 793795224,
+        "name": "genkit",
+        "full_name": "genkit-ai/genkit",
+        "description": "Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google",
+        "url": "https://github.com/genkit-ai/genkit",
+        "homepage": "https://genkit.dev",
+        "language": "TypeScript",
+        "stars": 5706,
+        "forks": 700,
+        "open_issues": 915,
+        "created_at": "2024-04-29T22:04:42Z",
+        "updated_at": "2026-03-27T19:04:55Z",
+        "pushed_at": "2026-03-27T19:51:53Z",
+        "starred_at": "2025-10-25T03:07:18Z"
+      },
+      "last_updated": "2026-03-27T19:55:30.638754+00:00"
+    },
+    "alrevuelta/rs-merkle-tree": {
+      "lists": [],
+      "metadata": {
+        "id": 1056680159,
+        "name": "rs-merkle-tree",
+        "full_name": "alrevuelta/rs-merkle-tree",
+        "description": "Merkle tree implementation in Rust with configurable storage backends and hash functions. Fixed depth and incremental only. Optimized for fast proof generation.",
+        "url": "https://github.com/alrevuelta/rs-merkle-tree",
+        "homepage": "https://www.bilinearlabs.io/",
+        "language": "Rust",
+        "stars": 225,
+        "forks": 10,
+        "open_issues": 5,
+        "created_at": "2025-09-14T15:36:20Z",
+        "updated_at": "2026-03-19T10:20:40Z",
+        "pushed_at": "2025-11-10T14:44:21Z",
+        "starred_at": "2025-10-21T14:02:56Z"
+      },
+      "last_updated": "2026-03-27T19:55:31.027858+00:00"
+    },
+    "Microsoft365DSC/ReverseDSC": {
+      "lists": [],
+      "metadata": {
+        "id": 101192200,
+        "name": "ReverseDSC",
+        "full_name": "Microsoft365DSC/ReverseDSC",
+        "description": "Utility Library that Handles the Extraction of a DSC configuration script from an existing environment",
+        "url": "https://github.com/Microsoft365DSC/ReverseDSC",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 149,
+        "forks": 46,
+        "open_issues": 3,
+        "created_at": "2017-08-23T14:52:21Z",
+        "updated_at": "2026-03-27T17:54:54Z",
+        "pushed_at": "2026-03-27T18:02:15Z",
+        "starred_at": "2025-10-05T18:20:08Z"
+      },
+      "last_updated": "2026-03-27T19:55:31.309935+00:00"
+    },
+    "kydecker/hypertext.tv": {
+      "lists": [],
+      "metadata": {
+        "id": 960595125,
+        "name": "hypertext.tv",
+        "full_name": "kydecker/hypertext.tv",
+        "description": "Daily programming for the handmade web. Airing now.",
+        "url": "https://github.com/kydecker/hypertext.tv",
+        "homepage": "https://hypertext.tv",
+        "language": "Astro",
+        "stars": 195,
+        "forks": 42,
+        "open_issues": 0,
+        "created_at": "2025-04-04T17:52:39Z",
+        "updated_at": "2026-03-26T20:55:55Z",
+        "pushed_at": "2026-03-26T20:55:52Z",
+        "starred_at": "2025-04-19T02:13:20Z"
+      },
+      "last_updated": "2026-03-27T19:55:31.684780+00:00"
+    },
+    "noisefactorllc/noisedeck-docs": {
+      "lists": [],
+      "metadata": {
+        "id": 349828302,
+        "name": "noisedeck-docs",
+        "full_name": "noisefactorllc/noisedeck-docs",
+        "description": "Noisedeck's public repository",
+        "url": "https://github.com/noisefactorllc/noisedeck-docs",
+        "homepage": null,
+        "language": null,
+        "stars": 18,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2021-03-20T20:26:43Z",
+        "updated_at": "2025-09-28T05:49:23Z",
+        "pushed_at": "2025-09-28T05:49:10Z",
+        "starred_at": "2025-01-31T22:57:52Z"
+      },
+      "last_updated": "2026-03-27T19:55:32.064922+00:00"
     }
   },
   "last_processed_index": 0
