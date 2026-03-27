@@ -6,5 +6,11 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install
 
+# Tailwind/PostCSS config needed at build time
+COPY tailwind.config.js postcss.config.js ./
+
+# Copy stars data into public/ (mirrors the deploy workflow's cp step)
+COPY github_stars.json public/github_stars.json
+
 EXPOSE 3000
 CMD ["npm", "start"]

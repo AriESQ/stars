@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, SlidersHorizontal, ArrowDown, ArrowUp, ChevronDown, ChevronUp, Github as GithubIcon } from 'lucide-react';
+import { Search, SlidersHorizontal, ArrowDown, ArrowUp, ChevronDown, ChevronUp, Github as GithubIcon, Download } from 'lucide-react';
 import SortDropdown from './SortDropdown';
 import AdvancedSearch from './AdvancedSearch';
 import ExpandedRepoView from './ExpandedRepoView';
@@ -28,6 +28,17 @@ const Dashboard = () => {
     // Prevent toggling if the click was on the GitHub link
     if (event.target.closest('a')) return;
     setExpandedRepo(expandedRepo === name ? null : name);
+  };
+
+  const handleExportJSON = () => {
+    const exportData = Object.fromEntries(filteredRepos);
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'github_stars_export.json';
+    a.click();
+    URL.revokeObjectURL(url);
   };
 
   const handleSearchSubmit = (e) => {
@@ -73,6 +84,14 @@ const Dashboard = () => {
               sortDirection={sortDirection}
               handleSortChange={handleSortChange}
             />
+            <button
+              onClick={handleExportJSON}
+              className="p-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              aria-label="Export current view as JSON"
+              title="Export JSON"
+            >
+              <Download size={20} />
+            </button>
             <button
               onClick={toggleSortDirection}
               className="p-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
