@@ -1,0 +1,10 @@
+FROM node:18-slim
+
+WORKDIR /app
+
+# Cache deps layer — only rebuilds when package files change
+COPY package.json package-lock.json ./
+RUN npm install
+
+EXPOSE 3000
+CMD ["npm", "start"]

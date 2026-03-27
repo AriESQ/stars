@@ -59,6 +59,7 @@ This project automatically scrapes and organizes your GitHub stars, including st
 - `update_star_lists.py`: Script for retrieving and organizing star lists
 - `.github/workflows/update_stars.yml`: GitHub Actions workflow file for data scraping
 - `.github/workflows/deploy-to-gh-pages.yml`: GitHub Actions workflow file for deploying the dashboard
+- `Containerfile.dashboard`: Container definition for running the React dashboard locally
 - `github_stars.json`: Output file containing all starred repository data
 - `src/`: Directory containing React components for the dashboard
 - `public/`: Directory containing public assets for the dashboard
@@ -112,6 +113,8 @@ You can also explore your starred repositories interactively using the deployed 
 
 ## Local Testing
 
+### Scraper
+
 You can test the scraper locally using a Podman (or Docker) container:
 
 ```bash
@@ -123,6 +126,24 @@ podman run --rm -e GITHUB_TOKEN="$GITHUB_TOKEN" stars-test
 ```
 
 Since all repos are already in `github_stars.json`, it should process all chunks with no changes and exit cleanly (no commit attempted).
+
+### Dashboard
+
+You can run the React dashboard locally using Podman. The `Containerfile.dashboard` bakes in `node_modules` so you only pay the `npm install` cost once.
+
+```bash
+# Build the dashboard image (only needed once, or when package.json changes)
+podman build -f Containerfile.dashboard -t stars-dashboard .
+
+# Run the dashboard, mounting source and data
+podman run --rm -d --name stars-dashboard -p 3000:3000 \
+  -v ./src:/app/src:z \
+  -v ./public:/app/public:z \
+  -v ./github_stars.json:/app/public/github_stars.json:z \
+  stars-dashboard
+```
+
+The dashboard will be available at `http://localhost:3000/stars`. When you update `github_stars.json`, just restart the container — no rebuild needed.
 
 ## Limitations
 - The script can only retrieve up to 3000 repositories per list due to GitHub's pagination limits.
@@ -146,6 +167,7 @@ This project is open source and available under the [MIT License](LICENSE).## Pr
 │       └── update_star_lists.yml
 ├── .gitignore
 ├── Containerfile
+├── Containerfile.dashboard
 ├── LICENSE
 ├── README.md
 ├── docs
