@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T19:55:32.064964+00:00",
+  "last_updated": "2026-03-27T19:55:34.866154+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -161687,6 +161687,106 @@
         "starred_at": "2025-01-31T22:57:52Z"
       },
       "last_updated": "2026-03-27T19:55:32.064922+00:00"
+    },
+    "withoneai/pica": {
+      "lists": [],
+      "metadata": {
+        "id": 782597014,
+        "name": "pica",
+        "full_name": "withoneai/pica",
+        "description": "The community edition of Pica, the agentic tooling platform.",
+        "url": "https://github.com/withoneai/pica",
+        "homepage": "https://picaos.com",
+        "language": "Rust",
+        "stars": 1464,
+        "forks": 94,
+        "open_issues": 10,
+        "created_at": "2024-04-05T16:11:43Z",
+        "updated_at": "2026-03-27T18:04:17Z",
+        "pushed_at": "2026-02-20T20:05:52Z",
+        "starred_at": "2025-01-21T18:02:36Z"
+      },
+      "last_updated": "2026-03-27T19:55:33.353865+00:00"
+    },
+    "lucidrains/pi-zero-pytorch": {
+      "lists": [],
+      "metadata": {
+        "id": 881991789,
+        "name": "pi-zero-pytorch",
+        "full_name": "lucidrains/pi-zero-pytorch",
+        "description": "Implementation of \u03c0\u2080, the robotic foundation model architecture proposed by Physical Intelligence",
+        "url": "https://github.com/lucidrains/pi-zero-pytorch",
+        "homepage": "",
+        "language": "Python",
+        "stars": 564,
+        "forks": 25,
+        "open_issues": 2,
+        "created_at": "2024-11-01T16:42:49Z",
+        "updated_at": "2026-02-13T06:33:52Z",
+        "pushed_at": "2026-01-31T17:02:35Z",
+        "starred_at": "2024-11-01T18:20:01Z"
+      },
+      "last_updated": "2026-03-27T19:55:33.735853+00:00"
+    },
+    "lucidrains/MIMO-pytorch": {
+      "lists": [],
+      "metadata": {
+        "id": 863550455,
+        "name": "MIMO-pytorch",
+        "full_name": "lucidrains/MIMO-pytorch",
+        "description": "Pytorch implementation of MIMO, Controllable Character Video Synthesis with Spatial Decomposed Modeling, from Alibaba Intelligence Group",
+        "url": "https://github.com/lucidrains/MIMO-pytorch",
+        "homepage": "",
+        "language": "Python",
+        "stars": 136,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2024-09-26T13:42:40Z",
+        "updated_at": "2025-10-19T19:01:02Z",
+        "pushed_at": "2024-09-30T14:21:45Z",
+        "starred_at": "2024-10-05T00:28:35Z"
+      },
+      "last_updated": "2026-03-27T19:55:34.096720+00:00"
+    },
+    "lucidrains/pytorch-custom-utils": {
+      "lists": [],
+      "metadata": {
+        "id": 730816835,
+        "name": "pytorch-custom-utils",
+        "full_name": "lucidrains/pytorch-custom-utils",
+        "description": "Just some miscellaneous utility functions / decorators / modules related to Pytorch and Accelerate to help speed up implementation of new AI research",
+        "url": "https://github.com/lucidrains/pytorch-custom-utils",
+        "homepage": "",
+        "language": "Python",
+        "stars": 126,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2023-12-12T18:29:29Z",
+        "updated_at": "2025-12-29T23:40:43Z",
+        "pushed_at": "2024-07-26T23:28:33Z",
+        "starred_at": "2023-12-16T18:00:02Z"
+      },
+      "last_updated": "2026-03-27T19:55:34.487720+00:00"
+    },
+    "lucidrains/PaLM-rlhf-pytorch": {
+      "lists": [],
+      "metadata": {
+        "id": 576380523,
+        "name": "PaLM-rlhf-pytorch",
+        "full_name": "lucidrains/PaLM-rlhf-pytorch",
+        "description": "Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM",
+        "url": "https://github.com/lucidrains/PaLM-rlhf-pytorch",
+        "homepage": "",
+        "language": "Python",
+        "stars": 7877,
+        "forks": 680,
+        "open_issues": 20,
+        "created_at": "2022-12-09T17:53:46Z",
+        "updated_at": "2026-03-26T23:55:13Z",
+        "pushed_at": "2025-10-11T18:50:56Z",
+        "starred_at": "2022-12-26T06:03:28Z"
+      },
+      "last_updated": "2026-03-27T19:55:34.866110+00:00"
     }
   },
   "last_processed_index": 0
