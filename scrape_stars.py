@@ -13,7 +13,6 @@ GITHUB_API = "https://api.github.com"
 STARS_FILE = 'github_stars.json'
 CHUNK_SIZE = 100
 UPDATE_INTERVAL = 7
-COMMIT_INTERVAL = 5
 RATE_LIMIT_THRESHOLD = 100 
 CORE_RATE_LIMIT_THRESHOLD = 100
 SEARCH_RATE_LIMIT_THRESHOLD = 5
@@ -146,20 +145,6 @@ def process_repo_batch(repos, token, existing_data):
             existing_data['repositories'][repo_name]['lists'] = item.get('star_lists', [])
     return existing_data
 
-def commit_and_push():
-    try:
-        if os.environ.get("GITHUB_ACTIONS"):
-            subprocess.run(["git", "config", "--global", "user.name", "GitHub Action"], check=True)
-            subprocess.run(["git", "config", "--global", "user.email", "action@github.com"], check=True)
-        subprocess.run(["git", "add", STARS_FILE], check=True)
-        subprocess.run(["git", "commit", "-m", "Update GitHub stars data"], check=True)
-        if os.environ.get("GITHUB_ACTIONS"):
-            subprocess.run(["git", "push"], check=True)
-        logger.info("Changes committed and pushed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Error during git operations: {e}")
-        logger.warning("Exiting early due to potential conflict.")
-        sys.exit(1)
 
 def get_git_remote_username():
     try:
@@ -199,9 +184,6 @@ def process_stars(username, token, existing_data):
     
     logger.info(f"Found {total_repos} total starred repositories.")
 
-    uncommitted_changes = False
-    chunks_processed = 0
-
     for i in range(0, total_repos, CHUNK_SIZE):
         chunk = all_starred[i:i+CHUNK_SIZE]
         logger.info(f"Processing chunk {i//CHUNK_SIZE + 1} of {total_repos//CHUNK_SIZE + 1}")
@@ -219,25 +201,15 @@ def process_stars(username, token, existing_data):
                         'last_updated': datetime.now(UTC).isoformat()
                     }
                     chunk_changes = True
-                    uncommitted_changes = True
                 else:
                     logger.warning(f"Skipping repo {repo_name} due to metadata retrieval failure.")
 
         if chunk_changes:
             existing_data['last_updated'] = datetime.now(UTC).isoformat()
             save_data(existing_data)
-            chunks_processed += 1
 
-        # Commit and push every COMMIT_INTERVAL chunks with changes
-        if chunk_changes and (chunks_processed % COMMIT_INTERVAL == 0):
-            commit_and_push()
-            uncommitted_changes = False
-
-    # Final commit if there are any uncommitted changes
-    if uncommitted_changes:
-        save_data(existing_data)
-        commit_and_push()
-    
+    # Final save to ensure all data is written to disk
+    save_data(existing_data)
     logger.info("Star processing completed.")
     logger.info("Note: Star lists information is not available and needs to be populated separately.")
 

@@ -4,7 +4,6 @@ import json
 import time
 from datetime import datetime, UTC
 import os
-import subprocess
 from loguru import logger
 import sys
 import re
@@ -154,16 +153,6 @@ def get_repos_in_list(list_url, session):
     
     return repos
 
-def commit_and_push():
-    try:
-        subprocess.run(['git', 'config', '--global', 'user.name', 'GitHub Action'], check=True)
-        subprocess.run(['git', 'config', '--global', 'user.email', 'action@github.com'], check=True)
-        subprocess.run(['git', 'add', STARS_FILE], check=True)
-        subprocess.run(['git', 'commit', '-m', 'Update GitHub stars data'], check=True)
-        subprocess.run(['git', 'push'], check=True)
-        logger.info("Changes committed and pushed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Error during git operations: {e}")
 
 def update_star_lists(username, token):
     logger.info(f"Starting star lists update for user: {username}")
@@ -203,10 +192,7 @@ def update_star_lists(username, token):
             if list_changes:
                 existing_data['last_updated'] = datetime.now(UTC).isoformat()
                 save_data(existing_data)
-                if commit_and_push():
-                    logger.info(f"Changes for list {list_name} committed and pushed.")
-                else:
-                    logger.info(f"No changes to commit for list {list_name}.")
+                logger.info(f"Changes for list {list_name} saved.")
             else:
                 logger.info(f"No changes made for list {list_name}.")
             
@@ -222,7 +208,6 @@ def update_star_lists(username, token):
         if changes_made:
             existing_data['last_updated'] = datetime.now(UTC).isoformat()
             save_data(existing_data)
-            commit_and_push()
         sys.exit(1)
 
 if __name__ == "__main__":
