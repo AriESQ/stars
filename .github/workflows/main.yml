@@ -68,7 +68,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
-      run: uv run python scrape_stars.py
+      run: uv run python scripts/scrape_stars.py
 
     - name: Commit and push if changes
       env:

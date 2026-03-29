@@ -6,4 +6,4 @@ git config --global user.email "${GIT_USER_EMAIL:-container@test}"
 # Re-commit any volume-mounted files so git starts clean
 git add -A && git commit --amend --no-edit --allow-empty >/dev/null 2>&1
 
-exec python scrape_stars.py
+exec python scripts/scrape_stars.py

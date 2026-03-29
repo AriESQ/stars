@@ -9,7 +9,9 @@ WORKDIR /app
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen
 
-COPY . .
+COPY scripts/ scripts/
+COPY containers/entrypoint.sh .
+COPY github_stars.json .
 
 # Initialize a git repo so the script's git operations don't fail
 RUN git config --global user.email "container@test" && \

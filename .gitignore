@@ -162,3 +162,7 @@ cython_debug/
 #.idea/
 CLAUDE.md
 node_modules/
+
+# Temporary exports and audit files
+*_export.json
+*_audit.txt

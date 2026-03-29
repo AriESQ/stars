@@ -33,7 +33,7 @@ jobs:
       run: |
         echo "GITHUB_USERNAME: $GITHUB_USERNAME"
         echo "GITHUB_TOKEN is set: ${{ secrets.GITHUB_TOKEN != '' }}"
-        uv run python update_star_lists.py
+        uv run python scripts/update_star_lists.py
 
     - name: Commit and push if changes
       env:
