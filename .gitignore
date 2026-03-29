@@ -162,4 +162,3 @@ cython_debug/
 #.idea/
 CLAUDE.md
 node_modules/
-uv.lock
