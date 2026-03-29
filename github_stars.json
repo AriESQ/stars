@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T17:48:28.185007+00:00",
+  "last_updated": "2026-03-29T02:27:36.841558+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -161927,6 +161927,186 @@
         "starred_at": "2026-03-27T22:43:26Z"
       },
       "last_updated": "2026-03-28T17:48:28.184913+00:00"
+    },
+    "d3/d3": {
+      "lists": [],
+      "metadata": {
+        "id": 943149,
+        "name": "d3",
+        "full_name": "d3/d3",
+        "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+        "url": "https://github.com/d3/d3",
+        "homepage": "https://d3js.org",
+        "language": "Shell",
+        "stars": 112637,
+        "forks": 22783,
+        "open_issues": 29,
+        "created_at": "2010-09-27T17:22:42Z",
+        "updated_at": "2026-03-29T01:52:33Z",
+        "pushed_at": "2025-12-02T17:48:19Z",
+        "starred_at": "2026-03-29T01:52:32Z"
+      },
+      "last_updated": "2026-03-29T02:27:35.053794+00:00"
+    },
+    "squid-cache/squid": {
+      "lists": [],
+      "metadata": {
+        "id": 24519987,
+        "name": "squid",
+        "full_name": "squid-cache/squid",
+        "description": "Squid Web Proxy Cache",
+        "url": "https://github.com/squid-cache/squid",
+        "homepage": "http://www.squid-cache.org/",
+        "language": "C++",
+        "stars": 2904,
+        "forks": 618,
+        "open_issues": 184,
+        "created_at": "2014-09-27T00:59:40Z",
+        "updated_at": "2026-03-29T00:10:46Z",
+        "pushed_at": "2026-03-27T09:57:18Z",
+        "starred_at": "2026-03-29T00:10:46Z"
+      },
+      "last_updated": "2026-03-29T02:27:35.274691+00:00"
+    },
+    "davidmonterocrespo24/velxio": {
+      "lists": [],
+      "metadata": {
+        "id": 1172073959,
+        "name": "velxio",
+        "full_name": "davidmonterocrespo24/velxio",
+        "description": "Emulate Arduino, ESP32 & Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards \u2014 Arduino Uno, ESP32, ESP32-C3, Raspberry Pi Pico, Raspberry Pi 3, and more. No hardware, no cloud, no limits.. Discord: https://discord.gg/3mARjJrh4E",
+        "url": "https://github.com/davidmonterocrespo24/velxio",
+        "homepage": "https://velxio.dev",
+        "language": "TypeScript",
+        "stars": 602,
+        "forks": 31,
+        "open_issues": 9,
+        "created_at": "2026-03-03T23:12:53Z",
+        "updated_at": "2026-03-29T02:23:05Z",
+        "pushed_at": "2026-03-29T02:12:00Z",
+        "starred_at": "2026-03-29T00:01:28Z"
+      },
+      "last_updated": "2026-03-29T02:27:35.484523+00:00"
+    },
+    "Pilfer/hermes_rs": {
+      "lists": [],
+      "metadata": {
+        "id": 785689254,
+        "name": "hermes_rs",
+        "full_name": "Pilfer/hermes_rs",
+        "description": "Hermes bytecode disassembler and assembler",
+        "url": "https://github.com/Pilfer/hermes_rs",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 150,
+        "forks": 13,
+        "open_issues": 2,
+        "created_at": "2024-04-12T12:14:46Z",
+        "updated_at": "2026-03-28T23:23:17Z",
+        "pushed_at": "2026-02-09T15:58:42Z",
+        "starred_at": "2026-03-28T23:23:16Z"
+      },
+      "last_updated": "2026-03-29T02:27:35.685269+00:00"
+    },
+    "gusye1234/nano-vectordb": {
+      "lists": [],
+      "metadata": {
+        "id": 844662181,
+        "name": "nano-vectordb",
+        "full_name": "gusye1234/nano-vectordb",
+        "description": "A simple, easy-to-hack Vector Database",
+        "url": "https://github.com/gusye1234/nano-vectordb",
+        "homepage": "",
+        "language": "Python",
+        "stars": 191,
+        "forks": 9,
+        "open_issues": 5,
+        "created_at": "2024-08-19T18:05:08Z",
+        "updated_at": "2026-03-28T21:07:26Z",
+        "pushed_at": "2026-01-09T08:14:47Z",
+        "starred_at": "2026-03-28T21:07:25Z"
+      },
+      "last_updated": "2026-03-29T02:27:35.917065+00:00"
+    },
+    "lancedb/lancedb": {
+      "lists": [],
+      "metadata": {
+        "id": 607441698,
+        "name": "lancedb",
+        "full_name": "lancedb/lancedb",
+        "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+        "url": "https://github.com/lancedb/lancedb",
+        "homepage": "https://lancedb.com/docs",
+        "language": "HTML",
+        "stars": 9691,
+        "forks": 814,
+        "open_issues": 634,
+        "created_at": "2023-02-28T01:15:17Z",
+        "updated_at": "2026-03-29T01:23:43Z",
+        "pushed_at": "2026-03-26T17:33:01Z",
+        "starred_at": "2026-03-28T21:01:58Z"
+      },
+      "last_updated": "2026-03-29T02:27:36.140559+00:00"
+    },
+    "nickjj/dotfiles": {
+      "lists": [],
+      "metadata": {
+        "id": 162295765,
+        "name": "dotfiles",
+        "full_name": "nickjj/dotfiles",
+        "description": "Set up a developer friendly Arch Linux system in minutes. Also supports WSL 2, Debian, Ubuntu and macOS for CLI tools!",
+        "url": "https://github.com/nickjj/dotfiles",
+        "homepage": "https://nickjanetakis.com/blog/the-tools-i-use",
+        "language": "Shell",
+        "stars": 1137,
+        "forks": 195,
+        "open_issues": 1,
+        "created_at": "2018-12-18T13:53:57Z",
+        "updated_at": "2026-03-29T01:27:58Z",
+        "pushed_at": "2026-03-27T12:34:39Z",
+        "starred_at": "2026-03-28T20:01:04Z"
+      },
+      "last_updated": "2026-03-29T02:27:36.331428+00:00"
+    },
+    "J-x-Z/cocoa-way": {
+      "lists": [],
+      "metadata": {
+        "id": 1115801353,
+        "name": "cocoa-way",
+        "full_name": "J-x-Z/cocoa-way",
+        "description": "Native macOS Wayland Compositor written in Rust using Smithay. Experience seamless Linux app streaming on macOS without XQuartz.",
+        "url": "https://github.com/J-x-Z/cocoa-way",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 555,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2025-12-13T15:27:08Z",
+        "updated_at": "2026-03-29T02:15:20Z",
+        "pushed_at": "2026-01-22T10:38:59Z",
+        "starred_at": "2026-03-28T19:59:38Z"
+      },
+      "last_updated": "2026-03-29T02:27:36.523293+00:00"
+    },
+    "superradcompany/microsandbox": {
+      "lists": [],
+      "metadata": {
+        "id": 867192625,
+        "name": "microsandbox",
+        "full_name": "superradcompany/microsandbox",
+        "description": "opensource secure local-first sandboxes for ai agents",
+        "url": "https://github.com/superradcompany/microsandbox",
+        "homepage": "https://microsandbox.dev",
+        "language": "Rust",
+        "stars": 5180,
+        "forks": 241,
+        "open_issues": 63,
+        "created_at": "2024-10-03T15:57:38Z",
+        "updated_at": "2026-03-28T21:26:52Z",
+        "pushed_at": "2026-03-28T23:44:04Z",
+        "starred_at": "2025-05-30T16:15:24Z"
+      },
+      "last_updated": "2026-03-29T02:27:36.841532+00:00"
     }
   },
   "last_processed_index": 0
