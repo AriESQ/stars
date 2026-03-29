@@ -1,4 +1,0 @@
-beautifulsoup4~=4.12
-requests~=2.31
-loguru~=0.7
-pytest~=8.0
