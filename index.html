@@ -504,7 +504,7 @@ function relTime(s) {
 // --- Chart system ---
 
 const CHART_START_DATE = new Date('2021-10-31');
-let chartType = 'area'; // 'area', 'treemap', 'bubbles', 'ridgeline', 'bars', 'topstars'
+let chartType = 'area'; // 'area', 'treemap', 'ridgeline', 'bars'
 
 // Color palette for star lists
 const LIST_COLORS = {};
@@ -539,10 +539,8 @@ function chartEntries(entries) {
 const CHART_TYPES = [
   { id: 'area', label: 'Activity' },
   { id: 'treemap', label: 'Categories' },
-  { id: 'bubbles', label: 'Bubbles' },
   { id: 'ridgeline', label: 'Ridgeline' },
   { id: 'bars', label: 'Bar Chart' },
-  { id: 'topstars', label: 'Top Repos' },
 ];
 
 function renderChart(entries) {
@@ -571,7 +569,7 @@ function renderChart(entries) {
   const chartArea = document.createElement('div');
   container.appendChild(chartArea);
 
-  const renderers = { area: renderAreaChart, treemap: renderTreemap, bubbles: renderBubbleChart, ridgeline: renderRidgeline, bars: renderBarChart, topstars: renderTopStars };
+  const renderers = { area: renderAreaChart, treemap: renderTreemap, ridgeline: renderRidgeline, bars: renderBarChart };
   renderers[chartType](chartArea, tooltip, filtered, width);
 }
 
@@ -767,90 +765,6 @@ function renderTreemap(container, tooltip, entries, width) {
   });
 }
 
-// --- Bubble chart (by star lists) ---
-
-function renderBubbleChart(container, tooltip, entries, width) {
-  const height = Math.min(width * 0.6, 500);
-
-  const repos = entries.map(([name, r]) => ({
-    name,
-    stars: r.metadata?.stars || 0,
-    lists: r.lists || [],
-    desc: r.metadata?.description || '',
-  }));
-
-  const allListCounts = getTopLists(entries);
-  const topLists = allListCounts.slice(0, TOP_N).map(d => d[0]);
-  const keys = [...topLists.filter(k => k !== 'Other'), 'Other'];
-
-  // Group repos by primary list
-  const groups = {};
-  repos.forEach(r => {
-    const prim = primaryList(r.lists, keys);
-    if (!groups[prim]) groups[prim] = [];
-    groups[prim].push(r);
-  });
-
-  const x = d3.scaleBand()
-    .domain(keys.filter(k => groups[k]))
-    .range([60, width - 16])
-    .padding(0.1);
-
-  const maxStars = d3.max(repos, d => d.stars) || 1;
-  const r = d3.scaleSqrt().domain([0, maxStars]).range([2, 20]);
-
-  const svg = d3.select(container).append('svg')
-    .attr('width', width).attr('height', height);
-
-  // X axis labels
-  svg.selectAll('.x-label')
-    .data(keys.filter(k => groups[k]))
-    .join('text')
-    .attr('x', d => x(d) + x.bandwidth() / 2)
-    .attr('y', height - 6)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#8b949e')
-    .attr('font-size', 10)
-    .text(d => d.length > 12 ? d.slice(0, 11) + '..' : d);
-
-  // Use force simulation per column
-  keys.filter(k => groups[k]).forEach(list => {
-    const items = groups[list];
-    const cx = x(list) + x.bandwidth() / 2;
-    const cy = height / 2 - 10;
-
-    // Simple vertical spread based on index
-    const sorted = items.sort((a, b) => b.stars - a.stars);
-    const sim = d3.forceSimulation(sorted)
-      .force('x', d3.forceX(cx).strength(0.8))
-      .force('y', d3.forceY(cy).strength(0.05))
-      .force('collide', d3.forceCollide(d => r(d.stars) + 1).iterations(3))
-      .stop();
-
-    for (let i = 0; i < 120; i++) sim.tick();
-
-    svg.selectAll(null)
-      .data(sorted)
-      .join('circle')
-      .attr('cx', d => d.x)
-      .attr('cy', d => d.y)
-      .attr('r', d => r(d.stars))
-      .attr('fill', LIST_COLORS[list] || '#8b949e')
-      .attr('opacity', 0.75)
-      .style('cursor', 'pointer')
-      .on('mouseenter', (e, d) => {
-        tooltip.style.opacity = 1;
-        tooltip.innerHTML = `<strong>${esc(d.name)}</strong><br>${fmt(d.stars)} stars<br>${esc(list)}`;
-      })
-      .on('mousemove', e => {
-        tooltip.style.left = (e.pageX + 12) + 'px';
-        tooltip.style.top = (e.pageY - 12) + 'px';
-      })
-      .on('mouseleave', () => { tooltip.style.opacity = 0; })
-      .on('click', (e, d) => { window.open('https://github.com/' + d.name, '_blank'); });
-  });
-}
-
 // --- Ridgeline plot (by star lists) ---
 
 function renderRidgeline(container, tooltip, entries, width) {
@@ -1032,80 +946,6 @@ function renderBarChart(container, tooltip, entries, width) {
   });
 }
 
-// --- Top starred repos ---
-
-function renderTopStars(container, tooltip, entries, width) {
-  const topRepos = entries
-    .map(([name, r]) => ({
-      name,
-      stars: r.metadata?.stars || 0,
-      lists: r.lists || [],
-      desc: r.metadata?.description || '',
-    }))
-    .sort((a, b) => b.stars - a.stars)
-    .slice(0, 25);
-
-  const allListCounts = getTopLists(entries);
-  const topLists = allListCounts.slice(0, TOP_N).map(d => d[0]);
-  const keys = [...topLists.filter(k => k !== 'Other'), 'Other'];
-
-  const barH = 24;
-  const gap = 3;
-  const margin = { top: 8, right: 60, bottom: 8, left: 200 };
-  const height = margin.top + margin.bottom + topRepos.length * (barH + gap);
-
-  const maxStars = topRepos[0]?.stars || 1;
-  const barScale = d3.scaleLinear().domain([0, maxStars]).range([0, width - margin.left - margin.right]);
-
-  const svg = d3.select(container).append('svg')
-    .attr('width', width).attr('height', height);
-
-  topRepos.forEach((repo, i) => {
-    const y = margin.top + i * (barH + gap);
-    const barW = barScale(repo.stars);
-    const prim = primaryList(repo.lists, keys);
-
-    // Repo name
-    svg.append('text')
-      .attr('x', margin.left - 8)
-      .attr('y', y + barH / 2 + 4)
-      .attr('text-anchor', 'end')
-      .attr('fill', '#58a6ff')
-      .attr('font-size', 11)
-      .style('cursor', 'pointer')
-      .text(repo.name.length > 28 ? '...' + repo.name.slice(-25) : repo.name)
-      .on('click', () => { window.open('https://github.com/' + repo.name, '_blank'); });
-
-    // Bar
-    svg.append('rect')
-      .attr('x', margin.left)
-      .attr('y', y + 2)
-      .attr('width', barW)
-      .attr('height', barH - 4)
-      .attr('fill', LIST_COLORS[prim] || '#8b949e')
-      .attr('opacity', 0.8)
-      .attr('rx', 3)
-      .style('cursor', 'pointer')
-      .on('mouseenter', e => {
-        tooltip.style.opacity = 1;
-        tooltip.innerHTML = `<strong>${esc(repo.name)}</strong><br>${fmt(repo.stars)} stars<br>${esc(prim)}${repo.desc ? '<br><em>' + esc(repo.desc.slice(0, 80)) + '</em>' : ''}`;
-      })
-      .on('mousemove', e => {
-        tooltip.style.left = (e.pageX + 12) + 'px';
-        tooltip.style.top = (e.pageY - 12) + 'px';
-      })
-      .on('mouseleave', () => { tooltip.style.opacity = 0; })
-      .on('click', () => { window.open('https://github.com/' + repo.name, '_blank'); });
-
-    // Star count
-    svg.append('text')
-      .attr('x', margin.left + barW + 6)
-      .attr('y', y + barH / 2 + 4)
-      .attr('fill', '#8b949e')
-      .attr('font-size', 11)
-      .text(fmt(repo.stars));
-  });
-}
 </script>
 </body>
 </html>
