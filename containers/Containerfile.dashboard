@@ -1,18 +1,7 @@
-FROM node:18-slim
+FROM nginx:alpine
 
-WORKDIR /app
+COPY index.html /usr/share/nginx/html/
+COPY favicon.ico /usr/share/nginx/html/
+COPY github_stars.json /usr/share/nginx/html/
 
-# Cache deps layer — only rebuilds when package files change
-COPY package.json package-lock.json ./
-RUN npm install
-
-# Tailwind/PostCSS config needed at build time
-COPY tailwind.config.js postcss.config.js ./
-COPY src/ src/
-COPY public/ public/
-
-# Copy stars data into public/ (mirrors the deploy workflow's cp step)
-COPY github_stars.json public/github_stars.json
-
-EXPOSE 3000
-CMD ["npm", "start"]
+EXPOSE 80
