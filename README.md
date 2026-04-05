@@ -9,21 +9,22 @@ This project automatically scrapes and organizes your GitHub stars, including st
 - Provides detailed logging for transparency and debugging
 - Commits and pushes updates only when changes are detected
 - Runs daily via GitHub Actions, with option for manual triggers
-- Offers a web-based dashboard to explore and search starred repositories
+- Offers a web-based dashboard with D3 constellation chart, advanced search, language filtering, and star list filtering
 
 ## How it works
 1. The GitHub Action runs daily at midnight UTC (or can be manually triggered).
 2. It executes two main scripts:
-   - `scrape_stars.py`: Fetches all starred repositories and their metadata.
-   - `update_star_lists.py`: Retrieves star lists for each repository.
+   - `scripts/scrape_stars.py`: Fetches all starred repositories, their metadata, and user profile.
+   - `scripts/update_star_lists.py`: Retrieves star lists for each repository.
 3. The scripts:
    - Fetch all starred repositories and their metadata
    - Retrieve all star lists (tags) for the user
    - Associate each repository with its corresponding lists
    - Handle rate limiting using both preemptive and reactive strategies
+   - Cache user profile data using ETags to minimize API calls
 4. Results are saved in `github_stars.json`
 5. If there are changes, the action commits and pushes the updated file to the repository
-6. A React-based dashboard is built and deployed to GitHub Pages, allowing users to explore their starred repositories
+6. A static dashboard is deployed to GitHub Pages
 
 ## Setup
 1. Fork this repository
@@ -31,14 +32,11 @@ This project automatically scrapes and organizes your GitHub stars, including st
 3. Navigate to "Secrets and variables" > "Actions"
 4. Add the following repository secret:
    - `GITHUB_TOKEN`: A GitHub personal access token with `repo` scope
-5. Update user-specific settings:
-   - In `package.json`, change the `homepage` field from `"https://dmarx.github.io/stars"` to `"https://<your-github-username>.github.io/stars"`
-   - In `.github/workflows/deploy-to-gh-pages.yml`, update the hardcoded deploy URL to match your username
-6. (Optional) The forked repo includes large JSON data files (`github_stars.json`, `public/github_stars.json`) from the original user. These accumulate significantly in git history. To clean them out using git's built-in `filter-branch`:
+5. (Optional) The forked repo includes large JSON data files from the original user. These accumulate significantly in git history. To clean them out using git's built-in `filter-branch`:
    ```bash
    # Remove the data files from all history
    git filter-branch --force --index-filter \
-     'git rm --cached --ignore-unmatch github_stars.json public/github_stars.json' \
+     'git rm --cached --ignore-unmatch github_stars.json' \
      --prune-empty -- --all
 
    # Clean up the backup refs and garbage collect
@@ -51,65 +49,32 @@ This project automatically scrapes and organizes your GitHub stars, including st
    git push origin --force --tags
    ```
    After this, the first scrape run will regenerate these files with your own data.
-7. The action will now run automatically every day, or you can trigger it manually from the "Actions" tab
-8. Enable GitHub Pages in your repository settings, setting the source to **GitHub Actions** (Settings > Pages > Source)
+6. The action will now run automatically every day, or you can trigger it manually from the "Actions" tab
+7. Enable GitHub Pages in your repository settings, setting the source to **GitHub Actions** (Settings > Pages > Source)
 
 ## File Structure
-- `scrape_stars.py`: Main script for fetching starred repositories and metadata
-- `update_star_lists.py`: Script for retrieving and organizing star lists
-- `.github/workflows/update_stars.yml`: GitHub Actions workflow file for data scraping
-- `.github/workflows/deploy-to-gh-pages.yml`: GitHub Actions workflow file for deploying the dashboard
-- `Containerfile.dashboard`: Container definition for running the React dashboard locally
+- `scripts/scrape_stars.py`: Main script for fetching starred repositories and metadata
+- `scripts/update_star_lists.py`: Script for retrieving and organizing star lists
+- `.github/workflows/main.yml`: GitHub Actions workflow for data scraping
+- `.github/workflows/update_star_lists.yml`: GitHub Actions workflow for star list updates
+- `.github/workflows/deploy-to-gh-pages.yml`: GitHub Actions workflow for deploying the dashboard
+- `containers/Containerfile`: Container definition for running the scraper
+- `containers/Containerfile.dashboard`: Container definition for running the dashboard locally
+- `index.html`: Single-file dashboard with inline CSS/JS and D3.js constellation chart
 - `github_stars.json`: Output file containing all starred repository data
-- `src/`: Directory containing React components for the dashboard
-- `public/`: Directory containing public assets for the dashboard
-
-### Front end file structure
-
-```
-src/
-├── components/
-│   ├── Dashboard.js
-│   ├── SortDropdown.js
-│   ├── AdvancedSearchCondition.js
-│   ├── AdvancedSearch.js
-│   └── ExpandedRepoView.js
-├── hooks/
-│   └── useRepositories.js
-└── utils/
-    └── sortUtils.js
-```
 
 ## Dashboard
-The dashboard is built using React and Tailwind CSS. It provides the following features:
-- Search functionality to find repositories by name or description
-- Filtering by star lists (tags)
-- Expandable repository cards showing detailed information
-- Links to GitHub repositories
+The dashboard is a single `index.html` file using vanilla JavaScript and D3.js (loaded from CDN). It provides:
+- D3 constellation scatter plot (star count vs starred date, colored by language)
+- Text search across repository names and descriptions
+- Advanced multi-condition search with AND/OR logic
+- Language filtering via clickable legend
+- Star list (tag) filtering
+- 6 sort options with ascending/descending toggle
+- Expandable repository cards with detailed metadata
+- GitHub dark theme
 
 To view the dashboard, visit `https://<your-github-username>.github.io/stars/` after the GitHub Actions workflow has completed.
-
-## Customization
-You can customize the behavior of the scripts by modifying the following constants in the Python files:
-- `STARS_FILE`: Name of the output JSON file
-- `BACKFILL_CHUNK_SIZE`: Number of repositories to process in each backfill chunk
-- `COMMIT_INTERVAL`: Number of lists to process before committing changes
-- `RATE_LIMIT_THRESHOLD`: Number of API requests to keep in reserve
-- `DEFAULT_RATE_LIMIT` and `DEFAULT_RATE_LIMIT_WINDOW`: Default rate limiting for web scraping
-
-You can also customize the dashboard by modifying the React components in the `src/` directory.
-
-## Manual Trigger
-You can manually trigger the workflows from the "Actions" tab in your GitHub repository.
-
-## Viewing Results
-After the action runs successfully, you can view the updated `github_stars.json` file in the repository. This file contains a JSON object with:
-- `last_updated`: Timestamp of when the data was last scraped
-- `repositories`: An object where each key is a repository name, and the value is another object containing:
-  - `lists`: An array of lists (tags) associated with that repository
-  - `metadata`: An object containing the collected metadata for the repository
-
-You can also explore your starred repositories interactively using the deployed dashboard.
 
 ## Local Testing
 
@@ -119,7 +84,7 @@ You can test the scraper locally using a Podman (or Docker) container:
 
 ```bash
 # Build the container
-podman build -t stars-test -f Containerfile .
+podman build -t stars-test -f containers/Containerfile .
 
 # Run with your GitHub token
 podman run --rm -e GITHUB_TOKEN="$GITHUB_TOKEN" stars-test
@@ -129,21 +94,29 @@ Since all repos are already in `github_stars.json`, it should process all chunks
 
 ### Dashboard
 
-You can run the React dashboard locally using Podman. The `Containerfile.dashboard` bakes in `node_modules` so you only pay the `npm install` cost once.
+Serve the dashboard locally with any HTTP server:
 
 ```bash
-# Build the dashboard image (only needed once, or when package.json changes)
-podman build -f Containerfile.dashboard -t stars-dashboard .
-
-# Run the dashboard, mounting source and data
-podman run --rm -d --name stars-dashboard -p 3000:3000 \
-  -v ./src:/app/src:z \
-  -v ./public:/app/public:z \
-  -v ./github_stars.json:/app/public/github_stars.json:z \
-  stars-dashboard
+python -m http.server
 ```
 
-The dashboard will be available at `http://localhost:3000/stars`. When you update `github_stars.json`, just restart the container — no rebuild needed.
+Then open `http://localhost:8000` in your browser. The dashboard loads `github_stars.json` from the same directory.
+
+You can also use the container:
+
+```bash
+podman build -f containers/Containerfile.dashboard -t stars-dashboard .
+podman run --rm -d --name stars-dashboard -p 8080:80 stars-dashboard
+```
+
+The dashboard will be available at `http://localhost:8080`.
+
+## Customization
+You can customize the behavior of the scripts by modifying the following constants in the Python files:
+- `STARS_FILE`: Name of the output JSON file
+- `CHUNK_SIZE`: Number of repositories to process in each chunk
+- `RATE_LIMIT_THRESHOLD`: Number of API requests to keep in reserve
+- `DEFAULT_RATE_LIMIT` and `DEFAULT_RATE_LIMIT_WINDOW`: Default rate limiting for web scraping
 
 ## Limitations
 - The script can only retrieve up to 3000 repositories per list due to GitHub's pagination limits.
@@ -153,59 +126,4 @@ The dashboard will be available at `http://localhost:3000/stars`. When you updat
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is open source and available under the [MIT License](LICENSE).## Project Structure
-
-```
-
-├── .github
-│   └── workflows
-│       ├── build_readme.yml
-│       ├── deploy-to-gh-pages.yml
-│       ├── generate-package-lock.yml
-│       ├── generate_summaries.yml
-│       ├── main.yml
-│       └── update_star_lists.yml
-├── .gitignore
-├── Containerfile
-├── Containerfile.dashboard
-├── LICENSE
-├── README.md
-├── docs
-│   └── readme
-│       ├── base.md.j2
-│       └── sections
-│           ├── main.md.j2
-│           └── structure.md.j2
-├── github_stars.json
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── public
-│   ├── github_stars.json
-│   └── index.html
-├── pyproject.toml
-├── scrape_stars.py
-├── scripts
-│   └── generate-package-lock.js
-├── src
-│   ├── App.js
-│   ├── README.md
-│   ├── components
-│   │   ├── AdvancedSearch.js
-│   │   ├── AdvancedSearchCondition.js
-│   │   ├── Dashboard.js
-│   │   ├── ExpandedRepoView.js
-│   │   └── SortDropdown.js
-│   ├── hooks
-│   │   └── useRepositories.js
-│   ├── index.css
-│   ├── index.js
-│   └── utils
-│       └── sortUtils.js
-├── tailwind.config.js
-├── tests
-│   ├── __init__.py
-│   └── test_scrape.py
-└── update_star_lists.py
-
-```
+This project is open source and available under the [MIT License](LICENSE).

@@ -99,6 +99,35 @@ def get_repo_metadata(repo, token):
             return None
         raise
 
+def get_user_profile(username, token, existing_etag=None):
+    url = f"{GITHUB_API}/users/{username}"
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    if existing_etag:
+        headers["If-None-Match"] = existing_etag
+
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 304:
+        logger.info("Profile unchanged (304 Not Modified), skipping update.")
+        return None, existing_etag
+
+    response.raise_for_status()
+    handle_rate_limit(response)
+
+    user_data = response.json()
+    etag = response.headers.get("ETag")
+    profile = {
+        "name": user_data.get("name"),
+        "avatar_url": user_data.get("avatar_url"),
+        "bio": user_data.get("bio"),
+    }
+    logger.info(f"Fetched profile for {username}.")
+    return profile, etag
+
+
 def load_existing_data():
     if os.path.exists(STARS_FILE):
         with open(STARS_FILE, 'r') as f:
@@ -236,7 +265,15 @@ def main():
         # We'll continue anyway, but the warning is logged
     
     existing_data = load_existing_data()
-    
+
+    # Fetch profile with ETag caching
+    existing_etag = existing_data.get('profile_etag')
+    profile, etag = get_user_profile(username, token, existing_etag)
+    existing_data['username'] = username
+    if profile is not None:
+        existing_data['profile'] = profile
+    existing_data['profile_etag'] = etag
+
     try:
         process_stars(username, token, existing_data)
     except Exception as e:

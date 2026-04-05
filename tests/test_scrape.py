@@ -11,7 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from scrape_stars import (
     get_starred_repos, get_repo_metadata, extract_metadata,
-    process_stars, handle_rate_limit, check_initial_rate_limit
+    process_stars, handle_rate_limit, check_initial_rate_limit,
+    get_user_profile
 )
 
 @pytest.fixture
@@ -84,6 +85,39 @@ def test_check_initial_rate_limit():
     }
     with patch('scrape_stars.requests.get', return_value=mock_response):
         assert check_initial_rate_limit('testtoken') == True
+
+def test_get_user_profile():
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {
+        "name": "Test User",
+        "avatar_url": "https://avatars.githubusercontent.com/u/123",
+        "bio": "A test bio",
+    }
+    mock_response.headers = {
+        'X-RateLimit-Remaining': '4000',
+        'X-RateLimit-Reset': '1600000000',
+        'ETag': '"abc123"',
+    }
+    with patch('scrape_stars.requests.get', return_value=mock_response), \
+         patch('scrape_stars.handle_rate_limit'):
+        profile, etag = get_user_profile('testuser', 'testtoken')
+    assert profile == {
+        "name": "Test User",
+        "avatar_url": "https://avatars.githubusercontent.com/u/123",
+        "bio": "A test bio",
+    }
+    assert etag == '"abc123"'
+
+
+def test_get_user_profile_not_modified():
+    mock_response = MagicMock()
+    mock_response.status_code = 304
+    with patch('scrape_stars.requests.get', return_value=mock_response):
+        profile, etag = get_user_profile('testuser', 'testtoken', existing_etag='"abc123"')
+    assert profile is None
+    assert etag == '"abc123"'
+
 
 if __name__ == "__main__":
     pytest.main()

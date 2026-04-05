@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stars</title>
+<meta name="description" content="A searchable, sortable dashboard of GitHub starred repositories.">
+<link rel="icon" href="favicon.ico">
+
+<style>
+  :root {
+    --color-bg: #0d1117;
+    --color-bg-secondary: #161b22;
+    --color-bg-tertiary: #21262d;
+    --color-border: #30363d;
+    --color-border-hover: #8b949e;
+    --color-text: #e6edf3;
+    --color-text-secondary: #e6edf3;
+    --color-text-muted: #8b949e;
+    --color-text-placeholder: #6e7681;
+    --color-link: #58a6ff;
+    --color-accent: #1f6feb;
+    --color-danger: #f85149;
+    --radius: 6px;
+    --font-sm: .75rem;
+    --font-base: .875rem;
+    --font-lg: 1.25rem;
+    --font-xl: 1.5rem;
+    --control-h: 32px;
+    --control-px: 12px;
+    --gap: .5rem;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; background: var(--color-bg); color: var(--color-text); line-height: 1.5; }
+  a { color: var(--color-link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Layout */
+  .container { max-width: 768px; margin: 0 auto; padding: 0 1rem; }
+
+  /* Profile header */
+  .profile-header { display: flex; align-items: center; gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--color-bg-tertiary); margin-bottom: 1rem; cursor: pointer; text-decoration: none; color: inherit; }
+  .profile-header:hover { text-decoration: none; }
+  .avatar { width: 64px; height: 64px; border-radius: 50%; border: 1px solid var(--color-border); }
+  .profile-name { font-size: var(--font-lg); font-weight: 600; line-height: 1.25; }
+  .profile-login { font-size: var(--font-base); font-weight: 400; color: var(--color-text-muted); }
+  .profile-bio { font-size: var(--font-sm); color: var(--color-text-muted); }
+
+  /* Controls */
+  .stars-header { font-size: var(--font-xl); font-weight: 300; margin-bottom: var(--gap); }
+  .controls-row { display: flex; flex-wrap: wrap; gap: var(--gap); align-items: stretch; margin-bottom: 1rem; }
+  .search-form { display: flex; flex: 1 1 100%; }
+  .search-form input {
+    flex: 1; height: var(--control-h); padding: 0 var(--control-px); font-size: var(--font-base);
+    background: var(--color-bg); border: 1px solid var(--color-border); border-radius: var(--radius) 0 0 var(--radius);
+    color: var(--color-text); line-height: var(--control-h);
+  }
+  .search-form input::placeholder { color: var(--color-text-placeholder); }
+  .search-form input:focus { outline: none; border-color: var(--color-link); box-shadow: 0 0 0 3px rgba(31,111,235,.3); }
+
+  .ctrl-btn, select.ctrl-select, .search-form button {
+    height: var(--control-h); padding: 0 var(--control-px); font-size: var(--font-base); font-weight: 500;
+    background: var(--color-bg-tertiary); border: 1px solid var(--color-border); border-radius: var(--radius);
+    color: var(--color-text-secondary); cursor: pointer; white-space: nowrap; line-height: var(--control-h);
+  }
+  .search-form button { border-radius: 0 var(--radius) var(--radius) 0; border-left: 0; }
+  .ctrl-btn:hover, select.ctrl-select:hover, .search-form button:hover { background: var(--color-border); border-color: var(--color-border-hover); }
+
+  .controls-bottom { display: flex; flex-wrap: wrap; gap: var(--gap); }
+  .controls-bottom .ctrl-btn { flex: 1 1 0; min-width: 0; text-align: center; }
+  .sort-group { display: flex; flex: 1 1 auto; }
+  .sort-group select { flex: 1; border-radius: var(--radius) 0 0 var(--radius); border-right: 0; text-align: left; }
+  .sort-group .ctrl-btn { border-radius: 0 var(--radius) var(--radius) 0; flex: 0 0 var(--control-h); padding: 0; text-align: center; }
+
+  /* List filter tags */
+  .list-filter { margin-bottom: 1rem; display: none; }
+  .list-filter.open { display: block; }
+  .tag {
+    display: inline-block; padding: .2rem .6rem; margin: .15rem; border-radius: 9999px;
+    font-size: var(--font-sm); background: var(--color-bg-tertiary); color: var(--color-text-muted);
+    border: 1px solid var(--color-border); cursor: pointer;
+  }
+  .tag:hover { border-color: var(--color-link); color: var(--color-text-secondary); }
+  .tag.active { background: var(--color-accent); color: #fff; border-color: var(--color-accent); }
+
+  /* Advanced search */
+  .advanced { background: var(--color-bg-secondary); border: 1px solid var(--color-border); border-radius: var(--radius); padding: .75rem; margin-bottom: 1rem; display: none; }
+  .advanced.open { display: block; }
+  .condition { display: flex; gap: .375rem; margin-bottom: .375rem; align-items: center; }
+  .condition select, .condition input {
+    height: 28px; font-size: var(--font-sm); padding: 0 .5rem; background: var(--color-bg); border: 1px solid var(--color-border);
+    border-radius: 4px; color: var(--color-text-secondary);
+  }
+  .condition select { flex: 0 0 auto; }
+  .condition input { flex: 1; min-width: 80px; }
+  .condition input::placeholder { color: var(--color-text-placeholder); }
+  .remove-cond { background: none; border: none; color: var(--color-danger); font-size: 1.1rem; cursor: pointer; padding: 0 .25rem; }
+  .conjunction-toggle { display: inline-flex; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; margin-bottom: .5rem; }
+  .conjunction-toggle button {
+    padding: 3px 10px; font-size: var(--font-sm); background: var(--color-bg); border: none; color: var(--color-text-muted); cursor: pointer;
+  }
+  .conjunction-toggle button.active { background: var(--color-accent); color: #fff; }
+  .conjunction-toggle button:not(:last-child) { border-right: 1px solid var(--color-border); }
+
+  /* Repo list */
+  .repo-item { padding: 1.5rem 0; border-bottom: 1px solid var(--color-bg-tertiary); }
+  .repo-item:first-child { padding-top: 0; }
+  .repo-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .repo-name { font-size: var(--font-lg); }
+  .repo-name .owner { font-weight: 400; color: var(--color-link); }
+  .repo-name .name { font-weight: 600; color: var(--color-link); }
+  .repo-desc { font-size: var(--font-base); color: var(--color-text-muted); margin-top: .25rem; }
+  .repo-meta { display: flex; align-items: center; gap: 1rem; font-size: var(--font-sm); color: var(--color-text-muted); margin-top: .5rem; flex-wrap: wrap; }
+  .lang-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; position: relative; top: 1px; }
+  .repo-meta a { color: var(--color-text-muted); }
+  .repo-meta a:hover { color: var(--color-link); text-decoration: none; }
+  .repo-meta svg { vertical-align: text-bottom; fill: var(--color-text-muted); margin-right: 2px; }
+
+  /* Expanded detail */
+  .repo-detail { font-size: var(--font-sm); margin-top: .5rem; }
+  .repo-detail dl { display: grid; grid-template-columns: auto 1fr; gap: .25rem .75rem; margin-top: .5rem; }
+  .repo-detail dt { color: var(--color-text-muted); }
+  .repo-detail dd { color: var(--color-text-secondary); overflow-wrap: break-word; }
+  .repo-detail dd a { color: var(--color-link); }
+  .lists-tags { margin-top: .5rem; }
+  .lists-tags span {
+    display: inline-block; padding: .15rem .5rem; margin: .1rem; border-radius: 9999px;
+    font-size: var(--font-sm); background: var(--color-bg-tertiary); color: var(--color-text-muted); border: 1px solid var(--color-border);
+  }
+
+  /* Constellation chart */
+  .chart-container { margin-bottom: 1.5rem; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: var(--color-bg-secondary); }
+  .chart-container svg { display: block; }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: .375rem .75rem; padding: .5rem .75rem; border-top: 1px solid var(--color-border); }
+  .chart-legend span { display: inline-flex; align-items: center; gap: 4px; font-size: var(--font-sm); color: var(--color-text-muted); cursor: pointer; }
+  .chart-legend span:hover { color: var(--color-text); }
+  .chart-legend span.active { color: var(--color-text); text-decoration: underline; }
+  .chart-tooltip {
+    position: absolute; pointer-events: none; padding: 6px 10px; font-size: var(--font-sm);
+    background: var(--color-bg-tertiary); border: 1px solid var(--color-border); border-radius: 4px;
+    color: var(--color-text); opacity: 0; transition: opacity .15s;
+  }
+
+  .loading { text-align: center; padding: 4rem; font-size: 1.125rem; color: var(--color-text-placeholder); }
+  .count-badge { font-size: var(--font-sm); padding: 0 6px; background: var(--color-border); border-radius: 9999px; color: var(--color-text-secondary); margin-left: .5rem; vertical-align: middle; }
+
+  @media (max-width: 600px) {
+    .container { padding: 0 .75rem; }
+    .profile-header { gap: .75rem; padding: 1rem 0; }
+    .avatar { width: 48px; height: 48px; }
+    .repo-name { font-size: 1rem; }
+    .condition { flex-wrap: wrap; }
+    .sort-group { flex: 1 1 100%; }
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <a id="profile-header" class="profile-header" target="_blank"></a>
+  <div class="main">
+      <h2 class="stars-header" id="heading">Stars</h2>
+      <div id="chart" class="chart-container open"></div>
+      <div id="chart-tooltip" class="chart-tooltip"></div>
+      <div class="controls-row">
+        <div class="search-form">
+          <input type="text" id="search" placeholder="Search stars">
+          <button type="button">Search</button>
+        </div>
+      </div>
+      <div class="controls-row controls-bottom">
+        <button class="ctrl-btn" id="toggle-lists">Lists</button>
+        <button class="ctrl-btn" id="toggle-advanced">Advanced</button>
+        <div class="sort-group">
+          <select class="ctrl-select" id="sort-field">
+            <option value="starred_at">Recently starred</option>
+            <option value="stars">Most stars</option>
+            <option value="name">Name</option>
+            <option value="updated_at">Recently active</option>
+            <option value="created_at">Created</option>
+            <option value="pushed_at">Recently pushed</option>
+          </select>
+          <button class="ctrl-btn" id="sort-dir">&#9660;</button>
+        </div>
+      </div>
+      <div id="list-filter" class="list-filter"></div>
+      <div id="advanced" class="advanced"></div>
+      <div id="repos"><div class="loading">Loading...</div></div>
+  </div>
+</div>
+
+<script>
+const LANG_COLORS = {
+  JavaScript:'#f1e05a',TypeScript:'#3178c6',Python:'#3572A5',Rust:'#dea584',
+  'C++':'#f34b7d',C:'#555555','C#':'#178600',Java:'#b07219',Go:'#00ADD8',
+  Ruby:'#701516',PHP:'#4F5D95',Swift:'#F05138',Kotlin:'#A97BFF',Dart:'#00B4AB',
+  Shell:'#89e051',HTML:'#e34c26',CSS:'#563d7c',SCSS:'#c6538c',Vue:'#41b883',
+  Svelte:'#ff3e00',Lua:'#000080',Zig:'#ec915c',Nim:'#ffc200',Haskell:'#5e5086',
+  Elixir:'#6e4a7e',Clojure:'#db5855',Scala:'#c22d40','Jupyter Notebook':'#DA5B0B',
+  R:'#198CE7','Objective-C':'#438eff','Objective-C++':'#6866fb',GLSL:'#5686a5',
+  Makefile:'#427819',Processing:'#0096D8',Jinja:'#a52a22',AutoHotkey:'#6594b9',
+};
+
+const FIELDS = [
+  { value: 'name', label: 'Name', ops: ['contains','equals','starts_with','ends_with'] },
+  { value: 'description', label: 'Description', ops: ['contains','equals','starts_with','ends_with'] },
+  { value: 'language', label: 'Language', ops: ['contains','equals','starts_with','ends_with'] },
+  { value: 'lists', label: 'Lists', ops: ['includes','excludes'] },
+  { value: 'stars', label: 'Stars', ops: ['equals','greater_than','less_than'] },
+  { value: 'starred_at', label: 'Starred', ops: ['equals','after','before'] },
+  { value: 'created_at', label: 'Created', ops: ['equals','after','before'] },
+  { value: 'updated_at', label: 'Updated', ops: ['equals','after','before'] },
+  { value: 'pushed_at', label: 'Pushed', ops: ['equals','after','before'] },
+];
+
+let data = null, expanded = null;
+let sortField = 'starred_at', sortDir = 'desc';
+let textSearch = '', activeList = null, activeLangs = new Set();
+let conditions = [], conjunction = 'AND';
+
+// --- Data loading ---
+
+const base = document.baseURI.replace(/\/[^/]*$/, '/');
+fetch(base + 'github_stars.json').then(r => r.json()).then(d => {
+  data = d;
+  renderSidebar();
+  buildListFilter();
+  render();
+}).catch(e => {
+  document.getElementById('repos').innerHTML = `<div class="loading">Error loading data: ${esc(e.message)}</div>`;
+});
+
+// --- Sidebar ---
+
+function renderSidebar() {
+  const el = document.getElementById('profile-header');
+  const p = data.profile || {};
+  const user = data.username || '';
+  if (!user && !p.avatar_url) {
+    el.style.display = 'none';
+    return;
+  }
+  const avatarUrl = p.avatar_url || '';
+  const displayName = p.name || user;
+  const bio = p.bio || '';
+  el.href = `https://github.com/${encodeURIComponent(user)}`;
+  el.innerHTML = `
+    ${avatarUrl ? `<img class="avatar" src="${esc(avatarUrl)}" alt="${esc(user)}">` : ''}
+    <div>
+      <div class="profile-name">${esc(displayName)}</div>
+      <div class="profile-login">${esc(user)}</div>
+      ${bio ? `<div class="profile-bio">${esc(bio)}</div>` : ''}
+    </div>
+  `;
+  document.title = `${user} - Stars`;
+}
+
+// --- Event handlers ---
+
+document.getElementById('search').addEventListener('input', e => { textSearch = e.target.value; render(); });
+document.getElementById('sort-field').addEventListener('change', e => { sortField = e.target.value; render(); });
+document.getElementById('sort-dir').addEventListener('click', () => {
+  sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+  document.getElementById('sort-dir').innerHTML = sortDir === 'desc' ? '&#9660;' : '&#9650;';
+  render();
+});
+document.getElementById('toggle-advanced').addEventListener('click', () => {
+  const el = document.getElementById('advanced');
+  el.classList.toggle('open');
+  if (el.classList.contains('open') && conditions.length === 0) addCondition();
+});
+document.getElementById('toggle-lists').addEventListener('click', () => {
+  document.getElementById('list-filter').classList.toggle('open');
+});
+document.getElementById('repos').addEventListener('click', e => {
+  const header = e.target.closest('.repo-top');
+  if (!header) return;
+  if (e.target.closest('a')) return;
+  const name = header.dataset.name;
+  expanded = expanded === name ? null : name;
+  render();
+});
+
+// --- List filter ---
+
+function buildListFilter() {
+  const lists = new Set();
+  for (const r of Object.values(data.repositories)) (r.lists || []).forEach(l => lists.add(l));
+  const sorted = [...lists].sort();
+  const el = document.getElementById('list-filter');
+  el.innerHTML = sorted.map(l =>
+    `<span class="tag" data-list="${esc(l)}">${esc(l)}</span>`
+  ).join('') + (sorted.length ? `<span class="tag" data-list="">All</span>` : '<span style="font-size:.8125rem;color:#484f58">No lists found</span>');
+  el.addEventListener('click', e => {
+    const tag = e.target.closest('.tag');
+    if (!tag) return;
+    activeList = tag.dataset.list || null;
+    el.querySelectorAll('.tag').forEach(t => t.classList.toggle('active', t.dataset.list === (activeList || '')));
+    render();
+  });
+}
+
+// --- Advanced search ---
+
+function addCondition() {
+  conditions.push({ field: 'name', op: 'contains', value: '' });
+  renderAdvanced();
+}
+
+function renderAdvanced() {
+  const el = document.getElementById('advanced');
+  el.innerHTML = `<div class="conjunction-toggle">
+      <button class="conj-btn ${conjunction === 'AND' ? 'active' : ''}" data-conj="AND">AND</button>
+      <button class="conj-btn ${conjunction === 'OR' ? 'active' : ''}" data-conj="OR">OR</button>
+    </div>` + conditions.map((c, i) => {
+    const field = FIELDS.find(f => f.value === c.field) || FIELDS[0];
+    return `<div class="condition" data-idx="${i}">
+      <select class="cond-field">${FIELDS.map(f => `<option value="${f.value}"${f.value === c.field ? ' selected' : ''}>${f.label}</option>`).join('')}</select>
+      <select class="cond-op">${field.ops.map(o => `<option value="${o}"${o === c.op ? ' selected' : ''}>${o.replace(/_/g, ' ')}</option>`).join('')}</select>
+      <input class="cond-val" value="${esc(c.value)}" placeholder="value">
+      <button class="remove-cond">&times;</button>
+    </div>`;
+  }).join('') + `<button class="ctrl-btn" id="add-cond" style="margin-top:.375rem;font-size:.75rem">+ Add condition</button>`;
+
+  el.querySelectorAll('.conj-btn').forEach(btn => btn.addEventListener('click', e => {
+    conjunction = e.target.dataset.conj;
+    renderAdvanced();
+    render();
+  }));
+
+  el.querySelectorAll('.cond-field').forEach(sel => sel.addEventListener('change', e => {
+    const i = +e.target.closest('.condition').dataset.idx;
+    conditions[i].field = e.target.value;
+    conditions[i].op = FIELDS.find(f => f.value === e.target.value).ops[0];
+    conditions[i].value = '';
+    renderAdvanced();
+  }));
+  el.querySelectorAll('.cond-op').forEach(sel => sel.addEventListener('change', e => {
+    const i = +e.target.closest('.condition').dataset.idx;
+    conditions[i].op = e.target.value;
+    render();
+  }));
+  el.querySelectorAll('.cond-val').forEach(inp => inp.addEventListener('input', e => {
+    const i = +e.target.closest('.condition').dataset.idx;
+    conditions[i].value = e.target.value;
+    render();
+  }));
+  el.querySelectorAll('.remove-cond').forEach(btn => btn.addEventListener('click', e => {
+    const i = +e.target.closest('.condition').dataset.idx;
+    conditions.splice(i, 1);
+    renderAdvanced();
+    render();
+  }));
+  document.getElementById('add-cond')?.addEventListener('click', addCondition);
+}
+
+// --- Filtering ---
+
+function getFieldValue(name, repo, field) {
+  if (field === 'name') return name;
+  if (field === 'lists') return repo.lists || [];
+  return repo.metadata?.[field] ?? null;
+}
+
+function matchCondition(name, repo, c) {
+  const v = getFieldValue(name, repo, c.field);
+  if (v == null) return false;
+  const cv = c.value.toLowerCase();
+  const sv = Array.isArray(v) ? v : [String(v)];
+  const field = FIELDS.find(f => f.value === c.field);
+  const isNum = field && field.ops.includes('greater_than');
+  const isDate = field && field.ops.includes('after');
+  switch (c.op) {
+    case 'contains': return sv.some(s => String(s).toLowerCase().includes(cv));
+    case 'equals':
+      if (isNum) return Number(v) === Number(c.value);
+      if (isDate) return new Date(v).toDateString() === new Date(c.value).toDateString();
+      return sv.some(s => String(s).toLowerCase() === cv);
+    case 'starts_with': return sv.some(s => String(s).toLowerCase().startsWith(cv));
+    case 'ends_with': return sv.some(s => String(s).toLowerCase().endsWith(cv));
+    case 'greater_than': return Number(v) > Number(c.value);
+    case 'less_than': return Number(v) < Number(c.value);
+    case 'after': return new Date(v) > new Date(c.value);
+    case 'before': return new Date(v) < new Date(c.value);
+    case 'includes': return Array.isArray(v) && c.value.split(',').some(val => v.some(x => String(x).toLowerCase().includes(val.trim().toLowerCase())));
+    case 'excludes': return Array.isArray(v) && !c.value.split(',').some(val => v.some(x => String(x).toLowerCase().includes(val.trim().toLowerCase())));
+    default: return true;
+  }
+}
+
+function filterAndSort() {
+  const q = textSearch.toLowerCase();
+  let entries = Object.entries(data.repositories);
+  entries = entries.filter(([name, repo]) => {
+    if (q && !name.toLowerCase().includes(q) && !(repo.metadata?.description ?? '').toLowerCase().includes(q)) return false;
+    if (activeList && !(repo.lists || []).includes(activeList)) return false;
+    if (activeLangs.size && !activeLangs.has(repo.metadata?.language || 'Unknown')) return false;
+    const active = conditions.filter(c => c.value);
+    if (active.length === 0) return true;
+    return conjunction === 'AND'
+      ? active.every(c => matchCondition(name, repo, c))
+      : active.some(c => matchCondition(name, repo, c));
+  });
+  entries.sort((a, b) => {
+    const dir = sortDir === 'desc' ? -1 : 1;
+    const [nameA, repoA] = a, [nameB, repoB] = b;
+    if (sortField === 'name') return nameA.localeCompare(nameB) * dir;
+    if (sortField === 'stars') return ((repoA.metadata?.stars ?? 0) - (repoB.metadata?.stars ?? 0)) * dir;
+    const da = repoA.metadata?.[sortField] ?? '';
+    const db = repoB.metadata?.[sortField] ?? '';
+    return (new Date(da || 0) - new Date(db || 0)) * dir;
+  });
+  return entries;
+}
+
+// --- Rendering ---
+
+function render() {
+  if (!data) return;
+  const entries = filterAndSort();
+  const total = Object.keys(data.repositories).length;
+  document.getElementById('heading').innerHTML = `Stars <span class="count-badge">${total}</span>`;
+  renderChart(entries);
+
+  document.getElementById('repos').innerHTML = entries.map(([name, repo]) => {
+    const m = repo.metadata || {};
+    const isExpanded = expanded === name;
+    const [owner, repoName] = name.split('/');
+    const lang = m.language;
+    const langColor = LANG_COLORS[lang] || '#8b949e';
+
+    let detail = '';
+    if (isExpanded) {
+      detail = `<div class="repo-detail">
+        <dl>
+          <dt>Forks</dt><dd>${fmt(m.forks)}</dd>
+          <dt>Open Issues</dt><dd>${fmt(m.open_issues)}</dd>
+          <dt>Created</dt><dd>${fmtDate(m.created_at)}</dd>
+          <dt>Pushed</dt><dd>${fmtDate(m.pushed_at)}</dd>
+          <dt>Starred</dt><dd>${fmtDate(m.starred_at)}</dd>
+          ${m.homepage ? `<dt>Homepage</dt><dd><a href="${esc(m.homepage)}" target="_blank">${esc(m.homepage)}</a></dd>` : ''}
+        </dl>
+        ${(repo.lists || []).length ? `<div class="lists-tags">${repo.lists.map(l => `<span>${esc(l)}</span>`).join('')}</div>` : ''}
+      </div>`;
+    }
+
+    return `<div class="repo-item">
+      <div class="repo-top" data-name="${esc(name)}" style="cursor:pointer">
+        <div>
+          <div class="repo-name">
+            <a href="https://github.com/${esc(name)}" target="_blank"><span class="owner">${esc(owner)}</span> / <span class="name">${esc(repoName)}</span></a>
+          </div>
+          <div class="repo-desc">${esc(m.description || '')}</div>
+        </div>
+      </div>
+      <div class="repo-meta">
+        ${lang ? `<span><span class="lang-dot" style="background:${langColor}"></span> ${esc(lang)}</span>` : ''}
+        <a href="https://github.com/${esc(name)}/stargazers" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"/></svg>
+          ${fmt(m.stars)}
+        </a>
+        ${m.forks ? `<a href="https://github.com/${esc(name)}/forks" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/></svg>
+          ${fmt(m.forks)}
+        </a>` : ''}
+        ${m.updated_at ? `<span>Updated ${relTime(m.updated_at)}</span>` : ''}
+      </div>
+      ${detail}
+    </div>`;
+  }).join('');
+}
+
+// --- Utilities ---
+
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function fmt(n) {
+  if (n == null) return '0';
+  return Number(n).toLocaleString();
+}
+
+function fmtDate(s) {
+  if (!s) return 'N/A';
+  try { return new Date(s).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }
+  catch { return esc(s); }
+}
+
+function relTime(s) {
+  if (!s) return '';
+  const diff = Date.now() - new Date(s).getTime();
+  const days = Math.floor(diff / 86400000);
+  if (days < 1) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 30) return `${days} days ago`;
+  const months = Math.floor(days / 30);
+  if (months < 12) return `${months} month${months > 1 ? 's' : ''} ago`;
+  const years = Math.floor(days / 365);
+  return `${years} year${years > 1 ? 's' : ''} ago`;
+}
+// --- Constellation chart ---
+
+function renderChart(entries) {
+  const container = document.getElementById('chart');
+  const tooltip = document.getElementById('chart-tooltip');
+  container.innerHTML = '';
+  const width = container.clientWidth;
+  if (!width) return;
+  const height = Math.min(width * 0.6, 500);
+  const margin = { top: 12, right: 12, bottom: 32, left: 42 };
+
+  const repos = entries
+    .map(([name, r]) => ({
+      name,
+      starred: new Date(r.metadata?.starred_at),
+      stars: Math.max(r.metadata?.stars ?? 1, 1),
+      language: r.metadata?.language,
+      desc: r.metadata?.description || '',
+    }))
+    .filter(d => !isNaN(d.starred));
+
+  if (!repos.length) return;
+
+  const svg = d3.select(container).append('svg')
+    .attr('width', width).attr('height', height);
+
+  const x = d3.scaleTime()
+    .domain(d3.extent(repos, d => d.starred))
+    .range([margin.left, width - margin.right]);
+
+  const y = d3.scaleLog()
+    .domain([1, d3.max(repos, d => d.stars)])
+    .range([height - margin.bottom, margin.top]);
+
+  // X axis
+  svg.append('g')
+    .attr('transform', `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x).ticks(width > 500 ? 6 : 3).tickFormat(d3.timeFormat('%Y')).tickSize(0))
+    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dy', 16).attr('font-size', 13); });
+
+  // Y axis
+  svg.append('g')
+    .attr('transform', `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y).ticks(3, '~s').tickSize(0))
+    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dx', -4).attr('font-size', 13); });
+
+  // Dots
+  svg.selectAll('circle')
+    .data(repos)
+    .join('circle')
+    .attr('cx', d => x(d.starred))
+    .attr('cy', d => y(d.stars))
+    .attr('r', 4)
+    .attr('fill', d => LANG_COLORS[d.language] || '#8b949e')
+    .attr('opacity', 0.8)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (e, d) => {
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(d.name)}</strong><br>${esc(d.language || 'Unknown')} &middot; ${fmt(d.stars)} stars`;
+    })
+    .on('mousemove', e => {
+      tooltip.style.left = (e.pageX + 12) + 'px';
+      tooltip.style.top = (e.pageY - 12) + 'px';
+    })
+    .on('mouseleave', () => { tooltip.style.opacity = 0; })
+    .on('click', (e, d) => {
+      window.open('https://github.com/' + d.name, '_blank');
+    });
+
+
+  // Legend (always from full dataset)
+  const langCounts = {};
+  Object.values(data.repositories).forEach(r => { const l = r.metadata?.language || 'Unknown'; langCounts[l] = (langCounts[l] || 0) + 1; });
+  const sorted = Object.entries(langCounts).sort((a, b) => b[1] - a[1]);
+  const legend = document.createElement('div');
+  legend.className = 'chart-legend';
+  legend.innerHTML = sorted.map(([lang, count]) =>
+    `<span data-lang="${esc(lang)}" class="${activeLangs.has(lang) ? 'active' : ''}"><span class="lang-dot" style="background:${LANG_COLORS[lang] || '#8b949e'}"></span>${esc(lang)} (${count})</span>`
+  ).join('');
+  legend.addEventListener('click', e => {
+    const item = e.target.closest('[data-lang]');
+    if (!item) return;
+    const lang = item.dataset.lang;
+    activeLangs.has(lang) ? activeLangs.delete(lang) : activeLangs.add(lang);
+    render();
+  });
+  container.appendChild(legend);
+}
+</script>
+</body>
+</html>

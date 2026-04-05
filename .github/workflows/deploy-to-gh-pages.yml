@@ -12,7 +12,7 @@ on:
   workflow_run: # zizmor: ignore[dangerous-triggers]
     types: [completed]
     workflows:
-      - Scrape Github Stars
+      - Scrape GitHub Stars
       - Update Star Lists
 
 permissions:
@@ -28,35 +28,17 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: Set up Node.js
-      uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-      with:
-        node-version: '18.20.4'
-
-    - name: Cache dependencies
-      uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
-      with:
-        path: ~/.npm
-        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.OS }}-node-
-
-    - name: Install dependencies
-      run: npm ci
-
-    - name: Copy data files to public directory
+    - name: Assemble site
       run: |
-        cp github_stars.json public/
-
-    - name: Build
-      run: npm run build
-      env:
-        CI: false
+        mkdir -p _site
+        cp index.html _site/
+        cp favicon.ico _site/
+        cp github_stars.json _site/
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
       with:
-        path: ./build
+        path: ./_site
 
   deploy:
     needs: build
