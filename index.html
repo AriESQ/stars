@@ -258,7 +258,12 @@ function renderSidebar() {
 
 // --- Event handlers ---
 
-document.getElementById('search').addEventListener('input', e => { textSearch = e.target.value; render(); });
+let _searchTimer;
+document.getElementById('search').addEventListener('input', e => {
+  textSearch = e.target.value;
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(render, 250);
+});
 document.getElementById('sort-field').addEventListener('change', e => { sortField = e.target.value; render(); });
 document.getElementById('sort-dir').addEventListener('click', () => {
   sortDir = sortDir === 'desc' ? 'asc' : 'desc';
@@ -642,16 +647,17 @@ function renderAreaChart(container, tooltip, entries, width) {
     .domain(d3.extent(stackData, d => d.date))
     .range([margin.left, width - margin.right]);
 
+  const yMax = d3.max(series, s => d3.max(s, d => d[1]));
   const y = d3.scaleLinear()
-    .domain([0, d3.max(series, s => d3.max(s, d => d[1]))])
+    .domain([0, yMax * 1.08])
     .nice()
     .range([height - margin.bottom, margin.top]);
 
   const area = d3.area()
     .x(d => x(d.data.date))
-    .y0(d => y(d[0]))
-    .y1(d => y(d[1]))
-    .curve(d3.curveMonotoneX);
+    .y0(d => y(Math.max(0, d[0])))
+    .y1(d => y(Math.max(0, d[1])))
+    .curve(d3.curveCatmullRom);
 
   svg.selectAll('path')
     .data(series)
@@ -683,7 +689,7 @@ function renderAreaChart(container, tooltip, entries, width) {
 
   svg.append('g')
     .attr('transform', `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(5).tickSize(0))
+    .call(d3.axisLeft(y).ticks(Math.min(yMax, 5)).tickFormat(v => Number.isInteger(v) ? v : '').tickSize(0))
     .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dx', -4).attr('font-size', 12); });
 
   // Y axis label
