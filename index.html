@@ -129,7 +129,7 @@
     font-size: var(--font-sm); background: var(--color-bg-tertiary); color: var(--color-text-muted); border: 1px solid var(--color-border);
   }
 
-  /* Constellation chart */
+  /* Chart */
   .chart-container { margin-bottom: 1.5rem; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: var(--color-bg-secondary); }
   .chart-container svg { display: block; }
   .chart-legend { display: flex; flex-wrap: wrap; gap: .375rem .75rem; padding: .5rem .75rem; border-top: 1px solid var(--color-border); }
@@ -504,7 +504,7 @@ function relTime(s) {
 // --- Chart system ---
 
 const CHART_START_DATE = new Date('2021-10-31');
-let chartType = 'area'; // 'area', 'treemap', 'ridgeline', 'bars'
+let chartType = 'area';
 
 // Color palette for star lists
 const LIST_COLORS = {};
@@ -539,8 +539,8 @@ function chartEntries(entries) {
 const CHART_TYPES = [
   { id: 'area', label: 'Activity' },
   { id: 'treemap', label: 'Categories' },
-  { id: 'ridgeline', label: 'Ridgeline' },
-  { id: 'bars', label: 'Bar Chart' },
+  { id: 'chord', label: 'Connections' },
+  { id: 'ridgeline', label: 'Trends' },
 ];
 
 function renderChart(entries) {
@@ -550,7 +550,7 @@ function renderChart(entries) {
   const width = container.clientWidth;
   if (!width) return;
 
-  if (!Object.keys(LIST_COLORS).length) assignListColors();
+  if (!LIST_COLORS._ready) { assignListColors(); LIST_COLORS._ready = true; }
 
   const filtered = chartEntries(entries);
 
@@ -569,7 +569,7 @@ function renderChart(entries) {
   const chartArea = document.createElement('div');
   container.appendChild(chartArea);
 
-  const renderers = { area: renderAreaChart, treemap: renderTreemap, ridgeline: renderRidgeline, bars: renderBarChart };
+  const renderers = { area: renderAreaChart, treemap: renderTreemap, chord: renderChordChart, ridgeline: renderRidgeline };
   renderers[chartType](chartArea, tooltip, filtered, width);
 }
 
@@ -686,6 +686,16 @@ function renderAreaChart(container, tooltip, entries, width) {
     .call(d3.axisLeft(y).ticks(5).tickSize(0))
     .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dx', -4).attr('font-size', 12); });
 
+  // Y axis label
+  svg.append('text')
+    .attr('transform', `rotate(-90)`)
+    .attr('x', -(margin.top + height - margin.bottom) / 2)
+    .attr('y', 14)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#8b949e')
+    .attr('font-size', 12)
+    .text('Stars');
+
   const legend = document.createElement('div');
   legend.className = 'chart-legend';
   legend.innerHTML = keys.map(k => {
@@ -763,6 +773,147 @@ function renderTreemap(container, tooltip, entries, width) {
         .text(d.data.value + ' repos');
     }
   });
+}
+
+// --- Chord diagram (list co-occurrence) ---
+
+function renderChordChart(container, tooltip, entries, width) {
+  // --- Sizing: use a viewBox so the diagram scales to fill the container ---
+  const vbSize = 700;                    // virtual coordinate space
+  const labelPad = 140;                  // room for labels around the ring
+  const outerRadius = (vbSize - labelPad * 2) / 2;
+  const innerRadius = outerRadius - 24;
+
+  // --- Build list of categories (exclude Unlisted) ---
+  const allListCounts = getTopLists(entries);
+  const origLists = allListCounts
+    .filter(([name]) => name !== 'Unlisted')
+    .slice(0, 16)
+    .map(d => d[0]);
+
+  // Spread the 3 longest labels evenly around the ring so they don't cluster
+  const byLen = origLists.slice().sort((a, b) => b.length - a.length);
+  const top3 = byLen.slice(0, 3);
+  const rest = origLists.filter(l => !top3.includes(l));
+  const n = origLists.length;
+  const gap = Math.floor(n / 3);
+  const lists = [];
+  const slots = new Set([0, gap, gap * 2]);
+  let ri = 0;
+  for (let i = 0; i < n; i++) {
+    if (slots.has(i)) lists.push(top3[[0, gap, gap * 2].indexOf(i)]);
+    else lists.push(rest[ri++]);
+  }
+
+  const idx = {};
+  lists.forEach((l, i) => { idx[l] = i; });
+
+  // --- Co-occurrence matrix ---
+  const matrix = Array.from({ length: n }, () => Array(n).fill(0));
+  entries.forEach(([, r]) => {
+    const rl = (r.lists || []).filter(l => idx[l] !== undefined);
+    for (let i = 0; i < rl.length; i++)
+      for (let j = i + 1; j < rl.length; j++) { matrix[idx[rl[i]]][idx[rl[j]]]++; matrix[idx[rl[j]]][idx[rl[i]]]++; }
+    if (rl.length === 1) matrix[idx[rl[0]]][idx[rl[0]]] += 0.5;
+  });
+
+  const chord = d3.chord().padAngle(0.04).sortSubgroups(d3.descending)(matrix);
+
+  // --- Rotation: push longest labels toward diagonal corners ---
+  // The bounding box is square, so true diagonal corners are at 45/135/225/315°.
+  const corners = [45, 135, 225, 315].map(d => d * Math.PI / 180);
+  const labelsWithMid = lists.map((name, i) => ({
+    len: name.length,
+    mid: (chord.groups[i].startAngle + chord.groups[i].endAngle) / 2,
+  }));
+  labelsWithMid.sort((a, b) => b.len - a.len);
+  const heavyLabels = labelsWithMid.slice(0, 3);
+
+  let bestRot = 0, bestCost = Infinity;
+  for (let deg = 0; deg < 360; deg++) {
+    const r = deg * Math.PI / 180;
+    let cost = 0;
+    for (const lbl of heavyLabels) {
+      const pos = ((lbl.mid + r) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
+      let nearest = Infinity;
+      for (const c of corners) { const d = Math.abs(pos - c); nearest = Math.min(nearest, d, 2 * Math.PI - d); }
+      cost += nearest * lbl.len;
+    }
+    if (cost < bestCost) { bestCost = cost; bestRot = r; }
+  }
+  const rotRad = bestRot;
+  const rotDeg = rotRad * 180 / Math.PI;
+
+  // --- Render ---
+  const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+  const ribbon = d3.ribbon().radius(innerRadius);
+
+  const svgEl = d3.select(container).append('svg')
+    .attr('viewBox', `0 0 ${vbSize} ${vbSize}`)
+    .attr('width', '100%')
+    .style('display', 'block').style('max-width', '720px').style('margin', '0 auto');
+  const svg = svgEl.append('g')
+    .attr('transform', `translate(${vbSize / 2},${vbSize / 2}) rotate(${rotDeg})`);
+
+  // Arcs
+  svg.selectAll('.arc')
+    .data(chord.groups).join('path').attr('class', 'arc')
+    .attr('d', arc)
+    .attr('fill', d => LIST_COLORS[lists[d.index]] || '#8b949e')
+    .attr('stroke', '#0d1117').attr('stroke-width', 1)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (e, d) => {
+      svg.selectAll('.ribbon').attr('opacity', r =>
+        r.source.index === d.index || r.target.index === d.index ? 0.8 : 0.05);
+      const conns = [];
+      matrix[d.index].forEach((v, i) => { if (v > 0 && i !== d.index) conns.push(`${lists[i]}: ${Math.round(v)}`); });
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(lists[d.index])}</strong>${conns.length ? '<br>' + conns.join('<br>') : ''}`;
+    })
+    .on('mousemove', e => { tooltip.style.left = (e.pageX + 12) + 'px'; tooltip.style.top = (e.pageY - 12) + 'px'; })
+    .on('mouseleave', () => { svg.selectAll('.ribbon').attr('opacity', 0.55); tooltip.style.opacity = 0; });
+
+  // Labels — wrap long names onto two centered lines
+  function wrapLabel(name) {
+    const w = name.split(/\s+/);
+    if (w.length <= 2) return [name];
+    const m = Math.ceil(w.length / 2);
+    return [w.slice(0, m).join(' '), w.slice(m).join(' ')];
+  }
+
+  function normAngle(a) { return ((a % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI); }
+
+  svg.selectAll('.label')
+    .data(chord.groups).join('text').attr('class', 'label')
+    .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+    .attr('transform', d => {
+      const flip = normAngle(d.angle + rotRad) > Math.PI;
+      return `rotate(${d.angle * 180 / Math.PI - 90}) translate(${outerRadius + 8})${flip ? ' rotate(180)' : ''}`;
+    })
+    .attr('text-anchor', d => normAngle(d.angle + rotRad) > Math.PI ? 'end' : 'start')
+    .attr('fill', '#8b949e').attr('font-size', 11)
+    .each(function(d) {
+      const lines = wrapLabel(lists[d.index]);
+      const el = d3.select(this);
+      if (lines.length === 1) { el.text(lines[0]); return; }
+      el.text(null);
+      el.append('tspan').attr('x', 0).attr('dy', '-0.35em').text(lines[0]);
+      el.append('tspan').attr('x', 0).attr('dy', '1.1em').text(lines[1]);
+    });
+
+  // Ribbons
+  svg.selectAll('.ribbon')
+    .data(chord.filter(d => d.source.index !== d.target.index))
+    .join('path').attr('class', 'ribbon')
+    .attr('d', ribbon)
+    .attr('fill', d => LIST_COLORS[lists[d.source.index]] || '#8b949e')
+    .attr('opacity', 0.55).attr('stroke', 'none')
+    .on('mouseenter', (e, d) => {
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(lists[d.source.index])}</strong> &harr; <strong>${esc(lists[d.target.index])}</strong><br>${Math.round(matrix[d.source.index][d.target.index])} shared repos`;
+    })
+    .on('mousemove', e => { tooltip.style.left = (e.pageX + 12) + 'px'; tooltip.style.top = (e.pageY - 12) + 'px'; })
+    .on('mouseleave', () => { tooltip.style.opacity = 0; });
 }
 
 // --- Ridgeline plot (by star lists) ---
@@ -852,99 +1003,6 @@ function renderRidgeline(container, tooltip, entries, width) {
   });
 }
 
-// --- Horizontal bar chart with sparklines ---
-
-function renderBarChart(container, tooltip, entries, width) {
-  const allListCounts = getTopLists(entries);
-  const lists = allListCounts.filter(([name]) => name !== 'Unlisted').slice(0, 16);
-  const barH = 28;
-  const gap = 4;
-  const margin = { top: 8, right: 16, bottom: 8, left: 180 };
-  const sparkW = 80;
-  const height = margin.top + margin.bottom + lists.length * (barH + gap);
-
-  const maxCount = d3.max(lists, d => d[1]) || 1;
-  const barScale = d3.scaleLinear().domain([0, maxCount]).range([0, width - margin.left - margin.right - sparkW - 20]);
-
-  // Build monthly sparkline data per list
-  const repos = entries
-    .map(([name, r]) => ({ starred: new Date(r.metadata?.starred_at), lists: r.lists || [] }))
-    .filter(d => !isNaN(d.starred));
-  const extent = d3.extent(repos, d => d.starred);
-  const allMonths = d3.timeMonth.range(d3.timeMonth.floor(extent[0]), d3.timeMonth.offset(d3.timeMonth.floor(extent[1]), 1));
-
-  const svg = d3.select(container).append('svg')
-    .attr('width', width).attr('height', height);
-
-  lists.forEach(([name, count], i) => {
-    const y = margin.top + i * (barH + gap);
-    const barW = barScale(count);
-
-    // Label
-    svg.append('text')
-      .attr('x', margin.left - 8)
-      .attr('y', y + barH / 2 + 4)
-      .attr('text-anchor', 'end')
-      .attr('fill', '#e6edf3')
-      .attr('font-size', 12)
-      .text(name.length > 22 ? name.slice(0, 21) + '..' : name);
-
-    // Bar
-    svg.append('rect')
-      .attr('x', margin.left)
-      .attr('y', y + 2)
-      .attr('width', barW)
-      .attr('height', barH - 4)
-      .attr('fill', LIST_COLORS[name] || '#8b949e')
-      .attr('opacity', 0.8)
-      .attr('rx', 3)
-      .style('cursor', 'pointer')
-      .on('mouseenter', e => {
-        tooltip.style.opacity = 1;
-        tooltip.innerHTML = `<strong>${esc(name)}</strong><br>${count} repos`;
-      })
-      .on('mousemove', e => {
-        tooltip.style.left = (e.pageX + 12) + 'px';
-        tooltip.style.top = (e.pageY - 12) + 'px';
-      })
-      .on('mouseleave', () => { tooltip.style.opacity = 0; })
-      .on('click', () => {
-        activeList = activeList === name ? null : name;
-        document.querySelectorAll('#list-filter .tag').forEach(t =>
-          t.classList.toggle('active', t.dataset.list === (activeList || ''))
-        );
-        render();
-      });
-
-    // Count label
-    svg.append('text')
-      .attr('x', margin.left + barW + 6)
-      .attr('y', y + barH / 2 + 4)
-      .attr('fill', '#8b949e')
-      .attr('font-size', 11)
-      .text(count);
-
-    // Sparkline
-    const monthCounts = allMonths.map(m => {
-      const mKey = m.getTime();
-      return repos.filter(r => r.lists.includes(name) && d3.timeMonth.floor(r.starred).getTime() === mKey).length;
-    });
-    const sparkX = d3.scaleLinear().domain([0, monthCounts.length - 1]).range([width - margin.right - sparkW, width - margin.right]);
-    const sparkY = d3.scaleLinear().domain([0, d3.max(monthCounts) || 1]).range([y + barH - 4, y + 4]);
-    const line = d3.line()
-      .x((d, j) => sparkX(j))
-      .y(d => sparkY(d))
-      .curve(d3.curveMonotoneX);
-
-    svg.append('path')
-      .datum(monthCounts)
-      .attr('d', line)
-      .attr('fill', 'none')
-      .attr('stroke', LIST_COLORS[name] || '#8b949e')
-      .attr('stroke-width', 1.5)
-      .attr('opacity', 0.7);
-  });
-}
 
 </script>
 </body>
