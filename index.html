@@ -129,7 +129,7 @@
     font-size: var(--font-sm); background: var(--color-bg-tertiary); color: var(--color-text-muted); border: 1px solid var(--color-border);
   }
 
-  /* Constellation chart */
+  /* Chart */
   .chart-container { margin-bottom: 1.5rem; border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: var(--color-bg-secondary); }
   .chart-container svg { display: block; }
   .chart-legend { display: flex; flex-wrap: wrap; gap: .375rem .75rem; padding: .5rem .75rem; border-top: 1px solid var(--color-border); }
@@ -258,7 +258,12 @@ function renderSidebar() {
 
 // --- Event handlers ---
 
-document.getElementById('search').addEventListener('input', e => { textSearch = e.target.value; render(); });
+let _searchTimer;
+document.getElementById('search').addEventListener('input', e => {
+  textSearch = e.target.value;
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(render, 250);
+});
 document.getElementById('sort-field').addEventListener('change', e => { sortField = e.target.value; render(); });
 document.getElementById('sort-dir').addEventListener('click', () => {
   sortDir = sortDir === 'desc' ? 'asc' : 'desc';
@@ -501,7 +506,47 @@ function relTime(s) {
   const years = Math.floor(days / 365);
   return `${years} year${years > 1 ? 's' : ''} ago`;
 }
-// --- Constellation chart ---
+// --- Chart system ---
+
+const CHART_START_DATE = new Date('2021-10-31');
+let chartType = 'area';
+
+// Color palette for star lists
+const LIST_COLORS = {};
+const LIST_PALETTE = [
+  '#58a6ff','#f78166','#7ee787','#d2a8ff','#ff7b72',
+  '#79c0ff','#ffa657','#56d364','#bc8cff','#ffa198',
+  '#a5d6ff','#d29922','#3fb950','#e2c5ff','#ff9492',
+  '#39d353','#db6d28','#2ea043','#8b8a8d','#f0883e',
+  '#1f6feb','#e3b341','#238636','#6e7681','#d47616',
+  '#388bfd','#c9d1d9','#196c2e','#484f58','#9e6a03',
+  '#58a6ff','#8b949e','#0d419d',
+];
+
+function assignListColors() {
+  const listCounts = {};
+  Object.values(data.repositories).forEach(r => {
+    (r.lists || []).forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; });
+  });
+  const sorted = Object.entries(listCounts).sort((a, b) => b[1] - a[1]);
+  sorted.forEach(([name], i) => { LIST_COLORS[name] = LIST_PALETTE[i % LIST_PALETTE.length]; });
+  LIST_COLORS['Unlisted'] = '#30363d';
+  LIST_COLORS['Other'] = '#484f58';
+}
+
+function chartEntries(entries) {
+  return entries.filter(([, r]) => {
+    const d = new Date(r.metadata?.starred_at);
+    return !isNaN(d) && d >= CHART_START_DATE;
+  });
+}
+
+const CHART_TYPES = [
+  { id: 'area', label: 'Activity' },
+  { id: 'treemap', label: 'Categories' },
+  { id: 'chord', label: 'Connections' },
+  { id: 'ridgeline', label: 'Trends' },
+];
 
 function renderChart(entries) {
   const container = document.getElementById('chart');
@@ -509,57 +554,200 @@ function renderChart(entries) {
   container.innerHTML = '';
   const width = container.clientWidth;
   if (!width) return;
-  const height = Math.min(width * 0.6, 500);
-  const margin = { top: 12, right: 12, bottom: 32, left: 42 };
+
+  if (!LIST_COLORS._ready) { assignListColors(); LIST_COLORS._ready = true; }
+
+  const filtered = chartEntries(entries);
+
+  // Chart type selector
+  const selector = document.createElement('div');
+  selector.style.cssText = 'display:flex;gap:0;padding:0;border-bottom:1px solid var(--color-border);flex-wrap:wrap;';
+  CHART_TYPES.forEach(({ id, label }) => {
+    const btn = document.createElement('button');
+    btn.textContent = label;
+    btn.style.cssText = `flex:1;padding:8px;font-size:.75rem;border:none;cursor:pointer;min-width:80px;background:${chartType === id ? 'var(--color-bg-tertiary)' : 'transparent'};color:${chartType === id ? 'var(--color-text)' : 'var(--color-text-muted)'};border-bottom:${chartType === id ? '2px solid var(--color-link)' : '2px solid transparent'};`;
+    btn.addEventListener('click', () => { chartType = id; renderChart(entries); });
+    selector.appendChild(btn);
+  });
+  container.appendChild(selector);
+
+  const chartArea = document.createElement('div');
+  container.appendChild(chartArea);
+
+  const renderers = { area: renderAreaChart, treemap: renderTreemap, chord: renderChordChart, ridgeline: renderRidgeline };
+  renderers[chartType](chartArea, tooltip, filtered, width);
+}
+
+const TOP_N = 12;
+
+function getTopLists(entries) {
+  const counts = {};
+  entries.forEach(([, r]) => {
+    const lists = r.lists || [];
+    if (lists.length === 0) { counts['Unlisted'] = (counts['Unlisted'] || 0) + 1; }
+    else { lists.forEach(l => { counts[l] = (counts[l] || 0) + 1; }); }
+  });
+  return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+}
+
+function primaryList(lists, topKeys) {
+  if (!lists || !lists.length) return 'Unlisted';
+  return lists.find(l => topKeys.includes(l)) || 'Other';
+}
+
+// --- Stacked area chart (by star lists) ---
+
+function renderAreaChart(container, tooltip, entries, width) {
+  const height = Math.min(width * 0.5, 400);
+  const margin = { top: 16, right: 16, bottom: 36, left: 48 };
 
   const repos = entries
     .map(([name, r]) => ({
       name,
       starred: new Date(r.metadata?.starred_at),
-      stars: Math.max(r.metadata?.stars ?? 1, 1),
-      language: r.metadata?.language,
-      desc: r.metadata?.description || '',
+      lists: r.lists || [],
     }))
-    .filter(d => !isNaN(d.starred));
+    .filter(d => !isNaN(d.starred))
+    .sort((a, b) => a.starred - b.starred);
 
   if (!repos.length) return;
+
+  const allListCounts = getTopLists(entries);
+  const topLists = allListCounts.slice(0, TOP_N).map(d => d[0]);
+  const keys = [...topLists.filter(k => k !== 'Other'), 'Other'];
+
+  // Bin by month
+  const monthBins = {};
+  repos.forEach(r => {
+    const key = d3.timeMonth.floor(r.starred).getTime();
+    if (!monthBins[key]) monthBins[key] = {};
+    const bin = monthBins[key];
+    const prim = primaryList(r.lists, keys);
+    bin[prim] = (bin[prim] || 0) + 1;
+  });
+
+  const extent = d3.extent(repos, d => d.starred);
+  const allMonths = d3.timeMonth.range(d3.timeMonth.floor(extent[0]), d3.timeMonth.offset(d3.timeMonth.floor(extent[1]), 1));
+
+  const stackData = allMonths.map(month => {
+    const k = month.getTime();
+    const bin = monthBins[k] || {};
+    const row = { date: month };
+    keys.forEach(l => { row[l] = bin[l] || 0; });
+    return row;
+  });
+
+  const stack = d3.stack().keys(keys).order(d3.stackOrderDescending);
+  const series = stack(stackData);
 
   const svg = d3.select(container).append('svg')
     .attr('width', width).attr('height', height);
 
   const x = d3.scaleTime()
-    .domain(d3.extent(repos, d => d.starred))
+    .domain(d3.extent(stackData, d => d.date))
     .range([margin.left, width - margin.right]);
 
-  const y = d3.scaleLog()
-    .domain([1, d3.max(repos, d => d.stars)])
+  const yMax = d3.max(series, s => d3.max(s, d => d[1]));
+  const y = d3.scaleLinear()
+    .domain([0, yMax * 1.08])
+    .nice()
     .range([height - margin.bottom, margin.top]);
 
-  // X axis
+  const area = d3.area()
+    .x(d => x(d.data.date))
+    .y0(d => y(Math.max(0, d[0])))
+    .y1(d => y(Math.max(0, d[1])))
+    .curve(d3.curveCatmullRom);
+
+  svg.selectAll('path')
+    .data(series)
+    .join('path')
+    .attr('d', area)
+    .attr('fill', d => LIST_COLORS[d.key] || '#8b949e')
+    .attr('opacity', 0.85)
+    .on('mouseenter', (e, d) => {
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(d.key)}</strong>`;
+    })
+    .on('mousemove', (e, d) => {
+      const [mx] = d3.pointer(e, svg.node());
+      const date = x.invert(mx);
+      const month = d3.timeMonth.floor(date);
+      const idx = stackData.findIndex(s => s.date.getTime() === month.getTime());
+      const count = idx >= 0 ? stackData[idx][d.key] : 0;
+      tooltip.innerHTML = `<strong>${esc(d.key)}</strong><br>${d3.timeFormat('%b %Y')(month)}: ${count} starred`;
+      tooltip.style.left = (e.pageX + 12) + 'px';
+      tooltip.style.top = (e.pageY - 12) + 'px';
+      tooltip.style.opacity = 1;
+    })
+    .on('mouseleave', () => { tooltip.style.opacity = 0; });
+
   svg.append('g')
     .attr('transform', `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x).ticks(width > 500 ? 6 : 3).tickFormat(d3.timeFormat('%Y')).tickSize(0))
-    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dy', 16).attr('font-size', 13); });
+    .call(d3.axisBottom(x).ticks(width > 500 ? 8 : 4).tickFormat(d3.timeFormat('%b \'%y')).tickSize(0))
+    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dy', 12).attr('font-size', 11); });
 
-  // Y axis
   svg.append('g')
     .attr('transform', `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(3, '~s').tickSize(0))
-    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dx', -4).attr('font-size', 13); });
+    .call(d3.axisLeft(y).ticks(Math.min(yMax, 5)).tickFormat(v => Number.isInteger(v) ? v : '').tickSize(0))
+    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dx', -4).attr('font-size', 12); });
 
-  // Dots
-  svg.selectAll('circle')
-    .data(repos)
-    .join('circle')
-    .attr('cx', d => x(d.starred))
-    .attr('cy', d => y(d.stars))
-    .attr('r', 4)
-    .attr('fill', d => LANG_COLORS[d.language] || '#8b949e')
-    .attr('opacity', 0.8)
+  // Y axis label
+  svg.append('text')
+    .attr('transform', `rotate(-90)`)
+    .attr('x', -(margin.top + height - margin.bottom) / 2)
+    .attr('y', 14)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#8b949e')
+    .attr('font-size', 12)
+    .text('Stars');
+
+  const legend = document.createElement('div');
+  legend.className = 'chart-legend';
+  legend.innerHTML = keys.map(k => {
+    const total = stackData.reduce((sum, row) => sum + row[k], 0);
+    return `<span><span class="lang-dot" style="background:${LIST_COLORS[k] || '#8b949e'}"></span>${esc(k)} (${total})</span>`;
+  }).join('');
+  container.appendChild(legend);
+}
+
+// --- Treemap (by star lists) ---
+
+function renderTreemap(container, tooltip, entries, width) {
+  const height = Math.min(width * 0.55, 450);
+
+  const listCounts = {};
+  entries.forEach(([, r]) => {
+    const lists = r.lists || [];
+    if (lists.length === 0) { listCounts['Unlisted'] = (listCounts['Unlisted'] || 0) + 1; }
+    else { lists.forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; }); }
+  });
+
+  const children = Object.entries(listCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, value]) => ({ name, value }));
+
+  const root = d3.hierarchy({ children }).sum(d => d.value);
+  d3.treemap().size([width, height]).padding(2).round(true)(root);
+
+  const svg = d3.select(container).append('svg')
+    .attr('width', width).attr('height', height);
+
+  const nodes = svg.selectAll('g')
+    .data(root.leaves())
+    .join('g')
+    .attr('transform', d => `translate(${d.x0},${d.y0})`);
+
+  nodes.append('rect')
+    .attr('width', d => d.x1 - d.x0)
+    .attr('height', d => d.y1 - d.y0)
+    .attr('fill', d => LIST_COLORS[d.data.name] || '#8b949e')
+    .attr('opacity', 0.85)
+    .attr('rx', 3)
     .style('cursor', 'pointer')
     .on('mouseenter', (e, d) => {
       tooltip.style.opacity = 1;
-      tooltip.innerHTML = `<strong>${esc(d.name)}</strong><br>${esc(d.language || 'Unknown')} &middot; ${fmt(d.stars)} stars`;
+      tooltip.innerHTML = `<strong>${esc(d.data.name)}</strong><br>${d.data.value} repos`;
     })
     .on('mousemove', e => {
       tooltip.style.left = (e.pageX + 12) + 'px';
@@ -567,28 +755,261 @@ function renderChart(entries) {
     })
     .on('mouseleave', () => { tooltip.style.opacity = 0; })
     .on('click', (e, d) => {
-      window.open('https://github.com/' + d.name, '_blank');
+      activeList = activeList === d.data.name ? null : d.data.name;
+      document.querySelectorAll('#list-filter .tag').forEach(t =>
+        t.classList.toggle('active', t.dataset.list === (activeList || ''))
+      );
+      render();
     });
 
-
-  // Legend (always from full dataset)
-  const langCounts = {};
-  Object.values(data.repositories).forEach(r => { const l = r.metadata?.language || 'Unknown'; langCounts[l] = (langCounts[l] || 0) + 1; });
-  const sorted = Object.entries(langCounts).sort((a, b) => b[1] - a[1]);
-  const legend = document.createElement('div');
-  legend.className = 'chart-legend';
-  legend.innerHTML = sorted.map(([lang, count]) =>
-    `<span data-lang="${esc(lang)}" class="${activeLangs.has(lang) ? 'active' : ''}"><span class="lang-dot" style="background:${LANG_COLORS[lang] || '#8b949e'}"></span>${esc(lang)} (${count})</span>`
-  ).join('');
-  legend.addEventListener('click', e => {
-    const item = e.target.closest('[data-lang]');
-    if (!item) return;
-    const lang = item.dataset.lang;
-    activeLangs.has(lang) ? activeLangs.delete(lang) : activeLangs.add(lang);
-    render();
+  nodes.each(function(d) {
+    const w = d.x1 - d.x0;
+    const h = d.y1 - d.y0;
+    if (w < 50 || h < 22) return;
+    const g = d3.select(this);
+    const fontSize = w > 100 ? 13 : 11;
+    g.append('text')
+      .attr('x', 6).attr('y', 16)
+      .attr('fill', '#fff').attr('font-size', fontSize).attr('font-weight', 600)
+      .text(d.data.name.length > Math.floor(w / 7) ? d.data.name.slice(0, Math.floor(w / 7)) + '...' : d.data.name);
+    if (h > 36) {
+      g.append('text')
+        .attr('x', 6).attr('y', 32)
+        .attr('fill', 'rgba(255,255,255,0.7)').attr('font-size', 11)
+        .text(d.data.value + ' repos');
+    }
   });
-  container.appendChild(legend);
 }
+
+// --- Chord diagram (list co-occurrence) ---
+
+function renderChordChart(container, tooltip, entries, width) {
+  // --- Sizing: use a viewBox so the diagram scales to fill the container ---
+  const vbSize = 700;                    // virtual coordinate space
+  const labelPad = 140;                  // room for labels around the ring
+  const outerRadius = (vbSize - labelPad * 2) / 2;
+  const innerRadius = outerRadius - 24;
+
+  // --- Build list of categories (exclude Unlisted) ---
+  const allListCounts = getTopLists(entries);
+  const origLists = allListCounts
+    .filter(([name]) => name !== 'Unlisted')
+    .slice(0, 16)
+    .map(d => d[0]);
+
+  // Spread the 3 longest labels evenly around the ring so they don't cluster
+  const byLen = origLists.slice().sort((a, b) => b.length - a.length);
+  const top3 = byLen.slice(0, 3);
+  const rest = origLists.filter(l => !top3.includes(l));
+  const n = origLists.length;
+  const gap = Math.floor(n / 3);
+  const lists = [];
+  const slots = new Set([0, gap, gap * 2]);
+  let ri = 0;
+  for (let i = 0; i < n; i++) {
+    if (slots.has(i)) lists.push(top3[[0, gap, gap * 2].indexOf(i)]);
+    else lists.push(rest[ri++]);
+  }
+
+  const idx = {};
+  lists.forEach((l, i) => { idx[l] = i; });
+
+  // --- Co-occurrence matrix ---
+  const matrix = Array.from({ length: n }, () => Array(n).fill(0));
+  entries.forEach(([, r]) => {
+    const rl = (r.lists || []).filter(l => idx[l] !== undefined);
+    for (let i = 0; i < rl.length; i++)
+      for (let j = i + 1; j < rl.length; j++) { matrix[idx[rl[i]]][idx[rl[j]]]++; matrix[idx[rl[j]]][idx[rl[i]]]++; }
+    if (rl.length === 1) matrix[idx[rl[0]]][idx[rl[0]]] += 0.5;
+  });
+
+  const chord = d3.chord().padAngle(0.04).sortSubgroups(d3.descending)(matrix);
+
+  // --- Rotation: push longest labels toward diagonal corners ---
+  // The bounding box is square, so true diagonal corners are at 45/135/225/315°.
+  const corners = [45, 135, 225, 315].map(d => d * Math.PI / 180);
+  const labelsWithMid = lists.map((name, i) => ({
+    len: name.length,
+    mid: (chord.groups[i].startAngle + chord.groups[i].endAngle) / 2,
+  }));
+  labelsWithMid.sort((a, b) => b.len - a.len);
+  const heavyLabels = labelsWithMid.slice(0, 3);
+
+  let bestRot = 0, bestCost = Infinity;
+  for (let deg = 0; deg < 360; deg++) {
+    const r = deg * Math.PI / 180;
+    let cost = 0;
+    for (const lbl of heavyLabels) {
+      const pos = ((lbl.mid + r) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI);
+      let nearest = Infinity;
+      for (const c of corners) { const d = Math.abs(pos - c); nearest = Math.min(nearest, d, 2 * Math.PI - d); }
+      cost += nearest * lbl.len;
+    }
+    if (cost < bestCost) { bestCost = cost; bestRot = r; }
+  }
+  const rotRad = bestRot;
+  const rotDeg = rotRad * 180 / Math.PI;
+
+  // --- Render ---
+  const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
+  const ribbon = d3.ribbon().radius(innerRadius);
+
+  const svgEl = d3.select(container).append('svg')
+    .attr('viewBox', `0 0 ${vbSize} ${vbSize}`)
+    .attr('width', '100%')
+    .style('display', 'block').style('max-width', '720px').style('margin', '0 auto');
+  const svg = svgEl.append('g')
+    .attr('transform', `translate(${vbSize / 2},${vbSize / 2}) rotate(${rotDeg})`);
+
+  // Arcs
+  svg.selectAll('.arc')
+    .data(chord.groups).join('path').attr('class', 'arc')
+    .attr('d', arc)
+    .attr('fill', d => LIST_COLORS[lists[d.index]] || '#8b949e')
+    .attr('stroke', '#0d1117').attr('stroke-width', 1)
+    .style('cursor', 'pointer')
+    .on('mouseenter', (e, d) => {
+      svg.selectAll('.ribbon').attr('opacity', r =>
+        r.source.index === d.index || r.target.index === d.index ? 0.8 : 0.05);
+      const conns = [];
+      matrix[d.index].forEach((v, i) => { if (v > 0 && i !== d.index) conns.push(`${lists[i]}: ${Math.round(v)}`); });
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(lists[d.index])}</strong>${conns.length ? '<br>' + conns.join('<br>') : ''}`;
+    })
+    .on('mousemove', e => { tooltip.style.left = (e.pageX + 12) + 'px'; tooltip.style.top = (e.pageY - 12) + 'px'; })
+    .on('mouseleave', () => { svg.selectAll('.ribbon').attr('opacity', 0.55); tooltip.style.opacity = 0; });
+
+  // Labels — wrap long names onto two centered lines
+  function wrapLabel(name) {
+    const w = name.split(/\s+/);
+    if (w.length <= 2) return [name];
+    const m = Math.ceil(w.length / 2);
+    return [w.slice(0, m).join(' '), w.slice(m).join(' ')];
+  }
+
+  function normAngle(a) { return ((a % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI); }
+
+  svg.selectAll('.label')
+    .data(chord.groups).join('text').attr('class', 'label')
+    .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+    .attr('transform', d => {
+      const flip = normAngle(d.angle + rotRad) > Math.PI;
+      return `rotate(${d.angle * 180 / Math.PI - 90}) translate(${outerRadius + 8})${flip ? ' rotate(180)' : ''}`;
+    })
+    .attr('text-anchor', d => normAngle(d.angle + rotRad) > Math.PI ? 'end' : 'start')
+    .attr('fill', '#8b949e').attr('font-size', 11)
+    .each(function(d) {
+      const lines = wrapLabel(lists[d.index]);
+      const el = d3.select(this);
+      if (lines.length === 1) { el.text(lines[0]); return; }
+      el.text(null);
+      el.append('tspan').attr('x', 0).attr('dy', '-0.35em').text(lines[0]);
+      el.append('tspan').attr('x', 0).attr('dy', '1.1em').text(lines[1]);
+    });
+
+  // Ribbons
+  svg.selectAll('.ribbon')
+    .data(chord.filter(d => d.source.index !== d.target.index))
+    .join('path').attr('class', 'ribbon')
+    .attr('d', ribbon)
+    .attr('fill', d => LIST_COLORS[lists[d.source.index]] || '#8b949e')
+    .attr('opacity', 0.55).attr('stroke', 'none')
+    .on('mouseenter', (e, d) => {
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${esc(lists[d.source.index])}</strong> &harr; <strong>${esc(lists[d.target.index])}</strong><br>${Math.round(matrix[d.source.index][d.target.index])} shared repos`;
+    })
+    .on('mousemove', e => { tooltip.style.left = (e.pageX + 12) + 'px'; tooltip.style.top = (e.pageY - 12) + 'px'; })
+    .on('mouseleave', () => { tooltip.style.opacity = 0; });
+}
+
+// --- Ridgeline plot (by star lists) ---
+
+function renderRidgeline(container, tooltip, entries, width) {
+  const allListCounts = getTopLists(entries);
+  const topLists = allListCounts.slice(0, TOP_N).map(d => d[0]).filter(k => k !== 'Unlisted');
+  const rowH = 40;
+  const overlap = 15;
+  const margin = { top: 12, right: 16, bottom: 32, left: 140 };
+  const height = margin.top + margin.bottom + topLists.length * (rowH - overlap) + overlap;
+
+  const repos = entries
+    .map(([name, r]) => ({
+      starred: new Date(r.metadata?.starred_at),
+      lists: r.lists || [],
+    }))
+    .filter(d => !isNaN(d.starred));
+
+  const extent = d3.extent(repos, d => d.starred);
+  const x = d3.scaleTime()
+    .domain(extent)
+    .range([margin.left, width - margin.right]);
+
+  const svg = d3.select(container).append('svg')
+    .attr('width', width).attr('height', height);
+
+  // X axis
+  svg.append('g')
+    .attr('transform', `translate(0,${height - margin.bottom})`)
+    .call(d3.axisBottom(x).ticks(width > 500 ? 8 : 4).tickFormat(d3.timeFormat('%b \'%y')).tickSize(0))
+    .call(g => { g.select('.domain').attr('stroke', '#21262d'); g.selectAll('text').attr('fill', '#8b949e').attr('dy', 10).attr('font-size', 11); });
+
+  topLists.forEach((list, i) => {
+    const yBase = margin.top + i * (rowH - overlap) + rowH;
+    const listRepos = repos.filter(r => r.lists.includes(list));
+
+    // KDE
+    const bandwidth = (extent[1] - extent[0]) / 40;
+    const nBins = 80;
+    const step = (extent[1] - extent[0]) / nBins;
+    const density = [];
+    for (let j = 0; j <= nBins; j++) {
+      const t = new Date(extent[0].getTime() + j * step);
+      let sum = 0;
+      listRepos.forEach(r => {
+        const diff = (t - r.starred) / bandwidth;
+        sum += Math.exp(-0.5 * diff * diff);
+      });
+      density.push({ date: t, value: sum });
+    }
+
+    const maxVal = d3.max(density, d => d.value) || 1;
+    const yScale = d3.scaleLinear().domain([0, maxVal]).range([0, rowH - 4]);
+
+    const areaGen = d3.area()
+      .x(d => x(d.date))
+      .y0(yBase)
+      .y1(d => yBase - yScale(d.value))
+      .curve(d3.curveBasis);
+
+    svg.append('path')
+      .datum(density)
+      .attr('d', areaGen)
+      .attr('fill', LIST_COLORS[list] || '#8b949e')
+      .attr('opacity', 0.7)
+      .attr('stroke', LIST_COLORS[list] || '#8b949e')
+      .attr('stroke-width', 1);
+
+    // Label
+    svg.append('text')
+      .attr('x', margin.left - 8)
+      .attr('y', yBase - rowH / 3)
+      .attr('text-anchor', 'end')
+      .attr('fill', '#8b949e')
+      .attr('font-size', 11)
+      .text(list.length > 18 ? list.slice(0, 17) + '..' : list);
+
+    // Count
+    svg.append('text')
+      .attr('x', margin.left - 8)
+      .attr('y', yBase - rowH / 3 + 13)
+      .attr('text-anchor', 'end')
+      .attr('fill', '#484f58')
+      .attr('font-size', 10)
+      .text(`${listRepos.length}`);
+  });
+}
+
+
 </script>
 </body>
 </html>
