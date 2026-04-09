@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T00:13:15.875719+00:00",
+  "last_updated": "2026-04-09T18:43:43.430417+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -162947,6 +162947,2006 @@
         "starred_at": "2019-12-14T00:15:00Z"
       },
       "last_updated": "2026-04-05T00:13:15.875666+00:00"
+    },
+    "shinpr/mcp-local-rag": {
+      "lists": [],
+      "metadata": {
+        "id": 1087106485,
+        "name": "mcp-local-rag",
+        "full_name": "shinpr/mcp-local-rag",
+        "description": "Local-first RAG server for developers. Semantic + keyword search for code and technical docs. Works with MCP or CLI. Fully private, zero setup.",
+        "url": "https://github.com/shinpr/mcp-local-rag",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 211,
+        "forks": 37,
+        "open_issues": 3,
+        "created_at": "2025-10-31T11:44:14Z",
+        "updated_at": "2026-04-09T15:11:53Z",
+        "pushed_at": "2026-04-08T05:13:56Z",
+        "starred_at": "2026-04-09T04:30:48Z"
+      },
+      "last_updated": "2026-04-09T18:43:23.572770+00:00"
+    },
+    "matthewwithanm/python-markdownify": {
+      "lists": [],
+      "metadata": {
+        "id": 4834499,
+        "name": "python-markdownify",
+        "full_name": "matthewwithanm/python-markdownify",
+        "description": "Convert HTML to Markdown",
+        "url": "https://github.com/matthewwithanm/python-markdownify",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2141,
+        "forks": 187,
+        "open_issues": 39,
+        "created_at": "2012-06-29T16:30:23Z",
+        "updated_at": "2026-04-09T16:01:18Z",
+        "pushed_at": "2025-11-16T19:20:14Z",
+        "starred_at": "2026-04-09T03:32:53Z"
+      },
+      "last_updated": "2026-04-09T18:43:23.720012+00:00"
+    },
+    "dotnet/Silk.NET": {
+      "lists": [],
+      "metadata": {
+        "id": 191232240,
+        "name": "Silk.NET",
+        "full_name": "dotnet/Silk.NET",
+        "description": "The high-speed OpenGL, OpenCL, OpenAL, OpenXR, GLFW, SDL, Vulkan, Assimp, WebGPU, and DirectX bindings library your mother warned you about.",
+        "url": "https://github.com/dotnet/Silk.NET",
+        "homepage": "https://dotnet.github.io/Silk.NET",
+        "language": "C#",
+        "stars": 4989,
+        "forks": 452,
+        "open_issues": 100,
+        "created_at": "2019-06-10T19:23:59Z",
+        "updated_at": "2026-04-09T12:10:28Z",
+        "pushed_at": "2026-04-04T02:03:52Z",
+        "starred_at": "2026-04-09T03:08:19Z"
+      },
+      "last_updated": "2026-04-09T18:43:23.928349+00:00"
+    },
+    "TencentARC/VideoPainter": {
+      "lists": [],
+      "metadata": {
+        "id": 945243550,
+        "name": "VideoPainter",
+        "full_name": "TencentARC/VideoPainter",
+        "description": "[SIGGRAPH2025] Official repo for paper \"Any-length Video Inpainting and Editing with Plug-and-Play Context Control\"",
+        "url": "https://github.com/TencentARC/VideoPainter",
+        "homepage": "https://yxbian23.github.io/project/video-painter/",
+        "language": "Python",
+        "stars": 595,
+        "forks": 42,
+        "open_issues": 16,
+        "created_at": "2025-03-09T01:21:24Z",
+        "updated_at": "2026-04-08T21:08:03Z",
+        "pushed_at": "2025-04-08T03:54:58Z",
+        "starred_at": "2026-04-08T21:08:03Z"
+      },
+      "last_updated": "2026-04-09T18:43:24.142796+00:00"
+    },
+    "google/kafel": {
+      "lists": [],
+      "metadata": {
+        "id": 68689779,
+        "name": "kafel",
+        "full_name": "google/kafel",
+        "description": "A language and library for specifying syscall filtering policies.",
+        "url": "https://github.com/google/kafel",
+        "homepage": "http://google.github.io/kafel",
+        "language": "C",
+        "stars": 354,
+        "forks": 57,
+        "open_issues": 5,
+        "created_at": "2016-09-20T08:14:32Z",
+        "updated_at": "2026-04-08T19:57:05Z",
+        "pushed_at": "2026-04-04T21:44:38Z",
+        "starred_at": "2026-04-08T19:57:04Z"
+      },
+      "last_updated": "2026-04-09T18:43:24.346065+00:00"
+    },
+    "scottlawsonbc/audio-reactive-led-strip": {
+      "lists": [],
+      "metadata": {
+        "id": 70744541,
+        "name": "audio-reactive-led-strip",
+        "full_name": "scottlawsonbc/audio-reactive-led-strip",
+        "description": ":musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi",
+        "url": "https://github.com/scottlawsonbc/audio-reactive-led-strip",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2923,
+        "forks": 645,
+        "open_issues": 107,
+        "created_at": "2016-10-12T21:48:38Z",
+        "updated_at": "2026-04-09T15:46:14Z",
+        "pushed_at": "2026-01-06T18:09:14Z",
+        "starred_at": "2026-04-08T18:32:22Z"
+      },
+      "last_updated": "2026-04-09T18:43:24.504133+00:00"
+    },
+    "inovintell/py-template": {
+      "lists": [],
+      "metadata": {
+        "id": 562206126,
+        "name": "py-template",
+        "full_name": "inovintell/py-template",
+        "description": "One-click GitHub Actions pipelines for Python!",
+        "url": "https://github.com/inovintell/py-template",
+        "homepage": "https://inovintell.github.io/docs-template/",
+        "language": "JavaScript",
+        "stars": 93,
+        "forks": 10,
+        "open_issues": 8,
+        "created_at": "2022-11-05T16:20:51Z",
+        "updated_at": "2026-04-08T18:06:56Z",
+        "pushed_at": "2026-04-09T16:31:06Z",
+        "starred_at": "2026-04-08T18:06:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:24.785266+00:00"
+    },
+    "jlcanovas/gh-best-practices-template": {
+      "lists": [],
+      "metadata": {
+        "id": 567208230,
+        "name": "gh-best-practices-template",
+        "full_name": "jlcanovas/gh-best-practices-template",
+        "description": "Template with best practices for building sustainable GitHub repositories",
+        "url": "https://github.com/jlcanovas/gh-best-practices-template",
+        "homepage": "",
+        "language": null,
+        "stars": 29,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2022-11-17T09:56:51Z",
+        "updated_at": "2026-04-08T17:41:57Z",
+        "pushed_at": "2023-10-11T13:58:54Z",
+        "starred_at": "2026-04-08T17:41:57Z"
+      },
+      "last_updated": "2026-04-09T18:43:24.982110+00:00"
+    },
+    "cossacklabs/repometascore": {
+      "lists": [],
+      "metadata": {
+        "id": 475586083,
+        "name": "repometascore",
+        "full_name": "cossacklabs/repometascore",
+        "description": "repometascore (aka repository metadata scoring) analyzes metadata of the given repository, collects info about its contributors, and outputs the risk level.",
+        "url": "https://github.com/cossacklabs/repometascore",
+        "homepage": "",
+        "language": "Python",
+        "stars": 35,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2022-03-29T19:14:16Z",
+        "updated_at": "2026-04-08T17:38:36Z",
+        "pushed_at": "2025-03-31T09:19:11Z",
+        "starred_at": "2026-04-08T17:38:36Z"
+      },
+      "last_updated": "2026-04-09T18:43:25.210989+00:00"
+    },
+    "cossacklabs/security-guides": {
+      "lists": [],
+      "metadata": {
+        "id": 901545967,
+        "name": "security-guides",
+        "full_name": "cossacklabs/security-guides",
+        "description": "Tips, tricks, useful links on building and breaking secure systems",
+        "url": "https://github.com/cossacklabs/security-guides",
+        "homepage": "",
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-12-10T21:26:59Z",
+        "updated_at": "2026-04-08T17:38:15Z",
+        "pushed_at": "2025-09-21T22:58:21Z",
+        "starred_at": "2026-04-08T17:38:15Z"
+      },
+      "last_updated": "2026-04-09T18:43:25.447615+00:00"
+    },
+    "cossacklabs/security-autotests-templates": {
+      "lists": [],
+      "metadata": {
+        "id": 780358567,
+        "name": "security-autotests-templates",
+        "full_name": "cossacklabs/security-autotests-templates",
+        "description": "This repository contains templates for commonly used security autotests",
+        "url": "https://github.com/cossacklabs/security-autotests-templates",
+        "homepage": null,
+        "language": "Python",
+        "stars": 9,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-04-01T10:00:06Z",
+        "updated_at": "2026-04-08T17:36:58Z",
+        "pushed_at": "2024-05-02T11:50:02Z",
+        "starred_at": "2026-04-08T17:36:58Z"
+      },
+      "last_updated": "2026-04-09T18:43:25.659997+00:00"
+    },
+    "diegomacario/Dyna-Kinematics": {
+      "lists": [],
+      "metadata": {
+        "id": 245149426,
+        "name": "Dyna-Kinematics",
+        "full_name": "diegomacario/Dyna-Kinematics",
+        "description": "A 2D rigid-body dynamics simulator with some cool features for generating beautiful animations.",
+        "url": "https://github.com/diegomacario/Dyna-Kinematics",
+        "homepage": "",
+        "language": "C++",
+        "stars": 269,
+        "forks": 11,
+        "open_issues": 0,
+        "created_at": "2020-03-05T11:49:26Z",
+        "updated_at": "2026-04-08T17:26:23Z",
+        "pushed_at": "2020-12-28T16:08:30Z",
+        "starred_at": "2026-04-08T17:26:23Z"
+      },
+      "last_updated": "2026-04-09T18:43:25.849973+00:00"
+    },
+    "google/gemma.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 756673810,
+        "name": "gemma.cpp",
+        "full_name": "google/gemma.cpp",
+        "description": "lightweight, standalone C++ inference engine for Google's Gemma models.",
+        "url": "https://github.com/google/gemma.cpp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 6835,
+        "forks": 617,
+        "open_issues": 28,
+        "created_at": "2024-02-13T04:36:03Z",
+        "updated_at": "2026-04-09T14:13:08Z",
+        "pushed_at": "2026-04-08T15:34:17Z",
+        "starred_at": "2026-04-08T17:25:28Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.028142+00:00"
+    },
+    "glynnbird/teletext": {
+      "lists": [],
+      "metadata": {
+        "id": 205866236,
+        "name": "teletext",
+        "full_name": "glynnbird/teletext",
+        "description": "Hacker news as teletext",
+        "url": "https://github.com/glynnbird/teletext",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 59,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2019-09-02T13:44:28Z",
+        "updated_at": "2026-04-08T17:24:09Z",
+        "pushed_at": "2026-04-02T13:05:08Z",
+        "starred_at": "2026-04-08T17:24:09Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.241876+00:00"
+    },
+    "charmbracelet/glow": {
+      "lists": [],
+      "metadata": {
+        "id": 219616873,
+        "name": "glow",
+        "full_name": "charmbracelet/glow",
+        "description": "Render markdown on the CLI, with pizzazz! \ud83d\udc85\ud83c\udffb",
+        "url": "https://github.com/charmbracelet/glow",
+        "homepage": "",
+        "language": "Go",
+        "stars": 24287,
+        "forks": 642,
+        "open_issues": 172,
+        "created_at": "2019-11-04T23:34:55Z",
+        "updated_at": "2026-04-09T17:30:06Z",
+        "pushed_at": "2026-03-16T09:05:37Z",
+        "starred_at": "2026-04-08T17:23:44Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.415984+00:00"
+    },
+    "bczsalba/pytermgui": {
+      "lists": [],
+      "metadata": {
+        "id": 353446108,
+        "name": "pytermgui",
+        "full_name": "bczsalba/pytermgui",
+        "description": "Python TUI framework with mouse support, modular widget system, customizable and rapid terminal markup language and more!",
+        "url": "https://github.com/bczsalba/pytermgui",
+        "homepage": "https://ptg.bczsalba.com",
+        "language": "Python",
+        "stars": 2644,
+        "forks": 63,
+        "open_issues": 12,
+        "created_at": "2021-03-31T18:01:08Z",
+        "updated_at": "2026-04-09T11:09:11Z",
+        "pushed_at": "2026-01-29T14:59:25Z",
+        "starred_at": "2026-04-08T17:23:26Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.573328+00:00"
+    },
+    "chaosprint/glicol": {
+      "lists": [],
+      "metadata": {
+        "id": 279422587,
+        "name": "glicol",
+        "full_name": "chaosprint/glicol",
+        "description": "Graph-oriented live coding language and music/audio DSP library written in Rust",
+        "url": "https://github.com/chaosprint/glicol",
+        "homepage": "https://glicol.org",
+        "language": "Rust",
+        "stars": 2946,
+        "forks": 99,
+        "open_issues": 48,
+        "created_at": "2020-07-13T22:13:33Z",
+        "updated_at": "2026-04-08T17:21:19Z",
+        "pushed_at": "2025-04-06T14:42:57Z",
+        "starred_at": "2026-04-08T17:21:19Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.774283+00:00"
+    },
+    "Staacks/gbinterceptor": {
+      "lists": [],
+      "metadata": {
+        "id": 578962451,
+        "name": "gbinterceptor",
+        "full_name": "Staacks/gbinterceptor",
+        "description": "Capture or stream Game Boy gameplay footage via USB without modifying the Game Boy.",
+        "url": "https://github.com/Staacks/gbinterceptor",
+        "homepage": null,
+        "language": "C",
+        "stars": 530,
+        "forks": 30,
+        "open_issues": 10,
+        "created_at": "2022-12-16T10:06:56Z",
+        "updated_at": "2026-04-08T17:20:59Z",
+        "pushed_at": "2026-03-23T21:23:53Z",
+        "starred_at": "2026-04-08T17:20:59Z"
+      },
+      "last_updated": "2026-04-09T18:43:26.948596+00:00"
+    },
+    "bricklife/LEGO-Mario-Reveng": {
+      "lists": [],
+      "metadata": {
+        "id": 280179714,
+        "name": "LEGO-Mario-Reveng",
+        "full_name": "bricklife/LEGO-Mario-Reveng",
+        "description": "Reverse Engineering of LEGO Mario, Luigi, and Peach",
+        "url": "https://github.com/bricklife/LEGO-Mario-Reveng",
+        "homepage": "",
+        "language": null,
+        "stars": 139,
+        "forks": 13,
+        "open_issues": 2,
+        "created_at": "2020-07-16T14:45:44Z",
+        "updated_at": "2026-04-08T17:20:23Z",
+        "pushed_at": "2023-01-04T09:01:05Z",
+        "starred_at": "2026-04-08T17:20:22Z"
+      },
+      "last_updated": "2026-04-09T18:43:27.127949+00:00"
+    },
+    "RickP/lego_mario_controller": {
+      "lists": [],
+      "metadata": {
+        "id": 292056529,
+        "name": "lego_mario_controller",
+        "full_name": "RickP/lego_mario_controller",
+        "description": "A small python script that connects to a Lego Mario figurine via BLuetooth LE and emits keystrokes for different actions.",
+        "url": "https://github.com/RickP/lego_mario_controller",
+        "homepage": "",
+        "language": "Python",
+        "stars": 110,
+        "forks": 21,
+        "open_issues": 2,
+        "created_at": "2020-09-01T16:56:25Z",
+        "updated_at": "2026-04-08T17:17:23Z",
+        "pushed_at": "2021-02-14T23:03:02Z",
+        "starred_at": "2026-04-08T17:17:23Z"
+      },
+      "last_updated": "2026-04-09T18:43:27.345762+00:00"
+    },
+    "xorbitsai/inference": {
+      "lists": [],
+      "metadata": {
+        "id": 653496050,
+        "name": "inference",
+        "full_name": "xorbitsai/inference",
+        "description": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API.",
+        "url": "https://github.com/xorbitsai/inference",
+        "homepage": "https://inference.readthedocs.io",
+        "language": "Python",
+        "stars": 9214,
+        "forks": 813,
+        "open_issues": 71,
+        "created_at": "2023-06-14T07:05:04Z",
+        "updated_at": "2026-04-09T16:27:54Z",
+        "pushed_at": "2026-04-09T10:01:48Z",
+        "starred_at": "2026-04-08T17:15:58Z"
+      },
+      "last_updated": "2026-04-09T18:43:27.581510+00:00"
+    },
+    "phoboslab/wipeout": {
+      "lists": [],
+      "metadata": {
+        "id": 33925402,
+        "name": "wipeout",
+        "full_name": "phoboslab/wipeout",
+        "description": "WipEout (PSX) Model Viewer in WebGL/Three.js",
+        "url": "https://github.com/phoboslab/wipeout",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 551,
+        "forks": 55,
+        "open_issues": 20,
+        "created_at": "2015-04-14T10:23:50Z",
+        "updated_at": "2026-04-08T17:15:28Z",
+        "pushed_at": "2025-04-22T17:02:54Z",
+        "starred_at": "2026-04-08T17:15:28Z"
+      },
+      "last_updated": "2026-04-09T18:43:27.748107+00:00"
+    },
+    "Schneegans/Burn-My-Windows": {
+      "lists": [],
+      "metadata": {
+        "id": 437908603,
+        "name": "Burn-My-Windows",
+        "full_name": "Schneegans/Burn-My-Windows",
+        "description": "\ud83d\udd25 Disintegrate your windows with style.",
+        "url": "https://github.com/Schneegans/Burn-My-Windows",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 2997,
+        "forks": 98,
+        "open_issues": 34,
+        "created_at": "2021-12-13T14:39:39Z",
+        "updated_at": "2026-04-08T17:10:36Z",
+        "pushed_at": "2026-03-15T19:31:20Z",
+        "starred_at": "2026-04-08T17:10:36Z"
+      },
+      "last_updated": "2026-04-09T18:43:27.963193+00:00"
+    },
+    "monatis/clip.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 633926961,
+        "name": "clip.cpp",
+        "full_name": "monatis/clip.cpp",
+        "description": "CLIP inference in plain C/C++ with no extra dependencies",
+        "url": "https://github.com/monatis/clip.cpp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 557,
+        "forks": 53,
+        "open_issues": 29,
+        "created_at": "2023-04-28T15:46:59Z",
+        "updated_at": "2026-04-08T17:09:35Z",
+        "pushed_at": "2025-06-19T06:08:46Z",
+        "starred_at": "2026-04-08T17:09:35Z"
+      },
+      "last_updated": "2026-04-09T18:43:28.140410+00:00"
+    },
+    "mtx512/rk3588-npu": {
+      "lists": [],
+      "metadata": {
+        "id": 754531134,
+        "name": "rk3588-npu",
+        "full_name": "mtx512/rk3588-npu",
+        "description": "Reverse engineering the rk3588 npu",
+        "url": "https://github.com/mtx512/rk3588-npu",
+        "homepage": null,
+        "language": "C",
+        "stars": 117,
+        "forks": 9,
+        "open_issues": 5,
+        "created_at": "2024-02-08T08:56:36Z",
+        "updated_at": "2026-04-08T17:09:08Z",
+        "pushed_at": "2024-05-30T08:43:30Z",
+        "starred_at": "2026-04-08T17:09:08Z"
+      },
+      "last_updated": "2026-04-09T18:43:28.346381+00:00"
+    },
+    "leejet/stable-diffusion.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 677953180,
+        "name": "stable-diffusion.cpp",
+        "full_name": "leejet/stable-diffusion.cpp",
+        "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+        "url": "https://github.com/leejet/stable-diffusion.cpp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 5716,
+        "forks": 582,
+        "open_issues": 398,
+        "created_at": "2023-08-13T07:36:51Z",
+        "updated_at": "2026-04-09T14:21:08Z",
+        "pushed_at": "2026-04-08T17:17:15Z",
+        "starred_at": "2026-04-08T17:08:47Z"
+      },
+      "last_updated": "2026-04-09T18:43:28.535564+00:00"
+    },
+    "eiln/ane": {
+      "lists": [],
+      "metadata": {
+        "id": 580825725,
+        "name": "ane",
+        "full_name": "eiln/ane",
+        "description": "Reverse engineered Linux driver for the Apple Neural Engine (ANE).",
+        "url": "https://github.com/eiln/ane",
+        "homepage": "",
+        "language": "C",
+        "stars": 481,
+        "forks": 26,
+        "open_issues": 3,
+        "created_at": "2022-12-21T14:46:38Z",
+        "updated_at": "2026-04-08T17:08:14Z",
+        "pushed_at": "2024-03-12T14:45:47Z",
+        "starred_at": "2026-04-08T17:08:13Z"
+      },
+      "last_updated": "2026-04-09T18:43:28.698474+00:00"
+    },
+    "PABannier/sam3.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1194403242,
+        "name": "sam3.cpp",
+        "full_name": "PABannier/sam3.cpp",
+        "description": "Fast state-of-the-art image and video segmentation in portable C/C++",
+        "url": "https://github.com/PABannier/sam3.cpp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 218,
+        "forks": 14,
+        "open_issues": 1,
+        "created_at": "2026-03-28T10:02:36Z",
+        "updated_at": "2026-04-09T18:32:10Z",
+        "pushed_at": "2026-04-03T22:36:22Z",
+        "starred_at": "2026-04-08T17:06:45Z"
+      },
+      "last_updated": "2026-04-09T18:43:28.844542+00:00"
+    },
+    "langflow-ai/langflow": {
+      "lists": [],
+      "metadata": {
+        "id": 599320067,
+        "name": "langflow",
+        "full_name": "langflow-ai/langflow",
+        "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+        "url": "https://github.com/langflow-ai/langflow",
+        "homepage": "http://www.langflow.org",
+        "language": "Python",
+        "stars": 146743,
+        "forks": 8736,
+        "open_issues": 939,
+        "created_at": "2023-02-08T22:28:03Z",
+        "updated_at": "2026-04-09T18:30:15Z",
+        "pushed_at": "2026-04-09T18:43:25Z",
+        "starred_at": "2026-04-08T13:21:08Z"
+      },
+      "last_updated": "2026-04-09T18:43:29.072645+00:00"
+    },
+    "langflow-ai/openrag": {
+      "lists": [],
+      "metadata": {
+        "id": 1018113827,
+        "name": "openrag",
+        "full_name": "langflow-ai/openrag",
+        "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. ",
+        "url": "https://github.com/langflow-ai/openrag",
+        "homepage": "https://www.openr.ag",
+        "language": "Python",
+        "stars": 3759,
+        "forks": 344,
+        "open_issues": 199,
+        "created_at": "2025-07-11T16:19:14Z",
+        "updated_at": "2026-04-09T18:39:43Z",
+        "pushed_at": "2026-04-09T18:24:02Z",
+        "starred_at": "2026-04-08T13:20:28Z"
+      },
+      "last_updated": "2026-04-09T18:43:29.245443+00:00"
+    },
+    "isw3d/TouchDesigner-Linux": {
+      "lists": [],
+      "metadata": {
+        "id": 1201521672,
+        "name": "TouchDesigner-Linux",
+        "full_name": "isw3d/TouchDesigner-Linux",
+        "description": "Run TouchDesigner on Linux with Bottles. Includes full setup, dependencies, and a working fix for missing fonts.",
+        "url": "https://github.com/isw3d/TouchDesigner-Linux",
+        "homepage": "",
+        "language": null,
+        "stars": 18,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-04T19:41:40Z",
+        "updated_at": "2026-04-09T01:44:01Z",
+        "pushed_at": "2026-04-08T11:29:49Z",
+        "starred_at": "2026-04-07T21:27:38Z"
+      },
+      "last_updated": "2026-04-09T18:43:29.443662+00:00"
+    },
+    "GoogleCloudPlatform/scion": {
+      "lists": [],
+      "metadata": {
+        "id": 1177353643,
+        "name": "scion",
+        "full_name": "GoogleCloudPlatform/scion",
+        "description": null,
+        "url": "https://github.com/GoogleCloudPlatform/scion",
+        "homepage": null,
+        "language": "Go",
+        "stars": 953,
+        "forks": 117,
+        "open_issues": 62,
+        "created_at": "2026-03-10T00:19:58Z",
+        "updated_at": "2026-04-09T18:40:30Z",
+        "pushed_at": "2026-04-09T17:53:16Z",
+        "starred_at": "2026-04-07T20:57:22Z"
+      },
+      "last_updated": "2026-04-09T18:43:29.642304+00:00"
+    },
+    "step-security/harden-runner": {
+      "lists": [],
+      "metadata": {
+        "id": 422287306,
+        "name": "harden-runner",
+        "full_name": "step-security/harden-runner",
+        "description": "Harden-Runner is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and process activity on those runners, detecting threats in real-time.",
+        "url": "https://github.com/step-security/harden-runner",
+        "homepage": "https://www.stepsecurity.io",
+        "language": "TypeScript",
+        "stars": 1085,
+        "forks": 95,
+        "open_issues": 45,
+        "created_at": "2021-10-28T16:58:46Z",
+        "updated_at": "2026-04-09T06:47:55Z",
+        "pushed_at": "2026-04-09T18:16:38Z",
+        "starred_at": "2026-04-07T19:25:05Z"
+      },
+      "last_updated": "2026-04-09T18:43:29.831065+00:00"
+    },
+    "AndersonBY/python-repomix": {
+      "lists": [],
+      "metadata": {
+        "id": 908249697,
+        "name": "python-repomix",
+        "full_name": "AndersonBY/python-repomix",
+        "description": "\ud83d\udce6 python-repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, and Gemini.",
+        "url": "https://github.com/AndersonBY/python-repomix",
+        "homepage": "",
+        "language": "Python",
+        "stars": 152,
+        "forks": 14,
+        "open_issues": 0,
+        "created_at": "2024-12-25T15:18:59Z",
+        "updated_at": "2026-04-08T16:54:50Z",
+        "pushed_at": "2026-02-13T16:57:25Z",
+        "starred_at": "2026-04-07T19:12:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:30.020788+00:00"
+    },
+    "vercel/ai": {
+      "lists": [],
+      "metadata": {
+        "id": 644461337,
+        "name": "ai",
+        "full_name": "vercel/ai",
+        "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+        "url": "https://github.com/vercel/ai",
+        "homepage": "https://ai-sdk.dev",
+        "language": "TypeScript",
+        "stars": 23350,
+        "forks": 4141,
+        "open_issues": 1477,
+        "created_at": "2023-05-23T15:04:08Z",
+        "updated_at": "2026-04-09T16:14:18Z",
+        "pushed_at": "2026-04-09T18:39:46Z",
+        "starred_at": "2026-04-07T19:11:00Z"
+      },
+      "last_updated": "2026-04-09T18:43:30.223931+00:00"
+    },
+    "woodruffw/kbs2": {
+      "lists": [],
+      "metadata": {
+        "id": 263823753,
+        "name": "kbs2",
+        "full_name": "woodruffw/kbs2",
+        "description": "A secret manager backed by age",
+        "url": "https://github.com/woodruffw/kbs2",
+        "homepage": "https://crates.io/crates/kbs2",
+        "language": "Rust",
+        "stars": 130,
+        "forks": 5,
+        "open_issues": 15,
+        "created_at": "2020-05-14T05:29:44Z",
+        "updated_at": "2026-04-07T17:21:55Z",
+        "pushed_at": "2026-03-02T06:35:48Z",
+        "starred_at": "2026-04-07T17:21:54Z"
+      },
+      "last_updated": "2026-04-09T18:43:30.417732+00:00"
+    },
+    "antitree/go-pillage-registries": {
+      "lists": [],
+      "metadata": {
+        "id": 945498355,
+        "name": "go-pillage-registries",
+        "full_name": "antitree/go-pillage-registries",
+        "description": "Pentester-focused Docker registry tool to enumerate and pull images",
+        "url": "https://github.com/antitree/go-pillage-registries",
+        "homepage": "",
+        "language": "Go",
+        "stars": 37,
+        "forks": 1,
+        "open_issues": 3,
+        "created_at": "2025-03-09T15:11:31Z",
+        "updated_at": "2026-04-07T16:58:31Z",
+        "pushed_at": "2025-10-19T00:24:42Z",
+        "starred_at": "2026-04-07T16:58:30Z"
+      },
+      "last_updated": "2026-04-09T18:43:30.675140+00:00"
+    },
+    "milla-jovovich/mempalace": {
+      "lists": [],
+      "metadata": {
+        "id": 1201656210,
+        "name": "mempalace",
+        "full_name": "milla-jovovich/mempalace",
+        "description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+        "url": "https://github.com/milla-jovovich/mempalace",
+        "homepage": null,
+        "language": "Python",
+        "stars": 34278,
+        "forks": 4316,
+        "open_issues": 237,
+        "created_at": "2026-04-05T01:12:07Z",
+        "updated_at": "2026-04-09T18:43:20Z",
+        "pushed_at": "2026-04-09T18:21:18Z",
+        "starred_at": "2026-04-07T06:08:24Z"
+      },
+      "last_updated": "2026-04-09T18:43:30.843993+00:00"
+    },
+    "Netflix/void-model": {
+      "lists": [],
+      "metadata": {
+        "id": 1192888062,
+        "name": "void-model",
+        "full_name": "Netflix/void-model",
+        "description": null,
+        "url": "https://github.com/Netflix/void-model",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1381,
+        "forks": 119,
+        "open_issues": 5,
+        "created_at": "2026-03-26T16:56:49Z",
+        "updated_at": "2026-04-09T18:26:42Z",
+        "pushed_at": "2026-04-09T13:23:18Z",
+        "starred_at": "2026-04-07T03:55:23Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.052752+00:00"
+    },
+    "sidecartridge/rp-webusb-picoflash": {
+      "lists": [],
+      "metadata": {
+        "id": 1147557144,
+        "name": "rp-webusb-picoflash",
+        "full_name": "sidecartridge/rp-webusb-picoflash",
+        "description": "Flash the Sidecartridge uf2 firmware files to the Raspberry Pi RP2040/RP2350 devices using webusb protocol in Chromium",
+        "url": "https://github.com/sidecartridge/rp-webusb-picoflash",
+        "homepage": "https://sidecartridge.com/assets/html/sidecartridge-firmware-installer.html",
+        "language": "HTML",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-02-01T23:20:33Z",
+        "updated_at": "2026-04-07T03:29:03Z",
+        "pushed_at": "2026-03-27T15:41:47Z",
+        "starred_at": "2026-04-07T03:29:02Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.234955+00:00"
+    },
+    "1Password/shell-plugins": {
+      "lists": [],
+      "metadata": {
+        "id": 560442944,
+        "name": "shell-plugins",
+        "full_name": "1Password/shell-plugins",
+        "description": "Seamless authentication for every tool in your terminal.",
+        "url": "https://github.com/1Password/shell-plugins",
+        "homepage": "https://developer.1password.com/docs/cli/shell-plugins/",
+        "language": "Go",
+        "stars": 658,
+        "forks": 255,
+        "open_issues": 206,
+        "created_at": "2022-11-01T14:11:22Z",
+        "updated_at": "2026-04-08T04:53:19Z",
+        "pushed_at": "2026-03-27T15:26:23Z",
+        "starred_at": "2026-04-06T21:53:04Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.464234+00:00"
+    },
+    "mytechnotalent/Embedded-Wasm": {
+      "lists": [],
+      "metadata": {
+        "id": 1194809825,
+        "name": "Embedded-Wasm",
+        "full_name": "mytechnotalent/Embedded-Wasm",
+        "description": "A collection of repos that runs a WebAssembly Component Model runtime (wasmtime + Pulley interpreter) directly on bare-metal w/ HW capabilities exposed through WIT.",
+        "url": "https://github.com/mytechnotalent/Embedded-Wasm",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-28T20:58:45Z",
+        "updated_at": "2026-04-06T21:42:18Z",
+        "pushed_at": "2026-03-30T23:53:27Z",
+        "starred_at": "2026-04-06T21:42:17Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.663605+00:00"
+    },
+    "mytechnotalent/RP2350_UART_Driver": {
+      "lists": [],
+      "metadata": {
+        "id": 1088225598,
+        "name": "RP2350_UART_Driver",
+        "full_name": "mytechnotalent/RP2350_UART_Driver",
+        "description": "An RP2350 UART driver written entirely in ARM Assembler.",
+        "url": "https://github.com/mytechnotalent/RP2350_UART_Driver",
+        "homepage": "",
+        "language": "Assembly",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-11-02T15:05:42Z",
+        "updated_at": "2026-04-06T21:41:07Z",
+        "pushed_at": "2026-03-23T15:27:38Z",
+        "starred_at": "2026-04-06T21:41:07Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.824757+00:00"
+    },
+    "rh1tech/echo_dvi": {
+      "lists": [],
+      "metadata": {
+        "id": 1013873298,
+        "name": "echo_dvi",
+        "full_name": "rh1tech/echo_dvi",
+        "description": "Echo (DVI Version)",
+        "url": "https://github.com/rh1tech/echo_dvi",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-07-04T15:56:47Z",
+        "updated_at": "2026-04-06T21:40:21Z",
+        "pushed_at": "2025-07-04T16:28:34Z",
+        "starred_at": "2026-04-06T21:40:20Z"
+      },
+      "last_updated": "2026-04-09T18:43:31.993922+00:00"
+    },
+    "rh1tech/echo": {
+      "lists": [],
+      "metadata": {
+        "id": 974894443,
+        "name": "echo",
+        "full_name": "rh1tech/echo",
+        "description": "Echo: ESP32-Based VGA Board",
+        "url": "https://github.com/rh1tech/echo",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-29T13:17:12Z",
+        "updated_at": "2026-04-06T21:37:37Z",
+        "pushed_at": "2025-09-26T15:21:15Z",
+        "starred_at": "2026-04-06T21:37:36Z"
+      },
+      "last_updated": "2026-04-09T18:43:32.162363+00:00"
+    },
+    "rh1tech/nyx": {
+      "lists": [],
+      "metadata": {
+        "id": 1007271558,
+        "name": "nyx",
+        "full_name": "rh1tech/nyx",
+        "description": "Enhanced open source Raspberry Pi Pico / Raspberry Pi Pico 2 clone",
+        "url": "https://github.com/rh1tech/nyx",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-06-23T18:21:10Z",
+        "updated_at": "2026-04-06T21:28:05Z",
+        "pushed_at": "2025-11-14T08:18:06Z",
+        "starred_at": "2026-04-06T21:28:04Z"
+      },
+      "last_updated": "2026-04-09T18:43:32.376445+00:00"
+    },
+    "rh1tech/iris": {
+      "lists": [],
+      "metadata": {
+        "id": 973856084,
+        "name": "iris",
+        "full_name": "rh1tech/iris",
+        "description": "Serial Terminal for RP2040",
+        "url": "https://github.com/rh1tech/iris",
+        "homepage": null,
+        "language": "C",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-27T21:53:54Z",
+        "updated_at": "2026-04-06T21:27:24Z",
+        "pushed_at": "2025-11-19T22:50:48Z",
+        "starred_at": "2026-04-06T21:27:24Z"
+      },
+      "last_updated": "2026-04-09T18:43:32.564309+00:00"
+    },
+    "rh1tech/frank-genesis": {
+      "lists": [],
+      "metadata": {
+        "id": 1130487014,
+        "name": "frank-genesis",
+        "full_name": "rh1tech/frank-genesis",
+        "description": "Sega Genesis emulator for RP2350",
+        "url": "https://github.com/rh1tech/frank-genesis",
+        "homepage": null,
+        "language": "C",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 5,
+        "created_at": "2026-01-08T15:20:49Z",
+        "updated_at": "2026-04-06T21:27:10Z",
+        "pushed_at": "2026-03-26T12:13:59Z",
+        "starred_at": "2026-04-06T21:27:09Z"
+      },
+      "last_updated": "2026-04-09T18:43:32.748530+00:00"
+    },
+    "rh1tech/frank-duke3d": {
+      "lists": [],
+      "metadata": {
+        "id": 1112883715,
+        "name": "frank-duke3d",
+        "full_name": "rh1tech/frank-duke3d",
+        "description": "Duke Nukem 3D Port for RP2350 Microcontroller",
+        "url": "https://github.com/rh1tech/frank-duke3d",
+        "homepage": null,
+        "language": "C",
+        "stars": 5,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-12-09T08:25:52Z",
+        "updated_at": "2026-04-06T21:27:05Z",
+        "pushed_at": "2026-03-26T12:34:23Z",
+        "starred_at": "2026-04-06T21:27:05Z"
+      },
+      "last_updated": "2026-04-09T18:43:32.921632+00:00"
+    },
+    "rh1tech/frank-snes": {
+      "lists": [],
+      "metadata": {
+        "id": 1187630865,
+        "name": "frank-snes",
+        "full_name": "rh1tech/frank-snes",
+        "description": "SNES Emulator for RP2350 (Pico 2) with HDMI output",
+        "url": "https://github.com/rh1tech/frank-snes",
+        "homepage": null,
+        "language": "C",
+        "stars": 6,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2026-03-21T00:30:32Z",
+        "updated_at": "2026-04-07T16:03:27Z",
+        "pushed_at": "2026-03-26T13:51:13Z",
+        "starred_at": "2026-04-06T21:26:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:33.125716+00:00"
+    },
+    "rh1tech/frank-nes": {
+      "lists": [],
+      "metadata": {
+        "id": 1176820380,
+        "name": "frank-nes",
+        "full_name": "rh1tech/frank-nes",
+        "description": "NES emulator for RP2350",
+        "url": "https://github.com/rh1tech/frank-nes",
+        "homepage": null,
+        "language": "C",
+        "stars": 4,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-03-09T12:12:06Z",
+        "updated_at": "2026-04-06T21:26:36Z",
+        "pushed_at": "2026-04-05T11:29:51Z",
+        "starred_at": "2026-04-06T21:26:35Z"
+      },
+      "last_updated": "2026-04-09T18:43:33.292880+00:00"
+    },
+    "rh1tech/frank": {
+      "lists": [],
+      "metadata": {
+        "id": 845236434,
+        "name": "frank",
+        "full_name": "rh1tech/frank",
+        "description": "RP2350 Based Hardware Emulation Platform",
+        "url": "https://github.com/rh1tech/frank",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 28,
+        "forks": 8,
+        "open_issues": 0,
+        "created_at": "2024-08-20T21:22:49Z",
+        "updated_at": "2026-04-06T21:26:24Z",
+        "pushed_at": "2026-03-27T23:55:09Z",
+        "starred_at": "2026-04-06T21:26:23Z"
+      },
+      "last_updated": "2026-04-09T18:43:33.517655+00:00"
+    },
+    "kitanokitsune/rp2040adc_correction": {
+      "lists": [],
+      "metadata": {
+        "id": 957910684,
+        "name": "rp2040adc_correction",
+        "full_name": "kitanokitsune/rp2040adc_correction",
+        "description": "Improve RP2040/RP2350 ADC non-linearity by software.",
+        "url": "https://github.com/kitanokitsune/rp2040adc_correction",
+        "homepage": "",
+        "language": "Python",
+        "stars": 9,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-31T10:50:09Z",
+        "updated_at": "2026-04-06T21:24:40Z",
+        "pushed_at": "2025-08-28T13:06:32Z",
+        "starred_at": "2026-04-06T21:24:39Z"
+      },
+      "last_updated": "2026-04-09T18:43:33.696495+00:00"
+    },
+    "rh1tech/frank-doom": {
+      "lists": [],
+      "metadata": {
+        "id": 1106512948,
+        "name": "frank-doom",
+        "full_name": "rh1tech/frank-doom",
+        "description": "Classic DOOM ported to RP2350 microcontroller, featuring HDMI video and OPL sound",
+        "url": "https://github.com/rh1tech/frank-doom",
+        "homepage": "https://rh1.tech",
+        "language": "C",
+        "stars": 9,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-11-29T12:00:40Z",
+        "updated_at": "2026-04-06T21:23:00Z",
+        "pushed_at": "2026-03-26T09:31:01Z",
+        "starred_at": "2026-04-06T21:23:00Z"
+      },
+      "last_updated": "2026-04-09T18:43:33.908275+00:00"
+    },
+    "mtkos/stm32f407-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 769960831,
+        "name": "stm32f407-minimal",
+        "full_name": "mtkos/stm32f407-minimal",
+        "description": "Programming the STM32F407 from scratch",
+        "url": "https://github.com/mtkos/stm32f407-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-03-10T14:47:40Z",
+        "updated_at": "2026-04-06T21:22:53Z",
+        "pushed_at": "2024-03-29T15:05:43Z",
+        "starred_at": "2026-04-06T21:22:52Z"
+      },
+      "last_updated": "2026-04-09T18:43:34.115333+00:00"
+    },
+    "mtkos/ch32v307-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 767463071,
+        "name": "ch32v307-minimal",
+        "full_name": "mtkos/ch32v307-minimal",
+        "description": "ch32v307 programming from scratch",
+        "url": "https://github.com/mtkos/ch32v307-minimal",
+        "homepage": null,
+        "language": "C",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-03-05T10:40:33Z",
+        "updated_at": "2026-04-06T21:22:44Z",
+        "pushed_at": "2024-09-21T16:09:25Z",
+        "starred_at": "2026-04-06T21:22:43Z"
+      },
+      "last_updated": "2026-04-09T18:43:34.331505+00:00"
+    },
+    "mtkos/stm32f103-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 769205174,
+        "name": "stm32f103-minimal",
+        "full_name": "mtkos/stm32f103-minimal",
+        "description": "programming stm32f103 from scratch",
+        "url": "https://github.com/mtkos/stm32f103-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-03-08T15:00:28Z",
+        "updated_at": "2026-04-06T21:22:41Z",
+        "pushed_at": "2025-04-12T14:36:09Z",
+        "starred_at": "2026-04-06T21:22:40Z"
+      },
+      "last_updated": "2026-04-09T18:43:34.528553+00:00"
+    },
+    "mtkos/ch32v003-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 746362626,
+        "name": "ch32v003-minimal",
+        "full_name": "mtkos/ch32v003-minimal",
+        "description": "ch32v003 from scratch",
+        "url": "https://github.com/mtkos/ch32v003-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 14,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2024-01-21T20:33:48Z",
+        "updated_at": "2026-04-06T21:22:35Z",
+        "pushed_at": "2025-04-13T20:35:31Z",
+        "starred_at": "2026-04-06T21:22:34Z"
+      },
+      "last_updated": "2026-04-09T18:43:34.701479+00:00"
+    },
+    "mtkos/ch32v203-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 751017999,
+        "name": "ch32v203-minimal",
+        "full_name": "mtkos/ch32v203-minimal",
+        "description": "A series of small programs, showing how to program ch32v203 boards without using proprietary software",
+        "url": "https://github.com/mtkos/ch32v203-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 8,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-01-31T19:16:47Z",
+        "updated_at": "2026-04-06T21:22:31Z",
+        "pushed_at": "2025-04-14T14:53:27Z",
+        "starred_at": "2026-04-06T21:22:30Z"
+      },
+      "last_updated": "2026-04-09T18:43:34.887009+00:00"
+    },
+    "mtkos/rp2040-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 953219794,
+        "name": "rp2040-minimal",
+        "full_name": "mtkos/rp2040-minimal",
+        "description": "rp2040 bare metal, no sdk",
+        "url": "https://github.com/mtkos/rp2040-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-22T20:59:32Z",
+        "updated_at": "2026-04-06T21:22:26Z",
+        "pushed_at": "2026-02-16T15:51:10Z",
+        "starred_at": "2026-04-06T21:22:26Z"
+      },
+      "last_updated": "2026-04-09T18:43:35.083155+00:00"
+    },
+    "mtkos/rp2350-minimal-riscv": {
+      "lists": [],
+      "metadata": {
+        "id": 963340528,
+        "name": "rp2350-minimal-riscv",
+        "full_name": "mtkos/rp2350-minimal-riscv",
+        "description": "programming rp2350 without SDK (RISC-V version) ",
+        "url": "https://github.com/mtkos/rp2350-minimal-riscv",
+        "homepage": "",
+        "language": "C",
+        "stars": 4,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-04-09T14:27:41Z",
+        "updated_at": "2026-04-06T21:22:21Z",
+        "pushed_at": "2026-02-16T15:54:31Z",
+        "starred_at": "2026-04-06T21:22:21Z"
+      },
+      "last_updated": "2026-04-09T18:43:35.256738+00:00"
+    },
+    "mtkos/rp2350-minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 963329834,
+        "name": "rp2350-minimal",
+        "full_name": "mtkos/rp2350-minimal",
+        "description": "programming rp2350 without SDK (ARM version)",
+        "url": "https://github.com/mtkos/rp2350-minimal",
+        "homepage": "",
+        "language": "C",
+        "stars": 8,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-09T14:09:55Z",
+        "updated_at": "2026-04-06T21:21:56Z",
+        "pushed_at": "2026-02-16T15:53:38Z",
+        "starred_at": "2026-04-06T21:21:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:35.472949+00:00"
+    },
+    "elehobica/pico_level_meter": {
+      "lists": [],
+      "metadata": {
+        "id": 711364007,
+        "name": "pico_level_meter",
+        "full_name": "elehobica/pico_level_meter",
+        "description": "Audio Level Meter for rp2350",
+        "url": "https://github.com/elehobica/pico_level_meter",
+        "homepage": "",
+        "language": "C++",
+        "stars": 8,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2023-10-29T02:50:43Z",
+        "updated_at": "2026-04-06T21:21:50Z",
+        "pushed_at": "2025-04-28T12:51:21Z",
+        "starred_at": "2026-04-06T21:21:49Z"
+      },
+      "last_updated": "2026-04-09T18:43:35.678595+00:00"
+    },
+    "jit89/PicoButtonAsync": {
+      "lists": [],
+      "metadata": {
+        "id": 1141899630,
+        "name": "PicoButtonAsync",
+        "full_name": "jit89/PicoButtonAsync",
+        "description": "A fast, async-safe button library for RP2040/RP2350. Features parallel bitwise debouncing, independent state tracking, and multi-core support for the Earle Philhower Arduino core.",
+        "url": "https://github.com/jit89/PicoButtonAsync",
+        "homepage": "",
+        "language": "C++",
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-01-25T16:16:37Z",
+        "updated_at": "2026-04-06T21:21:10Z",
+        "pushed_at": "2026-02-13T14:54:14Z",
+        "starred_at": "2026-04-06T21:21:09Z"
+      },
+      "last_updated": "2026-04-09T18:43:35.884140+00:00"
+    },
+    "rppicomidi/pico-usb-midi-interface": {
+      "lists": [],
+      "metadata": {
+        "id": 960010848,
+        "name": "pico-usb-midi-interface",
+        "full_name": "rppicomidi/pico-usb-midi-interface",
+        "description": "8-IN 8-OUT USB device to serial port MIDI interface for the Raspberry Pi Pico 2 (RP2350). 6-IN 6-OUT for Pico (RP2040)",
+        "url": "https://github.com/rppicomidi/pico-usb-midi-interface",
+        "homepage": "",
+        "language": "C",
+        "stars": 7,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-04-03T18:00:49Z",
+        "updated_at": "2026-04-06T21:21:01Z",
+        "pushed_at": "2025-04-08T16:13:42Z",
+        "starred_at": "2026-04-06T21:21:01Z"
+      },
+      "last_updated": "2026-04-09T18:43:36.073707+00:00"
+    },
+    "fhoedemakers/retroJam": {
+      "lists": [],
+      "metadata": {
+        "id": 1124072206,
+        "name": "retroJam",
+        "full_name": "fhoedemakers/retroJam",
+        "description": "This project is a multi retro console emulator for Adafruit Fruit Jam, capable of emulating a few classic 8-bit systems and even the 16-bit Sega Genesis",
+        "url": "https://github.com/fhoedemakers/retroJam",
+        "homepage": "",
+        "language": "C",
+        "stars": 15,
+        "forks": 0,
+        "open_issues": 3,
+        "created_at": "2025-12-28T09:10:21Z",
+        "updated_at": "2026-04-06T21:19:03Z",
+        "pushed_at": "2026-02-18T08:46:39Z",
+        "starred_at": "2026-04-06T21:19:03Z"
+      },
+      "last_updated": "2026-04-09T18:43:36.266875+00:00"
+    },
+    "mjklaren/TISM": {
+      "lists": [],
+      "metadata": {
+        "id": 803006537,
+        "name": "TISM",
+        "full_name": "mjklaren/TISM",
+        "description": "TISM - The Incredible State Machine. A framework in C for developing multitasking applications on the Raspberry Pi Pico (or compatible RP2040/RP2350 boards).",
+        "url": "https://github.com/mjklaren/TISM",
+        "homepage": "",
+        "language": "C",
+        "stars": 14,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-05-19T21:05:34Z",
+        "updated_at": "2026-04-06T21:18:31Z",
+        "pushed_at": "2026-03-21T19:22:24Z",
+        "starred_at": "2026-04-06T21:18:30Z"
+      },
+      "last_updated": "2026-04-09T18:43:36.458780+00:00"
+    },
+    "ebicochineal/E512W3D": {
+      "lists": [],
+      "metadata": {
+        "id": 230358148,
+        "name": "E512W3D",
+        "full_name": "ebicochineal/E512W3D",
+        "description": "3d-software-renderering m5stickc/m5stack/console-app/windows-app/ncurses/emscripten/android/raspberry-pi-pico/raspberry-pi-pico2",
+        "url": "https://github.com/ebicochineal/E512W3D",
+        "homepage": "",
+        "language": "C++",
+        "stars": 14,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2019-12-27T02:23:27Z",
+        "updated_at": "2026-04-06T21:18:21Z",
+        "pushed_at": "2026-03-08T05:42:12Z",
+        "starred_at": "2026-04-06T21:18:21Z"
+      },
+      "last_updated": "2026-04-09T18:43:36.651923+00:00"
+    },
+    "JuPfu/hub75_lvgl": {
+      "lists": [],
+      "metadata": {
+        "id": 980215057,
+        "name": "hub75_lvgl",
+        "full_name": "JuPfu/hub75_lvgl",
+        "description": "Run LVGL on a Raspberry Pi Pico (RP2040 or RP2040-compatible) to drive a HUB75 RGB LED matrix panel using the optimised DMA-based hub75 driver (see hub75 repository)",
+        "url": "https://github.com/JuPfu/hub75_lvgl",
+        "homepage": "",
+        "language": "C",
+        "stars": 13,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-05-08T18:56:49Z",
+        "updated_at": "2026-04-06T21:18:03Z",
+        "pushed_at": "2026-03-10T01:02:57Z",
+        "starred_at": "2026-04-06T21:18:03Z"
+      },
+      "last_updated": "2026-04-09T18:43:36.844435+00:00"
+    },
+    "raspberrypi/pico-extras": {
+      "lists": [],
+      "metadata": {
+        "id": 331381056,
+        "name": "pico-extras",
+        "full_name": "raspberrypi/pico-extras",
+        "description": null,
+        "url": "https://github.com/raspberrypi/pico-extras",
+        "homepage": null,
+        "language": "C",
+        "stars": 587,
+        "forks": 145,
+        "open_issues": 44,
+        "created_at": "2021-01-20T17:31:25Z",
+        "updated_at": "2026-04-08T08:37:18Z",
+        "pushed_at": "2025-08-12T21:04:02Z",
+        "starred_at": "2026-04-06T21:13:13Z"
+      },
+      "last_updated": "2026-04-09T18:43:37.060615+00:00"
+    },
+    "CHiPs44/hagl_pico_vgaboard": {
+      "lists": [],
+      "metadata": {
+        "id": 361133455,
+        "name": "hagl_pico_vgaboard",
+        "full_name": "CHiPs44/hagl_pico_vgaboard",
+        "description": "HAGL HAL for Raspberry Pi Pico VGA board (based on scanvideo)",
+        "url": "https://github.com/CHiPs44/hagl_pico_vgaboard",
+        "homepage": "",
+        "language": "C",
+        "stars": 12,
+        "forks": 2,
+        "open_issues": 24,
+        "created_at": "2021-04-24T10:32:29Z",
+        "updated_at": "2026-04-06T21:08:57Z",
+        "pushed_at": "2025-12-30T09:20:29Z",
+        "starred_at": "2026-04-06T21:08:56Z"
+      },
+      "last_updated": "2026-04-09T18:43:37.282349+00:00"
+    },
+    "tuupola/hagl": {
+      "lists": [],
+      "metadata": {
+        "id": 130860355,
+        "name": "hagl",
+        "full_name": "tuupola/hagl",
+        "description": "Hardware Agnostic Graphics Library for embedded",
+        "url": "https://github.com/tuupola/hagl",
+        "homepage": "https://www.appelsiini.net/tags/hagl/",
+        "language": "C",
+        "stars": 440,
+        "forks": 64,
+        "open_issues": 20,
+        "created_at": "2018-04-24T13:40:51Z",
+        "updated_at": "2026-04-09T16:41:40Z",
+        "pushed_at": "2026-04-03T06:10:09Z",
+        "starred_at": "2026-04-06T21:08:39Z"
+      },
+      "last_updated": "2026-04-09T18:43:37.448194+00:00"
+    },
+    "majbthrd/pico2-debug": {
+      "lists": [],
+      "metadata": {
+        "id": 1043794909,
+        "name": "pico2-debug",
+        "full_name": "majbthrd/pico2-debug",
+        "description": "virtual debug pod for RP2350 \"Raspberry Pi Pico2\" with no added hardware",
+        "url": "https://github.com/majbthrd/pico2-debug",
+        "homepage": "",
+        "language": "C",
+        "stars": 12,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-08-24T16:28:41Z",
+        "updated_at": "2026-04-06T21:06:47Z",
+        "pushed_at": "2025-09-12T17:52:03Z",
+        "starred_at": "2026-04-06T21:06:46Z"
+      },
+      "last_updated": "2026-04-09T18:43:37.675546+00:00"
+    },
+    "sparkfun/sparkfun-pico": {
+      "lists": [],
+      "metadata": {
+        "id": 838503117,
+        "name": "sparkfun-pico",
+        "full_name": "sparkfun/sparkfun-pico",
+        "description": "Libraries, examples and links in support of the Raspberry Pi rp2 silicon boards and associated software.",
+        "url": "https://github.com/sparkfun/sparkfun-pico",
+        "homepage": "https://www.sparkfun.com/products/24870",
+        "language": "C",
+        "stars": 26,
+        "forks": 11,
+        "open_issues": 1,
+        "created_at": "2024-08-05T19:17:04Z",
+        "updated_at": "2026-04-06T20:48:50Z",
+        "pushed_at": "2025-08-05T20:38:03Z",
+        "starred_at": "2026-04-06T20:48:49Z"
+      },
+      "last_updated": "2026-04-09T18:43:37.898123+00:00"
+    },
+    "jblanked/pico-game-engine": {
+      "lists": [],
+      "metadata": {
+        "id": 923310827,
+        "name": "pico-game-engine",
+        "full_name": "jblanked/pico-game-engine",
+        "description": "A lightweight C++ game engine for embedded devices with LCD displays.",
+        "url": "https://github.com/jblanked/pico-game-engine",
+        "homepage": "",
+        "language": "C++",
+        "stars": 25,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-01-28T02:03:24Z",
+        "updated_at": "2026-04-06T20:48:23Z",
+        "pushed_at": "2026-04-06T11:49:12Z",
+        "starred_at": "2026-04-06T20:48:23Z"
+      },
+      "last_updated": "2026-04-09T18:43:38.129579+00:00"
+    },
+    "rs1729/pico_ttl2vga": {
+      "lists": [],
+      "metadata": {
+        "id": 773489513,
+        "name": "pico_ttl2vga",
+        "full_name": "rs1729/pico_ttl2vga",
+        "description": "Pico TTL (MDA/CGA/EGA) to VGA converter",
+        "url": "https://github.com/rs1729/pico_ttl2vga",
+        "homepage": "",
+        "language": "C",
+        "stars": 22,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2024-03-17T19:51:09Z",
+        "updated_at": "2026-04-06T20:47:51Z",
+        "pushed_at": "2024-11-03T21:03:53Z",
+        "starred_at": "2026-04-06T20:47:50Z"
+      },
+      "last_updated": "2026-04-09T18:43:38.332137+00:00"
+    },
+    "adafruit/Adafruit-DVI-HSTX": {
+      "lists": [],
+      "metadata": {
+        "id": 934456369,
+        "name": "Adafruit-DVI-HSTX",
+        "full_name": "adafruit/Adafruit-DVI-HSTX",
+        "description": "DVI for RP2350 HSTX (Adafruit Arduino library)",
+        "url": "https://github.com/adafruit/Adafruit-DVI-HSTX",
+        "homepage": "https://adafruit.github.io/Adafruit-DVI-HSTX/html/index.html",
+        "language": "C++",
+        "stars": 20,
+        "forks": 5,
+        "open_issues": 7,
+        "created_at": "2025-02-17T21:37:53Z",
+        "updated_at": "2026-04-06T20:47:41Z",
+        "pushed_at": "2025-08-12T09:46:39Z",
+        "starred_at": "2026-04-06T20:47:41Z"
+      },
+      "last_updated": "2026-04-09T18:43:38.529216+00:00"
+    },
+    "TobiasVanDyk/RPi-Pico1-Pico2-Applications": {
+      "lists": [],
+      "metadata": {
+        "id": 335011562,
+        "name": "RPi-Pico1-Pico2-Applications",
+        "full_name": "TobiasVanDyk/RPi-Pico1-Pico2-Applications",
+        "description": "2021-2026: RPi Pico 1+2 and ST7789, ILI9486, ILI9488 LCD Touch Macro keypad, PCM5102 32bit USB Audio DAC, VS1053 music player, an OLED SSD1306, with RPi-cmake-SDK or Arduino-Pico, and Micropython. using Windows, Linux and RPi Os.",
+        "url": "https://github.com/TobiasVanDyk/RPi-Pico1-Pico2-Applications",
+        "homepage": "",
+        "language": "C++",
+        "stars": 42,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2021-02-01T16:26:10Z",
+        "updated_at": "2026-04-09T11:15:30Z",
+        "pushed_at": "2026-04-09T11:15:24Z",
+        "starred_at": "2026-04-06T20:44:39Z"
+      },
+      "last_updated": "2026-04-09T18:43:38.701829+00:00"
+    },
+    "FilipDominec/rp2daq": {
+      "lists": [],
+      "metadata": {
+        "id": 386646661,
+        "name": "rp2daq",
+        "full_name": "FilipDominec/rp2daq",
+        "description": "User-friendly firmware+module to control Rasbperry Pi Pico directly from Python scripts. Set up digital or analog input/output, steppers and servos positioning etc. in a minute.",
+        "url": "https://github.com/FilipDominec/rp2daq",
+        "homepage": "",
+        "language": "Python",
+        "stars": 39,
+        "forks": 4,
+        "open_issues": 10,
+        "created_at": "2021-07-16T13:28:15Z",
+        "updated_at": "2026-04-06T20:43:59Z",
+        "pushed_at": "2026-01-04T16:43:50Z",
+        "starred_at": "2026-04-06T20:43:59Z"
+      },
+      "last_updated": "2026-04-09T18:43:38.956610+00:00"
+    },
+    "fhoedemakers/pico-peanutGB": {
+      "lists": [],
+      "metadata": {
+        "id": 813210968,
+        "name": "pico-peanutGB",
+        "full_name": "fhoedemakers/pico-peanutGB",
+        "description": "a DMG Game Boy and Game Boy Color emulator with SD card and menu support for RP2350 based microcontroller boards like the RaspberryPi Pico 2. Sound and video are ouput over HDMI",
+        "url": "https://github.com/fhoedemakers/pico-peanutGB",
+        "homepage": "",
+        "language": "C",
+        "stars": 38,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2024-06-10T17:23:30Z",
+        "updated_at": "2026-04-06T20:43:46Z",
+        "pushed_at": "2026-04-01T03:00:58Z",
+        "starred_at": "2026-04-06T20:43:46Z"
+      },
+      "last_updated": "2026-04-09T18:43:39.141788+00:00"
+    },
+    "fhoedemakers/pico-genesisPlus": {
+      "lists": [],
+      "metadata": {
+        "id": 904352103,
+        "name": "pico-genesisPlus",
+        "full_name": "fhoedemakers/pico-genesisPlus",
+        "description": "Sega Genesis/Mega Drive emulator with SD card and menu support for the Raspberry PI Pico 2 (RP2350) microcontroller. Play your games from SD card on a HDMI display.",
+        "url": "https://github.com/fhoedemakers/pico-genesisPlus",
+        "homepage": "",
+        "language": "C",
+        "stars": 28,
+        "forks": 4,
+        "open_issues": 4,
+        "created_at": "2024-12-16T18:10:57Z",
+        "updated_at": "2026-04-06T20:43:31Z",
+        "pushed_at": "2026-02-17T14:10:22Z",
+        "starred_at": "2026-04-06T20:43:31Z"
+      },
+      "last_updated": "2026-04-09T18:43:39.358324+00:00"
+    },
+    "IndoorCorgi/picoboot3": {
+      "lists": [],
+      "metadata": {
+        "id": 856908471,
+        "name": "picoboot3",
+        "full_name": "IndoorCorgi/picoboot3",
+        "description": "Custom bootloader that allows firmware updates to Raspberry Pi Pico via UART/I2C/SPI.",
+        "url": "https://github.com/IndoorCorgi/picoboot3",
+        "homepage": "",
+        "language": "C",
+        "stars": 42,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2024-09-13T12:44:25Z",
+        "updated_at": "2026-04-06T20:43:14Z",
+        "pushed_at": "2026-02-20T03:17:09Z",
+        "starred_at": "2026-04-06T20:43:14Z"
+      },
+      "last_updated": "2026-04-09T18:43:39.609488+00:00"
+    },
+    "jblanked/Picoware": {
+      "lists": [],
+      "metadata": {
+        "id": 989766763,
+        "name": "Picoware",
+        "full_name": "jblanked/Picoware",
+        "description": "Open-source custom firmware for PicoCalc, Video Game Module, and other Raspberry Pi Pico devices",
+        "url": "https://github.com/jblanked/Picoware",
+        "homepage": "",
+        "language": "C",
+        "stars": 172,
+        "forks": 17,
+        "open_issues": 0,
+        "created_at": "2025-05-24T19:31:52Z",
+        "updated_at": "2026-04-09T01:19:16Z",
+        "pushed_at": "2026-04-09T13:10:02Z",
+        "starred_at": "2026-04-06T20:41:17Z"
+      },
+      "last_updated": "2026-04-09T18:43:39.809735+00:00"
+    },
+    "earlephilhower/BackgroundAudio": {
+      "lists": [],
+      "metadata": {
+        "id": 905473645,
+        "name": "BackgroundAudio",
+        "full_name": "earlephilhower/BackgroundAudio",
+        "description": "Arduino library for easy, interrupt driven speech, MP3, AAC, and WAV playback on the Raspberry Pi Pico RP2040, Pico 2 RP2350, and ESP32",
+        "url": "https://github.com/earlephilhower/BackgroundAudio",
+        "homepage": "",
+        "language": "C",
+        "stars": 124,
+        "forks": 11,
+        "open_issues": 2,
+        "created_at": "2024-12-18T22:43:41Z",
+        "updated_at": "2026-04-08T19:08:31Z",
+        "pushed_at": "2025-10-31T15:40:22Z",
+        "starred_at": "2026-04-06T20:41:08Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.004680+00:00"
+    },
+    "NathanY3G/rp2040-pio-emulator": {
+      "lists": [],
+      "metadata": {
+        "id": 342835327,
+        "name": "rp2040-pio-emulator",
+        "full_name": "NathanY3G/rp2040-pio-emulator",
+        "description": "RP2040/RP2350 emulator for the testing and debugging of PIO programs",
+        "url": "https://github.com/NathanY3G/rp2040-pio-emulator",
+        "homepage": "",
+        "language": "Python",
+        "stars": 78,
+        "forks": 9,
+        "open_issues": 7,
+        "created_at": "2021-02-27T11:00:55Z",
+        "updated_at": "2026-04-06T20:39:27Z",
+        "pushed_at": "2026-03-10T21:23:59Z",
+        "starred_at": "2026-04-06T20:39:27Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.169584+00:00"
+    },
+    "fliperama86/neopico-hd": {
+      "lists": [],
+      "metadata": {
+        "id": 1107230678,
+        "name": "neopico-hd",
+        "full_name": "fliperama86/neopico-hd",
+        "description": "Digital video and audio capture with HDMI output for Neo Geo MVS arcade hardware using Raspberry Pi Pico 2",
+        "url": "https://github.com/fliperama86/neopico-hd",
+        "homepage": "",
+        "language": "C",
+        "stars": 75,
+        "forks": 5,
+        "open_issues": 2,
+        "created_at": "2025-11-30T20:27:46Z",
+        "updated_at": "2026-04-07T18:07:39Z",
+        "pushed_at": "2026-03-31T20:15:54Z",
+        "starred_at": "2026-04-06T20:36:28Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.349234+00:00"
+    },
+    "mytechnotalent/Embedded-Hacking": {
+      "lists": [],
+      "metadata": {
+        "id": 701484093,
+        "name": "Embedded-Hacking",
+        "full_name": "mytechnotalent/Embedded-Hacking",
+        "description": "A FREE comprehensive step-by-step embedded hacking course covering Embedded Software Development to Reverse Engineering.",
+        "url": "https://github.com/mytechnotalent/Embedded-Hacking",
+        "homepage": "",
+        "language": "C",
+        "stars": 197,
+        "forks": 23,
+        "open_issues": 0,
+        "created_at": "2023-10-06T18:27:19Z",
+        "updated_at": "2026-04-08T12:52:19Z",
+        "pushed_at": "2026-04-08T12:51:35Z",
+        "starred_at": "2026-04-06T20:33:53Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.538860+00:00"
+    },
+    "lukstep/raspberry-pi-pico-docker-sdk": {
+      "lists": [],
+      "metadata": {
+        "id": 537615970,
+        "name": "raspberry-pi-pico-docker-sdk",
+        "full_name": "lukstep/raspberry-pi-pico-docker-sdk",
+        "description": "Docker base SDK for Raspberry Pi Pico",
+        "url": "https://github.com/lukstep/raspberry-pi-pico-docker-sdk",
+        "homepage": "",
+        "language": "C",
+        "stars": 100,
+        "forks": 17,
+        "open_issues": 1,
+        "created_at": "2022-09-16T20:51:30Z",
+        "updated_at": "2026-04-06T20:33:29Z",
+        "pushed_at": "2026-03-26T22:31:05Z",
+        "starred_at": "2026-04-06T20:33:29Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.728945+00:00"
+    },
+    "GavSun/read_analog": {
+      "lists": [],
+      "metadata": {
+        "id": 1043191047,
+        "name": "read_analog",
+        "full_name": "GavSun/read_analog",
+        "description": "Reading the Analog channels available on RP2350A",
+        "url": "https://github.com/GavSun/read_analog",
+        "homepage": "",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-08-23T10:27:41Z",
+        "updated_at": "2026-04-06T20:20:56Z",
+        "pushed_at": "2025-08-23T13:14:27Z",
+        "starred_at": "2026-04-06T20:20:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:40.898813+00:00"
+    },
+    "earlephilhower/arduino-pico": {
+      "lists": [],
+      "metadata": {
+        "id": 342120988,
+        "name": "arduino-pico",
+        "full_name": "earlephilhower/arduino-pico",
+        "description": "Raspberry Pi Pico Arduino core, for all RP2040 and RP2350 boards",
+        "url": "https://github.com/earlephilhower/arduino-pico",
+        "homepage": "",
+        "language": "C",
+        "stars": 2758,
+        "forks": 548,
+        "open_issues": 9,
+        "created_at": "2021-02-25T04:20:27Z",
+        "updated_at": "2026-04-09T13:24:17Z",
+        "pushed_at": "2026-04-07T19:10:22Z",
+        "starred_at": "2026-04-06T20:18:25Z"
+      },
+      "last_updated": "2026-04-09T18:43:41.062955+00:00"
+    },
+    "jean-emmanuel/open-stage-control": {
+      "lists": [],
+      "metadata": {
+        "id": 1118163187,
+        "name": "open-stage-control",
+        "full_name": "jean-emmanuel/open-stage-control",
+        "description": "  Libre and modular OSC / MIDI controller",
+        "url": "https://github.com/jean-emmanuel/open-stage-control",
+        "homepage": "",
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-12-17T10:56:59Z",
+        "updated_at": "2026-04-06T18:29:02Z",
+        "pushed_at": "2025-12-17T11:00:11Z",
+        "starred_at": "2026-04-06T18:29:02Z"
+      },
+      "last_updated": "2026-04-09T18:43:41.237323+00:00"
+    },
+    "RPCS3/rpcs3": {
+      "lists": [],
+      "metadata": {
+        "id": 6520784,
+        "name": "rpcs3",
+        "full_name": "RPCS3/rpcs3",
+        "description": "PlayStation 3 emulator and debugger",
+        "url": "https://github.com/RPCS3/rpcs3",
+        "homepage": "https://rpcs3.net/",
+        "language": "C++",
+        "stars": 18517,
+        "forks": 2254,
+        "open_issues": 1140,
+        "created_at": "2012-11-03T15:16:18Z",
+        "updated_at": "2026-04-09T18:13:44Z",
+        "pushed_at": "2026-04-09T10:09:06Z",
+        "starred_at": "2026-04-06T17:25:55Z"
+      },
+      "last_updated": "2026-04-09T18:43:41.544541+00:00"
+    },
+    "kessler/gemma-gem": {
+      "lists": [],
+      "metadata": {
+        "id": 1202259745,
+        "name": "gemma-gem",
+        "full_name": "kessler/gemma-gem",
+        "description": "Gemma Gem runs Google's Gemma 4 model entirely on-device via WebGPU \u2014 no API keys, no cloud, no data leaving your machine.",
+        "url": "https://github.com/kessler/gemma-gem",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 569,
+        "forks": 50,
+        "open_issues": 3,
+        "created_at": "2026-04-05T20:07:56Z",
+        "updated_at": "2026-04-09T18:35:08Z",
+        "pushed_at": "2026-04-09T12:18:34Z",
+        "starred_at": "2026-04-06T16:30:29Z"
+      },
+      "last_updated": "2026-04-09T18:43:41.723393+00:00"
+    },
+    "ayosec/ffmpeg-drawvg": {
+      "lists": [],
+      "metadata": {
+        "id": 1039858178,
+        "name": "ffmpeg-drawvg",
+        "full_name": "ayosec/ffmpeg-drawvg",
+        "description": "drawvg filter for FFmpeg",
+        "url": "https://github.com/ayosec/ffmpeg-drawvg",
+        "homepage": "https://ayosec.github.io/ffmpeg-drawvg/",
+        "language": "TypeScript",
+        "stars": 15,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-08-18T05:03:45Z",
+        "updated_at": "2026-04-06T19:26:41Z",
+        "pushed_at": "2026-03-18T19:22:22Z",
+        "starred_at": "2026-04-06T15:16:05Z"
+      },
+      "last_updated": "2026-04-09T18:43:41.912379+00:00"
+    },
+    "stefanprodan/timoni": {
+      "lists": [],
+      "metadata": {
+        "id": 600428631,
+        "name": "timoni",
+        "full_name": "stefanprodan/timoni",
+        "description": "Timoni is a package manager for Kubernetes, powered by CUE and inspired by Helm.",
+        "url": "https://github.com/stefanprodan/timoni",
+        "homepage": "https://timoni.sh",
+        "language": "Go",
+        "stars": 1936,
+        "forks": 82,
+        "open_issues": 55,
+        "created_at": "2023-02-11T13:18:25Z",
+        "updated_at": "2026-04-09T10:20:34Z",
+        "pushed_at": "2026-04-08T19:49:47Z",
+        "starred_at": "2026-04-06T00:48:15Z"
+      },
+      "last_updated": "2026-04-09T18:43:42.131001+00:00"
+    },
+    "microsoft/agent-governance-toolkit": {
+      "lists": [],
+      "metadata": {
+        "id": 1171111467,
+        "name": "agent-governance-toolkit",
+        "full_name": "microsoft/agent-governance-toolkit",
+        "description": "AI Agent Governance Toolkit \u2014 Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+        "url": "https://github.com/microsoft/agent-governance-toolkit",
+        "homepage": null,
+        "language": "Python",
+        "stars": 887,
+        "forks": 160,
+        "open_issues": 35,
+        "created_at": "2026-03-02T22:11:47Z",
+        "updated_at": "2026-04-09T17:41:16Z",
+        "pushed_at": "2026-04-09T16:31:59Z",
+        "starred_at": "2026-04-05T03:15:43Z"
+      },
+      "last_updated": "2026-04-09T18:43:42.335830+00:00"
+    },
+    "openai/symphony": {
+      "lists": [],
+      "metadata": {
+        "id": 1167965563,
+        "name": "symphony",
+        "full_name": "openai/symphony",
+        "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+        "url": "https://github.com/openai/symphony",
+        "homepage": null,
+        "language": "Elixir",
+        "stars": 14839,
+        "forks": 1239,
+        "open_issues": 0,
+        "created_at": "2026-02-26T21:54:00Z",
+        "updated_at": "2026-04-09T18:40:30Z",
+        "pushed_at": "2026-03-27T18:39:52Z",
+        "starred_at": "2026-04-05T03:13:49Z"
+      },
+      "last_updated": "2026-04-09T18:43:42.509460+00:00"
+    },
+    "floci-io/floci": {
+      "lists": [],
+      "metadata": {
+        "id": 1160497244,
+        "name": "floci",
+        "full_name": "floci-io/floci",
+        "description": "Light, fluffy, and always free - AWS Local Emulator ",
+        "url": "https://github.com/floci-io/floci",
+        "homepage": "https://floci.io",
+        "language": "Java",
+        "stars": 3040,
+        "forks": 155,
+        "open_issues": 35,
+        "created_at": "2026-02-18T02:28:29Z",
+        "updated_at": "2026-04-09T18:10:40Z",
+        "pushed_at": "2026-04-09T16:58:08Z",
+        "starred_at": "2026-03-22T04:28:12Z"
+      },
+      "last_updated": "2026-04-09T18:43:42.808706+00:00"
+    },
+    "aaif-goose/goose": {
+      "lists": [],
+      "metadata": {
+        "id": 846698999,
+        "name": "goose",
+        "full_name": "aaif-goose/goose",
+        "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "url": "https://github.com/aaif-goose/goose",
+        "homepage": "https://goose-docs.ai/",
+        "language": "Rust",
+        "stars": 40430,
+        "forks": 3992,
+        "open_issues": 293,
+        "created_at": "2024-08-23T19:03:36Z",
+        "updated_at": "2026-04-09T18:42:56Z",
+        "pushed_at": "2026-04-09T18:41:30Z",
+        "starred_at": "2025-02-03T01:46:52Z"
+      },
+      "last_updated": "2026-04-09T18:43:43.113745+00:00"
+    },
+    "Arcachofo/SimulIDE-dev": {
+      "lists": [],
+      "metadata": {
+        "id": 775814292,
+        "name": "SimulIDE-dev",
+        "full_name": "Arcachofo/SimulIDE-dev",
+        "description": "SimulIDE Circuit Simulator.",
+        "url": "https://github.com/Arcachofo/SimulIDE-dev",
+        "homepage": "https://simulide.com",
+        "language": "C++",
+        "stars": 284,
+        "forks": 57,
+        "open_issues": 38,
+        "created_at": "2024-03-22T05:04:44Z",
+        "updated_at": "2026-04-09T17:41:12Z",
+        "pushed_at": "2026-04-08T10:04:47Z",
+        "starred_at": "2024-10-01T23:46:04Z"
+      },
+      "last_updated": "2026-04-09T18:43:43.430318+00:00"
     }
   },
   "last_processed_index": 0,
@@ -162956,5 +164956,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"2d68693f8b3418b8debd583aa4ec62f782a6283b326e3b19f7fa4fdf751e6a6d\""
+  "profile_etag": "W/\"430b2e927e7206821ef84d781bd9c80293c020afd967b4b2e94a36c07d8b3530\""
 }
