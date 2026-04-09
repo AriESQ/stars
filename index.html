@@ -217,16 +217,65 @@ const FIELDS = [
 
 let data = null, expanded = null;
 let sortField = 'starred_at', sortDir = 'desc';
-let textSearch = '', activeList = null, activeLangs = new Set();
+let textSearch = '', activeLists = new Set(), activeLangs = new Set();
 let conditions = [], conjunction = 'AND';
+
+// --- URL state ---
+
+function syncURL() {
+  const params = new URLSearchParams();
+  if (textSearch) params.set('q', textSearch);
+  if (activeLists.size) params.set('lists', [...activeLists].join('|'));
+  if (sortField !== 'starred_at') params.set('sort', sortField);
+  if (sortDir !== 'desc') params.set('dir', sortDir);
+  if (conjunction !== 'AND') params.set('conj', conjunction);
+  const active = conditions.filter(c => c.value);
+  if (active.length) params.set('c', JSON.stringify(active));
+  const qs = params.toString();
+  const url = qs ? `${location.pathname}?${qs}` : location.pathname;
+  history.replaceState(null, '', url);
+}
+
+function loadFromURL() {
+  const params = new URLSearchParams(location.search);
+  if (params.has('q')) {
+    textSearch = params.get('q');
+    document.getElementById('search').value = textSearch;
+  }
+  if (params.has('lists')) {
+    params.get('lists').split('|').forEach(l => { if (l) activeLists.add(l); });
+  }
+  if (params.has('sort')) {
+    sortField = params.get('sort');
+    document.getElementById('sort-field').value = sortField;
+  }
+  if (params.has('dir')) {
+    sortDir = params.get('dir');
+    document.getElementById('sort-dir').innerHTML = sortDir === 'desc' ? '&#9660;' : '&#9650;';
+  }
+  if (params.has('conj')) {
+    conjunction = params.get('conj');
+  }
+  if (params.has('c')) {
+    try { conditions = JSON.parse(params.get('c')); } catch (e) { /* ignore malformed */ }
+  }
+  if (activeLists.size) {
+    document.getElementById('list-filter').classList.add('open');
+  }
+  if (conditions.length) {
+    document.getElementById('advanced').classList.add('open');
+  }
+}
 
 // --- Data loading ---
 
 const base = document.baseURI.replace(/\/[^/]*$/, '/');
 fetch(base + 'github_stars.json').then(r => r.json()).then(d => {
   data = d;
+  loadFromURL();
   renderSidebar();
   buildListFilter();
+  if (conditions.length) renderAdvanced();
   render();
 }).catch(e => {
   document.getElementById('repos').innerHTML = `<div class="loading">Error loading data: ${esc(e.message)}</div>`;
@@ -298,11 +347,21 @@ function buildListFilter() {
   el.innerHTML = sorted.map(l =>
     `<span class="tag" data-list="${esc(l)}">${esc(l)}</span>`
   ).join('') + (sorted.length ? `<span class="tag" data-list="">All</span>` : '<span style="font-size:.8125rem;color:#484f58">No lists found</span>');
+  el.querySelectorAll('.tag').forEach(t => {
+    if (activeLists.size === 0) t.classList.toggle('active', t.dataset.list === '');
+    else t.classList.toggle('active', activeLists.has(t.dataset.list));
+  });
   el.addEventListener('click', e => {
     const tag = e.target.closest('.tag');
     if (!tag) return;
-    activeList = tag.dataset.list || null;
-    el.querySelectorAll('.tag').forEach(t => t.classList.toggle('active', t.dataset.list === (activeList || '')));
+    const list = tag.dataset.list;
+    if (!list) { activeLists.clear(); }
+    else if (activeLists.has(list)) activeLists.delete(list);
+    else activeLists.add(list);
+    el.querySelectorAll('.tag').forEach(t => {
+      if (activeLists.size === 0) t.classList.toggle('active', t.dataset.list === '');
+      else t.classList.toggle('active', activeLists.has(t.dataset.list));
+    });
     render();
   });
 }
@@ -400,7 +459,7 @@ function filterAndSort() {
   let entries = Object.entries(data.repositories);
   entries = entries.filter(([name, repo]) => {
     if (q && !name.toLowerCase().includes(q) && !(repo.metadata?.description ?? '').toLowerCase().includes(q)) return false;
-    if (activeList && !(repo.lists || []).includes(activeList)) return false;
+    if (activeLists.size && !(repo.lists || []).some(l => activeLists.has(l))) return false;
     if (activeLangs.size && !activeLangs.has(repo.metadata?.language || 'Unknown')) return false;
     const active = conditions.filter(c => c.value);
     if (active.length === 0) return true;
@@ -475,6 +534,7 @@ function render() {
       ${detail}
     </div>`;
   }).join('');
+  syncURL();
 }
 
 // --- Utilities ---
@@ -510,7 +570,7 @@ function relTime(s) {
 // --- Chart system ---
 
 const CHART_START_DATE = new Date('2021-10-31');
-let chartType = 'area';
+let chartType = 'treemap';
 
 // Color palette for star lists
 const LIST_COLORS = {};
@@ -735,7 +795,7 @@ function renderTreemap(container, tooltip, entries, width) {
     .attr('width', width).attr('height', height);
 
   const nodes = svg.selectAll('g')
-    .data(root.leaves())
+    .data(root.leaves().filter(d => d.data.name))
     .join('g')
     .attr('transform', d => `translate(${d.x0},${d.y0})`);
 
@@ -756,10 +816,12 @@ function renderTreemap(container, tooltip, entries, width) {
     })
     .on('mouseleave', () => { tooltip.style.opacity = 0; })
     .on('click', (e, d) => {
-      activeList = activeList === d.data.name ? null : d.data.name;
-      document.querySelectorAll('#list-filter .tag').forEach(t =>
-        t.classList.toggle('active', t.dataset.list === (activeList || ''))
-      );
+      if (activeLists.has(d.data.name)) activeLists.delete(d.data.name);
+      else activeLists.add(d.data.name);
+      document.querySelectorAll('#list-filter .tag').forEach(t => {
+        if (activeLists.size === 0) t.classList.toggle('active', t.dataset.list === '');
+        else t.classList.toggle('active', activeLists.has(t.dataset.list));
+      });
       render();
     });
 
