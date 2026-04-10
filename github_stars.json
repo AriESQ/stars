@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T18:43:43.430417+00:00",
+  "last_updated": "2026-04-10T23:21:33.029036+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -66164,7 +66164,8 @@
     "gptme/gptme": {
       "lists": [
         "Machine Learning",
-        "Python"
+        "Python",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 618514446,
@@ -137650,7 +137651,8 @@
     "pypa/pip-audit": {
       "lists": [
         "Infosec",
-        "Python"
+        "Python",
+        "CI/CD"
       ],
       "metadata": {
         "id": 402468744,
@@ -160609,7 +160611,10 @@
       "last_updated": "2026-03-17T22:20:23.882752+00:00"
     },
     "huggingface/text-embeddings-inference": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 704543233,
         "name": "text-embeddings-inference",
@@ -160629,7 +160634,11 @@
       "last_updated": "2026-03-27T19:55:17.438431+00:00"
     },
     "Umio-Yasuno/amdgpu_top": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 608814472,
         "name": "amdgpu_top",
@@ -160649,7 +160658,10 @@
       "last_updated": "2026-03-27T19:55:17.687443+00:00"
     },
     "vishu42/github-token": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "GoLang"
+      ],
       "metadata": {
         "id": 672154495,
         "name": "github-token",
@@ -160669,7 +160681,9 @@
       "last_updated": "2026-03-27T19:55:17.981507+00:00"
     },
     "AmadeusITGroup/gh-app-auth": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1074453376,
         "name": "gh-app-auth",
@@ -160689,7 +160703,10 @@
       "last_updated": "2026-03-27T19:55:18.256749+00:00"
     },
     "pu2clr/SI5351": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 280222498,
         "name": "SI5351",
@@ -160709,7 +160726,9 @@
       "last_updated": "2026-03-27T19:55:18.479999+00:00"
     },
     "doomedraven/Tools": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 148789569,
         "name": "Tools",
@@ -160729,7 +160748,10 @@
       "last_updated": "2026-03-27T19:55:18.724572+00:00"
     },
     "moutons/skills-validator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1157826007,
         "name": "skills-validator",
@@ -160749,7 +160771,9 @@
       "last_updated": "2026-03-27T19:55:18.982892+00:00"
     },
     "thalter/DVDStyler": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1071611982,
         "name": "DVDStyler",
@@ -160769,7 +160793,9 @@
       "last_updated": "2026-03-27T19:55:19.194508+00:00"
     },
     "kattecon/gh-app-access-token-gen": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 616194314,
         "name": "gh-app-access-token-gen",
@@ -160789,7 +160815,9 @@
       "last_updated": "2026-03-27T19:55:19.434709+00:00"
     },
     "ofnode/of": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 68203495,
         "name": "of",
@@ -160809,7 +160837,10 @@
       "last_updated": "2026-03-27T19:55:19.703211+00:00"
     },
     "EmotiBit/ofxEmotiBit": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 170698682,
         "name": "ofxEmotiBit",
@@ -160829,7 +160860,9 @@
       "last_updated": "2026-03-27T19:55:20.004303+00:00"
     },
     "actions/create-github-app-token": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 642580244,
         "name": "create-github-app-token",
@@ -160849,7 +160882,12 @@
       "last_updated": "2026-03-27T19:55:20.283423+00:00"
     },
     "andrinoff/yubikey-github": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI"
+      ],
       "metadata": {
         "id": 1019106069,
         "name": "yubikey-github",
@@ -160869,7 +160907,11 @@
       "last_updated": "2026-03-27T19:55:20.555953+00:00"
     },
     "allcloud-io/clisso": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 95244633,
         "name": "clisso",
@@ -160889,7 +160931,11 @@
       "last_updated": "2026-03-27T19:55:20.846018+00:00"
     },
     "ByteNess/aws-vault": {
-      "lists": [],
+      "lists": [
+        "AWS",
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 988616604,
         "name": "aws-vault",
@@ -160909,7 +160955,9 @@
       "last_updated": "2026-03-27T19:55:21.113955+00:00"
     },
     "bpceee/oldest": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 134560007,
         "name": "oldest",
@@ -160929,7 +160977,10 @@
       "last_updated": "2026-03-27T19:55:21.409884+00:00"
     },
     "SquareLineStudio/board_index": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 543541666,
         "name": "board_index",
@@ -160949,7 +161000,9 @@
       "last_updated": "2026-03-27T19:55:21.709227+00:00"
     },
     "addfox/addfox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1188197833,
         "name": "addfox",
@@ -160969,7 +161022,10 @@
       "last_updated": "2026-03-27T19:55:22.005094+00:00"
     },
     "macports/macports-ports": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 70365100,
         "name": "macports-ports",
@@ -160989,7 +161045,10 @@
       "last_updated": "2026-03-27T19:55:22.262755+00:00"
     },
     "dmno-dev/varlock": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 964356943,
         "name": "varlock",
@@ -161009,7 +161068,10 @@
       "last_updated": "2026-03-27T19:55:22.555960+00:00"
     },
     "rebaker501/capev2install": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Windows"
+      ],
       "metadata": {
         "id": 567859127,
         "name": "capev2install",
@@ -161029,7 +161091,10 @@
       "last_updated": "2026-03-27T19:55:22.840047+00:00"
     },
     "KoboldAI/KoboldAI-Client": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 363765247,
         "name": "KoboldAI-Client",
@@ -161049,7 +161114,9 @@
       "last_updated": "2026-03-27T19:55:23.123154+00:00"
     },
     "bitsandbytes-foundation/bitsandbytes": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 373674258,
         "name": "bitsandbytes",
@@ -161109,7 +161176,9 @@
       "last_updated": "2026-03-27T19:55:23.924152+00:00"
     },
     "shapely/shapely": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 3080613,
         "name": "shapely",
@@ -161129,7 +161198,9 @@
       "last_updated": "2026-03-27T19:55:24.198288+00:00"
     },
     "Velocidex/velociraptor": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 126576769,
         "name": "velociraptor",
@@ -161149,7 +161220,10 @@
       "last_updated": "2026-03-27T19:55:24.516838+00:00"
     },
     "mohebifar/tooscut": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 1147640360,
         "name": "tooscut",
@@ -161189,7 +161263,10 @@
       "last_updated": "2026-03-27T19:55:25.098654+00:00"
     },
     "software-mansion/TypeGPU": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 758923102,
         "name": "TypeGPU",
@@ -161209,7 +161286,10 @@
       "last_updated": "2026-03-27T19:55:25.338470+00:00"
     },
     "suzuki-shunsuke/ghtkn": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1046372472,
         "name": "ghtkn",
@@ -161229,7 +161309,10 @@
       "last_updated": "2026-03-27T19:55:25.596970+00:00"
     },
     "bhoffmann93/gradient-fitter": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1179852149,
         "name": "gradient-fitter",
@@ -161249,7 +161332,9 @@
       "last_updated": "2026-03-27T19:55:25.827592+00:00"
     },
     "arnoldrobbins/LinuxByExample-2e": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1013401190,
         "name": "LinuxByExample-2e",
@@ -161269,7 +161354,10 @@
       "last_updated": "2026-03-27T19:55:26.081577+00:00"
     },
     "atlassian-labs/json-schema-viewer": {
-      "lists": [],
+      "lists": [
+        "API",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 331230933,
         "name": "json-schema-viewer",
@@ -161289,7 +161377,9 @@
       "last_updated": "2026-03-27T19:55:26.363686+00:00"
     },
     "ProfileCreator/ProfileCreator": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 41657454,
         "name": "ProfileCreator",
@@ -161309,7 +161399,9 @@
       "last_updated": "2026-03-27T19:55:26.636581+00:00"
     },
     "timsutton/mcxToProfile": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 4731090,
         "name": "mcxToProfile",
@@ -161329,7 +161421,10 @@
       "last_updated": "2026-03-27T19:55:26.882715+00:00"
     },
     "tobi/qmd": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1112365301,
         "name": "qmd",
@@ -161349,7 +161444,9 @@
       "last_updated": "2026-03-27T19:55:27.111677+00:00"
     },
     "NVIDIA/NemoClaw": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1182547092,
         "name": "NemoClaw",
@@ -161369,7 +161466,12 @@
       "last_updated": "2026-03-27T19:55:27.345129+00:00"
     },
     "khoi/sand": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1132534352,
         "name": "sand",
@@ -161389,7 +161491,10 @@
       "last_updated": "2026-03-27T19:55:27.634978+00:00"
     },
     "skeeto/w64devkit": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Windows"
+      ],
       "metadata": {
         "id": 262681272,
         "name": "w64devkit",
@@ -161409,7 +161514,10 @@
       "last_updated": "2026-03-27T19:55:27.878460+00:00"
     },
     "SCons/scons": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python"
+      ],
       "metadata": {
         "id": 104670160,
         "name": "scons",
@@ -161429,7 +161537,9 @@
       "last_updated": "2026-03-27T19:55:28.140069+00:00"
     },
     "sashiko-dev/sashiko": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1126937619,
         "name": "sashiko",
@@ -161449,7 +161559,11 @@
       "last_updated": "2026-03-27T19:55:28.414511+00:00"
     },
     "zerobootdev/zeroboot": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1182712729,
         "name": "zeroboot",
@@ -161469,7 +161583,9 @@
       "last_updated": "2026-03-27T19:55:28.694183+00:00"
     },
     "mstange/samply": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 266852617,
         "name": "samply",
@@ -161489,7 +161605,9 @@
       "last_updated": "2026-03-27T19:55:28.981338+00:00"
     },
     "raylib4Consoles/raylib4PlayStation2": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1060246065,
         "name": "raylib4PlayStation2",
@@ -161509,7 +161627,9 @@
       "last_updated": "2026-03-27T19:55:29.246217+00:00"
     },
     "raysan5/raylib": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 13836499,
         "name": "raylib",
@@ -161529,7 +161649,9 @@
       "last_updated": "2026-03-27T19:55:29.475302+00:00"
     },
     "HailToDodongo/pyrite64": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1062843332,
         "name": "pyrite64",
@@ -161549,7 +161671,9 @@
       "last_updated": "2026-03-27T19:55:29.736813+00:00"
     },
     "C0mposer/C-Game-Modding-Utility": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 716404931,
         "name": "C-Game-Modding-Utility",
@@ -161569,7 +161693,9 @@
       "last_updated": "2026-03-27T19:55:29.981480+00:00"
     },
     "Skarsnik/SNESTilesKitten": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 86000796,
         "name": "SNESTilesKitten",
@@ -161589,7 +161715,12 @@
       "last_updated": "2026-03-27T19:55:30.258214+00:00"
     },
     "genkit-ai/genkit": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "JavaScript",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 793795224,
         "name": "genkit",
@@ -161609,7 +161740,10 @@
       "last_updated": "2026-03-27T19:55:30.638754+00:00"
     },
     "alrevuelta/rs-merkle-tree": {
-      "lists": [],
+      "lists": [
+        "Rust",
+        "Sigstore"
+      ],
       "metadata": {
         "id": 1056680159,
         "name": "rs-merkle-tree",
@@ -161629,7 +161763,9 @@
       "last_updated": "2026-03-27T19:55:31.027858+00:00"
     },
     "Microsoft365DSC/ReverseDSC": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 101192200,
         "name": "ReverseDSC",
@@ -161649,7 +161785,9 @@
       "last_updated": "2026-03-27T19:55:31.309935+00:00"
     },
     "kydecker/hypertext.tv": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 960595125,
         "name": "hypertext.tv",
@@ -161669,7 +161807,9 @@
       "last_updated": "2026-03-27T19:55:31.684780+00:00"
     },
     "noisefactorllc/noisedeck-docs": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 349828302,
         "name": "noisedeck-docs",
@@ -161689,7 +161829,10 @@
       "last_updated": "2026-03-27T19:55:32.064922+00:00"
     },
     "withoneai/pica": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 782597014,
         "name": "pica",
@@ -161709,7 +161852,10 @@
       "last_updated": "2026-03-27T19:55:33.353865+00:00"
     },
     "lucidrains/pi-zero-pytorch": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 881991789,
         "name": "pi-zero-pytorch",
@@ -161729,7 +161875,10 @@
       "last_updated": "2026-03-27T19:55:33.735853+00:00"
     },
     "lucidrains/MIMO-pytorch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 863550455,
         "name": "MIMO-pytorch",
@@ -161749,7 +161898,10 @@
       "last_updated": "2026-03-27T19:55:34.096720+00:00"
     },
     "lucidrains/pytorch-custom-utils": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 730816835,
         "name": "pytorch-custom-utils",
@@ -161769,7 +161921,9 @@
       "last_updated": "2026-03-27T19:55:34.487720+00:00"
     },
     "lucidrains/PaLM-rlhf-pytorch": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 576380523,
         "name": "PaLM-rlhf-pytorch",
@@ -161789,7 +161943,10 @@
       "last_updated": "2026-03-27T19:55:34.866110+00:00"
     },
     "RobertMCortese/Open-MRU": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1052439110,
         "name": "Open-MRU",
@@ -161809,7 +161966,10 @@
       "last_updated": "2026-03-27T21:37:02.285843+00:00"
     },
     "microsoft/PyRIT": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 730753909,
         "name": "PyRIT",
@@ -161849,7 +162009,10 @@
       "last_updated": "2026-03-27T21:37:03.407254+00:00"
     },
     "awslabs/mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 952238700,
         "name": "mcp",
@@ -161869,7 +162032,10 @@
       "last_updated": "2026-03-28T17:48:27.535539+00:00"
     },
     "OpenBMB/UltraRAG": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 917628875,
         "name": "UltraRAG",
@@ -161889,7 +162055,10 @@
       "last_updated": "2026-03-28T17:48:27.757176+00:00"
     },
     "BingoWon/apple-rag-mcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1023118829,
         "name": "apple-rag-mcp",
@@ -161909,7 +162078,11 @@
       "last_updated": "2026-03-28T17:48:27.977144+00:00"
     },
     "agavra/tuicr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1130139388,
         "name": "tuicr",
@@ -161929,7 +162102,9 @@
       "last_updated": "2026-03-28T17:48:28.184913+00:00"
     },
     "d3/d3": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 943149,
         "name": "d3",
@@ -161949,7 +162124,11 @@
       "last_updated": "2026-03-29T02:27:35.053794+00:00"
     },
     "squid-cache/squid": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Devops",
+        "Infosec"
+      ],
       "metadata": {
         "id": 24519987,
         "name": "squid",
@@ -161969,7 +162148,9 @@
       "last_updated": "2026-03-29T02:27:35.274691+00:00"
     },
     "davidmonterocrespo24/velxio": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1172073959,
         "name": "velxio",
@@ -161989,7 +162170,10 @@
       "last_updated": "2026-03-29T02:27:35.484523+00:00"
     },
     "Pilfer/hermes_rs": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Rust"
+      ],
       "metadata": {
         "id": 785689254,
         "name": "hermes_rs",
@@ -162009,7 +162193,9 @@
       "last_updated": "2026-03-29T02:27:35.685269+00:00"
     },
     "gusye1234/nano-vectordb": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 844662181,
         "name": "nano-vectordb",
@@ -162029,7 +162215,10 @@
       "last_updated": "2026-03-29T02:27:35.917065+00:00"
     },
     "lancedb/lancedb": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 607441698,
         "name": "lancedb",
@@ -162049,7 +162238,9 @@
       "last_updated": "2026-03-29T02:27:36.140559+00:00"
     },
     "nickjj/dotfiles": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 162295765,
         "name": "dotfiles",
@@ -162069,7 +162260,9 @@
       "last_updated": "2026-03-29T02:27:36.331428+00:00"
     },
     "J-x-Z/cocoa-way": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1115801353,
         "name": "cocoa-way",
@@ -162089,7 +162282,10 @@
       "last_updated": "2026-03-29T02:27:36.523293+00:00"
     },
     "superradcompany/microsandbox": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops"
+      ],
       "metadata": {
         "id": 867192625,
         "name": "microsandbox",
@@ -162109,7 +162305,9 @@
       "last_updated": "2026-03-29T02:27:36.841532+00:00"
     },
     "happycube/ld-decode-docs": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1112080695,
         "name": "ld-decode-docs",
@@ -162129,7 +162327,9 @@
       "last_updated": "2026-04-05T00:13:06.308434+00:00"
     },
     "rcmaehl/MSEdgeRedirect": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 384330997,
         "name": "MSEdgeRedirect",
@@ -162149,7 +162349,12 @@
       "last_updated": "2026-04-05T00:13:06.515044+00:00"
     },
     "skills/secure-repository-supply-chain": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Github Actions",
+        "Infosec",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 563419452,
         "name": "secure-repository-supply-chain",
@@ -162169,7 +162374,9 @@
       "last_updated": "2026-04-05T00:13:06.780485+00:00"
     },
     "trufflesecurity/how-to-rotate": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 688650123,
         "name": "how-to-rotate",
@@ -162189,7 +162396,9 @@
       "last_updated": "2026-04-05T00:13:07.004799+00:00"
     },
     "flenniken/utf8tests": {
-      "lists": [],
+      "lists": [
+        "Fuzzing"
+      ],
       "metadata": {
         "id": 443382297,
         "name": "utf8tests",
@@ -162209,7 +162418,10 @@
       "last_updated": "2026-04-05T00:13:07.214059+00:00"
     },
     "NVIDIA/OpenShell": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1166129534,
         "name": "OpenShell",
@@ -162229,7 +162441,10 @@
       "last_updated": "2026-04-05T00:13:07.444518+00:00"
     },
     "objective-see/LuLu": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec"
+      ],
       "metadata": {
         "id": 103010090,
         "name": "LuLu",
@@ -162249,7 +162464,10 @@
       "last_updated": "2026-04-05T00:13:07.641932+00:00"
     },
     "openai/openai-guardrails-python": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 963466822,
         "name": "openai-guardrails-python",
@@ -162269,7 +162487,11 @@
       "last_updated": "2026-04-05T00:13:07.913742+00:00"
     },
     "guardrails-ai/guardrails": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 594609262,
         "name": "guardrails",
@@ -162289,7 +162511,10 @@
       "last_updated": "2026-04-05T00:13:08.141561+00:00"
     },
     "Arthur-Ficial/apfel": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1190938188,
         "name": "apfel",
@@ -162309,7 +162534,9 @@
       "last_updated": "2026-04-05T00:13:08.327488+00:00"
     },
     "dloss/kelora": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 834586515,
         "name": "kelora",
@@ -162329,7 +162556,9 @@
       "last_updated": "2026-04-05T00:13:08.543263+00:00"
     },
     "Fleex255/PolicyPlus": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 61149036,
         "name": "PolicyPlus",
@@ -162349,7 +162578,9 @@
       "last_updated": "2026-04-05T00:13:08.769264+00:00"
     },
     "lemonade-sdk/lemonade": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 984341155,
         "name": "lemonade",
@@ -162369,7 +162600,10 @@
       "last_updated": "2026-04-05T00:13:08.995799+00:00"
     },
     "philpennock/character": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 42696614,
         "name": "character",
@@ -162389,7 +162623,10 @@
       "last_updated": "2026-04-05T00:13:09.203078+00:00"
     },
     "zircothc/M5STACK-TAB5-SAMPLER-DRUM-MACHINE-2026": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1139653368,
         "name": "M5STACK-TAB5-SAMPLER-DRUM-MACHINE-2026",
@@ -162409,7 +162646,10 @@
       "last_updated": "2026-04-05T00:13:09.398718+00:00"
     },
     "zircothc/DRUM_2025_VSAMPLER": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 967520446,
         "name": "DRUM_2025_VSAMPLER",
@@ -162429,7 +162669,10 @@
       "last_updated": "2026-04-05T00:13:09.609306+00:00"
     },
     "zircothc/DRUM_2024_V2": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 867240749,
         "name": "DRUM_2024_V2",
@@ -162449,7 +162692,11 @@
       "last_updated": "2026-04-05T00:13:09.844598+00:00"
     },
     "hostinger/fireactions": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 696675299,
         "name": "fireactions",
@@ -162489,7 +162736,10 @@
       "last_updated": "2026-04-05T00:13:10.318822+00:00"
     },
     "changjonathanc/claude-code-system-prompts": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1002292722,
         "name": "claude-code-system-prompts",
@@ -162509,7 +162759,12 @@
       "last_updated": "2026-04-05T00:13:10.534003+00:00"
     },
     "89luca89/clampdown": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "GoLang",
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1171894382,
         "name": "clampdown",
@@ -162529,7 +162784,12 @@
       "last_updated": "2026-04-05T00:13:10.737813+00:00"
     },
     "ForestMars/Kosher": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 323723138,
         "name": "Kosher",
@@ -162549,7 +162809,10 @@
       "last_updated": "2026-04-05T00:13:10.956071+00:00"
     },
     "LegalMarc/marcut": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Python"
+      ],
       "metadata": {
         "id": 1058001911,
         "name": "marcut",
@@ -162569,7 +162832,9 @@
       "last_updated": "2026-04-05T00:13:11.153022+00:00"
     },
     "OnlyCLI/OnlyCLI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1191625014,
         "name": "OnlyCLI",
@@ -162589,7 +162854,9 @@
       "last_updated": "2026-04-05T00:13:11.404678+00:00"
     },
     "drona23/claude-token-efficient": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1196181411,
         "name": "claude-token-efficient",
@@ -162609,7 +162876,9 @@
       "last_updated": "2026-04-05T00:13:11.592007+00:00"
     },
     "solvespace/solvespace": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 32905910,
         "name": "solvespace",
@@ -162629,7 +162898,10 @@
       "last_updated": "2026-04-05T00:13:11.799458+00:00"
     },
     "gumyr/build123d": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 510925389,
         "name": "build123d",
@@ -162649,7 +162921,9 @@
       "last_updated": "2026-04-05T00:13:11.976054+00:00"
     },
     "electrikmilk/cherri": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 554016681,
         "name": "cherri",
@@ -162669,7 +162943,10 @@
       "last_updated": "2026-04-05T00:13:12.180447+00:00"
     },
     "vnmakarov/mir": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 178932492,
         "name": "mir",
@@ -162689,7 +162966,12 @@
       "last_updated": "2026-04-05T00:13:12.410190+00:00"
     },
     "skanehira/mori": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "eBPF",
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1064131900,
         "name": "mori",
@@ -162709,7 +162991,9 @@
       "last_updated": "2026-04-05T00:13:12.616259+00:00"
     },
     "internetarchive/Zeno": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 289024987,
         "name": "Zeno",
@@ -162729,7 +163013,11 @@
       "last_updated": "2026-04-05T00:13:12.844399+00:00"
     },
     "pyupio/safety": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 71359600,
         "name": "safety",
@@ -162749,7 +163037,9 @@
       "last_updated": "2026-04-05T00:13:13.118308+00:00"
     },
     "unetbootin/unetbootin": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 239093,
         "name": "unetbootin",
@@ -162769,7 +163059,9 @@
       "last_updated": "2026-04-05T00:13:13.346717+00:00"
     },
     "coleam00/adversarial-dev": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1195282266,
         "name": "adversarial-dev",
@@ -162789,7 +163081,10 @@
       "last_updated": "2026-04-05T00:13:13.595575+00:00"
     },
     "AlchemillaHQ/Sylve": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 945393575,
         "name": "Sylve",
@@ -162809,7 +163104,9 @@
       "last_updated": "2026-04-05T00:13:13.822692+00:00"
     },
     "signalstickers/signalstickers": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 229427186,
         "name": "signalstickers",
@@ -162829,7 +163126,9 @@
       "last_updated": "2026-04-05T00:13:14.070867+00:00"
     },
     "bellard/quickjs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 293316071,
         "name": "quickjs",
@@ -162849,7 +163148,10 @@
       "last_updated": "2026-04-05T00:13:14.249050+00:00"
     },
     "1st1/lat.md": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1177225364,
         "name": "lat.md",
@@ -162869,7 +163171,10 @@
       "last_updated": "2026-04-05T00:13:14.450787+00:00"
     },
     "legendary-gl/legendary": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 249938026,
         "name": "legendary",
@@ -162889,7 +163194,10 @@
       "last_updated": "2026-04-05T00:13:14.814863+00:00"
     },
     "gastownhall/beads": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1074561042,
         "name": "beads",
@@ -162909,7 +163217,10 @@
       "last_updated": "2026-04-05T00:13:15.172127+00:00"
     },
     "nikableh/gobox": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "GoLang"
+      ],
       "metadata": {
         "id": 492484593,
         "name": "gobox",
@@ -162949,7 +163260,9 @@
       "last_updated": "2026-04-05T00:13:15.875666+00:00"
     },
     "shinpr/mcp-local-rag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1087106485,
         "name": "mcp-local-rag",
@@ -162969,7 +163282,9 @@
       "last_updated": "2026-04-09T18:43:23.572770+00:00"
     },
     "matthewwithanm/python-markdownify": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 4834499,
         "name": "python-markdownify",
@@ -162989,7 +163304,9 @@
       "last_updated": "2026-04-09T18:43:23.720012+00:00"
     },
     "dotnet/Silk.NET": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 191232240,
         "name": "Silk.NET",
@@ -163009,7 +163326,10 @@
       "last_updated": "2026-04-09T18:43:23.928349+00:00"
     },
     "TencentARC/VideoPainter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 945243550,
         "name": "VideoPainter",
@@ -163029,7 +163349,10 @@
       "last_updated": "2026-04-09T18:43:24.142796+00:00"
     },
     "google/kafel": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec"
+      ],
       "metadata": {
         "id": 68689779,
         "name": "kafel",
@@ -163049,7 +163372,10 @@
       "last_updated": "2026-04-09T18:43:24.346065+00:00"
     },
     "scottlawsonbc/audio-reactive-led-strip": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 70744541,
         "name": "audio-reactive-led-strip",
@@ -163069,7 +163395,10 @@
       "last_updated": "2026-04-09T18:43:24.504133+00:00"
     },
     "inovintell/py-template": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Python"
+      ],
       "metadata": {
         "id": 562206126,
         "name": "py-template",
@@ -163089,7 +163418,9 @@
       "last_updated": "2026-04-09T18:43:24.785266+00:00"
     },
     "jlcanovas/gh-best-practices-template": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 567208230,
         "name": "gh-best-practices-template",
@@ -163109,7 +163440,10 @@
       "last_updated": "2026-04-09T18:43:24.982110+00:00"
     },
     "cossacklabs/repometascore": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 475586083,
         "name": "repometascore",
@@ -163129,7 +163463,9 @@
       "last_updated": "2026-04-09T18:43:25.210989+00:00"
     },
     "cossacklabs/security-guides": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 901545967,
         "name": "security-guides",
@@ -163149,7 +163485,10 @@
       "last_updated": "2026-04-09T18:43:25.447615+00:00"
     },
     "cossacklabs/security-autotests-templates": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 780358567,
         "name": "security-autotests-templates",
@@ -163169,7 +163508,9 @@
       "last_updated": "2026-04-09T18:43:25.659997+00:00"
     },
     "diegomacario/Dyna-Kinematics": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 245149426,
         "name": "Dyna-Kinematics",
@@ -163189,7 +163530,9 @@
       "last_updated": "2026-04-09T18:43:25.849973+00:00"
     },
     "google/gemma.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 756673810,
         "name": "gemma.cpp",
@@ -163209,7 +163552,9 @@
       "last_updated": "2026-04-09T18:43:26.028142+00:00"
     },
     "glynnbird/teletext": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 205866236,
         "name": "teletext",
@@ -163229,7 +163574,10 @@
       "last_updated": "2026-04-09T18:43:26.241876+00:00"
     },
     "charmbracelet/glow": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 219616873,
         "name": "glow",
@@ -163249,7 +163597,10 @@
       "last_updated": "2026-04-09T18:43:26.415984+00:00"
     },
     "bczsalba/pytermgui": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Python"
+      ],
       "metadata": {
         "id": 353446108,
         "name": "pytermgui",
@@ -163269,7 +163620,9 @@
       "last_updated": "2026-04-09T18:43:26.573328+00:00"
     },
     "chaosprint/glicol": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 279422587,
         "name": "glicol",
@@ -163289,7 +163642,10 @@
       "last_updated": "2026-04-09T18:43:26.774283+00:00"
     },
     "Staacks/gbinterceptor": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 578962451,
         "name": "gbinterceptor",
@@ -163309,7 +163665,10 @@
       "last_updated": "2026-04-09T18:43:26.948596+00:00"
     },
     "bricklife/LEGO-Mario-Reveng": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 280179714,
         "name": "LEGO-Mario-Reveng",
@@ -163329,7 +163688,11 @@
       "last_updated": "2026-04-09T18:43:27.127949+00:00"
     },
     "RickP/lego_mario_controller": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 292056529,
         "name": "lego_mario_controller",
@@ -163349,7 +163712,10 @@
       "last_updated": "2026-04-09T18:43:27.345762+00:00"
     },
     "xorbitsai/inference": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 653496050,
         "name": "inference",
@@ -163369,7 +163735,10 @@
       "last_updated": "2026-04-09T18:43:27.581510+00:00"
     },
     "phoboslab/wipeout": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 33925402,
         "name": "wipeout",
@@ -163389,7 +163758,9 @@
       "last_updated": "2026-04-09T18:43:27.748107+00:00"
     },
     "Schneegans/Burn-My-Windows": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 437908603,
         "name": "Burn-My-Windows",
@@ -163409,7 +163780,9 @@
       "last_updated": "2026-04-09T18:43:27.963193+00:00"
     },
     "monatis/clip.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 633926961,
         "name": "clip.cpp",
@@ -163429,7 +163802,10 @@
       "last_updated": "2026-04-09T18:43:28.140410+00:00"
     },
     "mtx512/rk3588-npu": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 754531134,
         "name": "rk3588-npu",
@@ -163449,7 +163825,10 @@
       "last_updated": "2026-04-09T18:43:28.346381+00:00"
     },
     "leejet/stable-diffusion.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 677953180,
         "name": "stable-diffusion.cpp",
@@ -163469,7 +163848,10 @@
       "last_updated": "2026-04-09T18:43:28.535564+00:00"
     },
     "eiln/ane": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 580825725,
         "name": "ane",
@@ -163489,7 +163871,9 @@
       "last_updated": "2026-04-09T18:43:28.698474+00:00"
     },
     "PABannier/sam3.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1194403242,
         "name": "sam3.cpp",
@@ -163509,7 +163893,9 @@
       "last_updated": "2026-04-09T18:43:28.844542+00:00"
     },
     "langflow-ai/langflow": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 599320067,
         "name": "langflow",
@@ -163529,7 +163915,9 @@
       "last_updated": "2026-04-09T18:43:29.072645+00:00"
     },
     "langflow-ai/openrag": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1018113827,
         "name": "openrag",
@@ -163549,7 +163937,10 @@
       "last_updated": "2026-04-09T18:43:29.245443+00:00"
     },
     "isw3d/TouchDesigner-Linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1201521672,
         "name": "TouchDesigner-Linux",
@@ -163569,7 +163960,11 @@
       "last_updated": "2026-04-09T18:43:29.443662+00:00"
     },
     "GoogleCloudPlatform/scion": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1177353643,
         "name": "scion",
@@ -163589,7 +163984,11 @@
       "last_updated": "2026-04-09T18:43:29.642304+00:00"
     },
     "step-security/harden-runner": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 422287306,
         "name": "harden-runner",
@@ -163609,7 +164008,10 @@
       "last_updated": "2026-04-09T18:43:29.831065+00:00"
     },
     "AndersonBY/python-repomix": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 908249697,
         "name": "python-repomix",
@@ -163629,7 +164031,10 @@
       "last_updated": "2026-04-09T18:43:30.020788+00:00"
     },
     "vercel/ai": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 644461337,
         "name": "ai",
@@ -163649,7 +164054,11 @@
       "last_updated": "2026-04-09T18:43:30.223931+00:00"
     },
     "woodruffw/kbs2": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "PKI",
+        "Rust"
+      ],
       "metadata": {
         "id": 263823753,
         "name": "kbs2",
@@ -163669,7 +164078,10 @@
       "last_updated": "2026-04-09T18:43:30.417732+00:00"
     },
     "antitree/go-pillage-registries": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 945498355,
         "name": "go-pillage-registries",
@@ -163689,7 +164101,9 @@
       "last_updated": "2026-04-09T18:43:30.675140+00:00"
     },
     "milla-jovovich/mempalace": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1201656210,
         "name": "mempalace",
@@ -163709,7 +164123,10 @@
       "last_updated": "2026-04-09T18:43:30.843993+00:00"
     },
     "Netflix/void-model": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1192888062,
         "name": "void-model",
@@ -163729,7 +164146,9 @@
       "last_updated": "2026-04-09T18:43:31.052752+00:00"
     },
     "sidecartridge/rp-webusb-picoflash": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1147557144,
         "name": "rp-webusb-picoflash",
@@ -163749,7 +164168,11 @@
       "last_updated": "2026-04-09T18:43:31.234955+00:00"
     },
     "1Password/shell-plugins": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Infosec",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 560442944,
         "name": "shell-plugins",
@@ -163769,7 +164192,10 @@
       "last_updated": "2026-04-09T18:43:31.464234+00:00"
     },
     "mytechnotalent/Embedded-Wasm": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "WASM"
+      ],
       "metadata": {
         "id": 1194809825,
         "name": "Embedded-Wasm",
@@ -163789,7 +164215,9 @@
       "last_updated": "2026-04-09T18:43:31.663605+00:00"
     },
     "mytechnotalent/RP2350_UART_Driver": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1088225598,
         "name": "RP2350_UART_Driver",
@@ -163809,7 +164237,10 @@
       "last_updated": "2026-04-09T18:43:31.824757+00:00"
     },
     "rh1tech/echo_dvi": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1013873298,
         "name": "echo_dvi",
@@ -163829,7 +164260,10 @@
       "last_updated": "2026-04-09T18:43:31.993922+00:00"
     },
     "rh1tech/echo": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 974894443,
         "name": "echo",
@@ -163849,7 +164283,9 @@
       "last_updated": "2026-04-09T18:43:32.162363+00:00"
     },
     "rh1tech/nyx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1007271558,
         "name": "nyx",
@@ -163869,7 +164305,9 @@
       "last_updated": "2026-04-09T18:43:32.376445+00:00"
     },
     "rh1tech/iris": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 973856084,
         "name": "iris",
@@ -163889,7 +164327,10 @@
       "last_updated": "2026-04-09T18:43:32.564309+00:00"
     },
     "rh1tech/frank-genesis": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1130487014,
         "name": "frank-genesis",
@@ -163909,7 +164350,10 @@
       "last_updated": "2026-04-09T18:43:32.748530+00:00"
     },
     "rh1tech/frank-duke3d": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1112883715,
         "name": "frank-duke3d",
@@ -163929,7 +164373,10 @@
       "last_updated": "2026-04-09T18:43:32.921632+00:00"
     },
     "rh1tech/frank-snes": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1187630865,
         "name": "frank-snes",
@@ -163949,7 +164396,10 @@
       "last_updated": "2026-04-09T18:43:33.125716+00:00"
     },
     "rh1tech/frank-nes": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1176820380,
         "name": "frank-nes",
@@ -163969,7 +164419,10 @@
       "last_updated": "2026-04-09T18:43:33.292880+00:00"
     },
     "rh1tech/frank": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 845236434,
         "name": "frank",
@@ -163989,7 +164442,9 @@
       "last_updated": "2026-04-09T18:43:33.517655+00:00"
     },
     "kitanokitsune/rp2040adc_correction": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 957910684,
         "name": "rp2040adc_correction",
@@ -164009,7 +164464,10 @@
       "last_updated": "2026-04-09T18:43:33.696495+00:00"
     },
     "rh1tech/frank-doom": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1106512948,
         "name": "frank-doom",
@@ -164029,7 +164487,9 @@
       "last_updated": "2026-04-09T18:43:33.908275+00:00"
     },
     "mtkos/stm32f407-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 769960831,
         "name": "stm32f407-minimal",
@@ -164049,7 +164509,9 @@
       "last_updated": "2026-04-09T18:43:34.115333+00:00"
     },
     "mtkos/ch32v307-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 767463071,
         "name": "ch32v307-minimal",
@@ -164069,7 +164531,9 @@
       "last_updated": "2026-04-09T18:43:34.331505+00:00"
     },
     "mtkos/stm32f103-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 769205174,
         "name": "stm32f103-minimal",
@@ -164089,7 +164553,9 @@
       "last_updated": "2026-04-09T18:43:34.528553+00:00"
     },
     "mtkos/ch32v003-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 746362626,
         "name": "ch32v003-minimal",
@@ -164109,7 +164575,9 @@
       "last_updated": "2026-04-09T18:43:34.701479+00:00"
     },
     "mtkos/ch32v203-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 751017999,
         "name": "ch32v203-minimal",
@@ -164129,7 +164597,9 @@
       "last_updated": "2026-04-09T18:43:34.887009+00:00"
     },
     "mtkos/rp2040-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 953219794,
         "name": "rp2040-minimal",
@@ -164149,7 +164619,9 @@
       "last_updated": "2026-04-09T18:43:35.083155+00:00"
     },
     "mtkos/rp2350-minimal-riscv": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 963340528,
         "name": "rp2350-minimal-riscv",
@@ -164169,7 +164641,9 @@
       "last_updated": "2026-04-09T18:43:35.256738+00:00"
     },
     "mtkos/rp2350-minimal": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 963329834,
         "name": "rp2350-minimal",
@@ -164189,7 +164663,10 @@
       "last_updated": "2026-04-09T18:43:35.472949+00:00"
     },
     "elehobica/pico_level_meter": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 711364007,
         "name": "pico_level_meter",
@@ -164209,7 +164686,9 @@
       "last_updated": "2026-04-09T18:43:35.678595+00:00"
     },
     "jit89/PicoButtonAsync": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1141899630,
         "name": "PicoButtonAsync",
@@ -164229,7 +164708,9 @@
       "last_updated": "2026-04-09T18:43:35.884140+00:00"
     },
     "rppicomidi/pico-usb-midi-interface": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 960010848,
         "name": "pico-usb-midi-interface",
@@ -164249,7 +164730,10 @@
       "last_updated": "2026-04-09T18:43:36.073707+00:00"
     },
     "fhoedemakers/retroJam": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1124072206,
         "name": "retroJam",
@@ -164269,7 +164753,9 @@
       "last_updated": "2026-04-09T18:43:36.266875+00:00"
     },
     "mjklaren/TISM": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 803006537,
         "name": "TISM",
@@ -164289,7 +164775,10 @@
       "last_updated": "2026-04-09T18:43:36.458780+00:00"
     },
     "ebicochineal/E512W3D": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 230358148,
         "name": "E512W3D",
@@ -164309,7 +164798,10 @@
       "last_updated": "2026-04-09T18:43:36.651923+00:00"
     },
     "JuPfu/hub75_lvgl": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 980215057,
         "name": "hub75_lvgl",
@@ -164329,7 +164821,9 @@
       "last_updated": "2026-04-09T18:43:36.844435+00:00"
     },
     "raspberrypi/pico-extras": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 331381056,
         "name": "pico-extras",
@@ -164349,7 +164843,9 @@
       "last_updated": "2026-04-09T18:43:37.060615+00:00"
     },
     "CHiPs44/hagl_pico_vgaboard": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 361133455,
         "name": "hagl_pico_vgaboard",
@@ -164369,7 +164865,9 @@
       "last_updated": "2026-04-09T18:43:37.282349+00:00"
     },
     "tuupola/hagl": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 130860355,
         "name": "hagl",
@@ -164389,7 +164887,9 @@
       "last_updated": "2026-04-09T18:43:37.448194+00:00"
     },
     "majbthrd/pico2-debug": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1043794909,
         "name": "pico2-debug",
@@ -164409,7 +164909,9 @@
       "last_updated": "2026-04-09T18:43:37.675546+00:00"
     },
     "sparkfun/sparkfun-pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 838503117,
         "name": "sparkfun-pico",
@@ -164429,7 +164931,10 @@
       "last_updated": "2026-04-09T18:43:37.898123+00:00"
     },
     "jblanked/pico-game-engine": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 923310827,
         "name": "pico-game-engine",
@@ -164449,7 +164954,10 @@
       "last_updated": "2026-04-09T18:43:38.129579+00:00"
     },
     "rs1729/pico_ttl2vga": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 773489513,
         "name": "pico_ttl2vga",
@@ -164469,7 +164977,10 @@
       "last_updated": "2026-04-09T18:43:38.332137+00:00"
     },
     "adafruit/Adafruit-DVI-HSTX": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 934456369,
         "name": "Adafruit-DVI-HSTX",
@@ -164489,7 +165000,9 @@
       "last_updated": "2026-04-09T18:43:38.529216+00:00"
     },
     "TobiasVanDyk/RPi-Pico1-Pico2-Applications": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 335011562,
         "name": "RPi-Pico1-Pico2-Applications",
@@ -164509,7 +165022,9 @@
       "last_updated": "2026-04-09T18:43:38.701829+00:00"
     },
     "FilipDominec/rp2daq": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 386646661,
         "name": "rp2daq",
@@ -164529,7 +165044,10 @@
       "last_updated": "2026-04-09T18:43:38.956610+00:00"
     },
     "fhoedemakers/pico-peanutGB": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 813210968,
         "name": "pico-peanutGB",
@@ -164549,7 +165067,10 @@
       "last_updated": "2026-04-09T18:43:39.141788+00:00"
     },
     "fhoedemakers/pico-genesisPlus": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 904352103,
         "name": "pico-genesisPlus",
@@ -164569,7 +165090,9 @@
       "last_updated": "2026-04-09T18:43:39.358324+00:00"
     },
     "IndoorCorgi/picoboot3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 856908471,
         "name": "picoboot3",
@@ -164589,7 +165112,9 @@
       "last_updated": "2026-04-09T18:43:39.609488+00:00"
     },
     "jblanked/Picoware": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 989766763,
         "name": "Picoware",
@@ -164609,7 +165134,10 @@
       "last_updated": "2026-04-09T18:43:39.809735+00:00"
     },
     "earlephilhower/BackgroundAudio": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 905473645,
         "name": "BackgroundAudio",
@@ -164629,7 +165157,9 @@
       "last_updated": "2026-04-09T18:43:40.004680+00:00"
     },
     "NathanY3G/rp2040-pio-emulator": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 342835327,
         "name": "rp2040-pio-emulator",
@@ -164649,7 +165179,10 @@
       "last_updated": "2026-04-09T18:43:40.169584+00:00"
     },
     "fliperama86/neopico-hd": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1107230678,
         "name": "neopico-hd",
@@ -164669,7 +165202,10 @@
       "last_updated": "2026-04-09T18:43:40.349234+00:00"
     },
     "mytechnotalent/Embedded-Hacking": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 701484093,
         "name": "Embedded-Hacking",
@@ -164689,7 +165225,10 @@
       "last_updated": "2026-04-09T18:43:40.538860+00:00"
     },
     "lukstep/raspberry-pi-pico-docker-sdk": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 537615970,
         "name": "raspberry-pi-pico-docker-sdk",
@@ -164709,7 +165248,9 @@
       "last_updated": "2026-04-09T18:43:40.728945+00:00"
     },
     "GavSun/read_analog": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1043191047,
         "name": "read_analog",
@@ -164729,7 +165270,9 @@
       "last_updated": "2026-04-09T18:43:40.898813+00:00"
     },
     "earlephilhower/arduino-pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 342120988,
         "name": "arduino-pico",
@@ -164749,7 +165292,9 @@
       "last_updated": "2026-04-09T18:43:41.062955+00:00"
     },
     "jean-emmanuel/open-stage-control": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1118163187,
         "name": "open-stage-control",
@@ -164769,7 +165314,9 @@
       "last_updated": "2026-04-09T18:43:41.237323+00:00"
     },
     "RPCS3/rpcs3": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 6520784,
         "name": "rpcs3",
@@ -164789,7 +165336,10 @@
       "last_updated": "2026-04-09T18:43:41.544541+00:00"
     },
     "kessler/gemma-gem": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1202259745,
         "name": "gemma-gem",
@@ -164809,7 +165359,10 @@
       "last_updated": "2026-04-09T18:43:41.723393+00:00"
     },
     "ayosec/ffmpeg-drawvg": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1039858178,
         "name": "ffmpeg-drawvg",
@@ -164829,7 +165382,11 @@
       "last_updated": "2026-04-09T18:43:41.912379+00:00"
     },
     "stefanprodan/timoni": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 600428631,
         "name": "timoni",
@@ -164849,7 +165406,11 @@
       "last_updated": "2026-04-09T18:43:42.131001+00:00"
     },
     "microsoft/agent-governance-toolkit": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1171111467,
         "name": "agent-governance-toolkit",
@@ -164869,7 +165430,9 @@
       "last_updated": "2026-04-09T18:43:42.335830+00:00"
     },
     "openai/symphony": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1167965563,
         "name": "symphony",
@@ -164889,7 +165452,10 @@
       "last_updated": "2026-04-09T18:43:42.509460+00:00"
     },
     "floci-io/floci": {
-      "lists": [],
+      "lists": [
+        "AWS",
+        "Devops"
+      ],
       "metadata": {
         "id": 1160497244,
         "name": "floci",
@@ -164909,7 +165475,9 @@
       "last_updated": "2026-04-09T18:43:42.808706+00:00"
     },
     "aaif-goose/goose": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 846698999,
         "name": "goose",
@@ -164929,7 +165497,9 @@
       "last_updated": "2026-04-09T18:43:43.113745+00:00"
     },
     "Arcachofo/SimulIDE-dev": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 775814292,
         "name": "SimulIDE-dev",
