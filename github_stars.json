@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T23:49:07.642902+00:00",
+  "last_updated": "2026-04-11T02:02:25.348973+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -165519,7 +165519,9 @@
       "last_updated": "2026-04-09T18:43:43.430318+00:00"
     },
     "TypeWhisper/typewhisper-win": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1158178303,
         "name": "typewhisper-win",
@@ -165539,7 +165541,9 @@
       "last_updated": "2026-04-10T23:49:00.469694+00:00"
     },
     "TypeWhisper/typewhisper-mac": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1156604835,
         "name": "typewhisper-mac",
@@ -165559,7 +165563,9 @@
       "last_updated": "2026-04-10T23:49:00.743376+00:00"
     },
     "matthartman/ghost-pepper": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1187219063,
         "name": "ghost-pepper",
@@ -165579,7 +165585,10 @@
       "last_updated": "2026-04-10T23:49:01.020546+00:00"
     },
     "eliben/watgo": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "WASM"
+      ],
       "metadata": {
         "id": 596126613,
         "name": "watgo",
@@ -165599,7 +165608,11 @@
       "last_updated": "2026-04-10T23:49:01.277862+00:00"
     },
     "safedep/pmg": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Github Actions",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 951643407,
         "name": "pmg",
@@ -165619,7 +165632,9 @@
       "last_updated": "2026-04-10T23:49:01.584442+00:00"
     },
     "ramachandran8777/Microsoft": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 849605450,
         "name": "Microsoft",
@@ -165639,7 +165654,9 @@
       "last_updated": "2026-04-10T23:49:01.868993+00:00"
     },
     "Keychron/Keychron-Keyboards-Hardware-Design": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1200994191,
         "name": "Keychron-Keyboards-Hardware-Design",
@@ -165659,7 +165676,9 @@
       "last_updated": "2026-04-10T23:49:02.150483+00:00"
     },
     "ronitsingh10/FineTune": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1137026567,
         "name": "FineTune",
@@ -165679,7 +165698,12 @@
       "last_updated": "2026-04-10T23:49:02.428242+00:00"
     },
     "ortelius/ortelius": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Infosec",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 84104787,
         "name": "ortelius",
@@ -165699,7 +165723,9 @@
       "last_updated": "2026-04-10T23:49:02.710919+00:00"
     },
     "muselab-d2x/d2x": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 666465774,
         "name": "d2x",
@@ -165719,7 +165745,9 @@
       "last_updated": "2026-04-10T23:49:03.013428+00:00"
     },
     "go-git/go-git": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 229030654,
         "name": "go-git",
@@ -165739,7 +165767,9 @@
       "last_updated": "2026-04-10T23:49:03.324617+00:00"
     },
     "apiiro/malicious-code-ruleset": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 915536754,
         "name": "malicious-code-ruleset",
@@ -165759,7 +165789,9 @@
       "last_updated": "2026-04-10T23:49:03.632237+00:00"
     },
     "langsec-ai/langsec": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 880997766,
         "name": "langsec",
@@ -165779,7 +165811,9 @@
       "last_updated": "2026-04-10T23:49:03.919399+00:00"
     },
     "HackingLZ/telnyx_4.87.1_payload": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1193532328,
         "name": "telnyx_4.87.1_payload",
@@ -165799,7 +165833,9 @@
       "last_updated": "2026-04-10T23:49:04.179176+00:00"
     },
     "HackingLZ/litellm_1.82.8_payload": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1190633188,
         "name": "litellm_1.82.8_payload",
@@ -165819,7 +165855,9 @@
       "last_updated": "2026-04-10T23:49:04.463011+00:00"
     },
     "WSTxda/Lineage-Icons": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 269572152,
         "name": "Lineage-Icons",
@@ -165839,7 +165877,9 @@
       "last_updated": "2026-04-10T23:49:04.755035+00:00"
     },
     "jurplel/InstantSpaceSwitcher": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1116497402,
         "name": "InstantSpaceSwitcher",
@@ -165859,7 +165899,9 @@
       "last_updated": "2026-04-10T23:49:05.016691+00:00"
     },
     "hoshinolina/libfunnel": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1120868857,
         "name": "libfunnel",
@@ -165879,7 +165921,9 @@
       "last_updated": "2026-04-10T23:49:05.310207+00:00"
     },
     "hoshinolina/obs-pwvideo": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1121464884,
         "name": "obs-pwvideo",
@@ -165899,7 +165943,9 @@
       "last_updated": "2026-04-10T23:49:05.652625+00:00"
     },
     "leadedge/SpoutVulkan": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1071240081,
         "name": "SpoutVulkan",
@@ -165919,7 +165965,10 @@
       "last_updated": "2026-04-10T23:49:05.931068+00:00"
     },
     "PeculiarVentures/cardforensics": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 1205396795,
         "name": "cardforensics",
@@ -165939,7 +165988,9 @@
       "last_updated": "2026-04-10T23:49:06.234171+00:00"
     },
     "community-charts/helm-charts": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 478652566,
         "name": "helm-charts",
@@ -165959,7 +166010,13 @@
       "last_updated": "2026-04-10T23:49:06.536035+00:00"
     },
     "elasticdog/transcrypt": {
-      "lists": [],
+      "lists": [
+        "Bash",
+        "Devops",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI"
+      ],
       "metadata": {
         "id": 16638318,
         "name": "transcrypt",
@@ -165979,7 +166036,14 @@
       "last_updated": "2026-04-10T23:49:06.815076+00:00"
     },
     "vlaci/git-agecrypt": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI",
+        "Rust"
+      ],
       "metadata": {
         "id": 441461344,
         "name": "git-agecrypt",
@@ -165999,7 +166063,10 @@
       "last_updated": "2026-04-10T23:49:07.089451+00:00"
     },
     "babarot/gh-infra": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1187322569,
         "name": "gh-infra",
@@ -166019,7 +166086,14 @@
       "last_updated": "2026-04-10T23:49:07.361030+00:00"
     },
     "FiloSottile/age": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "GoLang",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI"
+      ],
       "metadata": {
         "id": 187403699,
         "name": "age",
