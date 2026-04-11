@@ -7,11 +7,16 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-star-lists:
+    name: Update star lists
     runs-on: ubuntu-24.04
     permissions:
-      contents: write
+      contents: write # commit updated github_stars.json
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       with:
@@ -31,7 +36,7 @@ jobs:
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
-        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}"
         git pull --rebase origin master
 
     - name: Run star lists update script
@@ -40,7 +45,7 @@ jobs:
         GITHUB_USERNAME: ${{ github.repository_owner }}
       run: |
         echo "GITHUB_USERNAME: $GITHUB_USERNAME"
-        echo "GITHUB_TOKEN is set: ${{ secrets.GITHUB_TOKEN != '' }}"
+        echo "GITHUB_TOKEN is set: $([ -n "$GITHUB_TOKEN" ] && echo true || echo false)"
         uv run python scripts/update_star_lists.py
 
     - name: Commit and push if changes

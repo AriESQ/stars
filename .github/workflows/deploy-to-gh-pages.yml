@@ -7,8 +7,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
+    name: Build site artifact
     runs-on: ubuntu-24.04
     steps:
     - name: Checkout repository
@@ -29,11 +34,12 @@ jobs:
         path: ./_site
 
   deploy:
+    name: Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-24.04
     permissions:
-      pages: write
-      id-token: write
+      pages: write # deploy to GitHub Pages
+      id-token: write # verify deployment origin (OIDC)
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
