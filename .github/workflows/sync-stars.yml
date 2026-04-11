@@ -7,22 +7,26 @@ on:
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   scrape:
     permissions:
-      contents: write
+      contents: write # commit updated github_stars.json
     uses: ./.github/workflows/scrape-stars.yml
 
   update-lists:
     needs: scrape
     permissions:
-      contents: write
+      contents: write # commit updated github_stars.json
     uses: ./.github/workflows/update_star_lists.yml
 
   deploy:
     needs: update-lists
     permissions:
-      contents: read
-      pages: write
-      id-token: write
+      contents: read # read site files for Pages build
+      pages: write # deploy to GitHub Pages
+      id-token: write # verify deployment origin (OIDC)
     uses: ./.github/workflows/deploy-to-gh-pages.yml
