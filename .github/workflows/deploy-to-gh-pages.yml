@@ -1,26 +1,14 @@
 name: Deploy to GitHub Pages
-# workflow_run is guarded by checking workflow_run.conclusion == 'success' before any job runs
+
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - 'src/**'
-  #     - '*.json'
-  #     - '.github/workflows/deploy.yml'
+  workflow_call:
   workflow_dispatch:
-  workflow_run: # zizmor: ignore[dangerous-triggers]
-    types: [completed]
-    workflows:
-      - Scrape GitHub Stars
-      - Update Star Lists
 
 permissions:
   contents: read
 
 jobs:
   build:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-24.04
     steps:
     - name: Checkout repository
