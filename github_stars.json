@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T05:09:50.588267+00:00",
+  "last_updated": "2026-04-11T05:14:27.727874+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166113,7 +166113,9 @@
       "last_updated": "2026-04-10T23:49:07.642848+00:00"
     },
     "electric-sql/pglite": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 759893102,
         "name": "pglite",
@@ -166133,7 +166135,9 @@
       "last_updated": "2026-04-11T05:09:50.307917+00:00"
     },
     "RaiseiX/Heimdall-DFIR": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1205333705,
         "name": "Heimdall-DFIR",
