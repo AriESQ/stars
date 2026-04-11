@@ -1,0 +1,28 @@
+name: Sync Stars
+
+on:
+  schedule:
+    - cron: '17 3 * * *'  # Run daily at 3:17 AM UTC
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  scrape:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/scrape-stars.yml
+
+  update-lists:
+    needs: scrape
+    permissions:
+      contents: write
+    uses: ./.github/workflows/update_star_lists.yml
+
+  deploy:
+    needs: update-lists
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-to-gh-pages.yml
