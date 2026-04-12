@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T05:35:29.513072+00:00",
+  "last_updated": "2026-04-12T05:40:11.921850+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166157,7 +166157,9 @@
       "last_updated": "2026-04-11T05:09:50.588156+00:00"
     },
     "khronokernel/VirtualApple": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 676666033,
         "name": "VirtualApple",
@@ -166177,7 +166179,9 @@
       "last_updated": "2026-04-12T05:35:28.230689+00:00"
     },
     "KhronosGroup/Vulkan-Docs": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 51506618,
         "name": "Vulkan-Docs",
@@ -166197,7 +166201,11 @@
       "last_updated": "2026-04-12T05:35:28.427139+00:00"
     },
     "oasdiff/oasdiff": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 337689065,
         "name": "oasdiff",
@@ -166217,7 +166225,9 @@
       "last_updated": "2026-04-12T05:35:28.631126+00:00"
     },
     "BlueJayLouche/sputnikMesh": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 948975976,
         "name": "sputnikMesh",
@@ -166237,7 +166247,9 @@
       "last_updated": "2026-04-12T05:35:28.805552+00:00"
     },
     "tom-leamon/downturn": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1207603002,
         "name": "downturn",
@@ -166257,7 +166269,9 @@
       "last_updated": "2026-04-12T05:35:28.965633+00:00"
     },
     "mozilla/readability": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 30231828,
         "name": "readability",
@@ -166277,7 +166291,9 @@
       "last_updated": "2026-04-12T05:35:29.136473+00:00"
     },
     "jsdom/jsdom": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 478584,
         "name": "jsdom",
@@ -166297,7 +166313,9 @@
       "last_updated": "2026-04-12T05:35:29.321712+00:00"
     },
     "MemPalace/mempalace": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1201656210,
         "name": "mempalace",
