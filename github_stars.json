@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T05:14:27.727874+00:00",
+  "last_updated": "2026-04-12T05:35:29.513072+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166155,6 +166155,166 @@
         "starred_at": "2026-04-11T04:10:35Z"
       },
       "last_updated": "2026-04-11T05:09:50.588156+00:00"
+    },
+    "khronokernel/VirtualApple": {
+      "lists": [],
+      "metadata": {
+        "id": 676666033,
+        "name": "VirtualApple",
+        "full_name": "khronokernel/VirtualApple",
+        "description": "Work with macOS VMs using Virtualization",
+        "url": "https://github.com/khronokernel/VirtualApple",
+        "homepage": null,
+        "language": null,
+        "stars": 10,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2023-08-09T18:12:35Z",
+        "updated_at": "2026-04-11T21:26:46Z",
+        "pushed_at": "2023-05-04T08:25:40Z",
+        "starred_at": "2026-04-11T21:26:45Z"
+      },
+      "last_updated": "2026-04-12T05:35:28.230689+00:00"
+    },
+    "KhronosGroup/Vulkan-Docs": {
+      "lists": [],
+      "metadata": {
+        "id": 51506618,
+        "name": "Vulkan-Docs",
+        "full_name": "KhronosGroup/Vulkan-Docs",
+        "description": "The Vulkan API Specification and related tools",
+        "url": "https://github.com/KhronosGroup/Vulkan-Docs",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 3241,
+        "forks": 526,
+        "open_issues": 355,
+        "created_at": "2016-02-11T10:03:55Z",
+        "updated_at": "2026-04-11T21:28:52Z",
+        "pushed_at": "2026-04-10T00:49:14Z",
+        "starred_at": "2026-04-11T20:14:34Z"
+      },
+      "last_updated": "2026-04-12T05:35:28.427139+00:00"
+    },
+    "oasdiff/oasdiff": {
+      "lists": [],
+      "metadata": {
+        "id": 337689065,
+        "name": "oasdiff",
+        "full_name": "oasdiff/oasdiff",
+        "description": "OpenAPI Diff and Breaking Changes",
+        "url": "https://github.com/oasdiff/oasdiff",
+        "homepage": "https://www.oasdiff.com",
+        "language": "Go",
+        "stars": 1150,
+        "forks": 93,
+        "open_issues": 19,
+        "created_at": "2021-02-10T10:28:36Z",
+        "updated_at": "2026-04-12T04:41:58Z",
+        "pushed_at": "2026-04-11T14:56:54Z",
+        "starred_at": "2026-04-11T19:46:16Z"
+      },
+      "last_updated": "2026-04-12T05:35:28.631126+00:00"
+    },
+    "BlueJayLouche/sputnikMesh": {
+      "lists": [],
+      "metadata": {
+        "id": 948975976,
+        "name": "sputnikMesh",
+        "full_name": "BlueJayLouche/sputnikMesh",
+        "description": "\ud83e\udd62 Fork of spectral_mesh",
+        "url": "https://github.com/BlueJayLouche/sputnikMesh",
+        "homepage": null,
+        "language": "C++",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-15T11:50:13Z",
+        "updated_at": "2026-04-11T16:17:52Z",
+        "pushed_at": "2026-02-23T11:03:41Z",
+        "starred_at": "2026-04-11T16:17:51Z"
+      },
+      "last_updated": "2026-04-12T05:35:28.805552+00:00"
+    },
+    "tom-leamon/downturn": {
+      "lists": [],
+      "metadata": {
+        "id": 1207603002,
+        "name": "downturn",
+        "full_name": "tom-leamon/downturn",
+        "description": "Fetch web pages and convert to markdown. Zero runtime dependencies.",
+        "url": "https://github.com/tom-leamon/downturn",
+        "homepage": "https://www.npmjs.com/package/downturn",
+        "language": "JavaScript",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-11T06:28:58Z",
+        "updated_at": "2026-04-12T05:17:42Z",
+        "pushed_at": "2026-04-12T05:17:39Z",
+        "starred_at": "2026-04-11T16:10:48Z"
+      },
+      "last_updated": "2026-04-12T05:35:28.965633+00:00"
+    },
+    "mozilla/readability": {
+      "lists": [],
+      "metadata": {
+        "id": 30231828,
+        "name": "readability",
+        "full_name": "mozilla/readability",
+        "description": "A standalone version of the readability lib",
+        "url": "https://github.com/mozilla/readability",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 11089,
+        "forks": 705,
+        "open_issues": 302,
+        "created_at": "2015-02-03T08:01:54Z",
+        "updated_at": "2026-04-12T02:39:44Z",
+        "pushed_at": "2026-01-21T23:10:44Z",
+        "starred_at": "2026-04-11T16:10:01Z"
+      },
+      "last_updated": "2026-04-12T05:35:29.136473+00:00"
+    },
+    "jsdom/jsdom": {
+      "lists": [],
+      "metadata": {
+        "id": 478584,
+        "name": "jsdom",
+        "full_name": "jsdom/jsdom",
+        "description": "A JavaScript implementation of various web standards, for use with Node.js",
+        "url": "https://github.com/jsdom/jsdom",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 21552,
+        "forks": 1770,
+        "open_issues": 412,
+        "created_at": "2010-01-19T06:55:19Z",
+        "updated_at": "2026-04-12T00:20:58Z",
+        "pushed_at": "2026-04-07T03:38:12Z",
+        "starred_at": "2026-04-11T16:09:27Z"
+      },
+      "last_updated": "2026-04-12T05:35:29.321712+00:00"
+    },
+    "MemPalace/mempalace": {
+      "lists": [],
+      "metadata": {
+        "id": 1201656210,
+        "name": "mempalace",
+        "full_name": "MemPalace/mempalace",
+        "description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+        "url": "https://github.com/MemPalace/mempalace",
+        "homepage": null,
+        "language": "Python",
+        "stars": 42033,
+        "forks": 5376,
+        "open_issues": 372,
+        "created_at": "2026-04-05T01:12:07Z",
+        "updated_at": "2026-04-12T05:34:53Z",
+        "pushed_at": "2026-04-12T05:05:01Z",
+        "starred_at": "2026-04-07T06:08:24Z"
+      },
+      "last_updated": "2026-04-12T05:35:29.513035+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166164,5 +166324,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5f6b91fc38aea2c004b6fd55b9a4a74ee5e436a88fa3ef309c9c7a280451ab5d\""
+  "profile_etag": "W/\"c717e3dcca8bc19dd887d4b045def6fd01d7c0b58102c3fb72fa47198292658d\""
 }
