@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T05:07:38.351454+00:00",
+  "last_updated": "2026-04-16T05:12:43.241431+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166335,7 +166335,10 @@
       "last_updated": "2026-04-12T05:35:29.513035+00:00"
     },
     "MindDock/off-axis-demo": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1130033582,
         "name": "off-axis-demo",
@@ -166355,7 +166358,11 @@
       "last_updated": "2026-04-16T05:07:33.601713+00:00"
     },
     "faiscadev/fakecloud": {
-      "lists": [],
+      "lists": [
+        "AWS",
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 1201301111,
         "name": "fakecloud",
@@ -166375,7 +166382,10 @@
       "last_updated": "2026-04-16T05:07:33.955904+00:00"
     },
     "saffron-health/libretto": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1171010355,
         "name": "libretto",
@@ -166395,7 +166405,10 @@
       "last_updated": "2026-04-16T05:07:34.276851+00:00"
     },
     "usestrix/strix": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1032808806,
         "name": "strix",
@@ -166415,7 +166428,10 @@
       "last_updated": "2026-04-16T05:07:34.594350+00:00"
     },
     "pimoroni/picofx": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 835212086,
         "name": "picofx",
@@ -166435,7 +166451,10 @@
       "last_updated": "2026-04-16T05:07:34.952215+00:00"
     },
     "Csontikka/esphome-tailscale": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Networking"
+      ],
       "metadata": {
         "id": 1205327962,
         "name": "esphome-tailscale",
@@ -166455,7 +166474,9 @@
       "last_updated": "2026-04-16T05:07:35.267947+00:00"
     },
     "guptarohit/asciigraph": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 137647094,
         "name": "asciigraph",
@@ -166475,7 +166496,9 @@
       "last_updated": "2026-04-16T05:07:35.604497+00:00"
     },
     "NimbleMarkets/ntcharts": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 765822855,
         "name": "ntcharts",
@@ -166495,7 +166518,11 @@
       "last_updated": "2026-04-16T05:07:35.949426+00:00"
     },
     "github/gh-stack": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1151630728,
         "name": "gh-stack",
@@ -166515,7 +166542,9 @@
       "last_updated": "2026-04-16T05:07:36.261637+00:00"
     },
     "cloudflare/research.cloudflare.com": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 387905623,
         "name": "research.cloudflare.com",
@@ -166535,7 +166564,13 @@
       "last_updated": "2026-04-16T05:07:36.589142+00:00"
     },
     "cloudflare/mcp": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "JavaScript",
+        "Machine Learning",
+        "Networking"
+      ],
       "metadata": {
         "id": 1145216439,
         "name": "mcp",
@@ -166555,7 +166590,9 @@
       "last_updated": "2026-04-16T05:07:36.939935+00:00"
     },
     "cloudflare/ai": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 948501453,
         "name": "ai",
@@ -166575,7 +166612,12 @@
       "last_updated": "2026-04-16T05:07:37.254245+00:00"
     },
     "cloudflare/api-schemas": {
-      "lists": [],
+      "lists": [
+        "API",
+        "CI/CD",
+        "Devops",
+        "Networking"
+      ],
       "metadata": {
         "id": 504269693,
         "name": "api-schemas",
@@ -166595,7 +166637,9 @@
       "last_updated": "2026-04-16T05:07:37.578799+00:00"
     },
     "Nuvotion-Visuals/Downturn": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1207603002,
         "name": "Downturn",
@@ -166615,7 +166659,10 @@
       "last_updated": "2026-04-16T05:07:37.909053+00:00"
     },
     "oobabooga/textgen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 580642043,
         "name": "textgen",
