@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T05:40:11.921850+00:00",
+  "last_updated": "2026-04-16T05:07:38.351454+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166333,6 +166333,306 @@
         "starred_at": "2026-04-07T06:08:24Z"
       },
       "last_updated": "2026-04-12T05:35:29.513035+00:00"
+    },
+    "MindDock/off-axis-demo": {
+      "lists": [],
+      "metadata": {
+        "id": 1130033582,
+        "name": "off-axis-demo",
+        "full_name": "MindDock/off-axis-demo",
+        "description": "A real-time 3D head-tracking demo that creates a realistic \"window into a virtual world\" effect using your webcam. Built with Three.js and MediaPipe FaceMesh.",
+        "url": "https://github.com/MindDock/off-axis-demo",
+        "homepage": "https://minddock.ai/",
+        "language": "HTML",
+        "stars": 18,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-01-07T23:54:04Z",
+        "updated_at": "2026-04-16T04:05:48Z",
+        "pushed_at": "2026-01-10T04:50:43Z",
+        "starred_at": "2026-04-16T04:05:47Z"
+      },
+      "last_updated": "2026-04-16T05:07:33.601713+00:00"
+    },
+    "faiscadev/fakecloud": {
+      "lists": [],
+      "metadata": {
+        "id": 1201301111,
+        "name": "fakecloud",
+        "full_name": "faiscadev/fakecloud",
+        "description": "Local AWS cloud emulator. Free forever.",
+        "url": "https://github.com/faiscadev/fakecloud",
+        "homepage": "https://fakecloud.dev",
+        "language": "Rust",
+        "stars": 136,
+        "forks": 8,
+        "open_issues": 2,
+        "created_at": "2026-04-04T13:45:31Z",
+        "updated_at": "2026-04-16T04:54:23Z",
+        "pushed_at": "2026-04-16T03:38:14Z",
+        "starred_at": "2026-04-16T00:45:05Z"
+      },
+      "last_updated": "2026-04-16T05:07:33.955904+00:00"
+    },
+    "saffron-health/libretto": {
+      "lists": [],
+      "metadata": {
+        "id": 1171010355,
+        "name": "libretto",
+        "full_name": "saffron-health/libretto",
+        "description": "The AI toolkit for building and maintaining browser automations",
+        "url": "https://github.com/saffron-health/libretto",
+        "homepage": "https://libretto.sh",
+        "language": "TypeScript",
+        "stars": 267,
+        "forks": 12,
+        "open_issues": 1,
+        "created_at": "2026-03-02T19:20:56Z",
+        "updated_at": "2026-04-16T05:05:34Z",
+        "pushed_at": "2026-04-16T04:04:12Z",
+        "starred_at": "2026-04-16T00:39:02Z"
+      },
+      "last_updated": "2026-04-16T05:07:34.276851+00:00"
+    },
+    "usestrix/strix": {
+      "lists": [],
+      "metadata": {
+        "id": 1032808806,
+        "name": "strix",
+        "full_name": "usestrix/strix",
+        "description": "Open-source AI hackers to find and fix your app\u2019s vulnerabilities.",
+        "url": "https://github.com/usestrix/strix",
+        "homepage": "https://strix.ai",
+        "language": "Python",
+        "stars": 24011,
+        "forks": 2636,
+        "open_issues": 96,
+        "created_at": "2025-08-05T21:28:30Z",
+        "updated_at": "2026-04-16T05:00:30Z",
+        "pushed_at": "2026-04-15T20:58:54Z",
+        "starred_at": "2026-04-15T16:56:31Z"
+      },
+      "last_updated": "2026-04-16T05:07:34.594350+00:00"
+    },
+    "pimoroni/picofx": {
+      "lists": [],
+      "metadata": {
+        "id": 835212086,
+        "name": "picofx",
+        "full_name": "pimoroni/picofx",
+        "description": "Tiny RGB and mono lighting effects sequencer",
+        "url": "https://github.com/pimoroni/picofx",
+        "homepage": null,
+        "language": "Python",
+        "stars": 11,
+        "forks": 4,
+        "open_issues": 7,
+        "created_at": "2024-07-29T11:39:21Z",
+        "updated_at": "2026-04-15T06:14:10Z",
+        "pushed_at": "2026-04-15T16:34:35Z",
+        "starred_at": "2026-04-15T06:14:09Z"
+      },
+      "last_updated": "2026-04-16T05:07:34.952215+00:00"
+    },
+    "Csontikka/esphome-tailscale": {
+      "lists": [],
+      "metadata": {
+        "id": 1205327962,
+        "name": "esphome-tailscale",
+        "full_name": "Csontikka/esphome-tailscale",
+        "description": "ESPHome Tailscale external component using MicroLink",
+        "url": "https://github.com/Csontikka/esphome-tailscale",
+        "homepage": null,
+        "language": "C",
+        "stars": 62,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-04-08T21:28:05Z",
+        "updated_at": "2026-04-16T00:05:20Z",
+        "pushed_at": "2026-04-13T13:05:14Z",
+        "starred_at": "2026-04-14T17:52:45Z"
+      },
+      "last_updated": "2026-04-16T05:07:35.267947+00:00"
+    },
+    "guptarohit/asciigraph": {
+      "lists": [],
+      "metadata": {
+        "id": 137647094,
+        "name": "asciigraph",
+        "full_name": "guptarohit/asciigraph",
+        "description": "Go package to make lightweight ASCII line graph \u256d\u2508\u256f in command line apps with no other dependencies.",
+        "url": "https://github.com/guptarohit/asciigraph",
+        "homepage": "https://pkg.go.dev/github.com/guptarohit/asciigraph",
+        "language": "Go",
+        "stars": 2998,
+        "forks": 115,
+        "open_issues": 7,
+        "created_at": "2018-06-17T10:37:16Z",
+        "updated_at": "2026-04-14T22:28:19Z",
+        "pushed_at": "2026-03-28T11:38:27Z",
+        "starred_at": "2026-04-14T03:35:40Z"
+      },
+      "last_updated": "2026-04-16T05:07:35.604497+00:00"
+    },
+    "NimbleMarkets/ntcharts": {
+      "lists": [],
+      "metadata": {
+        "id": 765822855,
+        "name": "ntcharts",
+        "full_name": "NimbleMarkets/ntcharts",
+        "description": "Nimble Terminal Charts for the Golang BubbleTea framework and your TUIs",
+        "url": "https://github.com/NimbleMarkets/ntcharts",
+        "homepage": "https://nimble.markets",
+        "language": "Go",
+        "stars": 689,
+        "forks": 12,
+        "open_issues": 11,
+        "created_at": "2024-03-01T17:28:26Z",
+        "updated_at": "2026-04-16T03:32:33Z",
+        "pushed_at": "2026-04-13T22:34:02Z",
+        "starred_at": "2026-04-14T03:35:21Z"
+      },
+      "last_updated": "2026-04-16T05:07:35.949426+00:00"
+    },
+    "github/gh-stack": {
+      "lists": [],
+      "metadata": {
+        "id": 1151630728,
+        "name": "gh-stack",
+        "full_name": "github/gh-stack",
+        "description": "GitHub Stacked PRs",
+        "url": "https://github.com/github/gh-stack",
+        "homepage": "https://gh.io/stacks",
+        "language": "Go",
+        "stars": 247,
+        "forks": 3,
+        "open_issues": 6,
+        "created_at": "2026-02-06T17:49:56Z",
+        "updated_at": "2026-04-16T03:29:25Z",
+        "pushed_at": "2026-04-16T05:04:12Z",
+        "starred_at": "2026-04-13T21:41:49Z"
+      },
+      "last_updated": "2026-04-16T05:07:36.261637+00:00"
+    },
+    "cloudflare/research.cloudflare.com": {
+      "lists": [],
+      "metadata": {
+        "id": 387905623,
+        "name": "research.cloudflare.com",
+        "full_name": "cloudflare/research.cloudflare.com",
+        "description": null,
+        "url": "https://github.com/cloudflare/research.cloudflare.com",
+        "homepage": "https://research.cloudflare.com",
+        "language": "JavaScript",
+        "stars": 35,
+        "forks": 36,
+        "open_issues": 5,
+        "created_at": "2021-07-20T20:23:44Z",
+        "updated_at": "2026-04-13T16:14:02Z",
+        "pushed_at": "2026-04-09T23:46:22Z",
+        "starred_at": "2026-04-13T16:14:01Z"
+      },
+      "last_updated": "2026-04-16T05:07:36.589142+00:00"
+    },
+    "cloudflare/mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1145216439,
+        "name": "mcp",
+        "full_name": "cloudflare/mcp",
+        "description": "MCP server for the Cloudflare API",
+        "url": "https://github.com/cloudflare/mcp",
+        "homepage": "https://mcp.cloudflare.com/mcp",
+        "language": "TypeScript",
+        "stars": 343,
+        "forks": 28,
+        "open_issues": 27,
+        "created_at": "2026-01-29T15:10:49Z",
+        "updated_at": "2026-04-16T04:25:40Z",
+        "pushed_at": "2026-04-16T02:19:58Z",
+        "starred_at": "2026-04-13T16:13:16Z"
+      },
+      "last_updated": "2026-04-16T05:07:36.939935+00:00"
+    },
+    "cloudflare/ai": {
+      "lists": [],
+      "metadata": {
+        "id": 948501453,
+        "name": "ai",
+        "full_name": "cloudflare/ai",
+        "description": null,
+        "url": "https://github.com/cloudflare/ai",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 1001,
+        "forks": 281,
+        "open_issues": 49,
+        "created_at": "2025-03-14T12:57:48Z",
+        "updated_at": "2026-04-16T00:15:01Z",
+        "pushed_at": "2026-04-15T21:52:10Z",
+        "starred_at": "2026-04-13T16:08:01Z"
+      },
+      "last_updated": "2026-04-16T05:07:37.254245+00:00"
+    },
+    "cloudflare/api-schemas": {
+      "lists": [],
+      "metadata": {
+        "id": 504269693,
+        "name": "api-schemas",
+        "full_name": "cloudflare/api-schemas",
+        "description": null,
+        "url": "https://github.com/cloudflare/api-schemas",
+        "homepage": null,
+        "language": null,
+        "stars": 167,
+        "forks": 63,
+        "open_issues": 1,
+        "created_at": "2022-06-16T18:46:27Z",
+        "updated_at": "2026-04-15T23:28:47Z",
+        "pushed_at": "2026-04-15T23:28:46Z",
+        "starred_at": "2026-04-13T16:06:50Z"
+      },
+      "last_updated": "2026-04-16T05:07:37.578799+00:00"
+    },
+    "Nuvotion-Visuals/Downturn": {
+      "lists": [],
+      "metadata": {
+        "id": 1207603002,
+        "name": "Downturn",
+        "full_name": "Nuvotion-Visuals/Downturn",
+        "description": "Markdown web browser and text editor",
+        "url": "https://github.com/Nuvotion-Visuals/Downturn",
+        "homepage": "https://downturn.nuvotion.live",
+        "language": "JavaScript",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 9,
+        "created_at": "2026-04-11T06:28:58Z",
+        "updated_at": "2026-04-14T06:26:51Z",
+        "pushed_at": "2026-04-14T06:26:48Z",
+        "starred_at": "2026-04-11T16:10:48Z"
+      },
+      "last_updated": "2026-04-16T05:07:37.909053+00:00"
+    },
+    "oobabooga/textgen": {
+      "lists": [],
+      "metadata": {
+        "id": 580642043,
+        "name": "textgen",
+        "full_name": "oobabooga/textgen",
+        "description": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private.",
+        "url": "https://github.com/oobabooga/textgen",
+        "homepage": "https://localbench.substack.com",
+        "language": "Python",
+        "stars": 46654,
+        "forks": 5943,
+        "open_issues": 776,
+        "created_at": "2022-12-21T04:17:37Z",
+        "updated_at": "2026-04-16T05:03:29Z",
+        "pushed_at": "2026-04-16T03:02:13Z",
+        "starred_at": "2023-05-10T14:55:05Z"
+      },
+      "last_updated": "2026-04-16T05:07:38.351387+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166342,5 +166642,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"af9a62e8cd379ff9b896dcad4b9c0c940d140a017f4376831a0aaf1344ebc701\""
+  "profile_etag": "W/\"93ec00cdf8faea2eb589552fb16ea33ae9d909e2a422f7a062256ec8ec654d4b\""
 }
