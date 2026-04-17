@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T05:40:28.528762+00:00",
+  "last_updated": "2026-04-17T05:42:41.421616+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166682,7 +166682,10 @@
       "last_updated": "2026-04-16T05:07:38.351387+00:00"
     },
     "isomorphic-git/isomorphic-git": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 98770076,
         "name": "isomorphic-git",
