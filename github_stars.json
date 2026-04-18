@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T05:21:12.392621+00:00",
+  "last_updated": "2026-04-18T05:25:59.462021+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166705,7 +166705,10 @@
       "last_updated": "2026-04-17T05:40:28.528656+00:00"
     },
     "miseryco/shaderpad": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 923095555,
         "name": "shaderpad",
@@ -166725,7 +166728,10 @@
       "last_updated": "2026-04-18T05:21:11.927575+00:00"
     },
     "paniclock/paniclock": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1147559338,
         "name": "paniclock",
@@ -166745,7 +166751,9 @@
       "last_updated": "2026-04-18T05:21:12.153526+00:00"
     },
     "cloud-gouv/securix": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 939434316,
         "name": "securix",
