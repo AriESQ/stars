@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T05:25:59.462021+00:00",
+  "last_updated": "2026-04-19T05:40:23.702919+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166771,6 +166771,66 @@
         "starred_at": "2026-04-17T13:57:51Z"
       },
       "last_updated": "2026-04-18T05:21:12.392514+00:00"
+    },
+    "alexziskind1/mlx-jaccl-cluster": {
+      "lists": [],
+      "metadata": {
+        "id": 1145348881,
+        "name": "mlx-jaccl-cluster",
+        "full_name": "alexziskind1/mlx-jaccl-cluster",
+        "description": null,
+        "url": "https://github.com/alexziskind1/mlx-jaccl-cluster",
+        "homepage": null,
+        "language": "Python",
+        "stars": 148,
+        "forks": 34,
+        "open_issues": 0,
+        "created_at": "2026-01-29T17:52:57Z",
+        "updated_at": "2026-04-19T05:21:12Z",
+        "pushed_at": "2026-02-01T20:07:26Z",
+        "starred_at": "2026-04-18T20:57:58Z"
+      },
+      "last_updated": "2026-04-19T05:40:23.304968+00:00"
+    },
+    "ml-explore/mlx-lm": {
+      "lists": [],
+      "metadata": {
+        "id": 946767878,
+        "name": "mlx-lm",
+        "full_name": "ml-explore/mlx-lm",
+        "description": "Run LLMs with MLX",
+        "url": "https://github.com/ml-explore/mlx-lm",
+        "homepage": "",
+        "language": "Python",
+        "stars": 4848,
+        "forks": 581,
+        "open_issues": 229,
+        "created_at": "2025-03-11T16:38:30Z",
+        "updated_at": "2026-04-19T05:07:49Z",
+        "pushed_at": "2026-04-15T00:21:32Z",
+        "starred_at": "2026-04-18T20:57:12Z"
+      },
+      "last_updated": "2026-04-19T05:40:23.510562+00:00"
+    },
+    "cloud-gouv/bureautix-example": {
+      "lists": [],
+      "metadata": {
+        "id": 1082481292,
+        "name": "bureautix-example",
+        "full_name": "cloud-gouv/bureautix-example",
+        "description": null,
+        "url": "https://github.com/cloud-gouv/bureautix-example",
+        "homepage": null,
+        "language": "Nix",
+        "stars": 128,
+        "forks": 6,
+        "open_issues": 9,
+        "created_at": "2025-10-24T09:56:56Z",
+        "updated_at": "2026-04-18T20:03:47Z",
+        "pushed_at": "2026-02-23T14:36:13Z",
+        "starred_at": "2026-04-18T06:09:38Z"
+      },
+      "last_updated": "2026-04-19T05:40:23.702802+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166780,5 +166840,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"2cb254c7c7f57ae47e398c4f1cb1cbf02b32d591620bc2fc919d6a4726087dc8\""
+  "profile_etag": "W/\"e467bbc05922f0a7787c6de88f89e3af28bc9f587e1d9554189a3ada4fd372cc\""
 }
