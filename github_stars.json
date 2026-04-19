@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T05:40:23.702919+00:00",
+  "last_updated": "2026-04-19T05:45:09.262586+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -52669,7 +52669,8 @@
     },
     "exo-explore/exo": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 819554665,
@@ -166752,7 +166753,8 @@
     },
     "cloud-gouv/securix": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "Infosec"
       ],
       "metadata": {
         "id": 939434316,
@@ -166773,7 +166775,11 @@
       "last_updated": "2026-04-18T05:21:12.392514+00:00"
     },
     "alexziskind1/mlx-jaccl-cluster": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1145348881,
         "name": "mlx-jaccl-cluster",
@@ -166793,7 +166799,11 @@
       "last_updated": "2026-04-19T05:40:23.304968+00:00"
     },
     "ml-explore/mlx-lm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 946767878,
         "name": "mlx-lm",
