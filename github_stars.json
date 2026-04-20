@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T05:45:09.262586+00:00",
+  "last_updated": "2026-04-20T06:01:25.515001+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166841,6 +166841,106 @@
         "starred_at": "2026-04-18T06:09:38Z"
       },
       "last_updated": "2026-04-19T05:40:23.702802+00:00"
+    },
+    "cheyao/icepi-zero": {
+      "lists": [],
+      "metadata": {
+        "id": 973244112,
+        "name": "icepi-zero",
+        "full_name": "cheyao/icepi-zero",
+        "description": "An ECP5 FPGA Dev Board in a Pi Zero form",
+        "url": "https://github.com/cheyao/icepi-zero",
+        "homepage": "https://www.crowdsupply.com/icy-electronics/icepi-zero/",
+        "language": "HTML",
+        "stars": 767,
+        "forks": 30,
+        "open_issues": 2,
+        "created_at": "2025-04-26T15:19:49Z",
+        "updated_at": "2026-04-19T19:31:43Z",
+        "pushed_at": "2026-04-04T17:01:47Z",
+        "starred_at": "2026-04-19T19:31:42Z"
+      },
+      "last_updated": "2026-04-20T06:01:24.080696+00:00"
+    },
+    "apple/device-management": {
+      "lists": [],
+      "metadata": {
+        "id": 494585544,
+        "name": "device-management",
+        "full_name": "apple/device-management",
+        "description": "Device management schema data for MDM.",
+        "url": "https://github.com/apple/device-management",
+        "homepage": "",
+        "language": null,
+        "stars": 899,
+        "forks": 124,
+        "open_issues": 0,
+        "created_at": "2022-05-20T19:32:55Z",
+        "updated_at": "2026-04-19T17:56:56Z",
+        "pushed_at": "2026-03-25T14:14:40Z",
+        "starred_at": "2026-04-19T17:56:55Z"
+      },
+      "last_updated": "2026-04-20T06:01:24.404704+00:00"
+    },
+    "drpetersonfernandes/SimpleLauncher": {
+      "lists": [],
+      "metadata": {
+        "id": 682297489,
+        "name": "SimpleLauncher",
+        "full_name": "drpetersonfernandes/SimpleLauncher",
+        "description": "Simple Launcher is a high-performance, open-source emulator frontend built with C# and WPF. Designed for both casual gamers and power users, it provides a seamless interface to organize, browse, and launch your retro gaming collection with deep integration for modern emulators and RetroAchievements.",
+        "url": "https://github.com/drpetersonfernandes/SimpleLauncher",
+        "homepage": "https://www.purelogiccode.com/SimpleLauncherPage",
+        "language": "C#",
+        "stars": 222,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2023-08-23T21:49:29Z",
+        "updated_at": "2026-04-19T18:03:35Z",
+        "pushed_at": "2026-04-19T18:03:32Z",
+        "starred_at": "2026-04-19T16:54:40Z"
+      },
+      "last_updated": "2026-04-20T06:01:24.713509+00:00"
+    },
+    "ircluzar/BrokenNes": {
+      "lists": [],
+      "metadata": {
+        "id": 1036338236,
+        "name": "BrokenNes",
+        "full_name": "ircluzar/BrokenNes",
+        "description": "A very normal Nes emulator",
+        "url": "https://github.com/ircluzar/BrokenNes",
+        "homepage": null,
+        "language": "C#",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2025-08-11T23:43:27Z",
+        "updated_at": "2026-04-19T16:30:07Z",
+        "pushed_at": "2026-04-01T01:48:46Z",
+        "starred_at": "2026-04-19T16:30:07Z"
+      },
+      "last_updated": "2026-04-20T06:01:25.024909+00:00"
+    },
+    "m87-labs/moondream": {
+      "lists": [],
+      "metadata": {
+        "id": 736812439,
+        "name": "moondream",
+        "full_name": "m87-labs/moondream",
+        "description": "tiny vision language model",
+        "url": "https://github.com/m87-labs/moondream",
+        "homepage": "https://moondream.ai",
+        "language": "Python",
+        "stars": 9593,
+        "forks": 760,
+        "open_issues": 180,
+        "created_at": "2023-12-29T00:27:18Z",
+        "updated_at": "2026-04-20T05:24:25Z",
+        "pushed_at": "2025-11-14T04:17:18Z",
+        "starred_at": "2024-09-12T22:22:15Z"
+      },
+      "last_updated": "2026-04-20T06:01:25.514902+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166850,5 +166950,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e467bbc05922f0a7787c6de88f89e3af28bc9f587e1d9554189a3ada4fd372cc\""
+  "profile_etag": "W/\"d48bbcfb63034a1b83894af3d115867af6b4f3346beab1cc7b5148eaf923897d\""
 }
