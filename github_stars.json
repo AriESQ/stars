@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T06:01:25.515001+00:00",
+  "last_updated": "2026-04-20T06:06:09.695760+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166843,7 +166843,9 @@
       "last_updated": "2026-04-19T05:40:23.702802+00:00"
     },
     "cheyao/icepi-zero": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 973244112,
         "name": "icepi-zero",
@@ -166863,7 +166865,11 @@
       "last_updated": "2026-04-20T06:01:24.080696+00:00"
     },
     "apple/device-management": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 494585544,
         "name": "device-management",
@@ -166883,7 +166889,9 @@
       "last_updated": "2026-04-20T06:01:24.404704+00:00"
     },
     "drpetersonfernandes/SimpleLauncher": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 682297489,
         "name": "SimpleLauncher",
@@ -166903,7 +166911,9 @@
       "last_updated": "2026-04-20T06:01:24.713509+00:00"
     },
     "ircluzar/BrokenNes": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1036338236,
         "name": "BrokenNes",
@@ -166923,7 +166933,9 @@
       "last_updated": "2026-04-20T06:01:25.024909+00:00"
     },
     "m87-labs/moondream": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 736812439,
         "name": "moondream",
