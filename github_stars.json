@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T05:39:19.200671+00:00",
+  "last_updated": "2026-04-21T05:41:57.967108+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166955,7 +166955,9 @@
       "last_updated": "2026-04-20T06:01:25.514902+00:00"
     },
     "MoonshotAI/Kimi-Vendor-Verifier": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1126541122,
         "name": "Kimi-Vendor-Verifier",
