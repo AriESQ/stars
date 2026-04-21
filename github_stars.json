@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T06:06:09.695760+00:00",
+  "last_updated": "2026-04-21T05:39:19.200671+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166953,6 +166953,26 @@
         "starred_at": "2024-09-12T22:22:15Z"
       },
       "last_updated": "2026-04-20T06:01:25.514902+00:00"
+    },
+    "MoonshotAI/Kimi-Vendor-Verifier": {
+      "lists": [],
+      "metadata": {
+        "id": 1126541122,
+        "name": "Kimi-Vendor-Verifier",
+        "full_name": "MoonshotAI/Kimi-Vendor-Verifier",
+        "description": "Kimi-Vendor-Verifier",
+        "url": "https://github.com/MoonshotAI/Kimi-Vendor-Verifier",
+        "homepage": null,
+        "language": "Python",
+        "stars": 43,
+        "forks": 8,
+        "open_issues": 1,
+        "created_at": "2026-01-02T05:43:58Z",
+        "updated_at": "2026-04-21T04:47:56Z",
+        "pushed_at": "2026-02-24T10:10:27Z",
+        "starred_at": "2026-04-20T20:53:31Z"
+      },
+      "last_updated": "2026-04-21T05:39:19.200567+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166962,5 +166982,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d48bbcfb63034a1b83894af3d115867af6b4f3346beab1cc7b5148eaf923897d\""
+  "profile_etag": "W/\"00df64934beb77c37c1c98ebd9f047f49fdafdcbd7f0690a8c11c7a39e714743\""
 }
