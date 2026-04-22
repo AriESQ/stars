@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T05:41:57.967108+00:00",
+  "last_updated": "2026-04-22T05:38:47.435188+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -166975,6 +166975,86 @@
         "starred_at": "2026-04-20T20:53:31Z"
       },
       "last_updated": "2026-04-21T05:39:19.200567+00:00"
+    },
+    "logickworkshop/Flipper-IRDB": {
+      "lists": [],
+      "metadata": {
+        "id": 490873858,
+        "name": "Flipper-IRDB",
+        "full_name": "logickworkshop/Flipper-IRDB",
+        "description": "A collective of different IRs for the Flipper",
+        "url": "https://github.com/logickworkshop/Flipper-IRDB",
+        "homepage": null,
+        "language": null,
+        "stars": 2470,
+        "forks": 333,
+        "open_issues": 0,
+        "created_at": "2022-05-10T22:04:49Z",
+        "updated_at": "2026-04-21T22:14:35Z",
+        "pushed_at": "2026-04-12T06:08:36Z",
+        "starred_at": "2026-04-21T22:14:34Z"
+      },
+      "last_updated": "2026-04-22T05:38:46.670013+00:00"
+    },
+    "UberGuidoZ/Flipper-IRDB": {
+      "lists": [],
+      "metadata": {
+        "id": 491591743,
+        "name": "Flipper-IRDB",
+        "full_name": "UberGuidoZ/Flipper-IRDB",
+        "description": "A collective of different IRs for the Flipper (maintained)",
+        "url": "https://github.com/UberGuidoZ/Flipper-IRDB",
+        "homepage": null,
+        "language": null,
+        "stars": 2371,
+        "forks": 263,
+        "open_issues": 0,
+        "created_at": "2022-05-12T16:34:59Z",
+        "updated_at": "2026-04-21T22:13:05Z",
+        "pushed_at": "2026-04-14T05:21:02Z",
+        "starred_at": "2026-04-21T22:13:05Z"
+      },
+      "last_updated": "2026-04-22T05:38:46.947914+00:00"
+    },
+    "orangeduck/Python-xNormal": {
+      "lists": [],
+      "metadata": {
+        "id": 4313878,
+        "name": "Python-xNormal",
+        "full_name": "orangeduck/Python-xNormal",
+        "description": "Python Wrapper for xNormal",
+        "url": "https://github.com/orangeduck/Python-xNormal",
+        "homepage": null,
+        "language": "Python",
+        "stars": 70,
+        "forks": 9,
+        "open_issues": 1,
+        "created_at": "2012-05-13T11:20:29Z",
+        "updated_at": "2026-04-21T20:29:41Z",
+        "pushed_at": "2020-08-15T14:04:54Z",
+        "starred_at": "2026-04-21T20:29:40Z"
+      },
+      "last_updated": "2026-04-22T05:38:47.165123+00:00"
+    },
+    "theFroh/imagepacker": {
+      "lists": [],
+      "metadata": {
+        "id": 44131127,
+        "name": "imagepacker",
+        "full_name": "theFroh/imagepacker",
+        "description": "Takes a Wavefront OBJ with textures and attempts to squash them into a single texture file.",
+        "url": "https://github.com/theFroh/imagepacker",
+        "homepage": null,
+        "language": "Python",
+        "stars": 57,
+        "forks": 9,
+        "open_issues": 6,
+        "created_at": "2015-10-12T20:02:37Z",
+        "updated_at": "2026-04-21T20:17:34Z",
+        "pushed_at": "2025-12-29T11:32:51Z",
+        "starred_at": "2026-04-21T20:17:33Z"
+      },
+      "last_updated": "2026-04-22T05:38:47.435093+00:00"
     }
   },
   "last_processed_index": 0,
@@ -166984,5 +167064,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"00df64934beb77c37c1c98ebd9f047f49fdafdcbd7f0690a8c11c7a39e714743\""
+  "profile_etag": "W/\"a9642d38bf1b26042b703b34a7678e377a134569ae90384ef2adb5d35453680a\""
 }
