@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T05:38:47.435188+00:00",
+  "last_updated": "2026-04-22T05:43:31.336890+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -61063,7 +61063,8 @@
     },
     "probonopd/irdb": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Music and Video"
       ],
       "metadata": {
         "id": 40058332,
@@ -91651,7 +91652,9 @@
     },
     "Lucaslhm/Flipper-IRDB": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Infosec",
+        "Music and Video"
       ],
       "metadata": {
         "id": 469235243,
@@ -166977,7 +166980,11 @@
       "last_updated": "2026-04-21T05:39:19.200567+00:00"
     },
     "logickworkshop/Flipper-IRDB": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 490873858,
         "name": "Flipper-IRDB",
@@ -166997,7 +167004,11 @@
       "last_updated": "2026-04-22T05:38:46.670013+00:00"
     },
     "UberGuidoZ/Flipper-IRDB": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 491591743,
         "name": "Flipper-IRDB",
@@ -167017,7 +167028,10 @@
       "last_updated": "2026-04-22T05:38:46.947914+00:00"
     },
     "orangeduck/Python-xNormal": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 4313878,
         "name": "Python-xNormal",
@@ -167037,7 +167051,10 @@
       "last_updated": "2026-04-22T05:38:47.165123+00:00"
     },
     "theFroh/imagepacker": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 44131127,
         "name": "imagepacker",
