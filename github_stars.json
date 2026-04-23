@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T05:42:40.517259+00:00",
+  "last_updated": "2026-04-23T05:48:06.536646+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -167074,7 +167074,12 @@
       "last_updated": "2026-04-22T05:38:47.435093+00:00"
     },
     "heygen-com/heygen-cli": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Linux CLI Tools",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1196457246,
         "name": "heygen-cli",
@@ -167094,7 +167099,10 @@
       "last_updated": "2026-04-23T05:42:38.583349+00:00"
     },
     "heygen-com/hyperframes": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1177402105,
         "name": "hyperframes",
@@ -167114,7 +167122,13 @@
       "last_updated": "2026-04-23T05:42:38.763731+00:00"
     },
     "ironsh/iron-proxy": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "GoLang",
+        "Infosec",
+        "Networking"
+      ],
       "metadata": {
         "id": 1198724226,
         "name": "iron-proxy",
@@ -167134,7 +167148,9 @@
       "last_updated": "2026-04-23T05:42:38.950394+00:00"
     },
     "youtube/cobalt": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 50049789,
         "name": "cobalt",
@@ -167154,7 +167170,9 @@
       "last_updated": "2026-04-23T05:42:39.111883+00:00"
     },
     "apinanaivot/IKEA-3D-Model-Download-Button": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 845156346,
         "name": "IKEA-3D-Model-Download-Button",
@@ -167174,7 +167192,9 @@
       "last_updated": "2026-04-23T05:42:39.285954+00:00"
     },
     "ClassicOldSong/moonlight-android": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 826620662,
         "name": "moonlight-android",
@@ -167194,7 +167214,10 @@
       "last_updated": "2026-04-23T05:42:39.504196+00:00"
     },
     "ClassicOldSong/Apollo": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 835271295,
         "name": "Apollo",
@@ -167214,7 +167237,12 @@
       "last_updated": "2026-04-23T05:42:39.668330+00:00"
     },
     "pypi/inspector": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "JavaScript",
+        "Python"
+      ],
       "metadata": {
         "id": 500474076,
         "name": "inspector",
@@ -167234,7 +167262,11 @@
       "last_updated": "2026-04-23T05:42:39.874542+00:00"
     },
     "lucemia/typed-ffmpeg": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 722865845,
         "name": "typed-ffmpeg",
@@ -167254,7 +167286,9 @@
       "last_updated": "2026-04-23T05:42:40.189562+00:00"
     },
     "chocolatey-community/boxstarter": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 24042173,
         "name": "boxstarter",
