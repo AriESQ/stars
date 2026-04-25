@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T05:26:09.332823+00:00",
+  "last_updated": "2026-04-25T05:33:34.288918+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -115508,7 +115508,10 @@
     "flox/flox": {
       "lists": [
         "Rust",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "CI/CD",
+        "Devops",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 581225647,
@@ -117483,7 +117486,8 @@
     },
     "fleetdm/fleet": {
       "lists": [
-        "GoLang"
+        "GoLang",
+        "Devops"
       ],
       "metadata": {
         "id": 309820286,
@@ -147376,7 +147380,8 @@
     "osquery/osquery": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "Windows"
       ],
       "metadata": {
         "id": 22394357,
@@ -167308,7 +167313,10 @@
       "last_updated": "2026-04-23T05:42:40.517176+00:00"
     },
     "pallets/click": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Python"
+      ],
       "metadata": {
         "id": 19103692,
         "name": "click",
@@ -167328,7 +167336,10 @@
       "last_updated": "2026-04-24T05:47:15.083501+00:00"
     },
     "Textualize/textual": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Python"
+      ],
       "metadata": {
         "id": 355959597,
         "name": "textual",
@@ -167348,7 +167359,10 @@
       "last_updated": "2026-04-24T05:47:15.403573+00:00"
     },
     "github/codeql-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 259445878,
         "name": "codeql-action",
@@ -167368,7 +167382,9 @@
       "last_updated": "2026-04-24T05:47:15.712662+00:00"
     },
     "theodo-group/awesome-security-automation": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 699956350,
         "name": "awesome-security-automation",
@@ -167388,7 +167404,11 @@
       "last_updated": "2026-04-24T05:47:16.022259+00:00"
     },
     "brexhq/CrabTrap": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1213776823,
         "name": "CrabTrap",
@@ -167408,7 +167428,11 @@
       "last_updated": "2026-04-24T05:47:16.366209+00:00"
     },
     "always-further/nono": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1146550474,
         "name": "nono",
@@ -167428,7 +167452,12 @@
       "last_updated": "2026-04-24T05:47:16.682458+00:00"
     },
     "trailofbits/claude-code-devcontainer": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "Infosec",
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1053169398,
         "name": "claude-code-devcontainer",
@@ -167448,7 +167477,11 @@
       "last_updated": "2026-04-24T05:47:16.989749+00:00"
     },
     "palantir/bulldozer": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Github Actions",
+        "GoLang"
+      ],
       "metadata": {
         "id": 102513583,
         "name": "bulldozer",
@@ -167468,7 +167501,9 @@
       "last_updated": "2026-04-24T05:47:17.300885+00:00"
     },
     "palantir/gradle-docker": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 42682769,
         "name": "gradle-docker",
@@ -167488,7 +167523,11 @@
       "last_updated": "2026-04-24T05:47:17.639055+00:00"
     },
     "palantir/go-githubapp": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Github Actions",
+        "GoLang"
+      ],
       "metadata": {
         "id": 151643520,
         "name": "go-githubapp",
@@ -167508,7 +167547,10 @@
       "last_updated": "2026-04-24T05:47:17.942100+00:00"
     },
     "palantir/jamf-pro-scripts": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec"
+      ],
       "metadata": {
         "id": 138230965,
         "name": "jamf-pro-scripts",
@@ -167528,7 +167570,11 @@
       "last_updated": "2026-04-24T05:47:18.255486+00:00"
     },
     "ketsapiwiq/siem-infra": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Windows"
+      ],
       "metadata": {
         "id": 274912839,
         "name": "siem-infra",
@@ -167548,7 +167594,11 @@
       "last_updated": "2026-04-24T05:47:18.543823+00:00"
     },
     "daemonless/daemonless": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1122498401,
         "name": "daemonless",
@@ -167568,7 +167618,12 @@
       "last_updated": "2026-04-24T05:47:18.862574+00:00"
     },
     "TsekNet/converge": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "GoLang",
+        "Linux CLI Tools",
+        "Windows"
+      ],
       "metadata": {
         "id": 1161757986,
         "name": "converge",
@@ -167588,7 +167643,9 @@
       "last_updated": "2026-04-24T05:47:19.171170+00:00"
     },
     "TsekNet/PowerShell": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 90320266,
         "name": "PowerShell",
@@ -167608,7 +167665,12 @@
       "last_updated": "2026-04-24T05:47:19.493276+00:00"
     },
     "google/fresnel": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Linux CLI Tools",
+        "Windows"
+      ],
       "metadata": {
         "id": 278483267,
         "name": "fresnel",
@@ -167628,7 +167690,9 @@
       "last_updated": "2026-04-24T05:47:19.818431+00:00"
     },
     "google/cabbie": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 274211442,
         "name": "cabbie",
@@ -167648,7 +167712,12 @@
       "last_updated": "2026-04-24T05:47:20.166373+00:00"
     },
     "TsekNet/fleet-plan": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "GoLang",
+        "Windows"
+      ],
       "metadata": {
         "id": 1158212737,
         "name": "fleet-plan",
@@ -167668,7 +167737,9 @@
       "last_updated": "2026-04-24T05:47:20.469361+00:00"
     },
     "palantir/plottable": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 16149854,
         "name": "plottable",
@@ -167688,7 +167759,10 @@
       "last_updated": "2026-04-24T05:47:20.794916+00:00"
     },
     "palantir/osquery-configuration": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec"
+      ],
       "metadata": {
         "id": 110026610,
         "name": "osquery-configuration",
@@ -167708,7 +167782,10 @@
       "last_updated": "2026-04-24T05:47:21.136308+00:00"
     },
     "zentralopensource/zentral": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops"
+      ],
       "metadata": {
         "id": 44610249,
         "name": "zentral",
@@ -167728,7 +167805,11 @@
       "last_updated": "2026-04-24T05:47:21.453810+00:00"
     },
     "osquery/osquery-go": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 90204769,
         "name": "osquery-go",
@@ -167748,7 +167829,11 @@
       "last_updated": "2026-04-24T05:47:21.770710+00:00"
     },
     "osquery/osquery-python": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools",
+        "Python"
+      ],
       "metadata": {
         "id": 34819313,
         "name": "osquery-python",
@@ -167768,7 +167853,11 @@
       "last_updated": "2026-04-24T05:47:22.067917+00:00"
     },
     "trailofbits/osquery-extensions": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 112785593,
         "name": "osquery-extensions",
@@ -167788,7 +167877,9 @@
       "last_updated": "2026-04-24T05:47:22.421656+00:00"
     },
     "mrshu/github-statuses": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 502458912,
         "name": "github-statuses",
@@ -167808,7 +167899,10 @@
       "last_updated": "2026-04-24T05:47:22.776044+00:00"
     },
     "coleam00/Archon": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 929121414,
         "name": "Archon",
@@ -167828,7 +167922,10 @@
       "last_updated": "2026-04-24T05:47:23.057499+00:00"
     },
     "0xXyc/flock-you-wifi-recon": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1217879721,
         "name": "flock-you-wifi-recon",
@@ -167848,7 +167945,9 @@
       "last_updated": "2026-04-24T05:47:23.342798+00:00"
     },
     "Miustone/BAREbONE1": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 754275411,
         "name": "BAREbONE1",
@@ -167868,7 +167967,10 @@
       "last_updated": "2026-04-24T05:47:23.694609+00:00"
     },
     "trailofbits/claude-code-config": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1149919051,
         "name": "claude-code-config",
@@ -167888,7 +167990,10 @@
       "last_updated": "2026-04-25T05:26:08.262512+00:00"
     },
     "CircularTonic/BreadBoard-PatchMate-Series": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 821105099,
         "name": "BreadBoard-PatchMate-Series",
@@ -167908,7 +168013,13 @@
       "last_updated": "2026-04-25T05:26:08.428942+00:00"
     },
     "mbta/stunnel-docker": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Infosec",
+        "Networking",
+        "PKI"
+      ],
       "metadata": {
         "id": 528047584,
         "name": "stunnel-docker",
@@ -167928,7 +168039,10 @@
       "last_updated": "2026-04-25T05:26:08.659369+00:00"
     },
     "mbta/on_prem_deploy": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 521022565,
         "name": "on_prem_deploy",
@@ -167948,7 +168062,9 @@
       "last_updated": "2026-04-25T05:26:08.855414+00:00"
     },
     "geerlingguy/mac-dev-playbook": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 16773572,
         "name": "mac-dev-playbook",
@@ -167968,7 +168084,10 @@
       "last_updated": "2026-04-25T05:26:09.017114+00:00"
     },
     "open-gitagent/gitagent-protocol": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1165855406,
         "name": "gitagent-protocol",
