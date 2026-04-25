@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T05:47:23.694688+00:00",
+  "last_updated": "2026-04-25T05:26:09.332823+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -167866,6 +167866,126 @@
         "starred_at": "2026-04-23T06:33:17Z"
       },
       "last_updated": "2026-04-24T05:47:23.694609+00:00"
+    },
+    "trailofbits/claude-code-config": {
+      "lists": [],
+      "metadata": {
+        "id": 1149919051,
+        "name": "claude-code-config",
+        "full_name": "trailofbits/claude-code-config",
+        "description": "Opinionated defaults, documentation, and workflows for Claude Code at Trail of Bits",
+        "url": "https://github.com/trailofbits/claude-code-config",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 1891,
+        "forks": 141,
+        "open_issues": 13,
+        "created_at": "2026-02-04T17:12:06Z",
+        "updated_at": "2026-04-25T03:33:30Z",
+        "pushed_at": "2026-04-02T09:26:12Z",
+        "starred_at": "2026-04-25T00:17:37Z"
+      },
+      "last_updated": "2026-04-25T05:26:08.262512+00:00"
+    },
+    "CircularTonic/BreadBoard-PatchMate-Series": {
+      "lists": [],
+      "metadata": {
+        "id": 821105099,
+        "name": "BreadBoard-PatchMate-Series",
+        "full_name": "CircularTonic/BreadBoard-PatchMate-Series",
+        "description": "Little Bread Board Buddies that I made for standard Euro Rack components.  You can order them and try them if you find them useful. ",
+        "url": "https://github.com/CircularTonic/BreadBoard-PatchMate-Series",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-06-27T20:29:26Z",
+        "updated_at": "2026-04-24T23:57:15Z",
+        "pushed_at": "2024-06-27T20:47:56Z",
+        "starred_at": "2026-04-24T23:57:14Z"
+      },
+      "last_updated": "2026-04-25T05:26:08.428942+00:00"
+    },
+    "mbta/stunnel-docker": {
+      "lists": [],
+      "metadata": {
+        "id": 528047584,
+        "name": "stunnel-docker",
+        "full_name": "mbta/stunnel-docker",
+        "description": "Docker image to run Stunnel in a container",
+        "url": "https://github.com/mbta/stunnel-docker",
+        "homepage": "",
+        "language": "PowerShell",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2022-08-23T15:15:38Z",
+        "updated_at": "2026-04-24T23:36:05Z",
+        "pushed_at": "2026-04-24T14:22:53Z",
+        "starred_at": "2026-04-24T23:36:05Z"
+      },
+      "last_updated": "2026-04-25T05:26:08.659369+00:00"
+    },
+    "mbta/on_prem_deploy": {
+      "lists": [],
+      "metadata": {
+        "id": 521022565,
+        "name": "on_prem_deploy",
+        "full_name": "mbta/on_prem_deploy",
+        "description": "Support scripts for deploying to on-prem servers",
+        "url": "https://github.com/mbta/on_prem_deploy",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 2,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2022-08-03T20:28:10Z",
+        "updated_at": "2026-04-24T23:35:04Z",
+        "pushed_at": "2026-04-22T17:45:03Z",
+        "starred_at": "2026-04-24T23:35:04Z"
+      },
+      "last_updated": "2026-04-25T05:26:08.855414+00:00"
+    },
+    "geerlingguy/mac-dev-playbook": {
+      "lists": [],
+      "metadata": {
+        "id": 16773572,
+        "name": "mac-dev-playbook",
+        "full_name": "geerlingguy/mac-dev-playbook",
+        "description": "Mac setup and configuration via Ansible.",
+        "url": "https://github.com/geerlingguy/mac-dev-playbook",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 6942,
+        "forks": 1884,
+        "open_issues": 8,
+        "created_at": "2014-02-12T16:29:15Z",
+        "updated_at": "2026-04-24T22:53:32Z",
+        "pushed_at": "2026-02-03T05:18:58Z",
+        "starred_at": "2026-04-24T22:53:31Z"
+      },
+      "last_updated": "2026-04-25T05:26:09.017114+00:00"
+    },
+    "open-gitagent/gitagent-protocol": {
+      "lists": [],
+      "metadata": {
+        "id": 1165855406,
+        "name": "gitagent-protocol",
+        "full_name": "open-gitagent/gitagent-protocol",
+        "description": "A framework-agnostic, git-native standard for defining AI agents",
+        "url": "https://github.com/open-gitagent/gitagent-protocol",
+        "homepage": "https://gitagent.sh",
+        "language": "TypeScript",
+        "stars": 2724,
+        "forks": 326,
+        "open_issues": 22,
+        "created_at": "2026-02-24T16:08:24Z",
+        "updated_at": "2026-04-25T00:28:36Z",
+        "pushed_at": "2026-04-23T19:10:15Z",
+        "starred_at": "2026-03-14T19:11:50Z"
+      },
+      "last_updated": "2026-04-25T05:26:09.332751+00:00"
     }
   },
   "last_processed_index": 0,
@@ -167875,5 +167995,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"afb5a2c2254a13182a472e42480f7af3105201845ea44d3c8ac15ffcad8a8a9f\""
+  "profile_etag": "W/\"4feccb6e666d59c4933d83d3b747de96d2f4c8cf1f13b59751e627cab4d06a68\""
 }
