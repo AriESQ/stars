@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T06:14:18.870316+00:00",
+  "last_updated": "2026-04-27T06:21:55.646287+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168107,7 +168107,9 @@
       "last_updated": "2026-04-25T05:26:09.332751+00:00"
     },
     "di/pip-api": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 126094105,
         "name": "pip-api",
@@ -168127,7 +168129,10 @@
       "last_updated": "2026-04-27T06:14:15.848382+00:00"
     },
     "stm32-rs/stm32f4xx-hal": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 151166891,
         "name": "stm32f4xx-hal",
@@ -168147,7 +168152,10 @@
       "last_updated": "2026-04-27T06:14:16.119739+00:00"
     },
     "kerstensrobin/kicad-breadboard": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Python"
+      ],
       "metadata": {
         "id": 1195213828,
         "name": "kicad-breadboard",
@@ -168167,7 +168175,10 @@
       "last_updated": "2026-04-27T06:14:16.338094+00:00"
     },
     "rust-embedded/book": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 144215917,
         "name": "book",
@@ -168187,7 +168198,9 @@
       "last_updated": "2026-04-27T06:14:16.636727+00:00"
     },
     "libopencm3/libopencm3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 4065980,
         "name": "libopencm3",
@@ -168207,7 +168220,10 @@
       "last_updated": "2026-04-27T06:14:16.913876+00:00"
     },
     "oxidecomputer/hubris": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 252314296,
         "name": "hubris",
@@ -168227,7 +168243,10 @@
       "last_updated": "2026-04-27T06:14:17.154920+00:00"
     },
     "cbiffle/lilos": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 1561861,
         "name": "lilos",
@@ -168247,7 +168266,9 @@
       "last_updated": "2026-04-27T06:14:17.378109+00:00"
     },
     "cjacker/opensource-toolchain-stm32": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 487013120,
         "name": "opensource-toolchain-stm32",
@@ -168267,7 +168288,9 @@
       "last_updated": "2026-04-27T06:14:17.578378+00:00"
     },
     "STMicroelectronics/STM32CubeF4": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 182088763,
         "name": "STM32CubeF4",
@@ -168287,7 +168310,10 @@
       "last_updated": "2026-04-27T06:14:17.834429+00:00"
     },
     "probe-rs/probe-rs": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 170021740,
         "name": "probe-rs",
@@ -168307,7 +168333,10 @@
       "last_updated": "2026-04-27T06:14:18.088550+00:00"
     },
     "embassy-rs/stm32-data": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 358105739,
         "name": "stm32-data",
@@ -168327,7 +168356,10 @@
       "last_updated": "2026-04-27T06:14:18.329424+00:00"
     },
     "embassy-rs/embassy": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 297701481,
         "name": "embassy",
@@ -168347,7 +168379,10 @@
       "last_updated": "2026-04-27T06:14:18.652408+00:00"
     },
     "nakagami/grdpwasm": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "WASM"
+      ],
       "metadata": {
         "id": 1220561746,
         "name": "grdpwasm",
