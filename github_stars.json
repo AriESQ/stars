@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T05:33:34.288918+00:00",
+  "last_updated": "2026-04-27T06:14:18.870316+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168105,6 +168105,266 @@
         "starred_at": "2026-03-14T19:11:50Z"
       },
       "last_updated": "2026-04-25T05:26:09.332751+00:00"
+    },
+    "di/pip-api": {
+      "lists": [],
+      "metadata": {
+        "id": 126094105,
+        "name": "pip-api",
+        "full_name": "di/pip-api",
+        "description": "An unofficial, importable pip API",
+        "url": "https://github.com/di/pip-api",
+        "homepage": "https://pypi.org/p/pip-api",
+        "language": "Python",
+        "stars": 120,
+        "forks": 18,
+        "open_issues": 19,
+        "created_at": "2018-03-20T23:07:14Z",
+        "updated_at": "2026-04-27T00:14:40Z",
+        "pushed_at": "2026-04-27T00:22:43Z",
+        "starred_at": "2026-04-26T23:31:40Z"
+      },
+      "last_updated": "2026-04-27T06:14:15.848382+00:00"
+    },
+    "stm32-rs/stm32f4xx-hal": {
+      "lists": [],
+      "metadata": {
+        "id": 151166891,
+        "name": "stm32f4xx-hal",
+        "full_name": "stm32-rs/stm32f4xx-hal",
+        "description": "A Rust embedded-hal HAL for all MCUs in the STM32 F4 family",
+        "url": "https://github.com/stm32-rs/stm32f4xx-hal",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 680,
+        "forks": 218,
+        "open_issues": 82,
+        "created_at": "2018-10-01T22:03:48Z",
+        "updated_at": "2026-04-26T21:41:28Z",
+        "pushed_at": "2026-04-20T03:34:18Z",
+        "starred_at": "2026-04-26T21:41:27Z"
+      },
+      "last_updated": "2026-04-27T06:14:16.119739+00:00"
+    },
+    "kerstensrobin/kicad-breadboard": {
+      "lists": [],
+      "metadata": {
+        "id": 1195213828,
+        "name": "kicad-breadboard",
+        "full_name": "kerstensrobin/kicad-breadboard",
+        "description": "A tool for those who fancy breadboards, to practice and prepare their circuits on a breadboard should none be available.",
+        "url": "https://github.com/kerstensrobin/kicad-breadboard",
+        "homepage": "",
+        "language": "Python",
+        "stars": 66,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-03-29T11:39:04Z",
+        "updated_at": "2026-04-27T05:45:36Z",
+        "pushed_at": "2026-04-26T19:38:29Z",
+        "starred_at": "2026-04-26T17:03:51Z"
+      },
+      "last_updated": "2026-04-27T06:14:16.338094+00:00"
+    },
+    "rust-embedded/book": {
+      "lists": [],
+      "metadata": {
+        "id": 144215917,
+        "name": "book",
+        "full_name": "rust-embedded/book",
+        "description": "Documentation on how to use the Rust Programming Language to develop firmware for bare metal (microcontroller) devices",
+        "url": "https://github.com/rust-embedded/book",
+        "homepage": "https://docs.rust-embedded.org/book/",
+        "language": null,
+        "stars": 1298,
+        "forks": 211,
+        "open_issues": 78,
+        "created_at": "2018-08-10T00:11:45Z",
+        "updated_at": "2026-04-27T00:56:04Z",
+        "pushed_at": "2026-04-11T08:47:33Z",
+        "starred_at": "2026-04-26T17:03:24Z"
+      },
+      "last_updated": "2026-04-27T06:14:16.636727+00:00"
+    },
+    "libopencm3/libopencm3": {
+      "lists": [],
+      "metadata": {
+        "id": 4065980,
+        "name": "libopencm3",
+        "full_name": "libopencm3/libopencm3",
+        "description": "Open source ARM Cortex-M microcontroller library",
+        "url": "https://github.com/libopencm3/libopencm3",
+        "homepage": "http://libopencm3.org/",
+        "language": "C",
+        "stars": 3574,
+        "forks": 1121,
+        "open_issues": 268,
+        "created_at": "2012-04-18T16:51:38Z",
+        "updated_at": "2026-04-26T17:01:43Z",
+        "pushed_at": "2026-04-22T20:13:13Z",
+        "starred_at": "2026-04-26T17:01:43Z"
+      },
+      "last_updated": "2026-04-27T06:14:16.913876+00:00"
+    },
+    "oxidecomputer/hubris": {
+      "lists": [],
+      "metadata": {
+        "id": 252314296,
+        "name": "hubris",
+        "full_name": "oxidecomputer/hubris",
+        "description": "A lightweight, memory-protected, message-passing kernel for deeply embedded systems.",
+        "url": "https://github.com/oxidecomputer/hubris",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 3490,
+        "forks": 224,
+        "open_issues": 309,
+        "created_at": "2020-04-02T00:06:32Z",
+        "updated_at": "2026-04-26T16:59:35Z",
+        "pushed_at": "2026-04-25T00:01:06Z",
+        "starred_at": "2026-04-26T16:59:34Z"
+      },
+      "last_updated": "2026-04-27T06:14:17.154920+00:00"
+    },
+    "cbiffle/lilos": {
+      "lists": [],
+      "metadata": {
+        "id": 1561861,
+        "name": "lilos",
+        "full_name": "cbiffle/lilos",
+        "description": "A wee async RTOS for Cortex-M",
+        "url": "https://github.com/cbiffle/lilos",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 816,
+        "forks": 45,
+        "open_issues": 13,
+        "created_at": "2011-04-03T03:38:27Z",
+        "updated_at": "2026-04-26T16:59:16Z",
+        "pushed_at": "2025-09-10T04:09:22Z",
+        "starred_at": "2026-04-26T16:59:15Z"
+      },
+      "last_updated": "2026-04-27T06:14:17.378109+00:00"
+    },
+    "cjacker/opensource-toolchain-stm32": {
+      "lists": [],
+      "metadata": {
+        "id": 487013120,
+        "name": "opensource-toolchain-stm32",
+        "full_name": "cjacker/opensource-toolchain-stm32",
+        "description": "Opensource toolchain for STM32/xx32 MCU ",
+        "url": "https://github.com/cjacker/opensource-toolchain-stm32",
+        "homepage": null,
+        "language": "C",
+        "stars": 7,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2022-04-29T15:01:06Z",
+        "updated_at": "2026-04-26T16:57:00Z",
+        "pushed_at": "2024-11-23T10:45:07Z",
+        "starred_at": "2026-04-26T16:57:00Z"
+      },
+      "last_updated": "2026-04-27T06:14:17.578378+00:00"
+    },
+    "STMicroelectronics/STM32CubeF4": {
+      "lists": [],
+      "metadata": {
+        "id": 182088763,
+        "name": "STM32CubeF4",
+        "full_name": "STMicroelectronics/STM32CubeF4",
+        "description": "STM32Cube MCU Full Package for the STM32F4 series - (HAL + LL Drivers, CMSIS Core, CMSIS Device, MW libraries plus a set of Projects running on all boards provided by ST (Nucleo, Evaluation and Discovery Kits))",
+        "url": "https://github.com/STMicroelectronics/STM32CubeF4",
+        "homepage": null,
+        "language": "C",
+        "stars": 1235,
+        "forks": 475,
+        "open_issues": 2,
+        "created_at": "2019-04-18T13:01:52Z",
+        "updated_at": "2026-04-26T16:53:44Z",
+        "pushed_at": "2026-04-17T10:05:05Z",
+        "starred_at": "2026-04-26T16:53:44Z"
+      },
+      "last_updated": "2026-04-27T06:14:17.834429+00:00"
+    },
+    "probe-rs/probe-rs": {
+      "lists": [],
+      "metadata": {
+        "id": 170021740,
+        "name": "probe-rs",
+        "full_name": "probe-rs/probe-rs",
+        "description": "A debugging toolset and library for debugging embedded ARM and RISC-V targets on a separate host",
+        "url": "https://github.com/probe-rs/probe-rs",
+        "homepage": "https://probe.rs",
+        "language": "Rust",
+        "stars": 2703,
+        "forks": 561,
+        "open_issues": 368,
+        "created_at": "2019-02-10T20:13:01Z",
+        "updated_at": "2026-04-27T02:50:11Z",
+        "pushed_at": "2026-04-27T02:05:54Z",
+        "starred_at": "2026-04-26T16:51:59Z"
+      },
+      "last_updated": "2026-04-27T06:14:18.088550+00:00"
+    },
+    "embassy-rs/stm32-data": {
+      "lists": [],
+      "metadata": {
+        "id": 358105739,
+        "name": "stm32-data",
+        "full_name": "embassy-rs/stm32-data",
+        "description": null,
+        "url": "https://github.com/embassy-rs/stm32-data",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 128,
+        "forks": 195,
+        "open_issues": 53,
+        "created_at": "2021-04-15T02:42:31Z",
+        "updated_at": "2026-04-26T16:47:56Z",
+        "pushed_at": "2026-04-25T20:06:28Z",
+        "starred_at": "2026-04-26T16:47:56Z"
+      },
+      "last_updated": "2026-04-27T06:14:18.329424+00:00"
+    },
+    "embassy-rs/embassy": {
+      "lists": [],
+      "metadata": {
+        "id": 297701481,
+        "name": "embassy",
+        "full_name": "embassy-rs/embassy",
+        "description": "Modern embedded framework, using Rust and async.",
+        "url": "https://github.com/embassy-rs/embassy",
+        "homepage": "https://embassy.dev",
+        "language": "Rust",
+        "stars": 9126,
+        "forks": 1460,
+        "open_issues": 692,
+        "created_at": "2020-09-22T16:04:20Z",
+        "updated_at": "2026-04-27T02:21:32Z",
+        "pushed_at": "2026-04-27T00:38:54Z",
+        "starred_at": "2026-04-26T16:46:37Z"
+      },
+      "last_updated": "2026-04-27T06:14:18.652408+00:00"
+    },
+    "nakagami/grdpwasm": {
+      "lists": [],
+      "metadata": {
+        "id": 1220561746,
+        "name": "grdpwasm",
+        "full_name": "nakagami/grdpwasm",
+        "description": null,
+        "url": "https://github.com/nakagami/grdpwasm",
+        "homepage": null,
+        "language": "Go",
+        "stars": 211,
+        "forks": 4,
+        "open_issues": 2,
+        "created_at": "2026-04-25T03:26:45Z",
+        "updated_at": "2026-04-27T04:55:34Z",
+        "pushed_at": "2026-04-26T02:09:19Z",
+        "starred_at": "2026-04-26T11:35:43Z"
+      },
+      "last_updated": "2026-04-27T06:14:18.870241+00:00"
     }
   },
   "last_processed_index": 0,
@@ -168114,5 +168374,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"c739270e77271e471cf1428ab6f61cdfa9361fb04d548bd454b65d6d4bd10ba2\""
+  "profile_etag": "W/\"3c2a0975639d13cd8096b01bf30f73eddbd5197d07a68d0ced792ba19c346f12\""
 }
