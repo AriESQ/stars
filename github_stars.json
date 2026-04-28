@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T06:18:20.102480+00:00",
+  "last_updated": "2026-04-28T06:25:15.542031+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168402,7 +168402,10 @@
       "last_updated": "2026-04-27T06:14:18.870241+00:00"
     },
     "lovyan03/LovyanGFX": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 225875824,
         "name": "LovyanGFX",
@@ -168422,7 +168425,9 @@
       "last_updated": "2026-04-28T06:18:17.365702+00:00"
     },
     "m4tx/curl-bash-attack": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 859010203,
         "name": "curl-bash-attack",
@@ -168442,7 +168447,11 @@
       "last_updated": "2026-04-28T06:18:17.618391+00:00"
     },
     "statsig-io/statuspage": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 374059256,
         "name": "statuspage",
@@ -168462,7 +168471,9 @@
       "last_updated": "2026-04-28T06:18:17.893242+00:00"
     },
     "logto-io/logto": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 378310716,
         "name": "logto",
@@ -168482,7 +168493,9 @@
       "last_updated": "2026-04-28T06:18:18.185365+00:00"
     },
     "Hanqaqa/Easyduino": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1209252900,
         "name": "Easyduino",
@@ -168502,7 +168515,10 @@
       "last_updated": "2026-04-28T06:18:18.445086+00:00"
     },
     "libc0607/Realtek_switch_hacking": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Networking"
+      ],
       "metadata": {
         "id": 73797011,
         "name": "Realtek_switch_hacking",
@@ -168522,7 +168538,9 @@
       "last_updated": "2026-04-28T06:18:18.690511+00:00"
     },
     "RxLaboratory/DuME": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 92167940,
         "name": "DuME",
@@ -168542,7 +168560,9 @@
       "last_updated": "2026-04-28T06:18:19.003235+00:00"
     },
     "pico-coder/sigrok-pico": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 456351764,
         "name": "sigrok-pico",
@@ -168562,7 +168582,9 @@
       "last_updated": "2026-04-28T06:18:19.266606+00:00"
     },
     "c1570/sigrok-rp2350": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 944196366,
         "name": "sigrok-rp2350",
@@ -168582,7 +168604,9 @@
       "last_updated": "2026-04-28T06:18:19.588784+00:00"
     },
     "boricj/ghidra-delinker-extension": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 679810111,
         "name": "ghidra-delinker-extension",
@@ -168602,7 +168626,10 @@
       "last_updated": "2026-04-28T06:18:19.852240+00:00"
     },
     "WeebLabs/DSPi": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1130541936,
         "name": "DSPi",
