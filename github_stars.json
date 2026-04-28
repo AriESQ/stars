@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T06:21:55.646287+00:00",
+  "last_updated": "2026-04-28T06:18:20.102480+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168400,6 +168400,226 @@
         "starred_at": "2026-04-26T11:35:43Z"
       },
       "last_updated": "2026-04-27T06:14:18.870241+00:00"
+    },
+    "lovyan03/LovyanGFX": {
+      "lists": [],
+      "metadata": {
+        "id": 225875824,
+        "name": "LovyanGFX",
+        "full_name": "lovyan03/LovyanGFX",
+        "description": "SPI LCD graphics library for ESP32 (ESP-IDF/ArduinoESP32) / ESP8266 (ArduinoESP8266) / SAMD51(Seeed ArduinoSAMD51)",
+        "url": "https://github.com/lovyan03/LovyanGFX",
+        "homepage": "",
+        "language": "C",
+        "stars": 1627,
+        "forks": 271,
+        "open_issues": 15,
+        "created_at": "2019-12-04T13:37:34Z",
+        "updated_at": "2026-04-28T04:31:49Z",
+        "pushed_at": "2026-04-25T10:39:56Z",
+        "starred_at": "2026-04-28T04:31:48Z"
+      },
+      "last_updated": "2026-04-28T06:18:17.365702+00:00"
+    },
+    "m4tx/curl-bash-attack": {
+      "lists": [],
+      "metadata": {
+        "id": 859010203,
+        "name": "curl-bash-attack",
+        "full_name": "m4tx/curl-bash-attack",
+        "description": "Server-side detection of using curl | bash in the CLI",
+        "url": "https://github.com/m4tx/curl-bash-attack",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-09-17T23:21:58Z",
+        "updated_at": "2026-04-28T03:34:21Z",
+        "pushed_at": "2026-03-30T22:02:49Z",
+        "starred_at": "2026-04-28T03:34:20Z"
+      },
+      "last_updated": "2026-04-28T06:18:17.618391+00:00"
+    },
+    "statsig-io/statuspage": {
+      "lists": [],
+      "metadata": {
+        "id": 374059256,
+        "name": "statuspage",
+        "full_name": "statsig-io/statuspage",
+        "description": "A simple, zero-dependency, pure js/html status page based on GitHub Pages and Actions.",
+        "url": "https://github.com/statsig-io/statuspage",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 766,
+        "forks": 327,
+        "open_issues": 1,
+        "created_at": "2021-06-05T08:17:55Z",
+        "updated_at": "2026-04-28T02:44:03Z",
+        "pushed_at": "2024-04-01T15:03:00Z",
+        "starred_at": "2026-04-28T02:44:02Z"
+      },
+      "last_updated": "2026-04-28T06:18:17.893242+00:00"
+    },
+    "logto-io/logto": {
+      "lists": [],
+      "metadata": {
+        "id": 378310716,
+        "name": "logto",
+        "full_name": "logto-io/logto",
+        "description": "\ud83e\uddd1\u200d\ud83d\ude80 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+        "url": "https://github.com/logto-io/logto",
+        "homepage": "https://logto.io",
+        "language": "TypeScript",
+        "stars": 11950,
+        "forks": 779,
+        "open_issues": 207,
+        "created_at": "2021-06-19T03:01:50Z",
+        "updated_at": "2026-04-28T05:42:51Z",
+        "pushed_at": "2026-04-28T05:57:44Z",
+        "starred_at": "2026-04-28T02:41:13Z"
+      },
+      "last_updated": "2026-04-28T06:18:18.185365+00:00"
+    },
+    "Hanqaqa/Easyduino": {
+      "lists": [],
+      "metadata": {
+        "id": 1209252900,
+        "name": "Easyduino",
+        "full_name": "Hanqaqa/Easyduino",
+        "description": "Easily dive into different PCB KiCad designs of the most popular microcontroller devboards",
+        "url": "https://github.com/Hanqaqa/Easyduino",
+        "homepage": "",
+        "language": null,
+        "stars": 335,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2026-04-13T08:38:50Z",
+        "updated_at": "2026-04-28T06:16:16Z",
+        "pushed_at": "2026-04-27T22:12:33Z",
+        "starred_at": "2026-04-27T18:08:56Z"
+      },
+      "last_updated": "2026-04-28T06:18:18.445086+00:00"
+    },
+    "libc0607/Realtek_switch_hacking": {
+      "lists": [],
+      "metadata": {
+        "id": 73797011,
+        "name": "Realtek_switch_hacking",
+        "full_name": "libc0607/Realtek_switch_hacking",
+        "description": "\u6298\u817e\u4ea4\u6362\u673a",
+        "url": "https://github.com/libc0607/Realtek_switch_hacking",
+        "homepage": null,
+        "language": null,
+        "stars": 550,
+        "forks": 153,
+        "open_issues": 14,
+        "created_at": "2016-11-15T09:19:24Z",
+        "updated_at": "2026-04-28T00:21:22Z",
+        "pushed_at": "2025-02-10T17:44:10Z",
+        "starred_at": "2026-04-27T17:23:06Z"
+      },
+      "last_updated": "2026-04-28T06:18:18.690511+00:00"
+    },
+    "RxLaboratory/DuME": {
+      "lists": [],
+      "metadata": {
+        "id": 92167940,
+        "name": "DuME",
+        "full_name": "RxLaboratory/DuME",
+        "description": "A fast, versatile, easy-to-use and cross-platform Media Encoder based on FFmpeg",
+        "url": "https://github.com/RxLaboratory/DuME",
+        "homepage": "https://rainboxlab.org/tools/dume/",
+        "language": "C++",
+        "stars": 95,
+        "forks": 8,
+        "open_issues": 95,
+        "created_at": "2017-05-23T12:01:40Z",
+        "updated_at": "2026-04-27T14:26:15Z",
+        "pushed_at": "2023-09-01T12:49:32Z",
+        "starred_at": "2026-04-27T14:26:14Z"
+      },
+      "last_updated": "2026-04-28T06:18:19.003235+00:00"
+    },
+    "pico-coder/sigrok-pico": {
+      "lists": [],
+      "metadata": {
+        "id": 456351764,
+        "name": "sigrok-pico",
+        "full_name": "pico-coder/sigrok-pico",
+        "description": "Use a raspberry pi pico/pico2 (rp2040/rp2350) as a logic analyzer and oscilloscope with sigrok",
+        "url": "https://github.com/pico-coder/sigrok-pico",
+        "homepage": "",
+        "language": "C",
+        "stars": 1032,
+        "forks": 115,
+        "open_issues": 23,
+        "created_at": "2022-02-07T04:01:51Z",
+        "updated_at": "2026-04-28T02:18:56Z",
+        "pushed_at": "2025-10-15T04:23:25Z",
+        "starred_at": "2026-04-27T13:46:14Z"
+      },
+      "last_updated": "2026-04-28T06:18:19.266606+00:00"
+    },
+    "c1570/sigrok-rp2350": {
+      "lists": [],
+      "metadata": {
+        "id": 944196366,
+        "name": "sigrok-rp2350",
+        "full_name": "c1570/sigrok-rp2350",
+        "description": "FORK for rp2350(b) support - \"Use a raspberry pi pico (rp2040) as a logic analyzer and oscilloscope with sigrok\"",
+        "url": "https://github.com/c1570/sigrok-rp2350",
+        "homepage": "",
+        "language": "C",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-07T00:10:00Z",
+        "updated_at": "2026-04-27T13:46:06Z",
+        "pushed_at": "2025-07-15T10:55:30Z",
+        "starred_at": "2026-04-27T13:46:05Z"
+      },
+      "last_updated": "2026-04-28T06:18:19.588784+00:00"
+    },
+    "boricj/ghidra-delinker-extension": {
+      "lists": [],
+      "metadata": {
+        "id": 679810111,
+        "name": "ghidra-delinker-extension",
+        "full_name": "boricj/ghidra-delinker-extension",
+        "description": "Ghidra extension for exporting relocatable object files",
+        "url": "https://github.com/boricj/ghidra-delinker-extension",
+        "homepage": "",
+        "language": "Assembly",
+        "stars": 588,
+        "forks": 28,
+        "open_issues": 5,
+        "created_at": "2023-08-17T17:09:20Z",
+        "updated_at": "2026-04-27T13:37:34Z",
+        "pushed_at": "2026-04-26T09:52:03Z",
+        "starred_at": "2026-04-27T13:37:33Z"
+      },
+      "last_updated": "2026-04-28T06:18:19.852240+00:00"
+    },
+    "WeebLabs/DSPi": {
+      "lists": [],
+      "metadata": {
+        "id": 1130541936,
+        "name": "DSPi",
+        "full_name": "WeebLabs/DSPi",
+        "description": "A fully featured audio DSP firmware for the Raspberry Pi Pico (RP2040) and Pico 2 (RP2350).  Official Discord: https://discord.gg/RCyqxAQ5xS",
+        "url": "https://github.com/WeebLabs/DSPi",
+        "homepage": "",
+        "language": "C",
+        "stars": 578,
+        "forks": 14,
+        "open_issues": 11,
+        "created_at": "2026-01-08T16:48:25Z",
+        "updated_at": "2026-04-28T06:17:38Z",
+        "pushed_at": "2026-04-27T21:30:57Z",
+        "starred_at": "2026-04-27T11:51:14Z"
+      },
+      "last_updated": "2026-04-28T06:18:20.102353+00:00"
     }
   },
   "last_processed_index": 0,
@@ -168409,5 +168629,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"3c2a0975639d13cd8096b01bf30f73eddbd5197d07a68d0ced792ba19c346f12\""
+  "profile_etag": "W/\"f1a4efdf2a7eb6d8b28615a3b04777f822a49db77dc929f9dc6367d88605caa6\""
 }
