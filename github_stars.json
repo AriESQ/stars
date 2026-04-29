@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T06:25:15.542031+00:00",
+  "last_updated": "2026-04-29T04:32:19.158820+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168647,6 +168647,86 @@
         "starred_at": "2026-04-27T11:51:14Z"
       },
       "last_updated": "2026-04-28T06:18:20.102353+00:00"
+    },
+    "ericpaulbishop/gargoyle": {
+      "lists": [],
+      "metadata": {
+        "id": 677290,
+        "name": "gargoyle",
+        "full_name": "ericpaulbishop/gargoyle",
+        "description": "Gargoyle Router Management Utility",
+        "url": "https://github.com/ericpaulbishop/gargoyle",
+        "homepage": "http://www.gargoyle-router.com",
+        "language": "JavaScript",
+        "stars": 491,
+        "forks": 220,
+        "open_issues": 35,
+        "created_at": "2010-05-20T15:24:16Z",
+        "updated_at": "2026-04-29T00:21:58Z",
+        "pushed_at": "2026-04-05T13:54:53Z",
+        "starred_at": "2026-04-29T00:21:58Z"
+      },
+      "last_updated": "2026-04-29T04:32:18.187039+00:00"
+    },
+    "Piebald-AI/claude-code-system-prompts": {
+      "lists": [],
+      "metadata": {
+        "id": 1099328966,
+        "name": "claude-code-system-prompts",
+        "full_name": "Piebald-AI/claude-code-system-prompts",
+        "description": "All parts of Claude Code's system prompt, 24 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
+        "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 9667,
+        "forks": 1720,
+        "open_issues": 3,
+        "created_at": "2025-11-18T21:26:33Z",
+        "updated_at": "2026-04-29T04:05:27Z",
+        "pushed_at": "2026-04-29T02:46:51Z",
+        "starred_at": "2026-04-28T19:22:51Z"
+      },
+      "last_updated": "2026-04-29T04:32:18.511041+00:00"
+    },
+    "everywall/ladder": {
+      "lists": [],
+      "metadata": {
+        "id": 713106159,
+        "name": "ladder",
+        "full_name": "everywall/ladder",
+        "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+        "url": "https://github.com/everywall/ladder",
+        "homepage": "",
+        "language": "Go",
+        "stars": 6975,
+        "forks": 346,
+        "open_issues": 33,
+        "created_at": "2023-11-01T21:09:49Z",
+        "updated_at": "2026-04-29T04:22:09Z",
+        "pushed_at": "2026-04-28T08:20:20Z",
+        "starred_at": "2026-04-28T17:46:54Z"
+      },
+      "last_updated": "2026-04-29T04:32:18.829050+00:00"
+    },
+    "DepthAnything/Depth-Anything-V2": {
+      "lists": [],
+      "metadata": {
+        "id": 814827405,
+        "name": "Depth-Anything-V2",
+        "full_name": "DepthAnything/Depth-Anything-V2",
+        "description": "[NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation",
+        "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "homepage": "https://depth-anything-v2.github.io",
+        "language": "Python",
+        "stars": 8021,
+        "forks": 827,
+        "open_issues": 236,
+        "created_at": "2024-06-13T19:39:39Z",
+        "updated_at": "2026-04-29T03:41:16Z",
+        "pushed_at": "2026-03-24T10:59:06Z",
+        "starred_at": "2026-04-28T07:14:33Z"
+      },
+      "last_updated": "2026-04-29T04:32:19.158729+00:00"
     }
   },
   "last_processed_index": 0,
@@ -168656,5 +168736,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f1a4efdf2a7eb6d8b28615a3b04777f822a49db77dc929f9dc6367d88605caa6\""
+  "profile_etag": "W/\"4811ee4decd2386a44167fc1b52c119d9d0123f4c719c6916f692be00c3d107d\""
 }
