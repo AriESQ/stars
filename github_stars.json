@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T04:32:19.158820+00:00",
+  "last_updated": "2026-04-29T04:39:15.408211+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168649,7 +168649,10 @@
       "last_updated": "2026-04-28T06:18:20.102353+00:00"
     },
     "ericpaulbishop/gargoyle": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Networking"
+      ],
       "metadata": {
         "id": 677290,
         "name": "gargoyle",
@@ -168669,7 +168672,9 @@
       "last_updated": "2026-04-29T04:32:18.187039+00:00"
     },
     "Piebald-AI/claude-code-system-prompts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1099328966,
         "name": "claude-code-system-prompts",
@@ -168689,7 +168694,10 @@
       "last_updated": "2026-04-29T04:32:18.511041+00:00"
     },
     "everywall/ladder": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 713106159,
         "name": "ladder",
@@ -168709,7 +168717,10 @@
       "last_updated": "2026-04-29T04:32:18.829050+00:00"
     },
     "DepthAnything/Depth-Anything-V2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 814827405,
         "name": "Depth-Anything-V2",
