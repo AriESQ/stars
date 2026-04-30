@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T04:33:00.234899+00:00",
+  "last_updated": "2026-04-30T04:40:46.386232+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -5150,7 +5150,8 @@
     },
     "fliperama86/pico_hdmi": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "DIY"
       ],
       "metadata": {
         "id": 1133882561,
@@ -168740,7 +168741,9 @@
       "last_updated": "2026-04-29T04:32:19.158729+00:00"
     },
     "gopro/labs": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 232927058,
         "name": "labs",
@@ -168760,7 +168763,9 @@
       "last_updated": "2026-04-30T04:32:58.801383+00:00"
     },
     "theori-io/copy-fail-CVE-2026-31431": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1224571990,
         "name": "copy-fail-CVE-2026-31431",
@@ -168780,7 +168785,9 @@
       "last_updated": "2026-04-30T04:32:59.110247+00:00"
     },
     "microsoft/sudo": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 751486756,
         "name": "sudo",
@@ -168800,7 +168807,10 @@
       "last_updated": "2026-04-30T04:32:59.411337+00:00"
     },
     "p-e-w/heretic": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1061041576,
         "name": "heretic",
@@ -168820,7 +168830,10 @@
       "last_updated": "2026-04-30T04:32:59.790732+00:00"
     },
     "itstoragesvc/dnscontrol": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 66963716,
         "name": "dnscontrol",
