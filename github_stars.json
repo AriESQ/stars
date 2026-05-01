@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T04:41:26.599603+00:00",
+  "last_updated": "2026-05-01T04:48:54.030224+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168853,7 +168853,9 @@
       "last_updated": "2026-04-30T04:33:00.234839+00:00"
     },
     "theori-io/nrsc5": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 93902072,
         "name": "nrsc5",
@@ -168873,7 +168875,9 @@
       "last_updated": "2026-05-01T04:41:21.253263+00:00"
     },
     "uBlockOrigin/uAssets": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 55228249,
         "name": "uAssets",
@@ -168893,7 +168897,10 @@
       "last_updated": "2026-05-01T04:41:21.472119+00:00"
     },
     "opendatalab/mineru-vl-utils": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1052568611,
         "name": "mineru-vl-utils",
@@ -168913,7 +168920,10 @@
       "last_updated": "2026-05-01T04:41:21.678193+00:00"
     },
     "opendatalab/DocLayout-YOLO": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 872201009,
         "name": "DocLayout-YOLO",
@@ -168933,7 +168943,11 @@
       "last_updated": "2026-05-01T04:41:21.880922+00:00"
     },
     "baaivision/See3D": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 900581094,
         "name": "See3D",
@@ -168953,7 +168967,10 @@
       "last_updated": "2026-05-01T04:41:22.122719+00:00"
     },
     "NVIDIA-NeMo/Curator": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 772255271,
         "name": "Curator",
@@ -168973,7 +168990,10 @@
       "last_updated": "2026-05-01T04:41:22.372003+00:00"
     },
     "lancedb/cocoindex-lancedb-demo": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1122944022,
         "name": "cocoindex-lancedb-demo",
@@ -168993,7 +169013,10 @@
       "last_updated": "2026-05-01T04:41:22.606231+00:00"
     },
     "allenai/papermage": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 588822189,
         "name": "papermage",
@@ -169013,7 +169036,10 @@
       "last_updated": "2026-05-01T04:41:22.826914+00:00"
     },
     "RebeccaRGB/arcade": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 111514992,
         "name": "arcade",
@@ -169033,7 +169059,10 @@
       "last_updated": "2026-05-01T04:41:23.099744+00:00"
     },
     "CasuariusSYC/Sync-Based-Video-Analyzer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1211486096,
         "name": "Sync-Based-Video-Analyzer",
@@ -169053,7 +169082,10 @@
       "last_updated": "2026-05-01T04:41:23.302002+00:00"
     },
     "BudEcosystem/PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 711737364,
         "name": "PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU",
@@ -169073,7 +169105,11 @@
       "last_updated": "2026-05-01T04:41:23.555931+00:00"
     },
     "reidenong/ComicPanelSegmentation": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 614715366,
         "name": "ComicPanelSegmentation",
@@ -169093,7 +169129,10 @@
       "last_updated": "2026-05-01T04:41:23.769854+00:00"
     },
     "dagster-io/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1134327524,
         "name": "skills",
@@ -169113,7 +169152,10 @@
       "last_updated": "2026-05-01T04:41:23.965393+00:00"
     },
     "rocky-data/rocky": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 1209895914,
         "name": "rocky",
@@ -169133,7 +169175,10 @@
       "last_updated": "2026-05-01T04:41:24.195686+00:00"
     },
     "lightly-ai/dagster-lightly-example": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 582663196,
         "name": "dagster-lightly-example",
@@ -169153,7 +169198,10 @@
       "last_updated": "2026-05-01T04:41:24.416129+00:00"
     },
     "opendatalab/MinerU": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 765083837,
         "name": "MinerU",
@@ -169173,7 +169221,10 @@
       "last_updated": "2026-05-01T04:41:24.648357+00:00"
     },
     "hgfl112/LM1881": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1008079023,
         "name": "LM1881",
@@ -169193,7 +169244,10 @@
       "last_updated": "2026-05-01T04:41:24.849150+00:00"
     },
     "osresearch/avr-video": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 18824909,
         "name": "avr-video",
@@ -169213,7 +169267,10 @@
       "last_updated": "2026-05-01T04:41:25.073951+00:00"
     },
     "grmis-fr/Video-Diversity": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 81844661,
         "name": "Video-Diversity",
@@ -169233,7 +169290,10 @@
       "last_updated": "2026-05-01T04:41:25.299324+00:00"
     },
     "ali1234/avr-teletext": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 6562024,
         "name": "avr-teletext",
@@ -169253,7 +169313,9 @@
       "last_updated": "2026-05-01T04:41:25.530291+00:00"
     },
     "ali1234/rpi-ramdisk": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 87089774,
         "name": "rpi-ramdisk",
@@ -169273,7 +169335,10 @@
       "last_updated": "2026-05-01T04:41:25.724556+00:00"
     },
     "ali1234/bitmap2ttf": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 2388751,
         "name": "bitmap2ttf",
@@ -169293,7 +169358,9 @@
       "last_updated": "2026-05-01T04:41:25.985981+00:00"
     },
     "cauchy221/Alignment-Whack-a-Mole-Code": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1180127836,
         "name": "Alignment-Whack-a-Mole-Code",
@@ -169313,7 +169380,10 @@
       "last_updated": "2026-05-01T04:41:26.181517+00:00"
     },
     "willchen96/mike": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1224854794,
         "name": "mike",
@@ -169333,7 +169403,11 @@
       "last_updated": "2026-05-01T04:41:26.386305+00:00"
     },
     "bradautomates/claude-video": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1219644159,
         "name": "claude-video",
