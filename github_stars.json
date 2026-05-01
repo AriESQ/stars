@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T04:40:46.386232+00:00",
+  "last_updated": "2026-05-01T04:41:26.599603+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168851,6 +168851,506 @@
         "starred_at": "2022-05-18T22:31:29Z"
       },
       "last_updated": "2026-04-30T04:33:00.234839+00:00"
+    },
+    "theori-io/nrsc5": {
+      "lists": [],
+      "metadata": {
+        "id": 93902072,
+        "name": "nrsc5",
+        "full_name": "theori-io/nrsc5",
+        "description": "NRSC-5 receiver for rtl-sdr",
+        "url": "https://github.com/theori-io/nrsc5",
+        "homepage": null,
+        "language": "C",
+        "stars": 939,
+        "forks": 111,
+        "open_issues": 62,
+        "created_at": "2017-06-09T22:43:54Z",
+        "updated_at": "2026-05-01T01:06:54Z",
+        "pushed_at": "2026-04-20T03:18:14Z",
+        "starred_at": "2026-05-01T01:06:53Z"
+      },
+      "last_updated": "2026-05-01T04:41:21.253263+00:00"
+    },
+    "uBlockOrigin/uAssets": {
+      "lists": [],
+      "metadata": {
+        "id": 55228249,
+        "name": "uAssets",
+        "full_name": "uBlockOrigin/uAssets",
+        "description": "Filter lists for uBlock Origin & uBlock Origin Lite",
+        "url": "https://github.com/uBlockOrigin/uAssets",
+        "homepage": "",
+        "language": "Adblock Filter List",
+        "stars": 5697,
+        "forks": 991,
+        "open_issues": 11,
+        "created_at": "2016-04-01T11:41:37Z",
+        "updated_at": "2026-05-01T04:40:46Z",
+        "pushed_at": "2026-05-01T04:41:01Z",
+        "starred_at": "2026-05-01T01:05:33Z"
+      },
+      "last_updated": "2026-05-01T04:41:21.472119+00:00"
+    },
+    "opendatalab/mineru-vl-utils": {
+      "lists": [],
+      "metadata": {
+        "id": 1052568611,
+        "name": "mineru-vl-utils",
+        "full_name": "opendatalab/mineru-vl-utils",
+        "description": "A Python package for interacting with the MinerU Vision-Language Model.",
+        "url": "https://github.com/opendatalab/mineru-vl-utils",
+        "homepage": "https://pypi.org/project/mineru-vl-utils/",
+        "language": "Python",
+        "stars": 118,
+        "forks": 32,
+        "open_issues": 3,
+        "created_at": "2025-09-08T08:35:23Z",
+        "updated_at": "2026-05-01T00:16:16Z",
+        "pushed_at": "2026-04-20T02:59:37Z",
+        "starred_at": "2026-05-01T00:16:15Z"
+      },
+      "last_updated": "2026-05-01T04:41:21.678193+00:00"
+    },
+    "opendatalab/DocLayout-YOLO": {
+      "lists": [],
+      "metadata": {
+        "id": 872201009,
+        "name": "DocLayout-YOLO",
+        "full_name": "opendatalab/DocLayout-YOLO",
+        "description": "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception",
+        "url": "https://github.com/opendatalab/DocLayout-YOLO",
+        "homepage": "https://huggingface.co/spaces/opendatalab/DocLayout-YOLO",
+        "language": "Python",
+        "stars": 2135,
+        "forks": 157,
+        "open_issues": 54,
+        "created_at": "2024-10-14T02:37:01Z",
+        "updated_at": "2026-05-01T00:11:05Z",
+        "pushed_at": "2025-04-14T07:18:01Z",
+        "starred_at": "2026-05-01T00:11:05Z"
+      },
+      "last_updated": "2026-05-01T04:41:21.880922+00:00"
+    },
+    "baaivision/See3D": {
+      "lists": [],
+      "metadata": {
+        "id": 900581094,
+        "name": "See3D",
+        "full_name": "baaivision/See3D",
+        "description": "[CVPR'25 Highlight] You See it, You Got it: Learning 3D Creation on Pose-Free Videos at Scale",
+        "url": "https://github.com/baaivision/See3D",
+        "homepage": "https://vision.baai.ac.cn/see3d",
+        "language": "Python",
+        "stars": 718,
+        "forks": 19,
+        "open_issues": 22,
+        "created_at": "2024-12-09T04:46:29Z",
+        "updated_at": "2026-05-01T00:09:32Z",
+        "pushed_at": "2025-04-16T01:15:04Z",
+        "starred_at": "2026-05-01T00:09:32Z"
+      },
+      "last_updated": "2026-05-01T04:41:22.122719+00:00"
+    },
+    "NVIDIA-NeMo/Curator": {
+      "lists": [],
+      "metadata": {
+        "id": 772255271,
+        "name": "Curator",
+        "full_name": "NVIDIA-NeMo/Curator",
+        "description": "Scalable data pre processing and curation toolkit for LLMs",
+        "url": "https://github.com/NVIDIA-NeMo/Curator",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1553,
+        "forks": 264,
+        "open_issues": 228,
+        "created_at": "2024-03-14T20:41:51Z",
+        "updated_at": "2026-05-01T03:07:21Z",
+        "pushed_at": "2026-05-01T03:07:34Z",
+        "starred_at": "2026-05-01T00:08:31Z"
+      },
+      "last_updated": "2026-05-01T04:41:22.372003+00:00"
+    },
+    "lancedb/cocoindex-lancedb-demo": {
+      "lists": [],
+      "metadata": {
+        "id": 1122944022,
+        "name": "cocoindex-lancedb-demo",
+        "full_name": "lancedb/cocoindex-lancedb-demo",
+        "description": "Incremental processing and maintaining data freshness with CocoIndex and LanceDB",
+        "url": "https://github.com/lancedb/cocoindex-lancedb-demo",
+        "homepage": "",
+        "language": "Python",
+        "stars": 7,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2025-12-25T22:01:28Z",
+        "updated_at": "2026-05-01T00:08:00Z",
+        "pushed_at": "2026-01-14T02:07:24Z",
+        "starred_at": "2026-05-01T00:07:59Z"
+      },
+      "last_updated": "2026-05-01T04:41:22.606231+00:00"
+    },
+    "allenai/papermage": {
+      "lists": [],
+      "metadata": {
+        "id": 588822189,
+        "name": "papermage",
+        "full_name": "allenai/papermage",
+        "description": "library supporting NLP and CV research on scientific papers",
+        "url": "https://github.com/allenai/papermage",
+        "homepage": "https://papermage.org",
+        "language": "Python",
+        "stars": 795,
+        "forks": 65,
+        "open_issues": 30,
+        "created_at": "2023-01-14T05:49:08Z",
+        "updated_at": "2026-05-01T00:07:26Z",
+        "pushed_at": "2024-11-08T01:03:20Z",
+        "starred_at": "2026-05-01T00:07:26Z"
+      },
+      "last_updated": "2026-05-01T04:41:22.826914+00:00"
+    },
+    "RebeccaRGB/arcade": {
+      "lists": [],
+      "metadata": {
+        "id": 111514992,
+        "name": "arcade",
+        "full_name": "RebeccaRGB/arcade",
+        "description": "Custom hardware and software for arcade machines",
+        "url": "https://github.com/RebeccaRGB/arcade",
+        "homepage": null,
+        "language": null,
+        "stars": 2,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2017-11-21T07:35:00Z",
+        "updated_at": "2026-05-01T00:05:14Z",
+        "pushed_at": "2018-03-22T05:16:49Z",
+        "starred_at": "2026-05-01T00:05:13Z"
+      },
+      "last_updated": "2026-05-01T04:41:23.099744+00:00"
+    },
+    "CasuariusSYC/Sync-Based-Video-Analyzer": {
+      "lists": [],
+      "metadata": {
+        "id": 1211486096,
+        "name": "Sync-Based-Video-Analyzer",
+        "full_name": "CasuariusSYC/Sync-Based-Video-Analyzer",
+        "description": "Sync-Based-Video-Analiyzer",
+        "url": "https://github.com/CasuariusSYC/Sync-Based-Video-Analyzer",
+        "homepage": "",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-15T12:48:38Z",
+        "updated_at": "2026-05-01T00:01:20Z",
+        "pushed_at": "2026-04-17T14:19:25Z",
+        "starred_at": "2026-05-01T00:01:19Z"
+      },
+      "last_updated": "2026-05-01T04:41:23.302002+00:00"
+    },
+    "BudEcosystem/PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU": {
+      "lists": [],
+      "metadata": {
+        "id": 711737364,
+        "name": "PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU",
+        "full_name": "BudEcosystem/PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU",
+        "description": null,
+        "url": "https://github.com/BudEcosystem/PDF-and-EPUB-extraction-pipeline-for-GPU-and-CPU",
+        "homepage": null,
+        "language": "Python",
+        "stars": 4,
+        "forks": 3,
+        "open_issues": 1,
+        "created_at": "2023-10-30T04:24:24Z",
+        "updated_at": "2026-04-30T23:58:38Z",
+        "pushed_at": "2024-07-16T10:34:36Z",
+        "starred_at": "2026-04-30T23:58:37Z"
+      },
+      "last_updated": "2026-05-01T04:41:23.555931+00:00"
+    },
+    "reidenong/ComicPanelSegmentation": {
+      "lists": [],
+      "metadata": {
+        "id": 614715366,
+        "name": "ComicPanelSegmentation",
+        "full_name": "reidenong/ComicPanelSegmentation",
+        "description": "A tool for segmentation of digital images composing of multiple panels, improving performance of downstream tasks such as OCR, Object detection and other computer vision tools in an image processing pipeline.",
+        "url": "https://github.com/reidenong/ComicPanelSegmentation",
+        "homepage": "",
+        "language": "Python",
+        "stars": 22,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2023-03-16T07:00:48Z",
+        "updated_at": "2026-04-30T23:57:51Z",
+        "pushed_at": "2023-05-07T17:35:58Z",
+        "starred_at": "2026-04-30T23:57:50Z"
+      },
+      "last_updated": "2026-05-01T04:41:23.769854+00:00"
+    },
+    "dagster-io/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1134327524,
+        "name": "skills",
+        "full_name": "dagster-io/skills",
+        "description": "A collection of AI skills for working with Dagster",
+        "url": "https://github.com/dagster-io/skills",
+        "homepage": "https://dagster.io",
+        "language": "Python",
+        "stars": 138,
+        "forks": 10,
+        "open_issues": 0,
+        "created_at": "2026-01-14T15:12:14Z",
+        "updated_at": "2026-04-30T23:55:56Z",
+        "pushed_at": "2026-04-30T21:11:47Z",
+        "starred_at": "2026-04-30T23:55:56Z"
+      },
+      "last_updated": "2026-05-01T04:41:23.965393+00:00"
+    },
+    "rocky-data/rocky": {
+      "lists": [],
+      "metadata": {
+        "id": 1209895914,
+        "name": "rocky",
+        "full_name": "rocky-data/rocky",
+        "description": "The trust system for your data. Rust-based control plane for warehouse pipelines \u2014 branches, replay, column-level lineage, compile-time safety, per-model cost attribution. Keep Databricks or Snowflake. Bring Rocky for the DAG.",
+        "url": "https://github.com/rocky-data/rocky",
+        "homepage": "https://rocky-data.github.io/rocky/",
+        "language": "Rust",
+        "stars": 172,
+        "forks": 4,
+        "open_issues": 3,
+        "created_at": "2026-04-13T22:23:28Z",
+        "updated_at": "2026-05-01T03:37:08Z",
+        "pushed_at": "2026-05-01T04:10:26Z",
+        "starred_at": "2026-04-30T23:55:24Z"
+      },
+      "last_updated": "2026-05-01T04:41:24.195686+00:00"
+    },
+    "lightly-ai/dagster-lightly-example": {
+      "lists": [],
+      "metadata": {
+        "id": 582663196,
+        "name": "dagster-lightly-example",
+        "full_name": "lightly-ai/dagster-lightly-example",
+        "description": null,
+        "url": "https://github.com/lightly-ai/dagster-lightly-example",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2022-12-27T14:09:52Z",
+        "updated_at": "2026-04-30T23:54:00Z",
+        "pushed_at": "2023-01-18T14:41:27Z",
+        "starred_at": "2026-04-30T23:54:00Z"
+      },
+      "last_updated": "2026-05-01T04:41:24.416129+00:00"
+    },
+    "opendatalab/MinerU": {
+      "lists": [],
+      "metadata": {
+        "id": 765083837,
+        "name": "MinerU",
+        "full_name": "opendatalab/MinerU",
+        "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+        "url": "https://github.com/opendatalab/MinerU",
+        "homepage": "https://opendatalab.github.io/MinerU/",
+        "language": "Python",
+        "stars": 61655,
+        "forks": 5172,
+        "open_issues": 17,
+        "created_at": "2024-02-29T08:52:34Z",
+        "updated_at": "2026-05-01T03:59:35Z",
+        "pushed_at": "2026-04-29T15:59:05Z",
+        "starred_at": "2026-04-30T23:44:06Z"
+      },
+      "last_updated": "2026-05-01T04:41:24.648357+00:00"
+    },
+    "hgfl112/LM1881": {
+      "lists": [],
+      "metadata": {
+        "id": 1008079023,
+        "name": "LM1881",
+        "full_name": "hgfl112/LM1881",
+        "description": "An open-source PCB project for a video sync separator based on the TI LM1881",
+        "url": "https://github.com/hgfl112/LM1881",
+        "homepage": null,
+        "language": null,
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-06-25T02:03:33Z",
+        "updated_at": "2026-04-30T22:45:09Z",
+        "pushed_at": "2025-06-25T02:05:04Z",
+        "starred_at": "2026-04-30T22:45:08Z"
+      },
+      "last_updated": "2026-05-01T04:41:24.849150+00:00"
+    },
+    "osresearch/avr-video": {
+      "lists": [],
+      "metadata": {
+        "id": 18824909,
+        "name": "avr-video",
+        "full_name": "osresearch/avr-video",
+        "description": "AVR NTSC video generator and character overlay using two resistors and a LM1881 video sync separator.",
+        "url": "https://github.com/osresearch/avr-video",
+        "homepage": null,
+        "language": "C",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2014-04-16T03:01:20Z",
+        "updated_at": "2026-04-30T22:44:51Z",
+        "pushed_at": "2014-04-16T03:06:17Z",
+        "starred_at": "2026-04-30T22:44:50Z"
+      },
+      "last_updated": "2026-05-01T04:41:25.073951+00:00"
+    },
+    "grmis-fr/Video-Diversity": {
+      "lists": [],
+      "metadata": {
+        "id": 81844661,
+        "name": "Video-Diversity",
+        "full_name": "grmis-fr/Video-Diversity",
+        "description": "Video Diversity - without RSSI",
+        "url": "https://github.com/grmis-fr/Video-Diversity",
+        "homepage": null,
+        "language": "C++",
+        "stars": 17,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2017-02-13T16:16:40Z",
+        "updated_at": "2026-04-30T22:44:11Z",
+        "pushed_at": "2018-10-25T12:35:11Z",
+        "starred_at": "2026-04-30T22:44:11Z"
+      },
+      "last_updated": "2026-05-01T04:41:25.299324+00:00"
+    },
+    "ali1234/avr-teletext": {
+      "lists": [],
+      "metadata": {
+        "id": 6562024,
+        "name": "avr-teletext",
+        "full_name": "ali1234/avr-teletext",
+        "description": "Teletext inserter for AVR microcontroller and lm1881 sync separator",
+        "url": "https://github.com/ali1234/avr-teletext",
+        "homepage": "",
+        "language": "C",
+        "stars": 15,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2012-11-06T12:52:01Z",
+        "updated_at": "2026-04-30T22:42:03Z",
+        "pushed_at": "2013-10-06T21:48:23Z",
+        "starred_at": "2026-04-30T22:42:02Z"
+      },
+      "last_updated": "2026-05-01T04:41:25.530291+00:00"
+    },
+    "ali1234/rpi-ramdisk": {
+      "lists": [],
+      "metadata": {
+        "id": 87089774,
+        "name": "rpi-ramdisk",
+        "full_name": "ali1234/rpi-ramdisk",
+        "description": "Builds ramdisk environments for Raspberry Pi",
+        "url": "https://github.com/ali1234/rpi-ramdisk",
+        "homepage": null,
+        "language": "Python",
+        "stars": 91,
+        "forks": 21,
+        "open_issues": 9,
+        "created_at": "2017-04-03T15:28:11Z",
+        "updated_at": "2026-04-30T22:41:48Z",
+        "pushed_at": "2020-11-21T20:11:46Z",
+        "starred_at": "2026-04-30T22:41:48Z"
+      },
+      "last_updated": "2026-05-01T04:41:25.724556+00:00"
+    },
+    "ali1234/bitmap2ttf": {
+      "lists": [],
+      "metadata": {
+        "id": 2388751,
+        "name": "bitmap2ttf",
+        "full_name": "ali1234/bitmap2ttf",
+        "description": "Convert bitmap fonts to ttf fonts using font forge.",
+        "url": "https://github.com/ali1234/bitmap2ttf",
+        "homepage": "",
+        "language": "Python",
+        "stars": 123,
+        "forks": 16,
+        "open_issues": 9,
+        "created_at": "2011-09-14T22:06:14Z",
+        "updated_at": "2026-04-30T22:41:41Z",
+        "pushed_at": "2025-01-26T03:22:36Z",
+        "starred_at": "2026-04-30T22:41:41Z"
+      },
+      "last_updated": "2026-05-01T04:41:25.985981+00:00"
+    },
+    "cauchy221/Alignment-Whack-a-Mole-Code": {
+      "lists": [],
+      "metadata": {
+        "id": 1180127836,
+        "name": "Alignment-Whack-a-Mole-Code",
+        "full_name": "cauchy221/Alignment-Whack-a-Mole-Code",
+        "description": "The official code repo of Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+        "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+        "homepage": "https://arxiv.org/abs/2603.20957",
+        "language": "Python",
+        "stars": 79,
+        "forks": 13,
+        "open_issues": 0,
+        "created_at": "2026-03-12T18:19:25Z",
+        "updated_at": "2026-05-01T03:03:34Z",
+        "pushed_at": "2026-03-31T21:23:52Z",
+        "starred_at": "2026-04-30T18:35:32Z"
+      },
+      "last_updated": "2026-05-01T04:41:26.181517+00:00"
+    },
+    "willchen96/mike": {
+      "lists": [],
+      "metadata": {
+        "id": 1224854794,
+        "name": "mike",
+        "full_name": "willchen96/mike",
+        "description": "OSS AI Legal Platform",
+        "url": "https://github.com/willchen96/mike",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 809,
+        "forks": 195,
+        "open_issues": 5,
+        "created_at": "2026-04-29T17:41:12Z",
+        "updated_at": "2026-05-01T04:29:26Z",
+        "pushed_at": "2026-04-29T17:49:39Z",
+        "starred_at": "2026-04-30T15:53:18Z"
+      },
+      "last_updated": "2026-05-01T04:41:26.386305+00:00"
+    },
+    "bradautomates/claude-video": {
+      "lists": [],
+      "metadata": {
+        "id": 1219644159,
+        "name": "claude-video",
+        "full_name": "bradautomates/claude-video",
+        "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+        "url": "https://github.com/bradautomates/claude-video",
+        "homepage": null,
+        "language": "Python",
+        "stars": 281,
+        "forks": 80,
+        "open_issues": 4,
+        "created_at": "2026-04-24T04:40:43Z",
+        "updated_at": "2026-05-01T04:33:42Z",
+        "pushed_at": "2026-04-24T07:23:07Z",
+        "starred_at": "2026-04-30T15:03:28Z"
+      },
+      "last_updated": "2026-05-01T04:41:26.599528+00:00"
     }
   },
   "last_processed_index": 0,
@@ -168860,5 +169360,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d6bae22701b8ff4c8859b11880489e2f3f795c3c46320b0481ff6221a088c451\""
+  "profile_etag": "W/\"16e4be8fdca426d7ab4d55eaf6807e2b2c70631ece796fe84d9a14277b3566a8\""
 }
