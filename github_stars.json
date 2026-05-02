@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T04:48:54.030224+00:00",
+  "last_updated": "2026-05-02T04:28:10.894657+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -169425,6 +169425,106 @@
         "starred_at": "2026-04-30T15:03:28Z"
       },
       "last_updated": "2026-05-01T04:41:26.599528+00:00"
+    },
+    "Lum1104/Understand-Anything": {
+      "lists": [],
+      "metadata": {
+        "id": 1182081931,
+        "name": "Understand-Anything",
+        "full_name": "Lum1104/Understand-Anything",
+        "description": "Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+        "url": "https://github.com/Lum1104/Understand-Anything",
+        "homepage": "https://understand-anything.com",
+        "language": "TypeScript",
+        "stars": 10188,
+        "forks": 856,
+        "open_issues": 5,
+        "created_at": "2026-03-15T02:30:51Z",
+        "updated_at": "2026-05-02T04:27:40Z",
+        "pushed_at": "2026-05-01T10:31:23Z",
+        "starred_at": "2026-05-01T22:22:51Z"
+      },
+      "last_updated": "2026-05-02T04:28:09.469840+00:00"
+    },
+    "mayerwin/Perfect-Bluetooth-MIDI-For-Windows": {
+      "lists": [],
+      "metadata": {
+        "id": 1218794578,
+        "name": "Perfect-Bluetooth-MIDI-For-Windows",
+        "full_name": "mayerwin/Perfect-Bluetooth-MIDI-For-Windows",
+        "description": "Bridge a Bluetooth LE MIDI device into Windows MIDI Services so any DAW or Web MIDI site can use it wired-style.",
+        "url": "https://github.com/mayerwin/Perfect-Bluetooth-MIDI-For-Windows",
+        "homepage": "https://mayerwin.github.io/Perfect-Bluetooth-MIDI-For-Windows/",
+        "language": "C#",
+        "stars": 26,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-04-23T08:16:47Z",
+        "updated_at": "2026-05-02T03:37:26Z",
+        "pushed_at": "2026-05-01T09:34:54Z",
+        "starred_at": "2026-05-01T13:01:32Z"
+      },
+      "last_updated": "2026-05-02T04:28:09.833149+00:00"
+    },
+    "abhigyanpatwari/GitNexus": {
+      "lists": [],
+      "metadata": {
+        "id": 1031059905,
+        "name": "GitNexus",
+        "full_name": "abhigyanpatwari/GitNexus",
+        "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+        "url": "https://github.com/abhigyanpatwari/GitNexus",
+        "homepage": "https://gitnexus.vercel.app",
+        "language": "TypeScript",
+        "stars": 34134,
+        "forks": 3877,
+        "open_issues": 365,
+        "created_at": "2025-08-02T23:20:31Z",
+        "updated_at": "2026-05-02T04:23:57Z",
+        "pushed_at": "2026-05-01T23:50:11Z",
+        "starred_at": "2026-05-01T12:59:01Z"
+      },
+      "last_updated": "2026-05-02T04:28:10.128705+00:00"
+    },
+    "darrylmorley/whatcable": {
+      "lists": [],
+      "metadata": {
+        "id": 1226286910,
+        "name": "whatcable",
+        "full_name": "darrylmorley/whatcable",
+        "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+        "url": "https://github.com/darrylmorley/whatcable",
+        "homepage": "https://github.com/darrylmorley/whatcable/releases/latest",
+        "language": "Swift",
+        "stars": 816,
+        "forks": 15,
+        "open_issues": 13,
+        "created_at": "2026-05-01T07:45:10Z",
+        "updated_at": "2026-05-02T04:28:08Z",
+        "pushed_at": "2026-05-01T19:47:41Z",
+        "starred_at": "2026-05-01T12:14:10Z"
+      },
+      "last_updated": "2026-05-02T04:28:10.426941+00:00"
+    },
+    "DNSControl/dnscontrol": {
+      "lists": [],
+      "metadata": {
+        "id": 66963716,
+        "name": "dnscontrol",
+        "full_name": "DNSControl/dnscontrol",
+        "description": "Infrastructure as code for DNS!",
+        "url": "https://github.com/DNSControl/dnscontrol",
+        "homepage": "https://dnscontrol.org/",
+        "language": "Go",
+        "stars": 3816,
+        "forks": 500,
+        "open_issues": 72,
+        "created_at": "2016-08-30T17:42:30Z",
+        "updated_at": "2026-05-01T16:29:23Z",
+        "pushed_at": "2026-05-01T19:57:59Z",
+        "starred_at": "2022-05-18T22:31:29Z"
+      },
+      "last_updated": "2026-05-02T04:28:10.894619+00:00"
     }
   },
   "last_processed_index": 0,
@@ -169434,5 +169534,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"16e4be8fdca426d7ab4d55eaf6807e2b2c70631ece796fe84d9a14277b3566a8\""
+  "profile_etag": "W/\"6ae3dfddd8d2451e43ca55c85766db57e16a7e0e7619d20f3b9a44b290e1c064\""
 }
