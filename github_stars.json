@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T04:28:10.894657+00:00",
+  "last_updated": "2026-05-02T04:35:26.694340+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -169427,7 +169427,9 @@
       "last_updated": "2026-05-01T04:41:26.599528+00:00"
     },
     "Lum1104/Understand-Anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1182081931,
         "name": "Understand-Anything",
@@ -169447,7 +169449,10 @@
       "last_updated": "2026-05-02T04:28:09.469840+00:00"
     },
     "mayerwin/Perfect-Bluetooth-MIDI-For-Windows": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 1218794578,
         "name": "Perfect-Bluetooth-MIDI-For-Windows",
@@ -169467,7 +169472,9 @@
       "last_updated": "2026-05-02T04:28:09.833149+00:00"
     },
     "abhigyanpatwari/GitNexus": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1031059905,
         "name": "GitNexus",
@@ -169487,7 +169494,9 @@
       "last_updated": "2026-05-02T04:28:10.128705+00:00"
     },
     "darrylmorley/whatcable": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1226286910,
         "name": "whatcable",
@@ -169507,7 +169516,10 @@
       "last_updated": "2026-05-02T04:28:10.426941+00:00"
     },
     "DNSControl/dnscontrol": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 66963716,
         "name": "dnscontrol",
