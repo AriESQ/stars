@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T04:35:59.570808+00:00",
+  "last_updated": "2026-05-03T04:43:05.757692+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -169539,7 +169539,10 @@
       "last_updated": "2026-05-02T04:28:10.894619+00:00"
     },
     "mprpic/cooldowns": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 1196679511,
         "name": "cooldowns",
@@ -169559,7 +169562,10 @@
       "last_updated": "2026-05-03T04:35:58.876383+00:00"
     },
     "facebookresearch/tuna-2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1218362557,
         "name": "tuna-2",
@@ -169579,7 +169585,9 @@
       "last_updated": "2026-05-03T04:35:59.049443+00:00"
     },
     "Sambigeara/pollen": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 1199298860,
         "name": "pollen",
@@ -169599,7 +169607,11 @@
       "last_updated": "2026-05-03T04:35:59.211070+00:00"
     },
     "NVIDIA-AI-Blueprints/video-search-and-summarization": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 876545970,
         "name": "video-search-and-summarization",
@@ -169619,7 +169631,10 @@
       "last_updated": "2026-05-03T04:35:59.394529+00:00"
     },
     "OpenVisualCloud/Video-Curation-Sample": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 268869211,
         "name": "Video-Curation-Sample",
