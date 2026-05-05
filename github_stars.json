@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T02:54:00.292071+00:00",
+  "last_updated": "2026-05-05T21:00:34.003326+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223143,7 +223143,15 @@
         "pushed_at": "2026-05-05T00:52:39Z",
         "starred_at": "2026-05-04T23:30:54Z"
       },
-      "last_updated": "2026-05-05T02:53:57.337071+00:00"
+      "last_updated": "2026-05-05T02:53:57.337071+00:00",
+      "readme": {
+        "path": "readmes/dbos-inc+dbos-transact-py+README.md",
+        "etag": "W/\"1ccbc7a37c5455774231413266bd1d3f06f0986a\"",
+        "sha": "1ccbc7a37c5455774231413266bd1d3f06f0986a",
+        "size": 13036,
+        "fetched_at": "2026-05-05T21:00:30.471511+00:00",
+        "status": "ok"
+      }
     },
     "vivekg13186/Daisy-DAG": {
       "lists": [],
@@ -223163,7 +223171,15 @@
         "pushed_at": "2026-05-04T06:36:35Z",
         "starred_at": "2026-05-04T23:23:39Z"
       },
-      "last_updated": "2026-05-05T02:53:57.516630+00:00"
+      "last_updated": "2026-05-05T02:53:57.516630+00:00",
+      "readme": {
+        "path": "readmes/vivekg13186+Daisy-DAG+README.md",
+        "etag": "W/\"274f92c0cb34df510bca4f1ef18d234eb90252c5\"",
+        "sha": "274f92c0cb34df510bca4f1ef18d234eb90252c5",
+        "size": 396,
+        "fetched_at": "2026-05-05T21:00:34.002342+00:00",
+        "status": "ok"
+      }
     },
     "pyinfra-dev/pyinfra": {
       "lists": [],
@@ -223183,7 +223199,15 @@
         "pushed_at": "2026-05-04T12:26:04Z",
         "starred_at": "2026-05-04T19:29:52Z"
       },
-      "last_updated": "2026-05-05T02:53:57.690365+00:00"
+      "last_updated": "2026-05-05T02:53:57.690365+00:00",
+      "readme": {
+        "path": "readmes/pyinfra-dev+pyinfra+README.md",
+        "etag": "W/\"a140bf6ccb1ff707f8b4898d5cce7b0afa825878\"",
+        "sha": "a140bf6ccb1ff707f8b4898d5cce7b0afa825878",
+        "size": 4306,
+        "fetched_at": "2026-05-05T21:00:32.476180+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/skills-curated": {
       "lists": [],
@@ -223203,7 +223227,15 @@
         "pushed_at": "2026-04-24T08:46:19Z",
         "starred_at": "2026-05-03T22:39:48Z"
       },
-      "last_updated": "2026-05-05T02:53:57.909373+00:00"
+      "last_updated": "2026-05-05T02:53:57.909373+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+skills-curated+README.md",
+        "etag": "W/\"efdf9a9d025a59ff2beeb8eb3a9ee13d33c06b9f\"",
+        "sha": "efdf9a9d025a59ff2beeb8eb3a9ee13d33c06b9f",
+        "size": 7053,
+        "fetched_at": "2026-05-05T21:00:33.187718+00:00",
+        "status": "ok"
+      }
     },
     "copyleftdev/perforator-go": {
       "lists": [],
@@ -223223,7 +223255,15 @@
         "pushed_at": "2025-08-27T22:34:33Z",
         "starred_at": "2026-05-03T22:37:58Z"
       },
-      "last_updated": "2026-05-05T02:53:58.115950+00:00"
+      "last_updated": "2026-05-05T02:53:58.115950+00:00",
+      "readme": {
+        "path": "readmes/copyleftdev+perforator-go+README.md",
+        "etag": "W/\"6e86f6fc7f4d51402e799efb01abe22183535313\"",
+        "sha": "6e86f6fc7f4d51402e799efb01abe22183535313",
+        "size": 8785,
+        "fetched_at": "2026-05-05T21:00:29.661946+00:00",
+        "status": "ok"
+      }
     },
     "bring-shrubbery/ml-sharp-web": {
       "lists": [],
@@ -223243,7 +223283,15 @@
         "pushed_at": "2026-05-03T09:58:30Z",
         "starred_at": "2026-05-03T21:10:56Z"
       },
-      "last_updated": "2026-05-05T02:53:58.281466+00:00"
+      "last_updated": "2026-05-05T02:53:58.281466+00:00",
+      "readme": {
+        "path": "readmes/bring-shrubbery+ml-sharp-web+README.md",
+        "etag": "W/\"bed6b90893685c71bd489e486285941325707677\"",
+        "sha": "bed6b90893685c71bd489e486285941325707677",
+        "size": 5636,
+        "fetched_at": "2026-05-05T21:00:28.926321+00:00",
+        "status": "ok"
+      }
     },
     "earthtojake/text-to-cad": {
       "lists": [],
@@ -223263,7 +223311,15 @@
         "pushed_at": "2026-05-04T03:35:28Z",
         "starred_at": "2026-05-03T21:07:46Z"
       },
-      "last_updated": "2026-05-05T02:53:58.445308+00:00"
+      "last_updated": "2026-05-05T02:53:58.445308+00:00",
+      "readme": {
+        "path": "readmes/earthtojake+text-to-cad+README.md",
+        "etag": "W/\"194cea34f7ca020984312029f02ba24fe3fa8976\"",
+        "sha": "194cea34f7ca020984312029f02ba24fe3fa8976",
+        "size": 11693,
+        "fetched_at": "2026-05-05T21:00:30.827592+00:00",
+        "status": "ok"
+      }
     },
     "bschoepke/ableton-live-mcp": {
       "lists": [],
@@ -223283,7 +223339,15 @@
         "pushed_at": "2026-05-04T14:23:50Z",
         "starred_at": "2026-05-03T21:07:08Z"
       },
-      "last_updated": "2026-05-05T02:53:58.628500+00:00"
+      "last_updated": "2026-05-05T02:53:58.628500+00:00",
+      "readme": {
+        "path": "readmes/bschoepke+ableton-live-mcp+README.md",
+        "etag": "W/\"40f1ac4460eee358e6b6c57704ec049754e80a90\"",
+        "sha": "40f1ac4460eee358e6b6c57704ec049754e80a90",
+        "size": 4608,
+        "fetched_at": "2026-05-05T21:00:29.296568+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/skills": {
       "lists": [],
@@ -223303,7 +223367,15 @@
         "pushed_at": "2026-05-03T19:59:57Z",
         "starred_at": "2026-05-03T20:35:38Z"
       },
-      "last_updated": "2026-05-05T02:53:58.816411+00:00"
+      "last_updated": "2026-05-05T02:53:58.816411+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+skills+README.md",
+        "etag": "W/\"1752f5bbae4498c8a2277da1b4e05534d5779a10\"",
+        "sha": "1752f5bbae4498c8a2277da1b4e05534d5779a10",
+        "size": 7901,
+        "fetched_at": "2026-05-05T21:00:32.822894+00:00",
+        "status": "ok"
+      }
     },
     "RalfJung/cargo-careful": {
       "lists": [],
@@ -223323,7 +223395,15 @@
         "pushed_at": "2026-04-01T08:00:23Z",
         "starred_at": "2026-05-03T20:19:46Z"
       },
-      "last_updated": "2026-05-05T02:53:58.984654+00:00"
+      "last_updated": "2026-05-05T02:53:58.984654+00:00",
+      "readme": {
+        "path": "readmes/RalfJung+cargo-careful+README.md",
+        "etag": "W/\"37ed49ec4eaec2891793f28c8fad6f245de2e6c1\"",
+        "sha": "37ed49ec4eaec2891793f28c8fad6f245de2e6c1",
+        "size": 5014,
+        "fetched_at": "2026-05-05T21:00:28.575436+00:00",
+        "status": "ok"
+      }
     },
     "vercel-labs/agent-browser": {
       "lists": [],
@@ -223343,7 +223423,15 @@
         "pushed_at": "2026-04-29T15:39:13Z",
         "starred_at": "2026-05-03T19:55:19Z"
       },
-      "last_updated": "2026-05-05T02:53:59.177882+00:00"
+      "last_updated": "2026-05-05T02:53:59.177882+00:00",
+      "readme": {
+        "path": "readmes/vercel-labs+agent-browser+README.md",
+        "etag": "W/\"90ca02109256e4532a90f29c6ebe5823dac3b76d\"",
+        "sha": "90ca02109256e4532a90f29c6ebe5823dac3b76d",
+        "size": 61153,
+        "fetched_at": "2026-05-05T21:00:33.677394+00:00",
+        "status": "ok"
+      }
     },
     "davidvidovic-web/hackers-1995-threejs": {
       "lists": [],
@@ -223363,7 +223451,15 @@
         "pushed_at": "2026-02-07T17:16:09Z",
         "starred_at": "2026-05-03T17:05:25Z"
       },
-      "last_updated": "2026-05-05T02:53:59.372396+00:00"
+      "last_updated": "2026-05-05T02:53:59.372396+00:00",
+      "readme": {
+        "path": "readmes/davidvidovic-web+hackers-1995-threejs+README.md",
+        "etag": "W/\"07f6bf2c68e5bbc2a52509d9d41f08a748acebb7\"",
+        "sha": "07f6bf2c68e5bbc2a52509d9d41f08a748acebb7",
+        "size": 1323,
+        "fetched_at": "2026-05-05T21:00:30.097518+00:00",
+        "status": "ok"
+      }
     },
     "iswad-lab/TouchDesigner-Linux": {
       "lists": [],
@@ -223383,7 +223479,15 @@
         "pushed_at": "2026-05-04T08:16:53Z",
         "starred_at": "2026-04-07T21:27:38Z"
       },
-      "last_updated": "2026-05-05T02:53:59.738272+00:00"
+      "last_updated": "2026-05-05T02:53:59.738272+00:00",
+      "readme": {
+        "path": "readmes/iswad-lab+TouchDesigner-Linux+README.md",
+        "etag": "W/\"db20c60277957b4949d7ef5161b76aef3e87aba3\"",
+        "sha": "db20c60277957b4949d7ef5161b76aef3e87aba3",
+        "size": 10433,
+        "fetched_at": "2026-05-05T21:00:31.165135+00:00",
+        "status": "ok"
+      }
     },
     "pico-game-engine/pico-game-engine": {
       "lists": [],
@@ -223403,7 +223507,15 @@
         "pushed_at": "2026-05-02T20:47:36Z",
         "starred_at": "2026-04-06T20:48:23Z"
       },
-      "last_updated": "2026-05-05T02:53:59.942197+00:00"
+      "last_updated": "2026-05-05T02:53:59.942197+00:00",
+      "readme": {
+        "path": "readmes/pico-game-engine+pico-game-engine+README.md",
+        "etag": "W/\"bb141c2c0dd6d644cbf3b4c6dfff60b63a4bfcd5\"",
+        "sha": "bb141c2c0dd6d644cbf3b4c6dfff60b63a4bfcd5",
+        "size": 9683,
+        "fetched_at": "2026-05-05T21:00:32.070271+00:00",
+        "status": "ok"
+      }
     },
     "nickjj/dotfriedrice": {
       "lists": [],
@@ -223423,7 +223535,15 @@
         "pushed_at": "2026-05-05T02:20:31Z",
         "starred_at": "2026-03-28T20:01:04Z"
       },
-      "last_updated": "2026-05-05T02:54:00.291990+00:00"
+      "last_updated": "2026-05-05T02:54:00.291990+00:00",
+      "readme": {
+        "path": "readmes/nickjj+dotfriedrice+README.md",
+        "etag": "W/\"2f049e72dc6f51e96de00f32df29efaeab7c6878\"",
+        "sha": "2f049e72dc6f51e96de00f32df29efaeab7c6878",
+        "size": 26048,
+        "fetched_at": "2026-05-05T21:00:31.579244+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,

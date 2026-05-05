@@ -1,0 +1,11 @@
+# DAG Workflow Engine
+
+A production-ready DAG (Directed Acyclic Graph) workflow engine driven by a YAML DSL.
+Validates, executes, and visualizes workflows with support for parallel execution,
+retries, conditional branching, batch iteration, and pluggable actions.
+
+[more docs here](./wiki/README.md)
+
+
+![alt text](./images/preview_1.png "Preview1")
+![alt text](./images/preview_2.png "Preview2")
