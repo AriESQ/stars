@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T21:00:34.003326+00:00",
+  "last_updated": "2026-05-05T21:13:43.110091+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223544,6 +223544,226 @@
         "fetched_at": "2026-05-05T21:00:31.579244+00:00",
         "status": "ok"
       }
+    },
+    "Phyopma/simplify_scraper": {
+      "lists": [],
+      "metadata": {
+        "id": 944904951,
+        "name": "simplify_scraper",
+        "full_name": "Phyopma/simplify_scraper",
+        "description": "This tool interfaces with the Simplify Jobs API to extract your job application history and save it as JSON data. It supports various filtering options to help you track applications by date range, job type, and application status.",
+        "url": "https://github.com/Phyopma/simplify_scraper",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-08T07:45:52Z",
+        "updated_at": "2026-05-05T20:47:48Z",
+        "pushed_at": "2025-03-08T07:53:35Z",
+        "starred_at": "2026-05-05T20:15:38Z"
+      },
+      "last_updated": "2026-05-05T21:13:39.745485+00:00"
+    },
+    "brangerbriz/up-4evr-ubuntu": {
+      "lists": [],
+      "metadata": {
+        "id": 108281762,
+        "name": "up-4evr-ubuntu",
+        "full_name": "brangerbriz/up-4evr-ubuntu",
+        "description": "Instructions to prep an Ubuntu instance to run an art installation 24/7. Inspired by @laserpilot.",
+        "url": "https://github.com/brangerbriz/up-4evr-ubuntu",
+        "homepage": null,
+        "language": null,
+        "stars": 29,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2017-10-25T14:28:52Z",
+        "updated_at": "2026-05-05T18:07:23Z",
+        "pushed_at": "2017-10-25T14:37:28Z",
+        "starred_at": "2026-05-05T18:07:22Z"
+      },
+      "last_updated": "2026-05-05T21:13:40.097887+00:00"
+    },
+    "brangerbriz/up-4evr-windows-10": {
+      "lists": [],
+      "metadata": {
+        "id": 108308139,
+        "name": "up-4evr-windows-10",
+        "full_name": "brangerbriz/up-4evr-windows-10",
+        "description": "Instructions to prep a Windows 10 instance to run an art installation 24/7. Inspired by @laserpilot. ",
+        "url": "https://github.com/brangerbriz/up-4evr-windows-10",
+        "homepage": null,
+        "language": null,
+        "stars": 74,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2017-10-25T18:18:02Z",
+        "updated_at": "2026-05-05T18:07:11Z",
+        "pushed_at": "2019-10-18T14:34:58Z",
+        "starred_at": "2026-05-05T18:07:10Z"
+      },
+      "last_updated": "2026-05-05T21:13:40.410125+00:00"
+    },
+    "laserpilot/Installation_Up_4evr": {
+      "lists": [],
+      "metadata": {
+        "id": 17119264,
+        "name": "Installation_Up_4evr",
+        "full_name": "laserpilot/Installation_Up_4evr",
+        "description": "This is an article with tips about how to keep an installation up forever",
+        "url": "https://github.com/laserpilot/Installation_Up_4evr",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 339,
+        "forks": 47,
+        "open_issues": 6,
+        "created_at": "2014-02-23T22:59:37Z",
+        "updated_at": "2026-05-05T17:58:59Z",
+        "pushed_at": "2025-08-24T12:31:17Z",
+        "starred_at": "2026-05-05T17:58:59Z"
+      },
+      "last_updated": "2026-05-05T21:13:40.732985+00:00"
+    },
+    "unifiedjs/unified": {
+      "lists": [],
+      "metadata": {
+        "id": 39996248,
+        "name": "unified",
+        "full_name": "unifiedjs/unified",
+        "description": "Parse, inspect, transform, and serialize content with syntax trees",
+        "url": "https://github.com/unifiedjs/unified",
+        "homepage": "https://unifiedjs.com",
+        "language": "JavaScript",
+        "stars": 4980,
+        "forks": 124,
+        "open_issues": 1,
+        "created_at": "2015-07-31T08:53:01Z",
+        "updated_at": "2026-05-05T06:31:43Z",
+        "pushed_at": "2026-04-29T11:25:24Z",
+        "starred_at": "2026-05-05T05:01:25Z"
+      },
+      "last_updated": "2026-05-05T21:13:41.044759+00:00"
+    },
+    "remarkjs/remark": {
+      "lists": [],
+      "metadata": {
+        "id": 22355214,
+        "name": "remark",
+        "full_name": "remarkjs/remark",
+        "description": "markdown processor powered by plugins part of the @unifiedjs collective",
+        "url": "https://github.com/remarkjs/remark",
+        "homepage": "https://remark.js.org",
+        "language": "JavaScript",
+        "stars": 8854,
+        "forks": 373,
+        "open_issues": 8,
+        "created_at": "2014-07-28T19:35:14Z",
+        "updated_at": "2026-05-05T04:59:32Z",
+        "pushed_at": "2026-02-24T19:08:59Z",
+        "starred_at": "2026-05-05T04:59:32Z"
+      },
+      "last_updated": "2026-05-05T21:13:41.358568+00:00"
+    },
+    "WiseLibs/better-sqlite3": {
+      "lists": [],
+      "metadata": {
+        "id": 67626108,
+        "name": "better-sqlite3",
+        "full_name": "WiseLibs/better-sqlite3",
+        "description": "The fastest and simplest library for SQLite3 in Node.js.",
+        "url": "https://github.com/WiseLibs/better-sqlite3",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 7168,
+        "forks": 456,
+        "open_issues": 89,
+        "created_at": "2016-09-07T16:48:37Z",
+        "updated_at": "2026-05-05T20:24:17Z",
+        "pushed_at": "2026-04-27T10:56:35Z",
+        "starred_at": "2026-05-05T04:58:05Z"
+      },
+      "last_updated": "2026-05-05T21:13:41.744019+00:00"
+    },
+    "UUoocl/cablesStudio": {
+      "lists": [],
+      "metadata": {
+        "id": 1171672942,
+        "name": "cablesStudio",
+        "full_name": "UUoocl/cablesStudio",
+        "description": null,
+        "url": "https://github.com/UUoocl/cablesStudio",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-03T13:40:30Z",
+        "updated_at": "2026-05-05T04:55:46Z",
+        "pushed_at": "2026-05-02T00:59:15Z",
+        "starred_at": "2026-05-05T04:55:45Z"
+      },
+      "last_updated": "2026-05-05T21:13:42.068150+00:00"
+    },
+    "kilian-ai/claw": {
+      "lists": [],
+      "metadata": {
+        "id": 1226562641,
+        "name": "claw",
+        "full_name": "kilian-ai/claw",
+        "description": "Tiny POSIX-sh streaming LLM REPL with shell tool calls and rolling memory. The 'claw' CLI used by LinuxOnTab.",
+        "url": "https://github.com/kilian-ai/claw",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-05-01T15:01:12Z",
+        "updated_at": "2026-05-05T17:06:29Z",
+        "pushed_at": "2026-05-05T20:21:21Z",
+        "starred_at": "2026-05-05T04:32:47Z"
+      },
+      "last_updated": "2026-05-05T21:13:42.356332+00:00"
+    },
+    "neuledge/context": {
+      "lists": [],
+      "metadata": {
+        "id": 1147640868,
+        "name": "context",
+        "full_name": "neuledge/context",
+        "description": "Local-first documentation for AI agents",
+        "url": "https://github.com/neuledge/context",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 213,
+        "forks": 30,
+        "open_issues": 2,
+        "created_at": "2026-02-02T03:04:11Z",
+        "updated_at": "2026-05-05T19:49:28Z",
+        "pushed_at": "2026-04-30T01:54:55Z",
+        "starred_at": "2026-05-05T04:24:01Z"
+      },
+      "last_updated": "2026-05-05T21:13:42.643639+00:00"
+    },
+    "openclaw/mcporter": {
+      "lists": [],
+      "metadata": {
+        "id": 1089959414,
+        "name": "mcporter",
+        "full_name": "openclaw/mcporter",
+        "description": "Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.",
+        "url": "https://github.com/openclaw/mcporter",
+        "homepage": "http://mcporter.dev",
+        "language": "TypeScript",
+        "stars": 4288,
+        "forks": 270,
+        "open_issues": 2,
+        "created_at": "2025-11-05T03:29:59Z",
+        "updated_at": "2026-05-05T19:12:39Z",
+        "pushed_at": "2026-05-05T00:03:08Z",
+        "starred_at": "2026-01-27T18:39:23Z"
+      },
+      "last_updated": "2026-05-05T21:13:43.110027+00:00"
     }
   },
   "last_processed_index": 0,
@@ -223553,5 +223773,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a9a1b3d2bb54afb825ddf9084aea7e74be436005a580b1750791395074e76e7f\""
+  "profile_etag": "W/\"4e91abc060c8b7f7dc37444ed52a84e8dddfe28ade039c93c5a6f2e4edf6baf6\""
 }
