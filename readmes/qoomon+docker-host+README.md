@@ -1,0 +1,151 @@
+
+# docker-host [![starline](https://starlines.qoo.monster/assets/qoomon/docker-host)](https://github.com/qoomon/starlines)
+
+[![GitHub release](https://img.shields.io/github/release/qoomon/docker-host.svg)](https://hub.docker.com/r/qoomon/docker-host/)
+[![Docker Stars](https://img.shields.io/docker/pulls/qoomon/docker-host.svg)](https://hub.docker.com/r/qoomon/docker-host/)
+[![Build Workflow](https://github.com/qoomon/docker-host/workflows/Build/badge.svg)](https://github.com/qoomon/docker-host/actions?query=workflow%3ABuild)
+
+
+Docker Image Tags:
+* `latest`
+* `3`
+* `3.x.x`
+
+Docker image to forward **TCP** and **UDP** traffic to the docker host. This
+also works for (rootless) podman. This README.md uses the term docker, but you
+can read that as both `docker` and `podman` (it works for both), unless
+otherwise specified.
+
+This container will determine the docker host address in the following order
+* If set use environment variable `DOCKER_HOST`. Can be an IP address or a DNS name.
+  * This allows you to use this image to forward traffic to arbitrary destinations, not only the docker host.
+* Try to resolve host address from DNS names.
+  * docker hostname `host.docker.internal` 
+  * podman hostname `host.containers.internal`
+* Defaults to default gateway (`ip -4 route show default`)
+
+#### Ports
+By default all ports (`1-65535`) are forwarded to docker host. 
+
+* You may restrict ports by setting environment variable `PORTS` to a space and/or comma separated list of ports and/or port ranges e.g 
+  * `docker run -e PORTS='443, 8000-9000' ...`. 
+* You may also configure port mapping e.g. `443:8443, 8000-9000:5000-6000` (`CONTAINER_PORT:HOST_PORT`).
+
+---
+> [!IMPORTANT]
+> #### On **Linux systems**
+> 
+> * You have to bind your host applications to `0.0.0.0` or `bridge` network gateway in addition to `127.0.0.1`. 
+> 
+>   Use following docker command to get the bridge network gateway IP address 
+> 
+>   `docker network inspect bridge --format='{{( index .IPAM.Config 0).Gateway}}'`
+> 
+>   > For (rootless) **podman**, it's sufficient to bind to localhost, assuming
+>   > default podman installation.
+> 
+> * You might need to configure your firewall of the host system to allow the docker-host container to communicate with the host on your relevant port, see [#21](https://github.com/qoomon/docker-host/issues/21#issuecomment-497831038).
+> 
+> #### On **MacOS systems**
+> 
+> ##### Podman Only
+> 
+> * You probably need to add `nf_nat` kernal module to podman machine by running following commands
+> 
+>   ```shell
+>   podman machine ssh
+> 
+>   sudo modprobe nf_nat
+>   ```
+
+---
+
+# Examples
+These examples will send messages from docker container to docker host with `netcat`
+
+### Preparation
+Start `netcat` server **TCP** on port `2323` to receive and display messages
+```sh
+nc -lk 2323
+```
+Start `netcat` server **UDP** on port `5353` to receive and display messages
+```sh
+nc -lk 5353 -u
+```   
+
+## Docker Link
+Run the dockerhost container.
+```sh
+docker run \
+  --name 'docker-host' \
+  --cap-add=NET_ADMIN --cap-add=NET_RAW \
+  --restart on-failure \
+  -d qoomon/docker-host
+```
+Run your application container and link the dockerhost container.
+The dockerhost will be reachable through the domain/link `dockerhost` of the dockerhost container
+#### This example will let you send messages to **TCP** `netcat` server on docker host.
+```sh
+docker run --rm \
+  --link 'docker-host' \
+  -it alpine nc 'docker-host' 2323 -v
+```
+#### This example will let you send messages to **UDP** `netcat` server on docker host.
+```sh
+docker run --rm \
+  --link 'docker-host' \
+  -it alpine nc 'docker-host' 5353 -u -v
+```
+
+## Docker Network
+Create the dockerhost network.
+```sh
+network_name="Network-$RANDOM"
+docker network create "$network_name"
+```
+Run the dockerhost container within the dockerhost network.
+```sh
+docker run --name "${network_name}-docker-host" \
+  --cap-add=NET_ADMIN --cap-add=NET_RAW \
+  --restart on-failure \
+  --net=${network_name} --network-alias 'docker-host' \
+  qoomon/docker-host
+```
+Run your application container within the dockerhost network.
+The dockerhost will be reachable through the domain/link `docker-host` of the dockerhost container
+#### This example will let you send messages to **TCP** `netcat` server on docker host.
+```sh
+docker run --rm \
+  --link 'docker-host' \
+  -it alpine nc 'docker-host' 2323 -v
+```
+#### This example will let you send messages to **UDP** `netcat` server on docker host.
+```sh
+docker run --rm \
+  --link 'docker-host' \
+  -it alpine nc 'docker-host' 5353 -u -v
+```
+
+## Docker Compose
+```yaml
+version: '2'
+
+services:
+    docker-host:
+        image: qoomon/docker-host
+        cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
+        mem_limit: 8M
+        restart: on-failure
+    tcp_message_emitter:
+        depends_on: [ docker-host ]
+        image: alpine
+        command: [ "sh", "-c", "while :; do date; sleep 1; done | nc 'docker-host' 2323 -v"]
+    udp_message_emitter:
+        depends_on: [ docker-host ]
+        image: alpine
+        command: [ "sh", "-c", "while :; do date; sleep 1; done | nc 'docker-host' 5353 -u -v"]
+```
+
+---
+# External References
+* https://medium.com/@sam_ngu/connecting-to-docker-host-mysql-from-docker-container-linux-ubuntu-766e526542fd

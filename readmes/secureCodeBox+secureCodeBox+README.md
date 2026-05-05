@@ -1,0 +1,128 @@
+<!--
+SPDX-FileCopyrightText: the secureCodeBox authors
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# OWASP secureCodeBox
+
+<p align="center">
+  <img alt="secureCodeBox Logo" src="./resources/securecodebox-logo.svg" width="500px">
+  <img alt="secureCodeBox Logo" src="https://owasp.org/assets/images/logo.png" width="200px">
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License Apache-2.0" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+  <a href="https://github.com/secureCodeBox/secureCodeBox/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/secureCodeBox/secureCodeBox?sort=semver"></a>
+  <a href="https://owasp.org/www-project-securecodebox/"><img alt="OWASP Lab Project" src="https://img.shields.io/badge/OWASP-Lab%20Project-yellow"></a>
+  <a href="https://artifacthub.io/packages/search?repo=securecodebox"><img alt="Artifact HUB" src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/secureCodeBox"></a>
+  <a href="https://infosec.exchange/@secureCodeBox"><img alt="Mastodon Follower" src="https://img.shields.io/mastodon/follow/111902499714281911?domain=https%3A%2F%2Finfosec.exchange%2F"/></a>
+  <a href="https://github.com/secureCodeBox/secureCodeBox/actions?query=workflow%3ACI"><img alt="Build" src="https://github.com/secureCodeBox/secureCodeBox/workflows/CI/badge.svg"></a>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/secureCodeBox/secureCodeBox"><img alt="OpenSSF Scorecard" src="https://api.scorecard.dev/projects/github.com/secureCodeBox/secureCodeBox/badge"></a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FsecureCodeBox%2FsecureCodeBox?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FsecureCodeBox%2FsecureCodeBox.svg?type=shield"/></a>
+</p>
+
+> _secureCodeBox_ is a kubernetes based, modularized toolchain for continuous security scans of your software project. Its goal is to orchestrate and easily automate a bunch of security-testing tools out of the box.
+
+<p align="center">
+  <img width="950" src="./resources/ascii/scb-first-start.svg">
+</p>
+
+## Overview
+
+<!-- toc -->
+
+- [OWASP secureCodeBox](#owasp-securecodebox)
+  - [Overview](#overview)
+  - [Purpose of this Project](#purpose-of-this-project)
+  - [Quickstart](#quickstart)
+  - [Architecture Overview](#architecture-overview)
+  - [Upgrading](#upgrading)
+  - [License](#license)
+  - [Community](#community)
+  - [Contributing](#contributing)
+  - [Sponsors](#sponsors)
+  - [Author Information](#author-information)
+
+For additional documentation aspects please have a look at our [documentation website](https://www.securecodebox.io):
+
+<!-- tocstop -->
+
+## Purpose of this Project
+
+The typical way to ensure application security is to hire a security specialist (aka penetration tester) at some point in your project to check the application for security bugs and vulnerabilities. Usually, this check is done at a later stage of the project and has two major drawbacks:
+
+1. Nowadays, a lot of projects do continuous delivery, which means the developers deploy new versions multiple times each day. The penetration tester is only able to check a single snapshot, but some further commits could introduce new security issues. To ensure ongoing application security, the penetration tester should also continuously test the application. Unfortunately, such an approach is rarely financially feasible.
+2. Due to a typically time boxed analysis, the penetration tester has to focus on trivial security issues (low-hanging fruit) and therefore will probably not address the serious, non-obvious ones.
+
+With the _secureCodeBox_ we provide a toolchain for continuous scanning of applications to find the low-hanging fruit issues early in the development process and free the resources of the penetration tester to concentrate on the major security issues.
+
+The purpose of _secureCodeBox_ **is not** to replace the penetration testers or make them obsolete. We strongly recommend to run extensive tests by experienced penetration testers on all your applications.
+
+**Important note**: The _secureCodeBox_ is no simple one-button-click-solution! You must have a deep understanding of security and how to configure the scanners. Furthermore, an understanding of the scan results and how to interpret them is also necessary.
+
+There is a German article about [Security DevOps – Angreifern (immer) einen Schritt voraus][secdevops-objspec] in the software engineering journal [OBJEKTSpektrum][objspec].
+
+## Quickstart
+
+You can find resources to help you get started on our [documentation website](https://www.securecodebox.io) including instruction on how to [install the secureCodeBox](https://www.securecodebox.io/docs/getting-started/installation) and guides to help you [run your first scans](https://www.securecodebox.io/docs/getting-started/first-scans) with it.
+
+## Architecture Overview
+
+![secureCodeBox Architecture](./resources/scb-architecture.svg)
+
+## Upgrading
+
+For the steps required for upgrading your secureCodeBox installation, see [Upgrading](https://www.securecodebox.io/docs/getting-started/upgrading).
+
+## License
+
+Code of secureCodeBox is licensed under the [Apache License 2.0][scb-license].
+
+## Community
+
+You are welcome, please join us on... 👋
+
+- [GitHub Discussions (Questions & Feedback)][scb-github-discussions]
+- [GitHub Issues (Bugs & Feature Requests)][scb-github]
+- [Mastodon][scb-mastodon]
+
+secureCodeBox is an official [OWASP][owasp] project.
+
+## Contributing
+
+Contributions are welcome and extremely helpful 🙌
+Please have a look at [Contributing](./CONTRIBUTING.md)
+
+### Thanks to Our Awesome Contributors
+
+![Awesome Contributors](https://contrib.rocks/image?repo=secureCodeBox/secureCodeBox)
+
+### Stargazers over time
+
+[![Star History Chart](https://api.star-history.com/svg?repos=secureCodeBox/secureCodeBox&type=Date)](https://star-history.com/#secureCodeBox/secureCodeBox&Date)
+
+## Sponsors
+
+<p align="left">
+  <a href="https://www.iteratec.com/en/"><img alt="iteratec Logo" src="./documentation/static/img/Logo_iteratec_rgb_black_SZ_rz.svg" width="300px"></a>
+</p>
+<p align="left">
+  <a href="https://sda-se.com/?lang=en"><img alt="SDA SE Logo" src="./documentation/static/img/sponsors/Logo_sda-se.png" width="200px" style="margin: 5px; vertical-align: middle;"></a>
+  <a href="https://pagel.pro/en/"><img alt="Timo Pagel IT Consulting Logo" src="./documentation/static/img/sponsors/Logo_timo-pagel-it-consulting.png" width="200px" style="margin: 5px; vertical-align: middle;"></a>
+  <a href="https://www.secura.com/en/"><img alt="Secura Logo" src="./documentation/static/img/sponsors/Logo_secura.svg" width="200px" style="margin: 5px; vertical-align: middle;"></a>
+  <a href="https://www.signal-iduna.de/"><img alt="Signal Iduna Logo" src="./documentation/static/img/sponsors/Logo_signal-iduna.svg" width="200px" style="margin: 5px; vertical-align: middle;"></a>
+</p>
+
+## Author Information
+
+Sponsored and maintained by [iteratec GmbH](https://www.iteratec.com/) - [secureCodeBox.io](https://www.securecodebox.io/)
+
+[owasp]:                  https://www.owasp.org/index.php/OWASP_secureCodeBox
+[objspec]:                https://www.sigs-datacom.de/fachzeitschriften/objektspektrum.html
+[secdevops-objspec]:      http://www.sigs.de/public/ots/2017/OTS_DevOps_2017/Seedorff_Pfaender_OTS_%20DevOps_2017.pdf
+[scb-github]:             https://github.com/secureCodeBox/
+[scb-github-issues]:      https://github.com/secureCodeBox/secureCodeBox/issues
+[scb-github-discussions]: https://github.com/secureCodeBox/secureCodeBox/discussions/categories/general
+[scb-mastodon]:           https://infosec.exchange/@secureCodeBox
+[scb-license]:            https://github.com/secureCodeBox/secureCodeBox/blob/master/LICENSE

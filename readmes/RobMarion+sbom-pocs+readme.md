@@ -1,0 +1,5 @@
+## SBoM PoCs and Strategies  
+*This is a work in progress*  
+Software supply chain issues have come to the forefront of the security world’s consciousness ever since the Solar Winds hack of 2020. As a direct consequence, a United States Presidential Executive Order (excerpted below) and additional pending litigation, not only in the US but in Europe (the Cyber Resilience Act) have mandated better accountability into determining what components comprise a software product. This document demonstrates some practical strategies to implementing a Software Bill of Materials (SBoM). At the time of its conception, the practical implementation of an SBoM had not been fully considered. One serious concern is the speed with which third party components change and the introduction of newly found vulnerabilities in those components.  
+
+All code snippets are MIT licensed.

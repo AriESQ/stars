@@ -1,0 +1,112 @@
+# TISM - "The Incredible State Machine"
+
+![TISM_mini](https://github.com/mjklaren/TISM/assets/127024801/c5aa2888-e35b-4955-86ff-b8fce6673e07) 
+
+TISM is a framework for developing tasks in C that can run concurrently on a Raspberry Pi Pico (or compatible microcontroller using the RP2040, RP2350 and clones) by applying cooperative multitasking techniques. The framework supports multicore use, consists of different elements to control task scheduling, interrupt handling, interprocess messaging, event logging and software timers. The source code also includes example applications to demonstrate how the different components work, as well as a template to help you to quickly build your own tasks.
+
+Please note that TISM is not an operating system. It does not provide a filesystem, it does not manage hardware resources (except CPU time and IRQ handling) or switch contexts. Furthermore, all elements of the system can be modified with little safeguards and poor behaving tasks will affect the whole system. But with a little discipline it will allow you to quickly develop multiple tasks that run concurrently on both cores of your RP2040/RP2350 microcontroller.
+
+## Why TISM?
+I started developing TISM when I wanted to experiment with interacting with different devices from my Raspberry Pi Pico (leds, relais, sensors, motors) but realized that the Pico can only run one task at a time. And for most activities (e.g. waiting on a keypress, adjusting the PWM) a dual core 125Mhz processor provides way more capacity than that is actually used. What originally started as a few routinges to jump between sections of code gradually grew to the framework that it is today. The framework provides a way to quickly get going and with little overhead, while lots of parts can be tuned to meet your specific use case. 
+
+But still, TISM is only an easy way to jump between tasks and allow sharing of CPU capacity. There is no forced context switching; bad behaving code can still lock all task. So if you're looking for 'real' preemptive multitasking capabilities consider solutions like FreeRTOS.
+
+Interested in how TISM can be used? then meet [Matthijs, our first animatronic](https://github.com/mjklaren/Matthijs).
+
+## Documentation
+Detailed documentation of TISM can be found in the [Wiki pages!](https://github.com/mjklaren/TISM/wiki)
+
+## Getting started with the example tasks
+The framework includes three example tasks that demonstrate some of the inner workings of TISM. The wiring is pretty simple; a single button acting as a pull-down connected to GPIO 15 (including an RC network to debounce, which is optional):
+
+<img width="1755" height="636" alt="TISM_Example_bb" src="https://github.com/user-attachments/assets/f4347fa7-aa3d-4b02-8a6b-28bdff27c91e" />
+
+To build and install TISM on the Pico:
+- Install the [Raspberry Pi Pico SDK](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) on your device.
+- Pull the [Github repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or download all the files to a folder.
+- Modify the CMakeLists.txt file to include the folder and follow the steps in [Getting started with Raspberry Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) to build the image. Don't forget to copy pico_sdk_import.cmake into the source directory.
+- Hold the BOOTSEL-button while plugging in the Raspberry Pi Pico. It will now appear as a USB mass storage device on your computer.
+- Drag and drop "main.uf2" from the "build" folder into the Pico folder.
+
+After succesful installation the Pico's onboard LED will start flashing. The LED's flashing frequency will change every 10 seconds. If the button is pressed however the frequency will change immediately. 
+
+## How the examples work
+This is probably one of the most complex 'blinking led' examples. This example code consists of 4 separate tasks, demonstrating various aspects of the TISM framework:
+- "ExampleTask1.c" monitors GPIO15 by 'subscribing' to GPIO_IRQ_EDGE_FALL and GPIO_IRQ_EDGE_FALL events (press and release of the button) on GPIO15 using the TISM IRQ handler. If the button is pressed messages are sent to ExampleTask2 and ExampleTask3 via TISM's messaging system. If the button is released another message is sent to ExampleTask3.
+- "ExampleTask2.c" is responsible for blinking the onboard LED of the Raspberry Pi Pico (GPIO25). If you are using a clone without an onboard LED, change the GPIO to another and connect a LED (don't forget a 330-400 ohm resistor). A repetitive software timer is set (TISM's software timer); whenever a message is received from the timer the frequency of blinking is changed; when a message is received from ExampleTask1 the frequency is also changed.
+- "ExampleTask3.c" sets a repetitive timer (again TISM's software timer) and writes the number of cycles ExampleTask3 has run to STDOUT whenever an event from the software timer is received. But there is a twist; whenever the button is pressed (and a message is received from ExampleTask1) the priority of this task (ExampleTask3) is set to PRIORITY_HIGH by modifying its task properties, resulting in this task running more often. When the button is released (again, a message is received from ExampleTask1) the priority is reset to PRIORITY_NORMAL. So holding the button means that ExampleTask3 will run more often.
+- "ExampleTask4.c" emulates load on the system by using 'sleep_ms' (basically waiting and waisting CPU time) and counting how many cycles it has run. When the maximum number of runs is reached the TISM-system is stopped by changing the system state.
+
+And that's it! Check the sourcecode (ExampleTask1.c to ExampleTask4.c) to see what happens internally. TISM (and the example application) will write some logging information to standard output. To see the output (on Linux) use a terminal emulator:
+
+`sudo screen /dev/ttyACM0`
+
+## Tuning the behavior of TISM 
+A LOT of bits and part of the system can be modified, have a look at TISM.h. Uncommenting the following definitions will change the behavior of TISM and performance of the Raspberry Pi Pico:
+- TISM_DISABLE_PRIORITIES        - Disable priorities mechanism; all tasks are executed round robin.
+- TISM_DISABLE_SCHEDULER         - Disables the scheduler; all tasks start consecutively, no planning. Also disables the TISM_SoftwareTimer.
+- TISM_DISABLE_DUALCORE          - Disables dual processor core operation; only use the first core.
+- TISM_DISABLE_UARTMX            - Disables the exchange of TISM messages between Picos using the UART (e.g. nullmodel or DT-09 devices).
+- TISM_DISABLE_PROTECTIONS       - Disables (limited) protection of TISM system tasks against state changes by non-TISM tasks.
+
+TISM uses a priority mechanism based on the number of microseconds that have to pass before a task is executed again. As this framework uses cooperative multitasking there is no guarantee that the task will be executed exactly at this period of time (but it won't start earlier). Effectively; the lower the value, the higher the priority. Furthermore, tasks with PRIORITY_HIGH will be checked more often if tasks need to be executed, PRIORITY_LOW the least often.
+- PRIORITY_HIGH            2500   - High priority task; time after which task should be restarted (in usec). 
+- PRIORITY_NORMAL          5000   - Normal priority task; time after which task should be restarted (in usec).
+- PRIORITY_LOW             10000  - Low priority task; time after which task should be restarted (in usec).
+
+Altering these values will affect how CPU time is distributed between tasks. Pro tip; if you want all tasks to run on the same priority, but want to retain the scheduling features; set PRIORITY_HIGH (for example) to 10, PRIORITY_NORMAL to 20 and PRIORITY_LOW to 30.
+
+## Networking/message exchange between hosts
+TISM has an internal messaging system which is basically a core component for a lot of features (e.g. scheduling, IRQ handling). TISM now supports exchange of TISM-messages between hosts the UART. In this way 2 Picos can be connected directly, or multiple Picos can connect to the same network using TTL-to-Wifi devices like the DT-09. In TISM.h the unique HostID is set, along with other parameters like GPIO of the UART, baudrate etc. Unsurprisingly, HostIDs need to be unique in the network.
+A detailed description of the protocol [can be found in de 'doc'-section](https://github.com/mjklaren/TISM/tree/main/doc).
+
+For more details of the TISM framework check the [Wiki pages!](https://github.com/mjklaren/TISM/wiki)
+
+## Tips for developing tasks
+To make the most effective use of TISM follow these few tips:
+- Break down activities into small components as much as possible.
+- Use the TISM messaging system to communicate between tasks and the TISM scheduler to plan events.
+- TISM provides an interrupt handler that allows multiple tasks to 'subscribe' to certain events on the GPIOs. Use this whenever possible to share the interrupt facility; as the Raspberry Pi Pico currently only supports one interrupt handler.
+- Prevent loops (e.g. 'do-while' and 'for') as much as possible. Allow a task to run as briefly as possible, end the run ('return') and trust that TISM will restart the task again.
+- As the Raspberry Pi Pico doesn't have a MCU and TISM doesn't store stack and heap, make use of global and static variables to maintain the state of your task. In the example tasks 'static' variables are used for storing and retaining data across runs. Static variables retain their values across runs, but are not accessible for other code segments.
+- Use the EventLogger facility to write messages to STDOUT. TISM supports dualcore operation; EventLogger makes sure logging messages don't overwrite eachother. The provided (simple) console also uses the EventLogger.
+- You can set the debugging levels of the whole system and each task separately. Check TISM_Console.c for example how to set. Use this carefully; extensive logging can slow the system down to a crawl! Furthermore, TISM provides for a 'step by step' run mode (see TISM.h) which is slow, but allows you to carefully review the handling of your tasks.
+
+## Change log - 260321
+- Resolved a nasty bug that prevented tasks from going to sleep in single-core mode.
+- Clarified sleep/wake behavior; when tasks go to sleep they can only be woken up by incoming messages or incoming timers. Delayed task execution can be set using the TaskWakeUpTimer attribute while keeping the TaskSleep attribute to false.
+
+## Change log - 260313
+- Made some small changes to the source files to prevent compilation errors.
+- Made some small changes to the message routing functionality.
+- Added the capability for 'addressless' messaging; when HostID is 0, still being able to receive broadcasts only.
+
+## Change log - 260301
+- Removed some nasty bugs from the scheduler, added a couple of mutexes and critical code segments.
+- Improved management of task attributes, improving handling of task property changes.
+- Added a "network" feature! TISM is now able to communicate with other Pi Picos via the UART (e.g. nullmodem or DT-09).
+- Added a network management task to build a 'network neighborhood' list, to resolve hostnames and tasknames.
+- Added a (simple) console to look 'under the hood' of TISM, using the USB/serial interface.
+- Unsubscribing from IRQs now fully work.
+
+## Change log - 251024
+- Major rewrite and cleanup of the code.
+- Improved task switching and removed a bug where a task could run on both cores simultanously under low-load conditions.
+- Extended the buffersize of the eventlogger to prevent missing messages when debuglevels are set to high.
+- Tuned the priority settings in TISM.h.
+- Added several options to alter the behavior of TISM (see above).
+- Added option to cancel a software timer via an ID.
+- Introduced step-by-step execution to facilitate debugging (see RUN_STEP_BY_STEP in TISM.h).
+- Laid some groundwork for multi-host operation.
+ 
+## Wish list:
+- Support for RS485 and 433Mhz devices in TISM_UartMX.c.
+- Support for Pico W and Wifi networking.
+- Rewrite of the EventLogger to switch from dynamic to static allocated memory for messages, to prevent memory fragmentation after (very) long runs.
+- Extend the TISM-messaging protocol to support the exchange of system related data (e.g. system time, unique ID etc.)
+- Adding 'promiscuous mode' to TISM_UartMX to debug message exchange between hosts.
+- The ability to turn 'network neighborhood' collection off.
+
+
+The source code is distributed under the GPLv3 license.
+

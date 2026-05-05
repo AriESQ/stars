@@ -1,0 +1,129 @@
+<p align="center">
+  <img src="assets/paniclock-logo-and-name-v1.png" alt="PanicLock" width="400">
+</p>
+
+PanicLock is a macOS menu bar utility that instantly disables Touch ID and locks the screen with a single click or closing your laptop lid.
+
+PanicLock fills a gap macOS leaves open: there is no built-in way to instantly disable Touch ID when it matters. Biometrics are convenient day-to-day, and sometimes preferable when you need speed or want to avoid your password being observed. But in sensitive situations, law enforcement and border agents in many countries can compel a biometric unlock in ways they cannot with a password. PanicLock gives you a one-click menu bar button, a customizable hotkey, or an automatic lock-on-lid-close option that immediately disables Touch ID and locks your screen, restoring password-only protection without killing your session or shutting down.
+
+<p align="center">
+  <a href="https://github.com/paniclock/paniclock/releases/latest/download/PanicLock.dmg">
+    <img src="https://img.shields.io/badge/Download-PanicLock-blue?style=for-the-badge&logo=apple" alt="Download PanicLock">
+  </a>
+</p>
+
+## Features
+
+- **One-click panic lock** — Click the menu bar icon or press a hotkey to instantly lock
+- **Lock on Close** — Optionally lock and disable Touch ID when you close the lid
+- **Temporarily disables Touch ID** — Forces password-only unlock
+- **Auto-restore** — Original Touch ID settings restored after unlock
+- **Keyboard shortcut** — Configure a global hotkey (e.g., ⌃⌥⌘L)
+- **Launch at login** — Start automatically when you log in
+
+## Install
+
+### Homebrew
+
+```bash
+brew install paniclock/tap/paniclock
+```
+
+### Manual Download
+
+Download the latest DMG from the [releases page](https://github.com/paniclock/paniclock/releases/latest).
+
+## Requirements
+
+- macOS 14.0 (Sonoma) or later
+- Mac with Touch ID
+
+## Usage
+
+| Action | Result |
+|--------|--------|
+| **Left-click** icon | Trigger panic lock immediately |
+| **Right-click** icon | Open menu (Preferences, Uninstall, Quit) |
+
+### Lock on Close
+
+When enabled in Preferences, closing your Mac's lid will automatically disable Touch ID and lock your screen. Touch ID stays disabled until you re-login with your password. If your screen locks for other reasons (screensaver, display sleep, etc.), Touch ID will still work as normal.
+
+### First Launch
+
+On first use, you'll be prompted for your admin password to install the privileged helper. This is a one-time setup.
+
+## Building from Source
+
+1. Clone this repository
+2. Open `PanicLock.xcodeproj` in Xcode
+3. Set your Development Team in both targets (PanicLock and PanicLockHelper)
+4. Update Team ID in `Info.plist` (`SMPrivilegedExecutables`) and `Info-Helper.plist` (`SMAuthorizedClients`)
+5. Build and run
+
+## Uninstall
+
+**Homebrew:**
+```bash
+brew uninstall paniclock
+```
+
+**From the app:** Right-click → "Uninstall PanicLock..." → Enter admin password
+
+**Manual:**
+```bash
+sudo launchctl bootout system/com.paniclock.helper
+sudo rm -f /Library/PrivilegedHelperTools/com.paniclock.helper
+sudo rm -f /Library/LaunchDaemons/com.paniclock.helper.plist
+rm -rf /Applications/PanicLock.app
+```
+
+## How It Works
+
+PanicLock uses a privileged helper (installed via SMJobBless) to modify Touch ID timeout settings:
+
+1. Reads current timeout via `bioutil -r -s`
+2. Sets timeout to 1 second via `bioutil -w -s -o 1`
+3. Locks screen via `pmset displaysleepnow`
+4. Restores original timeout after ~2 seconds
+
+PanicLock only disables Touch ID. If you have other unlock methods enabled — Apple Watch unlock, security keys, etc. — your Mac can still be unlocked using those.
+
+## Security
+
+- **Minimal privileges** — Helper only runs 3 hardcoded commands (`bioutil`, `pmset`)
+- **Code-signed XPC** — Helper verifies connecting app's bundle ID + team ID + certificate
+- **No network activity** — App is 100% offline, no telemetry or analytics
+- **No data collection** — Only stores preferences (icon style, keyboard shortcut)
+- **Open source** — Full code available for audit
+
+Note: PanicLock only disables Touch ID. If you have other unlock methods enabled, Apple Watch unlock, security keys, etc., your Mac can still be unlocked using those.
+
+## Releasing
+
+The release script handles building, signing, notarizing, and packaging:
+
+```bash
+./scripts/release.sh
+```
+
+**Features:**
+- Extracts version from Xcode project automatically
+- Signs with Developer ID for distribution outside the App Store
+- Submits to Apple for notarization (can take minutes to hours)
+- Creates a notarized DMG for distribution
+- Supports parallel notarizations — each version gets its own `build/release/<version>/` directory
+
+**Workflow:**
+1. Bump `MARKETING_VERSION` in Xcode
+2. Run `./scripts/release.sh` — builds and submits for notarization
+3. Run again later to check status and continue when approved
+4. Final output: `build/release/<version>/PanicLock-<version>.dmg`
+
+## License
+
+MIT License — See [LICENSE](LICENSE) for details.
+
+## Contributing
+
+Contributions welcome! Please open an issue or pull request.

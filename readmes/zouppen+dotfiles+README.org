@@ -1,0 +1,49 @@
+* Jarkko Saltiola's dot files
+Repository containing my Unix system configuration files and configuration files for input devices and some graphical applications I use. There's also some handy utilities for [[https://github.com/jasalt/dotfiles/tree/master/bin][*NIX]], [[https://github.com/jasalt/dotfiles/tree/master/osx/bin][OSX]], [[https://github.com/jasalt/dotfiles/tree/master/linux/bin][Linux]] and [[https://github.com/jasalt/dotfiles/blob/master/windows/bomb.bat][Windows]] of which part of depend on some environment variables (such as the [[https://github.com/jasalt/dotfiles/blob/master/bin/pbnotify][PushBullet notification script]]). 
+
+=This is is not a plug and play configuration, but as an example reading material after you're accustomed to reading badly documented and rad shell and emacs-lisp syntax.=
+
+I use GUI Emacs & OrgMode, terminal emulator and Chrome browser running on Ubuntu Studio and OSX on a couple laptops (X220 dualboot Ubuntu [[http://x220.mcdonnelltech.com/][Hackintosh]] and a 2011 MBP). In addition I ssh control some servers, which I often mirror my tmux & shell config to.
+
+I've built a (mostly) mirrored hotkey/shell configuration between my Mac and Linux desktop environments so I can push the same buttons with same speed without underlying OS making much difference on my productivity in text based tasks. Linux desktop however is what I use most of my time and it has more advanced hotkey workflow thank's to [[https://github.com/baskerville/sxhkd][SXHKD]] hotkey daemon, which I haven't found an equivalent yet on the MacOS side and I'm not too fond hacking it together myself.
+
+Current setup is based on [[http://ohmyz.sh/][Oh My ZSH]] and [[http://batsov.com/prelude/][Emacs Prelude]] customization frameworks.
+
+** Init
+Clone repo to =~/dotfiles=. 
+
+*** Shell
+Accomplished by sourcing distro/OS specific shell script files from .zshrc after fresh installation of Oh My ZSH. Eg. =source $HOME/dotfiles/shell/shell-ubuntu.sh= or
+=source $HOME/dotfiles/shell/shell-osx.sh=.
+
+*** Emacs
+Symlink =init.el= to =~/.emacs.d/personal/init.el= after fresh installation of Prelude. It's seemingly working with current stable version 24 and also nightly 25. Also =prelude-modules.el= should be symlinked to =~/.emacs.d/prelude-modules=.
+
+I store text material at =~/notes/= which gives some errors at =orgmode.el= config file, that you should modify or disable in =init.el=
+
+[[file:emacs/general.el][Emacs progn-on]] macro works as a switch for selecting OS specific code:
+#+BEGIN_SRC elisp
+(defmacro progn-on (platform &rest body)
+  "Evaluate given expressions if running on given platform."
+  (if (string-equal system-type platform)
+      (cons 'progn body)))
+
+;; Example usage:
+
+(progn-on "darwin"
+ (setq ns-use-native-fullscreen nil)
+ (setq mac-option-modifier 'nil
+       mac-command-modifier 'meta
+       mac-function-modifier 'hyper)
+ (set-variable 'magit-emacsclient-executable
+               "/usr/local/bin/emacsclient"))
+
+(progn-on "gnu-linux"
+          (defun open-file-path-in-terminal ()
+            "Open current directory in dired mode in terminal application.
+             Dismiss shell output buffer afterwards."
+            (interactive)
+            (start-process "terminator" nil "terminator"
+                           (concat "--working-directory="
+                                   (file-truename default-directory)))))
+#+END_SRC

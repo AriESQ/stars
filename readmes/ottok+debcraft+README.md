@@ -1,0 +1,455 @@
+# Debcraft: Easy, fast and secure way to build Debian packages
+
+* **Easy**: Build any Debian/Ubuntu package in one single command. If you don't
+  have the package or source already downloaded, it will be done automatically.
+  Also, a build container (both Podman and Docker supported) is automatically
+  built using the target Debian or Ubuntu suite in `debian/changelog` and with
+  exact build dependencies from `debian/control`. Users are spared from having
+  to manually prepare ahead or maintain [sbuild](https://wiki.debian.org/sbuild)
+  root file systems or similar. The command output is (relatively) easy to read,
+  and it also teaches users about Debian packaging in context.
+
+* **Fast**: Container layer caching is utilized to make builds and re-builds
+  blazingly fast. Debian packages that support [ccache](https://ccache.dev/)
+  build even faster.
+
+* **Secure**: Builds happen inside hermetic containers with no network access.
+  This ensures all dependencies are properly managed and the built binaries
+  equally trustworthy as the source code it was built from. This also protects
+  the host system from getting polluted with extra development libraries, and
+  adds an extra layer of protection to prevent anything malicious in the source
+  code from accessing secrets on the host system. The additional logs provided
+  by Debcraft also helps audit changes in Debian package sources and build
+  artifacts.
+
+> **Feedback welcome!** Debcraft is still in early development and your feedback
+> is greatly appreciated. Bug reports at
+> https://salsa.debian.org/debian/debcraft/-/issues are welcome on for example:
+>
+> * Documentation: Is it easy to start using Debcraft? How could the
+>   documentation be clarified further?
+> * Structure: Are you able to productively use Debcraft? Is the tool easy to
+>   reason about? Do the features and code architecture make sense?
+> * Compatibility: Does Debcraft work on your laptop and with your favorite
+>   Linux distro / release / package?
+
+## Usage
+
+### Typical usage examples
+
+#### Build a package straight from Debian unstable
+
+```shell
+debcraft build <package>
+```
+
+#### Build package from a specific Debian/Ubuntu release
+
+```shell
+debcraft build --distribution bullseye <package>
+```
+
+#### Build from a local directory
+
+```shell
+debcraft build <path to sources>
+```
+
+#### Drop into a shell inside the build container for debugging
+
+```shell
+debcraft shell <path to sources>
+```
+
+#### Build and ensure all dependencies are latest possible
+
+```shell
+debcraft build --pull <path to sources>
+```
+
+#### Build and publish to Launchpad Personal Package Archive (PPA)
+
+```shell
+DEBCRAFT_PPA=ppa:otto/ppa debcraft release <path to sources>
+```
+
+#### Pass build options
+
+```shell
+DEB_BUILD_OPTIONS="parallel=4 nocheck noautodbgsym" debcraft build <package>
+```
+
+### Command reference
+
+```
+$ debcraft --help
+usage: debcraft <build|improve|test|release|shell|prune> [options] [<path|pkg|srcpkg|dsc|git-url>]
+
+Debcraft is a tool to easily build .deb packages. The 'build' argument accepts
+as a subargument any of:
+
+  * path to directory with program sources including a debian/ subdirectory with
+  * the Debian packaging instructions
+
+  * path to a .dsc file and source tarballs that can be built into a .deb
+
+  * Debian package name, or source package name, that apt can download
+
+  * git http(s) or ssh URL that can be downloaded and built
+
+The commands 'validate' and 'release' are intended to be used to finalize a
+package build. The command 'test' will run the Debian-specific regression test
+suite if the package has autopkgtest support, and drop to a shell for
+investigation if tests failed to pass. The command 'shell' can be used to play
+around in the container and 'prune' will clean up temporary files by Debcraft.
+
+In addition to parameters below, anything passed in DEB_BUILD_OPTIONS will also
+be honored (currently DEB_BUILD_OPTIONS='$DEB_BUILD_OPTIONS'). Note that
+Debcraft builds never run as root, and thus packages with
+DEB_RULES_REQUIRES_ROOT are not supported.
+
+optional arguments:
+  --build-dirs-path    Path for writing build files and artifacts (default: parent directory)
+  --distribution       Linux distribution to build in (default: debian:sid)
+  --container-command  container command to use (default: podman)
+  --skip-sources       build only binaries and skip creating a source
+                       tarball to make the build slightly faster
+                       ('debcraft build' only)
+  --with-binaries      create a release with both source and binaries,
+                       for example with intent to upload to NEW
+                       ('debcraft release' only)
+  --pull               ensure container base is updated
+  --copy               perform the build on a copy of the package directory
+  --clean              ensure sources are clean
+  --debug              emit debug information
+  -h, --help           display this help and exit
+  --version            display version and exit
+
+To learn more, or to contribute to Debcraft, see project page at
+https://salsa.debian.org/debian/debcraft
+
+To gain more Debian Developer knowledge, please read
+https://www.debian.org/doc/manuals/developers-reference/
+and https://www.debian.org/doc/debian-policy/
+```
+
+### Example output from build
+
+```
+$ debcraft build
+Running in path ~/entr/entr that has Debian package sources for 'entr'
+Use 'podman' container image 'debcraft-entr-debian-sid' for package 'entr'
+Building container 'debcraft-entr-debian-sid' in '~/entr/debcraft-container-entr' for build ID '1705046461.1964390+debian.latest'
+STEP 1/12: FROM debian:sid
+...
+COMMIT debcraft-entr-debian-sid
+--> d9975574b37
+Successfully tagged localhost/debcraft-entr-debian-sid:latest
+d9975574b37ac5ff5fd1874ee935a8d35152126798d339a53c076cd0461c9354
+Previous build was in ~/entr/debcraft-build-entr-1705046398.1964390+debian.latest
+Building package at ~/entr/debcraft-build-entr-1705046461.1964390+debian.latest
+Running 'dpkg-buildpackage --build=any,all' to create .deb packages
+gbp:info: Performing the build
+dpkg-buildpackage: info: source package entr
+dpkg-buildpackage: info: source version 5.5-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Otto Kekäläinen <otto@debian.org>
+ dpkg-source --before-build .
+...
+make -j4 "INSTALL=install --strip-program=true"
+make[1]: Entering directory '/debcraft/source'
+cc -g -O2 -ffile-prefix-map=/debcraft/source=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -D_GNU_SOURCE -D_LINUX_PORT -isystem /usr/include/bsd -DLIBBSD_OVERLAY  -Imissing -Wdate-time -D_FORTIFY_SOURCE=2 -DRELEASE=\"5.5\" -Wl,-z,relro -Wl,-z,now -lpthread -Wl,-z,nodlopen -Wl,-u,libbsd_init_func -lbsd-ctor -lbsd  missing/kqueue_inotify.c entr.c -o entr
+entr.c: In function ‘print_child_status’:
+entr.c:289:9: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  289 |         write(STDOUT_FILENO, buf, len);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+entr.c: In function ‘run_utility’:
+entr.c:433:17: warning: ignoring return value of ‘realpath’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  433 |                 realpath(leading_edge->fn, arg_buf);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/debcraft/source'
+dh: command-omitted: The call to "dh_auto_test -O--buildsystem=makefile" was omitted due to "DEB_BUILD_OPTIONS=nocheck"
+   create-stamp debian/debhelper-build-stamp
+   dh_testroot -O--buildsystem=makefile
+   dh_prep -O--buildsystem=makefile
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/debcraft/source'
+dh_auto_install -- PREFIX=/usr
+	make -j4 install DESTDIR=/debcraft/source/debian/entr AM_UPDATE_INFO_DIR=no "INSTALL=install --strip-program=true" PREFIX=/usr
+make[2]: Entering directory '/debcraft/source'
+install entr /debcraft/source/debian/entr/usr/bin
+install -m 644 entr.1 /debcraft/source/debian/entr/usr/share/man/man1
+make[2]: Leaving directory '/debcraft/source'
+make[1]: Leaving directory '/debcraft/source'
+   dh_installdocs -O--buildsystem=makefile
+   dh_installchangelogs -O--buildsystem=makefile
+   dh_installman -O--buildsystem=makefile
+   dh_installsystemduser -O--buildsystem=makefile
+   dh_perl -O--buildsystem=makefile
+   dh_link -O--buildsystem=makefile
+   dh_strip_nondeterminism -O--buildsystem=makefile
+   dh_compress -O--buildsystem=makefile
+   dh_fixperms -O--buildsystem=makefile
+   dh_missing -O--buildsystem=makefile
+   dh_dwz -a -O--buildsystem=makefile
+   dh_strip -a -O--buildsystem=makefile
+   dh_makeshlibs -a -O--buildsystem=makefile
+   dh_shlibdeps -a -O--buildsystem=makefile
+   dh_installdeb -O--buildsystem=makefile
+   dh_gencontrol -O--buildsystem=makefile
+   dh_md5sums -O--buildsystem=makefile
+   dh_builddeb -O--buildsystem=makefile
+dpkg-deb: building package 'entr' in '../entr_5.5-1_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../entr_5.5-1_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../entr_5.5-1_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-source: info: unapplying fix-spelling.patch
+dpkg-source: info: unapplying system-test-fixes.patch
+dpkg-source: info: unapplying debug-system-test.patch
+dpkg-source: info: unapplying kfreebsd-support.patch
+dpkg-source: info: unapplying libbsd-overlay.patch
+dpkg-buildpackage: info: binary-only upload (no source included)
+Cache directory:    /debcraft/cache/ccache
+Config file:        /debcraft/cache/ccache/ccache.conf
+System config file: /etc/ccache.conf
+Stats updated:      Fri Jan 12 08:01:04 2024
+Local storage:
+  Cache size (GiB): 0.0 / 5.0 ( 0.00%)
+  Files:              0
+  Hits:               0
+  Misses:             0
+  Reads:              0
+  Writes:             0
+
+Create lintian.log
+
+Create filelist.log
+
+Create maintainer-scripts.log
+
+Create diffoscope report comparing to previous build
+
+Build completed in 10 seconds and created:
+total 72K
+ 32K diffoscope.html
+4.0K entr_5.5-1_amd64.build
+8.0K entr_5.5-1_amd64.buildinfo
+4.0K entr_5.5-1_amd64.changes
+ 20K entr_5.5-1_amd64.deb
+4.0K filelist.log
+   0 lintian.log
+
+Artifacts at ~/entr/debcraft-build-entr-1705046461.1964390+debian.latest
+To compare build artifacts with those of previous similar build you can use for example:
+  meld ~/entr/debcraft-build-entr-1705046398.1964390+debian.latest ~/entr/debcraft-build-entr-1705046461.1964390+debian.latest &
+  browse ~/entr/debcraft-build-entr-1705046461.1964390+debian.latest/diffoscope.html
+```
+
+## Installation
+
+### Debian package
+
+Debcraft is in Debian unstable ("sid") and Ubuntu 24.10 "Oracular" since July 2024.
+If running such a new version one can simply install with:
+
+```
+apt install debcraft
+```
+
+If you do not have Podman nor Docker installed, it will install Podman by
+default.
+
+### Development version
+
+To use the latest development version, simply clone the git repository and link the
+script from any directory you have in your `$PATH`, such as `$HOME/bin`
+
+```
+git clone https://salsa.debian.org/debian/debcraft.git
+cd debcraft
+make install-local
+```
+
+## Development
+
+### Design tenets
+
+The core design principles are:
+1. **Be opinionated, make the correct thing automatically** without asking user
+   to make too many decisions, and when full automation is not possible, steer
+   users to follow the best practices in software development.
+2. Use [git](https://tracker.debian.org/pkg/git),
+   [git-buildpackage](https://tracker.debian.org/pkg/git-buildpackage) and
+   [quilt](https://tracker.debian.org/pkg/quilt) as Debian is on a path to
+   standardize on them as shown by the [Debian Trends
+   website](https://trends.debian.net/).
+3. **Use Linux containers** (not chroot like traditional Debian tools do) for
+   improved isolation, security and reproducibility.
+4. **Create build environment containers on the fly** so users don't need to
+   plan ahead what containers or chroots to have.
+5. **Be extremely fast** in what users are likely to spend most of their time
+   on: rebuilds.
+6. **Store logs and artifacts from builds and help users review changes**
+   between builds and package versions to maximize users' understanding of how
+   their changes affect the outcome.
+7. **Don't expect users to run the latest version of Debian** or even Debian or
+   Ubuntu at all. The barrier to run Debcraft should be as low as possible, so
+   that anyone can participate in debugging Debian package builds and improving
+   them.
+8. **Encourage users to collaborate** and submit improvements upstream and on
+   Salsa instead of just making their own private Debian packages.
+9. **Teach users about the Debian policy** gradually and in context, so that
+   over time users grow towards Debian maintainership.
+
+### Development as an open source project
+
+**This project is open source and contributions are welcome!** The project
+maintains a promise that the initial review will happen in 48h for all Merge
+Requests received. The [code review will be conducted professionally]() and the
+code base aims to maintain a very high quality bar, so please reserve time to
+polish your code submission in a couple of review rounds.
+
+The project is hosted at https://salsa.debian.org/debian/debcraft with mirrors at
+https://gitlab.com/ottok/debcraft and https://github.com/ottok/debcraft.
+
+### Roadmap
+
+Debcraft does not intend to replace well-working existing tools like
+[git-buildpackage](https://honk.sigxcpu.org/piki/projects/git-buildpackage/),
+but rather build upon them, making the overall process as easy as possible.
+**Current development focus is to make the `debcraft build` as easy and
+efficient as possible** and it is already quite capable. The `release` is also
+already fully usable.
+
+The `validate` command only does static testing for the source directory without
+modifying anything. Something like `polish` to run
+[lintian-brush](https://manpages.debian.org/unstable/lintian-brush/lintian-brush.1.en.html)
+and other tools to automatically improve the package source code might be added
+later, or a command to run dynamic tests on the built binaries (create local
+repo, run piuparts, autopkgtests, some of the Salsa-CI tests locally etc).
+
+The `prune` command currently does nothing.
+
+To help Debian Developers with recurring work, a command such as `update` to
+automatically import a new upstream version might also be implemented later.
+
+Search for `@TODO` comments in the sources to see which parts are incomplete and
+pending to be written out.
+
+### Programming language: Bash
+
+Bash was specifically chosen as the main language for this tool in order to keep
+the code contribution barrier as low as possible. Additionally, as Debcraft
+mainly builds upon invoking other programs via their command-line interface,
+using Bash scripting helps keep the code base small and lean compared to using a
+proper programming language to run tens of subshells. If the limitations of Bash
+(e.g. lack of proper testing framework, limited control of output with merely
+ANSI codes, overly simplistic error handling etc) start to feel limiting, parts
+of this tool might be rewritten in a fast to develop language like Python, Mojo,
+Nim, Zig or Rust.
+
+Note that Bash is used to its fullest. There is no need to restrict
+functionality to POSIX compatibility as Debcraft will always run on Linux using
+Linux containers anyway.
+
+### High quality, secure and performant code
+
+Despite being written with Bash, Debcraft still aims for the highest possible code
+quality by enforcing that the code base is Shellcheck-clean along with other
+applicable static testing, such as spellchecking. While running `set -e` is in
+effect to stop execution on any error unless explicitly handled.
+
+The Bash code should avoid spawning subshells if it can be avoided. For example
+use in-line [Bash parameter
+substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html) instead
+of spawning `sed` commands in subshells.
+
+There are no fixed release dates or fixed milestone scopes. Maintaining high
+quality trumps other priorities. This tool is intended to automate Debian
+packaging work that has existed for decades, and the tools should be robust
+enough to stand the test of time and serve for decades to come.
+
+### Prioritize readability
+
+It is more important for code to be easy to read and reason about than quick to
+write. Therefore, always spend a bit of extra effort to make things clear and
+easy to read. For example, write `--parameter` instead of just `-p` when
+possible. Most commands are also run with `--verbose` intentionally to expose to
+users what is happening.
+
+Automation in a developer tool does not mean that things should be hidden - in
+this tool automation is transparent, doing as much as possible on behalf of the
+user but still transparent about what is being done.
+
+### Testing
+
+To help with ensuring the above about code quality, the project has both GitLab
+CI for automatic testing and a simple `make test` command to run the same
+testing locally while developing.
+
+### Name
+
+Why the name _Debcraft_? Because the name _debuild_ was already taken. The
+'craft' also helps set users in the correct mindset, hinting towards that
+producing high quality Debian packages and maintaining an operating system over
+many years and decades is not just a pure technical task, but involves following
+industry wisdom, anticipating unknowns and hand-crafting and tuning things to
+be as perfect as possible.
+
+### Related software
+
+* [dpkg-buildpackage](https://manpages.debian.org/unstable/dpkg-dev/dpkg-buildpackage.1.en.html)
+* [debuild](https://manpages.debian.org/unstable/devscripts/debuild.1.en.html)
+* [Deb-o-matic](https://debomatic.github.io/)
+* [UMT](https://wiki.ubuntu.com/SecurityTeam/BuildEnvironment#Setting_up_and_using_UMT)
+
+## Advanced usage examples
+
+### GitHub Actions
+
+If you would like to build Debian packages out of GitHub Actions, debcraft can
+come in handy. GitHub Actions only offer Ubuntu-based runners, but debcraft
+allows to build packages for different releases of both Debian and Ubuntu.
+
+Unfortunately you cannot put a file in the directory `.github/workflows` directly
+in a project which hosts a Debian package as it would fail to build due to
+changes to the source.
+
+A possible solution is to host the building logic in a separate repository
+and fetch the proper sources for the package via parameters to the workflow.
+
+See https://github.com/centic9/debian-packages/blob/main/.github/workflows/debian-package-debcraft.yml
+for a resulting GitHub Action which can build any package as long as sources
+are available in a repository on GitHub.
+
+### Custom Distribution Mapping
+
+If you are using a custom or private Debian derivative (e.g., Scibian, Kali
+Linux) or need to use internal base images, you can map distribution names to
+specific container images.
+
+`debcraft` reads configuration files in the following order:
+1. `/etc/debcraft`
+2. `~/.config/debcraft`
+3. A custom file provided via `--config <path>`
+
+Example configuration file:
+```bash
+# /etc/debcraft
+# The pattern should be as follow :
+DEBCRAFT_DISTRIBUTION_MAPPING["distribution_name"]="container_image_name"
+# e.g.
+DEBCRAFT_DISTRIBUTION_MAPPING["scibian*"]="scibian"
+DEBCRAFT_DISTRIBUTION_MAPPING["kali*"]="kali-linux/kali-rolling"
+DEBCRAFT_DISTRIBUTION_MAPPING["custom-distribution*"]="my-registry.com/build-image"
+```
+
+**Note:** Pattern matching (globs) like `*` are supported for distribution names
+parsed from the changelog.
+
+## Copyright and licence
+
+Copyright 2023-2026 Otto Kekäläinen & collaborators
+
+Debcraft is free and open source software as published under GPL version 3.

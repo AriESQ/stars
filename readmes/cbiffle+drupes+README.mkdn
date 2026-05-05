@@ -1,0 +1,149 @@
+# `drupes`: removes dupes
+
+This is a (relatively) simple command line tool for finding, and optionally
+removing, duplicate files.
+
+To install, you will need a Rust toolchain. Check out this repo and run (from
+the repo directory):
+
+```
+cargo install --path .
+```
+
+Simple example (running the program against the Small Device C Compiler source
+code):
+
+```
+# get a summary:
+$ drupes ~/src/sdcc280 -m
+1859 duplicate files (in 995 sets), occupying 30.2 MiB
+checked 16150 files in 4220 size classes
+
+# list the groups of duplicate files:
+$ drupes ~/src/sdcc280
+/home/cbiffle/src/sdcc280/sdcc/device/lib/huge/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/large/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/large-stack-auto/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/mcs51/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/medium/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/small/crtstart.rel
+/home/cbiffle/src/sdcc280/sdcc/device/lib/small-stack-auto/crtstart.rel
+
+/home/cbiffle/src/sdcc280/sdcc/device/lib/pdk13/atoi.sym
+/home/cbiffle/src/sdcc280/sdcc/device/lib/pdk14/atoi.sym
+# ...and so on
+```
+
+## Command line usage
+
+```
+Finds duplicate files and optionally deletes them
+
+Usage: drupes [OPTIONS] [ROOTS]...
+
+Arguments:
+  [ROOTS]...  List of directories to search, recursively, for duplicate files; if
+              omitted, the current directory is searched
+
+Options:
+  -e, --empty       Also consider empty files, which will report all empty files
+                    except one as duplicate (which is rarely what you want)
+  -f, --omit-first  Don't print the first filename in a set of duplicates, so that
+                    all the printed filenames are files to consider removing
+  -m, --summarize   Instead of listing duplicates, print a summary of what was
+                    found
+  -p, --paranoid    Engages "paranoid mode" and performs byte-for-byte comparisons
+                    of files, in case you've found the first real-world BLAKE3
+                    hash collision (please publish it if so)
+      --delete      Try to delete all duplicates but one, skipping any files that
+                    cannot be deleted for whatever reason
+  -h, --help        Print help
+```
+
+## What's a duplicate file?
+
+A file is a duplicate if some other file has exactly the same contents, but
+possibly a different name. For example, if you make a copy of a file with no
+other changes, that will count as a duplicate.
+
+`drupes` only notices duplicates within the directory or directories you
+specify, so a duplicate file somewhere else on your computer (or on that microSD
+card you lost in the couch) won't get reported.
+
+More specifically, `drupes` considers two files to be duplicates if, and only
+if,
+
+1. They have exactly the same length, in bytes.
+2. Their contents hash to the same value using BLAKE3.
+3. If the `--paranoid` flag is given, their contents also match byte-for-byte.
+
+Because BLAKE3 is currently a well-respected cryptographic hash algorithm that's
+considered fairly collision-resistant, two files with the same size and BLAKE3
+hash are _very likely_ to have the same exact contents. The `--paranoid` mode
+should not generally be necessary, and is somewhat slower.
+
+**Unix users:** Currently, `drupes` considers two files to be duplicates even if
+they are hardlinked to the same inode. This is deliberate; I developed the tool
+to winnow down a photo library, not to conserve disk space. If this bugs you,
+I'd be open to adding a switch to control it!
+
+
+## Performance
+
+I haven't put a lot of work into optimizing performance, but by slapping
+together several off-the-shelf crates, `drupes` winds up being pretty fast.
+
+In a very conservative test, where I drop the entire system's filesystem cache
+before measuring (to ensure that reads are coming from disk and not memory),
+`drupes` is 1.7 - 7.9x faster than the other tools I use:
+
+| Tool | 14G of git repos | 15G of photos |
+| ---- | ------------------ | --------------- |
+| fdupes | 19.322 s | 3.144 s |
+| rmlint | 9.513 s | 1.341 s |
+| **drupes** | 2.522s | 0.398 |
+
+In practice, I don't drop the system page cache while I'm working, so a "cache
+warm" test is more representative of my day-to-day experience using `drupes`. In
+this case the gap widens to 2.5-22x (larger files make the gap larger):
+
+| Tool | 14G of git repos | 15G of photos |
+| ---- | ------------------ | --------------- |
+| fdupes | 3.134 s | 2.131 s |
+| rmlint | 2.206 s | 0.865 s |
+| **drupes** | 0.716 s | 0.098 s |
+
+### Okay but why it fast
+
+Rust is not inherently faster than C, _but it does make it easier to use
+advanced performance techniques than C does._
+
+`drupes` is faster than some other tools for, essentially, five reasons.
+
+1. `drupes` will use as many CPU cores as you have available, because doing this
+   is easy in Rust.
+2. `drupes` uses a modern very fast hash algorithm (BLAKE3) because it was just
+   as easy to reach for as something slower. (BLAKE3 is much faster than
+   anything in the SHA family _or_ old MD5.)
+3. `drupes` doesn't bother hashing a file _at all_ if it's the only file of a
+   particular size (which is quite common).
+4. `drupes` first hashes the start of a file; if the result is globally unique,
+   it doesn't bother reading the rest of it.
+5. `drupes` trusts BLAKE3 to be collision-resistant, so it doesn't need to do
+   byte-for-byte comparisons of files it's already hashed. (Though you can
+   request one using `--paranoid` if you're feeling, well, paranoid.)
+
+### Performance caveats
+
+`drupes` is really intended for use on random-access media. The less your
+storage matches that description, the worse your experience will be. My workflow
+when processing old mystery disks is to copy or image the disks onto faster
+media, deduplicate, and process.
+
+In particular, `drupes` does not perform well on CDs, DVDs, floppies, or tape.
+Such media are currently best handled by copying them onto a faster device,
+ideally an SSD, but a reasonably modern hard disk will also do.
+
+This aspect could potentially be improved, but so far the added complexity
+hasn't seemed worth it, in particular because there's no good portable way of
+assessing physical file layout in a filesystem. (Suggestions would be welcome.)

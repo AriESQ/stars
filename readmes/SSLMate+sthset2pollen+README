@@ -1,0 +1,26 @@
+sthset2pollen downloads Chromium's latest STHSet and outputs
+it in the form of an STH pollen JSON object as specified in
+<https://tools.ietf.org/html/draft-ietf-trans-gossip-00#section-5.2.3>.
+
+The code is based on Adam Langley's crlset-tools
+<https://github.com/agl/crlset-tools>.  Many thanks to Graham Edgecombe
+<https://www.grahamedgecombe.com/> for explaining to me how STHSets work.
+
+
+INSTALLATION
+
+sthset2pollen is written in Go.  To install, run:
+
+	go get software.sslmate.com/src/sthset2pollen
+
+
+USAGE
+
+Just run:
+
+	sthset2pollen
+
+To upload the latest STHSet to an auditor which implements the
+sth-pollination endpoint, run:
+
+	sthset2pollen | curl -sS --data-binary @- -H "Content-Type: application/json" https://example.com/.well-known/ct/v1/sth-pollination

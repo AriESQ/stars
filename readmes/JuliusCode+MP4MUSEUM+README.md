@@ -1,0 +1,31 @@
+# MP4MUSEUM
+MP4MUSEUM.org Media Player
+
+Version 6 updated 2026
+
+- sync mode via omxplayer-sync
+
+
+__visit [mp4museum.org](http://mp4museum.org) for more information and a bootable image__ 
+
+_Or an answer may reside in the [closed issues](https://github.com/JuliusCode/MP4MUSEUM/issues?q=is%3Aissue+is%3Aclosed)_
+
+
+
+For the Python script to run on a fresh [Raspberry Pi OS Lite](https://www.raspberrypi.com/software/operating-systems/) you need to install some things
+
+`sudo apt-get -y install vlc python3-pip`
+
+`pip3 install python-vlc RPi.GPIO`
+
+omx-player sync needs to be installed for sync mode (it's here on github)
+
+__just hacking the image ?__
+
+login via ssh user pi at mp4museum.local, password mp4museum
+
+local login: press ctrl&C to get to the console
+
+player is started via .bashrc
+
+change standard script or add new one and change startup

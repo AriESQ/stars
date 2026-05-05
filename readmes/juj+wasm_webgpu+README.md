@@ -1,0 +1,180 @@
+# WebGPU in Wasm via Emscripten
+
+<img align=right src='./screenshots/webgpu-logo.svg' width=27%>
+
+This repository contains an Emscripten system library for utilizing WebGPU from a C/C++ codebase, along with a few small C code examples on how to use it.
+
+To utilize the library in your own application, copy the contents of the `lib/` directory into your project:
+
+ - [lib/lib_webgpu.h](lib/lib_webgpu.h)
+ - [lib/lib_webgpu.js](lib/lib_webgpu.js)
+ - [lib/lib_webgpu.cpp](lib/lib_webgpu.cpp)
+ - [lib/lib_webgpu_fwd.h](lib/lib_webgpu_fwd.h)
+ - [lib/lib_webgpu_cpp20.cpp](lib/lib_webgpu_cpp20.cpp) or [lib/lib_webgpu_cpp11.cpp](lib/lib_webgpu_cpp11.cpp), depending on if your compiler has C++20 or C++11.
+
+<img align=right src='./screenshots/emscripten-logo.svg' width=30%>
+
+Then `#include "lib_webgpu.h"` to access the API, compile in `lib_webpgu.cpp` and `lib_webgpu_cpp20.cpp` with the rest of your project files, and finally link with `--js-library /absolute/path/to/lib_webgpu.js` on the Emscripten command line to include the code. See the provided [CMakeLists.txt](samples/CMakeLists.txt) for example usage.
+
+For your convenience, a forward declaration header is also provided, and can be included with `#include "lib_webgpu_fwd.h"`.
+
+# Using WebGPU via Dawn (Experimental)
+
+It is also possible to target WebGPU outside the browser via Dawn. When doing so, also compile the dawn-specific file with your project:
+
+ - [lib/lib_webgpu_dawn.cpp](lib/lib_webgpu_dawn.cpp)
+
+Although this implementation has at the moment gotten outdated, as it is not the main target of this repository.
+
+## 🗓 Implementation Status
+
+The repository was last updated to match the API IDL of the WebGPU specification as of 🗓 **15th of January 2026**.
+
+## 🏃‍ Quick Getting Started
+
+If you want to get to building WebGPU content quickly, try the following:
+
+1. As a prerequisite, download Emscripten if you don't have it already:
+```
+> git clone https://github.com/emscripten-core/emsdk
+> cd emsdk
+> emsdk install latest ninja-git-release-64bit
+> emsdk activate latest ninja-git-release-64bit
+> source ./emsdk_env.sh     # Linux and macOS
+> emsdk_env                 # Windows
+```
+
+Whenever you open a new command prompt, first run the `emsdk_env` line in `emsdk/` root directory.
+
+2. In an emsdk_env-enabled command prompt, clone and build wasm_webgpu samples:
+
+```
+> git clone https://github.com/juj/wasm_webgpu
+> cd wasm_webgpu
+> mkdir build
+> cd build
+> emcmake cmake -G Ninja ../samples
+> ninja
+```
+
+3. Launch the `emrun` ad hoc web server to host the built .html pages:
+
+```
+> emrun .
+```
+
+An ad hoc web server index will pop up, allowing you to launch the different sample programs in this repository.
+
+## Features and Design
+
+This bindings library is developed with the following:
+
+### 📐 1:1 mapping with Browser WebGPU JS API
+
+For the most parts, the JavaScript side WebGPU API is directly mapped 1:1 over to WebAssembly side to enable developers to write WebGPU code in C/C++ by using the official [specification IDL](https://www.w3.org/TR/webgpu/) as reference.
+
+Type names and structs follow a naming convention `WGpu*`, mapped from JS names by transforming `GPUAdapter` -> `WGpuAdapter`. API function names use a prefix `wgpu_*`, and are mapped using the convention `GPUCanvasContext.configure(...)` -> `wgpu_canvas_context_configure(canvasContext, ...)`. Enums and #defines use a prefix `WGPU_`, e.g. `GPUPowerPreference` -> `WGPU_POWER_PREFERENCE`.
+
+A few exceptions to this are done in the name of accommodating better Wasm<->JS language marshalling, noted where present in the `lib_webgpu.h` header.
+
+If you are pondering whether to use this repository or the [WebGPU support header provided in the Emscripten repository](https://github.com/emscripten-core/emscripten/tree/main/system/include/webgpu), this 1:1 API mapping with JS point is the main difference between the two interfaces. The Emscripten WebGPU header allows targeting WebGPU by using the [Dawn WebGPU](https://dawn.googlesource.com/dawn/+/refs/heads/main/README.md) C/C++ API as a reference, whereas this repository allows targeting WebGPU via the [JavaScript Browser API](https://www.w3.org/TR/webgpu/) as a reference.
+
+### 🚀 Fast performance and Minimal code size
+
+The primary design goal of the library is to provide absolutely best runtime speed and minimal generated code size overhead, carefully shaving down every individual byte possible. The intent is to enable using this library in extremely code size constrained deployment scenarios.
+
+The library is implemented very C-like, void of high-level JavaScript abstractions, and manually tuned to produce smallest code possible. Past experience developing language bindings has taught that this kind of strategy works best to provide the thinnest JS<->Wasm language marshalling layer that does not get in the way as "bloaty".
+
+In order to achieve the smallest code size, Closure Compiler should be used. Wasm_webgpu is fully Closure compatible. To enable Closure minification, copy the Closure externs file into your project:
+
+ - [lib/webgpu-closure-externs.js](lib/webgpu-closure-externs.js)
+
+and specify the Emscripten linker arguments `--closure 1` and `--closure-args=--externs=/path/to/webgpu-closure-externs.js` when linking your project.
+
+### 🗑 Mindful about JS garbage generation
+
+Another design goal is to minimize the amount of JS temporary garbage that is generated. Unlike WebGL, WebGPU API is unfortunately quite trashy, and it is not possible to operate WebGPU without generating some runaway garbage each rendered frame. However, the binding layer itself minimizes the amount of generated garbage as much as possible.
+
+### 📜 Custom API for marshalling buffer data
+
+Some WebGPU features do not interop well between JS and Wasm if translated 1:1. Buffer mapping is one of these features. To help JS<->Wasm interop, this library provides custom functions `wgpu_buffer_read_mapped_range()` and `wgpu_buffer_write_mapped_range()` that do not exist in the official WebGPU specification.
+
+For an example of how this works in practice, see the sample [vertex_buffer/vertex_buffer.c](samples/vertex_buffer/vertex_buffer.c)
+
+### 🔌 Extensions for binding with other JS APIs
+
+To enable easy uploading of image URLs to WebGPU textures, an extension function `wgpu_load_image_bitmap_from_url_async()` is provided. For an example of this, see the sample [texture/texture.c](samples/texture/texture.c)
+
+### 🚦 JSPI support
+
+When building with Emscripten linker flag `-sJSPI` (requires Emscripten 3.1.59 or newer), the following extra functions are available:
+
+- `navigator_gpu_request_adapter_sync` and `navigator_gpu_request_adapter_sync_simple`: Synchronously request a GPUAdapter.
+- `wgpu_adapter_request_device_sync` and `wgpu_adapter_request_device_sync_simple`: Synchronously request a GPUDevice.
+- `wgpu_buffer_map_sync`: Synchronously map a GPUBuffer.
+- `wgpu_present_all_rendering_and_wait_for_next_animation_frame`: Presents current rendered frame, runs browser event loop, and waits until next animation frame. See the sample [clear_screen/clear_screen_sync.c](samples/clear_screen/clear_screen_sync.c) for an example.
+
+These functions enable a synchronous variant of the `_async` functions offered in the WebGPU specification. These can be useful for prototyping and test suites etc., though note that there are some concerns over the runtime performance of JSPI, so be very mindful about profiling the impact on performance when using JSPI.
+
+Additionally, note that the web browser will keep pumping web events while WebAssembly execution is suspended via JSPI. Therefore you may see your web event callbacks being fired at odd times. This can break ordering and re-entrancy semantics of your expected code execution. To remedy this problem, you can try guarding/queueing your event callbacks whenever a JSPI suspend is currently in effect. See the function `wgpu_sync_operations_pending()` for this.
+
+### 🧶 OffscreenCanvas support
+
+It is possible to perform WebGPU rendering from a dedicated background Worker thread using the Emscripten Wasm Worker, pthreads or proxy-to-pthread abstractions.
+
+The following API functions are provided to manage OffscreenCanvas rendering:
+
+```h
+void offscreen_canvas_create(OffscreenCanvasId id, int width, int height);
+void canvas_transfer_control_to_offscreen(const char *canvasSelector, OffscreenCanvasId id);
+void offscreen_canvas_post_to_worker(OffscreenCanvasId id, emscripten_wasm_worker_t worker);
+void offscreen_canvas_post_to_pthread(OffscreenCanvasId id, pthread_t pthread);
+WGPU_BOOL offscreen_canvas_is_valid(OffscreenCanvasId id);
+void offscreen_canvas_destroy(OffscreenCanvasId id);
+int offscreen_canvas_width(OffscreenCanvasId id);
+int offscreen_canvas_height(OffscreenCanvasId id);
+void offscreen_canvas_size(OffscreenCanvasId id, int *outWidth, int *outHeight);
+void offscreen_canvas_set_size(OffscreenCanvasId id, int width, int height);
+```
+
+See [lib_webgpu.h](lib/lib_webgpu.h) header file for detailed documentation, and the [samples/offscreen_canvas/](samples/offscreen_canvas/) subdirectory for code snippets.
+
+When targeting OffscreenCanvas with Wasm Workers, pass the Emscripten compiler flag `-sWASM_WORKERS` for each compilation unit, and the linker flags `-sWASM_WORKERS -sENVIRONMENT=web,worker` for the final link. There is no need to pass the Emscripten `-sOFFSCREENCANVAS_SUPPORT` or `-sOFFSCREENCANVASES_TO_PTHREAD=` linker flags in this mode (doing so will just increase generated code size for no gain)
+
+When targeting OffscreenCanvas with pthreads, pass the Emscripten compiler flag `-pthread` for each compilation unit, and the linker flags `-pthread -sENVIRONMENT=web,worker` for the final link. Likewise, in this mode there is no need to specify the Emscripten `-sOFFSCREENCANVAS_SUPPORT` and `-sOFFSCREENCANVASES_TO_PTHREAD=` linker flags.
+
+Finally, when targeting OffscreenCanvas with the proxy-to-pthread option, pass the Emscripten compiler flag `-pthread` for each compilation unit, and the linker flags `-pthread -sENVIRONMENT=web,worker -sOFFSCREENCANVAS_SUPPORT -sOFFSCREENCANVASES_TO_PTHREAD=#canvas -lGL -sPROXY_TO_PTHREAD` for the final link. Note that the linkage to the WebGL support library is needed here for historical reasons. This might change in the future.
+
+### 🖥 2GB + 4GB + Wasm64 support
+
+Wasm_Webgpu supports each of the three main memory models that Emscripten supports:
+
+- 2GB mode: link with `-sMAXIMUM_MEMORY=2GB` or less,
+- 4GB mode: link with `-sMAXIMUM_MEMORY=4GB` or less,
+- Wasm64 mode: link with `-sMEMORY64=1 -sMAXIMUM_MEMORY=16GB` or some other value > 4GB.
+
+When building code samples, pass `-DMEMORY64=1` to CMake to test compiling in Wasm64 build mode.
+
+## 🚥 Emscripten version requirements and compatibility
+
+Wasm_Webgpu requires Emscripten 3.1.35 or newer.
+
+At this point the system header is developed without backwards or forward compatibility scaffolds or promises. This means that the latest `main` branch always aims to reflect the current WebGPU specification 1:1. Any commit may introduce a breaking change, look out for "breaking change" in commit messages. There is no binary ABI compatibility.
+
+This enables keeping the header simple, and fixing any API design errors without introducing legacy overhead cost. If you are targeting for production, it is best to pin the header to a specific version in time, until you are able to update. Middleware utility library development (i.e. creating a WebGPU library for ingestion of a 3rd party WebGPU engine) on top of wasm_webgpu at this point is therefore not advised.
+
+## 🔬 API unit tests
+
+Run `test.py --browser="C:\Users\clb\AppData\Local\Google\Chrome SxS\Application\chrome.exe" <test1> <test2> ... <testN>` to run unit tests.
+
+Replace the cmdline to `--browser=` with location of your own WebGPU supporting browser, or omit to run in system default browser.
+
+In `<testN>` you can pass names of tests to run. Test names are substring matches to filter filenames inside [test/](test/) subdirectory, so for example `test.py adapter device` would run all tests with substring `adapter` or `device` in it. Do not specify any test names to run through all tests in the suite.
+
+To add a new test in the suite, create a new .cpp file with the test contents in the [test/](test/) subdirectory, and run `test.py name_of_cpp_file` to run the test.
+
+## 🧪 Samples
+
+Several test cases are available in the [samples/](samples/) subdirectory.
+
+Don't expect flashy demos. The test cases exercise features relevant to data marshalling between WebAssembly and JavaScript languages, and are not intended to showcase fancy graphical effects.

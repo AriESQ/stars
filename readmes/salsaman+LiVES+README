@@ -1,0 +1,291 @@
+LiVES
+-----
+LiVES is a Video Editing System
+-     -    -     -       -
+
+
+Original author: salsaman (salsaman+lives@gmail.com) and others (see file AUTHORS)
+
+
+Released under the GNU PUBLIC LICENSE, version 3 or later.
+See file COPYING in this directory for licensing details
+
+
+You should read these installation instructions thoroughly before installing 
+LiVES.
+
+
+DEPENDENCIES (updated 15/08/2021)
+---------------------------------
+
+Build
+-----
+
+For building from source (Linux), you will require:
+
+autotools-dev
+autoconf
+autopoint
+libtool
+gettext + development libs (required)
+libgtk-3-dev (> 3.0.8 required - 3.24+ recommended)
+libpng-dev
+libx11-dev
+libxrender-dev
+
+Recommended:
+
+libjack-jackd2-dev and / or libpulse-dev
+libgl-dev
+libsdl2-dev
+libavcodec-dev
+libavformat-dev
+libavutil-dev
+libswscale-dev
+libswresample-dev
+libfftw3-dev
+libunicap2-dev
+libprojectm-dev + projectm-data
+liborc-0.4-dev
+libopencv-dev
+frei0r-plugins-dev
+ladspa-sdk
+
+
+
+
+Running:
+perl (required)
+sox (with at least support for PCM wav and raw formats) (required for some audio conversions)
+
+imageMagick (optional required for rendered effects only)
+
+mplayer or mplayer2 (preferred) [or mpv] (required for decoding audio, and for filechooser previews)
+with png / alpha (preferred) or jpeg output support (optional - used as a fallback for some import methods)
+
+ffmpeg (recommended for encoding / identifying files)
+ - with jpeg/png input support (preferably with x264 support)
+
+youtube-dl (for downloading online clips)
+pip (optional, for updating the former)
+
+
+
+Optional extras:
+
+python
+
+
+Extra effects:
+
+frei0r-plugins (extra effects)
+LADSPA plugins (extra effects)
+
+
+DV decoding / encoding
+
+dvgrab
+libdv2-apps/libdv-bin
+
+
+Extra encoders:
+
+libtheora-bin
+mkvtoolnix
+vorbis-tools,
+libmatroska,
+ogmtools
+lame
+x264
+
+mjpegtools
+
+
+
+
+Installation (git version)
+-------------------------
+
+See the LiVES website: http://lives-video.com/index.php?do=code
+
+
+
+
+
+Installation (binary versions)
+_________________
+See the LiVES website:
+http://lives-video.com/index.php?do=downloads
+for more information.
+
+
+
+
+
+INSTALLING FROM SOURCE
+----------------------------------------------------
+If you got LiVES as a tar.gz or tar.bz2, at a terminal prompt, enter the following:
+
+
+          bzip2 -d LiVES-3.2.0.tar.bz2
+or,
+          gzip -d LiVES-3.2.0.tar.gz
+
+depending on which version you have. Then:
+
+
+          tar xvf LIVES-3.2.0.tar
+
+          cd lives-3.2.0
+
+
+
+now type:
+	./configure
+
+check the output of configure very carefully, following any advice it provides, 
+and making any adjustments you may wish - such as installing optional libraries.
+
+If you are happy with the output from configure, then compile the source with:
+
+	make
+
+
+again, check the output for any warnings or errors.
+
+
+Assuming everything went OK, you can now install the application with:
+
+	make install
+
+(you probably need to do this as root - on some systems you would become root using "su", on other systems you would run
+
+	sudo make install
+
+)
+
+
+Finally, you should make sure your system can find the new libraries installed by LiVES:
+
+	sudo ldconfig
+
+
+
+
+
+
+You can then run lives either from a menu, or by typing in a terminal:
+
+
+        lives
+
+
+
+
+
+
+
+
+Relocating:
+-----------
+The default location for everything is inside /usr; so executables go in /usr/bin, themes and scripts in /usr/share/lives/, and libraries and compiled plugins in /usr/lib.
+
+
+  When installing from source, you can change this with:
+        ./configure --prefix=/some/other/dir
+
+
+  You can also install in a non-default directory with:
+	make install DESTDIR=/some/other/dir
+
+
+
+However, if you do relocate, and this is not a fresh install, you will need to edit your .lives file in your home directory and adjust <prefix_dir> and <lib_dir>
+so that they point to the correct locations for scripts and plugins.
+
+IMPORTANT: if the library directory is anything except /usr/lib, you should adjust the libraries in libweed pkg-config files:
+libweed/*.pc. If you use a library path other $PREFIX/lib for the plugins you also need to do:
+
+./configure --libdir=<path_to_lib>
+e.g. ./configure --libdir=/usr/lib/libx86_64-linux-gnu/
+
+
+
+
+
+
+Other configuration options
+---------------------------
+
+For a complete list of configure options, type:
+
+	./configure --help
+
+
+
+
+Troubleshooting
+---------------
+Make sure you have themes and icons, and plugins installed as above.
+If they are moved from their installed location, make sure you edit <prefix_dir> and <lib_dir>
+in ~/.lives
+
+In case of any problems, check your ~/.lives file and make sure everything is 
+pointing to the right locations.
+
+You can also try deleting your ~/.lives file. LiVES will then run through the install process the next time it is started.
+
+
+Make sure there is plenty of space available in the working directory. The directory may be changed through Preferences / Directories.
+
+
+Run through Help -> Troubleshoot in the app and see if anything is missing.
+
+
+If you are having problems encoding, make sure you have everything you need 
+installed. The plugins are just interfaces, and you need to have the binaries 
+installed also. Some of the encoder formats have other dependencies, the LiVES website has more details.
+
+
+
+
+Problems opening files
+----------------------
+If you have problems opening a particular video file, try to preview
+it first in the 'open file' dialogue. If you cannot preview it, it means mplayer is not 
+compiled to open it. You may need to recompile mplayer for your system
+with extra libraries.
+
+Note that current versions of LiVES no longer require mplayer to open most file types. Make sure you have the necessary libraries compiled in libav. For other formats, dv format can be opened with libdv and the dv_decoder plugin. Ogg/theora can be opened with libogg and libtheora.
+
+
+
+If you are having problems opening video, edit /usr/bin/smogrify, and near the top put:
+$DEBUG_OPEN=1;
+you will then see the mplayer open command on the console, which can
+be cut and pasted into a terminal window.
+
+Finally, if you are still having problems, join the lives-video
+mailing list and you can ask your question there !
+
+
+Implemented functions - technical
+---------------------------------
+Visit the LiVES website (http://lives-video.com/index.php?do=features).
+
+
+Notes
+-----
+The 'load audio' function supports .wav, .mp3 (mpg123 required), mod, xm and
+.ogg (ogg123 required).
+
+
+
+
+
+KNOWN BUGS
+----------
+
+
+See the file BUGS.
+

@@ -1,0 +1,123 @@
+# Packer Windows Update Provisioner
+
+[![Build status](https://github.com/rgl/packer-plugin-windows-update/workflows/Build/badge.svg)](https://github.com/rgl/packer-plugin-windows-update/actions?query=workflow%3ABuild)
+
+This is a Packer plugin for installing Windows updates (akin to [rgl/vagrant-windows-update](https://github.com/rgl/vagrant-windows-update)).
+
+**NB** This was only tested with Packer 1.15.1 and the images at [rgl/windows-vagrant](https://github.com/rgl/windows-vagrant), so YMMV.
+
+# Usage
+
+Configure your packer template to require a [release version of the plugin](https://github.com/rgl/packer-plugin-windows-update/releases), e.g.:
+
+```hcl
+packer {
+  required_plugins {
+    windows-update = {
+      version = "0.18.1"
+      source  = "github.com/rgl/windows-update"
+    }
+  }
+}
+```
+
+Initialize your packer template (it will install the plugin):
+
+```bash
+packer init your-template.pkr.hcl
+```
+
+Use this provisioner plugin from your packer template file, e.g. like in [rgl/windows-vagrant](https://github.com/rgl/windows-vagrant):
+
+```hcl
+build {
+  provisioner "windows-update" {
+    filters = [
+      # exclude KB5007651:
+      #   Update for Windows Security platform - KB5007651 (Version 10.0.29510.1001)
+      # NB it can only be applied while the user is logged in.
+      "exclude:$_.Title -like '*KB5007651*'",
+      "include:$true",
+    ]
+  }
+}
+```
+
+Note, the plugin automatically restarts the machine after Windows Updates are applied and repeats until all updates are installed. The reboots occur similar to the windows-restart provisioner built into packer where packer is aware that a shutdown is in progress.
+
+## Search Criteria, Filters and Update Limit
+
+You can select which Windows Updates are installed by defining the search criteria, a set of filters, and how many updates are installed at a time.
+
+Normally you would use one of the following settings:
+
+| Name          | `search_criteria`                           | `filters`       |
+|---------------|---------------------------------------------|-----------------|
+| Important     | `AutoSelectOnWebSites=1 and IsInstalled=0`  | `$true`         |
+| Recommended   | `BrowseOnly=0 and IsInstalled=0`            | `$true`         |
+| All           | `IsInstalled=0`                             | `$true`         |
+| Optional Only | `AutoSelectOnWebSites=0 and IsInstalled=0`  | `$_.BrowseOnly` |
+
+**NB** `Recommended` is the default setting.
+
+But you can customize them, e.g.:
+
+```hcl
+build {
+  provisioner "windows-update" {
+    search_criteria = "IsInstalled=0"
+    filters = [
+      "exclude:$_.Title -like '*Preview*'",
+      "include:$true",
+    ]
+    update_limit = 25
+  }
+}
+```
+
+**NB** For more information about the search criteria see the [IUpdateSearcher::Search method](https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iupdatesearcher-search) documentation and the [xWindowsUpdateAgent DSC resource source](https://github.com/dsccommunity/xWindowsUpdate/tree/master/source/DSCResources/MSFT_xWindowsUpdateAgent).
+
+**NB** If the `update_limit` attribute is not declared, it defaults to `1000`.
+
+The general filter syntax is:
+
+    ACTION:EXPRESSION
+
+`ACTION` is a string that can have one of the following values:
+
+| action    | description                                                  |
+| --------- | ------------------------------------------------------------ |
+| `include` | includes the update when the expression evaluates to `$true` |
+| `exclude` | excludes the update when the expression evaluates to `$true` |
+
+**NB** If no `ACTION` evaluates to `$true` the update will **NOT** be installed.
+
+`EXPRESSION` is a PowerShell expression. When it returns `$true`, the
+`ACTION` is executed and no further filters are evaluated.
+
+Inside an expression, the Windows Update [IUpdate interface](https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nn-wuapi-iupdate) can be referenced by the `$_` variable.
+
+# Development
+
+Install the dependencies:
+
+* [Docker](https://docs.docker.com/engine/install/).
+* [Visual Studio Code](https://code.visualstudio.com).
+* [Dev Container plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+* [`windows-2022-amd64` vagrant box](https://github.com/rgl/windows-vagrant).
+
+Open this directory with the Dev Container plugin.
+
+Open `bash` inside the Visual Studio Code Terminal.
+
+Build:
+
+```bash
+make
+```
+
+Test with QEMU:
+
+```bash
+make test
+```

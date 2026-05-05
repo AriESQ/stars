@@ -1,0 +1,723 @@
+# Hubris
+
+![dist](https://github.com/oxidecomputer/hubris/actions/workflows/dist.yml/badge.svg)
+
+Hubris is a microcontroller operating environment designed for deeply-embedded
+systems with reliability requirements. Its design was initially proposed in
+RFD41, but has evolved considerably since then.
+
+# Learning
+
+Developer documentation is in Asciidoc in the `doc/` directory. It gets rendered
+via GitHub pages, and is available at https://oxidecomputer.github.io/hubris .
+
+# Navigating
+
+The repo is laid out as follows.
+
+- `app/` is where the top-level binary crates for applications live, e.g.
+  `app/gimlet` contains the firmware crate for Gimlet. Generally speaking, if
+  you want to build an image for something, look here.
+
+- `build/` contains the build system and supporting crates.
+
+- `chips/` contains peripheral definitions and debugging support files for
+  individual microcontrollers.
+
+- `doc/` contains developer documentation.
+
+- `drv/` contains drivers, a mix of simple driver lib crates and fully-fledged
+  server bin crates. Current convention is that `drv/SYSTEM-DEVICE` is the
+  driver for `DEVICE` on `SYSTEM` (where `SYSTEM` is usually an SoC name),
+  whereas `drv/SYSTEM-DEVICE-server` is the server bin crate.
+
+- `idl/` contains interface definitions written in
+  [Idol](https://github.com/oxidecomputer/idolatry)
+
+- `lib/` contains assorted utility libraries we've written. If you need to make
+  a reusable crate that doesn't fit into one of the other directories, it
+  probably belongs here.
+
+- `support/` contains some interface and programming support files, like fake
+  certificates and programmer firmware images.
+
+- `sys/` contains the "system" bits of Hubris, namely the kernel (`sys/kern`),
+  the shared crate defining the ABI (`sys/abi`), and the user library used by
+  tasks (`sys/userlib`).
+
+- `task/` contains reusable tasks that aren't drivers. The distinction between
+  things that live in `task` vs in `drv/something-server` is fuzzy. Use your
+  judgement.
+
+- `test/` contains the test framework and binary crates for building it for
+  various boards.
+
+- `website/` contains the source code for the
+  [hubris website](https://hubris.oxide.computer/)
+
+# Developing
+
+We currently support Linux and Windows as first-tier platforms. Because of some
+inconsistency in linker behavior across platforms, images may not match across
+platforms, so we recommend choosing one as your "official" build platform for
+producing blessed images. macOS and Illumos are both used as informal build
+platforms by Oxide employees, though they are not currently tested in CI. (Oxide
+blessed images are produced on Linux.)
+
+To submit changes for review, push them to a branch in a fork and submit a pull
+request to merge that branch into `master`. For details, see
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Prereqs
+
+You will need:
+
+- A `rustup`-based toolchain install. `rustup` will take care of automatically
+  installing our pinned toolchain version, and the cross-compilation targets,
+  when you first try to build.
+
+- [libusb](https://libusb.info/), typically found from your system's package
+  manager as `libusb-1.0.0` or similar.
+
+- [libfdti1](https://www.intra2net.com/en/developer/libftdi/), found
+  as `libftdi1-dev` or similar.
+
+- If you will be running GDB, you should install `arm-none-eabi-gdb`.  This is
+  typically from your system's package manager with a package name like
+  `arm-none-eabi-gdb` or `gdb-multiarch`.  macOS users can run
+  `brew install --cask gcc-arm-embedded` to install the
+  [official ARM binaries](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm).
+
+- The Hubris debugger, [Humility](https://github.com/oxidecomputer/humility).
+  Note that `cargo install` interacts strangely with the `rust-toolchain.toml`
+  file present in the root of this repository; if you run the following command
+  verbatim to install Humility, do so from a different directory:
+  - `cargo install --git https://github.com/oxidecomputer/humility.git --locked humility-bin`
+    - Requires `cargo-readme` as a dependency: `cargo install cargo-readme`
+
+### Windows
+
+There are three alternative ways to install OpenOCD:
+
+See [here](https://openocd.org/pages/getting-openocd.html) for getting the source of `openocd`
+or get unofficial binaries.
+
+Alternatively, you can install with [chocolatey](https://chocolatey.org/install):
+
+```console
+> choco install openocd
+```
+
+Lastly, you could install `openocd` with [scoop](https://scoop.sh/):
+
+```console
+> scoop bucket add extras
+> scoop install openocd
+```
+**Note:** `openocd` installed via `scoop` has proven problematic for some
+users. If you experience problems, try installing via `choco` or from source
+(see above).
+
+To use the ST-Link programmer, you'll probably need to install
+[this driver](https://www.st.com/en/development-tools/stsw-link009.html).
+
+It's not necessary to build and run Hubris, but if you want to communicate
+over a serial link (and that's not supported by your terminal), you'll want to
+use PuTTY; [this guide](https://pbxbook.com/voip/sputty.html)
+does a good job of explaining how.
+
+## Build
+
+**We do not use `cargo build` or `cargo run` directly because they are too
+inflexible for our purposes.** We have a complex multi-architecture build, which
+is a bit beyond them.
+
+Instead, the repo includes a Cargo extension called `xtask` that namespaces our
+custom build commands.
+
+`cargo xtask dist TOMLFILE` builds a distribution image for the
+application described by the TOML file.
+
+- `cargo xtask dist app/demo-stm32f4-discovery/app.toml` - stm32f4-discovery
+- `cargo xtask dist app/demo-stm32f4-discovery/app-f3.toml` - stm32f3-discovery
+- `cargo xtask dist app/lpc55xpresso/app.toml` - lpcxpresso55s69
+- `cargo xtask dist app/demo-stm32g0-nucleo/app-g031.toml` - stm32g031-nucleo
+- `cargo xtask dist app/demo-stm32g0-nucleo/app-g070.toml` - stm32g070-nucleo
+- `cargo xtask dist app/demo-stm32h7-nucleo/app-h743.toml` - nucleo-ih743zi2
+- `cargo xtask dist app/demo-stm32h7-nucleo/app-h753.toml` - nucleo-ih753zi
+- `cargo xtask dist app/gemini-bu/app.toml` - Gemini bringup board
+
+## Iterating
+
+Because a full image build can take 10 seconds or more, depending on what you've
+changed, when you're iterating on a task or kernel you'll probably want to build
+it separately. This is what `cargo xtask build` is for.
+
+For instance, to build `task-ping` as it would be built in one of the images, but
+without building the rest of the demo, run:
+
+```console
+$ cargo xtask build app/gimletlet/app.toml ping
+```
+
+## Running `clippy`
+The `cargo xtask clippy` subcommand can be used to run `clippy` against one or
+more tasks in the context of a particular image:
+
+```console
+$ cargo xtask clippy app/gimletlet/app.toml ping pong
+```
+
+## Integrating with `rust-analyzer`
+The Hubris build system will not work with `rust-analyzer` out of the box.
+
+However, `cargo xtask lsp` is here to help: it takes as its argument a Rust
+file, and returns JSON-encoded configuration for how to set up `rust-analyzer`.
+
+To use this data, some editor configuration is required!
+
+(we haven't made plugins yet, but it would certainly be possible)
+
+Using Neovim and [`rust-tools`](https://github.com/simrat39/rust-tools.nvim),
+here's an example configuration:
+
+```lua
+-- monkeypatch rust-tools to correctly detect our custom rust-analyzer
+require'rust-tools.utils.utils'.is_ra_server = function (client)
+  local name = client.name
+  local target = "rust_analyzer"
+  return string.sub(client.name, 1, string.len(target)) == target
+    or client.name == "rust_analyzer-standalone"
+end
+
+-- Configure LSP through rust-tools.nvim plugin, with lots of bonus
+-- content for Hubris compatibility
+local cache = {}
+local clients = {}
+require'rust-tools'.setup{
+  tools = { -- rust-tools options
+    autoSetHints = true,
+    inlay_hints = {
+      show_parameter_hints = false,
+      parameter_hints_prefix = "",
+      other_hints_prefix = "",
+      -- do other configuration here as desired
+    },
+  },
+
+  server = {
+    on_new_config = function(new_config, new_root_dir)
+      local bufnr = vim.api.nvim_get_current_buf()
+      local bufname = vim.api.nvim_buf_get_name(bufnr)
+      local dir = new_config.root_dir()
+      if string.find(dir, "hubris") then
+        -- Run `xtask lsp` for the target file, which gives us a JSON
+        -- dictionary with bonus configuration.
+        local prev_cwd = vim.fn.getcwd()
+        vim.cmd("cd " .. dir)
+        local cmd = dir .. "/target/debug/xtask lsp "
+        -- Notify `xtask lsp` of existing clients in the CLI invocation,
+        -- so it can check against them first (which would mean a faster
+        -- attach)
+        for _,v in pairs(clients) do
+          local c = vim.fn.escape(vim.json.encode(v), '"')
+          cmd = cmd .. '-c"' .. c .. '" '
+        end
+        local handle = io.popen(cmd .. bufname)
+        handle:flush()
+        local result = handle:read("*a")
+        handle:close()
+        vim.cmd("cd " .. prev_cwd)
+
+        -- If `xtask` doesn't know about `lsp`, then it will print an error to
+        -- stderr and return nothing on stdout.
+        if result == "" then
+          vim.notify("recompile `xtask` for `lsp` support", vim.log.levels.WARN)
+        end
+
+        -- If the given file should be handled with special care, then
+        -- we give the rust-analyzer client a custom name (to prevent
+        -- multiple buffers from attaching to it), then cache the JSON in
+        -- a local variable for use in `on_attach`
+        local json = vim.json.decode(result)
+        if json["Ok"] ~= nil then
+          new_config.name = "rust_analyzer_" .. json.Ok.hash
+          cache[bufnr] = json
+          table.insert(clients, {toml = json.Ok.app, task = json.Ok.task})
+        else
+          -- TODO:
+          -- vim.notify(vim.inspect(json.Err), vim.log.levels.ERROR)
+        end
+      end
+    end,
+
+    on_attach = function(client, bufnr)
+      local json = cache[bufnr]
+      if json ~= nil then
+        local config = vim.deepcopy(client.config)
+        local ra = config.settings["rust-analyzer"]
+        -- Do rust-analyzer builds in a separate folder to avoid blocking
+        -- the main build with a file lock.
+        table.insert(json.Ok.buildOverrideCommand, "--target-dir")
+        table.insert(json.Ok.buildOverrideCommand, "target/rust-analyzer")
+        ra.cargo = {
+          extraEnv = json.Ok.extraEnv,
+          features = json.Ok.features,
+          noDefaultFeatures = true,
+          target = json.Ok.target,
+          buildScripts = {
+            overrideCommand = json.Ok.buildOverrideCommand,
+          },
+        }
+        ra.check = {
+          overrideCommand = json.Ok.buildOverrideCommand,
+        }
+        config.lspinfo = function()
+          return { "Hubris app:      " .. json.Ok.app,
+                   "Hubris task:     " .. json.Ok.task }
+        end
+        client.config = config
+      end
+    end,
+
+    settings = {
+      ["rust-analyzer"] = {
+        -- enable clippy on save
+        checkOnSave = {
+          command = "clippy",
+          extraArgs = { '--target-dir', 'target/rust-analyzer' },
+        },
+        diagnostics = {
+          disabled = {"inactive-code"},
+        },
+      }
+    }
+  },
+}
+end
+```
+
+### What's going on here?
+When a new LSP configuration is created (`on_new_config`), we run `cargo
+xtask lsp` on the target file.  The JSON configuration includes a hash of
+the configuration; we use that hash to modify the name of the client from
+`rust_analyzer` to `rust_analyzer_$HASH`.  This prevents Neovim from
+attempting to reuse an existing client, which are normally deduplicated by
+client name and workspace root directory; in Hubris, we want multiple clients
+coexisting with same workspace root, so they need different names.  Then, we
+stash the rest of the configuration in a local variable (`cache`), and record
+the existence of this client in `clients`.
+
+When attaching to the LSP, we try to pull the configuration out of `cache`.  If
+one exists, then we know we're dealing with a Hubris buffer; copy over relevant
+portions of the configuration.
+
+Note that this does not compile `xtask` for you; it assumes it already exists
+in `target/debug/xtask`.  This should be true if you're using Hubris regularly,
+and saves significant amounts of time when opening a new file.
+
+## Adding a task
+
+To create your own task, the easiest method is:
+
+- Copy `task/template` to a new name.
+- Edit its `Cargo.toml` with your name and a new package name.
+- Add it to the list of workspace members in the root `Cargo.toml`.
+- Add it to a system image by editing an `app.toml` file.
+- Run `cargo xtask build` to compile it.
+
+A typical `app.toml` entry for a small task that uses no memory-mapped
+peripherals would read
+
+```toml
+[tasks.name_for_task_in_this_image]
+name = "my-task-target-name"
+priority = 1
+requires = {flash = 1024, ram = 1024}
+start = true
+```
+
+## Graphing task relationships and priorities
+
+A graph can be generated that show the relationships of the various tasks
+and their priorities. The resulting file is in [Graphviz](https://graphviz.org/)'s
+`dot` format. `Dot` source [can be included](https://docs.asciidoctor.org/diagram-extension/latest/) in [Asciidoctor](https://asciidoctor.org) source
+or rendered to a variety of formats.
+
+To create and view an SVG graph for `gimletlet` on Ubuntu, ensure that the `graphviz` package is installed. Then generate the graph:
+
+```console
+$ cargo xtask graph -o gimletlet.dot app/gimletlet/app.toml
+$ dot -Tsvg gimletlet.dot > gimletlet.svg
+$ xdg-open gimletlet.svg
+```
+
+### Generating all graphs under Linux
+
+Bash commands to generate all graphs:
+
+```console
+  APPS=( $(find app -name '*.toml' ! -name Cargo.toml) )
+  for app in "${APPS[@]}"
+  do
+    out=$(basename ${app//\//_} .toml).dot
+    svg=$(basename $out .dot).svg
+    cargo xtask graph -o $out $app
+    dot -Tsvg $out > $svg
+  done
+  first="${APPS[0]}"
+  out="$(basename ${first//\//_} .toml).dot"
+  svg="$(basename $out .dot).svg"
+  xdg-open "${svg}"
+```
+
+If `eog` is the default viewer, opening the first SVG in a directory will
+allow cycling through all of the available graphs using the same window.
+
+# Using Hubris
+Hubris is tightly coupled to its debugger,
+[Humility](https://github.com/oxidecomputer/humility),
+which is used for the commands below either implicitly
+(in `cargo xtask flash`) or explicitly (in `cargo xtask humility`).
+
+If the `humility` binary is not available on your `$PATH`, the `HUBRIS_HUMILITY_PATH`
+environment variable may be used to provide the path to the binary.
+
+## Flash
+
+An image within a Hubris archive can be flashed directly onto a target board
+by running `cargo xtask flash` and specifying the appropriate
+TOML file.  This will run `cargo xtask dist` and then pass the resulting
+build archive to `humility flash`. `humility` will invoke either OpenOCD or
+pyOCD to flash the image; the exact invocation depends on the board
+and is encoded in the build archive.
+
+- LPCXpresso55S69: `cargo xtask flash app/lpc55xpresso/app.toml`
+- STM32F4 Discovery board: `cargo xtask flash app/demo-stm32f4-discovery/app.toml`
+- ST Nucleo-H743ZI2 board: `cargo xtask flash app/demo-stm32h7-nucleo/app-h743.toml`
+- ST Nucleo-H753ZI board: `cargo xtask flash app/demo-stm32h7-nucleo/app-h753.toml`
+- Gemini bringup board: `cargo xtask flash app/gemini-bu/app.toml`
+
+## Running Humility
+
+Humility is run _in situ_ by specifying an archive on a directly connected
+board, or postmortem by specifying a dump.  As a convenience for development,
+Humility can also be run _in situ_ by specifying the appropriate TOML, e.g.
+on a machine with an STM32F4 Discovery board directly attached:
+
+```console
+$ cargo xtask humility app/demo-stm32f4-discovery/app.toml -- tasks
+    Finished dev [optimized + debuginfo] target(s) in 0.17s
+     Running `target/debug/xtask humility demo/app.toml -- tasks`
+humility: attached via ST-Link
+ID ADDR     TASK               GEN STATE    
+ 0 20000108 jefe                 0 Healthy(InRecv(None))     
+ 1 20000178 rcc_driver           0 Healthy(InRecv(None))     
+ 2 200001e8 usart_driver         0 Healthy(InRecv(None))     
+ 3 20000258 user_leds            0 Healthy(Runnable)          <-
+ 4 200002c8 ping                48 Healthy(Runnable)         
+ 5 20000338 pong                 0 Healthy(InRecv(None))     
+ 6 200003a8 idle                 0 Healthy(Runnable)         
+```
+
+### Debugging with GDB
+`humility` includes a `gdb` subcommand which attaches to a running system
+using `arm-none-eabi-gdb`, optionally running its own `openocd` instance based
+on configuration data in the build archive.
+
+For convenience, there's also a `cargo xtask gdb` façade which calls `humility`
+with the appropriate build archive:
+
+```console
+$ cargo xtask gdb app/demo-stm32f4-discovery/app.toml -- --run-openocd
+# ... lots of output elided ...
+task_idle::main () at task/idle/src/main.rs:14
+14          loop {
+Breakpoint 1 at 0x800434c: file /crates.io/cortex-m-rt-0.6.15/src/lib.rs, line 560.
+Note: automatically using hardware breakpoints for read-only addresses.
+semihosting is enabled
+
+semihosting is enabled
+
+(gdb)
+```
+
+Note that `cargo xtask gdb` will (by default) also run `dist` and `flash`, to
+ensure that the image on the chip is up to date.  The `-n`/`--noflash` option
+skips these steps.
+
+# Testing Hubris
+
+The Hubris kernel is tested with a dedicated _test image_ that includes a test
+runner, assistant and test suite.  The test image emits its results via ITM.
+While these results can be interpreted manually, `humility test` automates
+this.  `humility test` itself is most easily run via `cargo xtask test`, which
+runs the equivalent of `cargo xtask dist`, `cargo xtask flash`
+and `cargo xtask humility test`.  The exact invocation depends on the board:
+
+- LPCXpresso55S69: `cargo xtask test test/tests-lpc55xpresso/app.toml`
+- STM32F3 Discovery board: `cargo xtask test test/tests-stm32fx/app-f3.toml`  
+  **Note: for this board, SB10 must be soldered closed for ITM to work**
+- STM32F4 Discovery board: `cargo xtask test test/tests-stm32fx/app.toml`
+- ST Nucleo-H743ZI2 board: `cargo xtask test test/tests-stm32h7/app-h743.toml`
+- ST Nucleo-H753ZI board: `cargo xtask test test/tests-stm32h7/app-h753.toml`
+
+Note: `cargo xtask humility test` runs OpenOCD to connect to the device.
+You must exit any other instances of OpenOCD that you have connected to the device
+before running tests.
+
+See the [documentation for `humility
+test`](https://github.com/oxidecomputer/humility#humility-test) for details
+on test results.
+
+## Debugging tests
+
+Output from tests is captured by `humility test`; `sys_log!()` calls to
+tests can be added and then captured in a `humility test` dump.  To capture
+a dump from tests that are otherwise passing, use `cargo xtask humility`
+directly and pass the `-d` flag, e.g.:
+
+```console
+$ cargo xtask humility test/tests-stm32fx/app.toml -- test -d
+...
+humility: attached via ST-Link
+humility: TPIU sync packet found at offset 1
+humility: ITM synchronization packet found at offset 12
+humility: expecting 22 cases
+humility: running test_send ... ok
+...
+humility: running test_timer_notify ... ok
+humility: running test_timer_notify_past ... ok
+humility: tests completed: pass
+humility: test output dumped to hubris.testout.2
+```
+
+if one needs to both run GDB and the test suite, use `cargo xtask gdb`
+with the test image's TOML and the appropriate GDB file, and then place
+breakpoints at the test of interest.
+
+# Special cases
+## Gemini bringup board
+
+See the Gemini Bringup
+[Getting Started](https://github.com/oxidecomputer/gemini-bringup/tree/master/gemini-bringup)
+docs (internal Oxide repo)
+
+## STM32F3 Discovery boards
+**For the STM32F3 Discovery board, SB10 must be soldered closed for ITM
+to work!** This solder bridge defaults to being open, which leaves SWO
+disconnected.  See the STM32F3 Discovery User Manual (UM1570) for schematic
+and details.
+
+## LPCXpresso55S69 board
+
+The LPCXpresso55S69 is somewhat of a mess because the built-on on-chip
+debugger, LPC-Link2, [does not correctly support SWO/SWV](https://community.nxp.com/t5/LPC-Microcontrollers/SWO-SWV-on-LPC-Link2-with-CMSIS-DAP/m-p/1079442)
+
+If you have the stock LPC-Link2, it will report itself this way via 
+[`probe-rs list`](https://probe.rs/docs/tools/probe-rs/) or `humility lsusb`:
+
+
+```console
+$ probe-rs list
+The following debug probes were found:
+[0]: MCU-LINK (r0FF) CMSIS-DAP V3.153 -- 1fc9:0143:U2VLC0GBANWF1 (CMSIS-DAP)
+```
+
+It's also possible that you have the Segger J-Link firmware -- firmware
+that will make its odious presence known by prompting for you to accept license
+terms whenever running `pyocd list`!
+
+```console
+$ pyocd list
+  #   Probe                                                       Unique ID
+-----------------------------------------------------------------------------
+  0   Segger J-Link LPCXpresso V2 compiled Apr  4 2019 16:54:03   726424936
+```
+
+In either of these cases you must -- as a one-time step -- install new
+firmware on the LPC-Link2.  The new firmware is a build of the (open source) 
+[DAPLink](https://github.com/oxidecomputer/DAPLink), which
+we affectionally call **RickLink** after
+the engineer who managed to get it all built -- no small feat!
+
+There are two files that you will need, both contained in the Hubris repository:
+
+- [lpc4322_bl_crc.bin](./support/lpc4322_bl_crc.bin)
+- [lpc4322_lpc55s69xpresso_if_rla_swo_hacks.bin](./support/lpc4322_lpc55s69xpresso_if_rla_swo_hacks.bin)
+
+You will additionally need the [LPCScrypt program](https://www.nxp.com/design/microcontrollers-developer-resources/lpc-microcontroller-utilities/lpcscrypt-v2-1-1:LPCSCRYPT)
+from NXP.
+
+Here are the steps to install RickLink:
+
+1. Install the DFU jumper. This can be found next to the SWD header on the
+left side of the board; it is labelled "DFU".
+
+2. Run `scripts/boot_lpcscrypt` from the installed LPCScrypt software:
+
+```console
+$ /usr/local/lpcscrypt/scripts/boot_lpcscrypt 
+Looking for DFU devices with VID 1fc9 PID 000c ...
+dfu-util -d 1fc9:000c -c 1 -i 0 -t 2048 -R  -D /usr/local/lpcscrypt/scripts/../bin/LPCScrypt_228.bin.hdr
+Booted LPCScrypt target (1fc9:000c) with /usr/local/lpcscrypt/scripts/../bin/LPCScrypt_228.bin.hdr
+$
+```
+
+3. Run `lpcscrypt clockslow`:
+
+```console
+$ /usr/local/lpcscrypt/bin/lpcscrypt clockslow
+$
+```
+
+4. Run `lpcscrypt program +w1 0x0 BankA` to overwrite existing firmware
+
+```console
+$ /usr/local/lpcscrypt/bin/lpcscrypt program +w1 0x0 BankA
+................
+Programmed 524288 bytes to 0x1a000000 in 2.610s (196.165KB/sec)
+$
+```
+
+5. Run `lpcscrypt program +c <path-to-lpc4322_bl_crc.bin> BankA`:
+
+```console
+$ /usr/local/lpcscrypt/bin/lpcscrypt program +c ~/hubris/support/lpc4322_bl_crc.bin BankA
+..
+Programmed 57344 bytes to 0x1a000000 in 0.827s (67.717KB/sec)
+$
+```
+
+6. Assuming it is successful, remove the DFU jumper and disconnect/reconnect USB
+
+7. There should now be a USB mass storage device named `MAINTENANCE`
+
+```console
+# fdisk -l
+Disk /dev/nvme0n1: 477 GiB, 512110190592 bytes, 1000215216 sectors
+Disk model: Micron 2200S NVMe 512GB
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: A8653F99-39AB-4F67-A9C9-524A2864856E
+
+Device             Start        End   Sectors   Size Type
+/dev/nvme0n1p1      2048    1050623   1048576   512M EFI System
+/dev/nvme0n1p2   1050624  967393279 966342656 460.8G Linux filesystem
+/dev/nvme0n1p3 967393280 1000214527  32821248  15.7G Linux swap
+
+
+Disk /dev/sda: 64.1 MiB, 67174400 bytes, 131200 sectors
+Disk model: VFS
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x00000000
+# mount /dev/sda /mnt
+# ls /mnt
+DETAILS.TXT  PRODINFO.HTM
+# cat /mnt/DETAILS.TXT
+# DAPLink Firmware - see https://mbed.com/daplink
+Unique ID: 02360b000d96e4fc00000000000000000000000097969905
+HIC ID: 97969905
+Auto Reset: 1
+Automation allowed: 1
+Overflow detection: 1
+Daplink Mode: Interface
+Interface Version: 0254
+Bootloader Version: 0254
+Git SHA: f499eb6ec4a847a2b78831fe1acc856fd8eb2f28
+Local Mods: 1
+USB Interfaces: MSD, CDC, HID, WebUSB
+Bootloader CRC: 0x09974fb3
+Interface CRC: 0x7174ab4c
+Remount count: 0
+URL: https://os.mbed.com/platforms/LPCXpresso55S69/
+```
+
+8. Copy `lpc4322_lpc55s69xpresso_if_rla_swo_hacks.bin` to the USB drive
+
+```console
+$ sudo cp ~/hubris/support/lpc4322_lpc55s69xpresso_if_rla_swo_hacks.bin /mnt
+$
+```
+
+9. Unmount (or otherwise sync) the USB drive:
+
+```console
+# umount /mnt
+#
+```
+
+10. Unplug and replug the USB cable.
+
+Verify that you are on the new firmware by running `pyocd list` or 
+`probe-rs list`:
+
+```console
+$ pyocd list
+  #   Probe                        Unique ID                                         
+-------------------------------------------------------------------------------------
+  0   LPCXpresso55S69 [lpc55s69]   02360b000d96e4fc00000000000000000000000097969905
+```
+
+## LPC55S28 on Gemini carrier board
+
+Note that the RickLink running on the LPCXpresso55S69 can *also* be used 
+as the debugger for the LPC55S28 on the Gemini carrier board.  To do this,
+first, follow all of the instructions above to get RickLink onto your
+LPCXpresso55S69.  Then:
+
+1. Using a soldering iron, solder a two-pin header on J5. J5 can be
+   be found to the left of P1 and below the "Debugger" jumper (J3).
+
+2. Put a jumper on the new header
+
+3. Move the "Debugger" jumper (J3) to "Ext".
+
+4. Use a SWD cable (10-pin 2x5 1.27mm pitch cable) to connect the SWD on the
+   LPCXpresso55S69 to the SWD underneath the carrier board on Gemini (J202)
+
+(To allow your RickLink to once again debug its local LPC55S69,
+remove the jumper on J5 and move J3 to "Loc".)
+
+## Multiple boards simultaneously
+
+If multiple probes are attached, tools may struggle to find the right one at
+the right time.  In particular, OpenOCD will pick the first one that it finds;
+to force OpenOCD to pick a *particular* probe,
+you can ascertain the serial number of the probe (e.g., from `humility probe`)
+and then specify that serial number in the corresponding `openocd.cfg` by
+adding, e.g.:
+
+```
+interface hla
+hla_serial 271828182845904523536028
+```
+
+(Where `271828182845904523536028` is the serial number of the probe.)
+
+## Updating ST-Link Firmware if necessary
+
+It is common that debugging dongles, and development boards with embedded
+debug hardware like the Nucleo series, are delivered with older firmware.
+
+You will not be able to use Humilty with outdated ST-Link firmware. Humility
+will tell you this is the case, for example when attempting to use `humility test`:
+
+```
+...
+Warn : Adding extra erase range, 0x08020060 .. 0x0803ffff
+** Programming Finished **
+** Verify Started **
+** Verified OK **
+** Resetting Target **
+humility: test failed: The firmware on the probe is outdated
+Error: test failed
+```
+
+Follow this "[ST-LINK firmware upgrade](https://www.st.com/en/development-tools/stsw-link007.html)" link to find
+software and instructions necessary to install current firmware.

@@ -1,0 +1,1 @@
+An open-source PCB project for a video sync separator based on the TI LM1881. It extracts CSYNC, VSYNC, and HSYNC from a composite video signal (CVBS). Designed for retro gaming, video processing, and electronics enthusiasts.

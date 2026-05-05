@@ -1,0 +1,92 @@
+# Sylve
+
+[![Discord](https://img.shields.io/discord/1075365732143071232?label=Discord&logo=discord&color=5865F2)](https://chat.sylve.io)
+[![Build](https://github.com/AlchemillaHQ/Sylve/actions/workflows/build.yaml/badge.svg)](https://github.com/AlchemillaHQ/Sylve/actions/workflows/build.yaml)
+[![Test](https://github.com/AlchemillaHQ/Sylve/actions/workflows/test.yaml/badge.svg)](https://github.com/AlchemillaHQ/Sylve/actions/workflows/test.yaml)
+[![Documentation](https://img.shields.io/badge/docs-sylve.io-blue)](https://sylve.io/docs)
+
+> [!NOTE]
+> Sylve is under active development. Some features and APIs may change.
+
+https://github.com/user-attachments/assets/61ed410e-58f6-405f-80da-c4a6bcb469b8
+
+Sylve is a lightweight, open-source management platform for FreeBSD. It combines **Bhyve virtual machines**, **FreeBSD Jails**, and **ZFS storage** into a modern web interface designed to deliver a streamlined, Proxmox-like experience tailored for FreeBSD environments.
+
+The backend is written in **Go**, while the frontend is built with **SvelteKit**.
+
+**Full documentation:** https://sylve.io/docs
+
+# Features
+
+- **Modern Web UI**
+- **Bhyve Virtual Machine Management**
+- **FreeBSD Jail Management**
+- **ZFS-first storage architecture**
+- **Built-in clustering support**
+- **Integrated networking tooling**
+- **Zelta integration for backups**
+
+Sylve aims to make FreeBSD management easier to manage without relying on complex shell scripts.
+
+# Quick Start
+
+Sylve is designed to run on **FreeBSD 15.0 or later**.
+
+You can install it from `pkg` or use `ports`:
+
+```bash
+pkg install sylve
+```
+
+```bash
+cd /usr/ports/sysutils/sylve && make install clean
+```
+
+For full installation instructions, dependency details, and configuration guides, see the documentation:
+
+[https://sylve.io/docs](https://sylve.io/docs)
+
+## Sponsors
+
+We're proud to be sponsored by:
+
+<p align="center">
+  <a href="https://freebsdfoundation.org">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./docs/sponsors/FreeBSD-White.png">
+        <img src="./docs/sponsors/FreeBSD-Red.png" alt="FreeBSD Foundation" width="200"/>
+    </picture>
+  </a>
+  &emsp;&emsp;&emsp;
+  <a href="https://alchemilla.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/sponsors/Alchemilla-White.png">
+      <img src="./docs/sponsors/Alchemilla-Dark.png" alt="Alchemilla" width="150"/>
+    </picture>
+  </a>
+  &emsp;&emsp;&emsp;
+  <a href="https://iptechnics.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/sponsors/IP-Technics-White.png">
+      <img src="./docs/sponsors/IP-Technics-Dark.png" alt="IPTechnics" width="150"/>
+    </picture>
+  </a>
+</p>
+
+- [https://freebsdfoundation.org](https://freebsdfoundation.org)
+- [https://alchemilla.io](https://alchemilla.io)
+- [https://iptechnics.com](https://iptechnics.com)
+
+You can also support the project by sponsoring us on GitHub:
+
+[https://github.com/sponsors/AlchemillaHQ](https://github.com/sponsors/AlchemillaHQ)
+
+# Contributing
+
+Contributions are welcome. Please read [contributors guide](https://sylve.io/guides/contributing/code-contributions/) before submitting pull requests.
+
+# License
+
+This project is licensed under the **BSD 2-Clause License**.
+
+See the [LICENSE](LICENSE) file for details.

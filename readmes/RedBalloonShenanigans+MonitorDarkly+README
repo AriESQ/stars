@@ -1,0 +1,160 @@
+This repo contains the exploit for the Dell 2410U monitor. It contains utilities for
+communicating with and executing code on the device.
+
+The research presented here was done in order to highlight the lack of security in "modern"
+on-screen-display controllers. Please check out our Recon 0xA presentation (included) for
+a detailed description of our research findings and process.
+
+Original presentation @ http://www.redballoonsecurity.com/presentation/Recon_0xA_A_Monitor_Darkly.pdf
+
+DEFCON 24 presentation (with more awesomesauce) @ https://www.redballoonsecurity.com/presentation/DEFCON24_A_Monitor_Darkly.pdf
+
+Installing
+-----------
+
+Right now, the demo has only been tested on Linux. It is known not to work on
+OSX because of problems with pyusb. Ubuntu, Arch, and Fedora are known to work.
+There are a few dependencies needed:
+
+- pyusb
+- imagemagick + wand (python bindings for imagemagick)
+- as86 and ld86 (for assembling the payloads)
+
+At least on Ubuntu, the following should give you all the needed dependencies:
+
+    sudo apt-get install imagemagick python-wand python-usb bin86
+
+Next, you need to assemble the payloads:
+
+    cd payloads/
+    make
+    cd ..
+
+Finally, do:
+
+    sudo ./src/demo.py
+
+By default, this uses the USB attack method, which requires the computer to be
+plugged into the monitor's USB hub. To use the i2c method, which only works on
+Linux and requires the computer to be displaying to the monitor, create a
+config.ini file in this directory that looks like:
+
+    [device]
+    method = i2c
+    i2c_device = 2
+
+To determine which i2c device number you need, download and compile ddctool and
+then run it as root. Once you get it working, it should be much faster than the
+USB method. To go back to the USB method, change the method from "i2c" to "usb".
+
+Note that demo.py needs root permissions to run. It will first load all the
+images, which takes a few minutes, and then you'll be presented with a prompt to
+choose the exploit you want to run.
+
+ThingPwner2 (USB Armory)
+------------------------
+
+In addition to demo.py, src/gpio.py contains a script designed to run on the USB
+Armory which uses buttons connected to the GPIO pins to launch the demos. You
+can create a script to have it run on boot, for example with systemd install
+something like this to /etc/systemd/system/gpio.service:
+
+    [Unit]
+    Description=GPIO handling
+    
+    [Service]
+    ExecStart=/root/src/gpio.py
+    Restart=always
+    
+    [Install]
+    WantedBy=multi-user.target
+
+and then on the commandline:
+
+    systemctl enable gpio.service
+
+To start it at boot.
+
+By default, src/gpio.py uses GPIO pins GPIO5[26] and GPIO5[30] for switching between and launching the attacks; these are pin 3 and pin 7 on the USB Armory Mk1. Different GPIO pins can be configured to be used in src/gpio.py. For this to work, a switch has to be connected to each of the two GPIO pins with a pullup resistor to power (pin 2). This can be done by soldering some header pins, buttons, and resistors.
+Armory Wiki: https://github.com/inversepath/usbarmory/wiki/GPIOs
+
+The armory then has to be configured to be in host mode (see wiki for info) and needs the host adapter. A USB cable can be connected to the host adapter and to the USB B port on the back of the 2410U. During its boot up, it will start blinking the LED. If configured correctly, the LED should stop blinking, which means that the GPIO service has correctly started and grabbed the LED. Pressing on the "switch image" will switch between the attacks and blink the LED a number of times corresponding to the attack number. Finally, the "launch" button will execute the attack. The image should appear on the screen. (Read the FAQ below)
+
+
+There are two other demos included. funtenna.py toggles a GPIO pin, which can be
+picked up by an SDR (we found a signal at 15.3 MHz). show_debug_irq.py shows how
+to set up an interrupt that triggers when certain addresses are read/written,
+which is useful for reverse-engineering.
+
+Command-and-Control (Defcon demo)
+----------------------------------
+
+The command-and-control demo shows how an attacker might use the ability to read
+and modify pixels for malicious purposes. src/cnc.py is a small script that
+executes a payload located in payloads/cnc.s. cnc.s hooks a few locations in the
+monitor's firmware in order to receive packets through a hard-coded
+three-pixel-large area. It can then do several things based on the packet
+received, including write to memory, execute code, and display images. The
+modifications it makes won't persist across reboots, but they could be made to
+do so through writing to the flash. There are two demos included that show cnc.s
+in action:
+
+1. In src/cnc_display.py, there is a script that uses pygame to take over the
+screen and send packets to the monitor. First, it sends a "display" packet to
+display a lock on the screen, and then it uses a special packet type to tell the
+monitor where the mouse cursor is. cnc.s is currently hardcoded to change the
+location of the image when it receives one of these packets, so the image moves
+with the cursor and hides it. Press 'q' to quit. Note that the entire time, all
+cnc_display.py is doing is displaying packets -- it's the monitor that does the
+rest.
+
+2. The second demo, shown at defcon, involves a malicious server that sends a
+gif including a packet. That packet overrides data on another page (in this
+case, the value of your paypal account) by displaying an image over it. The
+server, written using flask, is located at src/serve.py, and a screenshot of the
+paypal page used in the demo is included in images/paypal_screenshot.png. The
+source code of the page isn't included for copyright reasons. Note that to get
+this to work on another machine, you probably need to tweak the location of the
+packet (h_offset and v_offset in cnc.s) and the location where the data is
+displyed (in serve.py). Also, the server currently expects a file called
+amount.txt where you enter the amount you want displayed on the screen.
+
+For this to work, the monitor firmware must be version m1f1a, or else the
+monitor will crash since the hook won't be in the right place. Also, since we're
+reading raw color values from the computer and interpreting them as bytes,
+anything that modifies those color values, such as f.lux or redshift, will break
+the demo.
+
+How does it work?
+-----------------
+
+The Dell 2410U monitor has a Genesis (now owned by ST) display controller
+onboard. The exploit sends debug messages to this chip using Genesis's "GProbe"
+protocol over DDC2bi, which lets it write to RAM, read and write display
+registers, execute arbitrary code, reflash the device, etc. DDC2bi is a part
+of display protocols such as HDMI and DisplayPort which normally lets the
+computer do things like control the monitor's color settings and get the
+resolution of the monitor. As far as we know, GProbe is always enabled via
+DDC2bi on all Genesis display controllers, with no mechanism to disable it or
+limit who can access it.
+
+In USB mode, the exploit sends a special vendor-specific message to a fake USB
+storage device in the monitor's USB hub to send DDC2bi commands to the monitor.
+This is the original method used by the firmware update tool, and if you crash
+the monitor you won't lose your computer's display, but it's a lot slower than
+sending DDC commands directly.
+
+FAQ
+-------
+
+I tried it, and the images show up but they're flashing and moving around or
+they don't show up at all. Why?
+
+Right now, the exploit only works correctly when something is actually being
+displayed to the screen. Otherwise, the monitor's firmware tries to use the OSD
+(on screen display) hardware to display the "no input connected" message, which
+makes strange things happen since we've already programmed the OSD ourselves.
+Also, if the monitor goes into powersave mode (the power button goes yellow),
+then the display is turned off and you won't see anything at all.
+
+

@@ -1,0 +1,146 @@
+= rpi-image-gen
+
+rpi-image-gen is a tool for creating custom software images for Raspberry Pi devices. It runs best on a Raspberry Pi Host running up-to-date 64-bit Raspberry Pi OS.
+
+**For the tool used to create the Raspberry Pi OS distribution, please go to https://github.com/RPi-Distro/pi-gen**
+
+**NOTE** rpi-image-gen is under active development. Please report issues at https://github.com/raspberrypi/rpi-image-gen. Feature suggestions are welcome.
+
+== Quick Start
+
+=== From Source
+----
+git clone https://github.com/raspberrypi/rpi-image-gen.git
+cd rpi-image-gen
+sudo ./install_deps.sh
+./rpi-image-gen build -c ./config/bookworm-minbase.yaml
+----
+
+The device image will be in `./work/image-deb12-arm64-min/deb12-arm64-min.img`
+
+Install it onto an SD card using Raspberry Pi Imager (https://www.raspberrypi.com/software/). Select "Use Custom" if using the GUI, or use the command line:
+
+----
+sudo rpi-imager --cli ./work/image-deb12-arm64-min/deb12-arm64-min.img /dev/mmcblk0
+----
+
+**Note:** This image intentionally has login passwords disabled.
+
+To install via other means, for example using https://github.com/raspberrypi/usbboot[rpiboot,window=_blank] with https://github.com/raspberrypi/pi-gen-micro[pi-gen-micro,window=_blank]'s usb mass-storage or fastboot gadget, or provisioning with https://github.com/raspberrypi/rpi-sb-provisioner[rpi-sb-provisioner,window=_blank], take a look at the documentation in those repositories.
+
+The rpi-image-gen link:./docs/index.adoc[technical documentation] and link:./examples[examples directory] provide customisation and usage guidance.
+
+== Why use this?
+
+* **Fast builds** - Uses pre-built packages instead of building from source
+* **Production-ready** - Same binaries used by millions in production worldwide
+* **Compatible** - Use the same library versions as Raspberry Pi OS
+* **Customisable** - Configure your filesystem exactly as needed
+* **Secure** - Integrate with *rpi-sb-provisioner* (https://github.com/raspberrypi/rpi-sb-provisioner) to automatically set up signed boot and encrypted filesystems
+* **Auditable** - Generate Software Bill of Materials and CVE reports to give consumers of your image confidence
+
+rpi-image-gen is a versatile image generation and build automation tool designed to create reproducible operating system artefacts. It supports producing bootable disk images, partitioned media layouts, and device-agnostic filesystem tarballs from declarative configurations. The tool integrates package management, filesystem assembly, and image layout definition, enabling consistent builds for embedded devices, virtual machines, and general-purpose systems. By separating build logic from target hardware specifics, it simplifies cross-platform image creation, CI workflows, and distribution packaging.
+
+== Core Concepts
+
+* **Configuration** - Declare variables and build attributes in simple, easy to read files
+* **Layers** - Modular, composable components with automatic variable checking, validation policies and comprehensive documentation
+* **Hooks** - Shell scripts that run at defined points in the build process
+
+== Architecture
+
+rpi-image-gen uses:
+
+* **bdebstrap** (https://github.com/bdrung/bdebstrap) for modular layer application
+* **mmdebstrap** (https://gitlab.mister-muffin.de/josch/mmdebstrap) for filesystem construction
+* **genimage** (https://github.com/pengutronix/genimage/) for disk image creation
+* **YAML** for file-based configuration
+* **podman unshare** to handle filesystem ownership correctly using linux namespaces
+
+The tool runs as a regular user and does not require root privileges.
+
+image::docs/images/rpi-image-gen-v2.svg[rpi-image-gen overview, scaledwidth="80%", align="center"]
+
+== Dependencies
+
+Install required base dependencies:
+----
+sudo ./install_deps.sh
+----
+
+See the `depends` file for the complete list of required packages.
+
+rpi-image-gen builds its own copies of critical host tools so it always has current, fully featured versions and supports architectures the workstation distribution might not package. Installing and running them from a private sysroot keeps the host system untouched. The trade-off is a small one-time build delay, plus additional native dependencies that most developer workstations already carry. The resulting tools live in a reusable sysroot that stays isolated from distribution packages and can be reused for every build.
+
+=== Important
+
+rpi-image-gen is developed on Raspberry Pi OS, with Debian Bookworm and Trixie arm64 as the supported native hosts. It expects a Debian-based system and can run in containers or on non-arm64 hosts via QEMU, but those environments are not formally supported. The build invokes `mmdebstrap` to create a chroot and mount pseudo-filesystems (proc, sysfs, devpts) inside a private mount namespace, which requires `CAP_SYS_ADMIN` or equivalent (eg, `--privileged` or `--security-opt=unconfined` depending on rootless/container setup). The build will fail without that capability. Other environments may succeed if granted the necessary privileges, but remain outside the scope of support. For a supported path, run on native Debian Bookworm/Trixie arm64.
+
+== Documentation
+
+=== Technical Information
+
+* **link:docs/index.adoc[Index]** - Comprehensive reference for the configuration system, layer management, metadata, variable validation, provisioning, execution flow, etc.
+
+Documentation can be served locally using `rpi-image-gen docs`, which starts a web server on port 3142. Point your browser to the URL printed on startup.
+
+=== Examples
+
+See the `examples/` directory for tips and help
+
+=== Directory Structure:
+
+* `bin/` - Common executable files and utilities
+* `config/` - Configuration files
+* `contrib/` - Optional, community-maintained extensions and tooling outside the supported core
+* `device/` - Device specific assets
+* `docs/` - Technical documentation
+* `examples/` - Examples and howto
+* `image/` - Disk layout specific assets
+* `keydir/` - Cryptographic assets
+* `layer/` - Layer library
+* `layer-hooks/` - Common hooks used by layer library
+* `lib/` - Execution helpers and macros, eg CLI handling, reusable constructs
+* `package/` - Build recipes and framework for tools
+* `scripts/` - Dedicated functional hooks, eg for bdebstrap
+* `site/` - Core Python engine classes
+* `templates/` - Templating assets, eg doc generation
+* `test/` - Test harness
+
+== Basic Usage
+
+----
+# Building
+rpi-image-gen build -c config/my-system.yaml
+
+# Specify the source directory
+rpi-image-gen build -S /path/to/my/assets -c /path/to/my/config.yaml
+
+# List all available layers
+rpi-image-gen layer --list
+
+# Describe a layer
+rpi-image-gen layer --describe my-layer
+
+# Lint a layer file when developing a custom solution
+rpi-image-gen metadata --lint /path/to/my/layer.yaml
+
+# See all options
+rpi-image-gen --help
+----
+
+== Integration
+
+rpi-image-gen is designed for integration with external build systems:
+
+- **External directories** can provide custom configs and layers
+- **Reusable components** allow developers to easily apply their customisations on top of built-in defaults
+- **Hooks** provide integration points throughout the build process
+- **SBOM generation** for security and compliance workflows
+
+== Getting Help
+
+* **Documentation**: link:docs/index.adoc[Technical reference index]
+* **Issues**: https://github.com/raspberrypi/rpi-image-gen/issues
+* **Examples**: `examples/` directory
+* **Layer reference**: `rpi-image-gen layer --help`
