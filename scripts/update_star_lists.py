@@ -12,8 +12,9 @@ import random
 GITHUB_API = "https://api.github.com"
 GITHUB_URL = "https://github.com"
 STARS_FILE = 'github_stars.json'
-MAX_RETRIES = 5
-INITIAL_BACKOFF = 60  # Initial backoff time in seconds
+MAX_RETRIES = 3
+INITIAL_BACKOFF = 5   # Initial backoff in seconds; kept short for CI
+MAX_RETRY_AFTER = 30  # Give up if server asks us to wait longer than this
 RATE_LIMIT_THRESHOLD = 10  # Number of requests to keep in reserve
 DEFAULT_RATE_LIMIT = 60  # Default to 60 requests per minute
 DEFAULT_RATE_LIMIT_WINDOW = 60  # 1 minute in seconds
@@ -84,7 +85,14 @@ def make_request(session, url, max_retries=MAX_RETRIES):
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 429:
                 if attempt < max_retries - 1:
-                    backoff_time = exponential_backoff(attempt)
+                    retry_after = e.response.headers.get('Retry-After')
+                    if retry_after is not None:
+                        backoff_time = float(retry_after)
+                        if backoff_time > MAX_RETRY_AFTER:
+                            logger.error(f"Rate limited (429); server requested {backoff_time:.0f}s delay (> {MAX_RETRY_AFTER}s cap). Giving up.")
+                            raise
+                    else:
+                        backoff_time = exponential_backoff(attempt)
                     logger.warning(f"Rate limited (429). Backing off for {backoff_time:.2f} seconds.")
                     time.sleep(backoff_time)
                     continue
