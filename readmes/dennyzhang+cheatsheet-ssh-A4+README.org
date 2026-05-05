@@ -1,0 +1,670 @@
+* SSH CheatSheet                                               :Tools:
+:PROPERTIES:
+:type:     tool
+:export_file_name: cheatsheet-ssh-A4.pdf
+:END:
+
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/cheatsheet-ssh-A4"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<div id="the whole thing" style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/slack.png" alt="slack"/></a></div>
+</div>
+
+<br/><br/>
+<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+#+END_HTML
+
+- PDF Link: [[https://github.com/dennyzhang/cheatsheet-ssh-A4/blob/master/cheatsheet-ssh-A4.pdf][cheatsheet-ssh-A4.pdf]], Category: [[https://cheatsheet.dennyzhang.com/category/tools][tools]]
+- Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-ssh-A4
+- Related posts: [[https://cheatsheet.dennyzhang.com/cheatsheet-tmux-A4][Tmux/Tmate Cheatsheet]], [[https://github.com/topics/denny-cheatsheets][#denny-cheatsheets]]
+
+File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues]] or star [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com][this repo]].
+
+** SSH general
+| Name                                    | Summary                                                                                  |
+|-----------------------------------------+------------------------------------------------------------------------------------------|
+| ssh without input password              | =sshpass -p '<your-passwd>' ssh <username>@<ssh_host>=, =brew install sshpass=           |
+| Install sshd server                     | =apt-get install openssh=, =apt-get install openssh-server=                              |
+| Restart sshd server                     | =service sshd restart=, =systemctl reload sshd.service=                                  |
+| Run ssh command                         | =ssh -o StrictHostKeyChecking=no -p 2702 root@172.17.0.8 date=                           |
+| SSH with verbose ouptut                 | =ssh -vvv -p 2702 root@45.33.87.74 date 2>&1=                                            |
+| Setup ssh tunnel for your web browsing  | =sshuttle -r kubo@10.92.21.17 30.0.0.0/16 192.168.150.0/24 -e ...=                       |
+| SSH passwordless login                  | =ssh-copy-id <username>@<ssh_host>=, Or manually update =~/.ssh/authorized_keys=         |
+| Remove an entry from =known_hosts file= | =ssh-keygen -f ~/.ssh/known_hosts -R github.com=                                         |
+| Diff local file with remote one         | =diff local_file.txt <(ssh <username>@<ssh_host> 'cat remote_file.txt')=                 |
+| Diff two remote ssh files               | =diff <(ssh user@remote_host 'cat file1.txt') <(ssh user2@remote_host2 'cat file2.txt')= |
+| Upload with timestamps/permissions kept | =scp -rp /tmp/abc/ ec2-user@<ssh-host>:/root/=                                           |
+| SSH agent load key                      | =exec ssh-agent bash && ssh-add /tmp/id_rsa=, =ssh-add=                                  |
+| [[https://unix.stackexchange.com/questions/58969/how-to-list-keys-added-to-ssh-agent-with-ssh-add/58977][SSH list all loaded key]]                 | =ssh-add -l=                                                                             |
+| SSH agent create and load key           | =exec ssh-agent bash && ssh-keygen=, =ssh-add=                                           |
+| Emacs read remote file with tramp       | =emacs /ssh:<username>@<ssh_host>:/path/to/file=                                         |
+| Generate a new key pair                  | =ssh-keygen=, =ssh-keygen -C "your_email@example.com" -t rsa=       |
+| Generate key pair without interaction    | =ssh-keygen -t rsa -f /tmp/sshkey -N "" -q=                         |
+** SSH Advanced
+| Name                                             | Summary                                                         |
+|--------------------------------------------------+-----------------------------------------------------------------|
+| [[https://www.dennyzhang.com/ssh_passphrase][Add passphrase protection to ssh keyfile]]         | =ssh-keygen -p -f id_rsa=                                       |
+| [[https://superuser.com/questions/268776/how-do-i-configure-ssh-so-it-dosent-try-all-the-identity-files-automatically][configure SSH to avoid trying all identity files]] | =ssh -o IdentitiesOnly=yes -i id1.key myuser@myserver.com=      |
+| Convert OpenSSL format to SSH-RSA format         | =ssh-keygen -f my_ssh.pub -i=                                   |
+| Critical ssh files/folders                       | =~/.ssh/authorized_keys=, =~/.ssh/config=, =~/.ssh/known_hosts= |
+| SSH config file                                  | =/etc/ssh/ssh_config=, =/etc/ssh/sshd_config=                   |
+| SSH key file permission                          | =chmod 600 ~/.ssh/id_rsa=                                       |
+| SSH folder permission                            | =chmod 700 ~/.ssh=, =chown -R $USER:$USER ~/.ssh=               |
+| Authorized_keys file permission                  | =chmod 644 ~/.ssh/authorized_keys=                              |
+| Mute =Warning: Permanently added=                | =ssh -o LogLevel=error=                                         |
+#+BEGIN_HTML
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+#+END_HTML
+** SSH tunnel & ssh proxy
+| Name                                   | Summary                                                                                     |
+|----------------------------------------+---------------------------------------------------------------------------------------------|
+| SSH port forward to a local port       | =ssh -N -i <ssh-keyfile> -f root@54.179.178.214 -L *:18085:localhost:8085 -n /bin/bash=     |
+| Reverse port forward to remote server  | =ssh -R *:40099:localhost:22 root@54.179.178.214=, =ssh -p 40099 root@54.179.178.214=       |
+| Setup ssh tunnel for your web browsing | =sshuttle -r kubo@10.92.21.17 30.0.0.0/16 192.168.111.0/24 192.168.150.0/24 192.167.0.0/24= |
+
+** SSH security
+| Name                                        | Summary                                                                                  |
+|---------------------------------------------+------------------------------------------------------------------------------------------|
+| Disable ssh by password                     | =sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config= |
+| Disable root login                          | =sed -i 's/^PermitRootLogin yes/#PermitRootLogin yes/' /etc/ssh/sshd_config=             |
+| Enable/Disable SSH Host Key Checking        | =StrictHostKeyChecking yes= change =~/.ssh/config=                                       |
+| Protect SSH server from brute force attacks | [[https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04][fail2ban command line tool]]                                                               |
+#+BEGIN_HTML
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+#+END_HTML
+
+** SCP
+| Name                                    | Summary                                                      |
+|-----------------------------------------+--------------------------------------------------------------|
+| Download a remote folder                | =scp -r ec2-user@<ssh-host>:/home/letsencrypt-20180825 ./=   |
+| Upload a file                           | =scp -i <ssh-keyfile> /tmp/hosts ec2-user@<ssh-host>:/root/= |
+| Upload a folder                         | =scp -r /tmp/abc/ ec2-user@<ssh-host>:/root/=                |
+| Upload with timestamps/permissions kept | =scp -rp /tmp/abc/ ec2-user@<ssh-host>:/root/=               |
+| Mount remote directory as local folder  | =sshfs name@server:/path/remote_folder /path/local_folder=   |
+
+** Parse ssh log file
+| Name                              | Command                                                                        |
+|-----------------------------------+--------------------------------------------------------------------------------|
+| Events of ssh down                | =grep -R "ssh.*Received signal 15" /var/log/auth.log=                          |
+| Events of ssh up                  | =grep -R "sshd.*Server listening" /var/log/auth.log=                           |
+| Events of ssh failed login        | =grep -R "sshd.*Failed password for invalid user" /var/log/auth.log=           |
+| Events of ssh break-in attemp     | =grep -R "sshd.*POSSIBLE BREAK-IN ATTEMPT!" /var/log/auth.log=                 |
+| Events of ssh port scap           | =grep -R "sshd.*Bad protocol version identification" /var/log/auth.log=        |
+| Events of ssh login by public key | =grep -R "sshd.*Accepted publickey for" /var/log/auth.log=                     |
+| Events of ssh login by password   | =grep -R "sshd.*Accepted password for" /var/log/auth.log=                      |
+| Events of ssh logout event        | =grep -R "sshd.*pam_unix(sshd:session): session closed for" /var/log/auth.log= |
+
+** SSH tools
+| Name                         | Summary                                                                           |   |
+|------------------------------+-----------------------------------------------------------------------------------+---|
+| Export local env to Internet | [[https://ngrok.com/][ngrok.com]]                                                                         |   |
+| Reverse ssh proxy            | [[https://github.com/sshuttle/sshuttle][sshuttle]]                                                                          |   |
+| SSH by auto input password   | [[https://www.cyberciti.biz/faq/noninteractive-shell-script-ssh-password-provider/][sshpass]] sshpass -p "$PASSWORD" ssh -o StrictHostKeyChecking=no $username@$ssh_ip= |   |
+
+** Scripts
+- Inject local key to remote ssh server server
+#+BEGIN_SRC sh
+cat ~/.ssh/id_rsa.pub | ssh $username@$ssh_hostk "cat - >> ~/.ssh/authorized_keys"
+
+ssh $username@$ssh_hostk "cat ~/.ssh/authorized_keys"
+#+END_SRC
+
+- SSH Config file
+#+BEGIN_EXAMPLE
+Host sandbox
+     HostName 192.168.50.10
+     StrictHostKeyChecking no
+     User root
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+Host 192.168.1.*
+   StrictHostKeyChecking no
+   Port 32882
+   UserKnownHostsFile=/dev/null
+   IdentityFile ~/.ssh/id_rsa
+#+END_EXAMPLE
+
+- Use expect to run ssh command with credential auto input
+#+begin_example exp
+#!/usr/bin/expect
+set timeout 20
+set command "cat /etc/hosts"
+set user "vagrant"
+set password "vagrant"
+set ip "192.168.50.10"
+spawn ssh -o stricthostkeychecking=no $user@$ip "$command"
+expect "*password:*"
+send "$password\r"
+expect eof;
+#+end_example
+
+- ssh reverse tunnel
+#+BEGIN_EXAMPLE
+# https://www.howtoforge.com/reverse-ssh-tunneling
+
+autossh -M 40000 -p 2702 -i /home/denny/al -fN \
+    -o "PubkeyAuthentication=yes" \
+    -o "StrictHostKeyChecking=false" -o "PasswordAuthentication=no" \
+    -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" \
+    -R 123.57.240.189:29995:localhost:22 root@123.57.240.189
+#+END_EXAMPLE
+** More Resources
+License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+
+https://neverendingsecurity.wordpress.com/2015/04/07/ssh-cheatsheet/
+
+http://patrickward.com/cheatsheets/2015/02/16/ssh-cheatsheet/
+
+https://bitrot.sh/cheatsheet/13-12-2017-ssh-cheatsheet/
+
+https://gist.github.com/CodyKochmann/166833b3b31cdb936d69
+
+http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet
+
+https://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id
+
+#+BEGIN_HTML
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+
+<a href="https://www.linkedin.com/in/dennyzhang001"><img align="bottom" src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a>
+<a href="https://github.com/dennyzhang"><img align="bottom"src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a>
+<a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img align="bottom" src="https://www.dennyzhang.com/wp-content/uploads/sns/slack.png" alt="slack"/></a>
+#+END_HTML
+* org-mode configuration                                           :noexport:
+#+STARTUP: overview customtime noalign logdone showall
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LATEX_HEADER: \usepackage[margin=0.6in]{geometry}
+#+LaTeX_CLASS_OPTIONS: [8pt]
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage{lastpage}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \rhead{Updated: \today}
+#+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
+#+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet-ssh-A4}{GitHub: https://github.com/dennyzhang/cheatsheet-ssh-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-ssh-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-ssh-A4}}
+#+AUTHOR: Denny Zhang
+#+EMAIL:  denny@dennyzhang.com
+#+TAGS: noexport(n)
+#+PRIORITIES: A D C
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_EXCLUDE_TAGS: exclude noexport
+#+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
+#+LINK_UP:
+#+LINK_HOME:
+* TODO [#A] Blog: Advanced Usage Of SSH                            :noexport:
+** [#A] Configure EC2 instance for ssh login                      :IMPORTANT:
+sudo su -
+sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/^#PermitRootLogin yes/PermitRootLogin yes/' /etc/ssh/sshd_config
+
+sed -i 's/no-port-forwarding,no-agent-forwarding.*//g'  ~/.ssh/authorized_keys
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAwp69ZIA8Usz5EgSh5gBXKGFZBUawP8nDSgZVW6Vl/+NDhij5Eo5BePYvUaxg/5aFxrxROOyLGE9xhNBk7PP49Iz1pqO9T/QNSIiuuvQ/Xhpvb4OQfD5xr6l4t/9gLf+OYGvaFHf/xzMnc9cKzZ+azLlDHbeewu1GMI/XNFWo4VWAsH+6xM8VIpdJSaR7alJn/W6dmyRBbk0uS3Yut63jVFk4zalAzXquU0BX1ne+DLB/LW8ZanN5PWECabSi4dXYLfxC2rDhDcQdXU3MwV5b7TtR5rFoNS8IGcyHoeq5tasAtAAaD2sEzyJbllAfFsNyxNQ+Yh8935HcWqx2/T0r filebat.mark@gmail.com" >> ~/.ssh/authorized_keys
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA2aRNnkifPeQIR0MtLyFZo2RSSbUVP/vrkGii3VkqNS8vcX88taO3Iv5Y0kD+4CE4qDJe75fxDXbu7IkSuqHrNb/jBrSZKY3KC8EO2lHYv3MMiwCk5rBMTRiZicOKEG2gQM/9fisXCTQamu48M75nyyU5LHptz5TnonLnum0e098JRbxL9UkdWBesEz/JO5TEhy1T0K2c6W6d+cFz0Bkz83gXLGK+KVWWHLJ7/YFd7gVj2ihM6RdSCWxrHeH9riQ8ALW1tkRF0jlsmxiAvvfaT21fmEltYAeZBUdfzgcseRSbM4b0vVp9BKatMoHEBk6pMZhp0r1A/rfH7tu4+yQfBw== root@osc-serv-01" >> ~/.ssh/authorized_keys
+
+service ssh restart
+
+Check with some other VM by username and pssword, not ssh keyfile
+** DONE ssh-add fail: Could not open a connection to your authentication agent.
+  CLOSED: [2012-01-04 Wed 11:26]
+http://forum.slicehost.com/comments.php?DiscussionID=3385\\
+
+http://funkaoshi.com/blog/could-not-open-a-connection-to-your-authentication-agent\\
+
+exec ssh-agent bash
+
+ssh-agent
+
+ssh-add
+*** console shot:                                                  :noexport:
+#+begin_example
+bash-3.2$ ssh-add /var/lib/hudson/.ssh/id_rsa
+Could not open a connection to your authentication agent.
+#+end_example
+** TODO SSH login authentication method: publickey,gssapi-keyex,gssapi-with-mic,password
+** DONE sshd出现问题: /etc/ssh/ssh_config
+  CLOSED: [2013-08-23 Fri 15:10]
+ServerAliveInterval 60
+** DONE Server keeps asking for password after I've copied my SSH Public Key to authorized_keys: /root/ should be 700, instead of 777
+  CLOSED: [2015-02-25 Wed 09:03]
+http://askubuntu.com/questions/110814/server-keeps-asking-for-password-after-ive-copied-my-ssh-public-key-to-authoriz
+http://serverfault.com/questions/360496/i-created-an-rsa-key-but-ssh-keeps-asking-the-password
+*** /var/log/auth.log
+#+BEGIN_EXAMPLE
+root@fluig-id-cdn-01:~/.ssh# tail -f /var/log/auth.log
+tail -f /var/log/auth.log
+Feb 25 15:00:00 fluig-id-cdn-01 sshd[48492]: Authentication refused: bad ownership or modes for directory /root
+
+Feb 25 15:00:01 fluig-id-cdn-01 CRON[48515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 25 15:00:01 fluig-id-cdn-01 CRON[48515]: pam_unix(cron:session): session closed for user root
+Feb 25 15:00:01 fluig-id-cdn-01 sudo:   nagios : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/python /usr/lib/nagios/plug
+#+END_EXAMPLE
+*** /root/ acl issue
+#+BEGIN_EXAMPLE
+root@fluig-id-cdn-01:~/.ssh# ls -lth / | grep 'root$'
+ls -lth / | grep 'root$'
+drwxrwxrwx  11 root root  4.0K Feb 25 14:50 root
+root@fluig-id-cdn-01:~/.ssh# chmod 700 /root/
+chmod 700 /root/
+#+END_EXAMPLE
+** DONE MDM-1299: After modifying ssh authorized_keys, ssh still keep asking password: wrong acl for /root/.ssh
+  CLOSED: [2015-11-22 Sun 03:36]
+http://totvslab.atlassian.net/browse/MDM-1299
+
+Root cause is found: acl of /root/.ssh/ is incorrect. It must be 0700, instead of 0777.
+
+pull request: https://github.com/TOTVS/mdmdevops/pull/5
+
+Verified by testing
+- Test app-mdm deployment for MDM-1299-ssh branch: ssh without password shall work
+  http://10.165.4.67:48080/job/DockerDeployBasicCookbooks/146/console
+- Test app-mdm deployment for dev branch branch: ssh without password shall not work
+  http://10.165.4.67:48080/job/DockerDeployBasicCookbooks/147/console
+*** useful link
+http://unix.stackexchange.com/questions/36540/why-am-i-still-getting-a-password-prompt-with-ssh-with-public-key-authentication
+http://askubuntu.com/questions/110814/server-keeps-asking-for-password-after-ive-copied-my-ssh-public-key-to-authoriz
+http://serverfault.com/questions/396935/ssh-keys-authentication-keeps-asking-for-password
+** DONE ssh tunnel: bind: Cannot assign requested address:  force the ssh client to use ipv4
+  CLOSED: [2015-12-02 Wed 22:54]
+http://serverfault.com/questions/444295/ssh-tunnel-bind-cannot-assign-requested-address
+http://ubuntuforums.org/showthread.php?t=1387297
+
+https://www.clearos.com/clearfoundation/social/community/ssh-port-forwarding-between-clearos-and-remote-server
+
+The close the loop here. The answer, in this case, was to force the ssh client to use ipv4. E.g.
+
+ssh -4 -D 8081 user@8.8.8.8
+
+#+BEGIN_EXAMPLE
+root@iZ25y7u44dnZ:~# ssh -i /home/denny/denny -N -p 10040 -f root@123.56.44.213 -L 38080:localhost:28080 -n /bin/bash
+bind: Cannot assign requested address
+#+END_EXAMPLE
+** [#A] autossh configuration                                     :IMPORTANT:
+https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/
+https://linuxaria.com/howto/permanent-ssh-tunnels-with-autossh
+
+vim /etc/ssh/sshd_config
+GatewayPorts yes
+
+# reverse tunnel
+autossh -M 29996 -i /home/denny/test -fN -o "PubkeyAuthentication=yes" -o "StrictHostKeyChecking=false" -o "PasswordAuthentication=no" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -R 54.179.178.214:29995:localhost:22 root@54.179.178.214
+
+ssh -i /home/denny/test -fN -o "PubkeyAuthentication=yes" -o "StrictHostKeyChecking=false" -o "PasswordAuthentication=no" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -R 54.179.178.214:29995:localhost:22 root@54.179.178.214
+
+# ssh tunnel
+ssh -i /home/denny/test1 -4 -N -p 19995 -f root@123.57.240.189 -L *:48080:localhost:48080 -n /bin/bash
+
+autossh -M 48081 -4 -p 19995 -i /home/denny/test1 -fN -o "PubkeyAuthentication=yes" -o "StrictHostKeyChecking=false" -o "PasswordAuthentication=no" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -L  123.57.240.189:48080:localhost:48080 root@123.57.240.189
+** DONE remote port forwarding failed for listen port
+  CLOSED: [2016-05-21 Sat 07:32]
+http://bbrinck.com/post/2318562750/reverse-ssh-tunneling-easier-than-port
+http://serverfault.com/questions/595323/ssh-remote-port-forwarding-failed
+#+BEGIN_EXAMPLE
+Note: Sometimes, when a SSH connection dies (as it will if you shut your laptop to move to another location), the port on the remote machine will stay open. If this happens, you'll see this error when you try to create the reverse tunnel:
+
+Warning: remote port forwarding failed for listen port 3000
+
+If this happens, you can either use a new port or do the following:
+
+Find the process that is using port 3000 (look for the PID - you'll need to run the command with sudo to see the PIDs):
+sudo netstat -anp
+Kill the stale process:
+kill PID
+#+END_EXAMPLE
+** DONE create a banner/welcome-note for SSH server: /etc/ssh/sshd_config: Banner file
+   CLOSED: [2016-09-23 Fri 00:26]
+https://crybit.com/create-a-banner-ssh-server/
+
+[root@localhost ~]# vim /etc/ssh/sshd_config
+-----
+#Banner none
+Banner /etc/ssh/welcome.txt
+
+vim /etc/ssh/welcome.txt
+** DONE SSH security - weak ciphers and mac algorithms
+  CLOSED: [2017-01-23 Mon 15:07]
+/etc/ssh/sshd_config: Ciphers and MACs sections
+http://linux.uits.uconn.edu/2014/06/25/ssh-weak-ciphers-and-mac-algorithms/
+https://www.ssh.com/manuals/server-admin/44/Ciphers_and_MACs.html
+http://blog.xuite.net/magurayu/wretch/417764135-SSH+Weak+Algorithms+Supported
+
+ssh -vvv -p 2702 root@45.33.87.74 date 2>&1 | grep cipher
+
+arcfour
+*** [#A] error message: 90317 - SSH Weak Algorithms Supported
+Synopsis
+The remote SSH server is configured to allow weak encryption algorithms or no algorithm at all.
+Description
+Nessus has detected that the remote SSH server is configured to use the Arcfour stream cipher or no cipher at all. RFC 4253 advises against using Arcfour due to an issue with weak keys.
+See Also
+https://tools.ietf.org/html/rfc4253#section-6.3
+*** TODO 71049 - SSH Weak MAC Algorithms Enabled
+Synopsis
+The remote SSH server is configured to allow MD5 and 96-bit MAC algorithms.
+Description
+The remote SSH server is configured to allow either MD5 or 96-bit MAC algorithms, both of which are considered weak.
+
+Note that this plugin only checks for the options of the SSH server, and it does not check for vulnerable software versions.
+*** How to fix: SSH Weak Algorithms Supported
+#+BEGIN_EXAMPLE
+在ssh_config及sshd_config加入以下兩行
+
+Ciphers aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc
+MACs hmac-sha1
+#+END_EXAMPLE
+*** Ciphers: The system will attempt to use the different encryption ciphers in the sequence specified on the line
+https://www.ssh.com/manuals/server-admin/44/Ciphers_and_MACs.html
+
+https://tools.ietf.org/html/rfc4253#section-6.3
+
+An encryption algorithm and a key will be negotiated during the key
+   exchange.  When encryption is in effect, the packet length, padding
+   length, payload, and padding fields of each packet MUST be encrypted
+   with the given algorithm.
+
+   The encrypted data in all packets sent in one direction SHOULD be
+   considered a single data stream.  For example, initialization vectors
+   SHOULD be passed from the end of one packet to the beginning of the
+   next packet.  All ciphers SHOULD use keys with an effective key
+   length of 128 bits or more.
+
+   The ciphers in each direction MUST run independently of each other.
+   Implementations MUST allow the algorithm for each direction to be
+   independently selected, if multiple algorithms are allowed by local
+   policy.  In practice however, it is RECOMMENDED that the same
+   algorithm be used in both directions.
+*** MAC (Message Authentication Code)
+The system will attempt to use the different HMAC algorithms in the sequence they are specified on the line.
+
+https://www.ssh.com/manuals/server-admin/44/Ciphers_and_MACs.html
+
+https://tools.ietf.org/html/rfc4253#section-6.4
+
+6.4.  Data Integrity
+
+   Data integrity is protected by including with each packet a MAC that
+   is computed from a shared secret, packet sequence number, and the
+   contents of the packet.
+
+   The message authentication algorithm and key are negotiated during
+   key exchange.  Initially, no MAC will be in effect, and its length
+   MUST be zero.  After key exchange, the 'mac' for the selected MAC
+   algorithm will be computed before encryption from the concatenation
+   of packet data:
+
+      mac = MAC(key, sequence_number || unencrypted_packet)
+
+   where unencrypted_packet is the entire packet without 'mac' (the
+   length fields, 'payload' and 'random padding'), and sequence_number
+   is an implicit packet sequence number represented as uint32.  The
+   sequence_number is initialized to zero for the first packet, and is
+   incremented after every packet (regardless of whether encryption or
+   MAC is in use).  It is never reset, even if keys/algorithms are
+   renegotiated later.  It wraps around to zero after every 2^32
+   packets.  The packet sequence_number itself is not included in the
+   packet sent over the wire.
+
+   The MAC algorithms for each direction MUST run independently, and
+   implementations MUST allow choosing the algorithm independently for
+   both directions.  In practice however, it is RECOMMENDED that the
+   same algorithm be used in both directions.
+
+   The value of 'mac' resulting from the MAC algorithm MUST be
+   transmitted without encryption as the last part of the packet.  The
+   number of 'mac' bytes depends on the algorithm chosen.
+** DONE ssh security: 70658 - SSH Server CBC Mode Ciphers Enabled
+   CLOSED: [2017-01-23 Mon 15:29]
+https://developer.ibm.com/answers/questions/187318/faq-how-do-i-disable-cipher-block-chaining-cbc-mod.html
+*** error message
+70658 - SSH Server CBC Mode Ciphers Enabled	[-/+]
+Synopsis
+The SSH server is configured to use Cipher Block Chaining.
+Description
+The SSH server is configured to support Cipher Block Chaining (CBC) encryption. This may allow an attacker to recover the plaintext message from the ciphertext.
+
+Note that this plugin only checks for the options of the SSH server and does not check for vulnerable software versions.
+** DONE ssh security: hide linux OS version
+  CLOSED: [2017-01-23 Mon 15:56]
+http://serverfault.com/questions/216801/prevent-ssh-from-advertising-its-version-number
+
+While it's prohibitively difficult to hide the version number of your SSH daemon, you can easily hide the linux version (Debian-3ubuntu4)
+
+Add the following line to /etc/ssh/sshd_config
+
+DebianBanner no
+
+From:
+#+BEGIN_EXAMPLE
+debug1: Local version string SSH-2.0-OpenSSH_7.3
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8
+debug1: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.8 pat OpenSSH_6.6.1* compat 0x04000000
+#+END_EXAMPLE
+
+To:
+#+BEGIN_EXAMPLE
+debug1: Local version string SSH-2.0-OpenSSH_7.3
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1
+#+END_EXAMPLE
+** TODO ssh security: 10267 - SSH Server Type and Version Information
+https://www.cyberciti.biz/faq/howto-ssh-server-hide-version-number-sshd_config/
+OpenSSH Hide Version Number From Clients
+
+#+BEGIN_EXAMPLE
+10267 - SSH Server Type and Version Information	[-/+]
+Synopsis
+An SSH server is listening on this port.
+Description
+It is possible to obtain information about the remote SSH server by sending an empty authentication request.
+#+END_EXAMPLE
+** TODO ssh security: 70657 - SSH Algorithms and Languages Supported
+https://www.tenable.com/plugins/index.php?view=single&id=70657
+** TODO ssh security: 10881 - SSH Protocol Versions Supported
+#+BEGIN_EXAMPLE
+	10881 - SSH Protocol Versions Supported	[-/+]
+Synopsis
+A SSH server is running on the remote host.
+Description
+This plugin determines the versions of the SSH protocol supported by the remote SSH daemon.
+Solution
+n/a
+Risk Factor
+None
+Plugin Information:
+Publication date: 2002/03/06, Modification date: 2013/10/21
+Ports
+tcp/2702
+The remote SSH daemon supports the following versions of the
+SSH protocol :
+
+- 1.99
+- 2.0
+#+END_EXAMPLE
+** DONE fail to ssh: No supported key exchange algorithms: /etc/ssh/ssh_host_rsa_key is zero length
+  CLOSED: [2017-04-17 Mon 20:50]
+http://serverfault.com/questions/158151/sshd-shuts-down-with-no-supported-key-exchange-algorithms-error
+
+/etc/ssh/ssh_host_rsa_key is zero length
+
+#+BEGIN_EXAMPLE
+I ran into this problem on Fedora. Eventually I noticed:
+
+root@wisdom:/etc/ssh# ll
+total 268K
+drwxr-xr-x.   2 root root     4.0K Jun 30 06:06 ./
+drwxr-xr-x. 128 root root      12K Jun 30 05:15 ../
+-rw-r--r--.   1 root root     237K Jun  8 23:30 moduli
+-rw-r--r--.   1 root root     2.2K Jun  8 23:30 ssh_config
+-rw-------.   1 root root     4.3K Jun 30 06:03 sshd_config
+-rw-r-----.   1 root ssh_keys    0 Jun 27 00:46 ssh_host_ecdsa_key
+-rw-r--r--.   1 root root        0 Jun 27 00:46 ssh_host_ecdsa_key.pub
+-rw-r-----.   1 root ssh_keys    0 Jun 27 00:46 ssh_host_ed25519_key
+-rw-r--r--.   1 root root        0 Jun 27 00:46 ssh_host_ed25519_key.pub
+-rw-r-----.   1 root ssh_keys    0 Jun 27 00:46 ssh_host_rsa_key
+-rw-r--r--.   1 root root        0 Jun 27 00:46 ssh_host_rsa_key.pub
+The key files are zero length! I generated new key pairs and it fixed the problem:
+
+ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
+ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
+ssh-keygen -t ed25519 -f /etc/ssh/ssh_host_ed25519_key
+#+END_EXAMPLE
+** DONE Show error for ssh login
+  CLOSED: [2017-09-04 Mon 10:41]
+https://askubuntu.com/questions/586806/aws-ec2-set-up-key-and-non-key-authentication-at-same-time
+no-port-forwarding,no-agent-forwarding,no-X11-forwarding,command="echo 'Please login as the user \"ubuntu\" rather than the user \"root\".';echo;sleep 10"
+* TODO Connect and forward the authentication agent                :noexport:
+https://computingforgeeks.com/ssh-cheatsheet-for-sysadmins/
+* TODO ssh with rsync                                              :noexport:
+* TODO Create a SOCKS proxy tunnel                                 :noexport:
+https://computingforgeeks.com/ssh-cheatsheet-for-sysadmins/
+* sshpass with password                                            :noexport:
+pks-ci/ci/scripts/lib/pks-test-setup.sh
+#+BEGIN_SRC sh
+  # Add pub key to jumphost's authorized keys and restart sshd on jumphost
+  sshpass -p $jumphost_password ssh -o StrictHostKeyChecking=no $jumphost_username@$jumphost_ip <<-ENDSSH
+  mkdir -p /tmp/jumphost_keys
+  rm -rf $jumphost_pub_key
+ENDSSH
+  sshpass -p $jumphost_password scp -o StrictHostKeyChecking=no $jumphost_pub_key $jumphost_username@$jumphost_ip:$jumphost_pub_key
+  sshpass -p $jumphost_password ssh -o StrictHostKeyChecking=no $jumphost_username@$jumphost_ip <<-ENDSSH
+  mkdir -p ~/.ssh
+  rm -rf ~/.ssh/authorized_keys
+  cat $jumphost_pub_key >> ~/.ssh/authorized_keys
+  sudo sed -i 's/#AuthorizedKeysFile/AuthorizedKeysFile/g' /etc/ssh/sshd_config
+  sudo systemctl restart sshd || echo "Failed to restart sshd"
+ENDSSH
+#+END_SRC
+* more content                                                     :noexport:
+** ssh-copy-id
+# To copy a key to a remote host:
+ssh-copy-id username@host
+
+# To copy a key to a remote host on a non-standard port:
+ssh-copy-id username@host -p 2222
+
+# To copy a key to a remote host on a non-standard port with non-standard ssh key:
+ssh-copy-id ~/.ssh/otherkey "username@host -p 2222"
+** ssh-keygen
+# To generate an SSH key:
+ssh-keygen -t rsa
+
+# To generate a 4096-bit SSH key:
+ssh-keygen -t rsa -b 4096
+
+# To update a passphrase on a key
+ssh-keygen -p -P old_passphrase -N new_passphrase -f /path/to/keyfile
+
+# To remove a passphrase on a key
+ssh-keygen -p -P old_passphrase -N '' -f /path/to/keyfile
+
+# To generate a 4096 bit RSA key with a passphase and comment containing the user and hostname
+ssh-keygen -t rsa -b 4096 -C "$USER@$HOSTNAME" -P passphrase
+
+** ssh
+# To ssh via pem file (which normally needs 0600 permissions):
+ssh -i /path/to/file.pem user@example.com
+
+# To connect on an non-standard port:
+ssh -p 2222 user@example.com
+
+# To connect and forward the authentication agent
+ssh -A user@example.com
+
+# To execute a command on a remote server:
+ssh -t user@example.com 'the-remote-command'
+
+# To tunnel an x session over SSH:
+ssh -X user@example.com
+
+# Redirect traffic with a tunnel between local host (port 8080) and a remote
+# host (remote.example.com:5000) through a proxy (personal.server.com):
+ssh -f -L 8080:remote.example.com:5000 user@personal.server.com -N
+
+# To launch a specific x application over SSH:
+ssh -X -t user@example.com 'chromium-browser'
+
+# To create a SOCKS proxy on localhost and port 9999
+ssh -D 9999 user@example.com
+
+# -X use an xsession, -C compress data, "-c blowfish" use the encryption blowfish
+ssh user@example.com -C -c blowfish -X
+
+# For more information, see:
+# http://unix.stackexchange.com/q/12755/44856
+
+# Copy files and folders through ssh from remote host to pwd with tar.gz compression
+# when there is no rsync command available
+ssh user@example.com "cd /var/www/Shared/; tar zcf - asset1 asset2" | tar zxf -
+
+# Mount folder/filesystem through SSH
+# Install SSHFS from https://github.com/libfuse/sshfs
+# Will allow you to mount a folder securely over a network.
+sshfs name@server:/path/to/folder /path/to/mount/point
+
+# Emacs can read file through SSH
+# Doc: http://www.gnu.org/software/emacs/manual/html_node/emacs/Remote-Files.html
+emacs /ssh:name@server:/path/to/file
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO sshuttle                                                    :noexport:
+sshuttle -r kubo@10.92.28.172 30.0.0.0/16 192.168.111.0/24 192.168.150.0/24 192.167.0.0/24 -e 'ssh -i /root/.ssh/id_rsa -o StrictHostKeyChecking=no' -D --no-latency-control
+* TODO ssh how to check whether private key and public key is consistent? :noexport:
+** public key
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCSeDjXb/935Si5jAmNnskpIkcMkdDkZn2f0LDKWlxeQn5+57DbaKoB8t+rzRGubUehQtpDppPfvMFdJPHSozdprkFZVIf2AZ705YUVlh2vuc5gINAjacGHZg7Fw+lW162uEVlT+wL2gdXQ1ZrLqUHFdZ5cgIi0Jl26Nwpn8OiJuoMZqGUsduTtqER/VCbzF3r1fGLMWSlV+ELpH9TTCop2L3arUJ6Weqh9Z0GiAUe5XugmjRcKpFwqwyqMHT3144OcGcW02NBl6jxEKn3jjz/AhxqNk9yFW0c1zbb3IQbYLyPhu9Dt6I8VVbtN8s+vcu7bfbXjLevUpOiV6/SGQJ0D
+** private key
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAneDAgT3z7mJnHE2QXeltE/dki0CQv8XsELcXdWq3j8rXjsV0
+w4dz9zbMkEPGQNiXh5TqbNnLmQpEje0Y9/ok27tbwCfl6EqNDxzc1vyAKOSSb/u8
+PyLvDC5y2IEVLeMAjCosNJtbBalqy05235iWzlEkpj/Sm3FSupfJ92xscAwXORX2
+d13OQ/B8vxxpaqyMNJbciiAkJc864f6BaeDeEgcC9uwtgSIMYbgFiO5xJoFQ8GH6
+lg6lV60ICjG/cKoSNQQj7H9GVwGRkQxT3PGPP+HUJi4o6ebmI7pExOwmjawz7s3Y
+nIPg5QWuEhGtF9nZRX8mW/Qydx0Y0JPcYVTMnwIDAQABAoIBAA2DE9a736myYFLK
+zKVM+hnwXXmRkBHptZeEpAxXkthKqwI8Ig8uA53P4dgjBM+9+dIPy7R/O26gs1dW
+SIHItejcczDR+VpVLxdxB/GacLmPPn05FVZt/fmT7B5dhduEhyJ35YqnFTY51rsJ
+vyDJ5XZI+ZME+Vh2bXcs0ItNi0ZXkCJV57LJn1cFlt5hEGWnJ9d/U0yomkg3H7ts
+mhBZjhDBZDJEaneEOH7uAYnitVxGWlqruBTUTKURmsvtxE2lVtc6fMm1wX4M2c9v
+TWvYpBcsIDaxVMGOfnhmspXwwxQSx20BFI5JbvYAz+XauleuQP9tK4IW5gXryItK
+F1JIP7kCgYEA0CYrCelUNfKjKgnTtq6XkMn0Jo6KXp+olmTyvMHWLYjP/pjOKjX9
+MmKmpR7vWumcnrODJ+sPcDkstOXYxbsToQ+NfOuPfL2pRHYopFvTxgS0edoQ4cWb
+8DQMS67VKbVIs3WzuCLrnn6XHQT7lq8S57HKttE31YzJx2srAuPi4HsCgYEAwiwQ
+ZMl+M6ZhRe4cKbAZS5+d+TZrsX73f3LaURiEtulcCLgX3Qys/3XwihbTztswbnW8
+VGZtRZQm90m/VmMhfNmjj/IregKTxxcYlwi2dTb347r/OcYrd5tfhE7CjRQAkz3K
+mEQDRquiSETgZ6GqBaDAH24lYKqHPHGRE7X31S0CgYEAuKzEjryn7F1kio3Be1mY
+O+wSZIsfFSkOiLDz9Kj9/9RcxgSJFkZkaOnB9Mpnjv+p59xZR3d0cRspIS60j2qV
+1dZYsDbHTeNwZL94+6pFUHEoNtxVEhsjaZCkQBnUIncnE6IgXAUPi8XBCQw8s8qN
+OWgy9NTXdu68r+PTe3L4/jUCgYBfqBGTdWhEzaySJNGe//AWP1Y11ceMM759/Pjs
+hqWq7p+2c+rdrUb0uwd7H+/MslLTuBDFi4g9hNUFckFer4tp1FYtreIZQ3fF1uz4
+SwSIDkJk4FSoA6aaT+LobVyO39HAt+o8xRTQFfHmpHfg1dXK2/yJ/1tOmfPxpQkR
+qs2jKQKBgHjIs6xbzWayadOyg40M/KNByNLY4R0Fofrspqk+U2h3Wbo/uVUVgc45
+fZgbKRyqdTn/oseKyasSTohy8TTqsZG49wMYCWjYRsAk718gcrSNdx53sUufFa33
+QekYcLo1fAibWHB6a++3ZWZ4FwjPaAmuKh3DI/hbFu8hPv5a8P2a
+-----END RSA PRIVATE KEY-----
+* TODO ssh ServerAliveInterval                                     :noexport:
+https://patrickmn.com/aside/how-to-keep-alive-ssh-sessions/
+* ssh connection                                                   :noexport:
+#+BEGIN_EXAMPLE
+host devkit
+     HostName devvm1583.test.com
+     StrictHostKeyChecking no
+     User dennyzhang
+     IdentityFile ~/.ssh/id_rsa
+     # Reuse connections.
+     ControlMaster auto
+     ControlPersist yes
+     # Set path for sockets.
+     ControlPath ~/.ssh/sockets-%r@%h-%p
+#+END_EXAMPLE
+* TODO Limits of SSH multiplexing                                  :noexport:
+https://unix.stackexchange.com/questions/22965/limits-of-ssh-multiplexing
+
+https://tutel.me/c/unix/questions/22965/limits+of+ssh+multiplexing
+
+https://stackoverflow.com/questions/52496020/mux-client-request-session-session-request-failed-session-open-refused-by-peer
+mux_client_request_session: session request failed: Session open refused by peer

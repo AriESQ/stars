@@ -1,0 +1,40 @@
+= Helgobox: ReaLearn & Playtime
+:toc: preamble
+:sectnumlevels: 2
+
+image:https://github.com/helgoboss/helgobox/actions/workflows/windows-x86_64.yml/badge.svg[Windows x86_64,link=https://github.com/helgoboss/helgobox/actions/workflows/windows-x86_64.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/windows-i686.yml/badge.svg[Windows i686,link=https://github.com/helgoboss/helgobox/actions/workflows/windows-i686.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/macos-x86_64.yml/badge.svg[macOS x86_64,link=https://github.com/helgoboss/helgobox/actions/workflows/macos-x86_64.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/macos-aarch64.yml/badge.svg[macOS aarch64,link=https://github.com/helgoboss/helgobox/actions/workflows/macos-aarch64.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/linux-x86_64.yml/badge.svg[Linux x86_64,link=https://github.com/helgoboss/helgobox/actions/workflows/linux-x86_64.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/linux-aarch64.yml/badge.svg[Linux aarch64,link=https://github.com/helgoboss/helgobox/actions/workflows/linux-aarch64.yml]
+image:https://github.com/helgoboss/helgobox/actions/workflows/linux-armv7.yml/badge.svg[Linux armv7,link=https://github.com/helgoboss/helgobox/actions/workflows/linux-armv7.yml]
+image:https://img.shields.io/badge/license-GPL-blue.svg[GitHub license,link=https://raw.githubusercontent.com/helgoboss/realearn/master/LICENSE]
+image:https://img.shields.io/badge/Donate-PayPal-orange.svg[Donate,link=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CTAK2KKA8Z2S&source=url]
+
+Helgobox is a link:https://www.reaper.fm[REAPER] plug-in that unites multiple creative products by link:https://www.helgoboss.org[Helgoboss].
+It currently contains link:https://www.helgoboss.org/projects/realearn[ReaLearn] (a versatile controller integration tool, free) and
+link:https://www.helgoboss.org/projects/playtime[Playtime] (a modern session view, paid).
+
+== Installation
+
+See section link:https://docs.helgoboss.org/helgobox/installation.html[Installation] of the Helgobox Reference.
+
+== Usage
+
+See section link:https://docs.helgoboss.org/helgobox/usage.html[Usage] of the Helgobox Reference.
+
+== Documentation
+
+We have:
+
+- link:https://github.com/helgoboss/helgobox/wiki[Helgobox Wiki] (suitable for beginners, includes links to video tutorials)
+- link:https://docs.helgoboss.org[Helgoboss Docs website] (extensive references, includes PDF downloads)
+
+== Architecture
+
+See link:ARCHITECTURE.adoc[architecture documentation].
+
+== Contributing
+
+See link:CONTRIBUTING.adoc[contributing documentation].

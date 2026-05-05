@@ -1,0 +1,48 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-FileCopyrightText: Linutronix GmbH
+
+ELBE
+====
+
+This project is maintained by:
+
+[link=https://www.linutronix.de]
+image::https://raw.githubusercontent.com/Linutronix/.github/master/images/lx_logo_padded.png[Linutronix]
+
+
+Overview
+--------
+http://elbe-rfs.org
+
+ELBE is the 'E.mbedded L.inux B.uild E.nvironment'.
+It can be used to build embedded Linux Rootfilesystems based on Debian packages.
+
+ELBE runs on Debian Linux Host Systems.
+Currently, the oldest supported release is Debian 10 buster.
+You can build any Debian-based system with at least apt version 1.4,
+which is fulfilled with Debian 9 stretch.
+
+
+Software Dependencies
+---------------------
+If using ELBE from git repository directly, you'll need the following packages installed:
+
+    apt install python3 python3-debian python3-mako python3-lxml python3-apt \
+        python3-gpg python3-suds python3-libvirt qemu-utils qemu-kvm p7zip-full \
+        make python3-passlib libvirt-clients libvirt-daemon-system debian-archive-keyring
+
+
+Crash Course
+------------
+1. use an Elbe XML file (e.g. from /usr/share/doc/elbe/examples or
+   examples/ in the elbe source tree)
+
+2. run `./elbe initvm create ./examples/armhf-ti-beaglebone-black.xml`
+
+   * This command creates an initvm directory in the current working directory,
+   * installs and starts a virtual build environment
+   * within this build environment the beaglebone-black image will be built
+   * after the build finished the build results will be copied into
+        elbe-build-<TIMESTAMP>
+
+3. copy the rfs to a sdcard: `sudo dd if=elbe-build*/sdcard.img of=/dev/mmcblk0`

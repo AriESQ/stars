@@ -1,0 +1,75 @@
+Byobu is a GPLv3 open source text-based window manager and terminal multiplexer. It was originally designed to provide elegant enhancements to the otherwise functional, plain, practical GNU Screen, for the Ubuntu server distribution. Byobu now includes an enhanced profiles, convenient keybindings, configuration utilities, and toggle-able system status notifications for both the GNU Screen window manager and the more modern Tmux terminal multiplexer, and works on most Linux, BSD, and Mac distributions.
+
+For more information about this package, please visit:
+  http://byobu.org
+
+If *Byobu* is not packaged for your Linux or UNIX OS, or if you do not have administrative privileges in order to install Byobu, you may be able to install locally, using the following instructions...
+
+### INSTALLATION
+ 1. If you want to pull the source from the upstream git:
+
+     `git clone https://github.com/dustinkirkland/byobu.git byobu-src`
+     `cd byobu-src`
+
+ 2. Or download the latest officially released version from:
+      https://github.com/dustinkirkland/byobu
+
+ 3. Extract:
+
+     `tar zxvf byobu*.tar.gz && cd byobu*`
+
+ 4. Generate the configure script (if it doesn't exist):
+
+     `./autogen.sh`
+
+     Note: GitHub release tarballs require this step. Official release tarballs from Launchpad already include `./configure` and can skip this step.
+
+ 5. Configure:
+
+      `./configure --prefix="$HOME/byobu"`
+
+       ***OPTIONAL*** : You may use python from your environment, rather than from your distro
+
+       ***echo "export BYOBU_PYTHON='/usr/bin/env python'" >> $HOME/.bashrc***
+
+ 6. Build:
+       `make`
+
+ 7. Install:
+
+      `make install`
+
+ 8. Update your `PATH` and `BYOBU_PREFIX` environment variables
+
+      `echo "export PATH=$HOME/byobu/bin:$PATH" >> $HOME/.bashrc`
+      `. $HOME/.bashrc`
+
+ 9. Run:
+
+      `byobu`
+
+> Note that you will need to have a few dependencies installed:
+ * tmux >= 1.5 and screen
+ * python-newt (if you want to use Byobu's configuration utility)
+ * gsed (if your sed implementation doesn't support -i)
+
+### CONTRIBUTION
+
+You may contribute to Byobu by forking the project on Github:
+
+$ git clone https://github.com/dustinkirkland/byobu.git
+
+You commit changes locally, and then propose a merge in Launchpad (ideally), or submit a pull request on Github (less ideally).
+
+As for coding standards, please use tabs, rather than spaces.  Thanks!
+
+### AUTHORS
+ * Primary: Dustin Kirkland <kirkland@byobu.org>
+ * Emeritus: Nick Barcet <nick.barcet@ubuntu.com>, Raphaël Pinson <raphink@ubuntu.com>, Derek Carter <goozbach@friocorte.com>
+
+### LICENSE:
+https://github.com/dustinkirkland/byobu/blob/master/COPYING
+
+Dustin Kirkland <kirkland@byobu.org>
+
+2023-11-22

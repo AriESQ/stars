@@ -1,0 +1,328 @@
+# Systing
+
+To build, ensure you have installed bpftool. This only builds on linux.
+
+Previous versions of this tool had 3 distinct sub-commands, `system`, `profile`,
+and `describe`, as I was experimenting with different approaches to identifying
+problems.  That code can be found in the `old-systing` branch.
+
+The current iteration is just a single command, `systing`.
+
+## Quick start
+
+To build, ensure you have installed bpftool. This only builds on linux.
+
+```bash
+cargo build
+sudo ./target/debug/systing --duration 60
+```
+
+This will generate a `trace.pb` file which can be uploaded to a
+[Perfetto](https://perfetto.dev/) instance for further analysis.
+
+## Development Setup
+
+**IMPORTANT**: If you're contributing code, enable the git hooks to enforce code formatting:
+
+```bash
+./setup-hooks.sh
+```
+
+This sets up automatic `cargo fmt` checks before commits and pushes. See [CLAUDE.md](CLAUDE.md) for full development workflow details.
+
+### Running Integration Tests
+
+Integration tests require root/BPF privileges and are marked as `#[ignore]` by default. Use the provided script to run them without causing build artifact ownership issues:
+
+```bash
+# Run all integration tests
+./scripts/run-integration-tests.sh
+
+# Run a specific test
+./scripts/run-integration-tests.sh trace_validation test_e2e_parquet_validation
+
+```
+
+The script builds as your user (preserving artifact ownership), then runs only the test binary with sudo.
+
+## Usage
+
+Detailed options can be found [here](docs/USAGE.adoc).
+
+### Enhanced Symbol Resolution
+
+For improved symbol resolution, you can enable debuginfod support:
+
+```bash
+export DEBUGINFOD_URLS="https://debuginfod.fedoraproject.org/"
+sudo ./target/debug/systing --enable-debuginfod --duration 60
+```
+
+This will fetch debug information from debuginfod servers, providing more accurate stack traces.
+
+### Recorder Management
+
+Systing includes several recorders for different types of events. You can control which recorders are active using the following options:
+
+#### List Available Recorders
+
+```bash
+sudo ./target/debug/systing --list-recorders
+```
+
+This will display all available recorders and their default states:
+- `sched` - Scheduler event tracing (on by default)
+- `syscalls` - Syscall tracing
+- `sleep-stacks` - Sleep stack traces for all sleep states (on by default)
+- `interruptible-stacks` - Interruptible sleep stack traces (on by default, requires sleep-stacks)
+- `cpu-stacks` - CPU perf stack traces (on by default)
+- `network` - Network traffic recording (TCP/UDP send/receive and packet-level latency)
+- `pystacks` - Python stack tracing
+
+Note: `sleep-stacks` acts as a master switch for all sleep stack collection. When enabled,
+both uninterruptible (D state) and interruptible (S state) sleep stacks are collected by
+default. Use `--no-interruptible-stack-traces` or disable the `interruptible-stacks`
+recorder to collect only uninterruptible sleep stacks.
+
+#### Add Specific Recorders
+
+Use `--add-recorder` to enable additional recorders on top of the defaults:
+
+```bash
+# Enable syscalls in addition to default recorders
+sudo ./target/debug/systing --add-recorder syscalls --duration 60
+
+# Enable network traffic recording in addition to default recorders
+sudo ./target/debug/systing --add-recorder network --duration 60
+
+# Enable multiple additional recorders
+sudo ./target/debug/systing --add-recorder syscalls --add-recorder network --duration 60
+```
+
+#### Use Only Specific Recorders
+
+Use `--only-recorder` to disable all recorders and enable only the ones you specify:
+
+```bash
+# Only record syscalls (disable everything else)
+sudo ./target/debug/systing --only-recorder syscalls --duration 60
+
+# Only record network traffic (disable everything else)
+sudo ./target/debug/systing --only-recorder network --duration 60
+
+# Only record syscalls and cpu-stacks
+sudo ./target/debug/systing --only-recorder syscalls --only-recorder cpu-stacks --duration 60
+```
+
+### Network Traffic Recording
+
+The network recorder captures detailed network traffic information including:
+- TCP and UDP send/receive operations at the connection level
+- Packet-level latency tracking through the network stack
+- Timing information for packet transmission and reception
+- Queue latencies and buffer management
+
+**Note:** Network recording is disabled by default to minimize overhead. Enable it explicitly when you need to analyze network performance.
+
+```bash
+# Enable network recording
+sudo ./target/debug/systing --add-recorder network --duration 60
+
+# Only record network traffic (disable everything else)
+sudo ./target/debug/systing --only-recorder network --duration 60
+```
+
+The network recorder instruments multiple points in the Linux network stack:
+- `tcp_sendmsg`/`udp_sendmsg` - Connection-level send operations
+- `tcp_recvmsg`/`udp_recvmsg` - Connection-level receive operations
+- `__tcp_transmit_skb`/`udp_send_skb` - Packet transmission
+- `tcp_rcv_established`/`__udp4_lib_rcv` - Packet reception
+- `__dev_queue_xmit`/`net_dev_start_xmit` - Device queue and transmission
+- And additional points for tracking packet flow through queues and buffers
+
+### Debugging and Verbosity
+
+Use multiple `-v` flags to control verbosity levels:
+
+```bash
+# Basic informational output
+sudo ./target/debug/systing -v --duration 60
+
+# Detailed debugging (useful for troubleshooting)
+sudo ./target/debug/systing -vv --enable-debuginfod --duration 60
+
+# Maximum verbosity (includes library debugging)
+sudo ./target/debug/systing -vvv --enable-debuginfod --duration 60
+```
+
+This tool traces all the scheduling events on the system, cgroup, or process and
+generates a [Perfetto](https://perfetto.dev/) trace.  This can be uploaded to a
+local perfetto instance for further analysis, or you can use the public one
+[here](https://ui.perfetto.dev/).
+
+NOTE: With cgroup and process tracing, you will see other processes that appear
+to not end, this is because the tool is tracing the scheduling events captures
+the process going off the CPU or going on the CPU in addition to the process
+being traced, so you will miss events for the unwanted process leaving the CPU.
+Perfetto handles this appropriately, but it looks odd.
+
+`--trace-event` - This will add an `instant` track event for each event that
+this tool captures.  The format is "<trace type>:<optional
+info>:<class>:<name>".  This is most easily obtained by running
+
+```
+bpftrace -lp <pid of desired program> | grep <name of usdt>
+```
+
+The currently allowed formats are
+
+- `usdt:/path/to/executable:tracepoint_name:tracepoint_class`
+- `uprobe:/path/to/executable:function_name`
+- `uprobe:/path/to/executable:offset`
+- `uprobe:/path/to/executable:function_name+offset`
+- `uretprobe:/path/to/executable:function_name`
+- `uretprobe:/path/to/executable:offset`
+- `uretprobe:/path/to/executable:function_name+offset`
+- `kprobe:function_name`
+- `kprobe:offset`
+- `kprobe:function_name+offset`
+- `kretprobe:function_name`
+- `kretprobe:offset`
+- `tracepoint:subsystem:tracepoint_name`
+
+For all `usdt` and `u*probe` events you *must* specify `--trace-event-pid` to to
+indicate which PID's you wish to record the events for. For example, if you want
+to trace when `qemu` does a v9fs create, you would run the following
+
+```
+systing --trace-event-pid <PID of qemu> --trace-event "usdt:/usr/bin/qemu-system-x86_64:qemu:v9fs_create"
+````
+
+## Custom track events
+
+You can also add complex track event configurations to the trace.  Examples of
+these configuration files can be found in the examples directory.
+
+**📖 For complete documentation on the JSON configuration format, see [docs/TRACE_CONFIG_FORMAT.md](docs/TRACE_CONFIG_FORMAT.md)**
+
+The format is a JSON file specified with `--trace-event-config`.
+
+The `pthread_mutex` example will add a track that shows the time spent locking
+the mutex and the time that the mutex is locked by the thread.
+
+```JSON
+{
+  "events": [
+    {
+      "name": "mutex_entry",
+      "event": "usdt:/usr/lib64/libc.so.6:libc:mutex_entry",
+      "args": [
+        {
+          "arg_index": 0,
+          "arg_type": "long",
+          "arg_name": "mutex_addr"
+        }
+      ]
+    },
+    {
+      "name": "mutex_acquired",
+      "event": "usdt:/usr/lib64/libc.so.6:libc:mutex_acquired",
+      "args": [
+        {
+          "arg_index": 0,
+          "arg_type": "long",
+          "arg_name": "mutex_addr"
+        }
+      ]
+    },
+    {
+      "name": "mutex_release",
+      "event": "usdt:/usr/lib64/libc.so.6:libc:mutex_release",
+      "args": [
+        {
+          "arg_index": 0,
+          "arg_type": "long",
+          "arg_name": "mutex_addr"
+        }
+      ]
+    },
+  ],
+  "tracks": [
+    {
+      "track_name": "pthread",
+      "ranges": [
+        {
+          "name": "locking",
+          "start": "mutex_entry",
+          "end": "mutex_acquired"
+        },
+        {
+          "name": "locked",
+          "start": "mutex_acquired",
+          "end": "mutex_release"
+        }
+      ]
+    },
+  ]
+}
+```
+
+The `args` field is optional and allows you to capture probe arguments that will
+show up as debug annotations on the events in the trace. Up to 4 args can be
+captured per event. Each arg specifies:
+- `arg_index`: Which argument to capture (0-based index)
+- `arg_type`: The type of the argument ("string", "long", or "retval")
+- `arg_name`: The name of the debug annotation (e.g., "mutex_addr")
+
+Available arg types:
+- `"string"`: Captures a string pointer argument (requires `arg_index`)
+- `"long"`: Captures a 64-bit integer argument (requires `arg_index`)
+- `"retval"`: Captures the function return value (only valid for kretprobe and uretprobe; `arg_index` not used)
+
+These debug annotations provide additional context when viewing the trace in
+Perfetto, showing the captured value with the specified name. In the example
+above, the mutex address will appear as a "mutex_addr" annotation on each event.
+
+### Kernel Version Requirements
+
+**Important**: Capturing arguments from tracepoint events requires **Linux kernel 6.10 or newer**.
+
+Prior to kernel 6.10, the BPF `raw_tracepoint` infrastructure did not support `bpf_get_attach_cookie()`,
+which is required for systing to capture arguments from tracepoint events. This limitation affects:
+
+- `tracepoint:syscalls:sys_enter_*` events (e.g., `sys_enter_mmap`, `sys_enter_open`)
+- `tracepoint:syscalls:sys_exit_*` events
+- Any other custom tracepoint events with arguments
+
+**What this means:**
+- ✅ **Kernel 6.10+**: Full support for tracepoint argument capture
+- ⚠️ **Kernel < 6.10**: Tracepoint events work, but argument capture is **not supported**
+
+If you attempt to use tracepoint argument capture on kernel < 6.10, systing will fail with a clear error message:
+```
+Cannot capture tracepoint arguments on kernel < 6.10.
+Tracepoint 'syscalls:sys_enter_mmap' has 2 argument(s) configured, but this kernel
+version doesn't support bpf_get_attach_cookie() for raw_tracepoint programs.
+Either upgrade to kernel 6.10+ or remove the argument specifications from the event configuration.
+```
+
+**Other probe types are not affected:**
+- `kprobe`/`kretprobe` - Work on all kernel versions
+- `uprobe`/`uretprobe` - Work on all kernel versions
+- `usdt` - Work on all kernel versions
+
+To check your kernel version:
+```bash
+uname -r
+```
+
+For kernel < 6.10, you can still use tracepoint events without arguments, or use kprobes/uprobes instead.
+
+The `stack` field is optional (defaults to `false`). When set to `true`, systing
+will capture and emit a stack trace whenever this event fires. This allows you to
+see the call stack at the point where the event occurred, which is useful for
+debugging and performance analysis.
+
+This results in a track that looks like this
+
+![pthread mutex example](docs/pthread.png)

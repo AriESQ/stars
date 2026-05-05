@@ -1,0 +1,401 @@
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/rpardini/docker-registry-proxy/master-latest.yaml?branch=master&label=%3Alatest%20from%20master)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rpardini/docker-registry-proxy?label=last%20tagged%20release)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/rpardini/docker-registry-proxy/tags.yaml?branch=master&label=last%20tagged%20release)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/rpardini/docker-registry-proxy?sort=semver)
+![Docker Pulls](https://img.shields.io/docker/pulls/rpardini/docker-registry-proxy)
+## TL,DR
+
+A caching proxy for Docker; allows centralised management of (multiple) registries and their authentication; caches images from *any* registry.
+Caches the potentially huge blob/layer requests (for bandwidth/time savings), and optionally caches manifest requests ("pulls") to avoid rate-limiting.
+
+### `0.6.5`: Updated late February 2025 for the "2nd Docker Apocalypse"
+
+Docker, Inc has announced a [2nd apocalypse](https://www.docker.com/blog/revisiting-docker-hub-policies-prioritizing-developer-experience/) for 1st of March'25 (it has [already been pushed back to April](https://www.theregister.com/2025/02/22/docker_hub_pull_limits/)).
+This has caused a new surge of interest in this project; in response I've updated all dependencies to the latest versions,
+added a [Test matrix](https://github.com/rpardini/docker-registry-proxy/actions/workflows/test.yaml), merged some pull requests (including `DISABLE_IPV6=true`, which was a long-standing request), and updated the documentation.
+
+Many thanks to all the contributors over the years; I've no intention of abandoning this project -- please keep sending and updating your PRs.
+
+### NEW: avoiding DockerHub Pull Rate Limits with Caching
+
+Starting November 2nd, 2020, DockerHub will 
+[supposedly](https://www.docker.com/blog/docker-hub-image-retention-policy-delayed-and-subscription-updates/) 
+[start](https://www.docker.com/blog/scaling-docker-to-serve-millions-more-developers-network-egress/)
+[rate-limiting pulls](https://docs.docker.com/docker-hub/download-rate-limit/), 
+also known as the _Docker Apocalypse_. 
+The main symptom is `Error response from daemon: toomanyrequests: Too Many Requests. Please see https://docs.docker.com/docker-hub/download-rate-limit/` during pulls.
+Many unknowing Kubernetes clusters will hit the limit, and struggle to configure `imagePullSecrets` and `imagePullPolicy`.
+
+This proxy can be configured with the env var `ENABLE_MANIFEST_CACHE=true` which provides 
+configurable caching of the manifest requests that DockerHub throttles. You can then fine-tune other parameters to your needs.
+Together with the possibility to centrally inject authentication (since 0.3x), this is probably one of the best ways to bring relief to your distressed cluster, while at the same time saving lots of bandwidth and time. 
+
+Note: enabling manifest caching, in its default config, effectively makes some tags **immutable**. Use with care. The configuration ENVs are explained in the [Dockerfile](./Dockerfile), relevant parts included below.
+
+```dockerfile
+# Manifest caching tiers. Disabled by default, to mimick 0.4/0.5 behaviour.
+# Setting it to true enables the processing of the ENVs below.
+# Once enabled, it is valid for all registries, not only DockerHub.
+# The envs *_REGEX represent a regex fragment, check entrypoint.sh to understand how they're used (nginx ~ location, PCRE syntax).
+ENV ENABLE_MANIFEST_CACHE="false"
+
+# 'Primary' tier defaults to 10m cache for frequently used/abused tags.
+# - People publishing to production via :latest (argh) will want to include that in the regex
+# - Heavy pullers who are being ratelimited but don't mind getting outdated manifests should (also) increase the cache time here
+ENV MANIFEST_CACHE_PRIMARY_REGEX="(stable|nightly|production|test)"
+ENV MANIFEST_CACHE_PRIMARY_TIME="10m"
+
+# 'Secondary' tier defaults any tag that has 3 digits or dots, in the hopes of matching most explicitly-versioned tags.
+# It caches for 60d, which is also the cache time for the large binary blobs to which the manifests refer.
+# That makes them effectively immutable. Make sure you're not affected; tighten this regex or widen the primary tier.
+ENV MANIFEST_CACHE_SECONDARY_REGEX="(.*)(\d|\.)+(.*)(\d|\.)+(.*)(\d|\.)+"
+ENV MANIFEST_CACHE_SECONDARY_TIME="60d"
+
+# The default cache duration for manifests that don't match either the primary or secondary tiers above.
+# In the default config, :latest and other frequently-used tags will get this value.
+ENV MANIFEST_CACHE_DEFAULT_TIME="1h"
+```
+
+
+## What?
+
+Essentially, it's a [man in the middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack): an intercepting proxy based on `nginx`, to which all docker traffic is directed using the `HTTPS_PROXY` mechanism and injected CA root certificates. 
+
+The main feature is Docker layer/image caching, including layers served from S3, Google Storage, etc. 
+
+As a bonus it allows for centralized management of Docker registry credentials, which can in itself be the main feature, eg in Kubernetes environments.
+
+You configure the Docker clients (_err... Kubernetes Nodes?_) once, and then all configuration is done on the proxy -- 
+for this to work it requires inserting a root CA certificate into system trusted root certs.
+
+## master/:latest is unstable/beta
+
+- `:latest` and `:latest-debug` Docker tag is unstable, built from master, and amd64-only
+- Production/stable is `0.6.5`, see [0.6.5 tag on Github](https://github.com/rpardini/docker-registry-proxy/tree/0.6.5) - this image is multi-arch amd64/arm64
+
+## Also hosted on GitHub Container Registry (ghcr.io)
+
+- DockerHub image is at `rpardini/docker-registry-proxy:<version>`
+- GitHub image is at `ghcr.io/rpardini/docker-registry-proxy:<version>`
+- Since 0.5.x, they both carry the same images
+- This can be useful if you're already hitting DockerHub's rate limits and can't pull the proxy from DockerHub
+
+## Usage (running the Proxy server)
+
+- Run the proxy on a host close (network-wise: high bandwidth, same-VPC, etc) to the Docker clients
+- Expose port 3128 to the network
+- Map volume `/docker_mirror_cache` for up to `CACHE_MAX_SIZE` (32gb by default) of cached images across all cached registries
+- Map volume `/ca`, the proxy will store the CA certificate here across restarts. **Important** this is security sensitive.
+- Env `ALLOW_PUSH` : This bypasses the proxy when pushing, default to false - if kept to false, pushing will not work. For more info see this [commit](https://github.com/rpardini/docker-registry-proxy/commit/536f0fc8a078d03755f1ae8edc19a86fc4b37fcf).
+- Env `CACHE_MAX_SIZE` (default `32g`): set the max size to be used for caching local Docker image layers. Use [Nginx sizes](http://nginx.org/en/docs/syntax.html).
+- Env `ENABLE_MANIFEST_CACHE`, see the section on pull rate limiting.
+- Env `REGISTRIES`: space separated list of registries to cache; no need to include DockerHub, its already done internally.
+- Env `AUTH_REGISTRIES`: space separated list of `hostname:username:password` authentication info.
+  - `hostname`s listed here should be listed in the REGISTRIES environment as well, so they can be intercepted.
+- Env `AUTH_REGISTRIES_DELIMITER` to change the separator between authentication info. By default, a space: "` `". If you use keys that contain spaces (as with Google Cloud Registry), you should update this variable, e.g. setting it to `AUTH_REGISTRIES_DELIMITER=";;;"`. In that case, `AUTH_REGISTRIES` could contain something like `registry1.com:user1:pass1;;;registry2.com:user2:pass2`.
+- Env `AUTH_REGISTRY_DELIMITER` to change the separator between authentication info *parts*. By default, a colon: "`:`". If you use keys that contain single colons, you should update this variable, e.g. setting it to `AUTH_REGISTRY_DELIMITER=":::"`. In that case, `AUTH_REGISTRIES` could contain something like `registry1.com:::user1:::pass1 registry2.com:::user2:::pass2`.
+- Env `PROXY_REQUEST_BUFFERING`: If push is allowed, buffering requests can cause issues on slow upstreams.  If you have trouble pushing, set this to `false` first, then fix remaining timeouts. Default is `true` to not change default behavior.
+- Timeouts ENVS - all of them can pe specified to control different timeouts, and if not set, the defaults will be the ones from `Dockerfile`. The directives will be added into `http` block.:
+  - SEND_TIMEOUT : see [send_timeout](http://nginx.org/en/docs/http/ngx_http_core_module.html#send_timeout)
+  - CLIENT_BODY_TIMEOUT : see [client_body_timeout](http://nginx.org/en/docs/http/ngx_http_core_module.html#client_body_timeout)
+  - CLIENT_HEADER_TIMEOUT : see [client_header_timeout](http://nginx.org/en/docs/http/ngx_http_core_module.html#client_header_timeout)
+  - KEEPALIVE_TIMEOUT : see [keepalive_timeout](http://nginx.org/en/docs/http/ngx_http_core_module.html#keepalive_timeout)
+  - PROXY_READ_TIMEOUT : see [proxy_read_timeout](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_read_timeout)
+  - PROXY_CONNECT_TIMEOUT : see [proxy_connect_timeout](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_connect_timeout)
+  - PROXY_SEND_TIMEOUT : see [proxy_send_timeout](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_send_timeout)
+  - PROXY_CONNECT_READ_TIMEOUT : see [proxy_connect_read_timeout](https://github.com/chobits/ngx_http_proxy_connect_module#proxy_connect_read_timeout)
+  - PROXY_CONNECT_CONNECT_TIMEOUT : see [proxy_connect_connect_timeout](https://github.com/chobits/ngx_http_proxy_connect_module#proxy_connect_connect_timeout)
+  - PROXY_CONNECT_SEND_TIMEOUT : see [proxy_connect_send_timeout](https://github.com/chobits/ngx_http_proxy_connect_module#proxy_connect_send_timeout)
+- Env `DISABLE_IPV6`: If set to `true`, prevents nginx from getting IPv6 addresses from the resolver, without needing a [custom resolver config](#custom_nginx_resolvers_configuration)
+
+
+### Simple (no auth, all cache)
+```bash
+docker run --rm --name docker_registry_proxy -it \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+### DockerHub auth
+
+For Docker Hub authentication:
+- `hostname` should be `auth.docker.io`
+- `username` should NOT be an email, use the regular username
+
+```bash
+docker run --rm --name docker_registry_proxy -it \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       -e REGISTRIES="registry.k8s.io gcr.io quay.io your.own.registry another.public.registry" \
+       -e AUTH_REGISTRIES="auth.docker.io:dockerhub_username:dockerhub_password your.own.registry:username:password" \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+### Simple registries auth (HTTP Basic auth)
+
+For regular registry auth (HTTP Basic), the `hostname` should be the registry itself... unless your registry uses a different auth server.
+
+See the example above for DockerHub, adapt the `your.own.registry` parts (in both ENVs).
+
+This should work for quay.io also, but I have no way to test.
+
+### GitLab auth
+
+GitLab may use a different/separate domain to handle the authentication procedure.
+
+Just like DockerHub uses `auth.docker.io`, GitLab uses its primary (git) domain for the authentication.
+
+If you run GitLab on `git.example.com` and its registry on `reg.example.com`, you need to include both in `REGISTRIES` and use the primary domain for `AUTH_REGISTRIES`.
+
+For GitLab.com itself the authentication domain should be `gitlab.com`.
+
+```bash
+docker run  --rm --name docker_registry_proxy -it \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       -e REGISTRIES="reg.example.com git.example.com" \
+       -e AUTH_REGISTRIES="git.example.com:USER:PASSWORD" \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+### Google Container Registry (GCR) auth
+
+For Google Container Registry (GCR), username should be `_json_key` and the password should be the contents of the service account JSON. 
+Check out [GCR docs](https://cloud.google.com/container-registry/docs/advanced-authentication#json_key_file). 
+
+The service account key is in JSON format, it contains spaces ("` `") and colons ("`:`"). 
+
+To be able to use GCR you should set `AUTH_REGISTRIES_DELIMITER` to something different than space (e.g. `AUTH_REGISTRIES_DELIMITER=";;;"`) and `AUTH_REGISTRY_DELIMITER` to something different than a single colon (e.g. `AUTH_REGISTRY_DELIMITER=":::"`).
+
+Example with GCR using credentials from a service account from a key file `servicekey.json`:
+
+```bash
+docker run --rm --name docker_registry_proxy -it \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       -e REGISTRIES="registry.k8s.io gcr.io quay.io your.own.registry another.public.registry" \
+       -e AUTH_REGISTRIES_DELIMITER=";;;" \
+       -e AUTH_REGISTRY_DELIMITER=":::" \
+       -e AUTH_REGISTRIES="gcr.io:::_json_key:::$(cat servicekey.json);;;auth.docker.io:::dockerhub_username:::dockerhub_password" \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+### Google Artifact Registry (GAR) auth
+
+For Google Artifact Registry (GAR), username should be `_json_key` and the password should be the contents of the service account JSON. 
+Check out [GAR docs](https://cloud.google.com/artifact-registry/docs/docker/authentication#json-key). 
+
+The service account key is in JSON format, it contains spaces ("` `") and colons ("`:`"). 
+
+To be able to use GAR you should set `AUTH_REGISTRIES_DELIMITER` to something different than space (e.g. `AUTH_REGISTRIES_DELIMITER=";;;"`) and `AUTH_REGISTRY_DELIMITER` to something different than a single colon (e.g. `AUTH_REGISTRY_DELIMITER=":::"`).
+
+GAR repositories have different domain names depending on the region in which they are hosted. Separate `REGISTRIES` and `AUTH_REGISTRIES` entries must be defined for each region's domain name. `us-east1-docker.pkg.dev` and `us-central1-docker.pkg.dev` are used in the example below.
+
+Example with GAR using credentials from a service account from a key file `servicekey.json`:
+
+```bash
+docker run --rm --name docker_registry_proxy -it \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       -e REGISTRIES="us-east1-docker.pkg.dev us-central1-docker.pkg.dev" \
+       -e AUTH_REGISTRIES_DELIMITER=";;;" \
+       -e AUTH_REGISTRY_DELIMITER=":::" \
+       -e AUTH_REGISTRIES="us-east1-docker.pkg.dev:::_json_key:::$(cat servicekey.json);;;us-central1-docker.pkg.dev:::_json_key:::$(cat servicekey.json);;;auth.docker.io:::dockerhub_username:::dockerhub_password" \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+### Kind Cluster
+
+[Kind](https://github.com/kubernetes-sigs/kind/) is a tool for running local Kubernetes clusters using Docker container “nodes”.
+
+Because cluster nodes are Docker containers, docker-registry-proxy needs to be in the same docker network.
+
+Example joining the _kind_ docker network and using hostname _docker-registry-proxy_ as hostname :
+
+```bash
+docker run --rm --name docker_registry_proxy -it \
+       --net kind --hostname docker-registry-proxy \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       rpardini/docker-registry-proxy:0.6.5
+```
+
+Now deploy your Kind cluster and then automatically configure the nodes with the following script :
+
+```bash
+#!/bin/sh
+KIND_NAME=${1-kind}
+SETUP_URL=http://docker-registry-proxy:3128/setup/systemd
+pids=""
+for NODE in $(kind get nodes --name "$KIND_NAME"); do
+  docker exec "$NODE" sh -c "\
+      curl $SETUP_URL \
+      | sed s/docker\.service/containerd\.service/g \
+      | sed '/Environment/ s/$/ \"NO_PROXY=127.0.0.0\/8,10.0.0.0\/8,172.16.0.0\/12,192.168.0.0\/16\"/' \
+      | bash" & pids="$pids $!" # Configure every node in background
+done
+wait $pids # Wait for all configurations to end
+```
+
+### K3D Cluster
+
+[K3d](https://k3d.io/) is similar to Kind but is based on k3s. In order to run with its registry you need to setup settings like shown below.
+
+```sh
+# docker-registry-proxy
+docker run -d --name registry-proxy --restart=always \
+-v /tmp/registry-proxy/mirror_cache:/docker_mirror_cache \
+-v /tmp/registry-proxy/certs:/ca \
+rpardini/docker-registry-proxy:0.6.5
+
+export PROXY_HOST=registry-proxy
+export PROXY_PORT=3128
+export NOPROXY_LIST="localhost,127.0.0.1,0.0.0.0,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,.local,.svc"
+
+cat <<EOF > /etc/k3d-proxy-config.yaml
+apiVersion: k3d.io/v1alpha3
+kind: Simple
+name: mycluster
+servers: 1
+agents: 0
+options:
+    k3d:
+       wait: true
+       timeout: "60s"
+    kubeconfig:
+       updateDefaultKubeconfig: true
+       switchCurrentContext: true
+env:
+  - envVar: HTTP_PROXY=http://$PROXY_HOST:$PROXY_PORT
+    nodeFilters:
+      - all
+  - envVar: HTTPS_PROXY=http://$PROXY_HOST:$PROXY_PORT
+    nodeFilters:
+      - all
+  - envVar: NO_PROXY='$NOPROXY_LIST'
+    nodeFilters:
+      - all
+volumes:
+  - volume: $REGISTRY_DIR/docker_mirror_certs/ca.crt:/etc/ssl/certs/registry-proxy-ca.pem
+    nodeFilters:
+      - all
+EOF
+
+k3d cluster create --config /etc/k3d-proxy-config.yaml
+```
+
+## Configuring the Docker clients using Docker Desktop for Mac
+
+Separate instructions for Mac clients available in [this dedicated Doc Desktop for Mac document](Docker-for-Mac.md).
+
+## Configuring the Docker clients / Kubernetes nodes / Linux clients
+
+Let's say you setup the proxy on host `192.168.66.72`, you can then `curl http://192.168.66.72:3128/ca.crt` and get the proxy CA certificate.
+
+On each Docker host that is to use the cache:
+
+- [Configure Docker proxy](https://docs.docker.com/config/daemon/systemd/#httphttps-proxy) pointing to the caching server
+- Add the caching server CA certificate to the list of system trusted roots.
+- Restart `dockerd`
+
+Do it all at once, tested on Ubuntu Xenial, Bionic, and Focal, all systemd based:
+
+```bash
+# Add environment vars pointing Docker to use the proxy
+mkdir -p /etc/systemd/system/docker.service.d
+cat << EOD > /etc/systemd/system/docker.service.d/http-proxy.conf
+[Service]
+Environment="HTTP_PROXY=http://192.168.66.72:3128/"
+Environment="HTTPS_PROXY=http://192.168.66.72:3128/"
+EOD
+
+### UBUNTU
+# Get the CA certificate from the proxy and make it a trusted root.
+curl http://192.168.66.72:3128/ca.crt > /usr/share/ca-certificates/docker_registry_proxy.crt
+echo "docker_registry_proxy.crt" >> /etc/ca-certificates.conf
+update-ca-certificates --fresh
+###
+
+### CENTOS
+# Get the CA certificate from the proxy and make it a trusted root.
+curl http://192.168.66.72:3128/ca.crt > /etc/pki/ca-trust/source/anchors/docker_registry_proxy.crt
+update-ca-trust
+###
+
+# Reload systemd
+systemctl daemon-reload
+
+# Restart dockerd
+systemctl restart docker.service
+```
+
+## Testing
+
+Clear `dockerd` of everything not currently running: `docker system prune -a -f` *beware*
+
+Then do, for example, `docker pull registry.k8s.io/kube-proxy-amd64:v1.10.4` and watch the logs on the caching proxy, it should list a lot of MISSes.
+
+Then, clean again, and pull again. You should see HITs! Success.
+
+Do the same for `docker pull ubuntu` and rejoice.
+
+Test your own registry caching and authentication the same way; you don't need `docker login`, or `.docker/config.json` anymore.
+
+## Developing/Debugging
+
+Since `0.4` there is a separate `-debug` version of the image, which includes `nginx-debug`, and (since 0.5.x) has a `mitmproxy` (actually `mitmweb`) inserted after the CONNECT proxy but before the caching logic, and a second `mitmweb` between the caching layer and DockerHub.
+This allows very in-depth debugging. Use sparingly, and definitely not in production.
+
+```bash
+docker run --rm --name docker_registry_proxy -it 
+       -e DEBUG_NGINX=true -e DEBUG=true -e DEBUG_HUB=true -p 0.0.0.0:8081:8081 -p 0.0.0.0:8082:8082 \
+       -p 0.0.0.0:3128:3128 -e ENABLE_MANIFEST_CACHE=true \
+       -v $(pwd)/docker_mirror_cache:/docker_mirror_cache \
+       -v $(pwd)/docker_mirror_certs:/ca \
+       rpardini/docker-registry-proxy:0.6.5-debug
+```
+
+- `DEBUG=true` enables the mitmweb proxy between Docker clients and the caching layer, accessible on port 8081
+- `DEBUG_HUB=true` enables the mitmweb proxy between the caching layer and DockerHub, accessible on port 8082 (since 0.5.x)
+- `DEBUG_NGINX=true` enables nginx-debug and debug logging, which probably is too much. Seriously.
+
+## Gotchas
+
+- If you authenticate to a private registry and pull through the proxy, those images will be served to any client that can reach the proxy, even without authentication. *beware*
+- Repeat, **this will make your private images very public if you're not careful**.
+- ~~**Currently you cannot push images while using the proxy** which is a shame. PRs welcome.~~ **SEE `ALLOW_PUSH` ENV FROM USAGE SECTION.**
+- Setting this on Linux is relatively easy.
+  - On Mac follow the instructions [here](Docker-for-Mac.md).
+  - On Windows follow the instructions [here](Docker-Desktop-Windows.md).
+
+### Why not use Docker's own registry, which has a mirror feature?
+
+Yes, Docker offers [Registry as a pull through cache](https://docs.docker.com/registry/recipes/mirror/), *unfortunately* 
+it only covers the DockerHub case. It won't cache images from `quay.io`, `registry.k8s.io`, `gcr.io`, or any such, including any private registries.
+
+That means that your shiny new Kubernetes cluster is now a bandwidth hog, since every image will be pulled from the 
+Internet on every Node it runs on, with no reuse.
+
+This is due to the way the Docker "client" implements `--registry-mirror`, it only ever contacts mirrors for images 
+with no repository reference (eg, from DockerHub).
+When a repository is specified `dockerd` goes directly there, via HTTPS (and also via HTTP if included in a 
+`--insecure-registry` list), thus completely ignoring the configured mirror.
+
+### Docker itself should provide this.
+
+Yeah. Docker Inc should do it. So should NPM, Inc. Wonder why they don't. 😼
+
+### TODO:
+
+- [x] Basic Docker-for-Mac set-up instructions
+- [x] Basic Docker-for-Windows set-up instructions. 
+- [ ] Test and make auth work with quay.io, unfortunately I don't have access to it (_hint, hint, quay_)
+- [x] Hide the mitmproxy building code under a Docker build ARG.
+- [ ] "Developer Office" proxy scenario, where many developers on a fast LAN share a proxy for bandwidth and speed savings (already works for pulls, but messes up pushes, which developers tend to use a lot)

@@ -1,0 +1,98 @@
+Description
+===========
+
+Qucs is a graphical user interface for circuit simulation and related tasks
+(c) Stefan Jahn 2003, 2005, 2011, GPLv2+, see AUTHORS. This modified,
+community maintained version is developped and distributed under GPL3+.
+
+The current work in progress coordinated by Gnucap developpers adds
+standardisation and interoperability with other tools. The Gnucap project is
+funded through the NGI0 Entrust Fund, a fund established by NLnet with
+financial support from the European Commission's Next Generation Internet
+programme, under the aegis of DG Communications Networks, Content and
+Technology under grant agreement No 101069594.
+
+History
+=======
+
+Old homepage: https://qucs.sourceforge.net
+
+Requirements
+============
+
+Qucs needs Qt version 5 or later. For simplicity, the Qt configuration is
+currently obtained through pkg-config, which you need to install in addition
+to Qt.
+
+Qt packages have strange names. Try these for Qt5/6 respectively
+
+# apt install qtbase5-dev qttools5-dev libqt5svg5-dev
+# apt install qt6-base-dev qt6-svg-dev
+
+Development
+===========
+
+Qucs source code is stored in a git repo. Two build systems are included.
+The traditional autotools build system needs to be created by developpers,
+when not using a tarball. Run ./bootstrap after cloning. The CMake build
+system does not require this step. Choose your pick.
+
+Contribute
+==========
+
+See CONTRIBUTE.
+
+Installation
+============
+
+Unpack the distribution tarball:
+
+    $ tar xvzf qucs-<version>.tar.gz               (using GNU tar)
+    $ gzip -cd qucs-<version>.tar.gz | tar xvf -   (using another tar)
+
+Change into the source directory:
+
+    $ cd qucs-<version>
+
+Configure the source package for your system,
+
+    $ ./configure
+
+Configure the source package, but use Qt6
+
+    $ ./configure --with-qt-name=Qt6
+
+Now compile the package:
+
+    $ make
+
+Qt6 wants a newer standard, use the following.
+
+    $ make CXXFLAGS=-std=c++17
+
+Install Qucs:
+
+    $ make install
+
+You must have root privileges if you want to install the package in the
+standard location (/usr/local) or in any location that is only writable
+by root.
+
+For further information on installing the package, please consult the
+file INSTALL included in this distribution.
+
+Please note:  Users of the FreeBSD OS may use a GNU make (probably gmake)
+to compile and install the package.
+
+Getting the latest Git snapshot
+===============================
+
+You can always get the latest Qucs version from our Git repository.
+Please use an official release if you want to work with Qucs.  The Git
+version might not even compile.
+
+    $ git clone http://git.code.sf.net/p/qucs/git qucs-git
+
+Press 'Enter' when asked for a password.  Run `sh bootstrap' and `configure'
+(see above) with the appropriate options.  Maintainance currently requires
+Autoconf version 2.57 and GNU automake 1.7.0.

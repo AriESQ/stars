@@ -1,0 +1,17 @@
+# Nixpacks
+
+[![CI](https://github.com/railwayapp/nixpacks/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/railwayapp/nixpacks/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/nixpacks)](https://crates.io/crates/nixpacks)
+[![Rust: 1.70+](https://img.shields.io/badge/rust-1.70+-93450a)](https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html)
+
+> **⚠️ Maintenance Mode:** This project is currently in maintenance mode and is not under active development. We recommend using [Railpack](https://github.com/railwayapp/railpack) as a replacement.
+
+**App source + Nix packages + Docker = Image**
+
+Nixpacks takes a source directory and produces an OCI compliant image that can be deployed anywhere. The project was started by the [Railway](https://railway.app) team as an alternative to [Buildpacks](https://buildpacks.io/) and attempts to address a lot of the shortcomings and issues that occurred when deploying thousands of user apps to the Railway platform. The biggest change is that system and language dependencies are pulled from the Nix ecosystem.
+
+Read the docs 👉 [nixpacks.com](https://nixpacks.com).
+
+## Contributing
+
+Contributions are welcome with the big caveat that this is a very early stage project and the implementation details and API will most likely change between now and a stable release. For more details on how to contribute, please see the [Contributing guidelines](./CONTRIBUTING.md).

@@ -1,0 +1,760 @@
+:toc: left
+:source-highlighter: pygments
+:doctype: book
+:idprefix:
+:docinfo:
+
+# pivy
+
+Simple-to-use PIV client for Linux and OSX. Includes the tools `pivy-tool`,
+`pivy-agent`, `pivy-box` and `pivy-zfs`.
+
+## About
+
+This is an implementation of a simple PIV client for desktop Linux and OSX with
+minimal dependencies. It contains a `pivy-tool` binary which can conduct basic
+operations using PIV cards, and the `pivy-agent`, which implements the SSH agent
+protocol as a drop-in replacement for the OpenSSH `ssh-agent` command (except
+that the keys it contains are always on a PIV card).
+
+"PIV cards" notably includes Yubico Yubikey devices such as the NEO and
+Yubikey4, which can store up to 24 keys by using the "retired key" slots (which
+this agent supports).
+
+This project re-uses most of the agent and protocol parsing code from OpenSSH,
+where it's been pretty thoroughly battle-hardened.
+
+## Using `pivy-agent`
+
+Using the PIV agent is identical to running the normal `ssh-agent` command,
+with the exception that `pivy-agent` requires a `-g` argument specifying the
+GUID of the PIV card to attach to, and you don't have to use `ssh-add` to load
+any keys. You can also give a `-K` argument with the public key of the
+"Card Authentication" slot (9E) for extra security.
+
+For example, the GUID of my PIV card is `995E171383029CDA0D9CDBDBAD580813` (if
+you don't know your GUID, the `pivy-tool` command can display it). I can use the
+following command to start the `pivy-agent` against my card:
+
+-----
+$ pivy-agent -g 995E171383029CDA0D9CDBDBAD580813 bash
+$ ssh-add -l
+256 SHA256:PJ6ucGKUqlQhiJdArDaF65+AVImg8SVq77vL6nVE/ME PIV_slot_9C /CN=Digital Signature (ECDSA)
+256 SHA256:U86TVxP/gxVk4CQibIWit3Q+/5i4aZuXa2NALIahjww PIV_slot_9E /CN=Card Authentication (ECDSA)
+-----
+
+I can now use the 9E Card Authentication key with `ssh` or any other tools that
+use speak the OpenSSH agent protocol (e.g. the Joyent `manta` and `triton`
+tools). If I try to use the 9C Digital Signature key right now though, I will
+get an error like this:
+
+-----
+$ ssh user@host
+sign_and_send_pubkey: signing failed: agent refused operation
+user@host: Permission denied (publickey).
+-----
+
+To use the 9C key I will have to give my PIV PIN to the agent so that it can
+unlock the card to use the key. I can do this either by starting the agent with
+an environment variable `SSH_ASKPASS` set (in which case I will get a graphical
+prompt for the PIN), or by using the command `ssh-add -X`:
+
+-----
+$ ssh-add -X
+Enter lock password:
+Agent unlocked.
+$ ssh user@host
+Last login: Wed Mar 28 21:56:11 2018 from laptop
+[user@host ~]$
+-----
+
+The PIV PIN is stored in memory only with special guard pages allocated either
+side of it and marked non-swappable. On Linux the memory area is also marked as
+non-dumpable so that it does not appear in core files.
+
+You can make the agent forget the PIN by using the `ssh-add -x` command to
+"lock" it. You can supply any password you like (including an empty string)
+for the "lock" command. The command `ssh-add -D` can also be used, and will not
+prompt for a password (useful from scripts).
+
+The agent will also forget the PIN automatically if the PIV card is unavailable
+for more than a few minutes, or if unusual conditions occur (e.g. an attacker
+tries to plug in a device with the same GUID that fails the 9E signature test).
+
+Note that it's perfectly fine to leave the `pivy-agent` running and remove your
+PIV card: the agent will just return errors on any attempt to use it until
+you insert your card again (you will need to enter your PIN again). You can
+even start the agent without the PIV card present at all.
+
+One useful way to use the `pivy-agent` is to set up a systemd unit file for it
+to run whenever you log in, and adjust your shell profile to use it as your
+normal SSH agent. Then your PIV keys are automatically ready for use in any
+shell.
+
+### Connection confirm mode
+
+You can also start the `pivy-agent` with mode `-C`, which indicates that it
+should prompt for confirmation (by running the program specified in the
+`SSH_CONFIRM` environment variable).
+
+Unlike the regular `ssh-agent`, `pivy-agent` only prompts for confirmation once
+per connection to the agent, and only for connections which are forwarded via
+SSH agent forwarding (unless you give the option twice, as `-CC`, in which case
+every connection is confirmed). This makes the option more suitable for regular
+use: local programs don't necessarily need prompting, and programs which make
+repeated use of your keys to perform operations will only pop up one prompt.
+
+The `SSH_CONFIRM` environment variable can be given as a path to the `zenity`
+tool if desired -- `pivy-agent` will generate appropriate arguments itself.
+
+If you use agent forwarding (`ssh -A`), use of this mode is highly recommended.
+
+### GUI prompts
+
+`pivy-agent` supports the same `SSH_ASKPASS` environment variable and interface
+that `ssh-add` does for presenting a GUI prompt for the PIN if desired.
+
+If the environment variable `SSH_NOTIFY_SEND` is set to a path to a command
+which acts like `notify-send` (takes two arguments, title and message), then
+`pivy-agent` will also run that command whenever it believes a touch
+confirmation may be required.
+
+## Using `pivy-tool`
+
+The `pivy-tool` program can perform a variety of operations against PIV tokens
+on the system, including simply listing the available tokens and their state:
+
+----
+$ pivy-tool list
+      card: 562A20E4
+    device: Yubico YubiKey OTP+FIDO+CCID 00 00
+     chuid: ok
+      guid: 562A20E42ED0E5813C530ED7FE75BE92
+    fasc-n: 00000000000000000000000000000000000000000000000000
+    expiry: 2050-01-01
+    yubico: implements YubicoPIV extensions (v5.1.2)
+    serial: 9073851
+      auth: PIN*
+     slots:
+           ID   TYPE    BITS  CERTIFICATE
+           9e   ECDSA   256   /title=piv-card-auth/CN=562A20E42ED0E5813C530ED7FE75BE92
+           9a   ECDSA   256   /title=piv-auth/CN=562A20E42ED0E5813C530ED7FE75BE92
+           9c   RSA     2048  /title=piv-sign/CN=562A20E42ED0E5813C530ED7FE75BE92
+           9d   ECDSA   256   /title=piv-key-mgmt/CN=562A20E42ED0E5813C530ED7FE75BE92
+----
+
+You can see a short summary of the commands available by running `pivy-tool`
+without any arguments:
+
+----
+$ pivy-tool
+pivy-tool: operation required
+usage: pivy-tool [options] <operation>
+Available operations:
+  list                   Lists PIV tokens present
+  pubkey <slot>          Outputs a public key in SSH format
+  cert <slot>            Outputs DER certificate from slot
+
+  init                   Writes GUID and card capabilities
+                         (used to init a new Yubico PIV)
+  setup                  Quick setup procedure for new YubiKey
+                         (does init + generate + change-pin +
+                         change-puk + set-admin)
+  generate <slot>        Generate a new private key and a
+                         self-signed cert
+  import <slot>          Accept a SSH private key on stdin
+                         and import it to a Yubikey (generates
+                         a self-signed cert to go with it)
+  change-pin             Changes the PIV PIN
+  change-puk             Changes the PIV PUK
+  reset-pin              Resets the PIN using the PUK
+  factory-reset          Factory reset the PIV applet on a
+                         Yubikey, once the PIN and PUK are both
+                         locked (max retries used)
+  set-admin <hex|@file>  Sets the admin 3DES key
+
+  sign <slot>            Signs data on stdin
+  ecdh <slot>            Do ECDH with pubkey on stdin
+  auth <slot>            Does a round-trip signature test to
+                         verify that the pubkey on stdin
+                         matches the one in the slot
+  attest <slot>          (Yubikey only) Output attestation cert
+                         and chain for a given slot.
+
+  box [slot]             Encrypts stdin data with an ECDH box
+  unbox                  Decrypts stdin data with an ECDH box
+                         Chooses token and slot automatically
+  box-info               Prints metadata about a box from stdin
+...
+----
+
+### Setting up a new YubiKey and recommended usage
+
+I recommend that new users run the `pivy-tool setup` command -- it will
+initialise the PIV applet and then generate a standard set of basic keys
+which will suit most users.
+
+The `setup` command will prompt you to set a PIN and PUK, as well as generating
+keys. The PIV PIN and PUK are both secret strings of 6-8 ASCII characters
+which are used to protect access to your device. In the PIV spec, these strings
+are required to be numeric (consisting only of digits 0 through 9), but many
+PIV devices such as YubiKeys will allow a much wider variety of characters.
+
+The PIN is what you will normally use to authenticate to your device and unlock
+the use of private keys. By default, 5 invalid attempts to validate the PIN are
+allowed before it becomes locked. The PUK is intended as a fall-back if the PIN
+is forgotten, and can be used to reset it when locked. If you supply the PUK
+incorrectly 3 times (by default), then the card/device becomes locked down and
+will generally destroy its private keys.
+
+It's fine for personal use to set the PIN and PUK to the same value. The PUK
+is best used in an organisational context where devices are being provisioned
+for users centrally -- it can be securely stored rather than given to the user
+and used to help unlock devices when PINs have been forgotten.
+
+In a PIV device/card, your keys are stored in a fixed set of "slots", which
+are known by their numbered slot IDs.
+
+The different key "slots" (`9a`, `9c`, `9d` and `9e`) have different assigned
+purposes in the PIV spec, but YubiKeys and a lot of compatible devices are not
+very strict in enforcing these.
+
+If you want detailed information about how the slots are intended to be used,
+you should consult
+https://csrc.nist.gov/publications/detail/sp/800-73/4/final[NIST SP 800-73-4 (the PIV standard)],
+but I will attempt a short summary here:
+
+ * `9E`: Card Authentication Key (often styled as "CAK"). This key is intended
+   to authenticate only the *device*/card, not the person who owns it. It
+   defaults to not requiring any authentication to use (no PIN, no touch
+   confirmation on YubiKeys). In `pivy-agent`, for example, this slot is used
+   to check that the device it's talking to is actually the device it's supposed
+   to be (and not an attacker replacement with the same ID) before giving it
+   the user's PIN.
+ * `9A`: PIV Authentication Key. This is the main key used to authenticate the
+   owner of the card/device. It's protected by the PIN by default. You should
+   use this key as your primary option for signature authentication (e.g. this
+   is the key you should add to `.ssh/authorized_keys` or GitHub).
+ * `9C`: Signature Key. This key is intended for use signing documents or
+   certificates. Since this purpose is not as common as authentication amongst
+   users of `pivy`, it also serves duty as a backup authentication key. If you
+   need to SSH or auth to a system that does not support EC keys, this key is
+   an RSA key so that you can use it as a fallback for the `9A` key. It requires
+   a PIN by default, like `9A`.
+ * `9D`: Key Management Key. This key is intended for use only to derive
+   symmetric keys to encrypt/decrypt data. It's a matter of some controversy
+   in the cryptography community whether it's entirely safe to use the same EC
+   key both for signing and key derivation (ECDH), so I would recommend you
+   avoid signing arbitrary data with your `9D` key (don't use it for regular
+   authentication). See the next section for more information about using this
+   key to encrypt data at rest. Requires both PIN and touch confirmation (on
+   YubiKeys).
+
+As well as these 4 basic slots, there are also the "Retired Key Management"
+slots, `82` through `95`. These are intended for rolling old previously-used
+`9D` keys into so that you can continue to decrypt data protected by them on
+a new device. However, as usual, YubiKeys do not enforce this usage, and these
+slots can be used for anything you like.
+
+If you need to import an existing key into your YubiKey, I would recommend using
+one of these retired slots rather than placing it in one of the "main 4".
+
+Note that using the `pivy-agent` for SSH authentication becomes more complex
+when you have more than 4 keys available -- most SSH servers default to
+`MaxAuthTries 6` in their configuration, and each key counts as a "try", so
+if you connect with an agent that contains 6 keys, no other auth methods can be
+attempted (so you will never fall back to trying password/interactive auth). If
+needed, you can work around this with the `IdentitesOnly` SSH configuration
+option.
+
+## Eboxes and `pivy-box`
+
+The `pivy-box` command provides facilities for managing encrypted data storage
+using EC keys. It's particularly notable for its approach to "recovery" to handle
+the situation where your PIV token is lost or damaged.
+
+In short, an ebox generated by `pivy-box` can be unlocked either by a primary
+PIV token, *or* by a set of N/M recovery PIV tokens. For example, you can
+have a primary device you use to unlock an encrypted disk, and then if that
+device fails, fall back to using any 3 out of a set of 5 recovery devices
+instead.
+
+During recovery the devices being used don't have to be physically connected
+to the machine performing recovery, either -- a system of encrypted
+challenge-response messages (which you can copy-paste) can be used instead
+to make use of a token at a remote location.
+
+Eboxes are designed to be small enough to fit in a LUKS token JSON slot or
+ZFS filesystem property so that they are colocated with the encrypted data.
+
+The ebox primitive is based on the `crypto_box` in libnacl/libsodium (after
+which it was named). PIV doesn't support Curve25519 today, though, so we use
+EC keys on the standard NIST P curves instead. ChaCha20+Poly1305 is still the
+default cipher and MAC combination used. GF^256 Shamir secret sharing is used
+to achieve the N/M property during recovery.
+
+### Templates
+
+Since the N/M recovery setup can involve a lot of typing (entering information
+about 5+ tokens), `pivy-box` lets you save just the metadata about which tokens
+you want to use for your recovery setup in a "template" file. These are
+managed by the `pivy-box tpl` family of commands:
+
+----
+$ pivy-box tpl
+pivy-box: operation required
+pivy-box tpl <op>:
+  create                Create a new template
+  edit                  Edit an existing template
+  show                  Pretty-print a template to stdout
+
+$ pivy-box tpl show -h
+show: invalid option -- 'h'
+usage: pivy-box tpl show [-r] [tpl]
+
+Pretty-prints a template to stdout showing details of
+devices and configuration.
+
+Options:
+  -r         raw input, don't base64-decode stdin
+
+If no [tpl] or -f given, expects template input on stdin.
+
+$ pivy-box tpl show backup
+-- template --
+version: 1
+configuration:
+  type: recovery
+  required: 2 parts
+  part:
+    guid: E6FB45BDE5146C5B21FCB9409524B98C
+    name: xk1
+    key: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTY...
+  part:
+    guid: 051CD9B2177EB12374C798BB3462793E
+    name: xk2
+    key: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTY...
+  part:
+    guid: D19BE1E0660AECFF0A9AF617540AFFB7
+    name: xk3
+    key: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTY...
+----
+
+The `pivy-box tpl create` and `tpl edit` commands also include an interactive
+menu-driven editor so you can make changes later:
+
+----
+$ pivy-box tpl edit -i backup
+-- Editing template --
+Select a configuration to edit:
+  [1] recovery: any 2 of: E6FB45BD (xk1), 051CD9B2 (xk2), D19BE1E0 (xk3)
+
+Commands:
+  [+] add new configuration
+  [-] remove a configuration
+  [w] write and exit
+Choice? 1
+-- Editing recovery config 1 --
+Select a part to edit:
+  [1] E6FB45BD (xk1)
+  [2] 051CD9B2 (xk2)
+  [3] D19BE1E0 (xk3)
+
+Commands:
+  [n] 2 parts required to recover data (change)
+  [+] add new part/device
+  [-] remove a part
+  [x] finish and return
+Choice? +
+GUID (in hex)? 562A20E42ED0E5813C530ED7FE75BE92
+Key? ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoY...
+-- Editing part 4 --
+Read-only attributes:
+  GUID: 562A20E42ED0E5813C530ED7FE75BE92
+  Key: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoY...
+
+Select an attribute to change:
+  [n] Name: (null)
+  [c] Card Auth Key: (none set)
+
+Commands:
+  [x] finish and return
+Choice? n
+Name for part? xk4
+-- Editing part 4 --
+Read-only attributes:
+  GUID: 562A20E42ED0E5813C530ED7FE75BE92
+  Key: ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoY...
+
+Select an attribute to change:
+  [n] Name: xk4
+  [c] Card Auth Key: (none set)
+
+Commands:
+  [x] finish and return
+Choice? x
+-- Editing recovery config 1 --
+Select a part to edit:
+  [1] E6FB45BD (xk1)
+  [2] 051CD9B2 (xk2)
+  [3] D19BE1E0 (xk3)
+  [4] 562A20E4 (xk4)
+
+Commands:
+  [n] 2 parts required to recover data (change)
+  [+] add new part/device
+  [-] remove a part
+  [x] finish and return
+Choice? x
+-- Editing template --
+Select a configuration to edit:
+  [1] recovery: any 2 of: E6FB45BD (xk1), 051CD9B2 (xk2), D19BE1E0 (xk3), 562A20E4 (xk4)
+
+Commands:
+  [+] add new configuration
+  [-] remove a configuration
+  [w] write and exit
+Choice? w
+----
+
+Of course, editing a template does not automatically re-encrypt any eboxes you
+have already created from it. There is a re-encrypt command available under
+`key` and `stream` though to help you update to a new template.
+
+### Types of eboxes
+
+There are two different types of ebox supported:
+
+ * A "key" ebox for storing small amounts of key material or other fixed-length
+   data (e.g. disk encryption master keys); and
+ * A "stream" ebox which can handle large amounts of data without buffering
+   it all into memory, and can also be used in a seekable form.
+
+In both types, no data is ever output by the `pivy-box` command from decryption
+unless it has passed MAC validation (i.e. all forms available are authenticated
+encryption).
+
+### ZFS encryption
+
+An example of using a "key" ebox with ZFS encryption:
+
+----
+$ pivy-box tpl create foobar ...
+$ pivy-box key generate foobar -l 32 > /tmp/newkey.ebox
+$ pivy-box key unlock -R < /tmp/newkey.ebox | \
+    zfs create \
+    -o encryption=on -o keyformat=raw \
+    -o local:ebox="$(cat /tmp/newkey.ebox | tr -d '\n')" \
+    pool/filesystem
+$ rm /tmp/newkey.ebox
+
+$ zfs get -Ho value local:ebox pool/filesystem | \
+    pivy-box key unlock -R | \
+    zfs load-key pool/filesystem
+----
+
+The `pivy-zfs` tool wraps these steps up into single commands:
+
+----
+$ pivy-box tpl create foobar ...
+$ pivy-zfs -t foobar zfs-create pool/filesystem
+
+$ pivy-zfs unlock pool/filesystem
+----
+
+The `pivy-zfs unlock` command also will prompt you to add a new primary token
+if you finish recovery successfully, which also makes it preferable to scripting
+the `zfs load-key` command yourself.
+
+### LUKS/cryptsetup
+
+With LUKS/cryptsetup we can store the ebox data in a LUKS2 JSON token slot. The
+`pivy-luks` tool handles formatting and unlocking LUKS2 partitions with the
+raw volume key encoded directly in the ebox and no passphrase keyslot:
+
+----
+$ pivy-box tpl create foobar ...
+$ pivy-luks format -t foobar /dev/sdx2
+
+$ pivy-luks unlock /dev/sdx2 volname
+----
+
+Other `cryptsetup` commands work on a `pivy-luks` partition as normal:
+
+----
+$ cryptsetup luksDump /dev/sdx2
+LUKS header information
+Version:        2
+Epoch:          3
+Metadata area:  16384 [bytes]
+Keyslots area:  16744448 [bytes]
+UUID:           c0b8d772-5418-4460-81c5-a5abe20b85fa
+Label:          (no label)
+Subsystem:      (no subsystem)
+Flags:          (no flags)
+
+Data segments:
+  0: crypt
+  offset: 16777216 [bytes]
+  length: (whole device)
+  cipher: aes-xts-plain64
+  sector: 4096 [bytes]
+
+Keyslots:
+Tokens:
+  1: ebox
+Digests:
+  0: pbkdf2
+  Hash:       sha256
+  Iterations: 226376
+  Salt:       fe 5a 67 a7 05 95 e5 06 61 be c5 aa 06 48 ca 97
+              2a fb c5 eb 0d 42 a1 83 bd 39 61 fb a8 2f 0b bb
+  Digest:     8a 45 6b d0 2c cb 5d b2 51 25 db 3e fd 3a 6f fb
+              e2 db 7a de c4 66 85 46 30 05 41 0e e8 eb 8d 3e
+----
+
+Note that the resulting LUKS header has no keyslots (so there is no passphrase
+that will unlock the volume key for this partition, only the ebox).
+
+### Recovery and challenge-response
+
+When `pivy-box key unlock` or `pivy-box stream decrypt` run and cannot locate
+a "primary" token on the system that matches the box they are decrypting, they
+enter an interactive recovery mode on the terminal.
+
+First, recovery mode will prompt you to select the configuration and parts
+you want to use for the recovery:
+
+----
+-- Recovery mode --
+Select a configuration to use for recovery:
+  [1] recovery: any 2 of: E6FB45BD (xk1), 051CD9B2 (xk2), D19BE1E0 (xk3)
+
+Commands:
+Choice? 1
+-- Recovery config 1 --
+Select 2 parts to use for recovery
+  [1] E6FB45BD (xk1)
+  [2] 051CD9B2 (xk2)
+  [3] D19BE1E0 (xk3)
+
+Commands:
+Choice? 1
+-- Select recovery method for part 1 --
+GUID: E6FB45BDE5146C5B21FCB9409524B98C
+Name: xk1
+Public key (9d): ecdsa-sha2-nistp256 AAAAE2VjZHNhL...
+  [x] Do not use*
+  [l] Use locally (directly attached to this machine)
+  [r] Use remotely (via challenge-response)
+
+Commands:
+Choice? r
+-- Recovery config 1 --
+Select 2 parts to use for recovery
+  [1] E6FB45BD (xk1)* [remote/challenge-response]
+  [2] 051CD9B2 (xk2)
+  [3] D19BE1E0 (xk3)
+
+Commands:
+Choice? 2
+-- Select recovery method for part 2 --
+GUID: 051CD9B2177EB12374C798BB3462793E
+Name: xk2
+Public key (9d): ecdsa-sha2-nistp256 AAAAE2VjZHN...
+  [x] Do not use*
+  [l] Use locally (directly attached to this machine)
+  [r] Use remotely (via challenge-response)
+
+Commands:
+Choice? r
+-- Recovery config 1 --
+Select 2 parts to use for recovery
+  [1] E6FB45BD (xk1)* [remote/challenge-response]
+  [2] 051CD9B2 (xk2)* [remote/challenge-response]
+  [3] D19BE1E0 (xk3)
+  [r] begin recovery
+
+Commands:
+Choice?
+----
+
+Once sufficient parts have been selected, you can choose the "Begin recovery"
+option. This will first try to locate any devices you've chosen for "local"
+recovery, prompting for insertion as you go. Then it will proceed to generate
+challenges for remote recovery:
+
+----
+-- Begin challenge for remote device E6FB45BD (xk1) --
+sMUCARDm+0W95RRsWyH8uUCVJLmMnRFjaGFjaGEyMC1wb2x5MTMwNQZzaGE1MTIQF
+ddAc+h16xsXZY9+WCgrBghuaXN0cDI1NiED4yZnwmPVfm0RlixV34blQg+mbRnF+G
+sLlhyGZojhd5YhA5Cbbob/i306qUbZpULvj9kmErWLvjVsyIiQC4ifpxM+AAAAAQB
+0JgTe6DAfCdO+dfs0uJvfjStT5w2bxdVJPcP3GR+BoL4yc2ETsa15vF1ST/I0lKGV
+FFEy/n0MsPZb03iOxbBN40nTXVQZtaSnjpNwinegzFGf6+kq1Tj8Kvgd8N5q3YRJx
+J71hjgrH/lwFvSSUN3Njy8UWHDmhl9I2FHxzCUStFN/+G5Ihf5/KGyfDIzcWABcD4
+wh1wBraCdIgkTftKQQDcb5dHEvtlLeronpS4YfRaqdLRgQdnznFQxV/QnACU2CTD8
+olkWzgXy/kypkN97FhoJ3wltmnRSWInLTZ5WIzdTz6NkDdf61VsDcaCovcubGkVMu
+E090O8nuzFSdtObH
+-- End challenge for remote device E6FB45BD (xk1) --
+
+VERIFICATION WORDS for E6FB45BD (xk1): apple leadership sacred breakfast
+
+-- Begin challenge for remote device 051CD9B2 (xk2) --
+sMUCARAFHNmyF36xI3THmLs0Ynk+nRFjaGFjaGEyMC1wb2x5MTMwNQZzaGE1MTIQq
+xtt1txRzfWNpA2VotX1jQhuaXN0cDI1NiEC+lfqlhWdzpHFqVvRrE6tYls71VNZcm
+ORxoIYnF9ORU4h...
+-- End challenge for remote device 051CD9B2 (xk2) --
+
+VERIFICATION WORDS for 051CD9B2 (xk2): jewellery academic powder syndicate
+
+
+Remaining responses required:
+  * E6FB45BD (xk1)
+  * 051CD9B2 (xk2)
+
+-- Enter response followed by newline --
+>
+----
+
+These base64-encoded challenge tokens are encrypted so that only the target
+device can process them or retrieve any sensitive information. They do not,
+however, have any means to authenticate the *sending* machine on their own,
+which is the purpose of the "verification words".
+
+As a result, you should transport the verification words separately to the
+challenge itself -- e.g. send the challenge over IRC or email, but send the
+verification words over Signal or read them over the phone.
+
+The challenge does include additional information that can be verified to
+try to reduce the risk of replay as well, which will be displayed on the
+remote machine.
+
+An example of responding to a challenge:
+
+----
+$ pivy-box challenge respond
+sMUCARAFHNmyF36xI3THmLs0Ynk+nRFjaGFjaGEyMC1wb2x5MTMwNQZzaGE1MTIQq
+xtt1txRzfWNpA2VotX1jQhuaXN0cDI1NiEC+lfqlhWdzpHFqVvRrE6tYls71VNZcm
+ORxoIYnF9ORU4...
+^D
+Enter PIV PIN for token 051CD9B2:
+-- Challenge --
+Purpose                recovery of at-rest encryption keys
+Description            Recovering pivy-box data for part 051CD9B2 (xk2)
+Hostname               myra
+Generated at           2019-04-12 12:43:39 (local time)
+
+VERIFICATION WORDS     jewellery academic powder syndicate
+
+Please check that these verification words match the original source via a
+separate communications channel to the one used to transport the challenge
+itself.
+
+If these details are correct and you wish to respond, type 'YES': YES
+-- Begin response --
+sMUCAAAAEWNoYWNoYTIwLXBvbHkxMzA1BnNoYTUxMhALNQm7HuVbyMrjFMNjZjsNC
+G5pc3RwMjU2IQOqjFsNsLv8hotnZopkrjC2SDSSmMkXgQCK6kg78iev1yECfHZbB6
+dopyOImq3B1uLxj+LeTvry9IEN2YX9xKjk/OkAAAAAOLmaw9nVj0cSaAV21FbbIJv
+zpFBZBsZkiztabo7moHUEcXSeQ5v/0JDK1zuCQm3dg8mlPMkdu03o
+-- End response --
+----
+
+Responses to a challenge are not replayable, so they do not need separate
+verification words.
+
+## Installing on Linux
+
+On Linux you will need to have a compiler and basic build tools and headers
+installed, as well as the libraries `pcsclite` and `libbsd` (and their `-dev`
+packages if your distro does those). Some `musl` based distros will also require
+installing `libedit`.
+
+If you're using ArchLinux, we have a
+https://aur.archlinux.org/packages/pivy[`pivy` package in the AUR]
+which will compile and install the binaries for you.
+
+If you're compiling yourself, clone this repository and use `make` to build
+the binaries:
+
+-----
+$ git clone https://github.com/arekinath/pivy
+$ cd pivy
+$ make
+-----
+
+You can then run `make install` (as root or with sudo) to install the agent into
+`/opt/pivy`. The Makefile also supports `prefix=/...` to use a different prefix
+rather than `/opt/pivy`, and `DESTDIR=` to stage the installation.
+
+The `make setup` invocation can be used to set up a user systemd service to
+start it automatically at login.  It will also print out lines to add to your
+`.profile` or `.bashrc` to make sure the agent is automatically available in
+all your shells (while still preferring a forwarded SSH agent if you SSH into
+your machine later).
+
+-----
+$ make setup
+Enter a GUID to use for pivy-agent: 995E171383029CDA0D9CDBDBAD580813
+
+install -d /home/alex/.config/pivy-agent
+install .dist/default_config /home/alex/.config/pivy-agent/default
+systemctl --user enable pivy-agent@default.service
+systemctl --user start pivy-agent@default.service
+
+Add the following lines to your .profile or .bashrc:
+  export PATH=/opt/pivy/bin:$PATH
+  if [[ ! -e "$SSH_AUTH_SOCK" || "$SSH_AUTH_SOCK" == *"/keyring/"* ]]; then
+    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/pivy-ssh-default.socket"
+  fi
+-----
+
+## Installing on Mac OSX
+
+Installing on OSX is even easier, as we have pre-built binary package installers
+which both install the binaries and set up a user launchd service to run the
+`pivy-agent` for you.
+
+You can find the latest binary installer on the
+https://github.com/arekinath/pivy/releases[releases page].
+
+After installing the program itself, the installer will prompt you to insert a
+YubiKey or other PIV token using a dialog box. Then it will generate a user
+launchd service to run the agent for you, and add lines to `/etc/profile` to
+default to using it in place of the Keychain agent.
+
+The `pivy-` programs will also be added to your `PATH`, so they should be
+accessible from any terminal. You'll find them in `/opt/pivy` if you need
+them for any other reason.
+
+### Differences to Linux
+
+There is one known issue on OSX currently: the PCSC framework does not work
+after calling `fork()`, which forces the `pivy-agent` code to not be able to run
+in the background (this means using `pivy-agent bash` to start a shell doesn't
+work, for example). The best way to use `pivy-agent` on OSX is set up as a
+launchd service.
+
+### Compiling on Mac OSX
+
+Rather than depend on homebrew or MacPorts or another similar system, we build
+`libressl-portable` in a subdirectory and statically link the binaries against
+it. The Makefile in this repository will handle it all for you.
+
+Note there is no need to install PCSClite or OpenSC or any of the related
+tools or libraries on OSX -- the PCSC framework built into the operating system
+itself works fine for `pivy-agent`.
+
+The commands you will need to run are as follows:
+
+-----
+## Clone the pivy-agent repository
+$ git clone https://github.com/arekinath/pivy
+$ cd pivy
+
+## Build libressl and then pivy-agent
+$ make -j4
+
+## Generate a .pkg (will be output in macosx/pivy-version.pkg)
+$ sudo make package
+...
+-----

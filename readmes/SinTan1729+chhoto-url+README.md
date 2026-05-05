@@ -1,0 +1,124 @@
+<!-- SPDX-FileCopyrightText: 2023 Sayantan Santra <sayantan.santra689@gmail.com> -->
+<!-- SPDX-License-Identifier: MIT -->
+
+[![github-tests-badge](https://github.com/SinTan1729/chhoto-url/actions/workflows/rust-tests.yml/badge.svg)](https://github.com/SinTan1729/chhoto-url/actions/workflows/rust-tests.yml)
+[![docker-pulls-badge](https://img.shields.io/docker/pulls/sintan1729/chhoto-url)](https://hub.docker.com/r/sintan1729/chhoto-url)
+[![maintainer-badge](https://img.shields.io/badge/maintainer-SinTan1729-blue)](https://github.com/SinTan1729)
+[![latest-release-badge](https://img.shields.io/github/v/release/SinTan1729/chhoto-url?label=latest%20release)](https://github.com/SinTan1729/chhoto-url/releases/latest)
+[![docker-image-size-badge](https://img.shields.io/docker/image-size/sintan1729/chhoto-url)](https://hub.docker.com/r/sintan1729/chhoto-url/tags)
+[![license-badge](https://img.shields.io/github/license/SinTan1729/chhoto-url)](https://spdx.org/licenses/MIT.html)
+
+# ![Logo](resources/assets/favicon-32.png) <span style="font-size:42px">Chhoto URL</span>
+
+# What is it?
+
+A simple selfhosted URL shortener with no unnecessary features. Simplicity
+and speed are the main foci of this project. The scratch docker image is <6 MB (compressed),
+the alpine one is <10 MB (compressed), and it uses <15 MB of RAM under regular use.
+
+Don't worry if you see no activity for a long time. I consider this project
+to be complete, not dead. I'm unlikely to add any new features, but I will try
+and fix every bug you report. I will also try to keep it updated in terms of
+security vulnerabilities.
+
+If you feel like a feature is missing, please let me know by creating an issue
+using the "feature request" template.
+
+## But why another URL shortener?
+
+Most URL shorteners are either bloated with unnecessary features, or are a pain to set up.
+Even fewer are written with simplicity and lightness in mind. When I saw the
+[`simply-shorten`](https://gitlab.com/draganczukp/simply-shorten) project, I really liked the
+idea but thought that it missed some features. Also, I didn't like the fact that a simple app
+like this had a ~200 MB docker image (mostly due to the included java runtime). So, I decided
+to rewrite it in Rust and add some features to it that I thought were essential (e.g. hit counting).
+
+## What does the name mean?
+
+Chhoto (ছোট, [pronunciation](https://en.wiktionary.org/wiki/ছোট)) is the Bangla word
+for small. URL means, well... URL. So the name simply means Small URL.
+
+# Demo
+
+Link: [https://chhoto-url-demo.sayantansantra.com](https://chhoto-url-demo.sayantansantra.com)  
+Password: `chhoto-url-demo-pass`
+
+#### Note:
+
+- The database is cleared every 15 minutes, so don't use it for anything other than testing.
+- If you host a public instance of Chhoto URL, please let me know, and I'll add it to the README.
+
+# Features
+
+- Shortens URLs of any length to a randomly generated link.
+- Automatic expiry of links after a chosen time.
+- (Optional) Allows you to specify the shortened URL instead of the generated
+  one. (It's missing in a surprising number of alternatives.)
+- Opening the shortened URL in your browser will instantly redirect you
+  to the correct long URL. (So no stupid redirection pages.)
+- Super lightweight and snappy. (The docker image is only ~6MB and RAM uasge
+  stays under 5MB under normal use.)
+- Counts number of hits for each short link in a privacy respecting way
+  i.e. only the hit is recorded, and nothing else.
+- Short links can be edited after creation.
+- QR codes can be generated for easy sharing.
+- Supports operation using API key, and lets the user provide hashed password and API key.
+- Has a mobile friendly UI, and automatic dark mode.
+- Can serve a custom landing page, if needed.
+- Has a public mode, where anyone can add links without authentication. Deleting
+  or listing available links will need admin access using the password. It's also
+  possible to completely disable the frontend. It's also possible to force an expiry
+  time for public instances, which might be useful.
+- Allows setting the URL of your website, in case you want to conveniently
+  generate short links locally.
+- Links are stored in an SQLite database, which is configured to be ACID by default.
+  Options are available for tuning the database to the user's liking.
+- Available as a Docker container with a provided compose file.
+- Backend written in Rust using [Actix Web](https://actix.rs/), and frontend
+  written in plain HTML and vanilla JS, using [Pure CSS](https://purecss.io/)
+  for styling.
+- Uses very basic authentication using a provided password. It's not encrypted in transport.
+  I recommend using a reverse proxy such as [caddy](https://caddyserver.com/) to
+  encrypt the connection by SSL.
+
+# Bloat that will not be implemented
+
+- **Tracking or spying of any kind.** The only logs that still exist are
+  errors printed to stderr and some basic logging of configs.
+- **User management.** If you need a shortener for your whole organization, either
+  run separate containers for everyone or use something else.
+- **Cookies, newsletters**, "we value your privacy" popups or any of the multiple
+  other ways modern web shows how anti-user it is. We all hate those, and they're
+  not needed here.
+- **Paywalls** or messages begging for donations. If you want to buy me a coffee,
+  you can message me through GitHub discussions or mail me.
+
+# Screenshots
+
+<p align="middle">
+  <img src="screenshot-desktop.webp" height="250" alt="desktop screenshot" />
+  <img src="screenshot-mobile.webp" height="250" alt="mobile screenshot" />
+</p>
+
+# Installation and configuration
+
+[See here.](./INSTALLATION.md)
+
+# Instructions for CLI usage
+
+[See here.](./CLI.md)
+
+# Related software
+
+[See here.](./TOOLS.md)
+
+# Notes
+
+- The list of adjectives and names used for random short url generation is a modified
+  version of [this list used by docker](https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go).
+- It is highly recommended that you [enable WAL mode](./INSTALLATION.md#chhoto_sqlite_use_wal_mode).
+- Although it's unlikely, it's possible that your database is mangled after some update. For mission critical use cases,
+  it's recommended to keep regular versioned backups of the database, and sticking to a minor release tag e.g. 5.8.
+- If you intend to have more than a few thousand short links, it's strongly recommended that you use the UID
+  [`CHHOTO_SLUG_STYLE`](./INSTALLATION.md#chhoto_slug_style) with a [`CHHOTO_SLUG_LENGTH`](./INSTALLATION.md#chhoto_slug_length)
+  of 16 or more. Otherwise, generating new links will start to fail after a while.

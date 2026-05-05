@@ -1,0 +1,5394 @@
+#+STARTUP: show2levels
+#+OPTIONS: num:nil author:nil
+* FFmpeg Rust Scripts
+** Project overview
+
+FFmpeg Rust Scripts is a collection of high-performance utilities designed to automate common video and audio editing tasks.
+
+The scripts automatically detect and utilize NVENC hardware acceleration for high-speed encoding on Linux and Windows, with a fallback to libx264 software encoding.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases][https://img.shields.io/github/downloads/NapoleonWils0n/ffmpeg-rust-scripts/total.svg?style=flat-square&color=blue]]
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/stargazers][https://img.shields.io/github/stars/NapoleonWils0n/ffmpeg-rust-scripts.svg?style=flat-square&color=blue]]
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/blob/master/LICENSE][https://img.shields.io/github/license/NapoleonWils0n/ffmpeg-rust-scripts.svg?style=flat-square&color=blue]]
+  
+🎥 [[https://youtu.be/ALFk6GL9mOk][FFmpeg Rust Scripts for Linux, Windows, Mac, NixOS and Freebsd]]
+
+🎥 [[https://www.youtube.com/playlist?list=PL7hhhG5qUoXk_1n_bGoywRXckq92GMlPr][FFmpeg Rust Scripts for Linux, Windows, Mac, NixOS and Freebsd - playlist]]
+
+*** Script Categories
+
+The tools are organized into functional categories.
+
+Trimming & Clipping: Precise tools for extracting clips using timestamps, durations, or remote URLs.
+
+Visualization & Analysis: Generate waveforms, scopes, and measure EBU R128 loudness levels.
+
+Chapters & Metadata: Extract, create, and manage metadata and chapter markers for media files.
+
+Filters & Overlays: Add fades, crossfades, Picture-in-Picture (PiP) effects, and Ken Burns animations.
+
+Colour Grading: Generate Hald CLUT reference frames for external grading and apply finished LUTs to video.
+
+Conversion & Extras: Create high-quality GIFs, WebP images, and handle time format conversions.
+
+Scene Detection & Cutting: Automatically identify scene changes and split videos into logical segments.
+
+*** Supported Operating Systems
+
+This project is designed to be cross-platform and work on:
+
+1) NixOS (via Home Manager)
+
+2) Linux (standard distributions like Ubuntu, Arch, etc.)
+
+3) Windows (Windows 10/11)
+
+4) macOS
+
+5) FreeBSD
+
+*** Binary Availability & Compilation
+
+Statically Compiled Binaries: Provided for NixOS, Linux, Windows, MacOS and Freebsd
+
+These are standalone executables that do not require a Rust runtime to be installed on your system.
+
+** Installation instructions
+
+Choose your operating system below for specific installation steps,
+including dependency management and environment path configuration.
+
++ [[#nixos-install][NixOS]]
++ [[#linux-install][Linux]]
++ [[#windows-install][Windows]]
++ [[#mac-install][Mac]]
++ [[#freebsd-install][Freebsd]]
+
+** List of ffmpeg scripts
+*** Trimming and Clipping
+
++ [[#trim-clip][trim-clip]]
++ [[#trim-clip-to][trim-clip-to]]
++ [[#trim-remote-clip][trim-remote-clip]]
++ [[#trim-short][trim-short]]
++ [[#clip-time][clip-time]]
++ [[#scene-cut-to][scene-cut-to]]
++ [[#combine-clips][combine-clips]]
+
+*** Visualization and Analysis
+
++ [[#waveform][waveform]]
++ [[#scopes][scopes]]
++ [[#ebu-meter][ebu-meter]]
++ [[#contact-sheet][contact-sheet]]
+
+*** Chapters and Metadata
+
++ [[#chapter-csv][chapter-csv]]
++ [[#chapter-add][chapter-add]]
++ [[#chapter-extract][chapter-extract]]
++ [[#subtitle-add][subtitle-add]]
+
+*** Filters and Overlays
+
++ [[#overlay-clip][overlay-clip]]
++ [[#overlay-pip][overlay-pip]]
++ [[#fade-clip][fade-clip]]
++ [[#xfade-clips][xfade-clips]]
++ [[#pan-scan][pan-scan]]
++ [[#zoompan][zoompan]]
+
+*** Colour Grading
+
++ [[#lut-create][lut-create]]
++ [[#lut-apply][lut-apply]]
+
+*** Conversion and Extras
+
++ [[#audio-silence][audio-silence]]
++ [[#blur-fill][blur-fill]]
++ [[#concat][concat]]
++ [[#delogo][delogo]]
++ [[#extract-frame][extract-frame]]
++ [[#hstack][hstack]]
++ [[#img2video][img2video]]
++ [[#normalize][normalize]]
++ [[#sexagesimal-time][sexagesimal-time]]
++ [[#vid2gif][vid2gif]]
++ [[#webp][webp]]
+
+*** Scene Detection
+
++ [[#scene-detect-auto][scene-detect-auto]]
++ [[#scene-detect][scene-detect]]
++ [[#scene-cut][scene-cut]]
++ [[#scene-time][scene-time]]
++ [[#scene-images][scene-images]]
+
+** Scripts install
+*** NixOS install
+:PROPERTIES:
+:CUSTOM_ID: nixos-install
+:END:
+
+🎥 [[https://youtu.be/UMEr7ry_25g][NixOS FFmpeg Rust Scripts install]]
+
+**** Install Dependencies
+
+Install dependencies with home-manager by adding the following packages.
+
+[[https://github.com/nix-community/home-manager]]
+
+#+begin_example
+ffmpeg-full
+yt-dlp
+deno
+fd
+#+end_example
+
+**** Environment Path Setup
+***** create bin directory
+
+Create a bin directory in your home folder to store the scripts.
+
+#+BEGIN_SRC sh
+mkdir -p ~/bin
+#+END_SRC
+
+***** zsh shell
+
+#+begin_example
+~/.zshenv
+#+end_example
+
+If you are using zsh add the following code to your ~/.zshenv file
+
+This sets up the PATH for the rust scripts and configures the ffplay video driver.
+
+#+begin_src sh
+typeset -U PATH path
+path=("$HOME/bin" "$path[@]")
+export PATH
+#+end_src
+
+To ensure ffplay renders correctly on NixOS,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use either 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.zshenv if you are using the zsh shell
+
+#+BEGIN_SRC sh
+source ~/.zshenv
+#+END_SRC
+
+***** bash shell
+
+#+begin_example
+~/.bashrc
+#+end_example
+
+If you are using bash add the following code to your ~/.bashrc
+
+This sets up the PATH for the rust scripts and configures the ffplay video driver.
+
+#+BEGIN_SRC sh
+if [ -d "$HOME/bin" ]; then
+   PATH="$HOME/bin:$PATH"
+fi
+#+END_SRC
+
+To ensure ffplay renders correctly on NixOS,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use either 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.bashrc if you are using the bash shell
+
+#+BEGIN_SRC sh
+source ~/.bashrc
+#+END_SRC
+
+**** Release download
+
+Download the latest NixOS release archive and sha256sum check sum
+and then follow these steps to install the binaries.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases]]
+
+***** check the sha256sum check sum
+
+Open your terminal and run the following command:
+
+#+begin_src sh
+sha256sum -c nixos-ffmpeg-rust-scripts-v4.tar.gz.sha256
+#+end_src
+
+#+begin_example
+Expected Output: nixos-ffmpeg-rust-scripts-v4.tar.gz: OK
+#+end_example
+
+***** Extract the archive
+
+Note: Replace v4 with the actual version number you downloaded.
+
+#+begin_src sh
+tar -xf nixos-ffmpeg-rust-scripts-v4.tar.gz
+#+end_src
+
+***** Deploy the scripts
+
+Move the extracted binaries into your local ~/bin directory.
+
+#+begin_src sh
+mv nixos-ffmpeg-rust-scripts-v4/* ~/bin/
+#+end_src
+
+*** Linux install
+:PROPERTIES:
+:CUSTOM_ID: linux-install
+:END:
+
+🎥 [[https://youtu.be/eKsOq0pwBgQ][Linux FFmpeg Rust Scripts install]]
+
+**** ffmpeg install
+
+Install ffmpeg on debian or ubuntu,
+for other linux distros see the documentation for your package manager
+
+#+BEGIN_SRC sh
+sudo apt install ffmpeg
+#+END_SRC
+
+**** fd install
+
+Install fd for batch processing
+
+#+begin_src sh
+sudo apt install fd-find
+#+end_src
+
+Note: On Debian and Ubuntu
+
+In the batch processing examples provided in this README, you will need to replace fd with fdfind
+
+**** yt-dlp install
+
+yt-dlp needed for trim-remote-clip
+
+***** download yt-dlp
+
+#+begin_src sh
+curl 'https://github.com/yt-dlp/yt-dlp/releases/download/2025.12.08/yt-dlp' -o ~/bin/yt-dlp 
+#+end_src
+
+***** make yt-dlp executable
+
+#+begin_src sh
+chmod +x ~/bin/yt-dlp 
+#+end_src
+
+yt-dlp upgrade
+
+#+begin_src sh
+yt-dlp -U
+#+end_src
+
+***** install deno
+
+#+begin_src sh
+curl -fsSL https://deno.land/install.sh | sh 
+#+end_src
+
+upgrade deno
+
+#+begin_src sh
+deno upgrade
+#+end_src
+
+**** Environment Path Setup
+***** create bin directory
+
+Create a bin directory in your home folder to store the scripts.
+
+#+BEGIN_SRC sh
+mkdir -p ~/bin
+#+END_SRC
+
+***** zsh shell
+
+#+begin_example
+~/.zshenv
+#+end_example
+
+If you are using zsh add the following code to your ~/.zshenv file
+
+This sets up the PATH for the rust scripts, yt-dlp, and deno, and configures the ffplay video driver.
+
+#+begin_src sh
+typeset -U PATH path
+path=("$HOME/bin" "${HOME}/.deno/bin" "$path[@]")
+export PATH
+#+end_src
+
+To ensure ffplay renders correctly on Linux,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use either 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.zshenv if you are using the zsh shell
+
+#+BEGIN_SRC sh
+source ~/.zshenv
+#+END_SRC
+
+***** bash shell
+
+#+begin_example
+~/.bashrc
+#+end_example
+
+If you are using bash add the following code to your ~/.bashrc
+
+This sets up the PATH for the rust scripts, yt-dlp, and deno, and configures the ffplay video driver.
+
+#+BEGIN_SRC sh
+if [ -d "$HOME/bin" ]; then
+   PATH="$HOME/bin:$HOME/.deno/bin:$PATH"
+fi
+#+END_SRC
+
+To ensure ffplay renders correctly on Linux,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use either 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.bashrc if you are using the bash shell
+
+#+BEGIN_SRC sh
+source ~/.bashrc
+#+END_SRC
+
+**** Release download
+
+Download the latest Linux release archive and sha256sum check sum
+and then follow these steps to install the binaries.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases]]
+
+***** check the sha256sum check sum
+
+Open your terminal and run the following command:
+
+#+begin_src sh
+sha256sum -c linux-ffmpeg-rust-scripts-v4.tar.gz.sha256
+#+end_src
+
+#+begin_example
+Expected Output: linux-ffmpeg-rust-scripts-v4.tar.gz: OK
+#+end_example
+
+***** Extract the archive
+
+Note: Replace v4 with the actual version number you downloaded.
+
+#+begin_src sh
+tar -xf linux-ffmpeg-rust-scripts-v4.tar.gz
+#+end_src
+
+***** Deploy the scripts
+
+Move the extracted binaries into your local ~/bin directory.
+
+#+begin_src sh
+mv linux-ffmpeg-rust-scripts-v4/* ~/bin/
+#+end_src
+
+*** Windows install
+:PROPERTIES:
+:CUSTOM_ID: windows-install
+:END:
+
+🎥 [[https://youtu.be/IijyjDRylyk][Windows FFmpeg Rust Scripts install]]
+
+This section covers how to install the necessary dependencies and the Rust scripts on Windows.
+
+We recommend using the Chocolatey package manager to install ffmpeg, yt-dlp, and deno quickly.
+However, you can also install these tools manually from their respective websites if you prefer.
+
+**** Chocolatey
+
+[[https://chocolatey.org/]]
+
+The first step is to open PowerShell on your Windows 11 computer, and that too with administrator privileges.
+Opening PowerShell with administrator privileges is important, as you will be unable to install Chocolatey without that.
+
+Now type in the following command to know the execution policy status of PowerShell.
+
+#+begin_example
+Get-ExecutionPolicy
+#+end_example
+
+If it says ‘Restricted’,
+type in the following command as shown below, all on the PowerShell with administrator privileges.
+
+#+begin_example
+Set-ExecutionPolicy AllSigned
+#+end_example
+
+You will have to type ‘Y’ and hit the enter key when you will be asked for a confirmation.
+
+Now run the following command:
+
+#+begin_example
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+#+end_example
+
+**** Install Dependencies
+
+Install dependencies with Chocolatey.
+
+#+begin_src sh
+choco install ffmpeg yt-dlp deno fd
+#+end_src
+
+**** upgrade packages
+
+upgrade Chocolatey
+
+open powershell as an administrator
+
+#+begin_src sh
+choco upgrade chocolatey
+#+end_src
+
+upgrade packages
+
+#+begin_src sh
+choco upgrade all
+#+end_src
+
+**** Environment Path Setup
+
+You need to put the .exe files in a place where Windows can find them.
+
+We recommend creating a bin folder in your User directory.
+
+***** Automatic Setup (Recommended)
+
+This is the easiest method and should be performed as a regular user (you do not need Administrator privileges).
+
+Open PowerShell and paste the following code.
+
+It will create the C:\Users\YourName\bin folder and automatically add it to your Path.
+
+#+begin_src sh
+$binDir = "$HOME\bin"; if (!(Test-Path $binDir)) { New-Item -ItemType Directory -Path $binDir }; $oldPath = [Environment]::GetEnvironmentVariable("Path", "User"); if ($oldPath -notlike "$binDir") { $newPath = "$oldPath;$binDir".Replace(";;", ";"); [Environment]::SetEnvironmentVariable("Path", $newPath, "User"); $env:Path = [Environment]::GetEnvironmentVariable("Path", "User") + ";" + [Environment]::GetEnvironmentVariable("Path", "Machine"); Write-Host "Success! Folder created and Path updated." } else { Write-Host "Path already exists." }
+#+end_src
+
+After running the command, restart PowerShell for the changes to take effect.
+
+***** Manual Setup
+
+If you prefer to manage your folders manually, follow these steps:
+
+1) Create a folder named bin in your User directory (e.g., C:\Users\YourName\bin).
+
+2) Open the Start Menu, search for Edit the system environment variables, and open it.
+
+3) Click Environment Variables.
+
+4) Under User variables, select Path and click Edit.
+
+5) Click New and paste the full path to your bin folder.
+
+6) Click OK on all windows to save.
+
+***** Add Windows Defender Exclusion
+
+Because these scripts are unsigned and perform system-level tasks (like calling FFmpeg), Windows Defender may flag them as a False Positive threat.
+
+To prevent the scripts from being quarantined or deleted, add your bin folder as an exclusion.
+
+1) Open the Start Menu and type Windows Security, then press Enter.
+2) Go to Virus and threat protection.
+3) Under Virus and threat protection settings, click Manage settings.
+4) Scroll down to Exclusions and click Add or remove exclusions.
+5) Click Add an exclusion and select Folder.
+6) Browse to and select the bin folder you created for these scripts.
+
+This tells Windows Defender to trust all binaries within that specific directory.
+
+**** Release Download
+
+Download the latest Windows release archive and sha256sum check sum
+and then follow these steps to install the binaries.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases]]
+
+***** check the sha256sum check sum
+
+Open PowerShell and run the following commands to compare the hash:
+
+1. View the expected hash
+
+#+begin_src sh
+cat .\windows-ffmpeg-rust-scripts-v4.zip.sha256
+#+end_src
+
+2. Calculate the actual hash
+
+#+begin_src sh
+Get-FileHash .\windows-ffmpeg-rust-scripts-v4.zip -Algorithm SHA256
+#+end_src
+
+Note: Ensure the strings match.
+
+Alternatively, if you have Git Bash installed on Windows, you can use the
+
+#+begin_src sh
+sha256sum -c windows-ffmpeg-rust-scripts-v4.zip.sha256
+#+end_src
+
+***** Unblock the Zip File
+
+Before extracting the scripts, you must unblock the downloaded file.
+
+Windows often restricts files downloaded from the internet, which can cause the scripts to fail or be deleted immediately upon extraction.
+
+Note: In the steps below, replace "v4" with the specific version number of the release you downloaded (e.g., v0.3.0).
+
+1) Right-click the downloaded windows-ffmpeg-rust-scripts-v4.zip.
+2) Select Properties.
+3) At the bottom of the General tab, look for the Security section.
+4) Check the box labeled Unblock.
+5) Click Apply and then OK.
+
+***** Extract and Install
+
+Use the Windows File Manager (Explorer) to extract the zip file to ensure all permissions are handled correctly.
+
+1) Right-click the windows-ffmpeg-rust-scripts-v4.zip file and select Extract All.
+2) Follow the prompts to finish the extraction.
+3) Move all the .exe files from the extracted folder into the bin directory you created in the previous step.
+
+***** Verify Installation
+
+Open a new PowerShell window and run the version command for one of the scripts to verify it is working:
+
+#+begin_src sh
+extract-frame -v
+#+end_src
+
+*** Mac install
+:PROPERTIES:
+:CUSTOM_ID: mac-install
+:END:
+
+🎥 [[https://youtu.be/aUB5gYBu7cA][Mac FFmpeg Rust Scripts install]]
+
+Note: Binaries for MacOS are now available.
+
+**** homebrew install
+
+[[https://brew.sh/]]
+
+Install the Homebrew package manager.
+Run the following command in the terminal to install homebrew.
+
+#+begin_src sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#+end_src
+
+Note: When the installer finishes, look for the "Next steps" section in your terminal.
+You must run the commands provided there to add Homebrew to your system PATH.
+
+- Run these commands in your terminal to add Homebrew to your PATH:
+
+#+begin_src sh
+echo >> /Users/${USER}/.zprofile
+#+end_src
+
+#+begin_src sh
+echo 'eval "$(/usr/local/bin/brew shellenv zsh)"' >> /Users/${USER}/.zprofile
+#+end_src
+
+#+begin_src sh
+eval "$(/usr/local/bin/brew shellenv zsh)"
+#+end_src
+
+**** Install Dependencies
+
+Install dependencies with homebrew,
+by running the following command in the terminal.
+
+#+begin_src sh
+brew install ffmpeg yt-dlp deno fd
+#+end_src
+
+**** Environment Path Setup
+***** create bin directory
+
+Create a bin directory in your home folder to store the scripts.
+
+#+BEGIN_SRC sh
+mkdir -p ~/bin
+#+END_SRC
+
+***** zsh shell
+
+edit your ~/.zshenv file
+
+#+begin_src sh
+vi ~/.zshenv
+#+end_src
+
+Add the following code to your ~/.zshenv file.
+This is the default shell for macOS.
+
+This sets up the PATH for the rust scripts.
+
+#+begin_src sh
+typeset -U PATH path
+path=("$HOME/bin" "$path[@]")
+export PATH
+#+end_src
+
+Source the configuration to apply changes.
+
+#+BEGIN_SRC sh
+source ~/.zshenv
+#+END_SRC
+
+***** bash shell
+
+#+begin_example
+~/.bashrc
+#+end_example
+
+If you are using bash add the following code to your ~/.bashrc
+
+This sets up the PATH for the rust scripts.
+
+#+BEGIN_SRC sh
+if [ -d "$HOME/bin" ]; then
+   PATH="$HOME/bin:$PATH"
+fi
+#+END_SRC
+
+Source your ~/.bashrc if you are using the bash shell
+
+#+BEGIN_SRC sh
+source ~/.bashrc
+#+END_SRC
+
+**** Release download
+
+Download the latest Mac release archive and sha256sum check sum
+and then follow these steps to install the binaries.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases]]
+
+***** check the sha256sum check sum
+
+Open your terminal and run the following command:
+
+#+begin_src sh
+shasum -a 256 -c mac-ffmpeg-rust-scripts-v4.zip.sha256
+#+end_src
+
+#+begin_example
+Expected Output: mac-ffmpeg-rust-scripts-v4.zip: OK
+#+end_example
+
+***** Extract the archive
+
+Note: Replace v4 with the actual version number you downloaded.
+
+#+begin_src sh
+unzip mac-ffmpeg-rust-scripts-v4.zip
+#+end_src
+
+***** Deploy the scripts
+
+Move the extracted binaries into your local ~/bin directory.
+
+#+begin_src sh
+mv mac-ffmpeg-rust-scripts-v4/* ~/bin/
+#+end_src
+
+If you have issues running the scripts
+
+Because these binaries are not signed with an Apple Developer ID, macOS may place them in "Quarantine" upon download.
+
+This results in an error stating the developer cannot be verified.
+
+To authorize the entire fleet of scripts at once,
+run the following command to remove the quarantine flag from your bin directory:
+
+#+begin_src sh
+xattr -rd com.apple.quarantine ~/bin/
+#+end_src
+
+**** Xcode install
+
+Note: you only need to install xcode and rust if you want to build the scripts.
+
+You can now just download the release.
+
+Install the Xcode Command Line Tools to provide the necessary compilers,
+by running the following command in the terminal.
+
+#+begin_src sh
+xcode-select --install
+#+end_src
+
+**** Rust install
+
+Install the Rust toolchain using rustup.
+
+#+begin_src sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#+end_src
+
+**** Compile and Install
+
+If you want to compile the scripts on MacOS instead of downloading the binaries,
+follow these steps to build the binaries and move them to your bin folder.
+
+***** Clone the git repository
+
+Create a directory to store the git repository in your home directory.
+
+#+begin_src sh
+mkdir -p ~/git 
+#+end_src
+
+Change into the git directory in your home.
+
+#+begin_src sh
+cd ~/git
+#+end_src
+
+Run the following command in the terminal to clone the ffmpeg-rust-scripts git repository.
+
+#+begin_src sh
+git clone https://github.com/NapoleonWils0n/ffmpeg-rust-scripts
+#+end_src
+
+***** Build the project using Cargo.
+
+Change directory into the ffmpeg-rust-scripts git repository.
+
+#+begin_src sh
+cd ffmpeg-rust-scripts
+#+end_src
+
+Build the project with Cargo.
+
+#+begin_src sh
+cargo build --release
+#+end_src
+
+When you run cargo build --release,
+Rust places the binaries in target/release/
+
+Use fd to copy the scripts to the bin directory in your home.
+
+#+begin_src sh
+fd . target/release --max-depth 1 --type executable --exec cp {} ~/bin/
+#+end_src
+
+remove the the ffmpeg_rust_scripts file which isnt needed
+
+#+begin_src sh
+rm -i ~/bin/ffmpeg_rust_scripts
+#+end_src
+
+*** Freebsd install
+:PROPERTIES:
+:CUSTOM_ID: freebsd-install
+:END:
+
+🎥 [[https://youtu.be/XzXIkNb9H8I][Freebsd FFmpeg Rust Scripts install]]
+
+Note: Binaries for Freebsd are now available.
+
+**** Install Dependencies
+
+Install dependencies with pkg.
+
+#+BEGIN_SRC sh
+sudo pkg install ffmpeg yt-dlp deno fd-find
+#+END_SRC
+
+You can also install ffmpeg from ports,
+or use poudriere to build the ffmpeg package
+
+Note the ebumeter script uses ffplay which isnt installed with the ffmpeg package,
+so you need to build ffmpeg with the sdl option enable from ports or with poudriere
+
+If you want to use the libfdk_aac audio you should also enable that option when building
+the ffmpeg port, and build the lame package for mp3 support
+
+**** Environment Path Setup
+***** create bin directory
+
+Create a bin directory in your home folder to store the scripts.
+
+#+BEGIN_SRC sh
+mkdir -p ~/bin
+#+END_SRC
+
+***** sh shell
+
+#+begin_src sh
+vi ~/.profile
+#+end_src
+
+For the default shell (sh or tcsh) shell on Freebsd,
+edit your shell ~/.profile
+
+add this code to your ~/.profile file.
+
+#+begin_src sh
+if [ -d "$HOME/bin" ]; then
+    PATH="$HOME/bin:$PATH"
+fi
+#+end_src
+
+Set ffplay driver: use either 'wayland' or 'x11'
+
+Note for the sh shell you need to use export
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Note for the tcsh shell you need to use setenv
+
++ wayland
+
+#+begin_src sh
+setenv SDL_VIDEODRIVER wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+setenv SDL_VIDEODRIVER x11
+#+end_src
+
+Reload your ~/.profile
+
+#+BEGIN_SRC sh
+. ~/.profile
+#+END_SRC
+
+***** zsh shell
+
+#+begin_src sh
+vi ~/.zshenv
+#+end_src
+
+If you are using zsh add the following code to your ~/.zshenv file
+
+This sets up the PATH for the rust scripts.
+
+#+begin_src sh
+typeset -U PATH path
+path=("$HOME/bin" "$path[@]")
+export PATH
+#+end_src
+
+To ensure ffplay renders correctly on Freebsd,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.zshenv if you are using the zsh shell
+
+#+BEGIN_SRC sh
+source ~/.zshenv
+#+END_SRC
+
+***** bash shell
+
+#+begin_src sh
+vi ~/.bashrc
+#+end_src
+
+If you are using bash add the following code to your ~/.bashrc
+
+This sets up the PATH for the rust scripts.
+
+#+BEGIN_SRC sh
+if [ -d "$HOME/bin" ]; then
+   PATH="$HOME/bin:$PATH"
+fi
+#+END_SRC
+
+To ensure ffplay renders correctly on Freebsd,
+you must export the correct SDL_VIDEODRIVER for your display server (Wayland or X11).
+
+Set ffplay driver: use 'wayland' or 'x11'
+
++ wayland
+
+#+begin_src sh
+export SDL_VIDEODRIVER=wayland
+#+end_src
+
++ X11
+
+#+begin_src sh
+export SDL_VIDEODRIVER=x11
+#+end_src
+
+Source your ~/.bashrc if you are using the bash shell
+
+#+BEGIN_SRC sh
+source ~/.bashrc
+#+END_SRC
+
+**** Release download
+
+Download the latest Freebsd release archive and sha256sum check sum
+and then follow these steps to install the binaries.
+
+[[https://github.com/NapoleonWils0n/ffmpeg-rust-scripts/releases]]
+
+***** check the sha256sum check sum
+
+Open your terminal and run the following command:
+
+#+begin_src sh
+sha256sum -c freebsd-ffmpeg-rust-scripts-v4.tar.gz.sha256
+#+end_src
+
+#+begin_example
+Expected Output: freebsd-ffmpeg-rust-scripts-v4.tar.gz: OK
+#+end_example
+
+***** Extract the archive
+
+Note: Replace v4 with the actual version number you downloaded.
+
+#+begin_src sh
+tar -xf freebsd-ffmpeg-rust-scripts-v4.tar.gz
+#+end_src
+
+***** Deploy the scripts
+
+Move the extracted binaries into your local ~/bin directory.
+
+#+begin_src sh
+mv freebsd-ffmpeg-rust-scripts-v4/* ~/bin/
+#+end_src
+
+**** Rust install
+
+If you want to compile the scripts on Freebsd instead of downloading the binaries,
+follow these steps to build the binaries and move them to your bin folder.
+
+Install the required tools and the Rust toolchain using the pkg manager.
+Run the following command in the terminal to install Rust.
+
+#+begin_src sh
+sudo pkg install rust git
+#+end_src
+
+**** Compile and Install
+
+Since Freebsd requires manual compilation,
+follow these steps to build the binaries and move them to your bin folder.
+
+***** Clone the git repository
+
+Create a directory to store the git repository in your home directory.
+
+#+begin_src sh
+mkdir -p ~/git 
+#+end_src
+
+Change into the git directory in your home.
+
+#+begin_src sh
+cd ~/git
+#+end_src
+
+Run the following command in the terminal to clone the ffmpeg-scripts-rust git repository.
+
+#+begin_src sh
+git clone https://github.com/NapoleonWils0n/ffmpeg-rust-scripts
+#+end_src
+
+***** Build the project using Cargo.
+
+Change directory into the ffmpeg-rust-scripts git repository.
+
+#+begin_src sh
+cd ffmpeg-rust-scripts
+#+end_src
+
+Build the project with Cargo.
+
+#+begin_src sh
+cargo build --release
+#+end_src
+
+When you run cargo build --release,
+Rust places the binaries in target/release/
+
+Use fd to copy the scripts to the bin directory in your home.
+
+#+begin_src sh
+fd . target/release --max-depth 1 --type executable --exec cp {} ~/bin/
+#+end_src
+
+remove the the ffmpeg_rust_scripts file which isnt needed
+
+#+begin_src sh
+rm -i ~/bin/ffmpeg_rust_scripts
+#+end_src
+
+** ffmpeg scripts
+*** Trimming and Clipping
+**** trim-clip
+:PROPERTIES:
+:CUSTOM_ID: trim-clip
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=280][trim-clip]]
+
+The trim-clip script allows for precise trimming of video or audio files with millisecond accuracy.
+It uses [[https://trac.ffmpeg.org/wiki/Seeking][FFmpeg Input Seeking]] to ensure the extraction is both fast and frame-accurate.
+
+You can use two different time unit formats:
+
+1) Sexagesimal: (HOURS:MM:SS.MILLISECONDS, e.g., 01:23:45.678)
+
+2) Seconds: (e.g., 150.5)
+
+Note: 02:30.5 is interpreted as 2 minutes, 30 seconds, and a half-second
+
+***** Run the script
+
+Provide the start time -s, the input file -i, and the end time -t.
+
+Note: The end time -t is the number of seconds (duration) after the start time.
+
+#+begin_src sh
+trim-clip -s 00:00:30 -i input.mp4 -t 00:00:30 -o clip.mp4
+#+end_src
+
+This example creates a 30-second clip starting at the 30-second mark and ending at 60 seconds.
+If you omit the output -o option, the script will automatically name the file: input-name-[start-end].mp4
+
+***** trim-clip batch process
+
+Batch process files in the current working directory using fd.
+  
+Note we omit the -o option to use the default outfile name: infile-name-[start-end].ext
+
+The script supports many file types (mp4, mkv, mov, webm, wav, mp3, m4a, ogg).
+To batch process, specify the extension you want to search for using the -e flag.
+
+Batch trim the first 30 seconds of all mp4 files in the current directory:
+
+#+begin_src sh
+fd -e mp4 -x trim-clip -s 00:00:00 -i {} -t 00:00:30
+#+end_src
+
+Batch trim the first 30 seconds of all mkv files in the current directory:
+
+#+begin_src sh
+fd -e mkv -x trim-clip -s 00:00:00 -i {} -t 00:00:30
+#+end_src
+
+Batch trim the first 30 seconds of all mp3 files in the current directory:
+
+#+begin_src sh
+fd -e mp3 -x trim-clip -s 00:00:00 -i {} -t 00:00:30
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+trim-clip -s 00:00:00.000 -i input -t 00:00:00.000 -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+trim-clip -h
+#+end_src
+
+Help output.
+
+#+begin_example
+trim video or audio clips with millisecond accuracy
+https://trac.ffmpeg.org/wiki/Seeking
+
+Usage: trim-clip [OPTIONS] -s <START> -i <INFILE> -t <DURATION>
+
+Options:
+  -s <START>     start time
+  -i <INFILE>    input file
+  -t <DURATION>  number of seconds after start time
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  trim-clip -s 00:00:30 -i input -t 00:00:30 -o output
+
+  This will create a 30 second clip starting at 30 seconds and ending at 60 seconds.
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+
+Notes:
+  If -o is not provided, defaults to: input-name-[start-end].ext
+#+end_example
+
+**** trim-clip-to
+:PROPERTIES:
+:CUSTOM_ID: trim-clip-to
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=555][trim-clip-to]]
+
+The trim-clip-to script allows for precise trimming of video or audio files with millisecond accuracy.
+It uses [[https://trac.ffmpeg.org/wiki/Seeking][FFmpeg Input Seeking]] to ensure the extraction is both fast and frame-accurate.
+
+You can use two different time unit formats:
+
+1) Sexagesimal: (HOURS:MM:SS.MILLISECONDS, e.g., 01:23:45.678)
+
+2) Seconds: (e.g., 150.5)
+
+Note: 02:30.5 is interpreted as 2 minutes, 30 seconds, and a half-second
+
+***** Run the script
+
+Provide the start time -s, the input file -i, and the End Timestamp -t.
+
+Note:
+Unlike trim-clip, the -t option here is the exact point on the timeline where you want the clip to stop.
+
+#+begin_src sh
+trim-clip-to -s 00:00:30 -i input.mp4 -t 00:01:30 -o clip.mp4
+#+end_src
+
+This example creates a 1-minute clip starting at the 30-second mark and ending exactly at 1 minute and 30 seconds.
+If you omit the output -o option, the script will automatically name the file: input-name-[start-end].mp4
+
+***** trim-clip-to batch process
+
+Batch process files in the current working directory using fd.
+  
+Note we omit the -o option to use the default outfile name: infile-name-[start-end].ext
+
+The script supports many file types (mp4, mkv, mov, webm, wav, mp3, m4a, ogg).
+To batch process, specify the extension you want to search for using the -e flag.
+
+Batch trim from 30 seconds to 1 minute 30 all mp4 files in the current directory:
+
+#+begin_src sh
+fd -e mp4 -x trim-clip-to -s 00:00:30 -i {} -t 00:01:30
+#+end_src
+
+Batch trim from 30 seconds to 1 minute 30 all mkv files in the current directory:
+
+#+begin_src sh
+fd -e mkv -x trim-clip-to -s 00:00:30 -i {} -t 00:01:30
+#+end_src
+
+Batch trim from 30 seconds to 1 minute 30 all mp3 files in the current directory:
+
+#+begin_src sh
+fd -e mp3 -x trim-clip-to -s 00:00:30 -i {} -t 00:01:30
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+trim-clip-to -s 00:00:00.000 -i input -t 00:00:00.000 -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+trim-clip-to -h
+#+end_src
+
+Help output.
+
+#+begin_example
+trim video or audio clips using start and end timestamps
+
+Usage: trim-clip-to [OPTIONS] -s <START> -i <INFILE> -t <END>
+
+Options:
+  -s <START>     start time
+  -i <INFILE>    input file
+  -t <END>       end time
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  trim-clip-to -s 00:00:45 -i input.mkv -t 00:01:30
+
+  This creates a 45s clip starting at 45s and ending at 1m 30s.
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** trim-remote-clip
+:PROPERTIES:
+:CUSTOM_ID: trim-remote-clip
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=734][trim-remote-clip]]
+
+The trim-remote-clip script allows you to download and trim a specific segment of an online video without downloading the entire file. It leverages yt-dlp to fetch the stream and FFmpeg to extract the clip with millisecond accuracy.
+
+You can use two different time unit formats:
+
+1) Sexagesimal: (HOURS:MM:SS.MILLISECONDS, e.g., 01:23:45.678)
+
+2) Seconds: (e.g., 150.5)
+
+Note: 02:30.5 is interpreted as 2 minutes, 30 seconds, and a half-second
+
+To change the quality of the downloaded clip,
+you should specify your preferred format options in your yt-dlp configuration file.
+
+***** Run the script
+
+Provide the start time -s, the url -i, and the end time -t.
+
+#+begin_src sh
+trim-remote-clip -s 00:00:30 -i url -t 00:01:30 -o clip.mp4
+#+end_src
+
+This example creates a 1 minute clip starting at the 30-second mark and ending at 1 minute 30 seconds.
+If you omit the output -o option, the script will automatically name the file: Title-[start-end].mp4
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+trim-remote-clip -s 00:00:00.000 -i url -t 00:00:00.000 -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+trim-remote-clip -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Trim remote video clips with millisecond accuracy
+
+Usage: trim-remote-clip [OPTIONS] -s <START> -t <END> -i <INPUT>
+
+Options:
+  -s <START>     Start time (HH:MM:SS.mmm)
+  -t <END>       End time (HH:MM:SS.mmm)
+  -i <INPUT>     Input URL (YouTube, Vimeo, etc.)
+  -o <OUTFILE>   Output filename (optional, defaults to Title-[start-end].mp4)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  trim-remote-clip -s 00:01:00 -t 00:01:30 -i 'URL' -o clip.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+  yt-dlp: https://github.com/yt-dlp/yt-dlp
+  deno: https://deno.com/
+#+end_example
+
+**** trim-short
+:PROPERTIES:
+:CUSTOM_ID: trim-short
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=941][trim-short]]
+
+The trim-short script creates vertical 9:16 clips from horizontal video sources.
+It automatically crops and scales the footage to 1080x1920 resolution, making it ready for YouTube Shorts or TikTok
+
+You can use two different time unit formats:
+
+1) Sexagesimal: (HOURS:MM:SS.MILLISECONDS, e.g., 01:23:45.678)
+
+2) Seconds: (e.g., 150.5)
+
+Note: 02:30.5 is interpreted as 2 minutes, 30 seconds, and a half-second
+
+Note: If no end time -t is provided, the script defaults to a 60-second duration.
+
+***** 1) The X-Position -x
+
+Since you are cropping a horizontal video into a vertical one,
+you can specify which part of the frame to keep using the -x option (percentage).
+
+#+begin_example
+0: Left side of the frame.
+
+25: Between the left and the center.
+
+50: Center (Default).
+
+75: Between the center and the right.
+
+100: Right side of the frame.
+#+end_example
+
+***** 2) Run the script
+
+Provide the input file -i, start time -s, and optional end time -t
+
+Default length of 60 seconds and centered in the middle of the video.
+
+#+begin_src sh
+trim-short -i input.mp4 -s 00:00:10
+#+end_src
+
+30 second clip using the -t option and centered in the middle of the video.
+
+#+begin_src sh
+trim-short -i input.mp4 -s 00:00:10 -t 00:00:40
+#+end_src
+
+30 second clip using the -t option and the -x option set to 75 for 3/4 poisition in the video.
+
+#+begin_src sh
+trim-short -i input.mp4 -s 00:00:10 -t 00:00:40 -x 75
+#+end_src
+
+***** trim-short batch process
+
+The script supports many file types (mp4, mkv, mov, webm).
+To batch process, specify the extension you want to search for using the -e flag with fd.
+
+Batch create 60-second shorts from the start of all .mp4 files (Centered):
+
+#+begin_src sh
+fd -e mp4 -x trim-short -i {} -s 00:00:00
+#+end_src
+  
+Batch create shorts from all .mkv files starting at 30s, cropped to the left (25%):
+
+#+begin_src sh
+fd -e mkv -x trim-short -i {} -s 00:00:30 -x 25
+#+end_src
+
+Batch trim from 30 seconds to 1 minute 30 all mp4 files in the current directory:
+Use the -x option for the script to specify the X position.
+
+#+begin_src sh
+fd -e mp4 -x trim-short -s 00:00:30 -i {} -t 00:01:30 -x 25
+#+end_src
+
+Note we omit the -o option to use the default outfile name: infile-name-short-[start-end].ext
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+trim-short -s 00:00:00.000 -i input -t 00:00:00.000 -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+trim-short -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Create a 9:16 vertical clip for YouTube Shorts or TikTok
+
+Usage: trim-short -i <INPUT> -s <START> [OPTIONS]
+
+Options:
+  -i <INFILE>    Input file
+  -s <START>     Start time (HH:MM:SS.mmm)
+  -t <END>       End time (optional, defaults to +60s)
+  -x <X_POS>     X-position percentage (0, 25, 50, 75, 100) [default: 50]
+  -o <OUTFILE>   Optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  trim-short -i input.mp4 -s 00:00:10 -x 75
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** clip-time
+:PROPERTIES:
+:CUSTOM_ID: clip-time
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=1411][clip-time]]
+
+The clip-time script converts a simple list of "Start" and "End" timestamps into a cutlist format (start,duration).
+This cutlist is then used by the scene-cut-to script to automate the extraction of multiple clips or images from a single video.
+
+***** 1) The Input Format
+
+The input text file should contain one timestamp per line.
+The script processes these in pairs: the first line is the start of the clip, and the second line is the end.
+
+#+begin_example
+00:00:10.000
+00:00:20.000
+00:01:30.000
+00:01:45.500
+#+end_example
+
+***** 2) Run the script
+
+Provide the input file containing your timestamps -i and the optional output filename -o.
+
+#+begin_src sh
+clip-time -i timestamps.txt -o cutlist.txt
+#+end_src
+
+If you omit the output -o option,
+the script will automatically name the file: input-name-cutlist.txt.
+
+***** 3) The Output Result
+
+The resulting file will be formatted as start,duration,
+which is the required input scene-cut-to script.
+
+example output.
+
+#+begin_example
+00:00:10.000,00:00:10.000
+00:01:30.000,00:00:15.500
+#+end_example
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+clip-time -i input -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+clip-time -h
+#+end_src
+
+Help output.
+
+#+begin_example
+convert a list of timestamps into an ffmpeg cutlist
+
+Usage: clip-time [OPTIONS] -i <INPUT>
+
+Options:
+  -i <INPUT>     input file containing timestamps
+  -o <OUTFILE>   output file for cutlist
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  clip-time -i timestamps.txt -o cutlist.txt
+
+Input format:
+  00:00:00
+  00:00:10
+  (Pairs represent start and end of a clip)
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** scene-cut-to
+:PROPERTIES:
+:CUSTOM_ID: scene-cut-to
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=1585][scene-cut-to]]
+
+The scene-cut-to script automates the process of cutting a single video into multiple individual clips.
+It reads a cutlist (created by clip-time) and uses "End-point seeking" to ensure every clip is frame-accurate.
+
+***** 1) The Cutlist Input
+
+The script requires a text file where each line defines a clip using the format: start,duration.
+
+30-second clip starting at the beginning
+30-second clip starting at the 1-minute mark
+
+#+begin_example
+00:00:00,00:00:30
+00:01:00,00:00:30
+#+end_example
+
+***** 2) Run the script
+
+Provide the input video file -i and the cutlist file -c.
+
+#+begin_src sh
+scene-cut-to -i input.mp4 -c cutlist.txt
+#+end_src
+
+The script will process every line in the cutlist and generate individual files named:
+input-name-scene-001-[start-end].mp4.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+scene-cut-to -i input -c cutfile
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-cut-to -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Split video into clips using a start,duration cutlist by calculating end-point
+
+Usage: scene-cut-to -i <INPUT> -c <CUTLIST> [OPTIONS]
+
+Options:
+  -i <INPUT>     Input video file
+  -c <CUTLIST>   Cutlist file comma-separated start,duration
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  scene-cut-to -i input.mp4 -c cutlist.txt
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+#+begin_verse
+cut file - hours, minutes, seconds
+in this example we create 2 - 30 seconds clips
+#+end_verse
+
+#+begin_verse
+a 30 second clip that starts at 00:00:00 to 00:00:30
+and another 30 second clip that starts at 00:01:00 to 00:01:30
+#+end_verse
+
+#+begin_example
+00:00:00,00:00:30
+00:01:00,00:01:30
+#+end_example
+
+**** combine-clips
+:PROPERTIES:
+:CUSTOM_ID: combine-clips
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=1663][combine-clips]]
+
+The combine-clips script merges a video file with an external audio file.
+Because it uses "stream copying" -c copy, the process is nearly instantaneous and results in zero quality loss.
+
+***** 1) Run the script
+
+Provide the input video -i and the input audio -a.
+
+#+begin_src sh
+combine-clips -i video.mp4 -a audio.m4a -o combined-video.mp4
+#+end_src
+
+If you omit the output -o option,
+the script automatically generates a name based on the video title and its duration: video-name-combined-[HH:MM:SS].mp4.
+
+***** combine-clips batch process
+
+You can batch-combine multiple pairs of files using fd.
+This is useful when you have several videos and matching audio files with the same base name.
+
+#+BEGIN_EXAMPLE
+file1.mp4
+file1.m4a
+file2.mp4
+file2.m4a
+#+END_EXAMPLE
+
+To automatically pair and combine these, run:
+
+#+begin_src sh
+fd -e mp4 -x combine-clips -i {} -a {.}.wav
+#+end_src
+
+running the following code will combine
+file1.mp4 with file1.m4a and file2.mp4 with file2.m4a
+
+Note: The {.} syntax in fd strips the extension from the video file,
+allowing the script to find the matching .wav file automatically.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+combine-clips -i input -a audio -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+combine-clips -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Combine audio and video files
+
+Usage: combine-clips -i <INPUT> -a <AUDIO> [OPTIONS]
+
+Options:
+  -i <INPUT>     Input video file (-i)
+  -a <AUDIO>     Input audio file (-a)
+  -o <OUTFILE>   Output file (optional)
+  -v, --version  Print version
+  -h, --help     Print help
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+#+end_example
+
+*** Visualization and Analysis
+**** waveform
+:PROPERTIES:
+:CUSTOM_ID: waveform
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=1823][waveform]]
+
+The waveform script generates a static image representation of the audio levels from either a video or an audio file.
+
+You can define the dimensions, colors, and image format.
+
+***** 1) Run the script
+
+Provide the input file and choose your desired color and format.
+
+#+begin_src sh
+waveform -i input.mp4 -c orange -j png -o output.png
+#+end_src
+
+If the -o option is omitted,
+the script generates a default name based on the input file: input-waveform.jpg
+
+***** waveform batch process
+
+If you have a directory of files and need to generate waveforms for all of them,
+you can use fd for high-speed batch processing.
+
+#+begin_src sh
+fd -e mp4 -x waveform -i {}
+#+end_src
+
+This command finds every MP4 file and creates a corresponding JPG waveform
+using the default white color and 1280x420 dimensions.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+waveform -i input.mp4 -o output.jpg
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+waveform -h
+#+end_src
+
+Help output.
+
+#+begin_example
+create a waveform image from a video or audio file
+
+Usage: waveform [OPTIONS] -i <INPUT>
+
+Options:
+  -i <INPUT>     input file
+  -c <COLOR>     waveform color [default: white]
+  -w <WIDTH>     output width [default: 1280]
+  -e <HEIGHT>    output height [default: 420]
+  -j <FORMAT>    image format jpg or png [default: jpg]
+  -o <OUTFILE>   output file optional
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  waveform -i input.mp4 -c orange -j jpg
+
+Colors:
+  https://ffmpeg.org/ffmpeg-utils.html#Color
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** scopes
+:PROPERTIES:
+:CUSTOM_ID: scopes
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=1931][scopes]]
+
+The scopes script is a professional analysis tool that plays a video with technical scopes stacked vertically underneath.
+
+It uses ffplay to provide a live playback window,
+and it automatically scales the scopes to match the width of your input video, ensuring a clean and consistent layout.
+
+You can launch the playback with different analysis views using the following flags:
+
+#+begin_example
+-i: Displays a Histogram parade.
+-o: Displays an RGB Overlay waveform.
+-p: Displays an RGB Parade waveform.
+-s: Displays both the RGB Overlay and Parade stacked together.
+-w: Displays a standard Luma Waveform.
+-v: Displays a Vectorscope for color and saturation analysis.
+#+end_example
+
+***** 2) Run the script
+
+To view your video with an RGB Parade, simply run:
+
+#+begin_src sh
+scopes -p input.mp4
+#+end_src
+
+Note: Because this script uses ffplay for real-time visualization,
+it does not output a file; it opens an interactive playback window.
+
+***** Script usage and help.
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scopes -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Display video with professional scopes stacked below
+
+Usage: scopes [OPTIONS] <INPUT>
+
+Arguments:
+  <INPUT>  Input file
+
+Options:
+  -i             Display Histogram
+  -o             Display RGB Overlay
+  -p             Display RGB Parade
+  -s             Display RGB Overlay and Parade
+  -w             Display Waveform
+  -v             Display Vectorscope
+  -h, --help     Print help
+  -V, --version  Print version
+
+Example:
+  scopes -w input.mp4
+
+Dependencies:
+  ffplay: https://www.ffmpeg.org/
+#+end_example
+
+**** ebu-meter
+:PROPERTIES:
+:CUSTOM_ID: ebu-meter
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2108][ebu-meter]]
+
+The ebu-meter script provides a real-time visual representation of audio loudness levels
+according to the EBU R128 standard.
+
+It is an essential tool for ensuring your audio meets broadcast or streaming loudness requirements
+by monitoring LUFS (Loudness Units relative to Full Scale).
+
+***** 1) Target Loudness
+
+You can set a specific target loudness level (in LUFS) using the -t flag.
+
+The meter will visually calibrate itself to this reference point,
+helping you identify if your audio is too quiet or exceeding your limits.
+
+***** 2) Run the script
+
+To monitor the loudness of a file using the default target of -16 LUFS (standard for most streaming platforms):
+
+#+begin_src sh
+ebu-meter -i input.mp4
+#+end_src
+
+Note: Because this script uses ffplay for real-time visualization,
+it opens an interactive playback window and does not generate an output file.
+
+***** Script usage and help.
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+ebu-meter -h
+#+end_src
+
+Help output.
+
+#+begin_example
+display EBU R128 audio loudness meter
+
+Usage: ebu-meter [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    input file
+  -t <TARGET>    audio target level [default: -16]
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  ebu-meter -i input.mp4 -t -16
+
+Dependencies:
+  ffplay: https://www.ffmpeg.org/
+#+end_example
+
+**** contact-sheet
+:PROPERTIES:
+:CUSTOM_ID: contact-sheet
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2231][contact-sheet]]
+
+The contact-sheet script generates a tiled image of thumbnails representing the entire duration of a video.
+
+It is ideal for getting a quick visual overview of a clip's content,
+allowing you to customize the grid layout, thumbnail size, and background colors.
+
+***** 1) Time Formats
+
+When using the -s (seek) option, you can specify the start time in two different formats:
+
+Sexagesimal: HOURS:MM:SS.MILLISECONDS (e.g., 00:02:30.5).
+
+Seconds: A simple numerical value (e.g., 150.5).
+
+Note: In sexagesimal format,
+fractions are interpreted as fractions of a second (e.g., .5 is half a second), not as frame counts.
+
+***** 2) Run the script
+
+Generate a high-density 8x8 contact sheet with timestamps enabled:
+
+#+begin_src sh
+contact-sheet -i input.mp4 -s 00:00:00 -w 320 -t 8x8 -x on -o output.png
+#+end_src
+
+The default start time is 00:00:05 to exclude black frame with videos that fade up from black,
+this can be overriden by using the -s option with 00:00:00
+
+If the -o option is omitted,
+the script generates a filename containing the time range: input-contact-[00:00:05–00:10:00].jpg
+
+***** 3) contact-sheet batch process
+
+To quickly generate contact sheets for every MP4 in a directory, use fd.
+This example creates a 4x4 grid with white padding for each video.
+
+#+begin_src sh
+fd -e mp4 -x contact-sheet -i {} -s 00:00:10 -w 200 -t 4x4 -p 7 -m 2 -c white
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+contact-sheet -i input -s 00:00:00 -w 320 -t 8x8 -x on -o output.png
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+contact-sheet -h
+#+end_src
+
+Help output.
+
+#+begin_example
+create an image with thumbnails from a video
+
+Usage: contact-sheet [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>
+  -s <SEEK>        [default: 00:00:05]
+  -w <WIDTH>       [default: 160]
+  -t <LAYOUT>      [default: 4x3]
+  -p <PADDING>     [default: 7]
+  -m <MARGIN>      [default: 2]
+  -c <COLOR>       [default: black]
+  -f <FONTCOLOR>   [default: white]
+  -b <BOXCOLOR>    [default: black]
+  -x <TIMESTAMPS>  [default: off]
+  -j <FORMAT>      image format (jpg or png) [default: jpg]
+  -o <OUTFILE>     Output file (optional, defaults to input-contact.ext)
+  -h, --help       Print help
+  -v, --version    Print version
+
+Example:
+  contact-sheet -i input.mp4 -s 00:00:00.000 -w 160 -t 4x3 -j png
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+
+Notes:
+  -x on enables timestamps. -j sets image format (jpg/png).
+#+end_example
+
+*** Chapters and Metadata
+**** chapter-csv
+:PROPERTIES:
+:CUSTOM_ID: chapter-csv
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2464][chapter-csv]]
+
+The chapter-csv script is Step 1 in the chapter creation workflow.
+It converts a simple list of timestamps and titles into the complex metadata format required by FFmpeg.
+
+***** 1) The CSV Input Format
+
+The input CSV file should contain a timestamp followed by a title on each line.
+The script automatically calculates the duration of each chapter by using the start time of the next line.
+
+Important:
+
+The very last line must be the total duration of the video (labeled as "End");
+this tells the script when the final chapter finishes.
+
+Example chapters.csv:
+
+#+begin_example
+00:00:00,Intro
+00:02:30,Scene 1
+00:05:00,Scene 2
+00:07:00,Scene 3
+00:10:00,End
+#+end_example
+
+In this example, Scene 3 will start at 07:00 and end at 10:00.
+The "End" label is a marker for the duration and is not created as a chapter itself.
+
+***** 2) Run the script
+
+Provide the input CSV file -i and the optional output filename -o.
+
+#+begin_src sh
+chapter-csv -i chapters.csv -o chapters-metadata.txt
+#+end_src
+
+If you omit the output -o option,
+the script defaults to naming the file: input-name-metadata.txt.
+
+***** 3) The 2-Step Workflow
+
+Managing chapters is a two-step process:
+
+Step 1: Use this script (chapter-csv) to generate a metadata text file.
+Step 2: Use the chapter-add script to mux that metadata file into your video.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+chapter-csv -i input -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+chapter-csv -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Convert a chapter CSV (Time, Title) to FFmpeg metadata format
+
+Usage: chapter-csv [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    Input CSV file
+  -o <OUTFILE>   Output metadata file (optional, defaults to input_name-metadata.txt)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  chapter-csv -i chapters.csv -o chapters-metadata.txt
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+csv file example
+
+#+begin_verse
+The last record is the duration of the video and is used as the end time for the previous chapter,
+and End isnt used as a chapter
+#+end_verse
+
+#+begin_example
+00:00:00,Intro
+00:02:30,Scene 1
+00:05:00,Scene 2
+00:07:00,Scene 3
+00:10:00,End
+#+end_example
+
+**** chapter-add
+:PROPERTIES:
+:CUSTOM_ID: chapter-add
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2585][chapter-add]]
+
+The chapter-add script is Step 2 in the chapter creation workflow.
+It takes the metadata file created by chapter-csv and "muxes" it into your video or audio file.
+
+***** 1) Fast and Lossless
+
+Because this script uses "stream copying" (-codec copy), it does not re-encode your media.
+Adding chapters is nearly instantaneous and preserves the original quality of your video and audio.
+
+***** 2) Run the script
+
+Provide the input video -i and the metadata text file -m.
+
+#+begin_src sh
+chapter-add -i input.mp4 -m metadata.txt -o output.mp4
+#+end_src
+
+If you omit the output -o option,
+the script automatically names the file: input-name-chapters.ext (using the original file extension).
+
+***** 3) Verify the results
+
+You can verify the chapters are present by playing the video in a player like mpv
+
+or by using ffprobe
+
+#+begin_src sh
+ffprobe -i output.mp4 -show_chapters
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+chapter-add -i input -m metadata.txt -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+chapter-add -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Mux FFmpeg metadata chapters into a video or audio file without re-encoding
+
+Usage: chapter-add [OPTIONS] -i <INFILE> -m <METAFILE>
+
+Options:
+  -i <INFILE>    Input video or audio file
+  -m <METAFILE>  Metadata text file (FFMPEG METADATA format)
+  -o <OUTFILE>   Output file (optional, defaults to input-chapters.ext)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  chapter-add -i input.mp4 -m metadata.txt -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** chapter-extract
+:PROPERTIES:
+:CUSTOM_ID: chapter-extract
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2707][chapter-extract]]
+
+The chapter-extract script performs the reverse of the chapter workflow:
+it pulls existing chapter markers out of a media file and saves them into the same portable CSV format used by the other tools.
+
+***** 1) The Output Format
+
+The script generates a CSV file with two columns: Time, Title.
+It automatically adds an "End" record at the bottom based on the final chapter's duration.
+
+Example output (chapters.csv):
+
+#+begin_example
+00:00:00,Intro
+00:00:10,Scene 1
+00:00:20,Scene 2
+00:00:30,Scene 3
+00:01:00,End
+#+end_example
+
+***** 2) Run the script
+
+Provide the input video -i and the optional output filename -o.
+
+#+begin_src sh
+chapter-extract -i movie.mp4 -o chapters.csv
+#+end_src
+
+If you omit the output -o option,
+the script defaults to: input-name.csv.
+
+***** 3) Use for YouTube Timestamps
+
+Since the output is already in "Time, Title" format, you can easily use this for YouTube descriptions.
+To remove the commas for a cleaner look, use the following command.
+
+#+begin_src sh
+sed 's/,/ /' chapters.csv > youtube-timestamps.txt
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+chapter-extract -i input -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+chapter-extract -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Extract chapters from a video or audio file and save as a CSV
+
+Usage: chapter-extract [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    Input video or audio file
+  -o <OUTFILE>   Output CSV file (optional, defaults to input_name.csv)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  chapter-extract -i input.mkv -o chapters.csv
+
+  This creates a CSV with: Time, Title
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+#+end_example
+
+**** subtitle-add
+:PROPERTIES:
+:CUSTOM_ID: subtitle-add
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2832][subtitle-add]]
+
+The subtitle-add script allows you to "soft-mux" external subtitle files (like .srt or .vtt)
+into your video as a proper metadata track.
+
+Unlike "hard-coding" (which burns the text into the image),
+this script adds a toggleable track that can be turned on or off in your video player.
+
+It uses stream copying, so the process is instant and does not lose any video quality.
+
+***** 1) Container Intelligence
+
+The script is smart about container formats:
+
+If muxing into MP4, it automatically uses the mov_text codec required by Apple and web players.
+
+If muxing into MKV, it preserves the original subtitle format.
+
+#+BEGIN_SRC sh
+subtitle-add -i input -s subtitle -o output.mp4
+#+END_SRC
+
+You can use the -l option to specify the language.
+
+#+begin_src sh
+subtitle-add -i input -s subtitle.srt -l eng -o output.mp4
+#+end_src
+
+***** subtitle-add batch process
+
+If you have a large library of videos and matching subtitle files,
+you can process them all at once using fd.
+
+Requirement: The video and subtitle files must have the same base name.
+
+Example structure:
+
+#+begin_example
+movie_01.mp4
+movie_01.srt
+movie_02.mp4
+movie_02.srt
+#+end_example
+
+Run the following command to batch-process every MP4 in the folder:
+
+#+begin_src sh
+fd -e mp4 -x subtitle-add -i {} -s {.}.srt
+#+end_src
+
+We omit the -o option so the script uses the default naming convention: input-subs.mp4
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+subtitle-add -i input -s subtitle -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+subtitle-add -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Add SRT/VTT subtitles to a video as a track you can toggle on and off
+
+Usage: subtitle-add [OPTIONS] -i <INFILE> -s <SUBFILE>
+
+Options:
+  -i <INFILE>    Input video file
+  -s <SUBFILE>   Subtitle file (SRT or VTT)
+  -l <LANG>      Language code (e.g., eng, ita, fra) [default: eng]
+  -o <OUTFILE>   Output file (optional, defaults to input-subs.ext)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  subtitle-add -i input.mp4 -s input.srt -l eng -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+*** Filters and Overlays
+**** overlay-clip
+:PROPERTIES:
+:CUSTOM_ID: overlay-clip
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=2988][overlay-clip]]
+
+The overlay-clip script is designed for B-roll insertion.
+
+It overlays a video clip on top of your main footage at a specific time,
+while keeping the original background audio playing.
+
+***** 1) B-Roll Logic
+
+Video: The overlay clip -b completely covers the background video -a for the duration of the overlay clip.
+
+Audio: The background clip's audio continues to play. The overlay clip's audio is ignored.
+
+Duration: Once the overlay clip ends, the background video automatically becomes visible again
+
+***** 2) Run the script
+
+Provide the background video, the B-roll overlay clip, and the start time.
+
+#+begin_src sh
+overlay-clip -a bottom-video.mp4 -b overlay.mp4 -p 00:00:15 -o output.mp4
+#+end_src
+
+The overlay duration is depends on the length of the overlay clip
+
+If you omit the -o option,
+the script generates a descriptive name: input-overlay-[00:00:15].mp4
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+overlay-clip -a bottom-video.mp4 -b overlay.mp4 -p 00:00:05
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+overlay-clip -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Overlay one video clip on top of another video clip
+
+Usage: overlay-clip -a <INPUT> -b <OVERLAY> -p <POSITION> [OPTIONS]
+
+Options:
+  -a <INPUT>     Bottom video (-a)
+  -b <OVERLAY>   Overlay video (-b)
+  -p <POSITION>  Time to start the overlay (e.g., 5 or 00:00:05)
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  overlay-clip -a bottom-video.mp4 -b overlay.mp4 -p 00:00:05
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** overlay-pip
+:PROPERTIES:
+:CUSTOM_ID: overlay-pip
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=3174][overlay-pip]]
+
+The overlay-pip script creates a professional Picture-in-Picture effect.
+
+Unlike the basic overlay, this tool automatically scales the overlay video,
+adds a customizable border, and includes smooth fade-in/fade-out transitions.
+
+***** 1) Positioning and Style
+
+The script provides granular control over where and how the PiP appears:
+
+#+begin_example
+Position -x:
+Choose the corner: tl (top-left), tr (top-right), bl (bottom-left), or br (bottom-right).
+
+Margin -m:
+The distance in pixels from the edge of the screen.
+
+Width -w:
+Scales the PiP video. Defaults to 1/4 of the background width.
+
+Border -k and -c:
+Set the thickness (4 or 0) and color (e.g., white, red, or hex codes like #2f2f2f).
+
+Fade -f:
+Automatically adds a smooth fade-in at the start and fade-out at the end of the PiP clip.
+#+end_example
+
+***** 2) Run the script
+
+#+begin_src sh
+overlay-pip -a background.mp4 -b pip.mp4 -p 00:00:30 -x tr -m 20 -w 480 -k 4 -c white -o output.mp4
+#+end_src
+
+If you omit the -o option, the script generates a name based on the inputs and the start position
+
+***** Script usage and help.
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+overlay-pip -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Create a Picture-in-Picture (PiP) overlay
+
+Usage: overlay-pip -a <INPUT> -b <PIP_VIDEO> -p <POSITION> [OPTIONS]
+
+Options:
+  -a <INPUT>     Bottom video (-a)
+  -b <OVERLAY>   Overlay video (-b)
+  -p <POSITION>  Time to start the overlay
+  -m <MARGIN>    Margin [default: 20]
+  -x <PIP_POS>   PiP position (tl, tr, bl, br) [default: tr]
+  -w <WIDTH>     Width (defaults to 1/4 of video size)
+  -f <FADE>      Fade duration [default: 0.2]
+  -k <BORDER>    Border size (4 or 0) [default: 4] [possible values: 0, 4]
+  -c <COLOR>     Border color [default: #2f2f2f]
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  overlay-pip -a background.mp4 -b pip.mp4 -p 00:00:05 -x br -m 30 -k 4 -c white
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** fade-clip
+:PROPERTIES:
+:CUSTOM_ID: fade-clip
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=3356][fade-clip]]
+
+The fade-clip script applies a fade-in transition to both the video and audio of a clip simultaneously.
+
+This is ideal for smoothing out the beginning of a video or audio track,
+preventing abrupt starts by gradually increasing the opacity and volume from zero over a specified duration.
+
+***** 1) Fade Logic
+
+The script performs two actions at once:
+
+Video: Fades from black to full visibility.
+
+Audio: Fades from silence to full volume.
+
+***** fade-clip batch process
+
+If you have a directory of clips that all need the same fade-in applied, you can batch process them using fd.
+
+#+begin_src sh
+fd -e mp4 -x fade-clip -i {} -d 1
+#+end_src
+
+This command will find every MP4 and apply a 1-second fade-in.
+We omit the -o option so the script uses the default naming convention: input-faded-in-[duration].mp4.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+fade-clip -i input.mp4 -d 00:00:02 -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+fade-clip -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Fade in a video and audio clip
+
+Usage: fade-clip [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    Input video file
+  -d <DURATION>  Fade duration (e.g., 2 or 00:00:02) [default: 00:00:00.500]
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  fade-clip -i input.mp4 -d 00:00:02
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** xfade-clips
+:PROPERTIES:
+:CUSTOM_ID: xfade-clips
+:END:
+
+🎥 [[https://youtu.be/SLuPfg3eREU][xfade-clips]]
+
+The xfade script creates smooth transitions between multiple clips.
+It applies the xfade filter for video and the acrossfade filter for audio simultaneously, ensuring a professional audio-visual blend.
+
+[[https://trac.ffmpeg.org/wiki/Xfade][xfade ffmpeg wiki]]
+
+***** 1) Run the script
+
+#+begin_src sh
+xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 2 -t circlecrop -o output.mp4
+#+end_src
+
+If you omit the -o option, the script generates a descriptive name: input-xfade-clips.mp4.
+
+***** 2) using ls or cat on a text file for input
+
+Instead of manually typing out a list of files to pass with the -i option
+
+You can use ls or a text file as input
+
+A lot of phones create video files with incremental file names
+
+for example:
+
+#+begin_example
+IMG_3497.MOV
+IMG_3498.MOV
+IMG_3499.MOV
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+instead of typing out a list of files with -i option 
+
+like this, which can take a while 
+
+#+begin_src sh
+xfade-clips -i IMG_3497.MOV IMG_3498.MOV IMG_3499.MOV IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -d 2 -t circlecrop -o output.mp4
+#+end_src
+
+You can use the ls command or cat a text file instead.
+
+****** using ls in a subshell
+
+You can use ls in a subshell as input if you want to process the video files in order based on their file names.
+
+To match all the .MOV files in the current directory
+
+We first run the script with echo as a prefix and ls in a subshell with the wildcard *.MOV
+
+#+begin_src sh
+echo xfade-clips -i $(ls *.MOV) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+This will print out the command in the terminal so we can check the order of the video files that will be processed
+
+#+begin_src sh
+xfade-clips -i IMG_3497.MOV IMG_3498.MOV IMG_3499.MOV IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+After we have checked the command we can run it without the echo command
+
+#+begin_src sh
+xfade-clips -i $(ls *.MOV) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+Note: if you want to match .mp4 files you would use the following command
+
+#+begin_src sh
+xfade-clips -i $(ls *.mp4) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+****** using cat on a text file in a subshell
+
+If you want to process the video files in a specific order
+
+You can use ls and redirect the output to a text file and then cat it as the input to the script
+
+Create a list of the videos in the current directory you want to process
+
+In this example we match all the .MOV files in the current directory and redirect the output into a text file called clips.txt
+
+#+begin_src sh
+ls *.MOV > clips.txt
+#+end_src
+
+Note: if you want to match .mp4 files you would change the file extension you pass to ls
+
+#+begin_src sh
+ls *.mp4 > clips.txt
+#+end_src
+
+This will create the clips.txt file like this that matches all the .MOV files in the current directory
+
+clips.txt
+
+#+begin_example
+IMG_3497.MOV
+IMG_3498.MOV
+IMG_3499.MOV
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+You can then edit the clips.txt file and change the order of the videos to process and save the file.
+
+Like this
+
+#+begin_example
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3498.MOV
+IMG_3497.MOV
+IMG_3499.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+We first run the script with echo as a prefix and cat in a subshell and give it the clips.txt file
+
+#+begin_src sh
+echo xfade-clips -i $(cat clips.txt) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+This will print out the command in the terminal so we can check the order of the video files that will be processed
+
+#+begin_src sh
+xfade-clips -i IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3498.MOV IMG_3497.MOV IMG_3499.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+After we have checked the command we can run it without the echo command
+
+#+begin_src sh
+xfade-clips -i $(cat clips.txt) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+****** Windows (PowerShell)
+
+If you are using Windows PowerShell, the syntax is almost identical to the Linux examples above:
+
+Except the ls command needs the -Name option
+
+And echo requires some quoting
+
+******* Using the ls command on the Windows PowerShell
+
+The Windows PowerShell syntax for the ls command needs the -Name option to just list the file names.
+
+#+begin_src sh
+ls -Name
+#+end_src
+
+So to list only the .MOV files with a wildcard you would run this command.
+
+#+begin_src sh
+ls -Name *.MOV
+#+end_src
+
+Note: You can't prefix a command with echo as you can on Linux to show the command that would be run.
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+#+begin_src sh
+echo "xfade-clips -i $((ls -Name *.MOV) -join ' ') -d 0.2 -t wipeleft -o output.mp4"
+#+end_src
+
+And you must pass the -Name option to ls in the subshell when you run the script.
+
+#+begin_src powershell
+xfade-clips -i $(ls -Name *.MOV) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+******* Using the ls and cat commands with the Windows PowerShell
+
+To create a list of files to pass to a script redirect the output of ls into a text file.
+
+#+begin_src sh
+ls -Name *.MOV > clips.txt
+#+end_src
+
+Edit the clips.txt file and change the order of the files to be passed to the script.
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+#+begin_src sh
+echo "xfade-clips -i $((cat clips.txt) -join ' ') -d 0.2 -t wipeleft -o output.mp4"
+#+end_src
+
+To use cat in a subshell and pass the list of files in the clips.txt file to the script you would run the following command.
+
+#+begin_src powershell
+xfade-clips -i $(cat clips.txt) -d 0.2 -t wipeleft -o output.mp4
+#+end_src
+
+Note: These subshell commands will not work in the classic Windows Command Prompt (~cmd.exe~).
+
+Please use PowerShell or a bash-like terminal (such as Git Bash).
+
+***** Script usage and help.
+
+1) one transition
+
+#+begin_src sh
+xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 2 -t circlecrop -o output.mp4
+#+end_src
+
+2) multiple transition
+
+#+begin_src sh
+xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 2 -t circlecrop fade fadeblack -o output.mp4
+#+end_src
+
+3) multiple transition and durations
+
+#+begin_src sh
+xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 0.5 1 2 -t circlecrop fade fadeblack -o output.mp4
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+xfade-clips -h
+#+end_src
+
+Help output.
+
+#+begin_example
+FFmpeg xfade transitions
+
+Usage: xfade-clips [OPTIONS] -i <INPUTS> <INPUTS>... -d <DURATIONS>...
+
+Options:
+  -i <INPUTS> <INPUTS>...  Input clips in order
+  -d <DURATIONS>...        Transition duration(s). Provide one for all, or one per gap
+  -t <TRANSITIONS>...      Transition type(s). Provide one for all, or one per gap [default: fade]
+  -o <OUTPUT>              Output file
+  -h, --help               Print help
+  -v, --version            Print version
+
+Note: The input files must be exactly the same type (codec, resolution, and frame rate).
+
+TRANSITIONS:
+  circleclose, circlecrop, circleopen, diagbl, diagbr, diagtl, diagtr,
+  dissolve, distance, fade, fadeblack, fadegrays, fadewhite, hblur,
+  hlslice, horzclose, horzopen, hrslice, pixelize, radial, rectcrop,
+  slidedown, slideleft, slideright, slideup, smoothdown, smoothleft,
+  smoothright, smoothup, squeezeh, squeezev, vdslice, vertclose,
+  vertopen, vuslice, wipebl, wipebr, wipedown, wipeleft, wiperight,
+  wipetl, wipetr, wipeup
+
+Examples:
+  1) one transition
+  xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 2 -t circlecrop -o output.mp4
+
+  2) multiple transition
+  xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 2 -t circlecrop fade fadeblack -o output.mp4
+
+  3) multiple transition and durations
+  xfade-clips -i input-1.mp4 input-2.mp4 input-3.mp4 input-4.mp4 -d 0.5 1 2 -t circlecrop fade fadeblack -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** pan-scan
+:PROPERTIES:
+:CUSTOM_ID: pan-scan
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=3633][pan-scan]]
+
+The pan-scan script animates a static image by panning the "camera" across it in a specified direction.
+
+It automatically handles the scaling and cropping math
+to ensure the movement is smooth and the output matches the original image's aspect ratio.
+
+***** 1) Panning Directions
+
+The script supports four primary movement directions via the -p flag:
+
+#+begin_example
+l: Pans the camera from left to right.
+r: Pans the camera from right to left.
+u: Pans the camera from top to bottom (panning "up" the image).
+d: Pans the camera from bottom to top (panning "down" the image)
+#+end_example
+
+***** 2) Run the script
+
+Provide your image, the desired video length, and the direction of the pan.
+
+#+begin_src sh
+pan-scan -i input.jpg -d 00:00:10 -p l -o output.mp4
+#+end_src
+
+If you omit the -o option, the script generates a descriptive name based on the direction and duration:
+input-pan-left-[00:00:10].mp4
+
+***** 3) pan-scan batch process
+
+If you have a directory of images that all need the same pan animation,
+you can batch process them using fd.
+
+#+begin_src sh
+fd -e jpg -x pan-scan -i {} -d 00:00:05 -p l
+#+end_src
+
+This command finds every JPG and applies a 5-second left-to-right pan.
+We omit the -o option so the script uses the default naming convention: input-pan-left-[00:00:05].mp4.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+pan-scan -i input -d 00:00:10 -p (l|r|u|d) -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+pan-scan -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Pan scan over an image using scale/crop math
+
+Usage: pan-scan [OPTIONS] -i <INFILE> -d <DURATION> -p <POSITION>
+
+Options:
+  -i <INFILE>    Input image file
+  -d <DURATION>  Duration (e.g., 10 or 00:00:10)
+  -p <POSITION>  Position: l (left), r (right), u (up), d (down)
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  pan-scan -i photo.jpg -d 00:00:10 -p l
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** zoompan
+:PROPERTIES:
+:CUSTOM_ID: zoompan
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=3725][zoompan]]
+
+The zoompan script converts a static image into a video clip by applying a Ken Burns-style zoom animation.
+
+To prevent the "jitter" often associated with the standard FFmpeg zoompan filter,
+this script uses high-resolution initial scaling before applying the movement.
+
+***** 1) Zoom and Position
+
+You can control both the direction of the zoom and the anchor point of the camera:
+
+#+begin_example
+Zoom -z:
+Choose between in (gradual magnification) or out (gradual pull-back).
+
+Position -p:
+Set the anchor point for the zoom.
+
+Options include:
+c (center)
+tl (top-left)
+tr (top-right)
+bl (bottom-left)
+br (bottom-right)
+tc (top-center)
+bc (bottom-center)
+#+end_example
+
+***** 2) Run the script
+
+#+begin_src sh
+zoompan -i input.jpg -d 00:00:10 -z in -p c -o output.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a descriptive name:
+image-zoom-in-c-[10].mp4.
+
+***** 3) zoompan batch process
+
+Batch process all jpg files in the current working directory,
+applying a 5-second zoom-in to the center of each image using fd.
+
+#+begin_src sh
+fd -e jpg -x zoompan -i {} -d 5 -z in -p c
+#+end_src
+
+We omit the -o option so the script uses the default naming convention for every file processed.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+zoompan -i input.jpg -d 00:00:05 -z (in|out) -p (tl|c|tc|tr|bl|br) -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+zoompan -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Ken Burns style zoom animation
+
+Usage: zoompan [OPTIONS] -i <INPUT> -d <DURATION>
+
+Options:
+  -i <INFILE>    Input image (png, jpg, jpeg)
+  -d <DURATION>  Duration (e.g., 10 or 00:00:10)
+  -z <ZOOM>      Zoom direction: in, out [default: in]
+  -p <POSITION>  Position: tl, tc, tr, c, bl, bc, br [default: c]
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  zoompan -i image.jpg -d 10 -z in -p c
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+*** Colour Grading
+**** lut-create
+:PROPERTIES:
+:CUSTOM_ID: lut-create
+:END:
+
+🎥 [[https://youtu.be/5BeKu2oNzkQ][lut-create]]
+
+The lut-create script take a video with the -i option and a timestamp with the -s option,
+and then creates a 1024 x 512 png image with a lut on the left and a still from the video on the right.
+
+You can then import the png into Gimp or Photoshop and use the levels or curves tools,
+to adjust the shadow, midtones and highlights as well as the red, green and blue channels to colour grade the image.
+
+Important: Apply your adjustments to the entire 1024 x 512 canvas so the LUT is modified identically to the video frame.
+
+The colour graded image can then be used with the lut-apply script to apply the colour grade to the video.
+
+[[https://ffmpeg.org/ffmpeg-filters.html#haldclut-1]]
+
+***** 1) Run the script
+
+#+begin_src sh
+lut-create -i input.mp4 -s 00:00:30 -o output.png
+#+end_src
+
+If the -o option is not provided, defaults to: input-lut-[timestamp].png
+
+You can crop the lut from the created png file with imagemagick
+
+#+begin_src sh
+magick input.png -crop 512x512+0+0 output.png
+#+end_src
+
+***** Script usage and help.
+
+#+begin_src sh
+lut-create -i input.mp4 -s 00:00:30 -o output.png
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+lut-create -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Generate a Hald CLUT and a reference video frame for color grading
+
+Usage: lut-create [OPTIONS] -i <INFILE> -s <START>
+
+Options:
+  -i <INFILE>    input video file
+  -s <START>     timestamp to extract frame
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  lut-create -i input.mp4 -s 00:00:30 -o output.png
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+
+Notes:
+  Defaults to PNG format.
+  If -o is not provided, defaults to: input-lut-[timestamp].png
+#+end_example
+
+**** lut-apply
+:PROPERTIES:
+:CUSTOM_ID: lut-apply
+:END:
+
+🎥 [[https://youtu.be/5BeKu2oNzkQ][lut-apply]]
+
+The lut-apply script lets you apply a lut created with the lut-create script to a video to colour grade the footage,
+or use a ffmpeg compatable lut that is 512 x 512 pixels.
+
+You can also preview the lut with ffplay before you apply the colour grade to the video.
+
+[[https://ffmpeg.org/ffmpeg-filters.html#haldclut-1]]
+
+Convert a lut.cube file to a png with ffmpeg
+
+#+begin_src sh
+ffmpeg -f lavfi -i haldclutsrc=8 -vf "lut3d='lut.cube'" -frames:v 1 lut.png
+#+end_src
+
+batch convert .cube files to .pngs with fd
+
+#+begin_src sh
+fd -e cube -x ffmpeg -f lavfi -i haldclutsrc=8 -vf "lut3d='{}'" -frames:v 1 "{.}.png"
+#+end_src
+
+or using a for loop
+
+#+begin_src sh
+for f in *.cube; do 
+  ffmpeg -f lavfi -i haldclutsrc=8 -vf "lut3d='$f'" -frames:v 1 "${f%.cube}.png"; 
+done
+#+end_src
+
+***** 1) Run the script
+
+Preview the lut with ffplay.
+
+#+begin_src sh
+lut-apply -i input.mp4 -l lut.png -p
+#+end_src
+
+Apply the lut to the video with ffmpeg.
+
+#+begin_src sh
+lut-apply -i input.mp4 -l lut.png -o output.mp4
+#+end_src
+
+If the output file -o is not specified, it defaults to input-lut-applied.mp4.
+
+***** Script usage and help.
+
+#+begin_src sh
+lut-apply -i input.mp4 -l lut.png -o output.mp4
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+lut-apply -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Apply a color-graded Hald CLUT to a video file
+
+Usage: lut-apply [OPTIONS] -i <INFILE> -l <LUTFILE>
+
+Options:
+  -i <INFILE>    input video file
+  -l <LUTFILE>   corrected haldclut image
+  -o <OUTFILE>   optional output file
+  -p             preview with ffplay
+  -h, --help     Print help
+  -v, --version  Print version
+
+Preview lut:
+  lut-apply -i input.mp4 -l lut.png -p
+
+Apply lut:
+  lut-apply -i input.mp4 -l lut.png -o output.mp4
+
+Dependencies:
+  ffmpeg, ffplay: https://www.ffmpeg.org
+#+end_example
+
+*** Conversion and Extras
+**** audio-silence
+:PROPERTIES:
+:CUSTOM_ID: audio-silence
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=3963][audio-silence]]
+
+The audio-silence script replaces or adds a silent audio track to a video file.
+
+It works by copying the original video stream without re-encoding and generating a silent AAC audio track using lavfi.
+
+This is useful for clearing existing audio or adding a silent track to a "video-only" file
+to ensure compatibility with players that require an audio stream.
+
+***** 1) Run the script
+
+Replace the audio in a video with a high-quality stereo silent track:
+
+#+begin_src sh
+audio-silence -i input.mp4 -c stereo -r 48000 -o output.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-silence.mp4
+
+***** 2) audio-silence batch process
+
+To process all MP4 files in a directory, use fd.
+By default, the script uses mono channels and a 44100 sample rate.
+
+#+begin_src sh
+fd -e mp4 -x audio-silence -i {}
+#+end_src
+
+To override the defaults and use stereo at 48000Hz for all files
+
+#+begin_src sh
+fd -e mp4 -x audio-silence -i {} -c stereo -r 48000
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+audio-silence -i input.mp4 -c (mono|stereo) -r (44100|48000) -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+audio-silence -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Replaces or adds a silent audio track to a video file
+
+Usage: audio-silence [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    Input video file
+  -c <CHANNELS>  Audio channels (mono or stereo) [default: mono]
+  -r <RATE>      Sample rate (e.g., 44100, 48000) [default: 44100]
+  -o <OUTFILE>   Output file (optional, defaults to input-silence.ext)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  audio-silence -i input.mp4 -c stereo -r 48000 -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** blur-fill
+:PROPERTIES:
+:CUSTOM_ID: blur-fill
+:END:
+
+🎥 [[https://youtu.be/26GgshDSWYY][blur-fill]]
+
+The blur-fill script is designed to eliminate black pillarboxes in 4:3 footage or vertical 9:16 video by filling the background with a scaled and blurred version of the original content.
+
+Instead of having static black bars (pillarboxes) on the sides, the script creates a dynamic background by scaling and blurring the original footage to fill the entire frame.
+
+The script employs a high-fidelity processing chain:
+
+Video Filtering: Uses a complex filter to split the input into two streams—one scaled and blurred for the background, and the original scaled to fit the foreground.
+
+***** 1) Run the script
+
+#+begin_src sh
+blur-fill -i input.mp4 -b 10 -o output.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-blurfill.mp4
+
+***** 2) blur-fill batch process
+
+To process all MP4 files in a directory, use fd.
+
+#+begin_src sh
+fd -e mp4 -x blur-fill -i {}
+#+end_src
+
+To override the defaults and use change the blur filter to 20
+
+#+begin_src sh
+fd -e mp4 -x blur-fill -i {} -b 20
+#+end_src
+
+***** Script usage and help.
+
+#+begin_src sh
+blur-fill -i input.mp4 -b 10 -o output.mp4
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+blur-fill -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Fill pillarboxes with a blurred version of the input video
+
+Usage: blur-fill [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    Input file
+  -b <BLUR>      Blur strength (default: 10) [default: 10]
+  -o <OUTFILE>   Optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  blur-fill -i input.mp4 -b 10 -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** concat
+:PROPERTIES:
+:CUSTOM_ID: concat
+:END:
+
+🎥 [[https://youtu.be/WwDkZ0cfVQM][concat]]
+
+The concat script utilizes the FFmpeg concat demuxer to join multiple media files together without re-encoding.
+
+Because it performs a stream copy rather than a transcode, the process is nearly instantaneous and results in zero quality loss.
+
+However, for this method to work successfully, all input files must be exactly the same type, sharing identical codecs, resolution, bit depth, and frame rates.
+
+***** 1) Run the script
+
+Concatenate video files with a ffplay preview with the -p option
+
+#+begin_src sh
+concat -i input-1.mp4 input-2.mp4 input-3.mp4 -p
+#+end_src
+
+Concatenate video files without the -p option to record
+
+#+begin_src sh
+concat -i input-1.mp4 input-2.mp4 input-3.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-concat.mp4
+
+***** 2) using ls or use cat on a text file for input
+
+Instead of manually typing out a list of files to pass with the -i option
+
+You can use ls or a text file as input
+
+A lot of phones create video files with incremental file names
+
+for example:
+
+#+begin_example
+IMG_3497.MOV
+IMG_3498.MOV
+IMG_3499.MOV
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+instead of typing out a list of files with -i option 
+
+like this, which can take a while 
+
+#+begin_src sh
+concat -i IMG_3497.MOV IMG_3498.MOV IMG_3499.MOV IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -o output.mp4
+#+end_src
+
+You can use the ls command or a text file instead.
+
+****** using ls in a subshell
+
+You can use ls in a subshell as input if you want to process the video files in order based on their file names.
+
+To match all the .MOV files in the current directory
+
+We first run the script with echo as a prefix and ls in a subshell with the wildcard *.MOV
+
+#+begin_src sh
+echo concat -i $(ls *.MOV) -o output.mov
+#+end_src
+
+This will print out the command in the terminal so we can check the order of the video files that will be processed
+
+#+begin_src sh
+concat -i IMG_3497.MOV IMG_3498.MOV IMG_3499.MOV IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -o output.mov
+#+end_src
+
+After we have checked the command we can run it without the echo command and the -p option to preview using ffplay
+
+#+begin_src sh
+concat -i $(ls *.MOV) -p
+#+end_src
+
+Omit the -p option to concatenate the files.
+
+#+begin_src sh
+concat -i $(ls *.MOV) -o output.mov
+#+end_src
+
+Note: if you want to match .mp4 files you would use the following command with the -p option to preview using ffplay
+
+#+begin_src sh
+concat -i $(ls *.mp4) -p
+#+end_src
+
+Omit the -p option to concatenate the files.
+
+#+begin_src sh
+concat -i $(ls *.mp4) -o output.mp4
+#+end_src
+
+****** use cat on a text file
+
+If you want to process the video files in a specific order
+
+You can use ls and redirect the output to a text file and then cat it as the input to the script
+
+Create a list of the videos in the current directory you want to process
+
+In this example we match all the .MOV files in the current directory and redirect the output into a text file called clips.txt
+
+#+begin_src sh
+ls *.MOV > clips.txt
+#+end_src
+
+Note: the concat script creates a temporary file called concat_list.txt which it deletes after processing
+
+So dont use concat_list.txt as the name of the text file
+
+Note: if you want to match .mp4 files you would change the file extension you pass to ls
+
+#+begin_src sh
+ls *.mp4 > clips.txt
+#+end_src
+
+This will create the clips.txt file like this that matches all the .MOV files in the current directory
+
+clips.txt
+
+#+begin_example
+IMG_3497.MOV
+IMG_3498.MOV
+IMG_3499.MOV
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+You can then edit the clips.txt file and change the order of the videos to process and save the file.
+
+Like this
+
+#+begin_example
+IMG_3500.MOV
+IMG_3502.MOV
+IMG_3503.MOV
+IMG_3504.MOV
+IMG_3498.MOV
+IMG_3497.MOV
+IMG_3499.MOV
+IMG_3506.MOV
+IMG_3507.MOV
+IMG_3508.MOV
+#+end_example
+
+We first run the script with echo as a prefix and cat in a subshell and give it the clips.txt file
+
+#+begin_src sh
+echo concat -i $(cat clips.txt) -o output.mov
+#+end_src
+
+This will print out the command in the terminal so we can check the order of the video files that will be processed
+
+#+begin_src sh
+concat -i IMG_3500.MOV IMG_3502.MOV IMG_3503.MOV IMG_3504.MOV IMG_3498.MOV IMG_3497.MOV IMG_3499.MOV IMG_3506.MOV IMG_3507.MOV IMG_3508.MOV -o output.mov
+#+end_src
+
+After we have checked the command we can run it without the echo command and the -p option to preview using ffplay
+
+#+begin_src sh
+concat -i $(cat clips.txt) -p
+#+end_src
+
+Omit the -p option to concatenate the files.
+
+#+begin_src sh
+concat -i $(cat clips.txt) -o output.mov
+#+end_src
+
+Note: if you want to match .mp4 files you would use the following command with the -p option to preview using ffplay
+
+#+begin_src sh
+concat -i $(cat clips.txt) -p
+#+end_src
+
+Omit the -p option to concatenate the files.
+
+#+begin_src sh
+concat -i $(cat clips.txt) -o output.mp4
+#+end_src
+
+****** Windows (PowerShell)
+
+If you are using Windows PowerShell, the syntax is almost identical to the Linux examples above:
+
+Except the ls command needs the -Name option
+
+And echo requires some quoting
+
+******* Using the ls command on the Windows PowerShell
+
+The Windows PowerShell syntax for the ls command needs the -Name option to just list the file names.
+
+#+begin_src sh
+ls -Name
+#+end_src
+
+So to list only the .MOV files with a wildcard you would run this command.
+
+#+begin_src sh
+ls -Name *.MOV
+#+end_src
+
+Note: You can't prefix a command with echo as you can on Linux to show the command that would be run.
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+Preview with ffplay
+
+#+begin_src sh
+echo "concat -i $((ls -Name *.MOV) -join ' ') -p"
+#+end_src
+
+And you must pass the -Name option to ls in the subshell when you run the script.
+
+#+begin_src powershell
+concat -i $(ls -Name *.MOV) -p
+#+end_src
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+Concatenate with ffmpeg
+
+#+begin_src sh
+echo "concat -i $((ls -Name *.MOV) -join ' ') -o output.mov"
+#+end_src
+
+And you must pass the -Name option to ls in the subshell when you run the script.
+
+#+begin_src powershell
+concat -i $(ls -Name *.MOV) -o output.mov
+#+end_src
+
+******* Using the ls and cat commands with the Windows PowerShell
+
+To create a list of files to pass to a script redirect the output of ls into a text file.
+
+#+begin_src sh
+ls -Name *.MOV > clips.txt
+#+end_src
+
+Edit the clips.txt file and change the order of the files to be passed to the script.
+
+Note: You can't prefix a command with echo as you can on Linux to show the command that would be run.
+
+Preview with ffplay
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+#+begin_src sh
+echo "concat -i $((cat clips.txt) -join ' ') -p"
+#+end_src
+
+Run the command.
+
+#+begin_src powershell
+concat -i $(cat clips.txt) -p
+#+end_src
+
+Concatenate with ffmpeg
+
+To echo the command in the PowerShell terminal before running it you use the following command.
+
+#+begin_src sh
+echo "concat -i $((cat clips.txt) -join ' ') -o output.mov"
+#+end_src
+
+Run the command.
+
+#+begin_src powershell
+concat -i $(cat clips.txt) -o output.mov
+#+end_src
+
+Note: These subshell commands will not work in the classic Windows Command Prompt (~cmd.exe~).
+
+Please use PowerShell or a bash-like terminal (such as Git Bash).
+
+***** Script usage and help.
+
+Concatenate video files
+
+#+begin_src sh
+concat -i input-1.mp4 input-2.mp4 input-3.mp4 -o output.mp4
+#+end_src
+
+Concatenate audio files
+
+#+begin_src sh
+concat -i input-1.m4a input-2.m4a input-3.m4a -o output.mp4
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+concat -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Concatenate videos using the concat demuxer
+
+Usage: concat [OPTIONS] -i <INPUTS> <INPUTS>...
+
+Options:
+  -i <INPUTS> <INPUTS>...  Input clips to concatenate
+  -o <OUTPUT>              Output file (defaults to first_input-concat.ext)
+  -p                       Preview concatenation with ffplay without saving
+  -h, --help               Print help information
+  -v, --version            Print version information
+
+Example:
+  concat -i input-1.mp4 input-2.mp4 input-3.mp4 -o output.mp4
+
+Note:
+  The input files must be exactly the same type (codec, resolution, and frame rate).
+
+Dependencies:
+  ffmpeg, ffplay: https://www.ffmpeg.org
+#+end_example
+
+**** delogo
+:PROPERTIES:
+:CUSTOM_ID: delogo
+:END:
+
+🎥 [[https://youtu.be/8HDuVcJAaD8][delogo]]
+
+The delogo script is designed to remove unwanted watermarks or logos from video footage by interpolating the surrounding pixels to fill the specified area.
+
+Dual Mode Operation:
+
+Preview Mode: Integrates with ffplay to allow real-time adjustment.
+
+Green Box Helper: Using -p 1 draws a green box around the target area to help you pinpoint the exact coordinates.
+
+Clean Preview: Using -p 0 allows you to preview the video with the delogo filter applied, but without the green box, so you can see the final visual result before rendering.
+
+Record Mode: Omit the -p option entirely to execute the final render using FFmpeg.
+
+Record Mode: Executes the final render using FFmpeg.
+
+Note on Bounds: The delogo filter requires at least 1 pixel of space between the filter box and the edge of the video frame.
+
+The script includes a safety check that will prevent the process from starting and print an error if your coordinates are too close to the edge.
+
+***** 1) Run the script
+
+Run the delogo script with the -p 1 option for a preview using ffplay
+
+#+begin_src sh
+delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49 -p 1
+#+end_src
+
+Run the delogo script without the -p option to record
+
+#+begin_src sh
+delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-delogo.mp4
+
+***** 2) delogo batch process
+
+To process all MP4 files in a directory, use fd.
+
+#+begin_src sh
+fd -e mp4 -x delogo -i {} -x 590 -y 670 -w 120 -h 49
+#+end_src
+
+***** Script usage and help.
+
+Run the delogo script with the -p 1 option for a preview with a green box using ffplay
+
+#+begin_src sh
+delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49 -p 1
+#+end_src
+
+Run the delogo script with the -p 0 option for a preview without the green box using ffplay
+
+#+begin_src sh
+delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49 -p 0
+#+end_src
+
+Run the delogo script without the -p option to record
+
+#+begin_src sh
+delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49
+#+end_src
+
+Run the script with the -H option or --help to show the help.
+
+#+begin_src sh
+delogo -H
+#+end_src
+
+Help output.
+
+#+begin_example
+remove a logo from video footage
+
+Usage: delogo [OPTIONS] -i <INFILE> -x <X> -y <Y> -w <W> -h <H>
+
+Options:
+  -i <INFILE>    input file
+  -x <X>         x coordinate
+  -y <Y>         y coordinate
+  -w <WIDTH>     filter width
+  -h <HEIGHT>    filter height
+  -p <PREVIEW>   preview mode: 1=box, 0=no box
+  -o <OUTFILE>   optional output file
+  -H, --help     Print help
+  -v, --version  Print version
+
+Example:
+  delogo -i input.mp4 -x 590 -y 670 -w 120 -h 49 -p 1
+
+Dependencies:
+  ffmpeg, ffplay: https://www.ffmpeg.org/
+
+Notes:
+  The -p 1 option previews with a green box. -p 0 previews without the box. Omit -p to record.
+#+end_example
+
+**** extract-frame
+:PROPERTIES:
+:CUSTOM_ID: extract-frame
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4050][extract-frame]]
+
+The extract-frame script saves a single frame from a video as a png or jpg image.
+
+Note that you can use two different time unit formats for the -s option:
+
+sexagesimal (HOURS:MM:SS.MILLISECONDS, as in 01:23:45.678), or in seconds.
+
+If a fraction is used, such as 02:30.05, this is interpreted as "5 100ths of a second", not as frame 5.
+
+For instance, 02:30.5 would be 2 minutes, 30 seconds, and a half a second,
+which would be the same as using 150.5 in seconds.
+
+***** 1) Run the script
+
+Extract a frame at 15 seconds, scaled to 1280px width, saved as a jpg which is the default.
+
+#+begin_src sh
+extract-frame -s 00:00:15 -i input.mp4 -x 1280
+#+end_src
+
+If the -o option is omitted, the script generates a default name including the timestamp: input-frame-[00:00:15].jpg
+
+If width (-x) or height (-y) is omitted, the original video dimensions are used.
+
+If only one dimension is specified (either -x or -y),
+the other value is automatically calculated to preserve the aspect ratio.
+
+***** 2) extract-frame batch process
+
+To quickly extract frames from every MP4 file in a directory, use fd.
+
+Extract a frame from the very beginning (00:00:00) of every video:
+
+#+begin_src sh
+fd -e mp4 -x extract-frame -i {} -s 00:00:00
+#+end_src
+
+Extract a frame at the 30-second mark from every video:
+
+#+begin_src sh
+fd -e mp4 -x extract-frame -i {} -s 00:00:30
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+extract-frame -i input.mp4 -s 00:00:00.000 -t (png|jpg) -x width -y height -o output.(png|jpg)
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+extract-frame -h
+#+end_src
+
+Help output.
+
+#+begin_example
+extract a single frame from a video
+
+Usage: extract-frame [OPTIONS] -s <START> -i <INFILE>
+
+Options:
+  -s <START>     timestamp to extract
+  -i <INFILE>    input file
+  -f <FORMAT>    output format [default: jpg]
+  -x <WIDTH>     output width
+  -y <HEIGHT>    output height
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  extract-frame -s 00:00:15 -i input.mp4 -x 1280 -f jpg
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+
+Notes:
+  If width/height is omitted, original size is used.
+  If -o is not provided, defaults to: input-frame-[timestamp].ext
+#+end_example
+
+**** hstack
+:PROPERTIES:
+:CUSTOM_ID: hstack
+:END:
+
+🎥 [[https://youtu.be/Nwi-5nbBZm0][hstack]]
+
+The hstack script allows you to stack two videos side-by-side into a single frame, which is ideal for creating comparison videos or split-screen presentations.
+
+The script handles the technical complexities of merging two different sources:
+
+Auto-Scaling: It automatically calculates and matches the height of both videos (capping the target height at 1080p) to ensure a perfectly aligned horizontal stack regardless of the original dimensions.
+
+Flexible Audio Mapping: You can choose whether to use the audio track from the left (-a l) or right (-a r) input.
+
+Duration Sync: To prevent "hanging" frames at the end of the video, the script automatically syncs the output to the shortest input and transcodes the audio to AAC to ensure perfect alignment.
+
+***** 1) Run the script
+
+#+begin_src sh
+hstack -l left.mp4 -r right.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-hstack.mp4
+
+***** Script usage and help.
+
+#+begin_src sh
+hstack -l left.mp4 -r right.mp4 -a r -o comparison.mp4
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+hstack -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Stack two videos side-by-side (hstack)
+
+Usage: hstack [OPTIONS] -l <LEFT> -r <RIGHT>
+
+Options:
+  -l <LEFT>      left video input
+  -r <RIGHT>     right video input
+  -a <AUDIO>     audio source: l (left) or r (right) [default: l]
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  hstack -l left.mp4 -r right.mp4 -a r -o comparison.mp4
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+
+Notes:
+  - Auto-scales to match heights (max 1080p).
+  - Uses High-Quality NVENC VBR or libx264 CRF 16.
+  - Audio: Transcoded to AAC to ensure duration sync with shortest video.
+#+end_example
+
+**** img2video
+:PROPERTIES:
+:CUSTOM_ID: img2video
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4165][img2video]]
+
+The img2video script converts a static image into a video file with a specified duration.
+
+The script creates a high-compatibility H.264 video at 30fps with a YUV420P pixel format,
+ensuring it plays correctly on almost all devices and web platforms.
+
+***** 1) Time Formats
+
+When specifying the duration with the -d option, you can use two formats:
+
+Seconds: A simple numerical value (e.g., 10).
+
+Sexagesimal: HOURS:MM:SS (e.g., 00:00:10).
+
+***** 2) Run the script
+
+Convert an image into a 10-second video clip:
+
+#+begin_src sh
+img2video -i input.png -d 00:00:10 -o output.mp4
+#+end_src
+
+If the -o option is omitted,
+the script generates a default filename including the duration: input-[00:00:10].mp4.
+
+***** 3) img2video batch process
+
+To quickly convert every image in a directory into a video clip, use fd.
+
+Batch convert all PNG files in the current directory into 10-second video clips:
+
+Using Seconds: A simple numerical value (e.g., 10).
+
+#+begin_src sh
+fd -e png -x img2video -i {} -d 10
+#+end_src
+
+Batch convert all JPG files in the current directory into 10-second video clips:
+
+Using Sexagesimal: HOURS:MM:SS (e.g., 00:00:10).
+
+#+begin_src sh
+fd -e jpg -x img2video -i {} -d 00:00:10
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+img2video -i input.png -d (000) -o output.mp4
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+img2video -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Convert a static image to a video file with a specified duration
+
+Usage: img2video [OPTIONS] -i <INFILE> -d <DURATION>
+
+Options:
+  -i <INFILE>    Input image file (png, jpg, jpeg)
+  -d <DURATION>  Duration (e.g., 10 or 00:00:10.500)
+  -o <OUTFILE>   Output file (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  img2video -i input.png -d 00:00:10 -o output.mp4
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** normalize
+:PROPERTIES:
+:CUSTOM_ID: normalize
+:END:
+
+🎥 [[https://youtu.be/AQ16L9Sd0oc][normalize]]
+
+The normalize script provides professional-grade, EBU R128 compliant audio normalization using a 2-pass loudnorm process.
+
+It ensures your audio meets specific loudness and peak targets while preserving the original video stream.
+
+The script employs a high-fidelity processing chain:
+
+2-Pass Analysis:
+
+Pass 1: Performs a full scan of the file to measure its current integrated loudness, true peak, and dynamic range.
+
+Pass 2: Uses the precise measurements from the first pass to apply linear normalization, hitting your target levels without clipping or unwanted compression artifacts.
+
+Target Customization: Allows you to define specific Integrated Loudness (LUFS) and True Peak (TP) targets to match the requirements of different platforms (e.g., -16 LUFS for podcasts or -14 LUFS for streaming).
+
+Video Preservation: Uses a bit-perfect stream copy (-c:v copy) for the video, ensuring the original visual quality is untouched while only the audio is processed.
+
+Professional Audio Standard: Automatically resets the sample rate to 48kHz during the application pass to maintain high-quality broadcast standards.
+
+***** 1) Run the script
+
+#+begin_src sh
+normalize -i input.mp4
+#+end_src
+
+If the -o option is omitted, the script generates a default name: input-normalize.mp4
+
+***** 2) normalize batch process
+
+To normalize the audio from every MP4 file in a directory, use fd.
+
+#+begin_src sh
+fd -e mp4 -x normalize -i {}
+#+end_src
+
+To normalize the audio from every WAV file in a directory, use fd.
+
+#+begin_src sh
+fd -e wav -x normalize -i {}
+#+end_src
+
+***** Script usage and help.
+
+#+begin_src sh
+normalize -i input.mp4 -t -6.0 -l 16
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+normalize -h
+#+end_src
+
+Help output.
+
+#+begin_example
+2-Pass audio normalization (loudnorm)
+
+Usage: normalize [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    input file
+  -t <TP>        Target True Peak (TP) level [default: -3.0]
+  -l <LUFS>      Target Integrated Loudness (LUFS) level [default: -16]
+  -o <OUTFILE>   optional output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  normalize -i input.mp4 -t -3.0 -l -16
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** sexagesimal-time
+:PROPERTIES:
+:CUSTOM_ID: sexagesimal-time
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4310][sexagesimal-time]]
+
+The sexagesimal-time script calculates a precise duration by subtracting a start timecode from an end timecode.
+
+This is designed to help determine the exact length needed for trimming video or audio files with FFmpeg.
+
+The script handles standard sexagesimal formats (HOURS:MM:SS)
+and also works with milliseconds (HOURS:MM:SS.mmm) for high-precision calculations.
+
+***** 1) Run the script
+
+Calculate the duration between 1 minute and 1 minute 45.5 seconds:
+
+#+begin_src sh
+sexagesimal-time -s 00:01:00 -e 00:01:45.500
+#+end_src
+
+Output:
+
+#+begin_example
+00:00:45.500
+#+end_example
+
+***** Script usage and help.
+
+#+begin_src sh
+sexagesimal-time -s 00:00:30 -e 00:01:30
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+sexagesimal-time -h
+#+end_src
+
+Help output.
+
+#+begin_example
+calculate duration from start and end timecodes
+
+Usage: sexagesimal-time -s <START> -e <END>
+
+Options:
+  -s <START>     start time
+  -e <END>       end time
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  sexagesimal-time -s 00:01:00 -e 00:01:45.500
+
+Output:
+  00:00:45.500
+
+Dependencies:
+  None (Pure Rust math)
+#+end_example
+
+ouput
+
+#+begin_example
+00:13:17
+#+end_example
+
+also works with milliseconds
+
+**** vid2gif
+:PROPERTIES:
+:CUSTOM_ID: vid2gif
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4365][vid2gif]]
+
+The vid2gif script converts a video file into a high-quality GIF animation.
+
+To ensure the best visual quality, the script uses a two-stage FFmpeg process:
+
+it first generates a custom colour palette from the video and then applies that palette to create the final GIF.
+
+This prevents the "dithering" or colour-banding issues common in standard GIF conversions.
+
+***** 1) Run the script
+
+Convert a video to a GIF with a specific width and frame rate:
+
+#+begin_src sh
+vid2gif -i input.mp4 -w 480 -f 15 -o output.gif
+#+end_src
+
+If the -o option is omitted, the script generates a default filename using the input file's name: input.gif.
+
+The default width is 320px and the default frame rate is 10 fps.
+
+***** 2) vid2gif batch process
+
+To quickly convert all MP4 files in a directory into GIF animations, use fd.
+
+Batch convert all MP4 files using default settings:
+
+#+begin_src sh
+fd -e mp4 -x vid2gif -i {}
+#+end_src
+
+Batch convert all MP4 files with a custom width of 480px and 15 fps:
+
+#+begin_src sh
+fd -e mp4 -x vid2gif -i {} -w 480 -f 15
+#+end_src
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+vid2gif -s 00:00:00.000 -i input.mp4 -t 00:00:00.000 -f 10 -w 320 -o output.gif
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+vid2gif -h
+#+end_src
+
+Help output.
+
+#+begin_example
+convert video to high quality gif
+
+Usage: vid2gif [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    input file
+  -w <WIDTH>     width [default: 320]
+  -f <FPS>       fps [default: 10]
+  -o <OUTFILE>   output file
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  vid2gif -i input.mp4 -w 480 -f 15 -o animation.gif
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+#+end_example
+
+**** webp
+:PROPERTIES:
+:CUSTOM_ID: webp
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4511][webp]]
+
+The webp script converts a video into an animated WebP image using FFmpeg.
+
+Animated WebP files often provide better compression than GIFs while supporting a full range of colours and transparency,
+making them ideal for high-quality web animations.
+
+***** 1) Run the script
+
+Convert a video to an animated WebP with a custom width and frame rate:
+
+#+begin_src sh
+webp -i input.mp4 -w 480 -f 15 -o output.webp
+#+end_src
+
+If the -o option is omitted, the script generates a default filename based on the input file's name: input.webp
+
+The default settings are 320px width and 10 fps. The resulting file is set to loop infinitely.
+
+***** 2) webp batch process
+
+To quickly convert multiple MP4 files in a directory into animated WebP images, use fd.
+
+Batch convert all MP4 files in the current directory using default settings:
+
+#+begin_src sh
+fd -e mp4 -x webp -i {}
+#+end_src
+
+Batch convert all MP4 files with a custom width of 600px and 15 fps:
+
+#+begin_src sh
+fd -e mp4 -x webp -i {} -w 600 -f 15
+#+end_src
+
+***** Script usage and help.
+
+#+begin_src sh
+webp -i input.mp4 -w 320 -f 10 -o output.webp
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+webp -h
+#+end_src
+
+Help output.
+
+#+begin_example
+convert video to an animated webp
+
+Usage: webp [OPTIONS] -i <INFILE>
+
+Options:
+  -i <INFILE>    input file
+  -w <WIDTH>     width [default: 320]
+  -f <FPS>       fps [default: 10]
+  -o <OUTFILE>   output file
+  -h, --version  Print help
+  -v, --help     Print version
+
+Example:
+  webp -i input.mp4 -w 480 -f 15 -o animation.webp
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+#+end_example
+
+*** Scene Detection
+**** scene-detect-auto
+:PROPERTIES:
+:CUSTOM_ID: scene-detect-auto
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4601][scene-detect-auto]]
+
+Automated scene detection and video splitting.
+
+The scene-detect-auto script performs the functions of the following scripts automatically
+
+1) scene-detect (Identifies scene changes)
+
+2) scene-time (Converts timestamps to a cutlist)
+
+3) scene-cut (Splits the video into clips)
+
+Because this script can generate a large number of video clips,
+it is best to create a dedicated directory for each video you want to process.
+
+***** 1) Create a directory
+
+Create a directory for your project (e.g., "scene-detect").
+using the command line or your file manager
+
+On NixOS, Linux, Mac or Freebsd
+
+#+begin_src sh
+mkdir -p scene-detect
+#+end_src
+
+On Windows (PowerShell)
+
+#+begin_src sh
+New-Item -ItemType Directory -Path "scene-detect"
+#+end_src
+
+Move the video to process into the scene-detect directory,
+where input.mp4 is the name of the video to process
+
+***** 2) Move your video into the directory
+
+Move the video file (e.g., input.mp4) into the folder you just created.
+
+On NixOS, Linux, Mac or Freebsd
+
+#+begin_src sh
+mv input.mp4 scene-detect/
+#+end_src
+
+On Windows (PowerShell):
+
+#+begin_src sh
+Move-Item -Path "input.mp4" -Destination "scene-detect"
+#+end_src
+
+***** 3) Change into the directory
+
+On all operating systems:
+
+#+begin_src sh
+cd scene-detect
+#+end_src
+
+***** 4) Run the script
+
+Run the script with the -i option. By default, the detection threshold is 0.3.
+
+#+begin_src sh
+scene-detect-auto -i input.mp4
+#+end_src
+
+Use the -t option to adjust the sensitivity.
+Lower values detect more scenes; higher values detect fewer.
+
+#+begin_src sh
+scene-detect-auto -i input.mp4 -t 0.5
+#+end_src
+
+***** Script usage and help.
+
+Script usage.
+
+#+begin_src sh
+scene-detect-auto -i <INPUT> -t <THRESHOLD>
+#+end_src
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-detect-auto -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Automated scene detection and video splitting
+
+Usage: scene-detect-auto [OPTIONS] -i <INPUT>
+
+Options:
+  -i <INPUT>      input video file
+  -t <THRESHOLD>  detection threshold (0.0 to 1.0) [default: 0.3]
+  -h, --help      Print help
+  -v, --version   Print version
+
+Example:
+  scene-detect-auto -i input.mp4
+
+Dependencies:
+  ffmpeg, ffprobe: https://www.ffmpeg.org/
+#+end_example
+
+Notes: Creates detection.txt and cutlist.txt automatically.
+
+**** scene-detect
+:PROPERTIES:
+:CUSTOM_ID: scene-detect
+:END:
+
+scene-detect takes a video file and a threshold for the scene detection from 0.1 to 0.9
+you can also use the -s and -e options to set a range for the scene detection.
+
+If you dont specify a range scene detection will be perform on the whole video.
+
+Note: manual scene-detection uses 3 scripts that work together
+
+1) scene-detect (Identifies scene changes)
+
+2) scene-time (Converts timestamps to a cutlist)
+
+3) scene-cut (Splits the video into clips)
+
+Because this script can generate a large number of video clips,
+it is best to create a dedicated directory for each video you want to process.
+
+***** 1) Create a directory
+
+Create a directory for your project (e.g., "scene-detect").
+using the command line or your file manager
+
+On NixOS, Linux, Mac or Freebsd
+
+#+begin_src sh
+mkdir -p scene-detect
+#+end_src
+
+On Windows (PowerShell)
+
+#+begin_src sh
+New-Item -ItemType Directory -Path "scene-detect"
+#+end_src
+
+Move the video to process into the scene-detect directory,
+where input.mp4 is the name of the video to process
+
+***** 2) Move your video into the directory
+
+Move the video file (e.g., input.mp4) into the folder you just created.
+
+On NixOS, Linux, Mac or Freebsd
+
+#+begin_src sh
+mv input.mp4 scene-detect/
+#+end_src
+
+On Windows (PowerShell):
+
+#+begin_src sh
+Move-Item -Path "input.mp4" -Destination "scene-detect"
+#+end_src
+
+***** 3) Change into the directory
+
+On all operating systems:
+
+#+begin_src sh
+cd scene-detect
+#+end_src
+
+***** 4) Run the script
+
+Run the script with the -i option. By default, the detection threshold is 0.3.
+
+#+begin_src sh
+scene-detect -i input.mp4
+#+end_src
+
+Use the -t option to adjust the sensitivity.
+Lower values detect more scenes; higher values detect fewer.
+
+#+begin_src sh
+scene-detect -i input.mp4 -t 0.5
+#+end_src
+
+Note: this will create a text file called input-detection.txt (where "input" is the name of your video).
+
+Where input is the name of the video that has been processed.
+
+You use the input-detection.txt file with scene-time script in the next step.
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+scene-detect -s 00:00:00 -i input -e 00:00:00 -t (0.1 - 0.9) -f sec -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-detect -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Detect scene changes in a video
+
+Usage: scene-detect -i <INPUT> [OPTIONS]
+
+Options:
+  -i <INPUT>      Input video file
+  -s <START>      Start time (HH:MM:SS.mmm)
+  -e <END>        End time (HH:MM:SS.mmm)
+  -t <THRESHOLD>  Detection threshold (0.1 to 0.9) [default: 0.3]
+  -f <FORMAT>     Output format: "sec" for seconds, else HH:MM:SS.mmm
+  -o <OUTFILE>    Output filename (optional)
+  -h, --help      Print help
+  -v, --version   Print version
+
+Example:
+  scene-detect -i input.mp4 -t 0.4 -f sec
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** scene-time
+:PROPERTIES:
+:CUSTOM_ID: scene-time
+:END:
+
+The scene-time script is the second step in the manual scene-cutting process.
+It takes the list of timestamps generated by scene-detect and calculates the duration between each point.
+
+Note: manual scene-detection uses 3 scripts that work together
+
+1) scene-detect (Identifies scene changes)
+
+2) scene-time (Converts timestamps to a cutlist)
+
+3) scene-cut (Splits the video into clips)
+
+This step is useful because it allows you to open the detection file in a text editor and manually add,
+remove, or adjust timestamps before generating the final cutlist.
+
+***** 1) Input format (detection file)
+
+The script reads a text file containing timestamps (one per line).
+It supports both seconds and sexagesimal (HH:MM:SS) formats.
+
+#+begin_example
+0:00:00
+0:00:11.875000
+0:00:15.750000
+#+end_example
+
+***** 2) Output format (cutlist)
+
+The script calculates the duration for each segment and creates a "cutlist".
+Each line contains the start time and the duration, separated by a comma
+
+The script creates clips by subtracting the cut point from the start point
+and converts sexagesimal format and then creates a file with the start point
+a comma and then the duration of the clip
+
+***** 3) Run the script
+
+Provide the detection file created in the previous step using the -i option.
+
+#+begin_src sh
+scene-time -i input-detection.txt
+#+end_src
+
+This will create a file named input-detection-cutlist.txt.
+You will use this cutlist file with the scene-cut script in the final step.
+
+The output of the scene-time script is used with the scene-cut script to create the clips
+
+#+begin_example
+0,11.875
+11.875,3.875
+#+end_example
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+scene-time -i input -o output
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-time -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Create ffmpeg cutlist from scene detection timestamps
+
+Usage: scene-time -i <INPUT> [OPTIONS]
+
+Options:
+  -i <INPUT>     Input file containing timestamps
+  -o <OUTFILE>   Output filename (optional)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  scene-time -i timestamps.txt -o cutlist.txt
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+**** scene-cut
+:PROPERTIES:
+:CUSTOM_ID: scene-cut
+:END:
+
+The scene-cut script is the third and final step in the manual scene-cutting process.
+It takes a video file and the cutlist generated by scene-time to split the video into individual clips.
+
+Note: manual scene-detection uses 3 scripts that work together
+
+1) scene-detect (Identifies scene changes)
+
+2) scene-time (Converts timestamps to a cutlist)
+
+3) scene-cut (Splits the video into clips)
+
+The script uses FFmpeg to perform the cuts.
+It is designed for speed and accuracy, automatically naming each output clip based on the original filename and its scene number.
+
+***** 1) Input format (the cutlist)
+
+FFmpeg requires a start point and a duration (not an end point) to cut accurately.
+The cutlist must be comma-separated values.
+
+Example using sexagesimal format (HH:MM:SS):
+
+#+begin_example
+00:00:00,00:00:30
+00:01:00,00:00:30
+#+end_example
+
+***** 2) Run the script
+
+Provide the original video with the -i option and the cutlist file with the -c option.
+
+#+begin_src sh
+scene-cut -i input.mp4 -c input-detection-cutlist.txt
+#+end_src
+
+The script will process the video and generate files named like this:
+input-scene-001-[00:00:00–00:00:30].mp4
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+scene-cut -i input.mp4 -c cutfile.txt
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-cut -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Split a video into individual scenes based on a cutlist
+
+Usage: scene-cut -i <INPUT> -c <CUTLIST> [OPTIONS]
+
+Options:
+  -i <INPUT>     Input video file
+  -c <CUTLIST>   Cutlist file (comma-separated start,duration)
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  scene-cut -i input.mp4 -c cutlist.txt
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+ffmpeg requires a start point and a duration, not an end point
+
+#+begin_verse
+cut file - hours, minutes, seconds
+in this example we create 2 - 30 seconds clips
+#+end_verse
+
+#+begin_verse
+a 30 second clip that starts at 00:00:00
+and another 30 second clip that starts at 00:01:00
+#+end_verse
+
+#+begin_example
+00:00:00,00:00:30
+00:01:00,00:00:30
+#+end_example
+
+#+begin_verse
+cut file - seconds
+in this example we create 2 - 30 seconds clips
+#+end_verse
+
+#+begin_verse
+a 30 second clip that starts at 0
+and another 30 second clip that starts at 60
+#+end_verse
+
+#+begin_example
+0,30
+60,30
+#+end_example
+
+**** scene-images
+:PROPERTIES:
+:CUSTOM_ID: scene-images
+:END:
+
+🎥 [[https://youtu.be/ALFk6GL9mOk?t=4834][scene-images]]
+
+The scene-images script generates a thumbnail image for every cut point defined in your cutlist.
+This is so you can visually verify that your scene detection or manual timestamps are accurate.
+
+The script supports both PNG and JPG formats,
+and allows you to specify custom widths or heights while maintaining the original aspect ratio of the video.
+
+***** 1) Image Resolution
+
+You can specify the width (-x) or height (-y).
+If you only provide one, the script will automatically calculate the other to maintain the correct proportions.
+
+***** 2) Run the script
+
+Provide the original video with the -i option and the cutlist file (generated by scene-time) with the -c option.
+
+#+begin_src sh
+scene-images -i input.mp4 -c input-detection-cutlist.txt -x 1280 -t jpg
+#+end_src
+
+The script will generate images named after each scene: input-scene-001-[00:00:00].jpg
+
+***** Script usage and help.
+
+#+BEGIN_SRC sh
+scene-images -i input -c cutfile -t (png|jpg) -x width -y height
+#+END_SRC
+
+Run the script with the -h option to show the help.
+
+#+begin_src sh
+scene-images -h
+#+end_src
+
+Help output.
+
+#+begin_example
+Create thumbnails from scene detection timestamps
+
+Usage: scene-images -i <INPUT> -c <CUTLIST> [OPTIONS]
+
+Options:
+  -i <INPUT>     Input video file
+  -c <CUTLIST>   Cutlist file (comma-separated start,duration)
+  -t <FORMAT>    Image format (png or jpg) [default: jpg]
+  -x <WIDTH>     Width of the output image
+  -y <HEIGHT>    Height of the output image
+  -h, --help     Print help
+  -v, --version  Print version
+
+Example:
+  scene-images -i input.mp4 -c cutlist.txt -x 1280 -t jpg
+
+Dependencies:
+  ffmpeg: https://www.ffmpeg.org/
+#+end_example
+
+** NixOS Build and Distribution
+
+This section covers how to compile the scripts for different platforms using Nix.
+We use three distinct targets to ensure maximum compatibility.
+
+*** Setup Build Workspace
+
+First, create a structured directory on your Desktop to collect the finished binaries.
+
+Create directories for each target platform
+
+#+begin_src sh
+mkdir -p ~/Desktop/build/{nixos,linux,windows}
+#+end_src
+
+Optional: Clean existing binaries if doing a fresh release
+
+#+begin_src sh
+rm -f ~/Desktop/build/{nixos,linux,windows}/*
+#+end_src
+
+*** flake.nix
+**** create the project directory
+
+#+begin_src sh
+mkdir -p ~/git/projects/ffmpeg-rust-scripts/
+#+end_src
+
+change directory into the project directory
+
+#+begin_src sh
+cd ~/git/projects/ffmpeg-rust-scripts/
+#+end_src
+
+**** create the flake.nix
+
+#+begin_src sh
+vi flake.nix
+#+end_src
+
+flake.nix
+
+#+begin_src nix
+{
+  description = "rust flake";
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    naersk.url = "github:nix-community/naersk";
+    rust-overlay = {
+      url = "github:oxalica/rust-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+
+  outputs = { self, nixpkgs, naersk, rust-overlay, flake-utils }: 
+    flake-utils.lib.eachDefaultSystem (system:
+    let
+      # system is already provided by eachDefaultSystem, so we don't define it here
+      overlays = [ (import rust-overlay) ];
+      pkgs = import nixpkgs { inherit system overlays; };
+
+      rustToolchain = pkgs.rust-bin.stable.latest.default.override {
+        extensions = [ "rust-src" "rust-analyzer" ];
+        targets = [ "x86_64-unknown-linux-musl" "x86_64-pc-windows-gnu" ]; 
+      };
+
+      naerskLib = (naersk.lib.${system}.override {
+        cargo = rustToolchain;
+        rustc = rustToolchain;
+      });
+    in {
+      devShells.default = pkgs.mkShell {
+        # ADD MINGW TO THE SHELL FOR LINKING
+        buildInputs = [ 
+          rustToolchain 
+          pkgs.pkgsCross.mingwW64.stdenv.cc 
+        ];
+
+
+        # Tell Cargo which linker to use for Windows
+        # Add these lines to help the linker find pthreads
+        shellHook = ''
+          export RUST_SRC_PATH="${rustToolchain}/lib/rustlib/src/rust/library"
+          export NIX_CROSS_LDFLAGS="-L${pkgs.pkgsCross.mingwW64.windows.pthreads}/lib"
+          export NIX_CROSS_CFLAGS_COMPILE="-I${pkgs.pkgsCross.mingwW64.windows.pthreads}/include"
+          export CARGO_TARGET_X86_64_PC_WINDOWS_GNU_LINKER="x86_64-w64-mingw32-gcc"
+          export CARGO_TARGET_X86_64_PC_WINDOWS_GNU_RUSTFLAGS="-L ${pkgs.pkgsCross.mingwW64.windows.pthreads}/lib"
+        '';
+      };
+
+      packages.default = naerskLib.buildPackage {
+        src = ./.;
+      };
+    } 
+  ); # This closes eachDefaultSystem
+}    # This closes outputs
+
+#+end_src
+
+**** run nix develop
+
+run nix develop which will set up the rust environment
+
+#+begin_src sh
+nix develop
+#+end_src
+
+**** Cargo Initialization
+
+After entering the Nix development environment for the first time, you must initialize the Rust project structure.
+
+***** Initialize the Project
+
+Run cargo init to generate the necessary Rust configuration files and directory structure within the current folder.
+
+#+begin_src sh
+cargo init .
+#+end_src
+
+Note: This command creates a Cargo.toml file and a src/ directory with a default main.rs.
+
+***** Staging Project Files
+
+This will automatically create a git repository
+
+Once initialized, you need to track the following essential files in your git repository:
+
+#+begin_example
+.gitignore
+Cargo.toml
+flake.lock
+flake.nix
+src/
+#+end_example
+
+***** Git Setup
+
+Stage all the newly created files:
+
+#+begin_src sh
+git add .
+#+end_src
+
+Finalize the initialization with an initial commit:
+
+#+begin_src sh
+git commit -m 'project init'
+#+end_src
+
+**** gitignore
+
+a .gitignore file will be created
+
+#+begin_example
+.gitignore
+#+end_example
+
+with the following content
+
+#+begin_src sh
+/target
+#+end_src
+
+we need to edit the .gitignore 
+
+#+begin_src sh
+vi .gitignore
+#+end_src
+
+and a new line to exclude the results symlink
+
+#+begin_src sh
+/target
+/result*
+#+end_src
+
+check the git status
+
+#+begin_src sh
+git status
+#+end_src
+
+and then commit the changes
+
+#+begin_src sh
+git add .gitignore
+#+end_src
+
+and add a commit message
+
+#+begin_src sh
+git commit -m "update .gitignore to exclude build results"
+#+end_src
+
+*** NixOS build
+
+note you do not need to be inside the nix develop shell to run nix build
+
+run nix build to build the binaries for NixOS
+
+#+begin_src sh
+nix build
+#+end_src
+
+This will place your binaries in ./result/bin/ instead of target/release/.
+Building this way ensures the build is 100% reproducible and isolated from your local system state.
+Instead of a simple mv, which might fail if the source is the read-only Nix store, you should copy the binaries.
+
+When you copy a binary out of the Nix store, it keeps its "rpath."
+This means it still knows exactly where to find its library dependencies in the nix store, so it will continue to work perfectly.
+
+Create the bin directory in your home if you dont have one
+
+#+begin_src sh
+mkdir -p ~/bin
+#+end_src
+
+Run this command to copy all 32 binaries at once to the bin directory in your home
+
+#+begin_src sh
+cp ./result/bin/* ~/bin/
+#+end_src
+
+copy the scripts to the build directory on the desktop for github
+
+#+begin_src sh
+cp ./result/bin/* ~/Desktop/build/nixos/
+#+end_src
+
+A Note on Updates
+
+Keep in mind that if you change your Rust code and run nix build again, the binaries in ~/bin will not update automatically.
+You'll just need to run that cp command again to "deploy" your latest versions.
+
+*** Linux build (static)
+
+To build portable binaries that run on any Linux distribution, we use the musl target.
+This statically links all libraries so the binary is self-contained.
+
+You must be inside the nix develop shell to run this command.
+
+#+begin_src sh
+nix develop
+#+end_src
+
+Build the binaries using the musl target
+
+#+begin_src sh
+cargo build --release --target x86_64-unknown-linux-musl
+#+end_src
+
+The binaries will be located in target/x86_64-unknown-linux-musl/release/.
+
+list the binaries
+
+#+begin_src sh
+ls -l target/x86_64-unknown-linux-musl/release/
+#+end_src
+
+How to verify they are truly "Static"
+One of the main reasons to use musl is to ensure the binary has no external dependencies.
+
+You can verify this by running the ldd command on one of the new binaries:
+
+#+begin_src sh
+ldd target/x86_64-unknown-linux-musl/release/scene-detect-auto
+#+end_src
+
+Expected Output: It should say statically linked or not a dynamic executable.
+
+This confirms that a user on Ubuntu, Debian,
+or Arch can just download that file and run it immediately (provided they have ffmpeg installed).
+
+Copy the binaries to the build directory on the desktop
+
+#+begin_src sh
+fd -t f -d 1 -E "*.*" . target/x86_64-unknown-linux-musl/release/ -x cp {} ~/Desktop/build/linux/
+#+end_src
+
+explaination of the fd command
+
+#+begin_example
+-t f: Look for files only.
+
+-d 1: Depth 1 (don't go into subfolders like deps or build).
+
+-E "*.*": Exclude any file with a dot in the name (skips .d, .rlib, etc.).
+
+.: The search pattern (matches everything not excluded).
+
+target/.../release/: The directory to search in.
+
+-x cp {} ...: Execute the copy command for every search result.
+#+end_example
+
+The ! -name "*.*" logic in standard find can sometimes be finicky depending on the shell, but fd's -E (exclude) flag is very robust.
+
+This will cleanly grab your 32 binaries and ignore all the compiler junk.
+
+*** Windows build (static)
+
+To build binaries for Windows, we use the MinGW-w64 toolchain.
+You must be inside the nix develop shell to run this command.
+
+This ensures the environment variables for the linker and library paths are correctly set.
+
+#+begin_src sh
+nix develop
+#+end_src
+
+Build the binaries using the gnu target
+
+#+begin_src sh
+cargo build --release --target x86_64-pc-windows-gnu
+#+end_src
+
+The binaries will be located in target/x86_64-pc-windows-gnu/release/.
+
+list the binaries
+
+#+begin_src sh
+ls -l target/x86_64-pc-windows-gnu/release/*.exe 
+#+end_src
+
+Copy the binaries to the build directory on the desktop
+
+#+begin_src sh
+fd -t f -e exe --max-depth 1 . target/x86_64-pc-windows-gnu/release/ -x cp {} ~/Desktop/build/windows/
+#+end_src
+
+**** Troubleshooting the Windows Build
+
+If the build fails with an error stating it cannot find -l:libpthread.a,
+ensure your flake.nix includes the CARGO_TARGET_X86_64_PC_WINDOWS_GNU_RUSTFLAGS variable in the shellHook.
+
+If you have recently modified the flake.nix,
+you may need to exit the shell and run nix develop again to refresh the environment.
+
+Running a cargo clean before rebuilding can also help resolve linking conflicts.
+
+#+begin_src sh
+cargo clean
+#+end_src
+
+*** Create the release
+**** rename the build directory on the desktop
+
+#+begin_src sh
+cd ~/Desktop
+#+end_src
+
+Note: replace v4 with the release number in the examples below.
+
+#+begin_src sh
+mv build ffmpeg-rust-scripts-build-v4
+#+end_src
+
+Change into the ffmpeg-rust-scripts-build-v4 directory
+
+#+begin_src sh
+cd ffmpeg-rust-scripts-build-v4
+#+end_src
+
+**** rename the build directories for nixos, linux and windows
+
+linux
+
+#+begin_src sh
+mv linux linux-ffmpeg-rust-scripts-v4
+#+end_src
+
+nixos
+
+#+begin_src sh
+mv nixos nixos-ffmpeg-rust-scripts-v4
+#+end_src
+
+windows
+
+#+begin_src sh
+mv windows windows-ffmpeg-rust-scripts-v4
+#+end_src
+
+**** remove the ffmpeg_rust_scripts file
+
+The ffmpeg_rust_scripts file is build from the main.rs which is a list of all the scripts,
+and is not needed so we can remove it.
+
+Remove the ffmpeg_rust_scripts file from the Linux, NixOS and Windows build directories
+
+Linux
+
+#+begin_src sh
+rm -i linux-ffmpeg-rust-scripts-v4/ffmpeg_rust_scripts
+#+end_src
+
+NixOS
+
+#+begin_src sh
+rm -i nixos-ffmpeg-rust-scripts-v4/ffmpeg_rust_scripts
+#+end_src
+
+Windows
+
+#+begin_src sh
+rm -i windows-ffmpeg-rust-scripts-v4/ffmpeg_rust_scripts.exe
+#+end_src
+
+**** compress the releases
+***** linux
+
+#+begin_src sh
+tar -czvf linux-ffmpeg-rust-scripts-v4.tar.gz linux-ffmpeg-rust-scripts-v4
+#+end_src
+
+***** nixos
+
+#+begin_src sh
+tar -czvf nixos-ffmpeg-rust-scripts-v4.tar.gz nixos-ffmpeg-rust-scripts-v4
+#+end_src
+
+***** windows
+
+#+begin_src sh
+zip -r windows-ffmpeg-rust-scripts-v4.zip windows-ffmpeg-rust-scripts-v4
+#+end_src
+
+**** create release-files directory
+
+#+begin_src sh
+mkdir -p release-files-v4
+#+end_src
+
+move the tar files and zip into the release-files directory
+
+#+begin_src sh
+mv *-ffmpeg-rust-scripts-v[0-9]*{.tar.gz,.zip} release-files-v4/
+#+end_src
+
+**** create checksums for the archives
+
+change directory into the release-files-v1 directory
+
+#+begin_src sh
+cd release-files-v4
+#+end_src
+
+create the checksums
+
+***** linux 
+
+#+begin_src sh
+sha256sum linux-ffmpeg-rust-scripts-v4.tar.gz > linux-ffmpeg-rust-scripts-v4.tar.gz.sha256
+#+end_src
+
+***** nixos
+
+#+begin_src sh
+sha256sum nixos-ffmpeg-rust-scripts-v4.tar.gz > nixos-ffmpeg-rust-scripts-v4.tar.gz.sha256
+#+end_src
+
+***** windows
+
+#+begin_src sh
+sha256sum windows-ffmpeg-rust-scripts-v4.zip > windows-ffmpeg-rust-scripts-v4.zip.sha256
+#+end_src
+
+*** Remove old scripts before rebuilding.
+
+To remove the old scripts before rebuilding
+
+**** nixos
+
+Remove the result symlink which points to the previous Nix store build.
+
+#+begin_src sh
+rm -i result
+#+end_src
+
+**** linux and windows
+
+Run nix develop to enter the development environment with all necessary dependencies
+
+#+begin_src sh
+nix develop
+#+end_src
+
+Remove the old compiled binaries and build artifacts (for both Linux and Windows targets) by running cargo clean.
+
+#+begin_src sh
+cargo clean
+#+end_src
+
+*** Working on new features in a git branch
+
+When working on a new feature, create a separate Git branch to keep the master branch stable.
+
+**** Checking the current Git branch
+
+#+begin_src sh
+git branch
+#+end_src
+
+The output will contain the current branch prefixed with an asterisk (*).
+
+#+begin_example
+master
+#+end_example
+
+**** Create a new Git branch
+
+Use the -b option with checkout to create and switch to a new branch called dev.
+
+#+begin_src sh
+git checkout -b dev
+#+end_src
+
+Verify the branch switch:
+
+#+begin_src sh
+git branch
+#+end_src
+
+The output will contain the current branch prefixed with an asterisk.
+
+#+begin_example
+dev
+master
+#+end_example
+
+**** Add a new feature and commit the changes
+
+After making your changes, stage and commit them.
+
+#+begin_src sh
+git add .
+#+end_src
+
+Commit the changes.
+
+#+begin_src sh
+git commit -m 'new feature'
+#+end_src
+
+**** Merge the changes from the dev branch to master
+
+Switch back to the master git branch
+
+#+begin_src sh
+git checkout master
+#+end_src
+
+To merge the changes from your local dev branch into master:
+
+#+begin_src sh
+git merge dev
+#+end_src
+
+If you need to merge a branch that exists on a remote (e.g.,github) but not locally, ensure you have fetched the latest metadata first, then merge the remote tracking branch:
+
+#+begin_src sh
+git fetch github
+#+end_src
+
+#+begin_src sh
+git merge github/dev
+#+end_src
+
+**** Delete a local branch
+
+Once the feature is merged, you can delete the local dev branch:
+
+#+begin_src sh
+git branch -d dev
+#+end_src
+
+To force delete a branch (e.g., if it contains unmerged changes you wish to discard):
+
+#+begin_src sh
+git branch -D dev
+#+end_src

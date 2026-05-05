@@ -1,0 +1,38 @@
+A 3D-particle-gravity simulation using OpenGL's transform-feedback feature
+making all physics and graphics run on the GPU.
+
+You'll need SDL2 and the corresponding SDL_image on a recent Linux-distribution
+and with the right dependencies fulfilled it also compiles and runs under OSX
+and Windows (I verified both).
+
+How to compile and run (Linux):
+ * make
+ * ./glsl-transform-feedback_release 0
+ or
+ * ./glsl-transform-feedback_debug 0
+
+(Try passing 1 instead of 0 and play around with the gravity sources :)
+
+Compiling under OSX and Windows is a bit more involved. I might update the
+branch to compile and run out of the box (assuming build-dependencies are
+satisfied) on these platforms too.
+
+Currently hooked up interaction:
+ * ESC - quit
+ * SPACE - reset simulation and disable any gravity-source
+ * LMB-click - place attracting gravity-source
+ * LMB-drag - drag attracting gravity-source around in a plane 
+ * MMB-click - disable any gravity-source
+ * RMB-click - place repelling gravity-source
+ * RMB-drag - drag repelling gravity-source
+
+Furthermore you should not bother with this if your system's OpenGL-implement-
+ation is < 3.2.
+
+For questions, suggestions, feedback or patches you can reach me via:
+ * eMail: macslow@gmail.com
+ * IRC (FreeNode): #OpenGL, #ubuntu as MacSlow 
+
+There's also a WebGL2/JavaScript-implementation of this available at:
+ * https://macslow.org/js/webgl2-transform-feedback.html?cubeSize=100?flag=0
+

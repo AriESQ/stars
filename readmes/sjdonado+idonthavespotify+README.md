@@ -1,0 +1,82 @@
+> IDHS (I Don't Have Spotify)
+
+Copy a link from your favorite streaming service, paste it into the search bar, and voilà! Links to the track on all other supported platforms are displayed. If the original source is Spotify you'll even get a quick audio preview to ensure it's the right track.
+
+**Note:** Playlists are out of scope. Only individual tracks, albums, artists, and podcasts are supported.
+
+## Supported Streaming Services
+
+Adapters represent the streaming services supported by the Web App and the Raycast Extension. Each adapter allows the app to convert links from one platform to others. The table below shows which features are available for each one:
+
+| Adapter          | Inverted Search | Official API           | Verified Links |
+| ---------------- | --------------- | ---------------------- | -------------- |
+| Spotify          | Yes             | No                     | Yes            |
+| Tidal            | Yes             | Yes                    | Yes            |
+| YouTube Music    | Yes             | No                     | Yes            |
+| Apple Music      | Yes             | No                     | Yes            |
+| Deezer           | Yes             | Yes                    | Yes            |
+| SoundCloud       | Yes             | No                     | Yes            |
+| Qobuz            | Yes             | No                     | Yes            |
+| Bandcamp         | Yes             | No                     | Yes            |
+| Pandora          | Yes             | No                     | Yes            |
+
+## Architecture overview: Parsers and Adapters
+
+IDHS extracts metadata from the provided link and uses that information to create a new query for public search engines or official APIs, such as Apple Music, YouTube, and SoundCloud. It selects the result that seems most relevant, but it cannot guarantee that the returned link is the exact track you want or even a song at all. Suggestions for improving the query-building workflow are welcome, with the main constraint being to keep requests fast and excluding brute-force retries to avoid rate limits.
+
+### Parsers (`src/parsers`)
+Identify the incoming link's platform and extract normalized metadata (title, description, type, image, and optional audio) as well as a consistent search query. For example, a Spotify link is parsed to gather Open Graph metadata and produce a query string that represents the track/album/artist/show/episode. This query is later used to search other platforms.
+
+### Adapters (`src/adapters`)
+Turn that normalized query into outbound links for each destination platform (Spotify, YouTube Music, Apple Music, Deezer, SoundCloud, Tidal). Each adapter is responsible for:
+- Performing a platform-specific search (API or HTML-based) using the normalized query
+- Returning a result with `type`, `url`, and flags like `isVerified` and `notAvailable`
+- Preferring "verified" links when the platform provides a reliable match signal
+
+This separation keeps the system modular: parsers focus on understanding the source, while adapters focus on finding the best possible destination links.
+
+## Web App
+
+<div align="center">
+<img width="1831" height="969" alt="image" src="https://github.com/user-attachments/assets/98d6f3ca-3627-49ea-ad2b-0c2b64668b14" />
+</div>
+
+## Extensions
+
+### Raycast
+
+<a title="Install idonthavespotify Raycast Extension" href="https://www.raycast.com/sjdonado/idonthavespotify"><img src="https://www.raycast.com/sjdonado/idonthavespotify/install_button@2x.png?v=1.1" height="64" style="height: 64px;" alt=""></a>
+
+Source code: https://github.com/raycast/extensions/tree/main/extensions/idonthavespotify
+
+## Local Setup
+
+The list of environment variables is available in `.env.test`. To complete the values for the following variables:
+- `TIDAL_CLIENT_ID` and `TIDAL_CLIENT_SECRET`, refer to [TIDAL Developer Portal](https://developer.tidal.com/).
+- `YOUTUBE_API_KEY`, refer to [Google Developers Console](https://console.developers.google.com/).
+
+**Note:** Spotify search uses an anonymous access token extracted from the Spotify web player (`open.spotify.com`) via a TOTP-based authentication flow. This is necessary because as of March 2026, Spotify [restricted their Web API](https://www.reddit.com/r/webdev/comments/1rflyiz/changes_to_spotify_api/) to require a Premium account for Development Mode and limited the available endpoints. Since this project doesn't have a premium account, we use the same internal GraphQL API that the Spotify web player itself uses. The token is auto-refreshed (~1 hour expiry) and requires no developer account.
+
+Ensure that the values are correctly added to your `.env` file to configure the API keys properly.
+
+- To get the app up:
+```sh
+bun install
+bun dev
+```
+
+- To run with url-shortener:
+
+Set this ENV file `URL_SHORTENER_API_KEY`, with the value used in `docker-compose.yml`
+```sh
+docker compose up -d
+bun install
+bun dev
+```
+
+## More info
+
+Contributions are more than welcome, just open a PR and I'll review it promptly.
+
+<img width=50 src="https://user-images.githubusercontent.com/27580836/227801051-a71d389e-2510-4965-a23e-d7478fe28f13.jpeg"/>
+Icon Generated by https://deepai.org/machine-learning-model/text2img

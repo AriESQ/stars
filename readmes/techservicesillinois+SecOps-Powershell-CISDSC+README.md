@@ -1,0 +1,73 @@
+![CISDSC Pester Tests](https://github.com/techservicesillinois/SecOps-Powershell-CISDSC/workflows/CISDSCResourceGeneration%20Pester%20Tests/badge.svg)
+![CISDSCResourceGeneration Pester Tests](https://github.com/techservicesillinois/SecOps-Powershell-CISDSC/workflows/CISDSC%20Pester%20Tests/badge.svg)
+![ScriptAnalyzer](https://github.com/techservicesillinois/SecOps-Powershell-CISDSC/workflows/ScriptAnalyzer/badge.svg)
+
+# What is This?
+
+This project is designed to deliver [CIS](https://www.cisecurity.org/) security benchmarks in PowerShell DSC via the included [CISDSC](src/CISDSC) module. Note that CIS benchmarks are designed for domain joined machines meaning stand-alone/workgroup machines are not supported. If applied to a stand-alone machine any remoting capabilities will break without proper exclusions and may have other unknown side effects.
+
+It also contains a module to assist in the creation of these resources via [CISDSCResourceGeneration](src/CISDSCResourceGeneration) which is a heavily modified fork of [Microsoft's BaselineManagement](https://github.com/microsoft/BaselineManagement) module.
+
+# What is PowerShell DSC?
+
+PowerShell DSC is a configuration management framework built into Windows 7+ powered by PowerShell. The below video gives a high level explanation of the framework.
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=k_rXBIHu3xk">
+    <b>What is PowerShell DSC (Desired State Configuration)?</b></br>
+    <img width="480" height="360" src="https://img.youtube.com/vi/k_rXBIHu3xk/0.jpg">
+  </a>
+  </br>Credit to "Eye on Tech" for the great explanation video
+</p>
+
+PowerShell DSC resources like the ones offered here can be utilized within other configuration management platforms as well. Making this an easy solution regardless of your platform of choice. However the majority of these platforms do not currently support composite resources so generic PowerShell script options may be required vs native DSC support. This is an issue with the PSDesiredStateConfiguration module that is not currently open source.</br>
+
+- [Ansible](https://docs.ansible.com/ansible/latest/modules/win_dsc_module.html)</br>
+- [Chef](https://docs.chef.io/resources/dsc_resource/)</br>
+- [Puppet](https://puppet.com/blog/managing-powershell-dsc-puppet/)</br>
+- [SaltStack](https://docs.saltstack.com/en/master/ref/modules/all/salt.modules.win_dsc.html)</br>
+- [Manually](https://docs.microsoft.com/en-us/powershell/scripting/dsc/configurations/write-compile-apply-configuration?view=powershell-7#compile-the-configuration)
+
+More detailed information can be found in the [getting started with DSC document](docs/dsc_getting_started.md)
+
+# How do I install it?
+
+The actual DSC resources should be installed via the CISDSC module's [PSGallery page](https://www.powershellgallery.com/packages/CISDSC).
+
+```powershell
+# This will install on the local machine
+Install-Module -Name 'CISDSC'
+
+# This will download a copy of the module and its dependencies to the specified location
+Save-Module -Name 'CISDSC' -Path 'Replace Me'
+```
+
+You can be notified of new releases by following the [notifications documentation](docs/notification.md).
+
+The process of customizing these resources for your environment is outlined in [customization](docs/customization.md).
+
+# How do I use it?
+
+After installing the module and dependencies, find [example scripts](https://github.com/techservicesillinois/SecOps-Powershell-CISDSC/tree/main/src/CISDSC/examples) applicable to your build, modify as needed, and run. These scripts can also be run through system deployment tools like MECM.
+
+# How can I contribute?
+
+Contribution information can be found in the [contributions documentation](CONTRIBUTING.md).
+Any community engagement is subject to the [code of conduct](CODE_OF_CONDUCT.md).
+
+# Found a bug or a vulnerability?
+
+Disclosure details can be found in the [security documentation](SECURITY.md).
+
+# End-of-Life and End-of-Support Dates
+
+This product is supported by the Cybersecurity teams at the
+University of Illinois Urbana-Champaign on a best-effort basis.
+
+As of the last update to this README, the expected End-of-Life
+and End-of-Support dates of this product are 10 November 2026.
+
+End-of-Life was decided upon based on these dependencies:
+
+- PowerShell 7.4 (10 November 2026)
+- Windows 11 23H2 (10 November 2026)

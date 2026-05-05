@@ -1,0 +1,114 @@
+# GrobPaint
+
+Somewhere between MS Paint and Paint.NET. Multiplatform by default.
+
+Paint.NET doesn't run on macOS. GrobPaint fills that gap: a lightweight image editor with layers, blend modes, and selection tools, built with web technologies and a tiny Python backend. The goal isn't to clone Paint.NET or compete with Photoshop. It's to have the tools you actually need without the bloat.
+
+![Python](https://img.shields.io/badge/python-3.9+-blue) ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey) ![License](https://img.shields.io/badge/license-MIT-green)
+
+<img width="1163" height="834" alt="GrobPaint screenshot" src="https://github.com/user-attachments/assets/6bd72530-341c-4a07-ad25-be5eb4c1ec41" />
+
+## Features
+
+- **Layers** - add, delete, duplicate, merge, reorder, per-layer opacity and blend modes (16 modes)
+- **Tools** - Pencil, Brush, Eraser, Fill, Eyedropper, Line, Rectangle, Ellipse, Text, Select, Magic Wand, Lasso, Move
+- **Selection** - rectangular, magic wand with live tolerance, and freehand lasso; move/resize/rotate content with handles, copy/cut/paste, crop to selection
+- **Adjustments** - brightness/contrast, hue/saturation/lightness, gaussian blur, sharpen (unsharp mask) - all with live preview
+- **Color** - HSV picker, RGB/Hex input, alpha channel, palettes (Lospec 500, PICO-8), swap primary/secondary
+- **Canvas** - zoom (scroll wheel, pinch, keyboard, editable input + slider), pan (space+drag, middle-click, trackpad), fit-to-view, grid overlay
+- **File I/O** - PNG, JPEG, BMP, GIF; native `.gbp` project format preserves layers as a ZIP archive
+- **Sprite sheets** - split a sheet into layers, or export layers as a horizontal sheet
+- **Image operations** - scale (nearest/bilinear/bicubic), canvas resize with anchor, flip, flatten
+- **Multi-document** - draggable tabs, multiple images open at once
+- **Clipboard** - copy/paste within app and to/from system clipboard
+- **Auto-save** - all work is persisted to localStorage automatically
+
+## Getting started
+
+### Run from source
+
+```bash
+python grobpaint.py
+```
+
+This launches a native window using [pywebview](https://pywebview.flowrl.com/). If pywebview isn't installed, it falls back to your default browser.
+
+To force browser mode:
+
+```bash
+python grobpaint.py --browser
+```
+
+**Dependencies:**
+
+- Python 3.9+
+- `pywebview` (optional, for native window) - `pip install pywebview`
+
+No npm, no bundler, no build step. The frontend is vanilla JS with ES modules. GrobPaint is also a PWA - it can be installed from the browser and works offline.
+
+### Build a standalone app
+
+```bash
+./build.sh
+```
+
+Produces `dist/GrobPaint.app` (macOS) or `dist/GrobPaint/GrobPaint` (binary) via PyInstaller.
+
+### Use in browser only
+
+You can also open `index.html` directly or serve it with any static file server. File dialogs won't be available, but the editor falls back to browser file input and download for open/save.
+
+## Keyboard shortcuts
+
+| Shortcut | Action |
+|---|---|
+| `P` `B` `E` `F` `I` `L` `R` `O` `T` `S` `W` `M` | Tool hotkeys |
+| `[` / `]` | Decrease / increase brush size |
+| `X` | Swap primary/secondary colors |
+| `+` / `-` | Zoom in / out |
+| `Ctrl+0` | Fit in view |
+| `Ctrl+1` | Actual size (100%) |
+| `Ctrl+N` | New image |
+| `Ctrl+O` | Open file |
+| `Ctrl+S` | Save |
+| `Ctrl+Shift+S` | Save as |
+| `Ctrl+Z` / `Ctrl+Shift+Z` | Undo / redo |
+| `Ctrl+C` / `Ctrl+X` / `Ctrl+V` | Copy / cut / paste |
+| `Ctrl+A` / `Ctrl+D` | Select all / deselect |
+| `Ctrl+G` | Toggle grid |
+| `Enter` | Commit active transform |
+| `Escape` | Cancel active transform |
+| `Delete` | Delete selection |
+| `Space` + drag | Pan canvas |
+
+## Project format
+
+`.gbp` files are ZIP archives containing:
+
+```
+manifest.json       # dimensions, layer metadata (name, opacity, visibility, blend mode)
+layers/
+  layer_0.png
+  layer_1.png
+  ...
+```
+
+## Architecture
+
+The app is ~5000 lines of vanilla JavaScript split across five modules:
+
+| File | Role |
+|---|---|
+| `js/core.js` | EventBus, Layer, History (swap-based undo/redo), PaintDocument, Selection with contour tracing |
+| `js/renderer.js` | Compositing engine, checkerboard background, zoom/pan, grid overlay |
+| `js/tools.js` | All tools, flood fill, flood select, lasso, Bresenham line |
+| `js/ui.js` | Color system, HSV picker, layers panel, document tabs, menus, dialogs, image adjustments |
+| `js/app.js` | App init, canvas events, keyboard shortcuts, file I/O, clipboard |
+| `grobpaint.py` | Python HTTP server + pywebview launcher, native file dialogs |
+| `sw.js` | Service worker for PWA offline support |
+
+No frameworks, no dependencies beyond one CDN include (JSZip for browser-side `.gbp` support).
+
+## Acknowledgments
+
+GrobPaint was built with significant help from [Claude](https://claude.ai) by Anthropic.

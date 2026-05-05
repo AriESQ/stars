@@ -1,0 +1,114 @@
+![Project Logo](assets/logo.png)
+
+# Wifi Pineapple Cloner v4
+
+The Pineapple NANO and TETRA are excellent security hardware but in 2020 they reached their end of life.<br>
+So to give a new life to this platform on modern hardware I developed these scripts to port it to different routers.<br>
+
+Sometime between 2019 and 2020 we started using the private beta of this project which my friends called "Pineapple Termidor".<br>
+So at the time of redoing this project I decided to rescue the original name from forgotten 🤣
+
+
+## About this project
+
+This project is the result of everything I've experienced from 2018 to 2022 to successfully port the NANO and TETRA in any hardware.<br>
+
+For this I've develop:
+* The method of patching the file system with the minimum to be able to work. For this I created the list of files to copy and the script that copies them.
+* A script to patch the file system to work on any hardware.
+* Completely updated [panel](https://github.com/xchwarze/wifi-pineapple-panel) with fixes and improvements.
+* Completely updated [packages repository](https://github.com/xchwarze/wifi-pineapple-community-packages) ([build](https://github.com/xchwarze/wifi-pineapple-community/tree/main/packages)).
+* New [module repository](https://github.com/xchwarze/wifi-pineapple-community/tree/main/modules).
+* And some new modules that are basic to use a device like this nowadays. New modules: [PMKIDAttack](https://github.com/xchwarze/wifi-pineapple-community/tree/main/modules/src/PMKIDAttack) and [Terminal](https://github.com/xchwarze/wifi-pineapple-community/tree/main/modules/src/Terminal)
+* I also carefully checked every dependency that was installed on the device in order to have more free space on the main partition.
+
+![Panel](assets/termidor-mipsel.png)
+
+
+## Builds
+
+You can find the complete steps to build this project in [this document](build.md). I have also added several important notes that will help you to try porting to other devices.
+
+If you are interested in developing tools of this type, you may find my new development interesting [Frieren](https://github.com/xchwarze/frieren)
+
+
+## Supported devices
+
+This project supports over **200 confirmed devices** capable of running the firmware without issues.  
+You can check the complete [supported devices list](devices.md) for detailed compatibility information.  
+
+If your router is not officially supported, **private test builds** are available on Patreon for experimental use.  
+
+Additionally, the [build repository](https://gitlab.com/xchwarze/wifi-pineapple-cloner-builds) contains precompiled firmware images for the most common supported models.  
+
+**If your device isn’t listed or you prefer a newer, actively developed alternative, check out my other project [Frieren](https://github.com/xchwarze/frieren).**
+
+
+## How does this method differ from other firmware builds available online?
+
+Most firmware images found on the internet are created using [Patrick Sapinski’s method](https://sapinski.com/2016/02/13/wifi-pineapple-firmware-for-gl-inet-gl-ar150/), which duplicates the entire original filesystem.  
+While it works, this approach wastes space and frequently causes instability — that’s why I developed a new, optimized technique.
+
+I first presented this improved method at **EkoParty 2020** and **DragonJar 2021** during my hardware porting talks.  
+You can find the materials from those presentations [here](https://github.com/indetectables-net/embedded).
+
+In 2021, an [idiot named Samy Younsi](https://github.com/xchwarze/wifi-pineapple-cloner/issues/5) shamelessly plagiarized my work, copying the method I had developed and showcased at conferences.  
+A few months later, he rewrote it in Python based on **Wifi Pineapple Cloner v1** and started distributing it as his own.
+
+During 2022, I refined and fully debugged the process, making it possible to port the Pineapple firmware to almost any hardware with results identical to the original device.
+
+This final iteration achieves:
+- **Much smaller firmware size**  
+- **Higher stability and reliability**  
+- **Performance indistinguishable from official hardware**
+<br>
+
+
+## Install steps
+
+1. Install **OpenWrt version 19.07.7** on your router.  
+   You can find official firmware images at [https://firmware-selector.openwrt.org/](https://firmware-selector.openwrt.org/).  
+   Note that some routers may not appear there — in those cases, you will need to manually locate the correct firmware link for your device.  
+   Remember, **not all routers are supported by this OpenWrt version**.
+
+2. Open the **OpenWrt 19.07.7 LuCI web interface** (default: `http://192.168.1.1`).  
+   Navigate to **System → Backup / Flash Firmware → Flash new firmware image**.  
+
+3. Download the correct firmware for your router model from the [official build repository](https://gitlab.com/xchwarze/wifi-pineapple-cloner-builds).  
+   Upload that file (e.g. `gl-ar750s-universal-sysupgrade.bin`) in the LuCI panel, and check the option **“Do not keep settings”** to ensure a clean installation.  
+   **You must install it with the do not save configuration over reflash option checked.**
+
+4. Click **Flash Image**, confirm, and wait patiently until the flashing process and automatic reboot are fully completed.
+
+5. Enter to pineapple panel and enjoy! `http://172.16.42.1:1471/`
+   In the [download](https://gitlab.com/xchwarze/wifi-pineapple-cloner-builds) repo you can find some debugging tips if you have problems.
+
+6. Once installed, the project has a tool that helps us to do several things.
+   For example you can use it to change the panel theme with this command:
+   ```bash
+   wpc-tools theme_install
+   ```
+
+
+## Recomended setup
+
+1. [GL-AR150](https://www.gl-inet.com/products/gl-ar150/) or [GL-AR750S](https://www.gl-inet.com/products/gl-ar750s)
+
+2. USB 2.0 [2 ports hub](https://www.ebay.com/itm/144520475350)
+
+3. USB Pendrive or a SD Card (depending on what your router best supports) 
+
+4. Generic [RT5370 WIFI adapter](https://www.ebay.com/itm/284904442887) or [MT7612U WIFI adapter](https://www.ebay.com/itm/175219205235) **you're really going to need this on hardware that doesn't have two wifi adapters**
+
+5. Please support Hak5 work and buy the new hardware!
+
+
+## Patreon and Tips!
+
+Those who want to help buy testing hardware or just give me a tip, you can do it by sending donations to my Binance account.
+I also made a [Patreon](https://www.patreon.com/xchwarze) account where I share private builds and tests. Here you can find updates for the **Pineapple Nano** and builds to **improve stability** on 5g.
+
+[![patreon](assets/patreon.png)](https://www.patreon.com/xchwarze)
+![binance-qr](assets/binance-qr.png)
+
+

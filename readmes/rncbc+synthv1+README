@@ -1,0 +1,115 @@
+synthv1 - an old-school polyphonic synthesizer
+----------------------------------------------
+
+  an old-school 4-oscillator subtractive polyphonic synthesizer
+  with stereo fx.
+
+Features:
+
+  - pure stand-alone JACK [1] client with JACK-session, NSM [3] and both
+    JACK MIDI and ALSA MIDI [2] input support;
+
+  - LV2 [4] instrument plugin.
+    URI: http://synthv1.sourceforge.net/lv2
+
+License:
+
+  synthv1 is free, Linux Audio [5] open-source software, distributed under
+  the terms of the GNU General Public License (GPL) [6] version 2 or later.
+
+Website:
+
+  https://synthv1.sourceforge.io
+  http://synthv1.sourceforge.net
+
+Project page:
+
+  https://sourceforge.net/projects/synthv1
+
+Git repos:
+
+  https://git.code.sf.net/p/synthv1/code
+  https://github.com/rncbc/synthv1.git
+  https://gitlab.com/rncbc/synthv1.git
+  https://codeberg.org/rncbc/synthv1.git
+
+Weblog:
+
+  https://www.rncbc.org
+
+Requirements:
+
+  mandatory,
+
+  - Qt framework [7], C++ class library and tools for
+    cross-platform application and UI development
+    https://qt.io/
+
+  optional (opted-in at build time),
+
+  - JACK [1] Audio Connection Kit
+    https://jackaudio.org/
+
+  - ALSA [2], Advanced Linux Sound Architecture
+    https://www.alsa-project.org/
+
+  - LV2 [4], Audio Plugin Standard, the extensible successor of LADSPA
+    https://lv2plug.in/
+
+  - liblo [8], Lightweight OSC implementation
+    (needed for NSM support [3])
+    http://liblo.sourceforge.net/
+
+Installation:
+
+  - unpack tarball as usual; in the extracted source directory:
+
+    cmake [-DCMAKE_INSTALL_PREFIX=<prefix>] -B build
+    cmake --build build [--parallel <Njobs>]
+
+  - optionally, as root:
+
+    [sudo] cmake --install build
+
+  - note that the default installation path (<prefix>) is /usr/local .
+
+Acknowledgements:
+
+  synthv1 logo/icon is an original fine work of Jarle Richard Akselsen.
+
+References:
+
+ [1] JACK Audio Connection Kit
+     https://jackaudio.org/
+
+ [2] ALSA, Advanced Linux Sound Architecture
+     https://www.alsa-project.org/
+
+ [3] Non Session Management (NSM) (legacy)
+     http://non.tuxfamily.org/nsm/
+     New Session Manager (NSM)
+     https://new-session-manager.jackaudio.org/
+
+ [4] LV2, Audio Plugin Standard, the extensible successor of LADSPA
+     http://lv2plug.in/
+
+ [5] Linux Audio consortium of libre software for audio-related work
+     https://linuxaudio.org
+
+ [6] GNU General Public License
+     https://www.gnu.org/copyleft/gpl.html
+
+ [7] Qt framework, C++ class library and tools for
+     cross-platform application and UI development
+     https://qt.io/
+
+ [8] liblo [8], Lightweight OSC implementation
+     (needed for NSM support)
+     http://liblo.sourceforge.net/
+
+
+Cheers && Enjoy.
+--
+rncbc aka. Rui Nuno Capela
+rncbc@rncbc.org
+https://www.rncbc.org

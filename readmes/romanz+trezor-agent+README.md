@@ -1,0 +1,35 @@
+# Hardware-based SSH/GPG/age agent
+
+[![Build](https://github.com/romanz/trezor-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/romanz/trezor-agent/actions)
+[![Chat](https://badges.gitter.im/romanz/trezor-agent.svg)](https://gitter.im/romanz/trezor-agent)
+
+This project allows you to use various hardware security devices to operate GPG, SSH and age.  Instead of keeping your key on your computer and decrypting it with a passphrase when you want to use it, the key is generated and stored on the device and never reaches your computer.  Read more about the design [here](doc/DESIGN.md).
+
+You can do things like sign your emails, git commits, and software packages, manage your passwords (with [pass](https://www.passwordstore.org/) and [passage](https://github.com/FiloSottile/passage), among others), authenticate web tunnels and file transfers, and more.
+
+See the following blog posts about this tool:
+
+- [TREZOR Firmware 1.3.4 enables SSH login](https://medium.com/@satoshilabs/trezor-firmware-1-3-4-enables-ssh-login-86a622d7e609)
+- [TREZOR Firmware 1.3.6 — GPG Signing, SSH Login Updates and Advanced Transaction Features for Segwit](https://medium.com/@satoshilabs/trezor-firmware-1-3-6-20a7df6e692)
+- [TREZOR Firmware 1.4.0 — GPG decryption support](https://www.reddit.com/r/TREZOR/comments/50h8r9/new_trezor_firmware_fidou2f_and_initial_ethereum/d7420q7/)
+
+Currently [TREZOR One](https://trezor.io/), [TREZOR Model T](https://trezor.io/), [Blockstream Jade](https://blockstream.com/jade/) and [OnlyKey](https://onlykey.io) are supported.
+
+## Components
+
+This repository contains source code for one library as well as
+agents to interact with several different hardware devices:
+
+* [`libagent`](https://pypi.org/project/libagent/): shared library
+* [`trezor-agent`](https://pypi.org/project/trezor-agent/): Using Trezor as hardware-based SSH/PGP/age agent
+* [`jade_agent`](https://github.com/Blockstream/Jade/): Using Blockstream Jade as hardware-based SSH/PGP agent
+* [`onlykey-agent`](https://pypi.org/project/onlykey-agent/): Using OnlyKey as hardware-based SSH/PGP agent
+
+## Documentation
+
+* **Installation** instructions are [here](doc/INSTALL.md)
+* **SSH** instructions and common use cases are [here](doc/README-SSH.md)
+* **GPG** instructions and common use cases are [here](doc/README-GPG.md)
+* **age** instructions and common use cases are [here](doc/README-age.md)
+* Instructions to configure a Trezor-style **PIN entry** program are [here](doc/README-PINENTRY.md)
+* Instructions for using the tools on Windows are [here](doc/README-Windows.md)

@@ -1,0 +1,311 @@
+# :fox_face: CloudFox :fox_face:
+CloudFox helps you gain situational awareness in unfamiliar cloud environments. It’s an open source command line tool created to help penetration testers and other offensive security professionals find exploitable attack paths in cloud infrastructure. 
+
+> **CLOUDFOX UPDATE REQUIRED: (12/2025):** If you are using `cloudfox`, you need to use v1.17.0 or greater. All earlier versions [stopped working after a format change in AWS's public service mapping file](https://github.com/BishopFox/cloudfox/pull/109). 
+
+**Overview** 
+
+#### CloudFox helps you answer the following common questions (and many more): 
+
+* What regions is this AWS account using and roughly how many resources are in the account?
+* What secrets are lurking in EC2 userdata or service specific environment variables?
+* What workloads have administrative permissions attached?  
+* What actions/permissions does this [principal] have?
+* What role trusts are overly permissive or allow cross-account assumption?
+* What endpoints/hostnames/IPs can I attack from an external starting point (public internet)?
+* What endpoints/hostnames/IPs can I attack from an internal starting point (assumed breach within the VPC)?
+* What filesystems can I potentially mount from a compromised resource inside the VPC?
+
+## Demos, Examples, Walkthroughs
+* [Blog - Introducing: CloudFox](https://bishopfox.com/blog/introducing-cloudfox)
+* [Video - CloudFox + CloudFoxable A Powerful Duo for Mastering the Art of Identifying and Exploiting AWS Attack Paths](https://www.youtube.com/watch?v=RdQiIvCrSzk)
+* [Video - Penetration Testing with CloudFox](https://www.youtube.com/watch?v=Ljt_JUp5HbM)
+* [Video - CloudFox Intro Demos](https://www.youtube.com/watch?v=ReWoUgpUuiQ)
+* [Video - Tool Talk: CloudFox AWS sub-command walkthroughs](https://youtu.be/KKsYfL5uVU4?t=360)
+
+## Intentionally Vulnerable Playground 
+* [CloudFoxable - A Gamified Cloud Hacking Sandbox](https://cloudfoxable.bishopfox.com/)
+
+## Want to chat about CloudFox? 
+Join us on the [RedSec discord server](https://discord.gg/redsec)
+
+
+## Quick Start
+CloudFox is modular (you can run one command at a time), but there is an `aws all-checks` command that will run the other aws commands for you with sane defaults: 
+
+`cloudfox aws --profile [profile-name] all-checks`
+
+![](/.github/images/cloudfox-output-p1.png)
+![](/.github/images/cloudfox-output-p2.png)
+
+### White Box Enumeration
+CloudFox was designed to be executed by a principal with limited read-only permissions, but it's purpose is to help you find attack paths that can be exploited in simulated compromise scenarios (aka, objective based penetration testing). 
+
+### Black Box Enumeration 
+CloudFox can be used with "found" credentials, similar to how you would use [weirdAAL](https://github.com/carnal0wnage/weirdAAL) or [enumerate-iam](https://github.com/andresriancho/enumerate-iam). Checks that fail, do so silently, so any data returned means your "found" creds have the access needed to retrieve it.   
+
+### Documentation
+For the full documentation please refer to our [wiki](https://github.com/BishopFox/CloudFox/wiki).
+
+
+## Supported Cloud Providers
+
+| Provider| CloudFox Commands |
+| - | - |
+| AWS | 34 |
+| Azure | 4 |
+| GCP | 60 |
+| Kubernetes | Support Planned | 
+
+
+# Install
+
+**Option 1:** Download the [latest binary release](https://github.com/BishopFox/cloudfox/releases) for your platform.
+
+**Option 2:** If you use homebrew: `brew install cloudfox`
+
+**Option 3:** [Install Go](https://golang.org/doc/install), use `go install github.com/BishopFox/cloudfox@latest` to install from the remote source
+ 
+**Option 4:** Developer mode:
+
+   [Install Go](https://golang.org/doc/install), clone the CloudFox repository and compile from source
+   ```
+   # git clone https://github.com/BishopFox/cloudfox.git
+   # cd ./cloudfox
+   # Make any changes necessary
+   # go build .
+   # ./cloudfox
+   ```
+
+**Option 5:** Testing a bug fix
+  ```
+  git clone git@github.com:BishopFox/cloudfox.git
+  git checkout seth-dev 
+  go build .
+  ./cloudfox [rest of the command options]
+  ```
+
+# Prerequisites
+
+
+### AWS
+* AWS CLI installed
+* Supports AWS profiles, AWS environment variables, or metadata retrieval (on an ec2 instance)
+   * To run commands on multiple profiles at once, you can specify the path to a file with a list of profile names separated by a new line using the `-l` flag or pass all stored profiles with the `-a` flag.
+* A principal with one recommended policies attached (described below)
+* Recommended attached policies: **`SecurityAudit` + [CloudFox custom policy](./misc/aws/cloudfox-policy.json)** 
+
+Additional policy notes (as of 09/2022):    
+
+| Policy | Notes | 
+| - | - |
+| [CloudFox custom policy](./misc/aws/cloudfox-policy.json) | Has a complete list of every permission cloudfox uses and nothing else |
+|  `arn:aws:iam::aws:policy/SecurityAudit` | Covers most cloudfox checks but is missing newer services or permissions like apprunner:\*, grafana:\*, lambda:GetFunctionURL, lightsail:GetContainerServices |
+|  `arn:aws:iam::aws:policy/job-function/ViewOnlyAccess` | Covers most cloudfox checks but is missing newer services or permissions like AppRunner:\*, grafana:\*, lambda:GetFunctionURL, lightsail:GetContainerServices - and is also missing iam:SimulatePrincipalPolicy. 
+|  `arn:aws:iam::aws:policy/ReadOnlyAccess` | Only missing AppRunner, but also grants things like "s3:Get*" which can be overly permissive. |
+|  `arn:aws:iam::aws:policy/AdministratorAccess` | This will work just fine with CloudFox, but if you were handed this level of access as a penetration tester, that should probably be a finding in itself :) |
+
+### Azure
+* Viewer or similar permissions applied.
+
+### GCP
+* Google Cloud SDK installed and authenticated
+* Application Default Credentials configured (`gcloud auth application-default login`)
+* Recommended permissions at appropriate hierarchy levels (see below)
+
+#### GCP Permissions: Minimal vs Comprehensive
+
+**Minimal Permissions (Single Project):**
+
+For basic enumeration of a single project, the `roles/viewer` role provides read access to most resources (includes logging, monitoring, and compute/network viewing).
+
+**Comprehensive Permissions (Organization-Wide):**
+
+For thorough security assessments across an entire organization:
+
+| Scope | Role | Purpose |
+| - | - | - |
+| **Organization** | `roles/resourcemanager.organizationViewer` | View organization structure and metadata |
+| **Organization** | `roles/iam.securityReviewer` | Review IAM policies across the organization |
+| **Organization** | `roles/cloudasset.viewer` | Query Cloud Asset Inventory for all resources |
+| **Organization** | `roles/cloudidentity.groupsViewer` | Enumerate Google Groups and memberships |
+| **Folder** | `roles/resourcemanager.folderViewer` | View folder hierarchy and metadata |
+| **Project** | `roles/viewer` | Read access to most project resources (includes logging.viewer, monitoring.viewer, compute.viewer) |
+| **Tooling Project** | `roles/serviceusage.serviceUsageAdmin` | (Optional) Manage API quotas for CloudFox operations |
+
+> **Note:** The basic `roles/viewer` role includes permissions from `roles/logging.viewer`, `roles/monitoring.viewer`, and `roles/compute.networkViewer`, so these don't need to be granted separately.
+
+#### GCP API Requirements
+
+**APIs must be enabled in each project you want to assess.** GCP APIs are project-scoped.
+
+| API | Service Name | Purpose |
+| - | - | - |
+| Cloud Identity API | `cloudidentity.googleapis.com` | Group enumeration, inherited role analysis |
+| Cloud Asset API | `cloudasset.googleapis.com` | Cross-project resource discovery |
+| Cloud Resource Manager API | `cloudresourcemanager.googleapis.com` | Organization mapping, IAM enumeration |
+| IAM API | `iam.googleapis.com` | IAM analysis, privilege escalation detection |
+| Compute Engine API | `compute.googleapis.com` | Instance enumeration, network security |
+| Secret Manager API | `secretmanager.googleapis.com` | Secrets enumeration |
+| Cloud Functions API | `cloudfunctions.googleapis.com` | Serverless enumeration |
+| Cloud Run API | `run.googleapis.com` | Serverless enumeration |
+| Kubernetes Engine API | `container.googleapis.com` | Container security analysis |
+| BigQuery API | `bigquery.googleapis.com` | Data security analysis |
+
+For detailed setup instructions, see the [GCP Setup Guide](https://github.com/BishopFox/cloudfox/wiki/GCP-Setup-Guide).
+
+# AWS Commands
+| Provider | Command Name | Description 
+| - | - | - | 
+| AWS | [all-checks](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#all-checks) | Run all of the other commands using reasonable defaults. You'll  still want to check out the non-default options of each command, but this is a great place to start.  |
+| AWS | [access-keys](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#access-keys) | Lists active access keys for all users. Useful for cross referencing a key you found with which in-scope account it belongs to.  |
+| AWS | [api-gw](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#api-gw) | Lists API gateway endpoints and gives you custom curl commands including API tokens if they are stored in metadata. |
+| AWS | [buckets](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#filesystems)  | Lists the buckets in the account and gives you handy commands for inspecting them further.  |
+| AWS | [cape](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#cape)  |  Enumerates cross-account privilege escalation paths. Requires `pmapper` to be run first |
+| AWS | [cloudformation](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#cloudformation)  | Lists the cloudformation stacks in the account. Generates loot file with stack details, stack parameters, and stack output - look for secrets. |
+| AWS | [codebuild](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#codebuild)  | Enumerate CodeBuild projects |
+| AWS | [databases](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#databases)  | Enumerate RDS databases. Get a loot file with connection strings. |
+| AWS | [ecr](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#ecr) | List the most recently pushed image URI from all repositories. Use the loot file to pull selected images down with docker/nerdctl for inspection. |
+| AWS | [ecs-tasks](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#ecs-tasks) | List all ecs tasks. This returns a list of ecs tasks and associated cluster, task definition, container instance, launch type, and associated IAM principal. |
+| AWS | [eks](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#eks) | List all EKS clusters, see if they expose their endpoint publicly, and check the associated IAM roles attached to reach cluster or node group. Generates a loot file with the `aws eks udpate-kubeconfig` command needed to connect to each cluster. |
+| AWS | [elastic-network-interfaces](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#eni) | List all eni information. This returns a list of eni ID, type, external IP, private IP, VPCID, attached instance and a description. |
+| AWS | [endpoints](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#endpoints) | Enumerates endpoints from various services. Scan these endpoints from both an internal and external position to look for things that don't require authentication, are misconfigured, etc. |
+| AWS | [env-vars](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#env-vars) | Grabs the environment variables from services that have them (App Runner, ECS, Lambda, Lightsail containers, Sagemaker are supported. If you find a sensitive secret, use `cloudfox iam-simulator` AND `pmapper` to see who has access to them. |
+| AWS | [filesystems](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#filesystems)  |  Enumerate the EFS and FSx filesystems that you might be able to mount without creds (if you have the right network access). For example, this is useful when you have `ec:RunInstance` but not `iam:PassRole`.  |
+| AWS | [iam-simulator](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#iam-simulator) | Like pmapper, but uses the IAM policy simulator. It uses AWS's evaluation logic, but notably, it doesn't consider transitive access via privesc, which is why you should also always also use pmapper.   |
+| AWS | [instances](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#instances) | Enumerates useful information for EC2 Instances in all regions like name, public/private IPs, and instance profiles. Generates loot files you can feed to nmap and other tools for service enumeration.  |
+| AWS | [inventory](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#inventory) | Gain a rough understanding of size of the account and preferred regions.  |
+| AWS | [lambda](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#lambda)  | Lists the lambda functions in the account, including which one's have admin roles attached. Also gives you handy commands for downloading each function.  |
+| AWS | [network-ports](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#network-ports) | Enumerates AWS services that are potentially exposing a network service. The security groups and the network ACLs are parsed for each resource to determine what ports are potentially exposed. |
+| AWS | [orgs](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#orgs)  |  Enumerate accounts in an organization |
+| AWS | [outbound-assumed-roles](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#outbound-assumed-roles)  |  List the roles that have been assumed by principals in this account. This is an excellent way to find outbound attack paths that lead into other accounts. |
+| AWS | [permissions](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#permissions) | Enumerates IAM permissions associated with all users and roles. Grep this output to figure out what permissions a particular principal has rather than logging into the AWS console and painstakingly expanding each policy attached to the principal you are investigating. |
+| AWS | [pmapper](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#pmapper) | Looks for pmapper data stored on the local filesystem, [in the locations defined here](https://github.com/nccgroup/PMapper/wiki/Frequently-Asked-Questions#where-does-pmapper-store-its-data). If pmapper data has been found (you already ran `pmapper graph create`), then this command will use this data to build a graph in cloudfox memory let you know who can privesc to admin. 
+| AWS | [principals](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#principals) | Enumerates IAM users and Roles so you have the data at your fingertips. |
+| AWS | [ram](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#ram) | List all resources in this account that are shared with other accounts, or resources from other accounts that are shared with this account. Useful for cross-account attack paths. |
+| AWS | [resource-trusts](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#resource-trusts) | Looks through multiple services that support resource policies and helps you find any overly permissive resource trusts. KMS is supported but disabled by default. To include KMS resource policies in the output, add this flag to the command: `cloudfox aws resource-trusts --include-kms`.|
+| AWS | [role-trusts](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#role-trusts) | Enumerates IAM role trust policies so you can look for overly permissive role trusts or find roles that trust a specific service. |
+| AWS | [route53](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#route53) | Enumerate all records from all route53 managed zones. Use this for application and service enumeration. |
+| AWS | [secrets](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#secrets) | List secrets from SecretsManager and SSM. Look for interesting secrets in the list and then see who has access to them using use `cloudfox iam-simulator` and/or `pmapper`. |
+| AWS | [sns](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#sns) | This command enumerates all of the sns topics and gives you the commands to subscribe to a topic or send messages to a topic (if you have the permissions needed). This command only deals with topics, and not the SMS functionality. This command also attempts to summarize topic resource policies if they exist.|
+| AWS | [sqs](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#sqs) | This command enumerates all of the sqs queues and gives you the commands to receive messages from a queue and send messages to a queue (if you have the permissions needed). This command also attempts to summarize queue resource policies if they exist.|
+| AWS | [tags](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#tags) | List all resources with tags, and all of the tags. This can be used similar to inventory as another method to identify what types of resources exist in an account. |
+| AWS | [workloads](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#workloads) | List all of the compute workloads and what role they have.  Tells you if any of the roles are admin (bad) and if you have pmapper data locally, it will tell you if any of the roles can privesc to admin (also bad) |
+| AWS | [ds](https://github.com/BishopFox/cloudfox/wiki/AWS-Commands#workloads) | List all of the AWS-managed directories and their attributes. Also summarizes the current trusts with their directions and types. |
+
+
+# Azure Commands
+| Provider | Command Name | Description 
+| - | - | - | 
+| Azure | [whoami](https://github.com/BishopFox/cloudfox/wiki/Azure-Commands#whoami) | Displays information on the tenant, subscriptions and resource groups available to your current Azure CLI session. This is useful to provide situation awareness on what tenant and subscription IDs to use with the other sub commands. | 
+| Azure | [inventory](https://github.com/BishopFox/cloudfox/wiki/Azure-Commands#inventory) | Display an inventory table of all resources per location. | 
+| Azure | [rbac](https://github.com/BishopFox/cloudfox/wiki/Azure-Commands#rbac) | Lists Azure RBAC role assignments at subscription or tenant level |
+| Azure | [storage](https://github.com/BishopFox/cloudfox/wiki/Azure-Commands#storage) | The storage command is still under development. Currently it only displays limited data about the storage accounts | 
+| Azure | [vms](https://github.com/BishopFox/cloudfox/wiki/Azure-Commands#vms) | Enumerates useful information for Compute instances in all available resource groups and subscriptions | 
+
+
+# GCP Commands
+
+For detailed documentation on each GCP command, see the [GCP Commands Wiki](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands).
+
+| Provider | Command Name | Description
+| - | - | - |
+| GCP | [whoami](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#whoami) | Display identity context for the authenticated GCP user/service account |
+| GCP | [iam](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#iam) | Enumerate GCP IAM principals across organizations, folders, and projects |
+| GCP | [permissions](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#permissions) | Enumerate ALL permissions for each IAM entity with full inheritance explosion |
+| GCP | [serviceaccounts](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#serviceaccounts) | Enumerate GCP service accounts with security analysis |
+| GCP | [service-agents](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#service-agents) | Enumerate Google-managed service agents |
+| GCP | [keys](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#keys) | Enumerate all GCP keys (SA keys, HMAC keys, API keys) |
+| GCP | [resource-iam](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#resource-iam) | Enumerate IAM policies on GCP resources (buckets, datasets, secrets, etc.) |
+| GCP | [domain-wide-delegation](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#domain-wide-delegation) | Find service accounts with Domain-Wide Delegation to Google Workspace |
+| GCP | [privesc](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#privesc) | Identify privilege escalation paths in GCP projects |
+| GCP | [hidden-admins](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#hidden-admins) | Identify principals who can modify IAM policies (hidden admins) |
+| GCP | [identity-federation](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#identity-federation) | Enumerate Workload Identity Federation (external identities) |
+| GCP | [instances](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#instances) | Enumerate GCP Compute Engine instances with security configuration |
+| GCP | [gke](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#gke) | Enumerate GKE clusters with security analysis |
+| GCP | [cloudrun](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cloudrun) | Enumerate Cloud Run services and jobs with security analysis |
+| GCP | [functions](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#functions) | Enumerate GCP Cloud Functions with security analysis |
+| GCP | [app-engine](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#app-engine) | Enumerate App Engine applications and security configurations |
+| GCP | [composer](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#composer) | Enumerate Cloud Composer environments |
+| GCP | [dataproc](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#dataproc) | Enumerate Dataproc clusters |
+| GCP | [dataflow](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#dataflow) | Enumerate Dataflow jobs and pipelines |
+| GCP | [notebooks](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#notebooks) | Enumerate Vertex AI Workbench notebooks |
+| GCP | [workload-identity](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#workload-identity) | Enumerate GKE Workload Identity and Workload Identity Federation |
+| GCP | [inventory](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#inventory) | Quick resource inventory - works without Cloud Asset API |
+| GCP | [storage](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#storage) | Enumerate GCP Cloud Storage buckets with security configuration |
+| GCP | [storage-enum](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#storage-enum) | Enumerate GCS buckets for sensitive files (credentials, secrets, configs) |
+| GCP | [bigquery](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#bigquery) | Enumerate GCP BigQuery datasets and tables with security analysis |
+| GCP | [cloudsql](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cloudsql) | Enumerate Cloud SQL instances with security analysis |
+| GCP | [spanner](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#spanner) | Enumerate Cloud Spanner instances and databases |
+| GCP | [bigtable](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#bigtable) | Enumerate Cloud Bigtable instances and tables |
+| GCP | [filestore](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#filestore) | Enumerate Filestore NFS instances |
+| GCP | [memorystore](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#memorystore) | Enumerate Memorystore (Redis) instances |
+| GCP | [vpc-networks](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#vpc-networks) | Enumerate VPC Networks |
+| GCP | [firewall](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#firewall) | Enumerate VPC networks and firewall rules with security analysis |
+| GCP | [loadbalancers](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#loadbalancers) | Enumerate Load Balancers |
+| GCP | [dns](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#dns) | Enumerate Cloud DNS zones and records with security analysis |
+| GCP | [endpoints](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#endpoints) | Enumerate all network endpoints (external and internal) with IPs, ports, and hostnames |
+| GCP | [private-service-connect](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#private-service-connect) | Enumerate Private Service Connect endpoints and service attachments |
+| GCP | [network-topology](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#network-topology) | Visualize VPC network topology, peering relationships, and trust boundaries |
+| GCP | [vpc-sc](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#vpc-sc) | Enumerate VPC Service Controls |
+| GCP | [access-levels](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#access-levels) | Enumerate Access Context Manager access levels |
+| GCP | [cloud-armor](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cloud-armor) | Enumerate Cloud Armor security policies and find weaknesses |
+| GCP | [iap](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#iap) | Enumerate Identity-Aware Proxy configurations |
+| GCP | [beyondcorp](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#beyondcorp) | Enumerate BeyondCorp Enterprise configurations |
+| GCP | [kms](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#kms) | Enumerate Cloud KMS key rings and crypto keys with security analysis |
+| GCP | [secrets](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#secrets) | Enumerate GCP Secret Manager secrets with security configuration |
+| GCP | [cert-manager](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cert-manager) | Enumerate SSL/TLS certificates and find expiring or misconfigured certs |
+| GCP | [org-policies](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#org-policies) | Enumerate organization policies and identify security weaknesses |
+| GCP | [artifact-registry](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#artifact-registry) | Enumerate GCP Artifact Registry and Container Registry with security configuration |
+| GCP | [cloudbuild](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cloudbuild) | Enumerate Cloud Build triggers and builds |
+| GCP | [source-repos](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#source-repos) | Enumerate Cloud Source Repositories |
+| GCP | [scheduler](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#scheduler) | Enumerate Cloud Scheduler jobs with security analysis |
+| GCP | [pubsub](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#pubsub) | Enumerate Pub/Sub topics and subscriptions with security analysis |
+| GCP | [logging](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#logging) | Enumerate Cloud Logging sinks and metrics with security analysis |
+| GCP | [organizations](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#organizations) | Enumerate GCP organization hierarchy |
+| GCP | [asset-inventory](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#asset-inventory) | Enumerate Cloud Asset Inventory with optional dependency analysis |
+| GCP | [backup-inventory](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#backup-inventory) | Enumerate backup policies, protected resources, and identify backup gaps |
+| GCP | [lateral-movement](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#lateral-movement) | Map lateral movement paths, credential theft vectors, and pivot opportunities |
+| GCP | [data-exfiltration](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#data-exfiltration) | Identify data exfiltration paths, potential vectors, and missing security hardening |
+| GCP | [public-access](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#public-access) | Find resources with allUsers/allAuthenticatedUsers access across 16 GCP services |
+| GCP | [cross-project](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#cross-project) | Analyze cross-project IAM bindings, logging sinks, and Pub/Sub exports for lateral movement |
+| GCP | [foxmapper](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#foxmapper) | Run FoxMapper (graph-based IAM analysis) for privilege escalation path discovery |
+| GCP | [logging-enum](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#logging-enum) | Scan Cloud Logging entries for sensitive data (credentials, tokens, PII) |
+| GCP | [bigquery-enum](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#bigquery-enum) | Scan BigQuery datasets, tables, and columns for sensitive data indicators |
+| GCP | [bigtable-enum](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#bigtable-enum) | Scan Bigtable instances, tables, and column families for sensitive data indicators |
+| GCP | [spanner-enum](https://github.com/BishopFox/cloudfox/wiki/GCP-Commands#spanner-enum) | Scan Spanner database schemas for sensitive table and column names |
+
+
+
+# Authors
+* [Carlos Vendramini](https://github.com/carlosvendramini-bf)
+* [Seth Art (@sethsec](https://twitter.com/sethsec))
+* Joseph Barcia
+
+# Contributing
+[Wiki - How to Contribute](https://github.com/BishopFox/cloudfox/wiki#how-to-contribute)
+
+
+# FAQ
+
+**How does CloudFox compare with ScoutSuite, Prowler, Steampipe's AWS Compliance Module, AWS Security Hub, etc.**
+
+CloudFox doesn't create any alerts or findings, and doesn't check your environment for compliance to a baseline or benchmark. Instead, it simply enables you to be more efficient during your manual penetration testing activities. If gives you the information you'll likely need to validate whether an attack path is possible or not. 
+
+**Why do I see errors in some CloudFox commands?**
+
+* Services that don't exist in all regions - CloudFox tries a few ways to figure out what services are supported in each region. However some services don't support the methods CloudFox uses, so CloudFox defaults to just asking every region about the service. Regions that don't support the service will return errors. 
+* You don't have permission - Another reason you might see errors if you don't have permissions to make calls that CloudFox is making. Either because the policy doesn't allow it (e.g., SecurityAudit doesn't allow all of the permissions CloudFox needs. Or, it might be an SCP that is blocking you.  
+
+You can always look in the ~/.cloudfox/cloudfox-error.log file to get more information on errors. 
+
+# Prior work and other related projects 
+* [SmogCloud](https://github.com/BishopFox/smogcloud) - Inspiration for the `endpoints` command
+* [SummitRoute's AWS Exposable Resources](https://github.com/SummitRoute/aws_exposable_resources)  - Inspiration for the `endpoints` command
+* [Steampipe](https://steampipe.io/) - We used steampipe to prototype many cloudfox commands. While CloudFox is laser focused on helping cloud penetration testers, steampipe is an easy way to query any and all of your cloud resources. 
+* [Principal Mapper](https://github.com/nccgroup/PMapper) - Inspiration for, and a strongly recommended partner to the `iam-simulator` command
+* [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - Inspiration for the `permissions` command
+* [ScoutSuite](https://github.com/nccgroup/ScoutSuite) - Excellent cloud security benchmark tool. Provided inspiration for the `--userdata` functionality in the `instances` command, the `permissions` command, and many others
+* [Prowler](https://github.com/prowler-cloud/prowler) - Another excellent cloud security benchmark tool. 
+* [Pacu](https://github.com/RhinoSecurityLabs/pacu) - Excellent cloud penetration testing tool. PACU has quite a few enumeration commands similar to CloudFox, and lots of other commands that automate exploitation tasks (something that CloudFox avoids by design) 
+ * [CloudMapper](https://github.com/duo-labs/cloudmapper) - Inspiration for the `inventory` command and just generally CloudFox as a whole 

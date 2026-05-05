@@ -1,0 +1,63 @@
+# shimmers
+
+[![CI](https://github.com/dgtized/shimmers/actions/workflows/continuous-deployment.yaml/badge.svg?branch=main)](https://github.com/dgtized/shimmers/actions/workflows/continuous-deployment.yaml)
+
+Shimmering [quil](https://github.com/quil/quil) sketches; a few particle
+simulations, video processing experiments, randomly generated L-systems, 3d
+transformations, and cellular automata.
+
+https://dgtized.github.io/shimmers
+
+Note: Some sketches apply video effects to webcam video, so it may prompt for
+video permissions to use your webcam. However, it's not transmitting the video
+anywhere, just processing it locally on your machine.
+
+## Install
+
+Install JDK and [Clojure CLI Tools](https://clojure.org/guides/getting_started)
+
+    $ npm install # overrides p5.js to current version over cljsjs coordinates
+    $ bin/install-bb
+
+## Usage
+
+    $ bin/repl
+
+This launches a [figwheel REPL](https://figwheel.org/) that will update after saving any changes.
+
+https://localhost:9500 shows main app,
+http://localhost:9500/figwheel-extra-main/tests shows test results.
+
+### Emacs & Cider
+
+My preferred development environment is Emacs using Cider to communicate with
+the ClojureScript browser REPL. This should start using `cider-jack-in-cljs`
+presuming Emacs and Cider are already configured.
+
+The [.dir-locals.el](.dir-locals.el) configuration also enables a couple
+convenience functions in [shimmers.el](shimmers.el). It binds <kbd>f8</kbd> to
+`shimmers-visit-sketch`, which will change the current sketch in the browser to
+reflect the current sketch file buffer in Emacs. It also adds
+`shimmers-visit-tests` that opens a browser window to the test runner.
+
+### Testing
+
+Tests are verified in continuous integration using Github Actions but can also
+be run locally using:
+
+    $ bin/ci
+    $ bin/lint
+
+## Release
+
+Push to github will build a release automatically. It's using `bb build` to
+create a build in `static-site`, and then uploads the new build to github pages using
+actions.
+
+## License
+
+This source repository is released under the AGPL 3.0 free software license.
+
+See [LICENSE](LICENSE) for details.
+
+Copyright © 2020-2026 Charles L.G. Comstock

@@ -1,0 +1,486 @@
+# VEDA Keycloak
+
+An experimental Keycloak deployment for the VEDA project.
+
+## Development
+
+- `keycloak-config-cli/config` - Configuration YAML files.
+- `keycloak/providers` - Custom Service Provider Interfaces.
+- `keycloak/themes` - Custom Keycloak themes.
+
+### Architecture
+
+![Architecture Diagram](./.docs/architecture.excalidraw.svg)
+
+### Configuration
+
+We currently make use of the [keycloak-config-cli](https://github.com/adorsys/keycloak-config-cli) to apply configuration at time of deployment.
+
+> `keycloak-config-cli` is a Keycloak utility to ensure the desired configuration state for a realm based on a JSON/YAML file. The format of the JSON/YAML file based on the export realm format.
+
+Configuration is stored within `keycloak-config-cli/config` in YAML files for each Keycloak realm managed.
+
+> [!IMPORTANT]
+> At each deployment, the keycloak-config-cli will likely overwrite changes made outside of the configuration stored within this repository for a given realm.
+
+#### Creating Clients
+
+Creating a client application within Keycloak is done by editing the config YAML for the realm.
+
+##### Public Client
+
+A minimum example of a public client (ie a client that only runs within the frontend, such as single page application):
+
+```yaml
+clients:
+  - clientId: grafana
+    name: Grafana
+    publicClient: true
+    rootUrl: https://example.com
+    redirectUris:
+      - https://example.com/*
+    webOrigins:
+      - https://example.com
+    protocol: openid-connect
+    fullScopeAllowed: true
+```
+
+##### Private Client
+
+For a private client (ie a client that runs within the frontend, such as single page application), a secret will automatically be created and injected into the configuration runtime environemt at time of deployment. This secret will be made available when configuring Keycloak via an environment variable `$SLUG_CLIENT_SECRET`, where `$SLUG` represents a slugify version of the `clientId` value (e.g. a client with an id of `stac-api` will have a secret available at `STAC_API_CLIENT_SECRET`).
+
+The generated client secret will be stored in AWS Secrets Manager in the same account & region as the deployment. The name of this secret will follow the following convention: `veda-keycloak-$stage-client-$clientId` (eg a Grafana client in the production deployment will generate the following secret: `veda-keycloak-prod-client-grafana`).  The generated secret contains the following information:
+
+* `id`: OAuth Client ID
+* `secret`: OAuth Client Secret
+* `auth_url`: URL of the OAuth [authorization endpoint](https://datatracker.ietf.org/doc/html/rfc6749#section-3.1)
+* `token_url`: URL of the OAuth [token endpoint](https://datatracker.ietf.org/doc/html/rfc6749#section-3.2)
+* `userinfo_url`: URL of the OIDC [user info endpoint](https://openid.net/specs/openid-connect-core-1_0.html#UserInfo)
+
+A minimum example of a private client (note `publicClient: false` and `secret`):
+
+```yaml
+clients:
+  - clientId: grafana
+    name: Grafana
+    publicClient: false
+    secret: $(env:GRAFANA_CLIENT_SECRET)
+    rootUrl: https://example.com
+    redirectUris:
+      - https://example.com/*
+    webOrigins:
+      - https://example.com
+    protocol: openid-connect
+    fullScopeAllowed: true
+```
+
+<details>
+
+<summary>Consider also using an environment variable for URLs for greater flexibility</summary>
+
+
+```yaml
+clients:
+  - clientId: grafana
+    name: Grafana
+    publicClient: false
+    secret: $(env:GRAFANA_CLIENT_SECRET)
+    rootUrl: $(env:GRAFANA_CLIENT_URL)$
+    redirectUris:
+      - $(env:GRAFANA_CLIENT_URL)$/*
+    webOrigins:
+      - $(env:GRAFANA_CLIENT_URL)$
+    protocol: openid-connect
+    fullScopeAllowed: true
+```
+
+> [!IMPORTANT]
+> For the above example, we also must ensure that `GRAFANA_CLIENT_URL` is set within the Github Environment's variables via the Github settings console.
+
+</details>
+
+##### Resource Server Client
+
+A resource server client enables Keycloak's Authorization Services for fine-grained, multitenant authorization of protected resources. This requires `authorizationServicesEnabled: true` and `serviceAccountsEnabled: true`.
+
+This is an example of a resource server configuration definition:
+
+```yaml
+clients:
+  - clientId: uma-resource-server
+    name: Authorization Resource Server
+    publicClient: false
+    secret: $(env:UMA_RESOURCE_SERVER_CLIENT_SECRET)
+    protocol: openid-connect
+    standardFlowEnabled: false
+    serviceAccountsEnabled: true
+    authorizationServicesEnabled: true
+    protocolMappers:
+      - name: groups
+        protocol: openid-connect
+        protocolMapper: oidc-group-membership-mapper
+        config:
+          access.token.claim: "true"
+          claim.name: groups
+          jsonType.label: String
+          multivalued: "true"
+          full.path: "true"
+    authorizationSettings:
+      allowRemoteResourceManagement: true
+      policyEnforcementMode: ENFORCING
+      resources:
+        - name: resource:tenant1:*
+          type: "custom-resource"
+          ownerManagedAccess: false
+          uris:
+            - "resource:tenant1:*"
+          scopes:
+            - name: "read"
+            - name: "write"
+      policies:
+        - name: Tenant 1 Users
+          type: group
+          logic: POSITIVE
+          decisionStrategy: UNANIMOUS
+          config:
+            groups: '[{"path":"/Tenants/Tenant1/Users","extendChildren":false}]'
+            groupsClaim: "groups"
+        - name: Tenant 1 - Read Access
+          type: scope
+          logic: POSITIVE
+          decisionStrategy: AFFIRMATIVE
+          config:
+            resources: '["resource:tenant1:*"]'
+            scopes: '["read"]'
+            applyPolicies: '["Tenant 1 Users"]'
+      scopes:
+        - name: read
+        - name: write
+      decisionStrategy: UNANIMOUS
+```
+
+**Key points:**
+
+- **`authorizationServicesEnabled: true`**: Enables authorization services
+- **`serviceAccountsEnabled: true`**: Required for resource server authentication
+- **Protocol Mappers**: Include group mappers for group-based policies
+- **`authorizationSettings`**: Defines resources (what is protected), scopes (actions like read/write), and policies (who can access what)
+
+> [!TIP]
+> For a complete multitenant example, see the `uma-resource-server` configuration in [`keycloak-config-cli/config/dev/veda.yaml`](keycloak-config-cli/config/dev/veda.yaml).
+
+##### Resource Access Control
+
+Resource servers support two modes of access control:
+
+- **Policy-Based Access** (`ownerManagedAccess: false`): Access is controlled by policies defined in the configuration. Only administrators can modify access by updating policies.
+
+- **User-Managed Access (UMA)** (`ownerManagedAccess: true`): Resource owners can dynamically grant or revoke permissions on their resources via the Protection API, in addition to any policies defined.
+
+**Enabling UMA:**
+
+To enable UMA for a resource, set `ownerManagedAccess: true` and ensure "User-Managed Access" is enabled in Realm Settings. For example, say we are defining a resource:
+
+```yaml
+resources:
+  - name: example-resource:*
+    type: "stac-collection"
+    ownerManagedAccess: true  # Enable UMA - resource owners can manage access
+    uris:
+      - "stac:collection:public:*"
+    scopes:
+      - name: "read"
+      - name: "create"
+```
+
+##### Cross Account Secret Access
+
+In cases where another AWS account needs to read a private client secret, resource policies must be added to the secret as well as the application role arn that needs access to the secret. See the [AWS docs](https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples_cross.html) for more details on cross account secret access. In this repo, `cdk/lib/keycloak/config.py` creates a KMS for client secrets and adds resource policies for the specified application roles however you must configure the following:
+
+1) Include a Github Environment variable with the format `APPLICATION_ROLE_ARN_$clientId` for the client secret that needs to be read in another account. You can supply multiple ARNs, comma-separated (for example, `APPLICATION_ROLE_ARN_AIRFLOW_INGEST_API_ETL=arn:aws:iam::123456789012:role/ApplicationRole,arn:aws:iam::210987654321:role/AnotherApplicationRole`).
+
+2) Reference the Github Environment variable in both [deploy.yaml](.github/workflows/deploy.yaml) and [diff.yaml](.github/workflows/diff.yaml)
+
+3) Add an Identity policy to the consuming role in the other account:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "secretsmanager:GetSecretValue",
+      "Resource": "arn:aws:secretsmanager:REGION:ACCOUNT_A_ID:secret:SECRET_NAME_OR_ARN"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "kms:Decrypt",
+      "Resource": "arn:aws:kms:REGION:ACCOUNT_A_ID:key/KEY_ID"
+    }
+  ]
+}
+```
+
+##### Scopes, Roles, and Groups
+
+Clients will typically have associated Scopes, Roles, and Groups.
+
+- Scopes can be thought of as individual permissions used by a client.
+- Roles are collections of permissions that enable a typical function (e.g. system administration)
+- Groups are collections of users that we want to grant with roles.
+
+An example of a client with associated scopes, roles, & groups:
+
+```yaml
+clients:
+  - clientId: grafana
+    # ... omitted for brevity
+    fullScopeAllowed: true
+    defaultClientScopes:
+      - web-origins
+      - acr
+      - profile
+      - roles
+      - basic
+      - email
+      - grafana:admin
+      - grafana:editor
+      - grafana:viewer
+
+roles:
+  client:
+    grafana:
+      - name: Administrator
+        description: Grafana Administrator
+      - name: Editor
+        description: Grafana Editor
+      - name: Viewer
+        description: Grafana Viewer
+
+clientScopeMappings:
+  grafana:
+    - clientScope: grafana:admin
+      roles:
+        - Administrator
+    - clientScope: grafana:editor
+      roles:
+        - Editor
+    - clientScope: grafana:viewer
+      roles:
+        - Viewer
+
+clientScopes:
+  - name: grafana:admin
+    description: Admin access to Grafana
+    protocol: openid-connect
+  - name: grafana:editor
+    description: Editor access to Grafana
+    protocol: openid-connect
+  - name: grafana:viewer
+    description: Viewer access to Grafana
+    protocol: openid-connect
+
+groups:
+  - name: System Administrators
+    clientRoles:
+      grafana:
+        - Administrator
+
+  - name: Developers
+    clientRoles:
+      grafana:
+        - Editor
+
+  - name: Data Editors
+    clientRoles:
+      grafana:
+        - Viewer
+```
+
+> [!NOTE]
+> To associate a client scope with a client, the scope must be referenced in either the `defaultClientScopes` or `optionalClientScopes` properties of the client.
+>
+> **Note for Resource Servers**: Resource server clients use scopes differently than regular clients. In resource servers, scopes represent actions (like `read`, `write`) that are applied to resources through policies, rather than being directly associated with client roles. See the [Resource Server Client](#resource-server-client) section above for more details.
+
+##### Defining Tenant Groups
+
+For multitenant authorization, tenant groups should be organized hierarchically under a parent "Tenants" group. Each tenant should have role-based subgroups (typically "Admins" and "Editors") that are assigned appropriate client roles.
+
+The group path structure follows the pattern `/Tenants/{TenantName}/{Role}`, which is used in resource server policies to grant tenant-specific access.
+
+Example tenant group structure:
+
+```yaml
+groups:
+  - name: Tenants
+    subGroups:
+      - name: Tenant1
+        subGroups:
+          - name: Admins
+            clientRoles:
+              grafana:
+                - GrafanaAdmin
+              stac:
+                - Admin
+              ingest-api:
+                - Admin
+          - name: Editors
+            clientRoles:
+              grafana:
+                - Editor
+              stac:
+                - Editor
+              ingest-api:
+                - Editor
+              ingest-ui:
+                - Editor
+
+      - name: Tenant2
+        subGroups:
+          - name: Admins
+            clientRoles:
+              grafana:
+                - GrafanaAdmin
+              stac:
+                - Admin
+              ingest-api:
+                - Admin
+          - name: Editors
+            clientRoles:
+              grafana:
+                - Editor
+              stac:
+                - Editor
+              ingest-api:
+                - Editor
+              ingest-ui:
+                - Editor
+```
+
+**Key points:**
+
+- **Parent group**: All tenant groups should be nested under a parent "Tenants" group for organization
+- **Tenant subgroups**: Each tenant should have its own subgroup (e.g., `Tenant1`, `Tenant2`)
+- **Role subgroups**: Within each tenant, create role-based subgroups (typically `Admins` and `Editors`)
+- **Client roles**: Assign appropriate client roles to each role subgroup based on the permissions needed
+- **Group paths**: The full path for a group will be `/Tenants/{TenantName}/{Role}` (e.g., `/Tenants/Tenant1/Admins`)
+- **Resource server policies**: When defining group-based policies in resource servers, reference these paths using the `groups` configuration with the full path
+
+**Example resource server policy using tenant groups:**
+
+```yaml
+policies:
+  - name: Tenant 1 Admins
+    type: group
+    logic: POSITIVE
+    decisionStrategy: UNANIMOUS
+    config:
+      groups: '[{"path":"/Tenants/Tenant1/Admins","extendChildren":false}]'
+      groupsClaim: "groups"
+```
+
+> [!TIP]
+> For a complete example of tenant groups with multiple tenants and their integration with resource server policies, see the `groups` section in [`keycloak-config-cli/config/dev/veda.yaml`](keycloak-config-cli/config/dev/veda.yaml).
+
+#### Identity Provider OAuth Clients
+
+When a third party service operates as an Identity Provider (IdP, e.g. CILogon or GitHub) for Keycloak, we must register that IdP within the Keycloak configuration. This involves registering the IdP's OAuth client ID and client secret within Keycloak's configuration (along with additional information about the OAuth endpoints used within the login process).
+
+At time of deployment, environment variables starting with `IDP_SECRET_ARN_` will be treated as ARNs to Secrets stored within AWS Secrets Manager. These secrets should be JSON objects containing both an `id` and `secret` key. These values will be injected into the docker instance running the Keycloak Config CLI, making them avaiable under `{CLIENTID}_CLIENT_ID` and `{CLIENTID}_CLIENT_SECRET` environment variables, allowing for their usage within a Keycloak configuration YAML file.
+
+<details>
+
+<summary>Example of injecting an IdP OAuth2 Client Secret</summary>
+
+For this example, let's imagine we're attempting to insert the Client ID and Client Secret for a Github Identity Provider. To achieve this, we would take the following steps:
+
+1. Submit these values to AWS Secrets Manager:
+
+   ```sh
+   $ aws secretsmanager \
+      create-secret \
+      --name veda-keycloak-github-idp-creds \
+      --secret-string '{"id": "cl13nt1d", "secret": "cl13ntS3cr3t!"}'
+   ```
+
+   AWS will respond with the ARN of the newly created Secret.
+
+1. Register the secret with the Github environment, named `IDP_SECRET_ARN_$CLIENTID`, where `$CLIENTID` is a unique identifier for that IDP (for this example, we'll use `GH`). This can be done via the Github CLI if run from within the project repo:
+
+   ```sh
+   # Add variable value for the current repository in an interactive prompt
+   $ gh variable set IDP_SECRET_ARN_GH --env dev
+   ```
+
+1. Update the Github Actions workflow to inject this variable into the runtime environment when calling `cdk deploy`:
+
+   ```diff
+    - name: Deploy CDK to dev environment
+      run: |
+         cdk deploy --require-approval never --outputs-file outputs.json
+      env:
+         # ...
+   +     IDP_SECRET_ARN_GH: ${{ vars.IDP_SECRET_ARN_GH }}
+   ```
+
+1. The `id` and `secret` will now be available when configuring Keycloak. We can add a secrtion like the following to make use of these variables with `keycloak-config-cli/config/master.yaml`:
+
+   ```yaml
+   identityProviders:
+   # GitHub with Org Check
+   - alias: github-org-check # NOTE: this alias appears in the redirect_uri for the auth flow, update Github OAuth settings accordingly
+      displayName: GitHub [NASA-IMPACT]
+      providerId: github-org
+      enabled: true
+      updateProfileFirstLoginMode: on
+      trustEmail: false
+      storeToken: false
+      addReadTokenRoleOnCreate: false
+      authenticateByDefault: false
+      linkOnly: false
+      config:
+         clientId: $(env:GH_CLIENT_ID)
+         clientSecret: $(env:GH_CLIENT_SECRET)
+         defaultScope: openid read:org user:email
+         organization: nasa-impact
+         caseSensitiveOriginalUsername: "false"
+         syncMode: FORCE
+   ```
+
+</details>
+
+### Service Provider Interfaces
+
+Beyond configuration, customization of Keycloak (e.g. a custom Identity Providers) may require development of custom Service Provider Interfaces (SPIs).
+
+VEDA Keycloak includes a custom `EmailSenderProvider` based on Keycloak’s `DefaultEmailSenderProvider` to add a CC recipient to outgoing emails. This has been tested with Keycloak 26.2.5. Upgrading Keycloak may require re-syncing this custom implementation with the upstream `DefaultEmailSenderProvider` and re-testing.
+
+> [!TIP]
+> See the Service Provider Interfaces section in the [Server Developer Guide](https://www.keycloak.org/docs/latest/server_development/#_providers) for more details about how to create custom themes.
+
+
+
+### Themes
+
+> [!TIP]
+> See the theme section in the [Server Developer Guide](https://www.keycloak.org/docs/latest/server_development/#_themes) for more details about how to create custom themes.
+
+### SES Relay
+The AWS account that includes the SES `openveda.cloud` identity does not permit creating SMTP credentials for AWS SES for security reasons. However, Keycloak expects to talk to an SMTP server for sending transactional emails such as verification, password reset, and notification messages.
+
+To bridge this gap, we deploy a small SMTP relay service as an ECS Fargate service into the same VPC as Keycloak:
+
+- **Keycloak → SMTP Relay**: Keycloak is configured to use the relay’s internal NLB endpoint on port `10025` as its SMTP server without SMTP authentication.
+- **SMTP Relay → SES**: The relay authenticates to AWS using IAM (task role) and delivers messages to SES using the SES API (for example, `ses:SendEmail`, `ses:SendRawEmail`), avoiding the need for SES SMTP credentials.
+- **Network Isolation**: The Network Load Balancer for the relay is internal-only; access is restricted to the VPC CIDR (services inside the VPC only).
+
+The relay itself is based on [`loopingz/smtp-relay`](https://github.com/loopingz/smtp-relay/) project, configured to accept SMTP from Keycloak and forward mail to AWS SES.
+
+## Useful commands
+
+- `npm run build` compile typescript to js
+- `npm run watch` watch for changes and compile
+- `npm run test` perform the jest unit tests
+- `npx cdk deploy` deploy this stack to your default AWS account/region
+- `npx cdk diff` compare deployed stack with current state
+- `npx cdk synth` emits the synthesized CloudFormation template

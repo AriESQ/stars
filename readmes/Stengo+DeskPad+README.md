@@ -1,0 +1,44 @@
+<h3 align="center">
+  <a href="https://github.com/Stengo/DeskPad/blob/main/DeskPad/Assets.xcassets/AppIcon.appiconset/Icon-256.png">
+  <img src="https://github.com/Stengo/DeskPad/blob/main/DeskPad/Assets.xcassets/AppIcon.appiconset/Icon-256.png?raw=true" alt="DeskPad Icon" width="128">
+  </a>
+</h3>
+
+# DeskPad
+A virtual monitor for screen sharing
+
+<h3 align="center">
+  <a href="https://github.com/Stengo/DeskPad/blob/main/screenshot.jpg">
+  <img src="https://github.com/Stengo/DeskPad/blob/main/screenshot.jpg?raw=true" alt="DeskPad Screenshot">
+  </a>
+</h3>
+
+Certain workflows require sharing the entire screen (usually due to switching through multiple applications), but if the presenter has a much larger display than the audience it can be hard to see what is happening.
+
+DeskPad creates a virtual display that is mirrored within its application window so that you can create a dedicated, easily shareable workspace.
+
+# Installation
+You can either download the [latest release binary](https://github.com/Stengo/DeskPad/releases) or install via [Homebrew](https://brew.sh) by calling `brew install --cask deskpad`.
+
+# Usage
+DeskPad behaves like any other display. Launching the app is equivalent to plugging in a monitor, so macOS will take care of properly arranging your windows to their previous configuration.
+
+You can change the display resolution through the system preferences and the application window will adjust accordingly.
+
+Whenever you move your mouse cursor to the virtual display, DeskPad will highlight its title bar in blue and move the application window to the front to let you know where you are.
+
+<h3 align="center">
+  <a href="https://github.com/Stengo/DeskPad/blob/main/demonstration.gif">
+  <img src="https://github.com/Stengo/DeskPad/blob/main/demonstration.gif?raw=true" alt="DeskPad Demonstration">
+  </a>
+</h3>
+
+# Troubleshooting
+DeskPad may need screen recording permissions to display properly. Follow these steps:
+
+1. **Open System Settings** → **Privacy & Security** → **Screen Recording**
+2. **Enable DeskPad** by checking the box next to it
+3. **If DeskPad appears but isn't working:**
+   - Uncheck the DeskPad option
+   - Check it again to re-enable
+4. **Restart DeskPad** for changes to take effect

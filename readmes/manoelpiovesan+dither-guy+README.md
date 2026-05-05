@@ -1,0 +1,66 @@
+# Dither Guy
+
+[![Build Status](https://github.com/manoelpiovesan/dither-guy/actions/workflows/main.yml/badge.svg)](https://github.com/manoelpiovesan/dither-guy/actions/workflows/main.yml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/manoelpiovesan/dither-guy)](https://github.com/manoelpiovesan/dither-guy/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/manoelpiovesan/dither-guy/total)](https://github.com/manoelpiovesan/dither-guy/releases)
+[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/manoelpiovesan/dither-guy/latest/total)](https://github.com/manoelpiovesan/dither-guy/releases/latest)
+
+**Dither Guy** is a software inspired by [Dither Boy](https://studioaaa.com/product/dither-boy/), designed to create graphic dithering effects similar to those found on old displays and low color-depth systems.
+
+The project focuses on providing a simple and straightforward tool for applying dithering to images and videos, preserving a controlled and retro visual aesthetic.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L61SRB88)
+
+
+## Download
+
+The latest binaries for each platform are available on the releases page:
+
+👉 https://github.com/manoelpiovesan/dither-guy/releases/latest
+
+
+![Screenshot](https://github.com/user-attachments/assets/baf820e0-a0aa-4da2-8549-1f76f4531268)
+
+<!-- <h2 align="center">Image</h2>
+
+| Original | Dithered | Colored |
+|----------|----------|---------|
+|![Original](input/example.png)|![Dithered](output/example_output.png)| ![Colored](output/green_example_output.png)|
+
+
+<h2 align="center">Video</h2> 
+
+| Original | Dithered |
+|----------|----------|
+|![Gif](input/computer_input.gif)|![Gif](output/computer.gif)| -->
+
+
+## Running in Development Mode
+
+To run the project locally in development mode:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 dither_guy.py
+
+```
+
+## Contributors and Supporters
+Special thanks to project contributors and supporters via Ko-Fi
+
+- Timo Frank (Supporter)
+- [@shahil-sk (Contributor)](https://github.com/shahil-sk)
+- [@momed081 (Contributor)](https://github.com/momed081)
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=manoelpiovesan%2Fdither-guy&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=manoelpiovesan/dither-guy&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=manoelpiovesan/dither-guy&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=manoelpiovesan/dither-guy&type=date&legend=top-left" />
+ </picture>
+</a>

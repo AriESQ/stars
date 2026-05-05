@@ -1,0 +1,44 @@
+# utils
+A collection of scripts and simple applications
+
+* [dtmerge](dtmerge/) - A tool for applying compiled DT overlays (`*.dtbo`) to base Device
+    Tree files (`*.dtb`). Also includes the `dtoverlay` and `dtparam` utilities.
+* [eeptools](eeptools/) - Tools for creating and managing EEPROMs for HAT+ and HAT board.
+* [kdtc](kdtc/) - A tool for compiling overlays with #includes, etc., as used in the kernel tree.
+* [otamaker](otamaker/) - A tool for building Remote Update artefacts, as used by Raspberry
+    Pi Connect Remote Update.
+* [otpset](otpset/) - A short script to help with reading and setting the customer OTP
+    bits.
+* [overlaycheck](overlaycheck/) - A tool for validating the overlay files and README in a
+    kernel source tree.
+* [ovmerge](ovmerge/) - A tool for merging DT overlay source files (`*-overlay.dts`),
+    flattening and sorting `.dts` files for easy comparison, displaying
+    the include tree, etc.
+* [pinctrl](pinctrl/) - A more powerful replacement for raspi-gpio, a tool for
+    displaying and modifying the GPIO and pin muxing state of a system, bypassing
+    the kernel.
+* [piolib](piolib/) - A library for accessing the Pi 5's PIO hardware.
+* [raspinfo](raspinfo/) - A short script to dump information about the Pi. Intended for
+    the submission of bug reports.
+* [rpieepromab](rpieepromab/) - A tool to update and manage the AB EEPROM partitions
+    on a device in the Pi 5 family.
+* [rpifwcrypto](rpifwcrypto/) - A command line application and shared library for the
+    firmware cryptography service. Intended for use with Raspberry Pi Connect and
+    secure-boot provisioner.
+* [rpi-gpu-usage](rpi-gpu-usage/) - A tool for showing the per-process usage of the V3D GPU
+    on Raspberry Pi 4 and 5.
+* [vcgencmd](vcgencmd/) - A tool to send commands to the VideoCore firmware and
+    display the results.
+* [vclog](vclog/) - A tool to get VideoCore 'assert' or 'msg' logs
+    with optional -f to wait for new logs to arrive.
+* [vcmailbox](vcmailbox/) - A low-level tool giving access the VideoCore mailbox interface.
+
+
+**Build Instructions**
+
+Install the prerequisites with "sudo apt install cmake device-tree-compiler libncurses-dev libfdt-dev libgnutls28-dev" - you need at least version 3.10 of cmake. Run the following commands to build and install everything, or see the README files in the subdirectories to just build utilities individually:
+
+ - *cmake .*
+    N.B. Use *cmake -DBUILD_SHARED_LIBS=1 .* to build the libraries in the subprojects (libdtovl, gpiolib and piolib) as shared (as opposed to static) libraries.
+ - *make*
+ - *sudo make install*
