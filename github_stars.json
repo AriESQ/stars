@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T21:43:04.505133+00:00",
+  "last_updated": "2026-05-05T21:43:30.170120+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223614,7 +223614,15 @@
         "pushed_at": "2025-03-08T07:53:35Z",
         "starred_at": "2026-05-05T20:15:38Z"
       },
-      "last_updated": "2026-05-05T21:13:39.745485+00:00"
+      "last_updated": "2026-05-05T21:13:39.745485+00:00",
+      "readme": {
+        "path": "readmes/Phyopma+simplify_scraper+README.md",
+        "etag": "W/\"cf7d5c125e767b861b5ffcd3009d748e9558a78e\"",
+        "sha": "cf7d5c125e767b861b5ffcd3009d748e9558a78e",
+        "size": 4147,
+        "fetched_at": "2026-05-05T21:43:27.167219+00:00",
+        "status": "ok"
+      }
     },
     "brangerbriz/up-4evr-ubuntu": {
       "lists": [
@@ -223637,7 +223645,15 @@
         "pushed_at": "2017-10-25T14:37:28Z",
         "starred_at": "2026-05-05T18:07:22Z"
       },
-      "last_updated": "2026-05-05T21:13:40.097887+00:00"
+      "last_updated": "2026-05-05T21:13:40.097887+00:00",
+      "readme": {
+        "path": "readmes/brangerbriz+up-4evr-ubuntu+README.md",
+        "etag": "W/\"c7003e45970651d1955c13a115c27b6ff023a54c\"",
+        "sha": "c7003e45970651d1955c13a115c27b6ff023a54c",
+        "size": 4399,
+        "fetched_at": "2026-05-05T21:43:28.001749+00:00",
+        "status": "ok"
+      }
     },
     "brangerbriz/up-4evr-windows-10": {
       "lists": [
@@ -223659,7 +223675,15 @@
         "pushed_at": "2019-10-18T14:34:58Z",
         "starred_at": "2026-05-05T18:07:10Z"
       },
-      "last_updated": "2026-05-05T21:13:40.410125+00:00"
+      "last_updated": "2026-05-05T21:13:40.410125+00:00",
+      "readme": {
+        "path": "readmes/brangerbriz+up-4evr-windows-10+README.md",
+        "etag": "W/\"7b6c822e7e7724d7a4906d6f752bdf59073124a7\"",
+        "sha": "7b6c822e7e7724d7a4906d6f752bdf59073124a7",
+        "size": 10075,
+        "fetched_at": "2026-05-05T21:43:28.317027+00:00",
+        "status": "ok"
+      }
     },
     "laserpilot/Installation_Up_4evr": {
       "lists": [
@@ -223683,7 +223707,15 @@
         "pushed_at": "2025-08-24T12:31:17Z",
         "starred_at": "2026-05-05T17:58:59Z"
       },
-      "last_updated": "2026-05-05T21:13:40.732985+00:00"
+      "last_updated": "2026-05-05T21:13:40.732985+00:00",
+      "readme": {
+        "path": "readmes/laserpilot+Installation_Up_4evr+README.md",
+        "etag": "W/\"c5723b114b27b2f341762a0b6818a47a29a36a43\"",
+        "sha": "c5723b114b27b2f341762a0b6818a47a29a36a43",
+        "size": 47952,
+        "fetched_at": "2026-05-05T21:43:29.064891+00:00",
+        "status": "ok"
+      }
     },
     "unifiedjs/unified": {
       "lists": [
@@ -223705,7 +223737,15 @@
         "pushed_at": "2026-04-29T11:25:24Z",
         "starred_at": "2026-05-05T05:01:25Z"
       },
-      "last_updated": "2026-05-05T21:13:41.044759+00:00"
+      "last_updated": "2026-05-05T21:13:41.044759+00:00",
+      "readme": {
+        "path": "readmes/unifiedjs+unified+readme.md",
+        "etag": "W/\"b71cc308da5e264a94f084d8c425703dbbf211f8\"",
+        "sha": "b71cc308da5e264a94f084d8c425703dbbf211f8",
+        "size": 49481,
+        "fetched_at": "2026-05-05T21:43:30.168966+00:00",
+        "status": "ok"
+      }
     },
     "remarkjs/remark": {
       "lists": [
@@ -223727,7 +223767,15 @@
         "pushed_at": "2026-02-24T19:08:59Z",
         "starred_at": "2026-05-05T04:59:32Z"
       },
-      "last_updated": "2026-05-05T21:13:41.358568+00:00"
+      "last_updated": "2026-05-05T21:13:41.358568+00:00",
+      "readme": {
+        "path": "readmes/remarkjs+remark+readme.md",
+        "etag": "W/\"73cd48204e544806f24fb0533792f02c2ff50871\"",
+        "sha": "73cd48204e544806f24fb0533792f02c2ff50871",
+        "size": 20011,
+        "fetched_at": "2026-05-05T21:43:29.900435+00:00",
+        "status": "ok"
+      }
     },
     "WiseLibs/better-sqlite3": {
       "lists": [
@@ -223749,7 +223797,15 @@
         "pushed_at": "2026-04-27T10:56:35Z",
         "starred_at": "2026-05-05T04:58:05Z"
       },
-      "last_updated": "2026-05-05T21:13:41.744019+00:00"
+      "last_updated": "2026-05-05T21:13:41.744019+00:00",
+      "readme": {
+        "path": "readmes/WiseLibs+better-sqlite3+README.md",
+        "etag": "W/\"3340442c6d702da1a74a136c9358e9b365452d88\"",
+        "sha": "3340442c6d702da1a74a136c9358e9b365452d88",
+        "size": 5666,
+        "fetched_at": "2026-05-05T21:43:27.712415+00:00",
+        "status": "ok"
+      }
     },
     "UUoocl/cablesStudio": {
       "lists": [
@@ -223771,7 +223827,15 @@
         "pushed_at": "2026-05-02T00:59:15Z",
         "starred_at": "2026-05-05T04:55:45Z"
       },
-      "last_updated": "2026-05-05T21:13:42.068150+00:00"
+      "last_updated": "2026-05-05T21:13:42.068150+00:00",
+      "readme": {
+        "path": "readmes/UUoocl+cablesStudio+README.md",
+        "etag": "W/\"db9b6ff4e568f108168e38fde2be37985773a70c\"",
+        "sha": "db9b6ff4e568f108168e38fde2be37985773a70c",
+        "size": 2724,
+        "fetched_at": "2026-05-05T21:43:27.457181+00:00",
+        "status": "ok"
+      }
     },
     "kilian-ai/claw": {
       "lists": [
@@ -223794,7 +223858,15 @@
         "pushed_at": "2026-05-05T20:21:21Z",
         "starred_at": "2026-05-05T04:32:47Z"
       },
-      "last_updated": "2026-05-05T21:13:42.356332+00:00"
+      "last_updated": "2026-05-05T21:13:42.356332+00:00",
+      "readme": {
+        "path": "readmes/kilian-ai+claw+README.md",
+        "etag": "W/\"fa5239baa92cb81fa69fc30375d1f82dcc39db13\"",
+        "sha": "fa5239baa92cb81fa69fc30375d1f82dcc39db13",
+        "size": 7257,
+        "fetched_at": "2026-05-05T21:43:28.789473+00:00",
+        "status": "ok"
+      }
     },
     "neuledge/context": {
       "lists": [
@@ -223817,7 +223889,15 @@
         "pushed_at": "2026-04-30T01:54:55Z",
         "starred_at": "2026-05-05T04:24:01Z"
       },
-      "last_updated": "2026-05-05T21:13:42.643639+00:00"
+      "last_updated": "2026-05-05T21:13:42.643639+00:00",
+      "readme": {
+        "path": "readmes/neuledge+context+README.md",
+        "etag": "W/\"1a6217fa2d9607f1f244fe76243b162814f187bd\"",
+        "sha": "1a6217fa2d9607f1f244fe76243b162814f187bd",
+        "size": 19033,
+        "fetched_at": "2026-05-05T21:43:29.384287+00:00",
+        "status": "ok"
+      }
     },
     "openclaw/mcporter": {
       "lists": [
@@ -223840,7 +223920,15 @@
         "pushed_at": "2026-05-05T00:03:08Z",
         "starred_at": "2026-01-27T18:39:23Z"
       },
-      "last_updated": "2026-05-05T21:13:43.110027+00:00"
+      "last_updated": "2026-05-05T21:13:43.110027+00:00",
+      "readme": {
+        "path": "readmes/openclaw+mcporter+README.md",
+        "etag": "W/\"302918aa9d7f1c19063362ab5bfcfe376e3ccae1\"",
+        "sha": "302918aa9d7f1c19063362ab5bfcfe376e3ccae1",
+        "size": 30647,
+        "fetched_at": "2026-05-05T21:43:29.641003+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
