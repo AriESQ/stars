@@ -23,8 +23,14 @@ jobs:
       contents: write # commit updated github_stars.json
     uses: ./.github/workflows/update_star_lists.yml
 
-  deploy:
+  scrape-readmes:
     needs: update-lists
+    permissions:
+      contents: write # commit updated github_stars.json and readmes/
+    uses: ./.github/workflows/scrape-readmes.yml
+
+  deploy:
+    needs: scrape-readmes
     permissions:
       contents: read # read site files for Pages build
       pages: write # deploy to GitHub Pages

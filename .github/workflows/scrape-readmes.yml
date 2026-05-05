@@ -1,0 +1,53 @@
+name: Scrape READMEs
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scrape-readmes-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scrape-readmes:
+    name: Scrape starred-repo READMEs
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write # commit updated github_stars.json and readmes/
+    steps:
+    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      with:
+        persist-credentials: false
+
+    - name: Set up uv
+      uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7.6.0
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: uv sync
+
+    - name: Fetch latest changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}"
+        git pull --rebase origin master
+
+    - name: Run README scraper
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+      run: uv run python scripts/scrape_readmes.py
+
+    - name: Commit and push if changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git add github_stars.json readmes
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update README corpus" && git push)
