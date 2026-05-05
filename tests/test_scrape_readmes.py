@@ -58,9 +58,26 @@ def test_should_skip_old_missing():
     assert should_skip({"status": "missing", "fetched_at": old}) is False
 
 
-def test_should_skip_ok_never_skips():
+def test_should_skip_ok_without_pushed_at():
     recent = datetime.now(UTC).isoformat()
     assert should_skip({"status": "ok", "fetched_at": recent}) is False
+
+
+def test_should_skip_pushed_before_fetched():
+    fetched = datetime.now(UTC).isoformat()
+    pushed = (datetime.now(UTC) - timedelta(days=2)).isoformat()
+    assert should_skip({"status": "ok", "fetched_at": fetched}, pushed_at=pushed) is True
+
+
+def test_should_skip_pushed_after_fetched():
+    fetched = (datetime.now(UTC) - timedelta(days=2)).isoformat()
+    pushed = datetime.now(UTC).isoformat()
+    assert should_skip({"status": "ok", "fetched_at": fetched}, pushed_at=pushed) is False
+
+
+def test_should_skip_pushed_at_none():
+    fetched = datetime.now(UTC).isoformat()
+    assert should_skip({"status": "ok", "fetched_at": fetched}, pushed_at=None) is False
 
 
 def test_fetch_readme_ok():

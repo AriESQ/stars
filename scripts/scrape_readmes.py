@@ -104,8 +104,27 @@ def safe_filename(full_name: str, name: str) -> str:
     return f"{owner}+{repo}+{name}"
 
 
-def should_skip(readme_meta) -> bool:
-    """Skip refetch if we recorded a 404 within the TTL window."""
+def should_skip(readme_meta, pushed_at: str | None = None) -> bool:
+    """Return True if this repo's README can be skipped without an API call.
+
+    Two cases:
+    - 404 recorded within the TTL window (repo has no README, don't hammer it).
+    - pushed_at <= fetched_at: the repo hasn't been pushed since we last
+      fetched the README, so it cannot have changed.
+    """
+    if readme_meta and pushed_at and readme_meta.get("fetched_at"):
+        try:
+            last_fetched = datetime.fromisoformat(readme_meta["fetched_at"])
+            last_pushed = datetime.fromisoformat(pushed_at)
+            if last_fetched.tzinfo is None:
+                last_fetched = last_fetched.replace(tzinfo=UTC)
+            if last_pushed.tzinfo is None:
+                last_pushed = last_pushed.replace(tzinfo=UTC)
+            if last_pushed <= last_fetched:
+                return True
+        except ValueError:
+            pass
+
     if not readme_meta or readme_meta.get("status") != "missing":
         return False
     fetched_at = readme_meta.get("fetched_at")
@@ -251,12 +270,15 @@ def process_repos(data, token, readme_dir=README_DIR):
 
     known_paths = collect_known_paths(repositories)
     processed_since_save = 0
+    skipped = 0
 
     for i, full_name in enumerate(full_names, start=1):
         repo = repositories[full_name]
         readme_meta = repo.get("readme")
+        pushed_at = (repo.get("metadata") or {}).get("pushed_at")
 
-        if should_skip(readme_meta):
+        if should_skip(readme_meta, pushed_at):
+            skipped += 1
             continue
 
         etag = readme_meta.get("etag") if readme_meta else None
@@ -331,7 +353,7 @@ def process_repos(data, token, readme_dir=README_DIR):
 
     data["last_updated"] = datetime.now(UTC).isoformat()
     save_data(data)
-    logger.info("README scrape complete.")
+    logger.info(f"README scrape complete. Skipped {skipped}/{total} (pushed_at pre-filter).")
 
 
 def main():
