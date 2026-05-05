@@ -46,7 +46,19 @@ jobs:
       run: |
         echo "GITHUB_USERNAME: $GITHUB_USERNAME"
         echo "GITHUB_TOKEN is set: $([ -n "$GITHUB_TOKEN" ] && echo true || echo false)"
-        uv run python scripts/update_star_lists.py
+        set -o pipefail
+        uv run python scripts/update_star_lists.py 2>&1 | tee /tmp/update-star-lists.log
+
+    - name: Write failure summary
+      if: failure()
+      run: |
+        {
+          echo "## ❌ Star lists update failed"
+          echo ""
+          echo '```'
+          tail -30 /tmp/update-star-lists.log 2>/dev/null || echo "(no output captured)"
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
 
     - name: Commit and push if changes
       env:

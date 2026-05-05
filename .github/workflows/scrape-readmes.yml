@@ -43,7 +43,20 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
-      run: uv run python scripts/scrape_readmes.py
+      run: |
+        set -o pipefail
+        uv run python scripts/scrape_readmes.py 2>&1 | tee /tmp/scrape-readmes.log
+
+    - name: Write failure summary
+      if: failure()
+      run: |
+        {
+          echo "## ❌ README scraper failed"
+          echo ""
+          echo '```'
+          tail -30 /tmp/scrape-readmes.log 2>/dev/null || echo "(no output captured)"
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
 
     - name: Commit and push if changes
       env:

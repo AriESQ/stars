@@ -29,7 +29,20 @@ jobs:
       run: uv sync --group dev
 
     - name: Run tests
-      run: uv run pytest tests/test_scrape.py
+      run: |
+        set -o pipefail
+        uv run pytest tests/test_scrape.py 2>&1 | tee /tmp/pytest.log
+
+    - name: Write failure summary
+      if: failure()
+      run: |
+        {
+          echo "## ❌ Tests failed"
+          echo ""
+          echo '```'
+          tail -30 /tmp/pytest.log 2>/dev/null || echo "(no output captured)"
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
 
   scrape-stars:
     name: Scrape starred repositories
@@ -54,7 +67,20 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
-      run: uv run python scripts/scrape_stars.py
+      run: |
+        set -o pipefail
+        uv run python scripts/scrape_stars.py 2>&1 | tee /tmp/scrape-stars.log
+
+    - name: Write failure summary
+      if: failure()
+      run: |
+        {
+          echo "## ❌ Star scraper failed"
+          echo ""
+          echo '```'
+          tail -30 /tmp/scrape-stars.log 2>/dev/null || echo "(no output captured)"
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
 
     - name: Commit and push if changes
       env:

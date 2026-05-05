@@ -84,18 +84,32 @@ def make_request(session, url, max_retries=MAX_RETRIES):
             return response
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 429:
+                retry_after = e.response.headers.get('Retry-After')
+                rate_remaining = e.response.headers.get('X-RateLimit-Remaining', 'unknown')
+                rate_reset = e.response.headers.get('X-RateLimit-Reset', 'unknown')
                 if attempt < max_retries - 1:
-                    retry_after = e.response.headers.get('Retry-After')
                     if retry_after is not None:
                         backoff_time = float(retry_after)
                         if backoff_time > MAX_RETRY_AFTER:
-                            logger.error(f"Rate limited (429); server requested {backoff_time:.0f}s delay (> {MAX_RETRY_AFTER}s cap). Giving up.")
+                            logger.error(
+                                f"429 on {url} (attempt {attempt + 1}/{max_retries}): "
+                                f"Retry-After={backoff_time:.0f}s exceeds {MAX_RETRY_AFTER}s cap; "
+                                f"X-RateLimit-Remaining={rate_remaining}, X-RateLimit-Reset={rate_reset}. Giving up."
+                            )
                             raise
                     else:
                         backoff_time = exponential_backoff(attempt)
-                    logger.warning(f"Rate limited (429). Backing off for {backoff_time:.2f} seconds.")
+                    logger.warning(
+                        f"429 on {url} (attempt {attempt + 1}/{max_retries}): "
+                        f"backing off {backoff_time:.1f}s "
+                        f"(Retry-After={retry_after}, X-RateLimit-Remaining={rate_remaining})"
+                    )
                     time.sleep(backoff_time)
                     continue
+                logger.error(
+                    f"429 on {url}: exhausted {max_retries} attempts. "
+                    f"Retry-After={retry_after}, X-RateLimit-Remaining={rate_remaining}, X-RateLimit-Reset={rate_reset}"
+                )
             raise
 
 def get_star_lists(username, session):
