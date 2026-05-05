@@ -90,11 +90,14 @@ Stage 1 of the mask pipeline uses Gemini via the Google AI API. Set your API key
 export GEMINI_API_KEY=your_key_here
 ```
 
-Also install [SAM2](https://github.com/facebookresearch/sam2?tab=readme-ov-file#installation) separately (required for mask generation):
+Also install [SAM2+3](https://github.com/facebookresearch/sam2?tab=readme-ov-file#installation) separately (required for mask generation):
 
 ```bash
 git clone https://github.com/facebookresearch/sam2.git
 cd sam2 && pip install -e .
+
+git clone https://github.com/facebookresearch/sam3.git
+cd sam3 && pip install -e .
 ```
 
 Download the pretrained base inpainting model from HuggingFace:

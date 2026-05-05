@@ -160,6 +160,7 @@ Updated regularly with new models and versions. PRs welcome.
 | MiniMax M2.5 | [System prompt](Misc/minimax-m2.5.md) |
 | Proton Lumo AI | [System prompt](Misc/proton-lumo-ai.md) |
 | Sesame AI Maya | [System prompt](Misc/Sesame-AI-Maya.md) |
+| Character AI | [System prompt](Misc/character-ai.md) |
 
 ---
 

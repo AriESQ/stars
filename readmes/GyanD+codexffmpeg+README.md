@@ -1,5 +1,7 @@
 # Codex FFmpeg
 
+**NEWS**: The resources section has been opened with the [Codecs](https://www.gyan.dev/ffmpeg/resources/codecs.html) page detailing all codecs in ffmpeg.
+
 This is a support site for https://www.gyan.dev/ffmpeg
 
 The Releases section acts as a mirror for builds hosted at https://www.gyan.dev/ffmpeg/builds/

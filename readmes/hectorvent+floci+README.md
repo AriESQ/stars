@@ -58,7 +58,7 @@
 | RDS (PostgreSQL + MySQL + IAM auth) | ✅ | ❌ |
 | MSK (Kafka + Redpanda) | ✅ | ❌ |
 | Athena (real SQL via DuckDB sidecar + Glue views) | ✅ | ❌ |
-| Glue Data Catalog | ✅ | ❌ |
+| Glue Data Catalog + Schema Registry | ✅ | ❌ |
 | Data Firehose (NDJSON delivery) | ✅ | ❌ |
 | S3 Object Lock (COMPLIANCE / GOVERNANCE) | ✅ | ⚠️ Partial |
 | DynamoDB Streams | ✅ | ⚠️ Partial |
@@ -75,6 +75,35 @@
 | Native binary | ✅ ~40 MB | ❌ |
 
 **Broad AWS coverage. Free forever.**
+
+## Migrating from LocalStack
+
+Floci is a drop-in replacement for LocalStack Community. The port (`4566`), credentials, and all AWS SDK and CLI calls work unchanged — swap the image and you're done.
+
+```yaml
+# Before
+image: localstack/localstack
+
+# After — no init scripts, or scripts that don't call aws / boto3
+image: floci/floci:latest
+
+# After — init scripts that use aws CLI or boto3
+image: floci/floci:latest-compat   # includes Python 3, AWS CLI, boto3 pre-configured
+```
+
+**LocalStack environment variables are translated automatically** — no renaming required:
+
+| LocalStack | Floci equivalent |
+|---|---|
+| `LOCALSTACK_HOST` | `FLOCI_HOSTNAME` |
+| `PERSISTENCE=1` | `FLOCI_STORAGE_MODE=persistent` |
+| `LAMBDA_DOCKER_NETWORK` | `FLOCI_SERVICES_LAMBDA_DOCKER_NETWORK` |
+| `LAMBDA_REMOVE_CONTAINERS=1` | `FLOCI_SERVICES_LAMBDA_EPHEMERAL=true` |
+| `DEBUG=1` | `QUARKUS_LOG_LEVEL=DEBUG` |
+
+Init scripts mounted under `/etc/localstack/init/` run unchanged. The `/_localstack/init` and `/_localstack/health` endpoints are still served. Set `LOCALSTACK_PARITY=false` to opt out of the automatic translation.
+
+→ [Full migration guide](https://floci.io/floci/getting-started/migrate-from-localstack/)
 
 ## Architecture Overview
 
@@ -203,7 +232,7 @@ All default images are configurable via environment variables, useful for pinnin
 | **RDS** | **Real Docker containers** | PostgreSQL & MySQL, IAM auth, JDBC-compatible |
 | **MSK** | **Real Docker containers** | Kafka compatible via Redpanda orchestration |
 | **Athena** | In-process + **DuckDB sidecar** | Real SQL execution; Glue-backed views over S3 data; `read_parquet` / `read_json_auto` / `read_csv_auto` inferred from SerDe |
-| **Glue** | In-process | Data Catalog; tables consumed by Athena as DuckDB views at query time |
+| **Glue** | In-process | Data Catalog; Schema Registry for Avro / JSON Schema / Protobuf; tables consumed by Athena as DuckDB views at query time |
 | **Data Firehose** | In-process | Streaming data delivery; records flushed as NDJSON to S3 |
 | **ECS** | **Real Docker containers** | Clusters, task definitions, tasks, services, capacity providers, task sets |
 | **EC2** | **Real Docker containers** | `RunInstances` launches real Docker containers; SSH key injection; UserData execution; IMDS (IMDSv1+IMDSv2, port 9169) with IAM credential serving; VPCs, subnets, security groups, AMIs, key pairs, internet gateways, route tables, Elastic IPs, tags |

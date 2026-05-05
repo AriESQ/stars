@@ -56,7 +56,6 @@ Table of Contents
 * [Quick Start](#quick-start)
     * [Quick Start with weed mini](#quick-start-with-weed-mini)
     * [Quick Start for S3 API on Docker](#quick-start-for-s3-api-on-docker)
-    * [Quick Start with Single Binary](#quick-start-with-single-binary)
 * [Introduction](#introduction)
 * [Features](#features)
     * [Additional Features](#additional-features)
@@ -81,7 +80,7 @@ Table of Contents
 
 ## Quick Start with weed mini ##
 
-Download the latest binary from https://github.com/seaweedfs/seaweedfs/releases and unzip the single `weed` (or `weed.exe`) file. Then start a ready-to-use S3 object store with credentials and a pre-created bucket in one command:
+Download the latest binary from https://github.com/seaweedfs/seaweedfs/releases and unzip the single `weed` (or `weed.exe`) file, or run `go install github.com/seaweedfs/seaweedfs/weed@latest`. Then start a ready-to-use S3 object store with credentials and a pre-created bucket in one command:
 
 ```bash
 AWS_ACCESS_KEY_ID=admin \
@@ -102,18 +101,19 @@ The same command starts everything else too:
 
 > macOS: if the binary is quarantined, run `xattr -d com.apple.quarantine ./weed` first.
 
-Perfect for development, testing, learning SeaweedFS, and single-node deployments.
+Perfect for development, testing, learning SeaweedFS, and single-node deployments. To scale out, add more volume servers by running `weed volume -dir="/some/data/dir2" -master="<master_host>:9333" -port=8081` locally, on another machine, or on thousands of machines.
 
 ## Quick Start for S3 API on Docker ##
 
-`docker run -p 8333:8333 chrislusf/seaweedfs server -s3`
+```bash
+docker run -p 8333:8333 \
+  -e AWS_ACCESS_KEY_ID=admin \
+  -e AWS_SECRET_ACCESS_KEY=secret \
+  -e S3_BUCKET=my-bucket \
+  chrislusf/seaweedfs
+```
 
-## Quick Start with Single Binary ##
-* Download the latest binary from https://github.com/seaweedfs/seaweedfs/releases and unzip a single binary file `weed` or `weed.exe`. Or run `go install github.com/seaweedfs/seaweedfs/weed@latest`.
-* `export AWS_ACCESS_KEY_ID=admin ; export AWS_SECRET_ACCESS_KEY=key` as the admin credentials to access the object store.
-* Run `weed server -dir=/some/data/dir -s3` to start one master, one volume server, one filer, and one S3 gateway. The difference with `weed mini` is that `weed mini` can auto configure based on the single host environment, while `weed server` requires manual configuration and are designed for production use.
-
-Also, to increase capacity, just add more volume servers by running `weed volume -dir="/some/data/dir2" -master="<master_host>:9333" -port=8081` locally, or on a different machine, or on thousands of machines. That is it!
+Same behavior as the `weed mini` command above — the S3 endpoint is at http://localhost:8333 with `my-bucket` pre-created. Drop the env vars to run anonymously for development.
 
 # Introduction #
 
@@ -145,6 +145,11 @@ With hot data on local cluster, and warm data on the cloud with O(1) access time
 SeaweedFS can achieve both fast local access time and elastic cloud storage capacity.
 What's more, the cloud storage access API cost is minimized. 
 Faster and cheaper than direct cloud storage!
+
+SeaweedFS also ships a built-in **Iceberg REST Catalog**, turning the same cluster into a self-contained lakehouse.
+Spark, Trino, Dremio, DuckDB, and RisingWave can query Iceberg tables directly — no Hive Metastore, Glue, or
+external catalog service required. Storage and table metadata live in one system, simplifying on-prem and
+small-team analytics stacks.
 
 [Back to TOC](#table-of-contents)
 
@@ -182,6 +187,13 @@ Faster and cheaper than direct cloud storage!
 * [Cloud Drive][CloudDrive] mounts cloud storage to local cluster, cached for fast read and write with asynchronous write back.
 * [Gateway to Remote Object Store][GatewayToRemoteObjectStore] mirrors bucket operations to remote object storage, in addition to [Cloud Drive][CloudDrive]
 
+## Data Lakehouse Features ##
+* [S3 Table Buckets][S3TableBucket] expose a dedicated namespace for Iceberg tables with strict layout validation.
+* Built-in [Iceberg REST Catalog][IcebergCatalog] runs alongside the S3 endpoint — no external metastore needed.
+* Native integrations with [Apache Spark][SparkIceberg], [Trino][TrinoIceberg], [Dremio][DremioIceberg], [DuckDB][DuckDBIceberg], and [RisingWave][RisingWaveIceberg].
+* [Automated table maintenance][IcebergMaintenance]: compaction, snapshot expiration, orphan removal, manifest rewriting.
+* Granular IAM at the bucket, namespace, and table level via standard S3 bucket policies.
+
 ## Kubernetes ##
 * [Kubernetes CSI Driver][SeaweedFsCsiDriver] A Container Storage Interface (CSI) Driver. [![Docker Pulls](https://img.shields.io/docker/pulls/chrislusf/seaweedfs-csi-driver.svg?maxAge=4800)](https://hub.docker.com/r/chrislusf/seaweedfs-csi-driver/)
 * [SeaweedFS Operator](https://github.com/seaweedfs/seaweedfs-operator)
@@ -205,6 +217,14 @@ Faster and cheaper than direct cloud storage!
 [KeyLargeValueStore]: https://github.com/seaweedfs/seaweedfs/wiki/Filer-as-a-Key-Large-Value-Store
 [CloudDrive]: https://github.com/seaweedfs/seaweedfs/wiki/Cloud-Drive-Architecture
 [GatewayToRemoteObjectStore]: https://github.com/seaweedfs/seaweedfs/wiki/Gateway-to-Remote-Object-Storage
+[S3TableBucket]: https://github.com/seaweedfs/seaweedfs/wiki/S3-Table-Bucket
+[IcebergCatalog]: https://github.com/seaweedfs/seaweedfs/wiki/SeaweedFS-Iceberg-Catalog
+[IcebergMaintenance]: https://github.com/seaweedfs/seaweedfs/wiki/Iceberg-Table-Maintenance
+[SparkIceberg]: https://github.com/seaweedfs/seaweedfs/wiki/Spark-Iceberg-Integration
+[TrinoIceberg]: https://github.com/seaweedfs/seaweedfs/wiki/Trino-Iceberg-Integration
+[DremioIceberg]: https://github.com/seaweedfs/seaweedfs/wiki/Dremio-Iceberg-Integration
+[DuckDBIceberg]: https://github.com/seaweedfs/seaweedfs/wiki/DuckDB-Iceberg-Integration
+[RisingWaveIceberg]: https://github.com/seaweedfs/seaweedfs/wiki/RisingWave-Iceberg-Integration
 
 
 [Back to TOC](#table-of-contents)

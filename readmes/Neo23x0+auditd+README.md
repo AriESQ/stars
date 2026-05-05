@@ -80,6 +80,38 @@ and replace `1000` in `audit.rules` before deployment:
 awk '$1=="UID_MIN" { print $2 }' /etc/login.defs
 ```
 
+## AF_ALG / Copy Fail Telemetry
+
+On April 29, 2026, Xint published Copy Fail (CVE-2026-31431), a local
+privilege-escalation technique that abuses the kernel crypto userspace
+interface (`AF_ALG`) together with `splice()` to corrupt page-cache-backed
+files in memory.
+
+This ruleset includes a small `af_alg` block to collect the stable, low-noise
+parts of that setup from attributable user sessions:
+
+- `socket(AF_ALG, ...)`
+- `bind()` using the common fixed-size `struct sockaddr_alg`
+- `setsockopt(..., SOL_ALG, ...)`
+
+This is intentionally more generic than a one-off signature for
+`authencesn(hmac(sha256),cbc(aes))` because audit syscall filters cannot match
+string arguments. In practice, the algorithm name lives in the `SOCKADDR`
+record emitted by `bind()`, so the recommended downstream detection is:
+
+- filter on `key=af_alg`
+- inspect `SOCKADDR.saddr` / `SADDR={ saddr_fam=alg ... }`
+- flag `salg_type=aead` with `salg_name` containing `authencesn(`
+- raise severity when the same `pid`, `exe`, or `auid` emits many such binds in
+  a short window
+
+The proof-of-concept described by Xint also relies on repeated `splice()`
+operations. Those syscalls are too noisy for the default ruleset on many
+systems, so the repository ships only a commented-out `splice_user` overlay in
+`audit.rules`. Enable it only if `splice` / `vmsplice` are uncommon in your
+environment and correlate it with recent `af_alg` activity from the same
+process or user session.
+
 ## Sources
 
 The configuration is based on the following sources and years of merged
@@ -96,6 +128,12 @@ https://github.com/linux-audit/audit-userspace/tree/master/rules
 
 Auditd high performance linux auditing
 https://linux-audit.com/tuning-auditd-high-performance-linux-auditing/
+
+Copy Fail: 732 Bytes to Root on Every Major Linux Distribution.
+https://xint.io/blog/copy-fail-linux-distributions
+
+Linux kernel crypto userspace interface (AF_ALG)
+https://docs.kernel.org/crypto/userspace-if.html
 
 ### Further rules
 

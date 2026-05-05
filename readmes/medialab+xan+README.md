@@ -621,7 +621,6 @@ For a sense of what can be achieved with `xan`, see this page summarizing a vari
 
 - [**cat**](./docs/cmd/cat.md): Concatenate by row or column
 - [**join**](./docs/cmd/join.md): Join CSV files
-- [**fuzzy-join**](./docs/cmd/fuzzy-join.md): Join a CSV file with another containing patterns (e.g. regexes)
 - [**merge**](./docs/cmd/merge.md): Merge multiple similar already sorted CSV files
 
 *Add, transform, drop and move columns*
@@ -631,7 +630,6 @@ For a sense of what can be achieved with `xan`, see this page summarizing a vari
 - [**map**](./docs/cmd/map.md): Create a new column by evaluating an expression on each CSV row
 - [**transform**](./docs/cmd/transform.md): Transform a column by evaluating an expression on each CSV row
 - [**enum**](./docs/cmd/enum.md): Enumerate CSV file by preprending an index column
-- [**flatmap**](./docs/cmd/flatmap.md): Emit one row per value yielded by an expression evaluated for each CSV row
 - [**fill**](./docs/cmd/fill.md): Fill empty cells
 - [**complete**](./docs/cmd/complete.md): Add missing rows in a column of contiguous values
 - [**blank**](./docs/cmd/blank.md): Blank down contiguous identical cell values

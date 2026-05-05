@@ -43,14 +43,14 @@ Actions are triggered by GitHub platform events directly in a repo and run on-de
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Official Site](https://github.com/features/actions))
 - 🌎 [Official Documentation](help.github.com/en/actions)
 - [Official Actions organization](https://github.com/actions)
-  - <b><code>&nbsp;12692⭐</code></b> <b><code>&nbsp;&nbsp;3725🍴</code></b> [actions/virtual-environments](https://github.com/actions/virtual-environments)) - GitHub Actions virtual environments.
-  - <b><code>&nbsp;&nbsp;5980⭐</code></b> <b><code>&nbsp;&nbsp;1281🍴</code></b> [actions/runner](https://github.com/actions/runner)) - The Runner for GitHub Actions.
+  - <b><code>&nbsp;12694⭐</code></b> <b><code>&nbsp;&nbsp;3729🍴</code></b> [actions/virtual-environments](https://github.com/actions/virtual-environments)) - GitHub Actions virtual environments.
+  - <b><code>&nbsp;&nbsp;5981⭐</code></b> <b><code>&nbsp;&nbsp;1285🍴</code></b> [actions/runner](https://github.com/actions/runner)) - The Runner for GitHub Actions.
 - 🌎 [GitHub Blog Announcement](github.blog/2018-10-17-action-demos/)
 
 ### Workflow Examples
 
-- <b><code>&nbsp;11524⭐</code></b> <b><code>&nbsp;&nbsp;6975🍴</code></b> [actions/starter-workflows](https://github.com/actions/starter-workflows)) - Starter workflow management.
-- <b><code>&nbsp;&nbsp;&nbsp;257⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;225🍴</code></b> [actions/example-services](https://github.com/actions/example-services)) - Example workflows using service containers.
+- <b><code>&nbsp;11528⭐</code></b> <b><code>&nbsp;&nbsp;6979🍴</code></b> [actions/starter-workflows](https://github.com/actions/starter-workflows)) - Starter workflow management.
+- <b><code>&nbsp;&nbsp;&nbsp;258⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;226🍴</code></b> [actions/example-services](https://github.com/actions/example-services)) - Example workflows using service containers.
 
 ### Official Actions
 
@@ -62,108 +62,108 @@ Tool actions for your workflow.
 
 <!--lint ignore awesome-spell-check-->
 
-- <b><code>&nbsp;&nbsp;7841⭐</code></b> <b><code>&nbsp;&nbsp;2470🍴</code></b> [actions/checkout](https://github.com/actions/checkout)) - Setup your repository on your workflow.
-- <b><code>&nbsp;&nbsp;4048⭐</code></b> <b><code>&nbsp;&nbsp;1047🍴</code></b> [actions/upload-artifact](https://github.com/actions/upload-artifact)) - Upload artifacts from your workflow.
-- <b><code>&nbsp;&nbsp;1826⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;699🍴</code></b> [actions/download-artifact](https://github.com/actions/download-artifact)) - Download artifacts from your build.
-- <b><code>&nbsp;&nbsp;5366⭐</code></b> <b><code>&nbsp;&nbsp;1529🍴</code></b> [actions/cache](https://github.com/actions/cache)) - Cache dependencies and build outputs in GitHub Actions.
-- <b><code>&nbsp;&nbsp;4937⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;556🍴</code></b> [actions/github-script](https://github.com/actions/github-script)) - Write a script for GitHub API and the workflow contexts.
+- <b><code>&nbsp;&nbsp;7848⭐</code></b> <b><code>&nbsp;&nbsp;2471🍴</code></b> [actions/checkout](https://github.com/actions/checkout)) - Setup your repository on your workflow.
+- <b><code>&nbsp;&nbsp;4054⭐</code></b> <b><code>&nbsp;&nbsp;1048🍴</code></b> [actions/upload-artifact](https://github.com/actions/upload-artifact)) - Upload artifacts from your workflow.
+- <b><code>&nbsp;&nbsp;1829⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;701🍴</code></b> [actions/download-artifact](https://github.com/actions/download-artifact)) - Download artifacts from your build.
+- <b><code>&nbsp;&nbsp;5372⭐</code></b> <b><code>&nbsp;&nbsp;1529🍴</code></b> [actions/cache](https://github.com/actions/cache)) - Cache dependencies and build outputs in GitHub Actions.
+- <b><code>&nbsp;&nbsp;4938⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;556🍴</code></b> [actions/github-script](https://github.com/actions/github-script)) - Write a script for GitHub API and the workflow contexts.
 
 #### Actions for GitHub Automation
 
 Automate management for issues, pull requests, and releases.
 
-- <b><code>&nbsp;&nbsp;1377⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;328🍴</code></b> [actions/create-release](https://github.com/actions/create-release)) - An Action to create releases via the GitHub Release API.
-- <b><code>&nbsp;&nbsp;&nbsp;712⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;199🍴</code></b> [actions/upload-release-asset](https://github.com/actions/upload-release-asset)) - An Action to upload a release asset via the GitHub Release API.
-- <b><code>&nbsp;&nbsp;&nbsp;861⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;378🍴</code></b> [actions/first-interaction](https://github.com/actions/first-interaction)) - An action for filtering pull requests and issues from first-time contributors.
-- <b><code>&nbsp;&nbsp;1670⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;421🍴</code></b> [actions/stale](https://github.com/actions/stale)) - Marks issues and pull requests that have not had recent interaction.
-- <b><code>&nbsp;&nbsp;2432⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;480🍴</code></b> [actions/labeler](https://github.com/actions/labeler)) - An action for automatically labelling pull requests.
-- <b><code>&nbsp;&nbsp;&nbsp;426⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;94🍴</code></b> [actions/delete-package-versions](https://github.com/actions/delete-package-versions)) - Delete versions of a package from GitHub Packages.
+- <b><code>&nbsp;&nbsp;1378⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;329🍴</code></b> [actions/create-release](https://github.com/actions/create-release)) - An Action to create releases via the GitHub Release API.
+- <b><code>&nbsp;&nbsp;&nbsp;713⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;200🍴</code></b> [actions/upload-release-asset](https://github.com/actions/upload-release-asset)) - An Action to upload a release asset via the GitHub Release API.
+- <b><code>&nbsp;&nbsp;&nbsp;862⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;379🍴</code></b> [actions/first-interaction](https://github.com/actions/first-interaction)) - An action for filtering pull requests and issues from first-time contributors.
+- <b><code>&nbsp;&nbsp;1671⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;422🍴</code></b> [actions/stale](https://github.com/actions/stale)) - Marks issues and pull requests that have not had recent interaction.
+- <b><code>&nbsp;&nbsp;2434⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;481🍴</code></b> [actions/labeler](https://github.com/actions/labeler)) - An action for automatically labelling pull requests.
+- <b><code>&nbsp;&nbsp;&nbsp;427⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;95🍴</code></b> [actions/delete-package-versions](https://github.com/actions/delete-package-versions)) - Delete versions of a package from GitHub Packages.
 
 #### Setup Actions
 
 Set up your GitHub Actions workflow with a specific version of your programming languages.
 
-- <b><code>&nbsp;&nbsp;4763⭐</code></b> <b><code>&nbsp;&nbsp;1651🍴</code></b> [actions/setup-node: Node.js](https://github.com/actions/setup-node))
-- <b><code>&nbsp;&nbsp;2144⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;711🍴</code></b> [actions/setup-python: Python](https://github.com/actions/setup-python))
-- <b><code>&nbsp;&nbsp;1685⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;644🍴</code></b> [actions/setup-go: Go](https://github.com/actions/setup-go))
-- <b><code>&nbsp;&nbsp;1157⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;553🍴</code></b> [actions/setup-dotnet: .NET core sdk](https://github.com/actions/setup-dotnet))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;73⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [actions/setup-haskell: Haskell (GHC and Cabal)](https://github.com/actions/setup-haskell))
-- <b><code>&nbsp;&nbsp;1910⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;842🍴</code></b> [actions/setup-java: Java](https://github.com/actions/setup-java))
-- <b><code>&nbsp;&nbsp;&nbsp;185⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;70🍴</code></b> [actions/setup-ruby: Ruby](https://github.com/actions/setup-ruby))
-- <b><code>&nbsp;&nbsp;&nbsp;156⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;40🍴</code></b> [actions/setup-elixir: Elixir](https://github.com/actions/setup-elixir))
+- <b><code>&nbsp;&nbsp;4771⭐</code></b> <b><code>&nbsp;&nbsp;1652🍴</code></b> [actions/setup-node: Node.js](https://github.com/actions/setup-node))
+- <b><code>&nbsp;&nbsp;2146⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;712🍴</code></b> [actions/setup-python: Python](https://github.com/actions/setup-python))
+- <b><code>&nbsp;&nbsp;1688⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;645🍴</code></b> [actions/setup-go: Go](https://github.com/actions/setup-go))
+- <b><code>&nbsp;&nbsp;1160⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;554🍴</code></b> [actions/setup-dotnet: .NET core sdk](https://github.com/actions/setup-dotnet))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;74⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [actions/setup-haskell: Haskell (GHC and Cabal)](https://github.com/actions/setup-haskell))
+- <b><code>&nbsp;&nbsp;1910⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;844🍴</code></b> [actions/setup-java: Java](https://github.com/actions/setup-java))
+- <b><code>&nbsp;&nbsp;&nbsp;186⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;71🍴</code></b> [actions/setup-ruby: Ruby](https://github.com/actions/setup-ruby))
+- <b><code>&nbsp;&nbsp;&nbsp;157⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;41🍴</code></b> [actions/setup-elixir: Elixir](https://github.com/actions/setup-elixir))
 - <b><code>&nbsp;&nbsp;&nbsp;107⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [actions/setup-julia: Julia](https://github.com/julia-actions/setup-julia))
 
 ### Create your Actions
 
 #### JavaScript and TypeScript Actions
 
-- <b><code>&nbsp;&nbsp;5717⭐</code></b> <b><code>&nbsp;&nbsp;1740🍴</code></b> [actions/toolkit](https://github.com/actions/toolkit)) - The GitHub ToolKit for developing GitHub Actions.
-- <b><code>&nbsp;&nbsp;&nbsp;307⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;273🍴</code></b> [actions/hello-world-javascript-action](https://github.com/actions/hello-world-javascript-action)) - A template to demonstrate how to build a JavaScript action.
-- <b><code>&nbsp;&nbsp;1168⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;474🍴</code></b> [actions/javascript-action](https://github.com/actions/javascript-action)) - Create a JavaScript Action.
-- <b><code>&nbsp;&nbsp;2398⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;579🍴</code></b> [actions/typescript-action](https://github.com/actions/typescript-action)) - Create a TypeScript Action.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;78⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [actions/http-client](https://github.com/actions/http-client)) - A lightweight HTTP client optimized for use with actions, TypeScript with generics and async await.
+- <b><code>&nbsp;&nbsp;5722⭐</code></b> <b><code>&nbsp;&nbsp;1742🍴</code></b> [actions/toolkit](https://github.com/actions/toolkit)) - The GitHub ToolKit for developing GitHub Actions.
+- <b><code>&nbsp;&nbsp;&nbsp;308⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;274🍴</code></b> [actions/hello-world-javascript-action](https://github.com/actions/hello-world-javascript-action)) - A template to demonstrate how to build a JavaScript action.
+- <b><code>&nbsp;&nbsp;1170⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;474🍴</code></b> [actions/javascript-action](https://github.com/actions/javascript-action)) - Create a JavaScript Action.
+- <b><code>&nbsp;&nbsp;2399⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;579🍴</code></b> [actions/typescript-action](https://github.com/actions/typescript-action)) - Create a TypeScript Action.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;79⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34🍴</code></b> [actions/http-client](https://github.com/actions/http-client)) - A lightweight HTTP client optimized for use with actions, TypeScript with generics and async await.
 
 #### Docker Container Actions
 
-- <b><code>&nbsp;&nbsp;&nbsp;178⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;191🍴</code></b> [actions/hello-world-docker-action](https://github.com/actions/hello-world-docker-action)) - A template to demonstrate how to build a Docker action.
-- <b><code>&nbsp;&nbsp;&nbsp;162⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37🍴</code></b> [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action)) - Template repo for creating container actions using actions/toolkit.
+- <b><code>&nbsp;&nbsp;&nbsp;179⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;192🍴</code></b> [actions/hello-world-docker-action](https://github.com/actions/hello-world-docker-action)) - A template to demonstrate how to build a Docker action.
+- <b><code>&nbsp;&nbsp;&nbsp;163⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;38🍴</code></b> [actions/container-toolkit-action](https://github.com/actions/container-toolkit-action)) - Template repo for creating container actions using actions/toolkit.
 
 ## Community Resources
 
 ### GitHub Tools and Management
 
-- <b><code>&nbsp;&nbsp;&nbsp;193⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [Declaratively setup GitHub Labels](https://github.com/lannonbr/issue-label-manager-action))
-- <b><code>&nbsp;&nbsp;&nbsp;219⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34🍴</code></b> [Action to sync GitHub labels in the declarative way](https://github.com/micnncim/action-label-syncer))
-- <b><code>&nbsp;&nbsp;&nbsp;216⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;59🍴</code></b> [Add releases to GitHub](https://github.com/elgohr/Github-Release-Action))
+- <b><code>&nbsp;&nbsp;&nbsp;194⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [Declaratively setup GitHub Labels](https://github.com/lannonbr/issue-label-manager-action))
+- <b><code>&nbsp;&nbsp;&nbsp;220⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34🍴</code></b> [Action to sync GitHub labels in the declarative way](https://github.com/micnncim/action-label-syncer))
+- <b><code>&nbsp;&nbsp;&nbsp;217⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;59🍴</code></b> [Add releases to GitHub](https://github.com/elgohr/Github-Release-Action))
 - <b><code>&nbsp;&nbsp;&nbsp;793⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;204🍴</code></b> [Publish a docker image to Dockerhub](https://github.com/elgohr/Publish-Docker-Github-Action))
 - <b><code>&nbsp;&nbsp;&nbsp;175⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;38🍴</code></b> [Create an issue using content from a file](https://github.com/peter-evans/create-issue-from-file))
-- <b><code>&nbsp;&nbsp;5588⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;622🍴</code></b> [Publish GitHub Releases with Assets](https://github.com/softprops/action-gh-release))
-- <b><code>&nbsp;&nbsp;&nbsp;343⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;94🍴</code></b> [GitHub Project Automation+](https://github.com/alex-page/github-project-automation-plus)) - Automate GitHub Project cards with any webhook event.
-- <b><code>&nbsp;&nbsp;&nbsp;253⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Run GitHub Actions Locally with a web interface](https://github.com/phishy/wflow))
-- <b><code>&nbsp;70118⭐</code></b> <b><code>&nbsp;&nbsp;1920🍴</code></b> [Run GitHub Actions Locally in Terminal](https://github.com/nektos/act))
+- <b><code>&nbsp;&nbsp;5592⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;622🍴</code></b> [Publish GitHub Releases with Assets](https://github.com/softprops/action-gh-release))
+- <b><code>&nbsp;&nbsp;&nbsp;344⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;94🍴</code></b> [GitHub Project Automation+](https://github.com/alex-page/github-project-automation-plus)) - Automate GitHub Project cards with any webhook event.
+- <b><code>&nbsp;&nbsp;&nbsp;254⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Run GitHub Actions Locally with a web interface](https://github.com/phishy/wflow))
+- <b><code>&nbsp;70140⭐</code></b> <b><code>&nbsp;&nbsp;1918🍴</code></b> [Run GitHub Actions Locally in Terminal](https://github.com/nektos/act))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;65⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;59🍴</code></b> [Build and Publish Android debug APK](https://github.com/ShaunLWM/action-release-debugapk))
 - <b><code>&nbsp;&nbsp;&nbsp;139⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;55🍴</code></b> [Generate sequential build numbers for GitHub Actions](https://github.com/einaregilsson/build-number))
-- <b><code>&nbsp;&nbsp;1264⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;237🍴</code></b> [Push Git changes to GitHub repository without authentication difficulties](https://github.com/ad-m/github-push-action))
-- <b><code>&nbsp;&nbsp;&nbsp;125⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [Generate release notes based on your events](https://github.com/Decathlon/release-notes-generator-action))
-- <b><code>&nbsp;&nbsp;&nbsp;103⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Create a GitHub wiki page based on the provided markdown file](https://github.com/Decathlon/wiki-page-creator-action))
+- <b><code>&nbsp;&nbsp;1265⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;237🍴</code></b> [Push Git changes to GitHub repository without authentication difficulties](https://github.com/ad-m/github-push-action))
+- <b><code>&nbsp;&nbsp;&nbsp;126⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [Generate release notes based on your events](https://github.com/Decathlon/release-notes-generator-action))
+- <b><code>&nbsp;&nbsp;&nbsp;104⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Create a GitHub wiki page based on the provided markdown file](https://github.com/Decathlon/wiki-page-creator-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;98⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Label your Pull Requests auto-magically (using committed files)](https://github.com/Decathlon/pull-request-labeler-action))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;50⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44🍴</code></b> [Add Label to your Pull Requests based on the author team name](https://github.com/JulienKode/team-labeler-action))
-- <b><code>&nbsp;&nbsp;&nbsp;167⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;49🍴</code></b> [Get a list of file changes with PR/Push](https://github.com/trilom/file-changes-action))
-- <b><code>&nbsp;&nbsp;&nbsp;170⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [Use private actions in any workflow](https://github.com/InVisionApp/private-action-loader))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Label Your Issues Using the Issue's Contents](https://github.com/damccorm/tag-ur-it))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;60⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Rollback a GitHub Release](https://github.com/author/action-rollback))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;51⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44🍴</code></b> [Add Label to your Pull Requests based on the author team name](https://github.com/JulienKode/team-labeler-action))
+- <b><code>&nbsp;&nbsp;&nbsp;168⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;49🍴</code></b> [Get a list of file changes with PR/Push](https://github.com/trilom/file-changes-action))
+- <b><code>&nbsp;&nbsp;&nbsp;171⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [Use private actions in any workflow](https://github.com/InVisionApp/private-action-loader))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;38⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Label Your Issues Using the Issue's Contents](https://github.com/damccorm/tag-ur-it))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;61⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Rollback a GitHub Release](https://github.com/author/action-rollback))
 - <b><code>&nbsp;&nbsp;&nbsp;327⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;42🍴</code></b> [Lock Closed Issues and Pull Requests after a Period of Inactivity](https://github.com/dessant/lock-threads))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Get Commit Difference Count Between Two Branches](https://github.com/jessicalostinspace/commit-difference-action))
-- <b><code>&nbsp;&nbsp;&nbsp;148⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Get Commit Difference Count Between Two Branches](https://github.com/jessicalostinspace/commit-difference-action))
+- <b><code>&nbsp;&nbsp;&nbsp;149⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [Generate Release Notes Based on Git References](https://github.com/metcalfc/changelog-generator))
 - <b><code>&nbsp;&nbsp;&nbsp;518⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;62🍴</code></b> [Enforce Policies on GitHub Repositories and Commits](https://github.com/talos-systems/conform))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;53⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9🍴</code></b> [Auto Label Issue Based on Issue Description](https://github.com/Renato66/auto-label))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;54⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9🍴</code></b> [Auto Label Issue Based on Issue Description](https://github.com/Renato66/auto-label))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Update Configured GitHub Actions to the Latest Versions](https://github.com/fabasoad/ghacu))
-- <b><code>&nbsp;&nbsp;&nbsp;346⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47🍴</code></b> [Create Issue Branch](https://github.com/robvanderleek/create-issue-branch))
-- <b><code>&nbsp;&nbsp;&nbsp;390⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;62🍴</code></b> [Remove Old Artifacts](https://github.com/c-hive/gha-remove-artifacts))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;42⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Expose Git Commit Data As Environment Variables](https://github.com/rlespinasse/git-commit-data-action))
+- <b><code>&nbsp;&nbsp;&nbsp;348⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47🍴</code></b> [Create Issue Branch](https://github.com/robvanderleek/create-issue-branch))
+- <b><code>&nbsp;&nbsp;&nbsp;391⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;62🍴</code></b> [Remove Old Artifacts](https://github.com/c-hive/gha-remove-artifacts))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;43⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Expose Git Commit Data As Environment Variables](https://github.com/rlespinasse/git-commit-data-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [Sync Defined Files/Binaries to Wiki or External Repositories](https://github.com/kai-tub/external-repo-sync-action))
-- <b><code>&nbsp;&nbsp;&nbsp;102⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Create/Update/Delete a GitHub Wiki Page Based on Any File](https://github.com/Andrew-Chen-Wang/github-wiki-action))
+- <b><code>&nbsp;&nbsp;&nbsp;103⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Create/Update/Delete a GitHub Wiki Page Based on Any File](https://github.com/Andrew-Chen-Wang/github-wiki-action))
 - <b><code>&nbsp;&nbsp;&nbsp;109⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15🍴</code></b> [Prow GitHub Actions](https://github.com/jpmcb/prow-github-actions)) - Automation of policy enforcement, chat-ops, and automatic PR merging.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;39⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Check GitHub Status in your Workflow](https://github.com/crazy-max/ghaction-github-status))
-- <b><code>&nbsp;&nbsp;&nbsp;164⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Manage Labels on GitHub (create/rename/update/delete) as Code](https://github.com/crazy-max/ghaction-github-labeler))
-- <b><code>&nbsp;&nbsp;&nbsp;126⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Continuous Distribution of Funding to your Project Contributors and Dependencies](https://github.com/protontypes/libreselery))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;56⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Herald Rules for GitHub: Add Subscribers, Assignees, Labels, and More to Your PR](https://github.com/gagoar/use-herald-action))
-- <b><code>&nbsp;&nbsp;&nbsp;244⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;55🍴</code></b> [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator)) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
-- <b><code>&nbsp;&nbsp;&nbsp;120⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;39🍴</code></b> [Copybara Action](https://github.com/olivr/copybara-action)) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;40⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Check GitHub Status in your Workflow](https://github.com/crazy-max/ghaction-github-status))
+- <b><code>&nbsp;&nbsp;&nbsp;165⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Manage Labels on GitHub (create/rename/update/delete) as Code](https://github.com/crazy-max/ghaction-github-labeler))
+- <b><code>&nbsp;&nbsp;&nbsp;125⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Continuous Distribution of Funding to your Project Contributors and Dependencies](https://github.com/protontypes/libreselery))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;57⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Herald Rules for GitHub: Add Subscribers, Assignees, Labels, and More to Your PR](https://github.com/gagoar/use-herald-action))
+- <b><code>&nbsp;&nbsp;&nbsp;245⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;55🍴</code></b> [GitHub Codeowners Validator](https://github.com/mszostok/codeowners-validator)) - Ensures the correctness of your GitHub CODEOWNERS file. It supports public and private GitHub repositories and also GitHub Enterprise installations.
+- <b><code>&nbsp;&nbsp;&nbsp;121⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;39🍴</code></b> [Copybara Action](https://github.com/olivr/copybara-action)) - Move and transform code between repositories (ideal to maintain several repos from one monorepo).
 
 ### Collection of Actions
 
-- <b><code>&nbsp;&nbsp;1567⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;276🍴</code></b> [Use HashiCorp's Terraform](https://github.com/hashicorp/setup-terraform))
+- <b><code>&nbsp;&nbsp;1570⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;276🍴</code></b> [Use HashiCorp's Terraform](https://github.com/hashicorp/setup-terraform))
 - <b><code>&nbsp;&nbsp;&nbsp;313⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;58🍴</code></b> [GitHub Actions for Yarn 1](https://github.com/Borales/actions-yarn))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [GitHub Actions for Yarn 2](https://github.com/sergioramos/yarn-actions))
 - <b><code>&nbsp;&nbsp;&nbsp;133⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;29🍴</code></b> [GitHub Actions for Golang](https://github.com/cedrickring/golang-action))
 - [GitHub Actions for R and accompanying #rstats package](http://maxheld.de/ghactions/)
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [GitHub Actions for WordPress](https://github.com/10up/actions-wordpress/))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [GitHub Actions for Composer](https://github.com/MilesChou/composer-action))
-- <b><code>&nbsp;&nbsp;2584⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;257🍴</code></b> [GitHub Actions for Flutter](https://github.com/subosito/flutter-action))
-- <b><code>&nbsp;&nbsp;3204⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;410🍴</code></b> [GitHub Actions for PHP](https://github.com/shivammathur/setup-php))
+- <b><code>&nbsp;&nbsp;2585⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;257🍴</code></b> [GitHub Actions for Flutter](https://github.com/subosito/flutter-action))
+- <b><code>&nbsp;&nbsp;3205⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;410🍴</code></b> [GitHub Actions for PHP](https://github.com/shivammathur/setup-php))
 - [GitHub Actions for Rust](https://github.com/actions-rs)
-- <b><code>&nbsp;&nbsp;&nbsp;192⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [GitHub Actions for Android](https://github.com/Malinskiy/action-android))
+- <b><code>&nbsp;&nbsp;&nbsp;192⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;26🍴</code></b> [GitHub Actions for Android](https://github.com/Malinskiy/action-android))
 - [GitHub Actions for Logtalk and Prolog](https://github.com/logtalk-actions)
 - <b><code>&nbsp;&nbsp;&nbsp;180⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [GitHub Actions for Deno](https://github.com/denolib/setup-deno))
 - <b><code>&nbsp;&nbsp;1087⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;124🍴</code></b> [GitHub Actions for Unity](https://github.com/webbertakken/unity-actions))
@@ -174,93 +174,93 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 ### Utility
 
-- <b><code>&nbsp;&nbsp;1458⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;293🍴</code></b> [Setup `ssh-agent`](https://github.com/webfactory/ssh-agent)) - Run `ssh-agent` with additional SSH keys to access private repositories.
-- <b><code>&nbsp;&nbsp;&nbsp;207⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13🍴</code></b> [GitHub Actions Badges for your README](https://github.com/atrox/github-actions-badge))
-- <b><code>&nbsp;&nbsp;&nbsp;465⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47🍴</code></b> [GitHub Actions for Python project with poetry](https://github.com/abatilo/actions-poetry))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;43⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [GitHub Actions for Python project with pyenv](https://github.com/gabrielfalcao/pyenv-action))
-- <b><code>&nbsp;&nbsp;1371⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;151🍴</code></b> [GitHub Actions to compile LaTeX documents](https://github.com/xu-cheng/latex-action))
+- <b><code>&nbsp;&nbsp;1459⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;293🍴</code></b> [Setup `ssh-agent`](https://github.com/webfactory/ssh-agent)) - Run `ssh-agent` with additional SSH keys to access private repositories.
+- <b><code>&nbsp;&nbsp;&nbsp;208⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13🍴</code></b> [GitHub Actions Badges for your README](https://github.com/atrox/github-actions-badge))
+- <b><code>&nbsp;&nbsp;&nbsp;466⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47🍴</code></b> [GitHub Actions for Python project with poetry](https://github.com/abatilo/actions-poetry))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [GitHub Actions for Python project with pyenv](https://github.com/gabrielfalcao/pyenv-action))
+- <b><code>&nbsp;&nbsp;1372⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;151🍴</code></b> [GitHub Actions to compile LaTeX documents](https://github.com/xu-cheng/latex-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Update Maxmind Databases](https://github.com/meetup/maxmind-updater))
-- <b><code>&nbsp;&nbsp;3531⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;328🍴</code></b> [Debug with SSH over tmate](https://github.com/mxschmitt/action-tmate)) - Debug the Action directly by providing a SSH connection.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;55⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [Unlock git-crypt files](https://github.com/sliteteam/github-action-git-crypt-unlock))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;70⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Golang CGO cross compiler](https://github.com/crazy-max/ghaction-xgo))
-- <b><code>&nbsp;&nbsp;&nbsp;745⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;168🍴</code></b> [Run your job on another architecture: arm32, aarch64 and others](https://github.com/uraimo/run-on-arch-action))
-- <b><code>&nbsp;&nbsp;&nbsp;245⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;27🍴</code></b> [Generate a table of contents](https://github.com/technote-space/toc-generator))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;61⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [Automatically add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action))
+- <b><code>&nbsp;&nbsp;3532⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;328🍴</code></b> [Debug with SSH over tmate](https://github.com/mxschmitt/action-tmate)) - Debug the Action directly by providing a SSH connection.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;56⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [Unlock git-crypt files](https://github.com/sliteteam/github-action-git-crypt-unlock))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;71⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Golang CGO cross compiler](https://github.com/crazy-max/ghaction-xgo))
+- <b><code>&nbsp;&nbsp;&nbsp;746⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;168🍴</code></b> [Run your job on another architecture: arm32, aarch64 and others](https://github.com/uraimo/run-on-arch-action))
+- <b><code>&nbsp;&nbsp;&nbsp;246⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;27🍴</code></b> [Generate a table of contents](https://github.com/technote-space/toc-generator))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;62⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20🍴</code></b> [Automatically add Label or Assignee to an Issue](https://github.com/Naturalclar/issue-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;80⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Action to send LGTM reaction as image or GIF when we say lgtm](https://github.com/micnncim/action-lgtm-reaction))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [Generate build numbers across multiple scopes](https://github.com/zyborg/gh-action-buildnum))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [Generate build numbers across multiple scopes](https://github.com/zyborg/gh-action-buildnum))
 - <b><code>&nbsp;&nbsp;&nbsp;139⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19🍴</code></b> [Publish GitHub release artifacts](https://github.com/skx/github-action-publish-binaries))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Jekyll Diff Action](https://github.com/David-Byrne/jekyll-diff-action)) - Diffs the built Jekyll site after a change, and comments the result back to GitHub.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;73⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Branch Protection Bot](https://github.com/benjefferies/branch-protection-bot)) - Temporarily disable and re-enable "Include administrators" option in branch protection.
-- <b><code>&nbsp;&nbsp;&nbsp;106⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Wait for commit statuses](https://github.com/WyriHaximus/github-action-wait-for-status)) - Wait until all statuses and checks are successful or any of them has failed and set its status output accordingly.
-- <b><code>&nbsp;&nbsp;&nbsp;194⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;51🍴</code></b> [Get Latest Tag](https://github.com/WyriHaximus/github-action-get-previous-tag)) - Get the previous tag from git.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;17⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Create Milestone](https://github.com/WyriHaximus/github-action-create-milestone)) - Create a new open milestone given the title and description.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Close Milestone](https://github.com/WyriHaximus/github-action-close-milestone)) - Close the given milestone.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;87⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;41🍴</code></b> [Action to enforce branch naming rules](https://github.com/deepakputhraya/action-branch-name))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Jekyll Diff Action](https://github.com/David-Byrne/jekyll-diff-action)) - Diffs the built Jekyll site after a change, and comments the result back to GitHub.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;74⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Branch Protection Bot](https://github.com/benjefferies/branch-protection-bot)) - Temporarily disable and re-enable "Include administrators" option in branch protection.
+- <b><code>&nbsp;&nbsp;&nbsp;107⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Wait for commit statuses](https://github.com/WyriHaximus/github-action-wait-for-status)) - Wait until all statuses and checks are successful or any of them has failed and set its status output accordingly.
+- <b><code>&nbsp;&nbsp;&nbsp;195⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;51🍴</code></b> [Get Latest Tag](https://github.com/WyriHaximus/github-action-get-previous-tag)) - Get the previous tag from git.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Create Milestone](https://github.com/WyriHaximus/github-action-create-milestone)) - Create a new open milestone given the title and description.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Close Milestone](https://github.com/WyriHaximus/github-action-close-milestone)) - Close the given milestone.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;88⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;41🍴</code></b> [Action to enforce branch naming rules](https://github.com/deepakputhraya/action-branch-name))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Expose slug of some GitHub variables](https://github.com/marketplace/actions/github-slug))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [awesome-lint as a GitHub Action](https://github.com/max/awesome-lint))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Edit JSON File](https://github.com/deef0000dragon1/json-edit-action))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Build Slate documentation](https://github.com/Decathlon/slate-builder-action))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Read Properties](https://github.com/christian-draeger/read-properties)) - Read values from `.properties` files.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Write Properties](https://github.com/christian-draeger/write-properties)) - Write values to `.properties` files.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;21⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [awesome-lint as a GitHub Action](https://github.com/max/awesome-lint))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Edit JSON File](https://github.com/deef0000dragon1/json-edit-action))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Build Slate documentation](https://github.com/Decathlon/slate-builder-action))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Read Properties](https://github.com/christian-draeger/read-properties)) - Read values from `.properties` files.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Write Properties](https://github.com/christian-draeger/write-properties)) - Write values to `.properties` files.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;79⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;45🍴</code></b> [Autotag](https://github.com/butlerlogic/action-autotag)) - Automatically generate a new tag when the manifest file (i.e. `package.json`) version changes.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44🍴</code></b> [Apply templates with Jinja2](https://github.com/cuchi/jinja2-action)) - Use the Jinja2 template engine to generate files from templates.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Has Changes](https://github.com/UnicornGlobal/has-changes-action)) - Check if there are code changes from previous steps.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Mind Your Language Action](https://github.com/tailaiw/mind-your-language-action)) - Detect offensive comments in issues and pull requests, and warn senders.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;48⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44🍴</code></b> [Apply templates with Jinja2](https://github.com/cuchi/jinja2-action)) - Use the Jinja2 template engine to generate files from templates.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Has Changes](https://github.com/UnicornGlobal/has-changes-action)) - Check if there are code changes from previous steps.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Mind Your Language Action](https://github.com/tailaiw/mind-your-language-action)) - Detect offensive comments in issues and pull requests, and warn senders.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;28⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [YAML/JSON/XML Converter](https://github.com/fabasoad/yaml-json-xml-converter-action)) - Converts YAML/JSON/XML file formats interchangeably.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [NSFW Detection](https://github.com/fabasoad/nsfw-detection-action)) - Detect NSFW content in committed files.
-- <b><code>&nbsp;&nbsp;&nbsp;231⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [Has Changed Path](https://github.com/MarceloPrado/has-changed-path)) - Conditionally run actions based on changed paths.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [NSFW Detection](https://github.com/fabasoad/nsfw-detection-action)) - Detect NSFW content in committed files.
+- <b><code>&nbsp;&nbsp;&nbsp;232⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [Has Changed Path](https://github.com/MarceloPrado/has-changed-path)) - Conditionally run actions based on changed paths.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Linguist](https://github.com/fabasoad/linguist-action)) - Checks a repository and produces information about used languages in output.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Twilio Voice Call](https://github.com/fabasoad/twilio-voice-call-action/)) - Make Twilio voice call with defined text.
-- <b><code>&nbsp;&nbsp;&nbsp;382⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;54🍴</code></b> [Setup Xcode](https://github.com/maxim-lobanov/setup-xcode)) - Switch between pre-installed versions of Xcode for macOS images.
+- <b><code>&nbsp;&nbsp;&nbsp;383⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;54🍴</code></b> [Setup Xcode](https://github.com/maxim-lobanov/setup-xcode)) - Switch between pre-installed versions of Xcode for macOS images.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Setup Xamarin](https://github.com/maxim-lobanov/setup-xamarin)) - Switch between pre-installed versions of Xamarin and Mono for macOS images.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;38⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Memer Action](https://github.com/Bhupesh-V/memer-action)) - A GitHub Action for Programmer Memes xD.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;31⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Setup Cocoapods](https://github.com/maxim-lobanov/setup-cocoapods)) - Setup specific version of Cocoapods.
-- <b><code>&nbsp;&nbsp;&nbsp;125⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;30🍴</code></b> [Public IP](https://github.com/haythem/public-ip)) - Queries GitHub actions runner's public IP address.
+- <b><code>&nbsp;&nbsp;&nbsp;126⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;30🍴</code></b> [Public IP](https://github.com/haythem/public-ip)) - Queries GitHub actions runner's public IP address.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;60⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [GitHub Actions for Lazarus/FPC](https://github.com/gcarreno/setup-lazarus))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Twilio Fax](https://github.com/fabasoad/twilio-fax-action/)) - Sends a document by fax using your Twilio account.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;92⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;27🍴</code></b> [Setup Kubernetes tools](https://github.com/yokawasa/action-setup-kube-tools)) - Install Kubernetes tools (kubectl, kustomize, helm, kubeval, conftest, and yq) on the runner.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Setup Elastic Cloud Control Tool](https://github.com/yokawasa/action-setup-ecctl)) - Install a specific version of ecctl on the runner.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;52⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [PowerShell Script](https://github.com/Amadevus/pwsh-script)) - Run PowerShell scripts with workflow contexts (e.g. `$github.token`) and cmdlets, return value => action output.
 - <b><code>&nbsp;&nbsp;&nbsp;221⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22🍴</code></b> [Upload and Scan Files with VirusTotal](https://github.com/crazy-max/ghaction-virustotal))
-- <b><code>&nbsp;&nbsp;&nbsp;376⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;93🍴</code></b> [Import a GPG Key](https://github.com/crazy-max/ghaction-import-gpg))
+- <b><code>&nbsp;&nbsp;&nbsp;377⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;93🍴</code></b> [Import a GPG Key](https://github.com/crazy-max/ghaction-import-gpg))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;71⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Compress with UPX](https://github.com/crazy-max/ghaction-upx)) - The Ultimate Packer for eXecutables.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;26⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Pull the New Go Module Version Into the Proxy Cache](https://github.com/andrewslotin/go-proxy-pull-action)) - Ensures the latest version of your Go module is in the proxy cache. Also updates the pkg.go.dev documentation upon release.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;27⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Pull the New Go Module Version Into the Proxy Cache](https://github.com/andrewslotin/go-proxy-pull-action)) - Ensures the latest version of your Go module is in the proxy cache. Also updates the pkg.go.dev documentation upon release.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Delete Run Artifacts](https://github.com/marketplace/actions/delete-run-artifacts)) - Deletes all artifacts at the end of a workflow run.
-- <b><code>&nbsp;&nbsp;&nbsp;188⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24🍴</code></b> [GitHub Environment Variables Action](https://github.com/FranzDiebold/github-env-vars-action)) - Expose environment variables such as the branch/tag name, repository slug, and ref slug.
+- <b><code>&nbsp;&nbsp;&nbsp;189⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24🍴</code></b> [GitHub Environment Variables Action](https://github.com/FranzDiebold/github-env-vars-action)) - Expose environment variables such as the branch/tag name, repository slug, and ref slug.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [GitHub Action Locks](https://github.com/abatilo/github-action-locks/blob/master/README.md)) - Guarantee atomic execution of your GitHub Action workflows.
-- <b><code>&nbsp;&nbsp;3099⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;370🍴</code></b> [Paths Filter](https://github.com/dorny/paths-filter)) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
+- <b><code>&nbsp;&nbsp;3101⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;370🍴</code></b> [Paths Filter](https://github.com/dorny/paths-filter)) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;51⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Minisauras](https://github.com/TeamTigers/minisauras)) -  Pulls all the JavaScript and CSS files from your base branch, minify them and creates a pull-request with a new branch.
-- <b><code>&nbsp;&nbsp;&nbsp;157⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Website to GIF](https://github.com/PabloLec/website-to-gif)) - Turn any webpage into a GIF to display on your README, docs, etc.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;45⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs)) - Add dynamic inputs at runtime for your GitHub Actions workflows
+- <b><code>&nbsp;&nbsp;&nbsp;158⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16🍴</code></b> [Website to GIF](https://github.com/PabloLec/website-to-gif)) - Turn any webpage into a GIF to display on your README, docs, etc.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;46⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Interactive Inputs - Runtime workflow inputs](https://github.com/boasiHQ/interactive-inputs)) - Add dynamic inputs at runtime for your GitHub Actions workflows
 
 #### Environments
 
-- <b><code>&nbsp;&nbsp;&nbsp;477⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;77🍴</code></b> [Create an envfile](https://github.com/SpicyPizza/create-envfile))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Export global environment variables for succeeding build steps](https://github.com/zweitag/github-actions))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;54⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Programmatically set environment variables for use in subsequent steps](https://github.com/allenevans/set-env))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Install Conda environments for Python](https://github.com/goanpeca/setup-miniconda))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Setup NativeScript](https://github.com/hrueger/setup-nativescript))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [Create a JSON Environment File](https://github.com/schdck/create-env-json))
+- <b><code>&nbsp;&nbsp;&nbsp;478⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;77🍴</code></b> [Create an envfile](https://github.com/SpicyPizza/create-envfile))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Export global environment variables for succeeding build steps](https://github.com/zweitag/github-actions))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;55⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6🍴</code></b> [Programmatically set environment variables for use in subsequent steps](https://github.com/allenevans/set-env))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Install Conda environments for Python](https://github.com/goanpeca/setup-miniconda))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Setup NativeScript](https://github.com/hrueger/setup-nativescript))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [Create a JSON Environment File](https://github.com/schdck/create-env-json))
 
 #### Dependencies
 
-- <b><code>&nbsp;&nbsp;&nbsp;670⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;75🍴</code></b> [Install NPM Dependencies with Caching](https://github.com/bahmutov/npm-install))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;29⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Highlight New NPM Dependencies](https://github.com/hiwelo/new-dependencies-action)) - Comments on pull requests newly added NPM dependencies information.
+- <b><code>&nbsp;&nbsp;&nbsp;671⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;75🍴</code></b> [Install NPM Dependencies with Caching](https://github.com/bahmutov/npm-install))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;30⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Highlight New NPM Dependencies](https://github.com/hiwelo/new-dependencies-action)) - Comments on pull requests newly added NPM dependencies information.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [Cache NPM Dependencies](https://github.com/c-hive/gha-npm-cache))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;89⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13🍴</code></b> [Cache Yarn Dependencies](https://github.com/c-hive/gha-yarn-cache))
 
 #### Semantic Versioning
 
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;60⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15🍴</code></b> [Next SemVers](https://github.com/WyriHaximus/github-action-next-semvers)) - Output the next version for major, minor, and patch version based on the given semver version.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Get latest SemVer and branch name given a search string](https://github.com/jessicalostinspace/github-action-get-regex-branch))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Cut Release Branch](https://github.com/jessicalostinspace/cut-release-action)) - Cuts a release branch given a branch prefix and optional semantic version.
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;88⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;28🍴</code></b> [Increment Semantic Version](https://github.com/christian-draeger/increment-semantic-version)) - Bump a given semantic version (SemVer), depending on given release type.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;61⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15🍴</code></b> [Next SemVers](https://github.com/WyriHaximus/github-action-next-semvers)) - Output the next version for major, minor, and patch version based on the given semver version.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Get latest SemVer and branch name given a search string](https://github.com/jessicalostinspace/github-action-get-regex-branch))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Cut Release Branch](https://github.com/jessicalostinspace/cut-release-action)) - Cuts a release branch given a branch prefix and optional semantic version.
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;89⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;28🍴</code></b> [Increment Semantic Version](https://github.com/christian-draeger/increment-semantic-version)) - Bump a given semantic version (SemVer), depending on given release type.
 
 ### Static Analysis
 
-- <b><code>&nbsp;&nbsp;&nbsp;101⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19🍴</code></b> [PHPStan Static code analyzer Action](https://github.com/OskarStark/phpstan-ga))
-- <b><code>&nbsp;&nbsp;1745⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;212🍴</code></b> [GraphQL Inspector Action](https://github.com/kamilkisiela/graphql-inspector))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;76⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [PowerShell static analysis with PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer))
+- <b><code>&nbsp;&nbsp;&nbsp;102⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;19🍴</code></b> [PHPStan Static code analyzer Action](https://github.com/OskarStark/phpstan-ga))
+- <b><code>&nbsp;&nbsp;1746⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;212🍴</code></b> [GraphQL Inspector Action](https://github.com/kamilkisiela/graphql-inspector))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;77⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [PowerShell static analysis with PSScriptAnalyzer](https://github.com/devblackops/github-action-psscriptanalyzer))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;77⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24🍴</code></b> [Run tfsec, with reviewdog output on the PR](https://github.com/reviewdog/action-tfsec))
 
 #### Testing
@@ -270,31 +270,31 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Run codeception tests](https://github.com/joelwmale/codeception-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;35⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;17🍴</code></b> [Run TestCafe tests](https://github.com/DevExpress/testcafe-action))
 - <b><code>&nbsp;&nbsp;&nbsp;249⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;149🍴</code></b> [Run Unity tests](https://github.com/webbertakken/unity-test-runner))
-- <b><code>&nbsp;&nbsp;1450⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;359🍴</code></b> [Run Cypress E2E tests](https://github.com/cypress-io/github-action))
+- <b><code>&nbsp;&nbsp;1451⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;359🍴</code></b> [Run Cypress E2E tests](https://github.com/cypress-io/github-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;59⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Test Ansible roles with Molecule](https://github.com/robertdebock/molecule-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [Run performance testing with artillery.io](https://github.com/kenju/github-actions-artillery))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Detect Flaky Tests with BuildPulse](https://github.com/Workshop64/buildpulse-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Display Inline Code Annotations for Jest Tests](https://github.com/IgnusG/jest-report-action))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;62⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [Run Julia tests](https://github.com/julia-actions/julia-runtest))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;63⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [Run Julia tests](https://github.com/julia-actions/julia-runtest))
 
 #### Linting
 
-- <b><code>&nbsp;&nbsp;&nbsp;192⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37🍴</code></b> [PHP Coding Standards Fixer Action](https://github.com/OskarStark/php-cs-fixer-ga))
+- <b><code>&nbsp;&nbsp;&nbsp;193⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37🍴</code></b> [PHP Coding Standards Fixer Action](https://github.com/OskarStark/php-cs-fixer-ga))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3🍴</code></b> [Runs Hadolint against a Dockerfile within a repository](https://github.com/burdzwastaken/hadolint-action))
-- <b><code>&nbsp;&nbsp;&nbsp;260⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;72🍴</code></b> [Run ESLint, with reviewdog output on the PR](https://github.com/reviewdog/action-eslint))
+- <b><code>&nbsp;&nbsp;&nbsp;261⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;72🍴</code></b> [Run ESLint, with reviewdog output on the PR](https://github.com/reviewdog/action-eslint))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;17⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [JavaScript-based linter for \*.workflow files](https://github.com/OmarTawfik/github-actions-js))
-- <b><code>&nbsp;&nbsp;&nbsp;119⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24🍴</code></b> [Lint terraform files using tflint, with reviewdog output on the PR](https://github.com/reviewdog/action-tflint))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;92⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [autopep8: Automatically formats Python code to conform to the PEP 8 style guide](https://github.com/peter-evans/autopep8))
+- <b><code>&nbsp;&nbsp;&nbsp;120⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;24🍴</code></b> [Lint terraform files using tflint, with reviewdog output on the PR](https://github.com/reviewdog/action-tflint))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;93⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [autopep8: Automatically formats Python code to conform to the PEP 8 style guide](https://github.com/peter-evans/autopep8))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Run `ergebnis/composer-normalize` to ensure your PHP project has a normalized `composer.json`](https://github.com/ergebnis/composer-normalize-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Run `stolt/lean-package-validator` to ensure your package has only the required `runtime` artifacts](https://github.com/raphaelstolt/lean-package-validator-action))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Run Go lint checks on PR event](https://github.com/ArangoGutierrez/GoLinty-Action))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Run Go lint checks on PR event](https://github.com/ArangoGutierrez/GoLinty-Action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Node.js - Automatically run the `format` and/or `lint` script used by the package](https://github.com/MarvinJWendt/run-node-formatter))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;20⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Stylelinter - GitHub Action that runs stylelint](https://github.com/exelban/stylelint))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;52⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22🍴</code></b> [Run stylelint, with reviewdog output on the PR](https://github.com/reviewdog/action-stylelint))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [PyCodeStyle Action - A GitHub Action that leaves a comment on your PR with pycodestyle (autopep8) feedback](https://github.com/ankitvgupta/pycodestyle-action))
-- <b><code>&nbsp;&nbsp;2841⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;420🍴</code></b> [wemake-python-styleguide - The strictest and most opinionated python linter ever, with optional reviewdog output on the PR](https://github.com/wemake-services/wemake-python-styleguide))
-- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;34⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Run TSLint with status checks and file diff annotations](https://github.com/mooyoul/tslint-actions))
-- <b><code>&nbsp;&nbsp;&nbsp;396⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;65🍴</code></b> [Lint Pull Request commits with commitlint](https://github.com/wagoid/commitlint-github-action))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;21⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Stylelinter - GitHub Action that runs stylelint](https://github.com/exelban/stylelint))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;53⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22🍴</code></b> [Run stylelint, with reviewdog output on the PR](https://github.com/reviewdog/action-stylelint))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [PyCodeStyle Action - A GitHub Action that leaves a comment on your PR with pycodestyle (autopep8) feedback](https://github.com/ankitvgupta/pycodestyle-action))
+- <b><code>&nbsp;&nbsp;2842⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;421🍴</code></b> [wemake-python-styleguide - The strictest and most opinionated python linter ever, with optional reviewdog output on the PR](https://github.com/wemake-services/wemake-python-styleguide))
+- <b><code>&nbsp;&nbsp;&nbsp;&nbsp;35⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18🍴</code></b> [Run TSLint with status checks and file diff annotations](https://github.com/mooyoul/tslint-actions))
+- <b><code>&nbsp;&nbsp;&nbsp;397⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;65🍴</code></b> [Lint Pull Request commits with commitlint](https://github.com/wagoid/commitlint-github-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Run vint, with reviewdog output on the PR](https://github.com/reviewdog/action-vint))
 - <b><code>&nbsp;&nbsp;&nbsp;102⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;29🍴</code></b> [Run mispell, with reviewdog output on the PR](https://github.com/reviewdog/action-misspell))
 - <b><code>&nbsp;&nbsp;&nbsp;243⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;46🍴</code></b> [Run golangci-lint, with reviewdog output on the PR](https://github.com/reviewdog/action-golangci-lint))
@@ -326,7 +326,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 #### Code Coverage
 
 - <b><code>&nbsp;&nbsp;&nbsp;609⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;231🍴</code></b> [Scan code with SonarCloud](https://github.com/sonarsource/sonarcloud-github-action))
-- <b><code>&nbsp;&nbsp;1674⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;248🍴</code></b> [Send your code coverage to codecov.io](https://github.com/codecov/codecov-action))
+- <b><code>&nbsp;&nbsp;1676⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;248🍴</code></b> [Send your code coverage to codecov.io](https://github.com/codecov/codecov-action))
 - <b><code>&nbsp;&nbsp;&nbsp;209⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;63🍴</code></b> [Publishing code coverage to CodeClimate](https://github.com/paambaati/codeclimate-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Update repository go report card](https://github.com/creekorful/goreportcard-action))
 
@@ -339,7 +339,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 
 - <b><code>&nbsp;&nbsp;&nbsp;348⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;27🍴</code></b> [Audit a webpage with Google Chrome's Lighthouse tests](https://github.com/jakejarvis/lighthouse-action))
 - <b><code>&nbsp;&nbsp;&nbsp;507⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22🍴</code></b> [Runs Lighthouse and posts results to PRs and Slack](https://github.com/foo-software/lighthouse-check-action))
-- <b><code>&nbsp;&nbsp;1274⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;91🍴</code></b> [Run Lighthouse in CI using GitHub Actions](https://github.com/treosh/lighthouse-ci-action))
+- <b><code>&nbsp;&nbsp;1275⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;91🍴</code></b> [Run Lighthouse in CI using GitHub Actions](https://github.com/treosh/lighthouse-ci-action))
 - <b><code>&nbsp;&nbsp;&nbsp;153⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [Continuous Benchmarking and Benchmark Visualization for Go](https://github.com/bobheadxi/gobenchdata))
 - <b><code>&nbsp;&nbsp;&nbsp;470⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;86🍴</code></b> [Size Limit Action](https://github.com/andresz1/size-limit-action)) - Comments cost comparison of your JS in PRs and rejects them if limit is exceeded.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;52⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Check bundlephobia](https://github.com/carlesnunez/check-my-bundlephobia)) - Comments new and modified package size according to bundlephobia.io website and rejects PR on threshold surpassed.
@@ -355,14 +355,14 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;388⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;103🍴</code></b> [Automatically add Reviewers to PR based on the Configuration File](https://github.com/kentaro-m/auto-assign-action))
 - <b><code>&nbsp;&nbsp;&nbsp;260⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;52🍴</code></b> [Add Labels to a PR based on Branch Name Patterns](https://github.com/TimonVS/pr-labeler-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;99⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;48🍴</code></b> [Add Labels to a PR based on Total Size of the Diff](https://github.com/pascalgn/size-label-action))
-- <b><code>&nbsp;&nbsp;&nbsp;920⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;217🍴</code></b> [Automatically merge PRs That Are Ready](https://github.com/pascalgn/automerge-action))
+- <b><code>&nbsp;&nbsp;&nbsp;918⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;217🍴</code></b> [Automatically merge PRs That Are Ready](https://github.com/pascalgn/automerge-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;77⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [Verify That PRs Contain a Ticket Reference](https://github.com/vijaykramesh/pr-lint-action))
-- <b><code>&nbsp;&nbsp;2762⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;540🍴</code></b> [Create a PR for Changes to your Repository in the Actions Workspace](https://github.com/peter-evans/create-pull-request))
+- <b><code>&nbsp;&nbsp;2763⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;540🍴</code></b> [Create a PR for Changes to your Repository in the Actions Workspace](https://github.com/peter-evans/create-pull-request))
 - <b><code>&nbsp;&nbsp;&nbsp;122⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [Lint a PR](https://github.com/seferov/pr-lint-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;76⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10🍴</code></b> [ChatOps for PRs](https://github.com/machine-learning-apps/actions-chatops))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;85⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;61🍴</code></b> [Prefix Title and Body of a PR Based on Text Extracted from Branch Name](https://github.com/tzkhan/pr-update-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;18⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Block Autosquash Commits](https://github.com/xt0rted/block-autosquash-commits-action))
-- <b><code>&nbsp;&nbsp;&nbsp;871⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;396🍴</code></b> [Automatically Bump and Tag on Merge](https://github.com/anothrNick/github-tag-action))
+- <b><code>&nbsp;&nbsp;&nbsp;871⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;395🍴</code></b> [Automatically Bump and Tag on Merge](https://github.com/anothrNick/github-tag-action))
 - <b><code>&nbsp;&nbsp;&nbsp;144⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [Automatically Update PRs with Outdated Checks and Squash and Merge the Ones Matching All Branch Protections](https://github.com/tibdex/autosquash))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;31⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Merge Pal - Automatically Update and Merge PRs](https://github.com/maxkomarychev/merge-pal-action))
 - <b><code>&nbsp;&nbsp;&nbsp;137⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;79🍴</code></b> [Enforce naming convention on pull request title](https://github.com/deepakputhraya/action-pr-title))
@@ -384,7 +384,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;42⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Build Hugo static content site and publish it to gh-pages branch](https://github.com/khanhicetea/gh-actions-hugo-deploy-gh-pages))
 - <b><code>&nbsp;&nbsp;&nbsp;122⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;57🍴</code></b> [Build a Jekyll site—with Custom Jekyll Plugins & Build Scripts—and deploy it back to the Gh-Pages Branch](https://github.com/BryanSchuetz/jekyll-deploy-gh-pages))
 - 🌎 [Google Dataset Search Metadata](www.github.com/openschemas/extractors/) - And other schema.org extractors to make datasets discoverable from GitHub pages.
-- <b><code>&nbsp;&nbsp;5280⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;444🍴</code></b> [GitHub Actions for deploying to GitHub Pages with Static Site Generators](https://github.com/peaceiris/actions-gh-pages))
+- <b><code>&nbsp;&nbsp;5282⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;444🍴</code></b> [GitHub Actions for deploying to GitHub Pages with Static Site Generators](https://github.com/peaceiris/actions-gh-pages))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;31⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5🍴</code></b> [GitHub Action for Hexo](https://github.com/heowc/action-hexo))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;16⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Deploy Google Analytics stats to GitHub Pages](https://github.com/cristianpb/analytics-google))
 - <b><code>&nbsp;&nbsp;3544⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;731🍴</code></b> [A Jupyter Notebook Blogging Platform Powered by GitHub Actions, Pages and Jekyll](https://github.com/fastai/fastpages))
@@ -397,7 +397,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Post a Slack message as a bot](https://github.com/pullreminders/slack-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Send an SMS from GitHub Actions using Nexmo](https://github.com/nexmo-community/nexmo-sms-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Send an SMS from GitHub Actions using Clockworksms](https://github.com/bharathvaj1995/clockwork-sms-action))
-- <b><code>&nbsp;&nbsp;1006⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;123🍴</code></b> [Send a Telegram Message](https://github.com/appleboy/telegram-action))
+- <b><code>&nbsp;&nbsp;1005⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;123🍴</code></b> [Send a Telegram Message](https://github.com/appleboy/telegram-action))
 - <b><code>&nbsp;&nbsp;&nbsp;132⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13🍴</code></b> [Send a File or Text Message to Discord (custom define color, username or avatar)](https://github.com/appleboy/discord-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [Collaborate on tweets using pull requests](https://github.com/gr2m/twitter-together))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;75⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;10🍴</code></b> [Send a Push Notification via Push by Techulus](https://github.com/techulus/push-github-action))
@@ -428,8 +428,8 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;96⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;31🍴</code></b> [Trigger multiple Jenkins Jobs](https://github.com/appleboy/jenkins-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0🍴</code></b> [GitHub Action for Homebrew Tap](https://github.com/izumin5210/action-homebrew-tap))
 - <b><code>&nbsp;&nbsp;1548⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;173🍴</code></b> [Copy files and artifacts via SSH](https://github.com/appleboy/scp-action))
-- <b><code>&nbsp;&nbsp;6072⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;673🍴</code></b> [Executing remote ssh commands](https://github.com/appleboy/ssh-action))
-- <b><code>&nbsp;&nbsp;1164⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;111🍴</code></b> [Publish a Python distribution package to PyPI](https://github.com/pypa/gh-action-pypi-publish))
+- <b><code>&nbsp;&nbsp;6073⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;674🍴</code></b> [Executing remote ssh commands](https://github.com/appleboy/ssh-action))
+- <b><code>&nbsp;&nbsp;1165⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;111🍴</code></b> [Publish a Python distribution package to PyPI](https://github.com/pypa/gh-action-pypi-publish))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;17⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;13🍴</code></b> [Deploy Static Website to Azure Storage](https://github.com/feeloor/azure-static-website-deploy))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;79⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Cross platform Chocolatey CLI to build and publish packages](https://github.com/crazy-max/ghaction-chocolatey))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3🍴</code></b> [Deploy iOS Pod Library to Cocoapods](https://github.com/michaelhenry/deploy-to-cocoapods-github-action))
@@ -437,10 +437,10 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?🍴</code></b> [Publish npm (pre)releases](https://github.com/epeli/npm-release/))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;90⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;14🍴</code></b> [Deploy a static site to Surge.sh](https://github.com/yavisht/deploy-via-surge.sh-github-action-template))
 - <b><code>&nbsp;&nbsp;&nbsp;995⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;98🍴</code></b> [GitHub Action for GoReleaser, a release automation tool for Go projects](https://github.com/goreleaser/goreleaser-action))
-- <b><code>&nbsp;&nbsp;4942⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;430🍴</code></b> [FTP Deploy Action, Deploys a GitHub project to a FTP server using GitHub actions](https://github.com/SamKirkland/FTP-Deploy-Action))
+- <b><code>&nbsp;&nbsp;4948⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;430🍴</code></b> [FTP Deploy Action, Deploys a GitHub project to a FTP server using GitHub actions](https://github.com/SamKirkland/FTP-Deploy-Action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1🍴</code></b> [Publish Article to Dev.to](https://github.com/tylerauerbeck/publish-to-dev.to-action))
 - <b><code>&nbsp;&nbsp;&nbsp;687⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;119🍴</code></b> [Action For Semantic Release](https://github.com/cycjimmy/semantic-release-action))
-- <b><code>&nbsp;&nbsp;&nbsp;125⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Deploy a Collection to Ansible Galaxy](https://github.com/artis3n/ansible_galaxy_collection))
+- <b><code>&nbsp;&nbsp;&nbsp;126⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8🍴</code></b> [Deploy a Collection to Ansible Galaxy](https://github.com/artis3n/ansible_galaxy_collection))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Publish module to Puppet Forge](https://github.com/barnumbirr/action-forge-publish))
 - <b><code>&nbsp;&nbsp;&nbsp;716⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;229🍴</code></b> [Build and publish Electron apps](https://github.com/samuelmeuli/action-electron-builder))
 - <b><code>&nbsp;&nbsp;&nbsp;100⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [Publish a Maven package](https://github.com/samuelmeuli/action-maven-publish))
@@ -452,7 +452,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;361⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;43🍴</code></b> [Netlify Deploy GitHub Action for each commit](https://github.com/nwtgck/actions-netlify))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;37⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;12🍴</code></b> [Run Ansible Playbooks](https://github.com/arillso/action.playbook))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;26⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;21🍴</code></b> [Publish a Python Distribution Package to Anaconda Cloud](https://github.com/fcakyon/conda-publish-action))
-- <b><code>&nbsp;&nbsp;&nbsp;253⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;21🍴</code></b> [Deploy VS Code Extension to Visual Studio Marketplace or the Open VSX Registry](https://github.com/HaaLeo/publish-vscode-extension))
+- <b><code>&nbsp;&nbsp;&nbsp;254⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;21🍴</code></b> [Deploy VS Code Extension to Visual Studio Marketplace or the Open VSX Registry](https://github.com/HaaLeo/publish-vscode-extension))
 - <b><code>&nbsp;&nbsp;&nbsp;145⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;78🍴</code></b> [Deploy a YouTube Video to Anchor.fm Podcast](https://github.com/Schrodinger-Hat/youtube-to-anchorfm))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Deploy with AWS CodeDeploy](https://github.com/webfactory/create-aws-codedeploy-deployment))
 
@@ -505,7 +505,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;54⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;17🍴</code></b> [JS Build Actions](https://github.com/elstudio/actions-js-build)) - Run Grunt or Gulp build tasks and commit file changes.
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;47⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;22🍴</code></b> [GitHub Action for Gatsby CLI](https://github.com/jzweifel/gatsby-cli-github-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;57⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7🍴</code></b> [Runs a WebPageTest audit and prints the results as commit comment](https://github.com/JCofman/webPagetestAction))
-- <b><code>&nbsp;&nbsp;1554⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;96🍴</code></b> [GitHub Actions for Hugo extended](https://github.com/peaceiris/actions-hugo))
+- <b><code>&nbsp;&nbsp;1555⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;96🍴</code></b> [GitHub Actions for Hugo extended](https://github.com/peaceiris/actions-hugo))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;44⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;11🍴</code></b> [Generate OG Image](https://github.com/BoyWithSilverWings/generate-og-image)) - Generate customisable open graph images from Markdown files.
 - <b><code>&nbsp;&nbsp;&nbsp;324⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;25🍴</code></b> [GitHub Actions for mdBook](https://github.com/peaceiris/actions-mdbook))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;15⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3🍴</code></b> [Setup Mint](https://github.com/fabasoad/setup-mint-action)) - Setup Mint (programming language for writing single page applications).
@@ -524,7 +524,7 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 ### Build
 
 - <b><code>&nbsp;&nbsp;&nbsp;195⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;23🍴</code></b> [run-cmake](https://github.com/lukka/run-cmake)) - Multi platform action to build C/C++ software with 🌎 [CMake](cmake.org) and 🌎 [Ninja](ninja-build.org/).
-- <b><code>&nbsp;&nbsp;&nbsp;229⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [run-vcpkg](https://github.com/lukka/run-vcpkg)) - Multi platform action to build and install C/C++ dependencies with <b><code>&nbsp;26983⭐</code></b> <b><code>&nbsp;&nbsp;7490🍴</code></b> [vcpkg](https://github.com/microsoft/vcpkg)).
+- <b><code>&nbsp;&nbsp;&nbsp;229⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;33🍴</code></b> [run-vcpkg](https://github.com/lukka/run-vcpkg)) - Multi platform action to build and install C/C++ dependencies with <b><code>&nbsp;26985⭐</code></b> <b><code>&nbsp;&nbsp;7491🍴</code></b> [vcpkg](https://github.com/microsoft/vcpkg)).
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2🍴</code></b> [Build Go applications for multiplatform](https://github.com/izumin5210/action-go-crossbuild))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;73⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;32🍴</code></b> [Generate ~/.m2/settings.xml for Maven builds](https://github.com/whelk-io/maven-settings-xml-action))
 - <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9⭐</code></b> <b><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4🍴</code></b> [Run Pascal Script](https://github.com/fabasoad/pascal-action))
@@ -572,4 +572,4 @@ Set up your GitHub Actions workflow with a specific version of your programming 
 > Please don't hesitate to make a PR if you have more resources to share. Check out [contributing.md](contributing.md) for more information.
 
 ## Source
-<b><code>&nbsp;27729⭐</code></b> <b><code>&nbsp;&nbsp;1646🍴</code></b> [sdras/awesome-actions](https://github.com/sdras/awesome-actions))
+<b><code>&nbsp;27736⭐</code></b> <b><code>&nbsp;&nbsp;1647🍴</code></b> [sdras/awesome-actions](https://github.com/sdras/awesome-actions))

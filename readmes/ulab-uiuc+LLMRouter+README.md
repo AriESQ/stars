@@ -36,6 +36,8 @@
 
 ## 📰 News
 
+- 🚀 **[2026-05]**: **RouteProfile Code & Paper Released** - We've released **RouteProfile**, a general framework for designing LLM profiles for routing! RouteProfile enables structured profile construction from heterogeneous interaction histories, supports flat, embedding-based, text-GNN, and trainable GNN profiles, and evaluates routing performance across SimRouter, MLPRouter, and GraphRouter under both standard and new-LLM settings. Check out the [paper](https://arxiv.org/abs/2605.00180) and [code](https://github.com/ulab-uiuc/RouteProfile) for details.
+
 - 🖥️ **[2026-02]**: **ComfyUI Interface** - We've released the visual interface for LLMRouter! Now you can visually construct data generation and routing pipelines, drag-and-drop nodes to train routers, and monitor performance in real-time. See [ComfyUI Interface](#-comfyui-interface) for details.
 
 - 🔗 **[2026-02]**: **OpenClaw Router** - OpenAI-compatible server with OpenClaw integration! We've also released llmrouter-lib v0.3.1. Deploy LLMRouter as a production API server that works seamlessly with Slack, Discord, and other messaging platforms via [OpenClaw](https://github.com/openclaw/openclaw). Features include multimodal understanding (image/audio/video), retrieval-augmented routing memory, streaming support, and all 16+ LLMRouter routing strategies. See [OpenClaw Router Integration](#-openclaw-router-openclaw-integration). For deployment with social platforms like Slack, refer to the [Getting Started Guide](https://www.moltcn.com/start/getting-started.html) for step-by-step setup instructions.

@@ -17,20 +17,20 @@ MCPorter helps you lean into the "code execution" workflows highlighted in Anthr
 
 ## Key Capabilities
 
-- **Zero-config discovery.** `createRuntime()` merges your home config (`~/.mcporter/mcporter.json[c]`) first, then `config/mcporter.json`, plus Cursor/Claude/Codex/Windsurf/OpenCode/VS Code imports, expands `${ENV}` placeholders, and pools connections so you can reuse transports across multiple calls.
+- **Zero-config discovery.** `createRuntime()` merges your home config (`~/.mcporter/mcporter.json[c]`, or `$XDG_CONFIG_HOME/mcporter/mcporter.json[c]` when set) first, then `config/mcporter.json`, plus Cursor/Claude/Codex/Windsurf/OpenCode/VS Code imports, expands `${ENV}` placeholders, and pools connections so you can reuse transports across multiple calls.
 - **One-command CLI generation.** `mcporter generate-cli` turns any MCP server definition into a ready-to-run CLI, with optional bundling/compilation and metadata for easy regeneration.
 - **Typed tool clients.** `mcporter emit-ts` emits `.d.ts` interfaces or ready-to-run client wrappers so agents/tests can call MCP servers with strong TypeScript types without hand-writing plumbing.
 - **Friendly composable API.** `createServerProxy()` exposes tools as ergonomic camelCase methods, automatically applies JSON-schema defaults, validates required arguments, and hands back a `CallResult` with `.text()`, `.markdown()`, `.json()`, `.images()`, and `.content()` helpers.
 - **OAuth and stdio ergonomics.** Built-in OAuth caching, log tailing, and stdio wrappers let you work with HTTP, SSE, and stdio transports from the same interface.
 - **Ad-hoc connections.** Point the CLI at _any_ MCP endpoint (HTTP or stdio) without touching config, then persist it later if you want. Hosted MCPs that expect a browser login (Supabase, Vercel, etc.) are auto-detected—just run `mcporter auth <url>` and the CLI promotes the definition to OAuth on the fly. See [docs/adhoc.md](docs/adhoc.md).
 
-## What's New in 0.9.0
+## What's New in 0.10.0
 
-- **Per-server tool filtering.** Limit exposed tools with `allowedTools`, or block risky exact-name tools with `blockedTools`; filtered tools disappear from `mcporter list` and are rejected by `mcporter call`.
-- **Sturdier stdio shutdown.** Stuck local MCP processes now escalate cleanly instead of hanging after a call finishes.
-- **OAuth polish.** Windows OAuth URLs are quoted correctly, OAuth config examples are documented, and `mcporter auth --json` returns structured connection envelopes.
-- **Safer call coercion.** Tool arguments declared as strings stay strings, even when the value looks numeric.
-- **Release confidence.** `0.9.0` is published on npm and Homebrew, and the live DeepWiki MCP suite is green.
+- **Resources.** `mcporter resource <server> [uri]` lists and reads MCP resources, including keep-alive daemon routing.
+- **Generated CLI polish.** Keep-alive generated CLIs preserve stdio server state across invocations, and Bun-compiled macOS daemon children launch reliably in the background.
+- **Config portability.** mcporter now honors XDG Base Directory env vars while preserving the legacy `~/.mcporter` fallback.
+- **OAuth compatibility.** Static OAuth clients are supported via `oauthClientId`, `oauthClientSecretEnv`, and token endpoint auth method overrides.
+- **Release confidence.** `0.10.0` is published on npm and Homebrew, and live/published install smokes are green.
 
 ## Quick Start
 
@@ -204,7 +204,7 @@ npx mcporter call --stdio "bun run ./local-server.ts" --name local-tools
 - **Unknown long flags fail fast.** `mcporter call server.tool --source import` now errors instead of silently turning `--source` into a positional tool argument. Use `source=import`, `--args '{"source":"import"}'`, or insert `--` before literal positional values that begin with `--`.
 - **Cheatsheet.** See [docs/tool-calling.md](docs/tool-calling.md) for a quick comparison of every supported call style (auto-inferred verbs, flags, function-calls, and ad-hoc URLs).
 - **Auto-correct.** If you typo a tool name, MCPorter inspects the server’s tool catalog, retries when the edit distance is tiny, and otherwise prints a `Did you mean …?` hint. The heuristic (and how to tune it) is captured in [docs/call-heuristic.md](docs/call-heuristic.md).
-- **Richer single-server output.** `mcporter list <server>` now prints TypeScript-style signatures, inline comments, return-shape hints, and command examples that mirror the new call syntax. Optional parameters stay hidden by default—add `--all-parameters` or `--schema` whenever you need the full JSON schema.
+- **Richer single-server output.** `mcporter list <server>` now prints TypeScript-style signatures, inline comments, return-shape hints, and command examples that mirror the new call syntax. Optional parameters stay hidden by default—add `--all-parameters` or `--schema` whenever you need the full JSON schema. Prefer a tighter scan? `mcporter list <server> --brief` (or `--signatures`) keeps just the compact signatures and optional summaries.
 
 ## Installation
 
@@ -298,7 +298,7 @@ Friendly ergonomics baked into the proxy and result helpers:
 
 Drop down to `runtime.callTool()` whenever you need explicit control over arguments, metadata, or streaming options.
 
-Call `mcporter list <server>` any time you need the TypeScript-style signature, optional parameter hints, and sample invocations that match the CLI's function-call syntax.
+Call `mcporter list <server>` any time you need the TypeScript-style signature, optional parameter hints, and sample invocations that match the CLI's function-call syntax. Add `--brief` or `--signatures` when you only want compact signatures.
 
 ## Generate a Standalone CLI
 
@@ -338,6 +338,10 @@ Every artifact embeds regeneration metadata (generator version, resolved server 
 npx mcporter inspect-cli dist/context7.js     # human-readable summary
 npx mcporter generate-cli --from dist/context7.js  # replay with latest mcporter
 ```
+
+Agents should usually get one small skill per MCP server or workflow instead of
+a generic "all of mcporter" skill. See [docs/agent-skills.md](docs/agent-skills.md)
+for the pattern and a copyable template.
 
 ## Generate Typed Clients
 
@@ -398,7 +402,7 @@ Run `mcporter config …` via your package manager (pnpm, npm, npx, etc.) when y
 What MCPorter handles for you:
 
 - `${VAR}`, `${VAR:-fallback}`, and `$env:VAR` interpolation for headers and env entries.
-- Automatic OAuth token caching under `~/.mcporter/<server>/` unless you override `tokenCacheDir`.
+- Automatic OAuth token caching in the shared vault (`~/.mcporter/credentials.json`, or `$XDG_DATA_HOME/mcporter/credentials.json` when set) unless you override `tokenCacheDir`.
 - Stdio commands inherit the directory of the file that defined them (imports or local config).
 - Import precedence matches the array order; omit `imports` to use the default `["cursor", "claude-code", "claude-desktop", "codex", "windsurf", "opencode", "vscode"]`.
 
@@ -411,6 +415,26 @@ npx mcporter config add notion https://mcp.notion.com/mcp --auth oauth
 npx mcporter auth notion
 ```
 
+Providers that do not support dynamic client registration can use a pre-registered app:
+
+```jsonc
+{
+  "mcpServers": {
+    "hubspot": {
+      "baseUrl": "https://mcp.hubspot.com/mcp",
+      "auth": "oauth",
+      "oauthClientId": "your-client-id",
+      "oauthClientSecretEnv": "HUBSPOT_CLIENT_SECRET",
+      "oauthTokenEndpointAuthMethod": "client_secret_post",
+      "oauthRedirectUrl": "http://127.0.0.1:3434/callback",
+    },
+  },
+}
+```
+
+Keep client secrets in environment variables or private machine-local configs,
+and register the exact `oauthRedirectUrl` with the provider.
+
 Provide `configPath` or `rootDir` to CLI/runtime calls when you juggle multiple config files side by side.
 
 #### Config resolution order & system-level configs
@@ -420,7 +444,7 @@ mcporter reads exactly one primary config per run. The lookup order is:
 1. The path you pass via `--config` (or programmatic `configPath`).
 2. The `MCPORTER_CONFIG` environment variable (set it in your shell to apply everywhere).
 3. `<root>/config/mcporter.json` inside the current project.
-4. `~/.mcporter/mcporter.json` or `~/.mcporter/mcporter.jsonc` if the project file is missing.
+4. `$XDG_CONFIG_HOME/mcporter/mcporter.json[c]` when `XDG_CONFIG_HOME` is set, otherwise `~/.mcporter/mcporter.json[c]`, if the project file is missing.
 
 All `mcporter config …` mutations write back to whichever file was selected by that order. To manage a system-wide config explicitly, point the CLI at it:
 
@@ -429,6 +453,8 @@ mcporter config --config ~/.mcporter/mcporter.json add global-server https://api
 ```
 
 Set `MCPORTER_CONFIG=~/.mcporter/mcporter.json` in your shell profile when you want that file to be the default everywhere (handy for `npx mcporter …` runs).
+
+mcporter honors XDG Base Directory env vars for its own files when those vars are explicitly set: `XDG_CONFIG_HOME` for home configs, `XDG_DATA_HOME` for the OAuth vault, `XDG_CACHE_HOME` for schema caches, and `XDG_STATE_HOME` for daemon/runtime state. If the matching XDG var is unset or relative, mcporter keeps the legacy `~/.mcporter` path. Existing explicit overrides still win.
 
 ### Tool Filtering
 

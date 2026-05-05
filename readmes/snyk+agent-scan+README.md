@@ -69,7 +69,7 @@ Agent Scan auto-discovers agents and their capabilities (MCP servers or skills) 
 | OpenCode | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 | Antigravity | ✓ | ✗ | ✓ | ✗ | ✓ | ✗ |
 | Codex | ✗ | ✓ | ✗ | ✓ | — | — |
-| Amazon Q | ✓ | ✗ | ✓ | ✗ | — | — |
+| Amazon Q | ✓ | ✗ | ✓ | ✗ | ✓ (WSL) | ✗ |
 
 ## Quick Start
 
@@ -151,8 +151,6 @@ For non-interactive environments (e.g., CI/CD pipelines), you must use the `--da
 #### Analysis and Validation
 
 Agent Scan validates the components, both with local checks and by invoking the Agent Scan API. For this, skills, agent applications, tool names, and descriptions are shared with Snyk. By using Agent Scan, you agree to the Snyk [terms of use for Agent Scan](./TERMS.md).
-
-A unique, persistent, and anonymous ID is assigned to your scans for analysis. You can opt out of sending this information using the `--opt-out` flag.
 
 Agent Scan does not store or log any usage data, i.e. the contents and results of your MCP tool calls.
 

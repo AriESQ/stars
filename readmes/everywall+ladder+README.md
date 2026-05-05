@@ -8,6 +8,8 @@
 
 *Ladder is a http web proxy.* 
 
+[简体中文](README.zh-CN.md)
+
 Ladder is a developer tool for testing and analyzing paywall implementations and content delivery behavior on modern websites.
 
 It allows developers, researchers, and publishers to simulate different client environments (such as browsers and crawlers) and observe how content is served under varying conditions. This makes it useful for debugging paywall configurations, verifying access controls, http headers, and ensuring consistent behavior across different user agents.
@@ -129,6 +131,7 @@ http://localhost:8080/ruleset
 | `FLARESOLVERR_HOST` | URL for the FlareSolverr service for Cloudflare bypass (optional) | `http://localhost:8191` |
 
 `ALLOWED_DOMAINS` and `ALLOWED_DOMAINS_RULESET` are joined together. If both are empty, no limitations are applied.
+| `BASE_PATH` | Base path for the proxy, useful if you want to run the proxy on a subpath (e.g. http://localhost:8080/proxy/) | `` |
 
 ### Ruleset
 

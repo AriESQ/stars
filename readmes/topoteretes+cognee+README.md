@@ -64,7 +64,7 @@ Cognee gives AI agents a shared, improving memory of your data, decisions, and w
 
 ## About Cognee
 
-Cognee is an open-source brain for your Agents that lets you ingest data in any format or structure and continuously learns to provide the right context for AI agents. It combines vector search, graph databases and cognitive science approaches to make your documents both searchable by meaning and connected by relationships as they change and evolve.
+Cognee is an open-source memory control plane for your Agents that lets you ingest data in any format or structure and continuously learns to provide the right context for AI agents. It combines vector search, graph databases and cognitive science approaches to make your documents both searchable by meaning and connected by relationships as they change and evolve.
 
 
 
