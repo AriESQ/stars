@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T21:13:43.110091+00:00",
+  "last_updated": "2026-05-05T21:43:04.505133+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -90945,7 +90945,8 @@
     "alexellis/k3sup": {
       "lists": [
         "GoLang",
-        "K8S - Kubernetes"
+        "K8S - Kubernetes",
+        "Devops"
       ],
       "metadata": {
         "id": 202523140,
@@ -194754,7 +194755,8 @@
     },
     "chrismcguire/gobberish": {
       "lists": [
-        "Fuzzing"
+        "Fuzzing",
+        "GoLang"
       ],
       "metadata": {
         "id": 31344423,
@@ -220165,7 +220167,8 @@
         "Docker and OCI containers",
         "Infosec",
         "Linux CLI Tools",
-        "Machine Learning"
+        "Machine Learning",
+        "Devops"
       ],
       "metadata": {
         "id": 1053169398,
@@ -223126,7 +223129,10 @@
       }
     },
     "dbos-inc/dbos-transact-py": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python"
+      ],
       "metadata": {
         "id": 831077841,
         "name": "dbos-transact-py",
@@ -223182,7 +223188,10 @@
       }
     },
     "pyinfra-dev/pyinfra": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python"
+      ],
       "metadata": {
         "id": 25437858,
         "name": "pyinfra",
@@ -223210,7 +223219,10 @@
       }
     },
     "trailofbits/skills-curated": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1151553297,
         "name": "skills-curated",
@@ -223238,7 +223250,10 @@
       }
     },
     "copyleftdev/perforator-go": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1045868456,
         "name": "perforator-go",
@@ -223266,7 +223281,10 @@
       }
     },
     "bring-shrubbery/ml-sharp-web": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1164059283,
         "name": "ml-sharp-web",
@@ -223294,7 +223312,11 @@
       }
     },
     "earthtojake/text-to-cad": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1217522067,
         "name": "text-to-cad",
@@ -223322,7 +223344,11 @@
       }
     },
     "bschoepke/ableton-live-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1228117001,
         "name": "ableton-live-mcp",
@@ -223350,7 +223376,11 @@
       }
     },
     "trailofbits/skills": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1134447175,
         "name": "skills",
@@ -223378,7 +223408,10 @@
       }
     },
     "RalfJung/cargo-careful": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Rust"
+      ],
       "metadata": {
         "id": 539980905,
         "name": "cargo-careful",
@@ -223406,7 +223439,11 @@
       }
     },
     "vercel-labs/agent-browser": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1132001614,
         "name": "agent-browser",
@@ -223434,7 +223471,10 @@
       }
     },
     "davidvidovic-web/hackers-1995-threejs": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1152301089,
         "name": "hackers-1995-threejs",
@@ -223462,7 +223502,10 @@
       }
     },
     "iswad-lab/TouchDesigner-Linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1201521672,
         "name": "TouchDesigner-Linux",
@@ -223490,7 +223533,10 @@
       }
     },
     "pico-game-engine/pico-game-engine": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 923310827,
         "name": "pico-game-engine",
@@ -223518,7 +223564,9 @@
       }
     },
     "nickjj/dotfriedrice": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 162295765,
         "name": "dotfriedrice",
@@ -223546,7 +223594,10 @@
       }
     },
     "Phyopma/simplify_scraper": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Python"
+      ],
       "metadata": {
         "id": 944904951,
         "name": "simplify_scraper",
@@ -223566,7 +223617,10 @@
       "last_updated": "2026-05-05T21:13:39.745485+00:00"
     },
     "brangerbriz/up-4evr-ubuntu": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 108281762,
         "name": "up-4evr-ubuntu",
@@ -223586,7 +223640,9 @@
       "last_updated": "2026-05-05T21:13:40.097887+00:00"
     },
     "brangerbriz/up-4evr-windows-10": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 108308139,
         "name": "up-4evr-windows-10",
@@ -223606,7 +223662,11 @@
       "last_updated": "2026-05-05T21:13:40.410125+00:00"
     },
     "laserpilot/Installation_Up_4evr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 17119264,
         "name": "Installation_Up_4evr",
@@ -223626,7 +223686,9 @@
       "last_updated": "2026-05-05T21:13:40.732985+00:00"
     },
     "unifiedjs/unified": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 39996248,
         "name": "unified",
@@ -223646,7 +223708,9 @@
       "last_updated": "2026-05-05T21:13:41.044759+00:00"
     },
     "remarkjs/remark": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 22355214,
         "name": "remark",
@@ -223666,7 +223730,9 @@
       "last_updated": "2026-05-05T21:13:41.358568+00:00"
     },
     "WiseLibs/better-sqlite3": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 67626108,
         "name": "better-sqlite3",
@@ -223686,7 +223752,9 @@
       "last_updated": "2026-05-05T21:13:41.744019+00:00"
     },
     "UUoocl/cablesStudio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1171672942,
         "name": "cablesStudio",
@@ -223706,7 +223774,10 @@
       "last_updated": "2026-05-05T21:13:42.068150+00:00"
     },
     "kilian-ai/claw": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1226562641,
         "name": "claw",
@@ -223726,7 +223797,10 @@
       "last_updated": "2026-05-05T21:13:42.356332+00:00"
     },
     "neuledge/context": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1147640868,
         "name": "context",
@@ -223746,7 +223820,10 @@
       "last_updated": "2026-05-05T21:13:42.643639+00:00"
     },
     "openclaw/mcporter": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1089959414,
         "name": "mcporter",
