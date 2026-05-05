@@ -14,7 +14,7 @@ GITHUB_URL = "https://github.com"
 STARS_FILE = 'github_stars.json'
 MAX_RETRIES = 3
 INITIAL_BACKOFF = 5   # Initial backoff in seconds; kept short for CI
-MAX_RETRY_AFTER = 30  # Give up if server asks us to wait longer than this
+MAX_RETRY_AFTER = 120  # Cap on how long we'll honor a Retry-After (still retry after capping)
 RATE_LIMIT_THRESHOLD = 10  # Number of requests to keep in reserve
 DEFAULT_RATE_LIMIT = 60  # Default to 60 requests per minute
 DEFAULT_RATE_LIMIT_WINDOW = 60  # 1 minute in seconds
@@ -89,19 +89,16 @@ def make_request(session, url, max_retries=MAX_RETRIES):
                 rate_reset = e.response.headers.get('X-RateLimit-Reset', 'unknown')
                 if attempt < max_retries - 1:
                     if retry_after is not None:
-                        backoff_time = float(retry_after)
-                        if backoff_time > MAX_RETRY_AFTER:
-                            logger.error(
-                                f"429 on {url} (attempt {attempt + 1}/{max_retries}): "
-                                f"Retry-After={backoff_time:.0f}s exceeds {MAX_RETRY_AFTER}s cap; "
-                                f"X-RateLimit-Remaining={rate_remaining}, X-RateLimit-Reset={rate_reset}. Giving up."
-                            )
-                            raise
+                        requested = float(retry_after)
+                        backoff_time = min(requested, MAX_RETRY_AFTER)
+                        capped = requested > MAX_RETRY_AFTER
                     else:
                         backoff_time = exponential_backoff(attempt)
+                        capped = False
+                    cap_note = f" (capped from {float(retry_after):.0f}s)" if capped else ""
                     logger.warning(
                         f"429 on {url} (attempt {attempt + 1}/{max_retries}): "
-                        f"backing off {backoff_time:.1f}s "
+                        f"backing off {backoff_time:.1f}s{cap_note} "
                         f"(Retry-After={retry_after}, X-RateLimit-Remaining={rate_remaining})"
                     )
                     time.sleep(backoff_time)
