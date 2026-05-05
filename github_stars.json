@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T02:28:04.142008+00:00",
+  "last_updated": "2026-05-05T02:54:00.292071+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223124,6 +223124,306 @@
         "fetched_at": "2026-05-05T01:54:26.846602+00:00",
         "status": "ok"
       }
+    },
+    "dbos-inc/dbos-transact-py": {
+      "lists": [],
+      "metadata": {
+        "id": 831077841,
+        "name": "dbos-transact-py",
+        "full_name": "dbos-inc/dbos-transact-py",
+        "description": "Database-Backed Durable Python Workflows",
+        "url": "https://github.com/dbos-inc/dbos-transact-py",
+        "homepage": "https://docs.dbos.dev",
+        "language": "Python",
+        "stars": 1329,
+        "forks": 62,
+        "open_issues": 6,
+        "created_at": "2024-07-19T15:53:44Z",
+        "updated_at": "2026-05-04T23:30:55Z",
+        "pushed_at": "2026-05-05T00:52:39Z",
+        "starred_at": "2026-05-04T23:30:54Z"
+      },
+      "last_updated": "2026-05-05T02:53:57.337071+00:00"
+    },
+    "vivekg13186/Daisy-DAG": {
+      "lists": [],
+      "metadata": {
+        "id": 1228013410,
+        "name": "Daisy-DAG",
+        "full_name": "vivekg13186/Daisy-DAG",
+        "description": null,
+        "url": "https://github.com/vivekg13186/Daisy-DAG",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 56,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-05-03T13:30:23Z",
+        "updated_at": "2026-05-05T02:28:52Z",
+        "pushed_at": "2026-05-04T06:36:35Z",
+        "starred_at": "2026-05-04T23:23:39Z"
+      },
+      "last_updated": "2026-05-05T02:53:57.516630+00:00"
+    },
+    "pyinfra-dev/pyinfra": {
+      "lists": [],
+      "metadata": {
+        "id": 25437858,
+        "name": "pyinfra",
+        "full_name": "pyinfra-dev/pyinfra",
+        "description": "\ud83d\udd27 pyinfra turns Python code into shell commands and runs them on your servers. Execute ad-hoc commands and write declarative operations. Target SSH servers, local machine and Docker containers. Fast and scales from one server to thousands.",
+        "url": "https://github.com/pyinfra-dev/pyinfra",
+        "homepage": "https://pyinfra.com",
+        "language": "Python",
+        "stars": 5378,
+        "forks": 492,
+        "open_issues": 187,
+        "created_at": "2014-10-19T19:37:45Z",
+        "updated_at": "2026-05-05T02:48:11Z",
+        "pushed_at": "2026-05-04T12:26:04Z",
+        "starred_at": "2026-05-04T19:29:52Z"
+      },
+      "last_updated": "2026-05-05T02:53:57.690365+00:00"
+    },
+    "trailofbits/skills-curated": {
+      "lists": [],
+      "metadata": {
+        "id": 1151553297,
+        "name": "skills-curated",
+        "full_name": "trailofbits/skills-curated",
+        "description": "Curated, community-vetted Claude Code plugin marketplace",
+        "url": "https://github.com/trailofbits/skills-curated",
+        "homepage": null,
+        "language": "Python",
+        "stars": 388,
+        "forks": 18,
+        "open_issues": 5,
+        "created_at": "2026-02-06T15:59:15Z",
+        "updated_at": "2026-05-04T10:18:00Z",
+        "pushed_at": "2026-04-24T08:46:19Z",
+        "starred_at": "2026-05-03T22:39:48Z"
+      },
+      "last_updated": "2026-05-05T02:53:57.909373+00:00"
+    },
+    "copyleftdev/perforator-go": {
+      "lists": [],
+      "metadata": {
+        "id": 1045868456,
+        "name": "perforator-go",
+        "full_name": "copyleftdev/perforator-go",
+        "description": "\ud83d\ude80 High-Performance Penetration Testing Framework - Go Implementation with Advanced Algorithms. Features XML bomb detection, intelligent buffer management, and sophisticated edge case testing. 3-5x faster than original with enhanced concurrency and security.",
+        "url": "https://github.com/copyleftdev/perforator-go",
+        "homepage": null,
+        "language": "Go",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-08-27T20:43:36Z",
+        "updated_at": "2026-05-03T22:37:59Z",
+        "pushed_at": "2025-08-27T22:34:33Z",
+        "starred_at": "2026-05-03T22:37:58Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.115950+00:00"
+    },
+    "bring-shrubbery/ml-sharp-web": {
+      "lists": [],
+      "metadata": {
+        "id": 1164059283,
+        "name": "ml-sharp-web",
+        "full_name": "bring-shrubbery/ml-sharp-web",
+        "description": "Web playground to create Gaussian Splats using Apple's ml-sharp model.",
+        "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+        "homepage": "https://ml-sharp-web.vercel.app/",
+        "language": "TypeScript",
+        "stars": 223,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2026-02-22T15:25:07Z",
+        "updated_at": "2026-05-05T02:44:11Z",
+        "pushed_at": "2026-05-03T09:58:30Z",
+        "starred_at": "2026-05-03T21:10:56Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.281466+00:00"
+    },
+    "earthtojake/text-to-cad": {
+      "lists": [],
+      "metadata": {
+        "id": 1217522067,
+        "name": "text-to-cad",
+        "full_name": "earthtojake/text-to-cad",
+        "description": "An open source harness for generating CAD models",
+        "url": "https://github.com/earthtojake/text-to-cad",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 1878,
+        "forks": 228,
+        "open_issues": 2,
+        "created_at": "2026-04-22T01:09:45Z",
+        "updated_at": "2026-05-05T02:50:25Z",
+        "pushed_at": "2026-05-04T03:35:28Z",
+        "starred_at": "2026-05-03T21:07:46Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.445308+00:00"
+    },
+    "bschoepke/ableton-live-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1228117001,
+        "name": "ableton-live-mcp",
+        "full_name": "bschoepke/ableton-live-mcp",
+        "description": "General-purpose MCP bridge for Ableton Live",
+        "url": "https://github.com/bschoepke/ableton-live-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 135,
+        "forks": 1,
+        "open_issues": 2,
+        "created_at": "2026-05-03T16:06:47Z",
+        "updated_at": "2026-05-05T02:46:09Z",
+        "pushed_at": "2026-05-04T14:23:50Z",
+        "starred_at": "2026-05-03T21:07:08Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.628500+00:00"
+    },
+    "trailofbits/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1134447175,
+        "name": "skills",
+        "full_name": "trailofbits/skills",
+        "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+        "url": "https://github.com/trailofbits/skills",
+        "homepage": "",
+        "language": "Python",
+        "stars": 4994,
+        "forks": 434,
+        "open_issues": 21,
+        "created_at": "2026-01-14T18:23:21Z",
+        "updated_at": "2026-05-05T02:01:17Z",
+        "pushed_at": "2026-05-03T19:59:57Z",
+        "starred_at": "2026-05-03T20:35:38Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.816411+00:00"
+    },
+    "RalfJung/cargo-careful": {
+      "lists": [],
+      "metadata": {
+        "id": 539980905,
+        "name": "cargo-careful",
+        "full_name": "RalfJung/cargo-careful",
+        "description": "Execute Rust code carefully, with extra checking along the way",
+        "url": "https://github.com/RalfJung/cargo-careful",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 486,
+        "forks": 20,
+        "open_issues": 4,
+        "created_at": "2022-09-22T12:53:28Z",
+        "updated_at": "2026-05-03T20:19:46Z",
+        "pushed_at": "2026-04-01T08:00:23Z",
+        "starred_at": "2026-05-03T20:19:46Z"
+      },
+      "last_updated": "2026-05-05T02:53:58.984654+00:00"
+    },
+    "vercel-labs/agent-browser": {
+      "lists": [],
+      "metadata": {
+        "id": 1132001614,
+        "name": "agent-browser",
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "url": "https://github.com/vercel-labs/agent-browser",
+        "homepage": "https://agent-browser.dev",
+        "language": "Rust",
+        "stars": 31701,
+        "forks": 1941,
+        "open_issues": 440,
+        "created_at": "2026-01-11T05:38:15Z",
+        "updated_at": "2026-05-05T02:45:24Z",
+        "pushed_at": "2026-04-29T15:39:13Z",
+        "starred_at": "2026-05-03T19:55:19Z"
+      },
+      "last_updated": "2026-05-05T02:53:59.177882+00:00"
+    },
+    "davidvidovic-web/hackers-1995-threejs": {
+      "lists": [],
+      "metadata": {
+        "id": 1152301089,
+        "name": "hackers-1995-threejs",
+        "full_name": "davidvidovic-web/hackers-1995-threejs",
+        "description": null,
+        "url": "https://github.com/davidvidovic-web/hackers-1995-threejs",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 16,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-02-07T17:12:54Z",
+        "updated_at": "2026-05-03T17:05:25Z",
+        "pushed_at": "2026-02-07T17:16:09Z",
+        "starred_at": "2026-05-03T17:05:25Z"
+      },
+      "last_updated": "2026-05-05T02:53:59.372396+00:00"
+    },
+    "iswad-lab/TouchDesigner-Linux": {
+      "lists": [],
+      "metadata": {
+        "id": 1201521672,
+        "name": "TouchDesigner-Linux",
+        "full_name": "iswad-lab/TouchDesigner-Linux",
+        "description": "Run TouchDesigner on Linux. Automated installer + manual Bottles guide. Includes dependencies, Wine runner, and font fix.",
+        "url": "https://github.com/iswad-lab/TouchDesigner-Linux",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 39,
+        "forks": 2,
+        "open_issues": 4,
+        "created_at": "2026-04-04T19:41:40Z",
+        "updated_at": "2026-05-04T08:29:08Z",
+        "pushed_at": "2026-05-04T08:16:53Z",
+        "starred_at": "2026-04-07T21:27:38Z"
+      },
+      "last_updated": "2026-05-05T02:53:59.738272+00:00"
+    },
+    "pico-game-engine/pico-game-engine": {
+      "lists": [],
+      "metadata": {
+        "id": 923310827,
+        "name": "pico-game-engine",
+        "full_name": "pico-game-engine/pico-game-engine",
+        "description": "A lightweight C++ game engine for embedded devices with LCD displays.",
+        "url": "https://github.com/pico-game-engine/pico-game-engine",
+        "homepage": "",
+        "language": "C++",
+        "stars": 26,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-01-28T02:03:24Z",
+        "updated_at": "2026-05-04T20:26:16Z",
+        "pushed_at": "2026-05-02T20:47:36Z",
+        "starred_at": "2026-04-06T20:48:23Z"
+      },
+      "last_updated": "2026-05-05T02:53:59.942197+00:00"
+    },
+    "nickjj/dotfriedrice": {
+      "lists": [],
+      "metadata": {
+        "id": 162295765,
+        "name": "dotfriedrice",
+        "full_name": "nickjj/dotfriedrice",
+        "description": "Set up a developer friendly Arch Linux system in minutes. Also supports WSL 2, Debian, Ubuntu and macOS for CLI tools!",
+        "url": "https://github.com/nickjj/dotfriedrice",
+        "homepage": "https://nickjanetakis.com/blog/the-tools-i-use",
+        "language": "Shell",
+        "stars": 1209,
+        "forks": 197,
+        "open_issues": 1,
+        "created_at": "2018-12-18T13:53:57Z",
+        "updated_at": "2026-05-05T02:20:37Z",
+        "pushed_at": "2026-05-05T02:20:31Z",
+        "starred_at": "2026-03-28T20:01:04Z"
+      },
+      "last_updated": "2026-05-05T02:54:00.291990+00:00"
     }
   },
   "last_processed_index": 0,
@@ -223133,5 +223433,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"27bb3df6ed44195857ef52b6a4211f569974e2ab7c1c9e00e7aeb019a857244e\""
+  "profile_etag": "W/\"a9a1b3d2bb54afb825ddf9084aea7e74be436005a580b1750791395074e76e7f\""
 }
