@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T04:38:35.390231+00:00",
+  "last_updated": "2026-05-07T04:31:38.869520+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223929,6 +223929,126 @@
         "fetched_at": "2026-05-05T21:43:29.641003+00:00",
         "status": "ok"
       }
+    },
+    "nico-martin/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1160738263,
+        "name": "skills",
+        "full_name": "nico-martin/skills",
+        "description": "A curated collection of Agent Skills reflecting my preferences, experience, and best practices.",
+        "url": "https://github.com/nico-martin/skills",
+        "homepage": "",
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-02-18T10:09:00Z",
+        "updated_at": "2026-05-07T00:50:18Z",
+        "pushed_at": "2026-03-09T11:25:34Z",
+        "starred_at": "2026-05-07T00:50:18Z"
+      },
+      "last_updated": "2026-05-07T04:31:37.935475+00:00"
+    },
+    "nico-martin/gemma4-browser-extension": {
+      "lists": [],
+      "metadata": {
+        "id": 1095803021,
+        "name": "gemma4-browser-extension",
+        "full_name": "nico-martin/gemma4-browser-extension",
+        "description": "On-device AI agent Chrome extension powered by Transformers.js and Gemma 4",
+        "url": "https://github.com/nico-martin/gemma4-browser-extension",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 940,
+        "forks": 139,
+        "open_issues": 9,
+        "created_at": "2025-11-13T14:40:20Z",
+        "updated_at": "2026-05-07T03:20:38Z",
+        "pushed_at": "2026-04-28T10:05:14Z",
+        "starred_at": "2026-05-07T00:47:05Z"
+      },
+      "last_updated": "2026-05-07T04:31:38.132484+00:00"
+    },
+    "endevco/aube": {
+      "lists": [],
+      "metadata": {
+        "id": 1214542327,
+        "name": "aube",
+        "full_name": "endevco/aube",
+        "description": "A fast Node.js package manager",
+        "url": "https://github.com/endevco/aube",
+        "homepage": "https://aube.en.dev",
+        "language": "Rust",
+        "stars": 879,
+        "forks": 19,
+        "open_issues": 1,
+        "created_at": "2026-04-18T18:06:49Z",
+        "updated_at": "2026-05-07T04:15:31Z",
+        "pushed_at": "2026-05-07T00:02:19Z",
+        "starred_at": "2026-05-06T18:46:01Z"
+      },
+      "last_updated": "2026-05-07T04:31:38.328008+00:00"
+    },
+    "andymasteroffish/mag_alt_ctrl_jam_launcher": {
+      "lists": [],
+      "metadata": {
+        "id": 1109538928,
+        "name": "mag_alt_ctrl_jam_launcher",
+        "full_name": "andymasteroffish/mag_alt_ctrl_jam_launcher",
+        "description": null,
+        "url": "https://github.com/andymasteroffish/mag_alt_ctrl_jam_launcher",
+        "homepage": null,
+        "language": "C++",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-12-04T00:12:53Z",
+        "updated_at": "2026-05-06T12:44:43Z",
+        "pushed_at": "2026-03-17T00:47:54Z",
+        "starred_at": "2026-05-06T12:44:43Z"
+      },
+      "last_updated": "2026-05-07T04:31:38.504051+00:00"
+    },
+    "rheslip/Twisty-2-MIDIController": {
+      "lists": [],
+      "metadata": {
+        "id": 1125969345,
+        "name": "Twisty-2-MIDIController",
+        "full_name": "rheslip/Twisty-2-MIDIController",
+        "description": "2nd Gen MIDI controller using Raspberry Pi Pico or Pico 2",
+        "url": "https://github.com/rheslip/Twisty-2-MIDIController",
+        "homepage": null,
+        "language": "C++",
+        "stars": 47,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2025-12-31T18:56:06Z",
+        "updated_at": "2026-05-06T12:42:13Z",
+        "pushed_at": "2026-01-25T19:19:48Z",
+        "starred_at": "2026-05-06T12:42:13Z"
+      },
+      "last_updated": "2026-05-07T04:31:38.673977+00:00"
+    },
+    "OpenframeProject/Openframe-glslViewer": {
+      "lists": [],
+      "metadata": {
+        "id": 50154613,
+        "name": "Openframe-glslViewer",
+        "full_name": "OpenframeProject/Openframe-glslViewer",
+        "description": "Openframe extension which adds support for shaders via glslViewer.",
+        "url": "https://github.com/OpenframeProject/Openframe-glslViewer",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 9,
+        "forks": 6,
+        "open_issues": 4,
+        "created_at": "2016-01-22T03:21:38Z",
+        "updated_at": "2026-05-06T12:04:09Z",
+        "pushed_at": "2022-07-16T10:29:46Z",
+        "starred_at": "2026-05-06T12:04:08Z"
+      },
+      "last_updated": "2026-05-07T04:31:38.869400+00:00"
     }
   },
   "last_processed_index": 0,
@@ -223938,5 +224058,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"501a1a458c0941d2122d8408cdd6fad04734fc653da6e9e4846e3af65c9a5b5b\""
+  "profile_etag": "W/\"300acaffc3868888da7db5ae509417dd1b5ece6b7f322d70ea53eeb767f734ef\""
 }
