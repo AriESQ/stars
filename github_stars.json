@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T04:38:15.045073+00:00",
+  "last_updated": "2026-05-07T04:38:34.056744+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223950,7 +223950,15 @@
         "pushed_at": "2026-03-09T11:25:34Z",
         "starred_at": "2026-05-07T00:50:18Z"
       },
-      "last_updated": "2026-05-07T04:31:37.935475+00:00"
+      "last_updated": "2026-05-07T04:31:37.935475+00:00",
+      "readme": {
+        "path": "readmes/nico-martin+skills+README.md",
+        "etag": "W/\"b76d743a634457a976e9e222ce1fe2f822b29eea\"",
+        "sha": "b76d743a634457a976e9e222ce1fe2f822b29eea",
+        "size": 1757,
+        "fetched_at": "2026-05-07T04:38:33.730125+00:00",
+        "status": "ok"
+      }
     },
     "nico-martin/gemma4-browser-extension": {
       "lists": [
@@ -223972,7 +223980,15 @@
         "pushed_at": "2026-04-28T10:05:14Z",
         "starred_at": "2026-05-07T00:47:05Z"
       },
-      "last_updated": "2026-05-07T04:31:38.132484+00:00"
+      "last_updated": "2026-05-07T04:31:38.132484+00:00",
+      "readme": {
+        "path": "readmes/nico-martin+gemma4-browser-extension+README.md",
+        "etag": "W/\"e941916c38ed3286daa1aae5dcbb0a3502979de6\"",
+        "sha": "e941916c38ed3286daa1aae5dcbb0a3502979de6",
+        "size": 7120,
+        "fetched_at": "2026-05-07T04:38:33.387623+00:00",
+        "status": "ok"
+      }
     },
     "endevco/aube": {
       "lists": [
@@ -223994,7 +224010,15 @@
         "pushed_at": "2026-05-07T00:02:19Z",
         "starred_at": "2026-05-06T18:46:01Z"
       },
-      "last_updated": "2026-05-07T04:31:38.328008+00:00"
+      "last_updated": "2026-05-07T04:31:38.328008+00:00",
+      "readme": {
+        "path": "readmes/endevco+aube+README.md",
+        "etag": "W/\"510c18303c9aecfefeb24ae6cec8f10b8e7ed430\"",
+        "sha": "510c18303c9aecfefeb24ae6cec8f10b8e7ed430",
+        "size": 9951,
+        "fetched_at": "2026-05-07T04:38:33.098871+00:00",
+        "status": "ok"
+      }
     },
     "andymasteroffish/mag_alt_ctrl_jam_launcher": {
       "lists": [
@@ -224017,7 +224041,15 @@
         "pushed_at": "2026-03-17T00:47:54Z",
         "starred_at": "2026-05-06T12:44:43Z"
       },
-      "last_updated": "2026-05-07T04:31:38.504051+00:00"
+      "last_updated": "2026-05-07T04:31:38.504051+00:00",
+      "readme": {
+        "path": "readmes/andymasteroffish+mag_alt_ctrl_jam_launcher+README.md",
+        "etag": "W/\"cea72f4a08e6ea0e2751ab031e1c40d26dfc5c2a\"",
+        "sha": "cea72f4a08e6ea0e2751ab031e1c40d26dfc5c2a",
+        "size": 3908,
+        "fetched_at": "2026-05-07T04:38:32.750051+00:00",
+        "status": "ok"
+      }
     },
     "rheslip/Twisty-2-MIDIController": {
       "lists": [
@@ -224040,7 +224072,15 @@
         "pushed_at": "2026-01-25T19:19:48Z",
         "starred_at": "2026-05-06T12:42:13Z"
       },
-      "last_updated": "2026-05-07T04:31:38.673977+00:00"
+      "last_updated": "2026-05-07T04:31:38.673977+00:00",
+      "readme": {
+        "path": "readmes/rheslip+Twisty-2-MIDIController+README.md",
+        "etag": "W/\"10b5368026062b35d1afb1add13aad1992543e62\"",
+        "sha": "10b5368026062b35d1afb1add13aad1992543e62",
+        "size": 10874,
+        "fetched_at": "2026-05-07T04:38:34.053898+00:00",
+        "status": "ok"
+      }
     },
     "OpenframeProject/Openframe-glslViewer": {
       "lists": [
@@ -224063,7 +224103,15 @@
         "pushed_at": "2022-07-16T10:29:46Z",
         "starred_at": "2026-05-06T12:04:08Z"
       },
-      "last_updated": "2026-05-07T04:31:38.869400+00:00"
+      "last_updated": "2026-05-07T04:31:38.869400+00:00",
+      "readme": {
+        "path": "readmes/OpenframeProject+Openframe-glslViewer+README.md",
+        "etag": "W/\"3ebcc92f79f8d6f66a01fcb9ae5d72f54fd42517\"",
+        "sha": "3ebcc92f79f8d6f66a01fcb9ae5d72f54fd42517",
+        "size": 817,
+        "fetched_at": "2026-05-07T04:38:32.375071+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
