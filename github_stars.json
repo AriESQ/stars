@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T04:31:38.869520+00:00",
+  "last_updated": "2026-05-07T04:38:15.045073+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -223931,7 +223931,9 @@
       }
     },
     "nico-martin/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1160738263,
         "name": "skills",
@@ -223951,7 +223953,9 @@
       "last_updated": "2026-05-07T04:31:37.935475+00:00"
     },
     "nico-martin/gemma4-browser-extension": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1095803021,
         "name": "gemma4-browser-extension",
@@ -223971,7 +223975,9 @@
       "last_updated": "2026-05-07T04:31:38.132484+00:00"
     },
     "endevco/aube": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1214542327,
         "name": "aube",
@@ -223991,7 +223997,10 @@
       "last_updated": "2026-05-07T04:31:38.328008+00:00"
     },
     "andymasteroffish/mag_alt_ctrl_jam_launcher": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 1109538928,
         "name": "mag_alt_ctrl_jam_launcher",
@@ -224011,7 +224020,10 @@
       "last_updated": "2026-05-07T04:31:38.504051+00:00"
     },
     "rheslip/Twisty-2-MIDIController": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1125969345,
         "name": "Twisty-2-MIDIController",
@@ -224031,7 +224043,10 @@
       "last_updated": "2026-05-07T04:31:38.673977+00:00"
     },
     "OpenframeProject/Openframe-glslViewer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 50154613,
         "name": "Openframe-glslViewer",
