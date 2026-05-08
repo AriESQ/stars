@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T04:32:12.393166+00:00",
+  "last_updated": "2026-05-08T04:32:46.471515+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224133,7 +224133,15 @@
         "pushed_at": "2026-05-08T02:22:36Z",
         "starred_at": "2026-05-07T21:51:45Z"
       },
-      "last_updated": "2026-05-08T04:25:19.185351+00:00"
+      "last_updated": "2026-05-08T04:25:19.185351+00:00",
+      "readme": {
+        "path": "readmes/0xdeadbeefnetwork+Copy_Fail2-Electric_Boogaloo+README.md",
+        "etag": "W/\"3f09a22266ecabf7cb9d996061193dd83558ecf8\"",
+        "sha": "3f09a22266ecabf7cb9d996061193dd83558ecf8",
+        "size": 2195,
+        "fetched_at": "2026-05-08T04:32:45.636673+00:00",
+        "status": "ok"
+      }
     },
     "V4bel/dirtyfrag": {
       "lists": [
@@ -224156,7 +224164,15 @@
         "pushed_at": "2026-05-07T20:22:35Z",
         "starred_at": "2026-05-07T21:41:11Z"
       },
-      "last_updated": "2026-05-08T04:25:19.423582+00:00"
+      "last_updated": "2026-05-08T04:25:19.423582+00:00",
+      "readme": {
+        "path": "readmes/V4bel+dirtyfrag+README.md",
+        "etag": "W/\"6e90b77566a90e98d32754e03dedbbd0c66d2f0d\"",
+        "sha": "6e90b77566a90e98d32754e03dedbbd0c66d2f0d",
+        "size": 4275,
+        "fetched_at": "2026-05-08T04:32:45.944756+00:00",
+        "status": "ok"
+      }
     },
     "antirez/ds4": {
       "lists": [
@@ -224179,7 +224195,15 @@
         "pushed_at": "2026-05-07T18:14:33Z",
         "starred_at": "2026-05-07T19:16:44Z"
       },
-      "last_updated": "2026-05-08T04:25:19.625470+00:00"
+      "last_updated": "2026-05-08T04:25:19.625470+00:00",
+      "readme": {
+        "path": "readmes/antirez+ds4+README.md",
+        "etag": "W/\"f277f68c35742ab9aec81903f247ef37c6b09efb\"",
+        "sha": "f277f68c35742ab9aec81903f247ef37c6b09efb",
+        "size": 20866,
+        "fetched_at": "2026-05-08T04:32:46.067724+00:00",
+        "status": "ok"
+      }
     },
     "fenio/k8s-truenas": {
       "lists": [
@@ -224202,7 +224226,15 @@
         "pushed_at": "2026-02-18T22:46:11Z",
         "starred_at": "2026-05-07T11:14:01Z"
       },
-      "last_updated": "2026-05-08T04:25:19.862294+00:00"
+      "last_updated": "2026-05-08T04:25:19.862294+00:00",
+      "readme": {
+        "path": "readmes/fenio+k8s-truenas+README.md",
+        "etag": "W/\"d4680a0b6302850d749b856a8f06c17501929c8b\"",
+        "sha": "d4680a0b6302850d749b856a8f06c17501929c8b",
+        "size": 13802,
+        "fetched_at": "2026-05-08T04:32:46.465000+00:00",
+        "status": "ok"
+      }
     },
     "PrefectHQ/fastmcp": {
       "lists": [
@@ -224225,7 +224257,15 @@
         "pushed_at": "2026-05-07T19:31:25Z",
         "starred_at": "2026-05-07T04:59:34Z"
       },
-      "last_updated": "2026-05-08T04:25:20.109820+00:00"
+      "last_updated": "2026-05-08T04:25:20.109820+00:00",
+      "readme": {
+        "path": "readmes/PrefectHQ+fastmcp+README.md",
+        "etag": "W/\"9afc7f4f711c1153eef785f639c0a446770d815c\"",
+        "sha": "9afc7f4f711c1153eef785f639c0a446770d815c",
+        "size": 6658,
+        "fetched_at": "2026-05-08T04:32:45.831697+00:00",
+        "status": "ok"
+      }
     },
     "earendil-works/pi": {
       "lists": [
@@ -224248,7 +224288,15 @@
         "pushed_at": "2026-05-07T22:56:19Z",
         "starred_at": "2026-02-24T06:30:08Z"
       },
-      "last_updated": "2026-05-08T04:25:20.521431+00:00"
+      "last_updated": "2026-05-08T04:25:20.521431+00:00",
+      "readme": {
+        "path": "readmes/earendil-works+pi+README.md",
+        "etag": "W/\"90d9fc10b9019923fe3399c3872edb0a5b0f95a6\"",
+        "sha": "90d9fc10b9019923fe3399c3872edb0a5b0f95a6",
+        "size": 3602,
+        "fetched_at": "2026-05-08T04:32:46.262724+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
