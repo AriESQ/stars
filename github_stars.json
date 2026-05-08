@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T04:25:20.521445+00:00",
+  "last_updated": "2026-05-08T04:32:12.393166+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224114,7 +224114,9 @@
       }
     },
     "0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1232229971,
         "name": "Copy_Fail2-Electric_Boogaloo",
@@ -224134,7 +224136,10 @@
       "last_updated": "2026-05-08T04:25:19.185351+00:00"
     },
     "V4bel/dirtyfrag": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1232237440,
         "name": "dirtyfrag",
@@ -224154,7 +224159,10 @@
       "last_updated": "2026-05-08T04:25:19.423582+00:00"
     },
     "antirez/ds4": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1231148626,
         "name": "ds4",
@@ -224174,7 +224182,10 @@
       "last_updated": "2026-05-08T04:25:19.625470+00:00"
     },
     "fenio/k8s-truenas": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 597109427,
         "name": "k8s-truenas",
@@ -224194,7 +224205,10 @@
       "last_updated": "2026-05-08T04:25:19.862294+00:00"
     },
     "PrefectHQ/fastmcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 896296825,
         "name": "fastmcp",
@@ -224214,7 +224228,10 @@
       "last_updated": "2026-05-08T04:25:20.109820+00:00"
     },
     "earendil-works/pi": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1035029907,
         "name": "pi",
