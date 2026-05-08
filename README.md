@@ -94,22 +94,24 @@ Since all repos are already in `github_stars.json`, it should process all chunks
 
 ### Dashboard
 
-Serve the dashboard locally with any HTTP server:
+**Option 1 — uv (simplest):**
 
 ```bash
-python -m http.server
+uv run python -m http.server 8080
 ```
 
-Then open `http://localhost:8000` in your browser. The dashboard loads `github_stars.json` from the same directory.
+Then open `http://localhost:8080`. No system Python needed; uv supplies it.
 
-You can also use the container:
+**Option 2 — Podman container:**
 
 ```bash
 podman build -f containers/Containerfile.dashboard -t stars-dashboard .
 podman run --rm -d --name stars-dashboard -p 8080:80 stars-dashboard
 ```
 
-The dashboard will be available at `http://localhost:8080`.
+Then open `http://localhost:8080`. Note: on macOS, Podman runs inside a Linux VM — port forwarding works but large file serves (e.g. `github_stars.json`) may be slower than the uv option.
+
+To stop the container: `podman stop stars-dashboard`
 
 ## Customization
 You can customize the behavior of the scripts by modifying the following constants in the Python files:
