@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T04:38:34.056744+00:00",
+  "last_updated": "2026-05-08T04:25:20.521445+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224112,6 +224112,126 @@
         "fetched_at": "2026-05-07T04:38:32.375071+00:00",
         "status": "ok"
       }
+    },
+    "0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo": {
+      "lists": [],
+      "metadata": {
+        "id": 1232229971,
+        "name": "Copy_Fail2-Electric_Boogaloo",
+        "full_name": "0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+        "description": "Copy Fail 2: Electric Boogaloo",
+        "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+        "homepage": null,
+        "language": "C",
+        "stars": 62,
+        "forks": 13,
+        "open_issues": 0,
+        "created_at": "2026-05-07T18:09:08Z",
+        "updated_at": "2026-05-08T03:56:35Z",
+        "pushed_at": "2026-05-08T02:22:36Z",
+        "starred_at": "2026-05-07T21:51:45Z"
+      },
+      "last_updated": "2026-05-08T04:25:19.185351+00:00"
+    },
+    "V4bel/dirtyfrag": {
+      "lists": [],
+      "metadata": {
+        "id": 1232237440,
+        "name": "dirtyfrag",
+        "full_name": "V4bel/dirtyfrag",
+        "description": null,
+        "url": "https://github.com/V4bel/dirtyfrag",
+        "homepage": null,
+        "language": "C",
+        "stars": 1143,
+        "forks": 167,
+        "open_issues": 17,
+        "created_at": "2026-05-07T18:18:28Z",
+        "updated_at": "2026-05-08T04:24:58Z",
+        "pushed_at": "2026-05-07T20:22:35Z",
+        "starred_at": "2026-05-07T21:41:11Z"
+      },
+      "last_updated": "2026-05-08T04:25:19.423582+00:00"
+    },
+    "antirez/ds4": {
+      "lists": [],
+      "metadata": {
+        "id": 1231148626,
+        "name": "ds4",
+        "full_name": "antirez/ds4",
+        "description": "DeepSeek 4 Flash local inference engine for Metal",
+        "url": "https://github.com/antirez/ds4",
+        "homepage": null,
+        "language": "C",
+        "stars": 800,
+        "forks": 44,
+        "open_issues": 2,
+        "created_at": "2026-05-06T17:17:05Z",
+        "updated_at": "2026-05-08T04:24:37Z",
+        "pushed_at": "2026-05-07T18:14:33Z",
+        "starred_at": "2026-05-07T19:16:44Z"
+      },
+      "last_updated": "2026-05-08T04:25:19.625470+00:00"
+    },
+    "fenio/k8s-truenas": {
+      "lists": [],
+      "metadata": {
+        "id": 597109427,
+        "name": "k8s-truenas",
+        "full_name": "fenio/k8s-truenas",
+        "description": "Simple guide to use Kubernetes cluster with TrueNAS Scale over API",
+        "url": "https://github.com/fenio/k8s-truenas",
+        "homepage": "",
+        "language": null,
+        "stars": 105,
+        "forks": 10,
+        "open_issues": 1,
+        "created_at": "2023-02-03T16:44:48Z",
+        "updated_at": "2026-05-07T11:14:01Z",
+        "pushed_at": "2026-02-18T22:46:11Z",
+        "starred_at": "2026-05-07T11:14:01Z"
+      },
+      "last_updated": "2026-05-08T04:25:19.862294+00:00"
+    },
+    "PrefectHQ/fastmcp": {
+      "lists": [],
+      "metadata": {
+        "id": 896296825,
+        "name": "fastmcp",
+        "full_name": "PrefectHQ/fastmcp",
+        "description": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients.",
+        "url": "https://github.com/PrefectHQ/fastmcp",
+        "homepage": "https://gofastmcp.com",
+        "language": "Python",
+        "stars": 25059,
+        "forks": 1994,
+        "open_issues": 242,
+        "created_at": "2024-11-30T01:47:40Z",
+        "updated_at": "2026-05-08T04:03:42Z",
+        "pushed_at": "2026-05-07T19:31:25Z",
+        "starred_at": "2026-05-07T04:59:34Z"
+      },
+      "last_updated": "2026-05-08T04:25:20.109820+00:00"
+    },
+    "earendil-works/pi": {
+      "lists": [],
+      "metadata": {
+        "id": 1035029907,
+        "name": "pi",
+        "full_name": "earendil-works/pi",
+        "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+        "url": "https://github.com/earendil-works/pi",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 46172,
+        "forks": 5459,
+        "open_issues": 18,
+        "created_at": "2025-08-09T14:03:50Z",
+        "updated_at": "2026-05-08T04:25:11Z",
+        "pushed_at": "2026-05-07T22:56:19Z",
+        "starred_at": "2026-02-24T06:30:08Z"
+      },
+      "last_updated": "2026-05-08T04:25:20.521431+00:00"
     }
   },
   "last_processed_index": 0,
@@ -224121,5 +224241,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"300acaffc3868888da7db5ae509417dd1b5ece6b7f322d70ea53eeb767f734ef\""
+  "profile_etag": "W/\"f7acddd1a11289913016433e80391896ac32ba6c49255bf503c897c61382ec48\""
 }
