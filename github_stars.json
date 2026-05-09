@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T04:35:04.812096+00:00",
+  "last_updated": "2026-05-09T04:35:38.100289+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224318,7 +224318,15 @@
         "pushed_at": "2026-04-14T12:37:08Z",
         "starred_at": "2026-05-08T15:14:56Z"
       },
-      "last_updated": "2026-05-09T04:28:36.986264+00:00"
+      "last_updated": "2026-05-09T04:28:36.986264+00:00",
+      "readme": {
+        "path": "readmes/Zorochase+ultimate-retro-shader-collection+README.md",
+        "etag": "W/\"eb76ef6cf57b856af944b4ea596d1a728db44c4c\"",
+        "sha": "eb76ef6cf57b856af944b4ea596d1a728db44c4c",
+        "size": 39742,
+        "fetched_at": "2026-05-09T04:35:37.785312+00:00",
+        "status": "ok"
+      }
     },
     "NousResearch/hermes-agent": {
       "lists": [
@@ -224341,7 +224349,15 @@
         "pushed_at": "2026-05-09T03:51:36Z",
         "starred_at": "2026-05-08T13:56:25Z"
       },
-      "last_updated": "2026-05-09T04:28:37.262394+00:00"
+      "last_updated": "2026-05-09T04:28:37.262394+00:00",
+      "readme": {
+        "path": "readmes/NousResearch+hermes-agent+README.md",
+        "etag": "W/\"8b8a078b25075ddd3d264374102d0ec690072b40\"",
+        "sha": "8b8a078b25075ddd3d264374102d0ec690072b40",
+        "size": 12802,
+        "fetched_at": "2026-05-09T04:35:37.386760+00:00",
+        "status": "ok"
+      }
     },
     "geo-tp/ESP32-Bit-Pirate": {
       "lists": [
@@ -224363,7 +224379,15 @@
         "pushed_at": "2026-05-08T21:04:53Z",
         "starred_at": "2025-08-09T20:10:17Z"
       },
-      "last_updated": "2026-05-09T04:28:37.711180+00:00"
+      "last_updated": "2026-05-09T04:28:37.711180+00:00",
+      "readme": {
+        "path": "readmes/geo-tp+ESP32-Bit-Pirate+README.md",
+        "etag": "W/\"c2b80901e0ee6b7c1f8c82e009e37a0eab2f0f3a\"",
+        "sha": "c2b80901e0ee6b7c1f8c82e009e37a0eab2f0f3a",
+        "size": 12958,
+        "fetched_at": "2026-05-09T04:35:38.094249+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
