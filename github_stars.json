@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T04:28:37.711269+00:00",
+  "last_updated": "2026-05-09T04:35:04.812096+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224299,7 +224299,9 @@
       }
     },
     "Zorochase/ultimate-retro-shader-collection": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 799325756,
         "name": "ultimate-retro-shader-collection",
@@ -224319,7 +224321,10 @@
       "last_updated": "2026-05-09T04:28:36.986264+00:00"
     },
     "NousResearch/hermes-agent": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1024554267,
         "name": "hermes-agent",
@@ -224339,7 +224344,9 @@
       "last_updated": "2026-05-09T04:28:37.262394+00:00"
     },
     "geo-tp/ESP32-Bit-Pirate": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1014515436,
         "name": "ESP32-Bit-Pirate",
