@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T04:38:11.854107+00:00",
+  "last_updated": "2026-05-10T04:44:26.588080+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224390,7 +224390,9 @@
       }
     },
     "python-lsp/python-lsp-server": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 341006790,
         "name": "python-lsp-server",
@@ -224410,7 +224412,9 @@
       "last_updated": "2026-05-10T04:38:10.213767+00:00"
     },
     "Automattic/harper": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 708266011,
         "name": "harper",
@@ -224430,7 +224434,11 @@
       "last_updated": "2026-05-10T04:38:10.447519+00:00"
     },
     "vercel-labs/deepsec": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1225774688,
         "name": "deepsec",
@@ -224450,7 +224458,9 @@
       "last_updated": "2026-05-10T04:38:10.683947+00:00"
     },
     "getsentry/warden": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1143714962,
         "name": "warden",
@@ -224470,7 +224480,9 @@
       "last_updated": "2026-05-10T04:38:10.927736+00:00"
     },
     "getsentry/XcodeBuildMCP": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 945551361,
         "name": "XcodeBuildMCP",
@@ -224490,7 +224502,9 @@
       "last_updated": "2026-05-10T04:38:11.163078+00:00"
     },
     "getsentry/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1128612043,
         "name": "skills",
@@ -224510,7 +224524,9 @@
       "last_updated": "2026-05-10T04:38:11.425343+00:00"
     },
     "Arc1011/KernelUNO": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1195245806,
         "name": "KernelUNO",
@@ -224530,7 +224546,9 @@
       "last_updated": "2026-05-10T04:38:11.643191+00:00"
     },
     "hery-torrado/KernelESP": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1223931262,
         "name": "KernelESP",
