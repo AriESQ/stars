@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T04:44:26.588080+00:00",
+  "last_updated": "2026-05-10T04:44:51.916147+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224409,7 +224409,15 @@
         "pushed_at": "2025-12-06T16:12:43Z",
         "starred_at": "2026-05-09T20:01:25Z"
       },
-      "last_updated": "2026-05-10T04:38:10.213767+00:00"
+      "last_updated": "2026-05-10T04:38:10.213767+00:00",
+      "readme": {
+        "path": "readmes/python-lsp+python-lsp-server+README.md",
+        "etag": "W/\"daca7dc6e29411e48a142f9b22dce745bcb50212\"",
+        "sha": "daca7dc6e29411e48a142f9b22dce745bcb50212",
+        "size": 8510,
+        "fetched_at": "2026-05-10T04:44:51.759327+00:00",
+        "status": "ok"
+      }
     },
     "Automattic/harper": {
       "lists": [
@@ -224431,7 +224439,15 @@
         "pushed_at": "2026-05-08T19:04:34Z",
         "starred_at": "2026-05-09T19:51:44Z"
       },
-      "last_updated": "2026-05-10T04:38:10.447519+00:00"
+      "last_updated": "2026-05-10T04:38:10.447519+00:00",
+      "readme": {
+        "path": "readmes/Automattic+harper+README.md",
+        "etag": "W/\"b918374fc87ed7b3f3a959bc857787f0109e0701\"",
+        "sha": "b918374fc87ed7b3f3a959bc857787f0109e0701",
+        "size": 3884,
+        "fetched_at": "2026-05-10T04:44:50.760276+00:00",
+        "status": "ok"
+      }
     },
     "vercel-labs/deepsec": {
       "lists": [
@@ -224455,7 +224471,15 @@
         "pushed_at": "2026-05-07T16:38:21Z",
         "starred_at": "2026-05-09T19:01:49Z"
       },
-      "last_updated": "2026-05-10T04:38:10.683947+00:00"
+      "last_updated": "2026-05-10T04:38:10.683947+00:00",
+      "readme": {
+        "path": "readmes/vercel-labs+deepsec+README.md",
+        "etag": "W/\"659e489b9c6a192733bab0e5956153cf42f682c7\"",
+        "sha": "659e489b9c6a192733bab0e5956153cf42f682c7",
+        "size": 6611,
+        "fetched_at": "2026-05-10T04:44:51.914927+00:00",
+        "status": "ok"
+      }
     },
     "getsentry/warden": {
       "lists": [
@@ -224477,7 +224501,15 @@
         "pushed_at": "2026-05-09T01:04:03Z",
         "starred_at": "2026-05-09T19:00:41Z"
       },
-      "last_updated": "2026-05-10T04:38:10.927736+00:00"
+      "last_updated": "2026-05-10T04:38:10.927736+00:00",
+      "readme": {
+        "path": "readmes/getsentry+warden+README.md",
+        "etag": "W/\"e5a821076c5e74b9af9ba2e297090f8f35ec81f3\"",
+        "sha": "e5a821076c5e74b9af9ba2e297090f8f35ec81f3",
+        "size": 1389,
+        "fetched_at": "2026-05-10T04:44:51.373224+00:00",
+        "status": "ok"
+      }
     },
     "getsentry/XcodeBuildMCP": {
       "lists": [
@@ -224499,7 +224531,15 @@
         "pushed_at": "2026-05-09T02:34:44Z",
         "starred_at": "2026-05-09T19:00:30Z"
       },
-      "last_updated": "2026-05-10T04:38:11.163078+00:00"
+      "last_updated": "2026-05-10T04:38:11.163078+00:00",
+      "readme": {
+        "path": "readmes/getsentry+XcodeBuildMCP+README.md",
+        "etag": "W/\"0bc513ff44bc0985b2aecf1b1a67ff1fe1f71258\"",
+        "sha": "0bc513ff44bc0985b2aecf1b1a67ff1fe1f71258",
+        "size": 5413,
+        "fetched_at": "2026-05-10T04:44:50.935530+00:00",
+        "status": "ok"
+      }
     },
     "getsentry/skills": {
       "lists": [
@@ -224521,7 +224561,15 @@
         "pushed_at": "2026-05-09T17:46:28Z",
         "starred_at": "2026-05-09T18:59:59Z"
       },
-      "last_updated": "2026-05-10T04:38:11.425343+00:00"
+      "last_updated": "2026-05-10T04:38:11.425343+00:00",
+      "readme": {
+        "path": "readmes/getsentry+skills+README.md",
+        "etag": "W/\"ff5258eb5be6f63369143ddaf69c0ab7660d8316\"",
+        "sha": "ff5258eb5be6f63369143ddaf69c0ab7660d8316",
+        "size": 11728,
+        "fetched_at": "2026-05-10T04:44:51.194343+00:00",
+        "status": "ok"
+      }
     },
     "Arc1011/KernelUNO": {
       "lists": [
@@ -224543,7 +224591,15 @@
         "pushed_at": "2026-05-03T11:51:13Z",
         "starred_at": "2026-05-09T16:26:50Z"
       },
-      "last_updated": "2026-05-10T04:38:11.643191+00:00"
+      "last_updated": "2026-05-10T04:38:11.643191+00:00",
+      "readme": {
+        "path": "readmes/Arc1011+KernelUNO+README.md",
+        "etag": "W/\"a448b1de7f3e0b46cf699406ec4fa917eccbd313\"",
+        "sha": "a448b1de7f3e0b46cf699406ec4fa917eccbd313",
+        "size": 1223,
+        "fetched_at": "2026-05-10T04:44:50.568630+00:00",
+        "status": "ok"
+      }
     },
     "hery-torrado/KernelESP": {
       "lists": [
@@ -224565,7 +224621,15 @@
         "pushed_at": "2026-04-30T20:24:18Z",
         "starred_at": "2026-05-09T16:25:35Z"
       },
-      "last_updated": "2026-05-10T04:38:11.853970+00:00"
+      "last_updated": "2026-05-10T04:38:11.853970+00:00",
+      "readme": {
+        "path": "readmes/hery-torrado+KernelESP+README.md",
+        "etag": "W/\"95fcb5431dc15a73b0329dd9feb39f85f91ee1bd\"",
+        "sha": "95fcb5431dc15a73b0329dd9feb39f85f91ee1bd",
+        "size": 9990,
+        "fetched_at": "2026-05-10T04:44:51.551942+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
