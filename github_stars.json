@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T04:51:26.138984+00:00",
+  "last_updated": "2026-05-11T04:52:20.667247+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224655,7 +224655,15 @@
         "pushed_at": "2026-05-11T03:33:04Z",
         "starred_at": "2026-05-10T18:30:02Z"
       },
-      "last_updated": "2026-05-11T04:45:23.898914+00:00"
+      "last_updated": "2026-05-11T04:45:23.898914+00:00",
+      "readme": {
+        "path": "readmes/neutral-engineering+fcghar+README.md",
+        "etag": "W/\"328b55a779f776432cb4f4a9d39895b0211897ae\"",
+        "sha": "328b55a779f776432cb4f4a9d39895b0211897ae",
+        "size": 4289,
+        "fetched_at": "2026-05-11T04:52:20.443418+00:00",
+        "status": "ok"
+      }
     },
     "rebeliptv/iptv": {
       "lists": [
@@ -224677,7 +224685,15 @@
         "pushed_at": "2026-05-11T00:26:35Z",
         "starred_at": "2026-05-10T17:44:56Z"
       },
-      "last_updated": "2026-05-11T04:45:24.250657+00:00"
+      "last_updated": "2026-05-11T04:45:24.250657+00:00",
+      "readme": {
+        "path": "readmes/rebeliptv+iptv+README.md",
+        "etag": "W/\"986b0b24c106951c91bb92080770726d1c44d081\"",
+        "sha": "986b0b24c106951c91bb92080770726d1c44d081",
+        "size": 14695,
+        "fetched_at": "2026-05-11T04:52:20.664763+00:00",
+        "status": "ok"
+      }
     },
     "iptv-org/iptv": {
       "lists": [
@@ -224699,7 +224715,15 @@
         "pushed_at": "2026-05-11T00:32:08Z",
         "starred_at": "2026-05-10T17:30:51Z"
       },
-      "last_updated": "2026-05-11T04:45:24.564058+00:00"
+      "last_updated": "2026-05-11T04:45:24.564058+00:00",
+      "readme": {
+        "path": "readmes/iptv-org+iptv+README.md",
+        "etag": "W/\"79407f2048531750e7f549e370b9e2987a136d32\"",
+        "sha": "79407f2048531750e7f549e370b9e2987a136d32",
+        "size": 3662,
+        "fetched_at": "2026-05-11T04:52:20.263769+00:00",
+        "status": "ok"
+      }
     },
     "TheRobotStudio/SO-ARM100": {
       "lists": [
@@ -224721,7 +224745,15 @@
         "pushed_at": "2026-02-26T14:29:08Z",
         "starred_at": "2026-05-10T17:13:16Z"
       },
-      "last_updated": "2026-05-11T04:45:24.824638+00:00"
+      "last_updated": "2026-05-11T04:45:24.824638+00:00",
+      "readme": {
+        "path": "readmes/TheRobotStudio+SO-ARM100+README.md",
+        "etag": "W/\"2ec4fecadeab80db35b79c570ee26a5e044b6ef4\"",
+        "sha": "2ec4fecadeab80db35b79c570ee26a5e044b6ef4",
+        "size": 26023,
+        "fetched_at": "2026-05-11T04:52:20.076591+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
