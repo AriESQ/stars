@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T04:45:24.824738+00:00",
+  "last_updated": "2026-05-11T04:51:26.138984+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224632,7 +224632,13 @@
       }
     },
     "neutral-engineering/fcghar": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1234443910,
         "name": "fcghar",
@@ -224652,7 +224658,9 @@
       "last_updated": "2026-05-11T04:45:23.898914+00:00"
     },
     "rebeliptv/iptv": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1204102090,
         "name": "iptv",
@@ -224672,7 +224680,9 @@
       "last_updated": "2026-05-11T04:45:24.250657+00:00"
     },
     "iptv-org/iptv": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 157616880,
         "name": "iptv",
@@ -224692,7 +224702,9 @@
       "last_updated": "2026-05-11T04:45:24.564058+00:00"
     },
     "TheRobotStudio/SO-ARM100": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 798981945,
         "name": "SO-ARM100",
