@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T04:38:49.924741+00:00",
+  "last_updated": "2026-05-12T04:39:26.321860+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224776,7 +224776,15 @@
         "pushed_at": "2023-04-19T06:59:27Z",
         "starred_at": "2026-05-12T03:06:09Z"
       },
-      "last_updated": "2026-05-12T04:31:50.684768+00:00"
+      "last_updated": "2026-05-12T04:31:50.684768+00:00",
+      "readme": {
+        "path": "readmes/sachin-happpymonk+combined_pipeline_version_one+README.md",
+        "etag": "W/\"2accce8b1231c10f5a1ca649506fcf6416b424b4\"",
+        "sha": "2accce8b1231c10f5a1ca649506fcf6416b424b4",
+        "size": 51,
+        "fetched_at": "2026-05-12T04:39:25.761077+00:00",
+        "status": "ok"
+      }
     },
     "soruly/trace.moe": {
       "lists": [
@@ -224798,7 +224806,15 @@
         "pushed_at": "2026-04-06T15:47:36Z",
         "starred_at": "2026-05-12T02:59:22Z"
       },
-      "last_updated": "2026-05-12T04:31:50.896193+00:00"
+      "last_updated": "2026-05-12T04:31:50.896193+00:00",
+      "readme": {
+        "path": "readmes/soruly+trace.moe+README.md",
+        "etag": "W/\"c7f759adc2f898cc403d4a3cc457684a8405b039\"",
+        "sha": "c7f759adc2f898cc403d4a3cc457684a8405b039",
+        "size": 6287,
+        "fetched_at": "2026-05-12T04:39:26.058796+00:00",
+        "status": "ok"
+      }
     },
     "7h30th3r0n3/Raspyjack": {
       "lists": [
@@ -224821,7 +224837,15 @@
         "pushed_at": "2026-05-11T17:37:46Z",
         "starred_at": "2026-05-12T01:13:52Z"
       },
-      "last_updated": "2026-05-12T04:31:51.088328+00:00"
+      "last_updated": "2026-05-12T04:31:51.088328+00:00",
+      "readme": {
+        "path": "readmes/7h30th3r0n3+Raspyjack+README.md",
+        "etag": "W/\"fda24961127f7251bb7a064b0e0ecc593b292cf8\"",
+        "sha": "fda24961127f7251bb7a064b0e0ecc593b292cf8",
+        "size": 12859,
+        "fetched_at": "2026-05-12T04:39:23.346410+00:00",
+        "status": "ok"
+      }
     },
     "robertguetzkow/false-color-lut": {
       "lists": [
@@ -224843,7 +224867,15 @@
         "pushed_at": "2020-02-17T12:45:50Z",
         "starred_at": "2026-05-12T00:41:52Z"
       },
-      "last_updated": "2026-05-12T04:31:51.277580+00:00"
+      "last_updated": "2026-05-12T04:31:51.277580+00:00",
+      "readme": {
+        "path": "readmes/robertguetzkow+false-color-lut+README.md",
+        "etag": "W/\"6abb77456340e828fde8e53a3acce823ddca77c6\"",
+        "sha": "6abb77456340e828fde8e53a3acce823ddca77c6",
+        "size": 25703,
+        "fetched_at": "2026-05-12T04:39:25.480295+00:00",
+        "status": "ok"
+      }
     },
     "YahiaAngelo/Film-Luts": {
       "lists": [
@@ -224865,7 +224897,15 @@
         "pushed_at": "2024-03-07T17:33:57Z",
         "starred_at": "2026-05-12T00:09:11Z"
       },
-      "last_updated": "2026-05-12T04:31:51.470018+00:00"
+      "last_updated": "2026-05-12T04:31:51.470018+00:00",
+      "readme": {
+        "path": "readmes/YahiaAngelo+Film-Luts+README.md",
+        "etag": "W/\"1c3f27197aec41d09dcd186c52b18b91d82a08f8\"",
+        "sha": "1c3f27197aec41d09dcd186c52b18b91d82a08f8",
+        "size": 2975,
+        "fetched_at": "2026-05-12T04:39:24.384501+00:00",
+        "status": "ok"
+      }
     },
     "raganmd/TD-Examples": {
       "lists": [
@@ -224887,7 +224927,15 @@
         "pushed_at": "2018-03-18T05:49:10Z",
         "starred_at": "2026-05-11T22:41:22Z"
       },
-      "last_updated": "2026-05-12T04:31:51.645502+00:00"
+      "last_updated": "2026-05-12T04:31:51.645502+00:00",
+      "readme": {
+        "path": "readmes/raganmd+TD-Examples+readMe.md",
+        "etag": "W/\"3cd5d65eed66cb546a68c188f1d7cffe04ebd73a\"",
+        "sha": "3cd5d65eed66cb546a68c188f1d7cffe04ebd73a",
+        "size": 655,
+        "fetched_at": "2026-05-12T04:39:25.179740+00:00",
+        "status": "ok"
+      }
     },
     "FransBouma/InjectableGenericCameraSystem": {
       "lists": [
@@ -224909,7 +224957,15 @@
         "pushed_at": "2025-01-10T17:21:49Z",
         "starred_at": "2026-05-11T22:29:25Z"
       },
-      "last_updated": "2026-05-12T04:31:51.837591+00:00"
+      "last_updated": "2026-05-12T04:31:51.837591+00:00",
+      "readme": {
+        "path": "readmes/FransBouma+InjectableGenericCameraSystem+ReadMe.md",
+        "etag": "W/\"6075ce10b3cad4a5f025420360f728df9d480dbc\"",
+        "sha": "6075ce10b3cad4a5f025420360f728df9d480dbc",
+        "size": 6957,
+        "fetched_at": "2026-05-12T04:39:23.849366+00:00",
+        "status": "ok"
+      }
     },
     "Meos4/Enhanced-Freecam": {
       "lists": [
@@ -224931,7 +224987,15 @@
         "pushed_at": "2025-09-16T16:18:31Z",
         "starred_at": "2026-05-11T22:27:57Z"
       },
-      "last_updated": "2026-05-12T04:31:52.014086+00:00"
+      "last_updated": "2026-05-12T04:31:52.014086+00:00",
+      "readme": {
+        "path": "readmes/Meos4+Enhanced-Freecam+README.md",
+        "etag": "W/\"a54e996d71c7fd0122f7a50c573c2c619ced6050\"",
+        "sha": "a54e996d71c7fd0122f7a50c573c2c619ced6050",
+        "size": 1650,
+        "fetched_at": "2026-05-12T04:39:24.123796+00:00",
+        "status": "ok"
+      }
     },
     "geaxgx/openvino_movenet_multipose": {
       "lists": [
@@ -224955,7 +225019,15 @@
         "pushed_at": "2022-08-22T18:29:27Z",
         "starred_at": "2026-05-11T17:38:09Z"
       },
-      "last_updated": "2026-05-12T04:31:52.191340+00:00"
+      "last_updated": "2026-05-12T04:31:52.191340+00:00",
+      "readme": {
+        "path": "readmes/geaxgx+openvino_movenet_multipose+README.md",
+        "etag": "W/\"0fa57096e81825d78c357536699393012217c476\"",
+        "sha": "0fa57096e81825d78c357536699393012217c476",
+        "size": 4922,
+        "fetched_at": "2026-05-12T04:39:24.673154+00:00",
+        "status": "ok"
+      }
     },
     "DerekTurtleRoe/awesome-emulators": {
       "lists": [
@@ -224977,7 +225049,15 @@
         "pushed_at": "2025-09-16T08:20:54Z",
         "starred_at": "2026-05-11T17:17:50Z"
       },
-      "last_updated": "2026-05-12T04:31:52.384701+00:00"
+      "last_updated": "2026-05-12T04:31:52.384701+00:00",
+      "readme": {
+        "path": "readmes/DerekTurtleRoe+awesome-emulators+README.md",
+        "etag": "W/\"b70fc474a505a24a4c7e7772350e2d0b2fe32af8\"",
+        "sha": "b70fc474a505a24a4c7e7772350e2d0b2fe32af8",
+        "size": 409652,
+        "fetched_at": "2026-05-12T04:39:23.623868+00:00",
+        "status": "ok"
+      }
     },
     "2600hz-oscillator/patchtogether.live": {
       "lists": [
@@ -225000,7 +225080,15 @@
         "pushed_at": "2026-05-12T00:40:49Z",
         "starred_at": "2026-05-11T16:43:25Z"
       },
-      "last_updated": "2026-05-12T04:31:52.535515+00:00"
+      "last_updated": "2026-05-12T04:31:52.535515+00:00",
+      "readme": {
+        "path": "readmes/2600hz-oscillator+patchtogether.live+README.md",
+        "etag": "W/\"cafb3d84167debdd995f3baf70ba47ae6be4595b\"",
+        "sha": "cafb3d84167debdd995f3baf70ba47ae6be4595b",
+        "size": 9532,
+        "fetched_at": "2026-05-12T04:39:23.080150+00:00",
+        "status": "ok"
+      }
     },
     "jamstack/jamstack.org": {
       "lists": [
@@ -225022,7 +225110,15 @@
         "pushed_at": "2026-04-08T17:59:29Z",
         "starred_at": "2026-05-11T16:31:28Z"
       },
-      "last_updated": "2026-05-12T04:31:52.730783+00:00"
+      "last_updated": "2026-05-12T04:31:52.730783+00:00",
+      "readme": {
+        "path": "readmes/jamstack+jamstack.org+README.md",
+        "etag": "W/\"7be0cd5b1f17ab3900883026bb6cb943f0039a59\"",
+        "sha": "7be0cd5b1f17ab3900883026bb6cb943f0039a59",
+        "size": 3711,
+        "fetched_at": "2026-05-12T04:39:24.931934+00:00",
+        "status": "ok"
+      }
     },
     "vivekg13186/Daisy-workflow-": {
       "lists": [],
@@ -225042,7 +225138,15 @@
         "pushed_at": "2026-05-11T12:14:59Z",
         "starred_at": "2026-05-04T23:23:39Z"
       },
-      "last_updated": "2026-05-12T04:31:52.901886+00:00"
+      "last_updated": "2026-05-12T04:31:52.901886+00:00",
+      "readme": {
+        "path": "readmes/vivekg13186+Daisy-workflow-+README.md",
+        "etag": "W/\"cf8c93c949e01d204cf1e90238489d50c33f8586\"",
+        "sha": "cf8c93c949e01d204cf1e90238489d50c33f8586",
+        "size": 2189,
+        "fetched_at": "2026-05-12T04:39:26.320713+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
