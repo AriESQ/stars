@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T04:31:52.901952+00:00",
+  "last_updated": "2026-05-12T04:38:49.924741+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -224756,7 +224756,10 @@
       }
     },
     "sachin-happpymonk/combined_pipeline_version_one": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 629356927,
         "name": "combined_pipeline_version_one",
@@ -224776,7 +224779,9 @@
       "last_updated": "2026-05-12T04:31:50.684768+00:00"
     },
     "soruly/trace.moe": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 59805835,
         "name": "trace.moe",
@@ -224796,7 +224801,10 @@
       "last_updated": "2026-05-12T04:31:50.896193+00:00"
     },
     "7h30th3r0n3/Raspyjack": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1006173393,
         "name": "Raspyjack",
@@ -224816,7 +224824,9 @@
       "last_updated": "2026-05-12T04:31:51.088328+00:00"
     },
     "robertguetzkow/false-color-lut": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 240979982,
         "name": "false-color-lut",
@@ -224836,7 +224846,9 @@
       "last_updated": "2026-05-12T04:31:51.277580+00:00"
     },
     "YahiaAngelo/Film-Luts": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 765807879,
         "name": "Film-Luts",
@@ -224856,7 +224868,9 @@
       "last_updated": "2026-05-12T04:31:51.470018+00:00"
     },
     "raganmd/TD-Examples": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 36193540,
         "name": "TD-Examples",
@@ -224876,7 +224890,9 @@
       "last_updated": "2026-05-12T04:31:51.645502+00:00"
     },
     "FransBouma/InjectableGenericCameraSystem": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 75194811,
         "name": "InjectableGenericCameraSystem",
@@ -224896,7 +224912,9 @@
       "last_updated": "2026-05-12T04:31:51.837591+00:00"
     },
     "Meos4/Enhanced-Freecam": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 776809570,
         "name": "Enhanced-Freecam",
@@ -224916,7 +224934,11 @@
       "last_updated": "2026-05-12T04:31:52.014086+00:00"
     },
     "geaxgx/openvino_movenet_multipose": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 397307988,
         "name": "openvino_movenet_multipose",
@@ -224936,7 +224958,9 @@
       "last_updated": "2026-05-12T04:31:52.191340+00:00"
     },
     "DerekTurtleRoe/awesome-emulators": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 596042105,
         "name": "awesome-emulators",
@@ -224956,7 +224980,10 @@
       "last_updated": "2026-05-12T04:31:52.384701+00:00"
     },
     "2600hz-oscillator/patchtogether.live": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1229636166,
         "name": "patchtogether.live",
@@ -224976,7 +225003,9 @@
       "last_updated": "2026-05-12T04:31:52.535515+00:00"
     },
     "jamstack/jamstack.org": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 55631449,
         "name": "jamstack.org",
