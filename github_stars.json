@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T04:39:26.321860+00:00",
+  "last_updated": "2026-05-13T04:37:28.832243+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225147,6 +225147,346 @@
         "fetched_at": "2026-05-12T04:39:26.320713+00:00",
         "status": "ok"
       }
+    },
+    "kozakdenys/qr-code-styling": {
+      "lists": [],
+      "metadata": {
+        "id": 201137330,
+        "name": "qr-code-styling",
+        "full_name": "kozakdenys/qr-code-styling",
+        "description": "Automaticly generate your styled QR code in your web app.",
+        "url": "https://github.com/kozakdenys/qr-code-styling",
+        "homepage": "https://qr-code-styling.com",
+        "language": "TypeScript",
+        "stars": 2818,
+        "forks": 674,
+        "open_issues": 111,
+        "created_at": "2019-08-07T22:34:59Z",
+        "updated_at": "2026-05-13T03:36:13Z",
+        "pushed_at": "2026-02-14T03:52:51Z",
+        "starred_at": "2026-05-13T03:36:13Z"
+      },
+      "last_updated": "2026-05-13T04:37:23.787981+00:00"
+    },
+    "tracewayapp/traceway": {
+      "lists": [],
+      "metadata": {
+        "id": 1118625788,
+        "name": "traceway",
+        "full_name": "tracewayapp/traceway",
+        "description": "The only tool you need to know what is happening and how to fix it.",
+        "url": "https://github.com/tracewayapp/traceway",
+        "homepage": "https://tracewayapp.com",
+        "language": "Go",
+        "stars": 310,
+        "forks": 14,
+        "open_issues": 20,
+        "created_at": "2025-12-18T03:35:02Z",
+        "updated_at": "2026-05-13T04:34:30Z",
+        "pushed_at": "2026-05-13T02:10:51Z",
+        "starred_at": "2026-05-13T03:07:47Z"
+      },
+      "last_updated": "2026-05-13T04:37:24.109748+00:00"
+    },
+    "cactus-compute/needle": {
+      "lists": [],
+      "metadata": {
+        "id": 1165361576,
+        "name": "needle",
+        "full_name": "cactus-compute/needle",
+        "description": "26m function call model that runs on incredibly small devices",
+        "url": "https://github.com/cactus-compute/needle",
+        "homepage": "https://cactuscompute.com",
+        "language": "Python",
+        "stars": 553,
+        "forks": 25,
+        "open_issues": 9,
+        "created_at": "2026-02-24T04:50:47Z",
+        "updated_at": "2026-05-13T04:37:06Z",
+        "pushed_at": "2026-05-12T19:18:53Z",
+        "starred_at": "2026-05-12T20:31:36Z"
+      },
+      "last_updated": "2026-05-13T04:37:24.398187+00:00"
+    },
+    "chainguard-actions/upload-pages-artifact": {
+      "lists": [],
+      "metadata": {
+        "id": 1212591242,
+        "name": "upload-pages-artifact",
+        "full_name": "chainguard-actions/upload-pages-artifact",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/upload-pages-artifact",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:29:36Z",
+        "updated_at": "2026-05-12T19:43:59Z",
+        "pushed_at": "2026-05-09T06:30:34Z",
+        "starred_at": "2026-05-12T19:43:59Z"
+      },
+      "last_updated": "2026-05-13T04:37:24.743009+00:00"
+    },
+    "dagger/dagger-for-github": {
+      "lists": [],
+      "metadata": {
+        "id": 371705885,
+        "name": "dagger-for-github",
+        "full_name": "dagger/dagger-for-github",
+        "description": "GitHub Action for Dagger",
+        "url": "https://github.com/dagger/dagger-for-github",
+        "homepage": "https://github.com/marketplace/actions/dagger-for-github",
+        "language": null,
+        "stars": 163,
+        "forks": 32,
+        "open_issues": 19,
+        "created_at": "2021-05-28T13:14:40Z",
+        "updated_at": "2026-05-12T19:43:23Z",
+        "pushed_at": "2026-03-17T14:08:18Z",
+        "starred_at": "2026-05-12T19:43:22Z"
+      },
+      "last_updated": "2026-05-13T04:37:25.049228+00:00"
+    },
+    "chainguard-actions/dagger-for-github": {
+      "lists": [],
+      "metadata": {
+        "id": 1212586535,
+        "name": "dagger-for-github",
+        "full_name": "chainguard-actions/dagger-for-github",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/dagger-for-github",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:24:32Z",
+        "updated_at": "2026-05-12T19:43:11Z",
+        "pushed_at": "2026-05-09T11:30:28Z",
+        "starred_at": "2026-05-12T19:43:10Z"
+      },
+      "last_updated": "2026-05-13T04:37:25.380066+00:00"
+    },
+    "chainguard-actions/actions-codespell": {
+      "lists": [],
+      "metadata": {
+        "id": 1212595324,
+        "name": "actions-codespell",
+        "full_name": "chainguard-actions/actions-codespell",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/actions-codespell",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:34:06Z",
+        "updated_at": "2026-05-12T22:48:54Z",
+        "pushed_at": "2026-05-12T22:48:50Z",
+        "starred_at": "2026-05-12T19:42:42Z"
+      },
+      "last_updated": "2026-05-13T04:37:25.684750+00:00"
+    },
+    "chainguard-actions/json-yaml-validate": {
+      "lists": [],
+      "metadata": {
+        "id": 1235468261,
+        "name": "json-yaml-validate",
+        "full_name": "chainguard-actions/json-yaml-validate",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/json-yaml-validate",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:00:29Z",
+        "updated_at": "2026-05-12T22:50:19Z",
+        "pushed_at": "2026-05-12T22:50:15Z",
+        "starred_at": "2026-05-12T19:42:19Z"
+      },
+      "last_updated": "2026-05-13T04:37:26.013215+00:00"
+    },
+    "chainguard-actions/replace-tokens": {
+      "lists": [],
+      "metadata": {
+        "id": 1235510056,
+        "name": "replace-tokens",
+        "full_name": "chainguard-actions/replace-tokens",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/replace-tokens",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:50:09Z",
+        "updated_at": "2026-05-12T19:50:36Z",
+        "pushed_at": "2026-05-12T19:50:16Z",
+        "starred_at": "2026-05-12T19:42:01Z"
+      },
+      "last_updated": "2026-05-13T04:37:26.352479+00:00"
+    },
+    "chainguard-actions/ghcommit-action": {
+      "lists": [],
+      "metadata": {
+        "id": 1233777945,
+        "name": "ghcommit-action",
+        "full_name": "chainguard-actions/ghcommit-action",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/ghcommit-action",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-09T10:50:20Z",
+        "updated_at": "2026-05-12T19:41:38Z",
+        "pushed_at": "2026-05-12T17:30:22Z",
+        "starred_at": "2026-05-12T19:41:38Z"
+      },
+      "last_updated": "2026-05-13T04:37:26.678718+00:00"
+    },
+    "chainguard-actions/scan-action": {
+      "lists": [],
+      "metadata": {
+        "id": 1235484242,
+        "name": "scan-action",
+        "full_name": "chainguard-actions/scan-action",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/scan-action",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:20:09Z",
+        "updated_at": "2026-05-12T22:50:57Z",
+        "pushed_at": "2026-05-12T22:50:53Z",
+        "starred_at": "2026-05-12T19:40:54Z"
+      },
+      "last_updated": "2026-05-13T04:37:26.981666+00:00"
+    },
+    "chainguard-actions/black": {
+      "lists": [],
+      "metadata": {
+        "id": 1212584127,
+        "name": "black",
+        "full_name": "chainguard-actions/black",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/black",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:22:00Z",
+        "updated_at": "2026-05-12T19:39:56Z",
+        "pushed_at": "2026-04-28T09:30:17Z",
+        "starred_at": "2026-05-12T19:39:56Z"
+      },
+      "last_updated": "2026-05-13T04:37:27.348487+00:00"
+    },
+    "mattpocock/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1148788086,
+        "name": "skills",
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .claude directory.",
+        "url": "https://github.com/mattpocock/skills",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 76660,
+        "forks": 6613,
+        "open_issues": 27,
+        "created_at": "2026-02-03T11:15:53Z",
+        "updated_at": "2026-05-13T04:37:16Z",
+        "pushed_at": "2026-05-12T07:36:22Z",
+        "starred_at": "2026-05-12T19:19:48Z"
+      },
+      "last_updated": "2026-05-13T04:37:27.629897+00:00"
+    },
+    "monkeymonk/awesome-touchdesigner": {
+      "lists": [],
+      "metadata": {
+        "id": 944025342,
+        "name": "awesome-touchdesigner",
+        "full_name": "monkeymonk/awesome-touchdesigner",
+        "description": "A curated list of high-quality resources for TouchDesigner, including official sites, tutorials, community projects, plugins, events, and more.",
+        "url": "https://github.com/monkeymonk/awesome-touchdesigner",
+        "homepage": null,
+        "language": "Python",
+        "stars": 130,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2025-03-06T16:56:01Z",
+        "updated_at": "2026-05-12T19:14:37Z",
+        "pushed_at": "2026-02-25T13:44:42Z",
+        "starred_at": "2026-05-12T19:14:36Z"
+      },
+      "last_updated": "2026-05-13T04:37:27.916803+00:00"
+    },
+    "kitfunso/hippo-memory": {
+      "lists": [],
+      "metadata": {
+        "id": 1182306628,
+        "name": "hippo-memory",
+        "full_name": "kitfunso/hippo-memory",
+        "description": "Biologically-inspired memory for AI agents. Decay, retrieval strengthening, consolidation. Zero dependencies.",
+        "url": "https://github.com/kitfunso/hippo-memory",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 641,
+        "forks": 31,
+        "open_issues": 1,
+        "created_at": "2026-03-15T10:40:26Z",
+        "updated_at": "2026-05-12T22:51:59Z",
+        "pushed_at": "2026-05-12T20:56:20Z",
+        "starred_at": "2026-05-12T17:48:04Z"
+      },
+      "last_updated": "2026-05-13T04:37:28.235004+00:00"
+    },
+    "laserpilot/Survey_of_Alternative_Displays": {
+      "lists": [],
+      "metadata": {
+        "id": 479869223,
+        "name": "Survey_of_Alternative_Displays",
+        "full_name": "laserpilot/Survey_of_Alternative_Displays",
+        "description": "Alternative Display writeup repo",
+        "url": "https://github.com/laserpilot/Survey_of_Alternative_Displays",
+        "homepage": "",
+        "language": "Python",
+        "stars": 58,
+        "forks": 10,
+        "open_issues": 3,
+        "created_at": "2022-04-09T23:44:51Z",
+        "updated_at": "2026-05-12T17:02:41Z",
+        "pushed_at": "2026-02-18T21:54:28Z",
+        "starred_at": "2026-05-12T17:02:40Z"
+      },
+      "last_updated": "2026-05-13T04:37:28.525649+00:00"
+    },
+    "vivekg13186/Daisy-workflow": {
+      "lists": [],
+      "metadata": {
+        "id": 1228013410,
+        "name": "Daisy-workflow",
+        "full_name": "vivekg13186/Daisy-workflow",
+        "description": "A low code workflow automation application",
+        "url": "https://github.com/vivekg13186/Daisy-workflow",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 80,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-05-03T13:30:23Z",
+        "updated_at": "2026-05-12T18:42:33Z",
+        "pushed_at": "2026-05-12T18:42:19Z",
+        "starred_at": "2026-05-04T23:23:39Z"
+      },
+      "last_updated": "2026-05-13T04:37:28.832193+00:00"
     }
   },
   "last_processed_index": 0,
@@ -225156,5 +225496,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1e82d92d4f2d88f327c789a2c1d005d407da743d50fb6cdc50cd0a93dd95b5f7\""
+  "profile_etag": "W/\"50359d2f13b5822eb623a0e62195bfb28edfcaf322868859324b255c2bd6f4a7\""
 }
