@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T04:44:20.023013+00:00",
+  "last_updated": "2026-05-13T04:45:01.689628+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225169,7 +225169,15 @@
         "pushed_at": "2026-02-14T03:52:51Z",
         "starred_at": "2026-05-13T03:36:13Z"
       },
-      "last_updated": "2026-05-13T04:37:23.787981+00:00"
+      "last_updated": "2026-05-13T04:37:23.787981+00:00",
+      "readme": {
+        "path": "readmes/kozakdenys+qr-code-styling+README.md",
+        "etag": "W/\"04cedad6d2e350f0175f76f20fd7821d6be31980\"",
+        "sha": "04cedad6d2e350f0175f76f20fd7821d6be31980",
+        "size": 15208,
+        "fetched_at": "2026-05-13T04:45:00.572106+00:00",
+        "status": "ok"
+      }
     },
     "tracewayapp/traceway": {
       "lists": [
@@ -225191,7 +225199,15 @@
         "pushed_at": "2026-05-13T02:10:51Z",
         "starred_at": "2026-05-13T03:07:47Z"
       },
-      "last_updated": "2026-05-13T04:37:24.109748+00:00"
+      "last_updated": "2026-05-13T04:37:24.109748+00:00",
+      "readme": {
+        "path": "readmes/tracewayapp+traceway+README.md",
+        "etag": "W/\"913c42fb0f1c3c59a6354678e560a098f099758f\"",
+        "sha": "913c42fb0f1c3c59a6354678e560a098f099758f",
+        "size": 16601,
+        "fetched_at": "2026-05-13T04:45:01.466719+00:00",
+        "status": "ok"
+      }
     },
     "cactus-compute/needle": {
       "lists": [
@@ -225213,7 +225229,15 @@
         "pushed_at": "2026-05-12T19:18:53Z",
         "starred_at": "2026-05-12T20:31:36Z"
       },
-      "last_updated": "2026-05-13T04:37:24.398187+00:00"
+      "last_updated": "2026-05-13T04:37:24.398187+00:00",
+      "readme": {
+        "path": "readmes/cactus-compute+needle+README.md",
+        "etag": "W/\"351ddfc11c04e6c0a3a866ccf771f01436202603\"",
+        "sha": "351ddfc11c04e6c0a3a866ccf771f01436202603",
+        "size": 5863,
+        "fetched_at": "2026-05-13T04:44:58.019767+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/upload-pages-artifact": {
       "lists": [
@@ -225238,7 +225262,15 @@
         "pushed_at": "2026-05-09T06:30:34Z",
         "starred_at": "2026-05-12T19:43:59Z"
       },
-      "last_updated": "2026-05-13T04:37:24.743009+00:00"
+      "last_updated": "2026-05-13T04:37:24.743009+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+upload-pages-artifact+README.md",
+        "etag": "W/\"ccda07025e4e3513a49da046c91ab6c020c99170\"",
+        "sha": "ccda07025e4e3513a49da046c91ab6c020c99170",
+        "size": 866,
+        "fetched_at": "2026-05-13T04:44:59.826720+00:00",
+        "status": "ok"
+      }
     },
     "dagger/dagger-for-github": {
       "lists": [
@@ -225263,7 +225295,15 @@
         "pushed_at": "2026-03-17T14:08:18Z",
         "starred_at": "2026-05-12T19:43:22Z"
       },
-      "last_updated": "2026-05-13T04:37:25.049228+00:00"
+      "last_updated": "2026-05-13T04:37:25.049228+00:00",
+      "readme": {
+        "path": "readmes/dagger+dagger-for-github+README.md",
+        "etag": "W/\"b1fd542e988798de01d0edbfe071aec5fc28a35b\"",
+        "sha": "b1fd542e988798de01d0edbfe071aec5fc28a35b",
+        "size": 3637,
+        "fetched_at": "2026-05-13T04:45:00.072186+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/dagger-for-github": {
       "lists": [
@@ -225289,7 +225329,15 @@
         "pushed_at": "2026-05-09T11:30:28Z",
         "starred_at": "2026-05-12T19:43:10Z"
       },
-      "last_updated": "2026-05-13T04:37:25.380066+00:00"
+      "last_updated": "2026-05-13T04:37:25.380066+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+dagger-for-github+README.md",
+        "etag": "W/\"4b26201dc9b6fe83a780c8236cfd18fbb633d86e\"",
+        "sha": "4b26201dc9b6fe83a780c8236cfd18fbb633d86e",
+        "size": 775,
+        "fetched_at": "2026-05-13T04:44:58.727010+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/actions-codespell": {
       "lists": [
@@ -225314,7 +225362,15 @@
         "pushed_at": "2026-05-12T22:48:50Z",
         "starred_at": "2026-05-12T19:42:42Z"
       },
-      "last_updated": "2026-05-13T04:37:25.684750+00:00"
+      "last_updated": "2026-05-13T04:37:25.684750+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+actions-codespell+README.md",
+        "etag": "W/\"510d3bd464e85a06402bf2fb939d5d5d138119e0\"",
+        "sha": "510d3bd464e85a06402bf2fb939d5d5d138119e0",
+        "size": 776,
+        "fetched_at": "2026-05-13T04:44:58.229122+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/json-yaml-validate": {
       "lists": [
@@ -225338,7 +225394,15 @@
         "pushed_at": "2026-05-12T22:50:15Z",
         "starred_at": "2026-05-12T19:42:19Z"
       },
-      "last_updated": "2026-05-13T04:37:26.013215+00:00"
+      "last_updated": "2026-05-13T04:37:26.013215+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+json-yaml-validate+README.md",
+        "etag": "W/\"0d188fcc997007a9dd1625004ebb5ecb29e57f02\"",
+        "sha": "0d188fcc997007a9dd1625004ebb5ecb29e57f02",
+        "size": 838,
+        "fetched_at": "2026-05-13T04:44:59.210019+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/replace-tokens": {
       "lists": [
@@ -225362,7 +225426,15 @@
         "pushed_at": "2026-05-12T19:50:16Z",
         "starred_at": "2026-05-12T19:42:01Z"
       },
-      "last_updated": "2026-05-13T04:37:26.352479+00:00"
+      "last_updated": "2026-05-13T04:37:26.352479+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+replace-tokens+README.md",
+        "etag": "W/\"3e791fd5def21bb6d31004cda3cf692e799b150a\"",
+        "sha": "3e791fd5def21bb6d31004cda3cf692e799b150a",
+        "size": 1038,
+        "fetched_at": "2026-05-13T04:44:59.431134+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/ghcommit-action": {
       "lists": [
@@ -225386,7 +225458,15 @@
         "pushed_at": "2026-05-12T17:30:22Z",
         "starred_at": "2026-05-12T19:41:38Z"
       },
-      "last_updated": "2026-05-13T04:37:26.678718+00:00"
+      "last_updated": "2026-05-13T04:37:26.678718+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+ghcommit-action+README.md",
+        "etag": "W/\"6e6096d0c343102704fe61dea0c9fbce200ab798\"",
+        "sha": "6e6096d0c343102704fe61dea0c9fbce200ab798",
+        "size": 1220,
+        "fetched_at": "2026-05-13T04:44:58.978448+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/scan-action": {
       "lists": [
@@ -225412,7 +225492,15 @@
         "pushed_at": "2026-05-12T22:50:53Z",
         "starred_at": "2026-05-12T19:40:54Z"
       },
-      "last_updated": "2026-05-13T04:37:26.981666+00:00"
+      "last_updated": "2026-05-13T04:37:26.981666+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+scan-action+README.md",
+        "etag": "W/\"d75eefc75e522ce8b729bce853b10209f60237de\"",
+        "sha": "d75eefc75e522ce8b729bce853b10209f60237de",
+        "size": 1062,
+        "fetched_at": "2026-05-13T04:44:59.610271+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/black": {
       "lists": [
@@ -225436,7 +225524,15 @@
         "pushed_at": "2026-04-28T09:30:17Z",
         "starred_at": "2026-05-12T19:39:56Z"
       },
-      "last_updated": "2026-05-13T04:37:27.348487+00:00"
+      "last_updated": "2026-05-13T04:37:27.348487+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+black+README.md",
+        "etag": "W/\"de181cdf8150b0c81de2d2f04962959cc0021442\"",
+        "sha": "de181cdf8150b0c81de2d2f04962959cc0021442",
+        "size": 444,
+        "fetched_at": "2026-05-13T04:44:58.442820+00:00",
+        "status": "ok"
+      }
     },
     "mattpocock/skills": {
       "lists": [
@@ -225458,7 +225554,15 @@
         "pushed_at": "2026-05-12T07:36:22Z",
         "starred_at": "2026-05-12T19:19:48Z"
       },
-      "last_updated": "2026-05-13T04:37:27.629897+00:00"
+      "last_updated": "2026-05-13T04:37:27.629897+00:00",
+      "readme": {
+        "path": "readmes/mattpocock+skills+README.md",
+        "etag": "W/\"f66fcac73e80c1e587f60bdc877851c188995aab\"",
+        "sha": "f66fcac73e80c1e587f60bdc877851c188995aab",
+        "size": 11516,
+        "fetched_at": "2026-05-13T04:45:01.022738+00:00",
+        "status": "ok"
+      }
     },
     "monkeymonk/awesome-touchdesigner": {
       "lists": [
@@ -225480,7 +225584,15 @@
         "pushed_at": "2026-02-25T13:44:42Z",
         "starred_at": "2026-05-12T19:14:36Z"
       },
-      "last_updated": "2026-05-13T04:37:27.916803+00:00"
+      "last_updated": "2026-05-13T04:37:27.916803+00:00",
+      "readme": {
+        "path": "readmes/monkeymonk+awesome-touchdesigner+README.md",
+        "etag": "W/\"f86f6e389f1ff87b0155ed6c6e08d61c49ba69c3\"",
+        "sha": "f86f6e389f1ff87b0155ed6c6e08d61c49ba69c3",
+        "size": 19776,
+        "fetched_at": "2026-05-13T04:45:01.275528+00:00",
+        "status": "ok"
+      }
     },
     "kitfunso/hippo-memory": {
       "lists": [
@@ -225503,7 +225615,15 @@
         "pushed_at": "2026-05-12T20:56:20Z",
         "starred_at": "2026-05-12T17:48:04Z"
       },
-      "last_updated": "2026-05-13T04:37:28.235004+00:00"
+      "last_updated": "2026-05-13T04:37:28.235004+00:00",
+      "readme": {
+        "path": "readmes/kitfunso+hippo-memory+README.md",
+        "etag": "W/\"b7d07928afb9e959654979fc2038b7db58cf35b8\"",
+        "sha": "b7d07928afb9e959654979fc2038b7db58cf35b8",
+        "size": 68345,
+        "fetched_at": "2026-05-13T04:45:00.342811+00:00",
+        "status": "ok"
+      }
     },
     "laserpilot/Survey_of_Alternative_Displays": {
       "lists": [
@@ -225525,7 +225645,15 @@
         "pushed_at": "2026-02-18T21:54:28Z",
         "starred_at": "2026-05-12T17:02:40Z"
       },
-      "last_updated": "2026-05-13T04:37:28.525649+00:00"
+      "last_updated": "2026-05-13T04:37:28.525649+00:00",
+      "readme": {
+        "path": "readmes/laserpilot+Survey_of_Alternative_Displays+README.md",
+        "etag": "W/\"a14adbbe9e7a13d3a15066e7a32627d3dcef6b35\"",
+        "sha": "a14adbbe9e7a13d3a15066e7a32627d3dcef6b35",
+        "size": 8911,
+        "fetched_at": "2026-05-13T04:45:00.864406+00:00",
+        "status": "ok"
+      }
     },
     "vivekg13186/Daisy-workflow": {
       "lists": [],
@@ -225545,7 +225673,15 @@
         "pushed_at": "2026-05-12T18:42:19Z",
         "starred_at": "2026-05-04T23:23:39Z"
       },
-      "last_updated": "2026-05-13T04:37:28.832193+00:00"
+      "last_updated": "2026-05-13T04:37:28.832193+00:00",
+      "readme": {
+        "path": "readmes/vivekg13186+Daisy-workflow+README.md",
+        "etag": "W/\"f1b02ab95e4ec730fde22cfd8ebe2b31db04e2d5\"",
+        "sha": "f1b02ab95e4ec730fde22cfd8ebe2b31db04e2d5",
+        "size": 608,
+        "fetched_at": "2026-05-13T04:45:01.688255+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
