@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T04:37:28.832243+00:00",
+  "last_updated": "2026-05-13T04:44:20.023013+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225149,7 +225149,10 @@
       }
     },
     "kozakdenys/qr-code-styling": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 201137330,
         "name": "qr-code-styling",
@@ -225169,7 +225172,9 @@
       "last_updated": "2026-05-13T04:37:23.787981+00:00"
     },
     "tracewayapp/traceway": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 1118625788,
         "name": "traceway",
@@ -225189,7 +225194,9 @@
       "last_updated": "2026-05-13T04:37:24.109748+00:00"
     },
     "cactus-compute/needle": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1165361576,
         "name": "needle",
@@ -225209,7 +225216,12 @@
       "last_updated": "2026-05-13T04:37:24.398187+00:00"
     },
     "chainguard-actions/upload-pages-artifact": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1212591242,
         "name": "upload-pages-artifact",
@@ -225229,7 +225241,12 @@
       "last_updated": "2026-05-13T04:37:24.743009+00:00"
     },
     "dagger/dagger-for-github": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 371705885,
         "name": "dagger-for-github",
@@ -225249,7 +225266,13 @@
       "last_updated": "2026-05-13T04:37:25.049228+00:00"
     },
     "chainguard-actions/dagger-for-github": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1212586535,
         "name": "dagger-for-github",
@@ -225269,7 +225292,12 @@
       "last_updated": "2026-05-13T04:37:25.380066+00:00"
     },
     "chainguard-actions/actions-codespell": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1212595324,
         "name": "actions-codespell",
@@ -225289,7 +225317,11 @@
       "last_updated": "2026-05-13T04:37:25.684750+00:00"
     },
     "chainguard-actions/json-yaml-validate": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1235468261,
         "name": "json-yaml-validate",
@@ -225309,7 +225341,11 @@
       "last_updated": "2026-05-13T04:37:26.013215+00:00"
     },
     "chainguard-actions/replace-tokens": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1235510056,
         "name": "replace-tokens",
@@ -225329,7 +225365,11 @@
       "last_updated": "2026-05-13T04:37:26.352479+00:00"
     },
     "chainguard-actions/ghcommit-action": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1233777945,
         "name": "ghcommit-action",
@@ -225349,7 +225389,13 @@
       "last_updated": "2026-05-13T04:37:26.678718+00:00"
     },
     "chainguard-actions/scan-action": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1235484242,
         "name": "scan-action",
@@ -225369,7 +225415,11 @@
       "last_updated": "2026-05-13T04:37:26.981666+00:00"
     },
     "chainguard-actions/black": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1212584127,
         "name": "black",
@@ -225389,7 +225439,9 @@
       "last_updated": "2026-05-13T04:37:27.348487+00:00"
     },
     "mattpocock/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1148788086,
         "name": "skills",
@@ -225409,7 +225461,9 @@
       "last_updated": "2026-05-13T04:37:27.629897+00:00"
     },
     "monkeymonk/awesome-touchdesigner": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 944025342,
         "name": "awesome-touchdesigner",
@@ -225429,7 +225483,10 @@
       "last_updated": "2026-05-13T04:37:27.916803+00:00"
     },
     "kitfunso/hippo-memory": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1182306628,
         "name": "hippo-memory",
@@ -225449,7 +225506,9 @@
       "last_updated": "2026-05-13T04:37:28.235004+00:00"
     },
     "laserpilot/Survey_of_Alternative_Displays": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 479869223,
         "name": "Survey_of_Alternative_Displays",
