@@ -1,0 +1,6 @@
+This directory contains a program that drives a strip of WS2812B LEDs
+from a Raspberry Pi pico using the Pi's PIO engine.
+
+It should be built using cmake as per other programs from the RPI pico
+pico-examples repository that is availabe along with the RPI pico
+C SDK.

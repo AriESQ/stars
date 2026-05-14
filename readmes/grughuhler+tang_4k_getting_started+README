@@ -1,0 +1,11 @@
+This directory contains an example showing how to get started with the
+Cortex M3 ARM core on the Tang Nano 4K FPGA development board.
+
+There is a Gowin program file for the Gowin FPGA.  The Verilog is very
+simple.  It does nothing but instantiate the M3 and connect a UART
+and some GPIOs to pins.
+
+There is also a minimalist sotfware application in directory c_code.
+See the README there.
+
+See video: https://youtu.be/pC7OXV67fqM

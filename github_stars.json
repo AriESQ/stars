@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T04:43:28.438364+00:00",
+  "last_updated": "2026-05-14T04:44:07.632111+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225705,7 +225705,15 @@
         "pushed_at": "2024-04-01T05:59:34Z",
         "starred_at": "2026-05-13T21:36:34Z"
       },
-      "last_updated": "2026-05-14T04:36:30.874422+00:00"
+      "last_updated": "2026-05-14T04:36:30.874422+00:00",
+      "readme": {
+        "path": "readmes/IntentDev+TopArray+README.md",
+        "etag": "W/\"9aa9f52a5ff7f2aba2b725ca4f6c0e8d2bdfee53\"",
+        "sha": "9aa9f52a5ff7f2aba2b725ca4f6c0e8d2bdfee53",
+        "size": 2135,
+        "fetched_at": "2026-05-14T04:44:05.325212+00:00",
+        "status": "ok"
+      }
     },
     "grughuhler/grug_ws2812b": {
       "lists": [
@@ -225728,7 +225736,15 @@
         "pushed_at": "2023-07-19T01:30:10Z",
         "starred_at": "2026-05-13T19:50:17Z"
       },
-      "last_updated": "2026-05-14T04:36:31.159573+00:00"
+      "last_updated": "2026-05-14T04:36:31.159573+00:00",
+      "readme": {
+        "path": "readmes/grughuhler+grug_ws2812b+README",
+        "etag": "W/\"91a3a42c989dbc291404617a8c0d77a60e087ee1\"",
+        "sha": "91a3a42c989dbc291404617a8c0d77a60e087ee1",
+        "size": 267,
+        "fetched_at": "2026-05-14T04:44:05.760193+00:00",
+        "status": "ok"
+      }
     },
     "grughuhler/tang_4k_getting_started": {
       "lists": [
@@ -225750,7 +225766,15 @@
         "pushed_at": "2024-12-09T03:35:52Z",
         "starred_at": "2026-05-13T19:49:40Z"
       },
-      "last_updated": "2026-05-14T04:36:31.451806+00:00"
+      "last_updated": "2026-05-14T04:36:31.451806+00:00",
+      "readme": {
+        "path": "readmes/grughuhler+tang_4k_getting_started+README",
+        "etag": "W/\"b1c5fe3c60ed7610575487f07d198f7dfd2d9727\"",
+        "sha": "b1c5fe3c60ed7610575487f07d198f7dfd2d9727",
+        "size": 430,
+        "fetched_at": "2026-05-14T04:44:06.518394+00:00",
+        "status": "ok"
+      }
     },
     "grughuhler/attiny": {
       "lists": [
@@ -225772,7 +225796,15 @@
         "pushed_at": "2025-08-04T21:49:07Z",
         "starred_at": "2026-05-13T19:49:18Z"
       },
-      "last_updated": "2026-05-14T04:36:31.769192+00:00"
+      "last_updated": "2026-05-14T04:36:31.769192+00:00",
+      "readme": {
+        "path": "readmes/grughuhler+attiny+README",
+        "etag": "W/\"74c42000f037e528e1745c9aab2c21ace55074aa\"",
+        "sha": "74c42000f037e528e1745c9aab2c21ace55074aa",
+        "size": 70,
+        "fetched_at": "2026-05-14T04:44:05.602753+00:00",
+        "status": "ok"
+      }
     },
     "grughuhler/hackrf_one_related": {
       "lists": [
@@ -225794,7 +225826,15 @@
         "pushed_at": "2026-03-15T02:22:17Z",
         "starred_at": "2026-05-13T19:49:06Z"
       },
-      "last_updated": "2026-05-14T04:36:32.037243+00:00"
+      "last_updated": "2026-05-14T04:36:32.037243+00:00",
+      "readme": {
+        "path": "readmes/grughuhler+hackrf_one_related+README.txt",
+        "etag": "W/\"aa9f9d61a23f7600105a3a06067a8245b877cc22\"",
+        "sha": "aa9f9d61a23f7600105a3a06067a8245b877cc22",
+        "size": 290,
+        "fetched_at": "2026-05-14T04:44:05.983527+00:00",
+        "status": "ok"
+      }
     },
     "grughuhler/rpi_pico_related": {
       "lists": [
@@ -225816,7 +225856,15 @@
         "pushed_at": "2026-05-12T17:50:35Z",
         "starred_at": "2026-05-13T19:05:52Z"
       },
-      "last_updated": "2026-05-14T04:36:32.317202+00:00"
+      "last_updated": "2026-05-14T04:36:32.317202+00:00",
+      "readme": {
+        "path": "readmes/grughuhler+rpi_pico_related+README",
+        "etag": "W/\"f5aaeae7a7407aeaad21c446408659722029d3be\"",
+        "sha": "f5aaeae7a7407aeaad21c446408659722029d3be",
+        "size": 108,
+        "fetched_at": "2026-05-14T04:44:06.275668+00:00",
+        "status": "ok"
+      }
     },
     "EnviralDesign/TD-Launcher": {
       "lists": [
@@ -225839,7 +225887,15 @@
         "pushed_at": "2025-08-14T02:25:19Z",
         "starred_at": "2026-05-13T16:29:31Z"
       },
-      "last_updated": "2026-05-14T04:36:32.593435+00:00"
+      "last_updated": "2026-05-14T04:36:32.593435+00:00",
+      "readme": {
+        "path": "readmes/EnviralDesign+TD-Launcher+README.md",
+        "etag": "W/\"f4c0959a5e00f1af2ca71a7226bf848be2671f6a\"",
+        "sha": "f4c0959a5e00f1af2ca71a7226bf848be2671f6a",
+        "size": 8017,
+        "fetched_at": "2026-05-14T04:44:05.056768+00:00",
+        "status": "ok"
+      }
     },
     "nariakiiwatani/toeexpand-git-pre-commit": {
       "lists": [
@@ -225862,7 +225918,15 @@
         "pushed_at": "2020-11-15T21:57:10Z",
         "starred_at": "2026-05-13T16:22:28Z"
       },
-      "last_updated": "2026-05-14T04:36:32.889532+00:00"
+      "last_updated": "2026-05-14T04:36:32.889532+00:00",
+      "readme": {
+        "path": "readmes/nariakiiwatani+toeexpand-git-pre-commit+readme.md",
+        "etag": "W/\"a83a823573cdbce72de216badda93ab1bc0af023\"",
+        "sha": "a83a823573cdbce72de216badda93ab1bc0af023",
+        "size": 1493,
+        "fetched_at": "2026-05-14T04:44:07.628201+00:00",
+        "status": "ok"
+      }
     },
     "klobucar/paprika": {
       "lists": [
@@ -225886,7 +225950,15 @@
         "pushed_at": "2026-04-15T07:13:32Z",
         "starred_at": "2026-05-13T06:08:30Z"
       },
-      "last_updated": "2026-05-14T04:36:33.180353+00:00"
+      "last_updated": "2026-05-14T04:36:33.180353+00:00",
+      "readme": {
+        "path": "readmes/klobucar+paprika+README.md",
+        "etag": "W/\"c28656525a57884ec48563db5915cc4ef4898fc3\"",
+        "sha": "c28656525a57884ec48563db5915cc4ef4898fc3",
+        "size": 21762,
+        "fetched_at": "2026-05-14T04:44:06.776994+00:00",
+        "status": "ok"
+      }
     },
     "lissy93/dashy": {
       "lists": [
@@ -225909,7 +225981,15 @@
         "pushed_at": "2026-05-10T20:14:44Z",
         "starred_at": "2026-02-12T19:03:31Z"
       },
-      "last_updated": "2026-05-14T04:36:33.647217+00:00"
+      "last_updated": "2026-05-14T04:36:33.647217+00:00",
+      "readme": {
+        "path": "readmes/lissy93+dashy+README.md",
+        "etag": "W/\"9412040fd71860bd5b9689e5d6c377459b066b1a\"",
+        "sha": "9412040fd71860bd5b9689e5d6c377459b066b1a",
+        "size": 37018,
+        "fetched_at": "2026-05-14T04:44:06.988488+00:00",
+        "status": "ok"
+      }
     },
     "lissy93/portainer-templates": {
       "lists": [
@@ -225931,7 +226011,15 @@
         "pushed_at": "2026-05-10T20:06:40Z",
         "starred_at": "2023-04-24T23:13:19Z"
       },
-      "last_updated": "2026-05-14T04:36:34.079414+00:00"
+      "last_updated": "2026-05-14T04:36:34.079414+00:00",
+      "readme": {
+        "path": "readmes/lissy93+portainer-templates+README.md",
+        "etag": "W/\"c66d4e25c2af1717b3a985a76c32112367f5b6c6\"",
+        "sha": "c66d4e25c2af1717b3a985a76c32112367f5b6c6",
+        "size": 289457,
+        "fetched_at": "2026-05-14T04:44:07.384990+00:00",
+        "status": "ok"
+      }
     },
     "lissy93/personal-security-checklist": {
       "lists": [],
@@ -225951,7 +226039,15 @@
         "pushed_at": "2026-02-28T16:37:20Z",
         "starred_at": "2022-08-30T02:28:06Z"
       },
-      "last_updated": "2026-05-14T04:36:34.503700+00:00"
+      "last_updated": "2026-05-14T04:36:34.503700+00:00",
+      "readme": {
+        "path": "readmes/lissy93+personal-security-checklist+README.md",
+        "etag": "W/\"441ef3e95350f35d0884f4259d2ed1b244bf5aa0\"",
+        "sha": "441ef3e95350f35d0884f4259d2ed1b244bf5aa0",
+        "size": 7022,
+        "fetched_at": "2026-05-14T04:44:07.146010+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
