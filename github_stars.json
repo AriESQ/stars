@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T04:36:34.503792+00:00",
+  "last_updated": "2026-05-14T04:43:28.438364+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225684,7 +225684,11 @@
       }
     },
     "IntentDev/TopArray": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 778998001,
         "name": "TopArray",
@@ -225704,7 +225708,10 @@
       "last_updated": "2026-05-14T04:36:30.874422+00:00"
     },
     "grughuhler/grug_ws2812b": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 668076909,
         "name": "grug_ws2812b",
@@ -225724,7 +225731,9 @@
       "last_updated": "2026-05-14T04:36:31.159573+00:00"
     },
     "grughuhler/tang_4k_getting_started": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 873775058,
         "name": "tang_4k_getting_started",
@@ -225744,7 +225753,9 @@
       "last_updated": "2026-05-14T04:36:31.451806+00:00"
     },
     "grughuhler/attiny": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 933360747,
         "name": "attiny",
@@ -225764,7 +225775,9 @@
       "last_updated": "2026-05-14T04:36:31.769192+00:00"
     },
     "grughuhler/hackrf_one_related": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1177427400,
         "name": "hackrf_one_related",
@@ -225784,7 +225797,9 @@
       "last_updated": "2026-05-14T04:36:32.037243+00:00"
     },
     "grughuhler/rpi_pico_related": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1211678517,
         "name": "rpi_pico_related",
@@ -225804,7 +225819,10 @@
       "last_updated": "2026-05-14T04:36:32.317202+00:00"
     },
     "EnviralDesign/TD-Launcher": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 525217197,
         "name": "TD-Launcher",
@@ -225824,7 +225842,10 @@
       "last_updated": "2026-05-14T04:36:32.593435+00:00"
     },
     "nariakiiwatani/toeexpand-git-pre-commit": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 313055007,
         "name": "toeexpand-git-pre-commit",
@@ -225844,7 +225865,11 @@
       "last_updated": "2026-05-14T04:36:32.889532+00:00"
     },
     "klobucar/paprika": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 1115976790,
         "name": "paprika",
@@ -225864,7 +225889,10 @@
       "last_updated": "2026-05-14T04:36:33.180353+00:00"
     },
     "lissy93/dashy": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 343078060,
         "name": "dashy",
@@ -225884,7 +225912,9 @@
       "last_updated": "2026-05-14T04:36:33.647217+00:00"
     },
     "lissy93/portainer-templates": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 628549096,
         "name": "portainer-templates",
