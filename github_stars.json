@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T04:45:01.689628+00:00",
+  "last_updated": "2026-05-14T04:36:34.503792+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -225682,6 +225682,246 @@
         "fetched_at": "2026-05-13T04:45:01.688255+00:00",
         "status": "ok"
       }
+    },
+    "IntentDev/TopArray": {
+      "lists": [],
+      "metadata": {
+        "id": 778998001,
+        "name": "TopArray",
+        "full_name": "IntentDev/TopArray",
+        "description": "Small set of tools to facilitate CUDA memory operations with TOPs",
+        "url": "https://github.com/IntentDev/TopArray",
+        "homepage": null,
+        "language": "Python",
+        "stars": 40,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-03-28T20:40:55Z",
+        "updated_at": "2026-05-13T21:36:35Z",
+        "pushed_at": "2024-04-01T05:59:34Z",
+        "starred_at": "2026-05-13T21:36:34Z"
+      },
+      "last_updated": "2026-05-14T04:36:30.874422+00:00"
+    },
+    "grughuhler/grug_ws2812b": {
+      "lists": [],
+      "metadata": {
+        "id": 668076909,
+        "name": "grug_ws2812b",
+        "full_name": "grughuhler/grug_ws2812b",
+        "description": "Raspberry pi pico program to drive ws2812b LEDs",
+        "url": "https://github.com/grughuhler/grug_ws2812b",
+        "homepage": null,
+        "language": "C",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-07-19T01:24:14Z",
+        "updated_at": "2026-05-13T19:50:17Z",
+        "pushed_at": "2023-07-19T01:30:10Z",
+        "starred_at": "2026-05-13T19:50:17Z"
+      },
+      "last_updated": "2026-05-14T04:36:31.159573+00:00"
+    },
+    "grughuhler/tang_4k_getting_started": {
+      "lists": [],
+      "metadata": {
+        "id": 873775058,
+        "name": "tang_4k_getting_started",
+        "full_name": "grughuhler/tang_4k_getting_started",
+        "description": "Cortex M3 example for the Tang Nano 4K FPGA development board",
+        "url": "https://github.com/grughuhler/tang_4k_getting_started",
+        "homepage": null,
+        "language": "V",
+        "stars": 6,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2024-10-16T17:39:52Z",
+        "updated_at": "2026-05-13T19:49:41Z",
+        "pushed_at": "2024-12-09T03:35:52Z",
+        "starred_at": "2026-05-13T19:49:40Z"
+      },
+      "last_updated": "2026-05-14T04:36:31.451806+00:00"
+    },
+    "grughuhler/attiny": {
+      "lists": [],
+      "metadata": {
+        "id": 933360747,
+        "name": "attiny",
+        "full_name": "grughuhler/attiny",
+        "description": "Projects for attiny microcontrollers",
+        "url": "https://github.com/grughuhler/attiny",
+        "homepage": null,
+        "language": "C++",
+        "stars": 5,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-02-15T19:11:50Z",
+        "updated_at": "2026-05-13T19:49:19Z",
+        "pushed_at": "2025-08-04T21:49:07Z",
+        "starred_at": "2026-05-13T19:49:18Z"
+      },
+      "last_updated": "2026-05-14T04:36:31.769192+00:00"
+    },
+    "grughuhler/hackrf_one_related": {
+      "lists": [],
+      "metadata": {
+        "id": 1177427400,
+        "name": "hackrf_one_related",
+        "full_name": "grughuhler/hackrf_one_related",
+        "description": "This repository contrains items related to the HackRF One and Software Defined Radio",
+        "url": "https://github.com/grughuhler/hackrf_one_related",
+        "homepage": null,
+        "language": "C",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-10T02:35:48Z",
+        "updated_at": "2026-05-13T19:49:06Z",
+        "pushed_at": "2026-03-15T02:22:17Z",
+        "starred_at": "2026-05-13T19:49:06Z"
+      },
+      "last_updated": "2026-05-14T04:36:32.037243+00:00"
+    },
+    "grughuhler/rpi_pico_related": {
+      "lists": [],
+      "metadata": {
+        "id": 1211678517,
+        "name": "rpi_pico_related",
+        "full_name": "grughuhler/rpi_pico_related",
+        "description": "This repo contains software related to the Raspberry Pi Pico family",
+        "url": "https://github.com/grughuhler/rpi_pico_related",
+        "homepage": null,
+        "language": "C",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-15T16:28:48Z",
+        "updated_at": "2026-05-13T19:05:53Z",
+        "pushed_at": "2026-05-12T17:50:35Z",
+        "starred_at": "2026-05-13T19:05:52Z"
+      },
+      "last_updated": "2026-05-14T04:36:32.317202+00:00"
+    },
+    "EnviralDesign/TD-Launcher": {
+      "lists": [],
+      "metadata": {
+        "id": 525217197,
+        "name": "TD-Launcher",
+        "full_name": "EnviralDesign/TD-Launcher",
+        "description": "A bootstrapper exe for automagically loading your toe file in the correct version of TouchDesigner.",
+        "url": "https://github.com/EnviralDesign/TD-Launcher",
+        "homepage": null,
+        "language": "Python",
+        "stars": 41,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2022-08-16T03:25:28Z",
+        "updated_at": "2026-05-13T16:29:32Z",
+        "pushed_at": "2025-08-14T02:25:19Z",
+        "starred_at": "2026-05-13T16:29:31Z"
+      },
+      "last_updated": "2026-05-14T04:36:32.593435+00:00"
+    },
+    "nariakiiwatani/toeexpand-git-pre-commit": {
+      "lists": [],
+      "metadata": {
+        "id": 313055007,
+        "name": "toeexpand-git-pre-commit",
+        "full_name": "nariakiiwatani/toeexpand-git-pre-commit",
+        "description": null,
+        "url": "https://github.com/nariakiiwatani/toeexpand-git-pre-commit",
+        "homepage": null,
+        "language": "Roff",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2020-11-15T14:56:57Z",
+        "updated_at": "2026-05-13T16:22:28Z",
+        "pushed_at": "2020-11-15T21:57:10Z",
+        "starred_at": "2026-05-13T16:22:28Z"
+      },
+      "last_updated": "2026-05-14T04:36:32.889532+00:00"
+    },
+    "klobucar/paprika": {
+      "lists": [],
+      "metadata": {
+        "id": 1115976790,
+        "name": "paprika",
+        "full_name": "klobucar/paprika",
+        "description": "ssh agent using secure enclave",
+        "url": "https://github.com/klobucar/paprika",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-12-13T23:56:01Z",
+        "updated_at": "2026-05-13T06:08:30Z",
+        "pushed_at": "2026-04-15T07:13:32Z",
+        "starred_at": "2026-05-13T06:08:30Z"
+      },
+      "last_updated": "2026-05-14T04:36:33.180353+00:00"
+    },
+    "lissy93/dashy": {
+      "lists": [],
+      "metadata": {
+        "id": 343078060,
+        "name": "dashy",
+        "full_name": "lissy93/dashy",
+        "description": "\ud83d\ude80 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
+        "url": "https://github.com/lissy93/dashy",
+        "homepage": "https://dashy.to",
+        "language": "Vue",
+        "stars": 25094,
+        "forks": 1837,
+        "open_issues": 82,
+        "created_at": "2021-02-28T10:35:44Z",
+        "updated_at": "2026-05-14T04:35:55Z",
+        "pushed_at": "2026-05-10T20:14:44Z",
+        "starred_at": "2026-02-12T19:03:31Z"
+      },
+      "last_updated": "2026-05-14T04:36:33.647217+00:00"
+    },
+    "lissy93/portainer-templates": {
+      "lists": [],
+      "metadata": {
+        "id": 628549096,
+        "name": "portainer-templates",
+        "full_name": "lissy93/portainer-templates",
+        "description": "\ud83d\udea2 500+ 1-click Portainer app templates",
+        "url": "https://github.com/lissy93/portainer-templates",
+        "homepage": "https://portainer-templates.as93.net",
+        "language": "Python",
+        "stars": 2826,
+        "forks": 305,
+        "open_issues": 33,
+        "created_at": "2023-04-16T09:50:58Z",
+        "updated_at": "2026-05-12T10:11:57Z",
+        "pushed_at": "2026-05-10T20:06:40Z",
+        "starred_at": "2023-04-24T23:13:19Z"
+      },
+      "last_updated": "2026-05-14T04:36:34.079414+00:00"
+    },
+    "lissy93/personal-security-checklist": {
+      "lists": [],
+      "metadata": {
+        "id": 123631418,
+        "name": "personal-security-checklist",
+        "full_name": "lissy93/personal-security-checklist",
+        "description": "\ud83d\udd12 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
+        "url": "https://github.com/lissy93/personal-security-checklist",
+        "homepage": "https://digital-defense.io",
+        "language": "TypeScript",
+        "stars": 21403,
+        "forks": 1443,
+        "open_issues": 58,
+        "created_at": "2018-03-02T21:12:37Z",
+        "updated_at": "2026-05-14T03:25:14Z",
+        "pushed_at": "2026-02-28T16:37:20Z",
+        "starred_at": "2022-08-30T02:28:06Z"
+      },
+      "last_updated": "2026-05-14T04:36:34.503700+00:00"
     }
   },
   "last_processed_index": 0,
@@ -225691,5 +225931,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"50359d2f13b5822eb623a0e62195bfb28edfcaf322868859324b255c2bd6f4a7\""
+  "profile_etag": "W/\"405d14d8ac0351c881465a54690d10b074b0af56f66a0f68515a93b4db309a81\""
 }
