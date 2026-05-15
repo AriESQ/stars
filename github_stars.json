@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T04:48:23.482735+00:00",
+  "last_updated": "2026-05-15T04:48:46.139155+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226069,7 +226069,15 @@
         "pushed_at": "2026-05-10T05:47:50Z",
         "starred_at": "2026-05-15T02:26:06Z"
       },
-      "last_updated": "2026-05-15T04:40:46.595056+00:00"
+      "last_updated": "2026-05-15T04:40:46.595056+00:00",
+      "readme": {
+        "path": "readmes/benstone+3DMMEx+README.md",
+        "etag": "W/\"a826ccef989a5dbf25af79bdd58489a04188ff0f\"",
+        "sha": "a826ccef989a5dbf25af79bdd58489a04188ff0f",
+        "size": 5502,
+        "fetched_at": "2026-05-15T04:48:45.644348+00:00",
+        "status": "ok"
+      }
     },
     "harfbuzz/harfbuzz": {
       "lists": [
@@ -226092,7 +226100,15 @@
         "pushed_at": "2026-05-13T13:52:33Z",
         "starred_at": "2026-05-14T19:31:43Z"
       },
-      "last_updated": "2026-05-15T04:40:46.998000+00:00"
+      "last_updated": "2026-05-15T04:40:46.998000+00:00",
+      "readme": {
+        "path": "readmes/harfbuzz+harfbuzz+README.md",
+        "etag": "W/\"eadd274f354cf003fa9991a1ea45b23845ab7399\"",
+        "sha": "eadd274f354cf003fa9991a1ea45b23845ab7399",
+        "size": 10197,
+        "fetched_at": "2026-05-15T04:48:45.914403+00:00",
+        "status": "ok"
+      }
     },
     "FULU-Foundation/OrcaSlicer-bambulab": {
       "lists": [
@@ -226114,7 +226130,15 @@
         "pushed_at": "2026-05-12T18:58:00Z",
         "starred_at": "2026-05-14T19:10:11Z"
       },
-      "last_updated": "2026-05-15T04:40:47.376796+00:00"
+      "last_updated": "2026-05-15T04:40:47.376796+00:00",
+      "readme": {
+        "path": "readmes/FULU-Foundation+OrcaSlicer-bambulab+README.md",
+        "etag": "W/\"9629e591d69066de2bfb635ed17422f931b2afb2\"",
+        "sha": "9629e591d69066de2bfb635ed17422f931b2afb2",
+        "size": 941,
+        "fetched_at": "2026-05-15T04:48:44.748461+00:00",
+        "status": "ok"
+      }
     },
     "MiSTer-devel/Hardware_MiSTer": {
       "lists": [
@@ -226137,7 +226161,15 @@
         "pushed_at": "2024-03-12T15:19:01Z",
         "starred_at": "2026-05-14T14:40:01Z"
       },
-      "last_updated": "2026-05-15T04:40:47.744170+00:00"
+      "last_updated": "2026-05-15T04:40:47.744170+00:00",
+      "readme": {
+        "path": "readmes/MiSTer-devel+Hardware_MiSTer+README.md",
+        "etag": "W/\"8437c9388c2ebe9128a3ebc53431bc8b90ef6f99\"",
+        "sha": "8437c9388c2ebe9128a3ebc53431bc8b90ef6f99",
+        "size": 3865,
+        "fetched_at": "2026-05-15T04:48:45.124189+00:00",
+        "status": "ok"
+      }
     },
     "BlueJayLouche/rustjay-delta": {
       "lists": [
@@ -226160,7 +226192,15 @@
         "pushed_at": "2026-05-10T04:56:21Z",
         "starred_at": "2026-05-14T14:22:49Z"
       },
-      "last_updated": "2026-05-15T04:40:48.091404+00:00"
+      "last_updated": "2026-05-15T04:40:48.091404+00:00",
+      "readme": {
+        "path": "readmes/BlueJayLouche+rustjay-delta+README.md",
+        "etag": "W/\"6ff6261620ac5f4d2f1d1e2d11295c47d4d9f0f0\"",
+        "sha": "6ff6261620ac5f4d2f1d1e2d11295c47d4d9f0f0",
+        "size": 11928,
+        "fetched_at": "2026-05-15T04:48:44.537070+00:00",
+        "status": "ok"
+      }
     },
     "antimatter15/splat": {
       "lists": [
@@ -226183,7 +226223,15 @@
         "pushed_at": "2025-11-16T20:20:59Z",
         "starred_at": "2026-05-14T05:06:45Z"
       },
-      "last_updated": "2026-05-15T04:40:48.462551+00:00"
+      "last_updated": "2026-05-15T04:40:48.462551+00:00",
+      "readme": {
+        "path": "readmes/antimatter15+splat+README.md",
+        "etag": "W/\"f9b391f3f026c815bac6fe5e5df25953de59a4e3\"",
+        "sha": "f9b391f3f026c815bac6fe5e5df25953de59a4e3",
+        "size": 11126,
+        "fetched_at": "2026-05-15T04:48:45.404889+00:00",
+        "status": "ok"
+      }
     },
     "mindsdb/minds-platform": {
       "lists": [
@@ -226206,7 +226254,15 @@
         "pushed_at": "2026-05-15T01:36:27Z",
         "starred_at": "2025-07-18T01:20:53Z"
       },
-      "last_updated": "2026-05-15T04:40:49.033387+00:00"
+      "last_updated": "2026-05-15T04:40:49.033387+00:00",
+      "readme": {
+        "path": "readmes/mindsdb+minds-platform+README.md",
+        "etag": "W/\"453cfb3706f88daa0b1619df2df51314ffd2667c\"",
+        "sha": "453cfb3706f88daa0b1619df2df51314ffd2667c",
+        "size": 6827,
+        "fetched_at": "2026-05-15T04:48:46.135154+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
