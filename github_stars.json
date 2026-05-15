@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T04:40:49.033430+00:00",
+  "last_updated": "2026-05-15T04:48:23.482735+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226050,7 +226050,9 @@
       }
     },
     "benstone/3DMMEx": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 896271911,
         "name": "3DMMEx",
@@ -226070,7 +226072,10 @@
       "last_updated": "2026-05-15T04:40:46.595056+00:00"
     },
     "harfbuzz/harfbuzz": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 5050525,
         "name": "harfbuzz",
@@ -226090,7 +226095,9 @@
       "last_updated": "2026-05-15T04:40:46.998000+00:00"
     },
     "FULU-Foundation/OrcaSlicer-bambulab": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1235834494,
         "name": "OrcaSlicer-bambulab",
@@ -226110,7 +226117,10 @@
       "last_updated": "2026-05-15T04:40:47.376796+00:00"
     },
     "MiSTer-devel/Hardware_MiSTer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 95618089,
         "name": "Hardware_MiSTer",
@@ -226130,7 +226140,10 @@
       "last_updated": "2026-05-15T04:40:47.744170+00:00"
     },
     "BlueJayLouche/rustjay-delta": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 1180443028,
         "name": "rustjay-delta",
@@ -226150,7 +226163,10 @@
       "last_updated": "2026-05-15T04:40:48.091404+00:00"
     },
     "antimatter15/splat": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 689836886,
         "name": "splat",
@@ -226170,7 +226186,10 @@
       "last_updated": "2026-05-15T04:40:48.462551+00:00"
     },
     "mindsdb/minds-platform": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 143328315,
         "name": "minds-platform",
