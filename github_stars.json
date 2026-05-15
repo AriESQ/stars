@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T04:44:07.632111+00:00",
+  "last_updated": "2026-05-15T04:40:49.033430+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226048,6 +226048,146 @@
         "fetched_at": "2026-05-14T04:44:07.146010+00:00",
         "status": "ok"
       }
+    },
+    "benstone/3DMMEx": {
+      "lists": [],
+      "metadata": {
+        "id": 896271911,
+        "name": "3DMMEx",
+        "full_name": "benstone/3DMMEx",
+        "description": "A classic 3D Movie Maker experience for modern systems",
+        "url": "https://github.com/benstone/3DMMEx",
+        "homepage": "",
+        "language": "C++",
+        "stars": 53,
+        "forks": 3,
+        "open_issues": 11,
+        "created_at": "2024-11-29T23:36:44Z",
+        "updated_at": "2026-05-15T04:18:19Z",
+        "pushed_at": "2026-05-10T05:47:50Z",
+        "starred_at": "2026-05-15T02:26:06Z"
+      },
+      "last_updated": "2026-05-15T04:40:46.595056+00:00"
+    },
+    "harfbuzz/harfbuzz": {
+      "lists": [],
+      "metadata": {
+        "id": 5050525,
+        "name": "harfbuzz",
+        "full_name": "harfbuzz/harfbuzz",
+        "description": "HarfBuzz text shaping engine",
+        "url": "https://github.com/harfbuzz/harfbuzz",
+        "homepage": "http://harfbuzz.github.io/",
+        "language": "C++",
+        "stars": 5639,
+        "forks": 738,
+        "open_issues": 93,
+        "created_at": "2012-07-14T19:50:26Z",
+        "updated_at": "2026-05-15T03:50:33Z",
+        "pushed_at": "2026-05-13T13:52:33Z",
+        "starred_at": "2026-05-14T19:31:43Z"
+      },
+      "last_updated": "2026-05-15T04:40:46.998000+00:00"
+    },
+    "FULU-Foundation/OrcaSlicer-bambulab": {
+      "lists": [],
+      "metadata": {
+        "id": 1235834494,
+        "name": "OrcaSlicer-bambulab",
+        "full_name": "FULU-Foundation/OrcaSlicer-bambulab",
+        "description": null,
+        "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+        "homepage": null,
+        "language": "C++",
+        "stars": 4160,
+        "forks": 1403,
+        "open_issues": 18,
+        "created_at": "2026-05-11T17:44:55Z",
+        "updated_at": "2026-05-15T04:39:35Z",
+        "pushed_at": "2026-05-12T18:58:00Z",
+        "starred_at": "2026-05-14T19:10:11Z"
+      },
+      "last_updated": "2026-05-15T04:40:47.376796+00:00"
+    },
+    "MiSTer-devel/Hardware_MiSTer": {
+      "lists": [],
+      "metadata": {
+        "id": 95618089,
+        "name": "Hardware_MiSTer",
+        "full_name": "MiSTer-devel/Hardware_MiSTer",
+        "description": "Daughter boards",
+        "url": "https://github.com/MiSTer-devel/Hardware_MiSTer",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 284,
+        "forks": 48,
+        "open_issues": 9,
+        "created_at": "2017-06-28T01:57:58Z",
+        "updated_at": "2026-05-14T14:40:02Z",
+        "pushed_at": "2024-03-12T15:19:01Z",
+        "starred_at": "2026-05-14T14:40:01Z"
+      },
+      "last_updated": "2026-05-15T04:40:47.744170+00:00"
+    },
+    "BlueJayLouche/rustjay-delta": {
+      "lists": [],
+      "metadata": {
+        "id": 1180443028,
+        "name": "rustjay-delta",
+        "full_name": "BlueJayLouche/rustjay-delta",
+        "description": null,
+        "url": "https://github.com/BlueJayLouche/rustjay-delta",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-13T03:35:46Z",
+        "updated_at": "2026-05-14T14:22:49Z",
+        "pushed_at": "2026-05-10T04:56:21Z",
+        "starred_at": "2026-05-14T14:22:49Z"
+      },
+      "last_updated": "2026-05-15T04:40:48.091404+00:00"
+    },
+    "antimatter15/splat": {
+      "lists": [],
+      "metadata": {
+        "id": 689836886,
+        "name": "splat",
+        "full_name": "antimatter15/splat",
+        "description": "WebGL 3D Gaussian Splat Viewer",
+        "url": "https://github.com/antimatter15/splat",
+        "homepage": "https://antimatter15.com/splat/",
+        "language": "JavaScript",
+        "stars": 2978,
+        "forks": 324,
+        "open_issues": 36,
+        "created_at": "2023-09-11T02:24:56Z",
+        "updated_at": "2026-05-14T19:31:21Z",
+        "pushed_at": "2025-11-16T20:20:59Z",
+        "starred_at": "2026-05-14T05:06:45Z"
+      },
+      "last_updated": "2026-05-15T04:40:48.462551+00:00"
+    },
+    "mindsdb/minds-platform": {
+      "lists": [],
+      "metadata": {
+        "id": 143328315,
+        "name": "minds-platform",
+        "full_name": "mindsdb/minds-platform",
+        "description": "Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.",
+        "url": "https://github.com/mindsdb/minds-platform",
+        "homepage": "https://mindsdb.com",
+        "language": "Python",
+        "stars": 39170,
+        "forks": 6205,
+        "open_issues": 82,
+        "created_at": "2018-08-02T17:56:45Z",
+        "updated_at": "2026-05-15T03:19:42Z",
+        "pushed_at": "2026-05-15T01:36:27Z",
+        "starred_at": "2025-07-18T01:20:53Z"
+      },
+      "last_updated": "2026-05-15T04:40:49.033387+00:00"
     }
   },
   "last_processed_index": 0,
@@ -226057,5 +226197,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"405d14d8ac0351c881465a54690d10b074b0af56f66a0f68515a93b4db309a81\""
+  "profile_etag": "W/\"1bb3d9e7769e9e3f0b2d513236b2bf0b9c1133747107eae875eb9c770f4700da\""
 }
