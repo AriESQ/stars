@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T04:29:30.782390+00:00",
+  "last_updated": "2026-05-16T04:35:40.445388+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226265,7 +226265,9 @@
       }
     },
     "anthropics/claude-for-legal": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1217153065,
         "name": "claude-for-legal",
@@ -226285,7 +226287,10 @@
       "last_updated": "2026-05-16T04:29:29.672174+00:00"
     },
     "neilsonnn/image-blaster": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1216542069,
         "name": "image-blaster",
@@ -226305,7 +226310,9 @@
       "last_updated": "2026-05-16T04:29:29.850089+00:00"
     },
     "TouchDesigner/TouchEngine-macOS": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 542777631,
         "name": "TouchEngine-macOS",
@@ -226325,7 +226332,10 @@
       "last_updated": "2026-05-16T04:29:30.041597+00:00"
     },
     "freshfriedfish/claude-tokenizer": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 896296201,
         "name": "claude-tokenizer",
@@ -226345,7 +226355,10 @@
       "last_updated": "2026-05-16T04:29:30.215075+00:00"
     },
     "dhamaniasad/claude-tokenizer": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 967898586,
         "name": "claude-tokenizer",
@@ -226365,7 +226378,9 @@
       "last_updated": "2026-05-16T04:29:30.403690+00:00"
     },
     "Whisky-App/Whisky": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 618007777,
         "name": "Whisky",
