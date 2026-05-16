@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T04:48:46.139155+00:00",
+  "last_updated": "2026-05-16T04:29:30.782390+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226263,6 +226263,146 @@
         "fetched_at": "2026-05-15T04:48:46.135154+00:00",
         "status": "ok"
       }
+    },
+    "anthropics/claude-for-legal": {
+      "lists": [],
+      "metadata": {
+        "id": 1217153065,
+        "name": "claude-for-legal",
+        "full_name": "anthropics/claude-for-legal",
+        "description": "A suite of plugins for legal workflows",
+        "url": "https://github.com/anthropics/claude-for-legal",
+        "homepage": "",
+        "language": "Python",
+        "stars": 5745,
+        "forks": 796,
+        "open_issues": 26,
+        "created_at": "2026-04-21T15:43:42Z",
+        "updated_at": "2026-05-16T04:25:13Z",
+        "pushed_at": "2026-05-15T21:10:26Z",
+        "starred_at": "2026-05-16T04:13:51Z"
+      },
+      "last_updated": "2026-05-16T04:29:29.672174+00:00"
+    },
+    "neilsonnn/image-blaster": {
+      "lists": [],
+      "metadata": {
+        "id": 1216542069,
+        "name": "image-blaster",
+        "full_name": "neilsonnn/image-blaster",
+        "description": "An image-to-world skillset for Claude.",
+        "url": "https://github.com/neilsonnn/image-blaster",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 2179,
+        "forks": 195,
+        "open_issues": 0,
+        "created_at": "2026-04-21T02:24:55Z",
+        "updated_at": "2026-05-16T04:27:57Z",
+        "pushed_at": "2026-05-15T01:36:10Z",
+        "starred_at": "2026-05-15T22:28:00Z"
+      },
+      "last_updated": "2026-05-16T04:29:29.850089+00:00"
+    },
+    "TouchDesigner/TouchEngine-macOS": {
+      "lists": [],
+      "metadata": {
+        "id": 542777631,
+        "name": "TouchEngine-macOS",
+        "full_name": "TouchDesigner/TouchEngine-macOS",
+        "description": null,
+        "url": "https://github.com/TouchDesigner/TouchEngine-macOS",
+        "homepage": null,
+        "language": "C",
+        "stars": 22,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2022-09-28T20:18:52Z",
+        "updated_at": "2026-05-15T19:00:52Z",
+        "pushed_at": "2025-06-13T17:15:48Z",
+        "starred_at": "2026-05-15T19:00:52Z"
+      },
+      "last_updated": "2026-05-16T04:29:30.041597+00:00"
+    },
+    "freshfriedfish/claude-tokenizer": {
+      "lists": [],
+      "metadata": {
+        "id": 896296201,
+        "name": "claude-tokenizer",
+        "full_name": "freshfriedfish/claude-tokenizer",
+        "description": "official unofficial wrapper for anthropic's tokenization api",
+        "url": "https://github.com/freshfriedfish/claude-tokenizer",
+        "homepage": "https://claude-tokenizer.vercel.app/",
+        "language": "TypeScript",
+        "stars": 33,
+        "forks": 13,
+        "open_issues": 2,
+        "created_at": "2024-11-30T01:44:24Z",
+        "updated_at": "2026-05-15T18:07:22Z",
+        "pushed_at": "2025-11-15T23:05:14Z",
+        "starred_at": "2026-05-15T18:07:22Z"
+      },
+      "last_updated": "2026-05-16T04:29:30.215075+00:00"
+    },
+    "dhamaniasad/claude-tokenizer": {
+      "lists": [],
+      "metadata": {
+        "id": 967898586,
+        "name": "claude-tokenizer",
+        "full_name": "dhamaniasad/claude-tokenizer",
+        "description": "Frontend for Anthropic token counting API. Check the token counts of text, text files, PDFs, and images. Compare token count vs. Gemini and GPT models.",
+        "url": "https://github.com/dhamaniasad/claude-tokenizer",
+        "homepage": "https://www.claudetokenizer.com/",
+        "language": "TypeScript",
+        "stars": 10,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-17T07:11:09Z",
+        "updated_at": "2026-05-15T18:06:57Z",
+        "pushed_at": "2026-04-18T05:45:41Z",
+        "starred_at": "2026-05-15T18:06:57Z"
+      },
+      "last_updated": "2026-05-16T04:29:30.403690+00:00"
+    },
+    "Whisky-App/Whisky": {
+      "lists": [],
+      "metadata": {
+        "id": 618007777,
+        "name": "Whisky",
+        "full_name": "Whisky-App/Whisky",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "url": "https://github.com/Whisky-App/Whisky",
+        "homepage": "https://getwhisky.app",
+        "language": "Swift",
+        "stars": 15038,
+        "forks": 526,
+        "open_issues": 444,
+        "created_at": "2023-03-23T15:05:09Z",
+        "updated_at": "2026-05-16T03:26:58Z",
+        "pushed_at": "2025-05-11T17:50:04Z",
+        "starred_at": "2026-05-15T16:35:00Z"
+      },
+      "last_updated": "2026-05-16T04:29:30.599775+00:00"
+    },
+    "daisy-workflow/Daisy-workflow": {
+      "lists": [],
+      "metadata": {
+        "id": 1228013410,
+        "name": "Daisy-workflow",
+        "full_name": "daisy-workflow/Daisy-workflow",
+        "description": "A low code workflow automation application",
+        "url": "https://github.com/daisy-workflow/Daisy-workflow",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 80,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-05-03T13:30:23Z",
+        "updated_at": "2026-05-15T22:46:46Z",
+        "pushed_at": "2026-05-15T22:46:42Z",
+        "starred_at": "2026-05-04T23:23:39Z"
+      },
+      "last_updated": "2026-05-16T04:29:30.782355+00:00"
     }
   },
   "last_processed_index": 0,
@@ -226272,5 +226412,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1bb3d9e7769e9e3f0b2d513236b2bf0b9c1133747107eae875eb9c770f4700da\""
+  "profile_etag": "W/\"a19a9c34b657b4c76ac768945e300c27bfe09d699bfef5ecec799765fe709ebb\""
 }
