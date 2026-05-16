@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T04:35:40.445388+00:00",
+  "last_updated": "2026-05-16T04:36:38.380566+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226284,7 +226284,15 @@
         "pushed_at": "2026-05-15T21:10:26Z",
         "starred_at": "2026-05-16T04:13:51Z"
       },
-      "last_updated": "2026-05-16T04:29:29.672174+00:00"
+      "last_updated": "2026-05-16T04:29:29.672174+00:00",
+      "readme": {
+        "path": "readmes/anthropics+claude-for-legal+README.md",
+        "etag": "W/\"5bdc249bbc315e21325b4bc937e12139c2831f8d\"",
+        "sha": "5bdc249bbc315e21325b4bc937e12139c2831f8d",
+        "size": 53485,
+        "fetched_at": "2026-05-16T04:36:37.458136+00:00",
+        "status": "ok"
+      }
     },
     "neilsonnn/image-blaster": {
       "lists": [
@@ -226307,7 +226315,15 @@
         "pushed_at": "2026-05-15T01:36:10Z",
         "starred_at": "2026-05-15T22:28:00Z"
       },
-      "last_updated": "2026-05-16T04:29:29.850089+00:00"
+      "last_updated": "2026-05-16T04:29:29.850089+00:00",
+      "readme": {
+        "path": "readmes/neilsonnn+image-blaster+README.md",
+        "etag": "W/\"633aa3bf4ea17d4516138132758b07229948df90\"",
+        "sha": "633aa3bf4ea17d4516138132758b07229948df90",
+        "size": 2761,
+        "fetched_at": "2026-05-16T04:36:38.377164+00:00",
+        "status": "ok"
+      }
     },
     "TouchDesigner/TouchEngine-macOS": {
       "lists": [
@@ -226329,7 +226345,15 @@
         "pushed_at": "2025-06-13T17:15:48Z",
         "starred_at": "2026-05-15T19:00:52Z"
       },
-      "last_updated": "2026-05-16T04:29:30.041597+00:00"
+      "last_updated": "2026-05-16T04:29:30.041597+00:00",
+      "readme": {
+        "path": "readmes/TouchDesigner+TouchEngine-macOS+README.md",
+        "etag": "W/\"d7dd9315adc444206dc9247e5ff842ffdbd44369\"",
+        "sha": "d7dd9315adc444206dc9247e5ff842ffdbd44369",
+        "size": 19357,
+        "fetched_at": "2026-05-16T04:36:37.010700+00:00",
+        "status": "ok"
+      }
     },
     "freshfriedfish/claude-tokenizer": {
       "lists": [
@@ -226352,7 +226376,15 @@
         "pushed_at": "2025-11-15T23:05:14Z",
         "starred_at": "2026-05-15T18:07:22Z"
       },
-      "last_updated": "2026-05-16T04:29:30.215075+00:00"
+      "last_updated": "2026-05-16T04:29:30.215075+00:00",
+      "readme": {
+        "path": "readmes/freshfriedfish+claude-tokenizer+README.md",
+        "etag": "W/\"e215bc4ccf138bbc38ad58ad57e92135484b3c0f\"",
+        "sha": "e215bc4ccf138bbc38ad58ad57e92135484b3c0f",
+        "size": 1450,
+        "fetched_at": "2026-05-16T04:36:38.180897+00:00",
+        "status": "ok"
+      }
     },
     "dhamaniasad/claude-tokenizer": {
       "lists": [
@@ -226375,7 +226407,15 @@
         "pushed_at": "2026-04-18T05:45:41Z",
         "starred_at": "2026-05-15T18:06:57Z"
       },
-      "last_updated": "2026-05-16T04:29:30.403690+00:00"
+      "last_updated": "2026-05-16T04:29:30.403690+00:00",
+      "readme": {
+        "path": "readmes/dhamaniasad+claude-tokenizer+README.md",
+        "etag": "W/\"e215bc4ccf138bbc38ad58ad57e92135484b3c0f\"",
+        "sha": "e215bc4ccf138bbc38ad58ad57e92135484b3c0f",
+        "size": 1450,
+        "fetched_at": "2026-05-16T04:36:37.955177+00:00",
+        "status": "ok"
+      }
     },
     "Whisky-App/Whisky": {
       "lists": [
@@ -226397,7 +226437,15 @@
         "pushed_at": "2025-05-11T17:50:04Z",
         "starred_at": "2026-05-15T16:35:00Z"
       },
-      "last_updated": "2026-05-16T04:29:30.599775+00:00"
+      "last_updated": "2026-05-16T04:29:30.599775+00:00",
+      "readme": {
+        "path": "readmes/Whisky-App+Whisky+README.md",
+        "etag": "W/\"c6babb86cfa8e2844e9274ebc1513eac595533aa\"",
+        "sha": "c6babb86cfa8e2844e9274ebc1513eac595533aa",
+        "size": 2990,
+        "fetched_at": "2026-05-16T04:36:37.215780+00:00",
+        "status": "ok"
+      }
     },
     "daisy-workflow/Daisy-workflow": {
       "lists": [],
@@ -226417,7 +226465,15 @@
         "pushed_at": "2026-05-15T22:46:42Z",
         "starred_at": "2026-05-04T23:23:39Z"
       },
-      "last_updated": "2026-05-16T04:29:30.782355+00:00"
+      "last_updated": "2026-05-16T04:29:30.782355+00:00",
+      "readme": {
+        "path": "readmes/daisy-workflow+Daisy-workflow+README.md",
+        "etag": "W/\"0553ddf4aafc67c4c9271c8255a6d361639d1512\"",
+        "sha": "0553ddf4aafc67c4c9271c8255a6d361639d1512",
+        "size": 6245,
+        "fetched_at": "2026-05-16T04:36:37.711231+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
