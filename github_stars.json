@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T04:42:54.511461+00:00",
+  "last_updated": "2026-05-17T04:49:05.543185+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226476,7 +226476,9 @@
       }
     },
     "noahgolmant/pytorch-hessian-eigenthings": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 155286993,
         "name": "pytorch-hessian-eigenthings",
@@ -226496,7 +226498,9 @@
       "last_updated": "2026-05-17T04:42:52.674793+00:00"
     },
     "VulpineOS/VulpineOS": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1186827548,
         "name": "VulpineOS",
@@ -226516,7 +226520,9 @@
       "last_updated": "2026-05-17T04:42:52.919717+00:00"
     },
     "CloverLabsAI/camoufox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1039214127,
         "name": "camoufox",
@@ -226536,7 +226542,9 @@
       "last_updated": "2026-05-17T04:42:53.119499+00:00"
     },
     "daijro/camoufox": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 834082440,
         "name": "camoufox",
@@ -226556,7 +226564,9 @@
       "last_updated": "2026-05-17T04:42:53.258074+00:00"
     },
     "ultrafunkamsterdam/undetected-chromedriver": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 229566288,
         "name": "undetected-chromedriver",
@@ -226576,7 +226586,9 @@
       "last_updated": "2026-05-17T04:42:53.428475+00:00"
     },
     "AtuboDad/playwright_stealth": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 323511299,
         "name": "playwright_stealth",
@@ -226596,7 +226608,10 @@
       "last_updated": "2026-05-17T04:42:53.610791+00:00"
     },
     "CloakHQ/CloakBrowser": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1163834030,
         "name": "CloakBrowser",
@@ -226616,7 +226631,9 @@
       "last_updated": "2026-05-17T04:42:53.821788+00:00"
     },
     "terminalguide/terminalguide": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 136522350,
         "name": "terminalguide",
@@ -226636,7 +226653,10 @@
       "last_updated": "2026-05-17T04:42:53.999278+00:00"
     },
     "YishenTu/claudian": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1110782890,
         "name": "claudian",
@@ -226656,7 +226676,10 @@
       "last_updated": "2026-05-17T04:42:54.187871+00:00"
     },
     "coddingtonbear/obsidian-local-rest-api": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 451732769,
         "name": "obsidian-local-rest-api",
@@ -226676,7 +226699,10 @@
       "last_updated": "2026-05-17T04:42:54.347179+00:00"
     },
     "NVlabs/Sana": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 871368615,
         "name": "Sana",
