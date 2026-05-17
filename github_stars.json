@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T04:49:05.543185+00:00",
+  "last_updated": "2026-05-17T04:49:34.542107+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226495,7 +226495,15 @@
         "pushed_at": "2026-05-14T17:17:51Z",
         "starred_at": "2026-05-17T00:25:46Z"
       },
-      "last_updated": "2026-05-17T04:42:52.674793+00:00"
+      "last_updated": "2026-05-17T04:42:52.674793+00:00",
+      "readme": {
+        "path": "readmes/noahgolmant+pytorch-hessian-eigenthings+README.md",
+        "etag": "W/\"d596ea81b9996e9f21b580d9b61a61c98cf857a9\"",
+        "sha": "d596ea81b9996e9f21b580d9b61a61c98cf857a9",
+        "size": 5708,
+        "fetched_at": "2026-05-17T04:49:34.138967+00:00",
+        "status": "ok"
+      }
     },
     "VulpineOS/VulpineOS": {
       "lists": [
@@ -226517,7 +226525,15 @@
         "pushed_at": "2026-05-16T20:50:55Z",
         "starred_at": "2026-05-17T00:01:34Z"
       },
-      "last_updated": "2026-05-17T04:42:52.919717+00:00"
+      "last_updated": "2026-05-17T04:42:52.919717+00:00",
+      "readme": {
+        "path": "readmes/VulpineOS+VulpineOS+README.md",
+        "etag": "W/\"1d5b3c4089c9d309183a3d19b12cfe9ef3a45f07\"",
+        "sha": "1d5b3c4089c9d309183a3d19b12cfe9ef3a45f07",
+        "size": 31356,
+        "fetched_at": "2026-05-17T04:49:33.394659+00:00",
+        "status": "ok"
+      }
     },
     "CloverLabsAI/camoufox": {
       "lists": [
@@ -226539,7 +226555,15 @@
         "pushed_at": "2026-05-13T22:39:23Z",
         "starred_at": "2026-05-17T00:01:22Z"
       },
-      "last_updated": "2026-05-17T04:42:53.119499+00:00"
+      "last_updated": "2026-05-17T04:42:53.119499+00:00",
+      "readme": {
+        "path": "readmes/CloverLabsAI+camoufox+README.md",
+        "etag": "W/\"45a162854c5190128fe75fc2458812e0f7b7fa40\"",
+        "sha": "45a162854c5190128fe75fc2458812e0f7b7fa40",
+        "size": 34793,
+        "fetched_at": "2026-05-17T04:49:33.069581+00:00",
+        "status": "ok"
+      }
     },
     "daijro/camoufox": {
       "lists": [
@@ -226561,7 +226585,15 @@
         "pushed_at": "2026-05-15T21:16:11Z",
         "starred_at": "2026-05-17T00:01:02Z"
       },
-      "last_updated": "2026-05-17T04:42:53.258074+00:00"
+      "last_updated": "2026-05-17T04:42:53.258074+00:00",
+      "readme": {
+        "path": "readmes/daijro+camoufox+README.md",
+        "etag": "W/\"dd63d4ca29e26af27c176e3780a75343edcc5cd8\"",
+        "sha": "dd63d4ca29e26af27c176e3780a75343edcc5cd8",
+        "size": 34835,
+        "fetched_at": "2026-05-17T04:49:33.957263+00:00",
+        "status": "ok"
+      }
     },
     "ultrafunkamsterdam/undetected-chromedriver": {
       "lists": [
@@ -226583,7 +226615,15 @@
         "pushed_at": "2025-07-05T10:42:02Z",
         "starred_at": "2026-05-17T00:00:37Z"
       },
-      "last_updated": "2026-05-17T04:42:53.428475+00:00"
+      "last_updated": "2026-05-17T04:42:53.428475+00:00",
+      "readme": {
+        "path": "readmes/ultrafunkamsterdam+undetected-chromedriver+README.md",
+        "etag": "W/\"61b17deec4d0475da808a6e7aaa4fcd593f6fc4e\"",
+        "sha": "61b17deec4d0475da808a6e7aaa4fcd593f6fc4e",
+        "size": 77539,
+        "fetched_at": "2026-05-17T04:49:34.540858+00:00",
+        "status": "ok"
+      }
     },
     "AtuboDad/playwright_stealth": {
       "lists": [
@@ -226605,7 +226645,15 @@
         "pushed_at": "2024-07-29T17:34:50Z",
         "starred_at": "2026-05-17T00:00:04Z"
       },
-      "last_updated": "2026-05-17T04:42:53.610791+00:00"
+      "last_updated": "2026-05-17T04:42:53.610791+00:00",
+      "readme": {
+        "path": "readmes/AtuboDad+playwright_stealth+README.md",
+        "etag": "W/\"144dd808c61aef144fd4353d6ddfeb52908ba675\"",
+        "sha": "144dd808c61aef144fd4353d6ddfeb52908ba675",
+        "size": 1542,
+        "fetched_at": "2026-05-17T04:49:32.699722+00:00",
+        "status": "ok"
+      }
     },
     "CloakHQ/CloakBrowser": {
       "lists": [
@@ -226628,7 +226676,15 @@
         "pushed_at": "2026-05-15T19:18:51Z",
         "starred_at": "2026-05-16T23:48:36Z"
       },
-      "last_updated": "2026-05-17T04:42:53.821788+00:00"
+      "last_updated": "2026-05-17T04:42:53.821788+00:00",
+      "readme": {
+        "path": "readmes/CloakHQ+CloakBrowser+README.md",
+        "etag": "W/\"49cda4b532be698bd3d8bea32121340f3471b0a9\"",
+        "sha": "49cda4b532be698bd3d8bea32121340f3471b0a9",
+        "size": 52358,
+        "fetched_at": "2026-05-17T04:49:32.868932+00:00",
+        "status": "ok"
+      }
     },
     "terminalguide/terminalguide": {
       "lists": [
@@ -226650,7 +226706,11 @@
         "pushed_at": "2025-06-03T22:02:39Z",
         "starred_at": "2026-05-16T20:04:10Z"
       },
-      "last_updated": "2026-05-17T04:42:53.999278+00:00"
+      "last_updated": "2026-05-17T04:42:53.999278+00:00",
+      "readme": {
+        "fetched_at": "2026-05-17T04:49:34.336740+00:00",
+        "status": "missing"
+      }
     },
     "YishenTu/claudian": {
       "lists": [
@@ -226673,7 +226733,15 @@
         "pushed_at": "2026-05-16T20:36:23Z",
         "starred_at": "2026-05-16T19:52:56Z"
       },
-      "last_updated": "2026-05-17T04:42:54.187871+00:00"
+      "last_updated": "2026-05-17T04:42:54.187871+00:00",
+      "readme": {
+        "path": "readmes/YishenTu+claudian+README.md",
+        "etag": "W/\"ead3fe106ec10b120fac27e27374a89e39c5b87b\"",
+        "sha": "ead3fe106ec10b120fac27e27374a89e39c5b87b",
+        "size": 8992,
+        "fetched_at": "2026-05-17T04:49:33.606826+00:00",
+        "status": "ok"
+      }
     },
     "coddingtonbear/obsidian-local-rest-api": {
       "lists": [
@@ -226696,7 +226764,15 @@
         "pushed_at": "2026-05-17T02:55:48Z",
         "starred_at": "2026-05-16T19:52:40Z"
       },
-      "last_updated": "2026-05-17T04:42:54.347179+00:00"
+      "last_updated": "2026-05-17T04:42:54.347179+00:00",
+      "readme": {
+        "path": "readmes/coddingtonbear+obsidian-local-rest-api+README.md",
+        "etag": "W/\"0caccad4cad9c65e796bed5583114e899630da60\"",
+        "sha": "0caccad4cad9c65e796bed5583114e899630da60",
+        "size": 12921,
+        "fetched_at": "2026-05-17T04:49:33.783025+00:00",
+        "status": "ok"
+      }
     },
     "NVlabs/Sana": {
       "lists": [
@@ -226719,7 +226795,15 @@
         "pushed_at": "2026-05-16T19:04:13Z",
         "starred_at": "2026-05-16T19:35:45Z"
       },
-      "last_updated": "2026-05-17T04:42:54.511338+00:00"
+      "last_updated": "2026-05-17T04:42:54.511338+00:00",
+      "readme": {
+        "path": "readmes/NVlabs+Sana+README.md",
+        "etag": "W/\"aed2825193cc47b98fa2fff97ba4e536ec5c1984\"",
+        "sha": "aed2825193cc47b98fa2fff97ba4e536ec5c1984",
+        "size": 26217,
+        "fetched_at": "2026-05-17T04:49:33.211964+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
