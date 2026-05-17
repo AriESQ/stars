@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T04:36:38.380566+00:00",
+  "last_updated": "2026-05-17T04:42:54.511461+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226474,6 +226474,226 @@
         "fetched_at": "2026-05-16T04:36:37.711231+00:00",
         "status": "ok"
       }
+    },
+    "noahgolmant/pytorch-hessian-eigenthings": {
+      "lists": [],
+      "metadata": {
+        "id": 155286993,
+        "name": "pytorch-hessian-eigenthings",
+        "full_name": "noahgolmant/pytorch-hessian-eigenthings",
+        "description": "Efficient PyTorch Hessian eigendecomposition tools!",
+        "url": "https://github.com/noahgolmant/pytorch-hessian-eigenthings",
+        "homepage": "",
+        "language": "Python",
+        "stars": 429,
+        "forks": 48,
+        "open_issues": 0,
+        "created_at": "2018-10-29T22:00:22Z",
+        "updated_at": "2026-05-17T04:36:09Z",
+        "pushed_at": "2026-05-14T17:17:51Z",
+        "starred_at": "2026-05-17T00:25:46Z"
+      },
+      "last_updated": "2026-05-17T04:42:52.674793+00:00"
+    },
+    "VulpineOS/VulpineOS": {
+      "lists": [],
+      "metadata": {
+        "id": 1186827548,
+        "name": "VulpineOS",
+        "full_name": "VulpineOS/VulpineOS",
+        "description": "Operate Stealth and Secure OpenClaw Agents at Scale",
+        "url": "https://github.com/VulpineOS/VulpineOS",
+        "homepage": "https://vulpineos.com",
+        "language": "Go",
+        "stars": 39,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-03-20T03:04:55Z",
+        "updated_at": "2026-05-17T00:01:34Z",
+        "pushed_at": "2026-05-16T20:50:55Z",
+        "starred_at": "2026-05-17T00:01:34Z"
+      },
+      "last_updated": "2026-05-17T04:42:52.919717+00:00"
+    },
+    "CloverLabsAI/camoufox": {
+      "lists": [],
+      "metadata": {
+        "id": 1039214127,
+        "name": "camoufox",
+        "full_name": "CloverLabsAI/camoufox",
+        "description": "\ud83e\udd8a Anti-detect browser",
+        "url": "https://github.com/CloverLabsAI/camoufox",
+        "homepage": "https://camoufox.com",
+        "language": "C++",
+        "stars": 187,
+        "forks": 12,
+        "open_issues": 4,
+        "created_at": "2025-08-16T18:12:01Z",
+        "updated_at": "2026-05-17T00:01:22Z",
+        "pushed_at": "2026-05-13T22:39:23Z",
+        "starred_at": "2026-05-17T00:01:22Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.119499+00:00"
+    },
+    "daijro/camoufox": {
+      "lists": [],
+      "metadata": {
+        "id": 834082440,
+        "name": "camoufox",
+        "full_name": "daijro/camoufox",
+        "description": "\ud83e\udd8a Anti-detect browser",
+        "url": "https://github.com/daijro/camoufox",
+        "homepage": "https://camoufox.com",
+        "language": "C++",
+        "stars": 8402,
+        "forks": 712,
+        "open_issues": 257,
+        "created_at": "2024-07-26T11:31:27Z",
+        "updated_at": "2026-05-17T02:53:03Z",
+        "pushed_at": "2026-05-15T21:16:11Z",
+        "starred_at": "2026-05-17T00:01:02Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.258074+00:00"
+    },
+    "ultrafunkamsterdam/undetected-chromedriver": {
+      "lists": [],
+      "metadata": {
+        "id": 229566288,
+        "name": "undetected-chromedriver",
+        "full_name": "ultrafunkamsterdam/undetected-chromedriver",
+        "description": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)",
+        "url": "https://github.com/ultrafunkamsterdam/undetected-chromedriver",
+        "homepage": "https://github.com/UltrafunkAmsterdam/undetected-chromedriver",
+        "language": "Python",
+        "stars": 12631,
+        "forks": 1335,
+        "open_issues": 1144,
+        "created_at": "2019-12-22T12:44:17Z",
+        "updated_at": "2026-05-17T00:00:38Z",
+        "pushed_at": "2025-07-05T10:42:02Z",
+        "starred_at": "2026-05-17T00:00:37Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.428475+00:00"
+    },
+    "AtuboDad/playwright_stealth": {
+      "lists": [],
+      "metadata": {
+        "id": 323511299,
+        "name": "playwright_stealth",
+        "full_name": "AtuboDad/playwright_stealth",
+        "description": "playwright stealth",
+        "url": "https://github.com/AtuboDad/playwright_stealth",
+        "homepage": null,
+        "language": "Python",
+        "stars": 948,
+        "forks": 96,
+        "open_issues": 26,
+        "created_at": "2020-12-22T03:33:51Z",
+        "updated_at": "2026-05-17T00:00:05Z",
+        "pushed_at": "2024-07-29T17:34:50Z",
+        "starred_at": "2026-05-17T00:00:04Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.610791+00:00"
+    },
+    "CloakHQ/CloakBrowser": {
+      "lists": [],
+      "metadata": {
+        "id": 1163834030,
+        "name": "CloakBrowser",
+        "full_name": "CloakHQ/CloakBrowser",
+        "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+        "url": "https://github.com/CloakHQ/CloakBrowser",
+        "homepage": "https://cloakbrowser.dev/",
+        "language": "Python",
+        "stars": 12789,
+        "forks": 989,
+        "open_issues": 69,
+        "created_at": "2026-02-22T08:09:57Z",
+        "updated_at": "2026-05-17T04:37:05Z",
+        "pushed_at": "2026-05-15T19:18:51Z",
+        "starred_at": "2026-05-16T23:48:36Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.821788+00:00"
+    },
+    "terminalguide/terminalguide": {
+      "lists": [],
+      "metadata": {
+        "id": 136522350,
+        "name": "terminalguide",
+        "full_name": "terminalguide/terminalguide",
+        "description": null,
+        "url": "https://github.com/terminalguide/terminalguide",
+        "homepage": "https://terminalguide.namepad.de",
+        "language": "HTML",
+        "stars": 134,
+        "forks": 7,
+        "open_issues": 3,
+        "created_at": "2018-06-07T19:32:57Z",
+        "updated_at": "2026-05-16T20:04:11Z",
+        "pushed_at": "2025-06-03T22:02:39Z",
+        "starred_at": "2026-05-16T20:04:10Z"
+      },
+      "last_updated": "2026-05-17T04:42:53.999278+00:00"
+    },
+    "YishenTu/claudian": {
+      "lists": [],
+      "metadata": {
+        "id": 1110782890,
+        "name": "claudian",
+        "full_name": "YishenTu/claudian",
+        "description": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault",
+        "url": "https://github.com/YishenTu/claudian",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 11319,
+        "forks": 679,
+        "open_issues": 65,
+        "created_at": "2025-12-05T17:58:26Z",
+        "updated_at": "2026-05-17T04:24:49Z",
+        "pushed_at": "2026-05-16T20:36:23Z",
+        "starred_at": "2026-05-16T19:52:56Z"
+      },
+      "last_updated": "2026-05-17T04:42:54.187871+00:00"
+    },
+    "coddingtonbear/obsidian-local-rest-api": {
+      "lists": [],
+      "metadata": {
+        "id": 451732769,
+        "name": "obsidian-local-rest-api",
+        "full_name": "coddingtonbear/obsidian-local-rest-api",
+        "description": "A secure REST API and Model Context Protocol (MCP) server for your vault.",
+        "url": "https://github.com/coddingtonbear/obsidian-local-rest-api",
+        "homepage": "https://coddingtonbear.github.io/obsidian-local-rest-api/",
+        "language": "TypeScript",
+        "stars": 2246,
+        "forks": 266,
+        "open_issues": 1,
+        "created_at": "2022-01-25T04:20:29Z",
+        "updated_at": "2026-05-17T02:55:52Z",
+        "pushed_at": "2026-05-17T02:55:48Z",
+        "starred_at": "2026-05-16T19:52:40Z"
+      },
+      "last_updated": "2026-05-17T04:42:54.347179+00:00"
+    },
+    "NVlabs/Sana": {
+      "lists": [],
+      "metadata": {
+        "id": 871368615,
+        "name": "Sana",
+        "full_name": "NVlabs/Sana",
+        "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+        "url": "https://github.com/NVlabs/Sana",
+        "homepage": "https://nvlabs.github.io/Sana/docs/",
+        "language": "Python",
+        "stars": 5766,
+        "forks": 398,
+        "open_issues": 108,
+        "created_at": "2024-10-11T20:19:45Z",
+        "updated_at": "2026-05-17T04:33:23Z",
+        "pushed_at": "2026-05-16T19:04:13Z",
+        "starred_at": "2026-05-16T19:35:45Z"
+      },
+      "last_updated": "2026-05-17T04:42:54.511338+00:00"
     }
   },
   "last_processed_index": 0,
@@ -226483,5 +226703,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a19a9c34b657b4c76ac768945e300c27bfe09d699bfef5ecec799765fe709ebb\""
+  "profile_etag": "W/\"649a4c2d260373d1098bf22ac716942d0cea5913629be1244dfb935c8e31d5d4\""
 }
