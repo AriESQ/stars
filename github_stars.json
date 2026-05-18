@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T04:49:34.542107+00:00",
+  "last_updated": "2026-05-18T04:49:03.295739+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226804,6 +226804,246 @@
         "fetched_at": "2026-05-17T04:49:33.211964+00:00",
         "status": "ok"
       }
+    },
+    "bottobot/touchdesigner-mcp-server": {
+      "lists": [],
+      "metadata": {
+        "id": 1028313689,
+        "name": "touchdesigner-mcp-server",
+        "full_name": "bottobot/touchdesigner-mcp-server",
+        "description": "TouchDesigner Documentation MCP Server v2.6.1 - FIXED Python API tools! Features 629 operators + 14 tutorials + 69 Python API classes with working get_python_api & search_python_api tools. Zero-configuration setup for VS Code/Codium.",
+        "url": "https://github.com/bottobot/touchdesigner-mcp-server",
+        "homepage": "https://www.npmjs.com/package/@bottobot/td-mcp",
+        "language": "HTML",
+        "stars": 56,
+        "forks": 10,
+        "open_issues": 6,
+        "created_at": "2025-07-29T10:47:42Z",
+        "updated_at": "2026-05-18T02:46:38Z",
+        "pushed_at": "2026-02-24T17:14:08Z",
+        "starred_at": "2026-05-18T02:46:38Z"
+      },
+      "last_updated": "2026-05-18T04:49:01.142359+00:00"
+    },
+    "openclaw/proxyline": {
+      "lists": [],
+      "metadata": {
+        "id": 1232911775,
+        "name": "proxyline",
+        "full_name": "openclaw/proxyline",
+        "description": "Process-global proxy routing for Node.js",
+        "url": "https://github.com/openclaw/proxyline",
+        "homepage": "https://proxyline.dev",
+        "language": "TypeScript",
+        "stars": 12,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-05-08T11:59:22Z",
+        "updated_at": "2026-05-18T02:39:50Z",
+        "pushed_at": "2026-05-18T02:39:46Z",
+        "starred_at": "2026-05-18T00:04:02Z"
+      },
+      "last_updated": "2026-05-18T04:49:01.330430+00:00"
+    },
+    "openclaw/fs-safe": {
+      "lists": [],
+      "metadata": {
+        "id": 1229477561,
+        "name": "fs-safe",
+        "full_name": "openclaw/fs-safe",
+        "description": "Race-resistant root-bounded filesystem primitives for Node.js.",
+        "url": "https://github.com/openclaw/fs-safe",
+        "homepage": "https://fs-safe.io",
+        "language": "TypeScript",
+        "stars": 34,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-05-05T04:47:40Z",
+        "updated_at": "2026-05-18T00:02:51Z",
+        "pushed_at": "2026-05-17T12:18:03Z",
+        "starred_at": "2026-05-18T00:02:50Z"
+      },
+      "last_updated": "2026-05-18T04:49:01.522517+00:00"
+    },
+    "akiomik/mado": {
+      "lists": [],
+      "metadata": {
+        "id": 904238381,
+        "name": "mado",
+        "full_name": "akiomik/mado",
+        "description": "A fast Markdown linter written in Rust.",
+        "url": "https://github.com/akiomik/mado",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 324,
+        "forks": 9,
+        "open_issues": 26,
+        "created_at": "2024-12-16T14:04:34Z",
+        "updated_at": "2026-05-18T03:17:11Z",
+        "pushed_at": "2026-05-11T22:22:55Z",
+        "starred_at": "2026-05-17T23:48:26Z"
+      },
+      "last_updated": "2026-05-18T04:49:01.706523+00:00"
+    },
+    "keijiro/Kino": {
+      "lists": [],
+      "metadata": {
+        "id": 126137396,
+        "name": "Kino",
+        "full_name": "keijiro/Kino",
+        "description": "A collection of custom post processing effects for Unity",
+        "url": "https://github.com/keijiro/Kino",
+        "homepage": "",
+        "language": "C#",
+        "stars": 2376,
+        "forks": 157,
+        "open_issues": 3,
+        "created_at": "2018-03-21T07:06:21Z",
+        "updated_at": "2026-05-17T23:41:06Z",
+        "pushed_at": "2020-11-23T09:18:06Z",
+        "starred_at": "2026-05-17T23:41:06Z"
+      },
+      "last_updated": "2026-05-18T04:49:01.877236+00:00"
+    },
+    "phuchungbhutia/Move-UserFolders": {
+      "lists": [],
+      "metadata": {
+        "id": 965537595,
+        "name": "Move-UserFolders",
+        "full_name": "phuchungbhutia/Move-UserFolders",
+        "description": "A PowerShell script to move default user folders from C:\\ to D:\\ in Windows 11",
+        "url": "https://github.com/phuchungbhutia/Move-UserFolders",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-13T11:41:15Z",
+        "updated_at": "2026-05-17T22:48:33Z",
+        "pushed_at": "2025-04-21T14:25:11Z",
+        "starred_at": "2026-05-17T22:48:32Z"
+      },
+      "last_updated": "2026-05-18T04:49:02.079969+00:00"
+    },
+    "huviagadi/autoeyez": {
+      "lists": [],
+      "metadata": {
+        "id": 1241129939,
+        "name": "autoeyez",
+        "full_name": "huviagadi/autoeyez",
+        "description": "Modular video synthesis system: Teensy MIDI controller + Pi clip mixer + Pi GPU shader processor",
+        "url": "https://github.com/huviagadi/autoeyez",
+        "homepage": null,
+        "language": "C++",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-17T01:55:34Z",
+        "updated_at": "2026-05-17T21:40:49Z",
+        "pushed_at": "2026-05-17T01:55:37Z",
+        "starred_at": "2026-05-17T21:40:48Z"
+      },
+      "last_updated": "2026-05-18T04:49:02.248188+00:00"
+    },
+    "PowerShell/GPRegistryPolicyParser": {
+      "lists": [],
+      "metadata": {
+        "id": 60303486,
+        "name": "GPRegistryPolicyParser",
+        "full_name": "PowerShell/GPRegistryPolicyParser",
+        "description": null,
+        "url": "https://github.com/PowerShell/GPRegistryPolicyParser",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 162,
+        "forks": 36,
+        "open_issues": 1,
+        "created_at": "2016-06-02T23:14:44Z",
+        "updated_at": "2026-05-17T19:13:32Z",
+        "pushed_at": "2023-08-18T17:37:20Z",
+        "starred_at": "2026-05-17T19:13:32Z"
+      },
+      "last_updated": "2026-05-18T04:49:02.488666+00:00"
+    },
+    "microsoft/BaselineManagement": {
+      "lists": [],
+      "metadata": {
+        "id": 84945293,
+        "name": "BaselineManagement",
+        "full_name": "microsoft/BaselineManagement",
+        "description": "Conversion tool used to Convert Group Policy baselines into DSC",
+        "url": "https://github.com/microsoft/BaselineManagement",
+        "homepage": "",
+        "language": "PowerShell",
+        "stars": 273,
+        "forks": 50,
+        "open_issues": 10,
+        "created_at": "2017-03-14T12:15:17Z",
+        "updated_at": "2026-05-17T19:12:25Z",
+        "pushed_at": "2021-08-05T17:07:49Z",
+        "starred_at": "2026-05-17T19:12:24Z"
+      },
+      "last_updated": "2026-05-18T04:49:02.719340+00:00"
+    },
+    "Colinwehrhan/touchdesigner_oscilloscope": {
+      "lists": [],
+      "metadata": {
+        "id": 1238212607,
+        "name": "touchdesigner_oscilloscope",
+        "full_name": "Colinwehrhan/touchdesigner_oscilloscope",
+        "description": "These are some touchdesigner tox's that output to an oscilloscope",
+        "url": "https://github.com/Colinwehrhan/touchdesigner_oscilloscope",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-13T23:24:12Z",
+        "updated_at": "2026-05-17T18:53:43Z",
+        "pushed_at": "2026-05-13T23:26:41Z",
+        "starred_at": "2026-05-17T18:53:43Z"
+      },
+      "last_updated": "2026-05-18T04:49:02.909036+00:00"
+    },
+    "alternbits/awesome-cuda-books": {
+      "lists": [],
+      "metadata": {
+        "id": 1146669892,
+        "name": "awesome-cuda-books",
+        "full_name": "alternbits/awesome-cuda-books",
+        "description": "A curated list of best cuda programming books",
+        "url": "https://github.com/alternbits/awesome-cuda-books",
+        "homepage": "",
+        "language": null,
+        "stars": 402,
+        "forks": 12,
+        "open_issues": 1,
+        "created_at": "2026-01-31T13:38:57Z",
+        "updated_at": "2026-05-18T04:46:14Z",
+        "pushed_at": "2026-05-17T12:51:12Z",
+        "starred_at": "2026-05-17T16:28:20Z"
+      },
+      "last_updated": "2026-05-18T04:49:03.118031+00:00"
+    },
+    "kyuz0/amd-strix-halo-toolboxes": {
+      "lists": [],
+      "metadata": {
+        "id": 1027916580,
+        "name": "amd-strix-halo-toolboxes",
+        "full_name": "kyuz0/amd-strix-halo-toolboxes",
+        "description": null,
+        "url": "https://github.com/kyuz0/amd-strix-halo-toolboxes",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1509,
+        "forks": 155,
+        "open_issues": 44,
+        "created_at": "2025-07-28T18:18:56Z",
+        "updated_at": "2026-05-18T01:33:45Z",
+        "pushed_at": "2026-05-17T10:03:27Z",
+        "starred_at": "2026-05-17T15:58:44Z"
+      },
+      "last_updated": "2026-05-18T04:49:03.295636+00:00"
     }
   },
   "last_processed_index": 0,
@@ -226813,5 +227053,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"649a4c2d260373d1098bf22ac716942d0cea5913629be1244dfb935c8e31d5d4\""
+  "profile_etag": "W/\"9f50d6109d5f2fc61452e1fd5bc02516031b9737eaa2c01838c4f5586859fcc4\""
 }
