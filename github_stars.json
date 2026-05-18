@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T04:49:03.295739+00:00",
+  "last_updated": "2026-05-18T04:56:19.559710+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -226806,7 +226806,10 @@
       }
     },
     "bottobot/touchdesigner-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1028313689,
         "name": "touchdesigner-mcp-server",
@@ -226826,7 +226829,10 @@
       "last_updated": "2026-05-18T04:49:01.142359+00:00"
     },
     "openclaw/proxyline": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1232911775,
         "name": "proxyline",
@@ -226846,7 +226852,10 @@
       "last_updated": "2026-05-18T04:49:01.330430+00:00"
     },
     "openclaw/fs-safe": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1229477561,
         "name": "fs-safe",
@@ -226866,7 +226875,9 @@
       "last_updated": "2026-05-18T04:49:01.522517+00:00"
     },
     "akiomik/mado": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 904238381,
         "name": "mado",
@@ -226886,7 +226897,9 @@
       "last_updated": "2026-05-18T04:49:01.706523+00:00"
     },
     "keijiro/Kino": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 126137396,
         "name": "Kino",
@@ -226906,7 +226919,9 @@
       "last_updated": "2026-05-18T04:49:01.877236+00:00"
     },
     "phuchungbhutia/Move-UserFolders": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 965537595,
         "name": "Move-UserFolders",
@@ -226926,7 +226941,10 @@
       "last_updated": "2026-05-18T04:49:02.079969+00:00"
     },
     "huviagadi/autoeyez": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1241129939,
         "name": "autoeyez",
@@ -226946,7 +226964,9 @@
       "last_updated": "2026-05-18T04:49:02.248188+00:00"
     },
     "PowerShell/GPRegistryPolicyParser": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 60303486,
         "name": "GPRegistryPolicyParser",
@@ -226966,7 +226986,9 @@
       "last_updated": "2026-05-18T04:49:02.488666+00:00"
     },
     "microsoft/BaselineManagement": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 84945293,
         "name": "BaselineManagement",
@@ -226986,7 +227008,9 @@
       "last_updated": "2026-05-18T04:49:02.719340+00:00"
     },
     "Colinwehrhan/touchdesigner_oscilloscope": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1238212607,
         "name": "touchdesigner_oscilloscope",
@@ -227006,7 +227030,9 @@
       "last_updated": "2026-05-18T04:49:02.909036+00:00"
     },
     "alternbits/awesome-cuda-books": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1146669892,
         "name": "awesome-cuda-books",
@@ -227026,7 +227052,9 @@
       "last_updated": "2026-05-18T04:49:03.118031+00:00"
     },
     "kyuz0/amd-strix-halo-toolboxes": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1027916580,
         "name": "amd-strix-halo-toolboxes",
