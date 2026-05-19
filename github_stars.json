@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T04:51:30.715780+00:00",
+  "last_updated": "2026-05-19T04:52:05.748725+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227185,7 +227185,15 @@
         "pushed_at": "2026-05-11T04:01:57Z",
         "starred_at": "2026-05-18T23:33:35Z"
       },
-      "last_updated": "2026-05-19T04:44:45.522505+00:00"
+      "last_updated": "2026-05-19T04:44:45.522505+00:00",
+      "readme": {
+        "path": "readmes/TouchDesigner+CurriculumExamples+readme.md",
+        "etag": "W/\"6260c3aa552afbc7265e6ba24bb44d55989c2003\"",
+        "sha": "6260c3aa552afbc7265e6ba24bb44d55989c2003",
+        "size": 540,
+        "fetched_at": "2026-05-19T04:52:05.138429+00:00",
+        "status": "ok"
+      }
     },
     "archestra-ai/reputation-bot": {
       "lists": [
@@ -227210,7 +227218,15 @@
         "pushed_at": "2026-01-12T23:33:24Z",
         "starred_at": "2026-05-18T21:09:40Z"
       },
-      "last_updated": "2026-05-19T04:44:45.826989+00:00"
+      "last_updated": "2026-05-19T04:44:45.826989+00:00",
+      "readme": {
+        "path": "readmes/archestra-ai+reputation-bot+README.md",
+        "etag": "W/\"a4365932c264cc7a983563d6137fd9825d156229\"",
+        "sha": "a4365932c264cc7a983563d6137fd9825d156229",
+        "size": 4718,
+        "fetched_at": "2026-05-19T04:52:05.416469+00:00",
+        "status": "ok"
+      }
     },
     "1Password/SCAM": {
       "lists": [
@@ -227233,7 +227249,15 @@
         "pushed_at": "2026-02-12T13:56:08Z",
         "starred_at": "2026-05-18T16:49:12Z"
       },
-      "last_updated": "2026-05-19T04:44:46.111053+00:00"
+      "last_updated": "2026-05-19T04:44:46.111053+00:00",
+      "readme": {
+        "path": "readmes/1Password+SCAM+README.md",
+        "etag": "W/\"52ea896722facd7a4c3391c7f032e8d260c85966\"",
+        "sha": "52ea896722facd7a4c3391c7f032e8d260c85966",
+        "size": 4994,
+        "fetched_at": "2026-05-19T04:52:04.799672+00:00",
+        "status": "ok"
+      }
     },
     "gtxaspec/wz_mini_hacks": {
       "lists": [
@@ -227255,7 +227279,15 @@
         "pushed_at": "2024-10-16T03:29:44Z",
         "starred_at": "2026-05-18T15:45:06Z"
       },
-      "last_updated": "2026-05-19T04:44:46.377799+00:00"
+      "last_updated": "2026-05-19T04:44:46.377799+00:00",
+      "readme": {
+        "path": "readmes/gtxaspec+wz_mini_hacks+README.md",
+        "etag": "W/\"66719faa0958abfb013a2fb3e467aa05fa646d99\"",
+        "sha": "66719faa0958abfb013a2fb3e467aa05fa646d99",
+        "size": 5022,
+        "fetched_at": "2026-05-19T04:52:05.742902+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
