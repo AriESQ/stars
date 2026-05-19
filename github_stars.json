@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T04:44:46.377911+00:00",
+  "last_updated": "2026-05-19T04:51:30.715780+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227166,7 +227166,9 @@
       }
     },
     "TouchDesigner/CurriculumExamples": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 489485105,
         "name": "CurriculumExamples",
@@ -227186,7 +227188,12 @@
       "last_updated": "2026-05-19T04:44:45.522505+00:00"
     },
     "archestra-ai/reputation-bot": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1130297970,
         "name": "reputation-bot",
@@ -227206,7 +227213,10 @@
       "last_updated": "2026-05-19T04:44:45.826989+00:00"
     },
     "1Password/SCAM": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1154865289,
         "name": "SCAM",
@@ -227226,7 +227236,9 @@
       "last_updated": "2026-05-19T04:44:46.111053+00:00"
     },
     "gtxaspec/wz_mini_hacks": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 475738859,
         "name": "wz_mini_hacks",
