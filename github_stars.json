@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T04:45:59.114038+00:00",
+  "last_updated": "2026-05-20T04:53:18.045842+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227290,7 +227290,11 @@
       }
     },
     "crossplane-contrib/crossview": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 1105915656,
         "name": "crossview",
@@ -227310,7 +227314,10 @@
       "last_updated": "2026-05-20T04:45:56.937301+00:00"
     },
     "informalsystems/quint": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 371719112,
         "name": "quint",
@@ -227330,7 +227337,10 @@
       "last_updated": "2026-05-20T04:45:57.237650+00:00"
     },
     "wiltodelta/remove-ai-watermarks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1191930807,
         "name": "remove-ai-watermarks",
@@ -227350,7 +227360,9 @@
       "last_updated": "2026-05-20T04:45:57.477134+00:00"
     },
     "MrNeRF/awesome-3D-gaussian-splatting": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 705222810,
         "name": "awesome-3D-gaussian-splatting",
@@ -227370,7 +227382,9 @@
       "last_updated": "2026-05-20T04:45:57.704025+00:00"
     },
     "Asymptote-Labs/agent-beacon": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1236183038,
         "name": "agent-beacon",
@@ -227390,7 +227404,9 @@
       "last_updated": "2026-05-20T04:45:57.959158+00:00"
     },
     "stephenlthorn/auto-identity-remove": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1239781767,
         "name": "auto-identity-remove",
@@ -227410,7 +227426,10 @@
       "last_updated": "2026-05-20T04:45:58.197088+00:00"
     },
     "clark-labs-inc/clark-browser": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1237897310,
         "name": "clark-browser",
@@ -227430,7 +227449,9 @@
       "last_updated": "2026-05-20T04:45:58.448290+00:00"
     },
     "waydabber/m1ddc": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 387003670,
         "name": "m1ddc",
@@ -227450,7 +227471,10 @@
       "last_updated": "2026-05-20T04:45:58.684829+00:00"
     },
     "libkrun/krunvm": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 333174273,
         "name": "krunvm",
