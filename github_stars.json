@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T04:53:18.045842+00:00",
+  "last_updated": "2026-05-20T04:53:51.975942+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227311,7 +227311,15 @@
         "pushed_at": "2026-05-19T19:43:18Z",
         "starred_at": "2026-05-20T03:12:46Z"
       },
-      "last_updated": "2026-05-20T04:45:56.937301+00:00"
+      "last_updated": "2026-05-20T04:45:56.937301+00:00",
+      "readme": {
+        "path": "readmes/crossplane-contrib+crossview+README.md",
+        "etag": "W/\"6aaa9950d3ea92112434635f83dff4dea2b0a861\"",
+        "sha": "6aaa9950d3ea92112434635f83dff4dea2b0a861",
+        "size": 11088,
+        "fetched_at": "2026-05-20T04:53:50.513749+00:00",
+        "status": "ok"
+      }
     },
     "informalsystems/quint": {
       "lists": [
@@ -227334,7 +227342,15 @@
         "pushed_at": "2026-05-05T14:06:51Z",
         "starred_at": "2026-05-20T02:58:25Z"
       },
-      "last_updated": "2026-05-20T04:45:57.237650+00:00"
+      "last_updated": "2026-05-20T04:45:57.237650+00:00",
+      "readme": {
+        "path": "readmes/informalsystems+quint+README.md",
+        "etag": "W/\"6cdab8fc0a8d0e9f6bb9a0d589acd0d79d10e24a\"",
+        "sha": "6cdab8fc0a8d0e9f6bb9a0d589acd0d79d10e24a",
+        "size": 10159,
+        "fetched_at": "2026-05-20T04:53:50.829289+00:00",
+        "status": "ok"
+      }
     },
     "wiltodelta/remove-ai-watermarks": {
       "lists": [
@@ -227357,7 +227373,15 @@
         "pushed_at": "2026-05-18T01:12:58Z",
         "starred_at": "2026-05-20T02:43:22Z"
       },
-      "last_updated": "2026-05-20T04:45:57.477134+00:00"
+      "last_updated": "2026-05-20T04:45:57.477134+00:00",
+      "readme": {
+        "path": "readmes/wiltodelta+remove-ai-watermarks+README.md",
+        "etag": "W/\"4888fca50a2305448b3362ca577fbc87c957d858\"",
+        "sha": "4888fca50a2305448b3362ca577fbc87c957d858",
+        "size": 14156,
+        "fetched_at": "2026-05-20T04:53:51.975003+00:00",
+        "status": "ok"
+      }
     },
     "MrNeRF/awesome-3D-gaussian-splatting": {
       "lists": [
@@ -227379,7 +227403,15 @@
         "pushed_at": "2026-05-07T07:00:55Z",
         "starred_at": "2026-05-19T21:21:02Z"
       },
-      "last_updated": "2026-05-20T04:45:57.704025+00:00"
+      "last_updated": "2026-05-20T04:45:57.704025+00:00",
+      "readme": {
+        "path": "readmes/MrNeRF+awesome-3D-gaussian-splatting+README.md",
+        "etag": "W/\"8941599004f8c5ba0b1786a08dbb42f17e727b0c\"",
+        "sha": "8941599004f8c5ba0b1786a08dbb42f17e727b0c",
+        "size": 17291,
+        "fetched_at": "2026-05-20T04:53:49.822374+00:00",
+        "status": "ok"
+      }
     },
     "Asymptote-Labs/agent-beacon": {
       "lists": [
@@ -227401,7 +227433,15 @@
         "pushed_at": "2026-05-20T01:01:09Z",
         "starred_at": "2026-05-19T20:10:45Z"
       },
-      "last_updated": "2026-05-20T04:45:57.959158+00:00"
+      "last_updated": "2026-05-20T04:45:57.959158+00:00",
+      "readme": {
+        "path": "readmes/Asymptote-Labs+agent-beacon+README.md",
+        "etag": "W/\"b4ca0e4c43f0a9fbf9f2bbd5b86108fa7ec648b9\"",
+        "sha": "b4ca0e4c43f0a9fbf9f2bbd5b86108fa7ec648b9",
+        "size": 6957,
+        "fetched_at": "2026-05-20T04:53:49.516396+00:00",
+        "status": "ok"
+      }
     },
     "stephenlthorn/auto-identity-remove": {
       "lists": [
@@ -227423,7 +227463,15 @@
         "pushed_at": "2026-05-19T18:05:15Z",
         "starred_at": "2026-05-19T06:04:21Z"
       },
-      "last_updated": "2026-05-20T04:45:58.197088+00:00"
+      "last_updated": "2026-05-20T04:45:58.197088+00:00",
+      "readme": {
+        "path": "readmes/stephenlthorn+auto-identity-remove+README.md",
+        "etag": "W/\"31df89fe7d6f52d6d424d5686596fb2e359dcf49\"",
+        "sha": "31df89fe7d6f52d6d424d5686596fb2e359dcf49",
+        "size": 18612,
+        "fetched_at": "2026-05-20T04:53:51.443632+00:00",
+        "status": "ok"
+      }
     },
     "clark-labs-inc/clark-browser": {
       "lists": [
@@ -227446,7 +227494,15 @@
         "pushed_at": "2026-05-18T10:52:04Z",
         "starred_at": "2026-05-19T05:51:02Z"
       },
-      "last_updated": "2026-05-20T04:45:58.448290+00:00"
+      "last_updated": "2026-05-20T04:45:58.448290+00:00",
+      "readme": {
+        "path": "readmes/clark-labs-inc+clark-browser+README.md",
+        "etag": "W/\"2951d91522260be7d574b9d5812b9ce52db429d4\"",
+        "sha": "2951d91522260be7d574b9d5812b9ce52db429d4",
+        "size": 7341,
+        "fetched_at": "2026-05-20T04:53:50.172010+00:00",
+        "status": "ok"
+      }
     },
     "waydabber/m1ddc": {
       "lists": [
@@ -227468,7 +227524,15 @@
         "pushed_at": "2026-04-11T08:01:48Z",
         "starred_at": "2026-05-19T05:48:53Z"
       },
-      "last_updated": "2026-05-20T04:45:58.684829+00:00"
+      "last_updated": "2026-05-20T04:45:58.684829+00:00",
+      "readme": {
+        "path": "readmes/waydabber+m1ddc+README.md",
+        "etag": "W/\"b3e05750d0c8083c3006c98d069e49763abea945\"",
+        "sha": "b3e05750d0c8083c3006c98d069e49763abea945",
+        "size": 7814,
+        "fetched_at": "2026-05-20T04:53:51.705182+00:00",
+        "status": "ok"
+      }
     },
     "libkrun/krunvm": {
       "lists": [
@@ -227491,7 +227555,15 @@
         "pushed_at": "2026-02-09T11:22:20Z",
         "starred_at": "2026-02-03T16:40:14Z"
       },
-      "last_updated": "2026-05-20T04:45:59.114024+00:00"
+      "last_updated": "2026-05-20T04:45:59.114024+00:00",
+      "readme": {
+        "path": "readmes/libkrun+krunvm+README.md",
+        "etag": "W/\"217f13b029a961a3f1a2a0b16d8e165226ff632f\"",
+        "sha": "217f13b029a961a3f1a2a0b16d8e165226ff632f",
+        "size": 1127,
+        "fetched_at": "2026-05-20T04:53:51.113334+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
