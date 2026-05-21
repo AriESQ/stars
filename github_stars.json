@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T04:53:51.975942+00:00",
+  "last_updated": "2026-05-21T04:50:29.845380+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227564,6 +227564,246 @@
         "fetched_at": "2026-05-20T04:53:51.113334+00:00",
         "status": "ok"
       }
+    },
+    "copyleftdev/tailx": {
+      "lists": [],
+      "metadata": {
+        "id": 1189677714,
+        "name": "tailx",
+        "full_name": "copyleftdev/tailx",
+        "description": "Live system cognition engine. Reimagines tail from \"show me lines\" to \"what's happening, what matters, and why?\" Auto-detects log formats, groups patterns, detects anomalies, reconstructs traces, outputs structured JSON for AI agents. 144 KB. Zero config. 69K events/sec.",
+        "url": "https://github.com/copyleftdev/tailx",
+        "homepage": "https://copyleftdev.github.io/tailx/",
+        "language": "Zig",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-23T15:01:43Z",
+        "updated_at": "2026-05-21T02:42:40Z",
+        "pushed_at": "2026-03-23T16:25:42Z",
+        "starred_at": "2026-05-21T02:42:40Z"
+      },
+      "last_updated": "2026-05-21T04:50:26.423000+00:00"
+    },
+    "provos/ironcurtain": {
+      "lists": [],
+      "metadata": {
+        "id": 1163644748,
+        "name": "ironcurtain",
+        "full_name": "provos/ironcurtain",
+        "description": "A secure* runtime for autonomous AI agents. Policy from plain-English constitutions. (*https://ironcurtain.dev)",
+        "url": "https://github.com/provos/ironcurtain",
+        "homepage": "https://ironcurtain.dev",
+        "language": "TypeScript",
+        "stars": 444,
+        "forks": 57,
+        "open_issues": 4,
+        "created_at": "2026-02-21T23:34:31Z",
+        "updated_at": "2026-05-21T01:12:06Z",
+        "pushed_at": "2026-05-20T01:55:45Z",
+        "starred_at": "2026-05-21T01:12:06Z"
+      },
+      "last_updated": "2026-05-21T04:50:26.702026+00:00"
+    },
+    "antoinezambelli/forge": {
+      "lists": [],
+      "metadata": {
+        "id": 1159381774,
+        "name": "forge",
+        "full_name": "antoinezambelli/forge",
+        "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+        "url": "https://github.com/antoinezambelli/forge",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1236,
+        "forks": 59,
+        "open_issues": 14,
+        "created_at": "2026-02-16T16:59:06Z",
+        "updated_at": "2026-05-21T04:39:16Z",
+        "pushed_at": "2026-05-21T04:07:32Z",
+        "starred_at": "2026-05-21T01:06:14Z"
+      },
+      "last_updated": "2026-05-21T04:50:26.983199+00:00"
+    },
+    "thdxg/macterm": {
+      "lists": [],
+      "metadata": {
+        "id": 1208287465,
+        "name": "macterm",
+        "full_name": "thdxg/macterm",
+        "description": "A beautiful, native macOS terminal with vertical tabs",
+        "url": "https://github.com/thdxg/macterm",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 197,
+        "forks": 8,
+        "open_issues": 0,
+        "created_at": "2026-04-12T04:22:18Z",
+        "updated_at": "2026-05-21T00:31:48Z",
+        "pushed_at": "2026-05-21T00:33:42Z",
+        "starred_at": "2026-05-21T00:29:34Z"
+      },
+      "last_updated": "2026-05-21T04:50:27.292216+00:00"
+    },
+    "codingismy11to7/brow6el": {
+      "lists": [],
+      "metadata": {
+        "id": 1142151435,
+        "name": "brow6el",
+        "full_name": "codingismy11to7/brow6el",
+        "description": null,
+        "url": "https://github.com/codingismy11to7/brow6el",
+        "homepage": null,
+        "language": "C++",
+        "stars": 7,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-01-26T02:36:09Z",
+        "updated_at": "2026-05-21T00:29:19Z",
+        "pushed_at": "2026-01-26T02:36:55Z",
+        "starred_at": "2026-05-21T00:29:18Z"
+      },
+      "last_updated": "2026-05-21T04:50:27.568873+00:00"
+    },
+    "webtorrent/wormhole-crypto": {
+      "lists": [],
+      "metadata": {
+        "id": 358381069,
+        "name": "wormhole-crypto",
+        "full_name": "webtorrent/wormhole-crypto",
+        "description": "Streaming encryption for Wormhole.app, based on Encrypted Content-Encoding for HTTP (RFC 8188)",
+        "url": "https://github.com/webtorrent/wormhole-crypto",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 681,
+        "forks": 51,
+        "open_issues": 14,
+        "created_at": "2021-04-15T20:13:35Z",
+        "updated_at": "2026-05-20T22:29:38Z",
+        "pushed_at": "2026-01-23T09:42:22Z",
+        "starred_at": "2026-05-20T22:29:37Z"
+      },
+      "last_updated": "2026-05-21T04:50:27.884059+00:00"
+    },
+    "PowerShell/PSScriptAnalyzer": {
+      "lists": [],
+      "metadata": {
+        "id": 33149177,
+        "name": "PSScriptAnalyzer",
+        "full_name": "PowerShell/PSScriptAnalyzer",
+        "description": "Download ScriptAnalyzer from PowerShellGallery",
+        "url": "https://github.com/PowerShell/PSScriptAnalyzer",
+        "homepage": "https://www.powershellgallery.com/packages/PSScriptAnalyzer/",
+        "language": "C#",
+        "stars": 2116,
+        "forks": 411,
+        "open_issues": 405,
+        "created_at": "2015-03-30T21:26:25Z",
+        "updated_at": "2026-05-20T22:03:51Z",
+        "pushed_at": "2026-05-18T18:34:48Z",
+        "starred_at": "2026-05-20T22:03:51Z"
+      },
+      "last_updated": "2026-05-21T04:50:28.181266+00:00"
+    },
+    "trueforge-org/truecharts": {
+      "lists": [],
+      "metadata": {
+        "id": 323109016,
+        "name": "truecharts",
+        "full_name": "trueforge-org/truecharts",
+        "description": "Community Helm Chart Repository",
+        "url": "https://github.com/trueforge-org/truecharts",
+        "homepage": "https://truecharts.org",
+        "language": "Go Template",
+        "stars": 1342,
+        "forks": 608,
+        "open_issues": 6,
+        "created_at": "2020-12-20T15:56:12Z",
+        "updated_at": "2026-05-21T00:07:59Z",
+        "pushed_at": "2026-05-21T00:07:55Z",
+        "starred_at": "2026-05-20T16:44:40Z"
+      },
+      "last_updated": "2026-05-21T04:50:28.491717+00:00"
+    },
+    "robotmcp/ros-mcp-server": {
+      "lists": [],
+      "metadata": {
+        "id": 964371379,
+        "name": "ros-mcp-server",
+        "full_name": "robotmcp/ros-mcp-server",
+        "description": "Connect AI models like Claude & GPT with robots using MCP and ROS.",
+        "url": "https://github.com/robotmcp/ros-mcp-server",
+        "homepage": "https://robotmcp.ai",
+        "language": "Python",
+        "stars": 1237,
+        "forks": 184,
+        "open_issues": 40,
+        "created_at": "2025-04-11T05:40:09Z",
+        "updated_at": "2026-05-20T16:40:55Z",
+        "pushed_at": "2026-05-20T10:42:27Z",
+        "starred_at": "2026-05-20T16:18:11Z"
+      },
+      "last_updated": "2026-05-21T04:50:28.794232+00:00"
+    },
+    "deadsnakes/docs": {
+      "lists": [],
+      "metadata": {
+        "id": 115258746,
+        "name": "docs",
+        "full_name": "deadsnakes/docs",
+        "description": "Miscellaneous documentation for https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa",
+        "url": "https://github.com/deadsnakes/docs",
+        "homepage": null,
+        "language": null,
+        "stars": 12,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2017-12-24T11:33:27Z",
+        "updated_at": "2026-05-20T15:56:07Z",
+        "pushed_at": "2024-08-14T10:53:32Z",
+        "starred_at": "2026-05-20T15:56:07Z"
+      },
+      "last_updated": "2026-05-21T04:50:29.100346+00:00"
+    },
+    "stripe/veneur": {
+      "lists": [],
+      "metadata": {
+        "id": 55277533,
+        "name": "veneur",
+        "full_name": "stripe/veneur",
+        "description": "A distributed, fault-tolerant pipeline for observability data",
+        "url": "https://github.com/stripe/veneur",
+        "homepage": "",
+        "language": "Go",
+        "stars": 1745,
+        "forks": 176,
+        "open_issues": 62,
+        "created_at": "2016-04-02T04:24:34Z",
+        "updated_at": "2026-05-20T15:33:31Z",
+        "pushed_at": "2024-03-20T18:01:51Z",
+        "starred_at": "2026-05-20T15:33:31Z"
+      },
+      "last_updated": "2026-05-21T04:50:29.375053+00:00"
+    },
+    "astefanutti/shaderbang": {
+      "lists": [],
+      "metadata": {
+        "id": 321704829,
+        "name": "shaderbang",
+        "full_name": "astefanutti/shaderbang",
+        "description": "Shebang for Shaders",
+        "url": "https://github.com/astefanutti/shaderbang",
+        "homepage": "https://ttt.io/glsl-raspberry-pi",
+        "language": "Python",
+        "stars": 118,
+        "forks": 16,
+        "open_issues": 3,
+        "created_at": "2020-12-15T15:12:28Z",
+        "updated_at": "2026-05-20T17:41:53Z",
+        "pushed_at": "2026-05-20T17:40:31Z",
+        "starred_at": "2024-11-04T18:05:58Z"
+      },
+      "last_updated": "2026-05-21T04:50:29.845320+00:00"
     }
   },
   "last_processed_index": 0,
@@ -227573,5 +227813,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ee68f94c6d61f3fcbfd568b8ee3c608981c70ae431db64d89916605094d9c3a3\""
+  "profile_etag": "W/\"48b51f683ee33e57e09ce1390e95d2adc7cce8ad312b4048a718a84a3f5ef0e4\""
 }
