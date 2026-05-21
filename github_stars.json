@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T04:57:36.698600+00:00",
+  "last_updated": "2026-05-21T04:57:53.417940+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227586,7 +227586,15 @@
         "pushed_at": "2026-03-23T16:25:42Z",
         "starred_at": "2026-05-21T02:42:40Z"
       },
-      "last_updated": "2026-05-21T04:50:26.423000+00:00"
+      "last_updated": "2026-05-21T04:50:26.423000+00:00",
+      "readme": {
+        "path": "readmes/copyleftdev+tailx+README.md",
+        "etag": "W/\"f6338d7f94468d170e736fadb0c48ec6003f12da\"",
+        "sha": "f6338d7f94468d170e736fadb0c48ec6003f12da",
+        "size": 10745,
+        "fetched_at": "2026-05-21T04:57:51.833497+00:00",
+        "status": "ok"
+      }
     },
     "provos/ironcurtain": {
       "lists": [
@@ -227609,7 +227617,15 @@
         "pushed_at": "2026-05-20T01:55:45Z",
         "starred_at": "2026-05-21T01:12:06Z"
       },
-      "last_updated": "2026-05-21T04:50:26.702026+00:00"
+      "last_updated": "2026-05-21T04:50:26.702026+00:00",
+      "readme": {
+        "path": "readmes/provos+ironcurtain+README.md",
+        "etag": "W/\"b7413a55cd53168c85602fd3a53ebc410d092c78\"",
+        "sha": "b7413a55cd53168c85602fd3a53ebc410d092c78",
+        "size": 28597,
+        "fetched_at": "2026-05-21T04:57:52.351708+00:00",
+        "status": "ok"
+      }
     },
     "antoinezambelli/forge": {
       "lists": [
@@ -227632,7 +227648,15 @@
         "pushed_at": "2026-05-21T04:07:32Z",
         "starred_at": "2026-05-21T01:06:14Z"
       },
-      "last_updated": "2026-05-21T04:50:26.983199+00:00"
+      "last_updated": "2026-05-21T04:50:26.983199+00:00",
+      "readme": {
+        "path": "readmes/antoinezambelli+forge+README.md",
+        "etag": "W/\"6b1d2741eb047a263716327193ba9da65171ad67\"",
+        "sha": "6b1d2741eb047a263716327193ba9da65171ad67",
+        "size": 10493,
+        "fetched_at": "2026-05-21T04:57:51.178662+00:00",
+        "status": "ok"
+      }
     },
     "thdxg/macterm": {
       "lists": [
@@ -227654,7 +227678,15 @@
         "pushed_at": "2026-05-21T00:33:42Z",
         "starred_at": "2026-05-21T00:29:34Z"
       },
-      "last_updated": "2026-05-21T04:50:27.292216+00:00"
+      "last_updated": "2026-05-21T04:50:27.292216+00:00",
+      "readme": {
+        "path": "readmes/thdxg+macterm+README.md",
+        "etag": "W/\"fa813424c66804ac9468db9b4713b22bfce496c8\"",
+        "sha": "fa813424c66804ac9468db9b4713b22bfce496c8",
+        "size": 6181,
+        "fetched_at": "2026-05-21T04:57:52.950661+00:00",
+        "status": "ok"
+      }
     },
     "codingismy11to7/brow6el": {
       "lists": [
@@ -227676,7 +227708,15 @@
         "pushed_at": "2026-01-26T02:36:55Z",
         "starred_at": "2026-05-21T00:29:18Z"
       },
-      "last_updated": "2026-05-21T04:50:27.568873+00:00"
+      "last_updated": "2026-05-21T04:50:27.568873+00:00",
+      "readme": {
+        "path": "readmes/codingismy11to7+brow6el+README.md",
+        "etag": "W/\"b36444e2af75f866c50b2449253f684c6178c8d4\"",
+        "sha": "b36444e2af75f866c50b2449253f684c6178c8d4",
+        "size": 22460,
+        "fetched_at": "2026-05-21T04:57:51.626508+00:00",
+        "status": "ok"
+      }
     },
     "webtorrent/wormhole-crypto": {
       "lists": [
@@ -227699,7 +227739,15 @@
         "pushed_at": "2026-01-23T09:42:22Z",
         "starred_at": "2026-05-20T22:29:37Z"
       },
-      "last_updated": "2026-05-21T04:50:27.884059+00:00"
+      "last_updated": "2026-05-21T04:50:27.884059+00:00",
+      "readme": {
+        "path": "readmes/webtorrent+wormhole-crypto+README.md",
+        "etag": "W/\"2a4c4d155330c5602031796413d8d9c104ae9652\"",
+        "sha": "2a4c4d155330c5602031796413d8d9c104ae9652",
+        "size": 7623,
+        "fetched_at": "2026-05-21T04:57:53.416877+00:00",
+        "status": "ok"
+      }
     },
     "PowerShell/PSScriptAnalyzer": {
       "lists": [
@@ -227721,7 +227769,15 @@
         "pushed_at": "2026-05-18T18:34:48Z",
         "starred_at": "2026-05-20T22:03:51Z"
       },
-      "last_updated": "2026-05-21T04:50:28.181266+00:00"
+      "last_updated": "2026-05-21T04:50:28.181266+00:00",
+      "readme": {
+        "path": "readmes/PowerShell+PSScriptAnalyzer+README.md",
+        "etag": "W/\"24f2704ffdb344f4783106f9cb78c4db08c479e6\"",
+        "sha": "24f2704ffdb344f4783106f9cb78c4db08c479e6",
+        "size": 8629,
+        "fetched_at": "2026-05-21T04:57:50.987174+00:00",
+        "status": "ok"
+      }
     },
     "trueforge-org/truecharts": {
       "lists": [
@@ -227743,7 +227799,15 @@
         "pushed_at": "2026-05-21T00:07:55Z",
         "starred_at": "2026-05-20T16:44:40Z"
       },
-      "last_updated": "2026-05-21T04:50:28.491717+00:00"
+      "last_updated": "2026-05-21T04:50:28.491717+00:00",
+      "readme": {
+        "path": "readmes/trueforge-org+truecharts+README.md",
+        "etag": "W/\"b0c36dc10f19ce98b12981369bd5c7d878e6b64b\"",
+        "sha": "b0c36dc10f19ce98b12981369bd5c7d878e6b64b",
+        "size": 110217,
+        "fetched_at": "2026-05-21T04:57:53.167937+00:00",
+        "status": "ok"
+      }
     },
     "robotmcp/ros-mcp-server": {
       "lists": [
@@ -227766,7 +227830,15 @@
         "pushed_at": "2026-05-20T10:42:27Z",
         "starred_at": "2026-05-20T16:18:11Z"
       },
-      "last_updated": "2026-05-21T04:50:28.794232+00:00"
+      "last_updated": "2026-05-21T04:50:28.794232+00:00",
+      "readme": {
+        "path": "readmes/robotmcp+ros-mcp-server+README.md",
+        "etag": "W/\"5bc98cde0fea04d10c27ed158969a3f6f87f1b2e\"",
+        "sha": "5bc98cde0fea04d10c27ed158969a3f6f87f1b2e",
+        "size": 4281,
+        "fetched_at": "2026-05-21T04:57:52.541152+00:00",
+        "status": "ok"
+      }
     },
     "deadsnakes/docs": {
       "lists": [
@@ -227788,7 +227860,15 @@
         "pushed_at": "2024-08-14T10:53:32Z",
         "starred_at": "2026-05-20T15:56:07Z"
       },
-      "last_updated": "2026-05-21T04:50:29.100346+00:00"
+      "last_updated": "2026-05-21T04:50:29.100346+00:00",
+      "readme": {
+        "path": "readmes/deadsnakes+docs+README.md",
+        "etag": "W/\"34aad9968ca5c10833f80ab500b04fd4ae555d97\"",
+        "sha": "34aad9968ca5c10833f80ab500b04fd4ae555d97",
+        "size": 180,
+        "fetched_at": "2026-05-21T04:57:52.084761+00:00",
+        "status": "ok"
+      }
     },
     "stripe/veneur": {
       "lists": [
@@ -227811,7 +227891,15 @@
         "pushed_at": "2024-03-20T18:01:51Z",
         "starred_at": "2026-05-20T15:33:31Z"
       },
-      "last_updated": "2026-05-21T04:50:29.375053+00:00"
+      "last_updated": "2026-05-21T04:50:29.375053+00:00",
+      "readme": {
+        "path": "readmes/stripe+veneur+README.md",
+        "etag": "W/\"d84437229ab6f3e30642d0154a3961c8bfc9d472\"",
+        "sha": "d84437229ab6f3e30642d0154a3961c8bfc9d472",
+        "size": 28273,
+        "fetched_at": "2026-05-21T04:57:52.760695+00:00",
+        "status": "ok"
+      }
     },
     "astefanutti/shaderbang": {
       "lists": [
@@ -227834,7 +227922,15 @@
         "pushed_at": "2026-05-20T17:40:31Z",
         "starred_at": "2024-11-04T18:05:58Z"
       },
-      "last_updated": "2026-05-21T04:50:29.845320+00:00"
+      "last_updated": "2026-05-21T04:50:29.845320+00:00",
+      "readme": {
+        "path": "readmes/astefanutti+shaderbang+README.md",
+        "etag": "W/\"26dd8236879fc53b74e31d8de1af1160eb52fb43\"",
+        "sha": "26dd8236879fc53b74e31d8de1af1160eb52fb43",
+        "size": 7542,
+        "fetched_at": "2026-05-21T04:57:51.409677+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
