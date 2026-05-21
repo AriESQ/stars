@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T04:50:29.845380+00:00",
+  "last_updated": "2026-05-21T04:57:36.698600+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227566,7 +227566,10 @@
       }
     },
     "copyleftdev/tailx": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1189677714,
         "name": "tailx",
@@ -227586,7 +227589,10 @@
       "last_updated": "2026-05-21T04:50:26.423000+00:00"
     },
     "provos/ironcurtain": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1163644748,
         "name": "ironcurtain",
@@ -227606,7 +227612,10 @@
       "last_updated": "2026-05-21T04:50:26.702026+00:00"
     },
     "antoinezambelli/forge": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1159381774,
         "name": "forge",
@@ -227626,7 +227635,9 @@
       "last_updated": "2026-05-21T04:50:26.983199+00:00"
     },
     "thdxg/macterm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1208287465,
         "name": "macterm",
@@ -227646,7 +227657,9 @@
       "last_updated": "2026-05-21T04:50:27.292216+00:00"
     },
     "codingismy11to7/brow6el": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1142151435,
         "name": "brow6el",
@@ -227666,7 +227679,10 @@
       "last_updated": "2026-05-21T04:50:27.568873+00:00"
     },
     "webtorrent/wormhole-crypto": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 358381069,
         "name": "wormhole-crypto",
@@ -227686,7 +227702,9 @@
       "last_updated": "2026-05-21T04:50:27.884059+00:00"
     },
     "PowerShell/PSScriptAnalyzer": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 33149177,
         "name": "PSScriptAnalyzer",
@@ -227706,7 +227724,9 @@
       "last_updated": "2026-05-21T04:50:28.181266+00:00"
     },
     "trueforge-org/truecharts": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 323109016,
         "name": "truecharts",
@@ -227726,7 +227746,10 @@
       "last_updated": "2026-05-21T04:50:28.491717+00:00"
     },
     "robotmcp/ros-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 964371379,
         "name": "ros-mcp-server",
@@ -227746,7 +227769,9 @@
       "last_updated": "2026-05-21T04:50:28.794232+00:00"
     },
     "deadsnakes/docs": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 115258746,
         "name": "docs",
@@ -227766,7 +227791,10 @@
       "last_updated": "2026-05-21T04:50:29.100346+00:00"
     },
     "stripe/veneur": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 55277533,
         "name": "veneur",
@@ -227786,7 +227814,10 @@
       "last_updated": "2026-05-21T04:50:29.375053+00:00"
     },
     "astefanutti/shaderbang": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 321704829,
         "name": "shaderbang",
