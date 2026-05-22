@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T04:52:34.971268+00:00",
+  "last_updated": "2026-05-22T04:52:59.456906+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227953,7 +227953,15 @@
         "pushed_at": "2026-05-19T20:23:51Z",
         "starred_at": "2026-05-22T03:52:10Z"
       },
-      "last_updated": "2026-05-22T04:45:34.678251+00:00"
+      "last_updated": "2026-05-22T04:45:34.678251+00:00",
+      "readme": {
+        "path": "readmes/samplaman+layerengine+README.md",
+        "etag": "W/\"c8117396a71085ffd47bdab511616c0523d011ab\"",
+        "sha": "c8117396a71085ffd47bdab511616c0523d011ab",
+        "size": 4071,
+        "fetched_at": "2026-05-22T04:52:59.161948+00:00",
+        "status": "ok"
+      }
     },
     "dlorenc/multiclaude": {
       "lists": [
@@ -227975,7 +227983,15 @@
         "pushed_at": "2026-01-28T23:14:09Z",
         "starred_at": "2026-05-21T22:35:21Z"
       },
-      "last_updated": "2026-05-22T04:45:34.910707+00:00"
+      "last_updated": "2026-05-22T04:45:34.910707+00:00",
+      "readme": {
+        "path": "readmes/dlorenc+multiclaude+README.md",
+        "etag": "W/\"7bd6e35d84f531acde81d19da972752fa1a64389\"",
+        "sha": "7bd6e35d84f531acde81d19da972752fa1a64389",
+        "size": 5937,
+        "fetched_at": "2026-05-22T04:52:58.387230+00:00",
+        "status": "ok"
+      }
     },
     "Simbastack-hq/framedex": {
       "lists": [
@@ -227998,7 +228014,15 @@
         "pushed_at": "2026-05-21T21:21:32Z",
         "starred_at": "2026-05-21T21:54:41Z"
       },
-      "last_updated": "2026-05-22T04:45:35.161788+00:00"
+      "last_updated": "2026-05-22T04:45:35.161788+00:00",
+      "readme": {
+        "path": "readmes/Simbastack-hq+framedex+README.md",
+        "etag": "W/\"68e52f443ba0361e245e0bbb8dabccdefe75c74a\"",
+        "sha": "68e52f443ba0361e245e0bbb8dabccdefe75c74a",
+        "size": 9927,
+        "fetched_at": "2026-05-22T04:52:55.044029+00:00",
+        "status": "ok"
+      }
     },
     "deepinsight/insightface": {
       "lists": [
@@ -228022,7 +228046,15 @@
         "pushed_at": "2026-03-29T11:01:56Z",
         "starred_at": "2026-05-21T21:54:11Z"
       },
-      "last_updated": "2026-05-22T04:45:35.388944+00:00"
+      "last_updated": "2026-05-22T04:45:35.388944+00:00",
+      "readme": {
+        "path": "readmes/deepinsight+insightface+README.md",
+        "etag": "W/\"1087748766014261582feae32b864a8a0ec4f490\"",
+        "sha": "1087748766014261582feae32b864a8a0ec4f490",
+        "size": 14636,
+        "fetched_at": "2026-05-22T04:52:58.093579+00:00",
+        "status": "ok"
+      }
     },
     "pyannote/pyannote-audio": {
       "lists": [
@@ -228046,7 +228078,15 @@
         "pushed_at": "2026-05-19T22:48:29Z",
         "starred_at": "2026-05-21T21:53:53Z"
       },
-      "last_updated": "2026-05-22T04:45:35.654978+00:00"
+      "last_updated": "2026-05-22T04:45:35.654978+00:00",
+      "readme": {
+        "path": "readmes/pyannote+pyannote-audio+README.md",
+        "etag": "W/\"8d64ca7ed05f2a4d20f73f707e1bc7288e41d6ee\"",
+        "sha": "8d64ca7ed05f2a4d20f73f707e1bc7288e41d6ee",
+        "size": 12425,
+        "fetched_at": "2026-05-22T04:52:58.886269+00:00",
+        "status": "ok"
+      }
     },
     "m-bain/whisperX": {
       "lists": [
@@ -228069,7 +228109,15 @@
         "pushed_at": "2026-04-04T06:41:42Z",
         "starred_at": "2026-05-21T21:53:41Z"
       },
-      "last_updated": "2026-05-22T04:45:35.882930+00:00"
+      "last_updated": "2026-05-22T04:45:35.882930+00:00",
+      "readme": {
+        "path": "readmes/m-bain+whisperX+README.md",
+        "etag": "W/\"fe86103573ee749795cb7ce10778a5b257c37d29\"",
+        "sha": "fe86103573ee749795cb7ce10778a5b257c37d29",
+        "size": 15550,
+        "fetched_at": "2026-05-22T04:52:58.638399+00:00",
+        "status": "ok"
+      }
     },
     "apvlv/davinci-resolve-mcp": {
       "lists": [
@@ -228093,7 +228141,15 @@
         "pushed_at": "2026-04-07T02:46:35Z",
         "starred_at": "2026-05-21T21:52:19Z"
       },
-      "last_updated": "2026-05-22T04:45:36.128541+00:00"
+      "last_updated": "2026-05-22T04:45:36.128541+00:00",
+      "readme": {
+        "path": "readmes/apvlv+davinci-resolve-mcp+README.md",
+        "etag": "W/\"c903bdfb7907968b60fdeed552b82b032ce0dd95\"",
+        "sha": "c903bdfb7907968b60fdeed552b82b032ce0dd95",
+        "size": 2503,
+        "fetched_at": "2026-05-22T04:52:55.325595+00:00",
+        "status": "ok"
+      }
     },
     "0xhckr/ghostty-shaders": {
       "lists": [
@@ -228116,7 +228172,15 @@
         "pushed_at": "2026-01-24T09:47:23Z",
         "starred_at": "2026-05-21T18:33:44Z"
       },
-      "last_updated": "2026-05-22T04:45:36.348037+00:00"
+      "last_updated": "2026-05-22T04:45:36.348037+00:00",
+      "readme": {
+        "path": "readmes/0xhckr+ghostty-shaders+Readme.md",
+        "etag": "W/\"3ea6c8774a18452218330066402ff59fb8e640d3\"",
+        "sha": "3ea6c8774a18452218330066402ff59fb8e640d3",
+        "size": 429,
+        "fetched_at": "2026-05-22T04:52:54.806383+00:00",
+        "status": "ok"
+      }
     },
     "ziggy42/epsilon": {
       "lists": [
@@ -228139,7 +228203,15 @@
         "pushed_at": "2026-05-19T21:45:53Z",
         "starred_at": "2026-05-21T14:36:59Z"
       },
-      "last_updated": "2026-05-22T04:45:36.579671+00:00"
+      "last_updated": "2026-05-22T04:45:36.579671+00:00",
+      "readme": {
+        "path": "readmes/ziggy42+epsilon+README.md",
+        "etag": "W/\"40e785c4cc7514c96bfc9588be6609b92f794e79\"",
+        "sha": "40e785c4cc7514c96bfc9588be6609b92f794e79",
+        "size": 4465,
+        "fetched_at": "2026-05-22T04:52:59.456448+00:00",
+        "status": "ok"
+      }
     },
     "bytedance/Lance": {
       "lists": [
@@ -228161,7 +228233,15 @@
         "pushed_at": "2026-05-20T15:32:37Z",
         "starred_at": "2026-05-21T07:25:58Z"
       },
-      "last_updated": "2026-05-22T04:45:36.842698+00:00"
+      "last_updated": "2026-05-22T04:45:36.842698+00:00",
+      "readme": {
+        "path": "readmes/bytedance+Lance+README.md",
+        "etag": "W/\"6bfc26e4c4987e3eb29fa4f8f12fe41e40dacb7e\"",
+        "sha": "6bfc26e4c4987e3eb29fa4f8f12fe41e40dacb7e",
+        "size": 38111,
+        "fetched_at": "2026-05-22T04:52:55.589648+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/actions-upload-pages-artifact": {
       "lists": [
@@ -228186,7 +228266,15 @@
         "pushed_at": "2026-05-21T16:11:43Z",
         "starred_at": "2026-05-12T19:43:59Z"
       },
-      "last_updated": "2026-05-22T04:45:37.120695+00:00"
+      "last_updated": "2026-05-22T04:45:37.120695+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+actions-upload-pages-artifact+README.md",
+        "etag": "W/\"1dd49a230afb64dc9224d8f1851d10579198c4b9\"",
+        "sha": "1dd49a230afb64dc9224d8f1851d10579198c4b9",
+        "size": 874,
+        "fetched_at": "2026-05-22T04:52:56.126175+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/dagger-dagger-for-github": {
       "lists": [
@@ -228212,7 +228300,15 @@
         "pushed_at": "2026-05-21T16:26:22Z",
         "starred_at": "2026-05-12T19:43:10Z"
       },
-      "last_updated": "2026-05-22T04:45:37.374174+00:00"
+      "last_updated": "2026-05-22T04:45:37.374174+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+dagger-dagger-for-github+README.md",
+        "etag": "W/\"1b613f9d35bfe065feb30195c047512b39377347\"",
+        "sha": "1b613f9d35bfe065feb30195c047512b39377347",
+        "size": 782,
+        "fetched_at": "2026-05-22T04:52:57.254276+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/codespell-project-actions-codespell": {
       "lists": [
@@ -228237,7 +228333,15 @@
         "pushed_at": "2026-05-21T16:25:30Z",
         "starred_at": "2026-05-12T19:42:42Z"
       },
-      "last_updated": "2026-05-22T04:45:37.636285+00:00"
+      "last_updated": "2026-05-22T04:45:37.636285+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+codespell-project-actions-codespell+README.md",
+        "etag": "W/\"1ee36ff05615119154da35ba03de0afa274266ba\"",
+        "sha": "1ee36ff05615119154da35ba03de0afa274266ba",
+        "size": 794,
+        "fetched_at": "2026-05-22T04:52:56.676854+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/GrantBirki-json-yaml-validate": {
       "lists": [
@@ -228261,7 +228365,15 @@
         "pushed_at": "2026-05-21T15:56:09Z",
         "starred_at": "2026-05-12T19:42:19Z"
       },
-      "last_updated": "2026-05-22T04:45:37.898434+00:00"
+      "last_updated": "2026-05-22T04:45:37.898434+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+GrantBirki-json-yaml-validate+README.md",
+        "etag": "W/\"910527f431d77c9086f70cb3243f648c327a0b8e\"",
+        "sha": "910527f431d77c9086f70cb3243f648c327a0b8e",
+        "size": 849,
+        "fetched_at": "2026-05-22T04:52:55.829018+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/cschleiden-replace-tokens": {
       "lists": [
@@ -228285,7 +228397,15 @@
         "pushed_at": "2026-05-21T16:25:26Z",
         "starred_at": "2026-05-12T19:42:01Z"
       },
-      "last_updated": "2026-05-22T04:45:38.154038+00:00"
+      "last_updated": "2026-05-22T04:45:38.154038+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+cschleiden-replace-tokens+README.md",
+        "etag": "W/\"2334d10a153e396969cd723c536c5b59dbb72a68\"",
+        "sha": "2334d10a153e396969cd723c536c5b59dbb72a68",
+        "size": 1082,
+        "fetched_at": "2026-05-22T04:52:56.977316+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/planetscale-ghcommit-action": {
       "lists": [
@@ -228309,7 +228429,15 @@
         "pushed_at": "2026-05-21T17:01:26Z",
         "starred_at": "2026-05-12T19:41:38Z"
       },
-      "last_updated": "2026-05-22T04:45:38.421181+00:00"
+      "last_updated": "2026-05-22T04:45:38.421181+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+planetscale-ghcommit-action+README.md",
+        "etag": "W/\"b26a064e39b7b41acaa0ae1c1d57ee2cd8e49cd6\"",
+        "sha": "b26a064e39b7b41acaa0ae1c1d57ee2cd8e49cd6",
+        "size": 1280,
+        "fetched_at": "2026-05-22T04:52:57.538375+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/anchore-scan-action": {
       "lists": [
@@ -228335,7 +228463,15 @@
         "pushed_at": "2026-05-21T16:12:22Z",
         "starred_at": "2026-05-12T19:40:54Z"
       },
-      "last_updated": "2026-05-22T04:45:38.671346+00:00"
+      "last_updated": "2026-05-22T04:45:38.671346+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+anchore-scan-action+README.md",
+        "etag": "W/\"d397e4c277e7a45cf2fe6d8e61646ff44ca6d3e5\"",
+        "sha": "d397e4c277e7a45cf2fe6d8e61646ff44ca6d3e5",
+        "size": 1094,
+        "fetched_at": "2026-05-22T04:52:56.400459+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-actions/psf-black": {
       "lists": [
@@ -228359,7 +228495,15 @@
         "pushed_at": "2026-05-21T17:02:33Z",
         "starred_at": "2026-05-12T19:39:56Z"
       },
-      "last_updated": "2026-05-22T04:45:38.919491+00:00"
+      "last_updated": "2026-05-22T04:45:38.919491+00:00",
+      "readme": {
+        "path": "readmes/chainguard-actions+psf-black+README.md",
+        "etag": "W/\"de181cdf8150b0c81de2d2f04962959cc0021442\"",
+        "sha": "de181cdf8150b0c81de2d2f04962959cc0021442",
+        "size": 444,
+        "fetched_at": "2026-05-22T04:52:57.851461+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
