@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T04:45:38.919517+00:00",
+  "last_updated": "2026-05-22T04:52:34.971268+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -55303,7 +55303,8 @@
     },
     "zerebos/ghostty-config": {
       "lists": [
-        "Linux CLI Tools"
+        "Linux CLI Tools",
+        "JavaScript"
       ],
       "metadata": {
         "id": 847565467,
@@ -227933,7 +227934,9 @@
       }
     },
     "samplaman/layerengine": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1240760165,
         "name": "layerengine",
@@ -227953,7 +227956,9 @@
       "last_updated": "2026-05-22T04:45:34.678251+00:00"
     },
     "dlorenc/multiclaude": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1136993833,
         "name": "multiclaude",
@@ -227973,7 +227978,10 @@
       "last_updated": "2026-05-22T04:45:34.910707+00:00"
     },
     "Simbastack-hq/framedex": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1245826485,
         "name": "framedex",
@@ -227993,7 +228001,11 @@
       "last_updated": "2026-05-22T04:45:35.161788+00:00"
     },
     "deepinsight/insightface": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 102057483,
         "name": "insightface",
@@ -228013,7 +228025,11 @@
       "last_updated": "2026-05-22T04:45:35.388944+00:00"
     },
     "pyannote/pyannote-audio": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 53344691,
         "name": "pyannote-audio",
@@ -228033,7 +228049,10 @@
       "last_updated": "2026-05-22T04:45:35.654978+00:00"
     },
     "m-bain/whisperX": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 576103395,
         "name": "whisperX",
@@ -228053,7 +228072,11 @@
       "last_updated": "2026-05-22T04:45:35.882930+00:00"
     },
     "apvlv/davinci-resolve-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 950529282,
         "name": "davinci-resolve-mcp",
@@ -228073,7 +228096,10 @@
       "last_updated": "2026-05-22T04:45:36.128541+00:00"
     },
     "0xhckr/ghostty-shaders": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 874345122,
         "name": "ghostty-shaders",
@@ -228093,7 +228119,10 @@
       "last_updated": "2026-05-22T04:45:36.348037+00:00"
     },
     "ziggy42/epsilon": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "WASM"
+      ],
       "metadata": {
         "id": 1101936379,
         "name": "epsilon",
@@ -228113,7 +228142,9 @@
       "last_updated": "2026-05-22T04:45:36.579671+00:00"
     },
     "bytedance/Lance": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1239459771,
         "name": "Lance",
@@ -228133,7 +228164,12 @@
       "last_updated": "2026-05-22T04:45:36.842698+00:00"
     },
     "chainguard-actions/actions-upload-pages-artifact": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1212591242,
         "name": "actions-upload-pages-artifact",
@@ -228153,7 +228189,13 @@
       "last_updated": "2026-05-22T04:45:37.120695+00:00"
     },
     "chainguard-actions/dagger-dagger-for-github": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1212586535,
         "name": "dagger-dagger-for-github",
@@ -228173,7 +228215,12 @@
       "last_updated": "2026-05-22T04:45:37.374174+00:00"
     },
     "chainguard-actions/codespell-project-actions-codespell": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1212595324,
         "name": "codespell-project-actions-codespell",
@@ -228193,7 +228240,11 @@
       "last_updated": "2026-05-22T04:45:37.636285+00:00"
     },
     "chainguard-actions/GrantBirki-json-yaml-validate": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1235468261,
         "name": "GrantBirki-json-yaml-validate",
@@ -228213,7 +228264,11 @@
       "last_updated": "2026-05-22T04:45:37.898434+00:00"
     },
     "chainguard-actions/cschleiden-replace-tokens": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1235510056,
         "name": "cschleiden-replace-tokens",
@@ -228233,7 +228288,11 @@
       "last_updated": "2026-05-22T04:45:38.154038+00:00"
     },
     "chainguard-actions/planetscale-ghcommit-action": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1233777945,
         "name": "planetscale-ghcommit-action",
@@ -228253,7 +228312,13 @@
       "last_updated": "2026-05-22T04:45:38.421181+00:00"
     },
     "chainguard-actions/anchore-scan-action": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1235484242,
         "name": "anchore-scan-action",
@@ -228273,7 +228338,11 @@
       "last_updated": "2026-05-22T04:45:38.671346+00:00"
     },
     "chainguard-actions/psf-black": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1212584127,
         "name": "psf-black",
