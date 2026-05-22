@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T04:57:53.417940+00:00",
+  "last_updated": "2026-05-22T04:45:38.919517+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227931,6 +227931,366 @@
         "fetched_at": "2026-05-21T04:57:51.409677+00:00",
         "status": "ok"
       }
+    },
+    "samplaman/layerengine": {
+      "lists": [],
+      "metadata": {
+        "id": 1240760165,
+        "name": "layerengine",
+        "full_name": "samplaman/layerengine",
+        "description": "a granular sampler",
+        "url": "https://github.com/samplaman/layerengine",
+        "homepage": "https://layerengine.org/",
+        "language": "C++",
+        "stars": 8,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-16T14:35:36Z",
+        "updated_at": "2026-05-22T03:52:11Z",
+        "pushed_at": "2026-05-19T20:23:51Z",
+        "starred_at": "2026-05-22T03:52:10Z"
+      },
+      "last_updated": "2026-05-22T04:45:34.678251+00:00"
+    },
+    "dlorenc/multiclaude": {
+      "lists": [],
+      "metadata": {
+        "id": 1136993833,
+        "name": "multiclaude",
+        "full_name": "dlorenc/multiclaude",
+        "description": null,
+        "url": "https://github.com/dlorenc/multiclaude",
+        "homepage": null,
+        "language": "Go",
+        "stars": 548,
+        "forks": 55,
+        "open_issues": 55,
+        "created_at": "2026-01-18T18:15:25Z",
+        "updated_at": "2026-05-21T22:35:22Z",
+        "pushed_at": "2026-01-28T23:14:09Z",
+        "starred_at": "2026-05-21T22:35:21Z"
+      },
+      "last_updated": "2026-05-22T04:45:34.910707+00:00"
+    },
+    "Simbastack-hq/framedex": {
+      "lists": [],
+      "metadata": {
+        "id": 1245826485,
+        "name": "framedex",
+        "full_name": "Simbastack-hq/framedex",
+        "description": "Framedex \u2014 a queryable knowledge base for your video archive",
+        "url": "https://github.com/Simbastack-hq/framedex",
+        "homepage": null,
+        "language": "Python",
+        "stars": 145,
+        "forks": 11,
+        "open_issues": 2,
+        "created_at": "2026-05-21T15:40:10Z",
+        "updated_at": "2026-05-22T04:42:02Z",
+        "pushed_at": "2026-05-21T21:21:32Z",
+        "starred_at": "2026-05-21T21:54:41Z"
+      },
+      "last_updated": "2026-05-22T04:45:35.161788+00:00"
+    },
+    "deepinsight/insightface": {
+      "lists": [],
+      "metadata": {
+        "id": 102057483,
+        "name": "insightface",
+        "full_name": "deepinsight/insightface",
+        "description": "State-of-the-art 2D and 3D Face Analysis Project",
+        "url": "https://github.com/deepinsight/insightface",
+        "homepage": "https://insightface.ai",
+        "language": "Python",
+        "stars": 28765,
+        "forks": 6021,
+        "open_issues": 1263,
+        "created_at": "2017-09-01T00:36:51Z",
+        "updated_at": "2026-05-22T02:29:20Z",
+        "pushed_at": "2026-03-29T11:01:56Z",
+        "starred_at": "2026-05-21T21:54:11Z"
+      },
+      "last_updated": "2026-05-22T04:45:35.388944+00:00"
+    },
+    "pyannote/pyannote-audio": {
+      "lists": [],
+      "metadata": {
+        "id": 53344691,
+        "name": "pyannote-audio",
+        "full_name": "pyannote/pyannote-audio",
+        "description": "Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding ",
+        "url": "https://github.com/pyannote/pyannote-audio",
+        "homepage": "https://www.pyannote.ai",
+        "language": "Jupyter Notebook",
+        "stars": 9963,
+        "forks": 1062,
+        "open_issues": 33,
+        "created_at": "2016-03-07T17:26:15Z",
+        "updated_at": "2026-05-22T03:53:03Z",
+        "pushed_at": "2026-05-19T22:48:29Z",
+        "starred_at": "2026-05-21T21:53:53Z"
+      },
+      "last_updated": "2026-05-22T04:45:35.654978+00:00"
+    },
+    "m-bain/whisperX": {
+      "lists": [],
+      "metadata": {
+        "id": 576103395,
+        "name": "whisperX",
+        "full_name": "m-bain/whisperX",
+        "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+        "url": "https://github.com/m-bain/whisperX",
+        "homepage": "",
+        "language": "Python",
+        "stars": 22022,
+        "forks": 2269,
+        "open_issues": 207,
+        "created_at": "2022-12-09T02:34:23Z",
+        "updated_at": "2026-05-22T03:25:53Z",
+        "pushed_at": "2026-04-04T06:41:42Z",
+        "starred_at": "2026-05-21T21:53:41Z"
+      },
+      "last_updated": "2026-05-22T04:45:35.882930+00:00"
+    },
+    "apvlv/davinci-resolve-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 950529282,
+        "name": "davinci-resolve-mcp",
+        "full_name": "apvlv/davinci-resolve-mcp",
+        "description": "A Model Context Protocol (MCP) server for interacting with DaVinci Resolve and Fusion",
+        "url": "https://github.com/apvlv/davinci-resolve-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 68,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2025-03-18T09:57:25Z",
+        "updated_at": "2026-05-21T21:52:20Z",
+        "pushed_at": "2026-04-07T02:46:35Z",
+        "starred_at": "2026-05-21T21:52:19Z"
+      },
+      "last_updated": "2026-05-22T04:45:36.128541+00:00"
+    },
+    "0xhckr/ghostty-shaders": {
+      "lists": [],
+      "metadata": {
+        "id": 874345122,
+        "name": "ghostty-shaders",
+        "full_name": "0xhckr/ghostty-shaders",
+        "description": "A repository containing many free shaders to use with ghostty (the terminal)",
+        "url": "https://github.com/0xhckr/ghostty-shaders",
+        "homepage": null,
+        "language": "GLSL",
+        "stars": 1352,
+        "forks": 88,
+        "open_issues": 13,
+        "created_at": "2024-10-17T16:56:40Z",
+        "updated_at": "2026-05-21T18:33:45Z",
+        "pushed_at": "2026-01-24T09:47:23Z",
+        "starred_at": "2026-05-21T18:33:44Z"
+      },
+      "last_updated": "2026-05-22T04:45:36.348037+00:00"
+    },
+    "ziggy42/epsilon": {
+      "lists": [],
+      "metadata": {
+        "id": 1101936379,
+        "name": "epsilon",
+        "full_name": "ziggy42/epsilon",
+        "description": "A WASM virtual machine written in Go with 0 dependencies",
+        "url": "https://github.com/ziggy42/epsilon",
+        "homepage": "",
+        "language": "Go",
+        "stars": 428,
+        "forks": 10,
+        "open_issues": 3,
+        "created_at": "2025-11-22T14:14:22Z",
+        "updated_at": "2026-05-21T20:35:17Z",
+        "pushed_at": "2026-05-19T21:45:53Z",
+        "starred_at": "2026-05-21T14:36:59Z"
+      },
+      "last_updated": "2026-05-22T04:45:36.579671+00:00"
+    },
+    "bytedance/Lance": {
+      "lists": [],
+      "metadata": {
+        "id": 1239459771,
+        "name": "Lance",
+        "full_name": "bytedance/Lance",
+        "description": "A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing.",
+        "url": "https://github.com/bytedance/Lance",
+        "homepage": "https://lance-project.github.io",
+        "language": "Python",
+        "stars": 679,
+        "forks": 37,
+        "open_issues": 10,
+        "created_at": "2026-05-15T05:42:08Z",
+        "updated_at": "2026-05-22T04:33:46Z",
+        "pushed_at": "2026-05-20T15:32:37Z",
+        "starred_at": "2026-05-21T07:25:58Z"
+      },
+      "last_updated": "2026-05-22T04:45:36.842698+00:00"
+    },
+    "chainguard-actions/actions-upload-pages-artifact": {
+      "lists": [],
+      "metadata": {
+        "id": 1212591242,
+        "name": "actions-upload-pages-artifact",
+        "full_name": "chainguard-actions/actions-upload-pages-artifact",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/actions-upload-pages-artifact",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:29:36Z",
+        "updated_at": "2026-05-21T16:12:25Z",
+        "pushed_at": "2026-05-21T16:11:43Z",
+        "starred_at": "2026-05-12T19:43:59Z"
+      },
+      "last_updated": "2026-05-22T04:45:37.120695+00:00"
+    },
+    "chainguard-actions/dagger-dagger-for-github": {
+      "lists": [],
+      "metadata": {
+        "id": 1212586535,
+        "name": "dagger-dagger-for-github",
+        "full_name": "chainguard-actions/dagger-dagger-for-github",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/dagger-dagger-for-github",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:24:32Z",
+        "updated_at": "2026-05-21T16:26:27Z",
+        "pushed_at": "2026-05-21T16:26:22Z",
+        "starred_at": "2026-05-12T19:43:10Z"
+      },
+      "last_updated": "2026-05-22T04:45:37.374174+00:00"
+    },
+    "chainguard-actions/codespell-project-actions-codespell": {
+      "lists": [],
+      "metadata": {
+        "id": 1212595324,
+        "name": "codespell-project-actions-codespell",
+        "full_name": "chainguard-actions/codespell-project-actions-codespell",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/codespell-project-actions-codespell",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:34:06Z",
+        "updated_at": "2026-05-21T16:25:47Z",
+        "pushed_at": "2026-05-21T16:25:30Z",
+        "starred_at": "2026-05-12T19:42:42Z"
+      },
+      "last_updated": "2026-05-22T04:45:37.636285+00:00"
+    },
+    "chainguard-actions/GrantBirki-json-yaml-validate": {
+      "lists": [],
+      "metadata": {
+        "id": 1235468261,
+        "name": "GrantBirki-json-yaml-validate",
+        "full_name": "chainguard-actions/GrantBirki-json-yaml-validate",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/GrantBirki-json-yaml-validate",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:00:29Z",
+        "updated_at": "2026-05-21T15:58:30Z",
+        "pushed_at": "2026-05-21T15:56:09Z",
+        "starred_at": "2026-05-12T19:42:19Z"
+      },
+      "last_updated": "2026-05-22T04:45:37.898434+00:00"
+    },
+    "chainguard-actions/cschleiden-replace-tokens": {
+      "lists": [],
+      "metadata": {
+        "id": 1235510056,
+        "name": "cschleiden-replace-tokens",
+        "full_name": "chainguard-actions/cschleiden-replace-tokens",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/cschleiden-replace-tokens",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:50:09Z",
+        "updated_at": "2026-05-21T16:25:30Z",
+        "pushed_at": "2026-05-21T16:25:26Z",
+        "starred_at": "2026-05-12T19:42:01Z"
+      },
+      "last_updated": "2026-05-22T04:45:38.154038+00:00"
+    },
+    "chainguard-actions/planetscale-ghcommit-action": {
+      "lists": [],
+      "metadata": {
+        "id": 1233777945,
+        "name": "planetscale-ghcommit-action",
+        "full_name": "chainguard-actions/planetscale-ghcommit-action",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/planetscale-ghcommit-action",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-09T10:50:20Z",
+        "updated_at": "2026-05-21T17:02:21Z",
+        "pushed_at": "2026-05-21T17:01:26Z",
+        "starred_at": "2026-05-12T19:41:38Z"
+      },
+      "last_updated": "2026-05-22T04:45:38.421181+00:00"
+    },
+    "chainguard-actions/anchore-scan-action": {
+      "lists": [],
+      "metadata": {
+        "id": 1235484242,
+        "name": "anchore-scan-action",
+        "full_name": "chainguard-actions/anchore-scan-action",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/anchore-scan-action",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-11T11:20:09Z",
+        "updated_at": "2026-05-21T16:16:40Z",
+        "pushed_at": "2026-05-21T16:12:22Z",
+        "starred_at": "2026-05-12T19:40:54Z"
+      },
+      "last_updated": "2026-05-22T04:45:38.671346+00:00"
+    },
+    "chainguard-actions/psf-black": {
+      "lists": [],
+      "metadata": {
+        "id": 1212584127,
+        "name": "psf-black",
+        "full_name": "chainguard-actions/psf-black",
+        "description": null,
+        "url": "https://github.com/chainguard-actions/psf-black",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-16T14:22:00Z",
+        "updated_at": "2026-05-21T17:02:29Z",
+        "pushed_at": "2026-05-21T17:02:33Z",
+        "starred_at": "2026-05-12T19:39:56Z"
+      },
+      "last_updated": "2026-05-22T04:45:38.919491+00:00"
     }
   },
   "last_processed_index": 0,
@@ -227940,5 +228300,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"48b51f683ee33e57e09ce1390e95d2adc7cce8ad312b4048a718a84a3f5ef0e4\""
+  "profile_etag": "W/\"ecc7c7f8acb4023dc9221ff168cb570cfafc026f7b6927abecf5afe3cb13d97c\""
 }
