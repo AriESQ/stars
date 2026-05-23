@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T04:32:45.166389+00:00",
+  "last_updated": "2026-05-23T04:35:53.149644+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -208843,7 +208843,10 @@
     },
     "AGWA/git-crypt": {
       "lists": [
-        "Devops"
+        "Devops",
+        "Github Actions",
+        "Infosec",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 7232856,
@@ -218306,7 +218309,8 @@
     "babarot/gh-infra": {
       "lists": [
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 1187322569,
@@ -228506,7 +228510,9 @@
       }
     },
     "pierrecomputer/pierre": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 1060300773,
         "name": "pierre",
@@ -228526,7 +228532,9 @@
       "last_updated": "2026-05-23T04:32:44.658915+00:00"
     },
     "anomalyco/models.dev": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 996360053,
         "name": "models.dev",
@@ -228546,7 +228554,9 @@
       "last_updated": "2026-05-23T04:32:44.821612+00:00"
     },
     "lupinemachines/lupine": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 848600003,
         "name": "lupine",
