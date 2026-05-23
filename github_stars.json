@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T04:52:59.456906+00:00",
+  "last_updated": "2026-05-23T04:32:45.166389+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228504,6 +228504,66 @@
         "fetched_at": "2026-05-22T04:52:57.851461+00:00",
         "status": "ok"
       }
+    },
+    "pierrecomputer/pierre": {
+      "lists": [],
+      "metadata": {
+        "id": 1060300773,
+        "name": "pierre",
+        "full_name": "pierrecomputer/pierre",
+        "description": "pierre\u2019s open source code",
+        "url": "https://github.com/pierrecomputer/pierre",
+        "homepage": "https://pierre.computer",
+        "language": "TypeScript",
+        "stars": 4619,
+        "forks": 123,
+        "open_issues": 54,
+        "created_at": "2025-09-19T17:26:04Z",
+        "updated_at": "2026-05-23T03:47:57Z",
+        "pushed_at": "2026-05-23T00:26:56Z",
+        "starred_at": "2026-05-23T02:16:19Z"
+      },
+      "last_updated": "2026-05-23T04:32:44.658915+00:00"
+    },
+    "anomalyco/models.dev": {
+      "lists": [],
+      "metadata": {
+        "id": 996360053,
+        "name": "models.dev",
+        "full_name": "anomalyco/models.dev",
+        "description": "An open-source database of AI models.",
+        "url": "https://github.com/anomalyco/models.dev",
+        "homepage": "https://models.dev",
+        "language": "TypeScript",
+        "stars": 4024,
+        "forks": 986,
+        "open_issues": 164,
+        "created_at": "2025-06-04T20:51:31Z",
+        "updated_at": "2026-05-23T04:28:22Z",
+        "pushed_at": "2026-05-22T21:58:23Z",
+        "starred_at": "2026-05-22T23:46:53Z"
+      },
+      "last_updated": "2026-05-23T04:32:44.821612+00:00"
+    },
+    "lupinemachines/lupine": {
+      "lists": [],
+      "metadata": {
+        "id": 848600003,
+        "name": "lupine",
+        "full_name": "lupinemachines/lupine",
+        "description": "Lupine is a GPU over IP bridge allowing GPUs on remote machines to be attached to CPU-only machines.",
+        "url": "https://github.com/lupinemachines/lupine",
+        "homepage": "",
+        "language": "C++",
+        "stars": 1859,
+        "forks": 83,
+        "open_issues": 18,
+        "created_at": "2024-08-28T04:02:43Z",
+        "updated_at": "2026-05-23T03:51:51Z",
+        "pushed_at": "2026-05-23T04:00:30Z",
+        "starred_at": "2025-03-27T01:09:35Z"
+      },
+      "last_updated": "2026-05-23T04:32:45.166300+00:00"
     }
   },
   "last_processed_index": 0,
@@ -228513,5 +228573,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ecc7c7f8acb4023dc9221ff168cb570cfafc026f7b6927abecf5afe3cb13d97c\""
+  "profile_etag": "W/\"f89d849e5fd62e4aa8014bc0523d723e4caa28dee5765d5f5b273ce0581f6e76\""
 }
