@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T04:35:53.149644+00:00",
+  "last_updated": "2026-05-23T04:40:09.279052+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228529,7 +228529,15 @@
         "pushed_at": "2026-05-23T00:26:56Z",
         "starred_at": "2026-05-23T02:16:19Z"
       },
-      "last_updated": "2026-05-23T04:32:44.658915+00:00"
+      "last_updated": "2026-05-23T04:32:44.658915+00:00",
+      "readme": {
+        "path": "readmes/pierrecomputer+pierre+README",
+        "etag": "W/\"8be82b15dd8c202b4b54924bb5c4dfa35def67b1\"",
+        "sha": "8be82b15dd8c202b4b54924bb5c4dfa35def67b1",
+        "size": 208,
+        "fetched_at": "2026-05-23T04:40:09.276055+00:00",
+        "status": "ok"
+      }
     },
     "anomalyco/models.dev": {
       "lists": [
@@ -228551,7 +228559,15 @@
         "pushed_at": "2026-05-22T21:58:23Z",
         "starred_at": "2026-05-22T23:46:53Z"
       },
-      "last_updated": "2026-05-23T04:32:44.821612+00:00"
+      "last_updated": "2026-05-23T04:32:44.821612+00:00",
+      "readme": {
+        "path": "readmes/anomalyco+models.dev+README.md",
+        "etag": "W/\"da26c6fdbdc948191862c568d40617f8e3c2ccff\"",
+        "sha": "da26c6fdbdc948191862c568d40617f8e3c2ccff",
+        "size": 10081,
+        "fetched_at": "2026-05-23T04:40:08.568157+00:00",
+        "status": "ok"
+      }
     },
     "lupinemachines/lupine": {
       "lists": [
@@ -228573,7 +228589,15 @@
         "pushed_at": "2026-05-23T04:00:30Z",
         "starred_at": "2025-03-27T01:09:35Z"
       },
-      "last_updated": "2026-05-23T04:32:45.166300+00:00"
+      "last_updated": "2026-05-23T04:32:45.166300+00:00",
+      "readme": {
+        "path": "readmes/lupinemachines+lupine+README.md",
+        "etag": "W/\"d74d47cbb1b7175f79a8ee1f7ac2f43956bd94e0\"",
+        "sha": "d74d47cbb1b7175f79a8ee1f7ac2f43956bd94e0",
+        "size": 9572,
+        "fetched_at": "2026-05-23T04:40:08.929915+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
