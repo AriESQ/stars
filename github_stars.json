@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T04:54:01.483336+00:00",
+  "last_updated": "2026-05-24T04:54:30.236057+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228624,7 +228624,15 @@
         "pushed_at": "2014-12-18T06:15:09Z",
         "starred_at": "2026-05-24T00:13:59Z"
       },
-      "last_updated": "2026-05-24T04:47:28.080865+00:00"
+      "last_updated": "2026-05-24T04:47:28.080865+00:00",
+      "readme": {
+        "path": "readmes/zealtv+TouchDesigner-ISF-parser+README.md",
+        "etag": "W/\"40a03933d76cb198fa5ec24d7a6541c2ed12646c\"",
+        "sha": "40a03933d76cb198fa5ec24d7a6541c2ed12646c",
+        "size": 436,
+        "fetched_at": "2026-05-24T04:54:30.235430+00:00",
+        "status": "ok"
+      }
     },
     "madlitch/mps-ffmpeg": {
       "lists": [
@@ -228646,7 +228654,15 @@
         "pushed_at": "2021-12-29T19:08:08Z",
         "starred_at": "2026-05-23T23:09:50Z"
       },
-      "last_updated": "2026-05-24T04:47:28.416789+00:00"
+      "last_updated": "2026-05-24T04:47:28.416789+00:00",
+      "readme": {
+        "path": "readmes/madlitch+mps-ffmpeg+README.md",
+        "etag": "W/\"f8c23f28700b342f13f553234929e68eb5c7aed2\"",
+        "sha": "f8c23f28700b342f13f553234929e68eb5c7aed2",
+        "size": 1810,
+        "fetched_at": "2026-05-24T04:54:28.493579+00:00",
+        "status": "ok"
+      }
     },
     "rootless-containers/usernetes": {
       "lists": [
@@ -228671,7 +228687,15 @@
         "pushed_at": "2025-12-18T08:15:21Z",
         "starred_at": "2026-05-23T18:26:18Z"
       },
-      "last_updated": "2026-05-24T04:47:28.757773+00:00"
+      "last_updated": "2026-05-24T04:47:28.757773+00:00",
+      "readme": {
+        "path": "readmes/rootless-containers+usernetes+README.md",
+        "etag": "W/\"db1eccce7cf888789e1a10174347f1aabe2dbb63\"",
+        "sha": "db1eccce7cf888789e1a10174347f1aabe2dbb63",
+        "size": 6169,
+        "fetched_at": "2026-05-24T04:54:29.873600+00:00",
+        "status": "ok"
+      }
     },
     "rootless-containers/rootlesskit": {
       "lists": [
@@ -228699,7 +228723,15 @@
         "pushed_at": "2026-05-15T16:46:04Z",
         "starred_at": "2026-05-23T18:23:54Z"
       },
-      "last_updated": "2026-05-24T04:47:29.111765+00:00"
+      "last_updated": "2026-05-24T04:47:29.111765+00:00",
+      "readme": {
+        "path": "readmes/rootless-containers+rootlesskit+README.md",
+        "etag": "W/\"0a506fc175361f3e9aab82a791705c4c93d9182b\"",
+        "sha": "0a506fc175361f3e9aab82a791705c4c93d9182b",
+        "size": 14199,
+        "fetched_at": "2026-05-24T04:54:29.486233+00:00",
+        "status": "ok"
+      }
     },
     "PeteHaughie/Huxley": {
       "lists": [
@@ -228721,7 +228753,15 @@
         "pushed_at": "2026-05-23T23:30:10Z",
         "starred_at": "2026-05-23T18:05:08Z"
       },
-      "last_updated": "2026-05-24T04:47:29.422269+00:00"
+      "last_updated": "2026-05-24T04:47:29.422269+00:00",
+      "readme": {
+        "path": "readmes/PeteHaughie+Huxley+README.md",
+        "etag": "W/\"7cc2117ce7ab576284726d466a8a74924650120e\"",
+        "sha": "7cc2117ce7ab576284726d466a8a74924650120e",
+        "size": 29936,
+        "fetched_at": "2026-05-24T04:54:27.702995+00:00",
+        "status": "ok"
+      }
     },
     "offlineartisan/TouchDesigner-OKLCH": {
       "lists": [
@@ -228743,7 +228783,15 @@
         "pushed_at": "2025-12-05T22:22:38Z",
         "starred_at": "2026-05-23T17:44:02Z"
       },
-      "last_updated": "2026-05-24T04:47:29.785636+00:00"
+      "last_updated": "2026-05-24T04:47:29.785636+00:00",
+      "readme": {
+        "path": "readmes/offlineartisan+TouchDesigner-OKLCH+README.md",
+        "etag": "W/\"97bc0351165978caa556018c722a453bfa08b0ba\"",
+        "sha": "97bc0351165978caa556018c722a453bfa08b0ba",
+        "size": 1861,
+        "fetched_at": "2026-05-24T04:54:29.180215+00:00",
+        "status": "ok"
+      }
     },
     "matt1398/claude-devtools": {
       "lists": [
@@ -228765,7 +228813,15 @@
         "pushed_at": "2026-05-13T21:40:54Z",
         "starred_at": "2026-05-23T05:37:28Z"
       },
-      "last_updated": "2026-05-24T04:47:30.114252+00:00"
+      "last_updated": "2026-05-24T04:47:30.114252+00:00",
+      "readme": {
+        "path": "readmes/matt1398+claude-devtools+README.md",
+        "etag": "W/\"3f979ea26111b4ccd53ad4a41f903a5b381737df\"",
+        "sha": "3f979ea26111b4ccd53ad4a41f903a5b381737df",
+        "size": 13434,
+        "fetched_at": "2026-05-24T04:54:28.822652+00:00",
+        "status": "ok"
+      }
     },
     "floneum/kalosm": {
       "lists": [
@@ -228788,7 +228844,15 @@
         "pushed_at": "2026-05-24T03:01:57Z",
         "starred_at": "2024-10-12T03:08:29Z"
       },
-      "last_updated": "2026-05-24T04:47:30.633635+00:00"
+      "last_updated": "2026-05-24T04:47:30.633635+00:00",
+      "readme": {
+        "path": "readmes/floneum+kalosm+README.md",
+        "etag": "W/\"db14f17b2ff2af5f222aaeb50bedeed4c4f1876f\"",
+        "sha": "db14f17b2ff2af5f222aaeb50bedeed4c4f1876f",
+        "size": 8575,
+        "fetched_at": "2026-05-24T04:54:28.096155+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
