@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T04:47:30.633667+00:00",
+  "last_updated": "2026-05-24T04:54:01.483336+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -25002,7 +25002,12 @@
     "rootless-containers/slirp4netns": {
       "lists": [
         "Docker and OCI containers",
-        "Networking"
+        "Networking",
+        "CI/CD",
+        "Devops",
+        "Infosec",
+        "K8S - Kubernetes",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 140418870,
@@ -228600,7 +228605,9 @@
       }
     },
     "zealtv/TouchDesigner-ISF-parser": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 28117307,
         "name": "TouchDesigner-ISF-parser",
@@ -228620,7 +228627,9 @@
       "last_updated": "2026-05-24T04:47:28.080865+00:00"
     },
     "madlitch/mps-ffmpeg": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 442844065,
         "name": "mps-ffmpeg",
@@ -228640,7 +228649,12 @@
       "last_updated": "2026-05-24T04:47:28.416789+00:00"
     },
     "rootless-containers/usernetes": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Infosec",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 141435447,
         "name": "usernetes",
@@ -228660,7 +228674,15 @@
       "last_updated": "2026-05-24T04:47:28.757773+00:00"
     },
     "rootless-containers/rootlesskit": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "GoLang",
+        "Infosec",
+        "K8S - Kubernetes",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 135564955,
         "name": "rootlesskit",
@@ -228680,7 +228702,9 @@
       "last_updated": "2026-05-24T04:47:29.111765+00:00"
     },
     "PeteHaughie/Huxley": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1238733356,
         "name": "Huxley",
@@ -228700,7 +228724,9 @@
       "last_updated": "2026-05-24T04:47:29.422269+00:00"
     },
     "offlineartisan/TouchDesigner-OKLCH": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1109569356,
         "name": "TouchDesigner-OKLCH",
@@ -228720,7 +228746,9 @@
       "last_updated": "2026-05-24T04:47:29.785636+00:00"
     },
     "matt1398/claude-devtools": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1152166697,
         "name": "claude-devtools",
@@ -228740,7 +228768,10 @@
       "last_updated": "2026-05-24T04:47:30.114252+00:00"
     },
     "floneum/kalosm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 644995806,
         "name": "kalosm",
