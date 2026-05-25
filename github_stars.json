@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T04:59:54.095579+00:00",
+  "last_updated": "2026-05-25T05:00:58.116048+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228874,7 +228874,15 @@
         "pushed_at": "2026-05-22T21:04:48Z",
         "starred_at": "2026-05-24T21:24:30Z"
       },
-      "last_updated": "2026-05-25T04:52:45.615865+00:00"
+      "last_updated": "2026-05-25T04:52:45.615865+00:00",
+      "readme": {
+        "path": "readmes/ClickHouse+silk+README.md",
+        "etag": "W/\"c17736b8b4e4c90b119b65d5f70ef73557a6c158\"",
+        "sha": "c17736b8b4e4c90b119b65d5f70ef73557a6c158",
+        "size": 11571,
+        "fetched_at": "2026-05-25T05:00:57.441775+00:00",
+        "status": "ok"
+      }
     },
     "swellweb/targetBridge": {
       "lists": [
@@ -228898,7 +228906,15 @@
         "pushed_at": "2026-05-24T17:04:07Z",
         "starred_at": "2026-05-24T18:56:43Z"
       },
-      "last_updated": "2026-05-25T04:52:45.778802+00:00"
+      "last_updated": "2026-05-25T04:52:45.778802+00:00",
+      "readme": {
+        "path": "readmes/swellweb+targetBridge+README.md",
+        "etag": "W/\"2d4d3060d7b389ee46ef9adcce84296811b9e4cf\"",
+        "sha": "2d4d3060d7b389ee46ef9adcce84296811b9e4cf",
+        "size": 3709,
+        "fetched_at": "2026-05-25T05:00:58.113839+00:00",
+        "status": "ok"
+      }
     },
     "open-gitagent/opengap": {
       "lists": [
@@ -228921,7 +228937,15 @@
         "pushed_at": "2026-05-24T17:31:52Z",
         "starred_at": "2026-03-14T19:11:50Z"
       },
-      "last_updated": "2026-05-25T04:52:46.176615+00:00"
+      "last_updated": "2026-05-25T04:52:46.176615+00:00",
+      "readme": {
+        "path": "readmes/open-gitagent+opengap+README.md",
+        "etag": "W/\"5de015451f81c1b44dd9ca2f6de7ad8513f4df5f\"",
+        "sha": "5de015451f81c1b44dd9ca2f6de7ad8513f4df5f",
+        "size": 18551,
+        "fetched_at": "2026-05-25T05:00:57.752479+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
