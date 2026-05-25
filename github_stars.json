@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T04:52:46.176673+00:00",
+  "last_updated": "2026-05-25T04:59:54.095579+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228855,7 +228855,9 @@
       }
     },
     "ClickHouse/silk": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 1229759047,
         "name": "silk",
@@ -228875,7 +228877,11 @@
       "last_updated": "2026-05-25T04:52:45.615865+00:00"
     },
     "swellweb/targetBridge": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1238710992,
         "name": "targetBridge",
@@ -228895,7 +228901,10 @@
       "last_updated": "2026-05-25T04:52:45.778802+00:00"
     },
     "open-gitagent/opengap": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1165855406,
         "name": "opengap",
