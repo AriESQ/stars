@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T04:54:30.236057+00:00",
+  "last_updated": "2026-05-25T04:52:46.176673+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228853,6 +228853,66 @@
         "fetched_at": "2026-05-24T04:54:28.096155+00:00",
         "status": "ok"
       }
+    },
+    "ClickHouse/silk": {
+      "lists": [],
+      "metadata": {
+        "id": 1229759047,
+        "name": "silk",
+        "full_name": "ClickHouse/silk",
+        "description": "Fast stackful fibers with a NUMA-aware work-stealing scheduler",
+        "url": "https://github.com/ClickHouse/silk",
+        "homepage": null,
+        "language": "C++",
+        "stars": 152,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-05-05T11:03:38Z",
+        "updated_at": "2026-05-25T03:43:19Z",
+        "pushed_at": "2026-05-22T21:04:48Z",
+        "starred_at": "2026-05-24T21:24:30Z"
+      },
+      "last_updated": "2026-05-25T04:52:45.615865+00:00"
+    },
+    "swellweb/targetBridge": {
+      "lists": [],
+      "metadata": {
+        "id": 1238710992,
+        "name": "targetBridge",
+        "full_name": "swellweb/targetBridge",
+        "description": "Use your Intel iMac as an external display for Apple Silicon Macs \u2014 free, open source, via Thunderbolt Bridge",
+        "url": "https://github.com/swellweb/targetBridge",
+        "homepage": "https://github.com/swellweb/targetBridge/releases",
+        "language": "Swift",
+        "stars": 102,
+        "forks": 13,
+        "open_issues": 20,
+        "created_at": "2026-05-14T11:30:27Z",
+        "updated_at": "2026-05-25T03:26:01Z",
+        "pushed_at": "2026-05-24T17:04:07Z",
+        "starred_at": "2026-05-24T18:56:43Z"
+      },
+      "last_updated": "2026-05-25T04:52:45.778802+00:00"
+    },
+    "open-gitagent/opengap": {
+      "lists": [],
+      "metadata": {
+        "id": 1165855406,
+        "name": "opengap",
+        "full_name": "open-gitagent/opengap",
+        "description": "A framework-agnostic, git-native standard for defining AI agents",
+        "url": "https://github.com/open-gitagent/opengap",
+        "homepage": "https://gitagent.sh",
+        "language": "TypeScript",
+        "stars": 2789,
+        "forks": 336,
+        "open_issues": 12,
+        "created_at": "2026-02-24T16:08:24Z",
+        "updated_at": "2026-05-24T17:31:55Z",
+        "pushed_at": "2026-05-24T17:31:52Z",
+        "starred_at": "2026-03-14T19:11:50Z"
+      },
+      "last_updated": "2026-05-25T04:52:46.176615+00:00"
     }
   },
   "last_processed_index": 0,
@@ -228862,5 +228922,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f401620bc6e0a2019295c5fb1e7ae433d05aa427d51f5cfca50118956d4fb58a\""
+  "profile_etag": "W/\"2274f1080a09b7b4c29f2df6f90d10344c3bbff4a3e3f6335bd9181b9f52f6d5\""
 }
