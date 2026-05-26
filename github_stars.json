@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T04:48:37.086446+00:00",
+  "last_updated": "2026-05-26T04:53:05.386507+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228967,7 +228967,15 @@
         "pushed_at": "2026-05-25T16:46:32Z",
         "starred_at": "2026-05-25T18:38:29Z"
       },
-      "last_updated": "2026-05-26T04:44:48.474279+00:00"
+      "last_updated": "2026-05-26T04:44:48.474279+00:00",
+      "readme": {
+        "path": "readmes/esengine+DeepSeek-Reasonix+README.md",
+        "etag": "W/\"af256e406cd3ba58c22782997c932e7bf0dad813\"",
+        "sha": "af256e406cd3ba58c22782997c932e7bf0dad813",
+        "size": 20246,
+        "fetched_at": "2026-05-26T04:53:04.890286+00:00",
+        "status": "ok"
+      }
     },
     "intel/cve-bin-tool-action": {
       "lists": [
@@ -228991,7 +228999,15 @@
         "pushed_at": "2026-05-18T17:49:05Z",
         "starred_at": "2026-05-25T05:10:30Z"
       },
-      "last_updated": "2026-05-26T04:44:48.662339+00:00"
+      "last_updated": "2026-05-26T04:44:48.662339+00:00",
+      "readme": {
+        "path": "readmes/intel+cve-bin-tool-action+README.md",
+        "etag": "W/\"c02e8e1798626ca457244a3594e48a0219223ce9\"",
+        "sha": "c02e8e1798626ca457244a3594e48a0219223ce9",
+        "size": 5757,
+        "fetched_at": "2026-05-26T04:53:05.138753+00:00",
+        "status": "ok"
+      }
     },
     "microsoft/foundry-toolkit": {
       "lists": [
@@ -229013,7 +229029,15 @@
         "pushed_at": "2026-05-25T06:50:39Z",
         "starred_at": "2023-12-14T05:04:49Z"
       },
-      "last_updated": "2026-05-26T04:44:49.054349+00:00"
+      "last_updated": "2026-05-26T04:44:49.054349+00:00",
+      "readme": {
+        "path": "readmes/microsoft+foundry-toolkit+README.md",
+        "etag": "W/\"71fc2af3c26a24f719883e1925ee4d8238877aa6\"",
+        "sha": "71fc2af3c26a24f719883e1925ee4d8238877aa6",
+        "size": 7515,
+        "fetched_at": "2026-05-26T04:53:05.374308+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
