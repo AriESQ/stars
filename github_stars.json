@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T04:44:49.054440+00:00",
+  "last_updated": "2026-05-26T04:48:37.086446+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -228948,7 +228948,9 @@
       }
     },
     "esengine/DeepSeek-Reasonix": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1216785679,
         "name": "DeepSeek-Reasonix",
@@ -228968,7 +228970,11 @@
       "last_updated": "2026-05-26T04:44:48.474279+00:00"
     },
     "intel/cve-bin-tool-action": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 649874164,
         "name": "cve-bin-tool-action",
@@ -228988,7 +228994,9 @@
       "last_updated": "2026-05-26T04:44:48.662339+00:00"
     },
     "microsoft/foundry-toolkit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 729302588,
         "name": "foundry-toolkit",
