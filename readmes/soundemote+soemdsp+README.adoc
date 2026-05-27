@@ -1,0 +1,241 @@
+# ⋆⁺₊✧ soemdsp ✧₊⁺⋆ Library Guide 
+
+https://mit-license.org/
+
+```rust
+// library version 0.1.0
+/* #include <soemdsp.hpp> for basics */
+/* see each folder and include individual components */
+📁 additive   : array of oscillators usually sinewaves (very much wip)
+📁 delay      : time based dsp
+📁 dynamics   : amplitude based dsp
+📁 envelope   : single cycle waveform
+📁 filter     : time based harmonic fx
+📁 modulator  : complex non-repeating waveform
+📁 musical    : beats, tempo, time signature
+📁 oscillator : repeating waveform
+📁 plugin     : user interface math
+📁 random     : simple non-repeating waveforms
+📁 timer      : trigger event on start/stop
+```
+```markdown
+## Coding Style
+* //comment (no spaces after //)
+* CamelCaseClass(){}; CamelCaseClass.hpp/cpp lowercasefile.hpp
+* something_to_something classmember_ longClassMember_ classFunction()
+* `static_cast<everything>` where applicable instead of indirection schemes
+* double is the only type allowed
+```
+
+## not allowed
+* NO! polluting global namespace
+* NEVER! `using`
+* NO! default switch statements
+* MUST! use `default: debug::FAIL();`
+* NO! constructors that take parameters, you may do constructor stuff in a custom constructor.
+* NO! get/set function (use `foobarChanged()` instead)
+* NO! using frequency/pitch/samplerate when you could use a simple increment value
+* NO! macros.
+* NO! NO! NO! pome💔granates. 
+```rust
+# must
+* MUST! comment every foobarChanged() function with the corresponding variable/parameter name
+* MUST! add metadata descriptions for every parameter with its intended ranges and usage
+* MUST! add  /*&*/ to reference functions, i.e. sincos(in, /*&*/ myout1, /*&*/ myout2)
+```
+### dsp class format
+```rust
+* use `struct` for DSP classes, `class` when the struct is departing from low level DSP class
+* Denote what change function each parameter requires.
+* Connections are a convenient optional.
+* use an appropriate namespace such as filter, delay, etc.
+* io -> functions, init/reset/isIdle/run
+* parametersChanged functions linked closely with changing variable and dsp value
+* coefficients : variables that shan't be directly manipulated
+* objects : all dsp objects in one place 🌃
+```
+# Files
+```markdown
+### `sehelper.hpp`
+* globals, logging
+
+### `semath.hpp`
+* convert, crossfade, wraparound, pitch, frequency, primes
+
+### `semidi.hpp`
+* midi message to useful values and strings
+
+### `SampleRate.hpp`
+* a single master object that keeps track of samplerate, blocksize, and converting between sample time and real time.
+
+### `Wire.hpp`
+* arbitrary sharing & modification of final value used in dsp objects
+
+### `plugin/DirtyUpdater.hpp`
+* run callbacks of object only when needed
+
+### `plugin/SmootherManager.hpp`
+* run the given smoother and callback of objects for each smoothed value change
+* smoother object flips a bool when it has reached value
+* manager cleans based on reading said bool
+
+### `oscillator/Phasor.hpp`
+* object manages phase and increment based on frequency (for controlling oscillators)
+
+### `oscillator/PolyBLEP.hpp`
+* Polynomial BandLimitEd steP oscillator with morphable shapes
+
+### `oscillator/SineWavetable.hpp`
+* wavetable method of fast sine calculations 
+
+### `modulator/WowAndFlutter.hpp`
+* smooth random based on the idea of wow and flutter patterns 📼
+
+### `dynamics/EarProtector.hpp`
+* detects and mutes runaway signals
+
+### `timer/SampleAndHold.hpp`
+* samples and holds at regular intervals an incoming signal or outgoing random
+
+```
+
+## Example class
+```cpp
+// include/soemdsp/delay/Reverb.hpp  <- file location
+// <soemdsp/delay/Reverb.hpp>        <- how to include this file
+// soemdsp::delay::Reverb reverb;    <- how to call
+#pragma once
+
+#include <soemdsp/delay/ModulatedDelay.hpp>
+#include <soemdsp/dynamics/SilenceDetector.hpp>
+#include <soemdsp/dynamics/SoftClipper.hpp>
+#include <soemdsp/filter/MultiStageFilter.hpp>
+#include <soemdsp/filter/OnePoleFilter.hpp>
+#include <soemdsp/random/Random.hpp>
+#include <soemdsp/timer/Counter.hpp>
+
+namespace soemdsp::delay {
+struct Reverb {
+    Reverb() {
+        init();
+    }
+
+    enum class EchoMode {
+        PostDelay,
+        PreDelay,
+        Slapback
+    };
+
+    // io
+    void connect(); // populate Wires by linking to the needed parameter which the rest of the plugin will derive values from, then run this to connect parameters to the other dsp objects
+    void init();
+    void reset();
+    void runWithIdleDetection(double inL, double inR);
+    double inL_{}, inR_{};   // input signal
+    double fbL_{}, fbR_{};   // feedback signal
+    double outL_{}, outR_{}; // output signal
+    double dryL_{}, dryR_{}; // dry only signal with dry/wet adjustment
+    double wetL_{}, wetR_{}; // wet only signal with dry/wet adjustment
+
+    // settings
+    const double MAX_DELAY_SECONDS{ 4.0 };
+
+    // parameters
+    void sampleRateChanged();        // bufferSize
+    void numDelaysChanged();         // numDelays_
+    void echoTimeChanged();          // echoTime_
+    void diffusionSizeChanged();     // diffusionSize_
+    void diffusionSeedChanged();     // call this for global random seed change
+    void lfoFrequencyChanged();      // lfoFrequency_, lfoVariation_
+    void lfoVariationChanged();      // lfoVariation_
+    void doModulateEchoChanged();    // doModulateEcho_
+    void clippingThresholdChanged(); // clippingThreshold_
+
+    /* GAIN */
+    Wire<double> mix_{ 0.43 };              // 0.0 to 1.0
+    Wire<double> clippingThreshold_{ 1.0 }; // 0.0 to 2.0 controls clipping threshold TODO: find a better name
+    Wire<double> volume_;                   // 0.0 to 2.0 amplitude for entire output
+    /* LFO */
+    Wire<double> lfoAmp_;
+    Wire<double> lfoFrequency_{ 0.83 };  // 0.0 to half samplerate
+    Wire<double> lfoVariation_{ 0.001 }; // 0.0 to 1.0 controls randomized lfo phase range
+    /* ECHO */
+    Wire<double> echoTime_{ 1.0 }; // 0.0 to MAX_DELAY_SECONDS controls echos' delay times
+    Wire<double> recycle_{ 0.5 };  // 0.0 to 2.0 feedback for echo amplitude after clipping
+    Wire<int> echoMode_;           // uses EchoMode enum
+    Wire<int> doModulateEcho_;     // 0 or 1
+    /* DIFFUSION */
+    Wire<int> numDelays_{ 10 };            // 0 to 50, number of delays to use for diffusion
+    Wire<double> diffusionSize_{ 0.35 };   // 0.0 to 1.0 controls diffusion delay times
+    Wire<double> diffusionAmount_{ 0.70 }; // 0.0 to 1.0 controls diffusion feedback gain
+
+    // coefficients
+    Wire<int> bufferSize_{ toInt(SampleRate::freq_ * MAX_DELAY_SECONDS) };
+    double feedbackCompensation_{};
+
+    // objects
+    std::vector<ModulatedDelay> delaysL_{}; // diffusion delays DO NOT INCREASE SIZE VIA RESIZE, construct from scratch!
+    std::vector<ModulatedDelay> delaysR_{}; // diffusion delays DO NOT INCREASE SIZE VIA RESIZE, construct from scratch!
+    ModulatedDelay echoDelayL_, echoDelayR_;
+
+    filter::StereoMultiStageFilter lpf_, hpf_, peak_;
+    filter::OnePoleHP hpfL_, hpfR_;
+    dynamics::SoftClipper clipperL_;
+    dynamics::SoftClipper clipperR_;
+    dynamics::SilenceDetector silenceDetector_;
+};
+} // namespace soemdsp::delay
+```
+## Function Names
+* `run([double input]);` The main function that calculates the very final audio sample or does the work, usually used in a per-sample block. If there are multiple run functions, name them with the format of `runFoo()` `runBar()` where only one is required to be called.
+* `foobarChanged();` variable update
+* avoid get/set
+* `isIdle();` idle check
+* `reset();` the general reset function
+* `calculateState();` If able, for saving CPU, separate out the per-sample function into `run()` and `calculateState()`.
+* `getModeString();` output the string that corresponds to the current slope/shape/mode of the module
+
+## Shorthands
+```
+* del delay
+* atk attack
+* dec decay decrement
+* sus sustain
+* rel release
+
+* bi bipolar
+* uni unipolar
+
+* dbl double
+* flt float
+* s str string
+* k constant
+
+* par param parameter
+* var variable
+* v val value
+
+* i inc increment
+* i o io in out
+* id identifier
+* idx index
+
+* def default
+* min minimum
+* max maximum
+
+* buf buffer
+* fb feedback
+* ch chan channel
+* obj object
+* cc constinuouscontroller
+* impl implementation
+* init initializer
+* mod modulation
+* p ph phase: -1/+1 or 0>1
+* rnd rand random
+* sin sine sinusoid sinusoidal
+
+radians <- are never used, prefer -1 to +1 range on 
+* e v e r y t h i n g *
+```

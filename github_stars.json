@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T04:58:33.300325+00:00",
+  "last_updated": "2026-05-27T04:59:25.914396+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229060,7 +229060,15 @@
         "pushed_at": "2026-02-12T15:22:16Z",
         "starred_at": "2026-05-27T03:27:48Z"
       },
-      "last_updated": "2026-05-27T04:51:58.329061+00:00"
+      "last_updated": "2026-05-27T04:51:58.329061+00:00",
+      "readme": {
+        "path": "readmes/spinagon+ComfyUI-seamless-tiling+README.md",
+        "etag": "W/\"2155145b0e013184d761e372434cacb890ecc678\"",
+        "sha": "2155145b0e013184d761e372434cacb890ecc678",
+        "size": 778,
+        "fetched_at": "2026-05-27T04:59:25.446202+00:00",
+        "status": "ok"
+      }
     },
     "scraed/LanPaint": {
       "lists": [
@@ -229083,7 +229091,15 @@
         "pushed_at": "2026-05-21T03:48:40Z",
         "starred_at": "2026-05-27T03:26:53Z"
       },
-      "last_updated": "2026-05-27T04:51:58.519644+00:00"
+      "last_updated": "2026-05-27T04:51:58.519644+00:00",
+      "readme": {
+        "path": "readmes/scraed+LanPaint+README.md",
+        "etag": "W/\"d11a9e1366eb65cbb773963979a2179cfffe417b\"",
+        "sha": "d11a9e1366eb65cbb773963979a2179cfffe417b",
+        "size": 35484,
+        "fetched_at": "2026-05-27T04:59:24.346252+00:00",
+        "status": "ok"
+      }
     },
     "theohg/PD240W": {
       "lists": [
@@ -229105,7 +229121,15 @@
         "pushed_at": "2026-05-26T14:16:14Z",
         "starred_at": "2026-05-27T01:59:27Z"
       },
-      "last_updated": "2026-05-27T04:51:58.720489+00:00"
+      "last_updated": "2026-05-27T04:51:58.720489+00:00",
+      "readme": {
+        "path": "readmes/theohg+PD240W+README.md",
+        "etag": "W/\"ce4dd689f9a3fa88708ef497f0dff4407afb714f\"",
+        "sha": "ce4dd689f9a3fa88708ef497f0dff4407afb714f",
+        "size": 13285,
+        "fetched_at": "2026-05-27T04:59:25.912726+00:00",
+        "status": "ok"
+      }
     },
     "apple/corecrypto": {
       "lists": [
@@ -229129,7 +229153,15 @@
         "pushed_at": "2026-05-22T15:31:53Z",
         "starred_at": "2026-05-27T01:35:19Z"
       },
-      "last_updated": "2026-05-27T04:51:59.139744+00:00"
+      "last_updated": "2026-05-27T04:51:59.139744+00:00",
+      "readme": {
+        "path": "readmes/apple+corecrypto+README.md",
+        "etag": "W/\"89f8804551b51341836318208c87ba8bb1c9bc51\"",
+        "sha": "89f8804551b51341836318208c87ba8bb1c9bc51",
+        "size": 3755,
+        "fetched_at": "2026-05-27T04:59:23.517171+00:00",
+        "status": "ok"
+      }
     },
     "soundemote/asciiscope-clap": {
       "lists": [
@@ -229151,7 +229183,15 @@
         "pushed_at": "2026-05-26T10:40:27Z",
         "starred_at": "2026-05-26T23:40:30Z"
       },
-      "last_updated": "2026-05-27T04:51:59.359345+00:00"
+      "last_updated": "2026-05-27T04:51:59.359345+00:00",
+      "readme": {
+        "path": "readmes/soundemote+asciiscope-clap+README.md",
+        "etag": "W/\"87104dc98d07f0acd8e020fb5b64960ababff9a8\"",
+        "sha": "87104dc98d07f0acd8e020fb5b64960ababff9a8",
+        "size": 7147,
+        "fetched_at": "2026-05-27T04:59:24.603283+00:00",
+        "status": "ok"
+      }
     },
     "soundemote/prettyscope-revival": {
       "lists": [
@@ -229173,7 +229213,15 @@
         "pushed_at": "2026-05-26T13:09:53Z",
         "starred_at": "2026-05-26T23:40:13Z"
       },
-      "last_updated": "2026-05-27T04:51:59.535801+00:00"
+      "last_updated": "2026-05-27T04:51:59.535801+00:00",
+      "readme": {
+        "path": "readmes/soundemote+prettyscope-revival+README.md",
+        "etag": "W/\"7991f8bc53dbd3b85c25a23ec718c1db6deadacc\"",
+        "sha": "7991f8bc53dbd3b85c25a23ec718c1db6deadacc",
+        "size": 3512,
+        "fetched_at": "2026-05-27T04:59:24.896871+00:00",
+        "status": "ok"
+      }
     },
     "soundemote/soemdsp": {
       "lists": [
@@ -229195,7 +229243,15 @@
         "pushed_at": "2026-05-26T22:15:23Z",
         "starred_at": "2026-05-26T23:39:57Z"
       },
-      "last_updated": "2026-05-27T04:51:59.717318+00:00"
+      "last_updated": "2026-05-27T04:51:59.717318+00:00",
+      "readme": {
+        "path": "readmes/soundemote+soemdsp+README.adoc",
+        "etag": "W/\"dea9948daac652276b405ab498050d8c1119040c\"",
+        "sha": "dea9948daac652276b405ab498050d8c1119040c",
+        "size": 8386,
+        "fetched_at": "2026-05-27T04:59:25.227562+00:00",
+        "status": "ok"
+      }
     },
     "tantara/openbrief": {
       "lists": [
@@ -229218,7 +229274,15 @@
         "pushed_at": "2026-05-25T21:55:30Z",
         "starred_at": "2026-05-26T20:19:10Z"
       },
-      "last_updated": "2026-05-27T04:51:59.905449+00:00"
+      "last_updated": "2026-05-27T04:51:59.905449+00:00",
+      "readme": {
+        "path": "readmes/tantara+openbrief+README.md",
+        "etag": "W/\"30f4d456955276583a5b83af5ecbe2b3275fcfec\"",
+        "sha": "30f4d456955276583a5b83af5ecbe2b3275fcfec",
+        "size": 7535,
+        "fetched_at": "2026-05-27T04:59:25.650582+00:00",
+        "status": "ok"
+      }
     },
     "Tencent/ncnn": {
       "lists": [
@@ -229240,7 +229304,15 @@
         "pushed_at": "2026-05-26T11:32:03Z",
         "starred_at": "2026-05-26T16:04:56Z"
       },
-      "last_updated": "2026-05-27T04:52:00.121395+00:00"
+      "last_updated": "2026-05-27T04:52:00.121395+00:00",
+      "readme": {
+        "path": "readmes/Tencent+ncnn+README.md",
+        "etag": "W/\"7ad7a6bf8c6e5057022dfe567f478626a3e4fb92\"",
+        "sha": "7ad7a6bf8c6e5057022dfe567f478626a3e4fb92",
+        "size": 26968,
+        "fetched_at": "2026-05-27T04:59:23.250825+00:00",
+        "status": "ok"
+      }
     },
     "aubio/aubio": {
       "lists": [
@@ -229262,7 +229334,15 @@
         "pushed_at": "2026-04-10T16:42:19Z",
         "starred_at": "2026-05-26T16:03:56Z"
       },
-      "last_updated": "2026-05-27T04:52:00.330484+00:00"
+      "last_updated": "2026-05-27T04:52:00.330484+00:00",
+      "readme": {
+        "path": "readmes/aubio+aubio+README.md",
+        "etag": "W/\"c3cbabbf78c20efbf65a1b7558c798621d083524\"",
+        "sha": "c3cbabbf78c20efbf65a1b7558c798621d083524",
+        "size": 4353,
+        "fetched_at": "2026-05-27T04:59:23.775421+00:00",
+        "status": "ok"
+      }
     },
     "RibShark/OmniDrive": {
       "lists": [
@@ -229285,7 +229365,15 @@
         "pushed_at": "2026-05-26T02:00:36Z",
         "starred_at": "2026-05-26T14:08:40Z"
       },
-      "last_updated": "2026-05-27T04:52:00.527939+00:00"
+      "last_updated": "2026-05-27T04:52:00.527939+00:00",
+      "readme": {
+        "path": "readmes/RibShark+OmniDrive+README.md",
+        "etag": "W/\"981d6483000a1f4937313e26587b9821ad6eef8f\"",
+        "sha": "981d6483000a1f4937313e26587b9821ad6eef8f",
+        "size": 3005,
+        "fetched_at": "2026-05-27T04:59:22.976353+00:00",
+        "status": "ok"
+      }
     },
     "daisy-workflow/daisy-engine": {
       "lists": [],
@@ -229305,7 +229393,15 @@
         "pushed_at": "2026-05-25T12:34:46Z",
         "starred_at": "2026-05-04T23:23:39Z"
       },
-      "last_updated": "2026-05-27T04:52:00.935438+00:00"
+      "last_updated": "2026-05-27T04:52:00.935438+00:00",
+      "readme": {
+        "path": "readmes/daisy-workflow+daisy-engine+README.md",
+        "etag": "W/\"b8697cfc67ab22f541d3ee168b6f01c99baa0654\"",
+        "sha": "b8697cfc67ab22f541d3ee168b6f01c99baa0654",
+        "size": 6407,
+        "fetched_at": "2026-05-27T04:59:24.066759+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
