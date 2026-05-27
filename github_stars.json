@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T04:52:00.935496+00:00",
+  "last_updated": "2026-05-27T04:58:33.300325+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229040,7 +229040,10 @@
       }
     },
     "spinagon/ComfyUI-seamless-tiling": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 691237739,
         "name": "ComfyUI-seamless-tiling",
@@ -229060,7 +229063,10 @@
       "last_updated": "2026-05-27T04:51:58.329061+00:00"
     },
     "scraed/LanPaint": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 940099147,
         "name": "LanPaint",
@@ -229080,7 +229086,9 @@
       "last_updated": "2026-05-27T04:51:58.519644+00:00"
     },
     "theohg/PD240W": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1139788788,
         "name": "PD240W",
@@ -229100,7 +229108,11 @@
       "last_updated": "2026-05-27T04:51:58.720489+00:00"
     },
     "apple/corecrypto": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 1246797971,
         "name": "corecrypto",
@@ -229120,7 +229132,9 @@
       "last_updated": "2026-05-27T04:51:59.139744+00:00"
     },
     "soundemote/asciiscope-clap": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1248529673,
         "name": "asciiscope-clap",
@@ -229140,7 +229154,9 @@
       "last_updated": "2026-05-27T04:51:59.359345+00:00"
     },
     "soundemote/prettyscope-revival": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1244825173,
         "name": "prettyscope-revival",
@@ -229160,7 +229176,9 @@
       "last_updated": "2026-05-27T04:51:59.535801+00:00"
     },
     "soundemote/soemdsp": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1247940120,
         "name": "soemdsp",
@@ -229180,7 +229198,10 @@
       "last_updated": "2026-05-27T04:51:59.717318+00:00"
     },
     "tantara/openbrief": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1247940858,
         "name": "openbrief",
@@ -229200,7 +229221,9 @@
       "last_updated": "2026-05-27T04:51:59.905449+00:00"
     },
     "Tencent/ncnn": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 95879426,
         "name": "ncnn",
@@ -229220,7 +229243,9 @@
       "last_updated": "2026-05-27T04:52:00.121395+00:00"
     },
     "aubio/aubio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 396389,
         "name": "aubio",
@@ -229240,7 +229265,10 @@
       "last_updated": "2026-05-27T04:52:00.330484+00:00"
     },
     "RibShark/OmniDrive": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1136111708,
         "name": "OmniDrive",
