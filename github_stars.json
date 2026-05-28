@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28T04:56:08.368646+00:00",
+  "last_updated": "2026-05-28T04:56:24.323037+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229428,7 +229428,15 @@
         "pushed_at": "2026-05-24T18:13:49Z",
         "starred_at": "2026-05-28T00:16:43Z"
       },
-      "last_updated": "2026-05-28T04:48:58.633387+00:00"
+      "last_updated": "2026-05-28T04:48:58.633387+00:00",
+      "readme": {
+        "path": "readmes/perplexityai+bumblebee+README.md",
+        "etag": "W/\"a94e626416f93355e95424a0d3b5864211c9b4be\"",
+        "sha": "a94e626416f93355e95424a0d3b5864211c9b4be",
+        "size": 9945,
+        "fetched_at": "2026-05-28T04:56:24.071445+00:00",
+        "status": "ok"
+      }
     },
     "ion-storm/sysmon-edr": {
       "lists": [
@@ -229450,7 +229458,15 @@
         "pushed_at": "2021-05-01T02:41:53Z",
         "starred_at": "2026-05-28T00:16:03Z"
       },
-      "last_updated": "2026-05-28T04:48:58.931141+00:00"
+      "last_updated": "2026-05-28T04:48:58.931141+00:00",
+      "readme": {
+        "path": "readmes/ion-storm+sysmon-edr+README.md",
+        "etag": "W/\"b52ea55bd58719932341fef890f8b5b05f7e780f\"",
+        "sha": "b52ea55bd58719932341fef890f8b5b05f7e780f",
+        "size": 2334,
+        "fetched_at": "2026-05-28T04:56:23.698633+00:00",
+        "status": "ok"
+      }
     },
     "mcallegari/qlcplus": {
       "lists": [
@@ -229472,7 +229488,15 @@
         "pushed_at": "2026-05-27T18:48:02Z",
         "starred_at": "2026-05-27T21:47:19Z"
       },
-      "last_updated": "2026-05-28T04:48:59.258456+00:00"
+      "last_updated": "2026-05-28T04:48:59.258456+00:00",
+      "readme": {
+        "path": "readmes/mcallegari+qlcplus+README.md",
+        "etag": "W/\"40a4bf9fd9b59e2b8486ffe6ac8472e8fa4e794e\"",
+        "sha": "40a4bf9fd9b59e2b8486ffe6ac8472e8fa4e794e",
+        "size": 10678,
+        "fetched_at": "2026-05-28T04:56:23.906116+00:00",
+        "status": "ok"
+      }
     },
     "CentyLab/PicoPD_Pro": {
       "lists": [
@@ -229494,7 +229518,15 @@
         "pushed_at": "2025-07-27T20:04:37Z",
         "starred_at": "2026-05-27T21:42:39Z"
       },
-      "last_updated": "2026-05-28T04:48:59.626149+00:00"
+      "last_updated": "2026-05-28T04:48:59.626149+00:00",
+      "readme": {
+        "path": "readmes/CentyLab+PicoPD_Pro+README.md",
+        "etag": "W/\"48d0413e7e560a914eda6420e32bbe69fc41bc45\"",
+        "sha": "48d0413e7e560a914eda6420e32bbe69fc41bc45",
+        "size": 7477,
+        "fetched_at": "2026-05-28T04:56:22.992282+00:00",
+        "status": "ok"
+      }
     },
     "usb-c/STUSB4500": {
       "lists": [
@@ -229516,7 +229548,15 @@
         "pushed_at": "2022-04-12T23:02:36Z",
         "starred_at": "2026-05-27T20:03:04Z"
       },
-      "last_updated": "2026-05-28T04:48:59.942001+00:00"
+      "last_updated": "2026-05-28T04:48:59.942001+00:00",
+      "readme": {
+        "path": "readmes/usb-c+STUSB4500+README.md",
+        "etag": "W/\"227704cdd48e2686413016578c80668ac2b19a44\"",
+        "sha": "227704cdd48e2686413016578c80668ac2b19a44",
+        "size": 12775,
+        "fetched_at": "2026-05-28T04:56:24.321738+00:00",
+        "status": "ok"
+      }
     },
     "doctest/doctest": {
       "lists": [
@@ -229539,7 +229579,15 @@
         "pushed_at": "2026-05-19T06:13:14Z",
         "starred_at": "2026-05-27T19:01:09Z"
       },
-      "last_updated": "2026-05-28T04:49:00.295661+00:00"
+      "last_updated": "2026-05-28T04:49:00.295661+00:00",
+      "readme": {
+        "path": "readmes/doctest+doctest+README.md",
+        "etag": "W/\"c01afca88b9ae73345836ddfc7c3716850109ff4\"",
+        "sha": "c01afca88b9ae73345836ddfc7c3716850109ff4",
+        "size": 9315,
+        "fetched_at": "2026-05-28T04:56:23.510909+00:00",
+        "status": "ok"
+      }
     },
     "POWER-PILL/ASCII-Aquarium": {
       "lists": [
@@ -229562,7 +229610,15 @@
         "pushed_at": "2026-05-24T18:10:46Z",
         "starred_at": "2026-05-27T16:56:54Z"
       },
-      "last_updated": "2026-05-28T04:49:00.630191+00:00"
+      "last_updated": "2026-05-28T04:49:00.630191+00:00",
+      "readme": {
+        "path": "readmes/POWER-PILL+ASCII-Aquarium+README.md",
+        "etag": "W/\"4e9593aea7bf40931fb48e1d47a74afbc57d265b\"",
+        "sha": "4e9593aea7bf40931fb48e1d47a74afbc57d265b",
+        "size": 8071,
+        "fetched_at": "2026-05-28T04:56:23.220200+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
