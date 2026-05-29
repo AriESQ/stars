@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T04:49:06.606393+00:00",
+  "last_updated": "2026-05-29T04:56:26.796320+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229621,7 +229621,9 @@
       }
     },
     "rheadsh/audiovisual-production-skills": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1152861995,
         "name": "audiovisual-production-skills",
@@ -229641,7 +229643,10 @@
       "last_updated": "2026-05-29T04:49:06.112710+00:00"
     },
     "ruvnet/RuView": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 997737944,
         "name": "RuView",
@@ -229661,7 +229666,9 @@
       "last_updated": "2026-05-29T04:49:06.265389+00:00"
     },
     "creusot-rs/creusot": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 332798321,
         "name": "creusot",
@@ -229681,7 +229688,9 @@
       "last_updated": "2026-05-29T04:49:06.434727+00:00"
     },
     "KingOfBugbounty/KingOfBugBountyTips": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 290483689,
         "name": "KingOfBugBountyTips",
