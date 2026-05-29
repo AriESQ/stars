@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T04:56:26.796320+00:00",
+  "last_updated": "2026-05-29T04:56:59.203848+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229640,7 +229640,15 @@
         "pushed_at": "2026-05-22T05:31:23Z",
         "starred_at": "2026-05-29T03:34:57Z"
       },
-      "last_updated": "2026-05-29T04:49:06.112710+00:00"
+      "last_updated": "2026-05-29T04:49:06.112710+00:00",
+      "readme": {
+        "path": "readmes/rheadsh+audiovisual-production-skills+README.md",
+        "etag": "W/\"e22a6daf341e35874453f9f8fd78954e34f3143f\"",
+        "sha": "e22a6daf341e35874453f9f8fd78954e34f3143f",
+        "size": 3835,
+        "fetched_at": "2026-05-29T04:56:58.835299+00:00",
+        "status": "ok"
+      }
     },
     "ruvnet/RuView": {
       "lists": [
@@ -229663,7 +229671,15 @@
         "pushed_at": "2026-05-29T01:08:46Z",
         "starred_at": "2026-05-28T20:34:23Z"
       },
-      "last_updated": "2026-05-29T04:49:06.265389+00:00"
+      "last_updated": "2026-05-29T04:49:06.265389+00:00",
+      "readme": {
+        "path": "readmes/ruvnet+RuView+README.md",
+        "etag": "W/\"dd2cbd8b3e32965cf925bb710e0a15dd2759c971\"",
+        "sha": "dd2cbd8b3e32965cf925bb710e0a15dd2759c971",
+        "size": 57539,
+        "fetched_at": "2026-05-29T04:56:59.201589+00:00",
+        "status": "ok"
+      }
     },
     "creusot-rs/creusot": {
       "lists": [
@@ -229685,7 +229701,15 @@
         "pushed_at": "2026-05-28T16:12:32Z",
         "starred_at": "2026-05-28T17:28:08Z"
       },
-      "last_updated": "2026-05-29T04:49:06.434727+00:00"
+      "last_updated": "2026-05-29T04:49:06.434727+00:00",
+      "readme": {
+        "path": "readmes/creusot-rs+creusot+README.md",
+        "etag": "W/\"0cffc37521497c5c121e89c725f66030e257dfb5\"",
+        "sha": "0cffc37521497c5c121e89c725f66030e257dfb5",
+        "size": 3873,
+        "fetched_at": "2026-05-29T04:56:58.479170+00:00",
+        "status": "ok"
+      }
     },
     "KingOfBugbounty/KingOfBugBountyTips": {
       "lists": [
@@ -229707,7 +229731,15 @@
         "pushed_at": "2026-03-13T15:11:53Z",
         "starred_at": "2026-05-28T16:20:31Z"
       },
-      "last_updated": "2026-05-29T04:49:06.606302+00:00"
+      "last_updated": "2026-05-29T04:49:06.606302+00:00",
+      "readme": {
+        "path": "readmes/KingOfBugbounty+KingOfBugBountyTips+Readme.md",
+        "etag": "W/\"c92793eed8a4edaa7fb16f8c2459813ca5a19aab\"",
+        "sha": "c92793eed8a4edaa7fb16f8c2459813ca5a19aab",
+        "size": 114245,
+        "fetched_at": "2026-05-29T04:56:58.086384+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,

@@ -1,0 +1,97 @@
+<div align="center">
+
+![](/static/marteau.jpg)
+
+*Le marteau-pilon, forges et aciéries de Saint-Chamond, Joseph-Fortuné LAYRAUD, 1889*
+
+---
+
+# Creusot
+
+[![Guide](https://img.shields.io/badge/guide-darkgreen?logo=mdbook&labelColor=grey)](https://guide.creusot.rs)
+[![API](https://img.shields.io/badge/API-creusot--std-brightgreen?logo=rust&labelColor=grey)](https://doc.creusot.rs/creusot_std)
+[![Tutorial](https://img.shields.io/badge/tutorial-yellowgreen?logo=github&labelColor=grey)](https://github.com/creusot-rs/tutorial)
+&nbsp;
+[![Zulip](https://img.shields.io/badge/Zulip-chat-blue?logo=zulip)](https://why3.zulipchat.com/#narrow/channel/341707-creusot)
+[![Discussions](https://img.shields.io/badge/Github-discussions-teal?logo=github)](https://github.com/creusot-rs/creusot/discussions)
+&nbsp;
+[![Home](https://img.shields.io/badge/creusot.rs-home-orange?logo=web)](https://creusot.rs)
+[![Devlog](https://img.shields.io/badge/creusot.rs-devlog-yellow)](https://devlog.creusot.rs)
+
+</div>
+
+# About
+
+**Creusot** is a *deductive verifier* for Rust code. It verifies your code is safe from panics, overflows, and assertion failures. By adding annotations you can take it further and verify your code does the *correct* thing.
+
+Creusot works by translating Rust code to [Coma](https://coma.paulpatault.fr/), an intermediate verification language of the [Why3 Platform](https://www.why3.org). Users can then leverage the full power of Why3 to (semi)-automatically discharge the verification conditions!
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for technical details.
+
+## Help and Discussion
+
+If you need help using Creusot or would like to discuss, you can post on the [discussions forum](https://github.com/creusot-rs/creusot/discussions) or join our [Zulip chat](https://why3.zulipchat.com/#narrow/stream/341707-creusot)!
+
+## Citing Creusot
+
+If you would like to cite Creusot in academic contexts, we encourage you to use our [ICFEM'22 publication](https://hal.inria.fr/hal-03737878/file/main.pdf).
+
+# Examples of Verification
+
+To get an idea of what verifying a program with Creusot looks like, we encourage you to take a look at some of our test suite:
+
+- [Zeroing out a vector](examples/all_zero.rs)
+- [Binary search on Vectors](examples/binary_search.rs)
+- [Sorting a vector](examples/gnome_sort.rs)
+- [IterMut](examples/iterators/02_iter_mut.rs)
+- [Normalizing If-Then-Else Expressions](examples/ite_normalize.rs)
+
+More examples are found in [examples](examples) and [tests/should_succeed](tests/should_succeed).
+
+## Projects built with Creusot
+
+- [CreuSAT](https://github.com/sarsko/creusat) is a verified SAT solver written in Rust and verified with Creusot. It really pushes the tool to its limits and gives an idea of what 'use in anger' looks like.
+- Another big project is in the works :)
+
+# Installing Creusot as a user
+
+1. [Install `rustup`](https://www.rust-lang.org/tools/install), to get the suitable Rust toolchain
+2. [Get `opam`](https://opam.ocaml.org/doc/Install.html), the package manager for OCaml
+4. Clone the [creusot](https://github.com/creusot-rs/creusot/) repository,
+   then move into the `creusot` directory.
+   ```sh
+   git clone https://github.com/creusot-rs/creusot
+   cd creusot
+   ```
+5. Install **Creusot**:
+   ```sh
+   ./INSTALL
+   ```
+6. Check that the installation succeeded:
+   ```sh
+   cargo creusot --help
+   ```
+
+See the [Creusot guide: Installation](https://guide.creusot.rs/installation.html)
+for more details.
+
+## Upgrading Creusot
+
+1. Enter the cloned Creusot git repository used previously to install Creusot
+2. Update Creusot's sources:
+   ```sh
+   git pull
+   ```
+3. Update opam's package listing:
+   ```sh
+   opam update
+   ```
+4. Reinstall Creusot:
+   ```sh
+   ./INSTALL
+   ```
+
+# Hacking on Creusot
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information on the developer workflow for
+hacking on the Creusot codebase.
