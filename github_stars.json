@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T04:40:37.024065+00:00",
+  "last_updated": "2026-05-30T04:47:27.634637+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -833,7 +833,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Python"
+        "Python",
+        "Networking"
       ],
       "metadata": {
         "id": 441062625,
@@ -227275,7 +227276,8 @@
     },
     "gtxaspec/wz_mini_hacks": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "DIY"
       ],
       "metadata": {
         "id": 475738859,
@@ -229742,7 +229744,10 @@
       }
     },
     "arm/metis": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1015272165,
         "name": "metis",
@@ -229762,7 +229767,9 @@
       "last_updated": "2026-05-30T04:40:33.084203+00:00"
     },
     "leviathwaite/ShaderEditorCollection": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 251446595,
         "name": "ShaderEditorCollection",
@@ -229782,7 +229789,9 @@
       "last_updated": "2026-05-30T04:40:33.394977+00:00"
     },
     "abossard/synesthesia-visuals": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1104413213,
         "name": "synesthesia-visuals",
@@ -229802,7 +229811,9 @@
       "last_updated": "2026-05-30T04:40:33.705490+00:00"
     },
     "jmaczan/tiny-vllm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1153764295,
         "name": "tiny-vllm",
@@ -229822,7 +229833,11 @@
       "last_updated": "2026-05-30T04:40:34.050233+00:00"
     },
     "tidwall/jj": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "JSON",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 71381721,
         "name": "jj",
@@ -229842,7 +229857,10 @@
       "last_updated": "2026-05-30T04:40:34.401892+00:00"
     },
     "tidwall/redcon": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 64404140,
         "name": "redcon",
@@ -229862,7 +229880,11 @@
       "last_updated": "2026-05-30T04:40:34.706282+00:00"
     },
     "tidwall/sjson": {
-      "lists": [],
+      "lists": [
+        "API",
+        "GoLang",
+        "JSON"
+      ],
       "metadata": {
         "id": 71305027,
         "name": "sjson",
@@ -229882,7 +229904,10 @@
       "last_updated": "2026-05-30T04:40:35.024534+00:00"
     },
     "tidwall/evio": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Networking"
+      ],
       "metadata": {
         "id": 96170782,
         "name": "evio",
@@ -229902,7 +229927,10 @@
       "last_updated": "2026-05-30T04:40:35.365678+00:00"
     },
     "tidwall/gjson": {
-      "lists": [],
+      "lists": [
+        "API",
+        "GoLang"
+      ],
       "metadata": {
         "id": 65434192,
         "name": "gjson",
@@ -229922,7 +229950,10 @@
       "last_updated": "2026-05-30T04:40:35.675314+00:00"
     },
     "quint-co/quint": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 371719112,
         "name": "quint",
@@ -229942,7 +229973,13 @@
       "last_updated": "2026-05-30T04:40:36.008487+00:00"
     },
     "podman-container-tools/buildah": {
-      "lists": [],
+      "lists": [
+        "Bash",
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers",
+        "GoLang"
+      ],
       "metadata": {
         "id": 80134675,
         "name": "buildah",
@@ -229962,7 +229999,12 @@
       "last_updated": "2026-05-30T04:40:36.505514+00:00"
     },
     "podman-container-tools/skopeo": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 53356367,
         "name": "skopeo",
