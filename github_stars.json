@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T04:52:19.603018+00:00",
+  "last_updated": "2026-05-31T04:59:39.458118+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -207992,7 +207992,11 @@
       }
     },
     "PyCQA/bandit": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 131129792,
         "name": "bandit",
@@ -230120,7 +230124,11 @@
       }
     },
     "nuclear-treestump/pydepgate": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1219119971,
         "name": "pydepgate",
@@ -230140,7 +230148,10 @@
       "last_updated": "2026-05-31T04:52:18.059220+00:00"
     },
     "wolfSSL/wolfCOSE": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "PKI"
+      ],
       "metadata": {
         "id": 1170340673,
         "name": "wolfCOSE",
@@ -230160,7 +230171,9 @@
       "last_updated": "2026-05-31T04:52:18.258035+00:00"
     },
     "projectbluefin/knuckle": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1225226218,
         "name": "knuckle",
@@ -230180,7 +230193,9 @@
       "last_updated": "2026-05-31T04:52:18.436732+00:00"
     },
     "bytecodealliance/endive": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 1243830052,
         "name": "endive",
@@ -230200,7 +230215,10 @@
       "last_updated": "2026-05-31T04:52:18.630209+00:00"
     },
     "obeli-sk/obelisk": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 791922716,
         "name": "obelisk",
@@ -230220,7 +230238,10 @@
       "last_updated": "2026-05-31T04:52:18.822098+00:00"
     },
     "computerequipmentgroup/equip-1": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 963843013,
         "name": "equip-1",
@@ -230240,7 +230261,10 @@
       "last_updated": "2026-05-31T04:52:19.021059+00:00"
     },
     "gavinr/github-csv-tools": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 62596231,
         "name": "github-csv-tools",
@@ -230260,7 +230284,9 @@
       "last_updated": "2026-05-31T04:52:19.228019+00:00"
     },
     "github/github-artifact-exporter": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 292700337,
         "name": "github-artifact-exporter",
@@ -230280,7 +230306,11 @@
       "last_updated": "2026-05-31T04:52:19.427075+00:00"
     },
     "gokrazy/rsync": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 398850671,
         "name": "rsync",
