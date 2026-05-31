@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T04:59:39.458118+00:00",
+  "last_updated": "2026-05-31T05:00:06.056410+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230145,7 +230145,15 @@
         "pushed_at": "2026-05-30T22:13:46Z",
         "starred_at": "2026-05-30T23:28:29Z"
       },
-      "last_updated": "2026-05-31T04:52:18.059220+00:00"
+      "last_updated": "2026-05-31T04:52:18.059220+00:00",
+      "readme": {
+        "path": "readmes/nuclear-treestump+pydepgate+README.md",
+        "etag": "W/\"608245a972896b9c467827ed1e1fea5d6e1af905\"",
+        "sha": "608245a972896b9c467827ed1e1fea5d6e1af905",
+        "size": 24781,
+        "fetched_at": "2026-05-31T05:00:04.866759+00:00",
+        "status": "ok"
+      }
     },
     "wolfSSL/wolfCOSE": {
       "lists": [
@@ -230168,7 +230176,15 @@
         "pushed_at": "2026-05-30T20:04:23Z",
         "starred_at": "2026-05-30T23:10:15Z"
       },
-      "last_updated": "2026-05-31T04:52:18.258035+00:00"
+      "last_updated": "2026-05-31T04:52:18.258035+00:00",
+      "readme": {
+        "path": "readmes/wolfSSL+wolfCOSE+README.md",
+        "etag": "W/\"569eb2218ab0e1fd8f22ada8b447f3e4c9d75351\"",
+        "sha": "569eb2218ab0e1fd8f22ada8b447f3e4c9d75351",
+        "size": 8779,
+        "fetched_at": "2026-05-31T05:00:06.055524+00:00",
+        "status": "ok"
+      }
     },
     "projectbluefin/knuckle": {
       "lists": [
@@ -230190,7 +230206,15 @@
         "pushed_at": "2026-05-31T03:21:00Z",
         "starred_at": "2026-05-30T21:53:15Z"
       },
-      "last_updated": "2026-05-31T04:52:18.436732+00:00"
+      "last_updated": "2026-05-31T04:52:18.436732+00:00",
+      "readme": {
+        "path": "readmes/projectbluefin+knuckle+README.md",
+        "etag": "W/\"79b91356bd977af30f83a59f241fb7ee5dd15bd5\"",
+        "sha": "79b91356bd977af30f83a59f241fb7ee5dd15bd5",
+        "size": 19273,
+        "fetched_at": "2026-05-31T05:00:05.770883+00:00",
+        "status": "ok"
+      }
     },
     "bytecodealliance/endive": {
       "lists": [
@@ -230212,7 +230236,15 @@
         "pushed_at": "2026-05-29T12:45:31Z",
         "starred_at": "2026-05-30T21:06:29Z"
       },
-      "last_updated": "2026-05-31T04:52:18.630209+00:00"
+      "last_updated": "2026-05-31T04:52:18.630209+00:00",
+      "readme": {
+        "path": "readmes/bytecodealliance+endive+README.md",
+        "etag": "W/\"8bea253dbefb007336612eaeb8cc65e6f6e95e84\"",
+        "sha": "8bea253dbefb007336612eaeb8cc65e6f6e95e84",
+        "size": 6839,
+        "fetched_at": "2026-05-31T05:00:03.091617+00:00",
+        "status": "ok"
+      }
     },
     "obeli-sk/obelisk": {
       "lists": [
@@ -230235,7 +230267,15 @@
         "pushed_at": "2026-05-31T04:19:28Z",
         "starred_at": "2026-05-30T20:26:44Z"
       },
-      "last_updated": "2026-05-31T04:52:18.822098+00:00"
+      "last_updated": "2026-05-31T04:52:18.822098+00:00",
+      "readme": {
+        "path": "readmes/obeli-sk+obelisk+README.md",
+        "etag": "W/\"0c68aa7e40f28e87eae2cdd7e10eafeedd9e8fc8\"",
+        "sha": "0c68aa7e40f28e87eae2cdd7e10eafeedd9e8fc8",
+        "size": 7476,
+        "fetched_at": "2026-05-31T05:00:05.197682+00:00",
+        "status": "ok"
+      }
     },
     "computerequipmentgroup/equip-1": {
       "lists": [
@@ -230258,7 +230298,15 @@
         "pushed_at": "2026-04-02T17:34:44Z",
         "starred_at": "2026-05-30T17:29:00Z"
       },
-      "last_updated": "2026-05-31T04:52:19.021059+00:00"
+      "last_updated": "2026-05-31T04:52:19.021059+00:00",
+      "readme": {
+        "path": "readmes/computerequipmentgroup+equip-1+README.md",
+        "etag": "W/\"140f8b0b6583dadf8ccb11b506a449cda7e97ea1\"",
+        "sha": "140f8b0b6583dadf8ccb11b506a449cda7e97ea1",
+        "size": 1649,
+        "fetched_at": "2026-05-31T05:00:03.423090+00:00",
+        "status": "ok"
+      }
     },
     "gavinr/github-csv-tools": {
       "lists": [
@@ -230281,7 +230329,15 @@
         "pushed_at": "2024-06-06T06:33:23Z",
         "starred_at": "2026-05-30T17:22:03Z"
       },
-      "last_updated": "2026-05-31T04:52:19.228019+00:00"
+      "last_updated": "2026-05-31T04:52:19.228019+00:00",
+      "readme": {
+        "path": "readmes/gavinr+github-csv-tools+README.md",
+        "etag": "W/\"43e028fd45dc2e98014b5e8856d125b0089aee5c\"",
+        "sha": "43e028fd45dc2e98014b5e8856d125b0089aee5c",
+        "size": 6075,
+        "fetched_at": "2026-05-31T05:00:03.767645+00:00",
+        "status": "ok"
+      }
     },
     "github/github-artifact-exporter": {
       "lists": [
@@ -230303,7 +230359,15 @@
         "pushed_at": "2023-01-09T19:49:25Z",
         "starred_at": "2026-05-30T17:17:10Z"
       },
-      "last_updated": "2026-05-31T04:52:19.427075+00:00"
+      "last_updated": "2026-05-31T04:52:19.427075+00:00",
+      "readme": {
+        "path": "readmes/github+github-artifact-exporter+README.md",
+        "etag": "W/\"578921d96fac08428d01ef7776abf30087d62fb4\"",
+        "sha": "578921d96fac08428d01ef7776abf30087d62fb4",
+        "size": 1854,
+        "fetched_at": "2026-05-31T05:00:04.168718+00:00",
+        "status": "ok"
+      }
     },
     "gokrazy/rsync": {
       "lists": [
@@ -230327,7 +230391,15 @@
         "pushed_at": "2026-02-13T16:36:37Z",
         "starred_at": "2026-05-30T16:45:33Z"
       },
-      "last_updated": "2026-05-31T04:52:19.602910+00:00"
+      "last_updated": "2026-05-31T04:52:19.602910+00:00",
+      "readme": {
+        "path": "readmes/gokrazy+rsync+README.md",
+        "etag": "W/\"ab629942bf82464f26c0a76c706e895993823409\"",
+        "sha": "ab629942bf82464f26c0a76c706e895993823409",
+        "size": 16979,
+        "fetched_at": "2026-05-31T05:00:04.500146+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
