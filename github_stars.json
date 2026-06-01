@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T04:58:21.278806+00:00",
+  "last_updated": "2026-06-01T05:05:56.597433+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230402,7 +230402,10 @@
       }
     },
     "collidingScopes/collidingScopes.github.io": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 828890328,
         "name": "collidingScopes.github.io",
@@ -230422,7 +230425,10 @@
       "last_updated": "2026-06-01T04:58:20.175899+00:00"
     },
     "wpdevelopment11/xray-tutorial": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Networking"
+      ],
       "metadata": {
         "id": 884909774,
         "name": "xray-tutorial",
@@ -230442,7 +230448,9 @@
       "last_updated": "2026-06-01T04:58:20.467624+00:00"
     },
     "trailofbits/vsix-audit": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1143049178,
         "name": "vsix-audit",
@@ -230462,7 +230470,11 @@
       "last_updated": "2026-06-01T04:58:20.803375+00:00"
     },
     "gfratmct/viral-clips-extractor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 693379996,
         "name": "viral-clips-extractor",
