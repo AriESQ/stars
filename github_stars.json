@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T05:05:56.597433+00:00",
+  "last_updated": "2026-06-01T05:06:31.639601+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230422,7 +230422,15 @@
         "pushed_at": "2025-03-17T14:09:01Z",
         "starred_at": "2026-06-01T03:45:11Z"
       },
-      "last_updated": "2026-06-01T04:58:20.175899+00:00"
+      "last_updated": "2026-06-01T04:58:20.175899+00:00",
+      "readme": {
+        "path": "readmes/collidingScopes+collidingScopes.github.io+README.MD",
+        "etag": "W/\"dcd5bcec0a8dd6ee3de7751f8f0e6f795f396c7a\"",
+        "sha": "dcd5bcec0a8dd6ee3de7751f8f0e6f795f396c7a",
+        "size": 1678,
+        "fetched_at": "2026-06-01T05:06:30.942592+00:00",
+        "status": "ok"
+      }
     },
     "wpdevelopment11/xray-tutorial": {
       "lists": [
@@ -230445,7 +230453,15 @@
         "pushed_at": "2026-04-08T14:33:53Z",
         "starred_at": "2026-05-31T18:53:01Z"
       },
-      "last_updated": "2026-06-01T04:58:20.467624+00:00"
+      "last_updated": "2026-06-01T04:58:20.467624+00:00",
+      "readme": {
+        "path": "readmes/wpdevelopment11+xray-tutorial+README.md",
+        "etag": "W/\"c36c942de015ad8a5204022977636c731f12daf1\"",
+        "sha": "c36c942de015ad8a5204022977636c731f12daf1",
+        "size": 48083,
+        "fetched_at": "2026-06-01T05:06:31.638792+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/vsix-audit": {
       "lists": [
@@ -230467,7 +230483,15 @@
         "pushed_at": "2026-05-28T16:52:57Z",
         "starred_at": "2026-05-31T06:18:18Z"
       },
-      "last_updated": "2026-06-01T04:58:20.803375+00:00"
+      "last_updated": "2026-06-01T04:58:20.803375+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+vsix-audit+README.md",
+        "etag": "W/\"ca235c10e21ca184457efb0de095f923e7025b28\"",
+        "sha": "ca235c10e21ca184457efb0de095f923e7025b28",
+        "size": 16575,
+        "fetched_at": "2026-06-01T05:06:31.428034+00:00",
+        "status": "ok"
+      }
     },
     "gfratmct/viral-clips-extractor": {
       "lists": [
@@ -230491,7 +230515,15 @@
         "pushed_at": "2024-11-07T13:57:54Z",
         "starred_at": "2024-11-30T19:27:31Z"
       },
-      "last_updated": "2026-06-01T04:58:21.278729+00:00"
+      "last_updated": "2026-06-01T04:58:21.278729+00:00",
+      "readme": {
+        "path": "readmes/gfratmct+viral-clips-extractor+README.md",
+        "etag": "W/\"14f5338b69375bc498bd142714422c503656f14f\"",
+        "sha": "14f5338b69375bc498bd142714422c503656f14f",
+        "size": 2369,
+        "fetched_at": "2026-06-01T05:06:31.139445+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
