@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T05:06:31.639601+00:00",
+  "last_updated": "2026-06-02T04:57:52.428464+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230524,6 +230524,126 @@
         "fetched_at": "2026-06-01T05:06:31.139445+00:00",
         "status": "ok"
       }
+    },
+    "Nuvotion-Visuals/gstreamer-docs-offline": {
+      "lists": [],
+      "metadata": {
+        "id": 1203548287,
+        "name": "gstreamer-docs-offline",
+        "full_name": "Nuvotion-Visuals/gstreamer-docs-offline",
+        "description": "Automated weekly snapshot of GStreamer documentation for offline/local use",
+        "url": "https://github.com/Nuvotion-Visuals/gstreamer-docs-offline",
+        "homepage": "",
+        "language": "Dockerfile",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2026-04-07T06:20:56Z",
+        "updated_at": "2026-06-01T18:34:19Z",
+        "pushed_at": "2026-05-25T01:01:48Z",
+        "starred_at": "2026-06-01T18:34:18Z"
+      },
+      "last_updated": "2026-06-02T04:57:50.451906+00:00"
+    },
+    "rendi-api/ffmpeg-llm": {
+      "lists": [],
+      "metadata": {
+        "id": 1221084482,
+        "name": "ffmpeg-llm",
+        "full_name": "rendi-api/ffmpeg-llm",
+        "description": "An FFmpeg plugin for Claude Code. Describe what you want, get the command.",
+        "url": "https://github.com/rendi-api/ffmpeg-llm",
+        "homepage": "",
+        "language": null,
+        "stars": 17,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-25T18:24:06Z",
+        "updated_at": "2026-06-01T17:42:48Z",
+        "pushed_at": "2026-05-25T10:40:52Z",
+        "starred_at": "2026-06-01T17:42:47Z"
+      },
+      "last_updated": "2026-06-02T04:57:50.822094+00:00"
+    },
+    "Cobenian/shai-hulud-detect": {
+      "lists": [],
+      "metadata": {
+        "id": 1058267186,
+        "name": "shai-hulud-detect",
+        "full_name": "Cobenian/shai-hulud-detect",
+        "description": "A simple project to detect the Shai-Hulud npm supply chain attack",
+        "url": "https://github.com/Cobenian/shai-hulud-detect",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 373,
+        "forks": 78,
+        "open_issues": 3,
+        "created_at": "2025-09-16T21:24:08Z",
+        "updated_at": "2026-06-02T02:36:22Z",
+        "pushed_at": "2026-06-01T18:33:46Z",
+        "starred_at": "2026-06-01T17:34:45Z"
+      },
+      "last_updated": "2026-06-02T04:57:51.196361+00:00"
+    },
+    "chopratejas/vitals": {
+      "lists": [],
+      "metadata": {
+        "id": 1172315050,
+        "name": "vitals",
+        "full_name": "chopratejas/vitals",
+        "description": "Codebase vital signs for Claude Code \u2014 finds hotspots, diagnoses root causes, ranks fixes by ROI",
+        "url": "https://github.com/chopratejas/vitals",
+        "homepage": null,
+        "language": "Python",
+        "stars": 15,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-03-04T07:01:49Z",
+        "updated_at": "2026-06-01T15:36:21Z",
+        "pushed_at": "2026-03-04T18:26:06Z",
+        "starred_at": "2026-06-01T15:36:20Z"
+      },
+      "last_updated": "2026-06-02T04:57:51.559976+00:00"
+    },
+    "chopratejas/headroom": {
+      "lists": [],
+      "metadata": {
+        "id": 1129940957,
+        "name": "headroom",
+        "full_name": "chopratejas/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "url": "https://github.com/chopratejas/headroom",
+        "homepage": "https://headroom-docs.vercel.app/docs",
+        "language": "Python",
+        "stars": 4326,
+        "forks": 342,
+        "open_issues": 111,
+        "created_at": "2026-01-07T19:58:51Z",
+        "updated_at": "2026-06-02T04:57:22Z",
+        "pushed_at": "2026-06-02T00:08:41Z",
+        "starred_at": "2026-06-01T15:31:29Z"
+      },
+      "last_updated": "2026-06-02T04:57:51.868016+00:00"
+    },
+    "podman-container-tools/podman": {
+      "lists": [],
+      "metadata": {
+        "id": 109145553,
+        "name": "podman",
+        "full_name": "podman-container-tools/podman",
+        "description": "Podman: A tool for managing OCI containers and pods.",
+        "url": "https://github.com/podman-container-tools/podman",
+        "homepage": "https://podman.io",
+        "language": "Go",
+        "stars": 31860,
+        "forks": 3136,
+        "open_issues": 1108,
+        "created_at": "2017-11-01T15:01:27Z",
+        "updated_at": "2026-06-02T03:27:01Z",
+        "pushed_at": "2026-06-01T17:00:38Z",
+        "starred_at": "2024-11-14T19:27:35Z"
+      },
+      "last_updated": "2026-06-02T04:57:52.428401+00:00"
     }
   },
   "last_processed_index": 0,
@@ -230533,5 +230653,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"abbf5a9847b0eba097bf49dba32d0045c049469ec95fc2825dc34e87bd6ab484\""
+  "profile_etag": "W/\"d11d72f0d7a0e686ad279932d8c3f3ae0c5f290a09b3626e079b588a60f77a6c\""
 }
