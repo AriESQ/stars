@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T04:57:52.428464+00:00",
+  "last_updated": "2026-06-02T05:05:00.049823+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230526,7 +230526,9 @@
       }
     },
     "Nuvotion-Visuals/gstreamer-docs-offline": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1203548287,
         "name": "gstreamer-docs-offline",
@@ -230546,7 +230548,10 @@
       "last_updated": "2026-06-02T04:57:50.451906+00:00"
     },
     "rendi-api/ffmpeg-llm": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1221084482,
         "name": "ffmpeg-llm",
@@ -230566,7 +230571,10 @@
       "last_updated": "2026-06-02T04:57:50.822094+00:00"
     },
     "Cobenian/shai-hulud-detect": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1058267186,
         "name": "shai-hulud-detect",
@@ -230586,7 +230594,10 @@
       "last_updated": "2026-06-02T04:57:51.196361+00:00"
     },
     "chopratejas/vitals": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1172315050,
         "name": "vitals",
@@ -230606,7 +230617,10 @@
       "last_updated": "2026-06-02T04:57:51.559976+00:00"
     },
     "chopratejas/headroom": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1129940957,
         "name": "headroom",
@@ -230626,7 +230640,11 @@
       "last_updated": "2026-06-02T04:57:51.868016+00:00"
     },
     "podman-container-tools/podman": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 109145553,
         "name": "podman",
