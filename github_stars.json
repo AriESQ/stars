@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T05:05:00.049823+00:00",
+  "last_updated": "2026-06-02T05:05:30.755219+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230545,7 +230545,15 @@
         "pushed_at": "2026-05-25T01:01:48Z",
         "starred_at": "2026-06-01T18:34:18Z"
       },
-      "last_updated": "2026-06-02T04:57:50.451906+00:00"
+      "last_updated": "2026-06-02T04:57:50.451906+00:00",
+      "readme": {
+        "path": "readmes/Nuvotion-Visuals+gstreamer-docs-offline+README.md",
+        "etag": "W/\"bd59e5a478a170c19c8329eadf69a3a72e9fd598\"",
+        "sha": "bd59e5a478a170c19c8329eadf69a3a72e9fd598",
+        "size": 929,
+        "fetched_at": "2026-06-02T05:05:29.223570+00:00",
+        "status": "ok"
+      }
     },
     "rendi-api/ffmpeg-llm": {
       "lists": [
@@ -230568,7 +230576,15 @@
         "pushed_at": "2026-05-25T10:40:52Z",
         "starred_at": "2026-06-01T17:42:47Z"
       },
-      "last_updated": "2026-06-02T04:57:50.822094+00:00"
+      "last_updated": "2026-06-02T04:57:50.822094+00:00",
+      "readme": {
+        "path": "readmes/rendi-api+ffmpeg-llm+README.md",
+        "etag": "W/\"4bbe0ee030e50c896306144481cd3b7925ea9980\"",
+        "sha": "4bbe0ee030e50c896306144481cd3b7925ea9980",
+        "size": 2115,
+        "fetched_at": "2026-06-02T05:05:30.752341+00:00",
+        "status": "ok"
+      }
     },
     "Cobenian/shai-hulud-detect": {
       "lists": [
@@ -230591,7 +230607,15 @@
         "pushed_at": "2026-06-01T18:33:46Z",
         "starred_at": "2026-06-01T17:34:45Z"
       },
-      "last_updated": "2026-06-02T04:57:51.196361+00:00"
+      "last_updated": "2026-06-02T04:57:51.196361+00:00",
+      "readme": {
+        "path": "readmes/Cobenian+shai-hulud-detect+README.md",
+        "etag": "W/\"e8acf4ee6e5cd7cac6884b29339e9b6db8786bd3\"",
+        "sha": "e8acf4ee6e5cd7cac6884b29339e9b6db8786bd3",
+        "size": 16772,
+        "fetched_at": "2026-06-02T05:05:28.757769+00:00",
+        "status": "ok"
+      }
     },
     "chopratejas/vitals": {
       "lists": [
@@ -230614,7 +230638,15 @@
         "pushed_at": "2026-03-04T18:26:06Z",
         "starred_at": "2026-06-01T15:36:20Z"
       },
-      "last_updated": "2026-06-02T04:57:51.559976+00:00"
+      "last_updated": "2026-06-02T04:57:51.559976+00:00",
+      "readme": {
+        "path": "readmes/chopratejas+vitals+README.md",
+        "etag": "W/\"5f1c3c4acc1e6b9b1e2edee641ebecb36bcbf0ab\"",
+        "sha": "5f1c3c4acc1e6b9b1e2edee641ebecb36bcbf0ab",
+        "size": 12078,
+        "fetched_at": "2026-06-02T05:05:30.003527+00:00",
+        "status": "ok"
+      }
     },
     "chopratejas/headroom": {
       "lists": [
@@ -230637,7 +230669,15 @@
         "pushed_at": "2026-06-02T00:08:41Z",
         "starred_at": "2026-06-01T15:31:29Z"
       },
-      "last_updated": "2026-06-02T04:57:51.868016+00:00"
+      "last_updated": "2026-06-02T04:57:51.868016+00:00",
+      "readme": {
+        "path": "readmes/chopratejas+headroom+README.md",
+        "etag": "W/\"8b8ceac10678871965045717aaa37a323e612fa6\"",
+        "sha": "8b8ceac10678871965045717aaa37a323e612fa6",
+        "size": 17196,
+        "fetched_at": "2026-06-02T05:05:29.568012+00:00",
+        "status": "ok"
+      }
     },
     "podman-container-tools/podman": {
       "lists": [
@@ -230661,7 +230701,15 @@
         "pushed_at": "2026-06-01T17:00:38Z",
         "starred_at": "2024-11-14T19:27:35Z"
       },
-      "last_updated": "2026-06-02T04:57:52.428401+00:00"
+      "last_updated": "2026-06-02T04:57:52.428401+00:00",
+      "readme": {
+        "path": "readmes/podman-container-tools+podman+README.md",
+        "etag": "W/\"ec82e6971d293119870fb9aa523cac45505ae80d\"",
+        "sha": "ec82e6971d293119870fb9aa523cac45505ae80d",
+        "size": 12923,
+        "fetched_at": "2026-06-02T05:05:30.342905+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
