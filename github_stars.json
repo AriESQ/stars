@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T05:05:30.755219+00:00",
+  "last_updated": "2026-06-03T04:58:22.755933+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230710,6 +230710,86 @@
         "fetched_at": "2026-06-02T05:05:30.342905+00:00",
         "status": "ok"
       }
+    },
+    "vercel-labs/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1134543109,
+        "name": "skills",
+        "full_name": "vercel-labs/skills",
+        "description": "The open agent skills tool - npx skills",
+        "url": "https://github.com/vercel-labs/skills",
+        "homepage": "https://skills.sh",
+        "language": "TypeScript",
+        "stars": 21091,
+        "forks": 1694,
+        "open_issues": 657,
+        "created_at": "2026-01-14T21:31:18Z",
+        "updated_at": "2026-06-03T04:57:38Z",
+        "pushed_at": "2026-06-03T02:19:03Z",
+        "starred_at": "2026-06-03T03:28:05Z"
+      },
+      "last_updated": "2026-06-03T04:58:21.987698+00:00"
+    },
+    "im-knots/varda": {
+      "lists": [],
+      "metadata": {
+        "id": 1226718502,
+        "name": "varda",
+        "full_name": "im-knots/varda",
+        "description": "A Live VJ tool written in rust for Linux, MacOS, and Windows",
+        "url": "https://github.com/im-knots/varda",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 12,
+        "forks": 3,
+        "open_issues": 3,
+        "created_at": "2026-05-01T18:48:56Z",
+        "updated_at": "2026-06-03T03:38:58Z",
+        "pushed_at": "2026-06-03T03:39:23Z",
+        "starred_at": "2026-06-02T23:33:05Z"
+      },
+      "last_updated": "2026-06-03T04:58:22.171516+00:00"
+    },
+    "microsoft/coreutils": {
+      "lists": [],
+      "metadata": {
+        "id": 1239459981,
+        "name": "coreutils",
+        "full_name": "microsoft/coreutils",
+        "description": "Coreutils for Windows: Installer & Packaging",
+        "url": "https://github.com/microsoft/coreutils",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 982,
+        "forks": 11,
+        "open_issues": 8,
+        "created_at": "2026-05-15T05:42:32Z",
+        "updated_at": "2026-06-03T04:57:03Z",
+        "pushed_at": "2026-06-02T20:19:46Z",
+        "starred_at": "2026-06-02T17:19:22Z"
+      },
+      "last_updated": "2026-06-03T04:58:22.366346+00:00"
+    },
+    "ffunatsu/ofxGVTextureSerializer": {
+      "lists": [],
+      "metadata": {
+        "id": 862819481,
+        "name": "ofxGVTextureSerializer",
+        "full_name": "ffunatsu/ofxGVTextureSerializer",
+        "description": "GVTextureSerializer for OpenFrameworks 0.11/0.12",
+        "url": "https://github.com/ffunatsu/ofxGVTextureSerializer",
+        "homepage": "",
+        "language": "C",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-09-25T08:41:24Z",
+        "updated_at": "2025-05-07T11:18:41Z",
+        "pushed_at": "2024-09-28T06:46:39Z",
+        "starred_at": "2025-02-11T20:35:19Z"
+      },
+      "last_updated": "2026-06-03T04:58:22.755858+00:00"
     }
   },
   "last_processed_index": 0,
@@ -230719,5 +230799,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d11d72f0d7a0e686ad279932d8c3f3ae0c5f290a09b3626e079b588a60f77a6c\""
+  "profile_etag": "W/\"772506dddeb1bb8710e09f288a4c8ac7bd30738adcae64e38216ecc3a4cf4252\""
 }
