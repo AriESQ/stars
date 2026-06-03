@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T05:05:31.944439+00:00",
+  "last_updated": "2026-06-03T05:05:50.554227+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230731,7 +230731,15 @@
         "pushed_at": "2026-06-03T02:19:03Z",
         "starred_at": "2026-06-03T03:28:05Z"
       },
-      "last_updated": "2026-06-03T04:58:21.987698+00:00"
+      "last_updated": "2026-06-03T04:58:21.987698+00:00",
+      "readme": {
+        "path": "readmes/vercel-labs+skills+README.md",
+        "etag": "W/\"8476379a1be5f00bca512b8eb9b4acae1e03cb3d\"",
+        "sha": "8476379a1be5f00bca512b8eb9b4acae1e03cb3d",
+        "size": 22667,
+        "fetched_at": "2026-06-03T05:05:50.552967+00:00",
+        "status": "ok"
+      }
     },
     "im-knots/varda": {
       "lists": [
@@ -230754,7 +230762,15 @@
         "pushed_at": "2026-06-03T03:39:23Z",
         "starred_at": "2026-06-02T23:33:05Z"
       },
-      "last_updated": "2026-06-03T04:58:22.171516+00:00"
+      "last_updated": "2026-06-03T04:58:22.171516+00:00",
+      "readme": {
+        "path": "readmes/im-knots+varda+README.md",
+        "etag": "W/\"dfc19892965d4f872479901c387e58c191c13d02\"",
+        "sha": "dfc19892965d4f872479901c387e58c191c13d02",
+        "size": 14865,
+        "fetched_at": "2026-06-03T05:05:49.988707+00:00",
+        "status": "ok"
+      }
     },
     "microsoft/coreutils": {
       "lists": [
@@ -230777,7 +230793,15 @@
         "pushed_at": "2026-06-02T20:19:46Z",
         "starred_at": "2026-06-02T17:19:22Z"
       },
-      "last_updated": "2026-06-03T04:58:22.366346+00:00"
+      "last_updated": "2026-06-03T04:58:22.366346+00:00",
+      "readme": {
+        "path": "readmes/microsoft+coreutils+README.md",
+        "etag": "W/\"cdfc0b3a7fd94753e0c386efb3f3c4ec18ff373b\"",
+        "sha": "cdfc0b3a7fd94753e0c386efb3f3c4ec18ff373b",
+        "size": 5265,
+        "fetched_at": "2026-06-03T05:05:50.232973+00:00",
+        "status": "ok"
+      }
     },
     "ffunatsu/ofxGVTextureSerializer": {
       "lists": [
@@ -230799,7 +230823,15 @@
         "pushed_at": "2024-09-28T06:46:39Z",
         "starred_at": "2025-02-11T20:35:19Z"
       },
-      "last_updated": "2026-06-03T04:58:22.755858+00:00"
+      "last_updated": "2026-06-03T04:58:22.755858+00:00",
+      "readme": {
+        "path": "readmes/ffunatsu+ofxGVTextureSerializer+README.md",
+        "etag": "W/\"9dec6e68f3423325a0d6e4cd79db7ecd0a6a4a1e\"",
+        "sha": "9dec6e68f3423325a0d6e4cd79db7ecd0a6a4a1e",
+        "size": 1447,
+        "fetched_at": "2026-06-03T05:05:49.675862+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
