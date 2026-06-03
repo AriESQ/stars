@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T04:58:22.755933+00:00",
+  "last_updated": "2026-06-03T05:05:31.944439+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230712,7 +230712,9 @@
       }
     },
     "vercel-labs/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1134543109,
         "name": "skills",
@@ -230732,7 +230734,10 @@
       "last_updated": "2026-06-03T04:58:21.987698+00:00"
     },
     "im-knots/varda": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 1226718502,
         "name": "varda",
@@ -230752,7 +230757,10 @@
       "last_updated": "2026-06-03T04:58:22.171516+00:00"
     },
     "microsoft/coreutils": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Windows"
+      ],
       "metadata": {
         "id": 1239459981,
         "name": "coreutils",
@@ -230772,7 +230780,9 @@
       "last_updated": "2026-06-03T04:58:22.366346+00:00"
     },
     "ffunatsu/ofxGVTextureSerializer": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 862819481,
         "name": "ofxGVTextureSerializer",
