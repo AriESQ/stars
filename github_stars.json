@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T05:05:50.554227+00:00",
+  "last_updated": "2026-06-04T04:57:54.063184+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230832,6 +230832,26 @@
         "fetched_at": "2026-06-03T05:05:49.675862+00:00",
         "status": "ok"
       }
+    },
+    "authrequest/Freeloader": {
+      "lists": [],
+      "metadata": {
+        "id": 1254584608,
+        "name": "Freeloader",
+        "full_name": "authrequest/Freeloader",
+        "description": "Plex Unlocker",
+        "url": "https://github.com/authrequest/Freeloader",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 56,
+        "forks": 14,
+        "open_issues": 0,
+        "created_at": "2026-05-30T18:51:12Z",
+        "updated_at": "2026-06-03T23:48:25Z",
+        "pushed_at": "2026-06-03T23:48:22Z",
+        "starred_at": "2026-06-03T15:22:18Z"
+      },
+      "last_updated": "2026-06-04T04:57:54.063083+00:00"
     }
   },
   "last_processed_index": 0,
@@ -230841,5 +230861,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"772506dddeb1bb8710e09f288a4c8ac7bd30738adcae64e38216ecc3a4cf4252\""
+  "profile_etag": "W/\"4eee594acf87c0346231a55e86b33f15b4817b1b30aa34f462cc100b53c2a205\""
 }
