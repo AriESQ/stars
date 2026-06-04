@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T04:57:54.063184+00:00",
+  "last_updated": "2026-06-04T05:04:25.338122+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230834,7 +230834,9 @@
       }
     },
     "authrequest/Freeloader": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1254584608,
         "name": "Freeloader",
