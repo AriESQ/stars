@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T05:05:27.203882+00:00",
+  "last_updated": "2026-06-05T04:51:15.898245+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230862,6 +230862,306 @@
         "fetched_at": "2026-06-04T05:05:27.196436+00:00",
         "status": "ok"
       }
+    },
+    "alibaba/open-code-review": {
+      "lists": [],
+      "metadata": {
+        "id": 1241960226,
+        "name": "open-code-review",
+        "full_name": "alibaba/open-code-review",
+        "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "url": "https://github.com/alibaba/open-code-review",
+        "homepage": "https://alibaba.github.io/open-code-review/",
+        "language": "Go",
+        "stars": 1589,
+        "forks": 94,
+        "open_issues": 11,
+        "created_at": "2026-05-18T02:16:36Z",
+        "updated_at": "2026-06-05T04:50:51Z",
+        "pushed_at": "2026-06-05T04:22:12Z",
+        "starred_at": "2026-06-05T02:40:53Z"
+      },
+      "last_updated": "2026-06-05T04:51:10.845424+00:00"
+    },
+    "etsy/github-app-sts": {
+      "lists": [],
+      "metadata": {
+        "id": 1187353581,
+        "name": "github-app-sts",
+        "full_name": "etsy/github-app-sts",
+        "description": null,
+        "url": "https://github.com/etsy/github-app-sts",
+        "homepage": "",
+        "language": "Go",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-03-20T16:20:14Z",
+        "updated_at": "2026-06-05T00:24:23Z",
+        "pushed_at": "2026-06-01T20:58:24Z",
+        "starred_at": "2026-06-05T00:24:22Z"
+      },
+      "last_updated": "2026-06-05T04:51:11.190447+00:00"
+    },
+    "trailofbits/elaborate": {
+      "lists": [],
+      "metadata": {
+        "id": 868661640,
+        "name": "elaborate",
+        "full_name": "trailofbits/elaborate",
+        "description": "Wrappers for standard library functions and types to produce more elaborate error messages",
+        "url": "https://github.com/trailofbits/elaborate",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 7,
+        "forks": 1,
+        "open_issues": 3,
+        "created_at": "2024-10-07T00:08:58Z",
+        "updated_at": "2026-06-05T00:12:40Z",
+        "pushed_at": "2026-06-04T12:09:45Z",
+        "starred_at": "2026-06-05T00:12:40Z"
+      },
+      "last_updated": "2026-06-05T04:51:11.547512+00:00"
+    },
+    "dependency-check/DependencyCheck": {
+      "lists": [],
+      "metadata": {
+        "id": 5663857,
+        "name": "DependencyCheck",
+        "full_name": "dependency-check/DependencyCheck",
+        "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
+        "url": "https://github.com/dependency-check/DependencyCheck",
+        "homepage": "https://owasp.org/www-project-dependency-check/",
+        "language": "Java",
+        "stars": 7574,
+        "forks": 1409,
+        "open_issues": 192,
+        "created_at": "2012-09-03T20:43:30Z",
+        "updated_at": "2026-06-05T03:54:47Z",
+        "pushed_at": "2026-06-04T07:03:38Z",
+        "starred_at": "2026-06-05T00:10:30Z"
+      },
+      "last_updated": "2026-06-05T04:51:11.871846+00:00"
+    },
+    "oss-review-toolkit/ort": {
+      "lists": [],
+      "metadata": {
+        "id": 107540288,
+        "name": "ort",
+        "full_name": "oss-review-toolkit/ort",
+        "description": "A suite of tools to automate software compliance checks.",
+        "url": "https://github.com/oss-review-toolkit/ort",
+        "homepage": "https://oss-review-toolkit.org",
+        "language": "Kotlin",
+        "stars": 2026,
+        "forks": 381,
+        "open_issues": 330,
+        "created_at": "2017-10-19T11:59:49Z",
+        "updated_at": "2026-06-05T00:09:46Z",
+        "pushed_at": "2026-06-04T19:59:06Z",
+        "starred_at": "2026-06-05T00:09:45Z"
+      },
+      "last_updated": "2026-06-05T04:51:12.225610+00:00"
+    },
+    "trailofbits/idac": {
+      "lists": [],
+      "metadata": {
+        "id": 1218390093,
+        "name": "idac",
+        "full_name": "trailofbits/idac",
+        "description": "idac - IDA Pro command line tool for agents and humans",
+        "url": "https://github.com/trailofbits/idac",
+        "homepage": null,
+        "language": "Python",
+        "stars": 22,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-04-22T20:36:54Z",
+        "updated_at": "2026-06-04T23:41:34Z",
+        "pushed_at": "2026-06-04T20:07:14Z",
+        "starred_at": "2026-06-04T23:41:33Z"
+      },
+      "last_updated": "2026-06-05T04:51:12.596156+00:00"
+    },
+    "trailofbits/gh-action-adapt-sigstore-pypi": {
+      "lists": [],
+      "metadata": {
+        "id": 898506046,
+        "name": "gh-action-adapt-sigstore-pypi",
+        "full_name": "trailofbits/gh-action-adapt-sigstore-pypi",
+        "description": null,
+        "url": "https://github.com/trailofbits/gh-action-adapt-sigstore-pypi",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2024-12-04T14:15:04Z",
+        "updated_at": "2026-06-04T23:39:18Z",
+        "pushed_at": "2026-06-04T22:44:49Z",
+        "starred_at": "2026-06-04T23:39:17Z"
+      },
+      "last_updated": "2026-06-05T04:51:12.960269+00:00"
+    },
+    "trailofbits/codeql-queries": {
+      "lists": [],
+      "metadata": {
+        "id": 706642871,
+        "name": "codeql-queries",
+        "full_name": "trailofbits/codeql-queries",
+        "description": "CodeQL queries developed by Trail of Bits",
+        "url": "https://github.com/trailofbits/codeql-queries",
+        "homepage": null,
+        "language": "CodeQL",
+        "stars": 167,
+        "forks": 10,
+        "open_issues": 9,
+        "created_at": "2023-10-18T10:54:34Z",
+        "updated_at": "2026-06-04T23:38:42Z",
+        "pushed_at": "2026-05-30T00:04:25Z",
+        "starred_at": "2026-06-04T23:38:41Z"
+      },
+      "last_updated": "2026-06-05T04:51:13.327582+00:00"
+    },
+    "tejaswigowda/ffmpeg-webCLI": {
+      "lists": [],
+      "metadata": {
+        "id": 1254696756,
+        "name": "ffmpeg-webCLI",
+        "full_name": "tejaswigowda/ffmpeg-webCLI",
+        "description": "A browser-based video editor powered by ffmpeg.wasm. No uploads, no servers -- all processing happens locally in your browser using WebAssembly.",
+        "url": "https://github.com/tejaswigowda/ffmpeg-webCLI",
+        "homepage": "https://tejaswigowda.com/ffmpeg-webCLI/",
+        "language": "JavaScript",
+        "stars": 132,
+        "forks": 12,
+        "open_issues": 1,
+        "created_at": "2026-05-30T22:31:34Z",
+        "updated_at": "2026-06-05T04:40:59Z",
+        "pushed_at": "2026-06-03T21:35:10Z",
+        "starred_at": "2026-06-04T22:07:04Z"
+      },
+      "last_updated": "2026-06-05T04:51:13.658684+00:00"
+    },
+    "huawei-csl/KVarN": {
+      "lists": [],
+      "metadata": {
+        "id": 1253187784,
+        "name": "KVarN",
+        "full_name": "huawei-csl/KVarN",
+        "description": "KVarN is a native vLLM KV-cache quantization backend for your agents: 3-5x more context, throughput above FP16, and FP16-level accuracy. Calibration-free, one flag.",
+        "url": "https://github.com/huawei-csl/KVarN",
+        "homepage": "https://arxiv.org/abs/2606.03458",
+        "language": "Python",
+        "stars": 216,
+        "forks": 7,
+        "open_issues": 0,
+        "created_at": "2026-05-29T08:19:15Z",
+        "updated_at": "2026-06-05T04:50:01Z",
+        "pushed_at": "2026-06-04T13:26:13Z",
+        "starred_at": "2026-06-04T22:06:36Z"
+      },
+      "last_updated": "2026-06-05T04:51:13.995716+00:00"
+    },
+    "rolldown/rolldown": {
+      "lists": [],
+      "metadata": {
+        "id": 693187866,
+        "name": "rolldown",
+        "full_name": "rolldown/rolldown",
+        "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+        "url": "https://github.com/rolldown/rolldown",
+        "homepage": "https://rolldown.rs",
+        "language": "Rust",
+        "stars": 13606,
+        "forks": 783,
+        "open_issues": 275,
+        "created_at": "2023-09-18T14:20:28Z",
+        "updated_at": "2026-06-05T04:04:47Z",
+        "pushed_at": "2026-06-05T04:03:26Z",
+        "starred_at": "2026-06-04T22:01:48Z"
+      },
+      "last_updated": "2026-06-05T04:51:14.335605+00:00"
+    },
+    "oxc-project/oxc": {
+      "lists": [],
+      "metadata": {
+        "id": 599431918,
+        "name": "oxc",
+        "full_name": "oxc-project/oxc",
+        "description": "\u2693 A collection of high-performance JavaScript tools.",
+        "url": "https://github.com/oxc-project/oxc",
+        "homepage": "https://oxc.rs",
+        "language": "Rust",
+        "stars": 21421,
+        "forks": 1060,
+        "open_issues": 567,
+        "created_at": "2023-02-09T05:46:51Z",
+        "updated_at": "2026-06-05T04:13:41Z",
+        "pushed_at": "2026-06-05T04:13:39Z",
+        "starred_at": "2026-06-04T22:00:36Z"
+      },
+      "last_updated": "2026-06-05T04:51:14.683588+00:00"
+    },
+    "anthropics/defending-code-reference-harness": {
+      "lists": [],
+      "metadata": {
+        "id": 1246839757,
+        "name": "defending-code-reference-harness",
+        "full_name": "anthropics/defending-code-reference-harness",
+        "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+        "url": "https://github.com/anthropics/defending-code-reference-harness",
+        "homepage": "https://claude.com/blog/using-llms-to-secure-source-code",
+        "language": "Python",
+        "stars": 1300,
+        "forks": 101,
+        "open_issues": 1,
+        "created_at": "2026-05-22T16:00:56Z",
+        "updated_at": "2026-06-05T04:51:02Z",
+        "pushed_at": "2026-06-02T20:53:33Z",
+        "starred_at": "2026-06-04T21:57:55Z"
+      },
+      "last_updated": "2026-06-05T04:51:15.036088+00:00"
+    },
+    "eerimoq/moblin": {
+      "lists": [],
+      "metadata": {
+        "id": 680010704,
+        "name": "moblin",
+        "full_name": "eerimoq/moblin",
+        "description": "Moblin, a free iOS app for IRL streaming.",
+        "url": "https://github.com/eerimoq/moblin",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 653,
+        "forks": 82,
+        "open_issues": 8,
+        "created_at": "2023-08-18T06:16:36Z",
+        "updated_at": "2026-06-05T04:30:14Z",
+        "pushed_at": "2026-06-05T04:30:10Z",
+        "starred_at": "2026-06-04T18:15:16Z"
+      },
+      "last_updated": "2026-06-05T04:51:15.342292+00:00"
+    },
+    "openai/tart": {
+      "lists": [],
+      "metadata": {
+        "id": 454359710,
+        "name": "tart",
+        "full_name": "openai/tart",
+        "description": "macOS and Linux VMs on Apple Silicon to use in CI and other automations",
+        "url": "https://github.com/openai/tart",
+        "homepage": "https://tart.run",
+        "language": "Swift",
+        "stars": 5760,
+        "forks": 294,
+        "open_issues": 41,
+        "created_at": "2022-02-01T11:22:40Z",
+        "updated_at": "2026-06-05T02:56:32Z",
+        "pushed_at": "2026-06-05T00:46:52Z",
+        "starred_at": "2022-05-10T21:19:52Z"
+      },
+      "last_updated": "2026-06-05T04:51:15.898166+00:00"
     }
   },
   "last_processed_index": 0,
@@ -230871,5 +231171,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"4eee594acf87c0346231a55e86b33f15b4817b1b30aa34f462cc100b53c2a205\""
+  "profile_etag": "W/\"b5f38496bbaca63523af56ed99dce50861db77110b692ff09dcaed30b9202576\""
 }
