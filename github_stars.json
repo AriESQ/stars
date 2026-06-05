@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T04:58:32.933947+00:00",
+  "last_updated": "2026-06-05T04:58:57.071001+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -230890,7 +230890,15 @@
         "pushed_at": "2026-06-05T04:22:12Z",
         "starred_at": "2026-06-05T02:40:53Z"
       },
-      "last_updated": "2026-06-05T04:51:10.845424+00:00"
+      "last_updated": "2026-06-05T04:51:10.845424+00:00",
+      "readme": {
+        "path": "readmes/alibaba+open-code-review+README.md",
+        "etag": "W/\"724932ab01ddf6119e5192686dad01fb393e90df\"",
+        "sha": "724932ab01ddf6119e5192686dad01fb393e90df",
+        "size": 15242,
+        "fetched_at": "2026-06-05T04:58:54.079445+00:00",
+        "status": "ok"
+      }
     },
     "etsy/github-app-sts": {
       "lists": [
@@ -230916,7 +230924,15 @@
         "pushed_at": "2026-06-01T20:58:24Z",
         "starred_at": "2026-06-05T00:24:22Z"
       },
-      "last_updated": "2026-06-05T04:51:11.190447+00:00"
+      "last_updated": "2026-06-05T04:51:11.190447+00:00",
+      "readme": {
+        "path": "readmes/etsy+github-app-sts+README.md",
+        "etag": "W/\"818a8727b1974d53479e1ba4ecb19ad848314c78\"",
+        "sha": "818a8727b1974d53479e1ba4ecb19ad848314c78",
+        "size": 5404,
+        "fetched_at": "2026-06-05T04:58:54.941557+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/elaborate": {
       "lists": [
@@ -230938,7 +230954,15 @@
         "pushed_at": "2026-06-04T12:09:45Z",
         "starred_at": "2026-06-05T00:12:40Z"
       },
-      "last_updated": "2026-06-05T04:51:11.547512+00:00"
+      "last_updated": "2026-06-05T04:51:11.547512+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+elaborate+README.md",
+        "etag": "W/\"90e328f4b79d533cd5ecd49eab888bb78e25cefb\"",
+        "sha": "90e328f4b79d533cd5ecd49eab888bb78e25cefb",
+        "size": 5200,
+        "fetched_at": "2026-06-05T04:58:56.621391+00:00",
+        "status": "ok"
+      }
     },
     "dependency-check/DependencyCheck": {
       "lists": [
@@ -230963,7 +230987,15 @@
         "pushed_at": "2026-06-04T07:03:38Z",
         "starred_at": "2026-06-05T00:10:30Z"
       },
-      "last_updated": "2026-06-05T04:51:11.871846+00:00"
+      "last_updated": "2026-06-05T04:51:11.871846+00:00",
+      "readme": {
+        "path": "readmes/dependency-check+DependencyCheck+README.md",
+        "etag": "W/\"fd7d7160d9f0ea20750f496ec27bb5f5cde2a231\"",
+        "sha": "fd7d7160d9f0ea20750f496ec27bb5f5cde2a231",
+        "size": 16229,
+        "fetched_at": "2026-06-05T04:58:54.510050+00:00",
+        "status": "ok"
+      }
     },
     "oss-review-toolkit/ort": {
       "lists": [
@@ -230985,7 +231017,15 @@
         "pushed_at": "2026-06-04T19:59:06Z",
         "starred_at": "2026-06-05T00:09:45Z"
       },
-      "last_updated": "2026-06-05T04:51:12.225610+00:00"
+      "last_updated": "2026-06-05T04:51:12.225610+00:00",
+      "readme": {
+        "path": "readmes/oss-review-toolkit+ort+README.md",
+        "etag": "W/\"b4c8995595a569fa553d2a44c232f386434e92a7\"",
+        "sha": "b4c8995595a569fa553d2a44c232f386434e92a7",
+        "size": 8904,
+        "fetched_at": "2026-06-05T04:58:55.566503+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/idac": {
       "lists": [
@@ -231008,7 +231048,15 @@
         "pushed_at": "2026-06-04T20:07:14Z",
         "starred_at": "2026-06-04T23:41:33Z"
       },
-      "last_updated": "2026-06-05T04:51:12.596156+00:00"
+      "last_updated": "2026-06-05T04:51:12.596156+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+idac+README.md",
+        "etag": "W/\"34e96a5384fb0bcb4cb521cad20ada311eb006a8\"",
+        "sha": "34e96a5384fb0bcb4cb521cad20ada311eb006a8",
+        "size": 12292,
+        "fetched_at": "2026-06-05T04:58:57.069489+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/gh-action-adapt-sigstore-pypi": {
       "lists": [
@@ -231035,7 +231083,15 @@
         "pushed_at": "2026-06-04T22:44:49Z",
         "starred_at": "2026-06-04T23:39:17Z"
       },
-      "last_updated": "2026-06-05T04:51:12.960269+00:00"
+      "last_updated": "2026-06-05T04:51:12.960269+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+gh-action-adapt-sigstore-pypi+README.md",
+        "etag": "W/\"0d902a4847463a44480c5bcf2b1566510132a37d\"",
+        "sha": "0d902a4847463a44480c5bcf2b1566510132a37d",
+        "size": 1647,
+        "fetched_at": "2026-06-05T04:58:56.885071+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/codeql-queries": {
       "lists": [
@@ -231058,7 +231114,15 @@
         "pushed_at": "2026-05-30T00:04:25Z",
         "starred_at": "2026-06-04T23:38:41Z"
       },
-      "last_updated": "2026-06-05T04:51:13.327582+00:00"
+      "last_updated": "2026-06-05T04:51:13.327582+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+codeql-queries+README.md",
+        "etag": "W/\"c9371dd9dc85a816961f2f016b34819dbbeca2af\"",
+        "sha": "c9371dd9dc85a816961f2f016b34819dbbeca2af",
+        "size": 2037,
+        "fetched_at": "2026-06-05T04:58:56.369259+00:00",
+        "status": "ok"
+      }
     },
     "tejaswigowda/ffmpeg-webCLI": {
       "lists": [
@@ -231082,7 +231146,15 @@
         "pushed_at": "2026-06-03T21:35:10Z",
         "starred_at": "2026-06-04T22:07:04Z"
       },
-      "last_updated": "2026-06-05T04:51:13.658684+00:00"
+      "last_updated": "2026-06-05T04:51:13.658684+00:00",
+      "readme": {
+        "path": "readmes/tejaswigowda+ffmpeg-webCLI+README.md",
+        "etag": "W/\"e937b9b9573c4720b3cde5d7d10a56152c3d0c4e\"",
+        "sha": "e937b9b9573c4720b3cde5d7d10a56152c3d0c4e",
+        "size": 16197,
+        "fetched_at": "2026-06-05T04:58:56.099601+00:00",
+        "status": "ok"
+      }
     },
     "huawei-csl/KVarN": {
       "lists": [
@@ -231105,7 +231177,15 @@
         "pushed_at": "2026-06-04T13:26:13Z",
         "starred_at": "2026-06-04T22:06:36Z"
       },
-      "last_updated": "2026-06-05T04:51:13.995716+00:00"
+      "last_updated": "2026-06-05T04:51:13.995716+00:00",
+      "readme": {
+        "path": "readmes/huawei-csl+KVarN+README.md",
+        "etag": "W/\"bd5bbc0c70098f04dfe918e23bc3a195234176e1\"",
+        "sha": "bd5bbc0c70098f04dfe918e23bc3a195234176e1",
+        "size": 6208,
+        "fetched_at": "2026-06-05T04:58:55.133141+00:00",
+        "status": "ok"
+      }
     },
     "rolldown/rolldown": {
       "lists": [
@@ -231129,7 +231209,15 @@
         "pushed_at": "2026-06-05T04:03:26Z",
         "starred_at": "2026-06-04T22:01:48Z"
       },
-      "last_updated": "2026-06-05T04:51:14.335605+00:00"
+      "last_updated": "2026-06-05T04:51:14.335605+00:00",
+      "readme": {
+        "path": "readmes/rolldown+rolldown+README.md",
+        "etag": "W/\"b1dff4e4b102949ae6821537c1c082baa77676e2\"",
+        "sha": "b1dff4e4b102949ae6821537c1c082baa77676e2",
+        "size": 4996,
+        "fetched_at": "2026-06-05T04:58:55.941615+00:00",
+        "status": "ok"
+      }
     },
     "oxc-project/oxc": {
       "lists": [
@@ -231153,7 +231241,15 @@
         "pushed_at": "2026-06-05T04:13:39Z",
         "starred_at": "2026-06-04T22:00:36Z"
       },
-      "last_updated": "2026-06-05T04:51:14.683588+00:00"
+      "last_updated": "2026-06-05T04:51:14.683588+00:00",
+      "readme": {
+        "path": "readmes/oxc-project+oxc+README.md",
+        "etag": "W/\"c3f6cd13ab7feb2d54f7fdf208c83ec292f5def0\"",
+        "sha": "c3f6cd13ab7feb2d54f7fdf208c83ec292f5def0",
+        "size": 5351,
+        "fetched_at": "2026-06-05T04:58:55.743734+00:00",
+        "status": "ok"
+      }
     },
     "anthropics/defending-code-reference-harness": {
       "lists": [
@@ -231177,7 +231273,15 @@
         "pushed_at": "2026-06-02T20:53:33Z",
         "starred_at": "2026-06-04T21:57:55Z"
       },
-      "last_updated": "2026-06-05T04:51:15.036088+00:00"
+      "last_updated": "2026-06-05T04:51:15.036088+00:00",
+      "readme": {
+        "path": "readmes/anthropics+defending-code-reference-harness+README.md",
+        "etag": "W/\"d2ba76a5a754cb1fd01bad5f14f4f59d367589a5\"",
+        "sha": "d2ba76a5a754cb1fd01bad5f14f4f59d367589a5",
+        "size": 16237,
+        "fetched_at": "2026-06-05T04:58:54.267630+00:00",
+        "status": "ok"
+      }
     },
     "eerimoq/moblin": {
       "lists": [
@@ -231199,7 +231303,15 @@
         "pushed_at": "2026-06-05T04:30:10Z",
         "starred_at": "2026-06-04T18:15:16Z"
       },
-      "last_updated": "2026-06-05T04:51:15.342292+00:00"
+      "last_updated": "2026-06-05T04:51:15.342292+00:00",
+      "readme": {
+        "path": "readmes/eerimoq+moblin+README.md",
+        "etag": "W/\"875f575ee223cbbaf42fae4402bba087ea7ecadb\"",
+        "sha": "875f575ee223cbbaf42fae4402bba087ea7ecadb",
+        "size": 11680,
+        "fetched_at": "2026-06-05T04:58:54.707254+00:00",
+        "status": "ok"
+      }
     },
     "openai/tart": {
       "lists": [
@@ -231223,7 +231335,15 @@
         "pushed_at": "2026-06-05T00:46:52Z",
         "starred_at": "2022-05-10T21:19:52Z"
       },
-      "last_updated": "2026-06-05T04:51:15.898166+00:00"
+      "last_updated": "2026-06-05T04:51:15.898166+00:00",
+      "readme": {
+        "path": "readmes/openai+tart+README.md",
+        "etag": "W/\"b67af9f1160342d77b0419aa061f1d419e54cf46\"",
+        "sha": "b67af9f1160342d77b0419aa061f1d419e54cf46",
+        "size": 3623,
+        "fetched_at": "2026-06-05T04:58:55.335063+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
