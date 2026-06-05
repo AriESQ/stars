@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T04:51:15.898245+00:00",
+  "last_updated": "2026-06-05T04:58:32.933947+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -138476,7 +138476,8 @@
     "trailofbits/it-depends": {
       "lists": [
         "Python",
-        "SBOM and Reproducible Builds"
+        "SBOM and Reproducible Builds",
+        "Devops"
       ],
       "metadata": {
         "id": 333981819,
@@ -198760,7 +198761,11 @@
       }
     },
     "aquasecurity/trivy": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "GoLang",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 180687624,
         "name": "trivy",
@@ -203746,7 +203751,8 @@
       "lists": [
         "CI/CD",
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 267054247,
@@ -230864,7 +230870,10 @@
       }
     },
     "alibaba/open-code-review": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1241960226,
         "name": "open-code-review",
@@ -230884,7 +230893,13 @@
       "last_updated": "2026-06-05T04:51:10.845424+00:00"
     },
     "etsy/github-app-sts": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "GoLang",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 1187353581,
         "name": "github-app-sts",
@@ -230904,7 +230919,9 @@
       "last_updated": "2026-06-05T04:51:11.190447+00:00"
     },
     "trailofbits/elaborate": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 868661640,
         "name": "elaborate",
@@ -230924,7 +230941,12 @@
       "last_updated": "2026-06-05T04:51:11.547512+00:00"
     },
     "dependency-check/DependencyCheck": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Infosec",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 5663857,
         "name": "DependencyCheck",
@@ -230944,7 +230966,9 @@
       "last_updated": "2026-06-05T04:51:11.871846+00:00"
     },
     "oss-review-toolkit/ort": {
-      "lists": [],
+      "lists": [
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 107540288,
         "name": "ort",
@@ -230964,7 +230988,10 @@
       "last_updated": "2026-06-05T04:51:12.225610+00:00"
     },
     "trailofbits/idac": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1218390093,
         "name": "idac",
@@ -230984,7 +231011,14 @@
       "last_updated": "2026-06-05T04:51:12.596156+00:00"
     },
     "trailofbits/gh-action-adapt-sigstore-pypi": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "CI/CD",
+        "Devops",
+        "Python",
+        "SBOM and Reproducible Builds",
+        "Sigstore"
+      ],
       "metadata": {
         "id": 898506046,
         "name": "gh-action-adapt-sigstore-pypi",
@@ -231004,7 +231038,10 @@
       "last_updated": "2026-06-05T04:51:12.960269+00:00"
     },
     "trailofbits/codeql-queries": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Infosec"
+      ],
       "metadata": {
         "id": 706642871,
         "name": "codeql-queries",
@@ -231024,7 +231061,11 @@
       "last_updated": "2026-06-05T04:51:13.327582+00:00"
     },
     "tejaswigowda/ffmpeg-webCLI": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "JavaScript",
+        "WASM"
+      ],
       "metadata": {
         "id": 1254696756,
         "name": "ffmpeg-webCLI",
@@ -231044,7 +231085,10 @@
       "last_updated": "2026-06-05T04:51:13.658684+00:00"
     },
     "huawei-csl/KVarN": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1253187784,
         "name": "KVarN",
@@ -231064,7 +231108,11 @@
       "last_updated": "2026-06-05T04:51:13.995716+00:00"
     },
     "rolldown/rolldown": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript",
+        "Rust"
+      ],
       "metadata": {
         "id": 693187866,
         "name": "rolldown",
@@ -231084,7 +231132,11 @@
       "last_updated": "2026-06-05T04:51:14.335605+00:00"
     },
     "oxc-project/oxc": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript",
+        "Rust"
+      ],
       "metadata": {
         "id": 599431918,
         "name": "oxc",
@@ -231104,7 +231156,11 @@
       "last_updated": "2026-06-05T04:51:14.683588+00:00"
     },
     "anthropics/defending-code-reference-harness": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1246839757,
         "name": "defending-code-reference-harness",
@@ -231124,7 +231180,9 @@
       "last_updated": "2026-06-05T04:51:15.036088+00:00"
     },
     "eerimoq/moblin": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 680010704,
         "name": "moblin",
@@ -231144,7 +231202,11 @@
       "last_updated": "2026-06-05T04:51:15.342292+00:00"
     },
     "openai/tart": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 454359710,
         "name": "tart",
