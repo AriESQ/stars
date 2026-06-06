@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T04:41:36.614983+00:00",
+  "last_updated": "2026-06-06T04:48:24.808750+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231346,7 +231346,10 @@
       }
     },
     "zdk/lowfat": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1206153161,
         "name": "lowfat",
@@ -231366,7 +231369,11 @@
       "last_updated": "2026-06-06T04:41:35.828138+00:00"
     },
     "cymian/mouseless": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 900921952,
         "name": "mouseless",
@@ -231386,7 +231393,11 @@
       "last_updated": "2026-06-06T04:41:36.124112+00:00"
     },
     "libkrun/krunkit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 756461160,
         "name": "krunkit",
