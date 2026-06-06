@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T04:58:57.071001+00:00",
+  "last_updated": "2026-06-06T04:41:36.614983+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231344,6 +231344,66 @@
         "fetched_at": "2026-06-05T04:58:55.335063+00:00",
         "status": "ok"
       }
+    },
+    "zdk/lowfat": {
+      "lists": [],
+      "metadata": {
+        "id": 1206153161,
+        "name": "lowfat",
+        "full_name": "zdk/lowfat",
+        "description": "lowfat - slim your command output. strips noise, saves tokens.",
+        "url": "https://github.com/zdk/lowfat",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 231,
+        "forks": 10,
+        "open_issues": 0,
+        "created_at": "2026-04-09T16:21:20Z",
+        "updated_at": "2026-06-06T04:23:50Z",
+        "pushed_at": "2026-06-06T00:55:08Z",
+        "starred_at": "2026-06-05T18:34:59Z"
+      },
+      "last_updated": "2026-06-06T04:41:35.828138+00:00"
+    },
+    "cymian/mouseless": {
+      "lists": [],
+      "metadata": {
+        "id": 900921952,
+        "name": "mouseless",
+        "full_name": "cymian/mouseless",
+        "description": "Bug tracking and more for Mouseless",
+        "url": "https://github.com/cymian/mouseless",
+        "homepage": "https://mouseless.click",
+        "language": null,
+        "stars": 709,
+        "forks": 4,
+        "open_issues": 285,
+        "created_at": "2024-12-09T18:04:00Z",
+        "updated_at": "2026-06-05T22:24:27Z",
+        "pushed_at": "2026-05-15T22:55:45Z",
+        "starred_at": "2026-06-05T18:29:37Z"
+      },
+      "last_updated": "2026-06-06T04:41:36.124112+00:00"
+    },
+    "libkrun/krunkit": {
+      "lists": [],
+      "metadata": {
+        "id": 756461160,
+        "name": "krunkit",
+        "full_name": "libkrun/krunkit",
+        "description": "Launch configurable virtual machines with libkrun",
+        "url": "https://github.com/libkrun/krunkit",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 304,
+        "forks": 28,
+        "open_issues": 14,
+        "created_at": "2024-02-12T17:55:49Z",
+        "updated_at": "2026-06-05T11:16:05Z",
+        "pushed_at": "2026-03-25T16:41:55Z",
+        "starred_at": "2025-05-17T16:23:10Z"
+      },
+      "last_updated": "2026-06-06T04:41:36.614946+00:00"
     }
   },
   "last_processed_index": 0,
@@ -231353,5 +231413,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"b5f38496bbaca63523af56ed99dce50861db77110b692ff09dcaed30b9202576\""
+  "profile_etag": "W/\"8c3c4dff500c63126aaced867b4d62d13256048eef3b91178ad45f4742db808f\""
 }
