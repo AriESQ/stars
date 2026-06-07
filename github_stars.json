@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T05:01:04.393767+00:00",
+  "last_updated": "2026-06-07T05:01:33.324086+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231460,7 +231460,15 @@
         "pushed_at": "2026-06-02T09:36:17Z",
         "starred_at": "2026-06-06T22:53:30Z"
       },
-      "last_updated": "2026-06-07T04:54:30.870718+00:00"
+      "last_updated": "2026-06-07T04:54:30.870718+00:00",
+      "readme": {
+        "path": "readmes/pytest-dev+pluggy+README.rst",
+        "etag": "W/\"adef0357ced79d55fc9ae8d46fc1e313d61df0ae\"",
+        "sha": "adef0357ced79d55fc9ae8d46fc1e313d61df0ae",
+        "size": 3360,
+        "fetched_at": "2026-06-07T05:01:32.956907+00:00",
+        "status": "ok"
+      }
     },
     "choria-io/ccm": {
       "lists": [],
@@ -231480,7 +231488,15 @@
         "pushed_at": "2026-05-20T08:46:19Z",
         "starred_at": "2026-06-06T19:52:15Z"
       },
-      "last_updated": "2026-06-07T04:54:31.068624+00:00"
+      "last_updated": "2026-06-07T04:54:31.068624+00:00",
+      "readme": {
+        "path": "readmes/choria-io+ccm+README.md",
+        "etag": "W/\"c37d1e9a8d31e7ca53dd63c42691079779cae9a6\"",
+        "sha": "c37d1e9a8d31e7ca53dd63c42691079779cae9a6",
+        "size": 455,
+        "fetched_at": "2026-06-07T05:01:32.379536+00:00",
+        "status": "ok"
+      }
     },
     "losfair/zeroserve": {
       "lists": [
@@ -231505,7 +231521,15 @@
         "pushed_at": "2026-06-06T14:58:37Z",
         "starred_at": "2026-06-06T18:25:15Z"
       },
-      "last_updated": "2026-06-07T04:54:31.261878+00:00"
+      "last_updated": "2026-06-07T04:54:31.261878+00:00",
+      "readme": {
+        "path": "readmes/losfair+zeroserve+README.md",
+        "etag": "W/\"d9abc0003cbfe9c17caeaa2584d27c8723874bb1\"",
+        "sha": "d9abc0003cbfe9c17caeaa2584d27c8723874bb1",
+        "size": 1592,
+        "fetched_at": "2026-06-07T05:01:32.648453+00:00",
+        "status": "ok"
+      }
     },
     "bytedance/monoio": {
       "lists": [
@@ -231530,7 +231554,15 @@
         "pushed_at": "2026-05-29T08:58:52Z",
         "starred_at": "2026-06-06T18:24:35Z"
       },
-      "last_updated": "2026-06-07T04:54:31.450878+00:00"
+      "last_updated": "2026-06-07T04:54:31.450878+00:00",
+      "readme": {
+        "path": "readmes/bytedance+monoio+README.md",
+        "etag": "W/\"9d8c8db2993fb6baf25b0c8228fa30a36ad2103c\"",
+        "sha": "9d8c8db2993fb6baf25b0c8228fa30a36ad2103c",
+        "size": 5668,
+        "fetched_at": "2026-06-07T05:01:32.005825+00:00",
+        "status": "ok"
+      }
     },
     "streamband/hydra-srt": {
       "lists": [
@@ -231552,7 +231584,15 @@
         "pushed_at": "2026-06-06T14:31:26Z",
         "starred_at": "2025-03-10T21:46:34Z"
       },
-      "last_updated": "2026-06-07T04:54:31.831442+00:00"
+      "last_updated": "2026-06-07T04:54:31.831442+00:00",
+      "readme": {
+        "path": "readmes/streamband+hydra-srt+README.md",
+        "etag": "W/\"e28a49e2913730f5f75b8f8791ebed1101ca91bb\"",
+        "sha": "e28a49e2913730f5f75b8f8791ebed1101ca91bb",
+        "size": 5373,
+        "fetched_at": "2026-06-07T05:01:33.322231+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
