@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T04:54:31.831505+00:00",
+  "last_updated": "2026-06-07T05:01:04.393767+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231441,7 +231441,9 @@
       }
     },
     "pytest-dev/pluggy": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 34739117,
         "name": "pluggy",
@@ -231481,7 +231483,12 @@
       "last_updated": "2026-06-07T04:54:31.068624+00:00"
     },
     "losfair/zeroserve": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "eBPF",
+        "Networking",
+        "Rust"
+      ],
       "metadata": {
         "id": 1094972803,
         "name": "zeroserve",
@@ -231501,7 +231508,12 @@
       "last_updated": "2026-06-07T04:54:31.261878+00:00"
     },
     "bytedance/monoio": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "eBPF",
+        "Networking",
+        "Rust"
+      ],
       "metadata": {
         "id": 433350425,
         "name": "monoio",
@@ -231521,7 +231533,9 @@
       "last_updated": "2026-06-07T04:54:31.450878+00:00"
     },
     "streamband/hydra-srt": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 945434151,
         "name": "hydra-srt",
