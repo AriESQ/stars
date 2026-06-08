@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T05:01:33.324086+00:00",
+  "last_updated": "2026-06-08T04:57:18.934453+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231593,6 +231593,146 @@
         "fetched_at": "2026-06-07T05:01:33.322231+00:00",
         "status": "ok"
       }
+    },
+    "ArturR0k3r/AkiraOS": {
+      "lists": [],
+      "metadata": {
+        "id": 1031682247,
+        "name": "AkiraOS",
+        "full_name": "ArturR0k3r/AkiraOS",
+        "description": "AkiraOS is a modular, security-focused embedded platform for resource-constrained devices. Built on Zephyr RTOS with WebAssembly (WASM) runtime support and OCRE container technology",
+        "url": "https://github.com/ArturR0k3r/AkiraOS",
+        "homepage": "https://akiraos.dev/",
+        "language": "C",
+        "stars": 111,
+        "forks": 9,
+        "open_issues": 1,
+        "created_at": "2025-08-04T07:12:02Z",
+        "updated_at": "2026-06-08T04:21:44Z",
+        "pushed_at": "2026-06-06T22:48:07Z",
+        "starred_at": "2026-06-08T00:14:22Z"
+      },
+      "last_updated": "2026-06-08T04:57:17.479223+00:00"
+    },
+    "infiniumtek/terraform-review-agent": {
+      "lists": [],
+      "metadata": {
+        "id": 1244926035,
+        "name": "terraform-review-agent",
+        "full_name": "infiniumtek/terraform-review-agent",
+        "description": "Reusable GitHub Action that reviews Terraform PRs for security, cost, and style using a LangGraph multi-agent system, posting a single severity-ranked comment.",
+        "url": "https://github.com/infiniumtek/terraform-review-agent",
+        "homepage": "https://infiniumtek.com",
+        "language": "Python",
+        "stars": 84,
+        "forks": 13,
+        "open_issues": 1,
+        "created_at": "2026-05-20T18:29:47Z",
+        "updated_at": "2026-06-07T22:55:17Z",
+        "pushed_at": "2026-05-21T05:25:52Z",
+        "starred_at": "2026-06-07T22:55:17Z"
+      },
+      "last_updated": "2026-06-08T04:57:17.751576+00:00"
+    },
+    "dhleong/playactor": {
+      "lists": [],
+      "metadata": {
+        "id": 324035183,
+        "name": "playactor",
+        "full_name": "dhleong/playactor",
+        "description": "play around with your playstation devices",
+        "url": "https://github.com/dhleong/playactor",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 156,
+        "forks": 11,
+        "open_issues": 17,
+        "created_at": "2020-12-24T01:13:57Z",
+        "updated_at": "2026-06-07T22:29:39Z",
+        "pushed_at": "2024-01-29T15:51:13Z",
+        "starred_at": "2026-06-07T22:29:39Z"
+      },
+      "last_updated": "2026-06-08T04:57:18.007142+00:00"
+    },
+    "0ct0sec/M5PORKCHOP": {
+      "lists": [],
+      "metadata": {
+        "id": 1110910539,
+        "name": "M5PORKCHOP",
+        "full_name": "0ct0sec/M5PORKCHOP",
+        "description": "ON NO! Someone put an RPG in a packet sniffer",
+        "url": "https://github.com/0ct0sec/M5PORKCHOP",
+        "homepage": "https://github.com/0ct0sec/M5PORKCHOP/releases/",
+        "language": "C++",
+        "stars": 612,
+        "forks": 33,
+        "open_issues": 31,
+        "created_at": "2025-12-05T23:08:55Z",
+        "updated_at": "2026-06-07T21:34:56Z",
+        "pushed_at": "2026-06-01T15:19:25Z",
+        "starred_at": "2026-06-07T21:34:56Z"
+      },
+      "last_updated": "2026-06-08T04:57:18.238507+00:00"
+    },
+    "Xombi3/Porkchop-cyd-Port": {
+      "lists": [],
+      "metadata": {
+        "id": 1180348838,
+        "name": "Porkchop-cyd-Port",
+        "full_name": "Xombi3/Porkchop-cyd-Port",
+        "description": "Poor Mans Porkchop",
+        "url": "https://github.com/Xombi3/Porkchop-cyd-Port",
+        "homepage": "",
+        "language": "C++",
+        "stars": 70,
+        "forks": 6,
+        "open_issues": 5,
+        "created_at": "2026-03-13T00:29:48Z",
+        "updated_at": "2026-06-07T21:19:38Z",
+        "pushed_at": "2026-05-30T19:38:32Z",
+        "starred_at": "2026-06-07T21:19:37Z"
+      },
+      "last_updated": "2026-06-08T04:57:18.464670+00:00"
+    },
+    "joevdotme/k8s-live-lab": {
+      "lists": [],
+      "metadata": {
+        "id": 1230074074,
+        "name": "k8s-live-lab",
+        "full_name": "joevdotme/k8s-live-lab",
+        "description": null,
+        "url": "https://github.com/joevdotme/k8s-live-lab",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-05T16:46:54Z",
+        "updated_at": "2026-06-07T20:00:24Z",
+        "pushed_at": "2026-06-05T22:58:17Z",
+        "starred_at": "2026-06-07T20:00:24Z"
+      },
+      "last_updated": "2026-06-08T04:57:18.692584+00:00"
+    },
+    "azat-io/actions-up": {
+      "lists": [],
+      "metadata": {
+        "id": 1045247927,
+        "name": "actions-up",
+        "full_name": "azat-io/actions-up",
+        "description": "\ud83c\udf0a Interactive CLI tool to update GitHub Actions to latest versions with SHA pinning",
+        "url": "https://github.com/azat-io/actions-up",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 580,
+        "forks": 17,
+        "open_issues": 2,
+        "created_at": "2025-08-26T21:52:22Z",
+        "updated_at": "2026-06-07T06:12:26Z",
+        "pushed_at": "2026-05-21T03:39:35Z",
+        "starred_at": "2026-06-07T06:12:26Z"
+      },
+      "last_updated": "2026-06-08T04:57:18.934336+00:00"
     }
   },
   "last_processed_index": 0,
@@ -231602,5 +231742,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"3107093f6a5c75130f171da74d2ee7bd3fab7acac11cd929b8547f413d47a88a\""
+  "profile_etag": "W/\"e69048efc20ce70970f4c789c3b0ba2563dd0fcec5e825b84b56a4fd45f8ec30\""
 }
