@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T04:57:18.934453+00:00",
+  "last_updated": "2026-06-08T05:04:49.572385+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -46162,7 +46162,9 @@
     "containers/libkrun": {
       "lists": [
         "Apple and M1 virtualization",
-        "Rust"
+        "Rust",
+        "Devops",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 287326438,
@@ -231595,7 +231597,10 @@
       }
     },
     "ArturR0k3r/AkiraOS": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "WASM"
+      ],
       "metadata": {
         "id": 1031682247,
         "name": "AkiraOS",
@@ -231615,7 +231620,12 @@
       "last_updated": "2026-06-08T04:57:17.479223+00:00"
     },
     "infiniumtek/terraform-review-agent": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Machine Learning",
+        "Terraform"
+      ],
       "metadata": {
         "id": 1244926035,
         "name": "terraform-review-agent",
@@ -231635,7 +231645,12 @@
       "last_updated": "2026-06-08T04:57:17.751576+00:00"
     },
     "dhleong/playactor": {
-      "lists": [],
+      "lists": [
+        "API",
+        "DIY",
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 324035183,
         "name": "playactor",
@@ -231655,7 +231670,10 @@
       "last_updated": "2026-06-08T04:57:18.007142+00:00"
     },
     "0ct0sec/M5PORKCHOP": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1110910539,
         "name": "M5PORKCHOP",
@@ -231675,7 +231693,10 @@
       "last_updated": "2026-06-08T04:57:18.238507+00:00"
     },
     "Xombi3/Porkchop-cyd-Port": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1180348838,
         "name": "Porkchop-cyd-Port",
@@ -231695,7 +231716,10 @@
       "last_updated": "2026-06-08T04:57:18.464670+00:00"
     },
     "joevdotme/k8s-live-lab": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 1230074074,
         "name": "k8s-live-lab",
@@ -231715,7 +231739,12 @@
       "last_updated": "2026-06-08T04:57:18.692584+00:00"
     },
     "azat-io/actions-up": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Infosec",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1045247927,
         "name": "actions-up",
