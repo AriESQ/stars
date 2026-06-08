@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T05:04:49.572385+00:00",
+  "last_updated": "2026-06-08T05:05:10.191927+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231617,7 +231617,15 @@
         "pushed_at": "2026-06-06T22:48:07Z",
         "starred_at": "2026-06-08T00:14:22Z"
       },
-      "last_updated": "2026-06-08T04:57:17.479223+00:00"
+      "last_updated": "2026-06-08T04:57:17.479223+00:00",
+      "readme": {
+        "path": "readmes/ArturR0k3r+AkiraOS+README.md",
+        "etag": "W/\"e53c5630add8dc2e2f35e5f3ec27c47cf49f28ac\"",
+        "sha": "e53c5630add8dc2e2f35e5f3ec27c47cf49f28ac",
+        "size": 10105,
+        "fetched_at": "2026-06-08T05:05:09.005710+00:00",
+        "status": "ok"
+      }
     },
     "infiniumtek/terraform-review-agent": {
       "lists": [
@@ -231642,7 +231650,15 @@
         "pushed_at": "2026-05-21T05:25:52Z",
         "starred_at": "2026-06-07T22:55:17Z"
       },
-      "last_updated": "2026-06-08T04:57:17.751576+00:00"
+      "last_updated": "2026-06-08T04:57:17.751576+00:00",
+      "readme": {
+        "path": "readmes/infiniumtek+terraform-review-agent+README.md",
+        "etag": "W/\"d3856ff6886fb2916cf9cc3fc8a26e818b951802\"",
+        "sha": "d3856ff6886fb2916cf9cc3fc8a26e818b951802",
+        "size": 10464,
+        "fetched_at": "2026-06-08T05:05:09.945443+00:00",
+        "status": "ok"
+      }
     },
     "dhleong/playactor": {
       "lists": [
@@ -231667,7 +231683,15 @@
         "pushed_at": "2024-01-29T15:51:13Z",
         "starred_at": "2026-06-07T22:29:39Z"
       },
-      "last_updated": "2026-06-08T04:57:18.007142+00:00"
+      "last_updated": "2026-06-08T04:57:18.007142+00:00",
+      "readme": {
+        "path": "readmes/dhleong+playactor+README.md",
+        "etag": "W/\"5bf0785856be270ab75633daaf8d21ac0b0e2c1f\"",
+        "sha": "5bf0785856be270ab75633daaf8d21ac0b0e2c1f",
+        "size": 992,
+        "fetched_at": "2026-06-08T05:05:09.673546+00:00",
+        "status": "ok"
+      }
     },
     "0ct0sec/M5PORKCHOP": {
       "lists": [
@@ -231690,7 +231714,15 @@
         "pushed_at": "2026-06-01T15:19:25Z",
         "starred_at": "2026-06-07T21:34:56Z"
       },
-      "last_updated": "2026-06-08T04:57:18.238507+00:00"
+      "last_updated": "2026-06-08T04:57:18.238507+00:00",
+      "readme": {
+        "path": "readmes/0ct0sec+M5PORKCHOP+README.md",
+        "etag": "W/\"03cd3a55644cee8c244731bd7025ea61f4f54979\"",
+        "sha": "03cd3a55644cee8c244731bd7025ea61f4f54979",
+        "size": 49744,
+        "fetched_at": "2026-06-08T05:05:08.806067+00:00",
+        "status": "ok"
+      }
     },
     "Xombi3/Porkchop-cyd-Port": {
       "lists": [
@@ -231713,7 +231745,15 @@
         "pushed_at": "2026-05-30T19:38:32Z",
         "starred_at": "2026-06-07T21:19:37Z"
       },
-      "last_updated": "2026-06-08T04:57:18.464670+00:00"
+      "last_updated": "2026-06-08T04:57:18.464670+00:00",
+      "readme": {
+        "path": "readmes/Xombi3+Porkchop-cyd-Port+README.md",
+        "etag": "W/\"bd22e2a8adb0220d5cd10ef12abebd4055ed52c1\"",
+        "sha": "bd22e2a8adb0220d5cd10ef12abebd4055ed52c1",
+        "size": 25350,
+        "fetched_at": "2026-06-08T05:05:09.208097+00:00",
+        "status": "ok"
+      }
     },
     "joevdotme/k8s-live-lab": {
       "lists": [
@@ -231736,7 +231776,15 @@
         "pushed_at": "2026-06-05T22:58:17Z",
         "starred_at": "2026-06-07T20:00:24Z"
       },
-      "last_updated": "2026-06-08T04:57:18.692584+00:00"
+      "last_updated": "2026-06-08T04:57:18.692584+00:00",
+      "readme": {
+        "path": "readmes/joevdotme+k8s-live-lab+README.md",
+        "etag": "W/\"3a5e00434bb0c1e568b7d05cac88a99fc77b10a2\"",
+        "sha": "3a5e00434bb0c1e568b7d05cac88a99fc77b10a2",
+        "size": 5980,
+        "fetched_at": "2026-06-08T05:05:10.185782+00:00",
+        "status": "ok"
+      }
     },
     "azat-io/actions-up": {
       "lists": [
@@ -231761,7 +231809,15 @@
         "pushed_at": "2026-05-21T03:39:35Z",
         "starred_at": "2026-06-07T06:12:26Z"
       },
-      "last_updated": "2026-06-08T04:57:18.934336+00:00"
+      "last_updated": "2026-06-08T04:57:18.934336+00:00",
+      "readme": {
+        "path": "readmes/azat-io+actions-up+readme.md",
+        "etag": "W/\"999f0fdca8263314332a38e4c19faf652c2fb433\"",
+        "sha": "999f0fdca8263314332a38e4c19faf652c2fb433",
+        "size": 16550,
+        "fetched_at": "2026-06-08T05:05:09.440303+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
