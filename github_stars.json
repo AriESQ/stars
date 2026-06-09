@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T04:52:09.194785+00:00",
+  "last_updated": "2026-06-09T04:52:36.630216+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231840,7 +231840,15 @@
         "pushed_at": "2026-06-09T01:54:23Z",
         "starred_at": "2026-05-06T18:46:01Z"
       },
-      "last_updated": "2026-06-09T04:45:03.415112+00:00"
+      "last_updated": "2026-06-09T04:45:03.415112+00:00",
+      "readme": {
+        "path": "readmes/jdx+aube+README.md",
+        "etag": "W/\"d361ffd42bc94bc444610123bcd95efc0f0cc271\"",
+        "sha": "d361ffd42bc94bc444610123bcd95efc0f0cc271",
+        "size": 10224,
+        "fetched_at": "2026-06-09T04:52:36.175106+00:00",
+        "status": "ok"
+      }
     },
     "Egonex-AI/Understand-Anything": {
       "lists": [
@@ -231862,7 +231870,15 @@
         "pushed_at": "2026-06-06T10:47:00Z",
         "starred_at": "2026-05-01T22:22:51Z"
       },
-      "last_updated": "2026-06-09T04:45:03.604276+00:00"
+      "last_updated": "2026-06-09T04:45:03.604276+00:00",
+      "readme": {
+        "path": "readmes/Egonex-AI+Understand-Anything+README.md",
+        "etag": "W/\"806d4f45472f589860ac4f62733801819891e6f6\"",
+        "sha": "806d4f45472f589860ac4f62733801819891e6f6",
+        "size": 15666,
+        "fetched_at": "2026-06-09T04:52:35.939868+00:00",
+        "status": "ok"
+      }
     },
     "libkrun/libkrun": {
       "lists": [
@@ -231887,7 +231903,15 @@
         "pushed_at": "2026-06-08T14:57:04Z",
         "starred_at": "2025-05-17T16:23:45Z"
       },
-      "last_updated": "2026-06-09T04:45:03.978239+00:00"
+      "last_updated": "2026-06-09T04:45:03.978239+00:00",
+      "readme": {
+        "path": "readmes/libkrun+libkrun+README.md",
+        "etag": "W/\"6e26fa77465ab16515305b512f3efb3e73505e78\"",
+        "sha": "6e26fa77465ab16515305b512f3efb3e73505e78",
+        "size": 11150,
+        "fetched_at": "2026-06-09T04:52:36.365822+00:00",
+        "status": "ok"
+      }
     },
     "mozilla/nss": {
       "lists": [],
@@ -231907,7 +231931,15 @@
         "pushed_at": "2026-06-08T18:43:11Z",
         "starred_at": "2022-02-13T01:20:03Z"
       },
-      "last_updated": "2026-06-09T04:45:04.366615+00:00"
+      "last_updated": "2026-06-09T04:45:04.366615+00:00",
+      "readme": {
+        "path": "readmes/mozilla+nss+readme.md",
+        "etag": "W/\"1cc6f750cc62ae015c43624a70b99c45cfbc29ca\"",
+        "sha": "1cc6f750cc62ae015c43624a70b99c45cfbc29ca",
+        "size": 6786,
+        "fetched_at": "2026-06-09T04:52:36.626324+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
