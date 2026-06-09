@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T04:45:04.366673+00:00",
+  "last_updated": "2026-06-09T04:52:09.194785+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227443,7 +227443,8 @@
     },
     "Asymptote-Labs/agent-beacon": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "GoLang"
       ],
       "metadata": {
         "id": 1236183038,
@@ -231820,7 +231821,9 @@
       }
     },
     "jdx/aube": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1214542327,
         "name": "aube",
@@ -231840,7 +231843,9 @@
       "last_updated": "2026-06-09T04:45:03.415112+00:00"
     },
     "Egonex-AI/Understand-Anything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1182081931,
         "name": "Understand-Anything",
@@ -231860,7 +231865,12 @@
       "last_updated": "2026-06-09T04:45:03.604276+00:00"
     },
     "libkrun/libkrun": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Docker and OCI containers",
+        "Rust"
+      ],
       "metadata": {
         "id": 287326438,
         "name": "libkrun",
