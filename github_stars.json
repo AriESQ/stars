@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T04:52:36.630216+00:00",
+  "last_updated": "2026-06-10T04:51:01.006090+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231940,6 +231940,306 @@
         "fetched_at": "2026-06-09T04:52:36.626324+00:00",
         "status": "ok"
       }
+    },
+    "sig-id/nucleus": {
+      "lists": [],
+      "metadata": {
+        "id": 1163932148,
+        "name": "nucleus",
+        "full_name": "sig-id/nucleus",
+        "description": "Lightweight OCI container runtime for NixOS",
+        "url": "https://github.com/sig-id/nucleus",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 27,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-02-22T11:34:13Z",
+        "updated_at": "2026-06-10T04:16:22Z",
+        "pushed_at": "2026-06-09T22:56:42Z",
+        "starred_at": "2026-06-10T00:21:08Z"
+      },
+      "last_updated": "2026-06-10T04:50:57.642831+00:00"
+    },
+    "fersantxez/OpenA8DJ": {
+      "lists": [],
+      "metadata": {
+        "id": 1262195290,
+        "name": "OpenA8DJ",
+        "full_name": "fersantxez/OpenA8DJ",
+        "description": "Open-source driver stack for the Native Instruments Audio 8 DJ USB interface on modern macOS, with experimental Windows WDK work.",
+        "url": "https://github.com/fersantxez/OpenA8DJ",
+        "homepage": "https://github.com/fersantxez/OpenA8DJ/releases/latest",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-07T17:36:25Z",
+        "updated_at": "2026-06-09T22:44:32Z",
+        "pushed_at": "2026-06-09T00:50:48Z",
+        "starred_at": "2026-06-09T22:44:32Z"
+      },
+      "last_updated": "2026-06-10T04:50:57.871870+00:00"
+    },
+    "Axyom/openwig": {
+      "lists": [],
+      "metadata": {
+        "id": 1257675919,
+        "name": "openwig",
+        "full_name": "Axyom/openwig",
+        "description": "Algorithmic composition for Bitwig Studio. Write Python, get songs.",
+        "url": "https://github.com/Axyom/openwig",
+        "homepage": "https://axyom.github.io/openwig/",
+        "language": "Python",
+        "stars": 33,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-06-02T22:53:28Z",
+        "updated_at": "2026-06-09T22:42:35Z",
+        "pushed_at": "2026-06-09T13:33:31Z",
+        "starred_at": "2026-06-09T22:42:34Z"
+      },
+      "last_updated": "2026-06-10T04:50:58.070004+00:00"
+    },
+    "lennet/FlameGraph": {
+      "lists": [],
+      "metadata": {
+        "id": 181958400,
+        "name": "FlameGraph",
+        "full_name": "lennet/FlameGraph",
+        "description": "A simple tool to generate FlameGraphs from Xcode Instruments traces \ud83d\udd25\ud83d\udcca",
+        "url": "https://github.com/lennet/FlameGraph",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 69,
+        "forks": 5,
+        "open_issues": 3,
+        "created_at": "2019-04-17T19:49:08Z",
+        "updated_at": "2026-06-09T22:40:41Z",
+        "pushed_at": "2019-06-12T15:06:02Z",
+        "starred_at": "2026-06-09T22:40:40Z"
+      },
+      "last_updated": "2026-06-10T04:50:58.280185+00:00"
+    },
+    "hshshshshsh12e/gpumkat": {
+      "lists": [],
+      "metadata": {
+        "id": 958381132,
+        "name": "gpumkat",
+        "full_name": "hshshshshsh12e/gpumkat",
+        "description": "Gpumkat is a shader debugger for metal which is designed to do what instruments can't do",
+        "url": "https://github.com/hshshshshsh12e/gpumkat",
+        "homepage": null,
+        "language": "Objective-C",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-04-01T05:29:37Z",
+        "updated_at": "2026-06-10T03:27:26Z",
+        "pushed_at": "2026-06-10T03:27:22Z",
+        "starred_at": "2026-06-09T22:39:27Z"
+      },
+      "last_updated": "2026-06-10T04:50:58.505934+00:00"
+    },
+    "newtro/delegateos": {
+      "lists": [],
+      "metadata": {
+        "id": 1159661792,
+        "name": "delegateos",
+        "full_name": "newtro/delegateos",
+        "description": "Multi-agent delegation and orchestration protocol - Biscuit-based DCTs, delegation chains, trust scoring, MCP integration",
+        "url": "https://github.com/newtro/delegateos",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 4,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-02-17T02:07:51Z",
+        "updated_at": "2026-06-09T22:17:54Z",
+        "pushed_at": "2026-02-17T04:02:29Z",
+        "starred_at": "2026-06-09T22:17:53Z"
+      },
+      "last_updated": "2026-06-10T04:50:58.738423+00:00"
+    },
+    "Protonk/PolicyWitness": {
+      "lists": [],
+      "metadata": {
+        "id": 1116075909,
+        "name": "PolicyWitness",
+        "full_name": "Protonk/PolicyWitness",
+        "description": "Instrument the macOS Seatbelt sandbox at runtime without hand-waving",
+        "url": "https://github.com/Protonk/PolicyWitness",
+        "homepage": "https://adampunk.com",
+        "language": "Swift",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-12-14T06:24:24Z",
+        "updated_at": "2026-06-09T22:16:42Z",
+        "pushed_at": "2026-06-08T17:42:00Z",
+        "starred_at": "2026-06-09T22:16:41Z"
+      },
+      "last_updated": "2026-06-10T04:50:58.945210+00:00"
+    },
+    "markgravity/app-tester-skill": {
+      "lists": [],
+      "metadata": {
+        "id": 1198066868,
+        "name": "app-tester-skill",
+        "full_name": "markgravity/app-tester-skill",
+        "description": "Claude Code skill for testing iOS/macOS app navigation flows without screenshots. Builds a persistent screen graph, instruments Swift files, and drives flows via accessibility tree + console logs.",
+        "url": "https://github.com/markgravity/app-tester-skill",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-01T05:08:19Z",
+        "updated_at": "2026-06-09T22:14:03Z",
+        "pushed_at": "2026-05-06T07:21:39Z",
+        "starred_at": "2026-06-09T22:14:02Z"
+      },
+      "last_updated": "2026-06-10T04:50:59.171309+00:00"
+    },
+    "MetalLikeCuda/gpumkat": {
+      "lists": [],
+      "metadata": {
+        "id": 957091352,
+        "name": "gpumkat",
+        "full_name": "MetalLikeCuda/gpumkat",
+        "description": "Gpumkat is a shader debugger, profiler and tester for metal which is designed to do what instruments can't do",
+        "url": "https://github.com/MetalLikeCuda/gpumkat",
+        "homepage": "",
+        "language": "Objective-C",
+        "stars": 11,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-03-29T14:36:09Z",
+        "updated_at": "2026-06-09T22:03:05Z",
+        "pushed_at": "2026-06-05T13:47:30Z",
+        "starred_at": "2026-06-09T22:03:05Z"
+      },
+      "last_updated": "2026-06-10T04:50:59.438584+00:00"
+    },
+    "LeoNatan/DetoxInstruments": {
+      "lists": [],
+      "metadata": {
+        "id": 408428284,
+        "name": "DetoxInstruments",
+        "full_name": "LeoNatan/DetoxInstruments",
+        "description": "Detox Instruments is a performance\u2013analysis and testing framework, designed to help developers profile their mobile apps in order to better understand and optimize their app's behavior and performance.",
+        "url": "https://github.com/LeoNatan/DetoxInstruments",
+        "homepage": "",
+        "language": "Objective-C",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2021-09-20T12:09:27Z",
+        "updated_at": "2026-06-09T22:02:54Z",
+        "pushed_at": "2023-02-16T12:29:44Z",
+        "starred_at": "2026-06-09T22:02:54Z"
+      },
+      "last_updated": "2026-06-10T04:50:59.652606+00:00"
+    },
+    "kyoya1123/instruments-profiler": {
+      "lists": [],
+      "metadata": {
+        "id": 1146602841,
+        "name": "instruments-profiler",
+        "full_name": "kyoya1123/instruments-profiler",
+        "description": "Automate Xcode Instruments profiling via Claude Code",
+        "url": "https://github.com/kyoya1123/instruments-profiler",
+        "homepage": null,
+        "language": "Python",
+        "stars": 10,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-01-31T11:18:20Z",
+        "updated_at": "2026-06-09T22:00:17Z",
+        "pushed_at": "2026-04-13T01:55:15Z",
+        "starred_at": "2026-06-09T22:00:17Z"
+      },
+      "last_updated": "2026-06-10T04:50:59.883186+00:00"
+    },
+    "nemanjavlahovic/instruments-mcp-server": {
+      "lists": [],
+      "metadata": {
+        "id": 1162591537,
+        "name": "instruments-mcp-server",
+        "full_name": "nemanjavlahovic/instruments-mcp-server",
+        "description": "MCP server for Xcode Instruments \u2014 AI agents get structured performance profiling (CPU, SwiftUI, memory, hitches) instead of raw xctrace XML",
+        "url": "https://github.com/nemanjavlahovic/instruments-mcp-server",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 14,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-02-20T13:03:19Z",
+        "updated_at": "2026-06-09T21:59:54Z",
+        "pushed_at": "2026-04-29T23:11:42Z",
+        "starred_at": "2026-06-09T21:59:53Z"
+      },
+      "last_updated": "2026-06-10T04:51:00.112490+00:00"
+    },
+    "tillt/KompleteSynthesia": {
+      "lists": [],
+      "metadata": {
+        "id": 584965340,
+        "name": "KompleteSynthesia",
+        "full_name": "tillt/KompleteSynthesia",
+        "description": "Native Instruments Komplete Kontrol Light Guide support for Synthesia",
+        "url": "https://github.com/tillt/KompleteSynthesia",
+        "homepage": "",
+        "language": "Objective-C",
+        "stars": 31,
+        "forks": 2,
+        "open_issues": 8,
+        "created_at": "2023-01-04T01:08:23Z",
+        "updated_at": "2026-06-09T21:57:57Z",
+        "pushed_at": "2024-04-27T21:12:44Z",
+        "starred_at": "2026-06-09T21:57:57Z"
+      },
+      "last_updated": "2026-06-10T04:51:00.333455+00:00"
+    },
+    "ChrisLundquist/cloudip": {
+      "lists": [],
+      "metadata": {
+        "id": 1263299325,
+        "name": "cloudip",
+        "full_name": "ChrisLundquist/cloudip",
+        "description": "mmdb for cloud metadata",
+        "url": "https://github.com/ChrisLundquist/cloudip",
+        "homepage": null,
+        "language": "Go",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-06-08T20:23:34Z",
+        "updated_at": "2026-06-09T20:05:57Z",
+        "pushed_at": "2026-06-09T20:27:59Z",
+        "starred_at": "2026-06-09T17:40:24Z"
+      },
+      "last_updated": "2026-06-10T04:51:00.558713+00:00"
+    },
+    "openinterpreter/openinterpreter": {
+      "lists": [],
+      "metadata": {
+        "id": 666299222,
+        "name": "openinterpreter",
+        "full_name": "openinterpreter/openinterpreter",
+        "description": "A natural language interface for computers",
+        "url": "https://github.com/openinterpreter/openinterpreter",
+        "homepage": "http://openinterpreter.com/",
+        "language": "Python",
+        "stars": 63851,
+        "forks": 5541,
+        "open_issues": 334,
+        "created_at": "2023-07-14T07:10:44Z",
+        "updated_at": "2026-06-10T03:25:48Z",
+        "pushed_at": "2026-06-09T22:32:08Z",
+        "starred_at": "2024-09-02T22:29:40Z"
+      },
+      "last_updated": "2026-06-10T04:51:01.006037+00:00"
     }
   },
   "last_processed_index": 0,
@@ -231949,5 +232249,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"0177e2037bab4b5a12cad7986b40ccdca98fd422e93b67acd68895d160668095\""
+  "profile_etag": "W/\"a9b27171fb63c7c89b030d3c6080f64905a63ad8dbae208e3fe4482b054ebf71\""
 }
