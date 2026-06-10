@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T04:51:01.006090+00:00",
+  "last_updated": "2026-06-10T04:57:54.075536+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231942,7 +231942,12 @@
       }
     },
     "sig-id/nucleus": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "Infosec",
+        "Rust",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 1163932148,
         "name": "nucleus",
@@ -231962,7 +231967,10 @@
       "last_updated": "2026-06-10T04:50:57.642831+00:00"
     },
     "fersantxez/OpenA8DJ": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1262195290,
         "name": "OpenA8DJ",
@@ -231982,7 +231990,11 @@
       "last_updated": "2026-06-10T04:50:57.871870+00:00"
     },
     "Axyom/openwig": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1257675919,
         "name": "openwig",
@@ -232002,7 +232014,9 @@
       "last_updated": "2026-06-10T04:50:58.070004+00:00"
     },
     "lennet/FlameGraph": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 181958400,
         "name": "FlameGraph",
@@ -232022,7 +232036,10 @@
       "last_updated": "2026-06-10T04:50:58.280185+00:00"
     },
     "hshshshshsh12e/gpumkat": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 958381132,
         "name": "gpumkat",
@@ -232042,7 +232059,10 @@
       "last_updated": "2026-06-10T04:50:58.505934+00:00"
     },
     "newtro/delegateos": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1159661792,
         "name": "delegateos",
@@ -232062,7 +232082,10 @@
       "last_updated": "2026-06-10T04:50:58.738423+00:00"
     },
     "Protonk/PolicyWitness": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1116075909,
         "name": "PolicyWitness",
@@ -232082,7 +232105,10 @@
       "last_updated": "2026-06-10T04:50:58.945210+00:00"
     },
     "markgravity/app-tester-skill": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1198066868,
         "name": "app-tester-skill",
@@ -232102,7 +232128,9 @@
       "last_updated": "2026-06-10T04:50:59.171309+00:00"
     },
     "MetalLikeCuda/gpumkat": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 957091352,
         "name": "gpumkat",
@@ -232122,7 +232150,9 @@
       "last_updated": "2026-06-10T04:50:59.438584+00:00"
     },
     "LeoNatan/DetoxInstruments": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 408428284,
         "name": "DetoxInstruments",
@@ -232142,7 +232172,10 @@
       "last_updated": "2026-06-10T04:50:59.652606+00:00"
     },
     "kyoya1123/instruments-profiler": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1146602841,
         "name": "instruments-profiler",
@@ -232162,7 +232195,10 @@
       "last_updated": "2026-06-10T04:50:59.883186+00:00"
     },
     "nemanjavlahovic/instruments-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1162591537,
         "name": "instruments-mcp-server",
@@ -232182,7 +232218,9 @@
       "last_updated": "2026-06-10T04:51:00.112490+00:00"
     },
     "tillt/KompleteSynthesia": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 584965340,
         "name": "KompleteSynthesia",
@@ -232202,7 +232240,9 @@
       "last_updated": "2026-06-10T04:51:00.333455+00:00"
     },
     "ChrisLundquist/cloudip": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1263299325,
         "name": "cloudip",
@@ -232222,7 +232262,10 @@
       "last_updated": "2026-06-10T04:51:00.558713+00:00"
     },
     "openinterpreter/openinterpreter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 666299222,
         "name": "openinterpreter",
