@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T04:57:54.075536+00:00",
+  "last_updated": "2026-06-10T04:58:21.520572+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -231964,7 +231964,15 @@
         "pushed_at": "2026-06-09T22:56:42Z",
         "starred_at": "2026-06-10T00:21:08Z"
       },
-      "last_updated": "2026-06-10T04:50:57.642831+00:00"
+      "last_updated": "2026-06-10T04:50:57.642831+00:00",
+      "readme": {
+        "path": "readmes/sig-id+nucleus+README.md",
+        "etag": "W/\"8473aa9ce4aeb91ec10fabb03de63d755258ba79\"",
+        "sha": "8473aa9ce4aeb91ec10fabb03de63d755258ba79",
+        "size": 46853,
+        "fetched_at": "2026-06-10T04:58:21.287625+00:00",
+        "status": "ok"
+      }
     },
     "fersantxez/OpenA8DJ": {
       "lists": [
@@ -231987,7 +231995,15 @@
         "pushed_at": "2026-06-09T00:50:48Z",
         "starred_at": "2026-06-09T22:44:32Z"
       },
-      "last_updated": "2026-06-10T04:50:57.871870+00:00"
+      "last_updated": "2026-06-10T04:50:57.871870+00:00",
+      "readme": {
+        "path": "readmes/fersantxez+OpenA8DJ+README.md",
+        "etag": "W/\"f7c76342b17532bff811f449230a8ebf406325c0\"",
+        "sha": "f7c76342b17532bff811f449230a8ebf406325c0",
+        "size": 8290,
+        "fetched_at": "2026-06-10T04:58:19.353888+00:00",
+        "status": "ok"
+      }
     },
     "Axyom/openwig": {
       "lists": [
@@ -232011,7 +232027,15 @@
         "pushed_at": "2026-06-09T13:33:31Z",
         "starred_at": "2026-06-09T22:42:34Z"
       },
-      "last_updated": "2026-06-10T04:50:58.070004+00:00"
+      "last_updated": "2026-06-10T04:50:58.070004+00:00",
+      "readme": {
+        "path": "readmes/Axyom+openwig+README.md",
+        "etag": "W/\"0ef18bd191903b0308e824fc43ec47e14b103d34\"",
+        "sha": "0ef18bd191903b0308e824fc43ec47e14b103d34",
+        "size": 2219,
+        "fetched_at": "2026-06-10T04:58:18.038542+00:00",
+        "status": "ok"
+      }
     },
     "lennet/FlameGraph": {
       "lists": [
@@ -232033,7 +232057,15 @@
         "pushed_at": "2019-06-12T15:06:02Z",
         "starred_at": "2026-06-09T22:40:40Z"
       },
-      "last_updated": "2026-06-10T04:50:58.280185+00:00"
+      "last_updated": "2026-06-10T04:50:58.280185+00:00",
+      "readme": {
+        "path": "readmes/lennet+FlameGraph+README.md",
+        "etag": "W/\"253b50a6a54689c06a89a27f81385052dd701e83\"",
+        "sha": "253b50a6a54689c06a89a27f81385052dd701e83",
+        "size": 1110,
+        "fetched_at": "2026-06-10T04:58:20.083657+00:00",
+        "status": "ok"
+      }
     },
     "hshshshshsh12e/gpumkat": {
       "lists": [
@@ -232056,7 +232088,15 @@
         "pushed_at": "2026-06-10T03:27:22Z",
         "starred_at": "2026-06-09T22:39:27Z"
       },
-      "last_updated": "2026-06-10T04:50:58.505934+00:00"
+      "last_updated": "2026-06-10T04:50:58.505934+00:00",
+      "readme": {
+        "path": "readmes/hshshshshsh12e+gpumkat+README.md",
+        "etag": "W/\"61f2d854ca4ed2836617504ce7410cef9e070b64\"",
+        "sha": "61f2d854ca4ed2836617504ce7410cef9e070b64",
+        "size": 2643,
+        "fetched_at": "2026-06-10T04:58:19.603059+00:00",
+        "status": "ok"
+      }
     },
     "newtro/delegateos": {
       "lists": [
@@ -232079,7 +232119,15 @@
         "pushed_at": "2026-02-17T04:02:29Z",
         "starred_at": "2026-06-09T22:17:53Z"
       },
-      "last_updated": "2026-06-10T04:50:58.738423+00:00"
+      "last_updated": "2026-06-10T04:50:58.738423+00:00",
+      "readme": {
+        "path": "readmes/newtro+delegateos+README.md",
+        "etag": "W/\"63c6683dc8eb72827e602ddae0e60c997693c6fc\"",
+        "sha": "63c6683dc8eb72827e602ddae0e60c997693c6fc",
+        "size": 22806,
+        "fetched_at": "2026-06-10T04:58:20.844967+00:00",
+        "status": "ok"
+      }
     },
     "Protonk/PolicyWitness": {
       "lists": [
@@ -232102,7 +232150,15 @@
         "pushed_at": "2026-06-08T17:42:00Z",
         "starred_at": "2026-06-09T22:16:41Z"
       },
-      "last_updated": "2026-06-10T04:50:58.945210+00:00"
+      "last_updated": "2026-06-10T04:50:58.945210+00:00",
+      "readme": {
+        "path": "readmes/Protonk+PolicyWitness+README.md",
+        "etag": "W/\"d23e4af3146b76411d7fa3bb36fa9ecdd5407f7d\"",
+        "sha": "d23e4af3146b76411d7fa3bb36fa9ecdd5407f7d",
+        "size": 4676,
+        "fetched_at": "2026-06-10T04:58:19.096508+00:00",
+        "status": "ok"
+      }
     },
     "markgravity/app-tester-skill": {
       "lists": [
@@ -232125,7 +232181,15 @@
         "pushed_at": "2026-05-06T07:21:39Z",
         "starred_at": "2026-06-09T22:14:02Z"
       },
-      "last_updated": "2026-06-10T04:50:59.171309+00:00"
+      "last_updated": "2026-06-10T04:50:59.171309+00:00",
+      "readme": {
+        "path": "readmes/markgravity+app-tester-skill+README.md",
+        "etag": "W/\"280b2fafd30cadb5a377176d6af53b0260485572\"",
+        "sha": "280b2fafd30cadb5a377176d6af53b0260485572",
+        "size": 3166,
+        "fetched_at": "2026-06-10T04:58:20.320093+00:00",
+        "status": "ok"
+      }
     },
     "MetalLikeCuda/gpumkat": {
       "lists": [
@@ -232147,7 +232211,15 @@
         "pushed_at": "2026-06-05T13:47:30Z",
         "starred_at": "2026-06-09T22:03:05Z"
       },
-      "last_updated": "2026-06-10T04:50:59.438584+00:00"
+      "last_updated": "2026-06-10T04:50:59.438584+00:00",
+      "readme": {
+        "path": "readmes/MetalLikeCuda+gpumkat+README.md",
+        "etag": "W/\"a4181340172732edc526654d5eb8ef1c34cad956\"",
+        "sha": "a4181340172732edc526654d5eb8ef1c34cad956",
+        "size": 5409,
+        "fetched_at": "2026-06-10T04:58:18.847989+00:00",
+        "status": "ok"
+      }
     },
     "LeoNatan/DetoxInstruments": {
       "lists": [
@@ -232169,7 +232241,15 @@
         "pushed_at": "2023-02-16T12:29:44Z",
         "starred_at": "2026-06-09T22:02:54Z"
       },
-      "last_updated": "2026-06-10T04:50:59.652606+00:00"
+      "last_updated": "2026-06-10T04:50:59.652606+00:00",
+      "readme": {
+        "path": "readmes/LeoNatan+DetoxInstruments+README.md",
+        "etag": "W/\"a163a0780f3ab23c218549b5e093a9b10f1796f0\"",
+        "sha": "a163a0780f3ab23c218549b5e093a9b10f1796f0",
+        "size": 6197,
+        "fetched_at": "2026-06-10T04:58:18.589059+00:00",
+        "status": "ok"
+      }
     },
     "kyoya1123/instruments-profiler": {
       "lists": [
@@ -232192,7 +232272,15 @@
         "pushed_at": "2026-04-13T01:55:15Z",
         "starred_at": "2026-06-09T22:00:17Z"
       },
-      "last_updated": "2026-06-10T04:50:59.883186+00:00"
+      "last_updated": "2026-06-10T04:50:59.883186+00:00",
+      "readme": {
+        "path": "readmes/kyoya1123+instruments-profiler+README.md",
+        "etag": "W/\"f84eced9b1d4b9af151d9e5c2662dd0cdbc55f42\"",
+        "sha": "f84eced9b1d4b9af151d9e5c2662dd0cdbc55f42",
+        "size": 4029,
+        "fetched_at": "2026-06-10T04:58:19.854577+00:00",
+        "status": "ok"
+      }
     },
     "nemanjavlahovic/instruments-mcp-server": {
       "lists": [
@@ -232215,7 +232303,15 @@
         "pushed_at": "2026-04-29T23:11:42Z",
         "starred_at": "2026-06-09T21:59:53Z"
       },
-      "last_updated": "2026-06-10T04:51:00.112490+00:00"
+      "last_updated": "2026-06-10T04:51:00.112490+00:00",
+      "readme": {
+        "path": "readmes/nemanjavlahovic+instruments-mcp-server+README.md",
+        "etag": "W/\"c3902c8a0efe2d62ca6010bd983f251b9c57a866\"",
+        "sha": "c3902c8a0efe2d62ca6010bd983f251b9c57a866",
+        "size": 4618,
+        "fetched_at": "2026-06-10T04:58:20.573542+00:00",
+        "status": "ok"
+      }
     },
     "tillt/KompleteSynthesia": {
       "lists": [
@@ -232237,7 +232333,15 @@
         "pushed_at": "2024-04-27T21:12:44Z",
         "starred_at": "2026-06-09T21:57:57Z"
       },
-      "last_updated": "2026-06-10T04:51:00.333455+00:00"
+      "last_updated": "2026-06-10T04:51:00.333455+00:00",
+      "readme": {
+        "path": "readmes/tillt+KompleteSynthesia+README.md",
+        "etag": "W/\"e6aaf13199040436addc662d100880189ec4f114\"",
+        "sha": "e6aaf13199040436addc662d100880189ec4f114",
+        "size": 4800,
+        "fetched_at": "2026-06-10T04:58:21.518714+00:00",
+        "status": "ok"
+      }
     },
     "ChrisLundquist/cloudip": {
       "lists": [
@@ -232259,7 +232363,15 @@
         "pushed_at": "2026-06-09T20:27:59Z",
         "starred_at": "2026-06-09T17:40:24Z"
       },
-      "last_updated": "2026-06-10T04:51:00.558713+00:00"
+      "last_updated": "2026-06-10T04:51:00.558713+00:00",
+      "readme": {
+        "path": "readmes/ChrisLundquist+cloudip+README.md",
+        "etag": "W/\"a364d6d9d0b0c19db9e51687e3806dc6eb344d37\"",
+        "sha": "a364d6d9d0b0c19db9e51687e3806dc6eb344d37",
+        "size": 20368,
+        "fetched_at": "2026-06-10T04:58:18.315228+00:00",
+        "status": "ok"
+      }
     },
     "openinterpreter/openinterpreter": {
       "lists": [
@@ -232282,7 +232394,15 @@
         "pushed_at": "2026-06-09T22:32:08Z",
         "starred_at": "2024-09-02T22:29:40Z"
       },
-      "last_updated": "2026-06-10T04:51:01.006037+00:00"
+      "last_updated": "2026-06-10T04:51:01.006037+00:00",
+      "readme": {
+        "path": "readmes/openinterpreter+openinterpreter+README.md",
+        "etag": "W/\"8752c1b8c7e7a0252ea811f366a5c3dc9bf7fa14\"",
+        "sha": "8752c1b8c7e7a0252ea811f366a5c3dc9bf7fa14",
+        "size": 14378,
+        "fetched_at": "2026-06-10T04:58:21.031657+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
