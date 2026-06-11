@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T05:03:45.715750+00:00",
+  "last_updated": "2026-06-11T05:04:17.057443+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -232427,7 +232427,15 @@
         "pushed_at": "2024-12-11T23:33:12Z",
         "starred_at": "2026-06-11T02:49:15Z"
       },
-      "last_updated": "2026-06-11T04:55:59.253456+00:00"
+      "last_updated": "2026-06-11T04:55:59.253456+00:00",
+      "readme": {
+        "path": "readmes/susji+agentyesno+README.md",
+        "etag": "W/\"7922ecdce26565e4fd6dde71ece333eb67e3c4c3\"",
+        "sha": "7922ecdce26565e4fd6dde71ece333eb67e3c4c3",
+        "size": 3901,
+        "fetched_at": "2026-06-11T05:04:16.779883+00:00",
+        "status": "ok"
+      }
     },
     "safishamsi/graphify": {
       "lists": [
@@ -232450,7 +232458,15 @@
         "pushed_at": "2026-06-10T21:01:13Z",
         "starred_at": "2026-06-10T22:38:57Z"
       },
-      "last_updated": "2026-06-11T04:55:59.408342+00:00"
+      "last_updated": "2026-06-11T04:55:59.408342+00:00",
+      "readme": {
+        "path": "readmes/safishamsi+graphify+README.md",
+        "etag": "W/\"d4790ad78049ab8c4990564978178e793bf1087e\"",
+        "sha": "d4790ad78049ab8c4990564978178e793bf1087e",
+        "size": 41305,
+        "fetched_at": "2026-06-11T05:04:16.250040+00:00",
+        "status": "ok"
+      }
     },
     "evgenyneu/keychain-swift": {
       "lists": [
@@ -232475,7 +232491,15 @@
         "pushed_at": "2024-05-26T06:48:14Z",
         "starred_at": "2026-06-10T18:17:20Z"
       },
-      "last_updated": "2026-06-11T04:55:59.569802+00:00"
+      "last_updated": "2026-06-11T04:55:59.569802+00:00",
+      "readme": {
+        "path": "readmes/evgenyneu+keychain-swift+README.md",
+        "etag": "W/\"2c04281c2a5b952de09f53f5501040c2ee6f9b2e\"",
+        "sha": "2c04281c2a5b952de09f53f5501040c2ee6f9b2e",
+        "size": 12533,
+        "fetched_at": "2026-06-11T05:04:15.356196+00:00",
+        "status": "ok"
+      }
     },
     "keybase/go-keychain": {
       "lists": [
@@ -232500,7 +232524,15 @@
         "pushed_at": "2026-03-23T18:14:20Z",
         "starred_at": "2026-06-10T18:16:28Z"
       },
-      "last_updated": "2026-06-11T04:55:59.774190+00:00"
+      "last_updated": "2026-06-11T04:55:59.774190+00:00",
+      "readme": {
+        "path": "readmes/keybase+go-keychain+README.md",
+        "etag": "W/\"5412b1f911bedf0e98b27f2333a62ec98592f9ea\"",
+        "sha": "5412b1f911bedf0e98b27f2333a62ec98592f9ea",
+        "size": 3266,
+        "fetched_at": "2026-06-11T05:04:15.634682+00:00",
+        "status": "ok"
+      }
     },
     "auth0/SimpleKeychain": {
       "lists": [
@@ -232525,7 +232557,15 @@
         "pushed_at": "2026-06-08T21:53:45Z",
         "starred_at": "2026-06-10T18:15:36Z"
       },
-      "last_updated": "2026-06-11T04:55:59.992976+00:00"
+      "last_updated": "2026-06-11T04:55:59.992976+00:00",
+      "readme": {
+        "path": "readmes/auth0+SimpleKeychain+README.md",
+        "etag": "W/\"5d634f7dcfe4bd786a08c6960a7e91efee0a7c06\"",
+        "sha": "5d634f7dcfe4bd786a08c6960a7e91efee0a7c06",
+        "size": 6648,
+        "fetched_at": "2026-06-11T05:04:14.823040+00:00",
+        "status": "ok"
+      }
     },
     "swiftlang/swift-package-manager": {
       "lists": [
@@ -232548,7 +232588,15 @@
         "pushed_at": "2026-06-10T22:50:28Z",
         "starred_at": "2026-06-10T17:31:07Z"
       },
-      "last_updated": "2026-06-11T04:56:00.219940+00:00"
+      "last_updated": "2026-06-11T04:56:00.219940+00:00",
+      "readme": {
+        "path": "readmes/swiftlang+swift-package-manager+README.md",
+        "etag": "W/\"32b3350d8b4e3bded09766818661ccf74a19cc71\"",
+        "sha": "32b3350d8b4e3bded09766818661ccf74a19cc71",
+        "size": 4488,
+        "fetched_at": "2026-06-11T05:04:17.055844+00:00",
+        "status": "ok"
+      }
     },
     "Carthage/Carthage": {
       "lists": [
@@ -232571,7 +232619,15 @@
         "pushed_at": "2025-09-10T15:36:04Z",
         "starred_at": "2026-06-10T17:30:46Z"
       },
-      "last_updated": "2026-06-11T04:56:00.421852+00:00"
+      "last_updated": "2026-06-11T04:56:00.421852+00:00",
+      "readme": {
+        "path": "readmes/Carthage+Carthage+README.md",
+        "etag": "W/\"d7d461c5a97ebef5a73a6c897d26a2664a338976\"",
+        "sha": "d7d461c5a97ebef5a73a6c897d26a2664a338976",
+        "size": 30180,
+        "fetched_at": "2026-06-11T05:04:14.557975+00:00",
+        "status": "ok"
+      }
     },
     "spences10/claude-code-toolkit": {
       "lists": [
@@ -232594,7 +232650,15 @@
         "pushed_at": "2026-04-29T09:18:05Z",
         "starred_at": "2026-06-10T17:22:33Z"
       },
-      "last_updated": "2026-06-11T04:56:00.576003+00:00"
+      "last_updated": "2026-06-11T04:56:00.576003+00:00",
+      "readme": {
+        "path": "readmes/spences10+claude-code-toolkit+README.md",
+        "etag": "W/\"a03cba899b1da0a286077cb53a0921d27ba64ecd\"",
+        "sha": "a03cba899b1da0a286077cb53a0921d27ba64ecd",
+        "size": 6502,
+        "fetched_at": "2026-06-11T05:04:16.489698+00:00",
+        "status": "ok"
+      }
     },
     "monoio-rs/monoio": {
       "lists": [
@@ -232619,7 +232683,15 @@
         "pushed_at": "2026-05-29T08:58:52Z",
         "starred_at": "2026-06-06T18:24:35Z"
       },
-      "last_updated": "2026-06-11T04:56:00.763501+00:00"
+      "last_updated": "2026-06-11T04:56:00.763501+00:00",
+      "readme": {
+        "path": "readmes/monoio-rs+monoio+README.md",
+        "etag": "W/\"9d8c8db2993fb6baf25b0c8228fa30a36ad2103c\"",
+        "sha": "9d8c8db2993fb6baf25b0c8228fa30a36ad2103c",
+        "size": 5668,
+        "fetched_at": "2026-06-11T05:04:15.902622+00:00",
+        "status": "ok"
+      }
     },
     "ccusage/ccusage": {
       "lists": [
@@ -232641,7 +232713,15 @@
         "pushed_at": "2026-06-11T00:24:33Z",
         "starred_at": "2025-06-23T20:11:42Z"
       },
-      "last_updated": "2026-06-11T04:56:01.158540+00:00"
+      "last_updated": "2026-06-11T04:56:01.158540+00:00",
+      "readme": {
+        "path": "readmes/ccusage+ccusage+README.md",
+        "etag": "W/\"b74419afc51e1d9c74bd6c75baf293790b4dc90d\"",
+        "sha": "b74419afc51e1d9c74bd6c75baf293790b4dc90d",
+        "size": 11858,
+        "fetched_at": "2026-06-11T05:04:15.134269+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
