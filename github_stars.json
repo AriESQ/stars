@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T04:56:01.158596+00:00",
+  "last_updated": "2026-06-11T05:03:45.715750+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -16299,7 +16299,9 @@
     "square/Valet": {
       "lists": [
         "Apple and M1 virtualization",
-        "PKI"
+        "PKI",
+        "Devops",
+        "Infosec"
       ],
       "metadata": {
         "id": 36665359,
@@ -232405,7 +232407,10 @@
       }
     },
     "susji/agentyesno": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "PKI"
+      ],
       "metadata": {
         "id": 689337691,
         "name": "agentyesno",
@@ -232425,7 +232430,10 @@
       "last_updated": "2026-06-11T04:55:59.253456+00:00"
     },
     "safishamsi/graphify": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1200597263,
         "name": "graphify",
@@ -232445,7 +232453,12 @@
       "last_updated": "2026-06-11T04:55:59.408342+00:00"
     },
     "evgenyneu/keychain-swift": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 30380929,
         "name": "keychain-swift",
@@ -232465,7 +232478,12 @@
       "last_updated": "2026-06-11T04:55:59.569802+00:00"
     },
     "keybase/go-keychain": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "GoLang",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 43088890,
         "name": "go-keychain",
@@ -232485,7 +232503,12 @@
       "last_updated": "2026-06-11T04:55:59.774190+00:00"
     },
     "auth0/SimpleKeychain": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 25323654,
         "name": "SimpleKeychain",
@@ -232505,7 +232528,10 @@
       "last_updated": "2026-06-11T04:55:59.992976+00:00"
     },
     "swiftlang/swift-package-manager": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops"
+      ],
       "metadata": {
         "id": 44840041,
         "name": "swift-package-manager",
@@ -232525,7 +232551,10 @@
       "last_updated": "2026-06-11T04:56:00.219940+00:00"
     },
     "Carthage/Carthage": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops"
+      ],
       "metadata": {
         "id": 25050844,
         "name": "Carthage",
@@ -232545,7 +232574,10 @@
       "last_updated": "2026-06-11T04:56:00.421852+00:00"
     },
     "spences10/claude-code-toolkit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1132836910,
         "name": "claude-code-toolkit",
@@ -232565,7 +232597,12 @@
       "last_updated": "2026-06-11T04:56:00.576003+00:00"
     },
     "monoio-rs/monoio": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "eBPF",
+        "Networking",
+        "Rust"
+      ],
       "metadata": {
         "id": 433350425,
         "name": "monoio",
@@ -232585,7 +232622,9 @@
       "last_updated": "2026-06-11T04:56:00.763501+00:00"
     },
     "ccusage/ccusage": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 992755069,
         "name": "ccusage",
