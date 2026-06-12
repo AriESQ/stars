@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T05:03:45.981578+00:00",
+  "last_updated": "2026-06-12T05:04:16.798984+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -232744,7 +232744,15 @@
         "pushed_at": "2026-06-11T17:05:12Z",
         "starred_at": "2026-06-11T20:38:20Z"
       },
-      "last_updated": "2026-06-12T04:57:01.419522+00:00"
+      "last_updated": "2026-06-12T04:57:01.419522+00:00",
+      "readme": {
+        "path": "readmes/ory+talos+README.md",
+        "etag": "W/\"658d5a99385aacd7b2c689bac4d2a36f845414bd\"",
+        "sha": "658d5a99385aacd7b2c689bac4d2a36f845414bd",
+        "size": 12363,
+        "fetched_at": "2026-06-12T05:04:16.795871+00:00",
+        "status": "ok"
+      }
     },
     "huggingface/open-r1": {
       "lists": [
@@ -232766,7 +232774,15 @@
         "pushed_at": "2026-04-02T14:03:15Z",
         "starred_at": "2026-06-11T18:44:13Z"
       },
-      "last_updated": "2026-06-12T04:57:01.639673+00:00"
+      "last_updated": "2026-06-12T04:57:01.639673+00:00",
+      "readme": {
+        "path": "readmes/huggingface+open-r1+README.md",
+        "etag": "W/\"adc049bfdacfb3b0f4708893b1e2b245249af6b8\"",
+        "sha": "adc049bfdacfb3b0f4708893b1e2b245249af6b8",
+        "size": 34997,
+        "fetched_at": "2026-06-12T05:04:16.263258+00:00",
+        "status": "ok"
+      }
     },
     "XiaomiMiMo/MiMo-Code": {
       "lists": [
@@ -232789,7 +232805,15 @@
         "pushed_at": "2026-06-11T14:29:00Z",
         "starred_at": "2026-06-11T18:43:11Z"
       },
-      "last_updated": "2026-06-12T04:57:01.852996+00:00"
+      "last_updated": "2026-06-12T04:57:01.852996+00:00",
+      "readme": {
+        "path": "readmes/XiaomiMiMo+MiMo-Code+README.md",
+        "etag": "W/\"fc276fdc5ce33c38d2b38540ac3630776fdd2910\"",
+        "sha": "fc276fdc5ce33c38d2b38540ac3630776fdd2910",
+        "size": 6040,
+        "fetched_at": "2026-06-12T05:04:16.007888+00:00",
+        "status": "ok"
+      }
     },
     "mindsdb/minds": {
       "lists": [
@@ -232812,7 +232836,15 @@
         "pushed_at": "2026-06-11T15:41:54Z",
         "starred_at": "2025-07-18T01:20:53Z"
       },
-      "last_updated": "2026-06-12T04:57:02.245985+00:00"
+      "last_updated": "2026-06-12T04:57:02.245985+00:00",
+      "readme": {
+        "path": "readmes/mindsdb+minds+README.md",
+        "etag": "W/\"894061afdaf0a36836ddc44105ad14b9f546550f\"",
+        "sha": "894061afdaf0a36836ddc44105ad14b9f546550f",
+        "size": 6176,
+        "fetched_at": "2026-06-12T05:04:16.509274+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
