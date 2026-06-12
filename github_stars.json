@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T04:57:02.246057+00:00",
+  "last_updated": "2026-06-12T05:03:45.981578+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -232724,7 +232724,10 @@
       }
     },
     "ory/talos": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "GoLang"
+      ],
       "metadata": {
         "id": 1256905546,
         "name": "talos",
@@ -232744,7 +232747,9 @@
       "last_updated": "2026-06-12T04:57:01.419522+00:00"
     },
     "huggingface/open-r1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 921777121,
         "name": "open-r1",
@@ -232764,7 +232769,10 @@
       "last_updated": "2026-06-12T04:57:01.639673+00:00"
     },
     "XiaomiMiMo/MiMo-Code": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1265025028,
         "name": "MiMo-Code",
@@ -232784,7 +232792,10 @@
       "last_updated": "2026-06-12T04:57:01.852996+00:00"
     },
     "mindsdb/minds": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 143328315,
         "name": "minds",
