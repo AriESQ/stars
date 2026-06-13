@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T04:58:37.231837+00:00",
+  "last_updated": "2026-06-13T04:58:53.814045+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -232874,7 +232874,15 @@
         "pushed_at": "2026-04-02T21:44:36Z",
         "starred_at": "2026-06-13T02:54:00Z"
       },
-      "last_updated": "2026-06-13T04:51:45.290341+00:00"
+      "last_updated": "2026-06-13T04:51:45.290341+00:00",
+      "readme": {
+        "path": "readmes/elder-plinius+ST3GG+README.md",
+        "etag": "W/\"8dadab1bf143f72a603f2b11734ddb7a8535f91d\"",
+        "sha": "8dadab1bf143f72a603f2b11734ddb7a8535f91d",
+        "size": 26996,
+        "fetched_at": "2026-06-13T04:58:52.987566+00:00",
+        "status": "ok"
+      }
     },
     "elder-plinius/NATURALIS-FUTURA": {
       "lists": [
@@ -232897,7 +232905,15 @@
         "pushed_at": "2026-03-21T17:13:44Z",
         "starred_at": "2026-06-13T01:46:00Z"
       },
-      "last_updated": "2026-06-13T04:51:45.473315+00:00"
+      "last_updated": "2026-06-13T04:51:45.473315+00:00",
+      "readme": {
+        "path": "readmes/elder-plinius+NATURALIS-FUTURA+README.md",
+        "etag": "W/\"9be6b211cd4547fcdaf253787ac3662170275149\"",
+        "sha": "9be6b211cd4547fcdaf253787ac3662170275149",
+        "size": 8083,
+        "fetched_at": "2026-06-13T04:58:52.641535+00:00",
+        "status": "ok"
+      }
     },
     "elder-plinius/OBLITERATUS": {
       "lists": [
@@ -232919,7 +232935,15 @@
         "pushed_at": "2026-04-01T20:47:50Z",
         "starred_at": "2026-06-13T01:42:36Z"
       },
-      "last_updated": "2026-06-13T04:51:45.650487+00:00"
+      "last_updated": "2026-06-13T04:51:45.650487+00:00",
+      "readme": {
+        "path": "readmes/elder-plinius+OBLITERATUS+README.md",
+        "etag": "W/\"fa6654e23a0351c03a5893d0d813af22c6cad53d\"",
+        "sha": "fa6654e23a0351c03a5893d0d813af22c6cad53d",
+        "size": 42408,
+        "fetched_at": "2026-06-13T04:58:52.804493+00:00",
+        "status": "ok"
+      }
     },
     "elder-plinius/ENTHEA": {
       "lists": [
@@ -232942,7 +232966,15 @@
         "pushed_at": "2026-06-05T10:28:52Z",
         "starred_at": "2026-06-13T01:39:59Z"
       },
-      "last_updated": "2026-06-13T04:51:45.801722+00:00"
+      "last_updated": "2026-06-13T04:51:45.801722+00:00",
+      "readme": {
+        "path": "readmes/elder-plinius+ENTHEA+README.md",
+        "etag": "W/\"488db0c712282a1ab62f25b594cd3b41fb385657\"",
+        "sha": "488db0c712282a1ab62f25b594cd3b41fb385657",
+        "size": 11806,
+        "fetched_at": "2026-06-13T04:58:52.472213+00:00",
+        "status": "ok"
+      }
     },
     "elder-plinius/CL4R1T4S": {
       "lists": [
@@ -232965,7 +232997,15 @@
         "pushed_at": "2026-06-09T22:37:34Z",
         "starred_at": "2026-06-13T01:38:38Z"
       },
-      "last_updated": "2026-06-13T04:51:45.975268+00:00"
+      "last_updated": "2026-06-13T04:51:45.975268+00:00",
+      "readme": {
+        "path": "readmes/elder-plinius+CL4R1T4S+README.md",
+        "etag": "W/\"ab6d0176333b114aaf691d97c1d6a1dea9e6160d\"",
+        "sha": "ab6d0176333b114aaf691d97c1d6a1dea9e6160d",
+        "size": 1620,
+        "fetched_at": "2026-06-13T04:58:52.315460+00:00",
+        "status": "ok"
+      }
     },
     "DistroHopper39B/atv-linux-loader": {
       "lists": [
@@ -232988,7 +233028,15 @@
         "pushed_at": "2025-07-01T00:10:44Z",
         "starred_at": "2026-06-12T21:20:48Z"
       },
-      "last_updated": "2026-06-13T04:51:46.140783+00:00"
+      "last_updated": "2026-06-13T04:51:46.140783+00:00",
+      "readme": {
+        "path": "readmes/DistroHopper39B+atv-linux-loader+README.md",
+        "etag": "W/\"11834356b345c0e8f1fae4a40aef765537e1662a\"",
+        "sha": "11834356b345c0e8f1fae4a40aef765537e1662a",
+        "size": 4697,
+        "fetched_at": "2026-06-13T04:58:51.778405+00:00",
+        "status": "ok"
+      }
     },
     "DistroHopper39B/ATV1sm": {
       "lists": [
@@ -233011,7 +233059,15 @@
         "pushed_at": "2026-04-09T03:17:33Z",
         "starred_at": "2026-06-12T21:13:42Z"
       },
-      "last_updated": "2026-06-13T04:51:46.299767+00:00"
+      "last_updated": "2026-06-13T04:51:46.299767+00:00",
+      "readme": {
+        "path": "readmes/DistroHopper39B+ATV1sm+README.md",
+        "etag": "W/\"33f2ea085b812366b51855614284b32504a75466\"",
+        "sha": "33f2ea085b812366b51855614284b32504a75466",
+        "size": 159,
+        "fetched_at": "2026-06-13T04:58:51.370339+00:00",
+        "status": "ok"
+      }
     },
     "DistroHopper39B/NTATV": {
       "lists": [
@@ -233034,7 +233090,15 @@
         "pushed_at": "2026-04-18T02:45:20Z",
         "starred_at": "2026-06-12T21:10:56Z"
       },
-      "last_updated": "2026-06-13T04:51:46.472563+00:00"
+      "last_updated": "2026-06-13T04:51:46.472563+00:00",
+      "readme": {
+        "path": "readmes/DistroHopper39B+NTATV+README.md",
+        "etag": "W/\"1ae839745f32100ea4e164f0c096f67c0044cb37\"",
+        "sha": "1ae839745f32100ea4e164f0c096f67c0044cb37",
+        "size": 189,
+        "fetched_at": "2026-06-13T04:58:51.535737+00:00",
+        "status": "ok"
+      }
     },
     "rust-vmm/mshv": {
       "lists": [
@@ -233058,7 +233122,15 @@
         "pushed_at": "2026-06-03T20:32:08Z",
         "starred_at": "2026-06-12T17:39:13Z"
       },
-      "last_updated": "2026-06-13T04:51:46.702281+00:00"
+      "last_updated": "2026-06-13T04:51:46.702281+00:00",
+      "readme": {
+        "path": "readmes/rust-vmm+mshv+README.md",
+        "etag": "W/\"44cee836d9c215a7ef8554e26800fdd36232f8d9\"",
+        "sha": "44cee836d9c215a7ef8554e26800fdd36232f8d9",
+        "size": 3775,
+        "fetched_at": "2026-06-13T04:58:53.811207+00:00",
+        "status": "ok"
+      }
     },
     "nanvix/nanvix-python": {
       "lists": [
@@ -233082,7 +233154,15 @@
         "pushed_at": "2026-06-12T16:52:14Z",
         "starred_at": "2026-06-12T17:37:23Z"
       },
-      "last_updated": "2026-06-13T04:51:46.883851+00:00"
+      "last_updated": "2026-06-13T04:51:46.883851+00:00",
+      "readme": {
+        "path": "readmes/nanvix+nanvix-python+README.md",
+        "etag": "W/\"4261e8397b8a792f34abf03952884560cdcabf02\"",
+        "sha": "4261e8397b8a792f34abf03952884560cdcabf02",
+        "size": 7472,
+        "fetched_at": "2026-06-13T04:58:53.607060+00:00",
+        "status": "ok"
+      }
     },
     "nanvix/nanvix": {
       "lists": [
@@ -233106,7 +233186,15 @@
         "pushed_at": "2026-06-13T04:44:05Z",
         "starred_at": "2026-06-12T17:37:05Z"
       },
-      "last_updated": "2026-06-13T04:51:47.073151+00:00"
+      "last_updated": "2026-06-13T04:51:47.073151+00:00",
+      "readme": {
+        "path": "readmes/nanvix+nanvix+README.md",
+        "etag": "W/\"0935c41ea6dadd3a3f3f72823f0a3699c94ef6a2\"",
+        "sha": "0935c41ea6dadd3a3f3f72823f0a3699c94ef6a2",
+        "size": 8691,
+        "fetched_at": "2026-06-13T04:58:53.387302+00:00",
+        "status": "ok"
+      }
     },
     "microsoft/mxc": {
       "lists": [
@@ -233130,7 +233218,15 @@
         "pushed_at": "2026-06-13T04:42:49Z",
         "starred_at": "2026-06-12T17:00:25Z"
       },
-      "last_updated": "2026-06-13T04:51:47.264053+00:00"
+      "last_updated": "2026-06-13T04:51:47.264053+00:00",
+      "readme": {
+        "path": "readmes/microsoft+mxc+README.md",
+        "etag": "W/\"adf5654d7404e5f22c03e96a5a790fe5dde3d1f4\"",
+        "sha": "adf5654d7404e5f22c03e96a5a790fe5dde3d1f4",
+        "size": 9890,
+        "fetched_at": "2026-06-13T04:58:53.197717+00:00",
+        "status": "ok"
+      }
     },
     "Svarkovsky/s3-msx-pc": {
       "lists": [
@@ -233153,7 +233249,15 @@
         "pushed_at": "2026-06-12T19:28:52Z",
         "starred_at": "2026-06-12T16:26:24Z"
       },
-      "last_updated": "2026-06-13T04:51:47.497655+00:00"
+      "last_updated": "2026-06-13T04:51:47.497655+00:00",
+      "readme": {
+        "path": "readmes/Svarkovsky+s3-msx-pc+README.md",
+        "etag": "W/\"b4ee8d2585506ed102a2676d2bc5ca47e6ceb882\"",
+        "sha": "b4ee8d2585506ed102a2676d2bc5ca47e6ceb882",
+        "size": 110797,
+        "fetched_at": "2026-06-13T04:58:51.988543+00:00",
+        "status": "ok"
+      }
     },
     "WebAssembly/wasi-webgpu": {
       "lists": [
@@ -233176,7 +233280,15 @@
         "pushed_at": "2026-06-11T14:25:50Z",
         "starred_at": "2026-06-12T16:24:19Z"
       },
-      "last_updated": "2026-06-13T04:51:47.762267+00:00"
+      "last_updated": "2026-06-13T04:51:47.762267+00:00",
+      "readme": {
+        "path": "readmes/WebAssembly+wasi-webgpu+README.md",
+        "etag": "W/\"f53477c22ca43a68ca1f11c8bbab2641e390b57a\"",
+        "sha": "f53477c22ca43a68ca1f11c8bbab2641e390b57a",
+        "size": 3322,
+        "fetched_at": "2026-06-13T04:58:52.155470+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
