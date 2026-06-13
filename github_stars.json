@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T05:04:16.798984+00:00",
+  "last_updated": "2026-06-13T04:51:47.762366+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -232845,6 +232845,286 @@
         "fetched_at": "2026-06-12T05:04:16.509274+00:00",
         "status": "ok"
       }
+    },
+    "elder-plinius/ST3GG": {
+      "lists": [],
+      "metadata": {
+        "id": 802135170,
+        "name": "ST3GG",
+        "full_name": "elder-plinius/ST3GG",
+        "description": "All-in-one steganography suite",
+        "url": "https://github.com/elder-plinius/ST3GG",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 1540,
+        "forks": 330,
+        "open_issues": 9,
+        "created_at": "2024-05-17T15:28:45Z",
+        "updated_at": "2026-06-13T02:54:00Z",
+        "pushed_at": "2026-04-02T21:44:36Z",
+        "starred_at": "2026-06-13T02:54:00Z"
+      },
+      "last_updated": "2026-06-13T04:51:45.290341+00:00"
+    },
+    "elder-plinius/NATURALIS-FUTURA": {
+      "lists": [],
+      "metadata": {
+        "id": 1166044212,
+        "name": "NATURALIS-FUTURA",
+        "full_name": "elder-plinius/NATURALIS-FUTURA",
+        "description": "latent encyclopedia",
+        "url": "https://github.com/elder-plinius/NATURALIS-FUTURA",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 43,
+        "forks": 11,
+        "open_issues": 0,
+        "created_at": "2026-02-24T20:24:07Z",
+        "updated_at": "2026-06-13T01:46:01Z",
+        "pushed_at": "2026-03-21T17:13:44Z",
+        "starred_at": "2026-06-13T01:46:00Z"
+      },
+      "last_updated": "2026-06-13T04:51:45.473315+00:00"
+    },
+    "elder-plinius/OBLITERATUS": {
+      "lists": [],
+      "metadata": {
+        "id": 1171949255,
+        "name": "OBLITERATUS",
+        "full_name": "elder-plinius/OBLITERATUS",
+        "description": "OBLITERATE THE CHAINS THAT BIND YOU",
+        "url": "https://github.com/elder-plinius/OBLITERATUS",
+        "homepage": "https://huggingface.co/spaces/pliny-the-prompter/",
+        "language": "Python",
+        "stars": 6443,
+        "forks": 1221,
+        "open_issues": 30,
+        "created_at": "2026-03-03T19:37:51Z",
+        "updated_at": "2026-06-13T04:51:14Z",
+        "pushed_at": "2026-04-01T20:47:50Z",
+        "starred_at": "2026-06-13T01:42:36Z"
+      },
+      "last_updated": "2026-06-13T04:51:45.650487+00:00"
+    },
+    "elder-plinius/ENTHEA": {
+      "lists": [],
+      "metadata": {
+        "id": 1260279644,
+        "name": "ENTHEA",
+        "full_name": "elder-plinius/ENTHEA",
+        "description": "real-time psychedelic visual synthesizer and pro-grade music visualizer",
+        "url": "https://github.com/elder-plinius/ENTHEA",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 122,
+        "forks": 24,
+        "open_issues": 0,
+        "created_at": "2026-06-05T10:26:11Z",
+        "updated_at": "2026-06-13T04:04:20Z",
+        "pushed_at": "2026-06-05T10:28:52Z",
+        "starred_at": "2026-06-13T01:39:59Z"
+      },
+      "last_updated": "2026-06-13T04:51:45.801722+00:00"
+    },
+    "elder-plinius/CL4R1T4S": {
+      "lists": [],
+      "metadata": {
+        "id": 942867788,
+        "name": "CL4R1T4S",
+        "full_name": "elder-plinius/CL4R1T4S",
+        "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! \ud83d\udc50",
+        "url": "https://github.com/elder-plinius/CL4R1T4S",
+        "homepage": "",
+        "language": null,
+        "stars": 30885,
+        "forks": 5981,
+        "open_issues": 97,
+        "created_at": "2025-03-04T20:03:16Z",
+        "updated_at": "2026-06-13T04:51:15Z",
+        "pushed_at": "2026-06-09T22:37:34Z",
+        "starred_at": "2026-06-13T01:38:38Z"
+      },
+      "last_updated": "2026-06-13T04:51:45.975268+00:00"
+    },
+    "DistroHopper39B/atv-linux-loader": {
+      "lists": [],
+      "metadata": {
+        "id": 1011513656,
+        "name": "atv-linux-loader",
+        "full_name": "DistroHopper39B/atv-linux-loader",
+        "description": "Modern Linux on the Original Apple TV",
+        "url": "https://github.com/DistroHopper39B/atv-linux-loader",
+        "homepage": null,
+        "language": "C",
+        "stars": 15,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2025-07-01T00:09:39Z",
+        "updated_at": "2026-06-12T21:20:48Z",
+        "pushed_at": "2025-07-01T00:10:44Z",
+        "starred_at": "2026-06-12T21:20:48Z"
+      },
+      "last_updated": "2026-06-13T04:51:46.140783+00:00"
+    },
+    "DistroHopper39B/ATV1sm": {
+      "lists": [],
+      "metadata": {
+        "id": 1204435679,
+        "name": "ATV1sm",
+        "full_name": "DistroHopper39B/ATV1sm",
+        "description": "Bypass for the original Apple TV's EFI verification, allowing it to boot any EFI-capable OS",
+        "url": "https://github.com/DistroHopper39B/ATV1sm",
+        "homepage": "https://distrohopper39b.com/atv1sm",
+        "language": "C",
+        "stars": 41,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-04-08T02:22:28Z",
+        "updated_at": "2026-06-12T21:13:42Z",
+        "pushed_at": "2026-04-09T03:17:33Z",
+        "starred_at": "2026-06-12T21:13:42Z"
+      },
+      "last_updated": "2026-06-13T04:51:46.299767+00:00"
+    },
+    "DistroHopper39B/NTATV": {
+      "lists": [],
+      "metadata": {
+        "id": 935159127,
+        "name": "NTATV",
+        "full_name": "DistroHopper39B/NTATV",
+        "description": "The NTATV Project: Bringing Windows NT to the original Apple TV (Repo for issues & releases only; see link below for docs)",
+        "url": "https://github.com/DistroHopper39B/NTATV",
+        "homepage": "https://distrohopper39b.com/ntatv",
+        "language": null,
+        "stars": 208,
+        "forks": 4,
+        "open_issues": 9,
+        "created_at": "2025-02-19T02:05:33Z",
+        "updated_at": "2026-06-12T21:10:56Z",
+        "pushed_at": "2026-04-18T02:45:20Z",
+        "starred_at": "2026-06-12T21:10:56Z"
+      },
+      "last_updated": "2026-06-13T04:51:46.472563+00:00"
+    },
+    "rust-vmm/mshv": {
+      "lists": [],
+      "metadata": {
+        "id": 379290287,
+        "name": "mshv",
+        "full_name": "rust-vmm/mshv",
+        "description": "Crates for Microsoft Hypervisor ioctls and bindings ",
+        "url": "https://github.com/rust-vmm/mshv",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 46,
+        "forks": 20,
+        "open_issues": 15,
+        "created_at": "2021-06-22T14:02:35Z",
+        "updated_at": "2026-06-12T17:39:14Z",
+        "pushed_at": "2026-06-03T20:32:08Z",
+        "starred_at": "2026-06-12T17:39:13Z"
+      },
+      "last_updated": "2026-06-13T04:51:46.702281+00:00"
+    },
+    "nanvix/nanvix-python": {
+      "lists": [],
+      "metadata": {
+        "id": 1167259460,
+        "name": "nanvix-python",
+        "full_name": "nanvix/nanvix-python",
+        "description": "Nanvix Python Distro",
+        "url": "https://github.com/nanvix/nanvix-python",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1,
+        "forks": 1,
+        "open_issues": 36,
+        "created_at": "2026-02-26T05:20:25Z",
+        "updated_at": "2026-06-12T17:37:24Z",
+        "pushed_at": "2026-06-12T16:52:14Z",
+        "starred_at": "2026-06-12T17:37:23Z"
+      },
+      "last_updated": "2026-06-13T04:51:46.883851+00:00"
+    },
+    "nanvix/nanvix": {
+      "lists": [],
+      "metadata": {
+        "id": 11183126,
+        "name": "nanvix",
+        "full_name": "nanvix/nanvix",
+        "description": "Lightweight Sandbox Powered by a Purpose-Built VM and OS",
+        "url": "https://github.com/nanvix/nanvix",
+        "homepage": "https://github.com/nanvix",
+        "language": "Rust",
+        "stars": 249,
+        "forks": 109,
+        "open_issues": 271,
+        "created_at": "2013-07-04T17:27:49Z",
+        "updated_at": "2026-06-13T04:31:19Z",
+        "pushed_at": "2026-06-13T04:44:05Z",
+        "starred_at": "2026-06-12T17:37:05Z"
+      },
+      "last_updated": "2026-06-13T04:51:47.073151+00:00"
+    },
+    "microsoft/mxc": {
+      "lists": [],
+      "metadata": {
+        "id": 1151717775,
+        "name": "mxc",
+        "full_name": "microsoft/mxc",
+        "description": "Policy-driven, layered isolation and containment ",
+        "url": "https://github.com/microsoft/mxc",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 914,
+        "forks": 43,
+        "open_issues": 23,
+        "created_at": "2026-02-06T20:13:08Z",
+        "updated_at": "2026-06-13T04:33:58Z",
+        "pushed_at": "2026-06-13T04:42:49Z",
+        "starred_at": "2026-06-12T17:00:25Z"
+      },
+      "last_updated": "2026-06-13T04:51:47.264053+00:00"
+    },
+    "Svarkovsky/s3-msx-pc": {
+      "lists": [],
+      "metadata": {
+        "id": 1261135563,
+        "name": "s3-msx-pc",
+        "full_name": "Svarkovsky/s3-msx-pc",
+        "description": "Deeply optimized MSX emulation on ESP32-S3 with VGA output",
+        "url": "https://github.com/Svarkovsky/s3-msx-pc",
+        "homepage": "",
+        "language": "C",
+        "stars": 16,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-06T09:30:04Z",
+        "updated_at": "2026-06-12T20:30:21Z",
+        "pushed_at": "2026-06-12T19:28:52Z",
+        "starred_at": "2026-06-12T16:26:24Z"
+      },
+      "last_updated": "2026-06-13T04:51:47.497655+00:00"
+    },
+    "WebAssembly/wasi-webgpu": {
+      "lists": [],
+      "metadata": {
+        "id": 756991846,
+        "name": "wasi-webgpu",
+        "full_name": "WebAssembly/wasi-webgpu",
+        "description": null,
+        "url": "https://github.com/WebAssembly/wasi-webgpu",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 200,
+        "forks": 14,
+        "open_issues": 20,
+        "created_at": "2024-02-13T17:41:39Z",
+        "updated_at": "2026-06-12T16:33:35Z",
+        "pushed_at": "2026-06-11T14:25:50Z",
+        "starred_at": "2026-06-12T16:24:19Z"
+      },
+      "last_updated": "2026-06-13T04:51:47.762267+00:00"
     }
   },
   "last_processed_index": 0,
@@ -232854,5 +233134,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"9ed38fb33981d0a2f5c425b8062a8a27a3b3c95c4e37b9dbab6f3dd80b3afca1\""
+  "profile_etag": "W/\"381924fc01118faca276281fc67b30f6f0fc256189143cd4fc5c269901f63662\""
 }
