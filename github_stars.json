@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T04:51:47.762366+00:00",
+  "last_updated": "2026-06-13T04:58:37.231837+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -53466,7 +53466,8 @@
     "hyperlight-dev/hyperlight": {
       "lists": [
         "Devops",
-        "Rust"
+        "Rust",
+        "Infosec"
       ],
       "metadata": {
         "id": 883829350,
@@ -207231,7 +207232,13 @@
       }
     },
     "segmentio/chamber": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "Devops",
+        "GoLang",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 93906782,
         "name": "chamber",
@@ -232847,7 +232854,10 @@
       }
     },
     "elder-plinius/ST3GG": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 802135170,
         "name": "ST3GG",
@@ -232867,7 +232877,10 @@
       "last_updated": "2026-06-13T04:51:45.290341+00:00"
     },
     "elder-plinius/NATURALIS-FUTURA": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1166044212,
         "name": "NATURALIS-FUTURA",
@@ -232887,7 +232900,9 @@
       "last_updated": "2026-06-13T04:51:45.473315+00:00"
     },
     "elder-plinius/OBLITERATUS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1171949255,
         "name": "OBLITERATUS",
@@ -232907,7 +232922,10 @@
       "last_updated": "2026-06-13T04:51:45.650487+00:00"
     },
     "elder-plinius/ENTHEA": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1260279644,
         "name": "ENTHEA",
@@ -232927,7 +232945,10 @@
       "last_updated": "2026-06-13T04:51:45.801722+00:00"
     },
     "elder-plinius/CL4R1T4S": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 942867788,
         "name": "CL4R1T4S",
@@ -232947,7 +232968,10 @@
       "last_updated": "2026-06-13T04:51:45.975268+00:00"
     },
     "DistroHopper39B/atv-linux-loader": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1011513656,
         "name": "atv-linux-loader",
@@ -232967,7 +232991,10 @@
       "last_updated": "2026-06-13T04:51:46.140783+00:00"
     },
     "DistroHopper39B/ATV1sm": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1204435679,
         "name": "ATV1sm",
@@ -232987,7 +233014,10 @@
       "last_updated": "2026-06-13T04:51:46.299767+00:00"
     },
     "DistroHopper39B/NTATV": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 935159127,
         "name": "NTATV",
@@ -233007,7 +233037,11 @@
       "last_updated": "2026-06-13T04:51:46.472563+00:00"
     },
     "rust-vmm/mshv": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Rust",
+        "Windows"
+      ],
       "metadata": {
         "id": 379290287,
         "name": "mshv",
@@ -233027,7 +233061,11 @@
       "last_updated": "2026-06-13T04:51:46.702281+00:00"
     },
     "nanvix/nanvix-python": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 1167259460,
         "name": "nanvix-python",
@@ -233047,7 +233085,11 @@
       "last_updated": "2026-06-13T04:51:46.883851+00:00"
     },
     "nanvix/nanvix": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Rust"
+      ],
       "metadata": {
         "id": 11183126,
         "name": "nanvix",
@@ -233067,7 +233109,11 @@
       "last_updated": "2026-06-13T04:51:47.073151+00:00"
     },
     "microsoft/mxc": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Windows"
+      ],
       "metadata": {
         "id": 1151717775,
         "name": "mxc",
@@ -233087,7 +233133,10 @@
       "last_updated": "2026-06-13T04:51:47.264053+00:00"
     },
     "Svarkovsky/s3-msx-pc": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1261135563,
         "name": "s3-msx-pc",
@@ -233107,7 +233156,10 @@
       "last_updated": "2026-06-13T04:51:47.497655+00:00"
     },
     "WebAssembly/wasi-webgpu": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 756991846,
         "name": "wasi-webgpu",
