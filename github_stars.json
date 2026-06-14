@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T04:58:53.814045+00:00",
+  "last_updated": "2026-06-14T04:57:03.802331+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233289,6 +233289,46 @@
         "fetched_at": "2026-06-13T04:58:52.155470+00:00",
         "status": "ok"
       }
+    },
+    "Brisk4t/TossedTheTVKeptTheRemote": {
+      "lists": [],
+      "metadata": {
+        "id": 1108086389,
+        "name": "TossedTheTVKeptTheRemote",
+        "full_name": "Brisk4t/TossedTheTVKeptTheRemote",
+        "description": "A USB device to use old IR Remotes as HID input devices with a web-based configurator.",
+        "url": "https://github.com/Brisk4t/TossedTheTVKeptTheRemote",
+        "homepage": "https://brisk4t.github.io/TossedTheTVKeptTheRemote/",
+        "language": "JavaScript",
+        "stars": 32,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-12-02T02:17:17Z",
+        "updated_at": "2026-06-14T01:37:13Z",
+        "pushed_at": "2026-06-05T02:04:11Z",
+        "starred_at": "2026-06-14T01:37:12Z"
+      },
+      "last_updated": "2026-06-14T04:57:03.641146+00:00"
+    },
+    "Myndex/SAPC-APCA": {
+      "lists": [],
+      "metadata": {
+        "id": 209414207,
+        "name": "SAPC-APCA",
+        "full_name": "Myndex/SAPC-APCA",
+        "description": "APCA (Accessible Perceptual Contrast Algorithm) is a new method for predicting contrast for use in emerging web standards (WCAG 3) for determining readability contrast. APCA is derived form the SAPC (S-LUV Advanced Predictive Color) which is an accessibility-oriented color appearance model designed for self-illuminated displays.",
+        "url": "https://github.com/Myndex/SAPC-APCA",
+        "homepage": "https://git.apcacontrast.com/documentation/APCAeasyIntro",
+        "language": "CSS",
+        "stars": 566,
+        "forks": 17,
+        "open_issues": 6,
+        "created_at": "2019-09-18T22:25:55Z",
+        "updated_at": "2026-06-13T20:19:13Z",
+        "pushed_at": "2026-05-06T08:34:40Z",
+        "starred_at": "2026-06-13T20:19:13Z"
+      },
+      "last_updated": "2026-06-14T04:57:03.802218+00:00"
     }
   },
   "last_processed_index": 0,
@@ -233298,5 +233338,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"381924fc01118faca276281fc67b30f6f0fc256189143cd4fc5c269901f63662\""
+  "profile_etag": "W/\"db01e0876a2d82bd1050e52b26543a3e75c9411f430ef1adff8298839fc9b0ae\""
 }
