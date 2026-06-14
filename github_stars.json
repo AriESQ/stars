@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T05:03:22.582160+00:00",
+  "last_updated": "2026-06-14T05:04:15.127047+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233311,7 +233311,15 @@
         "pushed_at": "2026-06-05T02:04:11Z",
         "starred_at": "2026-06-14T01:37:12Z"
       },
-      "last_updated": "2026-06-14T04:57:03.641146+00:00"
+      "last_updated": "2026-06-14T04:57:03.641146+00:00",
+      "readme": {
+        "path": "readmes/Brisk4t+TossedTheTVKeptTheRemote+Readme.md",
+        "etag": "W/\"2fa25366d15309d9a92e62f17e9d9f8fd868c2c4\"",
+        "sha": "2fa25366d15309d9a92e62f17e9d9f8fd868c2c4",
+        "size": 10954,
+        "fetched_at": "2026-06-14T05:04:14.858187+00:00",
+        "status": "ok"
+      }
     },
     "Myndex/SAPC-APCA": {
       "lists": [
@@ -233334,7 +233342,15 @@
         "pushed_at": "2026-05-06T08:34:40Z",
         "starred_at": "2026-06-13T20:19:13Z"
       },
-      "last_updated": "2026-06-14T04:57:03.802218+00:00"
+      "last_updated": "2026-06-14T04:57:03.802218+00:00",
+      "readme": {
+        "path": "readmes/Myndex+SAPC-APCA+README.md",
+        "etag": "W/\"23b986e9863409ca675c87e86a55a6ce5e0e3269\"",
+        "sha": "23b986e9863409ca675c87e86a55a6ce5e0e3269",
+        "size": 12255,
+        "fetched_at": "2026-06-14T05:04:15.116939+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
