@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T04:57:03.802331+00:00",
+  "last_updated": "2026-06-14T05:03:22.582160+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233291,7 +233291,10 @@
       }
     },
     "Brisk4t/TossedTheTVKeptTheRemote": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1108086389,
         "name": "TossedTheTVKeptTheRemote",
@@ -233311,7 +233314,10 @@
       "last_updated": "2026-06-14T04:57:03.641146+00:00"
     },
     "Myndex/SAPC-APCA": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 209414207,
         "name": "SAPC-APCA",
