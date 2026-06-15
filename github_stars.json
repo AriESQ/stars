@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T05:05:27.702573+00:00",
+  "last_updated": "2026-06-15T05:06:05.980847+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233373,7 +233373,15 @@
         "pushed_at": "2026-06-14T18:23:15Z",
         "starred_at": "2026-06-14T17:53:49Z"
       },
-      "last_updated": "2026-06-15T04:58:18.236245+00:00"
+      "last_updated": "2026-06-15T04:58:18.236245+00:00",
+      "readme": {
+        "path": "readmes/tamnd+kage+README.md",
+        "etag": "W/\"ecbfe4a02bd792ab6b70514ca7411696e838346f\"",
+        "sha": "ecbfe4a02bd792ab6b70514ca7411696e838346f",
+        "size": 13498,
+        "fetched_at": "2026-06-15T05:06:05.978873+00:00",
+        "status": "ok"
+      }
     },
     "alebal123bal/khadas_yolov8n_multithread": {
       "lists": [
@@ -233397,7 +233405,15 @@
         "pushed_at": "2026-06-13T11:35:48Z",
         "starred_at": "2026-06-14T17:03:47Z"
       },
-      "last_updated": "2026-06-15T04:58:18.570898+00:00"
+      "last_updated": "2026-06-15T04:58:18.570898+00:00",
+      "readme": {
+        "path": "readmes/alebal123bal+khadas_yolov8n_multithread+README.md",
+        "etag": "W/\"10f0e31e3c1f35f0cc42dbff7b9245536777a1d6\"",
+        "sha": "10f0e31e3c1f35f0cc42dbff7b9245536777a1d6",
+        "size": 10878,
+        "fetched_at": "2026-06-15T05:06:05.488438+00:00",
+        "status": "ok"
+      }
     },
     "IliasHad/edit-mind": {
       "lists": [
@@ -233422,7 +233438,15 @@
         "pushed_at": "2026-05-19T11:54:19Z",
         "starred_at": "2026-06-14T16:57:09Z"
       },
-      "last_updated": "2026-06-15T04:58:18.882869+00:00"
+      "last_updated": "2026-06-15T04:58:18.882869+00:00",
+      "readme": {
+        "path": "readmes/IliasHad+edit-mind+README.md",
+        "etag": "W/\"44d82ab4b7184ac23d1c762ce2591886cc8cdd97\"",
+        "sha": "44d82ab4b7184ac23d1c762ce2591886cc8cdd97",
+        "size": 9492,
+        "fetched_at": "2026-06-15T05:06:05.304107+00:00",
+        "status": "ok"
+      }
     },
     "gritzko/beagle": {
       "lists": [
@@ -233445,7 +233469,15 @@
         "pushed_at": "2026-06-12T05:01:02Z",
         "starred_at": "2026-06-14T16:45:11Z"
       },
-      "last_updated": "2026-06-15T04:58:19.218177+00:00"
+      "last_updated": "2026-06-15T04:58:19.218177+00:00",
+      "readme": {
+        "path": "readmes/gritzko+beagle+README.md",
+        "etag": "W/\"01735236639b9a303df3c8763554032159ac5e3b\"",
+        "sha": "01735236639b9a303df3c8763554032159ac5e3b",
+        "size": 7180,
+        "fetched_at": "2026-06-15T05:06:05.774928+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
