@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T05:05:33.023008+00:00",
+  "last_updated": "2026-06-16T05:06:43.045766+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233503,7 +233503,15 @@
         "pushed_at": "2026-06-15T12:59:20Z",
         "starred_at": "2026-06-15T14:17:53Z"
       },
-      "last_updated": "2026-06-16T04:58:41.063913+00:00"
+      "last_updated": "2026-06-16T04:58:41.063913+00:00",
+      "readme": {
+        "path": "readmes/YusufB5+ASCILINE+README.md",
+        "etag": "W/\"ae5efad7ad4a47b7e98617ab8536286aaecc0885\"",
+        "sha": "ae5efad7ad4a47b7e98617ab8536286aaecc0885",
+        "size": 12038,
+        "fetched_at": "2026-06-16T05:06:42.797860+00:00",
+        "status": "ok"
+      }
     },
     "bitnami/sealed-secrets": {
       "lists": [
@@ -233527,7 +233535,15 @@
         "pushed_at": "2026-06-15T12:02:12Z",
         "starred_at": "2019-09-03T20:03:29Z"
       },
-      "last_updated": "2026-06-16T04:58:41.576865+00:00"
+      "last_updated": "2026-06-16T04:58:41.576865+00:00",
+      "readme": {
+        "path": "readmes/bitnami+sealed-secrets+README.md",
+        "etag": "W/\"dcd45d29dae1d9213e6534d895a6af8b2d5930e2\"",
+        "sha": "dcd45d29dae1d9213e6534d895a6af8b2d5930e2",
+        "size": 46451,
+        "fetched_at": "2026-06-16T05:06:43.037359+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
