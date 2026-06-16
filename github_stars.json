@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T04:58:41.576919+00:00",
+  "last_updated": "2026-06-16T05:05:33.023008+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -60143,7 +60143,10 @@
       }
     },
     "shueber/Touch-Up": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 792288502,
         "name": "Touch-Up",
@@ -233480,7 +233483,10 @@
       }
     },
     "YusufB5/ASCILINE": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1226660215,
         "name": "ASCILINE",
@@ -233500,7 +233506,11 @@
       "last_updated": "2026-06-16T04:58:41.063913+00:00"
     },
     "bitnami/sealed-secrets": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "K8S - Kubernetes"
+      ],
       "metadata": {
         "id": 92702519,
         "name": "sealed-secrets",
