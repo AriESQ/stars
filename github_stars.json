@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T04:57:51.022156+00:00",
+  "last_updated": "2026-06-17T05:04:06.741656+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233546,7 +233546,9 @@
       }
     },
     "ex-zee-ex/gravity_waaaves_app": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 610312218,
         "name": "gravity_waaaves_app",
@@ -233566,7 +233568,9 @@
       "last_updated": "2026-06-17T04:57:50.500571+00:00"
     },
     "11ty/buildawesome": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 112150776,
         "name": "buildawesome",
