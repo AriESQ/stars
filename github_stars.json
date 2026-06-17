@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T05:04:06.741656+00:00",
+  "last_updated": "2026-06-17T05:05:03.581081+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233565,7 +233565,15 @@
         "pushed_at": "2023-03-06T14:23:16Z",
         "starred_at": "2026-06-16T18:59:17Z"
       },
-      "last_updated": "2026-06-17T04:57:50.500571+00:00"
+      "last_updated": "2026-06-17T04:57:50.500571+00:00",
+      "readme": {
+        "path": "readmes/ex-zee-ex+gravity_waaaves_app+README.md",
+        "etag": "W/\"b40aab47af573c55d67907edbee4a8d55906a36f\"",
+        "sha": "b40aab47af573c55d67907edbee4a8d55906a36f",
+        "size": 90,
+        "fetched_at": "2026-06-17T05:05:03.574305+00:00",
+        "status": "ok"
+      }
     },
     "11ty/buildawesome": {
       "lists": [
@@ -233587,7 +233595,15 @@
         "pushed_at": "2026-06-16T21:32:23Z",
         "starred_at": "2025-07-01T04:13:12Z"
       },
-      "last_updated": "2026-06-17T04:57:51.022085+00:00"
+      "last_updated": "2026-06-17T04:57:51.022085+00:00",
+      "readme": {
+        "path": "readmes/11ty+buildawesome+README.md",
+        "etag": "W/\"593dc9c4a86bc73a4d929127e7d11dc74e88679a\"",
+        "sha": "593dc9c4a86bc73a4d929127e7d11dc74e88679a",
+        "size": 2580,
+        "fetched_at": "2026-06-17T05:05:03.223225+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
