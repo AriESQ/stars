@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T04:56:28.435929+00:00",
+  "last_updated": "2026-06-18T05:03:17.830850+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233606,7 +233606,10 @@
       }
     },
     "NVIDIA/SkillSpector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1187630119,
         "name": "SkillSpector",
@@ -233626,7 +233629,9 @@
       "last_updated": "2026-06-18T04:56:26.072204+00:00"
     },
     "scottdware/iterm2-triggers": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 87205010,
         "name": "iterm2-triggers",
@@ -233646,7 +233651,9 @@
       "last_updated": "2026-06-18T04:56:26.258139+00:00"
     },
     "rxi/microui": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 149854705,
         "name": "microui",
@@ -233666,7 +233673,10 @@
       "last_updated": "2026-06-18T04:56:26.431199+00:00"
     },
     "humanbydefinition/textmode-browser-extension": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1270535384,
         "name": "textmode-browser-extension",
@@ -233686,7 +233696,10 @@
       "last_updated": "2026-06-18T04:56:26.630320+00:00"
     },
     "nightwing-us/mcpyida": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1252701919,
         "name": "mcpyida",
@@ -233706,7 +233719,10 @@
       "last_updated": "2026-06-18T04:56:26.844576+00:00"
     },
     "youssofal/MTPLX": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1226911245,
         "name": "MTPLX",
@@ -233726,7 +233742,9 @@
       "last_updated": "2026-06-18T04:56:27.048880+00:00"
     },
     "rust-stdx/stdx": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1068329879,
         "name": "stdx",
@@ -233746,7 +233764,11 @@
       "last_updated": "2026-06-18T04:56:27.258879+00:00"
     },
     "thinkst/canarytokens": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 39949815,
         "name": "canarytokens",
@@ -233766,7 +233788,10 @@
       "last_updated": "2026-06-18T04:56:27.461809+00:00"
     },
     "olivierlacan/keep-a-changelog": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 20349686,
         "name": "keep-a-changelog",
@@ -233786,7 +233811,11 @@
       "last_updated": "2026-06-18T04:56:27.653601+00:00"
     },
     "EpicGames/lore": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Rust"
+      ],
       "metadata": {
         "id": 1246010662,
         "name": "lore",
@@ -233806,7 +233835,10 @@
       "last_updated": "2026-06-18T04:56:27.859474+00:00"
     },
     "dajiaji/pyseto": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "Python"
+      ],
       "metadata": {
         "id": 403210638,
         "name": "pyseto",
@@ -233826,7 +233858,9 @@
       "last_updated": "2026-06-18T04:56:28.055242+00:00"
     },
     "venoodkhatuva12/pem_key_generator": {
-      "lists": [],
+      "lists": [
+        "Bash"
+      ],
       "metadata": {
         "id": 66079701,
         "name": "pem_key_generator",
