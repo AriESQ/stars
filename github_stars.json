@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T05:03:17.830850+00:00",
+  "last_updated": "2026-06-18T05:03:49.135431+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233626,7 +233626,15 @@
         "pushed_at": "2026-06-16T21:49:11Z",
         "starred_at": "2026-06-18T03:23:25Z"
       },
-      "last_updated": "2026-06-18T04:56:26.072204+00:00"
+      "last_updated": "2026-06-18T04:56:26.072204+00:00",
+      "readme": {
+        "path": "readmes/NVIDIA+SkillSpector+README.md",
+        "etag": "W/\"6984998b4e75a0fbb230ca20b6db77fb159e35fa\"",
+        "sha": "6984998b4e75a0fbb230ca20b6db77fb159e35fa",
+        "size": 20800,
+        "fetched_at": "2026-06-18T05:03:45.378645+00:00",
+        "status": "ok"
+      }
     },
     "scottdware/iterm2-triggers": {
       "lists": [
@@ -233648,7 +233656,15 @@
         "pushed_at": "2020-11-27T20:27:38Z",
         "starred_at": "2026-06-18T01:33:59Z"
       },
-      "last_updated": "2026-06-18T04:56:26.258139+00:00"
+      "last_updated": "2026-06-18T04:56:26.258139+00:00",
+      "readme": {
+        "path": "readmes/scottdware+iterm2-triggers+README.md",
+        "etag": "W/\"2dcd78c236311241e35d41eebb0b508633c3587f\"",
+        "sha": "2dcd78c236311241e35d41eebb0b508633c3587f",
+        "size": 3174,
+        "fetched_at": "2026-06-18T05:03:48.037684+00:00",
+        "status": "ok"
+      }
     },
     "rxi/microui": {
       "lists": [
@@ -233670,7 +233686,15 @@
         "pushed_at": "2024-08-13T19:01:59Z",
         "starred_at": "2026-06-17T22:55:09Z"
       },
-      "last_updated": "2026-06-18T04:56:26.431199+00:00"
+      "last_updated": "2026-06-18T04:56:26.431199+00:00",
+      "readme": {
+        "path": "readmes/rxi+microui+README.md",
+        "etag": "W/\"1647de7624b06e10ef47107feb0f907206a6b3af\"",
+        "sha": "1647de7624b06e10ef47107feb0f907206a6b3af",
+        "size": 2008,
+        "fetched_at": "2026-06-18T05:03:47.660204+00:00",
+        "status": "ok"
+      }
     },
     "humanbydefinition/textmode-browser-extension": {
       "lists": [
@@ -233693,7 +233717,15 @@
         "pushed_at": "2026-06-17T22:37:39Z",
         "starred_at": "2026-06-17T22:47:03Z"
       },
-      "last_updated": "2026-06-18T04:56:26.630320+00:00"
+      "last_updated": "2026-06-18T04:56:26.630320+00:00",
+      "readme": {
+        "path": "readmes/humanbydefinition+textmode-browser-extension+README.md",
+        "etag": "W/\"50787e5e0ea113fe5bd6a25510d80c2e26c879c9\"",
+        "sha": "50787e5e0ea113fe5bd6a25510d80c2e26c879c9",
+        "size": 4986,
+        "fetched_at": "2026-06-18T05:03:46.203903+00:00",
+        "status": "ok"
+      }
     },
     "nightwing-us/mcpyida": {
       "lists": [
@@ -233716,7 +233748,15 @@
         "pushed_at": "2026-06-17T20:54:26Z",
         "starred_at": "2026-06-17T22:18:35Z"
       },
-      "last_updated": "2026-06-18T04:56:26.844576+00:00"
+      "last_updated": "2026-06-18T04:56:26.844576+00:00",
+      "readme": {
+        "path": "readmes/nightwing-us+mcpyida+README.md",
+        "etag": "W/\"97fc61acd7a575fda285de258754d0a64b5a425c\"",
+        "sha": "97fc61acd7a575fda285de258754d0a64b5a425c",
+        "size": 4862,
+        "fetched_at": "2026-06-18T05:03:46.699928+00:00",
+        "status": "ok"
+      }
     },
     "youssofal/MTPLX": {
       "lists": [
@@ -233739,7 +233779,15 @@
         "pushed_at": "2026-06-18T03:37:22Z",
         "starred_at": "2026-06-17T22:17:57Z"
       },
-      "last_updated": "2026-06-18T04:56:27.048880+00:00"
+      "last_updated": "2026-06-18T04:56:27.048880+00:00",
+      "readme": {
+        "path": "readmes/youssofal+MTPLX+README.md",
+        "etag": "W/\"f36ce839161e061e8e455cafa07568e53e45f2c9\"",
+        "sha": "f36ce839161e061e8e455cafa07568e53e45f2c9",
+        "size": 8528,
+        "fetched_at": "2026-06-18T05:03:49.134697+00:00",
+        "status": "ok"
+      }
     },
     "rust-stdx/stdx": {
       "lists": [
@@ -233761,7 +233809,15 @@
         "pushed_at": "2026-06-17T09:42:57Z",
         "starred_at": "2026-06-17T17:49:02Z"
       },
-      "last_updated": "2026-06-18T04:56:27.258879+00:00"
+      "last_updated": "2026-06-18T04:56:27.258879+00:00",
+      "readme": {
+        "path": "readmes/rust-stdx+stdx+README.md",
+        "etag": "W/\"8fc90f1418345fb43587d41a6fa02812ba0cadab\"",
+        "sha": "8fc90f1418345fb43587d41a6fa02812ba0cadab",
+        "size": 5405,
+        "fetched_at": "2026-06-18T05:03:47.384296+00:00",
+        "status": "ok"
+      }
     },
     "thinkst/canarytokens": {
       "lists": [
@@ -233785,7 +233841,15 @@
         "pushed_at": "2026-06-16T09:42:14Z",
         "starred_at": "2026-06-17T17:44:45Z"
       },
-      "last_updated": "2026-06-18T04:56:27.461809+00:00"
+      "last_updated": "2026-06-18T04:56:27.461809+00:00",
+      "readme": {
+        "path": "readmes/thinkst+canarytokens+README.md",
+        "etag": "W/\"82ea5204553d15b4aeada7e91393f24074b35ce3\"",
+        "sha": "82ea5204553d15b4aeada7e91393f24074b35ce3",
+        "size": 7237,
+        "fetched_at": "2026-06-18T05:03:48.395698+00:00",
+        "status": "ok"
+      }
     },
     "olivierlacan/keep-a-changelog": {
       "lists": [
@@ -233808,7 +233872,15 @@
         "pushed_at": "2026-06-15T07:54:23Z",
         "starred_at": "2026-06-17T16:11:32Z"
       },
-      "last_updated": "2026-06-18T04:56:27.653601+00:00"
+      "last_updated": "2026-06-18T04:56:27.653601+00:00",
+      "readme": {
+        "path": "readmes/olivierlacan+keep-a-changelog+README.md",
+        "etag": "W/\"a03b0d5924ab626ddb5a426c38a7fba564f2929e\"",
+        "sha": "a03b0d5924ab626ddb5a426c38a7fba564f2929e",
+        "size": 2610,
+        "fetched_at": "2026-06-18T05:03:47.064567+00:00",
+        "status": "ok"
+      }
     },
     "EpicGames/lore": {
       "lists": [
@@ -233832,7 +233904,15 @@
         "pushed_at": "2026-06-17T14:01:14Z",
         "starred_at": "2026-06-17T14:39:59Z"
       },
-      "last_updated": "2026-06-18T04:56:27.859474+00:00"
+      "last_updated": "2026-06-18T04:56:27.859474+00:00",
+      "readme": {
+        "path": "readmes/EpicGames+lore+README.md",
+        "etag": "W/\"50c16b68201b0335bb2899c02e1c506431ccc1db\"",
+        "sha": "50c16b68201b0335bb2899c02e1c506431ccc1db",
+        "size": 8143,
+        "fetched_at": "2026-06-18T05:03:45.071422+00:00",
+        "status": "ok"
+      }
     },
     "dajiaji/pyseto": {
       "lists": [
@@ -233855,7 +233935,15 @@
         "pushed_at": "2026-06-08T04:12:58Z",
         "starred_at": "2026-06-17T05:11:24Z"
       },
-      "last_updated": "2026-06-18T04:56:28.055242+00:00"
+      "last_updated": "2026-06-18T04:56:28.055242+00:00",
+      "readme": {
+        "path": "readmes/dajiaji+pyseto+README.md",
+        "etag": "W/\"74745436eba35cf7bcb11a4cb5af050a04b2c5ca\"",
+        "sha": "74745436eba35cf7bcb11a4cb5af050a04b2c5ca",
+        "size": 17197,
+        "fetched_at": "2026-06-18T05:03:45.827682+00:00",
+        "status": "ok"
+      }
     },
     "venoodkhatuva12/pem_key_generator": {
       "lists": [
@@ -233877,7 +233965,15 @@
         "pushed_at": "2016-08-19T12:08:24Z",
         "starred_at": "2022-02-13T00:04:45Z"
       },
-      "last_updated": "2026-06-18T04:56:28.435836+00:00"
+      "last_updated": "2026-06-18T04:56:28.435836+00:00",
+      "readme": {
+        "path": "readmes/venoodkhatuva12+pem_key_generator+README.md",
+        "etag": "W/\"24ec55873714a4df48e784d3dd7c1acda9d7d87f\"",
+        "sha": "24ec55873714a4df48e784d3dd7c1acda9d7d87f",
+        "size": 52,
+        "fetched_at": "2026-06-18T05:03:48.767771+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,

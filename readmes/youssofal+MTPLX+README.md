@@ -1,0 +1,122 @@
+<div align="center">
+
+<img src="docs/assets/readme/hero.svg" alt="MTPLX" width="100%" />
+
+# Run local LLMs on Apple Silicon, around twice as fast.
+
+[![PyPI](https://img.shields.io/pypi/v/mtplx?label=PyPI)](https://pypi.org/project/mtplx/)
+[![CI](https://github.com/youssofal/MTPLX/actions/workflows/ci.yml/badge.svg)](https://github.com/youssofal/MTPLX/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
+[![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-black?logo=apple)](https://developer.apple.com/metal/)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
+
+</div>
+
+MTPLX is a native Mac app and a command line for running local language models with multi-token prediction. Modern models like Qwen 3.5/3.6 ship with built-in MTP heads. Almost no runtime uses them. MTPLX does: the model drafts several tokens ahead of itself, verifies them in one batched forward pass, and keeps only what passes exact rejection sampling. Same model, same output distribution, measured 1.6x faster on a 16 GB M4 Mac mini and 2.24x on an M5 Max.
+
+There is no second draft model eating your RAM, and no greedy shortcut that quietly changes what the model would have said at real sampling settings. The acceptance math is the Leviathan and Chen rejection sampling theorem with residual correction, so `temperature=0.6, top_p=0.95` behaves exactly like normal decoding, just faster.
+
+## Get it
+
+**The Mac app** is the easiest way in. Download the DMG at [mtplx.com](https://mtplx.com/download), drag it to Applications, and the app takes care of everything else: it checks your hardware, recommends a model that actually fits your memory, downloads it, sets up its own Python engine (no Homebrew needed), installs fan control, puts `mtplx` on your PATH, and then measures your machine to pick the fastest decoding depth.
+
+**The CLI** on its own:
+
+```bash
+brew install youssofal/mtplx/mtplx
+mtplx start
+```
+
+or `python3 -m pip install mtplx` if you prefer pip. All releases are listed at [mtplx.com/releases](https://mtplx.com/releases/).
+
+Requirements: Apple Silicon (M1 or newer), macOS 14+. 16 GB of memory runs the 4B and 9B models comfortably; 27B wants 32 GB and up. The app checks this for you before recommending anything.
+
+## The app
+
+<img src="docs/assets/readme/app-dashboard.jpg" alt="MTPLX dashboard with live decode gauge" width="100%" />
+
+The dashboard shows what your model is doing while it does it: live tokens per second, acceptance rate by draft depth, the verify waterfall, cache state, and system pressure. When you start a chat, code an agent against the local server, or run a benchmark, the numbers are right there.
+
+<img src="docs/assets/readme/app-chat.jpg" alt="Chat streaming with live speed badge" width="100%" />
+
+Chat is native, streams with thinking cards, takes file attachments, and can search the web. One click launches OpenCode, Pi, Hermes, Open WebUI, or anything else that speaks the OpenAI or Anthropic API against your local server. There is also a built-in AIME benchmark runner with fully disclosed, coaching-free prompts, so you can score a model yourself instead of trusting a chart.
+
+## Auto-tune
+
+The right draft depth depends on your specific Mac: chip, memory bandwidth, thermals. During onboarding (and any time after), MTPLX runs the real model on your machine at each depth, with fans pinned for clean timing, and keeps autoregressive decoding as the baseline. If an MTP depth beats it, that depth is saved. If nothing beats the baseline, nothing is saved and the app says so. From the terminal it is one command:
+
+```bash
+mtplx tune --model <model-or-path> --retune
+```
+
+On a 16 GB M4 Mac mini, tuning the 9B model lands on depth 1: 14.4 tok/s baseline becomes 23.0 tok/s.
+
+## Forge: make your own MTP models
+
+<img src="docs/assets/readme/app-forge.jpg" alt="Forge verifying a freshly built MTP model" width="100%" />
+
+Forge takes a Hugging Face repo and turns it into an MTPLX-ready MTP model: convert to MLX, train the MTP adapter, verify that the result is actually faster and still exact, and publish back to the Hub if you want to share it. The honest part matters: Forge measures before and after on your hardware and shows you the verdict ("Depth 1 is fastest: 227.1 to 296.1, 1.30x") rather than assuming the adapter helped. Available in the app and as `mtplx forge`.
+
+The official catalog lives on Hugging Face under [Youssofal](https://huggingface.co/Youssofal): Qwen 3.5 (4B, 9B), Qwen 3.6 (27B, 35B MoE) in speed, balance, and quality builds, plus Gemma 4. The app recommends from these based on your hardware.
+
+## The server
+
+`mtplx start` (or the app's play button) serves an OpenAI-compatible API on `127.0.0.1:8000`: `/v1/chat/completions`, `/v1/completions`, `/v1/models`, plus an Anthropic-compatible `/v1/messages` with streaming, tool calls in both styles, `/health`, and `/metrics`. Claude Code, Cline, Continue, Open WebUI, curl, the openai and anthropic Python clients: if it speaks the API, it works. The app and CLI share one server, so `mtplx start` attaches to the app's running model instead of loading a second copy.
+
+```bash
+curl http://127.0.0.1:8000/v1/chat/completions \
+  -H 'Content-Type: application/json' \
+  -d '{"model":"mtplx","messages":[{"role":"user","content":"hi"}],"stream":true}'
+```
+
+Sessions survive: a warm-prefix session bank keeps multi-turn chats fast, and an optional SSD cache restores sessions near-instantly across restarts.
+
+## CLI quick reference
+
+```bash
+mtplx start                # interactive: pick model, mode, surface, then chat
+mtplx serve --port 8000    # API server only
+mtplx stop                 # stop the running server cleanly
+mtplx pull <hf-repo>       # download a model safely
+mtplx models               # what is cached, sizes, validation
+mtplx inspect <model>      # compatibility report before anything runs
+mtplx tune --retune        # measure AR vs D1/D2/D3 on your Mac
+mtplx forge                # build, verify, and publish MTP models
+mtplx bench aime --quick   # run the AIME benchmark from the terminal
+mtplx doctor               # install and integration health
+mtplx max --install        # fan control (one sudo prompt, crash-safe)
+mtplx settings get/set     # read or change live server settings
+```
+
+Every command takes `--json` and `--help`. The CLI works without MLX installed for everything that does not need a model, so `doctor` and `inspect` run on any machine.
+
+## Modes
+
+| Mode | What it does | When |
+|---|---|---|
+| **Sustained** | Default. Long-context MTP path with chunked prefill and request-sized KV | Everyday use, big files, 16K-200K prompts |
+| **Sustained Max** | Sustained with fans pinned at 100% | Long work where you want maximum cooling |
+| **Burst** | Legacy short-context benchmark lane, loud | Short prompts and benchmarks only |
+
+Fan-backed modes restore your fans to automatic if MTPLX dies for any reason, including `kill -9` and closing the terminal. A detached watchdog handles it; this is verified on hardware, not assumed.
+
+## Compatibility, honestly
+
+`mtplx inspect` classifies any model into four tiers before anything runs: verified, architecture-compatible but unverified, incompatible architecture, or no MTP heads at all. Unverified models refuse to run unless you explicitly force them. There are no silent fallbacks: if MTPLX cannot run a model correctly, it tells you instead of running it badly.
+
+## What MTPLX is not
+
+- Not an external-drafter system. The drafter is the target model's own MTP heads.
+- Not a greedy-argmax trick. Acceptance is exact rejection sampling, correct at any temperature.
+- Not a CUDA project. MTPLX is MLX-native and Apple Silicon first. For Linux, use vLLM.
+
+## License and credit
+
+Apache-2.0: use it, modify it, ship it commercially. Keep the license and [NOTICE](NOTICE) attribution if you redistribute. MTPLX builds on [MLX](https://github.com/ml-explore/mlx) and the Qwen and Gemma model families; the speculative sampling math follows Leviathan and Chen (2023). Fan control via [ThermalForge](https://github.com/ProducerGuy/ThermalForge). Model weights remain governed by their upstream licenses.
+
+If MTPLX powers a public project, benchmark, or paper, please credit it:
+
+> Powered by MTPLX by Youssof Altoukhi
+> https://github.com/youssofal/MTPLX
+
+Built by [Youssof Altoukhi](https://github.com/youssofal). Bug reports and benchmark replications welcome via [Issues](https://github.com/youssofal/MTPLX/issues).
