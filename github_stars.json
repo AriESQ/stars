@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T05:04:47.396218+00:00",
+  "last_updated": "2026-06-19T05:05:23.252658+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233996,7 +233996,11 @@
         "pushed_at": "2026-04-03T22:34:31Z",
         "starred_at": "2026-06-19T03:16:31Z"
       },
-      "last_updated": "2026-06-19T04:57:20.928851+00:00"
+      "last_updated": "2026-06-19T04:57:20.928851+00:00",
+      "readme": {
+        "fetched_at": "2026-06-19T05:05:20.480227+00:00",
+        "status": "missing"
+      }
     },
     "Arthur-Ficial/fenster": {
       "lists": [
@@ -234020,7 +234024,15 @@
         "pushed_at": "2026-04-27T16:59:16Z",
         "starred_at": "2026-06-19T03:15:48Z"
       },
-      "last_updated": "2026-06-19T04:57:21.104065+00:00"
+      "last_updated": "2026-06-19T04:57:21.104065+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+fenster+README.md",
+        "etag": "W/\"13671fe588208f3bc624cf4339adadbd8f1957aa\"",
+        "sha": "13671fe588208f3bc624cf4339adadbd8f1957aa",
+        "size": 23756,
+        "fetched_at": "2026-06-19T05:05:20.210077+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/workshop-display-manager": {
       "lists": [
@@ -234042,7 +234054,15 @@
         "pushed_at": "2026-05-09T22:09:11Z",
         "starred_at": "2026-06-19T03:14:01Z"
       },
-      "last_updated": "2026-06-19T04:57:21.290203+00:00"
+      "last_updated": "2026-06-19T04:57:21.290203+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+workshop-display-manager+README.md",
+        "etag": "W/\"d49ef3a556c04382e461bf5b3eddad3e7523d5db\"",
+        "sha": "d49ef3a556c04382e461bf5b3eddad3e7523d5db",
+        "size": 19392,
+        "fetched_at": "2026-06-19T05:05:21.084614+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-mcp": {
       "lists": [
@@ -234066,7 +234086,15 @@
         "pushed_at": "2026-05-26T10:17:52Z",
         "starred_at": "2026-06-19T03:13:16Z"
       },
-      "last_updated": "2026-06-19T04:57:21.461705+00:00"
+      "last_updated": "2026-06-19T04:57:21.461705+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-mcp+README.md",
+        "etag": "W/\"c1b6fdc3421c68fb64438944b57cf58f4d163319\"",
+        "sha": "c1b6fdc3421c68fb64438944b57cf58f4d163319",
+        "size": 11204,
+        "fetched_at": "2026-06-19T05:05:18.163428+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/bgbgone": {
       "lists": [
@@ -234089,7 +234117,15 @@
         "pushed_at": "2026-06-08T13:42:27Z",
         "starred_at": "2026-06-19T03:13:01Z"
       },
-      "last_updated": "2026-06-19T04:57:21.639443+00:00"
+      "last_updated": "2026-06-19T04:57:21.639443+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+bgbgone+README.md",
+        "etag": "W/\"c1a520d4ac883d2f9f4c17d19b154d57359f003c\"",
+        "sha": "c1a520d4ac883d2f9f4c17d19b154d57359f003c",
+        "size": 10151,
+        "fetched_at": "2026-06-19T05:05:19.551690+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/bgbgone-app": {
       "lists": [
@@ -234112,7 +234148,15 @@
         "pushed_at": "2026-06-08T13:42:58Z",
         "starred_at": "2026-06-19T03:12:25Z"
       },
-      "last_updated": "2026-06-19T04:57:21.846128+00:00"
+      "last_updated": "2026-06-19T04:57:21.846128+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+bgbgone-app+README.md",
+        "etag": "W/\"0cdaee732992263955cd671246e075b84ecfb37b\"",
+        "sha": "0cdaee732992263955cd671246e075b84ecfb37b",
+        "size": 6461,
+        "fetched_at": "2026-06-19T05:05:19.827127+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-quick": {
       "lists": [
@@ -234135,7 +234179,15 @@
         "pushed_at": "2026-06-14T20:43:16Z",
         "starred_at": "2026-06-19T03:11:56Z"
       },
-      "last_updated": "2026-06-19T04:57:22.024678+00:00"
+      "last_updated": "2026-06-19T04:57:22.024678+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-quick+README.md",
+        "etag": "W/\"1b80514833e9baf40818d13a9fe4fbf4d9fc14d5\"",
+        "sha": "1b80514833e9baf40818d13a9fe4fbf4d9fc14d5",
+        "size": 9706,
+        "fetched_at": "2026-06-19T05:05:18.509754+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-tag": {
       "lists": [
@@ -234158,7 +234210,15 @@
         "pushed_at": "2026-06-14T20:43:19Z",
         "starred_at": "2026-06-19T03:11:32Z"
       },
-      "last_updated": "2026-06-19T04:57:22.206618+00:00"
+      "last_updated": "2026-06-19T04:57:22.206618+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-tag+README.md",
+        "etag": "W/\"e5a9534846a5f245f74030fca1b83736121206b5\"",
+        "sha": "e5a9534846a5f245f74030fca1b83736121206b5",
+        "size": 2384,
+        "fetched_at": "2026-06-19T05:05:18.867475+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/ohr": {
       "lists": [
@@ -234181,7 +234241,15 @@
         "pushed_at": "2026-04-15T12:46:39Z",
         "starred_at": "2026-06-19T03:10:28Z"
       },
-      "last_updated": "2026-06-19T04:57:22.381360+00:00"
+      "last_updated": "2026-06-19T04:57:22.381360+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+ohr+README.md",
+        "etag": "W/\"b2fee503312c103e12d038059aa36d5983c69c26\"",
+        "sha": "b2fee503312c103e12d038059aa36d5983c69c26",
+        "size": 13701,
+        "fetched_at": "2026-06-19T05:05:20.787294+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-clip": {
       "lists": [
@@ -234204,7 +234272,15 @@
         "pushed_at": "2026-06-14T20:42:52Z",
         "starred_at": "2026-06-19T03:10:17Z"
       },
-      "last_updated": "2026-06-19T04:57:22.564049+00:00"
+      "last_updated": "2026-06-19T04:57:22.564049+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-clip+README.md",
+        "etag": "W/\"73ed98646df02035d0c4324017ead7ebadad0d36\"",
+        "sha": "73ed98646df02035d0c4324017ead7ebadad0d36",
+        "size": 9513,
+        "fetched_at": "2026-06-19T05:05:17.619038+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-chat": {
       "lists": [
@@ -234227,7 +234303,15 @@
         "pushed_at": "2026-06-14T20:42:42Z",
         "starred_at": "2026-06-19T03:09:47Z"
       },
-      "last_updated": "2026-06-19T04:57:22.751123+00:00"
+      "last_updated": "2026-06-19T04:57:22.751123+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-chat+README.md",
+        "etag": "W/\"1d258384a2d03a8104f636ac2d79a7d3c69792c8\"",
+        "sha": "1d258384a2d03a8104f636ac2d79a7d3c69792c8",
+        "size": 10339,
+        "fetched_at": "2026-06-19T05:05:17.341606+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/apfel-gui": {
       "lists": [
@@ -234250,7 +234334,15 @@
         "pushed_at": "2026-06-14T20:42:59Z",
         "starred_at": "2026-06-19T03:09:32Z"
       },
-      "last_updated": "2026-06-19T04:57:22.958843+00:00"
+      "last_updated": "2026-06-19T04:57:22.958843+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+apfel-gui+README.md",
+        "etag": "W/\"ee840fb5c50c437f69cb223825cb71982a622c15\"",
+        "sha": "ee840fb5c50c437f69cb223825cb71982a622c15",
+        "size": 6557,
+        "fetched_at": "2026-06-19T05:05:17.904368+00:00",
+        "status": "ok"
+      }
     },
     "Arthur-Ficial/auge": {
       "lists": [
@@ -234273,7 +234365,15 @@
         "pushed_at": "2026-06-01T11:21:17Z",
         "starred_at": "2026-06-19T03:08:41Z"
       },
-      "last_updated": "2026-06-19T04:57:23.151288+00:00"
+      "last_updated": "2026-06-19T04:57:23.151288+00:00",
+      "readme": {
+        "path": "readmes/Arthur-Ficial+auge+README.md",
+        "etag": "W/\"99237b64bb2a610020ea8b76fecb1f25f6fb9b66\"",
+        "sha": "99237b64bb2a610020ea8b76fecb1f25f6fb9b66",
+        "size": 11427,
+        "fetched_at": "2026-06-19T05:05:19.209849+00:00",
+        "status": "ok"
+      }
     },
     "ruvnet/RuVector": {
       "lists": [
@@ -234296,7 +234396,15 @@
         "pushed_at": "2026-06-19T03:33:07Z",
         "starred_at": "2026-06-19T00:16:23Z"
       },
-      "last_updated": "2026-06-19T04:57:23.331230+00:00"
+      "last_updated": "2026-06-19T04:57:23.331230+00:00",
+      "readme": {
+        "path": "readmes/ruvnet+RuVector+README.md",
+        "etag": "W/\"0d22ce95809056ec25e5f754954ccb8e4a21e6e5\"",
+        "sha": "0d22ce95809056ec25e5f754954ccb8e4a21e6e5",
+        "size": 277781,
+        "fetched_at": "2026-06-19T05:05:22.746551+00:00",
+        "status": "ok"
+      }
     },
     "ruvnet/open-claude-code": {
       "lists": [
@@ -234319,7 +234427,15 @@
         "pushed_at": "2026-06-18T04:31:39Z",
         "starred_at": "2026-06-18T23:19:57Z"
       },
-      "last_updated": "2026-06-19T04:57:23.504908+00:00"
+      "last_updated": "2026-06-19T04:57:23.504908+00:00",
+      "readme": {
+        "path": "readmes/ruvnet+open-claude-code+README.md",
+        "etag": "W/\"80f7a699147423f65a3b6badf5a37f426789d822\"",
+        "sha": "80f7a699147423f65a3b6badf5a37f426789d822",
+        "size": 11398,
+        "fetched_at": "2026-06-19T05:05:22.985433+00:00",
+        "status": "ok"
+      }
     },
     "harveyai/harvey-labs": {
       "lists": [
@@ -234342,7 +234458,15 @@
         "pushed_at": "2026-06-17T22:52:45Z",
         "starred_at": "2026-06-18T19:13:20Z"
       },
-      "last_updated": "2026-06-19T04:57:23.688268+00:00"
+      "last_updated": "2026-06-19T04:57:23.688268+00:00",
+      "readme": {
+        "path": "readmes/harveyai+harvey-labs+README.md",
+        "etag": "W/\"bc6ce77ecfb76953a9b343d3c7e2b45511fe6d83\"",
+        "sha": "bc6ce77ecfb76953a9b343d3c7e2b45511fe6d83",
+        "size": 2022,
+        "fetched_at": "2026-06-19T05:05:22.218170+00:00",
+        "status": "ok"
+      }
     },
     "mihakralj/opnsense-speedtest": {
       "lists": [
@@ -234364,7 +234488,15 @@
         "pushed_at": "2024-08-03T20:01:03Z",
         "starred_at": "2026-06-18T18:21:50Z"
       },
-      "last_updated": "2026-06-19T04:57:23.904813+00:00"
+      "last_updated": "2026-06-19T04:57:23.904813+00:00",
+      "readme": {
+        "path": "readmes/mihakralj+opnsense-speedtest+README.md",
+        "etag": "W/\"f0bf52122d06c19f6f43104e0d94635d0fda31f1\"",
+        "sha": "f0bf52122d06c19f6f43104e0d94635d0fda31f1",
+        "size": 2233,
+        "fetched_at": "2026-06-19T05:05:22.439202+00:00",
+        "status": "ok"
+      }
     },
     "showwin/speedtest-go": {
       "lists": [
@@ -234388,7 +234520,15 @@
         "pushed_at": "2025-10-15T19:46:14Z",
         "starred_at": "2026-06-18T17:44:06Z"
       },
-      "last_updated": "2026-06-19T04:57:24.103947+00:00"
+      "last_updated": "2026-06-19T04:57:24.103947+00:00",
+      "readme": {
+        "path": "readmes/showwin+speedtest-go+README.md",
+        "etag": "W/\"cab62f8d8ca270e6f353fcf6268846be2412fe3b\"",
+        "sha": "cab62f8d8ca270e6f353fcf6268846be2412fe3b",
+        "size": 14057,
+        "fetched_at": "2026-06-19T05:05:23.250658+00:00",
+        "status": "ok"
+      }
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "lists": [
@@ -234411,7 +234551,15 @@
         "pushed_at": "2026-06-18T17:29:28Z",
         "starred_at": "2026-06-18T16:17:04Z"
       },
-      "last_updated": "2026-06-19T04:57:24.309729+00:00"
+      "last_updated": "2026-06-19T04:57:24.309729+00:00",
+      "readme": {
+        "path": "readmes/ChromeDevTools+chrome-devtools-mcp+README.md",
+        "etag": "W/\"dc1db42ee1dbfb76e7ba70f60eecd16ddc95a922\"",
+        "sha": "dc1db42ee1dbfb76e7ba70f60eecd16ddc95a922",
+        "size": 37226,
+        "fetched_at": "2026-06-19T05:05:21.375806+00:00",
+        "status": "ok"
+      }
     },
     "StarTrail-org/PixelRAG": {
       "lists": [
@@ -234435,7 +234583,15 @@
         "pushed_at": "2026-06-12T17:57:13Z",
         "starred_at": "2026-06-18T15:06:14Z"
       },
-      "last_updated": "2026-06-19T04:57:24.546609+00:00"
+      "last_updated": "2026-06-19T04:57:24.546609+00:00",
+      "readme": {
+        "path": "readmes/StarTrail-org+PixelRAG+README.md",
+        "etag": "W/\"72cacd779beac15566aec0ff87ea1e88bea60fd1\"",
+        "sha": "72cacd779beac15566aec0ff87ea1e88bea60fd1",
+        "size": 9901,
+        "fetched_at": "2026-06-19T05:05:21.646254+00:00",
+        "status": "ok"
+      }
     },
     "bootlin/yocto-kiss": {
       "lists": [
@@ -234457,7 +234613,15 @@
         "pushed_at": "2026-06-18T15:44:41Z",
         "starred_at": "2025-06-22T05:22:44Z"
       },
-      "last_updated": "2026-06-19T04:57:24.943734+00:00"
+      "last_updated": "2026-06-19T04:57:24.943734+00:00",
+      "readme": {
+        "path": "readmes/bootlin+yocto-kiss+README.md",
+        "etag": "W/\"e4e565422611aa2f7b6cd9c377ff1a445df41780\"",
+        "sha": "e4e565422611aa2f7b6cd9c377ff1a445df41780",
+        "size": 11312,
+        "fetched_at": "2026-06-19T05:05:21.940703+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
