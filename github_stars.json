@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T04:57:24.943817+00:00",
+  "last_updated": "2026-06-19T05:04:47.396218+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233976,7 +233976,10 @@
       }
     },
     "Arthur-Ficial/kern": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1200842706,
         "name": "kern",
@@ -233996,7 +233999,11 @@
       "last_updated": "2026-06-19T04:57:20.928851+00:00"
     },
     "Arthur-Ficial/fenster": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1222431592,
         "name": "fenster",
@@ -234016,7 +234023,9 @@
       "last_updated": "2026-06-19T04:57:21.104065+00:00"
     },
     "Arthur-Ficial/workshop-display-manager": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1227223689,
         "name": "workshop-display-manager",
@@ -234036,7 +234045,11 @@
       "last_updated": "2026-06-19T04:57:21.290203+00:00"
     },
     "Arthur-Ficial/apfel-mcp": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1207879466,
         "name": "apfel-mcp",
@@ -234056,7 +234069,10 @@
       "last_updated": "2026-06-19T04:57:21.461705+00:00"
     },
     "Arthur-Ficial/bgbgone": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1244770399,
         "name": "bgbgone",
@@ -234076,7 +234092,10 @@
       "last_updated": "2026-06-19T04:57:21.639443+00:00"
     },
     "Arthur-Ficial/bgbgone-app": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1246775124,
         "name": "bgbgone-app",
@@ -234096,7 +234115,10 @@
       "last_updated": "2026-06-19T04:57:21.846128+00:00"
     },
     "Arthur-Ficial/apfel-quick": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1207903238,
         "name": "apfel-quick",
@@ -234116,7 +234138,10 @@
       "last_updated": "2026-06-19T04:57:22.024678+00:00"
     },
     "Arthur-Ficial/apfel-tag": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1256583704,
         "name": "apfel-tag",
@@ -234136,7 +234161,10 @@
       "last_updated": "2026-06-19T04:57:22.206618+00:00"
     },
     "Arthur-Ficial/ohr": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1200842682,
         "name": "ohr",
@@ -234156,7 +234184,10 @@
       "last_updated": "2026-06-19T04:57:22.381360+00:00"
     },
     "Arthur-Ficial/apfel-clip": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1198922746,
         "name": "apfel-clip",
@@ -234176,7 +234207,10 @@
       "last_updated": "2026-06-19T04:57:22.564049+00:00"
     },
     "Arthur-Ficial/apfel-chat": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1202062106,
         "name": "apfel-chat",
@@ -234196,7 +234230,10 @@
       "last_updated": "2026-06-19T04:57:22.751123+00:00"
     },
     "Arthur-Ficial/apfel-gui": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1198904294,
         "name": "apfel-gui",
@@ -234216,7 +234253,10 @@
       "last_updated": "2026-06-19T04:57:22.958843+00:00"
     },
     "Arthur-Ficial/auge": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1200842736,
         "name": "auge",
@@ -234236,7 +234276,10 @@
       "last_updated": "2026-06-19T04:57:23.151288+00:00"
     },
     "ruvnet/RuVector": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1099547803,
         "name": "RuVector",
@@ -234256,7 +234299,10 @@
       "last_updated": "2026-06-19T04:57:23.331230+00:00"
     },
     "ruvnet/open-claude-code": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 938364389,
         "name": "open-claude-code",
@@ -234276,7 +234322,10 @@
       "last_updated": "2026-06-19T04:57:23.504908+00:00"
     },
     "harveyai/harvey-labs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1196468510,
         "name": "harvey-labs",
@@ -234296,7 +234345,9 @@
       "last_updated": "2026-06-19T04:57:23.688268+00:00"
     },
     "mihakralj/opnsense-speedtest": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 343451775,
         "name": "opnsense-speedtest",
@@ -234316,7 +234367,11 @@
       "last_updated": "2026-06-19T04:57:23.904813+00:00"
     },
     "showwin/speedtest-go": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "Networking"
+      ],
       "metadata": {
         "id": 44506430,
         "name": "speedtest-go",
@@ -234336,7 +234391,10 @@
       "last_updated": "2026-06-19T04:57:24.103947+00:00"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1054793726,
         "name": "chrome-devtools-mcp",
@@ -234356,7 +234414,11 @@
       "last_updated": "2026-06-19T04:57:24.309729+00:00"
     },
     "StarTrail-org/PixelRAG": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1253138201,
         "name": "PixelRAG",
@@ -234376,7 +234438,9 @@
       "last_updated": "2026-06-19T04:57:24.546609+00:00"
     },
     "bootlin/yocto-kiss": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 644485886,
         "name": "yocto-kiss",
