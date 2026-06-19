@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T05:03:49.135431+00:00",
+  "last_updated": "2026-06-19T04:57:24.943817+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -233974,6 +233974,426 @@
         "fetched_at": "2026-06-18T05:03:48.767771+00:00",
         "status": "ok"
       }
+    },
+    "Arthur-Ficial/kern": {
+      "lists": [],
+      "metadata": {
+        "id": 1200842706,
+        "name": "kern",
+        "full_name": "Arthur-Ficial/kern",
+        "description": "On-device text embeddings CLI and OpenAI-compatible server - Apple NLContextualEmbedding from the command line",
+        "url": "https://github.com/Arthur-Ficial/kern",
+        "homepage": null,
+        "language": null,
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-03T22:23:56Z",
+        "updated_at": "2026-06-19T03:16:31Z",
+        "pushed_at": "2026-04-03T22:34:31Z",
+        "starred_at": "2026-06-19T03:16:31Z"
+      },
+      "last_updated": "2026-06-19T04:57:20.928851+00:00"
+    },
+    "Arthur-Ficial/fenster": {
+      "lists": [],
+      "metadata": {
+        "id": 1222431592,
+        "name": "fenster",
+        "full_name": "Arthur-Ficial/fenster",
+        "description": "Chrome's on-device Gemini Nano, served as if it were OpenAI. Cross-platform sister of apfel.",
+        "url": "https://github.com/Arthur-Ficial/fenster",
+        "homepage": "https://github.com/Arthur-Ficial/fenster",
+        "language": "Go",
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 17,
+        "created_at": "2026-04-27T11:07:32Z",
+        "updated_at": "2026-06-19T03:15:48Z",
+        "pushed_at": "2026-04-27T16:59:16Z",
+        "starred_at": "2026-06-19T03:15:48Z"
+      },
+      "last_updated": "2026-06-19T04:57:21.104065+00:00"
+    },
+    "Arthur-Ficial/workshop-display-manager": {
+      "lists": [],
+      "metadata": {
+        "id": 1227223689,
+        "name": "workshop-display-manager",
+        "full_name": "Arthur-Ficial/workshop-display-manager",
+        "description": "Native macOS CLI for managing all attached displays \u2014 workshop edition. Private.",
+        "url": "https://github.com/Arthur-Ficial/workshop-display-manager",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 90,
+        "created_at": "2026-05-02T11:37:28Z",
+        "updated_at": "2026-06-19T03:14:02Z",
+        "pushed_at": "2026-05-09T22:09:11Z",
+        "starred_at": "2026-06-19T03:14:01Z"
+      },
+      "last_updated": "2026-06-19T04:57:21.290203+00:00"
+    },
+    "Arthur-Ficial/apfel-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1207879466,
+        "name": "apfel-mcp",
+        "full_name": "Arthur-Ficial/apfel-mcp",
+        "description": "Token-budget-optimized MCP servers for apfel: url-fetch (Readability-based) + ddg-search (experimental) + search-and-fetch (compound). Built for apfel's 4096-token context window.",
+        "url": "https://github.com/Arthur-Ficial/apfel-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 17,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-04-11T14:27:08Z",
+        "updated_at": "2026-06-19T03:13:16Z",
+        "pushed_at": "2026-05-26T10:17:52Z",
+        "starred_at": "2026-06-19T03:13:16Z"
+      },
+      "last_updated": "2026-06-19T04:57:21.461705+00:00"
+    },
+    "Arthur-Ficial/bgbgone": {
+      "lists": [],
+      "metadata": {
+        "id": 1244770399,
+        "name": "bgbgone",
+        "full_name": "Arthur-Ficial/bgbgone",
+        "description": "The ultimate UNIX-style background remover for macOS. AI-driven via Apple's on-device Vision framework. No API keys. No cloud. No network.",
+        "url": "https://github.com/Arthur-Ficial/bgbgone",
+        "homepage": "https://bgbgone.franzai.com/",
+        "language": "Swift",
+        "stars": 17,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-20T15:23:50Z",
+        "updated_at": "2026-06-19T03:13:02Z",
+        "pushed_at": "2026-06-08T13:42:27Z",
+        "starred_at": "2026-06-19T03:13:01Z"
+      },
+      "last_updated": "2026-06-19T04:57:21.639443+00:00"
+    },
+    "Arthur-Ficial/bgbgone-app": {
+      "lists": [],
+      "metadata": {
+        "id": 1246775124,
+        "name": "bgbgone-app",
+        "full_name": "Arthur-Ficial/bgbgone-app",
+        "description": "GUI for bgbgone \u2014 drop a folder, get clean cutouts. On-device Apple Vision, batchable, 100% scriptable underneath.",
+        "url": "https://github.com/Arthur-Ficial/bgbgone-app",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-22T14:39:56Z",
+        "updated_at": "2026-06-19T03:12:25Z",
+        "pushed_at": "2026-06-08T13:42:58Z",
+        "starred_at": "2026-06-19T03:12:25Z"
+      },
+      "last_updated": "2026-06-19T04:57:21.846128+00:00"
+    },
+    "Arthur-Ficial/apfel-quick": {
+      "lists": [],
+      "metadata": {
+        "id": 1207903238,
+        "name": "apfel-quick",
+        "full_name": "Arthur-Ficial/apfel-quick",
+        "description": "Instant AI overlay for macOS. Press a key, ask anything.",
+        "url": "https://github.com/Arthur-Ficial/apfel-quick",
+        "homepage": "https://apfel-quick.franzai.com",
+        "language": "Swift",
+        "stars": 18,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-04-11T15:01:51Z",
+        "updated_at": "2026-06-19T03:11:57Z",
+        "pushed_at": "2026-06-14T20:43:16Z",
+        "starred_at": "2026-06-19T03:11:56Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.024678+00:00"
+    },
+    "Arthur-Ficial/apfel-tag": {
+      "lists": [],
+      "metadata": {
+        "id": 1256583704,
+        "name": "apfel-tag",
+        "full_name": "Arthur-Ficial/apfel-tag",
+        "description": "On-device content tagging from the command line \u2014 sister tool to apfel",
+        "url": "https://github.com/Arthur-Ficial/apfel-tag",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-01T23:13:21Z",
+        "updated_at": "2026-06-19T03:11:33Z",
+        "pushed_at": "2026-06-14T20:43:19Z",
+        "starred_at": "2026-06-19T03:11:32Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.206618+00:00"
+    },
+    "Arthur-Ficial/ohr": {
+      "lists": [],
+      "metadata": {
+        "id": 1200842682,
+        "name": "ohr",
+        "full_name": "Arthur-Ficial/ohr",
+        "description": "On-device speech-to-text CLI and OpenAI-compatible server - Apple SpeechAnalyzer from the command line",
+        "url": "https://github.com/Arthur-Ficial/ohr",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 22,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-04-03T22:23:53Z",
+        "updated_at": "2026-06-19T03:10:29Z",
+        "pushed_at": "2026-04-15T12:46:39Z",
+        "starred_at": "2026-06-19T03:10:28Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.381360+00:00"
+    },
+    "Arthur-Ficial/apfel-clip": {
+      "lists": [],
+      "metadata": {
+        "id": 1198922746,
+        "name": "apfel-clip",
+        "full_name": "Arthur-Ficial/apfel-clip",
+        "description": "AI-powered clipboard actions from the menu bar - powered by apfel",
+        "url": "https://github.com/Arthur-Ficial/apfel-clip",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 34,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-04-01T22:25:05Z",
+        "updated_at": "2026-06-19T03:10:18Z",
+        "pushed_at": "2026-06-14T20:42:52Z",
+        "starred_at": "2026-06-19T03:10:17Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.564049+00:00"
+    },
+    "Arthur-Ficial/apfel-chat": {
+      "lists": [],
+      "metadata": {
+        "id": 1202062106,
+        "name": "apfel-chat",
+        "full_name": "Arthur-Ficial/apfel-chat",
+        "description": "Super-fast, lightweight, 100% local chat client for on-device AI via apfel",
+        "url": "https://github.com/Arthur-Ficial/apfel-chat",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 44,
+        "forks": 3,
+        "open_issues": 1,
+        "created_at": "2026-04-05T14:47:14Z",
+        "updated_at": "2026-06-19T03:09:47Z",
+        "pushed_at": "2026-06-14T20:42:42Z",
+        "starred_at": "2026-06-19T03:09:47Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.751123+00:00"
+    },
+    "Arthur-Ficial/apfel-gui": {
+      "lists": [],
+      "metadata": {
+        "id": 1198904294,
+        "name": "apfel-gui",
+        "full_name": "Arthur-Ficial/apfel-gui",
+        "description": "Native macOS debug GUI for apfel \u2014 Apple Intelligence from the command line",
+        "url": "https://github.com/Arthur-Ficial/apfel-gui",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 161,
+        "forks": 13,
+        "open_issues": 0,
+        "created_at": "2026-04-01T21:51:14Z",
+        "updated_at": "2026-06-19T03:09:32Z",
+        "pushed_at": "2026-06-14T20:42:59Z",
+        "starred_at": "2026-06-19T03:09:32Z"
+      },
+      "last_updated": "2026-06-19T04:57:22.958843+00:00"
+    },
+    "Arthur-Ficial/auge": {
+      "lists": [],
+      "metadata": {
+        "id": 1200842736,
+        "name": "auge",
+        "full_name": "Arthur-Ficial/auge",
+        "description": "On-device vision CLI - Apple Vision framework OCR, image classification, and object detection from the command line",
+        "url": "https://github.com/Arthur-Ficial/auge",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 197,
+        "forks": 10,
+        "open_issues": 1,
+        "created_at": "2026-04-03T22:23:59Z",
+        "updated_at": "2026-06-19T03:08:42Z",
+        "pushed_at": "2026-06-01T11:21:17Z",
+        "starred_at": "2026-06-19T03:08:41Z"
+      },
+      "last_updated": "2026-06-19T04:57:23.151288+00:00"
+    },
+    "ruvnet/RuVector": {
+      "lists": [],
+      "metadata": {
+        "id": 1099547803,
+        "name": "RuVector",
+        "full_name": "ruvnet/RuVector",
+        "description": "RuVector is a High Performance, Real-Time, Self-Learning Ai, Vector GNN, Memory DB built in Rust.",
+        "url": "https://github.com/ruvnet/RuVector",
+        "homepage": "https://Cognitum.One/RuVector",
+        "language": "Rust",
+        "stars": 4261,
+        "forks": 566,
+        "open_issues": 148,
+        "created_at": "2025-11-19T06:10:23Z",
+        "updated_at": "2026-06-19T03:33:11Z",
+        "pushed_at": "2026-06-19T03:33:07Z",
+        "starred_at": "2026-06-19T00:16:23Z"
+      },
+      "last_updated": "2026-06-19T04:57:23.331230+00:00"
+    },
+    "ruvnet/open-claude-code": {
+      "lists": [],
+      "metadata": {
+        "id": 938364389,
+        "name": "open-claude-code",
+        "full_name": "ruvnet/open-claude-code",
+        "description": "Nightly Claude Code CLI Decompile \u2014 Reverse Engineered & Rebuilt",
+        "url": "https://github.com/ruvnet/open-claude-code",
+        "homepage": "https://github.com/ruvnet/RuVector",
+        "language": "JavaScript",
+        "stars": 398,
+        "forks": 153,
+        "open_issues": 7,
+        "created_at": "2025-02-24T20:52:35Z",
+        "updated_at": "2026-06-18T23:19:58Z",
+        "pushed_at": "2026-06-18T04:31:39Z",
+        "starred_at": "2026-06-18T23:19:57Z"
+      },
+      "last_updated": "2026-06-19T04:57:23.504908+00:00"
+    },
+    "harveyai/harvey-labs": {
+      "lists": [],
+      "metadata": {
+        "id": 1196468510,
+        "name": "harvey-labs",
+        "full_name": "harveyai/harvey-labs",
+        "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+        "url": "https://github.com/harveyai/harvey-labs",
+        "homepage": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+        "language": "Python",
+        "stars": 418,
+        "forks": 90,
+        "open_issues": 20,
+        "created_at": "2026-03-30T18:20:43Z",
+        "updated_at": "2026-06-19T03:41:57Z",
+        "pushed_at": "2026-06-17T22:52:45Z",
+        "starred_at": "2026-06-18T19:13:20Z"
+      },
+      "last_updated": "2026-06-19T04:57:23.688268+00:00"
+    },
+    "mihakralj/opnsense-speedtest": {
+      "lists": [],
+      "metadata": {
+        "id": 343451775,
+        "name": "opnsense-speedtest",
+        "full_name": "mihakralj/opnsense-speedtest",
+        "description": "speedtest plugin for OPNsense",
+        "url": "https://github.com/mihakralj/opnsense-speedtest",
+        "homepage": null,
+        "language": "Volt",
+        "stars": 61,
+        "forks": 16,
+        "open_issues": 15,
+        "created_at": "2021-03-01T14:49:27Z",
+        "updated_at": "2026-06-18T18:21:50Z",
+        "pushed_at": "2024-08-03T20:01:03Z",
+        "starred_at": "2026-06-18T18:21:50Z"
+      },
+      "last_updated": "2026-06-19T04:57:23.904813+00:00"
+    },
+    "showwin/speedtest-go": {
+      "lists": [],
+      "metadata": {
+        "id": 44506430,
+        "name": "speedtest-go",
+        "full_name": "showwin/speedtest-go",
+        "description": "CLI and Go API to Test Internet Speed using speedtest.net",
+        "url": "https://github.com/showwin/speedtest-go",
+        "homepage": "",
+        "language": "Go",
+        "stars": 808,
+        "forks": 140,
+        "open_issues": 26,
+        "created_at": "2015-10-19T02:22:38Z",
+        "updated_at": "2026-06-18T17:44:07Z",
+        "pushed_at": "2025-10-15T19:46:14Z",
+        "starred_at": "2026-06-18T17:44:06Z"
+      },
+      "last_updated": "2026-06-19T04:57:24.103947+00:00"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1054793726,
+        "name": "chrome-devtools-mcp",
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Chrome DevTools for coding agents",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
+        "language": "TypeScript",
+        "stars": 43960,
+        "forks": 2830,
+        "open_issues": 84,
+        "created_at": "2025-09-11T10:39:55Z",
+        "updated_at": "2026-06-19T04:08:37Z",
+        "pushed_at": "2026-06-18T17:29:28Z",
+        "starred_at": "2026-06-18T16:17:04Z"
+      },
+      "last_updated": "2026-06-19T04:57:24.309729+00:00"
+    },
+    "StarTrail-org/PixelRAG": {
+      "lists": [],
+      "metadata": {
+        "id": 1253138201,
+        "name": "PixelRAG",
+        "full_name": "StarTrail-org/PixelRAG",
+        "description": "The end of web parsing. The beginning of scalable pixel-native search.",
+        "url": "https://github.com/StarTrail-org/PixelRAG",
+        "homepage": "https://pixelrag.ai/",
+        "language": "Python",
+        "stars": 408,
+        "forks": 41,
+        "open_issues": 4,
+        "created_at": "2026-05-29T07:25:40Z",
+        "updated_at": "2026-06-19T04:25:09Z",
+        "pushed_at": "2026-06-12T17:57:13Z",
+        "starred_at": "2026-06-18T15:06:14Z"
+      },
+      "last_updated": "2026-06-19T04:57:24.546609+00:00"
+    },
+    "bootlin/yocto-kiss": {
+      "lists": [],
+      "metadata": {
+        "id": 644485886,
+        "name": "yocto-kiss",
+        "full_name": "bootlin/yocto-kiss",
+        "description": "Working example of a yocto setup without unnecessary complications",
+        "url": "https://github.com/bootlin/yocto-kiss",
+        "homepage": null,
+        "language": "BitBake",
+        "stars": 191,
+        "forks": 33,
+        "open_issues": 1,
+        "created_at": "2023-05-23T16:01:11Z",
+        "updated_at": "2026-06-18T15:42:32Z",
+        "pushed_at": "2026-06-18T15:44:41Z",
+        "starred_at": "2025-06-22T05:22:44Z"
+      },
+      "last_updated": "2026-06-19T04:57:24.943734+00:00"
     }
   },
   "last_processed_index": 0,
@@ -233983,5 +234403,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"68ebd04bc274d131c4bb38383d2109fe893fb7042057455e1a7276cdd4e2f245\""
+  "profile_etag": "W/\"6baa24bf0a8da8f87b8b2e79d7b40738acc34f5c7c82864aea5d2e5f1cf7a43b\""
 }
