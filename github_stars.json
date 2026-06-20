@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T05:05:23.252658+00:00",
+  "last_updated": "2026-06-20T04:47:01.361466+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234622,6 +234622,26 @@
         "fetched_at": "2026-06-19T05:05:21.940703+00:00",
         "status": "ok"
       }
+    },
+    "OpenCut-app/opencut-classic": {
+      "lists": [],
+      "metadata": {
+        "id": 1241019195,
+        "name": "opencut-classic",
+        "full_name": "OpenCut-app/opencut-classic",
+        "description": "Original OpenCut codebase",
+        "url": "https://github.com/OpenCut-app/opencut-classic",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 66,
+        "forks": 54,
+        "open_issues": 0,
+        "created_at": "2026-05-16T21:30:01Z",
+        "updated_at": "2026-06-20T01:03:16Z",
+        "pushed_at": "2026-05-17T16:07:21Z",
+        "starred_at": "2026-06-19T22:10:27Z"
+      },
+      "last_updated": "2026-06-20T04:47:01.361344+00:00"
     }
   },
   "last_processed_index": 0,
@@ -234631,5 +234651,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"6baa24bf0a8da8f87b8b2e79d7b40738acc34f5c7c82864aea5d2e5f1cf7a43b\""
+  "profile_etag": "W/\"38a8b34c9ce80d366462ea4375b2a9a5f6ea78e4dbae14e637afc4b8d10e8525\""
 }
