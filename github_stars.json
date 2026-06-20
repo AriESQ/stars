@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T04:47:01.361466+00:00",
+  "last_updated": "2026-06-20T04:49:53.816578+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234624,7 +234624,9 @@
       }
     },
     "OpenCut-app/opencut-classic": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1241019195,
         "name": "opencut-classic",
