@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T05:00:12.408992+00:00",
+  "last_updated": "2026-06-21T05:04:31.385989+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234674,7 +234674,15 @@
         "pushed_at": "2022-07-31T14:49:01Z",
         "starred_at": "2026-06-20T16:49:50Z"
       },
-      "last_updated": "2026-06-21T04:56:52.738487+00:00"
+      "last_updated": "2026-06-21T04:56:52.738487+00:00",
+      "readme": {
+        "path": "readmes/warthog618+modem+README.md",
+        "etag": "W/\"e593802727aec06d80422f400d02d08baf70703e\"",
+        "sha": "e593802727aec06d80422f400d02d08baf70703e",
+        "size": 4860,
+        "fetched_at": "2026-06-21T05:04:31.384769+00:00",
+        "status": "ok"
+      }
     },
     "geiger-rs/cargo-geiger": {
       "lists": [],
@@ -234694,7 +234702,15 @@
         "pushed_at": "2026-06-19T09:32:15Z",
         "starred_at": "2026-06-20T16:35:05Z"
       },
-      "last_updated": "2026-06-21T04:56:52.910960+00:00"
+      "last_updated": "2026-06-21T04:56:52.910960+00:00",
+      "readme": {
+        "path": "readmes/geiger-rs+cargo-geiger+README.md",
+        "etag": "W/\"18ddeafafd06c58af524a2d5e0740e2a946c6df4\"",
+        "sha": "18ddeafafd06c58af524a2d5e0740e2a946c6df4",
+        "size": 3266,
+        "fetched_at": "2026-06-21T05:04:31.152238+00:00",
+        "status": "ok"
+      }
     },
     "danielmiessler/LifeOS": {
       "lists": [
@@ -234716,7 +234732,15 @@
         "pushed_at": "2026-06-21T04:04:38Z",
         "starred_at": "2025-12-12T19:59:43Z"
       },
-      "last_updated": "2026-06-21T04:56:53.291032+00:00"
+      "last_updated": "2026-06-21T04:56:53.291032+00:00",
+      "readme": {
+        "path": "readmes/danielmiessler+LifeOS+README.md",
+        "etag": "W/\"a8c90d9752abeb3d6d55690b7b964c968ec3ebaa\"",
+        "sha": "a8c90d9752abeb3d6d55690b7b964c968ec3ebaa",
+        "size": 26809,
+        "fetched_at": "2026-06-21T05:04:30.964333+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
