@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T04:56:53.291120+00:00",
+  "last_updated": "2026-06-21T05:00:12.408992+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234654,7 +234654,10 @@
       }
     },
     "warthog618/modem": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "GoLang"
+      ],
       "metadata": {
         "id": 101961419,
         "name": "modem",
@@ -234694,7 +234697,9 @@
       "last_updated": "2026-06-21T04:56:52.910960+00:00"
     },
     "danielmiessler/LifeOS": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1052845083,
         "name": "LifeOS",
