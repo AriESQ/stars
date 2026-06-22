@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T05:01:09.156173+00:00",
+  "last_updated": "2026-06-22T05:05:32.103327+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234763,7 +234763,15 @@
         "pushed_at": "2026-06-14T07:43:09Z",
         "starred_at": "2026-06-22T01:35:41Z"
       },
-      "last_updated": "2026-06-22T04:57:49.917726+00:00"
+      "last_updated": "2026-06-22T04:57:49.917726+00:00",
+      "readme": {
+        "path": "readmes/garybowers+bootimus+README.md",
+        "etag": "W/\"da093c9d1899fe38b025617d4765813018ddb060\"",
+        "sha": "da093c9d1899fe38b025617d4765813018ddb060",
+        "size": 16708,
+        "fetched_at": "2026-06-22T05:05:31.863284+00:00",
+        "status": "ok"
+      }
     },
     "harbor-framework/harbor": {
       "lists": [
@@ -234785,7 +234793,15 @@
         "pushed_at": "2026-06-22T04:54:57Z",
         "starred_at": "2026-06-21T22:00:46Z"
       },
-      "last_updated": "2026-06-22T04:57:50.275928+00:00"
+      "last_updated": "2026-06-22T04:57:50.275928+00:00",
+      "readme": {
+        "path": "readmes/harbor-framework+harbor+README.md",
+        "etag": "W/\"b26bca07d9d58da638840599a7148836a750dfd7\"",
+        "sha": "b26bca07d9d58da638840599a7148836a750dfd7",
+        "size": 2603,
+        "fetched_at": "2026-06-22T05:05:32.097078+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
