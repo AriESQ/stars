@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T04:57:50.276035+00:00",
+  "last_updated": "2026-06-22T05:01:09.156173+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234743,7 +234743,10 @@
       }
     },
     "garybowers/bootimus": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "GoLang"
+      ],
       "metadata": {
         "id": 1123782326,
         "name": "bootimus",
@@ -234763,7 +234766,9 @@
       "last_updated": "2026-06-22T04:57:49.917726+00:00"
     },
     "harbor-framework/harbor": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1032170083,
         "name": "harbor",
