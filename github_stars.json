@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T04:50:09.054166+00:00",
+  "last_updated": "2026-06-23T04:50:37.119360+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234823,7 +234823,15 @@
         "pushed_at": "2026-06-22T21:19:11Z",
         "starred_at": "2026-06-22T17:47:56Z"
       },
-      "last_updated": "2026-06-23T04:43:02.837829+00:00"
+      "last_updated": "2026-06-23T04:43:02.837829+00:00",
+      "readme": {
+        "path": "readmes/riverqueue+river+README.md",
+        "etag": "W/\"75230831bf27cac000505268cd003da3b19b6661\"",
+        "sha": "75230831bf27cac000505268cd003da3b19b6661",
+        "size": 8028,
+        "fetched_at": "2026-06-23T04:50:37.116530+00:00",
+        "status": "ok"
+      }
     },
     "headroomlabs-ai/headroom": {
       "lists": [
@@ -234846,7 +234854,15 @@
         "pushed_at": "2026-06-23T04:40:57Z",
         "starred_at": "2026-06-01T15:31:29Z"
       },
-      "last_updated": "2026-06-23T04:43:03.342932+00:00"
+      "last_updated": "2026-06-23T04:43:03.342932+00:00",
+      "readme": {
+        "path": "readmes/headroomlabs-ai+headroom+README.md",
+        "etag": "W/\"2edd33b9aca4d3149424c39749d7d097d6123090\"",
+        "sha": "2edd33b9aca4d3149424c39749d7d097d6123090",
+        "size": 24486,
+        "fetched_at": "2026-06-23T04:50:36.823718+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
