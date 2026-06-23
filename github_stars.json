@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T04:43:03.343019+00:00",
+  "last_updated": "2026-06-23T04:50:09.054166+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234804,7 +234804,9 @@
       }
     },
     "riverqueue/river": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 716228772,
         "name": "river",
@@ -234824,7 +234826,10 @@
       "last_updated": "2026-06-23T04:43:02.837829+00:00"
     },
     "headroomlabs-ai/headroom": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1129940957,
         "name": "headroom",
