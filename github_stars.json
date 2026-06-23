@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T05:05:32.103327+00:00",
+  "last_updated": "2026-06-23T04:43:03.343019+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234802,6 +234802,46 @@
         "fetched_at": "2026-06-22T05:05:32.097078+00:00",
         "status": "ok"
       }
+    },
+    "riverqueue/river": {
+      "lists": [],
+      "metadata": {
+        "id": 716228772,
+        "name": "river",
+        "full_name": "riverqueue/river",
+        "description": "Fast and reliable background jobs in Go",
+        "url": "https://github.com/riverqueue/river",
+        "homepage": "https://riverqueue.com",
+        "language": "Go",
+        "stars": 5341,
+        "forks": 160,
+        "open_issues": 59,
+        "created_at": "2023-11-08T17:43:41Z",
+        "updated_at": "2026-06-23T03:49:54Z",
+        "pushed_at": "2026-06-22T21:19:11Z",
+        "starred_at": "2026-06-22T17:47:56Z"
+      },
+      "last_updated": "2026-06-23T04:43:02.837829+00:00"
+    },
+    "headroomlabs-ai/headroom": {
+      "lists": [],
+      "metadata": {
+        "id": 1129940957,
+        "name": "headroom",
+        "full_name": "headroomlabs-ai/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "url": "https://github.com/headroomlabs-ai/headroom",
+        "homepage": "https://headroomlabs-ai.github.io/headroom/",
+        "language": "Python",
+        "stars": 47293,
+        "forks": 3301,
+        "open_issues": 344,
+        "created_at": "2026-01-07T19:58:51Z",
+        "updated_at": "2026-06-23T04:42:57Z",
+        "pushed_at": "2026-06-23T04:40:57Z",
+        "starred_at": "2026-06-01T15:31:29Z"
+      },
+      "last_updated": "2026-06-23T04:43:03.342932+00:00"
     }
   },
   "last_processed_index": 0,
@@ -234811,5 +234851,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"3ac102117a6f47ea3ac8363dbfd0ad4d7b5b39124cc0ad5d2788e86ba92d5967\""
+  "profile_etag": "W/\"7a8f6b9decd3e7e892b53ac7c8ad12f084b9b2b8caa0efdff3c362c9d0ecda71\""
 }
