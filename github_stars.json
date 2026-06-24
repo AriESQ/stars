@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T04:45:40.391842+00:00",
+  "last_updated": "2026-06-24T04:53:35.638770+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234865,7 +234865,9 @@
       }
     },
     "anthropics/launch-your-agent": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1271323125,
         "name": "launch-your-agent",
@@ -234885,7 +234887,9 @@
       "last_updated": "2026-06-24T04:45:38.516287+00:00"
     },
     "ZitaoTech/Hackberry-Pi_Zero": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 793793053,
         "name": "Hackberry-Pi_Zero",
@@ -234905,7 +234909,9 @@
       "last_updated": "2026-06-24T04:45:38.720271+00:00"
     },
     "has2k1/plotnine": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 89276692,
         "name": "plotnine",
@@ -234925,7 +234931,11 @@
       "last_updated": "2026-06-24T04:45:38.952476+00:00"
     },
     "ahilss/wavacity": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 522856234,
         "name": "wavacity",
@@ -234945,7 +234955,10 @@
       "last_updated": "2026-06-24T04:45:39.172214+00:00"
     },
     "baidu/Unlimited-OCR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1273138090,
         "name": "Unlimited-OCR",
@@ -234965,7 +234978,9 @@
       "last_updated": "2026-06-24T04:45:39.413874+00:00"
     },
     "future-file-format/F3": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 993547667,
         "name": "F3",
@@ -234985,7 +235000,10 @@
       "last_updated": "2026-06-24T04:45:39.651970+00:00"
     },
     "neutral-engineering/autonice": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 1277751686,
         "name": "autonice",
@@ -235005,7 +235023,11 @@
       "last_updated": "2026-06-24T04:45:39.925811+00:00"
     },
     "iamsrikanthnani/pluely": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1039062676,
         "name": "pluely",
@@ -235025,7 +235047,11 @@
       "last_updated": "2026-06-24T04:45:40.159634+00:00"
     },
     "dograh-hq/dograh": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1053292493,
         "name": "dograh",
