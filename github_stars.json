@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T04:53:35.638770+00:00",
+  "last_updated": "2026-06-24T04:54:02.074154+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234884,7 +234884,15 @@
         "pushed_at": "2026-06-17T12:56:48Z",
         "starred_at": "2026-06-24T02:46:12Z"
       },
-      "last_updated": "2026-06-24T04:45:38.516287+00:00"
+      "last_updated": "2026-06-24T04:45:38.516287+00:00",
+      "readme": {
+        "path": "readmes/anthropics+launch-your-agent+README.md",
+        "etag": "W/\"4b60c69a7b326372114f3e7e23801c053b2e9e55\"",
+        "sha": "4b60c69a7b326372114f3e7e23801c053b2e9e55",
+        "size": 2485,
+        "fetched_at": "2026-06-24T04:54:00.094428+00:00",
+        "status": "ok"
+      }
     },
     "ZitaoTech/Hackberry-Pi_Zero": {
       "lists": [
@@ -234906,7 +234914,15 @@
         "pushed_at": "2025-02-17T12:45:28Z",
         "starred_at": "2026-06-24T00:31:26Z"
       },
-      "last_updated": "2026-06-24T04:45:38.720271+00:00"
+      "last_updated": "2026-06-24T04:45:38.720271+00:00",
+      "readme": {
+        "path": "readmes/ZitaoTech+Hackberry-Pi_Zero+README.mdx",
+        "etag": "W/\"5097dd761989369c3d7bb02f798a0ec2c750d88d\"",
+        "sha": "5097dd761989369c3d7bb02f798a0ec2c750d88d",
+        "size": 5410,
+        "fetched_at": "2026-06-24T04:53:59.435790+00:00",
+        "status": "ok"
+      }
     },
     "has2k1/plotnine": {
       "lists": [
@@ -234928,7 +234944,15 @@
         "pushed_at": "2026-06-23T09:38:32Z",
         "starred_at": "2026-06-24T00:24:43Z"
       },
-      "last_updated": "2026-06-24T04:45:38.952476+00:00"
+      "last_updated": "2026-06-24T04:45:38.952476+00:00",
+      "readme": {
+        "path": "readmes/has2k1+plotnine+README.md",
+        "etag": "W/\"e68e89aa51a4779758bc08ddca0b66e4204a02c5\"",
+        "sha": "e68e89aa51a4779758bc08ddca0b66e4204a02c5",
+        "size": 5440,
+        "fetched_at": "2026-06-24T04:54:01.285892+00:00",
+        "status": "ok"
+      }
     },
     "ahilss/wavacity": {
       "lists": [
@@ -234952,7 +234976,15 @@
         "pushed_at": "2023-07-19T10:24:31Z",
         "starred_at": "2026-06-23T22:38:26Z"
       },
-      "last_updated": "2026-06-24T04:45:39.172214+00:00"
+      "last_updated": "2026-06-24T04:45:39.172214+00:00",
+      "readme": {
+        "path": "readmes/ahilss+wavacity+README.md",
+        "etag": "W/\"54b012f6fe1f7db26c84bb89854e5da8311bdc10\"",
+        "sha": "54b012f6fe1f7db26c84bb89854e5da8311bdc10",
+        "size": 3064,
+        "fetched_at": "2026-06-24T04:53:59.807951+00:00",
+        "status": "ok"
+      }
     },
     "baidu/Unlimited-OCR": {
       "lists": [
@@ -234975,7 +235007,15 @@
         "pushed_at": "2026-06-23T06:57:29Z",
         "starred_at": "2026-06-23T21:37:52Z"
       },
-      "last_updated": "2026-06-24T04:45:39.413874+00:00"
+      "last_updated": "2026-06-24T04:45:39.413874+00:00",
+      "readme": {
+        "path": "readmes/baidu+Unlimited-OCR+README.md",
+        "etag": "W/\"da7e9d407a2f169b3f81ce5c09bacbb14aca1b35\"",
+        "sha": "da7e9d407a2f169b3f81ce5c09bacbb14aca1b35",
+        "size": 9017,
+        "fetched_at": "2026-06-24T04:54:00.388441+00:00",
+        "status": "ok"
+      }
     },
     "future-file-format/F3": {
       "lists": [
@@ -234997,7 +235037,15 @@
         "pushed_at": "2025-11-03T03:34:41Z",
         "starred_at": "2026-06-23T21:36:35Z"
       },
-      "last_updated": "2026-06-24T04:45:39.651970+00:00"
+      "last_updated": "2026-06-24T04:45:39.651970+00:00",
+      "readme": {
+        "path": "readmes/future-file-format+F3+README.md",
+        "etag": "W/\"81e015404737a57bb2896d30877acaee08ebad2d\"",
+        "sha": "81e015404737a57bb2896d30877acaee08ebad2d",
+        "size": 3925,
+        "fetched_at": "2026-06-24T04:54:00.987320+00:00",
+        "status": "ok"
+      }
     },
     "neutral-engineering/autonice": {
       "lists": [
@@ -235020,7 +235068,15 @@
         "pushed_at": "2026-06-24T04:44:38Z",
         "starred_at": "2026-06-23T21:14:27Z"
       },
-      "last_updated": "2026-06-24T04:45:39.925811+00:00"
+      "last_updated": "2026-06-24T04:45:39.925811+00:00",
+      "readme": {
+        "path": "readmes/neutral-engineering+autonice+README.md",
+        "etag": "W/\"8c6d1ae905664f72e4a2092698d24ca2841719ed\"",
+        "sha": "8c6d1ae905664f72e4a2092698d24ca2841719ed",
+        "size": 7796,
+        "fetched_at": "2026-06-24T04:54:02.070323+00:00",
+        "status": "ok"
+      }
     },
     "iamsrikanthnani/pluely": {
       "lists": [
@@ -235044,7 +235100,15 @@
         "pushed_at": "2026-01-14T01:11:34Z",
         "starred_at": "2026-06-23T20:54:31Z"
       },
-      "last_updated": "2026-06-24T04:45:40.159634+00:00"
+      "last_updated": "2026-06-24T04:45:40.159634+00:00",
+      "readme": {
+        "path": "readmes/iamsrikanthnani+pluely+README.md",
+        "etag": "W/\"b76b97da8d4d80825e91df6235fa978749cd3ea8\"",
+        "sha": "b76b97da8d4d80825e91df6235fa978749cd3ea8",
+        "size": 31635,
+        "fetched_at": "2026-06-24T04:54:01.721432+00:00",
+        "status": "ok"
+      }
     },
     "dograh-hq/dograh": {
       "lists": [
@@ -235068,7 +235132,15 @@
         "pushed_at": "2026-06-23T13:03:35Z",
         "starred_at": "2026-06-23T20:42:51Z"
       },
-      "last_updated": "2026-06-24T04:45:40.391752+00:00"
+      "last_updated": "2026-06-24T04:45:40.391752+00:00",
+      "readme": {
+        "path": "readmes/dograh-hq+dograh+README.md",
+        "etag": "W/\"549f814a3862cc2b9c6bc4f6224ac0926c407c34\"",
+        "sha": "549f814a3862cc2b9c6bc4f6224ac0926c407c34",
+        "size": 9087,
+        "fetched_at": "2026-06-24T04:54:00.692219+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
