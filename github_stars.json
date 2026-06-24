@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T04:50:37.119360+00:00",
+  "last_updated": "2026-06-24T04:45:40.391842+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -234863,6 +234863,186 @@
         "fetched_at": "2026-06-23T04:50:36.823718+00:00",
         "status": "ok"
       }
+    },
+    "anthropics/launch-your-agent": {
+      "lists": [],
+      "metadata": {
+        "id": 1271323125,
+        "name": "launch-your-agent",
+        "full_name": "anthropics/launch-your-agent",
+        "description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+        "url": "https://github.com/anthropics/launch-your-agent",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 466,
+        "forks": 95,
+        "open_issues": 0,
+        "created_at": "2026-06-16T14:49:50Z",
+        "updated_at": "2026-06-24T04:18:59Z",
+        "pushed_at": "2026-06-17T12:56:48Z",
+        "starred_at": "2026-06-24T02:46:12Z"
+      },
+      "last_updated": "2026-06-24T04:45:38.516287+00:00"
+    },
+    "ZitaoTech/Hackberry-Pi_Zero": {
+      "lists": [],
+      "metadata": {
+        "id": 793793053,
+        "name": "Hackberry-Pi_Zero",
+        "full_name": "ZitaoTech/Hackberry-Pi_Zero",
+        "description": "A handheld Linux terminal using Raspberry pi Zero 2W as Core with 4\" 720X720 TFT display",
+        "url": "https://github.com/ZitaoTech/Hackberry-Pi_Zero",
+        "homepage": "",
+        "language": null,
+        "stars": 2676,
+        "forks": 155,
+        "open_issues": 24,
+        "created_at": "2024-04-29T21:57:23Z",
+        "updated_at": "2026-06-24T00:31:26Z",
+        "pushed_at": "2025-02-17T12:45:28Z",
+        "starred_at": "2026-06-24T00:31:26Z"
+      },
+      "last_updated": "2026-06-24T04:45:38.720271+00:00"
+    },
+    "has2k1/plotnine": {
+      "lists": [],
+      "metadata": {
+        "id": 89276692,
+        "name": "plotnine",
+        "full_name": "has2k1/plotnine",
+        "description": "A Grammar of Graphics for Python",
+        "url": "https://github.com/has2k1/plotnine",
+        "homepage": "https://plotnine.org",
+        "language": "Python",
+        "stars": 4700,
+        "forks": 249,
+        "open_issues": 87,
+        "created_at": "2017-04-24T19:00:44Z",
+        "updated_at": "2026-06-24T03:34:56Z",
+        "pushed_at": "2026-06-23T09:38:32Z",
+        "starred_at": "2026-06-24T00:24:43Z"
+      },
+      "last_updated": "2026-06-24T04:45:38.952476+00:00"
+    },
+    "ahilss/wavacity": {
+      "lists": [],
+      "metadata": {
+        "id": 522856234,
+        "name": "wavacity",
+        "full_name": "ahilss/wavacity",
+        "description": null,
+        "url": "https://github.com/ahilss/wavacity",
+        "homepage": null,
+        "language": "C",
+        "stars": 477,
+        "forks": 18,
+        "open_issues": 14,
+        "created_at": "2022-08-09T08:00:08Z",
+        "updated_at": "2026-06-23T22:38:27Z",
+        "pushed_at": "2023-07-19T10:24:31Z",
+        "starred_at": "2026-06-23T22:38:26Z"
+      },
+      "last_updated": "2026-06-24T04:45:39.172214+00:00"
+    },
+    "baidu/Unlimited-OCR": {
+      "lists": [],
+      "metadata": {
+        "id": 1273138090,
+        "name": "Unlimited-OCR",
+        "full_name": "baidu/Unlimited-OCR",
+        "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+        "url": "https://github.com/baidu/Unlimited-OCR",
+        "homepage": null,
+        "language": "Python",
+        "stars": 4189,
+        "forks": 293,
+        "open_issues": 9,
+        "created_at": "2026-06-18T08:40:15Z",
+        "updated_at": "2026-06-24T04:44:14Z",
+        "pushed_at": "2026-06-23T06:57:29Z",
+        "starred_at": "2026-06-23T21:37:52Z"
+      },
+      "last_updated": "2026-06-24T04:45:39.413874+00:00"
+    },
+    "future-file-format/F3": {
+      "lists": [],
+      "metadata": {
+        "id": 993547667,
+        "name": "F3",
+        "full_name": "future-file-format/F3",
+        "description": "[SIGMOD 2026] F3: The Open-Source Data File Format for the Future",
+        "url": "https://github.com/future-file-format/F3",
+        "homepage": "https://dl.acm.org/doi/10.1145/3749163",
+        "language": "Rust",
+        "stars": 652,
+        "forks": 24,
+        "open_issues": 1,
+        "created_at": "2025-05-31T01:56:59Z",
+        "updated_at": "2026-06-24T04:10:46Z",
+        "pushed_at": "2025-11-03T03:34:41Z",
+        "starred_at": "2026-06-23T21:36:35Z"
+      },
+      "last_updated": "2026-06-24T04:45:39.651970+00:00"
+    },
+    "neutral-engineering/autonice": {
+      "lists": [],
+      "metadata": {
+        "id": 1277751686,
+        "name": "autonice",
+        "full_name": "neutral-engineering/autonice",
+        "description": "nice, automatically",
+        "url": "https://github.com/neutral-engineering/autonice",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-23T06:49:50Z",
+        "updated_at": "2026-06-24T04:44:41Z",
+        "pushed_at": "2026-06-24T04:44:38Z",
+        "starred_at": "2026-06-23T21:14:27Z"
+      },
+      "last_updated": "2026-06-24T04:45:39.925811+00:00"
+    },
+    "iamsrikanthnani/pluely": {
+      "lists": [],
+      "metadata": {
+        "id": 1039062676,
+        "name": "pluely",
+        "full_name": "iamsrikanthnani/pluely",
+        "description": "The Open Source Alternative to Cluely - A lightning-fast, privacy-first AI assistant that works seamlessly during meetings, interviews, and conversations without anyone knowing. Built with Tauri for native performance, just 10MB. Completely undetectable in video calls, screen shares, and recordings.",
+        "url": "https://github.com/iamsrikanthnani/pluely",
+        "homepage": "https://pluely.com",
+        "language": "TypeScript",
+        "stars": 2174,
+        "forks": 455,
+        "open_issues": 65,
+        "created_at": "2025-08-16T11:57:54Z",
+        "updated_at": "2026-06-23T20:54:32Z",
+        "pushed_at": "2026-01-14T01:11:34Z",
+        "starred_at": "2026-06-23T20:54:31Z"
+      },
+      "last_updated": "2026-06-24T04:45:40.159634+00:00"
+    },
+    "dograh-hq/dograh": {
+      "lists": [],
+      "metadata": {
+        "id": 1053292493,
+        "name": "dograh",
+        "full_name": "dograh-hq/dograh",
+        "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
+        "url": "https://github.com/dograh-hq/dograh",
+        "homepage": "https://app.dograh.com",
+        "language": "Python",
+        "stars": 4606,
+        "forks": 1004,
+        "open_issues": 24,
+        "created_at": "2025-09-09T08:48:29Z",
+        "updated_at": "2026-06-24T03:05:57Z",
+        "pushed_at": "2026-06-23T13:03:35Z",
+        "starred_at": "2026-06-23T20:42:51Z"
+      },
+      "last_updated": "2026-06-24T04:45:40.391752+00:00"
     }
   },
   "last_processed_index": 0,
@@ -234872,5 +235052,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7a8f6b9decd3e7e892b53ac7c8ad12f084b9b2b8caa0efdff3c362c9d0ecda71\""
+  "profile_etag": "W/\"c0cbd43c62727094cfe3ee613284be48b903bc4f342b4b132291780fed9089d4\""
 }
