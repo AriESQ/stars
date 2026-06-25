@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T04:54:02.074154+00:00",
+  "last_updated": "2026-06-25T04:44:47.950810+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235141,6 +235141,266 @@
         "fetched_at": "2026-06-24T04:54:00.692219+00:00",
         "status": "ok"
       }
+    },
+    "TencentARC/Pixal3D": {
+      "lists": [],
+      "metadata": {
+        "id": 1234746825,
+        "name": "Pixal3D",
+        "full_name": "TencentARC/Pixal3D",
+        "description": "[SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images",
+        "url": "https://github.com/TencentARC/Pixal3D",
+        "homepage": "https://ldyang694.github.io/projects/pixal3d/",
+        "language": "Python",
+        "stars": 1820,
+        "forks": 168,
+        "open_issues": 22,
+        "created_at": "2026-05-10T15:35:28Z",
+        "updated_at": "2026-06-25T04:11:08Z",
+        "pushed_at": "2026-06-23T10:10:27Z",
+        "starred_at": "2026-06-25T04:11:08Z"
+      },
+      "last_updated": "2026-06-25T04:44:43.520881+00:00"
+    },
+    "inaxeon/hacktv-testsignals": {
+      "lists": [],
+      "metadata": {
+        "id": 924485098,
+        "name": "hacktv-testsignals",
+        "full_name": "inaxeon/hacktv-testsignals",
+        "description": null,
+        "url": "https://github.com/inaxeon/hacktv-testsignals",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-01-30T04:58:48Z",
+        "updated_at": "2026-06-24T21:34:19Z",
+        "pushed_at": "2025-01-30T06:38:35Z",
+        "starred_at": "2026-06-24T21:34:19Z"
+      },
+      "last_updated": "2026-06-25T04:44:43.871517+00:00"
+    },
+    "inaxeon/hacktv": {
+      "lists": [],
+      "metadata": {
+        "id": 918501339,
+        "name": "hacktv",
+        "full_name": "inaxeon/hacktv",
+        "description": "Analogue TV transmitter for the HackRF",
+        "url": "https://github.com/inaxeon/hacktv",
+        "homepage": null,
+        "language": "C",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-01-18T05:00:04Z",
+        "updated_at": "2026-06-24T21:34:06Z",
+        "pushed_at": "2026-02-23T14:42:50Z",
+        "starred_at": "2026-06-24T21:34:05Z"
+      },
+      "last_updated": "2026-06-25T04:44:44.274528+00:00"
+    },
+    "inaxeon/TvEquipmentPreservation": {
+      "lists": [],
+      "metadata": {
+        "id": 771349554,
+        "name": "TvEquipmentPreservation",
+        "full_name": "inaxeon/TvEquipmentPreservation",
+        "description": null,
+        "url": "https://github.com/inaxeon/TvEquipmentPreservation",
+        "homepage": null,
+        "language": "C++",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-03-13T06:15:29Z",
+        "updated_at": "2026-06-24T21:33:33Z",
+        "pushed_at": "2026-04-13T13:43:20Z",
+        "starred_at": "2026-06-24T21:33:32Z"
+      },
+      "last_updated": "2026-06-25T04:44:44.619725+00:00"
+    },
+    "inaxeon/PTV_Preservation": {
+      "lists": [],
+      "metadata": {
+        "id": 601926279,
+        "name": "PTV_Preservation",
+        "full_name": "inaxeon/PTV_Preservation",
+        "description": null,
+        "url": "https://github.com/inaxeon/PTV_Preservation",
+        "homepage": null,
+        "language": "C",
+        "stars": 15,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-02-15T05:49:56Z",
+        "updated_at": "2026-06-24T21:33:11Z",
+        "pushed_at": "2026-06-19T10:58:18Z",
+        "starred_at": "2026-06-24T21:33:11Z"
+      },
+      "last_updated": "2026-06-25T04:44:44.930400+00:00"
+    },
+    "windmill-labs/windmill": {
+      "lists": [],
+      "metadata": {
+        "id": 488804911,
+        "name": "windmill",
+        "full_name": "windmill-labs/windmill",
+        "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+        "url": "https://github.com/windmill-labs/windmill",
+        "homepage": "https://windmill.dev",
+        "language": "Rust",
+        "stars": 16917,
+        "forks": 1008,
+        "open_issues": 767,
+        "created_at": "2022-05-05T02:21:17Z",
+        "updated_at": "2026-06-25T04:13:31Z",
+        "pushed_at": "2026-06-25T01:25:28Z",
+        "starred_at": "2026-06-24T17:19:30Z"
+      },
+      "last_updated": "2026-06-25T04:44:45.290493+00:00"
+    },
+    "appsmithorg/appsmith": {
+      "lists": [],
+      "metadata": {
+        "id": 275993885,
+        "name": "appsmith",
+        "full_name": "appsmithorg/appsmith",
+        "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+        "url": "https://github.com/appsmithorg/appsmith",
+        "homepage": "https://www.appsmith.com",
+        "language": "TypeScript",
+        "stars": 40151,
+        "forks": 4619,
+        "open_issues": 4461,
+        "created_at": "2020-06-30T04:07:36Z",
+        "updated_at": "2026-06-24T22:04:35Z",
+        "pushed_at": "2026-06-24T22:33:50Z",
+        "starred_at": "2026-06-24T16:28:49Z"
+      },
+      "last_updated": "2026-06-25T04:44:45.701806+00:00"
+    },
+    "cyberboy666/tv_wall_mapper": {
+      "lists": [],
+      "metadata": {
+        "id": 802496993,
+        "name": "tv_wall_mapper",
+        "full_name": "cyberboy666/tv_wall_mapper",
+        "description": "an open-source cross-platform application for creating synchronized tv wall installation",
+        "url": "https://github.com/cyberboy666/tv_wall_mapper",
+        "homepage": "",
+        "language": "C++",
+        "stars": 34,
+        "forks": 3,
+        "open_issues": 1,
+        "created_at": "2024-05-18T13:11:29Z",
+        "updated_at": "2026-06-24T15:37:26Z",
+        "pushed_at": "2024-09-03T04:02:45Z",
+        "starred_at": "2026-06-24T15:37:26Z"
+      },
+      "last_updated": "2026-06-25T04:44:46.048808+00:00"
+    },
+    "olegchomp/StreamDiffusion-NDI": {
+      "lists": [],
+      "metadata": {
+        "id": 736525553,
+        "name": "StreamDiffusion-NDI",
+        "full_name": "olegchomp/StreamDiffusion-NDI",
+        "description": null,
+        "url": "https://github.com/olegchomp/StreamDiffusion-NDI",
+        "homepage": null,
+        "language": "Python",
+        "stars": 84,
+        "forks": 7,
+        "open_issues": 5,
+        "created_at": "2023-12-28T06:26:11Z",
+        "updated_at": "2026-06-24T15:03:30Z",
+        "pushed_at": "2024-01-06T22:56:56Z",
+        "starred_at": "2026-06-24T15:03:29Z"
+      },
+      "last_updated": "2026-06-25T04:44:46.403382+00:00"
+    },
+    "olegchomp/TDDiffusionAPI": {
+      "lists": [],
+      "metadata": {
+        "id": 580967734,
+        "name": "TDDiffusionAPI",
+        "full_name": "olegchomp/TDDiffusionAPI",
+        "description": "TouchDesigner interface for AUTOMATIC1111",
+        "url": "https://github.com/olegchomp/TDDiffusionAPI",
+        "homepage": null,
+        "language": null,
+        "stars": 181,
+        "forks": 8,
+        "open_issues": 4,
+        "created_at": "2022-12-21T23:11:28Z",
+        "updated_at": "2026-06-24T15:02:25Z",
+        "pushed_at": "2023-10-17T01:24:17Z",
+        "starred_at": "2026-06-24T15:02:25Z"
+      },
+      "last_updated": "2026-06-25T04:44:46.757721+00:00"
+    },
+    "olegchomp/TDComfyUI": {
+      "lists": [],
+      "metadata": {
+        "id": 719868248,
+        "name": "TDComfyUI",
+        "full_name": "olegchomp/TDComfyUI",
+        "description": "TouchDesigner interface for ComfyUI",
+        "url": "https://github.com/olegchomp/TDComfyUI",
+        "homepage": null,
+        "language": null,
+        "stars": 262,
+        "forks": 12,
+        "open_issues": 5,
+        "created_at": "2023-11-17T04:15:50Z",
+        "updated_at": "2026-06-24T14:51:12Z",
+        "pushed_at": "2025-01-09T23:00:19Z",
+        "starred_at": "2026-06-24T14:51:11Z"
+      },
+      "last_updated": "2026-06-25T04:44:47.107465+00:00"
+    },
+    "bikini/exploitarium": {
+      "lists": [],
+      "metadata": {
+        "id": 1277675818,
+        "name": "exploitarium",
+        "full_name": "bikini/exploitarium",
+        "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz",
+        "url": "https://github.com/bikini/exploitarium",
+        "homepage": "",
+        "language": "Python",
+        "stars": 43,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2026-06-23T05:14:11Z",
+        "updated_at": "2026-06-25T03:56:43Z",
+        "pushed_at": "2026-06-24T10:10:40Z",
+        "starred_at": "2026-06-24T14:14:11Z"
+      },
+      "last_updated": "2026-06-25T04:44:47.438165+00:00"
+    },
+    "xberg-io/kreuzberg": {
+      "lists": [],
+      "metadata": {
+        "id": 925434317,
+        "name": "kreuzberg",
+        "full_name": "xberg-io/kreuzberg",
+        "description": "A polyglot document intelligence framework with a Rust core. Extract text, metadata, images, and structured information from PDFs, Office documents, images, and 97+ formats. Available for Rust, Python, Ruby, Java, Go, PHP, Elixir, C#, R, C, TypeScript (Node/Bun/Wasm/Deno)- or use via CLI, REST API, or MCP server.",
+        "url": "https://github.com/xberg-io/kreuzberg",
+        "homepage": "https://kreuzberg.dev/",
+        "language": "Rust",
+        "stars": 8546,
+        "forks": 503,
+        "open_issues": 13,
+        "created_at": "2025-01-31T21:50:02Z",
+        "updated_at": "2026-06-25T04:24:30Z",
+        "pushed_at": "2026-06-24T23:37:45Z",
+        "starred_at": "2025-02-15T15:33:10Z"
+      },
+      "last_updated": "2026-06-25T04:44:47.950747+00:00"
     }
   },
   "last_processed_index": 0,
@@ -235150,5 +235410,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"c0cbd43c62727094cfe3ee613284be48b903bc4f342b4b132291780fed9089d4\""
+  "profile_etag": "W/\"e72bd76111be0b501e9b1d49dc7fdb5f483e2ccea4026897262d862115f7a662\""
 }
