@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T04:44:47.950810+00:00",
+  "last_updated": "2026-06-25T04:51:54.479341+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -81880,7 +81880,8 @@
     },
     "olegchomp/TouchDiffusion": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 807901143,
@@ -81916,7 +81917,8 @@
     "olegchomp/TDDepthAnything": {
       "lists": [
         "Music and Video",
-        "Python"
+        "Python",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 761419015,
@@ -162845,7 +162847,9 @@
     },
     "ToolJet/ToolJet": {
       "lists": [
-        "Python"
+        "Python",
+        "Devops",
+        "JavaScript"
       ],
       "metadata": {
         "id": 352933140,
@@ -235143,7 +235147,9 @@
       }
     },
     "TencentARC/Pixal3D": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1234746825,
         "name": "Pixal3D",
@@ -235163,7 +235169,10 @@
       "last_updated": "2026-06-25T04:44:43.520881+00:00"
     },
     "inaxeon/hacktv-testsignals": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 924485098,
         "name": "hacktv-testsignals",
@@ -235183,7 +235192,10 @@
       "last_updated": "2026-06-25T04:44:43.871517+00:00"
     },
     "inaxeon/hacktv": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 918501339,
         "name": "hacktv",
@@ -235203,7 +235215,10 @@
       "last_updated": "2026-06-25T04:44:44.274528+00:00"
     },
     "inaxeon/TvEquipmentPreservation": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 771349554,
         "name": "TvEquipmentPreservation",
@@ -235223,7 +235238,9 @@
       "last_updated": "2026-06-25T04:44:44.619725+00:00"
     },
     "inaxeon/PTV_Preservation": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 601926279,
         "name": "PTV_Preservation",
@@ -235243,7 +235260,10 @@
       "last_updated": "2026-06-25T04:44:44.930400+00:00"
     },
     "windmill-labs/windmill": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Rust"
+      ],
       "metadata": {
         "id": 488804911,
         "name": "windmill",
@@ -235263,7 +235283,10 @@
       "last_updated": "2026-06-25T04:44:45.290493+00:00"
     },
     "appsmithorg/appsmith": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 275993885,
         "name": "appsmith",
@@ -235283,7 +235306,9 @@
       "last_updated": "2026-06-25T04:44:45.701806+00:00"
     },
     "cyberboy666/tv_wall_mapper": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 802496993,
         "name": "tv_wall_mapper",
@@ -235303,7 +235328,9 @@
       "last_updated": "2026-06-25T04:44:46.048808+00:00"
     },
     "olegchomp/StreamDiffusion-NDI": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 736525553,
         "name": "StreamDiffusion-NDI",
@@ -235323,7 +235350,10 @@
       "last_updated": "2026-06-25T04:44:46.403382+00:00"
     },
     "olegchomp/TDDiffusionAPI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 580967734,
         "name": "TDDiffusionAPI",
@@ -235363,7 +235393,9 @@
       "last_updated": "2026-06-25T04:44:47.107465+00:00"
     },
     "bikini/exploitarium": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1277675818,
         "name": "exploitarium",
@@ -235383,7 +235415,10 @@
       "last_updated": "2026-06-25T04:44:47.438165+00:00"
     },
     "xberg-io/kreuzberg": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 925434317,
         "name": "kreuzberg",
