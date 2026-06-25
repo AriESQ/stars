@@ -1,0 +1,48 @@
+
+ -[ HackTV - Analogue TV transmitter for the HackRF ]-
+
+This repository contains a fork of the hacktv project which has been modified to generate Philips test signals.
+
+GETTING IT:
+
+To perform the below an environment capable of building the primary 'fsphil' repository is required: https://github.com/fsphil/hacktv
+
+$ git clone https://github.com/inaxeon/hacktv
+$ cd hacktv
+$ git submodule init
+$ git submodule update
+$ cd src
+$ make
+$ cd ..
+
+RUNNING IT:
+
+(from the hacktv root dir):
+
+$ cd src
+
+For HackDAC owners (baseband output):
+$ ./hacktv -m pal --pixelrate 13500000 --samplerate 13500000 --testsignal philips4x3 --testsignals-path ../testsignals/ --text1 "HackTV" --text2 "Test" --clockmode datetime test
+
+For RF output (PAL-I UHF Channel 21):
+$ ./hacktv -m i --freq 471250000 -g 47 --pixelrate 13500000 --testsignal philips4x3 --testsignals-path ../testsignals/ --text1 "HackTV" --text2 "Test" --clockmode datetime test
+
+Test signals available (--testsignal and -m parameter combinations):
+
+philips4x3: pal/ntsc/secam
+philips16x9: pal/ntsc
+fubk4x3: pal
+fubk16x9: pal
+philipsih: pal
+cbar: pal/ntsc
+sinxx: pal
+pulseandbar: pal
+
+Clock mode parameters (--clockmode):
+off
+time
+datetime
+
+TESTING THEM ALL:
+$ cd ../testsignals
+$ ./testsignal_sequence.sh
