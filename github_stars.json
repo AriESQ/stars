@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T04:52:27.243485+00:00",
+  "last_updated": "2026-06-26T04:47:27.759031+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235532,6 +235532,186 @@
         "fetched_at": "2026-06-25T04:52:27.242893+00:00",
         "status": "ok"
       }
+    },
+    "RibShark/SafeDiscShim": {
+      "lists": [],
+      "metadata": {
+        "id": 738594945,
+        "name": "SafeDiscShim",
+        "full_name": "RibShark/SafeDiscShim",
+        "description": "SafeDiscShim is a compatibility tool that allows for SafeDisc protected games which utilize the insecure Macrovision Security Driver (\"secdrv.sys\") to run on modern versions of Windows .",
+        "url": "https://github.com/RibShark/SafeDiscShim",
+        "homepage": "",
+        "language": "C++",
+        "stars": 547,
+        "forks": 19,
+        "open_issues": 35,
+        "created_at": "2024-01-03T15:36:17Z",
+        "updated_at": "2026-06-26T01:56:17Z",
+        "pushed_at": "2025-09-29T06:06:31Z",
+        "starred_at": "2026-06-26T01:56:16Z"
+      },
+      "last_updated": "2026-06-26T04:47:24.458047+00:00"
+    },
+    "GregorR/rnnoise-models": {
+      "lists": [],
+      "metadata": {
+        "id": 146694261,
+        "name": "rnnoise-models",
+        "full_name": "GregorR/rnnoise-models",
+        "description": "Trained neural networks and requisite information and data for rnnoise-nu",
+        "url": "https://github.com/GregorR/rnnoise-models",
+        "homepage": null,
+        "language": "C",
+        "stars": 372,
+        "forks": 57,
+        "open_issues": 8,
+        "created_at": "2018-08-30T04:09:07Z",
+        "updated_at": "2026-06-25T22:46:31Z",
+        "pushed_at": "2018-09-02T16:01:12Z",
+        "starred_at": "2026-06-25T22:46:30Z"
+      },
+      "last_updated": "2026-06-26T04:47:24.818913+00:00"
+    },
+    "ruvnet/ruflo": {
+      "lists": [],
+      "metadata": {
+        "id": 995029641,
+        "name": "ruflo",
+        "full_name": "ruvnet/ruflo",
+        "description": "\ud83c\udf0a The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+        "url": "https://github.com/ruvnet/ruflo",
+        "homepage": "https://Cognitum.One",
+        "language": "TypeScript",
+        "stars": 61490,
+        "forks": 7153,
+        "open_issues": 681,
+        "created_at": "2025-06-02T21:24:20Z",
+        "updated_at": "2026-06-26T04:43:30Z",
+        "pushed_at": "2026-06-25T23:59:24Z",
+        "starred_at": "2026-06-25T22:05:10Z"
+      },
+      "last_updated": "2026-06-26T04:47:25.208623+00:00"
+    },
+    "Rompass/openc6-bios": {
+      "lists": [],
+      "metadata": {
+        "id": 1270226275,
+        "name": "openc6-bios",
+        "full_name": "Rompass/openc6-bios",
+        "description": "An open-source RISC-V firmware platform for ESP32-C6(8MB Flash). Implements a BIOS/Payload architecture with a custom system call interface (ABI), independent LP-Core coprocessor management, and an anti-brick A/B OTA system.",
+        "url": "https://github.com/Rompass/openc6-bios",
+        "homepage": "",
+        "language": "C",
+        "stars": 180,
+        "forks": 12,
+        "open_issues": 0,
+        "created_at": "2026-06-15T14:02:56Z",
+        "updated_at": "2026-06-26T04:06:26Z",
+        "pushed_at": "2026-06-25T22:25:56Z",
+        "starred_at": "2026-06-25T17:57:43Z"
+      },
+      "last_updated": "2026-06-26T04:47:25.541896+00:00"
+    },
+    "ARMmbed/DAPLink": {
+      "lists": [],
+      "metadata": {
+        "id": 24571059,
+        "name": "DAPLink",
+        "full_name": "ARMmbed/DAPLink",
+        "description": null,
+        "url": "https://github.com/ARMmbed/DAPLink",
+        "homepage": "https://daplink.io",
+        "language": "C",
+        "stars": 2748,
+        "forks": 1090,
+        "open_issues": 140,
+        "created_at": "2014-09-28T21:38:24Z",
+        "updated_at": "2026-06-26T01:44:31Z",
+        "pushed_at": "2025-02-27T05:06:55Z",
+        "starred_at": "2026-06-25T17:33:19Z"
+      },
+      "last_updated": "2026-06-26T04:47:25.947481+00:00"
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "lists": [],
+      "metadata": {
+        "id": 1180745961,
+        "name": "ai-website-cloner-template",
+        "full_name": "JCodesMore/ai-website-cloner-template",
+        "description": "Clone any website with one command using AI coding agents",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+        "homepage": "https://dsc.gg/jcodesmore",
+        "language": "TypeScript",
+        "stars": 20661,
+        "forks": 3032,
+        "open_issues": 17,
+        "created_at": "2026-03-13T11:14:39Z",
+        "updated_at": "2026-06-26T04:47:25Z",
+        "pushed_at": "2026-06-01T04:09:21Z",
+        "starred_at": "2026-06-25T17:29:27Z"
+      },
+      "last_updated": "2026-06-26T04:47:26.283329+00:00"
+    },
+    "HoangYell/markdy-com": {
+      "lists": [],
+      "metadata": {
+        "id": 1201716840,
+        "name": "markdy-com",
+        "full_name": "HoangYell/markdy-com",
+        "description": "Animation DSL engine, like Mermaid but built for motion. Write MarkdyScript and generate animated scenes directly in the browser.",
+        "url": "https://github.com/HoangYell/markdy-com",
+        "homepage": "http://markdy.com",
+        "language": "TypeScript",
+        "stars": 51,
+        "forks": 2,
+        "open_issues": 10,
+        "created_at": "2026-04-05T03:58:17Z",
+        "updated_at": "2026-06-26T02:04:19Z",
+        "pushed_at": "2026-06-02T23:31:57Z",
+        "starred_at": "2026-06-25T13:28:16Z"
+      },
+      "last_updated": "2026-06-26T04:47:26.621160+00:00"
+    },
+    "nolabs-ai/nono": {
+      "lists": [],
+      "metadata": {
+        "id": 1146550474,
+        "name": "nono",
+        "full_name": "nolabs-ai/nono",
+        "description": "Sandbox any AI agent in seconds - zero setup, zero latency.",
+        "url": "https://github.com/nolabs-ai/nono",
+        "homepage": "https://nono.sh",
+        "language": "Rust",
+        "stars": 2813,
+        "forks": 196,
+        "open_issues": 146,
+        "created_at": "2026-01-31T09:25:45Z",
+        "updated_at": "2026-06-26T04:20:41Z",
+        "pushed_at": "2026-06-25T23:43:08Z",
+        "starred_at": "2026-04-24T00:02:18Z"
+      },
+      "last_updated": "2026-06-26T04:47:27.185546+00:00"
+    },
+    "xberg-io/xberg": {
+      "lists": [],
+      "metadata": {
+        "id": 925434317,
+        "name": "xberg",
+        "full_name": "xberg-io/xberg",
+        "description": "A polyglot document intelligence framework with a Rust core. Extract text, metadata, images, and structured information from PDFs, Office documents, images, and 97+ formats. Available for Rust, Python, Ruby, Java, Go, PHP, Elixir, C#, R, C, TypeScript (Node/Bun/Wasm/Deno)- or use via CLI, REST API, or MCP server.",
+        "url": "https://github.com/xberg-io/xberg",
+        "homepage": "https://docs.xberg.io",
+        "language": "Rust",
+        "stars": 8553,
+        "forks": 505,
+        "open_issues": 16,
+        "created_at": "2025-01-31T21:50:02Z",
+        "updated_at": "2026-06-26T03:44:34Z",
+        "pushed_at": "2026-06-26T01:37:47Z",
+        "starred_at": "2025-02-15T15:33:10Z"
+      },
+      "last_updated": "2026-06-26T04:47:27.758978+00:00"
     }
   },
   "last_processed_index": 0,
@@ -235541,5 +235721,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e72bd76111be0b501e9b1d49dc7fdb5f483e2ccea4026897262d862115f7a662\""
+  "profile_etag": "W/\"37fc9b6ab657d36cc2bf8e12553381b17beed48d0763857fb769ea72f9f010a6\""
 }
