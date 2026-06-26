@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:55:01.043132+00:00",
+  "last_updated": "2026-06-26T04:55:31.253200+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235553,7 +235553,15 @@
         "pushed_at": "2025-09-29T06:06:31Z",
         "starred_at": "2026-06-26T01:56:16Z"
       },
-      "last_updated": "2026-06-26T04:47:24.458047+00:00"
+      "last_updated": "2026-06-26T04:47:24.458047+00:00",
+      "readme": {
+        "path": "readmes/RibShark+SafeDiscShim+README.md",
+        "etag": "W/\"006a5a7d7907029b219d67056cf24d6497edf1e5\"",
+        "sha": "006a5a7d7907029b219d67056cf24d6497edf1e5",
+        "size": 1677,
+        "fetched_at": "2026-06-26T04:55:30.569136+00:00",
+        "status": "ok"
+      }
     },
     "GregorR/rnnoise-models": {
       "lists": [
@@ -235576,7 +235584,15 @@
         "pushed_at": "2018-09-02T16:01:12Z",
         "starred_at": "2026-06-25T22:46:30Z"
       },
-      "last_updated": "2026-06-26T04:47:24.818913+00:00"
+      "last_updated": "2026-06-26T04:47:24.818913+00:00",
+      "readme": {
+        "path": "readmes/GregorR+rnnoise-models+README.md",
+        "etag": "W/\"4f0cd9e76939393dca67f3ef4b7c8312ffed37fe\"",
+        "sha": "4f0cd9e76939393dca67f3ef4b7c8312ffed37fe",
+        "size": 914,
+        "fetched_at": "2026-06-26T04:55:29.964662+00:00",
+        "status": "ok"
+      }
     },
     "ruvnet/ruflo": {
       "lists": [
@@ -235599,7 +235615,15 @@
         "pushed_at": "2026-06-25T23:59:24Z",
         "starred_at": "2026-06-25T22:05:10Z"
       },
-      "last_updated": "2026-06-26T04:47:25.208623+00:00"
+      "last_updated": "2026-06-26T04:47:25.208623+00:00",
+      "readme": {
+        "path": "readmes/ruvnet+ruflo+README.md",
+        "etag": "W/\"bddc8522a587a535976ec2a719becf56944c1971\"",
+        "sha": "bddc8522a587a535976ec2a719becf56944c1971",
+        "size": 29891,
+        "fetched_at": "2026-06-26T04:55:31.044240+00:00",
+        "status": "ok"
+      }
     },
     "Rompass/openc6-bios": {
       "lists": [
@@ -235621,7 +235645,15 @@
         "pushed_at": "2026-06-25T22:25:56Z",
         "starred_at": "2026-06-25T17:57:43Z"
       },
-      "last_updated": "2026-06-26T04:47:25.541896+00:00"
+      "last_updated": "2026-06-26T04:47:25.541896+00:00",
+      "readme": {
+        "path": "readmes/Rompass+openc6-bios+README.md",
+        "etag": "W/\"d0a765dde3063559fcd5a6777a67fc59b641c753\"",
+        "sha": "d0a765dde3063559fcd5a6777a67fc59b641c753",
+        "size": 9702,
+        "fetched_at": "2026-06-26T04:55:30.734024+00:00",
+        "status": "ok"
+      }
     },
     "ARMmbed/DAPLink": {
       "lists": [
@@ -235643,7 +235675,15 @@
         "pushed_at": "2025-02-27T05:06:55Z",
         "starred_at": "2026-06-25T17:33:19Z"
       },
-      "last_updated": "2026-06-26T04:47:25.947481+00:00"
+      "last_updated": "2026-06-26T04:47:25.947481+00:00",
+      "readme": {
+        "path": "readmes/ARMmbed+DAPLink+README.md",
+        "etag": "W/\"d4f97228096b6383fac320a31e2268c26cdb8cc5\"",
+        "sha": "d4f97228096b6383fac320a31e2268c26cdb8cc5",
+        "size": 4781,
+        "fetched_at": "2026-06-26T04:55:29.790624+00:00",
+        "status": "ok"
+      }
     },
     "JCodesMore/ai-website-cloner-template": {
       "lists": [
@@ -235665,7 +235705,15 @@
         "pushed_at": "2026-06-01T04:09:21Z",
         "starred_at": "2026-06-25T17:29:27Z"
       },
-      "last_updated": "2026-06-26T04:47:26.283329+00:00"
+      "last_updated": "2026-06-26T04:47:26.283329+00:00",
+      "readme": {
+        "path": "readmes/JCodesMore+ai-website-cloner-template+README.md",
+        "etag": "W/\"cd66ead9346842ca55849c41c6833cd5611cb7ef\"",
+        "sha": "cd66ead9346842ca55849c41c6833cd5611cb7ef",
+        "size": 8352,
+        "fetched_at": "2026-06-26T04:55:30.393292+00:00",
+        "status": "ok"
+      }
     },
     "HoangYell/markdy-com": {
       "lists": [
@@ -235687,7 +235735,15 @@
         "pushed_at": "2026-06-02T23:31:57Z",
         "starred_at": "2026-06-25T13:28:16Z"
       },
-      "last_updated": "2026-06-26T04:47:26.621160+00:00"
+      "last_updated": "2026-06-26T04:47:26.621160+00:00",
+      "readme": {
+        "path": "readmes/HoangYell+markdy-com+README.md",
+        "etag": "W/\"6eb9dc0ba91d40e66d44b4e6b809f5081192899b\"",
+        "sha": "6eb9dc0ba91d40e66d44b4e6b809f5081192899b",
+        "size": 13045,
+        "fetched_at": "2026-06-26T04:55:30.207430+00:00",
+        "status": "ok"
+      }
     },
     "nolabs-ai/nono": {
       "lists": [
@@ -235711,7 +235767,15 @@
         "pushed_at": "2026-06-25T23:43:08Z",
         "starred_at": "2026-04-24T00:02:18Z"
       },
-      "last_updated": "2026-06-26T04:47:27.185546+00:00"
+      "last_updated": "2026-06-26T04:47:27.185546+00:00",
+      "readme": {
+        "path": "readmes/nolabs-ai+nono+README.md",
+        "etag": "W/\"9b5ec9595b738b8300153e42517f58f3f18e56fa\"",
+        "sha": "9b5ec9595b738b8300153e42517f58f3f18e56fa",
+        "size": 4877,
+        "fetched_at": "2026-06-26T04:55:30.901785+00:00",
+        "status": "ok"
+      }
     },
     "xberg-io/xberg": {
       "lists": [
@@ -235734,7 +235798,15 @@
         "pushed_at": "2026-06-26T01:37:47Z",
         "starred_at": "2025-02-15T15:33:10Z"
       },
-      "last_updated": "2026-06-26T04:47:27.758978+00:00"
+      "last_updated": "2026-06-26T04:47:27.758978+00:00",
+      "readme": {
+        "path": "readmes/xberg-io+xberg+README.md",
+        "etag": "W/\"d8aeb10c22341e5514f93689dd1f152321f1af27\"",
+        "sha": "d8aeb10c22341e5514f93689dd1f152321f1af27",
+        "size": 14811,
+        "fetched_at": "2026-06-26T04:55:31.252443+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
