@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:47:27.759031+00:00",
+  "last_updated": "2026-06-26T04:55:01.043132+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235534,7 +235534,9 @@
       }
     },
     "RibShark/SafeDiscShim": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 738594945,
         "name": "SafeDiscShim",
@@ -235554,7 +235556,10 @@
       "last_updated": "2026-06-26T04:47:24.458047+00:00"
     },
     "GregorR/rnnoise-models": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 146694261,
         "name": "rnnoise-models",
@@ -235574,7 +235579,10 @@
       "last_updated": "2026-06-26T04:47:24.818913+00:00"
     },
     "ruvnet/ruflo": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 995029641,
         "name": "ruflo",
@@ -235594,7 +235602,9 @@
       "last_updated": "2026-06-26T04:47:25.208623+00:00"
     },
     "Rompass/openc6-bios": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1270226275,
         "name": "openc6-bios",
@@ -235614,7 +235624,9 @@
       "last_updated": "2026-06-26T04:47:25.541896+00:00"
     },
     "ARMmbed/DAPLink": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 24571059,
         "name": "DAPLink",
@@ -235634,7 +235646,9 @@
       "last_updated": "2026-06-26T04:47:25.947481+00:00"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1180745961,
         "name": "ai-website-cloner-template",
@@ -235654,7 +235668,9 @@
       "last_updated": "2026-06-26T04:47:26.283329+00:00"
     },
     "HoangYell/markdy-com": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1201716840,
         "name": "markdy-com",
@@ -235674,7 +235690,11 @@
       "last_updated": "2026-06-26T04:47:26.621160+00:00"
     },
     "nolabs-ai/nono": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1146550474,
         "name": "nono",
@@ -235694,7 +235714,10 @@
       "last_updated": "2026-06-26T04:47:27.185546+00:00"
     },
     "xberg-io/xberg": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 925434317,
         "name": "xberg",
