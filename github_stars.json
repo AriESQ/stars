@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T04:40:14.186183+00:00",
+  "last_updated": "2026-06-27T04:47:01.812910+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -13361,7 +13361,8 @@
     },
     "anthropics/claude-plugins-official": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1100776768,
@@ -235809,7 +235810,9 @@
       }
     },
     "openai/plugins": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1172963839,
         "name": "plugins",
@@ -235829,7 +235832,10 @@
       "last_updated": "2026-06-27T04:40:09.708715+00:00"
     },
     "colbymchenry/codegraph": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1137078255,
         "name": "codegraph",
@@ -235849,7 +235855,10 @@
       "last_updated": "2026-06-27T04:40:10.069290+00:00"
     },
     "CodeGraphContext/CodeGraphContext": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1039237865,
         "name": "CodeGraphContext",
@@ -235869,7 +235878,9 @@
       "last_updated": "2026-06-27T04:40:10.430431+00:00"
     },
     "DeusData/codebase-memory-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1166102148,
         "name": "codebase-memory-mcp",
@@ -235889,7 +235900,10 @@
       "last_updated": "2026-06-27T04:40:10.793355+00:00"
     },
     "workweave/router": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1222789989,
         "name": "router",
@@ -235909,7 +235923,10 @@
       "last_updated": "2026-06-27T04:40:11.193952+00:00"
     },
     "openai/snap-o": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "DIY"
+      ],
       "metadata": {
         "id": 1044595549,
         "name": "snap-o",
@@ -235929,7 +235946,9 @@
       "last_updated": "2026-06-27T04:40:11.567447+00:00"
     },
     "sdsrss/claudemd": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1216371597,
         "name": "claudemd",
@@ -235949,7 +235968,9 @@
       "last_updated": "2026-06-27T04:40:11.931006+00:00"
     },
     "sdsrss/onboard": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1238515516,
         "name": "onboard",
@@ -235969,7 +235990,10 @@
       "last_updated": "2026-06-27T04:40:12.265780+00:00"
     },
     "cocoindex-io/cocoindex-code": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1146989733,
         "name": "cocoindex-code",
@@ -235989,7 +236013,10 @@
       "last_updated": "2026-06-27T04:40:12.673405+00:00"
     },
     "sdsrss/code-graph-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1178111583,
         "name": "code-graph-mcp",
@@ -236009,7 +236036,9 @@
       "last_updated": "2026-06-27T04:40:13.014636+00:00"
     },
     "jrowny/p4kvm": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1276434290,
         "name": "p4kvm",
@@ -236029,7 +236058,9 @@
       "last_updated": "2026-06-27T04:40:13.373601+00:00"
     },
     "espressif/esp-adf-libs": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 127718252,
         "name": "esp-adf-libs",
@@ -236049,7 +236080,9 @@
       "last_updated": "2026-06-27T04:40:13.745160+00:00"
     },
     "pioarduino/platform-espressif32": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 828921070,
         "name": "platform-espressif32",
