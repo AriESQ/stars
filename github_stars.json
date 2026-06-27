@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:55:31.253200+00:00",
+  "last_updated": "2026-06-27T04:40:14.186183+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235807,6 +235807,266 @@
         "fetched_at": "2026-06-26T04:55:31.252443+00:00",
         "status": "ok"
       }
+    },
+    "openai/plugins": {
+      "lists": [],
+      "metadata": {
+        "id": 1172963839,
+        "name": "plugins",
+        "full_name": "openai/plugins",
+        "description": "OpenAI Plugins",
+        "url": "https://github.com/openai/plugins",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 3618,
+        "forks": 419,
+        "open_issues": 36,
+        "created_at": "2026-03-04T21:52:32Z",
+        "updated_at": "2026-06-27T04:13:31Z",
+        "pushed_at": "2026-06-25T23:33:30Z",
+        "starred_at": "2026-06-26T21:28:45Z"
+      },
+      "last_updated": "2026-06-27T04:40:09.708715+00:00"
+    },
+    "colbymchenry/codegraph": {
+      "lists": [],
+      "metadata": {
+        "id": 1137078255,
+        "name": "codegraph",
+        "full_name": "colbymchenry/codegraph",
+        "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+        "url": "https://github.com/colbymchenry/codegraph",
+        "homepage": "https://colbymchenry.github.io/codegraph/",
+        "language": "TypeScript",
+        "stars": 55102,
+        "forks": 3392,
+        "open_issues": 241,
+        "created_at": "2026-01-18T21:45:37Z",
+        "updated_at": "2026-06-27T04:36:16Z",
+        "pushed_at": "2026-06-27T01:30:26Z",
+        "starred_at": "2026-06-26T18:56:56Z"
+      },
+      "last_updated": "2026-06-27T04:40:10.069290+00:00"
+    },
+    "CodeGraphContext/CodeGraphContext": {
+      "lists": [],
+      "metadata": {
+        "id": 1039237865,
+        "name": "CodeGraphContext",
+        "full_name": "CodeGraphContext/CodeGraphContext",
+        "description": "An MCP server plus a CLI tool that indexes local code into a graph database to provide context to AI assistants.",
+        "url": "https://github.com/CodeGraphContext/CodeGraphContext",
+        "homepage": "https://cgc.codes",
+        "language": "Python",
+        "stars": 3823,
+        "forks": 759,
+        "open_issues": 295,
+        "created_at": "2025-08-16T19:20:31Z",
+        "updated_at": "2026-06-26T18:56:42Z",
+        "pushed_at": "2026-06-12T13:35:39Z",
+        "starred_at": "2026-06-26T18:56:42Z"
+      },
+      "last_updated": "2026-06-27T04:40:10.430431+00:00"
+    },
+    "DeusData/codebase-memory-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1166102148,
+        "name": "codebase-memory-mcp",
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph \u2014 average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
+        "language": "C",
+        "stars": 15885,
+        "forks": 1170,
+        "open_issues": 142,
+        "created_at": "2026-02-24T22:01:00Z",
+        "updated_at": "2026-06-27T04:39:12Z",
+        "pushed_at": "2026-06-27T01:45:10Z",
+        "starred_at": "2026-06-26T17:45:58Z"
+      },
+      "last_updated": "2026-06-27T04:40:10.793355+00:00"
+    },
+    "workweave/router": {
+      "lists": [],
+      "metadata": {
+        "id": 1222789989,
+        "name": "router",
+        "full_name": "workweave/router",
+        "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+        "url": "https://github.com/workweave/router",
+        "homepage": "https://weaverouter.com",
+        "language": "Go",
+        "stars": 314,
+        "forks": 14,
+        "open_issues": 31,
+        "created_at": "2026-04-27T17:56:27Z",
+        "updated_at": "2026-06-27T04:29:38Z",
+        "pushed_at": "2026-06-27T02:16:44Z",
+        "starred_at": "2026-06-26T17:14:28Z"
+      },
+      "last_updated": "2026-06-27T04:40:11.193952+00:00"
+    },
+    "openai/snap-o": {
+      "lists": [],
+      "metadata": {
+        "id": 1044595549,
+        "name": "snap-o",
+        "full_name": "openai/snap-o",
+        "description": "Lightweight Android capture developer tools for macOS",
+        "url": "https://github.com/openai/snap-o",
+        "homepage": "https://openai.github.io/snap-o/",
+        "language": "Swift",
+        "stars": 87,
+        "forks": 16,
+        "open_issues": 1,
+        "created_at": "2025-08-25T23:43:23Z",
+        "updated_at": "2026-06-27T02:44:11Z",
+        "pushed_at": "2026-06-27T02:44:08Z",
+        "starred_at": "2026-06-26T16:40:19Z"
+      },
+      "last_updated": "2026-06-27T04:40:11.567447+00:00"
+    },
+    "sdsrss/claudemd": {
+      "lists": [],
+      "metadata": {
+        "id": 1216371597,
+        "name": "claudemd",
+        "full_name": "sdsrss/claudemd",
+        "description": "Claude Code plugin: AI-CODING-SPEC v6.11 enforcement via shell hooks + spec distribution into ~/.claude/. Blocks banned vocab in commit messages, unsafe rm -rf $VAR, push-on-red-CI, unread MEMORY.md before ship. Ships a standalone npx CLI for git pre-commit + GitHub Actions.",
+        "url": "https://github.com/sdsrss/claudemd",
+        "homepage": "https://www.npmjs.com/package/claudemd-cli",
+        "language": "JavaScript",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-20T20:52:07Z",
+        "updated_at": "2026-06-26T15:01:22Z",
+        "pushed_at": "2026-06-12T18:51:58Z",
+        "starred_at": "2026-06-26T15:01:22Z"
+      },
+      "last_updated": "2026-06-27T04:40:11.931006+00:00"
+    },
+    "sdsrss/onboard": {
+      "lists": [],
+      "metadata": {
+        "id": 1238515516,
+        "name": "onboard",
+        "full_name": "sdsrss/onboard",
+        "description": "Make any legacy project Claude-Code-ready \u2014 without forcing AI tooling on your teammates. 10-phase /onboard Skill: discovers stacks, generates compact CLAUDE.md, configures guard hooks, batches install plan. Default --local-only mode = zero team pollution.",
+        "url": "https://github.com/sdsrss/onboard",
+        "homepage": "https://github.com/sdsrss/onboard",
+        "language": "Shell",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-14T07:30:30Z",
+        "updated_at": "2026-06-26T15:00:47Z",
+        "pushed_at": "2026-05-19T04:42:28Z",
+        "starred_at": "2026-06-26T15:00:47Z"
+      },
+      "last_updated": "2026-06-27T04:40:12.265780+00:00"
+    },
+    "cocoindex-io/cocoindex-code": {
+      "lists": [],
+      "metadata": {
+        "id": 1146989733,
+        "name": "cocoindex-code",
+        "full_name": "cocoindex-io/cocoindex-code",
+        "description": "A super light-weight embedded code search engine CLI (AST based) that just works - saves 70% token and improves speed for coding agent  \ud83c\udf1f Star if you like it!",
+        "url": "https://github.com/cocoindex-io/cocoindex-code",
+        "homepage": "https://cocoindex.io/",
+        "language": "Python",
+        "stars": 2253,
+        "forks": 183,
+        "open_issues": 26,
+        "created_at": "2026-02-01T02:16:56Z",
+        "updated_at": "2026-06-27T04:19:38Z",
+        "pushed_at": "2026-06-25T16:44:18Z",
+        "starred_at": "2026-06-26T15:00:00Z"
+      },
+      "last_updated": "2026-06-27T04:40:12.673405+00:00"
+    },
+    "sdsrss/code-graph-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1178111583,
+        "name": "code-graph-mcp",
+        "full_name": "sdsrss/code-graph-mcp",
+        "description": "AST knowledge graph MCP server for Claude Code \u2014 semantic search, call graph traversal, HTTP route tracing, impact analysis. Auto-indexes 10 languages via Tree-sitter.",
+        "url": "https://github.com/sdsrss/code-graph-mcp",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 47,
+        "forks": 7,
+        "open_issues": 0,
+        "created_at": "2026-03-10T17:42:45Z",
+        "updated_at": "2026-06-27T00:15:21Z",
+        "pushed_at": "2026-06-27T00:15:20Z",
+        "starred_at": "2026-06-26T13:51:09Z"
+      },
+      "last_updated": "2026-06-27T04:40:13.014636+00:00"
+    },
+    "jrowny/p4kvm": {
+      "lists": [],
+      "metadata": {
+        "id": 1276434290,
+        "name": "p4kvm",
+        "full_name": "jrowny/p4kvm",
+        "description": "A proof of concept IP KVM built on espressif ESP32-P4",
+        "url": "https://github.com/jrowny/p4kvm",
+        "homepage": null,
+        "language": "C",
+        "stars": 22,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-06-22T01:14:20Z",
+        "updated_at": "2026-06-27T02:12:36Z",
+        "pushed_at": "2026-06-22T05:13:13Z",
+        "starred_at": "2026-06-26T13:42:14Z"
+      },
+      "last_updated": "2026-06-27T04:40:13.373601+00:00"
+    },
+    "espressif/esp-adf-libs": {
+      "lists": [],
+      "metadata": {
+        "id": 127718252,
+        "name": "esp-adf-libs",
+        "full_name": "espressif/esp-adf-libs",
+        "description": null,
+        "url": "https://github.com/espressif/esp-adf-libs",
+        "homepage": null,
+        "language": "C",
+        "stars": 113,
+        "forks": 63,
+        "open_issues": 64,
+        "created_at": "2018-04-02T07:04:20Z",
+        "updated_at": "2026-06-26T13:39:57Z",
+        "pushed_at": "2026-06-23T03:48:00Z",
+        "starred_at": "2026-06-26T13:39:56Z"
+      },
+      "last_updated": "2026-06-27T04:40:13.745160+00:00"
+    },
+    "pioarduino/platform-espressif32": {
+      "lists": [],
+      "metadata": {
+        "id": 828921070,
+        "name": "platform-espressif32",
+        "full_name": "pioarduino/platform-espressif32",
+        "description": "Espressif 32: pioarduino community platform compatible with PlatformIO",
+        "url": "https://github.com/pioarduino/platform-espressif32",
+        "homepage": "https://github.com/espressif/arduino-esp32",
+        "language": "Python",
+        "stars": 743,
+        "forks": 102,
+        "open_issues": 4,
+        "created_at": "2024-07-15T11:51:52Z",
+        "updated_at": "2026-06-26T13:32:45Z",
+        "pushed_at": "2026-06-09T13:31:10Z",
+        "starred_at": "2026-06-26T13:32:44Z"
+      },
+      "last_updated": "2026-06-27T04:40:14.186091+00:00"
     }
   },
   "last_processed_index": 0,
@@ -235816,5 +236076,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"37fc9b6ab657d36cc2bf8e12553381b17beed48d0763857fb769ea72f9f010a6\""
+  "profile_etag": "W/\"4b1e7229c2135c4ac66078bf9c0bcd6ce9a0ba13d99e95355108ff652939bca0\""
 }
