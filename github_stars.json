@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T04:47:01.812910+00:00",
+  "last_updated": "2026-06-27T04:47:33.822619+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -235829,7 +235829,15 @@
         "pushed_at": "2026-06-25T23:33:30Z",
         "starred_at": "2026-06-26T21:28:45Z"
       },
-      "last_updated": "2026-06-27T04:40:09.708715+00:00"
+      "last_updated": "2026-06-27T04:40:09.708715+00:00",
+      "readme": {
+        "path": "readmes/openai+plugins+README.md",
+        "etag": "W/\"e901b40b9d643a5f878157158759fa0a6d3e2909\"",
+        "sha": "e901b40b9d643a5f878157158759fa0a6d3e2909",
+        "size": 1283,
+        "fetched_at": "2026-06-27T04:47:31.848261+00:00",
+        "status": "ok"
+      }
     },
     "colbymchenry/codegraph": {
       "lists": [
@@ -235852,7 +235860,15 @@
         "pushed_at": "2026-06-27T01:30:26Z",
         "starred_at": "2026-06-26T18:56:56Z"
       },
-      "last_updated": "2026-06-27T04:40:10.069290+00:00"
+      "last_updated": "2026-06-27T04:40:10.069290+00:00",
+      "readme": {
+        "path": "readmes/colbymchenry+codegraph+README.md",
+        "etag": "W/\"7b6c33932c623d6d71edf37131611e990e4c65fc\"",
+        "sha": "7b6c33932c623d6d71edf37131611e990e4c65fc",
+        "size": 47857,
+        "fetched_at": "2026-06-27T04:47:30.919145+00:00",
+        "status": "ok"
+      }
     },
     "CodeGraphContext/CodeGraphContext": {
       "lists": [
@@ -235875,7 +235891,15 @@
         "pushed_at": "2026-06-12T13:35:39Z",
         "starred_at": "2026-06-26T18:56:42Z"
       },
-      "last_updated": "2026-06-27T04:40:10.430431+00:00"
+      "last_updated": "2026-06-27T04:40:10.430431+00:00",
+      "readme": {
+        "path": "readmes/CodeGraphContext+CodeGraphContext+README.md",
+        "etag": "W/\"369a467a097809cd28e061dd8b56f3ac6e208c2e\"",
+        "sha": "369a467a097809cd28e061dd8b56f3ac6e208c2e",
+        "size": 21092,
+        "fetched_at": "2026-06-27T04:47:29.902419+00:00",
+        "status": "ok"
+      }
     },
     "DeusData/codebase-memory-mcp": {
       "lists": [
@@ -235897,7 +235921,15 @@
         "pushed_at": "2026-06-27T01:45:10Z",
         "starred_at": "2026-06-26T17:45:58Z"
       },
-      "last_updated": "2026-06-27T04:40:10.793355+00:00"
+      "last_updated": "2026-06-27T04:40:10.793355+00:00",
+      "readme": {
+        "path": "readmes/DeusData+codebase-memory-mcp+README.md",
+        "etag": "W/\"cb5e90aa203942d21c3309da96a320777b788de0\"",
+        "sha": "cb5e90aa203942d21c3309da96a320777b788de0",
+        "size": 35690,
+        "fetched_at": "2026-06-27T04:47:30.214927+00:00",
+        "status": "ok"
+      }
     },
     "workweave/router": {
       "lists": [
@@ -235920,7 +235952,15 @@
         "pushed_at": "2026-06-27T02:16:44Z",
         "starred_at": "2026-06-26T17:14:28Z"
       },
-      "last_updated": "2026-06-27T04:40:11.193952+00:00"
+      "last_updated": "2026-06-27T04:40:11.193952+00:00",
+      "readme": {
+        "path": "readmes/workweave+router+README.md",
+        "etag": "W/\"4b418f8630798e264ae47949029ccd600830887d\"",
+        "sha": "4b418f8630798e264ae47949029ccd600830887d",
+        "size": 23925,
+        "fetched_at": "2026-06-27T04:47:33.821913+00:00",
+        "status": "ok"
+      }
     },
     "openai/snap-o": {
       "lists": [
@@ -235943,7 +235983,15 @@
         "pushed_at": "2026-06-27T02:44:08Z",
         "starred_at": "2026-06-26T16:40:19Z"
       },
-      "last_updated": "2026-06-27T04:40:11.567447+00:00"
+      "last_updated": "2026-06-27T04:40:11.567447+00:00",
+      "readme": {
+        "path": "readmes/openai+snap-o+README.md",
+        "etag": "W/\"39f9fb4184ad23047c7bf478d83785027f125d76\"",
+        "sha": "39f9fb4184ad23047c7bf478d83785027f125d76",
+        "size": 7095,
+        "fetched_at": "2026-06-27T04:47:32.212805+00:00",
+        "status": "ok"
+      }
     },
     "sdsrss/claudemd": {
       "lists": [
@@ -235965,7 +236013,15 @@
         "pushed_at": "2026-06-12T18:51:58Z",
         "starred_at": "2026-06-26T15:01:22Z"
       },
-      "last_updated": "2026-06-27T04:40:11.931006+00:00"
+      "last_updated": "2026-06-27T04:40:11.931006+00:00",
+      "readme": {
+        "path": "readmes/sdsrss+claudemd+README.md",
+        "etag": "W/\"02b91a175fd03205bc5a8a0d89b76c4ea66600db\"",
+        "sha": "02b91a175fd03205bc5a8a0d89b76c4ea66600db",
+        "size": 28280,
+        "fetched_at": "2026-06-27T04:47:32.892451+00:00",
+        "status": "ok"
+      }
     },
     "sdsrss/onboard": {
       "lists": [
@@ -235987,7 +236043,15 @@
         "pushed_at": "2026-05-19T04:42:28Z",
         "starred_at": "2026-06-26T15:00:47Z"
       },
-      "last_updated": "2026-06-27T04:40:12.265780+00:00"
+      "last_updated": "2026-06-27T04:40:12.265780+00:00",
+      "readme": {
+        "path": "readmes/sdsrss+onboard+README.md",
+        "etag": "W/\"b7179949d094240b32ae8990d7ec16063f95fb99\"",
+        "sha": "b7179949d094240b32ae8990d7ec16063f95fb99",
+        "size": 14141,
+        "fetched_at": "2026-06-27T04:47:33.496170+00:00",
+        "status": "ok"
+      }
     },
     "cocoindex-io/cocoindex-code": {
       "lists": [
@@ -236010,7 +236074,15 @@
         "pushed_at": "2026-06-25T16:44:18Z",
         "starred_at": "2026-06-26T15:00:00Z"
       },
-      "last_updated": "2026-06-27T04:40:12.673405+00:00"
+      "last_updated": "2026-06-27T04:40:12.673405+00:00",
+      "readme": {
+        "path": "readmes/cocoindex-io+cocoindex-code+README.md",
+        "etag": "W/\"c0fbf142d1deba390e212e25f128aedb2061bf69\"",
+        "sha": "c0fbf142d1deba390e212e25f128aedb2061bf69",
+        "size": 37647,
+        "fetched_at": "2026-06-27T04:47:30.593949+00:00",
+        "status": "ok"
+      }
     },
     "sdsrss/code-graph-mcp": {
       "lists": [
@@ -236033,7 +236105,15 @@
         "pushed_at": "2026-06-27T00:15:20Z",
         "starred_at": "2026-06-26T13:51:09Z"
       },
-      "last_updated": "2026-06-27T04:40:13.014636+00:00"
+      "last_updated": "2026-06-27T04:40:13.014636+00:00",
+      "readme": {
+        "path": "readmes/sdsrss+code-graph-mcp+README.md",
+        "etag": "W/\"5b7461401dc33715475633fb96783492ca0e2c7d\"",
+        "sha": "5b7461401dc33715475633fb96783492ca0e2c7d",
+        "size": 17910,
+        "fetched_at": "2026-06-27T04:47:33.241125+00:00",
+        "status": "ok"
+      }
     },
     "jrowny/p4kvm": {
       "lists": [
@@ -236055,7 +236135,15 @@
         "pushed_at": "2026-06-22T05:13:13Z",
         "starred_at": "2026-06-26T13:42:14Z"
       },
-      "last_updated": "2026-06-27T04:40:13.373601+00:00"
+      "last_updated": "2026-06-27T04:40:13.373601+00:00",
+      "readme": {
+        "path": "readmes/jrowny+p4kvm+README.md",
+        "etag": "W/\"5920554b1eb9c06896a56af3c0446d0d4dd307d3\"",
+        "sha": "5920554b1eb9c06896a56af3c0446d0d4dd307d3",
+        "size": 2531,
+        "fetched_at": "2026-06-27T04:47:31.533063+00:00",
+        "status": "ok"
+      }
     },
     "espressif/esp-adf-libs": {
       "lists": [
@@ -236077,7 +236165,11 @@
         "pushed_at": "2026-06-23T03:48:00Z",
         "starred_at": "2026-06-26T13:39:56Z"
       },
-      "last_updated": "2026-06-27T04:40:13.745160+00:00"
+      "last_updated": "2026-06-27T04:40:13.745160+00:00",
+      "readme": {
+        "fetched_at": "2026-06-27T04:47:31.180729+00:00",
+        "status": "missing"
+      }
     },
     "pioarduino/platform-espressif32": {
       "lists": [
@@ -236099,7 +236191,15 @@
         "pushed_at": "2026-06-09T13:31:10Z",
         "starred_at": "2026-06-26T13:32:44Z"
       },
-      "last_updated": "2026-06-27T04:40:14.186091+00:00"
+      "last_updated": "2026-06-27T04:40:14.186091+00:00",
+      "readme": {
+        "path": "readmes/pioarduino+platform-espressif32+README.md",
+        "etag": "W/\"5005f68f76dc9856197ef177ddcc1756ec381c5a\"",
+        "sha": "5005f68f76dc9856197ef177ddcc1756ec381c5a",
+        "size": 5051,
+        "fetched_at": "2026-06-27T04:47:32.484290+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
