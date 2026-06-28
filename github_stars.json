@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T04:58:08.289894+00:00",
+  "last_updated": "2026-06-28T04:58:33.001881+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236223,7 +236223,15 @@
         "pushed_at": "2026-06-23T21:58:52Z",
         "starred_at": "2026-06-28T02:05:34Z"
       },
-      "last_updated": "2026-06-28T04:51:24.285297+00:00"
+      "last_updated": "2026-06-28T04:51:24.285297+00:00",
+      "readme": {
+        "path": "readmes/facebookresearch+prompt-siren+README.md",
+        "etag": "W/\"dfc763a9dca5bb9825d95e78682340a001b0abc2\"",
+        "sha": "dfc763a9dca5bb9825d95e78682340a001b0abc2",
+        "size": 7799,
+        "fetched_at": "2026-06-28T04:58:32.054735+00:00",
+        "status": "ok"
+      }
     },
     "acolombier/stemgen": {
       "lists": [
@@ -236247,7 +236255,15 @@
         "pushed_at": "2026-06-22T16:52:59Z",
         "starred_at": "2026-06-28T01:29:05Z"
       },
-      "last_updated": "2026-06-28T04:51:24.620821+00:00"
+      "last_updated": "2026-06-28T04:51:24.620821+00:00",
+      "readme": {
+        "path": "readmes/acolombier+stemgen+README.md",
+        "etag": "W/\"11193bebc787309d55a0deb84667ac1087ec115c\"",
+        "sha": "11193bebc787309d55a0deb84667ac1087ec115c",
+        "size": 11278,
+        "fetched_at": "2026-06-28T04:58:31.687531+00:00",
+        "status": "ok"
+      }
     },
     "newdigate/eurorack-awesome": {
       "lists": [
@@ -236270,7 +236286,15 @@
         "pushed_at": "2025-04-14T08:10:49Z",
         "starred_at": "2026-06-28T01:16:38Z"
       },
-      "last_updated": "2026-06-28T04:51:24.996740+00:00"
+      "last_updated": "2026-06-28T04:51:24.996740+00:00",
+      "readme": {
+        "path": "readmes/newdigate+eurorack-awesome+README.md",
+        "etag": "W/\"985bd41bd1734479c4e770dbf4c8c92493a0dcf5\"",
+        "sha": "985bd41bd1734479c4e770dbf4c8c92493a0dcf5",
+        "size": 30302,
+        "fetched_at": "2026-06-28T04:58:32.437802+00:00",
+        "status": "ok"
+      }
     },
     "wntrblm/Gingerbread": {
       "lists": [
@@ -236292,7 +236316,15 @@
         "pushed_at": "2025-11-24T23:26:05Z",
         "starred_at": "2026-06-28T01:16:28Z"
       },
-      "last_updated": "2026-06-28T04:51:25.358139+00:00"
+      "last_updated": "2026-06-28T04:51:25.358139+00:00",
+      "readme": {
+        "path": "readmes/wntrblm+Gingerbread+README.md",
+        "etag": "W/\"c7fee50a48866c9f87b8fccb9908e374f2322c81\"",
+        "sha": "c7fee50a48866c9f87b8fccb9908e374f2322c81",
+        "size": 822,
+        "fetched_at": "2026-06-28T04:58:33.001110+00:00",
+        "status": "ok"
+      }
     },
     "roboflow/notebooks": {
       "lists": [
@@ -236316,7 +236348,15 @@
         "pushed_at": "2026-06-25T15:53:43Z",
         "starred_at": "2026-06-28T00:34:49Z"
       },
-      "last_updated": "2026-06-28T04:51:25.727161+00:00"
+      "last_updated": "2026-06-28T04:51:25.727161+00:00",
+      "readme": {
+        "path": "readmes/roboflow+notebooks+README.md",
+        "etag": "W/\"bcbcb324bcb8c68cbed1686eaddb4263da06e667\"",
+        "sha": "bcbcb324bcb8c68cbed1686eaddb4263da06e667",
+        "size": 92106,
+        "fetched_at": "2026-06-28T04:58:32.827638+00:00",
+        "status": "ok"
+      }
     },
     "getpaseo/paseo": {
       "lists": [
@@ -236339,7 +236379,15 @@
         "pushed_at": "2026-06-28T04:48:37Z",
         "starred_at": "2026-06-27T23:56:31Z"
       },
-      "last_updated": "2026-06-28T04:51:26.111328+00:00"
+      "last_updated": "2026-06-28T04:51:26.111328+00:00",
+      "readme": {
+        "path": "readmes/getpaseo+paseo+README.md",
+        "etag": "W/\"fc3a46bbbd0968f32e9543da20d9f48574e53bfd\"",
+        "sha": "fc3a46bbbd0968f32e9543da20d9f48574e53bfd",
+        "size": 6500,
+        "fetched_at": "2026-06-28T04:58:32.194105+00:00",
+        "status": "ok"
+      }
     },
     "ThroatyMumbo/GBCYouTube": {
       "lists": [
@@ -236362,7 +236410,15 @@
         "pushed_at": "2026-06-26T08:19:31Z",
         "starred_at": "2026-06-27T15:49:59Z"
       },
-      "last_updated": "2026-06-28T04:51:26.454540+00:00"
+      "last_updated": "2026-06-28T04:51:26.454540+00:00",
+      "readme": {
+        "path": "readmes/ThroatyMumbo+GBCYouTube+README.md",
+        "etag": "W/\"2f21fc83a6be96310affed986ab0499dfd5e54cc\"",
+        "sha": "2f21fc83a6be96310affed986ab0499dfd5e54cc",
+        "size": 9329,
+        "fetched_at": "2026-06-28T04:58:31.442523+00:00",
+        "status": "ok"
+      }
     },
     "riskcapital/ghost-arcade": {
       "lists": [
@@ -236385,7 +236441,15 @@
         "pushed_at": "2026-06-27T18:12:23Z",
         "starred_at": "2026-06-27T15:29:24Z"
       },
-      "last_updated": "2026-06-28T04:51:26.796537+00:00"
+      "last_updated": "2026-06-28T04:51:26.796537+00:00",
+      "readme": {
+        "path": "readmes/riskcapital+ghost-arcade+README.md",
+        "etag": "W/\"36b2a16b67dcbcd88ccc8015b60281d5f2bafaae\"",
+        "sha": "36b2a16b67dcbcd88ccc8015b60281d5f2bafaae",
+        "size": 8167,
+        "fetched_at": "2026-06-28T04:58:32.665808+00:00",
+        "status": "ok"
+      }
     },
     "b1ack0p/recalbox-rpi4-composite-configs": {
       "lists": [
@@ -236408,7 +236472,15 @@
         "pushed_at": "2026-06-27T16:00:48Z",
         "starred_at": "2024-01-08T04:35:37Z"
       },
-      "last_updated": "2026-06-28T04:51:27.376443+00:00"
+      "last_updated": "2026-06-28T04:51:27.376443+00:00",
+      "readme": {
+        "path": "readmes/b1ack0p+recalbox-rpi4-composite-configs+README.md",
+        "etag": "W/\"dd0154a52aaf302aa6425d7804d8e3e8db88b908\"",
+        "sha": "dd0154a52aaf302aa6425d7804d8e3e8db88b908",
+        "size": 781,
+        "fetched_at": "2026-06-28T04:58:31.879581+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
