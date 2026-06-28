@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T04:51:27.376491+00:00",
+  "last_updated": "2026-06-28T04:58:08.289894+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236202,7 +236202,11 @@
       }
     },
     "facebookresearch/prompt-siren": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1107898025,
         "name": "prompt-siren",
@@ -236222,7 +236226,11 @@
       "last_updated": "2026-06-28T04:51:24.285297+00:00"
     },
     "acolombier/stemgen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 802919307,
         "name": "stemgen",
@@ -236242,7 +236250,10 @@
       "last_updated": "2026-06-28T04:51:24.620821+00:00"
     },
     "newdigate/eurorack-awesome": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 149168839,
         "name": "eurorack-awesome",
@@ -236262,7 +236273,9 @@
       "last_updated": "2026-06-28T04:51:24.996740+00:00"
     },
     "wntrblm/Gingerbread": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 556998136,
         "name": "Gingerbread",
@@ -236282,7 +236295,11 @@
       "last_updated": "2026-06-28T04:51:25.358139+00:00"
     },
     "roboflow/notebooks": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 567848636,
         "name": "notebooks",
@@ -236302,7 +236319,10 @@
       "last_updated": "2026-06-28T04:51:25.727161+00:00"
     },
     "getpaseo/paseo": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1075381375,
         "name": "paseo",
@@ -236322,7 +236342,10 @@
       "last_updated": "2026-06-28T04:51:26.111328+00:00"
     },
     "ThroatyMumbo/GBCYouTube": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1280939672,
         "name": "GBCYouTube",
@@ -236342,7 +236365,10 @@
       "last_updated": "2026-06-28T04:51:26.454540+00:00"
     },
     "riskcapital/ghost-arcade": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1232617652,
         "name": "ghost-arcade",
@@ -236362,7 +236388,10 @@
       "last_updated": "2026-06-28T04:51:26.796537+00:00"
     },
     "b1ack0p/recalbox-rpi4-composite-configs": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 509500569,
         "name": "recalbox-rpi4-composite-configs",
