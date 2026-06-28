@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T04:47:33.822619+00:00",
+  "last_updated": "2026-06-28T04:51:27.376491+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236200,6 +236200,186 @@
         "fetched_at": "2026-06-27T04:47:32.484290+00:00",
         "status": "ok"
       }
+    },
+    "facebookresearch/prompt-siren": {
+      "lists": [],
+      "metadata": {
+        "id": 1107898025,
+        "name": "prompt-siren",
+        "full_name": "facebookresearch/prompt-siren",
+        "description": "A research workbench for developing and testing attacks against large language models, with a focus on prompt injection vulnerabilities and defenses.",
+        "url": "https://github.com/facebookresearch/prompt-siren",
+        "homepage": null,
+        "language": "Python",
+        "stars": 53,
+        "forks": 21,
+        "open_issues": 34,
+        "created_at": "2025-12-01T18:51:48Z",
+        "updated_at": "2026-06-28T02:05:34Z",
+        "pushed_at": "2026-06-23T21:58:52Z",
+        "starred_at": "2026-06-28T02:05:34Z"
+      },
+      "last_updated": "2026-06-28T04:51:24.285297+00:00"
+    },
+    "acolombier/stemgen": {
+      "lists": [],
+      "metadata": {
+        "id": 802919307,
+        "name": "stemgen",
+        "full_name": "acolombier/stemgen",
+        "description": "Tool to generate NI Stem from traditional stereo tracks",
+        "url": "https://github.com/acolombier/stemgen",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 82,
+        "forks": 11,
+        "open_issues": 7,
+        "created_at": "2024-05-19T16:01:38Z",
+        "updated_at": "2026-06-28T01:29:05Z",
+        "pushed_at": "2026-06-22T16:52:59Z",
+        "starred_at": "2026-06-28T01:29:05Z"
+      },
+      "last_updated": "2026-06-28T04:51:24.620821+00:00"
+    },
+    "newdigate/eurorack-awesome": {
+      "lists": [],
+      "metadata": {
+        "id": 149168839,
+        "name": "eurorack-awesome",
+        "full_name": "newdigate/eurorack-awesome",
+        "description": "awesome eurorack diy and opensource",
+        "url": "https://github.com/newdigate/eurorack-awesome",
+        "homepage": null,
+        "language": null,
+        "stars": 504,
+        "forks": 27,
+        "open_issues": 1,
+        "created_at": "2018-09-17T18:19:08Z",
+        "updated_at": "2026-06-28T01:16:39Z",
+        "pushed_at": "2025-04-14T08:10:49Z",
+        "starred_at": "2026-06-28T01:16:38Z"
+      },
+      "last_updated": "2026-06-28T04:51:24.996740+00:00"
+    },
+    "wntrblm/Gingerbread": {
+      "lists": [],
+      "metadata": {
+        "id": 556998136,
+        "name": "Gingerbread",
+        "full_name": "wntrblm/Gingerbread",
+        "description": "Web-based tool for creating artistic PCBs",
+        "url": "https://github.com/wntrblm/Gingerbread",
+        "homepage": null,
+        "language": "C++",
+        "stars": 202,
+        "forks": 28,
+        "open_issues": 17,
+        "created_at": "2022-10-24T22:52:32Z",
+        "updated_at": "2026-06-28T01:16:29Z",
+        "pushed_at": "2025-11-24T23:26:05Z",
+        "starred_at": "2026-06-28T01:16:28Z"
+      },
+      "last_updated": "2026-06-28T04:51:25.358139+00:00"
+    },
+    "roboflow/notebooks": {
+      "lists": [],
+      "metadata": {
+        "id": 567848636,
+        "name": "notebooks",
+        "full_name": "roboflow/notebooks",
+        "description": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL.",
+        "url": "https://github.com/roboflow/notebooks",
+        "homepage": "https://roboflow.com/models",
+        "language": "Jupyter Notebook",
+        "stars": 9511,
+        "forks": 1474,
+        "open_issues": 85,
+        "created_at": "2022-11-18T18:16:56Z",
+        "updated_at": "2026-06-28T00:34:50Z",
+        "pushed_at": "2026-06-25T15:53:43Z",
+        "starred_at": "2026-06-28T00:34:49Z"
+      },
+      "last_updated": "2026-06-28T04:51:25.727161+00:00"
+    },
+    "getpaseo/paseo": {
+      "lists": [],
+      "metadata": {
+        "id": 1075381375,
+        "name": "paseo",
+        "full_name": "getpaseo/paseo",
+        "description": "Orchestrate multiple coding agents from desktop and mobile",
+        "url": "https://github.com/getpaseo/paseo",
+        "homepage": "https://paseo.sh",
+        "language": "TypeScript",
+        "stars": 9377,
+        "forks": 887,
+        "open_issues": 722,
+        "created_at": "2025-10-13T12:27:02Z",
+        "updated_at": "2026-06-28T03:21:18Z",
+        "pushed_at": "2026-06-28T04:48:37Z",
+        "starred_at": "2026-06-27T23:56:31Z"
+      },
+      "last_updated": "2026-06-28T04:51:26.111328+00:00"
+    },
+    "ThroatyMumbo/GBCYouTube": {
+      "lists": [],
+      "metadata": {
+        "id": 1280939672,
+        "name": "GBCYouTube",
+        "full_name": "ThroatyMumbo/GBCYouTube",
+        "description": "Homebrew unofficial YouTube app for the Game Boy Color",
+        "url": "https://github.com/ThroatyMumbo/GBCYouTube",
+        "homepage": null,
+        "language": "C",
+        "stars": 11,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-26T04:43:17Z",
+        "updated_at": "2026-06-28T01:15:19Z",
+        "pushed_at": "2026-06-26T08:19:31Z",
+        "starred_at": "2026-06-27T15:49:59Z"
+      },
+      "last_updated": "2026-06-28T04:51:26.454540+00:00"
+    },
+    "riskcapital/ghost-arcade": {
+      "lists": [],
+      "metadata": {
+        "id": 1232617652,
+        "name": "ghost-arcade",
+        "full_name": "riskcapital/ghost-arcade",
+        "description": "Ghost Arcade \u2014 open-source projection mapping & VJ software. WebGPU-accelerated, MIDI control, mobile companion, 200+ effects. AGPL-3.0. ghostarcade.live",
+        "url": "https://github.com/riskcapital/ghost-arcade",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 19,
+        "forks": 3,
+        "open_issues": 5,
+        "created_at": "2026-05-08T05:29:22Z",
+        "updated_at": "2026-06-27T18:11:54Z",
+        "pushed_at": "2026-06-27T18:12:23Z",
+        "starred_at": "2026-06-27T15:29:24Z"
+      },
+      "last_updated": "2026-06-28T04:51:26.796537+00:00"
+    },
+    "b1ack0p/recalbox-rpi4-composite-configs": {
+      "lists": [],
+      "metadata": {
+        "id": 509500569,
+        "name": "recalbox-rpi4-composite-configs",
+        "full_name": "b1ack0p/recalbox-rpi4-composite-configs",
+        "description": "My RaspberryPi4 AV/Composite Video output configuration for CRT monitors on Recalbox 8.1.1",
+        "url": "https://github.com/b1ack0p/recalbox-rpi4-composite-configs",
+        "homepage": "",
+        "language": null,
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2022-07-01T15:16:47Z",
+        "updated_at": "2026-06-27T16:00:54Z",
+        "pushed_at": "2026-06-27T16:00:48Z",
+        "starred_at": "2024-01-08T04:35:37Z"
+      },
+      "last_updated": "2026-06-28T04:51:27.376443+00:00"
     }
   },
   "last_processed_index": 0,
@@ -236209,5 +236389,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"4b1e7229c2135c4ac66078bf9c0bcd6ce9a0ba13d99e95355108ff652939bca0\""
+  "profile_etag": "W/\"e8ecef9c20733e10a575bd44266404ea2b96260c5713ed5d05c0f675cf286919\""
 }
