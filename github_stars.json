@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T04:56:16.502857+00:00",
+  "last_updated": "2026-06-29T05:03:45.380546+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -9687,7 +9687,8 @@
     },
     "ed3dai/ed3d-plugins": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1134604756,
@@ -236483,7 +236484,11 @@
       }
     },
     "ancat/coronagraph": {
-      "lists": [],
+      "lists": [
+        "API",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1277489829,
         "name": "coronagraph",
@@ -236503,7 +236508,10 @@
       "last_updated": "2026-06-29T04:56:13.317937+00:00"
     },
     "MultiTech-Visions/VJ-pi": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1248567319,
         "name": "VJ-pi",
@@ -236523,7 +236531,9 @@
       "last_updated": "2026-06-29T04:56:13.669602+00:00"
     },
     "intel/auto-round": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 738776129,
         "name": "auto-round",
@@ -236543,7 +236553,12 @@
       "last_updated": "2026-06-29T04:56:14.050982+00:00"
     },
     "bethington/ghidra-mcp": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1047320420,
         "name": "ghidra-mcp",
@@ -236563,7 +236578,12 @@
       "last_updated": "2026-06-29T04:56:14.421001+00:00"
     },
     "framna-dk/tartelet": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "CI/CD",
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 590053118,
         "name": "tartelet",
@@ -236583,7 +236603,10 @@
       "last_updated": "2026-06-29T04:56:14.786521+00:00"
     },
     "fliperama86/superpico-digital": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1137138039,
         "name": "superpico-digital",
@@ -236603,7 +236626,10 @@
       "last_updated": "2026-06-29T04:56:15.175458+00:00"
     },
     "itsthelore/wayfinder-router": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1271892689,
         "name": "wayfinder-router",
@@ -236623,7 +236649,11 @@
       "last_updated": "2026-06-29T04:56:15.529738+00:00"
     },
     "dfd-tud/deda": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 120640836,
         "name": "deda",
@@ -236643,7 +236673,9 @@
       "last_updated": "2026-06-29T04:56:16.110182+00:00"
     },
     "QwenLM/Qwen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 674075444,
         "name": "Qwen",
