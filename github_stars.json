@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T05:03:45.380546+00:00",
+  "last_updated": "2026-06-29T05:04:19.870809+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236505,7 +236505,15 @@
         "pushed_at": "2026-06-29T03:29:05Z",
         "starred_at": "2026-06-29T02:25:50Z"
       },
-      "last_updated": "2026-06-29T04:56:13.317937+00:00"
+      "last_updated": "2026-06-29T04:56:13.317937+00:00",
+      "readme": {
+        "path": "readmes/ancat+coronagraph+README.md",
+        "etag": "W/\"f3420c7c9e5e5668fc269d79583d03161854a9f6\"",
+        "sha": "f3420c7c9e5e5668fc269d79583d03161854a9f6",
+        "size": 5732,
+        "fetched_at": "2026-06-29T05:04:18.569276+00:00",
+        "status": "ok"
+      }
     },
     "MultiTech-Visions/VJ-pi": {
       "lists": [
@@ -236528,7 +236536,15 @@
         "pushed_at": "2026-06-21T06:16:05Z",
         "starred_at": "2026-06-29T00:43:44Z"
       },
-      "last_updated": "2026-06-29T04:56:13.669602+00:00"
+      "last_updated": "2026-06-29T04:56:13.669602+00:00",
+      "readme": {
+        "path": "readmes/MultiTech-Visions+VJ-pi+README.md",
+        "etag": "W/\"d6ea268ee9bc9f16b51f2816ebd6d609d9a42a12\"",
+        "sha": "d6ea268ee9bc9f16b51f2816ebd6d609d9a42a12",
+        "size": 43670,
+        "fetched_at": "2026-06-29T05:04:18.123374+00:00",
+        "status": "ok"
+      }
     },
     "intel/auto-round": {
       "lists": [
@@ -236550,7 +236566,15 @@
         "pushed_at": "2026-06-29T02:22:54Z",
         "starred_at": "2026-06-28T23:33:54Z"
       },
-      "last_updated": "2026-06-29T04:56:14.050982+00:00"
+      "last_updated": "2026-06-29T04:56:14.050982+00:00",
+      "readme": {
+        "path": "readmes/intel+auto-round+README.md",
+        "etag": "W/\"e41599c9dddd3e759f348ac3c6c90d71e8d85a64\"",
+        "sha": "e41599c9dddd3e759f348ac3c6c90d71e8d85a64",
+        "size": 21797,
+        "fetched_at": "2026-06-29T05:04:19.635353+00:00",
+        "status": "ok"
+      }
     },
     "bethington/ghidra-mcp": {
       "lists": [
@@ -236575,7 +236599,15 @@
         "pushed_at": "2026-06-27T06:09:55Z",
         "starred_at": "2026-06-28T16:56:08Z"
       },
-      "last_updated": "2026-06-29T04:56:14.421001+00:00"
+      "last_updated": "2026-06-29T04:56:14.421001+00:00",
+      "readme": {
+        "path": "readmes/bethington+ghidra-mcp+README.md",
+        "etag": "W/\"3a02f1937275c3940a112cfafc2a5c602589e6ff\"",
+        "sha": "3a02f1937275c3940a112cfafc2a5c602589e6ff",
+        "size": 53564,
+        "fetched_at": "2026-06-29T05:04:18.732239+00:00",
+        "status": "ok"
+      }
     },
     "framna-dk/tartelet": {
       "lists": [
@@ -236600,7 +236632,15 @@
         "pushed_at": "2026-02-10T08:41:39Z",
         "starred_at": "2026-06-28T16:55:09Z"
       },
-      "last_updated": "2026-06-29T04:56:14.786521+00:00"
+      "last_updated": "2026-06-29T04:56:14.786521+00:00",
+      "readme": {
+        "path": "readmes/framna-dk+tartelet+README.md",
+        "etag": "W/\"f1ac07511eb7cb7b4121dea5adf888ebeec4c7ba\"",
+        "sha": "f1ac07511eb7cb7b4121dea5adf888ebeec4c7ba",
+        "size": 6962,
+        "fetched_at": "2026-06-29T05:04:19.464101+00:00",
+        "status": "ok"
+      }
     },
     "fliperama86/superpico-digital": {
       "lists": [
@@ -236623,7 +236663,15 @@
         "pushed_at": "2026-06-27T21:56:04Z",
         "starred_at": "2026-06-28T16:53:07Z"
       },
-      "last_updated": "2026-06-29T04:56:15.175458+00:00"
+      "last_updated": "2026-06-29T04:56:15.175458+00:00",
+      "readme": {
+        "path": "readmes/fliperama86+superpico-digital+README.md",
+        "etag": "W/\"48548bdd687822ab8e9eb0a2e8bd09bdb69dee7e\"",
+        "sha": "48548bdd687822ab8e9eb0a2e8bd09bdb69dee7e",
+        "size": 2946,
+        "fetched_at": "2026-06-29T05:04:19.200077+00:00",
+        "status": "ok"
+      }
     },
     "itsthelore/wayfinder-router": {
       "lists": [
@@ -236646,7 +236694,15 @@
         "pushed_at": "2026-06-28T21:55:47Z",
         "starred_at": "2026-06-28T16:50:48Z"
       },
-      "last_updated": "2026-06-29T04:56:15.529738+00:00"
+      "last_updated": "2026-06-29T04:56:15.529738+00:00",
+      "readme": {
+        "path": "readmes/itsthelore+wayfinder-router+README.md",
+        "etag": "W/\"f89b753dd6659fb1b35ad2a30a0e12eadf3ee6d3\"",
+        "sha": "f89b753dd6659fb1b35ad2a30a0e12eadf3ee6d3",
+        "size": 27633,
+        "fetched_at": "2026-06-29T05:04:19.865095+00:00",
+        "status": "ok"
+      }
     },
     "dfd-tud/deda": {
       "lists": [
@@ -236670,7 +236726,15 @@
         "pushed_at": "2024-09-15T13:38:37Z",
         "starred_at": "2026-06-28T16:22:31Z"
       },
-      "last_updated": "2026-06-29T04:56:16.110182+00:00"
+      "last_updated": "2026-06-29T04:56:16.110182+00:00",
+      "readme": {
+        "path": "readmes/dfd-tud+deda+README.md",
+        "etag": "W/\"079e6cf2bb9bef68d1d7806f52660549f3bf01f4\"",
+        "sha": "079e6cf2bb9bef68d1d7806f52660549f3bf01f4",
+        "size": 5091,
+        "fetched_at": "2026-06-29T05:04:18.924005+00:00",
+        "status": "ok"
+      }
     },
     "QwenLM/Qwen": {
       "lists": [
@@ -236692,7 +236756,15 @@
         "pushed_at": "2026-03-05T13:55:17Z",
         "starred_at": "2026-06-28T15:12:07Z"
       },
-      "last_updated": "2026-06-29T04:56:16.502762+00:00"
+      "last_updated": "2026-06-29T04:56:16.502762+00:00",
+      "readme": {
+        "path": "readmes/QwenLM+Qwen+README.md",
+        "etag": "W/\"7758528a6995d9099a9f757c93345b9bd9d64a07\"",
+        "sha": "7758528a6995d9099a9f757c93345b9bd9d64a07",
+        "size": 76040,
+        "fetched_at": "2026-06-29T05:04:18.364949+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
