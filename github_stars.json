@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T04:58:33.001881+00:00",
+  "last_updated": "2026-06-29T04:56:16.502857+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236481,6 +236481,186 @@
         "fetched_at": "2026-06-28T04:58:31.879581+00:00",
         "status": "ok"
       }
+    },
+    "ancat/coronagraph": {
+      "lists": [],
+      "metadata": {
+        "id": 1277489829,
+        "name": "coronagraph",
+        "full_name": "ancat/coronagraph",
+        "description": "Keeps API keys safe and secure. Keys only exist in plaintext in memory and are never exposed to underlying applications. Think of it as a secure enclave, but for keys that still need to be in plaintext. WIP.",
+        "url": "https://github.com/ancat/coronagraph",
+        "homepage": "",
+        "language": "Go",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-23T00:10:20Z",
+        "updated_at": "2026-06-29T03:29:09Z",
+        "pushed_at": "2026-06-29T03:29:05Z",
+        "starred_at": "2026-06-29T02:25:50Z"
+      },
+      "last_updated": "2026-06-29T04:56:13.317937+00:00"
+    },
+    "MultiTech-Visions/VJ-pi": {
+      "lists": [],
+      "metadata": {
+        "id": 1248567319,
+        "name": "VJ-pi",
+        "full_name": "MultiTech-Visions/VJ-pi",
+        "description": null,
+        "url": "https://github.com/MultiTech-Visions/VJ-pi",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-05-24T20:10:59Z",
+        "updated_at": "2026-06-29T00:43:44Z",
+        "pushed_at": "2026-06-21T06:16:05Z",
+        "starred_at": "2026-06-29T00:43:44Z"
+      },
+      "last_updated": "2026-06-29T04:56:13.669602+00:00"
+    },
+    "intel/auto-round": {
+      "lists": [],
+      "metadata": {
+        "id": 738776129,
+        "name": "auto-round",
+        "full_name": "intel/auto-round",
+        "description": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers.",
+        "url": "https://github.com/intel/auto-round",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1498,
+        "forks": 145,
+        "open_issues": 93,
+        "created_at": "2024-01-04T02:41:51Z",
+        "updated_at": "2026-06-29T02:55:21Z",
+        "pushed_at": "2026-06-29T02:22:54Z",
+        "starred_at": "2026-06-28T23:33:54Z"
+      },
+      "last_updated": "2026-06-29T04:56:14.050982+00:00"
+    },
+    "bethington/ghidra-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1047320420,
+        "name": "ghidra-mcp",
+        "full_name": "bethington/ghidra-mcp",
+        "description": "Ghidra MCP Server \u2014 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
+        "url": "https://github.com/bethington/ghidra-mcp",
+        "homepage": "",
+        "language": "Java",
+        "stars": 2635,
+        "forks": 46,
+        "open_issues": 7,
+        "created_at": "2025-08-30T06:40:03Z",
+        "updated_at": "2026-06-29T03:35:50Z",
+        "pushed_at": "2026-06-27T06:09:55Z",
+        "starred_at": "2026-06-28T16:56:08Z"
+      },
+      "last_updated": "2026-06-29T04:56:14.421001+00:00"
+    },
+    "framna-dk/tartelet": {
+      "lists": [],
+      "metadata": {
+        "id": 590053118,
+        "name": "tartelet",
+        "full_name": "framna-dk/tartelet",
+        "description": "\u2699\ufe0f\ud83d\udcbb A macOS app that makes it a breeze to manage multiple GitHub Actions runners in ephemeral virtual machines on a single host machine. The benefits are that runners can run in parallel, and each job runs in an isolated environment.",
+        "url": "https://github.com/framna-dk/tartelet",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 757,
+        "forks": 46,
+        "open_issues": 32,
+        "created_at": "2023-01-17T14:58:02Z",
+        "updated_at": "2026-06-28T16:55:10Z",
+        "pushed_at": "2026-02-10T08:41:39Z",
+        "starred_at": "2026-06-28T16:55:09Z"
+      },
+      "last_updated": "2026-06-29T04:56:14.786521+00:00"
+    },
+    "fliperama86/superpico-digital": {
+      "lists": [],
+      "metadata": {
+        "id": 1137138039,
+        "name": "superpico-digital",
+        "full_name": "fliperama86/superpico-digital",
+        "description": "SuperPico Digital is a digital-to-digital HDMI mod for 2-chip SNES consoles using the Raspberry Pi Pico 2 (RP2350)",
+        "url": "https://github.com/fliperama86/superpico-digital",
+        "homepage": null,
+        "language": "C",
+        "stars": 35,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2026-01-19T00:58:07Z",
+        "updated_at": "2026-06-28T16:53:08Z",
+        "pushed_at": "2026-06-27T21:56:04Z",
+        "starred_at": "2026-06-28T16:53:07Z"
+      },
+      "last_updated": "2026-06-29T04:56:15.175458+00:00"
+    },
+    "itsthelore/wayfinder-router": {
+      "lists": [],
+      "metadata": {
+        "id": 1271892689,
+        "name": "wayfinder-router",
+        "full_name": "itsthelore/wayfinder-router",
+        "description": "Simple CLI tool for deterministic routing of queries between local and hosted LLM models",
+        "url": "https://github.com/itsthelore/wayfinder-router",
+        "homepage": null,
+        "language": "Python",
+        "stars": 225,
+        "forks": 15,
+        "open_issues": 2,
+        "created_at": "2026-06-17T05:24:57Z",
+        "updated_at": "2026-06-29T04:53:52Z",
+        "pushed_at": "2026-06-28T21:55:47Z",
+        "starred_at": "2026-06-28T16:50:48Z"
+      },
+      "last_updated": "2026-06-29T04:56:15.529738+00:00"
+    },
+    "dfd-tud/deda": {
+      "lists": [],
+      "metadata": {
+        "id": 120640836,
+        "name": "deda",
+        "full_name": "dfd-tud/deda",
+        "description": null,
+        "url": "https://github.com/dfd-tud/deda",
+        "homepage": "https://dfd.inf.tu-dresden.de",
+        "language": "Python",
+        "stars": 2514,
+        "forks": 116,
+        "open_issues": 5,
+        "created_at": "2018-02-07T16:29:30Z",
+        "updated_at": "2026-06-29T03:38:42Z",
+        "pushed_at": "2024-09-15T13:38:37Z",
+        "starred_at": "2026-06-28T16:22:31Z"
+      },
+      "last_updated": "2026-06-29T04:56:16.110182+00:00"
+    },
+    "QwenLM/Qwen": {
+      "lists": [],
+      "metadata": {
+        "id": 674075444,
+        "name": "Qwen",
+        "full_name": "QwenLM/Qwen",
+        "description": "The official repo of Qwen (\u901a\u4e49\u5343\u95ee) chat & pretrained large language model proposed by Alibaba Cloud.",
+        "url": "https://github.com/QwenLM/Qwen",
+        "homepage": "",
+        "language": "Python",
+        "stars": 21362,
+        "forks": 1839,
+        "open_issues": 42,
+        "created_at": "2023-08-03T04:56:38Z",
+        "updated_at": "2026-06-29T02:22:41Z",
+        "pushed_at": "2026-03-05T13:55:17Z",
+        "starred_at": "2026-06-28T15:12:07Z"
+      },
+      "last_updated": "2026-06-29T04:56:16.502762+00:00"
     }
   },
   "last_processed_index": 0,
@@ -236490,5 +236670,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e8ecef9c20733e10a575bd44266404ea2b96260c5713ed5d05c0f675cf286919\""
+  "profile_etag": "W/\"1115998e7e2396da374584a92ff4fe3df4ba4550451f869d43606dcbe79f8341\""
 }
