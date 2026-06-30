@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T04:47:37.109460+00:00",
+  "last_updated": "2026-06-30T04:52:07.016658+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236787,7 +236787,15 @@
         "pushed_at": "2026-03-22T09:31:24Z",
         "starred_at": "2026-06-30T03:38:28Z"
       },
-      "last_updated": "2026-06-30T04:43:59.677523+00:00"
+      "last_updated": "2026-06-30T04:43:59.677523+00:00",
+      "readme": {
+        "path": "readmes/diyhue+diyHue+README.md",
+        "etag": "W/\"a311c0c0c38937622c5efba363e6e7354a15cdc1\"",
+        "sha": "a311c0c0c38937622c5efba363e6e7354a15cdc1",
+        "size": 10794,
+        "fetched_at": "2026-06-30T04:52:07.008941+00:00",
+        "status": "ok"
+      }
     },
     "BatchDrake/SigDigger": {
       "lists": [
@@ -236809,7 +236817,15 @@
         "pushed_at": "2026-02-11T18:28:43Z",
         "starred_at": "2026-06-29T23:01:46Z"
       },
-      "last_updated": "2026-06-30T04:43:59.934506+00:00"
+      "last_updated": "2026-06-30T04:43:59.934506+00:00",
+      "readme": {
+        "path": "readmes/BatchDrake+SigDigger+README.md",
+        "etag": "W/\"5b474842ecedf798f0dfbd767823ff35f84ccd03\"",
+        "sha": "5b474842ecedf798f0dfbd767823ff35f84ccd03",
+        "size": 6707,
+        "fetched_at": "2026-06-30T04:52:06.366956+00:00",
+        "status": "ok"
+      }
     },
     "containerd/overlaybd": {
       "lists": [
@@ -236831,7 +236847,15 @@
         "pushed_at": "2026-06-24T08:01:10Z",
         "starred_at": "2026-06-29T17:11:14Z"
       },
-      "last_updated": "2026-06-30T04:44:00.188432+00:00"
+      "last_updated": "2026-06-30T04:44:00.188432+00:00",
+      "readme": {
+        "path": "readmes/containerd+overlaybd+README.md",
+        "etag": "W/\"34a096db2c325dd40574f2fa959c1137a877011f\"",
+        "sha": "34a096db2c325dd40574f2fa959c1137a877011f",
+        "size": 22467,
+        "fetched_at": "2026-06-30T04:52:06.781249+00:00",
+        "status": "ok"
+      }
     },
     "Open-Legal-Products/mike": {
       "lists": [
@@ -236854,7 +236878,15 @@
         "pushed_at": "2026-06-26T19:01:11Z",
         "starred_at": "2026-04-30T15:53:18Z"
       },
-      "last_updated": "2026-06-30T04:44:00.619895+00:00"
+      "last_updated": "2026-06-30T04:44:00.619895+00:00",
+      "readme": {
+        "path": "readmes/Open-Legal-Products+mike+README.md",
+        "etag": "W/\"249c1b0b8fd83298673043ff03fbac0d6b2dd3f8\"",
+        "sha": "249c1b0b8fd83298673043ff03fbac0d6b2dd3f8",
+        "size": 6870,
+        "fetched_at": "2026-06-30T04:52:06.541735+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
