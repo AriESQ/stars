@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T04:52:07.016658+00:00",
+  "last_updated": "2026-07-01T04:53:10.976844+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236887,6 +236887,46 @@
         "fetched_at": "2026-06-30T04:52:06.541735+00:00",
         "status": "ok"
       }
+    },
+    "kubernetes-retired/ingate": {
+      "lists": [],
+      "metadata": {
+        "id": 897541297,
+        "name": "ingate",
+        "full_name": "kubernetes-retired/ingate",
+        "description": "[EOL] InGate - an Ingress & Gateway API Controller",
+        "url": "https://github.com/kubernetes-retired/ingate",
+        "homepage": "https://kubernetes-retired.github.io/ingate/",
+        "language": "Go",
+        "stars": 728,
+        "forks": 20,
+        "open_issues": 5,
+        "created_at": "2024-12-02T20:06:39Z",
+        "updated_at": "2026-06-30T23:54:43Z",
+        "pushed_at": "2026-06-30T16:24:02Z",
+        "starred_at": "2025-04-06T18:14:08Z"
+      },
+      "last_updated": "2026-07-01T04:53:10.494970+00:00"
+    },
+    "diffbot/code-gpt-docs": {
+      "lists": [],
+      "metadata": {
+        "id": 586428671,
+        "name": "code-gpt-docs",
+        "full_name": "diffbot/code-gpt-docs",
+        "description": "Docusaurus page",
+        "url": "https://github.com/diffbot/code-gpt-docs",
+        "homepage": "https://codegpt.co",
+        "language": "JavaScript",
+        "stars": 663,
+        "forks": 107,
+        "open_issues": 26,
+        "created_at": "2023-01-08T05:00:53Z",
+        "updated_at": "2026-06-30T18:23:38Z",
+        "pushed_at": "2026-07-01T04:49:37Z",
+        "starred_at": "2023-10-27T19:16:23Z"
+      },
+      "last_updated": "2026-07-01T04:53:10.976781+00:00"
     }
   },
   "last_processed_index": 0,
@@ -236896,5 +236936,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"2ec05c6341e29aa45c7faa66a24c75967cad8249a23d58a09f7e80b19ef4c240\""
+  "profile_etag": "W/\"601c5236a75d1bd85044ec2154a05553606e3418569a4aefad91ea4b04c66b95\""
 }
