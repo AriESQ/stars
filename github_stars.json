@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T04:56:18.663247+00:00",
+  "last_updated": "2026-07-01T05:00:38.740548+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236908,7 +236908,15 @@
         "pushed_at": "2026-06-30T16:24:02Z",
         "starred_at": "2025-04-06T18:14:08Z"
       },
-      "last_updated": "2026-07-01T04:53:10.494970+00:00"
+      "last_updated": "2026-07-01T04:53:10.494970+00:00",
+      "readme": {
+        "path": "readmes/kubernetes-retired+ingate+README.md",
+        "etag": "W/\"a58313e8ce75918a560dcd0322316e19dfaead29\"",
+        "sha": "a58313e8ce75918a560dcd0322316e19dfaead29",
+        "size": 1448,
+        "fetched_at": "2026-07-01T05:00:38.735285+00:00",
+        "status": "ok"
+      }
     },
     "diffbot/code-gpt-docs": {
       "lists": [
@@ -236931,7 +236939,15 @@
         "pushed_at": "2026-07-01T04:49:37Z",
         "starred_at": "2023-10-27T19:16:23Z"
       },
-      "last_updated": "2026-07-01T04:53:10.976781+00:00"
+      "last_updated": "2026-07-01T04:53:10.976781+00:00",
+      "readme": {
+        "path": "readmes/diffbot+code-gpt-docs+README.md",
+        "etag": "W/\"8fdd8c4ea73126210648741fe6b028b34d8a99fc\"",
+        "sha": "8fdd8c4ea73126210648741fe6b028b34d8a99fc",
+        "size": 1834,
+        "fetched_at": "2026-07-01T05:00:38.360600+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
