@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T05:00:38.740548+00:00",
+  "last_updated": "2026-07-02T04:42:58.253815+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236948,6 +236948,346 @@
         "fetched_at": "2026-07-01T05:00:38.360600+00:00",
         "status": "ok"
       }
+    },
+    "pideck/pideck": {
+      "lists": [],
+      "metadata": {
+        "id": 67445089,
+        "name": "pideck",
+        "full_name": "pideck/pideck",
+        "description": "Setup scripts for PiDeck",
+        "url": "https://github.com/pideck/pideck",
+        "homepage": "http://pideck.com",
+        "language": "Python",
+        "stars": 141,
+        "forks": 20,
+        "open_issues": 91,
+        "created_at": "2016-09-05T19:12:54Z",
+        "updated_at": "2026-07-02T02:21:29Z",
+        "pushed_at": "2022-08-01T18:35:06Z",
+        "starred_at": "2026-07-02T02:21:29Z"
+      },
+      "last_updated": "2026-07-02T04:42:52.338012+00:00"
+    },
+    "phdussud/pico-dirtyJtag": {
+      "lists": [],
+      "metadata": {
+        "id": 356709409,
+        "name": "pico-dirtyJtag",
+        "full_name": "phdussud/pico-dirtyJtag",
+        "description": null,
+        "url": "https://github.com/phdussud/pico-dirtyJtag",
+        "homepage": null,
+        "language": "C",
+        "stars": 456,
+        "forks": 71,
+        "open_issues": 2,
+        "created_at": "2021-04-10T22:22:39Z",
+        "updated_at": "2026-07-02T02:17:07Z",
+        "pushed_at": "2026-04-04T15:51:22Z",
+        "starred_at": "2026-07-02T02:17:07Z"
+      },
+      "last_updated": "2026-07-02T04:42:52.688054+00:00"
+    },
+    "regymm/muzy": {
+      "lists": [],
+      "metadata": {
+        "id": 643151450,
+        "name": "muzy",
+        "full_name": "regymm/muzy",
+        "description": "2-layer and 4-layer FPGA development board with ZYNQ 7010/7020 400-pin BGA.  ",
+        "url": "https://github.com/regymm/muzy",
+        "homepage": "",
+        "language": null,
+        "stars": 30,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2023-05-20T08:58:59Z",
+        "updated_at": "2026-07-02T02:16:37Z",
+        "pushed_at": "2026-03-30T03:35:34Z",
+        "starred_at": "2026-07-02T02:16:36Z"
+      },
+      "last_updated": "2026-07-02T04:42:53.060883+00:00"
+    },
+    "studioimaginaire/phue": {
+      "lists": [],
+      "metadata": {
+        "id": 6679704,
+        "name": "phue",
+        "full_name": "studioimaginaire/phue",
+        "description": "A Python library for the Philips Hue system",
+        "url": "https://github.com/studioimaginaire/phue",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1568,
+        "forks": 267,
+        "open_issues": 78,
+        "created_at": "2012-11-13T23:39:15Z",
+        "updated_at": "2026-07-02T01:50:51Z",
+        "pushed_at": "2024-10-02T14:53:48Z",
+        "starred_at": "2026-07-02T01:50:50Z"
+      },
+      "last_updated": "2026-07-02T04:42:53.400956+00:00"
+    },
+    "rjw57/hdcp-genkey": {
+      "lists": [],
+      "metadata": {
+        "id": 918177,
+        "name": "hdcp-genkey",
+        "full_name": "rjw57/hdcp-genkey",
+        "description": "Generate HDCP source and sink keys from the leaked master key",
+        "url": "https://github.com/rjw57/hdcp-genkey",
+        "homepage": "",
+        "language": "Python",
+        "stars": 160,
+        "forks": 30,
+        "open_issues": 1,
+        "created_at": "2010-09-17T11:43:14Z",
+        "updated_at": "2026-07-02T01:42:28Z",
+        "pushed_at": "2021-10-07T16:41:53Z",
+        "starred_at": "2026-07-02T01:42:28Z"
+      },
+      "last_updated": "2026-07-02T04:42:53.832194+00:00"
+    },
+    "RedoXyde/cec2usb": {
+      "lists": [],
+      "metadata": {
+        "id": 229050508,
+        "name": "cec2usb",
+        "full_name": "RedoXyde/cec2usb",
+        "description": "HDMI CEC to USB keyboard device",
+        "url": "https://github.com/RedoXyde/cec2usb",
+        "homepage": "",
+        "language": "C",
+        "stars": 50,
+        "forks": 8,
+        "open_issues": 3,
+        "created_at": "2019-12-19T12:31:20Z",
+        "updated_at": "2026-07-02T01:28:11Z",
+        "pushed_at": "2020-04-23T19:48:19Z",
+        "starred_at": "2026-07-02T01:28:11Z"
+      },
+      "last_updated": "2026-07-02T04:42:54.179734+00:00"
+    },
+    "Nx-Nass/Nasscad_4.2.7": {
+      "lists": [],
+      "metadata": {
+        "id": 1222551432,
+        "name": "Nasscad_4.2.7",
+        "full_name": "Nx-Nass/Nasscad_4.2.7",
+        "description": "Offline single-file 3D CAD \u2014 Manifold WASM CSG / Three.js ",
+        "url": "https://github.com/Nx-Nass/Nasscad_4.2.7",
+        "homepage": "https://www.nasscad.com/",
+        "language": "HTML",
+        "stars": 51,
+        "forks": 2,
+        "open_issues": 1,
+        "created_at": "2026-04-27T13:28:35Z",
+        "updated_at": "2026-07-02T00:07:40Z",
+        "pushed_at": "2026-06-25T03:18:05Z",
+        "starred_at": "2026-07-02T00:07:40Z"
+      },
+      "last_updated": "2026-07-02T04:42:54.531894+00:00"
+    },
+    "openscad/openscad-wasm": {
+      "lists": [],
+      "metadata": {
+        "id": 460258619,
+        "name": "openscad-wasm",
+        "full_name": "openscad/openscad-wasm",
+        "description": "Webassembly port of OpenSCAD",
+        "url": "https://github.com/openscad/openscad-wasm",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 401,
+        "forks": 63,
+        "open_issues": 7,
+        "created_at": "2022-02-17T02:51:18Z",
+        "updated_at": "2026-07-02T00:06:30Z",
+        "pushed_at": "2025-12-15T23:05:59Z",
+        "starred_at": "2026-07-02T00:06:30Z"
+      },
+      "last_updated": "2026-07-02T04:42:54.904267+00:00"
+    },
+    "openscad/openscad-playground": {
+      "lists": [],
+      "metadata": {
+        "id": 465907119,
+        "name": "openscad-playground",
+        "full_name": "openscad/openscad-playground",
+        "description": "OpenSCAD Web Playground",
+        "url": "https://github.com/openscad/openscad-playground",
+        "homepage": "https://ochafik.com/openscad2",
+        "language": "TypeScript",
+        "stars": 422,
+        "forks": 160,
+        "open_issues": 35,
+        "created_at": "2022-03-03T22:38:46Z",
+        "updated_at": "2026-07-02T00:06:09Z",
+        "pushed_at": "2026-07-01T09:53:41Z",
+        "starred_at": "2026-07-02T00:06:08Z"
+      },
+      "last_updated": "2026-07-02T04:42:55.253931+00:00"
+    },
+    "pgdr/moreutils": {
+      "lists": [],
+      "metadata": {
+        "id": 313869204,
+        "name": "moreutils",
+        "full_name": "pgdr/moreutils",
+        "description": "moreutils is a growing collection of the unix tools that nobody thought to write long ago when unix was young.  Read-only version of `git://git.joeyh.name/moreutils`",
+        "url": "https://github.com/pgdr/moreutils",
+        "homepage": "https://joeyh.name/code/moreutils/",
+        "language": "Shell",
+        "stars": 55,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2020-11-18T08:27:23Z",
+        "updated_at": "2026-07-01T23:53:18Z",
+        "pushed_at": "2025-08-04T08:19:19Z",
+        "starred_at": "2026-07-01T23:53:18Z"
+      },
+      "last_updated": "2026-07-02T04:42:55.640539+00:00"
+    },
+    "fwcd/midilink": {
+      "lists": [],
+      "metadata": {
+        "id": 786582873,
+        "name": "midilink",
+        "full_name": "fwcd/midilink",
+        "description": "Mixxx MIDI to Ableton Link adapter",
+        "url": "https://github.com/fwcd/midilink",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 14,
+        "forks": 0,
+        "open_issues": 5,
+        "created_at": "2024-04-14T22:14:02Z",
+        "updated_at": "2026-07-01T22:06:43Z",
+        "pushed_at": "2024-04-17T17:58:39Z",
+        "starred_at": "2026-07-01T22:06:43Z"
+      },
+      "last_updated": "2026-07-02T04:42:56.005286+00:00"
+    },
+    "GomuSkelly/MozAIk": {
+      "lists": [],
+      "metadata": {
+        "id": 910946714,
+        "name": "MozAIk",
+        "full_name": "GomuSkelly/MozAIk",
+        "description": "Generative A\\VJ System",
+        "url": "https://github.com/GomuSkelly/MozAIk",
+        "homepage": "",
+        "language": null,
+        "stars": 31,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2025-01-01T21:44:04Z",
+        "updated_at": "2026-07-01T22:06:29Z",
+        "pushed_at": "2025-01-08T20:16:53Z",
+        "starred_at": "2026-07-01T22:06:28Z"
+      },
+      "last_updated": "2026-07-02T04:42:56.362132+00:00"
+    },
+    "ElHanko/mixxx-ddj-flx4-mapping": {
+      "lists": [],
+      "metadata": {
+        "id": 1175279858,
+        "name": "mixxx-ddj-flx4-mapping",
+        "full_name": "ElHanko/mixxx-ddj-flx4-mapping",
+        "description": "Custom Mixxx mapping for the Pioneer DDJ-FLX4 with improved FX, pads and workflow",
+        "url": "https://github.com/ElHanko/mixxx-ddj-flx4-mapping",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-07T13:47:43Z",
+        "updated_at": "2026-07-01T22:04:42Z",
+        "pushed_at": "2026-06-30T18:12:21Z",
+        "starred_at": "2026-07-01T22:04:41Z"
+      },
+      "last_updated": "2026-07-02T04:42:56.832152+00:00"
+    },
+    "Radexito/DjManager": {
+      "lists": [],
+      "metadata": {
+        "id": 1141256983,
+        "name": "DjManager",
+        "full_name": "Radexito/DjManager",
+        "description": "Your music library, built for DJs. Import tracks, analyse BPM and key automatically, build playlists, and prepare sets \u2014 all offline, all on your machine.",
+        "url": "https://github.com/Radexito/DjManager",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 15,
+        "forks": 1,
+        "open_issues": 93,
+        "created_at": "2026-01-24T14:42:09Z",
+        "updated_at": "2026-07-01T22:04:28Z",
+        "pushed_at": "2026-06-29T12:15:22Z",
+        "starred_at": "2026-07-01T22:04:27Z"
+      },
+      "last_updated": "2026-07-02T04:42:57.164938+00:00"
+    },
+    "bvobart/pi-dj": {
+      "lists": [],
+      "metadata": {
+        "id": 647484855,
+        "name": "pi-dj",
+        "full_name": "bvobart/pi-dj",
+        "description": "An operating system to turn your Raspberry Pi 4 into a standalone, portable DJ controller",
+        "url": "https://github.com/bvobart/pi-dj",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 19,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-05-30T22:14:10Z",
+        "updated_at": "2026-07-01T22:04:22Z",
+        "pushed_at": "2024-09-29T19:13:21Z",
+        "starred_at": "2026-07-01T22:04:21Z"
+      },
+      "last_updated": "2026-07-02T04:42:57.538587+00:00"
+    },
+    "fwcd/m1xxx": {
+      "lists": [],
+      "metadata": {
+        "id": 497056429,
+        "name": "m1xxx",
+        "full_name": "fwcd/m1xxx",
+        "description": "Unofficial native Mixxx builds for macOS (Apple Silicon/Intel) and Linux",
+        "url": "https://github.com/fwcd/m1xxx",
+        "homepage": "",
+        "language": "Python",
+        "stars": 48,
+        "forks": 8,
+        "open_issues": 16,
+        "created_at": "2022-05-27T15:58:03Z",
+        "updated_at": "2026-07-01T21:55:50Z",
+        "pushed_at": "2025-08-29T01:51:47Z",
+        "starred_at": "2026-07-01T21:55:50Z"
+      },
+      "last_updated": "2026-07-02T04:42:57.899898+00:00"
+    },
+    "pkimetal/pkimetal": {
+      "lists": [],
+      "metadata": {
+        "id": 720001383,
+        "name": "pkimetal",
+        "full_name": "pkimetal/pkimetal",
+        "description": "PKI Meta-Linter",
+        "url": "https://github.com/pkimetal/pkimetal",
+        "homepage": "https://pkimet.al/",
+        "language": "Go",
+        "stars": 123,
+        "forks": 16,
+        "open_issues": 2,
+        "created_at": "2023-11-17T11:12:10Z",
+        "updated_at": "2026-07-01T22:39:19Z",
+        "pushed_at": "2026-07-01T17:57:01Z",
+        "starred_at": "2026-07-01T17:59:20Z"
+      },
+      "last_updated": "2026-07-02T04:42:58.253716+00:00"
     }
   },
   "last_processed_index": 0,
@@ -236957,5 +237297,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"601c5236a75d1bd85044ec2154a05553606e3418569a4aefad91ea4b04c66b95\""
+  "profile_etag": "W/\"cf9d52d94d0a0361a6e1c1e6e8e659cea4f140807da93370c36c5884336d40c1\""
 }
