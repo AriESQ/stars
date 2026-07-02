@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T04:48:39.993912+00:00",
+  "last_updated": "2026-07-02T04:49:05.603084+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -236971,7 +236971,15 @@
         "pushed_at": "2022-08-01T18:35:06Z",
         "starred_at": "2026-07-02T02:21:29Z"
       },
-      "last_updated": "2026-07-02T04:42:52.338012+00:00"
+      "last_updated": "2026-07-02T04:42:52.338012+00:00",
+      "readme": {
+        "path": "readmes/pideck+pideck+README.md",
+        "etag": "W/\"90fdf80e7ec918288a62a36c86b0f5152e2152bb\"",
+        "sha": "90fdf80e7ec918288a62a36c86b0f5152e2152bb",
+        "size": 1333,
+        "fetched_at": "2026-07-02T04:49:04.498080+00:00",
+        "status": "ok"
+      }
     },
     "phdussud/pico-dirtyJtag": {
       "lists": [
@@ -236993,7 +237001,15 @@
         "pushed_at": "2026-04-04T15:51:22Z",
         "starred_at": "2026-07-02T02:17:07Z"
       },
-      "last_updated": "2026-07-02T04:42:52.688054+00:00"
+      "last_updated": "2026-07-02T04:42:52.688054+00:00",
+      "readme": {
+        "path": "readmes/phdussud+pico-dirtyJtag+README.md",
+        "etag": "W/\"1a868ec71504b69f66ec8b44199a3baf7cf44b1c\"",
+        "sha": "1a868ec71504b69f66ec8b44199a3baf7cf44b1c",
+        "size": 4690,
+        "fetched_at": "2026-07-02T04:49:04.249072+00:00",
+        "status": "ok"
+      }
     },
     "regymm/muzy": {
       "lists": [
@@ -237016,7 +237032,15 @@
         "pushed_at": "2026-03-30T03:35:34Z",
         "starred_at": "2026-07-02T02:16:36Z"
       },
-      "last_updated": "2026-07-02T04:42:53.060883+00:00"
+      "last_updated": "2026-07-02T04:42:53.060883+00:00",
+      "readme": {
+        "path": "readmes/regymm+muzy+README.md",
+        "etag": "W/\"5b412f8b5a53130053d860112cddafc0cfea533a\"",
+        "sha": "5b412f8b5a53130053d860112cddafc0cfea533a",
+        "size": 2165,
+        "fetched_at": "2026-07-02T04:49:05.001928+00:00",
+        "status": "ok"
+      }
     },
     "studioimaginaire/phue": {
       "lists": [
@@ -237039,7 +237063,15 @@
         "pushed_at": "2024-10-02T14:53:48Z",
         "starred_at": "2026-07-02T01:50:50Z"
       },
-      "last_updated": "2026-07-02T04:42:53.400956+00:00"
+      "last_updated": "2026-07-02T04:42:53.400956+00:00",
+      "readme": {
+        "path": "readmes/studioimaginaire+phue+README.md",
+        "etag": "W/\"4142465e0bf73d9e07a2d2f5698b898a31aa4f07\"",
+        "sha": "4142465e0bf73d9e07a2d2f5698b898a31aa4f07",
+        "size": 7190,
+        "fetched_at": "2026-07-02T04:49:05.600845+00:00",
+        "status": "ok"
+      }
     },
     "rjw57/hdcp-genkey": {
       "lists": [
@@ -237062,7 +237094,15 @@
         "pushed_at": "2021-10-07T16:41:53Z",
         "starred_at": "2026-07-02T01:42:28Z"
       },
-      "last_updated": "2026-07-02T04:42:53.832194+00:00"
+      "last_updated": "2026-07-02T04:42:53.832194+00:00",
+      "readme": {
+        "path": "readmes/rjw57+hdcp-genkey+README.md",
+        "etag": "W/\"4747f2a89417665004550f31afc772d36f868b39\"",
+        "sha": "4747f2a89417665004550f31afc772d36f868b39",
+        "size": 984,
+        "fetched_at": "2026-07-02T04:49:05.290159+00:00",
+        "status": "ok"
+      }
     },
     "RedoXyde/cec2usb": {
       "lists": [
@@ -237085,7 +237125,15 @@
         "pushed_at": "2020-04-23T19:48:19Z",
         "starred_at": "2026-07-02T01:28:11Z"
       },
-      "last_updated": "2026-07-02T04:42:54.179734+00:00"
+      "last_updated": "2026-07-02T04:42:54.179734+00:00",
+      "readme": {
+        "path": "readmes/RedoXyde+cec2usb+README",
+        "etag": "W/\"87d67e1a741274ded6c48419479fffab96005319\"",
+        "sha": "87d67e1a741274ded6c48419479fffab96005319",
+        "size": 42,
+        "fetched_at": "2026-07-02T04:49:02.150156+00:00",
+        "status": "ok"
+      }
     },
     "Nx-Nass/Nasscad_4.2.7": {
       "lists": [
@@ -237108,7 +237156,15 @@
         "pushed_at": "2026-06-25T03:18:05Z",
         "starred_at": "2026-07-02T00:07:40Z"
       },
-      "last_updated": "2026-07-02T04:42:54.531894+00:00"
+      "last_updated": "2026-07-02T04:42:54.531894+00:00",
+      "readme": {
+        "path": "readmes/Nx-Nass+Nasscad_4.2.7+README.md",
+        "etag": "W/\"6d886a215b6d03b8cc6b638a4e64b6689e7c7fa2\"",
+        "sha": "6d886a215b6d03b8cc6b638a4e64b6689e7c7fa2",
+        "size": 3885,
+        "fetched_at": "2026-07-02T04:49:01.572518+00:00",
+        "status": "ok"
+      }
     },
     "openscad/openscad-wasm": {
       "lists": [
@@ -237131,7 +237187,15 @@
         "pushed_at": "2025-12-15T23:05:59Z",
         "starred_at": "2026-07-02T00:06:30Z"
       },
-      "last_updated": "2026-07-02T04:42:54.904267+00:00"
+      "last_updated": "2026-07-02T04:42:54.904267+00:00",
+      "readme": {
+        "path": "readmes/openscad+openscad-wasm+README.md",
+        "etag": "W/\"18e5e7bcb2318b22e451d347c8a4e41ca09d9bc6\"",
+        "sha": "18e5e7bcb2318b22e451d347c8a4e41ca09d9bc6",
+        "size": 2406,
+        "fetched_at": "2026-07-02T04:49:03.663414+00:00",
+        "status": "ok"
+      }
     },
     "openscad/openscad-playground": {
       "lists": [
@@ -237154,7 +237218,15 @@
         "pushed_at": "2026-07-01T09:53:41Z",
         "starred_at": "2026-07-02T00:06:08Z"
       },
-      "last_updated": "2026-07-02T04:42:55.253931+00:00"
+      "last_updated": "2026-07-02T04:42:55.253931+00:00",
+      "readme": {
+        "path": "readmes/openscad+openscad-playground+README.md",
+        "etag": "W/\"6b1768d66d141b1b8f3393c8e685a8a6863ace36\"",
+        "sha": "6b1768d66d141b1b8f3393c8e685a8a6863ace36",
+        "size": 6809,
+        "fetched_at": "2026-07-02T04:49:03.374177+00:00",
+        "status": "ok"
+      }
     },
     "pgdr/moreutils": {
       "lists": [
@@ -237176,7 +237248,15 @@
         "pushed_at": "2025-08-04T08:19:19Z",
         "starred_at": "2026-07-01T23:53:18Z"
       },
-      "last_updated": "2026-07-02T04:42:55.640539+00:00"
+      "last_updated": "2026-07-02T04:42:55.640539+00:00",
+      "readme": {
+        "path": "readmes/pgdr+moreutils+README",
+        "etag": "W/\"e3511bacd26614d6a1b28c0e634bdca9c02f5a48\"",
+        "sha": "e3511bacd26614d6a1b28c0e634bdca9c02f5a48",
+        "size": 1482,
+        "fetched_at": "2026-07-02T04:49:03.956634+00:00",
+        "status": "ok"
+      }
     },
     "fwcd/midilink": {
       "lists": [
@@ -237199,7 +237279,15 @@
         "pushed_at": "2024-04-17T17:58:39Z",
         "starred_at": "2026-07-01T22:06:43Z"
       },
-      "last_updated": "2026-07-02T04:42:56.005286+00:00"
+      "last_updated": "2026-07-02T04:42:56.005286+00:00",
+      "readme": {
+        "path": "readmes/fwcd+midilink+README.md",
+        "etag": "W/\"3d7f0d208f960eaf3d66c92b04d705633a95f313\"",
+        "sha": "3d7f0d208f960eaf3d66c92b04d705633a95f313",
+        "size": 416,
+        "fetched_at": "2026-07-02T04:49:03.131406+00:00",
+        "status": "ok"
+      }
     },
     "GomuSkelly/MozAIk": {
       "lists": [
@@ -237221,7 +237309,15 @@
         "pushed_at": "2025-01-08T20:16:53Z",
         "starred_at": "2026-07-01T22:06:28Z"
       },
-      "last_updated": "2026-07-02T04:42:56.362132+00:00"
+      "last_updated": "2026-07-02T04:42:56.362132+00:00",
+      "readme": {
+        "path": "readmes/GomuSkelly+MozAIk+README.md",
+        "etag": "W/\"0d57cdc9eac93ab5b26e991dbf26ee0dc46e9cf2\"",
+        "sha": "0d57cdc9eac93ab5b26e991dbf26ee0dc46e9cf2",
+        "size": 1240,
+        "fetched_at": "2026-07-02T04:49:01.332104+00:00",
+        "status": "ok"
+      }
     },
     "ElHanko/mixxx-ddj-flx4-mapping": {
       "lists": [
@@ -237243,7 +237339,15 @@
         "pushed_at": "2026-06-30T18:12:21Z",
         "starred_at": "2026-07-01T22:04:41Z"
       },
-      "last_updated": "2026-07-02T04:42:56.832152+00:00"
+      "last_updated": "2026-07-02T04:42:56.832152+00:00",
+      "readme": {
+        "path": "readmes/ElHanko+mixxx-ddj-flx4-mapping+README.md",
+        "etag": "W/\"670896833f498a4f3ed4d2b50ecff53dad724901\"",
+        "sha": "670896833f498a4f3ed4d2b50ecff53dad724901",
+        "size": 3081,
+        "fetched_at": "2026-07-02T04:49:01.056300+00:00",
+        "status": "ok"
+      }
     },
     "Radexito/DjManager": {
       "lists": [
@@ -237265,7 +237369,15 @@
         "pushed_at": "2026-06-29T12:15:22Z",
         "starred_at": "2026-07-01T22:04:27Z"
       },
-      "last_updated": "2026-07-02T04:42:57.164938+00:00"
+      "last_updated": "2026-07-02T04:42:57.164938+00:00",
+      "readme": {
+        "path": "readmes/Radexito+DjManager+readme.md",
+        "etag": "W/\"6ac9ebdfaa2cc799dfdb947c0109c054db1d452b\"",
+        "sha": "6ac9ebdfaa2cc799dfdb947c0109c054db1d452b",
+        "size": 8644,
+        "fetched_at": "2026-07-02T04:49:01.869649+00:00",
+        "status": "ok"
+      }
     },
     "bvobart/pi-dj": {
       "lists": [
@@ -237288,7 +237400,15 @@
         "pushed_at": "2024-09-29T19:13:21Z",
         "starred_at": "2026-07-01T22:04:21Z"
       },
-      "last_updated": "2026-07-02T04:42:57.538587+00:00"
+      "last_updated": "2026-07-02T04:42:57.538587+00:00",
+      "readme": {
+        "path": "readmes/bvobart+pi-dj+ReadMe.md",
+        "etag": "W/\"fbd01685c2db3ae44fabeea25dbf04eba4d01269\"",
+        "sha": "fbd01685c2db3ae44fabeea25dbf04eba4d01269",
+        "size": 955,
+        "fetched_at": "2026-07-02T04:49:02.490886+00:00",
+        "status": "ok"
+      }
     },
     "fwcd/m1xxx": {
       "lists": [
@@ -237312,7 +237432,15 @@
         "pushed_at": "2025-08-29T01:51:47Z",
         "starred_at": "2026-07-01T21:55:50Z"
       },
-      "last_updated": "2026-07-02T04:42:57.899898+00:00"
+      "last_updated": "2026-07-02T04:42:57.899898+00:00",
+      "readme": {
+        "path": "readmes/fwcd+m1xxx+README.md",
+        "etag": "W/\"e7a3a76a02875b1866420f928a9102ac33e0bac6\"",
+        "sha": "e7a3a76a02875b1866420f928a9102ac33e0bac6",
+        "size": 2499,
+        "fetched_at": "2026-07-02T04:49:02.806207+00:00",
+        "status": "ok"
+      }
     },
     "pkimetal/pkimetal": {
       "lists": [
@@ -237338,7 +237466,15 @@
         "pushed_at": "2026-07-01T17:57:01Z",
         "starred_at": "2026-07-01T17:59:20Z"
       },
-      "last_updated": "2026-07-02T04:42:58.253716+00:00"
+      "last_updated": "2026-07-02T04:42:58.253716+00:00",
+      "readme": {
+        "path": "readmes/pkimetal+pkimetal+README.md",
+        "etag": "W/\"d9d158176f7f1ff14d8b1ecdbf2e65df81a6c8ef\"",
+        "sha": "d9d158176f7f1ff14d8b1ecdbf2e65df81a6c8ef",
+        "size": 10443,
+        "fetched_at": "2026-07-02T04:49:04.712770+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
