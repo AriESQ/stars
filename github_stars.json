@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T04:42:58.253815+00:00",
+  "last_updated": "2026-07-02T04:48:39.993912+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -168274,7 +168274,8 @@
     },
     "Pulse-Eight/libcec": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Music and Video"
       ],
       "metadata": {
         "id": 16184296,
@@ -236950,7 +236951,10 @@
       }
     },
     "pideck/pideck": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 67445089,
         "name": "pideck",
@@ -236970,7 +236974,9 @@
       "last_updated": "2026-07-02T04:42:52.338012+00:00"
     },
     "phdussud/pico-dirtyJtag": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 356709409,
         "name": "pico-dirtyJtag",
@@ -236990,7 +236996,10 @@
       "last_updated": "2026-07-02T04:42:52.688054+00:00"
     },
     "regymm/muzy": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 643151450,
         "name": "muzy",
@@ -237010,7 +237019,10 @@
       "last_updated": "2026-07-02T04:42:53.060883+00:00"
     },
     "studioimaginaire/phue": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 6679704,
         "name": "phue",
@@ -237030,7 +237042,10 @@
       "last_updated": "2026-07-02T04:42:53.400956+00:00"
     },
     "rjw57/hdcp-genkey": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 918177,
         "name": "hdcp-genkey",
@@ -237050,7 +237065,10 @@
       "last_updated": "2026-07-02T04:42:53.832194+00:00"
     },
     "RedoXyde/cec2usb": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 229050508,
         "name": "cec2usb",
@@ -237070,7 +237088,10 @@
       "last_updated": "2026-07-02T04:42:54.179734+00:00"
     },
     "Nx-Nass/Nasscad_4.2.7": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 1222551432,
         "name": "Nasscad_4.2.7",
@@ -237090,7 +237111,10 @@
       "last_updated": "2026-07-02T04:42:54.531894+00:00"
     },
     "openscad/openscad-wasm": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 460258619,
         "name": "openscad-wasm",
@@ -237110,7 +237134,10 @@
       "last_updated": "2026-07-02T04:42:54.904267+00:00"
     },
     "openscad/openscad-playground": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 465907119,
         "name": "openscad-playground",
@@ -237130,7 +237157,9 @@
       "last_updated": "2026-07-02T04:42:55.253931+00:00"
     },
     "pgdr/moreutils": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 313869204,
         "name": "moreutils",
@@ -237150,7 +237179,10 @@
       "last_updated": "2026-07-02T04:42:55.640539+00:00"
     },
     "fwcd/midilink": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 786582873,
         "name": "midilink",
@@ -237170,7 +237202,9 @@
       "last_updated": "2026-07-02T04:42:56.005286+00:00"
     },
     "GomuSkelly/MozAIk": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 910946714,
         "name": "MozAIk",
@@ -237190,7 +237224,9 @@
       "last_updated": "2026-07-02T04:42:56.362132+00:00"
     },
     "ElHanko/mixxx-ddj-flx4-mapping": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1175279858,
         "name": "mixxx-ddj-flx4-mapping",
@@ -237210,7 +237246,9 @@
       "last_updated": "2026-07-02T04:42:56.832152+00:00"
     },
     "Radexito/DjManager": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1141256983,
         "name": "DjManager",
@@ -237230,7 +237268,10 @@
       "last_updated": "2026-07-02T04:42:57.164938+00:00"
     },
     "bvobart/pi-dj": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 647484855,
         "name": "pi-dj",
@@ -237250,7 +237291,11 @@
       "last_updated": "2026-07-02T04:42:57.538587+00:00"
     },
     "fwcd/m1xxx": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 497056429,
         "name": "m1xxx",
@@ -237270,7 +237315,13 @@
       "last_updated": "2026-07-02T04:42:57.899898+00:00"
     },
     "pkimetal/pkimetal": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Devops",
+        "GoLang",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 720001383,
         "name": "pkimetal",
