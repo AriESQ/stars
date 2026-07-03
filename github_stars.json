@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T06:49:26.586170+00:00",
+  "last_updated": "2026-07-03T06:49:56.535641+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237496,7 +237496,15 @@
         "pushed_at": "2026-06-29T12:06:33Z",
         "starred_at": "2026-07-03T00:45:56Z"
       },
-      "last_updated": "2026-07-03T06:43:47.748602+00:00"
+      "last_updated": "2026-07-03T06:43:47.748602+00:00",
+      "readme": {
+        "path": "readmes/BelfrySCAD+BOSL2+README.md",
+        "etag": "W/\"dc0d51d072bbecc6957bb7a060cabc384fed535f\"",
+        "sha": "dc0d51d072bbecc6957bb7a060cabc384fed535f",
+        "size": 10771,
+        "fetched_at": "2026-07-03T06:49:54.949690+00:00",
+        "status": "ok"
+      }
     },
     "Skelmis/Discord-Anti-Spam": {
       "lists": [
@@ -237519,7 +237527,15 @@
         "pushed_at": "2025-05-25T04:31:16Z",
         "starred_at": "2026-07-02T22:37:36Z"
       },
-      "last_updated": "2026-07-03T06:43:47.976289+00:00"
+      "last_updated": "2026-07-03T06:43:47.976289+00:00",
+      "readme": {
+        "path": "readmes/Skelmis+Discord-Anti-Spam+readme.md",
+        "etag": "W/\"84eb9060de938ee46b12a9d3507f89a3c4c5d745\"",
+        "sha": "84eb9060de938ee46b12a9d3507f89a3c4c5d745",
+        "size": 2125,
+        "fetched_at": "2026-07-03T06:49:55.480625+00:00",
+        "status": "ok"
+      }
     },
     "pwpearson/OpenSCAD_3D_Text_Generator": {
       "lists": [
@@ -237542,7 +237558,15 @@
         "pushed_at": "2020-01-10T18:34:14Z",
         "starred_at": "2026-07-02T21:31:11Z"
       },
-      "last_updated": "2026-07-03T06:43:48.218793+00:00"
+      "last_updated": "2026-07-03T06:43:48.218793+00:00",
+      "readme": {
+        "path": "readmes/pwpearson+OpenSCAD_3D_Text_Generator+README.md",
+        "etag": "W/\"6204a003a760273e27b8a5a8bff73294cc827583\"",
+        "sha": "6204a003a760273e27b8a5a8bff73294cc827583",
+        "size": 1251,
+        "fetched_at": "2026-07-03T06:49:56.243450+00:00",
+        "status": "ok"
+      }
     },
     "mapbox/earcut": {
       "lists": [
@@ -237564,7 +237588,15 @@
         "pushed_at": "2026-07-02T10:18:32Z",
         "starred_at": "2026-07-02T17:09:04Z"
       },
-      "last_updated": "2026-07-03T06:43:48.481788+00:00"
+      "last_updated": "2026-07-03T06:43:48.481788+00:00",
+      "readme": {
+        "path": "readmes/mapbox+earcut+README.md",
+        "etag": "W/\"c9005b969e61936bd7bd3298993e57e83fe077ab\"",
+        "sha": "c9005b969e61936bd7bd3298993e57e83fe077ab",
+        "size": 7300,
+        "fetched_at": "2026-07-03T06:49:55.693498+00:00",
+        "status": "ok"
+      }
     },
     "shuang0906/p5-hershey-js": {
       "lists": [
@@ -237587,7 +237619,15 @@
         "pushed_at": "2026-02-27T03:33:51Z",
         "starred_at": "2026-07-02T15:20:32Z"
       },
-      "last_updated": "2026-07-03T06:43:48.784823+00:00"
+      "last_updated": "2026-07-03T06:43:48.784823+00:00",
+      "readme": {
+        "path": "readmes/shuang0906+p5-hershey-js+README.md",
+        "etag": "W/\"df971454de56839b3989a01c600c51d051b6a4c2\"",
+        "sha": "df971454de56839b3989a01c600c51d051b6a4c2",
+        "size": 3816,
+        "fetched_at": "2026-07-03T06:49:56.533746+00:00",
+        "status": "ok"
+      }
     },
     "Simandy/creativecoding_2026": {
       "lists": [
@@ -237610,7 +237650,15 @@
         "pushed_at": "2026-05-20T07:05:55Z",
         "starred_at": "2026-07-02T15:16:56Z"
       },
-      "last_updated": "2026-07-03T06:43:49.070135+00:00"
+      "last_updated": "2026-07-03T06:43:49.070135+00:00",
+      "readme": {
+        "path": "readmes/Simandy+creativecoding_2026+README.md",
+        "etag": "W/\"f04df616bd63262b7f19d2d63601502a1d28f68a\"",
+        "sha": "f04df616bd63262b7f19d2d63601502a1d28f68a",
+        "size": 4770,
+        "fetched_at": "2026-07-03T06:49:55.209568+00:00",
+        "status": "ok"
+      }
     },
     "processing/processing-pi-website": {
       "lists": [
@@ -237633,7 +237681,15 @@
         "pushed_at": "2019-04-05T23:08:07Z",
         "starred_at": "2026-07-02T14:59:07Z"
       },
-      "last_updated": "2026-07-03T06:43:49.323487+00:00"
+      "last_updated": "2026-07-03T06:43:49.323487+00:00",
+      "readme": {
+        "path": "readmes/processing+processing-pi-website+README.md",
+        "etag": "W/\"b02bea46a4be5fdb5ed0e719638bf921a180d2da\"",
+        "sha": "b02bea46a4be5fdb5ed0e719638bf921a180d2da",
+        "size": 2992,
+        "fetched_at": "2026-07-03T06:49:55.974565+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
