@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T04:49:05.603084+00:00",
+  "last_updated": "2026-07-03T06:43:49.323601+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237475,6 +237475,146 @@
         "fetched_at": "2026-07-02T04:49:04.712770+00:00",
         "status": "ok"
       }
+    },
+    "BelfrySCAD/BOSL2": {
+      "lists": [],
+      "metadata": {
+        "id": 182187489,
+        "name": "BOSL2",
+        "full_name": "BelfrySCAD/BOSL2",
+        "description": "The Belfry OpenScad Library, v2.0.  An OpenSCAD library of shapes, masks, and manipulators to make working with OpenSCAD easier.  BETA",
+        "url": "https://github.com/BelfrySCAD/BOSL2",
+        "homepage": "https://github.com/BelfrySCAD/BOSL2/wiki",
+        "language": "OpenSCAD",
+        "stars": 2237,
+        "forks": 198,
+        "open_issues": 36,
+        "created_at": "2019-04-19T02:23:17Z",
+        "updated_at": "2026-07-03T00:45:57Z",
+        "pushed_at": "2026-06-29T12:06:33Z",
+        "starred_at": "2026-07-03T00:45:56Z"
+      },
+      "last_updated": "2026-07-03T06:43:47.748602+00:00"
+    },
+    "Skelmis/Discord-Anti-Spam": {
+      "lists": [],
+      "metadata": {
+        "id": 296020250,
+        "name": "Discord-Anti-Spam",
+        "full_name": "Skelmis/Discord-Anti-Spam",
+        "description": "Ever wanted a bot to automatically deal with spammers? This is your Python library for it.",
+        "url": "https://github.com/Skelmis/Discord-Anti-Spam",
+        "homepage": "https://dpy-anti-spam.readthedocs.io/",
+        "language": "Python",
+        "stars": 78,
+        "forks": 17,
+        "open_issues": 1,
+        "created_at": "2020-09-16T12:04:35Z",
+        "updated_at": "2026-07-02T22:37:37Z",
+        "pushed_at": "2025-05-25T04:31:16Z",
+        "starred_at": "2026-07-02T22:37:36Z"
+      },
+      "last_updated": "2026-07-03T06:43:47.976289+00:00"
+    },
+    "pwpearson/OpenSCAD_3D_Text_Generator": {
+      "lists": [],
+      "metadata": {
+        "id": 232867169,
+        "name": "OpenSCAD_3D_Text_Generator",
+        "full_name": "pwpearson/OpenSCAD_3D_Text_Generator",
+        "description": "Phil Greenland's - OpenSCAD 3D Text Generator",
+        "url": "https://github.com/pwpearson/OpenSCAD_3D_Text_Generator",
+        "homepage": "https://www.thingiverse.com/thing:59817",
+        "language": "OpenSCAD",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2020-01-09T17:35:21Z",
+        "updated_at": "2026-07-02T21:31:12Z",
+        "pushed_at": "2020-01-10T18:34:14Z",
+        "starred_at": "2026-07-02T21:31:11Z"
+      },
+      "last_updated": "2026-07-03T06:43:48.218793+00:00"
+    },
+    "mapbox/earcut": {
+      "lists": [],
+      "metadata": {
+        "id": 29352975,
+        "name": "earcut",
+        "full_name": "mapbox/earcut",
+        "description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+        "url": "https://github.com/mapbox/earcut",
+        "homepage": "https://mapbox.github.io/earcut/viz/",
+        "language": "JavaScript",
+        "stars": 2549,
+        "forks": 222,
+        "open_issues": 0,
+        "created_at": "2015-01-16T15:00:29Z",
+        "updated_at": "2026-07-03T06:25:41Z",
+        "pushed_at": "2026-07-02T10:18:32Z",
+        "starred_at": "2026-07-02T17:09:04Z"
+      },
+      "last_updated": "2026-07-03T06:43:48.481788+00:00"
+    },
+    "shuang0906/p5-hershey-js": {
+      "lists": [],
+      "metadata": {
+        "id": 1090162585,
+        "name": "p5-hershey-js",
+        "full_name": "shuang0906/p5-hershey-js",
+        "description": "p5.js Hershey Vector Font Library",
+        "url": "https://github.com/shuang0906/p5-hershey-js",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-11-05T09:57:36Z",
+        "updated_at": "2026-07-02T15:20:32Z",
+        "pushed_at": "2026-02-27T03:33:51Z",
+        "starred_at": "2026-07-02T15:20:32Z"
+      },
+      "last_updated": "2026-07-03T06:43:48.784823+00:00"
+    },
+    "Simandy/creativecoding_2026": {
+      "lists": [],
+      "metadata": {
+        "id": 1179296998,
+        "name": "creativecoding_2026",
+        "full_name": "Simandy/creativecoding_2026",
+        "description": "materials for a creative coding course in RMIT",
+        "url": "https://github.com/Simandy/creativecoding_2026",
+        "homepage": "https://simandy.github.io/creativecoding_2026/",
+        "language": "JavaScript",
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-11T22:21:17Z",
+        "updated_at": "2026-07-02T15:16:57Z",
+        "pushed_at": "2026-05-20T07:05:55Z",
+        "starred_at": "2026-07-02T15:16:56Z"
+      },
+      "last_updated": "2026-07-03T06:43:49.070135+00:00"
+    },
+    "processing/processing-pi-website": {
+      "lists": [],
+      "metadata": {
+        "id": 133080099,
+        "name": "processing-pi-website",
+        "full_name": "processing/processing-pi-website",
+        "description": "Files for the pi.processing.org subdomain that documents Processing on the Raspberry Pi",
+        "url": "https://github.com/processing/processing-pi-website",
+        "homepage": "https://pi.processing.org/",
+        "language": "CSS",
+        "stars": 18,
+        "forks": 8,
+        "open_issues": 13,
+        "created_at": "2018-05-11T19:23:26Z",
+        "updated_at": "2026-07-02T14:59:08Z",
+        "pushed_at": "2019-04-05T23:08:07Z",
+        "starred_at": "2026-07-02T14:59:07Z"
+      },
+      "last_updated": "2026-07-03T06:43:49.323487+00:00"
     }
   },
   "last_processed_index": 0,
@@ -237484,5 +237624,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"cf9d52d94d0a0361a6e1c1e6e8e659cea4f140807da93370c36c5884336d40c1\""
+  "profile_etag": "W/\"9943707a3c86eb94157b2c6c3f96f2821512a09a29ee6f569bfe419192e9e9ef\""
 }
