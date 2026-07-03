@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T06:43:49.323601+00:00",
+  "last_updated": "2026-07-03T06:49:26.586170+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237477,7 +237477,9 @@
       }
     },
     "BelfrySCAD/BOSL2": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 182187489,
         "name": "BOSL2",
@@ -237497,7 +237499,10 @@
       "last_updated": "2026-07-03T06:43:47.748602+00:00"
     },
     "Skelmis/Discord-Anti-Spam": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 296020250,
         "name": "Discord-Anti-Spam",
@@ -237517,7 +237522,10 @@
       "last_updated": "2026-07-03T06:43:47.976289+00:00"
     },
     "pwpearson/OpenSCAD_3D_Text_Generator": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 232867169,
         "name": "OpenSCAD_3D_Text_Generator",
@@ -237537,7 +237545,9 @@
       "last_updated": "2026-07-03T06:43:48.218793+00:00"
     },
     "mapbox/earcut": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 29352975,
         "name": "earcut",
@@ -237557,7 +237567,10 @@
       "last_updated": "2026-07-03T06:43:48.481788+00:00"
     },
     "shuang0906/p5-hershey-js": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1090162585,
         "name": "p5-hershey-js",
@@ -237577,7 +237590,10 @@
       "last_updated": "2026-07-03T06:43:48.784823+00:00"
     },
     "Simandy/creativecoding_2026": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1179296998,
         "name": "creativecoding_2026",
@@ -237597,7 +237613,10 @@
       "last_updated": "2026-07-03T06:43:49.070135+00:00"
     },
     "processing/processing-pi-website": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 133080099,
         "name": "processing-pi-website",
