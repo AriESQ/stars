@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T06:35:14.916095+00:00",
+  "last_updated": "2026-07-04T06:35:44.885902+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237712,7 +237712,15 @@
         "pushed_at": "2026-07-01T18:22:15Z",
         "starred_at": "2026-07-03T19:30:01Z"
       },
-      "last_updated": "2026-07-04T06:30:03.735132+00:00"
+      "last_updated": "2026-07-04T06:30:03.735132+00:00",
+      "readme": {
+        "path": "readmes/kerlenton+mcpsnoop+README.md",
+        "etag": "W/\"d00700ab1d4493f51407cabadacbf3a91ea43d52\"",
+        "sha": "d00700ab1d4493f51407cabadacbf3a91ea43d52",
+        "size": 6445,
+        "fetched_at": "2026-07-04T06:35:44.558807+00:00",
+        "status": "ok"
+      }
     },
     "jamesob/local-llm": {
       "lists": [
@@ -237734,7 +237742,15 @@
         "pushed_at": "2026-07-03T20:12:00Z",
         "starred_at": "2026-07-03T17:36:52Z"
       },
-      "last_updated": "2026-07-04T06:30:03.967795+00:00"
+      "last_updated": "2026-07-04T06:30:03.967795+00:00",
+      "readme": {
+        "path": "readmes/jamesob+local-llm+README.md",
+        "etag": "W/\"0f57dea17d8e846b257984b5213b4b9fceb65530\"",
+        "sha": "0f57dea17d8e846b257984b5213b4b9fceb65530",
+        "size": 13085,
+        "fetched_at": "2026-07-04T06:35:44.303726+00:00",
+        "status": "ok"
+      }
     },
     "thedirgemedia/recur-recur": {
       "lists": [
@@ -237757,7 +237773,15 @@
         "pushed_at": "2026-06-27T11:08:00Z",
         "starred_at": "2026-07-03T16:24:41Z"
       },
-      "last_updated": "2026-07-04T06:30:04.215571+00:00"
+      "last_updated": "2026-07-04T06:30:04.215571+00:00",
+      "readme": {
+        "path": "readmes/thedirgemedia+recur-recur+README.md",
+        "etag": "W/\"2806c90a338e0190128f21f4166d7a9dfd3bfa64\"",
+        "sha": "2806c90a338e0190128f21f4166d7a9dfd3bfa64",
+        "size": 6685,
+        "fetched_at": "2026-07-04T06:35:44.884075+00:00",
+        "status": "ok"
+      }
     },
     "Graphify-Labs/graphify": {
       "lists": [
@@ -237780,7 +237804,15 @@
         "pushed_at": "2026-07-04T02:12:32Z",
         "starred_at": "2026-06-10T22:38:57Z"
       },
-      "last_updated": "2026-07-04T06:30:04.674565+00:00"
+      "last_updated": "2026-07-04T06:30:04.674565+00:00",
+      "readme": {
+        "path": "readmes/Graphify-Labs+graphify+README.md",
+        "etag": "W/\"dbd8489a54998604131c4c539d65956fe0068122\"",
+        "sha": "dbd8489a54998604131c4c539d65956fe0068122",
+        "size": 48611,
+        "fetched_at": "2026-07-04T06:35:44.070534+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
