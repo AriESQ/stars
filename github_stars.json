@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T06:30:04.674631+00:00",
+  "last_updated": "2026-07-04T06:35:14.916095+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237692,7 +237692,10 @@
       }
     },
     "kerlenton/mcpsnoop": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1282103176,
         "name": "mcpsnoop",
@@ -237712,7 +237715,9 @@
       "last_updated": "2026-07-04T06:30:03.735132+00:00"
     },
     "jamesob/local-llm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1288292418,
         "name": "local-llm",
@@ -237732,7 +237737,10 @@
       "last_updated": "2026-07-04T06:30:03.967795+00:00"
     },
     "thedirgemedia/recur-recur": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1267292324,
         "name": "recur-recur",
@@ -237752,7 +237760,10 @@
       "last_updated": "2026-07-04T06:30:04.215571+00:00"
     },
     "Graphify-Labs/graphify": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1200597263,
         "name": "graphify",
