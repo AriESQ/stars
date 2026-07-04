@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T14:10:55.709401+00:00",
+  "last_updated": "2026-07-04T06:30:04.674631+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237690,6 +237690,86 @@
         "fetched_at": "2026-07-03T06:49:55.974565+00:00",
         "status": "ok"
       }
+    },
+    "kerlenton/mcpsnoop": {
+      "lists": [],
+      "metadata": {
+        "id": 1282103176,
+        "name": "mcpsnoop",
+        "full_name": "kerlenton/mcpsnoop",
+        "description": "Wireshark for MCP. A transparent proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal.",
+        "url": "https://github.com/kerlenton/mcpsnoop",
+        "homepage": "",
+        "language": "Go",
+        "stars": 154,
+        "forks": 5,
+        "open_issues": 2,
+        "created_at": "2026-06-27T10:25:09Z",
+        "updated_at": "2026-07-04T06:23:30Z",
+        "pushed_at": "2026-07-01T18:22:15Z",
+        "starred_at": "2026-07-03T19:30:01Z"
+      },
+      "last_updated": "2026-07-04T06:30:03.735132+00:00"
+    },
+    "jamesob/local-llm": {
+      "lists": [],
+      "metadata": {
+        "id": 1288292418,
+        "name": "local-llm",
+        "full_name": "jamesob/local-llm",
+        "description": "Everything I know about running LLMs locally",
+        "url": "https://github.com/jamesob/local-llm",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 425,
+        "forks": 14,
+        "open_issues": 0,
+        "created_at": "2026-07-03T13:06:03Z",
+        "updated_at": "2026-07-04T06:23:59Z",
+        "pushed_at": "2026-07-03T20:12:00Z",
+        "starred_at": "2026-07-03T17:36:52Z"
+      },
+      "last_updated": "2026-07-04T06:30:03.967795+00:00"
+    },
+    "thedirgemedia/recur-recur": {
+      "lists": [],
+      "metadata": {
+        "id": 1267292324,
+        "name": "recur-recur",
+        "full_name": "thedirgemedia/recur-recur",
+        "description": null,
+        "url": "https://github.com/thedirgemedia/recur-recur",
+        "homepage": null,
+        "language": "Python",
+        "stars": 5,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-06-12T12:03:10Z",
+        "updated_at": "2026-07-03T16:24:42Z",
+        "pushed_at": "2026-06-27T11:08:00Z",
+        "starred_at": "2026-07-03T16:24:41Z"
+      },
+      "last_updated": "2026-07-04T06:30:04.215571+00:00"
+    },
+    "Graphify-Labs/graphify": {
+      "lists": [],
+      "metadata": {
+        "id": 1200597263,
+        "name": "graphify",
+        "full_name": "Graphify-Labs/graphify",
+        "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+        "url": "https://github.com/Graphify-Labs/graphify",
+        "homepage": "https://graphifylabs.ai/",
+        "language": "Python",
+        "stars": 77232,
+        "forks": 7650,
+        "open_issues": 419,
+        "created_at": "2026-04-03T15:49:07Z",
+        "updated_at": "2026-07-04T06:21:33Z",
+        "pushed_at": "2026-07-04T02:12:32Z",
+        "starred_at": "2026-06-10T22:38:57Z"
+      },
+      "last_updated": "2026-07-04T06:30:04.674565+00:00"
     }
   },
   "last_processed_index": 0,
@@ -237699,5 +237779,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f8773f3a2de2f0a72514c33756c8ca6e4f157daa5792c4f2eac786fc65bfddd6\""
+  "profile_etag": "W/\"a2674613691c7f2bf80d1b1e93f2ff92be4935e4bdd5109586af6416b0eca539\""
 }
