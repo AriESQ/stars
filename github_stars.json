@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T06:51:37.782673+00:00",
+  "last_updated": "2026-07-05T06:56:36.775999+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237815,7 +237815,9 @@
       }
     },
     "TouchDesigner/Palette": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 173205216,
         "name": "Palette",
@@ -237835,7 +237837,9 @@
       "last_updated": "2026-07-05T06:51:35.652838+00:00"
     },
     "proconsule/dejavis-ui": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1213625755,
         "name": "dejavis-ui",
@@ -237855,7 +237859,9 @@
       "last_updated": "2026-07-05T06:51:35.928987+00:00"
     },
     "fetisov/ttf2mesh": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 262707673,
         "name": "ttf2mesh",
@@ -237875,7 +237881,9 @@
       "last_updated": "2026-07-05T06:51:36.225004+00:00"
     },
     "lovisdotio/fal-texture-pbr-generator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1207435141,
         "name": "fal-texture-pbr-generator",
@@ -237895,7 +237903,10 @@
       "last_updated": "2026-07-05T06:51:36.483872+00:00"
     },
     "javisperez/box-stl-generator": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1157579090,
         "name": "box-stl-generator",
@@ -237915,7 +237926,9 @@
       "last_updated": "2026-07-05T06:51:36.743318+00:00"
     },
     "bigstronkcodeman/Shaded-and-Textured-Image-Mesh-Generator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 248670745,
         "name": "Shaded-and-Textured-Image-Mesh-Generator",
@@ -237935,7 +237948,9 @@
       "last_updated": "2026-07-05T06:51:37.018852+00:00"
     },
     "For-Chance/3D-Text-Generator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 898960639,
         "name": "3D-Text-Generator",
@@ -237955,7 +237970,10 @@
       "last_updated": "2026-07-05T06:51:37.299523+00:00"
     },
     "cyberomusubi/simplecodec3": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 400733157,
         "name": "simplecodec3",
