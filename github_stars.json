@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T06:56:36.775999+00:00",
+  "last_updated": "2026-07-05T06:57:28.019713+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237834,7 +237834,11 @@
         "pushed_at": "2026-01-06T22:26:03Z",
         "starred_at": "2026-07-04T22:24:17Z"
       },
-      "last_updated": "2026-07-05T06:51:35.652838+00:00"
+      "last_updated": "2026-07-05T06:51:35.652838+00:00",
+      "readme": {
+        "fetched_at": "2026-07-05T06:57:26.039261+00:00",
+        "status": "missing"
+      }
     },
     "proconsule/dejavis-ui": {
       "lists": [
@@ -237856,7 +237860,15 @@
         "pushed_at": "2026-07-04T09:06:55Z",
         "starred_at": "2026-07-04T17:44:21Z"
       },
-      "last_updated": "2026-07-05T06:51:35.928987+00:00"
+      "last_updated": "2026-07-05T06:51:35.928987+00:00",
+      "readme": {
+        "path": "readmes/proconsule+dejavis-ui+README.md",
+        "etag": "W/\"2cb68cbf130dccd3c3c2ce4329751c2756aec765\"",
+        "sha": "2cb68cbf130dccd3c3c2ce4329751c2756aec765",
+        "size": 2346,
+        "fetched_at": "2026-07-05T06:57:28.016711+00:00",
+        "status": "ok"
+      }
     },
     "fetisov/ttf2mesh": {
       "lists": [
@@ -237878,7 +237890,15 @@
         "pushed_at": "2024-06-26T01:30:21Z",
         "starred_at": "2026-07-04T14:07:20Z"
       },
-      "last_updated": "2026-07-05T06:51:36.225004+00:00"
+      "last_updated": "2026-07-05T06:51:36.225004+00:00",
+      "readme": {
+        "path": "readmes/fetisov+ttf2mesh+README.md",
+        "etag": "W/\"08a50fddb88c8e544626436f5e002704ad4a1508\"",
+        "sha": "08a50fddb88c8e544626436f5e002704ad4a1508",
+        "size": 2815,
+        "fetched_at": "2026-07-05T06:57:27.143564+00:00",
+        "status": "ok"
+      }
     },
     "lovisdotio/fal-texture-pbr-generator": {
       "lists": [
@@ -237900,7 +237920,15 @@
         "pushed_at": "2026-04-11T00:05:54Z",
         "starred_at": "2026-07-04T14:06:03Z"
       },
-      "last_updated": "2026-07-05T06:51:36.483872+00:00"
+      "last_updated": "2026-07-05T06:51:36.483872+00:00",
+      "readme": {
+        "path": "readmes/lovisdotio+fal-texture-pbr-generator+README.md",
+        "etag": "W/\"d72f8f5857d5a085fd69f968138eba61b97af143\"",
+        "sha": "d72f8f5857d5a085fd69f968138eba61b97af143",
+        "size": 3176,
+        "fetched_at": "2026-07-05T06:57:27.754420+00:00",
+        "status": "ok"
+      }
     },
     "javisperez/box-stl-generator": {
       "lists": [
@@ -237923,7 +237951,15 @@
         "pushed_at": "2026-02-20T02:53:09Z",
         "starred_at": "2026-07-04T14:05:38Z"
       },
-      "last_updated": "2026-07-05T06:51:36.743318+00:00"
+      "last_updated": "2026-07-05T06:51:36.743318+00:00",
+      "readme": {
+        "path": "readmes/javisperez+box-stl-generator+README.md",
+        "etag": "W/\"13dea29bc4fef9320df45b7a872c885c24a3009f\"",
+        "sha": "13dea29bc4fef9320df45b7a872c885c24a3009f",
+        "size": 2998,
+        "fetched_at": "2026-07-05T06:57:27.485184+00:00",
+        "status": "ok"
+      }
     },
     "bigstronkcodeman/Shaded-and-Textured-Image-Mesh-Generator": {
       "lists": [
@@ -237945,7 +237981,11 @@
         "pushed_at": "2020-04-07T01:52:01Z",
         "starred_at": "2026-07-04T14:05:16Z"
       },
-      "last_updated": "2026-07-05T06:51:37.018852+00:00"
+      "last_updated": "2026-07-05T06:51:37.018852+00:00",
+      "readme": {
+        "fetched_at": "2026-07-05T06:57:26.344602+00:00",
+        "status": "missing"
+      }
     },
     "For-Chance/3D-Text-Generator": {
       "lists": [
@@ -237967,7 +238007,15 @@
         "pushed_at": "2024-12-05T11:10:41Z",
         "starred_at": "2026-07-04T14:04:40Z"
       },
-      "last_updated": "2026-07-05T06:51:37.299523+00:00"
+      "last_updated": "2026-07-05T06:51:37.299523+00:00",
+      "readme": {
+        "path": "readmes/For-Chance+3D-Text-Generator+README.md",
+        "etag": "W/\"5f1fe3ce7f90bb15974f3f475815e92cf134efe4\"",
+        "sha": "5f1fe3ce7f90bb15974f3f475815e92cf134efe4",
+        "size": 2124,
+        "fetched_at": "2026-07-05T06:57:25.751287+00:00",
+        "status": "ok"
+      }
     },
     "cyberomusubi/simplecodec3": {
       "lists": [
@@ -237990,7 +238038,15 @@
         "pushed_at": "2021-08-28T07:56:10Z",
         "starred_at": "2023-11-13T20:54:12Z"
       },
-      "last_updated": "2026-07-05T06:51:37.782624+00:00"
+      "last_updated": "2026-07-05T06:51:37.782624+00:00",
+      "readme": {
+        "path": "readmes/cyberomusubi+simplecodec3+README.md",
+        "etag": "W/\"f0e7c0f3b8a3a2f5d67014131e6db81222963800\"",
+        "sha": "f0e7c0f3b8a3a2f5d67014131e6db81222963800",
+        "size": 1091,
+        "fetched_at": "2026-07-05T06:57:26.811821+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
