@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T06:35:44.885902+00:00",
+  "last_updated": "2026-07-05T06:51:37.782673+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -237813,6 +237813,166 @@
         "fetched_at": "2026-07-04T06:35:44.070534+00:00",
         "status": "ok"
       }
+    },
+    "TouchDesigner/Palette": {
+      "lists": [],
+      "metadata": {
+        "id": 173205216,
+        "name": "Palette",
+        "full_name": "TouchDesigner/Palette",
+        "description": "Repository for the Palette",
+        "url": "https://github.com/TouchDesigner/Palette",
+        "homepage": null,
+        "language": null,
+        "stars": 22,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2019-02-28T23:52:11Z",
+        "updated_at": "2026-07-04T22:24:18Z",
+        "pushed_at": "2026-01-06T22:26:03Z",
+        "starred_at": "2026-07-04T22:24:17Z"
+      },
+      "last_updated": "2026-07-05T06:51:35.652838+00:00"
+    },
+    "proconsule/dejavis-ui": {
+      "lists": [],
+      "metadata": {
+        "id": 1213625755,
+        "name": "dejavis-ui",
+        "full_name": "proconsule/dejavis-ui",
+        "description": "Trivial Audio/Video Mixer on Vulkan",
+        "url": "https://github.com/proconsule/dejavis-ui",
+        "homepage": "",
+        "language": "C++",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-17T15:29:04Z",
+        "updated_at": "2026-07-04T17:44:22Z",
+        "pushed_at": "2026-07-04T09:06:55Z",
+        "starred_at": "2026-07-04T17:44:21Z"
+      },
+      "last_updated": "2026-07-05T06:51:35.928987+00:00"
+    },
+    "fetisov/ttf2mesh": {
+      "lists": [],
+      "metadata": {
+        "id": 262707673,
+        "name": "ttf2mesh",
+        "full_name": "fetisov/ttf2mesh",
+        "description": "Standalone library for TrueType font tessellation. Allows to load ttf-file and convert its glyphs to 2D or 3D mesh objects without rasterization.",
+        "url": "https://github.com/fetisov/ttf2mesh",
+        "homepage": "",
+        "language": "C++",
+        "stars": 230,
+        "forks": 47,
+        "open_issues": 10,
+        "created_at": "2020-05-10T03:55:05Z",
+        "updated_at": "2026-07-04T14:07:21Z",
+        "pushed_at": "2024-06-26T01:30:21Z",
+        "starred_at": "2026-07-04T14:07:20Z"
+      },
+      "last_updated": "2026-07-05T06:51:36.225004+00:00"
+    },
+    "lovisdotio/fal-texture-pbr-generator": {
+      "lists": [],
+      "metadata": {
+        "id": 1207435141,
+        "name": "fal-texture-pbr-generator",
+        "full_name": "lovisdotio/fal-texture-pbr-generator",
+        "description": "AI PBR texture generator \u2014 generate BaseColor, Normal, Roughness, Metallic & Height maps from text or image. 3D preview, Substance Designer export. Powered by fal.ai PATINA.",
+        "url": "https://github.com/lovisdotio/fal-texture-pbr-generator",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 19,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-04-11T00:05:51Z",
+        "updated_at": "2026-07-04T14:06:04Z",
+        "pushed_at": "2026-04-11T00:05:54Z",
+        "starred_at": "2026-07-04T14:06:03Z"
+      },
+      "last_updated": "2026-07-05T06:51:36.483872+00:00"
+    },
+    "javisperez/box-stl-generator": {
+      "lists": [],
+      "metadata": {
+        "id": 1157579090,
+        "name": "box-stl-generator",
+        "full_name": "javisperez/box-stl-generator",
+        "description": "Parametric 3D box generator with dividers, lids, and text engraving \u2014 exports STL files for 3D printing, entirely in the browser.",
+        "url": "https://github.com/javisperez/box-stl-generator",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-02-14T01:45:50Z",
+        "updated_at": "2026-07-04T14:05:38Z",
+        "pushed_at": "2026-02-20T02:53:09Z",
+        "starred_at": "2026-07-04T14:05:38Z"
+      },
+      "last_updated": "2026-07-05T06:51:36.743318+00:00"
+    },
+    "bigstronkcodeman/Shaded-and-Textured-Image-Mesh-Generator": {
+      "lists": [],
+      "metadata": {
+        "id": 248670745,
+        "name": "Shaded-and-Textured-Image-Mesh-Generator",
+        "full_name": "bigstronkcodeman/Shaded-and-Textured-Image-Mesh-Generator",
+        "description": "Takes in image and depth map from RGBD camera and builds a 3D mesh of the map, with toggleable phong shading, wireframe, and vector normals display",
+        "url": "https://github.com/bigstronkcodeman/Shaded-and-Textured-Image-Mesh-Generator",
+        "homepage": null,
+        "language": "C++",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2020-03-20T04:51:31Z",
+        "updated_at": "2026-07-04T14:05:16Z",
+        "pushed_at": "2020-04-07T01:52:01Z",
+        "starred_at": "2026-07-04T14:05:16Z"
+      },
+      "last_updated": "2026-07-05T06:51:37.018852+00:00"
+    },
+    "For-Chance/3D-Text-Generator": {
+      "lists": [],
+      "metadata": {
+        "id": 898960639,
+        "name": "3D-Text-Generator",
+        "full_name": "For-Chance/3D-Text-Generator",
+        "description": null,
+        "url": "https://github.com/For-Chance/3D-Text-Generator",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-12-05T11:10:34Z",
+        "updated_at": "2026-07-04T14:04:40Z",
+        "pushed_at": "2024-12-05T11:10:41Z",
+        "starred_at": "2026-07-04T14:04:40Z"
+      },
+      "last_updated": "2026-07-05T06:51:37.299523+00:00"
+    },
+    "cyberomusubi/simplecodec3": {
+      "lists": [],
+      "metadata": {
+        "id": 400733157,
+        "name": "simplecodec3",
+        "full_name": "cyberomusubi/simplecodec3",
+        "description": "Audio input/output board for Raspberry Pi, Jetson Nano (PCM5102A+PCM1808)",
+        "url": "https://github.com/cyberomusubi/simplecodec3",
+        "homepage": null,
+        "language": null,
+        "stars": 18,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2021-08-28T07:41:36Z",
+        "updated_at": "2026-05-29T07:29:37Z",
+        "pushed_at": "2021-08-28T07:56:10Z",
+        "starred_at": "2023-11-13T20:54:12Z"
+      },
+      "last_updated": "2026-07-05T06:51:37.782624+00:00"
     }
   },
   "last_processed_index": 0,
@@ -237822,5 +237982,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a2674613691c7f2bf80d1b1e93f2ff92be4935e4bdd5109586af6416b0eca539\""
+  "profile_etag": "W/\"75a80c2c072ad8d59d4f329341375b46f8bd5a22bfd8fb0100a6e07078d790d4\""
 }
