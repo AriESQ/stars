@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T08:01:54.012347+00:00",
+  "last_updated": "2026-07-06T08:02:27.392567+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238068,7 +238068,15 @@
         "pushed_at": "2026-07-05T23:12:49Z",
         "starred_at": "2026-07-05T23:41:55Z"
       },
-      "last_updated": "2026-07-06T07:56:17.412113+00:00"
+      "last_updated": "2026-07-06T07:56:17.412113+00:00",
+      "readme": {
+        "path": "readmes/keeper-of-memes+RoonVis+README.md",
+        "etag": "W/\"ec754568d81f427dd356efcfcd6e84c9a5fa2335\"",
+        "sha": "ec754568d81f427dd356efcfcd6e84c9a5fa2335",
+        "size": 3906,
+        "fetched_at": "2026-07-06T08:02:26.590998+00:00",
+        "status": "ok"
+      }
     },
     "Akascape/Rembg-Fuse": {
       "lists": [
@@ -238092,7 +238100,15 @@
         "pushed_at": "2026-07-05T20:40:39Z",
         "starred_at": "2026-07-05T22:13:30Z"
       },
-      "last_updated": "2026-07-06T07:56:17.673212+00:00"
+      "last_updated": "2026-07-06T07:56:17.673212+00:00",
+      "readme": {
+        "path": "readmes/Akascape+Rembg-Fuse+README.md",
+        "etag": "W/\"0f10c55e33412bdab2a79f587b81726165b799ab\"",
+        "sha": "0f10c55e33412bdab2a79f587b81726165b799ab",
+        "size": 6641,
+        "fetched_at": "2026-07-06T08:02:26.141337+00:00",
+        "status": "ok"
+      }
     },
     "nikopueringer/CK2.0_Dev": {
       "lists": [
@@ -238115,7 +238131,15 @@
         "pushed_at": "2026-06-23T20:57:15Z",
         "starred_at": "2026-07-05T18:48:48Z"
       },
-      "last_updated": "2026-07-06T07:56:17.919321+00:00"
+      "last_updated": "2026-07-06T07:56:17.919321+00:00",
+      "readme": {
+        "path": "readmes/nikopueringer+CK2.0_Dev+README.md",
+        "etag": "W/\"5df97065506bf9dfc760c215a6fc26e26c572eb2\"",
+        "sha": "5df97065506bf9dfc760c215a6fc26e26c572eb2",
+        "size": 14622,
+        "fetched_at": "2026-07-06T08:02:26.992595+00:00",
+        "status": "ok"
+      }
     },
     "nikopueringer/corridorkey-mlx": {
       "lists": [
@@ -238139,7 +238163,15 @@
         "pushed_at": "2026-03-09T23:41:52Z",
         "starred_at": "2026-07-05T18:48:09Z"
       },
-      "last_updated": "2026-07-06T07:56:18.159226+00:00"
+      "last_updated": "2026-07-06T07:56:18.159226+00:00",
+      "readme": {
+        "path": "readmes/nikopueringer+corridorkey-mlx+README.md",
+        "etag": "W/\"51f2706e4a7a8583e02d48387c35fc5ca15f4917\"",
+        "sha": "51f2706e4a7a8583e02d48387c35fc5ca15f4917",
+        "size": 10953,
+        "fetched_at": "2026-07-06T08:02:27.387978+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
