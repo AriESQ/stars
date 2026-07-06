@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T07:56:18.159319+00:00",
+  "last_updated": "2026-07-06T08:01:54.012347+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238049,7 +238049,9 @@
       }
     },
     "keeper-of-memes/RoonVis": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1290374027,
         "name": "RoonVis",
@@ -238069,7 +238071,11 @@
       "last_updated": "2026-07-06T07:56:17.412113+00:00"
     },
     "Akascape/Rembg-Fuse": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1038611114,
         "name": "Rembg-Fuse",
@@ -238089,7 +238095,10 @@
       "last_updated": "2026-07-06T07:56:17.673212+00:00"
     },
     "nikopueringer/CK2.0_Dev": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1278455162,
         "name": "CK2.0_Dev",
@@ -238109,7 +238118,11 @@
       "last_updated": "2026-07-06T07:56:17.919321+00:00"
     },
     "nikopueringer/corridorkey-mlx": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1169797134,
         "name": "corridorkey-mlx",
