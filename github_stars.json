@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T06:57:25.196197+00:00",
+  "last_updated": "2026-07-07T07:03:42.258668+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -227184,7 +227184,8 @@
     },
     "kyuz0/amd-strix-halo-toolboxes": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Python"
       ],
       "metadata": {
         "id": 1027916580,
@@ -238174,7 +238175,9 @@
       }
     },
     "iOfficeAI/OfficeCLI": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1182212878,
         "name": "OfficeCLI",
@@ -238194,7 +238197,9 @@
       "last_updated": "2026-07-07T06:57:24.938224+00:00"
     },
     "BenMakesEverything/Pocket-Lab-Power-Supply": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1285566602,
         "name": "Pocket-Lab-Power-Supply",
