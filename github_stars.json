@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T07:03:42.258668+00:00",
+  "last_updated": "2026-07-07T07:04:19.084455+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238194,7 +238194,15 @@
         "pushed_at": "2026-07-07T01:29:06Z",
         "starred_at": "2026-07-06T23:58:47Z"
       },
-      "last_updated": "2026-07-07T06:57:24.938224+00:00"
+      "last_updated": "2026-07-07T06:57:24.938224+00:00",
+      "readme": {
+        "path": "readmes/iOfficeAI+OfficeCLI+README.md",
+        "etag": "W/\"497fe0286e355da035dffae054a4a54dfeb15c89\"",
+        "sha": "497fe0286e355da035dffae054a4a54dfeb15c89",
+        "size": 39714,
+        "fetched_at": "2026-07-07T07:04:19.078847+00:00",
+        "status": "ok"
+      }
     },
     "BenMakesEverything/Pocket-Lab-Power-Supply": {
       "lists": [
@@ -238216,7 +238224,15 @@
         "pushed_at": "2026-07-05T21:19:58Z",
         "starred_at": "2026-07-06T23:37:38Z"
       },
-      "last_updated": "2026-07-07T06:57:25.196100+00:00"
+      "last_updated": "2026-07-07T06:57:25.196100+00:00",
+      "readme": {
+        "path": "readmes/BenMakesEverything+Pocket-Lab-Power-Supply+README.md",
+        "etag": "W/\"2b54f28558f36909edc9ca7be449087014659472\"",
+        "sha": "2b54f28558f36909edc9ca7be449087014659472",
+        "size": 1869,
+        "fetched_at": "2026-07-07T07:04:18.751742+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
