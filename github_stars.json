@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T06:14:26.425312+00:00",
+  "last_updated": "2026-07-08T06:14:54.543590+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238255,7 +238255,15 @@
         "pushed_at": "2026-06-21T23:08:26Z",
         "starred_at": "2026-07-08T03:59:55Z"
       },
-      "last_updated": "2026-07-08T06:08:22.870037+00:00"
+      "last_updated": "2026-07-08T06:08:22.870037+00:00",
+      "readme": {
+        "path": "readmes/lou-evoy+TD-ASCII-TOP+README.md",
+        "etag": "W/\"b131bdb7e1fe139d897521dc0fa01efb11473ea2\"",
+        "sha": "b131bdb7e1fe139d897521dc0fa01efb11473ea2",
+        "size": 2171,
+        "fetched_at": "2026-07-08T06:14:52.257495+00:00",
+        "status": "ok"
+      }
     },
     "lou-evoy/TD-Pixel-Stretch-TOP": {
       "lists": [
@@ -238277,7 +238285,15 @@
         "pushed_at": "2026-06-21T23:06:27Z",
         "starred_at": "2026-07-08T03:59:35Z"
       },
-      "last_updated": "2026-07-08T06:08:23.127383+00:00"
+      "last_updated": "2026-07-08T06:08:23.127383+00:00",
+      "readme": {
+        "path": "readmes/lou-evoy+TD-Pixel-Stretch-TOP+README.md",
+        "etag": "W/\"7bd805d00b7b8e400fa5d95dca4a9fcc13e17ab1\"",
+        "sha": "7bd805d00b7b8e400fa5d95dca4a9fcc13e17ab1",
+        "size": 1733,
+        "fetched_at": "2026-07-08T06:14:53.452754+00:00",
+        "status": "ok"
+      }
     },
     "lou-evoy/TD-JPEG-Crush-TOP": {
       "lists": [
@@ -238299,7 +238315,15 @@
         "pushed_at": "2026-06-21T23:07:29Z",
         "starred_at": "2026-07-08T03:59:28Z"
       },
-      "last_updated": "2026-07-08T06:08:23.360561+00:00"
+      "last_updated": "2026-07-08T06:08:23.360561+00:00",
+      "readme": {
+        "path": "readmes/lou-evoy+TD-JPEG-Crush-TOP+README.md",
+        "etag": "W/\"21290ac8a655c3d92926f1b08b21af39ee9fef46\"",
+        "sha": "21290ac8a655c3d92926f1b08b21af39ee9fef46",
+        "size": 2040,
+        "fetched_at": "2026-07-08T06:14:52.666610+00:00",
+        "status": "ok"
+      }
     },
     "lou-evoy/TD-Pixel-Sort-TOP": {
       "lists": [
@@ -238321,7 +238345,15 @@
         "pushed_at": "2026-06-21T23:05:30Z",
         "starred_at": "2026-07-08T03:59:01Z"
       },
-      "last_updated": "2026-07-08T06:08:23.587462+00:00"
+      "last_updated": "2026-07-08T06:08:23.587462+00:00",
+      "readme": {
+        "path": "readmes/lou-evoy+TD-Pixel-Sort-TOP+README.md",
+        "etag": "W/\"d4ccbd6978fc0521b4fbc514aca632e7658b785e\"",
+        "sha": "d4ccbd6978fc0521b4fbc514aca632e7658b785e",
+        "size": 2040,
+        "fetched_at": "2026-07-08T06:14:53.074609+00:00",
+        "status": "ok"
+      }
     },
     "BlueJayLouche/rustjay-mosh": {
       "lists": [
@@ -238344,7 +238376,15 @@
         "pushed_at": "2026-07-07T11:45:22Z",
         "starred_at": "2026-07-08T03:06:11Z"
       },
-      "last_updated": "2026-07-08T06:08:23.820209+00:00"
+      "last_updated": "2026-07-08T06:08:23.820209+00:00",
+      "readme": {
+        "path": "readmes/BlueJayLouche+rustjay-mosh+README.md",
+        "etag": "W/\"6e744e806838495cfe4f8852ea7816b8e55eb136\"",
+        "sha": "6e744e806838495cfe4f8852ea7816b8e55eb136",
+        "size": 13032,
+        "fetched_at": "2026-07-08T06:14:45.058882+00:00",
+        "status": "ok"
+      }
     },
     "TouchDesigner/TDDjayPro": {
       "lists": [
@@ -238367,7 +238407,15 @@
         "pushed_at": "2026-06-04T19:18:03Z",
         "starred_at": "2026-07-08T03:00:47Z"
       },
-      "last_updated": "2026-07-08T06:08:24.080218+00:00"
+      "last_updated": "2026-07-08T06:08:24.080218+00:00",
+      "readme": {
+        "path": "readmes/TouchDesigner+TDDjayPro+README.md",
+        "etag": "W/\"13609974a35a491f468b0277f9f1f593192b5fd2\"",
+        "sha": "13609974a35a491f468b0277f9f1f593192b5fd2",
+        "size": 11117,
+        "fetched_at": "2026-07-08T06:14:45.860564+00:00",
+        "status": "ok"
+      }
     },
     "kklimuk/docx-cli": {
       "lists": [
@@ -238389,7 +238437,15 @@
         "pushed_at": "2026-07-07T18:41:51Z",
         "starred_at": "2026-07-07T20:31:16Z"
       },
-      "last_updated": "2026-07-08T06:08:24.343508+00:00"
+      "last_updated": "2026-07-08T06:08:24.343508+00:00",
+      "readme": {
+        "path": "readmes/kklimuk+docx-cli+README.md",
+        "etag": "W/\"f992132c7a1efcffea22d304b1c872e8c3783219\"",
+        "sha": "f992132c7a1efcffea22d304b1c872e8c3783219",
+        "size": 52788,
+        "fetched_at": "2026-07-08T06:14:51.794604+00:00",
+        "status": "ok"
+      }
     },
     "EmenstaNougat/ESP32-BlueJammer": {
       "lists": [
@@ -238412,7 +238468,15 @@
         "pushed_at": "2026-03-29T00:34:40Z",
         "starred_at": "2026-07-07T19:42:32Z"
       },
-      "last_updated": "2026-07-08T06:08:24.600009+00:00"
+      "last_updated": "2026-07-08T06:08:24.600009+00:00",
+      "readme": {
+        "path": "readmes/EmenstaNougat+ESP32-BlueJammer+README.md",
+        "etag": "W/\"881ccc39606fb26ba4cff4c8d337894e3d476f86\"",
+        "sha": "881ccc39606fb26ba4cff4c8d337894e3d476f86",
+        "size": 18641,
+        "fetched_at": "2026-07-08T06:14:45.406338+00:00",
+        "status": "ok"
+      }
     },
     "smoochiee/Noisy-boy-esp32-Bluetooth-jammer": {
       "lists": [
@@ -238435,7 +238499,15 @@
         "pushed_at": "2025-01-21T15:36:34Z",
         "starred_at": "2026-07-07T19:41:18Z"
       },
-      "last_updated": "2026-07-08T06:08:24.823552+00:00"
+      "last_updated": "2026-07-08T06:08:24.823552+00:00",
+      "readme": {
+        "path": "readmes/smoochiee+Noisy-boy-esp32-Bluetooth-jammer+README.md",
+        "etag": "W/\"afeac6c9028302d1629b0f4012f3fc9b86568ab1\"",
+        "sha": "afeac6c9028302d1629b0f4012f3fc9b86568ab1",
+        "size": 5061,
+        "fetched_at": "2026-07-08T06:14:54.541115+00:00",
+        "status": "ok"
+      }
     },
     "smoochiee/Bluetooth-jammer-esp32": {
       "lists": [
@@ -238458,7 +238530,15 @@
         "pushed_at": "2024-11-04T11:16:24Z",
         "starred_at": "2026-07-07T19:41:05Z"
       },
-      "last_updated": "2026-07-08T06:08:25.086338+00:00"
+      "last_updated": "2026-07-08T06:08:25.086338+00:00",
+      "readme": {
+        "path": "readmes/smoochiee+Bluetooth-jammer-esp32+README.md",
+        "etag": "W/\"c73813d7e965a1161eea416de21fe59e44f7ed9c\"",
+        "sha": "c73813d7e965a1161eea416de21fe59e44f7ed9c",
+        "size": 5986,
+        "fetched_at": "2026-07-08T06:14:54.244184+00:00",
+        "status": "ok"
+      }
     },
     "rhboot/shim": {
       "lists": [
@@ -238482,7 +238562,15 @@
         "pushed_at": "2026-06-24T14:32:39Z",
         "starred_at": "2026-07-07T19:16:17Z"
       },
-      "last_updated": "2026-07-08T06:08:25.351247+00:00"
+      "last_updated": "2026-07-08T06:08:25.351247+00:00",
+      "readme": {
+        "path": "readmes/rhboot+shim+README.md",
+        "etag": "W/\"ce2ea6b5f303ed588345d26d99589f1b1c53906c\"",
+        "sha": "ce2ea6b5f303ed588345d26d99589f1b1c53906c",
+        "size": 2727,
+        "fetched_at": "2026-07-08T06:14:53.893905+00:00",
+        "status": "ok"
+      }
     },
     "adriflex/autoremesher-blender-bridge": {
       "lists": [
@@ -238505,7 +238593,15 @@
         "pushed_at": "2026-07-07T08:41:20Z",
         "starred_at": "2026-07-07T17:30:11Z"
       },
-      "last_updated": "2026-07-08T06:08:25.568600+00:00"
+      "last_updated": "2026-07-08T06:08:25.568600+00:00",
+      "readme": {
+        "path": "readmes/adriflex+autoremesher-blender-bridge+README.md",
+        "etag": "W/\"9e6dbd68de703b0963558b14c292543a6cb8c189\"",
+        "sha": "9e6dbd68de703b0963558b14c292543a6cb8c189",
+        "size": 2737,
+        "fetched_at": "2026-07-08T06:14:46.599160+00:00",
+        "status": "ok"
+      }
     },
     "huxingyi/dust3d": {
       "lists": [
@@ -238527,7 +238623,15 @@
         "pushed_at": "2026-07-05T05:42:25Z",
         "starred_at": "2026-07-07T17:29:03Z"
       },
-      "last_updated": "2026-07-08T06:08:25.781232+00:00"
+      "last_updated": "2026-07-08T06:08:25.781232+00:00",
+      "readme": {
+        "path": "readmes/huxingyi+dust3d+README.md",
+        "etag": "W/\"d6babe9252c3b36f834d9fbe997a9aa7b62797ea\"",
+        "sha": "d6babe9252c3b36f834d9fbe997a9aa7b62797ea",
+        "size": 2475,
+        "fetched_at": "2026-07-08T06:14:47.333856+00:00",
+        "status": "ok"
+      }
     },
     "huxingyi/autoremesher": {
       "lists": [
@@ -238549,7 +238653,15 @@
         "pushed_at": "2026-07-06T09:52:31Z",
         "starred_at": "2026-07-07T17:28:29Z"
       },
-      "last_updated": "2026-07-08T06:08:25.997111+00:00"
+      "last_updated": "2026-07-08T06:08:25.997111+00:00",
+      "readme": {
+        "path": "readmes/huxingyi+autoremesher+README.md",
+        "etag": "W/\"338d7e48346d042920158a7bbb09e37078bc5ea3\"",
+        "sha": "338d7e48346d042920158a7bbb09e37078bc5ea3",
+        "size": 4870,
+        "fetched_at": "2026-07-08T06:14:46.970863+00:00",
+        "status": "ok"
+      }
     },
     "jimparis/qr-font": {
       "lists": [
@@ -238571,7 +238683,15 @@
         "pushed_at": "2026-06-28T00:23:15Z",
         "starred_at": "2026-07-07T16:54:14Z"
       },
-      "last_updated": "2026-07-08T06:08:26.223082+00:00"
+      "last_updated": "2026-07-08T06:08:26.223082+00:00",
+      "readme": {
+        "path": "readmes/jimparis+qr-font+README.md",
+        "etag": "W/\"3bd0f2592e7b45f4f10892a8831585255e630f96\"",
+        "sha": "3bd0f2592e7b45f4f10892a8831585255e630f96",
+        "size": 3018,
+        "fetched_at": "2026-07-08T06:14:51.396039+00:00",
+        "status": "ok"
+      }
     },
     "V4bel/Januscape": {
       "lists": [
@@ -238593,7 +238713,15 @@
         "pushed_at": "2026-07-06T15:37:40Z",
         "starred_at": "2026-07-07T16:32:56Z"
       },
-      "last_updated": "2026-07-08T06:08:26.434798+00:00"
+      "last_updated": "2026-07-08T06:08:26.434798+00:00",
+      "readme": {
+        "path": "readmes/V4bel+Januscape+README.md",
+        "etag": "W/\"0ce8fb420fac796640c5804cc70813ba651dfd03\"",
+        "sha": "0ce8fb420fac796640c5804cc70813ba651dfd03",
+        "size": 4890,
+        "fetched_at": "2026-07-08T06:14:46.261734+00:00",
+        "status": "ok"
+      }
     },
     "itsthelore/WayfinderRouter": {
       "lists": [
@@ -238616,7 +238744,15 @@
         "pushed_at": "2026-07-07T07:15:43Z",
         "starred_at": "2026-06-28T16:50:48Z"
       },
-      "last_updated": "2026-07-08T06:08:26.682115+00:00"
+      "last_updated": "2026-07-08T06:08:26.682115+00:00",
+      "readme": {
+        "path": "readmes/itsthelore+WayfinderRouter+README.md",
+        "etag": "W/\"05a884fb9b01c3151c97a59533275c82be0c172a\"",
+        "sha": "05a884fb9b01c3151c97a59533275c82be0c172a",
+        "size": 28897,
+        "fetched_at": "2026-07-08T06:14:51.085222+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
