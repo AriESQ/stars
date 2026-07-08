@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T06:08:26.682166+00:00",
+  "last_updated": "2026-07-08T06:14:26.425312+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -30634,7 +30634,8 @@
     },
     "peter-evans/create-pull-request": {
       "lists": [
-        "Github Actions"
+        "Github Actions",
+        "JavaScript"
       ],
       "metadata": {
         "id": 197176365,
@@ -238235,7 +238236,9 @@
       }
     },
     "lou-evoy/TD-ASCII-TOP": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1273562260,
         "name": "TD-ASCII-TOP",
@@ -238255,7 +238258,9 @@
       "last_updated": "2026-07-08T06:08:22.870037+00:00"
     },
     "lou-evoy/TD-Pixel-Stretch-TOP": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1273562210,
         "name": "TD-Pixel-Stretch-TOP",
@@ -238275,7 +238280,9 @@
       "last_updated": "2026-07-08T06:08:23.127383+00:00"
     },
     "lou-evoy/TD-JPEG-Crush-TOP": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1273562311,
         "name": "TD-JPEG-Crush-TOP",
@@ -238295,7 +238302,9 @@
       "last_updated": "2026-07-08T06:08:23.360561+00:00"
     },
     "lou-evoy/TD-Pixel-Sort-TOP": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1273562362,
         "name": "TD-Pixel-Sort-TOP",
@@ -238315,7 +238324,10 @@
       "last_updated": "2026-07-08T06:08:23.587462+00:00"
     },
     "BlueJayLouche/rustjay-mosh": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 1212997543,
         "name": "rustjay-mosh",
@@ -238335,7 +238347,10 @@
       "last_updated": "2026-07-08T06:08:23.820209+00:00"
     },
     "TouchDesigner/TDDjayPro": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1231044021,
         "name": "TDDjayPro",
@@ -238355,7 +238370,9 @@
       "last_updated": "2026-07-08T06:08:24.080218+00:00"
     },
     "kklimuk/docx-cli": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1228586120,
         "name": "docx-cli",
@@ -238375,7 +238392,10 @@
       "last_updated": "2026-07-08T06:08:24.343508+00:00"
     },
     "EmenstaNougat/ESP32-BlueJammer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 825347997,
         "name": "ESP32-BlueJammer",
@@ -238395,7 +238415,10 @@
       "last_updated": "2026-07-08T06:08:24.600009+00:00"
     },
     "smoochiee/Noisy-boy-esp32-Bluetooth-jammer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 856297743,
         "name": "Noisy-boy-esp32-Bluetooth-jammer",
@@ -238415,7 +238438,10 @@
       "last_updated": "2026-07-08T06:08:24.823552+00:00"
     },
     "smoochiee/Bluetooth-jammer-esp32": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 767912363,
         "name": "Bluetooth-jammer-esp32",
@@ -238435,7 +238461,11 @@
       "last_updated": "2026-07-08T06:08:25.086338+00:00"
     },
     "rhboot/shim": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "PKI",
+        "Windows"
+      ],
       "metadata": {
         "id": 3996476,
         "name": "shim",
@@ -238455,7 +238485,10 @@
       "last_updated": "2026-07-08T06:08:25.351247+00:00"
     },
     "adriflex/autoremesher-blender-bridge": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1291947423,
         "name": "autoremesher-blender-bridge",
@@ -238475,7 +238508,9 @@
       "last_updated": "2026-07-08T06:08:25.568600+00:00"
     },
     "huxingyi/dust3d": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 76565839,
         "name": "dust3d",
@@ -238495,7 +238530,9 @@
       "last_updated": "2026-07-08T06:08:25.781232+00:00"
     },
     "huxingyi/autoremesher": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 273084732,
         "name": "autoremesher",
@@ -238515,7 +238552,9 @@
       "last_updated": "2026-07-08T06:08:25.997111+00:00"
     },
     "jimparis/qr-font": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1282566168,
         "name": "qr-font",
@@ -238535,7 +238574,9 @@
       "last_updated": "2026-07-08T06:08:26.223082+00:00"
     },
     "V4bel/Januscape": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1291198433,
         "name": "Januscape",
@@ -238555,7 +238596,10 @@
       "last_updated": "2026-07-08T06:08:26.434798+00:00"
     },
     "itsthelore/WayfinderRouter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1271892689,
         "name": "WayfinderRouter",
