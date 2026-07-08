@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T07:04:19.084455+00:00",
+  "last_updated": "2026-07-08T06:08:26.682166+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238233,6 +238233,346 @@
         "fetched_at": "2026-07-07T07:04:18.751742+00:00",
         "status": "ok"
       }
+    },
+    "lou-evoy/TD-ASCII-TOP": {
+      "lists": [],
+      "metadata": {
+        "id": 1273562260,
+        "name": "TD-ASCII-TOP",
+        "full_name": "lou-evoy/TD-ASCII-TOP",
+        "description": "Edge-preserving real-time ASCII for TouchDesigner (CUDA)",
+        "url": "https://github.com/lou-evoy/TD-ASCII-TOP",
+        "homepage": "",
+        "language": "C++",
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-18T16:39:09Z",
+        "updated_at": "2026-07-08T03:59:56Z",
+        "pushed_at": "2026-06-21T23:08:26Z",
+        "starred_at": "2026-07-08T03:59:55Z"
+      },
+      "last_updated": "2026-07-08T06:08:22.870037+00:00"
+    },
+    "lou-evoy/TD-Pixel-Stretch-TOP": {
+      "lists": [],
+      "metadata": {
+        "id": 1273562210,
+        "name": "TD-Pixel-Stretch-TOP",
+        "full_name": "lou-evoy/TD-Pixel-Stretch-TOP",
+        "description": "Real-time GPU pixel stretch for TouchDesigner (CUDA)",
+        "url": "https://github.com/lou-evoy/TD-Pixel-Stretch-TOP",
+        "homepage": null,
+        "language": "C++",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-06-18T16:39:04Z",
+        "updated_at": "2026-07-08T03:59:36Z",
+        "pushed_at": "2026-06-21T23:06:27Z",
+        "starred_at": "2026-07-08T03:59:35Z"
+      },
+      "last_updated": "2026-07-08T06:08:23.127383+00:00"
+    },
+    "lou-evoy/TD-JPEG-Crush-TOP": {
+      "lists": [],
+      "metadata": {
+        "id": 1273562311,
+        "name": "TD-JPEG-Crush-TOP",
+        "full_name": "lou-evoy/TD-JPEG-Crush-TOP",
+        "description": "Real-time JPEG artifact engine for TouchDesigner (CUDA)",
+        "url": "https://github.com/lou-evoy/TD-JPEG-Crush-TOP",
+        "homepage": null,
+        "language": "C++",
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-18T16:39:12Z",
+        "updated_at": "2026-07-08T03:59:28Z",
+        "pushed_at": "2026-06-21T23:07:29Z",
+        "starred_at": "2026-07-08T03:59:28Z"
+      },
+      "last_updated": "2026-07-08T06:08:23.360561+00:00"
+    },
+    "lou-evoy/TD-Pixel-Sort-TOP": {
+      "lists": [],
+      "metadata": {
+        "id": 1273562362,
+        "name": "TD-Pixel-Sort-TOP",
+        "full_name": "lou-evoy/TD-Pixel-Sort-TOP",
+        "description": "Real-time GPU pixel sorting for TouchDesigner (CUDA)",
+        "url": "https://github.com/lou-evoy/TD-Pixel-Sort-TOP",
+        "homepage": null,
+        "language": "Cuda",
+        "stars": 8,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-06-18T16:39:16Z",
+        "updated_at": "2026-07-08T03:59:02Z",
+        "pushed_at": "2026-06-21T23:05:30Z",
+        "starred_at": "2026-07-08T03:59:01Z"
+      },
+      "last_updated": "2026-07-08T06:08:23.587462+00:00"
+    },
+    "BlueJayLouche/rustjay-mosh": {
+      "lists": [],
+      "metadata": {
+        "id": 1212997543,
+        "name": "rustjay-mosh",
+        "full_name": "BlueJayLouche/rustjay-mosh",
+        "description": "datamoshing NLE written in pure rust",
+        "url": "https://github.com/BlueJayLouche/rustjay-mosh",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-17T00:13:11Z",
+        "updated_at": "2026-07-08T03:06:12Z",
+        "pushed_at": "2026-07-07T11:45:22Z",
+        "starred_at": "2026-07-08T03:06:11Z"
+      },
+      "last_updated": "2026-07-08T06:08:23.820209+00:00"
+    },
+    "TouchDesigner/TDDjayPro": {
+      "lists": [],
+      "metadata": {
+        "id": 1231044021,
+        "name": "TDDjayPro",
+        "full_name": "TouchDesigner/TDDjayPro",
+        "description": "A TouchDesigner component to interface with Djay Pro from Algoriddim",
+        "url": "https://github.com/TouchDesigner/TDDjayPro",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-05-06T15:12:06Z",
+        "updated_at": "2026-07-08T03:00:47Z",
+        "pushed_at": "2026-06-04T19:18:03Z",
+        "starred_at": "2026-07-08T03:00:47Z"
+      },
+      "last_updated": "2026-07-08T06:08:24.080218+00:00"
+    },
+    "kklimuk/docx-cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1228586120,
+        "name": "docx-cli",
+        "full_name": "kklimuk/docx-cli",
+        "description": "CLI for AI agents (Claude, Codex) to read, edit, and comment on .docx files with full format fidelity.",
+        "url": "https://github.com/kklimuk/docx-cli",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 95,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-05-04T07:06:15Z",
+        "updated_at": "2026-07-08T05:34:33Z",
+        "pushed_at": "2026-07-07T18:41:51Z",
+        "starred_at": "2026-07-07T20:31:16Z"
+      },
+      "last_updated": "2026-07-08T06:08:24.343508+00:00"
+    },
+    "EmenstaNougat/ESP32-BlueJammer": {
+      "lists": [],
+      "metadata": {
+        "id": 825347997,
+        "name": "ESP32-BlueJammer",
+        "full_name": "EmenstaNougat/ESP32-BlueJammer",
+        "description": "The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and nRF24 modules, it generates noise and unnecessary packets, causing interference between the devices communicating, making them unable to work as intended. Ideal for controlled disruption and security testing. ",
+        "url": "https://github.com/EmenstaNougat/ESP32-BlueJammer",
+        "homepage": "https://esp32-bluejammerflasher.pages.dev",
+        "language": null,
+        "stars": 6837,
+        "forks": 768,
+        "open_issues": 12,
+        "created_at": "2024-07-07T14:34:42Z",
+        "updated_at": "2026-07-08T03:03:56Z",
+        "pushed_at": "2026-03-29T00:34:40Z",
+        "starred_at": "2026-07-07T19:42:32Z"
+      },
+      "last_updated": "2026-07-08T06:08:24.600009+00:00"
+    },
+    "smoochiee/Noisy-boy-esp32-Bluetooth-jammer": {
+      "lists": [],
+      "metadata": {
+        "id": 856297743,
+        "name": "Noisy-boy-esp32-Bluetooth-jammer",
+        "full_name": "smoochiee/Noisy-boy-esp32-Bluetooth-jammer",
+        "description": "Bluetooth jammer using esp32 with webserver",
+        "url": "https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 713,
+        "forks": 84,
+        "open_issues": 17,
+        "created_at": "2024-09-12T10:40:46Z",
+        "updated_at": "2026-07-07T19:41:18Z",
+        "pushed_at": "2025-01-21T15:36:34Z",
+        "starred_at": "2026-07-07T19:41:18Z"
+      },
+      "last_updated": "2026-07-08T06:08:24.823552+00:00"
+    },
+    "smoochiee/Bluetooth-jammer-esp32": {
+      "lists": [],
+      "metadata": {
+        "id": 767912363,
+        "name": "Bluetooth-jammer-esp32",
+        "full_name": "smoochiee/Bluetooth-jammer-esp32",
+        "description": "Bluetooth jamming esp32 with nrf24l01",
+        "url": "https://github.com/smoochiee/Bluetooth-jammer-esp32",
+        "homepage": "",
+        "language": "C++",
+        "stars": 995,
+        "forks": 215,
+        "open_issues": 4,
+        "created_at": "2024-03-06T05:53:34Z",
+        "updated_at": "2026-07-07T22:42:38Z",
+        "pushed_at": "2024-11-04T11:16:24Z",
+        "starred_at": "2026-07-07T19:41:05Z"
+      },
+      "last_updated": "2026-07-08T06:08:25.086338+00:00"
+    },
+    "rhboot/shim": {
+      "lists": [],
+      "metadata": {
+        "id": 3996476,
+        "name": "shim",
+        "full_name": "rhboot/shim",
+        "description": "UEFI shim loader",
+        "url": "https://github.com/rhboot/shim",
+        "homepage": "",
+        "language": "C",
+        "stars": 1090,
+        "forks": 346,
+        "open_issues": 156,
+        "created_at": "2012-04-11T18:00:40Z",
+        "updated_at": "2026-07-07T22:50:37Z",
+        "pushed_at": "2026-06-24T14:32:39Z",
+        "starred_at": "2026-07-07T19:16:17Z"
+      },
+      "last_updated": "2026-07-08T06:08:25.351247+00:00"
+    },
+    "adriflex/autoremesher-blender-bridge": {
+      "lists": [],
+      "metadata": {
+        "id": 1291947423,
+        "name": "autoremesher-blender-bridge",
+        "full_name": "adriflex/autoremesher-blender-bridge",
+        "description": "Blender bridge for AutoRemesher",
+        "url": "https://github.com/adriflex/autoremesher-blender-bridge",
+        "homepage": null,
+        "language": "Python",
+        "stars": 84,
+        "forks": 9,
+        "open_issues": 2,
+        "created_at": "2026-07-07T07:36:26Z",
+        "updated_at": "2026-07-08T05:56:58Z",
+        "pushed_at": "2026-07-07T08:41:20Z",
+        "starred_at": "2026-07-07T17:30:11Z"
+      },
+      "last_updated": "2026-07-08T06:08:25.568600+00:00"
+    },
+    "huxingyi/dust3d": {
+      "lists": [],
+      "metadata": {
+        "id": 76565839,
+        "name": "dust3d",
+        "full_name": "huxingyi/dust3d",
+        "description": "Dust3D is a cross-platform 3D modeling software that makes it easy to create low poly 3D models for video games, 3D printing, and more.",
+        "url": "https://github.com/huxingyi/dust3d",
+        "homepage": "https://dust3d.org/",
+        "language": "C++",
+        "stars": 3348,
+        "forks": 247,
+        "open_issues": 10,
+        "created_at": "2016-12-15T14:17:55Z",
+        "updated_at": "2026-07-08T04:57:04Z",
+        "pushed_at": "2026-07-05T05:42:25Z",
+        "starred_at": "2026-07-07T17:29:03Z"
+      },
+      "last_updated": "2026-07-08T06:08:25.781232+00:00"
+    },
+    "huxingyi/autoremesher": {
+      "lists": [],
+      "metadata": {
+        "id": 273084732,
+        "name": "autoremesher",
+        "full_name": "huxingyi/autoremesher",
+        "description": "Automatic quad remeshing tool",
+        "url": "https://github.com/huxingyi/autoremesher",
+        "homepage": "https://autoremesher.dust3d.org",
+        "language": "C++",
+        "stars": 1745,
+        "forks": 136,
+        "open_issues": 22,
+        "created_at": "2020-06-17T21:48:08Z",
+        "updated_at": "2026-07-08T06:02:49Z",
+        "pushed_at": "2026-07-06T09:52:31Z",
+        "starred_at": "2026-07-07T17:28:29Z"
+      },
+      "last_updated": "2026-07-08T06:08:25.997111+00:00"
+    },
+    "jimparis/qr-font": {
+      "lists": [],
+      "metadata": {
+        "id": 1282566168,
+        "name": "qr-font",
+        "full_name": "jimparis/qr-font",
+        "description": "A QR code generator in a TrueType font: https://qr.jim.sh/",
+        "url": "https://github.com/jimparis/qr-font",
+        "homepage": null,
+        "language": "Python",
+        "stars": 258,
+        "forks": 7,
+        "open_issues": 3,
+        "created_at": "2026-06-28T00:06:19Z",
+        "updated_at": "2026-07-08T05:52:09Z",
+        "pushed_at": "2026-06-28T00:23:15Z",
+        "starred_at": "2026-07-07T16:54:14Z"
+      },
+      "last_updated": "2026-07-08T06:08:26.223082+00:00"
+    },
+    "V4bel/Januscape": {
+      "lists": [],
+      "metadata": {
+        "id": 1291198433,
+        "name": "Januscape",
+        "full_name": "V4bel/Januscape",
+        "description": null,
+        "url": "https://github.com/V4bel/Januscape",
+        "homepage": null,
+        "language": "C",
+        "stars": 285,
+        "forks": 38,
+        "open_issues": 4,
+        "created_at": "2026-07-06T15:35:00Z",
+        "updated_at": "2026-07-08T06:06:21Z",
+        "pushed_at": "2026-07-06T15:37:40Z",
+        "starred_at": "2026-07-07T16:32:56Z"
+      },
+      "last_updated": "2026-07-08T06:08:26.434798+00:00"
+    },
+    "itsthelore/WayfinderRouter": {
+      "lists": [],
+      "metadata": {
+        "id": 1271892689,
+        "name": "WayfinderRouter",
+        "full_name": "itsthelore/WayfinderRouter",
+        "description": "Simple CLI tool for deterministic routing of queries between local and hosted LLM models",
+        "url": "https://github.com/itsthelore/WayfinderRouter",
+        "homepage": null,
+        "language": "Python",
+        "stars": 366,
+        "forks": 20,
+        "open_issues": 2,
+        "created_at": "2026-06-17T05:24:57Z",
+        "updated_at": "2026-07-08T04:53:31Z",
+        "pushed_at": "2026-07-07T07:15:43Z",
+        "starred_at": "2026-06-28T16:50:48Z"
+      },
+      "last_updated": "2026-07-08T06:08:26.682115+00:00"
     }
   },
   "last_processed_index": 0,
@@ -238242,5 +238582,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"c5eb46175fb46a4f5b84d987424337bc2493ebdb56279cd04521628ce179e01a\""
+  "profile_etag": "W/\"f7df0456e3f2b65089194252f892ac83e1037cccb54141a85fd083f4e9fec53b\""
 }
