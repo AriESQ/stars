@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T06:14:54.543590+00:00",
+  "last_updated": "2026-07-09T06:56:19.263249+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238753,6 +238753,186 @@
         "fetched_at": "2026-07-08T06:14:51.085222+00:00",
         "status": "ok"
       }
+    },
+    "kocasariumut/FaceAnything": {
+      "lists": [],
+      "metadata": {
+        "id": 1283937710,
+        "name": "FaceAnything",
+        "full_name": "kocasariumut/FaceAnything",
+        "description": null,
+        "url": "https://github.com/kocasariumut/FaceAnything",
+        "homepage": null,
+        "language": "Python",
+        "stars": 175,
+        "forks": 21,
+        "open_issues": 1,
+        "created_at": "2026-06-29T11:24:35Z",
+        "updated_at": "2026-07-09T05:33:02Z",
+        "pushed_at": "2026-06-29T11:42:41Z",
+        "starred_at": "2026-07-09T04:22:52Z"
+      },
+      "last_updated": "2026-07-09T06:56:16.552361+00:00"
+    },
+    "ossf/package-feeds": {
+      "lists": [],
+      "metadata": {
+        "id": 317620857,
+        "name": "package-feeds",
+        "full_name": "ossf/package-feeds",
+        "description": "Feed parsing for language package manager updates",
+        "url": "https://github.com/ossf/package-feeds",
+        "homepage": null,
+        "language": "Go",
+        "stars": 87,
+        "forks": 19,
+        "open_issues": 33,
+        "created_at": "2020-12-01T17:41:52Z",
+        "updated_at": "2026-07-09T03:51:10Z",
+        "pushed_at": "2026-06-01T00:07:53Z",
+        "starred_at": "2026-07-09T03:51:09Z"
+      },
+      "last_updated": "2026-07-09T06:56:16.884821+00:00"
+    },
+    "dougburks/so-crates": {
+      "lists": [],
+      "metadata": {
+        "id": 1200427538,
+        "name": "so-crates",
+        "full_name": "dougburks/so-crates",
+        "description": "SO-CRATES: Security Onion Containerized Rapid Analysis of Threats, Evil, and Sus!",
+        "url": "https://github.com/dougburks/so-crates",
+        "homepage": "",
+        "language": "Python",
+        "stars": 333,
+        "forks": 21,
+        "open_issues": 1,
+        "created_at": "2026-04-03T11:58:29Z",
+        "updated_at": "2026-07-09T06:41:37Z",
+        "pushed_at": "2026-07-08T15:03:23Z",
+        "starred_at": "2026-07-09T03:50:16Z"
+      },
+      "last_updated": "2026-07-09T06:56:17.156452+00:00"
+    },
+    "ietf-wg-webtrans/draft-ietf-webtrans-http3": {
+      "lists": [],
+      "metadata": {
+        "id": 183680498,
+        "name": "draft-ietf-webtrans-http3",
+        "full_name": "ietf-wg-webtrans/draft-ietf-webtrans-http3",
+        "description": "Internet Drafts for WebTransport",
+        "url": "https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3",
+        "homepage": null,
+        "language": "Makefile",
+        "stars": 48,
+        "forks": 14,
+        "open_issues": 8,
+        "created_at": "2019-04-26T19:01:43Z",
+        "updated_at": "2026-07-09T03:13:18Z",
+        "pushed_at": "2026-07-09T01:56:13Z",
+        "starred_at": "2026-07-09T03:13:17Z"
+      },
+      "last_updated": "2026-07-09T06:56:17.497220+00:00"
+    },
+    "intechstudio/grid-hardware": {
+      "lists": [],
+      "metadata": {
+        "id": 171666149,
+        "name": "grid-hardware",
+        "full_name": "intechstudio/grid-hardware",
+        "description": null,
+        "url": "https://github.com/intechstudio/grid-hardware",
+        "homepage": null,
+        "language": "G-code",
+        "stars": 53,
+        "forks": 4,
+        "open_issues": 29,
+        "created_at": "2019-02-20T12:07:21Z",
+        "updated_at": "2026-07-08T21:20:07Z",
+        "pushed_at": "2026-07-08T14:18:21Z",
+        "starred_at": "2026-07-08T21:20:06Z"
+      },
+      "last_updated": "2026-07-09T06:56:17.794289+00:00"
+    },
+    "chattocorp/chatto": {
+      "lists": [],
+      "metadata": {
+        "id": 1205013299,
+        "name": "chatto",
+        "full_name": "chattocorp/chatto",
+        "description": "A really good chat application that you can self-host.",
+        "url": "https://github.com/chattocorp/chatto",
+        "homepage": "https://chatto.run",
+        "language": "Go",
+        "stars": 919,
+        "forks": 37,
+        "open_issues": 158,
+        "created_at": "2026-04-08T14:50:12Z",
+        "updated_at": "2026-07-09T06:53:42Z",
+        "pushed_at": "2026-07-08T16:42:41Z",
+        "starred_at": "2026-07-08T18:13:48Z"
+      },
+      "last_updated": "2026-07-09T06:56:18.110784+00:00"
+    },
+    "wouterdebie/davit": {
+      "lists": [],
+      "metadata": {
+        "id": 1289364610,
+        "name": "davit",
+        "full_name": "wouterdebie/davit",
+        "description": "A native macOS UI for Apple's platform",
+        "url": "https://github.com/wouterdebie/davit",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 603,
+        "forks": 8,
+        "open_issues": 1,
+        "created_at": "2026-07-04T16:50:17Z",
+        "updated_at": "2026-07-09T06:49:14Z",
+        "pushed_at": "2026-07-08T21:53:03Z",
+        "starred_at": "2026-07-08T16:53:58Z"
+      },
+      "last_updated": "2026-07-09T06:56:18.397776+00:00"
+    },
+    "MathTauAthogen/autoTOS": {
+      "lists": [],
+      "metadata": {
+        "id": 294835775,
+        "name": "autoTOS",
+        "full_name": "MathTauAthogen/autoTOS",
+        "description": "Automatically parse and summarize Terms of Services and Privacy Policies with custom NLP techniques",
+        "url": "https://github.com/MathTauAthogen/autoTOS",
+        "homepage": "",
+        "language": "Python",
+        "stars": 9,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2020-09-12T00:01:56Z",
+        "updated_at": "2026-07-08T15:38:41Z",
+        "pushed_at": "2022-06-26T22:21:44Z",
+        "starred_at": "2026-07-08T15:38:40Z"
+      },
+      "last_updated": "2026-07-09T06:56:18.704807+00:00"
+    },
+    "computerequipmentgroup/firehat": {
+      "lists": [],
+      "metadata": {
+        "id": 963843013,
+        "name": "firehat",
+        "full_name": "computerequipmentgroup/firehat",
+        "description": "Compact DV recorder",
+        "url": "https://github.com/computerequipmentgroup/firehat",
+        "homepage": "https://equip-1.c-e.group",
+        "language": "Python",
+        "stars": 69,
+        "forks": 5,
+        "open_issues": 4,
+        "created_at": "2025-04-10T09:43:59Z",
+        "updated_at": "2026-07-08T16:45:03Z",
+        "pushed_at": "2026-04-02T17:34:44Z",
+        "starred_at": "2026-05-30T17:29:00Z"
+      },
+      "last_updated": "2026-07-09T06:56:19.263182+00:00"
     }
   },
   "last_processed_index": 0,
@@ -238762,5 +238942,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f7df0456e3f2b65089194252f892ac83e1037cccb54141a85fd083f4e9fec53b\""
+  "profile_etag": "W/\"14043e2ba9859314f6d5723d60b4faf752ff1096ac3be16bf6b802f6e80ab306\""
 }
