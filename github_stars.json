@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T06:56:19.263249+00:00",
+  "last_updated": "2026-07-09T07:15:08.989088+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -197355,7 +197355,8 @@
     },
     "Security-Onion-Solutions/securityonion": {
       "lists": [
-        "Infosec"
+        "Infosec",
+        "Networking"
       ],
       "metadata": {
         "id": 120338179,
@@ -206171,7 +206172,9 @@
       }
     },
     "mRemoteNG/mRemoteNG": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 460848,
         "name": "mRemoteNG",
@@ -238755,7 +238758,10 @@
       }
     },
     "kocasariumut/FaceAnything": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1283937710,
         "name": "FaceAnything",
@@ -238775,7 +238781,10 @@
       "last_updated": "2026-07-09T06:56:16.552361+00:00"
     },
     "ossf/package-feeds": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec"
+      ],
       "metadata": {
         "id": 317620857,
         "name": "package-feeds",
@@ -238795,7 +238804,12 @@
       "last_updated": "2026-07-09T06:56:16.884821+00:00"
     },
     "dougburks/so-crates": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Networking",
+        "Python"
+      ],
       "metadata": {
         "id": 1200427538,
         "name": "so-crates",
@@ -238815,7 +238829,10 @@
       "last_updated": "2026-07-09T06:56:17.156452+00:00"
     },
     "ietf-wg-webtrans/draft-ietf-webtrans-http3": {
-      "lists": [],
+      "lists": [
+        "Networking",
+        "PKI"
+      ],
       "metadata": {
         "id": 183680498,
         "name": "draft-ietf-webtrans-http3",
@@ -238835,7 +238852,10 @@
       "last_updated": "2026-07-09T06:56:17.497220+00:00"
     },
     "intechstudio/grid-hardware": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 171666149,
         "name": "grid-hardware",
@@ -238855,7 +238875,11 @@
       "last_updated": "2026-07-09T06:56:17.794289+00:00"
     },
     "chattocorp/chatto": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1205013299,
         "name": "chatto",
@@ -238875,7 +238899,9 @@
       "last_updated": "2026-07-09T06:56:18.110784+00:00"
     },
     "wouterdebie/davit": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1289364610,
         "name": "davit",
@@ -238895,7 +238921,11 @@
       "last_updated": "2026-07-09T06:56:18.397776+00:00"
     },
     "MathTauAthogen/autoTOS": {
-      "lists": [],
+      "lists": [
+        "Bash",
+        "Infosec",
+        "Python"
+      ],
       "metadata": {
         "id": 294835775,
         "name": "autoTOS",
@@ -238915,7 +238945,10 @@
       "last_updated": "2026-07-09T06:56:18.704807+00:00"
     },
     "computerequipmentgroup/firehat": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 963843013,
         "name": "firehat",
