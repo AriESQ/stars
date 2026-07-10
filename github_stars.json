@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T06:56:33.881297+00:00",
+  "last_updated": "2026-07-10T07:04:38.170105+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238968,7 +238968,10 @@
       "last_updated": "2026-07-09T06:56:19.263182+00:00"
     },
     "aatishb/patterncollider": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 341940790,
         "name": "patterncollider",
@@ -238988,7 +238991,10 @@
       "last_updated": "2026-07-10T06:56:30.786850+00:00"
     },
     "turnstonelabs/turnstone": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1170417816,
         "name": "turnstone",
@@ -239008,7 +239014,9 @@
       "last_updated": "2026-07-10T06:56:31.173144+00:00"
     },
     "JustVugg/colibri": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1286080397,
         "name": "colibri",
@@ -239048,7 +239056,10 @@
       "last_updated": "2026-07-10T06:56:31.910345+00:00"
     },
     "mindsdb/mindshub": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 143328315,
         "name": "mindshub",
@@ -239068,7 +239079,10 @@
       "last_updated": "2026-07-10T06:56:32.490260+00:00"
     },
     "PrPlanIT/DisplayWizard": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 853530648,
         "name": "DisplayWizard",
@@ -239088,7 +239102,11 @@
       "last_updated": "2026-07-10T06:56:33.082654+00:00"
     },
     "github-community-projects/safe-settings": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 292561501,
         "name": "safe-settings",
