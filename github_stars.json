@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T07:04:38.170105+00:00",
+  "last_updated": "2026-07-10T07:05:02.598597+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238778,7 +238778,15 @@
         "pushed_at": "2026-06-29T11:42:41Z",
         "starred_at": "2026-07-09T04:22:52Z"
       },
-      "last_updated": "2026-07-09T06:56:16.552361+00:00"
+      "last_updated": "2026-07-09T06:56:16.552361+00:00",
+      "readme": {
+        "path": "readmes/kocasariumut+FaceAnything+README.md",
+        "etag": "W/\"6a521cecd8491b63d0c3aab63daa1372c9ccb2ff\"",
+        "sha": "6a521cecd8491b63d0c3aab63daa1372c9ccb2ff",
+        "size": 9818,
+        "fetched_at": "2026-07-10T07:05:00.817174+00:00",
+        "status": "ok"
+      }
     },
     "ossf/package-feeds": {
       "lists": [
@@ -238801,7 +238809,15 @@
         "pushed_at": "2026-06-01T00:07:53Z",
         "starred_at": "2026-07-09T03:51:09Z"
       },
-      "last_updated": "2026-07-09T06:56:16.884821+00:00"
+      "last_updated": "2026-07-09T06:56:16.884821+00:00",
+      "readme": {
+        "path": "readmes/ossf+package-feeds+README.md",
+        "etag": "W/\"93acb695b5a5139d5b47970bd0436362c375790e\"",
+        "sha": "93acb695b5a5139d5b47970bd0436362c375790e",
+        "size": 4305,
+        "fetched_at": "2026-07-10T07:05:01.573684+00:00",
+        "status": "ok"
+      }
     },
     "dougburks/so-crates": {
       "lists": [
@@ -238826,7 +238842,15 @@
         "pushed_at": "2026-07-08T15:03:23Z",
         "starred_at": "2026-07-09T03:50:16Z"
       },
-      "last_updated": "2026-07-09T06:56:17.156452+00:00"
+      "last_updated": "2026-07-09T06:56:17.156452+00:00",
+      "readme": {
+        "path": "readmes/dougburks+so-crates+README.md",
+        "etag": "W/\"ddcc3c436fef2b463680df563613fc0ca0d36593\"",
+        "sha": "ddcc3c436fef2b463680df563613fc0ca0d36593",
+        "size": 16822,
+        "fetched_at": "2026-07-10T07:04:59.505846+00:00",
+        "status": "ok"
+      }
     },
     "ietf-wg-webtrans/draft-ietf-webtrans-http3": {
       "lists": [
@@ -238849,7 +238873,15 @@
         "pushed_at": "2026-07-09T01:56:13Z",
         "starred_at": "2026-07-09T03:13:17Z"
       },
-      "last_updated": "2026-07-09T06:56:17.497220+00:00"
+      "last_updated": "2026-07-09T06:56:17.497220+00:00",
+      "readme": {
+        "path": "readmes/ietf-wg-webtrans+draft-ietf-webtrans-http3+README.md",
+        "etag": "W/\"491ab068811ded6b0e45b4f4a33955da571a18ff\"",
+        "sha": "491ab068811ded6b0e45b4f4a33955da571a18ff",
+        "size": 1228,
+        "fetched_at": "2026-07-10T07:05:00.164408+00:00",
+        "status": "ok"
+      }
     },
     "intechstudio/grid-hardware": {
       "lists": [
@@ -238872,7 +238904,15 @@
         "pushed_at": "2026-07-08T14:18:21Z",
         "starred_at": "2026-07-08T21:20:06Z"
       },
-      "last_updated": "2026-07-09T06:56:17.794289+00:00"
+      "last_updated": "2026-07-09T06:56:17.794289+00:00",
+      "readme": {
+        "path": "readmes/intechstudio+grid-hardware+README.md",
+        "etag": "W/\"21e21512a8f0891216a36a591bfaa7da80f2e19e\"",
+        "sha": "21e21512a8f0891216a36a591bfaa7da80f2e19e",
+        "size": 37666,
+        "fetched_at": "2026-07-10T07:05:00.531134+00:00",
+        "status": "ok"
+      }
     },
     "chattocorp/chatto": {
       "lists": [
@@ -238896,7 +238936,15 @@
         "pushed_at": "2026-07-08T16:42:41Z",
         "starred_at": "2026-07-08T18:13:48Z"
       },
-      "last_updated": "2026-07-09T06:56:18.110784+00:00"
+      "last_updated": "2026-07-09T06:56:18.110784+00:00",
+      "readme": {
+        "path": "readmes/chattocorp+chatto+README.md",
+        "etag": "W/\"cea0884f5426de7561c84def3b1c97286386a79d\"",
+        "sha": "cea0884f5426de7561c84def3b1c97286386a79d",
+        "size": 1651,
+        "fetched_at": "2026-07-10T07:04:58.890559+00:00",
+        "status": "ok"
+      }
     },
     "wouterdebie/davit": {
       "lists": [
@@ -238918,7 +238966,15 @@
         "pushed_at": "2026-07-08T21:53:03Z",
         "starred_at": "2026-07-08T16:53:58Z"
       },
-      "last_updated": "2026-07-09T06:56:18.397776+00:00"
+      "last_updated": "2026-07-09T06:56:18.397776+00:00",
+      "readme": {
+        "path": "readmes/wouterdebie+davit+README.md",
+        "etag": "W/\"1e9e267b0597195c2f4c8f418f1b14fc8abf55e6\"",
+        "sha": "1e9e267b0597195c2f4c8f418f1b14fc8abf55e6",
+        "size": 14614,
+        "fetched_at": "2026-07-10T07:05:02.597874+00:00",
+        "status": "ok"
+      }
     },
     "MathTauAthogen/autoTOS": {
       "lists": [
@@ -238942,7 +238998,15 @@
         "pushed_at": "2022-06-26T22:21:44Z",
         "starred_at": "2026-07-08T15:38:40Z"
       },
-      "last_updated": "2026-07-09T06:56:18.704807+00:00"
+      "last_updated": "2026-07-09T06:56:18.704807+00:00",
+      "readme": {
+        "path": "readmes/MathTauAthogen+autoTOS+README.md",
+        "etag": "W/\"d989ecaa92cce1c15c88edfaaa7ebee95de063ad\"",
+        "sha": "d989ecaa92cce1c15c88edfaaa7ebee95de063ad",
+        "size": 4556,
+        "fetched_at": "2026-07-10T07:04:57.652130+00:00",
+        "status": "ok"
+      }
     },
     "computerequipmentgroup/firehat": {
       "lists": [
@@ -238965,7 +239029,15 @@
         "pushed_at": "2026-04-02T17:34:44Z",
         "starred_at": "2026-05-30T17:29:00Z"
       },
-      "last_updated": "2026-07-09T06:56:19.263182+00:00"
+      "last_updated": "2026-07-09T06:56:19.263182+00:00",
+      "readme": {
+        "path": "readmes/computerequipmentgroup+firehat+README.md",
+        "etag": "W/\"140f8b0b6583dadf8ccb11b506a449cda7e97ea1\"",
+        "sha": "140f8b0b6583dadf8ccb11b506a449cda7e97ea1",
+        "size": 1649,
+        "fetched_at": "2026-07-10T07:04:59.212641+00:00",
+        "status": "ok"
+      }
     },
     "aatishb/patterncollider": {
       "lists": [
@@ -238988,7 +239060,15 @@
         "pushed_at": "2023-07-28T11:52:42Z",
         "starred_at": "2026-07-10T03:02:02Z"
       },
-      "last_updated": "2026-07-10T06:56:30.786850+00:00"
+      "last_updated": "2026-07-10T06:56:30.786850+00:00",
+      "readme": {
+        "path": "readmes/aatishb+patterncollider+README.md",
+        "etag": "W/\"5c9be06b0062ecf1884a1c84c24893e214ba84f3\"",
+        "sha": "5c9be06b0062ecf1884a1c84c24893e214ba84f3",
+        "size": 10955,
+        "fetched_at": "2026-07-10T07:04:58.469311+00:00",
+        "status": "ok"
+      }
     },
     "turnstonelabs/turnstone": {
       "lists": [
@@ -239011,7 +239091,15 @@
         "pushed_at": "2026-07-10T06:42:09Z",
         "starred_at": "2026-07-09T23:42:20Z"
       },
-      "last_updated": "2026-07-10T06:56:31.173144+00:00"
+      "last_updated": "2026-07-10T06:56:31.173144+00:00",
+      "readme": {
+        "path": "readmes/turnstonelabs+turnstone+README.md",
+        "etag": "W/\"b810edb060e9dc18ceab7961a23217c39c83a1a2\"",
+        "sha": "b810edb060e9dc18ceab7961a23217c39c83a1a2",
+        "size": 9576,
+        "fetched_at": "2026-07-10T07:05:02.321250+00:00",
+        "status": "ok"
+      }
     },
     "JustVugg/colibri": {
       "lists": [
@@ -239033,7 +239121,15 @@
         "pushed_at": "2026-07-10T05:46:20Z",
         "starred_at": "2026-07-09T22:07:08Z"
       },
-      "last_updated": "2026-07-10T06:56:31.557166+00:00"
+      "last_updated": "2026-07-10T06:56:31.557166+00:00",
+      "readme": {
+        "path": "readmes/JustVugg+colibri+README.md",
+        "etag": "W/\"cddedf3200adc83ea7a3f3a3a2fa233107a21852\"",
+        "sha": "cddedf3200adc83ea7a3f3a3a2fa233107a21852",
+        "size": 18932,
+        "fetched_at": "2026-07-10T07:04:57.292159+00:00",
+        "status": "ok"
+      }
     },
     "ronak-create/FableCut": {
       "lists": [],
@@ -239053,7 +239149,15 @@
         "pushed_at": "2026-07-09T22:42:14Z",
         "starred_at": "2026-07-09T14:23:22Z"
       },
-      "last_updated": "2026-07-10T06:56:31.910345+00:00"
+      "last_updated": "2026-07-10T06:56:31.910345+00:00",
+      "readme": {
+        "path": "readmes/ronak-create+FableCut+README.md",
+        "etag": "W/\"e9477575ac8ad743504cfdd20fa4ee5f9b7eb2c3\"",
+        "sha": "e9477575ac8ad743504cfdd20fa4ee5f9b7eb2c3",
+        "size": 8864,
+        "fetched_at": "2026-07-10T07:05:01.886033+00:00",
+        "status": "ok"
+      }
     },
     "mindsdb/mindshub": {
       "lists": [
@@ -239076,7 +239180,15 @@
         "pushed_at": "2026-07-10T06:49:30Z",
         "starred_at": "2025-07-18T01:20:53Z"
       },
-      "last_updated": "2026-07-10T06:56:32.490260+00:00"
+      "last_updated": "2026-07-10T06:56:32.490260+00:00",
+      "readme": {
+        "path": "readmes/mindsdb+mindshub+README.md",
+        "etag": "W/\"0451a2c784142f3a7ba7e80a204c28ea0c0b3b5a\"",
+        "sha": "0451a2c784142f3a7ba7e80a204c28ea0c0b3b5a",
+        "size": 8350,
+        "fetched_at": "2026-07-10T07:05:01.211629+00:00",
+        "status": "ok"
+      }
     },
     "PrPlanIT/DisplayWizard": {
       "lists": [
@@ -239099,7 +239211,15 @@
         "pushed_at": "2025-04-03T21:58:13Z",
         "starred_at": "2025-05-09T17:56:11Z"
       },
-      "last_updated": "2026-07-10T06:56:33.082654+00:00"
+      "last_updated": "2026-07-10T06:56:33.082654+00:00",
+      "readme": {
+        "path": "readmes/PrPlanIT+DisplayWizard+README.md",
+        "etag": "W/\"8f94c8d80699e0354fce7851fa25625d40a75bfb\"",
+        "sha": "8f94c8d80699e0354fce7851fa25625d40a75bfb",
+        "size": 15184,
+        "fetched_at": "2026-07-10T07:04:58.002168+00:00",
+        "status": "ok"
+      }
     },
     "github-community-projects/safe-settings": {
       "lists": [
@@ -239123,7 +239243,15 @@
         "pushed_at": "2026-07-08T22:10:07Z",
         "starred_at": "2023-04-19T16:46:48Z"
       },
-      "last_updated": "2026-07-10T06:56:33.881238+00:00"
+      "last_updated": "2026-07-10T06:56:33.881238+00:00",
+      "readme": {
+        "path": "readmes/github-community-projects+safe-settings+README.md",
+        "etag": "W/\"07a6267486bf322f35b1942a3dcc442bc4739165\"",
+        "sha": "07a6267486bf322f35b1942a3dcc442bc4739165",
+        "size": 28664,
+        "fetched_at": "2026-07-10T07:04:59.807393+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
