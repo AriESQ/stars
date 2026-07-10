@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T07:15:08.989088+00:00",
+  "last_updated": "2026-07-10T06:56:33.881297+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -238966,6 +238966,146 @@
         "starred_at": "2026-05-30T17:29:00Z"
       },
       "last_updated": "2026-07-09T06:56:19.263182+00:00"
+    },
+    "aatishb/patterncollider": {
+      "lists": [],
+      "metadata": {
+        "id": 341940790,
+        "name": "patterncollider",
+        "full_name": "aatishb/patterncollider",
+        "description": "A web interactive for generating and exploring quasiperiodic tiling patterns",
+        "url": "https://github.com/aatishb/patterncollider",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 368,
+        "forks": 27,
+        "open_issues": 6,
+        "created_at": "2021-02-24T15:15:25Z",
+        "updated_at": "2026-07-10T06:50:38Z",
+        "pushed_at": "2023-07-28T11:52:42Z",
+        "starred_at": "2026-07-10T03:02:02Z"
+      },
+      "last_updated": "2026-07-10T06:56:30.786850+00:00"
+    },
+    "turnstonelabs/turnstone": {
+      "lists": [],
+      "metadata": {
+        "id": 1170417816,
+        "name": "turnstone",
+        "full_name": "turnstonelabs/turnstone",
+        "description": null,
+        "url": "https://github.com/turnstonelabs/turnstone",
+        "homepage": null,
+        "language": "Python",
+        "stars": 761,
+        "forks": 62,
+        "open_issues": 22,
+        "created_at": "2026-03-02T05:12:20Z",
+        "updated_at": "2026-07-10T06:49:44Z",
+        "pushed_at": "2026-07-10T06:42:09Z",
+        "starred_at": "2026-07-09T23:42:20Z"
+      },
+      "last_updated": "2026-07-10T06:56:31.173144+00:00"
+    },
+    "JustVugg/colibri": {
+      "lists": [],
+      "metadata": {
+        "id": 1286080397,
+        "name": "colibri",
+        "full_name": "JustVugg/colibri",
+        "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26",
+        "url": "https://github.com/JustVugg/colibri",
+        "homepage": "",
+        "language": "C",
+        "stars": 925,
+        "forks": 53,
+        "open_issues": 7,
+        "created_at": "2026-07-01T12:27:49Z",
+        "updated_at": "2026-07-10T06:55:26Z",
+        "pushed_at": "2026-07-10T05:46:20Z",
+        "starred_at": "2026-07-09T22:07:08Z"
+      },
+      "last_updated": "2026-07-10T06:56:31.557166+00:00"
+    },
+    "ronak-create/FableCut": {
+      "lists": [],
+      "metadata": {
+        "id": 1291242597,
+        "name": "FableCut",
+        "full_name": "ronak-create/FableCut",
+        "description": "Zero-dependency browser video editor that AI agents can drive \u2014 JSON timeline, MCP + REST, live-reloading UI",
+        "url": "https://github.com/ronak-create/FableCut",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 253,
+        "forks": 9,
+        "open_issues": 6,
+        "created_at": "2026-07-06T16:18:57Z",
+        "updated_at": "2026-07-10T06:24:00Z",
+        "pushed_at": "2026-07-09T22:42:14Z",
+        "starred_at": "2026-07-09T14:23:22Z"
+      },
+      "last_updated": "2026-07-10T06:56:31.910345+00:00"
+    },
+    "mindsdb/mindshub": {
+      "lists": [],
+      "metadata": {
+        "id": 143328315,
+        "name": "mindshub",
+        "full_name": "mindsdb/mindshub",
+        "description": "Make AI do actual work. Swap the model anytime \u2014 keep everything you've built.",
+        "url": "https://github.com/mindsdb/mindshub",
+        "homepage": "https://mindshub.ai",
+        "language": "Makefile",
+        "stars": 39385,
+        "forks": 6219,
+        "open_issues": 4,
+        "created_at": "2018-08-02T17:56:45Z",
+        "updated_at": "2026-07-10T06:29:29Z",
+        "pushed_at": "2026-07-10T06:49:30Z",
+        "starred_at": "2025-07-18T01:20:53Z"
+      },
+      "last_updated": "2026-07-10T06:56:32.490260+00:00"
+    },
+    "PrPlanIT/DisplayWizard": {
+      "lists": [],
+      "metadata": {
+        "id": 853530648,
+        "name": "DisplayWizard",
+        "full_name": "PrPlanIT/DisplayWizard",
+        "description": "Virtual Display Driver: Wizard is a GUI tool that can integrate with other software such as Sunshine for efficient manipulation (Install / Uninstall / Reload / Configure) of Indirect Display Driver Sample (IddSample) implementations like the HDR capable Virtual Display Driver from itsmikethetech that works on Windows 10/11.",
+        "url": "https://github.com/PrPlanIT/DisplayWizard",
+        "homepage": "",
+        "language": "AutoHotkey",
+        "stars": 124,
+        "forks": 5,
+        "open_issues": 4,
+        "created_at": "2024-09-06T21:00:45Z",
+        "updated_at": "2026-07-09T14:40:29Z",
+        "pushed_at": "2025-04-03T21:58:13Z",
+        "starred_at": "2025-05-09T17:56:11Z"
+      },
+      "last_updated": "2026-07-10T06:56:33.082654+00:00"
+    },
+    "github-community-projects/safe-settings": {
+      "lists": [],
+      "metadata": {
+        "id": 292561501,
+        "name": "safe-settings",
+        "full_name": "github-community-projects/safe-settings",
+        "description": null,
+        "url": "https://github.com/github-community-projects/safe-settings",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 893,
+        "forks": 213,
+        "open_issues": 209,
+        "created_at": "2020-09-03T12:18:39Z",
+        "updated_at": "2026-07-10T03:03:00Z",
+        "pushed_at": "2026-07-08T22:10:07Z",
+        "starred_at": "2023-04-19T16:46:48Z"
+      },
+      "last_updated": "2026-07-10T06:56:33.881238+00:00"
     }
   },
   "last_processed_index": 0,
@@ -238975,5 +239115,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"14043e2ba9859314f6d5723d60b4faf752ff1096ac3be16bf6b802f6e80ab306\""
+  "profile_etag": "W/\"74a7d1e443c2526b933d1f7a9b6853b72b4b69507fd62fcc9df6d45e4f151f3e\""
 }
