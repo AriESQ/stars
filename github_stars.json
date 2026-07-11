@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T05:50:24.474372+00:00",
+  "last_updated": "2026-07-11T05:59:01.412877+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239271,7 +239271,15 @@
         "pushed_at": "2024-07-23T09:42:34Z",
         "starred_at": "2026-07-10T22:29:44Z"
       },
-      "last_updated": "2026-07-11T05:50:24.474262+00:00"
+      "last_updated": "2026-07-11T05:50:24.474262+00:00",
+      "readme": {
+        "path": "readmes/PiRogueToolSuite+pirogue-os+README.md",
+        "etag": "W/\"799152fed8945d66dae25b6aafe9dabba1c41e02\"",
+        "sha": "799152fed8945d66dae25b6aafe9dabba1c41e02",
+        "size": 936,
+        "fetched_at": "2026-07-11T05:59:01.400592+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
