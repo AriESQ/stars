@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T07:05:02.598597+00:00",
+  "last_updated": "2026-07-11T05:50:24.474372+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239252,6 +239252,26 @@
         "fetched_at": "2026-07-10T07:04:59.807393+00:00",
         "status": "ok"
       }
+    },
+    "PiRogueToolSuite/pirogue-os": {
+      "lists": [],
+      "metadata": {
+        "id": 464189612,
+        "name": "pirogue-os",
+        "full_name": "PiRogueToolSuite/pirogue-os",
+        "description": "OS image for the PiRogue based on Debian 12",
+        "url": "https://github.com/PiRogueToolSuite/pirogue-os",
+        "homepage": "https://pts-project.org/",
+        "language": "Shell",
+        "stars": 161,
+        "forks": 7,
+        "open_issues": 10,
+        "created_at": "2022-02-27T16:25:09Z",
+        "updated_at": "2026-07-10T22:29:45Z",
+        "pushed_at": "2024-07-23T09:42:34Z",
+        "starred_at": "2026-07-10T22:29:44Z"
+      },
+      "last_updated": "2026-07-11T05:50:24.474262+00:00"
     }
   },
   "last_processed_index": 0,
@@ -239261,5 +239281,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"74a7d1e443c2526b933d1f7a9b6853b72b4b69507fd62fcc9df6d45e4f151f3e\""
+  "profile_etag": "W/\"eb359c6852f6521c65fcf1aebbb20f1e62cb441d0697341c4b1e38b7930e4b2a\""
 }
