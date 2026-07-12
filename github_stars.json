@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T06:21:09.138304+00:00",
+  "last_updated": "2026-07-12T06:21:36.322611+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239302,7 +239302,15 @@
         "pushed_at": "2025-12-14T13:58:19Z",
         "starred_at": "2026-07-12T00:02:42Z"
       },
-      "last_updated": "2026-07-12T06:13:38.973613+00:00"
+      "last_updated": "2026-07-12T06:13:38.973613+00:00",
+      "readme": {
+        "path": "readmes/Wren6991+RISCBoy+Readme.md",
+        "etag": "W/\"ef92f60588a39ea73a1ed5b33eb89cc16dd235b0\"",
+        "sha": "ef92f60588a39ea73a1ed5b33eb89cc16dd235b0",
+        "size": 7211,
+        "fetched_at": "2026-07-12T06:21:36.096682+00:00",
+        "status": "ok"
+      }
     },
     "Rodiun/frugon": {
       "lists": [
@@ -239325,7 +239333,15 @@
         "pushed_at": "2026-07-09T15:37:18Z",
         "starred_at": "2026-07-11T20:19:51Z"
       },
-      "last_updated": "2026-07-12T06:13:39.207747+00:00"
+      "last_updated": "2026-07-12T06:13:39.207747+00:00",
+      "readme": {
+        "path": "readmes/Rodiun+frugon+README.md",
+        "etag": "W/\"0376c16efdb69f55b559ed2567038596cdc65717\"",
+        "sha": "0376c16efdb69f55b559ed2567038596cdc65717",
+        "size": 11279,
+        "fetched_at": "2026-07-12T06:21:35.970625+00:00",
+        "status": "ok"
+      }
     },
     "bazuchan/keychain-pkcs11": {
       "lists": [
@@ -239352,7 +239368,15 @@
         "pushed_at": "2026-04-10T16:18:07Z",
         "starred_at": "2026-07-11T18:00:30Z"
       },
-      "last_updated": "2026-07-12T06:13:39.526040+00:00"
+      "last_updated": "2026-07-12T06:13:39.526040+00:00",
+      "readme": {
+        "path": "readmes/bazuchan+keychain-pkcs11+README.md",
+        "etag": "W/\"598ca5898ae687f2dd717d30bbf017504cf8656e\"",
+        "sha": "598ca5898ae687f2dd717d30bbf017504cf8656e",
+        "size": 6757,
+        "fetched_at": "2026-07-12T06:21:36.313606+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
