@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T05:59:01.412877+00:00",
+  "last_updated": "2026-07-12T06:13:39.526159+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239280,6 +239280,66 @@
         "fetched_at": "2026-07-11T05:59:01.400592+00:00",
         "status": "ok"
       }
+    },
+    "Wren6991/RISCBoy": {
+      "lists": [],
+      "metadata": {
+        "id": 125576403,
+        "name": "RISCBoy",
+        "full_name": "Wren6991/RISCBoy",
+        "description": "Portable games console, designed from scratch: CPU, graphics, PCB, and the kitchen sink",
+        "url": "https://github.com/Wren6991/RISCBoy",
+        "homepage": null,
+        "language": "C",
+        "stars": 370,
+        "forks": 17,
+        "open_issues": 3,
+        "created_at": "2018-03-16T22:31:53Z",
+        "updated_at": "2026-07-12T05:55:25Z",
+        "pushed_at": "2025-12-14T13:58:19Z",
+        "starred_at": "2026-07-12T00:02:42Z"
+      },
+      "last_updated": "2026-07-12T06:13:38.973613+00:00"
+    },
+    "Rodiun/frugon": {
+      "lists": [],
+      "metadata": {
+        "id": 1275548357,
+        "name": "frugon",
+        "full_name": "Rodiun/frugon",
+        "description": "Free, local, open-source LLM cost analyzer - see where your LLM bill leaks, on your machine.",
+        "url": "https://github.com/Rodiun/frugon",
+        "homepage": "https://frugon.rodiun.io",
+        "language": "Python",
+        "stars": 139,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2026-06-20T20:53:20Z",
+        "updated_at": "2026-07-12T00:34:02Z",
+        "pushed_at": "2026-07-09T15:37:18Z",
+        "starred_at": "2026-07-11T20:19:51Z"
+      },
+      "last_updated": "2026-07-12T06:13:39.207747+00:00"
+    },
+    "bazuchan/keychain-pkcs11": {
+      "lists": [],
+      "metadata": {
+        "id": 1207074642,
+        "name": "keychain-pkcs11",
+        "full_name": "bazuchan/keychain-pkcs11",
+        "description": "A shared library that implements a PKCS#11 interface to the Apple Security framework",
+        "url": "https://github.com/bazuchan/keychain-pkcs11",
+        "homepage": null,
+        "language": "C",
+        "stars": 9,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-04-10T14:47:54Z",
+        "updated_at": "2026-07-11T18:00:31Z",
+        "pushed_at": "2026-04-10T16:18:07Z",
+        "starred_at": "2026-07-11T18:00:30Z"
+      },
+      "last_updated": "2026-07-12T06:13:39.526040+00:00"
     }
   },
   "last_processed_index": 0,
@@ -239289,5 +239349,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"eb359c6852f6521c65fcf1aebbb20f1e62cb441d0697341c4b1e38b7930e4b2a\""
+  "profile_etag": "W/\"d7047e7935657ee5b5a016c1b689d0a662951d7155e3376c4775cfd29173e3f6\""
 }
