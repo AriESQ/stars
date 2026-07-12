@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T06:13:39.526159+00:00",
+  "last_updated": "2026-07-12T06:21:09.138304+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239282,7 +239282,10 @@
       }
     },
     "Wren6991/RISCBoy": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 125576403,
         "name": "RISCBoy",
@@ -239302,7 +239305,10 @@
       "last_updated": "2026-07-12T06:13:38.973613+00:00"
     },
     "Rodiun/frugon": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1275548357,
         "name": "frugon",
@@ -239322,7 +239328,14 @@
       "last_updated": "2026-07-12T06:13:39.207747+00:00"
     },
     "bazuchan/keychain-pkcs11": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "Github Actions",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI"
+      ],
       "metadata": {
         "id": 1207074642,
         "name": "keychain-pkcs11",
