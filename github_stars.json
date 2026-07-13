@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T06:31:48.859194+00:00",
+  "last_updated": "2026-07-13T06:40:11.433146+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -60006,7 +60006,11 @@
     },
     "n0-computer/iroh": {
       "lists": [
-        "Rust"
+        "Rust",
+        "Devops",
+        "DIY",
+        "Networking",
+        "PKI"
       ],
       "metadata": {
         "id": 469877060,
@@ -239379,7 +239383,10 @@
       }
     },
     "magillos/Cable": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 828356582,
         "name": "Cable",
@@ -239399,7 +239406,9 @@
       "last_updated": "2026-07-13T06:31:47.620547+00:00"
     },
     "andrewthetechie/andrew-skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1273945884,
         "name": "andrew-skills",
@@ -239419,7 +239428,9 @@
       "last_updated": "2026-07-13T06:31:48.032059+00:00"
     },
     "RiskyMH/honeypot": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1116868090,
         "name": "honeypot",
@@ -239439,7 +239450,10 @@
       "last_updated": "2026-07-13T06:31:48.456861+00:00"
     },
     "bufbuild/protobuf-py": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python"
+      ],
       "metadata": {
         "id": 1279520770,
         "name": "protobuf-py",
