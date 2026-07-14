@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T06:40:47.559141+00:00",
+  "last_updated": "2026-07-14T05:41:35.747555+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239503,6 +239503,86 @@
         "fetched_at": "2026-07-13T06:40:47.282293+00:00",
         "status": "ok"
       }
+    },
+    "cachix/secretspec": {
+      "lists": [],
+      "metadata": {
+        "id": 1013984512,
+        "name": "secretspec",
+        "full_name": "cachix/secretspec",
+        "description": "Declare secrets once. Store them anywhere.",
+        "url": "https://github.com/cachix/secretspec",
+        "homepage": "https://secretspec.dev",
+        "language": "Rust",
+        "stars": 833,
+        "forks": 44,
+        "open_issues": 31,
+        "created_at": "2025-07-04T20:20:17Z",
+        "updated_at": "2026-07-14T05:32:07Z",
+        "pushed_at": "2026-07-13T22:43:37Z",
+        "starred_at": "2026-07-13T20:31:44Z"
+      },
+      "last_updated": "2026-07-14T05:41:34.665626+00:00"
+    },
+    "esologic/content_aware_timelapse": {
+      "lists": [],
+      "metadata": {
+        "id": 1064198891,
+        "name": "content_aware_timelapse",
+        "full_name": "esologic/content_aware_timelapse",
+        "description": "Create timelapses from video that change speed based on the content found in the video. Boring sections are sped over.",
+        "url": "https://github.com/esologic/content_aware_timelapse",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-09-25T17:24:06Z",
+        "updated_at": "2026-07-13T17:38:44Z",
+        "pushed_at": "2026-02-03T22:19:57Z",
+        "starred_at": "2026-07-13T17:38:43Z"
+      },
+      "last_updated": "2026-07-14T05:41:34.944937+00:00"
+    },
+    "langgptai/LLM-Jailbreaks": {
+      "lists": [],
+      "metadata": {
+        "id": 789602161,
+        "name": "LLM-Jailbreaks",
+        "full_name": "langgptai/LLM-Jailbreaks",
+        "description": "LLM Jailbreaks, ChatGPT, Claude, Llama, DAN Prompts, Prompt Leaking",
+        "url": "https://github.com/langgptai/LLM-Jailbreaks",
+        "homepage": "",
+        "language": null,
+        "stars": 698,
+        "forks": 65,
+        "open_issues": 2,
+        "created_at": "2024-04-21T02:44:55Z",
+        "updated_at": "2026-07-13T16:18:01Z",
+        "pushed_at": "2025-04-13T01:25:34Z",
+        "starred_at": "2026-07-13T16:18:00Z"
+      },
+      "last_updated": "2026-07-14T05:41:35.289722+00:00"
+    },
+    "nzymeorg/nzyme": {
+      "lists": [],
+      "metadata": {
+        "id": 73515052,
+        "name": "nzyme",
+        "full_name": "nzymeorg/nzyme",
+        "description": "CLOSE ACCESS DENIAL.",
+        "url": "https://github.com/nzymeorg/nzyme",
+        "homepage": "https://www.nzyme.org/",
+        "language": "Java",
+        "stars": 1572,
+        "forks": 149,
+        "open_issues": 188,
+        "created_at": "2016-11-11T22:06:03Z",
+        "updated_at": "2026-07-13T22:47:40Z",
+        "pushed_at": "2026-07-13T22:47:35Z",
+        "starred_at": "2022-08-14T23:27:43Z"
+      },
+      "last_updated": "2026-07-14T05:41:35.747508+00:00"
     }
   },
   "last_processed_index": 0,
@@ -239512,5 +239592,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5af2afc2a1dfdbbd4697920fdc691801e59fccdee7fb026c5b73b1d4753479f5\""
+  "profile_etag": "W/\"d4257494b6d225ee8e9419ec4a7966e2ed47f01e0f7868d1b9fa00eb650f427a\""
 }
