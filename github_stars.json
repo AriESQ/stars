@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T05:49:54.729900+00:00",
+  "last_updated": "2026-07-14T05:50:26.270878+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239529,7 +239529,15 @@
         "pushed_at": "2026-07-13T22:43:37Z",
         "starred_at": "2026-07-13T20:31:44Z"
       },
-      "last_updated": "2026-07-14T05:41:34.665626+00:00"
+      "last_updated": "2026-07-14T05:41:34.665626+00:00",
+      "readme": {
+        "path": "readmes/cachix+secretspec+README.md",
+        "etag": "W/\"f3e6c02c39f84450eed75f64db8cea46cf0938ad\"",
+        "sha": "f3e6c02c39f84450eed75f64db8cea46cf0938ad",
+        "size": 10934,
+        "fetched_at": "2026-07-14T05:50:25.163511+00:00",
+        "status": "ok"
+      }
     },
     "esologic/content_aware_timelapse": {
       "lists": [
@@ -239553,7 +239561,15 @@
         "pushed_at": "2026-02-03T22:19:57Z",
         "starred_at": "2026-07-13T17:38:43Z"
       },
-      "last_updated": "2026-07-14T05:41:34.944937+00:00"
+      "last_updated": "2026-07-14T05:41:34.944937+00:00",
+      "readme": {
+        "path": "readmes/esologic+content_aware_timelapse+README.md",
+        "etag": "W/\"563f01836a5251d40cf7e00f70e3a556fa18984a\"",
+        "sha": "563f01836a5251d40cf7e00f70e3a556fa18984a",
+        "size": 11331,
+        "fetched_at": "2026-07-14T05:50:25.563825+00:00",
+        "status": "ok"
+      }
     },
     "langgptai/LLM-Jailbreaks": {
       "lists": [
@@ -239576,7 +239592,15 @@
         "pushed_at": "2025-04-13T01:25:34Z",
         "starred_at": "2026-07-13T16:18:00Z"
       },
-      "last_updated": "2026-07-14T05:41:35.289722+00:00"
+      "last_updated": "2026-07-14T05:41:35.289722+00:00",
+      "readme": {
+        "path": "readmes/langgptai+LLM-Jailbreaks+README.md",
+        "etag": "W/\"bd48ea5836946dc1f03d295e53e9dc8abe46fee8\"",
+        "sha": "bd48ea5836946dc1f03d295e53e9dc8abe46fee8",
+        "size": 13051,
+        "fetched_at": "2026-07-14T05:50:25.905541+00:00",
+        "status": "ok"
+      }
     },
     "nzymeorg/nzyme": {
       "lists": [
@@ -239600,7 +239624,15 @@
         "pushed_at": "2026-07-13T22:47:35Z",
         "starred_at": "2022-08-14T23:27:43Z"
       },
-      "last_updated": "2026-07-14T05:41:35.747508+00:00"
+      "last_updated": "2026-07-14T05:41:35.747508+00:00",
+      "readme": {
+        "path": "readmes/nzymeorg+nzyme+README.md",
+        "etag": "W/\"46a083ecff6732dfa190a3027f1c29fba3d1c489\"",
+        "sha": "46a083ecff6732dfa190a3027f1c29fba3d1c489",
+        "size": 1782,
+        "fetched_at": "2026-07-14T05:50:26.266599+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
