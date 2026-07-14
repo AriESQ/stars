@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T05:41:35.747555+00:00",
+  "last_updated": "2026-07-14T05:49:54.729900+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -112010,7 +112010,8 @@
     },
     "bitfocus/companion": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "JavaScript"
       ],
       "metadata": {
         "id": 130708728,
@@ -239505,7 +239506,13 @@
       }
     },
     "cachix/secretspec": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Linux CLI Tools",
+        "PKI",
+        "Rust"
+      ],
       "metadata": {
         "id": 1013984512,
         "name": "secretspec",
@@ -239525,7 +239532,11 @@
       "last_updated": "2026-07-14T05:41:34.665626+00:00"
     },
     "esologic/content_aware_timelapse": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1064198891,
         "name": "content_aware_timelapse",
@@ -239545,7 +239556,10 @@
       "last_updated": "2026-07-14T05:41:34.944937+00:00"
     },
     "langgptai/LLM-Jailbreaks": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 789602161,
         "name": "LLM-Jailbreaks",
@@ -239565,7 +239579,11 @@
       "last_updated": "2026-07-14T05:41:35.289722+00:00"
     },
     "nzymeorg/nzyme": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Networking"
+      ],
       "metadata": {
         "id": 73515052,
         "name": "nzyme",
