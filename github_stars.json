@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T05:50:26.270878+00:00",
+  "last_updated": "2026-07-15T05:43:02.874980+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239633,6 +239633,106 @@
         "fetched_at": "2026-07-14T05:50:26.266599+00:00",
         "status": "ok"
       }
+    },
+    "ansible/ansible-builder": {
+      "lists": [],
+      "metadata": {
+        "id": 245499251,
+        "name": "ansible-builder",
+        "full_name": "ansible/ansible-builder",
+        "description": "An Ansible execution environment builder",
+        "url": "https://github.com/ansible/ansible-builder",
+        "homepage": "https://ansible-builder.rtfd.io",
+        "language": "Python",
+        "stars": 348,
+        "forks": 102,
+        "open_issues": 27,
+        "created_at": "2020-03-06T19:20:05Z",
+        "updated_at": "2026-07-14T23:10:55Z",
+        "pushed_at": "2026-07-02T17:52:35Z",
+        "starred_at": "2026-07-14T23:10:54Z"
+      },
+      "last_updated": "2026-07-15T05:43:01.503267+00:00"
+    },
+    "Celtoys/Remotery": {
+      "lists": [],
+      "metadata": {
+        "id": 17664381,
+        "name": "Remotery",
+        "full_name": "Celtoys/Remotery",
+        "description": "Single C file, Realtime CPU/GPU Profiler with Remote Web Viewer",
+        "url": "https://github.com/Celtoys/Remotery",
+        "homepage": "",
+        "language": "C",
+        "stars": 3307,
+        "forks": 284,
+        "open_issues": 38,
+        "created_at": "2014-03-12T11:15:35Z",
+        "updated_at": "2026-07-14T23:08:08Z",
+        "pushed_at": "2024-08-28T08:52:43Z",
+        "starred_at": "2026-07-14T23:08:07Z"
+      },
+      "last_updated": "2026-07-15T05:43:01.829606+00:00"
+    },
+    "dimtpap/coppwr": {
+      "lists": [],
+      "metadata": {
+        "id": 587359212,
+        "name": "coppwr",
+        "full_name": "dimtpap/coppwr",
+        "description": "Low level control GUI for the PipeWire multimedia server",
+        "url": "https://github.com/dimtpap/coppwr",
+        "homepage": "https://dimtpap.com/coppwr",
+        "language": "Rust",
+        "stars": 629,
+        "forks": 12,
+        "open_issues": 16,
+        "created_at": "2023-01-10T15:12:55Z",
+        "updated_at": "2026-07-14T22:27:23Z",
+        "pushed_at": "2026-05-02T09:49:02Z",
+        "starred_at": "2026-07-14T22:27:22Z"
+      },
+      "last_updated": "2026-07-15T05:43:02.198880+00:00"
+    },
+    "hate-myself/instaloader": {
+      "lists": [],
+      "metadata": {
+        "id": 857090542,
+        "name": "instaloader",
+        "full_name": "hate-myself/instaloader",
+        "description": "simple instaloader docker container",
+        "url": "https://github.com/hate-myself/instaloader",
+        "homepage": null,
+        "language": "Dockerfile",
+        "stars": 1,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2024-09-13T19:31:29Z",
+        "updated_at": "2026-07-14T21:09:30Z",
+        "pushed_at": "2026-04-18T20:58:42Z",
+        "starred_at": "2026-07-14T21:09:30Z"
+      },
+      "last_updated": "2026-07-15T05:43:02.532233+00:00"
+    },
+    "juggler-ai/juggler": {
+      "lists": [],
+      "metadata": {
+        "id": 1274162448,
+        "name": "juggler",
+        "full_name": "juggler-ai/juggler",
+        "description": "The Juggler Code Agent",
+        "url": "https://github.com/juggler-ai/juggler",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 273,
+        "forks": 10,
+        "open_issues": 7,
+        "created_at": "2026-06-19T08:33:59Z",
+        "updated_at": "2026-07-15T05:39:19Z",
+        "pushed_at": "2026-07-14T19:32:25Z",
+        "starred_at": "2026-07-14T15:44:04Z"
+      },
+      "last_updated": "2026-07-15T05:43:02.874864+00:00"
     }
   },
   "last_processed_index": 0,
@@ -239642,5 +239742,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d4257494b6d225ee8e9419ec4a7966e2ed47f01e0f7868d1b9fa00eb650f427a\""
+  "profile_etag": "W/\"2aae8ca373473fc05b8df65e0ba19255f4d8500126fbf2fa4ce1ea10ed088d4e\""
 }
