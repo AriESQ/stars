@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T05:50:45.734383+00:00",
+  "last_updated": "2026-07-15T05:51:15.898074+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239656,7 +239656,15 @@
         "pushed_at": "2026-07-02T17:52:35Z",
         "starred_at": "2026-07-14T23:10:54Z"
       },
-      "last_updated": "2026-07-15T05:43:01.503267+00:00"
+      "last_updated": "2026-07-15T05:43:01.503267+00:00",
+      "readme": {
+        "path": "readmes/ansible+ansible-builder+README.md",
+        "etag": "W/\"ee88a2f8e55fbd83da625d5aeb9c621f7e92fb10\"",
+        "sha": "ee88a2f8e55fbd83da625d5aeb9c621f7e92fb10",
+        "size": 1408,
+        "fetched_at": "2026-07-15T05:51:15.247326+00:00",
+        "status": "ok"
+      }
     },
     "Celtoys/Remotery": {
       "lists": [
@@ -239678,7 +239686,15 @@
         "pushed_at": "2024-08-28T08:52:43Z",
         "starred_at": "2026-07-14T23:08:07Z"
       },
-      "last_updated": "2026-07-15T05:43:01.829606+00:00"
+      "last_updated": "2026-07-15T05:43:01.829606+00:00",
+      "readme": {
+        "path": "readmes/Celtoys+Remotery+readme.md",
+        "etag": "W/\"9e61289d8b1f9f1f0848cc9addd2a9b67fa68586\"",
+        "sha": "9e61289d8b1f9f1f0848cc9addd2a9b67fa68586",
+        "size": 11293,
+        "fetched_at": "2026-07-15T05:51:15.035910+00:00",
+        "status": "ok"
+      }
     },
     "dimtpap/coppwr": {
       "lists": [
@@ -239701,7 +239717,15 @@
         "pushed_at": "2026-05-02T09:49:02Z",
         "starred_at": "2026-07-14T22:27:22Z"
       },
-      "last_updated": "2026-07-15T05:43:02.198880+00:00"
+      "last_updated": "2026-07-15T05:43:02.198880+00:00",
+      "readme": {
+        "path": "readmes/dimtpap+coppwr+README.md",
+        "etag": "W/\"890d65b9741b9955875fdc468cfb4cb35bb2acad\"",
+        "sha": "890d65b9741b9955875fdc468cfb4cb35bb2acad",
+        "size": 4601,
+        "fetched_at": "2026-07-15T05:51:15.502759+00:00",
+        "status": "ok"
+      }
     },
     "hate-myself/instaloader": {
       "lists": [
@@ -239724,7 +239748,15 @@
         "pushed_at": "2026-04-18T20:58:42Z",
         "starred_at": "2026-07-14T21:09:30Z"
       },
-      "last_updated": "2026-07-15T05:43:02.532233+00:00"
+      "last_updated": "2026-07-15T05:43:02.532233+00:00",
+      "readme": {
+        "path": "readmes/hate-myself+instaloader+README.md",
+        "etag": "W/\"c2ec26355941216a820855a77373bfad536e867a\"",
+        "sha": "c2ec26355941216a820855a77373bfad536e867a",
+        "size": 203,
+        "fetched_at": "2026-07-15T05:51:15.755240+00:00",
+        "status": "ok"
+      }
     },
     "juggler-ai/juggler": {
       "lists": [
@@ -239747,7 +239779,15 @@
         "pushed_at": "2026-07-14T19:32:25Z",
         "starred_at": "2026-07-14T15:44:04Z"
       },
-      "last_updated": "2026-07-15T05:43:02.874864+00:00"
+      "last_updated": "2026-07-15T05:43:02.874864+00:00",
+      "readme": {
+        "path": "readmes/juggler-ai+juggler+README.md",
+        "etag": "W/\"5ea44fc42571693a83107b389f7069ed75d4e528\"",
+        "sha": "5ea44fc42571693a83107b389f7069ed75d4e528",
+        "size": 9137,
+        "fetched_at": "2026-07-15T05:51:15.892792+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
