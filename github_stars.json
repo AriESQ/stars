@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T05:43:02.874980+00:00",
+  "last_updated": "2026-07-15T05:50:45.734383+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -97738,7 +97738,8 @@
     },
     "instaloader/instaloader": {
       "lists": [
-        "Python"
+        "Python",
+        "Music and Video"
       ],
       "metadata": {
         "id": 61200117,
@@ -239635,7 +239636,10 @@
       }
     },
     "ansible/ansible-builder": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python"
+      ],
       "metadata": {
         "id": 245499251,
         "name": "ansible-builder",
@@ -239655,7 +239659,9 @@
       "last_updated": "2026-07-15T05:43:01.503267+00:00"
     },
     "Celtoys/Remotery": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 17664381,
         "name": "Remotery",
@@ -239675,7 +239681,10 @@
       "last_updated": "2026-07-15T05:43:01.829606+00:00"
     },
     "dimtpap/coppwr": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 587359212,
         "name": "coppwr",
@@ -239695,7 +239704,10 @@
       "last_updated": "2026-07-15T05:43:02.198880+00:00"
     },
     "hate-myself/instaloader": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 857090542,
         "name": "instaloader",
@@ -239715,7 +239727,10 @@
       "last_updated": "2026-07-15T05:43:02.532233+00:00"
     },
     "juggler-ai/juggler": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1274162448,
         "name": "juggler",
