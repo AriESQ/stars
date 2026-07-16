@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T05:58:48.859881+00:00",
+  "last_updated": "2026-07-16T05:59:21.231402+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239809,7 +239809,15 @@
         "pushed_at": "2026-04-22T20:27:50Z",
         "starred_at": "2026-07-16T03:21:06Z"
       },
-      "last_updated": "2026-07-16T05:51:07.087324+00:00"
+      "last_updated": "2026-07-16T05:51:07.087324+00:00",
+      "readme": {
+        "path": "readmes/schlagmichdoch+PairDrop+README.md",
+        "etag": "W/\"3400704648eff77ec053985e0733800d13ab6d8c\"",
+        "sha": "3400704648eff77ec053985e0733800d13ab6d8c",
+        "size": 7156,
+        "fetched_at": "2026-07-16T05:59:21.229090+00:00",
+        "status": "ok"
+      }
     },
     "edera-dev/xen-oci": {
       "lists": [
@@ -239833,7 +239841,15 @@
         "pushed_at": "2026-07-16T00:23:49Z",
         "starred_at": "2026-07-15T21:10:16Z"
       },
-      "last_updated": "2026-07-16T05:51:07.473466+00:00"
+      "last_updated": "2026-07-16T05:51:07.473466+00:00",
+      "readme": {
+        "path": "readmes/edera-dev+xen-oci+README.md",
+        "etag": "W/\"ec0b93d311545921e88e0d5835f2139e90608aa4\"",
+        "sha": "ec0b93d311545921e88e0d5835f2139e90608aa4",
+        "size": 434,
+        "fetched_at": "2026-07-16T05:59:20.611229+00:00",
+        "status": "ok"
+      }
     },
     "google/GNM": {
       "lists": [
@@ -239857,7 +239873,15 @@
         "pushed_at": "2026-07-15T13:06:33Z",
         "starred_at": "2026-07-15T19:31:29Z"
       },
-      "last_updated": "2026-07-16T05:51:07.849744+00:00"
+      "last_updated": "2026-07-16T05:51:07.849744+00:00",
+      "readme": {
+        "path": "readmes/google+GNM+README.md",
+        "etag": "W/\"e0506f07634f87b3c736b4cd58273f0cc0c81edf\"",
+        "sha": "e0506f07634f87b3c736b4cd58273f0cc0c81edf",
+        "size": 2897,
+        "fetched_at": "2026-07-16T05:59:20.919881+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
