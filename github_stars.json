@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T05:51:07.849864+00:00",
+  "last_updated": "2026-07-16T05:58:48.859881+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239790,7 +239790,9 @@
       }
     },
     "schlagmichdoch/PairDrop": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 586248938,
         "name": "PairDrop",
@@ -239810,7 +239812,11 @@
       "last_updated": "2026-07-16T05:51:07.087324+00:00"
     },
     "edera-dev/xen-oci": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Python"
+      ],
       "metadata": {
         "id": 822850216,
         "name": "xen-oci",
@@ -239830,7 +239836,11 @@
       "last_updated": "2026-07-16T05:51:07.473466+00:00"
     },
     "google/GNM": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1189671154,
         "name": "GNM",
