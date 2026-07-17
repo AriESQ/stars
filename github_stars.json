@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T05:51:56.556387+00:00",
+  "last_updated": "2026-07-17T06:00:32.947748+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239884,7 +239884,12 @@
       }
     },
     "please-openit/oidc-bash-client": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "Bash",
+        "Devops",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 266163782,
         "name": "oidc-bash-client",
@@ -239904,7 +239909,12 @@
       "last_updated": "2026-07-17T05:51:54.651392+00:00"
     },
     "corna/me_cleaner": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec",
+        "Python",
+        "Windows"
+      ],
       "metadata": {
         "id": 73701496,
         "name": "me_cleaner",
@@ -239924,7 +239934,9 @@
       "last_updated": "2026-07-17T05:51:54.988488+00:00"
     },
     "xai-org/grok-build": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1300902838,
         "name": "grok-build",
@@ -239944,7 +239956,9 @@
       "last_updated": "2026-07-17T05:51:55.327246+00:00"
     },
     "OpenRouterArchived/openrouter-runner": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 686132938,
         "name": "openrouter-runner",
@@ -239964,7 +239978,10 @@
       "last_updated": "2026-07-17T05:51:55.875309+00:00"
     },
     "durdraw/durdraw": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 18199420,
         "name": "durdraw",
