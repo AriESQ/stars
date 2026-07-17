@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T06:00:32.947748+00:00",
+  "last_updated": "2026-07-17T06:00:51.168052+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239906,7 +239906,15 @@
         "pushed_at": "2026-07-16T21:36:17Z",
         "starred_at": "2026-07-17T02:07:31Z"
       },
-      "last_updated": "2026-07-17T05:51:54.651392+00:00"
+      "last_updated": "2026-07-17T05:51:54.651392+00:00",
+      "readme": {
+        "path": "readmes/please-openit+oidc-bash-client+README.md",
+        "etag": "W/\"8beaff8579f6ed89af420b2d1850ed7271b5d70b\"",
+        "sha": "8beaff8579f6ed89af420b2d1850ed7271b5d70b",
+        "size": 9550,
+        "fetched_at": "2026-07-17T06:00:50.943489+00:00",
+        "status": "ok"
+      }
     },
     "corna/me_cleaner": {
       "lists": [
@@ -239931,7 +239939,15 @@
         "pushed_at": "2024-05-28T18:44:47Z",
         "starred_at": "2026-07-16T20:30:21Z"
       },
-      "last_updated": "2026-07-17T05:51:54.988488+00:00"
+      "last_updated": "2026-07-17T05:51:54.988488+00:00",
+      "readme": {
+        "path": "readmes/corna+me_cleaner+README.md",
+        "etag": "W/\"a6b80d1167ed7d402ed8861fa8eaf76b62c0b6f2\"",
+        "sha": "a6b80d1167ed7d402ed8861fa8eaf76b62c0b6f2",
+        "size": 4100,
+        "fetched_at": "2026-07-17T06:00:50.373596+00:00",
+        "status": "ok"
+      }
     },
     "xai-org/grok-build": {
       "lists": [
@@ -239953,7 +239969,15 @@
         "pushed_at": "2026-07-16T19:46:53Z",
         "starred_at": "2026-07-16T20:06:28Z"
       },
-      "last_updated": "2026-07-17T05:51:55.327246+00:00"
+      "last_updated": "2026-07-17T05:51:55.327246+00:00",
+      "readme": {
+        "path": "readmes/xai-org+grok-build+README.md",
+        "etag": "W/\"4569db83fe4fee02ba656f8eaa52db22e43e8e63\"",
+        "sha": "4569db83fe4fee02ba656f8eaa52db22e43e8e63",
+        "size": 5757,
+        "fetched_at": "2026-07-17T06:00:51.167254+00:00",
+        "status": "ok"
+      }
     },
     "OpenRouterArchived/openrouter-runner": {
       "lists": [
@@ -239975,7 +239999,15 @@
         "pushed_at": "2025-09-06T13:41:32Z",
         "starred_at": "2025-04-06T18:41:45Z"
       },
-      "last_updated": "2026-07-17T05:51:55.875309+00:00"
+      "last_updated": "2026-07-17T05:51:55.875309+00:00",
+      "readme": {
+        "path": "readmes/OpenRouterArchived+openrouter-runner+README.md",
+        "etag": "W/\"6332c0d4096bcd0129c73c1f834ebd662e33acfd\"",
+        "sha": "6332c0d4096bcd0129c73c1f834ebd662e33acfd",
+        "size": 507,
+        "fetched_at": "2026-07-17T06:00:50.136626+00:00",
+        "status": "ok"
+      }
     },
     "durdraw/durdraw": {
       "lists": [
@@ -239998,7 +240030,15 @@
         "pushed_at": "2026-07-16T20:03:13Z",
         "starred_at": "2022-10-25T02:00:28Z"
       },
-      "last_updated": "2026-07-17T05:51:56.556333+00:00"
+      "last_updated": "2026-07-17T05:51:56.556333+00:00",
+      "readme": {
+        "path": "readmes/durdraw+durdraw+README.md",
+        "etag": "W/\"d6b469d1364b099e046b5da106b834aeb91628ab\"",
+        "sha": "d6b469d1364b099e046b5da106b834aeb91628ab",
+        "size": 25793,
+        "fetched_at": "2026-07-17T06:00:50.687499+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
