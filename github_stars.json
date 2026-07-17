@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T05:59:21.231402+00:00",
+  "last_updated": "2026-07-17T05:51:56.556387+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239882,6 +239882,106 @@
         "fetched_at": "2026-07-16T05:59:20.919881+00:00",
         "status": "ok"
       }
+    },
+    "please-openit/oidc-bash-client": {
+      "lists": [],
+      "metadata": {
+        "id": 266163782,
+        "name": "oidc-bash-client",
+        "full_name": "please-openit/oidc-bash-client",
+        "description": "a bash openid connect client",
+        "url": "https://github.com/please-openit/oidc-bash-client",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 123,
+        "forks": 19,
+        "open_issues": 1,
+        "created_at": "2020-05-22T17:00:09Z",
+        "updated_at": "2026-07-17T02:25:58Z",
+        "pushed_at": "2026-07-16T21:36:17Z",
+        "starred_at": "2026-07-17T02:07:31Z"
+      },
+      "last_updated": "2026-07-17T05:51:54.651392+00:00"
+    },
+    "corna/me_cleaner": {
+      "lists": [],
+      "metadata": {
+        "id": 73701496,
+        "name": "me_cleaner",
+        "full_name": "corna/me_cleaner",
+        "description": "Tool for partial deblobbing of Intel ME/TXE firmware images",
+        "url": "https://github.com/corna/me_cleaner",
+        "homepage": "",
+        "language": "Python",
+        "stars": 5003,
+        "forks": 302,
+        "open_issues": 254,
+        "created_at": "2016-11-14T12:14:34Z",
+        "updated_at": "2026-07-16T20:30:21Z",
+        "pushed_at": "2024-05-28T18:44:47Z",
+        "starred_at": "2026-07-16T20:30:21Z"
+      },
+      "last_updated": "2026-07-17T05:51:54.988488+00:00"
+    },
+    "xai-org/grok-build": {
+      "lists": [],
+      "metadata": {
+        "id": 1300902838,
+        "name": "grok-build",
+        "full_name": "xai-org/grok-build",
+        "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+        "url": "https://github.com/xai-org/grok-build",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 13361,
+        "forks": 2411,
+        "open_issues": 0,
+        "created_at": "2026-07-14T20:04:23Z",
+        "updated_at": "2026-07-17T05:51:49Z",
+        "pushed_at": "2026-07-16T19:46:53Z",
+        "starred_at": "2026-07-16T20:06:28Z"
+      },
+      "last_updated": "2026-07-17T05:51:55.327246+00:00"
+    },
+    "OpenRouterArchived/openrouter-runner": {
+      "lists": [],
+      "metadata": {
+        "id": 686132938,
+        "name": "openrouter-runner",
+        "full_name": "OpenRouterArchived/openrouter-runner",
+        "description": "Deprecated inference engine",
+        "url": "https://github.com/OpenRouterArchived/openrouter-runner",
+        "homepage": "https://openrouter.ai",
+        "language": "Python",
+        "stars": 1253,
+        "forks": 125,
+        "open_issues": 0,
+        "created_at": "2023-09-01T20:36:05Z",
+        "updated_at": "2026-07-17T00:44:03Z",
+        "pushed_at": "2025-09-06T13:41:32Z",
+        "starred_at": "2025-04-06T18:41:45Z"
+      },
+      "last_updated": "2026-07-17T05:51:55.875309+00:00"
+    },
+    "durdraw/durdraw": {
+      "lists": [],
+      "metadata": {
+        "id": 18199420,
+        "name": "durdraw",
+        "full_name": "durdraw/durdraw",
+        "description": "Versatile ASCII and ANSI Art text editor for drawing in the Linux/Unix/macOS terminal, with animation, 256 and 16 colors, Unicode and CP437, and customizable themes",
+        "url": "https://github.com/durdraw/durdraw",
+        "homepage": "http://durdraw.org",
+        "language": "Python",
+        "stars": 1759,
+        "forks": 49,
+        "open_issues": 12,
+        "created_at": "2014-03-28T03:03:33Z",
+        "updated_at": "2026-07-16T22:45:50Z",
+        "pushed_at": "2026-07-16T20:03:13Z",
+        "starred_at": "2022-10-25T02:00:28Z"
+      },
+      "last_updated": "2026-07-17T05:51:56.556333+00:00"
     }
   },
   "last_processed_index": 0,
@@ -239891,5 +239991,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e5628f59fca4c374ca2837a49b44fec705d7b39933e6c9c4d294557b3b1a9332\""
+  "profile_etag": "W/\"a36419c7084dce78094021911c0577dc51befd32e6f3a59ea325f722a2b97f7d\""
 }
