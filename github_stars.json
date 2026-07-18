@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T05:45:53.550992+00:00",
+  "last_updated": "2026-07-18T05:46:27.868002+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240061,7 +240061,15 @@
         "pushed_at": "2026-07-12T17:44:04Z",
         "starred_at": "2026-07-18T04:21:51Z"
       },
-      "last_updated": "2026-07-18T05:37:30.106431+00:00"
+      "last_updated": "2026-07-18T05:37:30.106431+00:00",
+      "readme": {
+        "path": "readmes/abduznik+instrumation+README.md",
+        "etag": "W/\"397056b744cfdf35ba50ff00ac7b707ae1776ee2\"",
+        "sha": "397056b744cfdf35ba50ff00ac7b707ae1776ee2",
+        "size": 9680,
+        "fetched_at": "2026-07-18T05:46:27.691877+00:00",
+        "status": "ok"
+      }
     },
     "capitalone/VulnHunter": {
       "lists": [
@@ -240085,7 +240093,15 @@
         "pushed_at": "2026-07-18T01:16:10Z",
         "starred_at": "2026-07-17T22:01:22Z"
       },
-      "last_updated": "2026-07-18T05:37:30.359500+00:00"
+      "last_updated": "2026-07-18T05:37:30.359500+00:00",
+      "readme": {
+        "path": "readmes/capitalone+VulnHunter+README.md",
+        "etag": "W/\"507fd6878ab5fa8dc2708c5e9c317803feb27344\"",
+        "sha": "507fd6878ab5fa8dc2708c5e9c317803feb27344",
+        "size": 10526,
+        "fetched_at": "2026-07-18T05:46:27.860239+00:00",
+        "status": "ok"
+      }
     },
     "Kobii-git/rackpad": {
       "lists": [
@@ -240110,7 +240126,15 @@
         "pushed_at": "2026-07-17T20:18:34Z",
         "starred_at": "2026-07-17T13:43:15Z"
       },
-      "last_updated": "2026-07-18T05:37:30.594457+00:00"
+      "last_updated": "2026-07-18T05:37:30.594457+00:00",
+      "readme": {
+        "path": "readmes/Kobii-git+rackpad+README.md",
+        "etag": "W/\"11b8a79bf9f9cadfb745b079f4f3b8241e08968e\"",
+        "sha": "11b8a79bf9f9cadfb745b079f4f3b8241e08968e",
+        "size": 23630,
+        "fetched_at": "2026-07-18T05:46:27.484057+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
