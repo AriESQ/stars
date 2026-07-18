@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T06:00:51.168052+00:00",
+  "last_updated": "2026-07-18T05:37:30.594579+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240039,6 +240039,66 @@
         "fetched_at": "2026-07-17T06:00:50.687499+00:00",
         "status": "ok"
       }
+    },
+    "abduznik/instrumation": {
+      "lists": [],
+      "metadata": {
+        "id": 1143385101,
+        "name": "instrumation",
+        "full_name": "abduznik/instrumation",
+        "description": "A high-level Hardware Abstraction Layer (HAL) for RF test stations with Digital Twin support, SCPI control, and async measurements.",
+        "url": "https://github.com/abduznik/instrumation",
+        "homepage": "https://abduznik.github.io/instrumation/",
+        "language": "Python",
+        "stars": 90,
+        "forks": 17,
+        "open_issues": 5,
+        "created_at": "2026-01-27T14:15:31Z",
+        "updated_at": "2026-07-18T04:21:51Z",
+        "pushed_at": "2026-07-12T17:44:04Z",
+        "starred_at": "2026-07-18T04:21:51Z"
+      },
+      "last_updated": "2026-07-18T05:37:30.106431+00:00"
+    },
+    "capitalone/VulnHunter": {
+      "lists": [],
+      "metadata": {
+        "id": 1292756053,
+        "name": "VulnHunter",
+        "full_name": "capitalone/VulnHunter",
+        "description": "Agentic AI security tool that applies proactive, attacker-first analysis directly to source code.",
+        "url": "https://github.com/capitalone/VulnHunter",
+        "homepage": "",
+        "language": "Python",
+        "stars": 344,
+        "forks": 40,
+        "open_issues": 0,
+        "created_at": "2026-07-07T20:24:50Z",
+        "updated_at": "2026-07-18T05:35:56Z",
+        "pushed_at": "2026-07-18T01:16:10Z",
+        "starred_at": "2026-07-17T22:01:22Z"
+      },
+      "last_updated": "2026-07-18T05:37:30.359500+00:00"
+    },
+    "Kobii-git/rackpad": {
+      "lists": [],
+      "metadata": {
+        "id": 1226433410,
+        "name": "rackpad",
+        "full_name": "Kobii-git/rackpad",
+        "description": "Self-hosted infrastructure inventory and operations for homelabs and labs: racks, devices, ports, cables, IPAM, VLANs, WiFi, compute, discovery, monitoring, reports, and topology visualization.",
+        "url": "https://github.com/Kobii-git/rackpad",
+        "homepage": "https://rackpad.net",
+        "language": "TypeScript",
+        "stars": 272,
+        "forks": 12,
+        "open_issues": 3,
+        "created_at": "2026-05-01T11:47:40Z",
+        "updated_at": "2026-07-18T01:58:17Z",
+        "pushed_at": "2026-07-17T20:18:34Z",
+        "starred_at": "2026-07-17T13:43:15Z"
+      },
+      "last_updated": "2026-07-18T05:37:30.594457+00:00"
     }
   },
   "last_processed_index": 0,
@@ -240048,5 +240108,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a36419c7084dce78094021911c0577dc51befd32e6f3a59ea325f722a2b97f7d\""
+  "profile_etag": "W/\"8ef63e211963af1ae4d5f6e85db76a84083ba7108ec3842ae63efa0d886c49b4\""
 }
