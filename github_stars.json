@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T06:16:59.060541+00:00",
+  "last_updated": "2026-07-19T06:17:48.011752+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240157,7 +240157,15 @@
         "pushed_at": "2026-03-31T13:12:49Z",
         "starred_at": "2026-07-18T22:12:43Z"
       },
-      "last_updated": "2026-07-19T06:09:33.792275+00:00"
+      "last_updated": "2026-07-19T06:09:33.792275+00:00",
+      "readme": {
+        "path": "readmes/makeusabrew+audiotee+README.md",
+        "etag": "W/\"a7da0eee27d0ba3551b5e1ed65057dd649444b93\"",
+        "sha": "a7da0eee27d0ba3551b5e1ed65057dd649444b93",
+        "size": 8100,
+        "fetched_at": "2026-07-19T06:17:48.007051+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
