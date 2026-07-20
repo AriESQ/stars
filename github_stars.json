@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T06:17:48.011752+00:00",
+  "last_updated": "2026-07-20T06:27:46.878024+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240166,6 +240166,146 @@
         "fetched_at": "2026-07-19T06:17:48.007051+00:00",
         "status": "ok"
       }
+    },
+    "nicolaka/TFBI": {
+      "lists": [],
+      "metadata": {
+        "id": 689785502,
+        "name": "TFBI",
+        "full_name": "nicolaka/TFBI",
+        "description": "Terraform Cloud Business Insights",
+        "url": "https://github.com/nicolaka/TFBI",
+        "homepage": null,
+        "language": "Go",
+        "stars": 37,
+        "forks": 6,
+        "open_issues": 2,
+        "created_at": "2023-09-10T22:14:19Z",
+        "updated_at": "2026-07-20T02:44:57Z",
+        "pushed_at": "2026-04-27T18:50:25Z",
+        "starred_at": "2026-07-20T02:44:56Z"
+      },
+      "last_updated": "2026-07-20T06:27:44.815009+00:00"
+    },
+    "lopopolo/harness-engineering": {
+      "lists": [],
+      "metadata": {
+        "id": 1305243497,
+        "name": "harness-engineering",
+        "full_name": "lopopolo/harness-engineering",
+        "description": "\ud83d\udc0e Ryan Lopopolo\u2019s anthology, field guide, and agent context bundle for harness engineering",
+        "url": "https://github.com/lopopolo/harness-engineering",
+        "homepage": "https://openai.com/index/harness-engineering/",
+        "language": "Python",
+        "stars": 606,
+        "forks": 25,
+        "open_issues": 0,
+        "created_at": "2026-07-18T21:42:28Z",
+        "updated_at": "2026-07-20T06:16:07Z",
+        "pushed_at": "2026-07-18T21:55:49Z",
+        "starred_at": "2026-07-19T21:43:22Z"
+      },
+      "last_updated": "2026-07-20T06:27:45.151229+00:00"
+    },
+    "EEmery/assets-repository": {
+      "lists": [],
+      "metadata": {
+        "id": 1215888147,
+        "name": "assets-repository",
+        "full_name": "EEmery/assets-repository",
+        "description": null,
+        "url": "https://github.com/EEmery/assets-repository",
+        "homepage": null,
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-20T10:57:27Z",
+        "updated_at": "2026-07-19T20:46:32Z",
+        "pushed_at": "2026-07-19T14:06:04Z",
+        "starred_at": "2026-07-19T20:46:32Z"
+      },
+      "last_updated": "2026-07-20T06:27:45.486927+00:00"
+    },
+    "honestbleeps/Reddit-Enhancement-Suite": {
+      "lists": [],
+      "metadata": {
+        "id": 2688907,
+        "name": "Reddit-Enhancement-Suite",
+        "full_name": "honestbleeps/Reddit-Enhancement-Suite",
+        "description": "Reddit Enhancement Suite",
+        "url": "https://github.com/honestbleeps/Reddit-Enhancement-Suite",
+        "homepage": "http://redditenhancementsuite.com",
+        "language": "JavaScript",
+        "stars": 4484,
+        "forks": 887,
+        "open_issues": 681,
+        "created_at": "2011-11-01T16:31:51Z",
+        "updated_at": "2026-07-20T04:32:15Z",
+        "pushed_at": "2026-07-16T19:30:22Z",
+        "starred_at": "2026-07-19T18:49:17Z"
+      },
+      "last_updated": "2026-07-20T06:27:45.850893+00:00"
+    },
+    "buaacyw/MeshAnythingV2": {
+      "lists": [],
+      "metadata": {
+        "id": 838412119,
+        "name": "MeshAnythingV2",
+        "full_name": "buaacyw/MeshAnythingV2",
+        "description": "[ICCV 2025] From anything to mesh like human artists. Official impl. of \"MeshAnything V2: Artist-Created Mesh Generation With Adjacent Mesh Tokenization\"",
+        "url": "https://github.com/buaacyw/MeshAnythingV2",
+        "homepage": "https://buaacyw.github.io/meshanything-v2/",
+        "language": "Python",
+        "stars": 1005,
+        "forks": 70,
+        "open_issues": 18,
+        "created_at": "2024-08-05T15:32:03Z",
+        "updated_at": "2026-07-19T17:29:27Z",
+        "pushed_at": "2025-04-28T16:36:51Z",
+        "starred_at": "2026-07-19T17:29:27Z"
+      },
+      "last_updated": "2026-07-20T06:27:46.213094+00:00"
+    },
+    "buaacyw/MeshAnything": {
+      "lists": [],
+      "metadata": {
+        "id": 815946742,
+        "name": "MeshAnything",
+        "full_name": "buaacyw/MeshAnything",
+        "description": "[ICLR 2025] From anything to mesh like human artists. Official impl. of \"MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers\"",
+        "url": "https://github.com/buaacyw/MeshAnything",
+        "homepage": "https://buaacyw.github.io/mesh-anything/",
+        "language": "Python",
+        "stars": 2294,
+        "forks": 106,
+        "open_issues": 22,
+        "created_at": "2024-06-16T16:02:59Z",
+        "updated_at": "2026-07-19T17:29:06Z",
+        "pushed_at": "2025-04-28T16:37:20Z",
+        "starred_at": "2026-07-19T17:29:05Z"
+      },
+      "last_updated": "2026-07-20T06:27:46.569781+00:00"
+    },
+    "lizhihao6/Sparc3D": {
+      "lists": [],
+      "metadata": {
+        "id": 987524738,
+        "name": "Sparc3D",
+        "full_name": "lizhihao6/Sparc3D",
+        "description": "Official repo for paper \"Sparse Representation and Construction for High-Resolution 3D Shapes Modeling\".",
+        "url": "https://github.com/lizhihao6/Sparc3D",
+        "homepage": "https://lizhihao6.github.io/Sparc3D/",
+        "language": null,
+        "stars": 1349,
+        "forks": 71,
+        "open_issues": 25,
+        "created_at": "2025-05-21T07:48:04Z",
+        "updated_at": "2026-07-19T17:27:16Z",
+        "pushed_at": "2025-06-16T05:29:19Z",
+        "starred_at": "2026-07-19T17:27:15Z"
+      },
+      "last_updated": "2026-07-20T06:27:46.877912+00:00"
     }
   },
   "last_processed_index": 0,
@@ -240175,5 +240315,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e30ab1c1e16f758e9af4336fe35389c2dbfa53bc204449848914f2149e213706\""
+  "profile_etag": "W/\"c391eb38b40975453ca832f6e97ac52ce269318d9f203e3df1a5c5e449b47613\""
 }
