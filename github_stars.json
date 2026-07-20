@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T06:35:42.396693+00:00",
+  "last_updated": "2026-07-20T06:36:09.302773+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240189,7 +240189,15 @@
         "pushed_at": "2026-04-27T18:50:25Z",
         "starred_at": "2026-07-20T02:44:56Z"
       },
-      "last_updated": "2026-07-20T06:27:44.815009+00:00"
+      "last_updated": "2026-07-20T06:27:44.815009+00:00",
+      "readme": {
+        "path": "readmes/nicolaka+TFBI+README.md",
+        "etag": "W/\"808f44a0c12e11abb05720d5175f550fa15506db\"",
+        "sha": "808f44a0c12e11abb05720d5175f550fa15506db",
+        "size": 8559,
+        "fetched_at": "2026-07-20T06:36:09.299059+00:00",
+        "status": "ok"
+      }
     },
     "lopopolo/harness-engineering": {
       "lists": [
@@ -240211,7 +240219,15 @@
         "pushed_at": "2026-07-18T21:55:49Z",
         "starred_at": "2026-07-19T21:43:22Z"
       },
-      "last_updated": "2026-07-20T06:27:45.151229+00:00"
+      "last_updated": "2026-07-20T06:27:45.151229+00:00",
+      "readme": {
+        "path": "readmes/lopopolo+harness-engineering+README.md",
+        "etag": "W/\"c721b31e6a0d933e7fd6a33d63ca6f762ed4eb05\"",
+        "sha": "c721b31e6a0d933e7fd6a33d63ca6f762ed4eb05",
+        "size": 4099,
+        "fetched_at": "2026-07-20T06:36:08.948001+00:00",
+        "status": "ok"
+      }
     },
     "EEmery/assets-repository": {
       "lists": [
@@ -240234,7 +240250,11 @@
         "pushed_at": "2026-07-19T14:06:04Z",
         "starred_at": "2026-07-19T20:46:32Z"
       },
-      "last_updated": "2026-07-20T06:27:45.486927+00:00"
+      "last_updated": "2026-07-20T06:27:45.486927+00:00",
+      "readme": {
+        "fetched_at": "2026-07-20T06:36:07.347882+00:00",
+        "status": "missing"
+      }
     },
     "honestbleeps/Reddit-Enhancement-Suite": {
       "lists": [
@@ -240256,7 +240276,15 @@
         "pushed_at": "2026-07-16T19:30:22Z",
         "starred_at": "2026-07-19T18:49:17Z"
       },
-      "last_updated": "2026-07-20T06:27:45.850893+00:00"
+      "last_updated": "2026-07-20T06:27:45.850893+00:00",
+      "readme": {
+        "path": "readmes/honestbleeps+Reddit-Enhancement-Suite+README.md",
+        "etag": "W/\"bbdea24aa05712c4cb7924487faab8916dec7016\"",
+        "sha": "bbdea24aa05712c4cb7924487faab8916dec7016",
+        "size": 2319,
+        "fetched_at": "2026-07-20T06:36:08.317274+00:00",
+        "status": "ok"
+      }
     },
     "buaacyw/MeshAnythingV2": {
       "lists": [
@@ -240280,7 +240308,15 @@
         "pushed_at": "2025-04-28T16:36:51Z",
         "starred_at": "2026-07-19T17:29:27Z"
       },
-      "last_updated": "2026-07-20T06:27:46.213094+00:00"
+      "last_updated": "2026-07-20T06:27:46.213094+00:00",
+      "readme": {
+        "path": "readmes/buaacyw+MeshAnythingV2+README.md",
+        "etag": "W/\"cac12a75df6e11688fe8a962c735c6a14e23f9a7\"",
+        "sha": "cac12a75df6e11688fe8a962c735c6a14e23f9a7",
+        "size": 8006,
+        "fetched_at": "2026-07-20T06:36:08.003898+00:00",
+        "status": "ok"
+      }
     },
     "buaacyw/MeshAnything": {
       "lists": [
@@ -240304,7 +240340,15 @@
         "pushed_at": "2025-04-28T16:37:20Z",
         "starred_at": "2026-07-19T17:29:05Z"
       },
-      "last_updated": "2026-07-20T06:27:46.569781+00:00"
+      "last_updated": "2026-07-20T06:27:46.569781+00:00",
+      "readme": {
+        "path": "readmes/buaacyw+MeshAnything+README.md",
+        "etag": "W/\"91f3102fbdeb3cdcd87e489328ae41ebfb9061c3\"",
+        "sha": "91f3102fbdeb3cdcd87e489328ae41ebfb9061c3",
+        "size": 6560,
+        "fetched_at": "2026-07-20T06:36:07.677271+00:00",
+        "status": "ok"
+      }
     },
     "lizhihao6/Sparc3D": {
       "lists": [
@@ -240327,7 +240371,15 @@
         "pushed_at": "2025-06-16T05:29:19Z",
         "starred_at": "2026-07-19T17:27:15Z"
       },
-      "last_updated": "2026-07-20T06:27:46.877912+00:00"
+      "last_updated": "2026-07-20T06:27:46.877912+00:00",
+      "readme": {
+        "path": "readmes/lizhihao6+Sparc3D+README.md",
+        "etag": "W/\"160e320ee94e55764e04ab3976268d062bfcf8f5\"",
+        "sha": "160e320ee94e55764e04ab3976268d062bfcf8f5",
+        "size": 1708,
+        "fetched_at": "2026-07-20T06:36:08.627509+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
