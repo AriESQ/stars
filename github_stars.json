@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T06:27:46.878024+00:00",
+  "last_updated": "2026-07-20T06:35:42.396693+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240168,7 +240168,11 @@
       }
     },
     "nicolaka/TFBI": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "Terraform"
+      ],
       "metadata": {
         "id": 689785502,
         "name": "TFBI",
@@ -240188,7 +240192,9 @@
       "last_updated": "2026-07-20T06:27:44.815009+00:00"
     },
     "lopopolo/harness-engineering": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1305243497,
         "name": "harness-engineering",
@@ -240208,7 +240214,10 @@
       "last_updated": "2026-07-20T06:27:45.151229+00:00"
     },
     "EEmery/assets-repository": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1215888147,
         "name": "assets-repository",
@@ -240228,7 +240237,9 @@
       "last_updated": "2026-07-20T06:27:45.486927+00:00"
     },
     "honestbleeps/Reddit-Enhancement-Suite": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 2688907,
         "name": "Reddit-Enhancement-Suite",
@@ -240248,7 +240259,11 @@
       "last_updated": "2026-07-20T06:27:45.850893+00:00"
     },
     "buaacyw/MeshAnythingV2": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 838412119,
         "name": "MeshAnythingV2",
@@ -240268,7 +240283,11 @@
       "last_updated": "2026-07-20T06:27:46.213094+00:00"
     },
     "buaacyw/MeshAnything": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 815946742,
         "name": "MeshAnything",
@@ -240288,7 +240307,10 @@
       "last_updated": "2026-07-20T06:27:46.569781+00:00"
     },
     "lizhihao6/Sparc3D": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 987524738,
         "name": "Sparc3D",
