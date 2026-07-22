@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T06:06:10.403456+00:00",
+  "last_updated": "2026-07-22T06:09:34.881772+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240527,7 +240527,9 @@
       "last_updated": "2026-07-22T06:06:10.019640+00:00"
     },
     "openlab-x/OpenCircuitX": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1184704348,
         "name": "OpenCircuitX",
