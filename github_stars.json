@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T06:16:23.966099+00:00",
+  "last_updated": "2026-07-22T06:06:10.403456+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240505,6 +240505,46 @@
         "fetched_at": "2026-07-21T06:16:23.963212+00:00",
         "status": "ok"
       }
+    },
+    "Saivineeth147/lora-speedrun": {
+      "lists": [],
+      "metadata": {
+        "id": 1305115824,
+        "name": "lora-speedrun",
+        "full_name": "Saivineeth147/lora-speedrun",
+        "description": "Speedrunning LoRA fine-tuning: frozen task, frozen hardware, public wall-clock leaderboard. modded-nanogpt for fine-tuning.",
+        "url": "https://github.com/Saivineeth147/lora-speedrun",
+        "homepage": null,
+        "language": "Python",
+        "stars": 134,
+        "forks": 7,
+        "open_issues": 6,
+        "created_at": "2026-07-18T17:53:03Z",
+        "updated_at": "2026-07-22T05:28:12Z",
+        "pushed_at": "2026-07-22T05:28:04Z",
+        "starred_at": "2026-07-21T15:21:17Z"
+      },
+      "last_updated": "2026-07-22T06:06:10.019640+00:00"
+    },
+    "openlab-x/OpenCircuitX": {
+      "lists": [],
+      "metadata": {
+        "id": 1184704348,
+        "name": "OpenCircuitX",
+        "full_name": "openlab-x/OpenCircuitX",
+        "description": "Free, open-source EDA platform for VHDL and Verilog. HDL editor, circuit   canvas, RTL viewer, waveform viewer, and FPGA toolchain in one window.",
+        "url": "https://github.com/openlab-x/OpenCircuitX",
+        "homepage": "https://openlabx.com",
+        "language": "C++",
+        "stars": 55,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2026-03-17T21:13:17Z",
+        "updated_at": "2026-07-22T05:14:59Z",
+        "pushed_at": "2026-07-20T23:54:57Z",
+        "starred_at": "2026-07-21T15:19:04Z"
+      },
+      "last_updated": "2026-07-22T06:06:10.403342+00:00"
     }
   },
   "last_processed_index": 0,
@@ -240514,5 +240554,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1fb50672dc1cf6bdfaf0ede28819d7f1c3b3b7d74f84bbb0b91fd7d1bdbac185\""
+  "profile_etag": "W/\"32f21baa1ee34f29433d8da4b7d98ff5477fcd4226fa0d9276421c58a32d6f75\""
 }
