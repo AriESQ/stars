@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T06:09:34.881772+00:00",
+  "last_updated": "2026-07-22T06:14:43.988643+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240524,7 +240524,15 @@
         "pushed_at": "2026-07-22T05:28:04Z",
         "starred_at": "2026-07-21T15:21:17Z"
       },
-      "last_updated": "2026-07-22T06:06:10.019640+00:00"
+      "last_updated": "2026-07-22T06:06:10.019640+00:00",
+      "readme": {
+        "path": "readmes/Saivineeth147+lora-speedrun+README.md",
+        "etag": "W/\"1b15f7fe588e7782fa157f0520f5b02dea9fc134\"",
+        "sha": "1b15f7fe588e7782fa157f0520f5b02dea9fc134",
+        "size": 10644,
+        "fetched_at": "2026-07-22T06:14:43.705050+00:00",
+        "status": "ok"
+      }
     },
     "openlab-x/OpenCircuitX": {
       "lists": [
@@ -240546,7 +240554,15 @@
         "pushed_at": "2026-07-20T23:54:57Z",
         "starred_at": "2026-07-21T15:19:04Z"
       },
-      "last_updated": "2026-07-22T06:06:10.403342+00:00"
+      "last_updated": "2026-07-22T06:06:10.403342+00:00",
+      "readme": {
+        "path": "readmes/openlab-x+OpenCircuitX+README.md",
+        "etag": "W/\"961f3ebac911d7436b643125d50a891de8c7d46f\"",
+        "sha": "961f3ebac911d7436b643125d50a891de8c7d46f",
+        "size": 24208,
+        "fetched_at": "2026-07-22T06:14:43.985442+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
