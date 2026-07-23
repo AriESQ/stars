@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T06:20:00.105566+00:00",
+  "last_updated": "2026-07-23T06:20:26.385359+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240585,7 +240585,15 @@
         "pushed_at": "2026-07-21T17:05:18Z",
         "starred_at": "2026-07-22T23:12:34Z"
       },
-      "last_updated": "2026-07-23T06:12:10.998182+00:00"
+      "last_updated": "2026-07-23T06:12:10.998182+00:00",
+      "readme": {
+        "path": "readmes/simdutf+simdutf+README.md",
+        "etag": "W/\"712c466375567f572b73f40d6e19798b16f59122\"",
+        "sha": "712c466375567f572b73f40d6e19798b16f59122",
+        "size": 160009,
+        "fetched_at": "2026-07-23T06:20:26.383096+00:00",
+        "status": "ok"
+      }
     },
     "Eyevinn/srt-whip-gateway": {
       "lists": [
@@ -240608,7 +240616,15 @@
         "pushed_at": "2026-05-09T09:42:01Z",
         "starred_at": "2026-07-22T22:40:25Z"
       },
-      "last_updated": "2026-07-23T06:12:11.378076+00:00"
+      "last_updated": "2026-07-23T06:12:11.378076+00:00",
+      "readme": {
+        "path": "readmes/Eyevinn+srt-whip-gateway+README.md",
+        "etag": "W/\"4dc47b3fa8e831a82eee0e2115a3ed2af40ca13b\"",
+        "sha": "4dc47b3fa8e831a82eee0e2115a3ed2af40ca13b",
+        "size": 6181,
+        "fetched_at": "2026-07-23T06:20:25.648729+00:00",
+        "status": "ok"
+      }
     },
     "pbakaus/impeccable": {
       "lists": [
@@ -240630,7 +240646,15 @@
         "pushed_at": "2026-07-23T05:50:14Z",
         "starred_at": "2026-07-22T21:52:52Z"
       },
-      "last_updated": "2026-07-23T06:12:11.744320+00:00"
+      "last_updated": "2026-07-23T06:12:11.744320+00:00",
+      "readme": {
+        "path": "readmes/pbakaus+impeccable+README.md",
+        "etag": "W/\"2b18b4c4f545a01c5a3cd26bb9e4dad4036eff2f\"",
+        "sha": "2b18b4c4f545a01c5a3cd26bb9e4dad4036eff2f",
+        "size": 18544,
+        "fetched_at": "2026-07-23T06:20:26.096228+00:00",
+        "status": "ok"
+      }
     },
     "marcelroed/gigatoken": {
       "lists": [
@@ -240654,7 +240678,15 @@
         "pushed_at": "2026-07-22T17:59:33Z",
         "starred_at": "2026-07-22T17:47:59Z"
       },
-      "last_updated": "2026-07-23T06:12:12.102230+00:00"
+      "last_updated": "2026-07-23T06:12:12.102230+00:00",
+      "readme": {
+        "path": "readmes/marcelroed+gigatoken+README.md",
+        "etag": "W/\"460e1b4fc10abac488f0cbb8c6f8f7db1dc798f5\"",
+        "sha": "460e1b4fc10abac488f0cbb8c6f8f7db1dc798f5",
+        "size": 14646,
+        "fetched_at": "2026-07-23T06:20:25.868535+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
