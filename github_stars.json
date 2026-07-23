@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T06:12:12.102317+00:00",
+  "last_updated": "2026-07-23T06:20:00.105566+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240565,7 +240565,10 @@
       }
     },
     "simdutf/simdutf": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 335799265,
         "name": "simdutf",
@@ -240585,7 +240588,10 @@
       "last_updated": "2026-07-23T06:12:10.998182+00:00"
     },
     "Eyevinn/srt-whip-gateway": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Networking"
+      ],
       "metadata": {
         "id": 561253192,
         "name": "srt-whip-gateway",
@@ -240605,7 +240611,9 @@
       "last_updated": "2026-07-23T06:12:11.378076+00:00"
     },
     "pbakaus/impeccable": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1097346685,
         "name": "impeccable",
@@ -240625,7 +240633,11 @@
       "last_updated": "2026-07-23T06:12:11.744320+00:00"
     },
     "marcelroed/gigatoken": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python",
+        "Rust"
+      ],
       "metadata": {
         "id": 1093183288,
         "name": "gigatoken",
