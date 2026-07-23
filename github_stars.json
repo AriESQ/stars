@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T06:14:43.988643+00:00",
+  "last_updated": "2026-07-23T06:12:12.102317+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240563,6 +240563,86 @@
         "fetched_at": "2026-07-22T06:14:43.985442+00:00",
         "status": "ok"
       }
+    },
+    "simdutf/simdutf": {
+      "lists": [],
+      "metadata": {
+        "id": 335799265,
+        "name": "simdutf",
+        "full_name": "simdutf/simdutf",
+        "description": "Unicode routines (UTF8, UTF16, UTF32) and Base64: billions of characters per second using SSE2, AVX2, NEON, AVX-512, RISC-V Vector Extension, LoongArch64, POWER. Part of Node.js, WebKit/Safari, Ladybird, Chromium, Cloudflare Workers,  Ghostty and Bun.",
+        "url": "https://github.com/simdutf/simdutf",
+        "homepage": "https://simdutf.github.io/simdutf/",
+        "language": "C++",
+        "stars": 1874,
+        "forks": 141,
+        "open_issues": 73,
+        "created_at": "2021-02-04T01:01:56Z",
+        "updated_at": "2026-07-23T05:42:39Z",
+        "pushed_at": "2026-07-21T17:05:18Z",
+        "starred_at": "2026-07-22T23:12:34Z"
+      },
+      "last_updated": "2026-07-23T06:12:10.998182+00:00"
+    },
+    "Eyevinn/srt-whip-gateway": {
+      "lists": [],
+      "metadata": {
+        "id": 561253192,
+        "name": "srt-whip-gateway",
+        "full_name": "Eyevinn/srt-whip-gateway",
+        "description": "Open Source SRT WHIP Gateway",
+        "url": "https://github.com/Eyevinn/srt-whip-gateway",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 30,
+        "forks": 5,
+        "open_issues": 15,
+        "created_at": "2022-11-03T09:42:30Z",
+        "updated_at": "2026-07-22T22:40:26Z",
+        "pushed_at": "2026-05-09T09:42:01Z",
+        "starred_at": "2026-07-22T22:40:25Z"
+      },
+      "last_updated": "2026-07-23T06:12:11.378076+00:00"
+    },
+    "pbakaus/impeccable": {
+      "lists": [],
+      "metadata": {
+        "id": 1097346685,
+        "name": "impeccable",
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "url": "https://github.com/pbakaus/impeccable",
+        "homepage": "https://impeccable.style",
+        "language": "JavaScript",
+        "stars": 48861,
+        "forks": 2852,
+        "open_issues": 38,
+        "created_at": "2025-11-16T01:52:04Z",
+        "updated_at": "2026-07-23T06:11:55Z",
+        "pushed_at": "2026-07-23T05:50:14Z",
+        "starred_at": "2026-07-22T21:52:52Z"
+      },
+      "last_updated": "2026-07-23T06:12:11.744320+00:00"
+    },
+    "marcelroed/gigatoken": {
+      "lists": [],
+      "metadata": {
+        "id": 1093183288,
+        "name": "gigatoken",
+        "full_name": "marcelroed/gigatoken",
+        "description": "Language model tokenization at GB/s",
+        "url": "https://github.com/marcelroed/gigatoken",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 1417,
+        "forks": 51,
+        "open_issues": 8,
+        "created_at": "2025-11-10T02:52:34Z",
+        "updated_at": "2026-07-23T06:10:52Z",
+        "pushed_at": "2026-07-22T17:59:33Z",
+        "starred_at": "2026-07-22T17:47:59Z"
+      },
+      "last_updated": "2026-07-23T06:12:12.102230+00:00"
     }
   },
   "last_processed_index": 0,
@@ -240572,5 +240652,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"32f21baa1ee34f29433d8da4b7d98ff5477fcd4226fa0d9276421c58a32d6f75\""
+  "profile_etag": "W/\"105d15b5f0eb60c6d5f9c7b6131c4032aeaf54704789dfd3a997d3663b6d2e40\""
 }
