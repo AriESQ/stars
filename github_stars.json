@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T06:20:26.385359+00:00",
+  "last_updated": "2026-07-24T06:06:39.544339+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240687,6 +240687,106 @@
         "fetched_at": "2026-07-23T06:20:25.868535+00:00",
         "status": "ok"
       }
+    },
+    "khang-nd/7.css": {
+      "lists": [],
+      "metadata": {
+        "id": 325447896,
+        "name": "7.css",
+        "full_name": "khang-nd/7.css",
+        "description": "A JS-independent, tree-shakeable CSS framework for building faithful recreations of the Windows 7 UI.",
+        "url": "https://github.com/khang-nd/7.css",
+        "homepage": "https://khang-nd.github.io/7.css/",
+        "language": "SCSS",
+        "stars": 2404,
+        "forks": 120,
+        "open_issues": 10,
+        "created_at": "2020-12-30T03:45:16Z",
+        "updated_at": "2026-07-24T05:32:32Z",
+        "pushed_at": "2026-03-17T15:32:33Z",
+        "starred_at": "2026-07-24T05:32:32Z"
+      },
+      "last_updated": "2026-07-24T06:06:37.707810+00:00"
+    },
+    "botoxparty/XP.css": {
+      "lists": [],
+      "metadata": {
+        "id": 263911790,
+        "name": "XP.css",
+        "full_name": "botoxparty/XP.css",
+        "description": "A CSS framework for building faithful recreations of operating system GUIs.",
+        "url": "https://github.com/botoxparty/XP.css",
+        "homepage": "https://botoxparty.github.io/XP.css/",
+        "language": "SCSS",
+        "stars": 3020,
+        "forks": 141,
+        "open_issues": 24,
+        "created_at": "2020-05-14T12:41:40Z",
+        "updated_at": "2026-07-24T05:31:57Z",
+        "pushed_at": "2025-03-08T16:02:01Z",
+        "starred_at": "2026-07-24T05:31:57Z"
+      },
+      "last_updated": "2026-07-24T06:06:38.109865+00:00"
+    },
+    "jdan/98.css": {
+      "lists": [],
+      "metadata": {
+        "id": 256372328,
+        "name": "98.css",
+        "full_name": "jdan/98.css",
+        "description": "A design system for building faithful recreations of old UIs",
+        "url": "https://github.com/jdan/98.css",
+        "homepage": "https://jdan.github.io/98.css",
+        "language": "CSS",
+        "stars": 11277,
+        "forks": 374,
+        "open_issues": 42,
+        "created_at": "2020-04-17T01:39:53Z",
+        "updated_at": "2026-07-24T06:03:07Z",
+        "pushed_at": "2025-09-07T13:40:43Z",
+        "starred_at": "2026-07-24T05:28:20Z"
+      },
+      "last_updated": "2026-07-24T06:06:38.491065+00:00"
+    },
+    "mezmo/aura": {
+      "lists": [],
+      "metadata": {
+        "id": 1171124338,
+        "name": "aura",
+        "full_name": "mezmo/aura",
+        "description": "AURA is an agentic harness that turns an LLM model into a reliable, autonomous service capable of executing real SRE work. AURA provides the guardrails, API servers, state management, authentication, streaming, error handling, and tool integrations necessary to run AI SRE agents safely in production.",
+        "url": "https://github.com/mezmo/aura",
+        "homepage": "https://www.mezmo.com/aura",
+        "language": "Rust",
+        "stars": 233,
+        "forks": 21,
+        "open_issues": 95,
+        "created_at": "2026-03-02T22:36:21Z",
+        "updated_at": "2026-07-23T20:20:49Z",
+        "pushed_at": "2026-07-23T21:29:11Z",
+        "starred_at": "2026-07-23T14:29:18Z"
+      },
+      "last_updated": "2026-07-24T06:06:38.957665+00:00"
+    },
+    "BayLing-Models/BayLing-Speech": {
+      "lists": [],
+      "metadata": {
+        "id": 855162700,
+        "name": "BayLing-Speech",
+        "full_name": "BayLing-Models/BayLing-Speech",
+        "description": "LLaMA-Omni is a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level.",
+        "url": "https://github.com/BayLing-Models/BayLing-Speech",
+        "homepage": "https://arxiv.org/abs/2409.06666",
+        "language": "Python",
+        "stars": 3142,
+        "forks": 224,
+        "open_issues": 52,
+        "created_at": "2024-09-10T12:21:53Z",
+        "updated_at": "2026-07-23T13:20:56Z",
+        "pushed_at": "2025-05-19T02:24:42Z",
+        "starred_at": "2024-09-18T20:10:03Z"
+      },
+      "last_updated": "2026-07-24T06:06:39.544291+00:00"
     }
   },
   "last_processed_index": 0,
@@ -240696,5 +240796,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"105d15b5f0eb60c6d5f9c7b6131c4032aeaf54704789dfd3a997d3663b6d2e40\""
+  "profile_etag": "W/\"3e09cb3093c2b32a7016096fa6ad49066e3e8252715e4f65545fdbd7e2e702bf\""
 }
