@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:06:39.544339+00:00",
+  "last_updated": "2026-07-24T06:14:16.342193+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240628,7 +240628,8 @@
     },
     "pbakaus/impeccable": {
       "lists": [
-        "JavaScript"
+        "JavaScript",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1097346685,
@@ -240689,7 +240690,9 @@
       }
     },
     "khang-nd/7.css": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 325447896,
         "name": "7.css",
@@ -240709,7 +240712,9 @@
       "last_updated": "2026-07-24T06:06:37.707810+00:00"
     },
     "botoxparty/XP.css": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 263911790,
         "name": "XP.css",
@@ -240729,7 +240734,9 @@
       "last_updated": "2026-07-24T06:06:38.109865+00:00"
     },
     "jdan/98.css": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 256372328,
         "name": "98.css",
@@ -240749,7 +240756,10 @@
       "last_updated": "2026-07-24T06:06:38.491065+00:00"
     },
     "mezmo/aura": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1171124338,
         "name": "aura",
@@ -240769,7 +240779,9 @@
       "last_updated": "2026-07-24T06:06:38.957665+00:00"
     },
     "BayLing-Models/BayLing-Speech": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 855162700,
         "name": "BayLing-Speech",
