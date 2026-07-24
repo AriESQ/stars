@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:14:16.342193+00:00",
+  "last_updated": "2026-07-24T06:14:44.967486+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240709,7 +240709,15 @@
         "pushed_at": "2026-03-17T15:32:33Z",
         "starred_at": "2026-07-24T05:32:32Z"
       },
-      "last_updated": "2026-07-24T06:06:37.707810+00:00"
+      "last_updated": "2026-07-24T06:06:37.707810+00:00",
+      "readme": {
+        "path": "readmes/khang-nd+7.css+README.md",
+        "etag": "W/\"eb2889938190c9db8d1873e9673c0777d22b5004\"",
+        "sha": "eb2889938190c9db8d1873e9673c0777d22b5004",
+        "size": 2376,
+        "fetched_at": "2026-07-24T06:14:44.646781+00:00",
+        "status": "ok"
+      }
     },
     "botoxparty/XP.css": {
       "lists": [
@@ -240731,7 +240739,15 @@
         "pushed_at": "2025-03-08T16:02:01Z",
         "starred_at": "2026-07-24T05:31:57Z"
       },
-      "last_updated": "2026-07-24T06:06:38.109865+00:00"
+      "last_updated": "2026-07-24T06:06:38.109865+00:00",
+      "readme": {
+        "path": "readmes/botoxparty+XP.css+README.md",
+        "etag": "W/\"e75ca460bbddcf049e519f94d6df3e0e9dae3d01\"",
+        "sha": "e75ca460bbddcf049e519f94d6df3e0e9dae3d01",
+        "size": 3260,
+        "fetched_at": "2026-07-24T06:14:44.243748+00:00",
+        "status": "ok"
+      }
     },
     "jdan/98.css": {
       "lists": [
@@ -240753,7 +240769,15 @@
         "pushed_at": "2025-09-07T13:40:43Z",
         "starred_at": "2026-07-24T05:28:20Z"
       },
-      "last_updated": "2026-07-24T06:06:38.491065+00:00"
+      "last_updated": "2026-07-24T06:06:38.491065+00:00",
+      "readme": {
+        "path": "readmes/jdan+98.css+README.md",
+        "etag": "W/\"8aaac9a83c2206526d4379a3aaee52f94764776a\"",
+        "sha": "8aaac9a83c2206526d4379a3aaee52f94764776a",
+        "size": 3263,
+        "fetched_at": "2026-07-24T06:14:44.459938+00:00",
+        "status": "ok"
+      }
     },
     "mezmo/aura": {
       "lists": [
@@ -240776,7 +240800,15 @@
         "pushed_at": "2026-07-23T21:29:11Z",
         "starred_at": "2026-07-23T14:29:18Z"
       },
-      "last_updated": "2026-07-24T06:06:38.957665+00:00"
+      "last_updated": "2026-07-24T06:06:38.957665+00:00",
+      "readme": {
+        "path": "readmes/mezmo+aura+README.md",
+        "etag": "W/\"900c2b79afd8f80a536e6bee048dfc28862b9727\"",
+        "sha": "900c2b79afd8f80a536e6bee048dfc28862b9727",
+        "size": 37987,
+        "fetched_at": "2026-07-24T06:14:44.962830+00:00",
+        "status": "ok"
+      }
     },
     "BayLing-Models/BayLing-Speech": {
       "lists": [
@@ -240798,7 +240830,15 @@
         "pushed_at": "2025-05-19T02:24:42Z",
         "starred_at": "2024-09-18T20:10:03Z"
       },
-      "last_updated": "2026-07-24T06:06:39.544291+00:00"
+      "last_updated": "2026-07-24T06:06:39.544291+00:00",
+      "readme": {
+        "path": "readmes/BayLing-Models+BayLing-Speech+README.md",
+        "etag": "W/\"1d54a91359ef25e7aa2ac473d6c33e66a068b121\"",
+        "sha": "1d54a91359ef25e7aa2ac473d6c33e66a068b121",
+        "size": 6382,
+        "fetched_at": "2026-07-24T06:14:44.028173+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
