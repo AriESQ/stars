@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T05:55:18.065651+00:00",
+  "last_updated": "2026-07-25T06:02:55.339294+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240841,7 +240841,9 @@
       }
     },
     "gsxhq/gsxui": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1309247150,
         "name": "gsxui",
@@ -240861,7 +240863,12 @@
       "last_updated": "2026-07-25T05:55:16.360991+00:00"
     },
     "permissionlesstech/bitchat": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec",
+        "Networking",
+        "PKI"
+      ],
       "metadata": {
         "id": 1013830656,
         "name": "bitchat",
@@ -240881,7 +240888,9 @@
       "last_updated": "2026-07-25T05:55:16.738698+00:00"
     },
     "go-ctap/winhello": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1013817195,
         "name": "winhello",
@@ -240901,7 +240910,9 @@
       "last_updated": "2026-07-25T05:55:17.057183+00:00"
     },
     "Wirasm/prp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1005961842,
         "name": "prp",
@@ -240921,7 +240932,9 @@
       "last_updated": "2026-07-25T05:55:17.548675+00:00"
     },
     "QwenAudio/SenseVoice": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 823429665,
         "name": "SenseVoice",
