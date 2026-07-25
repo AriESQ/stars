@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T06:02:55.339294+00:00",
+  "last_updated": "2026-07-25T06:03:49.893212+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240860,7 +240860,15 @@
         "pushed_at": "2026-07-24T22:31:38Z",
         "starred_at": "2026-07-24T21:02:49Z"
       },
-      "last_updated": "2026-07-25T05:55:16.360991+00:00"
+      "last_updated": "2026-07-25T05:55:16.360991+00:00",
+      "readme": {
+        "path": "readmes/gsxhq+gsxui+README.md",
+        "etag": "W/\"2cbd1da3b61a956728eda908d7c3c0058014cc4c\"",
+        "sha": "2cbd1da3b61a956728eda908d7c3c0058014cc4c",
+        "size": 7468,
+        "fetched_at": "2026-07-25T06:03:49.590846+00:00",
+        "status": "ok"
+      }
     },
     "permissionlesstech/bitchat": {
       "lists": [
@@ -240885,7 +240893,15 @@
         "pushed_at": "2026-07-12T16:08:06Z",
         "starred_at": "2026-07-24T18:35:47Z"
       },
-      "last_updated": "2026-07-25T05:55:16.738698+00:00"
+      "last_updated": "2026-07-25T05:55:16.738698+00:00",
+      "readme": {
+        "path": "readmes/permissionlesstech+bitchat+README.md",
+        "etag": "W/\"eef7bb409f34508c6602aa89caf01c8b244b0216\"",
+        "sha": "eef7bb409f34508c6602aa89caf01c8b244b0216",
+        "size": 5483,
+        "fetched_at": "2026-07-25T06:03:49.889635+00:00",
+        "status": "ok"
+      }
     },
     "go-ctap/winhello": {
       "lists": [
@@ -240907,7 +240923,15 @@
         "pushed_at": "2026-07-20T02:29:58Z",
         "starred_at": "2026-07-24T16:02:47Z"
       },
-      "last_updated": "2026-07-25T05:55:17.057183+00:00"
+      "last_updated": "2026-07-25T05:55:17.057183+00:00",
+      "readme": {
+        "path": "readmes/go-ctap+winhello+README.md",
+        "etag": "W/\"c1cb61028331b7b63d3b3cfcbb8cbc2fb6fc9471\"",
+        "sha": "c1cb61028331b7b63d3b3cfcbb8cbc2fb6fc9471",
+        "size": 1524,
+        "fetched_at": "2026-07-25T06:03:49.238228+00:00",
+        "status": "ok"
+      }
     },
     "Wirasm/prp": {
       "lists": [
@@ -240929,7 +240953,15 @@
         "pushed_at": "2026-07-24T12:20:36Z",
         "starred_at": "2025-07-18T04:20:27Z"
       },
-      "last_updated": "2026-07-25T05:55:17.548675+00:00"
+      "last_updated": "2026-07-25T05:55:17.548675+00:00",
+      "readme": {
+        "path": "readmes/Wirasm+prp+README.md",
+        "etag": "W/\"202cc609d682ffcd0c3890296198111d949ec420\"",
+        "sha": "202cc609d682ffcd0c3890296198111d949ec420",
+        "size": 11056,
+        "fetched_at": "2026-07-25T06:03:48.901599+00:00",
+        "status": "ok"
+      }
     },
     "QwenAudio/SenseVoice": {
       "lists": [
@@ -240951,7 +240983,15 @@
         "pushed_at": "2026-07-24T13:50:51Z",
         "starred_at": "2024-10-13T23:26:16Z"
       },
-      "last_updated": "2026-07-25T05:55:18.065549+00:00"
+      "last_updated": "2026-07-25T05:55:18.065549+00:00",
+      "readme": {
+        "path": "readmes/QwenAudio+SenseVoice+README.md",
+        "etag": "W/\"e822862cbe25fd598c4ec7f1ffdfbc1458f3c936\"",
+        "sha": "e822862cbe25fd598c4ec7f1ffdfbc1458f3c936",
+        "size": 24822,
+        "fetched_at": "2026-07-25T06:03:48.557990+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
