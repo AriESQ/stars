@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T06:03:49.893212+00:00",
+  "last_updated": "2026-07-26T06:17:20.343604+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240992,6 +240992,46 @@
         "fetched_at": "2026-07-25T06:03:48.557990+00:00",
         "status": "ok"
       }
+    },
+    "asdecided/WayfinderRouter": {
+      "lists": [],
+      "metadata": {
+        "id": 1271892689,
+        "name": "WayfinderRouter",
+        "full_name": "asdecided/WayfinderRouter",
+        "description": "Simple CLI tool for deterministic routing of queries between local and hosted LLM models",
+        "url": "https://github.com/asdecided/WayfinderRouter",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 396,
+        "forks": 22,
+        "open_issues": 5,
+        "created_at": "2026-06-17T05:24:57Z",
+        "updated_at": "2026-07-25T21:33:12Z",
+        "pushed_at": "2026-07-25T22:38:12Z",
+        "starred_at": "2026-06-28T16:50:48Z"
+      },
+      "last_updated": "2026-07-26T06:17:19.794122+00:00"
+    },
+    "JakeSwiz/flock-you-wifi-recon": {
+      "lists": [],
+      "metadata": {
+        "id": 1217879721,
+        "name": "flock-you-wifi-recon",
+        "full_name": "JakeSwiz/flock-you-wifi-recon",
+        "description": "ESP32 firmware that catches Flock Safety ALPRs by the WiFi probes they spray trying to phone home. Hotspot doesn't need to be on. Passive recon only, no deauths or active attacks.  Based on Jon Gaines' research + colonelpanichacks/flock-you OUI list.",
+        "url": "https://github.com/JakeSwiz/flock-you-wifi-recon",
+        "homepage": "https://protocol.swizsecurity.com",
+        "language": "C++",
+        "stars": 78,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-04-22T10:03:24Z",
+        "updated_at": "2026-07-23T17:00:57Z",
+        "pushed_at": "2026-04-22T18:51:40Z",
+        "starred_at": "2026-04-23T16:46:58Z"
+      },
+      "last_updated": "2026-07-26T06:17:20.343512+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241001,5 +241041,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e61761ff01297a2f4b8343af092eec296123bb3fd8008932edf5efd6d5d221dc\""
+  "profile_etag": "W/\"f2488f0a3db0f228ff9344b9838ccfdb53869b0380dc533ab837352d7f030973\""
 }
