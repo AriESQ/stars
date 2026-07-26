@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T06:17:20.343604+00:00",
+  "last_updated": "2026-07-26T06:24:50.074162+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -240994,7 +240994,10 @@
       }
     },
     "asdecided/WayfinderRouter": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1271892689,
         "name": "WayfinderRouter",
@@ -241014,7 +241017,10 @@
       "last_updated": "2026-07-26T06:17:19.794122+00:00"
     },
     "JakeSwiz/flock-you-wifi-recon": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1217879721,
         "name": "flock-you-wifi-recon",
