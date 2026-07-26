@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T06:24:50.074162+00:00",
+  "last_updated": "2026-07-26T06:25:22.032856+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241014,7 +241014,15 @@
         "pushed_at": "2026-07-25T22:38:12Z",
         "starred_at": "2026-06-28T16:50:48Z"
       },
-      "last_updated": "2026-07-26T06:17:19.794122+00:00"
+      "last_updated": "2026-07-26T06:17:19.794122+00:00",
+      "readme": {
+        "path": "readmes/asdecided+WayfinderRouter+README.md",
+        "etag": "W/\"b74ea6e89a6b1ff8411e4d6607318a9ba7b0f12e\"",
+        "sha": "b74ea6e89a6b1ff8411e4d6607318a9ba7b0f12e",
+        "size": 3927,
+        "fetched_at": "2026-07-26T06:25:22.024375+00:00",
+        "status": "ok"
+      }
     },
     "JakeSwiz/flock-you-wifi-recon": {
       "lists": [
@@ -241037,7 +241045,15 @@
         "pushed_at": "2026-04-22T18:51:40Z",
         "starred_at": "2026-04-23T16:46:58Z"
       },
-      "last_updated": "2026-07-26T06:17:20.343512+00:00"
+      "last_updated": "2026-07-26T06:17:20.343512+00:00",
+      "readme": {
+        "path": "readmes/JakeSwiz+flock-you-wifi-recon+README.md",
+        "etag": "W/\"53a4119b50cb121321d98a5d71a76d97373e4d3b\"",
+        "sha": "53a4119b50cb121321d98a5d71a76d97373e4d3b",
+        "size": 8078,
+        "fetched_at": "2026-07-26T06:25:21.717505+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
