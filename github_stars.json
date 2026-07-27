@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T06:25:22.032856+00:00",
+  "last_updated": "2026-07-27T06:44:15.107378+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241054,6 +241054,146 @@
         "fetched_at": "2026-07-26T06:25:21.717505+00:00",
         "status": "ok"
       }
+    },
+    "tomasz-tomczyk/crit": {
+      "lists": [],
+      "metadata": {
+        "id": 1159323006,
+        "name": "crit",
+        "full_name": "tomasz-tomczyk/crit",
+        "description": "Your feedback loop with the agent",
+        "url": "https://github.com/tomasz-tomczyk/crit",
+        "homepage": "https://crit.md",
+        "language": "Go",
+        "stars": 830,
+        "forks": 59,
+        "open_issues": 8,
+        "created_at": "2026-02-16T15:39:33Z",
+        "updated_at": "2026-07-27T05:34:35Z",
+        "pushed_at": "2026-07-24T20:05:18Z",
+        "starred_at": "2026-07-27T05:09:31Z"
+      },
+      "last_updated": "2026-07-27T06:44:13.189999+00:00"
+    },
+    "vercel-labs/scriptc": {
+      "lists": [],
+      "metadata": {
+        "id": 1309331155,
+        "name": "scriptc",
+        "full_name": "vercel-labs/scriptc",
+        "description": "TypeScript-to-Native Compiler",
+        "url": "https://github.com/vercel-labs/scriptc",
+        "homepage": "https://scriptc.dev",
+        "language": "TypeScript",
+        "stars": 722,
+        "forks": 9,
+        "open_issues": 2,
+        "created_at": "2026-07-22T23:04:54Z",
+        "updated_at": "2026-07-27T06:44:05Z",
+        "pushed_at": "2026-07-27T03:27:03Z",
+        "starred_at": "2026-07-27T04:47:01Z"
+      },
+      "last_updated": "2026-07-27T06:44:13.505495+00:00"
+    },
+    "thestk/stk": {
+      "lists": [],
+      "metadata": {
+        "id": 12895124,
+        "name": "stk",
+        "full_name": "thestk/stk",
+        "description": "The Synthesis ToolKit in C++ (STK) is a set of open source audio signal processing and algorithmic synthesis classes written in the C++ programming language.",
+        "url": "https://github.com/thestk/stk",
+        "homepage": "https://ccrma.stanford.edu/software/stk/",
+        "language": "C++",
+        "stars": 1223,
+        "forks": 197,
+        "open_issues": 20,
+        "created_at": "2013-09-17T12:54:47Z",
+        "updated_at": "2026-07-27T03:50:49Z",
+        "pushed_at": "2025-03-29T19:25:00Z",
+        "starred_at": "2026-07-27T03:50:48Z"
+      },
+      "last_updated": "2026-07-27T06:44:13.831369+00:00"
+    },
+    "thestk/rtaudio": {
+      "lists": [],
+      "metadata": {
+        "id": 13486037,
+        "name": "rtaudio",
+        "full_name": "thestk/rtaudio",
+        "description": "A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO, and WASAPI) operating systems.",
+        "url": "https://github.com/thestk/rtaudio",
+        "homepage": "",
+        "language": "C++",
+        "stars": 1755,
+        "forks": 358,
+        "open_issues": 55,
+        "created_at": "2013-10-11T00:13:17Z",
+        "updated_at": "2026-07-27T03:50:04Z",
+        "pushed_at": "2026-02-27T13:21:15Z",
+        "starred_at": "2026-07-27T03:50:03Z"
+      },
+      "last_updated": "2026-07-27T06:44:14.150478+00:00"
+    },
+    "mastra-ai/mastra": {
+      "lists": [],
+      "metadata": {
+        "id": 839037098,
+        "name": "mastra",
+        "full_name": "mastra-ai/mastra",
+        "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+        "url": "https://github.com/mastra-ai/mastra",
+        "homepage": "https://mastra.ai",
+        "language": "TypeScript",
+        "stars": 26600,
+        "forks": 2517,
+        "open_issues": 599,
+        "created_at": "2024-08-06T20:44:31Z",
+        "updated_at": "2026-07-27T05:45:47Z",
+        "pushed_at": "2026-07-27T05:17:33Z",
+        "starred_at": "2026-07-27T03:10:54Z"
+      },
+      "last_updated": "2026-07-27T06:44:14.468003+00:00"
+    },
+    "Agash/Syphon.NET": {
+      "lists": [],
+      "metadata": {
+        "id": 1275245545,
+        "name": "Syphon.NET",
+        "full_name": "Agash/Syphon.NET",
+        "description": ".NET bindings for the Syphon framework on macOS: publish and receive video frames zero-copy over IOSurface-backed Metal textures (OBS, Resolume, TouchDesigner). NativeAOT-friendly.",
+        "url": "https://github.com/Agash/Syphon.NET",
+        "homepage": "https://www.nuget.org/packages/Syphon.NET",
+        "language": "C#",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-20T12:47:16Z",
+        "updated_at": "2026-07-26T20:46:17Z",
+        "pushed_at": "2026-06-21T12:21:33Z",
+        "starred_at": "2026-07-26T20:46:16Z"
+      },
+      "last_updated": "2026-07-27T06:44:14.755548+00:00"
+    },
+    "ryrotella/obs-syphon-plugin": {
+      "lists": [],
+      "metadata": {
+        "id": 1208208637,
+        "name": "obs-syphon-plugin",
+        "full_name": "ryrotella/obs-syphon-plugin",
+        "description": "This plugin enables the export of shared textures at high resolution to and from Syphon compatible programs.",
+        "url": "https://github.com/ryrotella/obs-syphon-plugin",
+        "homepage": "",
+        "language": "Objective-C",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-12T00:58:40Z",
+        "updated_at": "2026-07-26T20:45:47Z",
+        "pushed_at": "2026-04-12T01:51:24Z",
+        "starred_at": "2026-07-26T20:45:46Z"
+      },
+      "last_updated": "2026-07-27T06:44:15.107278+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241063,5 +241203,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f2488f0a3db0f228ff9344b9838ccfdb53869b0380dc533ab837352d7f030973\""
+  "profile_etag": "W/\"bf3eefa5001a5c80955f3e1166d1bbe108ce8387d9733afccc863a9e82d106e9\""
 }
