@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T06:52:00.905225+00:00",
+  "last_updated": "2026-07-27T06:53:01.684755+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241075,7 +241075,15 @@
         "pushed_at": "2026-07-24T20:05:18Z",
         "starred_at": "2026-07-27T05:09:31Z"
       },
-      "last_updated": "2026-07-27T06:44:13.189999+00:00"
+      "last_updated": "2026-07-27T06:44:13.189999+00:00",
+      "readme": {
+        "path": "readmes/tomasz-tomczyk+crit+README.md",
+        "etag": "W/\"508c506da34f57bfd74f24cd38f2fa3ea7e2ed86\"",
+        "sha": "508c506da34f57bfd74f24cd38f2fa3ea7e2ed86",
+        "size": 29937,
+        "fetched_at": "2026-07-27T06:53:01.350123+00:00",
+        "status": "ok"
+      }
     },
     "vercel-labs/scriptc": {
       "lists": [
@@ -241097,7 +241105,15 @@
         "pushed_at": "2026-07-27T03:27:03Z",
         "starred_at": "2026-07-27T04:47:01Z"
       },
-      "last_updated": "2026-07-27T06:44:13.505495+00:00"
+      "last_updated": "2026-07-27T06:44:13.505495+00:00",
+      "readme": {
+        "path": "readmes/vercel-labs+scriptc+README.md",
+        "etag": "W/\"27b91e3e58a5497d0bf7ebbd229201a75f4b1f4f\"",
+        "sha": "27b91e3e58a5497d0bf7ebbd229201a75f4b1f4f",
+        "size": 7438,
+        "fetched_at": "2026-07-27T06:53:01.683734+00:00",
+        "status": "ok"
+      }
     },
     "thestk/stk": {
       "lists": [
@@ -241119,7 +241135,15 @@
         "pushed_at": "2025-03-29T19:25:00Z",
         "starred_at": "2026-07-27T03:50:48Z"
       },
-      "last_updated": "2026-07-27T06:44:13.831369+00:00"
+      "last_updated": "2026-07-27T06:44:13.831369+00:00",
+      "readme": {
+        "path": "readmes/thestk+stk+README.md",
+        "etag": "W/\"27c1f0efd51867487d645481910d5e5478a02489\"",
+        "sha": "27c1f0efd51867487d645481910d5e5478a02489",
+        "size": 9661,
+        "fetched_at": "2026-07-27T06:53:00.925491+00:00",
+        "status": "ok"
+      }
     },
     "thestk/rtaudio": {
       "lists": [
@@ -241141,7 +241165,15 @@
         "pushed_at": "2026-02-27T13:21:15Z",
         "starred_at": "2026-07-27T03:50:03Z"
       },
-      "last_updated": "2026-07-27T06:44:14.150478+00:00"
+      "last_updated": "2026-07-27T06:44:14.150478+00:00",
+      "readme": {
+        "path": "readmes/thestk+rtaudio+README.md",
+        "etag": "W/\"a85c6d0f66ab279af25e48dcf4db771fcc2a606a\"",
+        "sha": "a85c6d0f66ab279af25e48dcf4db771fcc2a606a",
+        "size": 3799,
+        "fetched_at": "2026-07-27T06:53:00.577633+00:00",
+        "status": "ok"
+      }
     },
     "mastra-ai/mastra": {
       "lists": [
@@ -241164,7 +241196,15 @@
         "pushed_at": "2026-07-27T05:17:33Z",
         "starred_at": "2026-07-27T03:10:54Z"
       },
-      "last_updated": "2026-07-27T06:44:14.468003+00:00"
+      "last_updated": "2026-07-27T06:44:14.468003+00:00",
+      "readme": {
+        "path": "readmes/mastra-ai+mastra+README.md",
+        "etag": "W/\"15f9277cee5d611e3a6f782aa3d41ac604c13bb6\"",
+        "sha": "15f9277cee5d611e3a6f782aa3d41ac604c13bb6",
+        "size": 7309,
+        "fetched_at": "2026-07-27T06:52:59.911944+00:00",
+        "status": "ok"
+      }
     },
     "Agash/Syphon.NET": {
       "lists": [
@@ -241187,7 +241227,15 @@
         "pushed_at": "2026-06-21T12:21:33Z",
         "starred_at": "2026-07-26T20:46:16Z"
       },
-      "last_updated": "2026-07-27T06:44:14.755548+00:00"
+      "last_updated": "2026-07-27T06:44:14.755548+00:00",
+      "readme": {
+        "path": "readmes/Agash+Syphon.NET+README.md",
+        "etag": "W/\"a09fdca6bc99d2c8c60c7ce731722688fc6bb489\"",
+        "sha": "a09fdca6bc99d2c8c60c7ce731722688fc6bb489",
+        "size": 4286,
+        "fetched_at": "2026-07-27T06:52:59.612081+00:00",
+        "status": "ok"
+      }
     },
     "ryrotella/obs-syphon-plugin": {
       "lists": [
@@ -241210,7 +241258,15 @@
         "pushed_at": "2026-04-12T01:51:24Z",
         "starred_at": "2026-07-26T20:45:46Z"
       },
-      "last_updated": "2026-07-27T06:44:15.107278+00:00"
+      "last_updated": "2026-07-27T06:44:15.107278+00:00",
+      "readme": {
+        "path": "readmes/ryrotella+obs-syphon-plugin+README.md",
+        "etag": "W/\"9a50afc9a6e7325ead070efe411f4e4a721a7150\"",
+        "sha": "9a50afc9a6e7325ead070efe411f4e4a721a7150",
+        "size": 3628,
+        "fetched_at": "2026-07-27T06:53:00.262501+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
