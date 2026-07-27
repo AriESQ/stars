@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T06:44:15.107378+00:00",
+  "last_updated": "2026-07-27T06:52:00.905225+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241056,7 +241056,9 @@
       }
     },
     "tomasz-tomczyk/crit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1159323006,
         "name": "crit",
@@ -241076,7 +241078,9 @@
       "last_updated": "2026-07-27T06:44:13.189999+00:00"
     },
     "vercel-labs/scriptc": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1309331155,
         "name": "scriptc",
@@ -241096,7 +241100,9 @@
       "last_updated": "2026-07-27T06:44:13.505495+00:00"
     },
     "thestk/stk": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 12895124,
         "name": "stk",
@@ -241116,7 +241122,9 @@
       "last_updated": "2026-07-27T06:44:13.831369+00:00"
     },
     "thestk/rtaudio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 13486037,
         "name": "rtaudio",
@@ -241136,7 +241144,10 @@
       "last_updated": "2026-07-27T06:44:14.150478+00:00"
     },
     "mastra-ai/mastra": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 839037098,
         "name": "mastra",
@@ -241156,7 +241167,10 @@
       "last_updated": "2026-07-27T06:44:14.468003+00:00"
     },
     "Agash/Syphon.NET": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1275245545,
         "name": "Syphon.NET",
@@ -241176,7 +241190,10 @@
       "last_updated": "2026-07-27T06:44:14.755548+00:00"
     },
     "ryrotella/obs-syphon-plugin": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1208208637,
         "name": "obs-syphon-plugin",
