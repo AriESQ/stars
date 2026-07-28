@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T20:03:06.141114+00:00",
+  "last_updated": "2026-07-28T20:04:12.227225+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241319,7 +241319,15 @@
         "pushed_at": "2022-07-05T07:17:04Z",
         "starred_at": "2026-07-28T18:32:53Z"
       },
-      "last_updated": "2026-07-28T19:55:20.128691+00:00"
+      "last_updated": "2026-07-28T19:55:20.128691+00:00",
+      "readme": {
+        "path": "readmes/karton+karton+README.md",
+        "etag": "W/\"c56072a1693fad743e3682acd272be63288e00ea\"",
+        "sha": "c56072a1693fad743e3682acd272be63288e00ea",
+        "size": 2426,
+        "fetched_at": "2026-07-28T20:04:11.434943+00:00",
+        "status": "ok"
+      }
     },
     "wolfpld/usenetarchive": {
       "lists": [],
@@ -241339,7 +241347,15 @@
         "pushed_at": "2026-02-22T11:13:16Z",
         "starred_at": "2026-07-28T18:29:22Z"
       },
-      "last_updated": "2026-07-28T19:55:20.484524+00:00"
+      "last_updated": "2026-07-28T19:55:20.484524+00:00",
+      "readme": {
+        "path": "readmes/wolfpld+usenetarchive+README.md",
+        "etag": "W/\"4f0edc2b6809c1cbbc9e44c27b553348ff4fd499\"",
+        "sha": "4f0edc2b6809c1cbbc9e44c27b553348ff4fd499",
+        "size": 13494,
+        "fetched_at": "2026-07-28T20:04:12.226470+00:00",
+        "status": "ok"
+      }
     },
     "schildep/verified-3d-mesh-intersection": {
       "lists": [
@@ -241361,7 +241377,15 @@
         "pushed_at": "2026-07-28T12:43:54Z",
         "starred_at": "2026-07-28T18:22:31Z"
       },
-      "last_updated": "2026-07-28T19:55:20.836065+00:00"
+      "last_updated": "2026-07-28T19:55:20.836065+00:00",
+      "readme": {
+        "path": "readmes/schildep+verified-3d-mesh-intersection+README.md",
+        "etag": "W/\"c88943309c27490f3703c25fcd4e5df9d637097f\"",
+        "sha": "c88943309c27490f3703c25fcd4e5df9d637097f",
+        "size": 23202,
+        "fetched_at": "2026-07-28T20:04:11.881697+00:00",
+        "status": "ok"
+      }
     },
     "Alex313031/thorium": {
       "lists": [
@@ -241383,7 +241407,15 @@
         "pushed_at": "2026-07-11T14:36:41Z",
         "starred_at": "2026-07-28T18:03:21Z"
       },
-      "last_updated": "2026-07-28T19:55:21.256320+00:00"
+      "last_updated": "2026-07-28T19:55:21.256320+00:00",
+      "readme": {
+        "path": "readmes/Alex313031+thorium+README.md",
+        "etag": "W/\"4f3d8a530a580410cd3b448eb70421856cba3b08\"",
+        "sha": "4f3d8a530a580410cd3b448eb70421856cba3b08",
+        "size": 11185,
+        "fetched_at": "2026-07-28T20:04:11.004741+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
