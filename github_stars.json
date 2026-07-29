@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T20:04:12.227225+00:00",
+  "last_updated": "2026-07-29T06:09:25.324769+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241416,6 +241416,126 @@
         "fetched_at": "2026-07-28T20:04:11.004741+00:00",
         "status": "ok"
       }
+    },
+    "Richard-Burns/Palette-Tools": {
+      "lists": [],
+      "metadata": {
+        "id": 280589952,
+        "name": "Palette-Tools",
+        "full_name": "Richard-Burns/Palette-Tools",
+        "description": "A collection of TouchDesigner tools that can be used in the palette",
+        "url": "https://github.com/Richard-Burns/Palette-Tools",
+        "homepage": null,
+        "language": null,
+        "stars": 36,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2020-07-18T05:36:39Z",
+        "updated_at": "2026-07-29T05:42:25Z",
+        "pushed_at": "2026-02-04T14:19:17Z",
+        "starred_at": "2026-07-29T05:42:25Z"
+      },
+      "last_updated": "2026-07-29T06:09:24.166520+00:00"
+    },
+    "Richard-Burns/Warpa": {
+      "lists": [],
+      "metadata": {
+        "id": 513796714,
+        "name": "Warpa",
+        "full_name": "Richard-Burns/Warpa",
+        "description": "A projection mapping tool for TouchDesigner",
+        "url": "https://github.com/Richard-Burns/Warpa",
+        "homepage": null,
+        "language": null,
+        "stars": 60,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2022-07-14T07:09:02Z",
+        "updated_at": "2026-07-29T05:41:34Z",
+        "pushed_at": "2025-04-08T06:19:20Z",
+        "starred_at": "2026-07-29T05:41:34Z"
+      },
+      "last_updated": "2026-07-29T06:09:24.390398+00:00"
+    },
+    "tqbf/selfdrivingwiki": {
+      "lists": [],
+      "metadata": {
+        "id": 1271403587,
+        "name": "selfdrivingwiki",
+        "full_name": "tqbf/selfdrivingwiki",
+        "description": "an llmwiki app",
+        "url": "https://github.com/tqbf/selfdrivingwiki",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 5,
+        "forks": 1,
+        "open_issues": 38,
+        "created_at": "2026-06-16T16:18:53Z",
+        "updated_at": "2026-07-29T05:13:40Z",
+        "pushed_at": "2026-07-29T05:16:29Z",
+        "starred_at": "2026-07-29T05:13:39Z"
+      },
+      "last_updated": "2026-07-29T06:09:24.640129+00:00"
+    },
+    "AsahiLinux/macvdmtool": {
+      "lists": [],
+      "metadata": {
+        "id": 335392047,
+        "name": "macvdmtool",
+        "full_name": "AsahiLinux/macvdmtool",
+        "description": "Apple Silicon to Apple Silicon VDM utility",
+        "url": "https://github.com/AsahiLinux/macvdmtool",
+        "homepage": "",
+        "language": "C++",
+        "stars": 357,
+        "forks": 51,
+        "open_issues": 8,
+        "created_at": "2021-02-02T18:54:31Z",
+        "updated_at": "2026-07-29T02:29:55Z",
+        "pushed_at": "2026-03-14T20:44:39Z",
+        "starred_at": "2026-07-29T02:29:55Z"
+      },
+      "last_updated": "2026-07-29T06:09:24.884979+00:00"
+    },
+    "openai/codex-security": {
+      "lists": [],
+      "metadata": {
+        "id": 1299769220,
+        "name": "codex-security",
+        "full_name": "openai/codex-security",
+        "description": "SDKs and CLI for Codex Security",
+        "url": "https://github.com/openai/codex-security",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 2616,
+        "forks": 137,
+        "open_issues": 41,
+        "created_at": "2026-07-13T22:00:13Z",
+        "updated_at": "2026-07-29T06:08:51Z",
+        "pushed_at": "2026-07-29T05:23:22Z",
+        "starred_at": "2026-07-29T01:30:26Z"
+      },
+      "last_updated": "2026-07-29T06:09:25.117377+00:00"
+    },
+    "ad-repo/nullplayer": {
+      "lists": [],
+      "metadata": {
+        "id": 1135355324,
+        "name": "nullplayer",
+        "full_name": "ad-repo/nullplayer",
+        "description": "nullPlayer is a free open source macOS media player with some unique features",
+        "url": "https://github.com/ad-repo/nullplayer",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 95,
+        "forks": 7,
+        "open_issues": 26,
+        "created_at": "2026-01-16T01:34:41Z",
+        "updated_at": "2026-07-29T02:40:37Z",
+        "pushed_at": "2026-07-29T02:46:28Z",
+        "starred_at": "2026-07-28T23:30:10Z"
+      },
+      "last_updated": "2026-07-29T06:09:25.324675+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241425,5 +241545,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a211da92dfbec49c115605c4307b156f2319e6bdbdb162d14be3bcf9287f0971\""
+  "profile_etag": "W/\"a59541de282ddd7230138cbd3c865469b4ce1de881157e6920fb1c27abefa562\""
 }
