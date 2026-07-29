@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:09:25.324769+00:00",
+  "last_updated": "2026-07-29T06:16:44.823399+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -201901,7 +201901,11 @@
       }
     },
     "eugeneware/ffmpeg-static": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 29458513,
         "name": "ffmpeg-static",
@@ -241418,7 +241422,9 @@
       }
     },
     "Richard-Burns/Palette-Tools": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 280589952,
         "name": "Palette-Tools",
@@ -241438,7 +241444,9 @@
       "last_updated": "2026-07-29T06:09:24.166520+00:00"
     },
     "Richard-Burns/Warpa": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 513796714,
         "name": "Warpa",
@@ -241458,7 +241466,10 @@
       "last_updated": "2026-07-29T06:09:24.390398+00:00"
     },
     "tqbf/selfdrivingwiki": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1271403587,
         "name": "selfdrivingwiki",
@@ -241478,7 +241489,9 @@
       "last_updated": "2026-07-29T06:09:24.640129+00:00"
     },
     "AsahiLinux/macvdmtool": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 335392047,
         "name": "macvdmtool",
@@ -241498,7 +241511,9 @@
       "last_updated": "2026-07-29T06:09:24.884979+00:00"
     },
     "openai/codex-security": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1299769220,
         "name": "codex-security",
@@ -241518,7 +241533,9 @@
       "last_updated": "2026-07-29T06:09:25.117377+00:00"
     },
     "ad-repo/nullplayer": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1135355324,
         "name": "nullplayer",
