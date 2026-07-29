@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:16:44.823399+00:00",
+  "last_updated": "2026-07-29T06:17:41.573346+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241441,7 +241441,15 @@
         "pushed_at": "2026-02-04T14:19:17Z",
         "starred_at": "2026-07-29T05:42:25Z"
       },
-      "last_updated": "2026-07-29T06:09:24.166520+00:00"
+      "last_updated": "2026-07-29T06:09:24.166520+00:00",
+      "readme": {
+        "path": "readmes/Richard-Burns+Palette-Tools+README.md",
+        "etag": "W/\"fd7d54ca960c37674b5bc11cd8b7794c5def82e4\"",
+        "sha": "fd7d54ca960c37674b5bc11cd8b7794c5def82e4",
+        "size": 2703,
+        "fetched_at": "2026-07-29T06:17:40.111943+00:00",
+        "status": "ok"
+      }
     },
     "Richard-Burns/Warpa": {
       "lists": [
@@ -241463,7 +241471,15 @@
         "pushed_at": "2025-04-08T06:19:20Z",
         "starred_at": "2026-07-29T05:41:34Z"
       },
-      "last_updated": "2026-07-29T06:09:24.390398+00:00"
+      "last_updated": "2026-07-29T06:09:24.390398+00:00",
+      "readme": {
+        "path": "readmes/Richard-Burns+Warpa+README.md",
+        "etag": "W/\"90633d39f3a728708381048a71654130a8ca658a\"",
+        "sha": "90633d39f3a728708381048a71654130a8ca658a",
+        "size": 247,
+        "fetched_at": "2026-07-29T06:17:40.444160+00:00",
+        "status": "ok"
+      }
     },
     "tqbf/selfdrivingwiki": {
       "lists": [
@@ -241486,7 +241502,15 @@
         "pushed_at": "2026-07-29T05:16:29Z",
         "starred_at": "2026-07-29T05:13:39Z"
       },
-      "last_updated": "2026-07-29T06:09:24.640129+00:00"
+      "last_updated": "2026-07-29T06:09:24.640129+00:00",
+      "readme": {
+        "path": "readmes/tqbf+selfdrivingwiki+README.md",
+        "etag": "W/\"815744ccdc60b7552f1f27bc0e762e7f1f6e9e01\"",
+        "sha": "815744ccdc60b7552f1f27bc0e762e7f1f6e9e01",
+        "size": 3953,
+        "fetched_at": "2026-07-29T06:17:41.571929+00:00",
+        "status": "ok"
+      }
     },
     "AsahiLinux/macvdmtool": {
       "lists": [
@@ -241508,7 +241532,15 @@
         "pushed_at": "2026-03-14T20:44:39Z",
         "starred_at": "2026-07-29T02:29:55Z"
       },
-      "last_updated": "2026-07-29T06:09:24.884979+00:00"
+      "last_updated": "2026-07-29T06:09:24.884979+00:00",
+      "readme": {
+        "path": "readmes/AsahiLinux+macvdmtool+README.md",
+        "etag": "W/\"2b7d8bb571556247aa12a346abd13660ae236876\"",
+        "sha": "2b7d8bb571556247aa12a346abd13660ae236876",
+        "size": 2479,
+        "fetched_at": "2026-07-29T06:17:39.777005+00:00",
+        "status": "ok"
+      }
     },
     "openai/codex-security": {
       "lists": [
@@ -241530,7 +241562,15 @@
         "pushed_at": "2026-07-29T05:23:22Z",
         "starred_at": "2026-07-29T01:30:26Z"
       },
-      "last_updated": "2026-07-29T06:09:25.117377+00:00"
+      "last_updated": "2026-07-29T06:09:25.117377+00:00",
+      "readme": {
+        "path": "readmes/openai+codex-security+README.md",
+        "etag": "W/\"43887e9a57a9de936b923389a5f834868ff799b1\"",
+        "sha": "43887e9a57a9de936b923389a5f834868ff799b1",
+        "size": 1553,
+        "fetched_at": "2026-07-29T06:17:41.195492+00:00",
+        "status": "ok"
+      }
     },
     "ad-repo/nullplayer": {
       "lists": [
@@ -241552,7 +241592,15 @@
         "pushed_at": "2026-07-29T02:46:28Z",
         "starred_at": "2026-07-28T23:30:10Z"
       },
-      "last_updated": "2026-07-29T06:09:25.324675+00:00"
+      "last_updated": "2026-07-29T06:09:25.324675+00:00",
+      "readme": {
+        "path": "readmes/ad-repo+nullplayer+README.md",
+        "etag": "W/\"d7ad5487b6b665c474691b0c28575651f31a85a5\"",
+        "sha": "d7ad5487b6b665c474691b0c28575651f31a85a5",
+        "size": 31266,
+        "fetched_at": "2026-07-29T06:17:40.849005+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
