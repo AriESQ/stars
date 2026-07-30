@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:01:14.851351+00:00",
+  "last_updated": "2026-07-30T06:09:31.918030+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241603,7 +241603,10 @@
       }
     },
     "drumih/turbo-fieldfare": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1304159264,
         "name": "turbo-fieldfare",
@@ -241623,7 +241626,9 @@
       "last_updated": "2026-07-30T06:01:14.177959+00:00"
     },
     "obsproject/obs-studio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 13233158,
         "name": "obs-studio",
@@ -241643,7 +241648,11 @@
       "last_updated": "2026-07-30T06:01:14.528204+00:00"
     },
     "AIR-Kit-AI/AIR-Kit": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1315427112,
         "name": "AIR-Kit",
