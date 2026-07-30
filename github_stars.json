@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:17:41.573346+00:00",
+  "last_updated": "2026-07-30T06:01:14.851351+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241601,6 +241601,66 @@
         "fetched_at": "2026-07-29T06:17:40.849005+00:00",
         "status": "ok"
       }
+    },
+    "drumih/turbo-fieldfare": {
+      "lists": [],
+      "metadata": {
+        "id": 1304159264,
+        "name": "turbo-fieldfare",
+        "full_name": "drumih/turbo-fieldfare",
+        "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+        "url": "https://github.com/drumih/turbo-fieldfare",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 1318,
+        "forks": 40,
+        "open_issues": 8,
+        "created_at": "2026-07-17T15:57:54Z",
+        "updated_at": "2026-07-30T06:01:12Z",
+        "pushed_at": "2026-07-29T14:48:48Z",
+        "starred_at": "2026-07-29T23:35:44Z"
+      },
+      "last_updated": "2026-07-30T06:01:14.177959+00:00"
+    },
+    "obsproject/obs-studio": {
+      "lists": [],
+      "metadata": {
+        "id": 13233158,
+        "name": "obs-studio",
+        "full_name": "obsproject/obs-studio",
+        "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+        "url": "https://github.com/obsproject/obs-studio",
+        "homepage": "https://obsproject.com",
+        "language": "C",
+        "stars": 74245,
+        "forks": 9461,
+        "open_issues": 1138,
+        "created_at": "2013-10-01T02:40:31Z",
+        "updated_at": "2026-07-30T05:58:43Z",
+        "pushed_at": "2026-07-25T01:01:30Z",
+        "starred_at": "2026-07-29T23:33:05Z"
+      },
+      "last_updated": "2026-07-30T06:01:14.528204+00:00"
+    },
+    "AIR-Kit-AI/AIR-Kit": {
+      "lists": [],
+      "metadata": {
+        "id": 1315427112,
+        "name": "AIR-Kit",
+        "full_name": "AIR-Kit-AI/AIR-Kit",
+        "description": "Autonomous, local-first incident response kit. Analyze telemetry, validate threats, and execute remediation without data leaving your environment.",
+        "url": "https://github.com/AIR-Kit-AI/AIR-Kit",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-28T21:00:39Z",
+        "updated_at": "2026-07-29T20:07:30Z",
+        "pushed_at": "2026-07-29T20:07:18Z",
+        "starred_at": "2026-07-29T19:55:43Z"
+      },
+      "last_updated": "2026-07-30T06:01:14.851229+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241610,5 +241670,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a59541de282ddd7230138cbd3c865469b4ce1de881157e6920fb1c27abefa562\""
+  "profile_etag": "W/\"0d69c62fae6d2acf8d69f8a851dc699ba5dad501743df9f48921416fd9715a09\""
 }
