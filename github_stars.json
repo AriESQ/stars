@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:09:31.918030+00:00",
+  "last_updated": "2026-07-30T06:10:04.983693+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241623,7 +241623,15 @@
         "pushed_at": "2026-07-29T14:48:48Z",
         "starred_at": "2026-07-29T23:35:44Z"
       },
-      "last_updated": "2026-07-30T06:01:14.177959+00:00"
+      "last_updated": "2026-07-30T06:01:14.177959+00:00",
+      "readme": {
+        "path": "readmes/drumih+turbo-fieldfare+README.md",
+        "etag": "W/\"8a40eb718f9e3a7fb38b81af6d38542f471bd1ea\"",
+        "sha": "8a40eb718f9e3a7fb38b81af6d38542f471bd1ea",
+        "size": 16054,
+        "fetched_at": "2026-07-30T06:10:04.781825+00:00",
+        "status": "ok"
+      }
     },
     "obsproject/obs-studio": {
       "lists": [
@@ -241645,7 +241653,15 @@
         "pushed_at": "2026-07-25T01:01:30Z",
         "starred_at": "2026-07-29T23:33:05Z"
       },
-      "last_updated": "2026-07-30T06:01:14.528204+00:00"
+      "last_updated": "2026-07-30T06:01:14.528204+00:00",
+      "readme": {
+        "path": "readmes/obsproject+obs-studio+README.rst",
+        "etag": "W/\"67a4673ff48767c3384791783db2b12ea6ad4130\"",
+        "sha": "67a4673ff48767c3384791783db2b12ea6ad4130",
+        "size": 3139,
+        "fetched_at": "2026-07-30T06:10:04.980352+00:00",
+        "status": "ok"
+      }
     },
     "AIR-Kit-AI/AIR-Kit": {
       "lists": [
@@ -241669,7 +241685,15 @@
         "pushed_at": "2026-07-29T20:07:18Z",
         "starred_at": "2026-07-29T19:55:43Z"
       },
-      "last_updated": "2026-07-30T06:01:14.851229+00:00"
+      "last_updated": "2026-07-30T06:01:14.851229+00:00",
+      "readme": {
+        "path": "readmes/AIR-Kit-AI+AIR-Kit+README.md",
+        "etag": "W/\"b23fd7f572fe72522abc4de8804bca083d857fa2\"",
+        "sha": "b23fd7f572fe72522abc4de8804bca083d857fa2",
+        "size": 21279,
+        "fetched_at": "2026-07-30T06:10:04.602314+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
