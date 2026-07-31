@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:25:56.283672+00:00",
+  "last_updated": "2026-07-31T06:34:13.509765+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241696,7 +241696,9 @@
       }
     },
     "AminBlg/SimpleEnglish": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1307568662,
         "name": "SimpleEnglish",
@@ -241716,7 +241718,9 @@
       "last_updated": "2026-07-31T06:25:54.232697+00:00"
     },
     "UUoocl/syphon-server-plugin": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1222479285,
         "name": "syphon-server-plugin",
@@ -241736,7 +241740,9 @@
       "last_updated": "2026-07-31T06:25:54.590588+00:00"
     },
     "l4rz/running-nvidia-sxm-gpus-in-consumer-pcs": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 654656839,
         "name": "running-nvidia-sxm-gpus-in-consumer-pcs",
@@ -241756,7 +241762,12 @@
       "last_updated": "2026-07-31T06:25:54.954175+00:00"
     },
     "grafana/ai-sdk": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1315458055,
         "name": "ai-sdk",
@@ -241776,7 +241787,9 @@
       "last_updated": "2026-07-31T06:25:55.328422+00:00"
     },
     "n67094/SDL_gp": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1199205211,
         "name": "SDL_gp",
@@ -241796,7 +241809,9 @@
       "last_updated": "2026-07-31T06:25:55.687799+00:00"
     },
     "wasm-micro-runtime/wasm-micro-runtime": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 184654298,
         "name": "wasm-micro-runtime",
