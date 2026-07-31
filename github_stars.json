@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:10:04.983693+00:00",
+  "last_updated": "2026-07-31T06:25:56.283672+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241694,6 +241694,126 @@
         "fetched_at": "2026-07-30T06:10:04.602314+00:00",
         "status": "ok"
       }
+    },
+    "AminBlg/SimpleEnglish": {
+      "lists": [],
+      "metadata": {
+        "id": 1307568662,
+        "name": "SimpleEnglish",
+        "full_name": "AminBlg/SimpleEnglish",
+        "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical English \u2014 no AI slop",
+        "url": "https://github.com/AminBlg/SimpleEnglish",
+        "homepage": null,
+        "language": "Python",
+        "stars": 620,
+        "forks": 16,
+        "open_issues": 1,
+        "created_at": "2026-07-21T10:20:31Z",
+        "updated_at": "2026-07-31T06:25:34Z",
+        "pushed_at": "2026-07-21T16:09:59Z",
+        "starred_at": "2026-07-31T03:05:38Z"
+      },
+      "last_updated": "2026-07-31T06:25:54.232697+00:00"
+    },
+    "UUoocl/syphon-server-plugin": {
+      "lists": [],
+      "metadata": {
+        "id": 1222479285,
+        "name": "syphon-server-plugin",
+        "full_name": "UUoocl/syphon-server-plugin",
+        "description": null,
+        "url": "https://github.com/UUoocl/syphon-server-plugin",
+        "homepage": null,
+        "language": "CMake",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-04-27T12:05:31Z",
+        "updated_at": "2026-07-30T18:18:07Z",
+        "pushed_at": "2026-04-28T01:51:39Z",
+        "starred_at": "2026-07-30T18:18:06Z"
+      },
+      "last_updated": "2026-07-31T06:25:54.590588+00:00"
+    },
+    "l4rz/running-nvidia-sxm-gpus-in-consumer-pcs": {
+      "lists": [],
+      "metadata": {
+        "id": 654656839,
+        "name": "running-nvidia-sxm-gpus-in-consumer-pcs",
+        "full_name": "l4rz/running-nvidia-sxm-gpus-in-consumer-pcs",
+        "description": "Running SXM2/SXM3/SXM4 NVidia data center GPUs in consumer PCs",
+        "url": "https://github.com/l4rz/running-nvidia-sxm-gpus-in-consumer-pcs",
+        "homepage": null,
+        "language": null,
+        "stars": 172,
+        "forks": 8,
+        "open_issues": 2,
+        "created_at": "2023-06-16T16:06:51Z",
+        "updated_at": "2026-07-30T17:10:04Z",
+        "pushed_at": "2023-06-17T11:20:30Z",
+        "starred_at": "2026-07-30T17:10:04Z"
+      },
+      "last_updated": "2026-07-31T06:25:54.954175+00:00"
+    },
+    "grafana/ai-sdk": {
+      "lists": [],
+      "metadata": {
+        "id": 1315458055,
+        "name": "ai-sdk",
+        "full_name": "grafana/ai-sdk",
+        "description": "Grafana AI SDK for Go \u2014 streaming, tool-calling AI backends that speak fluent @ai-sdk/react",
+        "url": "https://github.com/grafana/ai-sdk",
+        "homepage": null,
+        "language": "Go",
+        "stars": 126,
+        "forks": 4,
+        "open_issues": 3,
+        "created_at": "2026-07-28T21:51:20Z",
+        "updated_at": "2026-07-31T04:33:56Z",
+        "pushed_at": "2026-07-30T14:59:29Z",
+        "starred_at": "2026-07-30T16:41:21Z"
+      },
+      "last_updated": "2026-07-31T06:25:55.328422+00:00"
+    },
+    "n67094/SDL_gp": {
+      "lists": [],
+      "metadata": {
+        "id": 1199205211,
+        "name": "SDL_gp",
+        "full_name": "n67094/SDL_gp",
+        "description": "Single header high-performance 2D graphics painter for SDL3",
+        "url": "https://github.com/n67094/SDL_gp",
+        "homepage": "",
+        "language": "C",
+        "stars": 66,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-04-02T06:15:13Z",
+        "updated_at": "2026-07-31T06:07:21Z",
+        "pushed_at": "2026-07-12T10:06:20Z",
+        "starred_at": "2026-07-30T16:05:17Z"
+      },
+      "last_updated": "2026-07-31T06:25:55.687799+00:00"
+    },
+    "wasm-micro-runtime/wasm-micro-runtime": {
+      "lists": [],
+      "metadata": {
+        "id": 184654298,
+        "name": "wasm-micro-runtime",
+        "full_name": "wasm-micro-runtime/wasm-micro-runtime",
+        "description": "WebAssembly Micro Runtime (WAMR)",
+        "url": "https://github.com/wasm-micro-runtime/wasm-micro-runtime",
+        "homepage": "",
+        "language": "C",
+        "stars": 6040,
+        "forks": 830,
+        "open_issues": 589,
+        "created_at": "2019-05-02T21:32:09Z",
+        "updated_at": "2026-07-31T02:14:50Z",
+        "pushed_at": "2026-07-27T11:42:20Z",
+        "starred_at": "2023-08-21T01:34:39Z"
+      },
+      "last_updated": "2026-07-31T06:25:56.283627+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241703,5 +241823,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"0d69c62fae6d2acf8d69f8a851dc699ba5dad501743df9f48921416fd9715a09\""
+  "profile_etag": "W/\"7ec417a1d5adf56ecd7a54d32337f511450b8222331afcdb5f688c850055c10d\""
 }
