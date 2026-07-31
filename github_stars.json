@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:34:13.509765+00:00",
+  "last_updated": "2026-07-31T06:34:36.616790+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241715,7 +241715,15 @@
         "pushed_at": "2026-07-21T16:09:59Z",
         "starred_at": "2026-07-31T03:05:38Z"
       },
-      "last_updated": "2026-07-31T06:25:54.232697+00:00"
+      "last_updated": "2026-07-31T06:25:54.232697+00:00",
+      "readme": {
+        "path": "readmes/AminBlg+SimpleEnglish+README.md",
+        "etag": "W/\"a9b8c145dce9c549bdee9a69102e14f8a5eea48b\"",
+        "sha": "a9b8c145dce9c549bdee9a69102e14f8a5eea48b",
+        "size": 9786,
+        "fetched_at": "2026-07-31T06:34:35.283540+00:00",
+        "status": "ok"
+      }
     },
     "UUoocl/syphon-server-plugin": {
       "lists": [
@@ -241737,7 +241745,15 @@
         "pushed_at": "2026-04-28T01:51:39Z",
         "starred_at": "2026-07-30T18:18:06Z"
       },
-      "last_updated": "2026-07-31T06:25:54.590588+00:00"
+      "last_updated": "2026-07-31T06:25:54.590588+00:00",
+      "readme": {
+        "path": "readmes/UUoocl+syphon-server-plugin+README.md",
+        "etag": "W/\"8787325e8c55318bd11ebe66ca71cfe3a5a51ec7\"",
+        "sha": "8787325e8c55318bd11ebe66ca71cfe3a5a51ec7",
+        "size": 4013,
+        "fetched_at": "2026-07-31T06:34:35.611525+00:00",
+        "status": "ok"
+      }
     },
     "l4rz/running-nvidia-sxm-gpus-in-consumer-pcs": {
       "lists": [
@@ -241759,7 +241775,15 @@
         "pushed_at": "2023-06-17T11:20:30Z",
         "starred_at": "2026-07-30T17:10:04Z"
       },
-      "last_updated": "2026-07-31T06:25:54.954175+00:00"
+      "last_updated": "2026-07-31T06:25:54.954175+00:00",
+      "readme": {
+        "path": "readmes/l4rz+running-nvidia-sxm-gpus-in-consumer-pcs+README.md",
+        "etag": "W/\"7fb99180fb02059014aa6b75e05bbd32682d2336\"",
+        "sha": "7fb99180fb02059014aa6b75e05bbd32682d2336",
+        "size": 11945,
+        "fetched_at": "2026-07-31T06:34:36.124570+00:00",
+        "status": "ok"
+      }
     },
     "grafana/ai-sdk": {
       "lists": [
@@ -241784,7 +241808,15 @@
         "pushed_at": "2026-07-30T14:59:29Z",
         "starred_at": "2026-07-30T16:41:21Z"
       },
-      "last_updated": "2026-07-31T06:25:55.328422+00:00"
+      "last_updated": "2026-07-31T06:25:55.328422+00:00",
+      "readme": {
+        "path": "readmes/grafana+ai-sdk+README.md",
+        "etag": "W/\"ef9e643491e06255d59c7610150ef6780c939fb7\"",
+        "sha": "ef9e643491e06255d59c7610150ef6780c939fb7",
+        "size": 4966,
+        "fetched_at": "2026-07-31T06:34:35.849338+00:00",
+        "status": "ok"
+      }
     },
     "n67094/SDL_gp": {
       "lists": [
@@ -241806,7 +241838,15 @@
         "pushed_at": "2026-07-12T10:06:20Z",
         "starred_at": "2026-07-30T16:05:17Z"
       },
-      "last_updated": "2026-07-31T06:25:55.687799+00:00"
+      "last_updated": "2026-07-31T06:25:55.687799+00:00",
+      "readme": {
+        "path": "readmes/n67094+SDL_gp+README.md",
+        "etag": "W/\"0ebf56d31b248fc03a9d182597902b589fc74aea\"",
+        "sha": "0ebf56d31b248fc03a9d182597902b589fc74aea",
+        "size": 10216,
+        "fetched_at": "2026-07-31T06:34:36.337790+00:00",
+        "status": "ok"
+      }
     },
     "wasm-micro-runtime/wasm-micro-runtime": {
       "lists": [
@@ -241828,7 +241868,15 @@
         "pushed_at": "2026-07-27T11:42:20Z",
         "starred_at": "2023-08-21T01:34:39Z"
       },
-      "last_updated": "2026-07-31T06:25:56.283627+00:00"
+      "last_updated": "2026-07-31T06:25:56.283627+00:00",
+      "readme": {
+        "path": "readmes/wasm-micro-runtime+wasm-micro-runtime+README.md",
+        "etag": "W/\"3a3782453e9fc5ba2ea808b5314f4dcd9111fe16\"",
+        "sha": "3a3782453e9fc5ba2ea808b5314f4dcd9111fe16",
+        "size": 12968,
+        "fetched_at": "2026-07-31T06:34:36.615610+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
