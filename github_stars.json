@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:34:36.616790+00:00",
+  "last_updated": "2026-08-01T06:13:21.912444+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241877,6 +241877,146 @@
         "fetched_at": "2026-07-31T06:34:36.615610+00:00",
         "status": "ok"
       }
+    },
+    "richlegrand/bitbang-cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1218570265,
+        "name": "bitbang-cli",
+        "full_name": "richlegrand/bitbang-cli",
+        "description": "Proxy server that uses BitBang",
+        "url": "https://github.com/richlegrand/bitbang-cli",
+        "homepage": null,
+        "language": "Go",
+        "stars": 108,
+        "forks": 10,
+        "open_issues": 7,
+        "created_at": "2026-04-23T02:19:30Z",
+        "updated_at": "2026-08-01T05:47:45Z",
+        "pushed_at": "2026-07-31T21:07:31Z",
+        "starred_at": "2026-08-01T00:13:30Z"
+      },
+      "last_updated": "2026-08-01T06:13:20.349156+00:00"
+    },
+    "l00sed/termixer": {
+      "lists": [],
+      "metadata": {
+        "id": 1318513547,
+        "name": "termixer",
+        "full_name": "l00sed/termixer",
+        "description": "A 2-deck mixer, sample pads, sequencer\u2014 all from any Unix terminal.",
+        "url": "https://github.com/l00sed/termixer",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 131,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2026-07-31T15:52:49Z",
+        "updated_at": "2026-08-01T05:26:42Z",
+        "pushed_at": "2026-07-31T16:27:16Z",
+        "starred_at": "2026-08-01T00:00:38Z"
+      },
+      "last_updated": "2026-08-01T06:13:20.607243+00:00"
+    },
+    "yc-software/qm": {
+      "lists": [],
+      "metadata": {
+        "id": 1316527318,
+        "name": "qm",
+        "full_name": "yc-software/qm",
+        "description": "Multiplayer agent harness for work",
+        "url": "https://github.com/yc-software/qm",
+        "homepage": "https://qm.ycombinator.com",
+        "language": "TypeScript",
+        "stars": 2717,
+        "forks": 250,
+        "open_issues": 36,
+        "created_at": "2026-07-29T20:03:08Z",
+        "updated_at": "2026-08-01T06:12:27Z",
+        "pushed_at": "2026-08-01T01:30:53Z",
+        "starred_at": "2026-07-31T22:20:09Z"
+      },
+      "last_updated": "2026-08-01T06:13:20.883502+00:00"
+    },
+    "donmccurdy/glTF-Transform": {
+      "lists": [],
+      "metadata": {
+        "id": 149730090,
+        "name": "glTF-Transform",
+        "full_name": "donmccurdy/glTF-Transform",
+        "description": "glTF 2.0 SDK for JavaScript and TypeScript, on Web and Node.js.",
+        "url": "https://github.com/donmccurdy/glTF-Transform",
+        "homepage": "https://gltf-transform.dev",
+        "language": "TypeScript",
+        "stars": 1932,
+        "forks": 197,
+        "open_issues": 92,
+        "created_at": "2018-09-21T07:57:34Z",
+        "updated_at": "2026-07-31T21:53:36Z",
+        "pushed_at": "2026-07-25T21:51:05Z",
+        "starred_at": "2026-07-31T21:53:36Z"
+      },
+      "last_updated": "2026-08-01T06:13:21.153722+00:00"
+    },
+    "fire1ce/eicar-standard-antivirus-test-files": {
+      "lists": [],
+      "metadata": {
+        "id": 184564340,
+        "name": "eicar-standard-antivirus-test-files",
+        "full_name": "fire1ce/eicar-standard-antivirus-test-files",
+        "description": "eicar standard antivirus test files",
+        "url": "https://github.com/fire1ce/eicar-standard-antivirus-test-files",
+        "homepage": "https://3os.org",
+        "language": "DIGITAL Command Language",
+        "stars": 255,
+        "forks": 81,
+        "open_issues": 1,
+        "created_at": "2019-05-02T10:50:00Z",
+        "updated_at": "2026-07-31T20:41:48Z",
+        "pushed_at": "2025-02-24T09:00:47Z",
+        "starred_at": "2026-07-31T20:41:48Z"
+      },
+      "last_updated": "2026-08-01T06:13:21.394491+00:00"
+    },
+    "baochip/baochip-1x": {
+      "lists": [],
+      "metadata": {
+        "id": 1031796362,
+        "name": "baochip-1x",
+        "full_name": "baochip/baochip-1x",
+        "description": "Baochip 1x Silicon",
+        "url": "https://github.com/baochip/baochip-1x",
+        "homepage": null,
+        "language": "SystemVerilog",
+        "stars": 403,
+        "forks": 35,
+        "open_issues": 7,
+        "created_at": "2025-08-04T10:47:22Z",
+        "updated_at": "2026-08-01T03:48:47Z",
+        "pushed_at": "2026-06-18T11:53:26Z",
+        "starred_at": "2026-07-31T18:27:41Z"
+      },
+      "last_updated": "2026-08-01T06:13:21.654106+00:00"
+    },
+    "mokshablr/gander": {
+      "lists": [],
+      "metadata": {
+        "id": 1305551246,
+        "name": "gander",
+        "full_name": "mokshablr/gander",
+        "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
+        "url": "https://github.com/mokshablr/gander",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 225,
+        "forks": 2,
+        "open_issues": 6,
+        "created_at": "2026-07-19T08:40:10Z",
+        "updated_at": "2026-08-01T05:58:46Z",
+        "pushed_at": "2026-07-31T21:30:42Z",
+        "starred_at": "2026-07-31T11:05:36Z"
+      },
+      "last_updated": "2026-08-01T06:13:21.912326+00:00"
     }
   },
   "last_processed_index": 0,
@@ -241886,5 +242026,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7ec417a1d5adf56ecd7a54d32337f511450b8222331afcdb5f688c850055c10d\""
+  "profile_etag": "W/\"f9bcb3d7d8c1dafec827ba9ae58f12cf6da6c3cbb98e24cc47ab88dd32f767b7\""
 }
