@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T06:21:04.209228+00:00",
+  "last_updated": "2026-08-01T06:21:36.786929+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241900,7 +241900,15 @@
         "pushed_at": "2026-07-31T21:07:31Z",
         "starred_at": "2026-08-01T00:13:30Z"
       },
-      "last_updated": "2026-08-01T06:13:20.349156+00:00"
+      "last_updated": "2026-08-01T06:13:20.349156+00:00",
+      "readme": {
+        "path": "readmes/richlegrand+bitbang-cli+README.md",
+        "etag": "W/\"9d55b609c9fec318328f3caef245f9f43de2eec5\"",
+        "sha": "9d55b609c9fec318328f3caef245f9f43de2eec5",
+        "size": 19422,
+        "fetched_at": "2026-08-01T06:21:36.644895+00:00",
+        "status": "ok"
+      }
     },
     "l00sed/termixer": {
       "lists": [
@@ -241923,7 +241931,15 @@
         "pushed_at": "2026-07-31T16:27:16Z",
         "starred_at": "2026-08-01T00:00:38Z"
       },
-      "last_updated": "2026-08-01T06:13:20.607243+00:00"
+      "last_updated": "2026-08-01T06:13:20.607243+00:00",
+      "readme": {
+        "path": "readmes/l00sed+termixer+README.md",
+        "etag": "W/\"3238876816f609cff8a4390b31ab601126fc95c1\"",
+        "sha": "3238876816f609cff8a4390b31ab601126fc95c1",
+        "size": 2727,
+        "fetched_at": "2026-08-01T06:21:36.209830+00:00",
+        "status": "ok"
+      }
     },
     "yc-software/qm": {
       "lists": [
@@ -241946,7 +241962,15 @@
         "pushed_at": "2026-08-01T01:30:53Z",
         "starred_at": "2026-07-31T22:20:09Z"
       },
-      "last_updated": "2026-08-01T06:13:20.883502+00:00"
+      "last_updated": "2026-08-01T06:13:20.883502+00:00",
+      "readme": {
+        "path": "readmes/yc-software+qm+README.md",
+        "etag": "W/\"fee08758db89825ef0e0623ac6612971a08118d2\"",
+        "sha": "fee08758db89825ef0e0623ac6612971a08118d2",
+        "size": 8534,
+        "fetched_at": "2026-08-01T06:21:36.786267+00:00",
+        "status": "ok"
+      }
     },
     "donmccurdy/glTF-Transform": {
       "lists": [
@@ -241969,7 +241993,15 @@
         "pushed_at": "2026-07-25T21:51:05Z",
         "starred_at": "2026-07-31T21:53:36Z"
       },
-      "last_updated": "2026-08-01T06:13:21.153722+00:00"
+      "last_updated": "2026-08-01T06:13:21.153722+00:00",
+      "readme": {
+        "path": "readmes/donmccurdy+glTF-Transform+README.md",
+        "etag": "W/\"61ca6bbb231ed1dd32e467a18f629588f25442dc\"",
+        "sha": "61ca6bbb231ed1dd32e467a18f629588f25442dc",
+        "size": 6788,
+        "fetched_at": "2026-08-01T06:21:35.835943+00:00",
+        "status": "ok"
+      }
     },
     "fire1ce/eicar-standard-antivirus-test-files": {
       "lists": [
@@ -241991,7 +242023,15 @@
         "pushed_at": "2025-02-24T09:00:47Z",
         "starred_at": "2026-07-31T20:41:48Z"
       },
-      "last_updated": "2026-08-01T06:13:21.394491+00:00"
+      "last_updated": "2026-08-01T06:13:21.394491+00:00",
+      "readme": {
+        "path": "readmes/fire1ce+eicar-standard-antivirus-test-files+README.md",
+        "etag": "W/\"c8d2dde2d8c626e1a12bebf91f2df8f2927a7278\"",
+        "sha": "c8d2dde2d8c626e1a12bebf91f2df8f2927a7278",
+        "size": 38,
+        "fetched_at": "2026-08-01T06:21:36.053631+00:00",
+        "status": "ok"
+      }
     },
     "baochip/baochip-1x": {
       "lists": [
@@ -242014,7 +242054,15 @@
         "pushed_at": "2026-06-18T11:53:26Z",
         "starred_at": "2026-07-31T18:27:41Z"
       },
-      "last_updated": "2026-08-01T06:13:21.654106+00:00"
+      "last_updated": "2026-08-01T06:13:21.654106+00:00",
+      "readme": {
+        "path": "readmes/baochip+baochip-1x+README.md",
+        "etag": "W/\"974e5c6dd1ee86fd6963bfdda1bf06298a5f4e17\"",
+        "sha": "974e5c6dd1ee86fd6963bfdda1bf06298a5f4e17",
+        "size": 2465,
+        "fetched_at": "2026-08-01T06:21:35.604003+00:00",
+        "status": "ok"
+      }
     },
     "mokshablr/gander": {
       "lists": [],
@@ -242034,7 +242082,15 @@
         "pushed_at": "2026-07-31T21:30:42Z",
         "starred_at": "2026-07-31T11:05:36Z"
       },
-      "last_updated": "2026-08-01T06:13:21.912326+00:00"
+      "last_updated": "2026-08-01T06:13:21.912326+00:00",
+      "readme": {
+        "path": "readmes/mokshablr+gander+README.md",
+        "etag": "W/\"5f896801d8062ab564bf22fc5976e5c586fb14c1\"",
+        "sha": "5f896801d8062ab564bf22fc5976e5c586fb14c1",
+        "size": 7733,
+        "fetched_at": "2026-08-01T06:21:36.430242+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
