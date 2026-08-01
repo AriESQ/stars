@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T06:13:21.912444+00:00",
+  "last_updated": "2026-08-01T06:21:04.209228+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -241879,7 +241879,11 @@
       }
     },
     "richlegrand/bitbang-cli": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1218570265,
         "name": "bitbang-cli",
@@ -241899,7 +241903,10 @@
       "last_updated": "2026-08-01T06:13:20.349156+00:00"
     },
     "l00sed/termixer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1318513547,
         "name": "termixer",
@@ -241919,7 +241926,10 @@
       "last_updated": "2026-08-01T06:13:20.607243+00:00"
     },
     "yc-software/qm": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1316527318,
         "name": "qm",
@@ -241939,7 +241949,10 @@
       "last_updated": "2026-08-01T06:13:20.883502+00:00"
     },
     "donmccurdy/glTF-Transform": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 149730090,
         "name": "glTF-Transform",
@@ -241959,7 +241972,9 @@
       "last_updated": "2026-08-01T06:13:21.153722+00:00"
     },
     "fire1ce/eicar-standard-antivirus-test-files": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 184564340,
         "name": "eicar-standard-antivirus-test-files",
@@ -241979,7 +241994,10 @@
       "last_updated": "2026-08-01T06:13:21.394491+00:00"
     },
     "baochip/baochip-1x": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1031796362,
         "name": "baochip-1x",
