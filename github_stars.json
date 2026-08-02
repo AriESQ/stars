@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T06:21:24.124551+00:00",
+  "last_updated": "2026-08-02T06:22:24.610704+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242113,7 +242113,15 @@
         "pushed_at": "2026-05-26T02:23:04Z",
         "starred_at": "2026-08-02T01:39:30Z"
       },
-      "last_updated": "2026-08-02T06:13:43.374776+00:00"
+      "last_updated": "2026-08-02T06:13:43.374776+00:00",
+      "readme": {
+        "path": "readmes/jherr+depth-of-field+README.md",
+        "etag": "W/\"cc8d71059882feb9cf37d598c5f50ad753cc617c\"",
+        "sha": "cc8d71059882feb9cf37d598c5f50ad753cc617c",
+        "size": 565,
+        "fetched_at": "2026-08-02T06:22:24.605399+00:00",
+        "status": "ok"
+      }
     },
     "PeteHaughie/VideoSynthEngine": {
       "lists": [
@@ -242135,7 +242143,15 @@
         "pushed_at": "2026-08-01T23:04:12Z",
         "starred_at": "2026-08-01T21:07:38Z"
       },
-      "last_updated": "2026-08-02T06:13:43.615159+00:00"
+      "last_updated": "2026-08-02T06:13:43.615159+00:00",
+      "readme": {
+        "path": "readmes/PeteHaughie+VideoSynthEngine+README.md",
+        "etag": "W/\"e9fd8e1abd8b0551405dca1a59dff1f433dd9626\"",
+        "sha": "e9fd8e1abd8b0551405dca1a59dff1f433dd9626",
+        "size": 15198,
+        "fetched_at": "2026-08-02T06:22:23.952074+00:00",
+        "status": "ok"
+      }
     },
     "d2lang/d2": {
       "lists": [
@@ -242157,7 +242173,15 @@
         "pushed_at": "2026-08-02T03:55:45Z",
         "starred_at": "2023-05-03T02:27:32Z"
       },
-      "last_updated": "2026-08-02T06:13:44.050786+00:00"
+      "last_updated": "2026-08-02T06:13:44.050786+00:00",
+      "readme": {
+        "path": "readmes/d2lang+d2+README.md",
+        "etag": "W/\"d565db9441ef61bba311ea4e8047db3d9caed0c4\"",
+        "sha": "d565db9441ef61bba311ea4e8047db3d9caed0c4",
+        "size": 15145,
+        "fetched_at": "2026-08-02T06:22:24.262100+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
