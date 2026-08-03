@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T06:36:33.909567+00:00",
+  "last_updated": "2026-08-03T07:11:16.923246+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242184,7 +242184,9 @@
       }
     },
     "liquidgecka/testlib": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 23238022,
         "name": "testlib",
@@ -242204,7 +242206,10 @@
       "last_updated": "2026-08-03T06:36:32.343596+00:00"
     },
     "wie-project/kakehashi": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Rust"
+      ],
       "metadata": {
         "id": 1311255327,
         "name": "kakehashi",
@@ -242224,7 +242229,9 @@
       "last_updated": "2026-08-03T06:36:32.639416+00:00"
     },
     "pedroSG94/RootEncoder": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 79667969,
         "name": "RootEncoder",
@@ -242244,7 +242251,10 @@
       "last_updated": "2026-08-03T06:36:32.932472+00:00"
     },
     "chabad360/gomcu": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 322162371,
         "name": "gomcu",
@@ -242264,7 +242274,9 @@
       "last_updated": "2026-08-03T06:36:33.254516+00:00"
     },
     "Do-sth-sharp/libMackieControl": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 657656601,
         "name": "libMackieControl",
@@ -242284,7 +242296,9 @@
       "last_updated": "2026-08-03T06:36:33.600288+00:00"
     },
     "Haivision/srt": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 87443396,
         "name": "srt",
