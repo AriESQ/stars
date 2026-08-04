@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:06:37.747359+00:00",
+  "last_updated": "2026-08-04T06:14:20.715592+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242362,7 +242362,9 @@
       }
     },
     "julienXX/terminal-notifier": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 5057307,
         "name": "terminal-notifier",
@@ -242382,7 +242384,9 @@
       "last_updated": "2026-08-04T06:06:36.266148+00:00"
     },
     "localai-org/depth-anything.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1269576423,
         "name": "depth-anything.cpp",
@@ -242402,7 +242406,9 @@
       "last_updated": "2026-08-04T06:06:36.516088+00:00"
     },
     "RyanAlberts/best-of-Agent-Harnesses": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1175588150,
         "name": "best-of-Agent-Harnesses",
@@ -242422,7 +242428,9 @@
       "last_updated": "2026-08-04T06:06:36.891978+00:00"
     },
     "Piwigo/Piwigo": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 39682214,
         "name": "Piwigo",
@@ -242442,7 +242450,10 @@
       "last_updated": "2026-08-04T06:06:37.178867+00:00"
     },
     "garagehq/nightcrawler": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1224823899,
         "name": "nightcrawler",
@@ -242462,7 +242473,11 @@
       "last_updated": "2026-08-04T06:06:37.484776+00:00"
     },
     "google/zx": {
-      "lists": [],
+      "lists": [
+        "Bash",
+        "JavaScript",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 364474335,
         "name": "zx",
