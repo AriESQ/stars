@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:14:20.715592+00:00",
+  "last_updated": "2026-08-04T06:15:17.645214+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242381,7 +242381,15 @@
         "pushed_at": "2025-11-02T14:24:58Z",
         "starred_at": "2026-08-04T02:13:41Z"
       },
-      "last_updated": "2026-08-04T06:06:36.266148+00:00"
+      "last_updated": "2026-08-04T06:06:36.266148+00:00",
+      "readme": {
+        "path": "readmes/julienXX+terminal-notifier+README.markdown",
+        "etag": "W/\"0616493c64901d8aa6e935ed1ee8029edf68a1af\"",
+        "sha": "0616493c64901d8aa6e935ed1ee8029edf68a1af",
+        "size": 9086,
+        "fetched_at": "2026-08-04T06:15:17.259504+00:00",
+        "status": "ok"
+      }
     },
     "localai-org/depth-anything.cpp": {
       "lists": [
@@ -242403,7 +242411,15 @@
         "pushed_at": "2026-07-27T08:44:58Z",
         "starred_at": "2026-08-04T01:06:28Z"
       },
-      "last_updated": "2026-08-04T06:06:36.516088+00:00"
+      "last_updated": "2026-08-04T06:06:36.516088+00:00",
+      "readme": {
+        "path": "readmes/localai-org+depth-anything.cpp+README.md",
+        "etag": "W/\"3d4d05f7dd01772f903579dfbe19b273ce05996f\"",
+        "sha": "3d4d05f7dd01772f903579dfbe19b273ce05996f",
+        "size": 15305,
+        "fetched_at": "2026-08-04T06:15:17.639467+00:00",
+        "status": "ok"
+      }
     },
     "RyanAlberts/best-of-Agent-Harnesses": {
       "lists": [
@@ -242425,7 +242441,15 @@
         "pushed_at": "2026-08-03T15:33:48Z",
         "starred_at": "2026-08-04T00:43:24Z"
       },
-      "last_updated": "2026-08-04T06:06:36.891978+00:00"
+      "last_updated": "2026-08-04T06:06:36.891978+00:00",
+      "readme": {
+        "path": "readmes/RyanAlberts+best-of-Agent-Harnesses+README.md",
+        "etag": "W/\"a62eff9deae5943b7a154b93d501832ae8366a11\"",
+        "sha": "a62eff9deae5943b7a154b93d501832ae8366a11",
+        "size": 110364,
+        "fetched_at": "2026-08-04T06:15:16.267634+00:00",
+        "status": "ok"
+      }
     },
     "Piwigo/Piwigo": {
       "lists": [
@@ -242447,7 +242471,15 @@
         "pushed_at": "2026-07-31T15:22:10Z",
         "starred_at": "2026-08-03T20:07:03Z"
       },
-      "last_updated": "2026-08-04T06:06:37.178867+00:00"
+      "last_updated": "2026-08-04T06:06:37.178867+00:00",
+      "readme": {
+        "path": "readmes/Piwigo+Piwigo+README.md",
+        "etag": "W/\"e17c2e701717400070ac7e7cf84043e6a4de6b41\"",
+        "sha": "e17c2e701717400070ac7e7cf84043e6a4de6b41",
+        "size": 1937,
+        "fetched_at": "2026-08-04T06:15:15.950034+00:00",
+        "status": "ok"
+      }
     },
     "garagehq/nightcrawler": {
       "lists": [
@@ -242470,7 +242502,15 @@
         "pushed_at": "2026-08-03T12:34:26Z",
         "starred_at": "2026-08-03T15:00:10Z"
       },
-      "last_updated": "2026-08-04T06:06:37.484776+00:00"
+      "last_updated": "2026-08-04T06:06:37.484776+00:00",
+      "readme": {
+        "path": "readmes/garagehq+nightcrawler+README.md",
+        "etag": "W/\"e220eeb6b2868f1a686185cf9f8f172ef762b6a7\"",
+        "sha": "e220eeb6b2868f1a686185cf9f8f172ef762b6a7",
+        "size": 14993,
+        "fetched_at": "2026-08-04T06:15:16.577614+00:00",
+        "status": "ok"
+      }
     },
     "google/zx": {
       "lists": [
@@ -242494,7 +242534,15 @@
         "pushed_at": "2026-07-25T10:24:08Z",
         "starred_at": "2026-08-03T14:57:00Z"
       },
-      "last_updated": "2026-08-04T06:06:37.747231+00:00"
+      "last_updated": "2026-08-04T06:06:37.747231+00:00",
+      "readme": {
+        "path": "readmes/google+zx+README.md",
+        "etag": "W/\"dd7c1c5dff93aae3ca71d7dcea0ccc83558cbe96\"",
+        "sha": "dd7c1c5dff93aae3ca71d7dcea0ccc83558cbe96",
+        "size": 1738,
+        "fetched_at": "2026-08-04T06:15:16.919122+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
