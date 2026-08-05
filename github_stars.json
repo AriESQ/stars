@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T06:13:05.796109+00:00",
+  "last_updated": "2026-08-05T06:13:49.004278+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242564,7 +242564,15 @@
         "pushed_at": "2026-08-03T03:13:19Z",
         "starred_at": "2026-08-04T20:03:21Z"
       },
-      "last_updated": "2026-08-05T06:04:26.004764+00:00"
+      "last_updated": "2026-08-05T06:04:26.004764+00:00",
+      "readme": {
+        "path": "readmes/chirpstack+chirpstack+README.md",
+        "etag": "W/\"464894d5552b87d7302db9c01a1f3834de480b52\"",
+        "sha": "464894d5552b87d7302db9c01a1f3834de480b52",
+        "size": 3749,
+        "fetched_at": "2026-08-05T06:13:48.707566+00:00",
+        "status": "ok"
+      }
     },
     "nottelabs/reverse-api-engineer": {
       "lists": [
@@ -242589,7 +242597,15 @@
         "pushed_at": "2026-07-31T04:38:19Z",
         "starred_at": "2026-02-08T22:22:56Z"
       },
-      "last_updated": "2026-08-05T06:04:26.451349+00:00"
+      "last_updated": "2026-08-05T06:04:26.451349+00:00",
+      "readme": {
+        "path": "readmes/nottelabs+reverse-api-engineer+README.md",
+        "etag": "W/\"b93de153a3b04ea97432632dd7216944619db835\"",
+        "sha": "b93de153a3b04ea97432632dd7216944619db835",
+        "size": 9903,
+        "fetched_at": "2026-08-05T06:13:49.000086+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
