@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:15:17.645214+00:00",
+  "last_updated": "2026-08-05T06:04:26.451373+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242543,6 +242543,46 @@
         "fetched_at": "2026-08-04T06:15:16.919122+00:00",
         "status": "ok"
       }
+    },
+    "chirpstack/chirpstack": {
+      "lists": [],
+      "metadata": {
+        "id": 384466772,
+        "name": "chirpstack",
+        "full_name": "chirpstack/chirpstack",
+        "description": "ChirpStack open-source LoRaWAN Network Server",
+        "url": "https://github.com/chirpstack/chirpstack",
+        "homepage": "https://www.chirpstack.io/",
+        "language": "Rust",
+        "stars": 1084,
+        "forks": 273,
+        "open_issues": 40,
+        "created_at": "2021-07-09T14:45:34Z",
+        "updated_at": "2026-08-04T20:03:21Z",
+        "pushed_at": "2026-08-03T03:13:19Z",
+        "starred_at": "2026-08-04T20:03:21Z"
+      },
+      "last_updated": "2026-08-05T06:04:26.004764+00:00"
+    },
+    "nottelabs/reverse-api-engineer": {
+      "lists": [],
+      "metadata": {
+        "id": 1121759870,
+        "name": "reverse-api-engineer",
+        "full_name": "nottelabs/reverse-api-engineer",
+        "description": "The agent that turns websites into APIs!",
+        "url": "https://github.com/nottelabs/reverse-api-engineer",
+        "homepage": "https://reverseapi.dev",
+        "language": "Python",
+        "stars": 915,
+        "forks": 85,
+        "open_issues": 9,
+        "created_at": "2025-12-23T14:04:45Z",
+        "updated_at": "2026-08-05T04:19:51Z",
+        "pushed_at": "2026-07-31T04:38:19Z",
+        "starred_at": "2026-02-08T22:22:56Z"
+      },
+      "last_updated": "2026-08-05T06:04:26.451349+00:00"
     }
   },
   "last_processed_index": 0,
@@ -242552,5 +242592,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f5ef31ddbec30ab1767f2f69717afcc3d2569073eb3d0f5c5050a4b3d108b0c1\""
+  "profile_etag": "W/\"5fda7980b424a68e768321e7e80d0255e2c58349319209aa365b05618c285e8d\""
 }
