@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T06:04:26.451373+00:00",
+  "last_updated": "2026-08-05T06:13:05.796109+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242545,7 +242545,9 @@
       }
     },
     "chirpstack/chirpstack": {
-      "lists": [],
+      "lists": [
+        "Networking"
+      ],
       "metadata": {
         "id": 384466772,
         "name": "chirpstack",
@@ -242565,7 +242567,12 @@
       "last_updated": "2026-08-05T06:04:26.004764+00:00"
     },
     "nottelabs/reverse-api-engineer": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1121759870,
         "name": "reverse-api-engineer",
