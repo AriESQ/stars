@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T06:15:50.916524+00:00",
+  "last_updated": "2026-08-06T06:16:21.764990+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242628,7 +242628,15 @@
         "pushed_at": "2026-07-23T18:04:32Z",
         "starred_at": "2026-08-06T02:16:45Z"
       },
-      "last_updated": "2026-08-06T06:07:07.657722+00:00"
+      "last_updated": "2026-08-06T06:07:07.657722+00:00",
+      "readme": {
+        "path": "readmes/Robbyant+lingbot-map+README.md",
+        "etag": "W/\"2d412e33905d1a58032c7dd9165c2fcd55478bc6\"",
+        "sha": "2d412e33905d1a58032c7dd9165c2fcd55478bc6",
+        "size": 27269,
+        "fetched_at": "2026-08-06T06:16:20.594213+00:00",
+        "status": "ok"
+      }
     },
     "IsaacSante/AppleDepth-TouchDesigner": {
       "lists": [
@@ -242651,7 +242659,15 @@
         "pushed_at": "2026-08-05T03:04:27Z",
         "starred_at": "2026-08-06T00:56:52Z"
       },
-      "last_updated": "2026-08-06T06:07:07.989572+00:00"
+      "last_updated": "2026-08-06T06:07:07.989572+00:00",
+      "readme": {
+        "path": "readmes/IsaacSante+AppleDepth-TouchDesigner+README.md",
+        "etag": "W/\"1269cde0265a1b2d2c78a04fa3c04e2635ef115e\"",
+        "sha": "1269cde0265a1b2d2c78a04fa3c04e2635ef115e",
+        "size": 4454,
+        "fetched_at": "2026-08-06T06:16:19.828294+00:00",
+        "status": "ok"
+      }
     },
     "IsaacSante/gnm-touchdesigner": {
       "lists": [
@@ -242673,7 +242689,15 @@
         "pushed_at": "2026-07-30T19:11:55Z",
         "starred_at": "2026-08-06T00:56:23Z"
       },
-      "last_updated": "2026-08-06T06:07:08.341714+00:00"
+      "last_updated": "2026-08-06T06:07:08.341714+00:00",
+      "readme": {
+        "path": "readmes/IsaacSante+gnm-touchdesigner+README.md",
+        "etag": "W/\"b3b9b7e239ef07b89021ca9906efcae307551861\"",
+        "sha": "b3b9b7e239ef07b89021ca9906efcae307551861",
+        "size": 3004,
+        "fetched_at": "2026-08-06T06:16:20.227579+00:00",
+        "status": "ok"
+      }
     },
     "uber/ADR": {
       "lists": [
@@ -242698,7 +242722,15 @@
         "pushed_at": "2026-08-06T05:25:15Z",
         "starred_at": "2026-08-05T20:37:24Z"
       },
-      "last_updated": "2026-08-06T06:07:08.681437+00:00"
+      "last_updated": "2026-08-06T06:07:08.681437+00:00",
+      "readme": {
+        "path": "readmes/uber+ADR+README.md",
+        "etag": "W/\"b98c2b9d35b90768e81aafca5cd960d27f4838f7\"",
+        "sha": "b98c2b9d35b90768e81aafca5cd960d27f4838f7",
+        "size": 4154,
+        "fetched_at": "2026-08-06T06:16:21.305785+00:00",
+        "status": "ok"
+      }
     },
     "kirodotdev/KiroCrew": {
       "lists": [
@@ -242720,7 +242752,15 @@
         "pushed_at": "2026-08-06T06:03:23Z",
         "starred_at": "2026-08-05T07:27:59Z"
       },
-      "last_updated": "2026-08-06T06:07:08.948633+00:00"
+      "last_updated": "2026-08-06T06:07:08.948633+00:00",
+      "readme": {
+        "path": "readmes/kirodotdev+KiroCrew+README.md",
+        "etag": "W/\"e04d7885df9ccac417219c5dd39016568aef7331\"",
+        "sha": "e04d7885df9ccac417219c5dd39016568aef7331",
+        "size": 88105,
+        "fetched_at": "2026-08-06T06:16:20.965424+00:00",
+        "status": "ok"
+      }
     },
     "winboat-org/winboat": {
       "lists": [
@@ -242742,7 +242782,15 @@
         "pushed_at": "2026-08-05T23:59:33Z",
         "starred_at": "2026-01-20T01:39:09Z"
       },
-      "last_updated": "2026-08-06T06:07:09.463025+00:00"
+      "last_updated": "2026-08-06T06:07:09.463025+00:00",
+      "readme": {
+        "path": "readmes/winboat-org+winboat+README.md",
+        "etag": "W/\"b6771cb6cd5f21f01acdc591cd5b9e6155208501\"",
+        "sha": "b6771cb6cd5f21f01acdc591cd5b9e6155208501",
+        "size": 9454,
+        "fetched_at": "2026-08-06T06:16:21.764018+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
