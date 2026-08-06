@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T06:13:49.004278+00:00",
+  "last_updated": "2026-08-06T06:07:09.463070+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242606,6 +242606,126 @@
         "fetched_at": "2026-08-05T06:13:49.000086+00:00",
         "status": "ok"
       }
+    },
+    "Robbyant/lingbot-map": {
+      "lists": [],
+      "metadata": {
+        "id": 1211752857,
+        "name": "lingbot-map",
+        "full_name": "Robbyant/lingbot-map",
+        "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "url": "https://github.com/Robbyant/lingbot-map",
+        "homepage": "",
+        "language": "Python",
+        "stars": 16257,
+        "forks": 1799,
+        "open_issues": 69,
+        "created_at": "2026-04-15T17:59:48Z",
+        "updated_at": "2026-08-06T06:05:57Z",
+        "pushed_at": "2026-07-23T18:04:32Z",
+        "starred_at": "2026-08-06T02:16:45Z"
+      },
+      "last_updated": "2026-08-06T06:07:07.657722+00:00"
+    },
+    "IsaacSante/AppleDepth-TouchDesigner": {
+      "lists": [],
+      "metadata": {
+        "id": 1323366767,
+        "name": "AppleDepth-TouchDesigner",
+        "full_name": "IsaacSante/AppleDepth-TouchDesigner",
+        "description": null,
+        "url": "https://github.com/IsaacSante/AppleDepth-TouchDesigner",
+        "homepage": null,
+        "language": "C++",
+        "stars": 8,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-08-04T20:45:19Z",
+        "updated_at": "2026-08-06T03:59:16Z",
+        "pushed_at": "2026-08-05T03:04:27Z",
+        "starred_at": "2026-08-06T00:56:52Z"
+      },
+      "last_updated": "2026-08-06T06:07:07.989572+00:00"
+    },
+    "IsaacSante/gnm-touchdesigner": {
+      "lists": [],
+      "metadata": {
+        "id": 1304329284,
+        "name": "gnm-touchdesigner",
+        "full_name": "IsaacSante/gnm-touchdesigner",
+        "description": null,
+        "url": "https://github.com/IsaacSante/gnm-touchdesigner",
+        "homepage": null,
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-17T19:31:02Z",
+        "updated_at": "2026-08-06T00:56:24Z",
+        "pushed_at": "2026-07-30T19:11:55Z",
+        "starred_at": "2026-08-06T00:56:23Z"
+      },
+      "last_updated": "2026-08-06T06:07:08.341714+00:00"
+    },
+    "uber/ADR": {
+      "lists": [],
+      "metadata": {
+        "id": 1215280164,
+        "name": "ADR",
+        "full_name": "uber/ADR",
+        "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+        "url": "https://github.com/uber/ADR",
+        "homepage": "https://arxiv.org/abs/2605.17380",
+        "language": "Python",
+        "stars": 1111,
+        "forks": 90,
+        "open_issues": 8,
+        "created_at": "2026-04-19T18:01:42Z",
+        "updated_at": "2026-08-06T05:56:54Z",
+        "pushed_at": "2026-08-06T05:25:15Z",
+        "starred_at": "2026-08-05T20:37:24Z"
+      },
+      "last_updated": "2026-08-06T06:07:08.681437+00:00"
+    },
+    "kirodotdev/KiroCrew": {
+      "lists": [],
+      "metadata": {
+        "id": 1303258850,
+        "name": "KiroCrew",
+        "full_name": "kirodotdev/KiroCrew",
+        "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
+        "url": "https://github.com/kirodotdev/KiroCrew",
+        "homepage": "https://kiro.dev/docs/crew/",
+        "language": "Python",
+        "stars": 1280,
+        "forks": 102,
+        "open_issues": 293,
+        "created_at": "2026-07-16T21:21:54Z",
+        "updated_at": "2026-08-06T06:03:23Z",
+        "pushed_at": "2026-08-06T06:03:23Z",
+        "starred_at": "2026-08-05T07:27:59Z"
+      },
+      "last_updated": "2026-08-06T06:07:08.948633+00:00"
+    },
+    "winboat-org/winboat": {
+      "lists": [],
+      "metadata": {
+        "id": 960420129,
+        "name": "winboat",
+        "full_name": "winboat-org/winboat",
+        "description": "Run Windows apps on \ud83d\udc27 Linux with \u2728 seamless integration",
+        "url": "https://github.com/winboat-org/winboat",
+        "homepage": "https://www.winboat.app/",
+        "language": "TypeScript",
+        "stars": 22111,
+        "forks": 689,
+        "open_issues": 289,
+        "created_at": "2025-04-04T12:03:11Z",
+        "updated_at": "2026-08-06T04:39:05Z",
+        "pushed_at": "2026-08-05T23:59:33Z",
+        "starred_at": "2026-01-20T01:39:09Z"
+      },
+      "last_updated": "2026-08-06T06:07:09.463025+00:00"
     }
   },
   "last_processed_index": 0,
@@ -242615,5 +242735,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5fda7980b424a68e768321e7e80d0255e2c58349319209aa365b05618c285e8d\""
+  "profile_etag": "W/\"c759ed1d487610aa512dbcf6dfb8ada4ae8a6f6894156c26de85e05a673149a3\""
 }
