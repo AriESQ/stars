@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T06:07:09.463070+00:00",
+  "last_updated": "2026-08-06T06:15:50.916524+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242608,7 +242608,10 @@
       }
     },
     "Robbyant/lingbot-map": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1211752857,
         "name": "lingbot-map",
@@ -242628,7 +242631,10 @@
       "last_updated": "2026-08-06T06:07:07.657722+00:00"
     },
     "IsaacSante/AppleDepth-TouchDesigner": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1323366767,
         "name": "AppleDepth-TouchDesigner",
@@ -242648,7 +242654,9 @@
       "last_updated": "2026-08-06T06:07:07.989572+00:00"
     },
     "IsaacSante/gnm-touchdesigner": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1304329284,
         "name": "gnm-touchdesigner",
@@ -242668,7 +242676,12 @@
       "last_updated": "2026-08-06T06:07:08.341714+00:00"
     },
     "uber/ADR": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1215280164,
         "name": "ADR",
@@ -242688,7 +242701,9 @@
       "last_updated": "2026-08-06T06:07:08.681437+00:00"
     },
     "kirodotdev/KiroCrew": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1303258850,
         "name": "KiroCrew",
@@ -242708,7 +242723,9 @@
       "last_updated": "2026-08-06T06:07:08.948633+00:00"
     },
     "winboat-org/winboat": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 960420129,
         "name": "winboat",
