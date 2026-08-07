@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T05:05:02.191131+00:00",
+  "last_updated": "2026-08-07T05:13:16.342589+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242793,7 +242793,10 @@
       }
     },
     "MatthewKazan/iPhone-lidar-slam-playground": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 901077272,
         "name": "iPhone-lidar-slam-playground",
