@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T04:37:36.072442+00:00",
+  "last_updated": "2026-08-08T04:38:13.417702+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242849,7 +242849,15 @@
         "pushed_at": "2026-08-08T04:04:56Z",
         "starred_at": "2026-08-08T00:00:48Z"
       },
-      "last_updated": "2026-08-08T04:29:54.813092+00:00"
+      "last_updated": "2026-08-08T04:29:54.813092+00:00",
+      "readme": {
+        "path": "readmes/omnigent-ai+omnigent+README.md",
+        "etag": "W/\"e21c41615b2f19bed17702d3962310ab19d63686\"",
+        "sha": "e21c41615b2f19bed17702d3962310ab19d63686",
+        "size": 21429,
+        "fetched_at": "2026-08-08T04:38:13.035237+00:00",
+        "status": "ok"
+      }
     },
     "joenot443/dude_wake_up": {
       "lists": [
@@ -242872,7 +242880,15 @@
         "pushed_at": "2026-04-08T17:11:43Z",
         "starred_at": "2026-08-07T19:25:46Z"
       },
-      "last_updated": "2026-08-08T04:29:55.022490+00:00"
+      "last_updated": "2026-08-08T04:29:55.022490+00:00",
+      "readme": {
+        "path": "readmes/joenot443+dude_wake_up+README.md",
+        "etag": "W/\"dfbaf4cc0929c3969937cc4fd7ead96cfc1568e9\"",
+        "sha": "dfbaf4cc0929c3969937cc4fd7ead96cfc1568e9",
+        "size": 433,
+        "fetched_at": "2026-08-08T04:38:12.059880+00:00",
+        "status": "ok"
+      }
     },
     "malisper/pgrust": {
       "lists": [
@@ -242895,7 +242911,15 @@
         "pushed_at": "2026-08-05T16:53:55Z",
         "starred_at": "2026-08-07T16:36:09Z"
       },
-      "last_updated": "2026-08-08T04:29:55.230466+00:00"
+      "last_updated": "2026-08-08T04:29:55.230466+00:00",
+      "readme": {
+        "path": "readmes/malisper+pgrust+README.md",
+        "etag": "W/\"0e3387f57a4c0e5b2e6871faa50d0feeb9da2431\"",
+        "sha": "0e3387f57a4c0e5b2e6871faa50d0feeb9da2431",
+        "size": 16037,
+        "fetched_at": "2026-08-08T04:38:12.701391+00:00",
+        "status": "ok"
+      }
     },
     "thelastoutpostworkshop/esp-pinout-explorer": {
       "lists": [
@@ -242918,7 +242942,15 @@
         "pushed_at": "2026-08-07T11:38:04Z",
         "starred_at": "2026-08-07T15:57:12Z"
       },
-      "last_updated": "2026-08-08T04:29:55.465173+00:00"
+      "last_updated": "2026-08-08T04:29:55.465173+00:00",
+      "readme": {
+        "path": "readmes/thelastoutpostworkshop+esp-pinout-explorer+README.md",
+        "etag": "W/\"e642c51339578e9f552cf7a6e05752a29f5adacb\"",
+        "sha": "e642c51339578e9f552cf7a6e05752a29f5adacb",
+        "size": 5444,
+        "fetched_at": "2026-08-08T04:38:13.415750+00:00",
+        "status": "ok"
+      }
     },
     "h4ckf0r0day/obscura": {
       "lists": [
@@ -242941,7 +242973,15 @@
         "pushed_at": "2026-08-08T00:07:28Z",
         "starred_at": "2026-08-07T15:19:08Z"
       },
-      "last_updated": "2026-08-08T04:29:55.679782+00:00"
+      "last_updated": "2026-08-08T04:29:55.679782+00:00",
+      "readme": {
+        "path": "readmes/h4ckf0r0day+obscura+README.md",
+        "etag": "W/\"7294bf29c5c703e96d5fd491b6a1469484c53a5a\"",
+        "sha": "7294bf29c5c703e96d5fd491b6a1469484c53a5a",
+        "size": 24878,
+        "fetched_at": "2026-08-08T04:38:11.660944+00:00",
+        "status": "ok"
+      }
     },
     "krapnikkk/web3d-viewer-internals": {
       "lists": [
@@ -242963,7 +243003,15 @@
         "pushed_at": "2026-08-07T15:58:30Z",
         "starred_at": "2024-06-30T23:08:46Z"
       },
-      "last_updated": "2026-08-08T04:29:56.095037+00:00"
+      "last_updated": "2026-08-08T04:29:56.095037+00:00",
+      "readme": {
+        "path": "readmes/krapnikkk+web3d-viewer-internals+readme.md",
+        "etag": "W/\"b41162dcf23d2bbf2b906eeaa201ec1ef0b943ca\"",
+        "sha": "b41162dcf23d2bbf2b906eeaa201ec1ef0b943ca",
+        "size": 154,
+        "fetched_at": "2026-08-08T04:38:12.438167+00:00",
+        "status": "ok"
+      }
     },
     "d2lang/text-to-diagram-site": {
       "lists": [],
@@ -242983,7 +243031,15 @@
         "pushed_at": "2026-08-07T19:05:00Z",
         "starred_at": "2023-08-11T06:00:55Z"
       },
-      "last_updated": "2026-08-08T04:29:56.520717+00:00"
+      "last_updated": "2026-08-08T04:29:56.520717+00:00",
+      "readme": {
+        "path": "readmes/d2lang+text-to-diagram-site+README.md",
+        "etag": "W/\"468734659f4653114f14779d1d77a9a0704066bb\"",
+        "sha": "468734659f4653114f14779d1d77a9a0704066bb",
+        "size": 3157,
+        "fetched_at": "2026-08-08T04:38:11.290708+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
