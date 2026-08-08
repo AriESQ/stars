@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T04:29:56.520782+00:00",
+  "last_updated": "2026-08-08T04:37:36.072442+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -1631,7 +1631,11 @@
       }
     },
     "KeygraphHQ/shannon": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1065059442,
         "name": "shannon",
@@ -218828,7 +218832,8 @@
     "usestrix/strix": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Devops"
       ],
       "metadata": {
         "id": 1032808806,
@@ -242824,7 +242829,10 @@
       }
     },
     "omnigent-ai/omnigent": {
-      "lists": [],
+      "lists": [
+        "K8S - Kubernetes",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1266212515,
         "name": "omnigent",
@@ -242844,7 +242852,10 @@
       "last_updated": "2026-08-08T04:29:54.813092+00:00"
     },
     "joenot443/dude_wake_up": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 520659811,
         "name": "dude_wake_up",
@@ -242864,7 +242875,10 @@
       "last_updated": "2026-08-08T04:29:55.022490+00:00"
     },
     "malisper/pgrust": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 1215569807,
         "name": "pgrust",
@@ -242884,7 +242898,10 @@
       "last_updated": "2026-08-08T04:29:55.230466+00:00"
     },
     "thelastoutpostworkshop/esp-pinout-explorer": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1262049149,
         "name": "esp-pinout-explorer",
@@ -242904,7 +242921,10 @@
       "last_updated": "2026-08-08T04:29:55.465173+00:00"
     },
     "h4ckf0r0day/obscura": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1209343409,
         "name": "obscura",
@@ -242924,7 +242944,9 @@
       "last_updated": "2026-08-08T04:29:55.679782+00:00"
     },
     "krapnikkk/web3d-viewer-internals": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 503593664,
         "name": "web3d-viewer-internals",
