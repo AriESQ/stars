@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T05:14:17.037975+00:00",
+  "last_updated": "2026-08-08T04:29:56.520782+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -242822,6 +242822,146 @@
         "fetched_at": "2026-08-07T05:14:17.029945+00:00",
         "status": "ok"
       }
+    },
+    "omnigent-ai/omnigent": {
+      "lists": [],
+      "metadata": {
+        "id": 1266212515,
+        "name": "omnigent",
+        "full_name": "omnigent-ai/omnigent",
+        "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents \u2014 swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+        "url": "https://github.com/omnigent-ai/omnigent",
+        "homepage": "https://omnigent.ai",
+        "language": "Python",
+        "stars": 8320,
+        "forks": 1252,
+        "open_issues": 796,
+        "created_at": "2026-06-11T12:18:13Z",
+        "updated_at": "2026-08-08T04:25:12Z",
+        "pushed_at": "2026-08-08T04:04:56Z",
+        "starred_at": "2026-08-08T00:00:48Z"
+      },
+      "last_updated": "2026-08-08T04:29:54.813092+00:00"
+    },
+    "joenot443/dude_wake_up": {
+      "lists": [],
+      "metadata": {
+        "id": 520659811,
+        "name": "dude_wake_up",
+        "full_name": "joenot443/dude_wake_up",
+        "description": "Nottawa - Live video for everyone",
+        "url": "https://github.com/joenot443/dude_wake_up",
+        "homepage": "https://nottawa.app",
+        "language": "C",
+        "stars": 8,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2022-08-02T21:54:00Z",
+        "updated_at": "2026-08-07T19:25:47Z",
+        "pushed_at": "2026-04-08T17:11:43Z",
+        "starred_at": "2026-08-07T19:25:46Z"
+      },
+      "last_updated": "2026-08-08T04:29:55.022490+00:00"
+    },
+    "malisper/pgrust": {
+      "lists": [],
+      "metadata": {
+        "id": 1215569807,
+        "name": "pgrust",
+        "full_name": "malisper/pgrust",
+        "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
+        "url": "https://github.com/malisper/pgrust",
+        "homepage": "https://pgrust.com",
+        "language": "Rust",
+        "stars": 4156,
+        "forks": 158,
+        "open_issues": 17,
+        "created_at": "2026-04-20T03:35:59Z",
+        "updated_at": "2026-08-08T04:11:48Z",
+        "pushed_at": "2026-08-05T16:53:55Z",
+        "starred_at": "2026-08-07T16:36:09Z"
+      },
+      "last_updated": "2026-08-08T04:29:55.230466+00:00"
+    },
+    "thelastoutpostworkshop/esp-pinout-explorer": {
+      "lists": [],
+      "metadata": {
+        "id": 1262049149,
+        "name": "esp-pinout-explorer",
+        "full_name": "thelastoutpostworkshop/esp-pinout-explorer",
+        "description": "A bench-side atlas for finding the right ESP pin before wires, boot straps, USB signals, flash pins, and board hardware collide",
+        "url": "https://github.com/thelastoutpostworkshop/esp-pinout-explorer",
+        "homepage": "https://youtu.be/l357x8bTJg0",
+        "language": "TypeScript",
+        "stars": 14,
+        "forks": 6,
+        "open_issues": 4,
+        "created_at": "2026-06-07T14:02:21Z",
+        "updated_at": "2026-08-07T23:48:19Z",
+        "pushed_at": "2026-08-07T11:38:04Z",
+        "starred_at": "2026-08-07T15:57:12Z"
+      },
+      "last_updated": "2026-08-08T04:29:55.465173+00:00"
+    },
+    "h4ckf0r0day/obscura": {
+      "lists": [],
+      "metadata": {
+        "id": 1209343409,
+        "name": "obscura",
+        "full_name": "h4ckf0r0day/obscura",
+        "description": "The headless browser for AI agents and web scraping",
+        "url": "https://github.com/h4ckf0r0day/obscura",
+        "homepage": "https://obscura.sh",
+        "language": "Rust",
+        "stars": 20598,
+        "forks": 1484,
+        "open_issues": 24,
+        "created_at": "2026-04-13T10:31:41Z",
+        "updated_at": "2026-08-08T04:19:58Z",
+        "pushed_at": "2026-08-08T00:07:28Z",
+        "starred_at": "2026-08-07T15:19:08Z"
+      },
+      "last_updated": "2026-08-08T04:29:55.679782+00:00"
+    },
+    "krapnikkk/web3d-viewer-internals": {
+      "lists": [],
+      "metadata": {
+        "id": 503593664,
+        "name": "web3d-viewer-internals",
+        "full_name": "krapnikkk/web3d-viewer-internals",
+        "description": "sketchfab research",
+        "url": "https://github.com/krapnikkk/web3d-viewer-internals",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 53,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2022-06-15T02:54:13Z",
+        "updated_at": "2026-08-07T16:07:54Z",
+        "pushed_at": "2026-08-07T15:58:30Z",
+        "starred_at": "2024-06-30T23:08:46Z"
+      },
+      "last_updated": "2026-08-08T04:29:56.095037+00:00"
+    },
+    "d2lang/text-to-diagram-site": {
+      "lists": [],
+      "metadata": {
+        "id": 541354815,
+        "name": "text-to-diagram-site",
+        "full_name": "d2lang/text-to-diagram-site",
+        "description": "Compare syntax, layouts, outputs between languages for generating diagrams with text.",
+        "url": "https://github.com/d2lang/text-to-diagram-site",
+        "homepage": "https://text-to-diagram.com",
+        "language": "TypeScript",
+        "stars": 553,
+        "forks": 29,
+        "open_issues": 13,
+        "created_at": "2022-09-26T00:50:04Z",
+        "updated_at": "2026-08-07T19:05:58Z",
+        "pushed_at": "2026-08-07T19:05:00Z",
+        "starred_at": "2023-08-11T06:00:55Z"
+      },
+      "last_updated": "2026-08-08T04:29:56.520717+00:00"
     }
   },
   "last_processed_index": 0,
@@ -242831,5 +242971,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"9cfe187cc06da0f9299b3d33ff978a304be1c254b4e44e28d05a769f43edba7f\""
+  "profile_etag": "W/\"33901e813d896c1d70ad2145d00fa81a6cdb8a7441171a084719e13d79a32090\""
 }
