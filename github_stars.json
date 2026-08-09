@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T04:45:43.374185+00:00",
+  "last_updated": "2026-08-09T04:46:35.718030+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243061,7 +243061,11 @@
         "pushed_at": "2026-08-01T16:37:39Z",
         "starred_at": "2026-08-09T03:06:48Z"
       },
-      "last_updated": "2026-08-09T04:38:26.881438+00:00"
+      "last_updated": "2026-08-09T04:38:26.881438+00:00",
+      "readme": {
+        "fetched_at": "2026-08-09T04:46:35.268994+00:00",
+        "status": "missing"
+      }
     },
     "MiniMax-AI/skills": {
       "lists": [
@@ -243083,7 +243087,15 @@
         "pushed_at": "2026-04-18T09:48:47Z",
         "starred_at": "2026-08-08T21:49:05Z"
       },
-      "last_updated": "2026-08-09T04:38:27.196431+00:00"
+      "last_updated": "2026-08-09T04:38:27.196431+00:00",
+      "readme": {
+        "path": "readmes/MiniMax-AI+skills+README.md",
+        "etag": "W/\"12164fda6cd7a53f93a228a41894f4b7736a671c\"",
+        "sha": "12164fda6cd7a53f93a228a41894f4b7736a671c",
+        "size": 7865,
+        "fetched_at": "2026-08-09T04:46:34.931168+00:00",
+        "status": "ok"
+      }
     },
     "telesma-app/winhello": {
       "lists": [
@@ -243105,7 +243117,15 @@
         "pushed_at": "2026-07-20T02:29:58Z",
         "starred_at": "2026-07-24T16:02:47Z"
       },
-      "last_updated": "2026-08-09T04:38:27.506545+00:00"
+      "last_updated": "2026-08-09T04:38:27.506545+00:00",
+      "readme": {
+        "path": "readmes/telesma-app+winhello+README.md",
+        "etag": "W/\"c1cb61028331b7b63d3b3cfcbb8cbc2fb6fc9471\"",
+        "sha": "c1cb61028331b7b63d3b3cfcbb8cbc2fb6fc9471",
+        "size": 1524,
+        "fetched_at": "2026-08-09T04:46:35.716090+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
