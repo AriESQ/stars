@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T04:38:13.417702+00:00",
+  "last_updated": "2026-08-09T04:38:27.506604+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243040,6 +243040,66 @@
         "fetched_at": "2026-08-08T04:38:11.290708+00:00",
         "status": "ok"
       }
+    },
+    "adafruit/TE_EP2350_Config_Tool": {
+      "lists": [],
+      "metadata": {
+        "id": 1317647366,
+        "name": "TE_EP2350_Config_Tool",
+        "full_name": "adafruit/TE_EP2350_Config_Tool",
+        "description": "Web page GUI for configuring the CircuitPython demo on Teenage Engineering EP-2350",
+        "url": "https://github.com/adafruit/TE_EP2350_Config_Tool",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-30T20:12:32Z",
+        "updated_at": "2026-08-09T03:06:49Z",
+        "pushed_at": "2026-08-01T16:37:39Z",
+        "starred_at": "2026-08-09T03:06:48Z"
+      },
+      "last_updated": "2026-08-09T04:38:26.881438+00:00"
+    },
+    "MiniMax-AI/skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1184030270,
+        "name": "skills",
+        "full_name": "MiniMax-AI/skills",
+        "description": null,
+        "url": "https://github.com/MiniMax-AI/skills",
+        "homepage": null,
+        "language": "C#",
+        "stars": 13286,
+        "forks": 1139,
+        "open_issues": 63,
+        "created_at": "2026-03-17T07:19:25Z",
+        "updated_at": "2026-08-09T00:36:56Z",
+        "pushed_at": "2026-04-18T09:48:47Z",
+        "starred_at": "2026-08-08T21:49:05Z"
+      },
+      "last_updated": "2026-08-09T04:38:27.196431+00:00"
+    },
+    "telesma-app/winhello": {
+      "lists": [],
+      "metadata": {
+        "id": 1013817195,
+        "name": "winhello",
+        "full_name": "telesma-app/winhello",
+        "description": "cgo-free Go bindings for the Windows WebAuthn API and Windows Hello",
+        "url": "https://github.com/telesma-app/winhello",
+        "homepage": "https://pkg.go.dev/github.com/go-ctap/winhello",
+        "language": "Go",
+        "stars": 7,
+        "forks": 5,
+        "open_issues": 3,
+        "created_at": "2025-07-04T14:09:45Z",
+        "updated_at": "2026-08-08T14:52:02Z",
+        "pushed_at": "2026-07-20T02:29:58Z",
+        "starred_at": "2026-07-24T16:02:47Z"
+      },
+      "last_updated": "2026-08-09T04:38:27.506545+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243049,5 +243109,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"33901e813d896c1d70ad2145d00fa81a6cdb8a7441171a084719e13d79a32090\""
+  "profile_etag": "W/\"a5fde3059bcaa9494277c14330dd67c0f7b24728228b7f65c03b33664b3c660f\""
 }
