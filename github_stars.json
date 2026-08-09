@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T04:38:27.506604+00:00",
+  "last_updated": "2026-08-09T04:45:43.374185+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243042,7 +243042,9 @@
       }
     },
     "adafruit/TE_EP2350_Config_Tool": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1317647366,
         "name": "TE_EP2350_Config_Tool",
@@ -243062,7 +243064,9 @@
       "last_updated": "2026-08-09T04:38:26.881438+00:00"
     },
     "MiniMax-AI/skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1184030270,
         "name": "skills",
@@ -243082,7 +243086,9 @@
       "last_updated": "2026-08-09T04:38:27.196431+00:00"
     },
     "telesma-app/winhello": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 1013817195,
         "name": "winhello",
