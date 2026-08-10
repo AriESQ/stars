@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T04:56:09.859230+00:00",
+  "last_updated": "2026-08-10T05:04:10.045263+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243128,7 +243128,10 @@
       }
     },
     "yegors/deGDID": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Windows"
+      ],
       "metadata": {
         "id": 1294791465,
         "name": "deGDID",
@@ -243148,7 +243151,11 @@
       "last_updated": "2026-08-10T04:56:08.116672+00:00"
     },
     "vibevoice-community/VibeVoice": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1050562779,
         "name": "VibeVoice",
@@ -243168,7 +243175,10 @@
       "last_updated": "2026-08-10T04:56:08.467173+00:00"
     },
     "pal1000/mesa-dist-win": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 81497624,
         "name": "mesa-dist-win",
@@ -243188,7 +243198,9 @@
       "last_updated": "2026-08-10T04:56:08.786902+00:00"
     },
     "decode-orc/decode-orc": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1117649058,
         "name": "decode-orc",
@@ -243208,7 +243220,10 @@
       "last_updated": "2026-08-10T04:56:09.300076+00:00"
     },
     "Future-Focus-Studio/pixel-synth": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 118069944,
         "name": "pixel-synth",
