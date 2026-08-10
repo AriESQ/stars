@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T05:04:10.045263+00:00",
+  "last_updated": "2026-08-10T05:04:32.150491+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243148,7 +243148,15 @@
         "pushed_at": "2026-08-08T21:28:48Z",
         "starred_at": "2026-08-09T21:26:57Z"
       },
-      "last_updated": "2026-08-10T04:56:08.116672+00:00"
+      "last_updated": "2026-08-10T04:56:08.116672+00:00",
+      "readme": {
+        "path": "readmes/yegors+deGDID+README.md",
+        "etag": "W/\"a0d4a269729467191c900d021d3b43c14d92875a\"",
+        "sha": "a0d4a269729467191c900d021d3b43c14d92875a",
+        "size": 5923,
+        "fetched_at": "2026-08-10T05:04:32.149903+00:00",
+        "status": "ok"
+      }
     },
     "vibevoice-community/VibeVoice": {
       "lists": [
@@ -243172,7 +243180,15 @@
         "pushed_at": "2026-08-08T01:13:53Z",
         "starred_at": "2026-08-09T17:22:25Z"
       },
-      "last_updated": "2026-08-10T04:56:08.467173+00:00"
+      "last_updated": "2026-08-10T04:56:08.467173+00:00",
+      "readme": {
+        "path": "readmes/vibevoice-community+VibeVoice+README.md",
+        "etag": "W/\"1a17feaefac89835d088bfc627b221a377dd9a3a\"",
+        "sha": "1a17feaefac89835d088bfc627b221a377dd9a3a",
+        "size": 11253,
+        "fetched_at": "2026-08-10T05:04:31.832868+00:00",
+        "status": "ok"
+      }
     },
     "pal1000/mesa-dist-win": {
       "lists": [
@@ -243195,7 +243211,15 @@
         "pushed_at": "2026-08-05T03:06:45Z",
         "starred_at": "2026-08-09T17:16:31Z"
       },
-      "last_updated": "2026-08-10T04:56:08.786902+00:00"
+      "last_updated": "2026-08-10T04:56:08.786902+00:00",
+      "readme": {
+        "path": "readmes/pal1000+mesa-dist-win+readme.md",
+        "etag": "W/\"913817ca6b965fe487394902229ad6ced64098ff\"",
+        "sha": "913817ca6b965fe487394902229ad6ced64098ff",
+        "size": 31837,
+        "fetched_at": "2026-08-10T05:04:31.504899+00:00",
+        "status": "ok"
+      }
     },
     "decode-orc/decode-orc": {
       "lists": [
@@ -243217,7 +243241,15 @@
         "pushed_at": "2026-08-09T19:29:00Z",
         "starred_at": "2026-03-14T19:00:13Z"
       },
-      "last_updated": "2026-08-10T04:56:09.300076+00:00"
+      "last_updated": "2026-08-10T04:56:09.300076+00:00",
+      "readme": {
+        "path": "readmes/decode-orc+decode-orc+README.md",
+        "etag": "W/\"969b27e1ca18e87a2bd969ebcb4613a935f1969c\"",
+        "sha": "969b27e1ca18e87a2bd969ebcb4613a935f1969c",
+        "size": 5998,
+        "fetched_at": "2026-08-10T05:04:31.131828+00:00",
+        "status": "ok"
+      }
     },
     "Future-Focus-Studio/pixel-synth": {
       "lists": [
@@ -243240,7 +243272,15 @@
         "pushed_at": "2026-08-10T02:09:18Z",
         "starred_at": "2023-12-11T16:04:53Z"
       },
-      "last_updated": "2026-08-10T04:56:09.859165+00:00"
+      "last_updated": "2026-08-10T04:56:09.859165+00:00",
+      "readme": {
+        "path": "readmes/Future-Focus-Studio+pixel-synth+README.md",
+        "etag": "W/\"5b6a329a81431d0749e13ef48a02b682956e5927\"",
+        "sha": "5b6a329a81431d0749e13ef48a02b682956e5927",
+        "size": 1050,
+        "fetched_at": "2026-08-10T05:04:30.728234+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
