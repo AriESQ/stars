@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T04:46:35.718030+00:00",
+  "last_updated": "2026-08-10T04:56:09.859230+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243126,6 +243126,106 @@
         "fetched_at": "2026-08-09T04:46:35.716090+00:00",
         "status": "ok"
       }
+    },
+    "yegors/deGDID": {
+      "lists": [],
+      "metadata": {
+        "id": 1294791465,
+        "name": "deGDID",
+        "full_name": "yegors/deGDID",
+        "description": "Deletes all instances of Microsoft's GDID and prevents minting of new ones ",
+        "url": "https://github.com/yegors/deGDID",
+        "homepage": "",
+        "language": "PowerShell",
+        "stars": 652,
+        "forks": 29,
+        "open_issues": 10,
+        "created_at": "2026-07-09T07:11:28Z",
+        "updated_at": "2026-08-10T04:03:04Z",
+        "pushed_at": "2026-08-08T21:28:48Z",
+        "starred_at": "2026-08-09T21:26:57Z"
+      },
+      "last_updated": "2026-08-10T04:56:08.116672+00:00"
+    },
+    "vibevoice-community/VibeVoice": {
+      "lists": [],
+      "metadata": {
+        "id": 1050562779,
+        "name": "VibeVoice",
+        "full_name": "vibevoice-community/VibeVoice",
+        "description": "VibeVoice: Expressive, longform conversational speech synthesis. (Community fork)",
+        "url": "https://github.com/vibevoice-community/VibeVoice",
+        "homepage": "https://discord.gg/ZDEYTTRxWG",
+        "language": "Python",
+        "stars": 1398,
+        "forks": 611,
+        "open_issues": 24,
+        "created_at": "2025-09-04T15:53:19Z",
+        "updated_at": "2026-08-10T04:51:36Z",
+        "pushed_at": "2026-08-08T01:13:53Z",
+        "starred_at": "2026-08-09T17:22:25Z"
+      },
+      "last_updated": "2026-08-10T04:56:08.467173+00:00"
+    },
+    "pal1000/mesa-dist-win": {
+      "lists": [],
+      "metadata": {
+        "id": 81497624,
+        "name": "mesa-dist-win",
+        "full_name": "pal1000/mesa-dist-win",
+        "description": "Pre-built Mesa3D drivers for Windows",
+        "url": "https://github.com/pal1000/mesa-dist-win",
+        "homepage": "",
+        "language": "Batchfile",
+        "stars": 1397,
+        "forks": 105,
+        "open_issues": 98,
+        "created_at": "2017-02-09T21:40:33Z",
+        "updated_at": "2026-08-09T17:16:31Z",
+        "pushed_at": "2026-08-05T03:06:45Z",
+        "starred_at": "2026-08-09T17:16:31Z"
+      },
+      "last_updated": "2026-08-10T04:56:08.786902+00:00"
+    },
+    "decode-orc/decode-orc": {
+      "lists": [],
+      "metadata": {
+        "id": 1117649058,
+        "name": "decode-orc",
+        "full_name": "decode-orc/decode-orc",
+        "description": "The -decode orchestration and processing engine",
+        "url": "https://github.com/decode-orc/decode-orc",
+        "homepage": "https://decode-orc.github.io/decode-orc/",
+        "language": "C++",
+        "stars": 22,
+        "forks": 6,
+        "open_issues": 17,
+        "created_at": "2025-12-16T16:02:04Z",
+        "updated_at": "2026-08-09T20:58:42Z",
+        "pushed_at": "2026-08-09T19:29:00Z",
+        "starred_at": "2026-03-14T19:00:13Z"
+      },
+      "last_updated": "2026-08-10T04:56:09.300076+00:00"
+    },
+    "Future-Focus-Studio/pixel-synth": {
+      "lists": [],
+      "metadata": {
+        "id": 118069944,
+        "name": "pixel-synth",
+        "full_name": "Future-Focus-Studio/pixel-synth",
+        "description": "Lofi video synthesizer",
+        "url": "https://github.com/Future-Focus-Studio/pixel-synth",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 46,
+        "forks": 5,
+        "open_issues": 2,
+        "created_at": "2018-01-19T03:11:54Z",
+        "updated_at": "2026-08-10T02:09:26Z",
+        "pushed_at": "2026-08-10T02:09:18Z",
+        "starred_at": "2023-12-11T16:04:53Z"
+      },
+      "last_updated": "2026-08-10T04:56:09.859165+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243135,5 +243235,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"a5fde3059bcaa9494277c14330dd67c0f7b24728228b7f65c03b33664b3c660f\""
+  "profile_etag": "W/\"697ca7e40900e3e7099d550bf5f3f0c2000b5a7c976c0d3544c28e616df06509\""
 }
