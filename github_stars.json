@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T04:42:08.696150+00:00",
+  "last_updated": "2026-08-11T04:49:36.562783+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243283,7 +243283,9 @@
       }
     },
     "fooyin/fooyin": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 505401707,
         "name": "fooyin",
@@ -243303,7 +243305,9 @@
       "last_updated": "2026-08-11T04:42:07.575242+00:00"
     },
     "GoatsAndMonkeys/handheld-video-synth": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1329871408,
         "name": "handheld-video-synth",
@@ -243323,7 +243327,11 @@
       "last_updated": "2026-08-11T04:42:07.874804+00:00"
     },
     "BusterFranken/webflow-scraper": {
-      "lists": [],
+      "lists": [
+        "API",
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1129826101,
         "name": "webflow-scraper",
@@ -243343,7 +243351,13 @@
       "last_updated": "2026-08-11T04:42:08.186601+00:00"
     },
     "paradigmxyz/iron-proxy": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "GoLang",
+        "Infosec",
+        "Networking"
+      ],
       "metadata": {
         "id": 1198724226,
         "name": "iron-proxy",
