@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T05:04:32.150491+00:00",
+  "last_updated": "2026-08-11T04:42:08.696150+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243281,6 +243281,86 @@
         "fetched_at": "2026-08-10T05:04:30.728234+00:00",
         "status": "ok"
       }
+    },
+    "fooyin/fooyin": {
+      "lists": [],
+      "metadata": {
+        "id": 505401707,
+        "name": "fooyin",
+        "full_name": "fooyin/fooyin",
+        "description": "A customisable music player",
+        "url": "https://github.com/fooyin/fooyin",
+        "homepage": "https://fooyin.org",
+        "language": "C++",
+        "stars": 2153,
+        "forks": 92,
+        "open_issues": 289,
+        "created_at": "2022-06-20T10:52:24Z",
+        "updated_at": "2026-08-10T23:58:24Z",
+        "pushed_at": "2026-08-11T01:38:42Z",
+        "starred_at": "2026-08-10T21:44:27Z"
+      },
+      "last_updated": "2026-08-11T04:42:07.575242+00:00"
+    },
+    "GoatsAndMonkeys/handheld-video-synth": {
+      "lists": [],
+      "metadata": {
+        "id": 1329871408,
+        "name": "handheld-video-synth",
+        "full_name": "GoatsAndMonkeys/handheld-video-synth",
+        "description": "HVS-80 \u2014 a handheld video synth for the Retroflag GPi Case (a pocket computer for video effects)",
+        "url": "https://github.com/GoatsAndMonkeys/handheld-video-synth",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-08-10T13:44:34Z",
+        "updated_at": "2026-08-11T02:28:32Z",
+        "pushed_at": "2026-08-11T02:28:28Z",
+        "starred_at": "2026-08-10T19:34:31Z"
+      },
+      "last_updated": "2026-08-11T04:42:07.874804+00:00"
+    },
+    "BusterFranken/webflow-scraper": {
+      "lists": [],
+      "metadata": {
+        "id": 1129826101,
+        "name": "webflow-scraper",
+        "full_name": "BusterFranken/webflow-scraper",
+        "description": "Webflow website scraper",
+        "url": "https://github.com/BusterFranken/webflow-scraper",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-01-07T16:30:09Z",
+        "updated_at": "2026-08-10T18:41:38Z",
+        "pushed_at": "2026-01-07T16:33:41Z",
+        "starred_at": "2026-08-10T18:41:38Z"
+      },
+      "last_updated": "2026-08-11T04:42:08.186601+00:00"
+    },
+    "paradigmxyz/iron-proxy": {
+      "lists": [],
+      "metadata": {
+        "id": 1198724226,
+        "name": "iron-proxy",
+        "full_name": "paradigmxyz/iron-proxy",
+        "description": "An egress firewall for untrusted workloads.",
+        "url": "https://github.com/paradigmxyz/iron-proxy",
+        "homepage": "https://docs.iron.sh",
+        "language": "Go",
+        "stars": 565,
+        "forks": 31,
+        "open_issues": 18,
+        "created_at": "2026-04-01T17:40:30Z",
+        "updated_at": "2026-08-10T23:52:24Z",
+        "pushed_at": "2026-08-10T15:46:59Z",
+        "starred_at": "2026-04-23T02:49:53Z"
+      },
+      "last_updated": "2026-08-11T04:42:08.696102+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243290,5 +243370,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"697ca7e40900e3e7099d550bf5f3f0c2000b5a7c976c0d3544c28e616df06509\""
+  "profile_etag": "W/\"cbbc4064a88924e05bb4666f20f05a4d8d5ceb5fde8f85558447d20747d2a572\""
 }
