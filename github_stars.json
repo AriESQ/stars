@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T04:49:36.562783+00:00",
+  "last_updated": "2026-08-11T04:50:29.135083+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243302,7 +243302,15 @@
         "pushed_at": "2026-08-11T01:38:42Z",
         "starred_at": "2026-08-10T21:44:27Z"
       },
-      "last_updated": "2026-08-11T04:42:07.575242+00:00"
+      "last_updated": "2026-08-11T04:42:07.575242+00:00",
+      "readme": {
+        "path": "readmes/fooyin+fooyin+README.md",
+        "etag": "W/\"2cc4bf518214777aa72a4401ca63dd40e499fdf8\"",
+        "sha": "2cc4bf518214777aa72a4401ca63dd40e499fdf8",
+        "size": 5826,
+        "fetched_at": "2026-08-11T04:50:28.776258+00:00",
+        "status": "ok"
+      }
     },
     "GoatsAndMonkeys/handheld-video-synth": {
       "lists": [
@@ -243324,7 +243332,15 @@
         "pushed_at": "2026-08-11T02:28:28Z",
         "starred_at": "2026-08-10T19:34:31Z"
       },
-      "last_updated": "2026-08-11T04:42:07.874804+00:00"
+      "last_updated": "2026-08-11T04:42:07.874804+00:00",
+      "readme": {
+        "path": "readmes/GoatsAndMonkeys+handheld-video-synth+README.md",
+        "etag": "W/\"73015956978362dea83e1ab0581349d69af5b760\"",
+        "sha": "73015956978362dea83e1ab0581349d69af5b760",
+        "size": 16792,
+        "fetched_at": "2026-08-11T04:50:28.415938+00:00",
+        "status": "ok"
+      }
     },
     "BusterFranken/webflow-scraper": {
       "lists": [
@@ -243348,7 +243364,15 @@
         "pushed_at": "2026-01-07T16:33:41Z",
         "starred_at": "2026-08-10T18:41:38Z"
       },
-      "last_updated": "2026-08-11T04:42:08.186601+00:00"
+      "last_updated": "2026-08-11T04:42:08.186601+00:00",
+      "readme": {
+        "path": "readmes/BusterFranken+webflow-scraper+README.md",
+        "etag": "W/\"548c00c65f53b55e3a155ae22e7b3e3f71ae239d\"",
+        "sha": "548c00c65f53b55e3a155ae22e7b3e3f71ae239d",
+        "size": 6547,
+        "fetched_at": "2026-08-11T04:50:28.042780+00:00",
+        "status": "ok"
+      }
     },
     "paradigmxyz/iron-proxy": {
       "lists": [
@@ -243374,7 +243398,15 @@
         "pushed_at": "2026-08-10T15:46:59Z",
         "starred_at": "2026-04-23T02:49:53Z"
       },
-      "last_updated": "2026-08-11T04:42:08.696102+00:00"
+      "last_updated": "2026-08-11T04:42:08.696102+00:00",
+      "readme": {
+        "path": "readmes/paradigmxyz+iron-proxy+README.md",
+        "etag": "W/\"3ddf69064404afb38211ff57eefa2346775c32d7\"",
+        "sha": "3ddf69064404afb38211ff57eefa2346775c32d7",
+        "size": 42461,
+        "fetched_at": "2026-08-11T04:50:29.130183+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
