@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T04:50:29.135083+00:00",
+  "last_updated": "2026-08-12T05:04:28.846210+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243407,6 +243407,86 @@
         "fetched_at": "2026-08-11T04:50:29.130183+00:00",
         "status": "ok"
       }
+    },
+    "gbevin/homebrew-tools": {
+      "lists": [],
+      "metadata": {
+        "id": 79109109,
+        "name": "homebrew-tools",
+        "full_name": "gbevin/homebrew-tools",
+        "description": "Custom tap for Homebrew package manager",
+        "url": "https://github.com/gbevin/homebrew-tools",
+        "homepage": null,
+        "language": "Ruby",
+        "stars": 2,
+        "forks": 1,
+        "open_issues": 3,
+        "created_at": "2017-01-16T10:46:42Z",
+        "updated_at": "2026-08-11T19:10:59Z",
+        "pushed_at": "2026-07-19T02:10:18Z",
+        "starred_at": "2026-08-11T19:10:59Z"
+      },
+      "last_updated": "2026-08-12T05:04:27.544660+00:00"
+    },
+    "TheRealYT/git-knife": {
+      "lists": [],
+      "metadata": {
+        "id": 1329867086,
+        "name": "git-knife",
+        "full_name": "TheRealYT/git-knife",
+        "description": null,
+        "url": "https://github.com/TheRealYT/git-knife",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 182,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2026-08-10T13:40:01Z",
+        "updated_at": "2026-08-12T04:55:29Z",
+        "pushed_at": "2026-08-11T17:13:54Z",
+        "starred_at": "2026-08-11T17:22:31Z"
+      },
+      "last_updated": "2026-08-12T05:04:27.899852+00:00"
+    },
+    "antirez/h3.c": {
+      "lists": [],
+      "metadata": {
+        "id": 1328627783,
+        "name": "h3.c",
+        "full_name": "antirez/h3.c",
+        "description": "MiniMax H3 inference engine for Mac computers",
+        "url": "https://github.com/antirez/h3.c",
+        "homepage": null,
+        "language": "C",
+        "stars": 1341,
+        "forks": 67,
+        "open_issues": 13,
+        "created_at": "2026-08-09T09:12:47Z",
+        "updated_at": "2026-08-12T05:03:42Z",
+        "pushed_at": "2026-08-11T13:53:32Z",
+        "starred_at": "2026-08-11T05:36:11Z"
+      },
+      "last_updated": "2026-08-12T05:04:28.271101+00:00"
+    },
+    "hydra-ecosystem/hydra": {
+      "lists": [],
+      "metadata": {
+        "id": 191632914,
+        "name": "hydra",
+        "full_name": "hydra-ecosystem/hydra",
+        "description": "Hydra is a framework for elegantly configuring complex applications",
+        "url": "https://github.com/hydra-ecosystem/hydra",
+        "homepage": "http://hydra.cc/",
+        "language": "Python",
+        "stars": 10592,
+        "forks": 950,
+        "open_issues": 108,
+        "created_at": "2019-06-12T19:33:15Z",
+        "updated_at": "2026-08-11T23:56:39Z",
+        "pushed_at": "2026-08-12T00:14:57Z",
+        "starred_at": "2023-08-17T04:40:11Z"
+      },
+      "last_updated": "2026-08-12T05:04:28.846146+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243416,5 +243496,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"cbbc4064a88924e05bb4666f20f05a4d8d5ceb5fde8f85558447d20747d2a572\""
+  "profile_etag": "W/\"da695bb11b02605fbb85910c5648321b2d3ca339485d1fb9080a1c2b31b1f34f\""
 }
