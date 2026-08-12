@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T05:12:43.818855+00:00",
+  "last_updated": "2026-08-12T05:13:23.913168+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243428,7 +243428,11 @@
         "pushed_at": "2026-07-19T02:10:18Z",
         "starred_at": "2026-08-11T19:10:59Z"
       },
-      "last_updated": "2026-08-12T05:04:27.544660+00:00"
+      "last_updated": "2026-08-12T05:04:27.544660+00:00",
+      "readme": {
+        "fetched_at": "2026-08-12T05:13:23.625064+00:00",
+        "status": "missing"
+      }
     },
     "TheRealYT/git-knife": {
       "lists": [
@@ -243451,7 +243455,15 @@
         "pushed_at": "2026-08-11T17:13:54Z",
         "starred_at": "2026-08-11T17:22:31Z"
       },
-      "last_updated": "2026-08-12T05:04:27.899852+00:00"
+      "last_updated": "2026-08-12T05:04:27.899852+00:00",
+      "readme": {
+        "path": "readmes/TheRealYT+git-knife+README.md",
+        "etag": "W/\"f567ea33c968c5dcc416697a0daa2c83cc20afec\"",
+        "sha": "f567ea33c968c5dcc416697a0daa2c83cc20afec",
+        "size": 8119,
+        "fetched_at": "2026-08-12T05:13:23.017680+00:00",
+        "status": "ok"
+      }
     },
     "antirez/h3.c": {
       "lists": [
@@ -243473,7 +243485,15 @@
         "pushed_at": "2026-08-11T13:53:32Z",
         "starred_at": "2026-08-11T05:36:11Z"
       },
-      "last_updated": "2026-08-12T05:04:28.271101+00:00"
+      "last_updated": "2026-08-12T05:04:28.271101+00:00",
+      "readme": {
+        "path": "readmes/antirez+h3.c+README.md",
+        "etag": "W/\"4750ac49a549ace77f47afd04e382fb51b404a2e\"",
+        "sha": "4750ac49a549ace77f47afd04e382fb51b404a2e",
+        "size": 42217,
+        "fetched_at": "2026-08-12T05:13:23.285244+00:00",
+        "status": "ok"
+      }
     },
     "hydra-ecosystem/hydra": {
       "lists": [
@@ -243496,7 +243516,15 @@
         "pushed_at": "2026-08-12T00:14:57Z",
         "starred_at": "2023-08-17T04:40:11Z"
       },
-      "last_updated": "2026-08-12T05:04:28.846146+00:00"
+      "last_updated": "2026-08-12T05:04:28.846146+00:00",
+      "readme": {
+        "path": "readmes/hydra-ecosystem+hydra+README.md",
+        "etag": "W/\"256b001489437a95d893305cda5ec47007ba7103\"",
+        "sha": "256b001489437a95d893305cda5ec47007ba7103",
+        "size": 3823,
+        "fetched_at": "2026-08-12T05:13:23.906703+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
