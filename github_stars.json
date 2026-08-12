@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T05:04:28.846210+00:00",
+  "last_updated": "2026-08-12T05:12:43.818855+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243409,7 +243409,9 @@
       }
     },
     "gbevin/homebrew-tools": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 79109109,
         "name": "homebrew-tools",
@@ -243429,7 +243431,10 @@
       "last_updated": "2026-08-12T05:04:27.544660+00:00"
     },
     "TheRealYT/git-knife": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions"
+      ],
       "metadata": {
         "id": 1329867086,
         "name": "git-knife",
@@ -243449,7 +243454,9 @@
       "last_updated": "2026-08-12T05:04:27.899852+00:00"
     },
     "antirez/h3.c": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1328627783,
         "name": "h3.c",
@@ -243469,7 +243476,10 @@
       "last_updated": "2026-08-12T05:04:28.271101+00:00"
     },
     "hydra-ecosystem/hydra": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 191632914,
         "name": "hydra",
