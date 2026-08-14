@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T05:15:07.878613+00:00",
+  "last_updated": "2026-08-14T05:04:05.916444+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243525,6 +243525,86 @@
         "fetched_at": "2026-08-12T05:13:23.906703+00:00",
         "status": "ok"
       }
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1166506614,
+        "name": "Anthropic-Cybersecurity-Skills",
+        "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+        "description": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
+        "language": "Python",
+        "stars": 27756,
+        "forks": 3369,
+        "open_issues": 45,
+        "created_at": "2026-02-25T09:47:50Z",
+        "updated_at": "2026-08-14T04:27:52Z",
+        "pushed_at": "2026-08-08T14:55:19Z",
+        "starred_at": "2026-08-13T16:37:42Z"
+      },
+      "last_updated": "2026-08-14T05:04:04.965260+00:00"
+    },
+    "fellowgeek/mcp-memory": {
+      "lists": [],
+      "metadata": {
+        "id": 1332590617,
+        "name": "mcp-memory",
+        "full_name": "fellowgeek/mcp-memory",
+        "description": "An OKF-backed Model Context Protocol (MCP) server delivering persistent long-term memory and SQLite FTS5 search for AI agents.",
+        "url": "https://github.com/fellowgeek/mcp-memory",
+        "homepage": null,
+        "language": "Python",
+        "stars": 119,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2026-08-13T01:37:25Z",
+        "updated_at": "2026-08-14T05:00:26Z",
+        "pushed_at": "2026-08-13T02:11:55Z",
+        "starred_at": "2026-08-13T15:56:52Z"
+      },
+      "last_updated": "2026-08-14T05:04:05.218728+00:00"
+    },
+    "xoreaxeaxeax/skitter-creek-bath-salts": {
+      "lists": [],
+      "metadata": {
+        "id": 1333170396,
+        "name": "skitter-creek-bath-salts",
+        "full_name": "xoreaxeaxeax/skitter-creek-bath-salts",
+        "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+        "homepage": "",
+        "language": "C",
+        "stars": 1116,
+        "forks": 109,
+        "open_issues": 0,
+        "created_at": "2026-08-13T13:50:42Z",
+        "updated_at": "2026-08-14T05:03:47Z",
+        "pushed_at": "2026-08-13T16:59:41Z",
+        "starred_at": "2026-08-13T15:56:10Z"
+      },
+      "last_updated": "2026-08-14T05:04:05.459646+00:00"
+    },
+    "ComputingRCA/CreativeCoding": {
+      "lists": [],
+      "metadata": {
+        "id": 630491157,
+        "name": "CreativeCoding",
+        "full_name": "ComputingRCA/CreativeCoding",
+        "description": "Online guide and resources for creative coding.",
+        "url": "https://github.com/ComputingRCA/CreativeCoding",
+        "homepage": "https://xrrca.github.io/CreativeCoding/",
+        "language": "JavaScript",
+        "stars": 20,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2023-04-20T13:49:58Z",
+        "updated_at": "2026-06-10T05:35:52Z",
+        "pushed_at": "2024-06-05T13:44:19Z",
+        "starred_at": "2025-01-06T23:46:59Z"
+      },
+      "last_updated": "2026-08-14T05:04:05.916410+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243534,5 +243614,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"75f59477734d639b02a9a7b6b1d45ec105b8fe6fe6e4ff812b256463fddfa52c\""
+  "profile_etag": "W/\"08686dc5120958076387fc604cb3a72100adedef37df7a4024f1911247aeee48\""
 }
