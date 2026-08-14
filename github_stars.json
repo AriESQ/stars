@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T05:11:44.616816+00:00",
+  "last_updated": "2026-08-14T05:12:39.644072+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243547,7 +243547,15 @@
         "pushed_at": "2026-08-08T14:55:19Z",
         "starred_at": "2026-08-13T16:37:42Z"
       },
-      "last_updated": "2026-08-14T05:04:04.965260+00:00"
+      "last_updated": "2026-08-14T05:04:04.965260+00:00",
+      "readme": {
+        "path": "readmes/mukul975+Anthropic-Cybersecurity-Skills+README.md",
+        "etag": "W/\"fae37f4adbde636ee335651b65d0797f1344c0c5\"",
+        "sha": "fae37f4adbde636ee335651b65d0797f1344c0c5",
+        "size": 28948,
+        "fetched_at": "2026-08-14T05:12:39.429208+00:00",
+        "status": "ok"
+      }
     },
     "fellowgeek/mcp-memory": {
       "lists": [
@@ -243569,7 +243577,15 @@
         "pushed_at": "2026-08-13T02:11:55Z",
         "starred_at": "2026-08-13T15:56:52Z"
       },
-      "last_updated": "2026-08-14T05:04:05.218728+00:00"
+      "last_updated": "2026-08-14T05:04:05.218728+00:00",
+      "readme": {
+        "path": "readmes/fellowgeek+mcp-memory+README.md",
+        "etag": "W/\"62ffe6fd487c9ed9153740e43ca593a52439ba30\"",
+        "sha": "62ffe6fd487c9ed9153740e43ca593a52439ba30",
+        "size": 8333,
+        "fetched_at": "2026-08-14T05:12:39.183593+00:00",
+        "status": "ok"
+      }
     },
     "xoreaxeaxeax/skitter-creek-bath-salts": {
       "lists": [
@@ -243591,7 +243607,15 @@
         "pushed_at": "2026-08-13T16:59:41Z",
         "starred_at": "2026-08-13T15:56:10Z"
       },
-      "last_updated": "2026-08-14T05:04:05.459646+00:00"
+      "last_updated": "2026-08-14T05:04:05.459646+00:00",
+      "readme": {
+        "path": "readmes/xoreaxeaxeax+skitter-creek-bath-salts+README.md",
+        "etag": "W/\"032f3573cc3cb25aaa0d83c35ee94e4ff51be9e6\"",
+        "sha": "032f3573cc3cb25aaa0d83c35ee94e4ff51be9e6",
+        "size": 36309,
+        "fetched_at": "2026-08-14T05:12:39.643372+00:00",
+        "status": "ok"
+      }
     },
     "ComputingRCA/CreativeCoding": {
       "lists": [
@@ -243613,7 +243637,15 @@
         "pushed_at": "2024-06-05T13:44:19Z",
         "starred_at": "2025-01-06T23:46:59Z"
       },
-      "last_updated": "2026-08-14T05:04:05.916410+00:00"
+      "last_updated": "2026-08-14T05:04:05.916410+00:00",
+      "readme": {
+        "path": "readmes/ComputingRCA+CreativeCoding+README.md",
+        "etag": "W/\"5dcffba3efad4b89a91d604299cf00789046b155\"",
+        "sha": "5dcffba3efad4b89a91d604299cf00789046b155",
+        "size": 1015,
+        "fetched_at": "2026-08-14T05:12:38.958714+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
