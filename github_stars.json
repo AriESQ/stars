@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T05:04:05.916444+00:00",
+  "last_updated": "2026-08-14T05:11:44.616816+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243527,7 +243527,10 @@
       }
     },
     "mukul975/Anthropic-Cybersecurity-Skills": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1166506614,
         "name": "Anthropic-Cybersecurity-Skills",
@@ -243547,7 +243550,9 @@
       "last_updated": "2026-08-14T05:04:04.965260+00:00"
     },
     "fellowgeek/mcp-memory": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1332590617,
         "name": "mcp-memory",
@@ -243567,7 +243572,9 @@
       "last_updated": "2026-08-14T05:04:05.218728+00:00"
     },
     "xoreaxeaxeax/skitter-creek-bath-salts": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1333170396,
         "name": "skitter-creek-bath-salts",
@@ -243587,7 +243594,9 @@
       "last_updated": "2026-08-14T05:04:05.459646+00:00"
     },
     "ComputingRCA/CreativeCoding": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 630491157,
         "name": "CreativeCoding",
