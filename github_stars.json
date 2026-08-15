@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T05:12:39.644072+00:00",
+  "last_updated": "2026-08-15T03:55:55.129650+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243646,6 +243646,26 @@
         "fetched_at": "2026-08-14T05:12:38.958714+00:00",
         "status": "ok"
       }
+    },
+    "openstates/people": {
+      "lists": [],
+      "metadata": {
+        "id": 150452871,
+        "name": "people",
+        "full_name": "openstates/people",
+        "description": "Curated information on all state legislators & governors.",
+        "url": "https://github.com/openstates/people",
+        "homepage": "",
+        "language": null,
+        "stars": 156,
+        "forks": 123,
+        "open_issues": 41,
+        "created_at": "2018-09-26T15:58:34Z",
+        "updated_at": "2026-08-14T17:47:54Z",
+        "pushed_at": "2026-08-13T00:41:18Z",
+        "starred_at": "2026-08-14T17:47:53Z"
+      },
+      "last_updated": "2026-08-15T03:55:55.129511+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243655,5 +243675,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"08686dc5120958076387fc604cb3a72100adedef37df7a4024f1911247aeee48\""
+  "profile_etag": "W/\"da89229e41cd66080c6072c3b3d4d447998c2e51730cb224b8045858516ab843\""
 }
