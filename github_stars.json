@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T03:55:55.129650+00:00",
+  "last_updated": "2026-08-15T04:00:31.856263+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243648,7 +243648,9 @@
       }
     },
     "openstates/people": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 150452871,
         "name": "people",
