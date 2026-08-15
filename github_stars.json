@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T04:00:31.856263+00:00",
+  "last_updated": "2026-08-15T04:04:20.296959+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243667,7 +243667,15 @@
         "pushed_at": "2026-08-13T00:41:18Z",
         "starred_at": "2026-08-14T17:47:53Z"
       },
-      "last_updated": "2026-08-15T03:55:55.129511+00:00"
+      "last_updated": "2026-08-15T03:55:55.129511+00:00",
+      "readme": {
+        "path": "readmes/openstates+people+README.md",
+        "etag": "W/\"0eb8ee534563fce18a0d96a9e597d7e43d9aea2a\"",
+        "sha": "0eb8ee534563fce18a0d96a9e597d7e43d9aea2a",
+        "size": 2026,
+        "fetched_at": "2026-08-15T04:04:20.293322+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
