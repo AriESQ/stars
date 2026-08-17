@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T04:04:32.475132+00:00",
+  "last_updated": "2026-08-17T04:12:30.406966+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243698,7 +243698,10 @@
       "last_updated": "2026-08-17T04:04:31.744043+00:00"
     },
     "betrusted-io/xous-core": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust"
+      ],
       "metadata": {
         "id": 246203193,
         "name": "xous-core",
@@ -243718,7 +243721,9 @@
       "last_updated": "2026-08-17T04:04:32.130271+00:00"
     },
     "ericsouther-source/mosh-top": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1315163279,
         "name": "mosh-top",
