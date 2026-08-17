@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T04:12:30.406966+00:00",
+  "last_updated": "2026-08-17T04:12:59.078851+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243695,7 +243695,15 @@
         "pushed_at": "2026-08-16T23:29:07Z",
         "starred_at": "2026-08-17T01:12:14Z"
       },
-      "last_updated": "2026-08-17T04:04:31.744043+00:00"
+      "last_updated": "2026-08-17T04:04:31.744043+00:00",
+      "readme": {
+        "path": "readmes/mldsveda+PyScrappy+README.md",
+        "etag": "W/\"32548ea5dda8955aa4dd0739eb2c542f9d5af4b4\"",
+        "sha": "32548ea5dda8955aa4dd0739eb2c542f9d5af4b4",
+        "size": 21304,
+        "fetched_at": "2026-08-17T04:12:59.074978+00:00",
+        "status": "ok"
+      }
     },
     "betrusted-io/xous-core": {
       "lists": [
@@ -243718,7 +243726,15 @@
         "pushed_at": "2026-08-15T02:55:46Z",
         "starred_at": "2026-08-16T20:36:05Z"
       },
-      "last_updated": "2026-08-17T04:04:32.130271+00:00"
+      "last_updated": "2026-08-17T04:04:32.130271+00:00",
+      "readme": {
+        "path": "readmes/betrusted-io+xous-core+README.md",
+        "etag": "W/\"297f250208fdd9c2742e4185c1fb84eb3da09a9b\"",
+        "sha": "297f250208fdd9c2742e4185c1fb84eb3da09a9b",
+        "size": 5350,
+        "fetched_at": "2026-08-17T04:12:58.263961+00:00",
+        "status": "ok"
+      }
     },
     "ericsouther-source/mosh-top": {
       "lists": [
@@ -243740,7 +243756,15 @@
         "pushed_at": "2026-07-31T17:02:06Z",
         "starred_at": "2026-08-16T18:22:50Z"
       },
-      "last_updated": "2026-08-17T04:04:32.475011+00:00"
+      "last_updated": "2026-08-17T04:04:32.475011+00:00",
+      "readme": {
+        "path": "readmes/ericsouther-source+mosh-top+README.md",
+        "etag": "W/\"ace7ee1c0579cc333c35bf972a145bd8f4d14770\"",
+        "sha": "ace7ee1c0579cc333c35bf972a145bd8f4d14770",
+        "size": 9961,
+        "fetched_at": "2026-08-17T04:12:58.743999+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
