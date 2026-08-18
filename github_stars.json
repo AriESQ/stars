@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T04:00:08.421882+00:00",
+  "last_updated": "2026-08-18T04:08:27.668376+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243678,7 +243678,10 @@
       }
     },
     "mldsveda/PyScrappy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 378994538,
         "name": "PyScrappy",
@@ -243767,7 +243770,12 @@
       }
     },
     "CampusTech/fleet-plan": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops",
+        "GoLang",
+        "Windows"
+      ],
       "metadata": {
         "id": 1158212737,
         "name": "fleet-plan",
