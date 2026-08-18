@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T04:12:59.078851+00:00",
+  "last_updated": "2026-08-18T04:00:08.421882+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243765,6 +243765,26 @@
         "fetched_at": "2026-08-17T04:12:58.743999+00:00",
         "status": "ok"
       }
+    },
+    "CampusTech/fleet-plan": {
+      "lists": [],
+      "metadata": {
+        "id": 1158212737,
+        "name": "fleet-plan",
+        "full_name": "CampusTech/fleet-plan",
+        "description": "terraform plan, but for Fleet",
+        "url": "https://github.com/CampusTech/fleet-plan",
+        "homepage": "",
+        "language": "Go",
+        "stars": 11,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2026-02-15T01:13:17Z",
+        "updated_at": "2026-08-18T03:11:32Z",
+        "pushed_at": "2026-08-18T03:11:02Z",
+        "starred_at": "2026-04-23T18:05:46Z"
+      },
+      "last_updated": "2026-08-18T04:00:08.421827+00:00"
     }
   },
   "last_processed_index": 0,
@@ -243774,5 +243794,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"636be88c296fc711f8298f2c908d5a88bd9daf78586e349c6ee88b2b9543b0b4\""
+  "profile_etag": "W/\"9d5b636ae32f9c26d04ee3aebd91f09b51d90c18121c419ab4e7e4b6bdc80d2b\""
 }
