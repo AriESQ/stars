@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T04:08:54.768517+00:00",
+  "last_updated": "2026-08-19T04:09:22.213753+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -243824,7 +243824,15 @@
         "pushed_at": "2026-08-17T19:54:12Z",
         "starred_at": "2026-08-19T01:05:03Z"
       },
-      "last_updated": "2026-08-19T04:00:49.396296+00:00"
+      "last_updated": "2026-08-19T04:00:49.396296+00:00",
+      "readme": {
+        "path": "readmes/pg83+ix+README.md",
+        "etag": "W/\"fed937c8c1e238d435999149b6619423dcd32c3c\"",
+        "sha": "fed937c8c1e238d435999149b6619423dcd32c3c",
+        "size": 6619,
+        "fetched_at": "2026-08-19T04:09:21.718761+00:00",
+        "status": "ok"
+      }
     },
     "pg83/solo": {
       "lists": [
@@ -243846,7 +243854,15 @@
         "pushed_at": "2026-08-17T21:15:58Z",
         "starred_at": "2026-08-19T01:04:37Z"
       },
-      "last_updated": "2026-08-19T04:00:49.732485+00:00"
+      "last_updated": "2026-08-19T04:00:49.732485+00:00",
+      "readme": {
+        "path": "readmes/pg83+solo+README.md",
+        "etag": "W/\"a84c43ee09dd8943b9f79454fbef5c0cd098752f\"",
+        "sha": "a84c43ee09dd8943b9f79454fbef5c0cd098752f",
+        "size": 15366,
+        "fetched_at": "2026-08-19T04:09:21.933753+00:00",
+        "status": "ok"
+      }
     },
     "google/syzkaller": {
       "lists": [
@@ -243870,7 +243886,15 @@
         "pushed_at": "2026-08-17T12:49:23Z",
         "starred_at": "2026-08-18T23:44:46Z"
       },
-      "last_updated": "2026-08-19T04:00:50.098535+00:00"
+      "last_updated": "2026-08-19T04:00:50.098535+00:00",
+      "readme": {
+        "path": "readmes/google+syzkaller+README.md",
+        "etag": "W/\"8098711c104a0cbf0ea90f8f300e2e1de4e4f0b0\"",
+        "sha": "8098711c104a0cbf0ea90f8f300e2e1de4e4f0b0",
+        "size": 2463,
+        "fetched_at": "2026-08-19T04:09:21.458550+00:00",
+        "status": "ok"
+      }
     },
     "cachix/dotenv-ng": {
       "lists": [
@@ -243894,7 +243918,15 @@
         "pushed_at": "2026-08-16T03:17:45Z",
         "starred_at": "2026-08-18T22:20:22Z"
       },
-      "last_updated": "2026-08-19T04:00:50.562309+00:00"
+      "last_updated": "2026-08-19T04:00:50.562309+00:00",
+      "readme": {
+        "path": "readmes/cachix+dotenv-ng+README.md",
+        "etag": "W/\"d399774985f4d74a4b8862cba98d2266b0c08296\"",
+        "sha": "d399774985f4d74a4b8862cba98d2266b0c08296",
+        "size": 9630,
+        "fetched_at": "2026-08-19T04:09:20.920975+00:00",
+        "status": "ok"
+      }
     },
     "RyanCodrai/turbovec": {
       "lists": [
@@ -243918,7 +243950,15 @@
         "pushed_at": "2026-08-18T20:35:43Z",
         "starred_at": "2026-08-18T22:12:32Z"
       },
-      "last_updated": "2026-08-19T04:00:50.906855+00:00"
+      "last_updated": "2026-08-19T04:00:50.906855+00:00",
+      "readme": {
+        "path": "readmes/RyanCodrai+turbovec+README.md",
+        "etag": "W/\"1421e972d7d6775fcc506afcb871a6fafe5c45eb\"",
+        "sha": "1421e972d7d6775fcc506afcb871a6fafe5c45eb",
+        "size": 24829,
+        "fetched_at": "2026-08-19T04:09:20.701964+00:00",
+        "status": "ok"
+      }
     },
     "pitiflautico/neobrowser": {
       "lists": [
@@ -243941,7 +243981,15 @@
         "pushed_at": "2026-08-18T19:26:18Z",
         "starred_at": "2026-08-18T13:52:55Z"
       },
-      "last_updated": "2026-08-19T04:00:51.265105+00:00"
+      "last_updated": "2026-08-19T04:00:51.265105+00:00",
+      "readme": {
+        "path": "readmes/pitiflautico+neobrowser+README.md",
+        "etag": "W/\"f6bac86fb363229e090fba05cb942aae2726fc68\"",
+        "sha": "f6bac86fb363229e090fba05cb942aae2726fc68",
+        "size": 12052,
+        "fetched_at": "2026-08-19T04:09:22.210044+00:00",
+        "status": "ok"
+      }
     },
     "Mesh2Motion/mesh2motion-desktop": {
       "lists": [
@@ -243963,7 +244011,15 @@
         "pushed_at": "2026-08-01T14:34:31Z",
         "starred_at": "2026-08-18T04:25:51Z"
       },
-      "last_updated": "2026-08-19T04:00:51.668732+00:00"
+      "last_updated": "2026-08-19T04:00:51.668732+00:00",
+      "readme": {
+        "path": "readmes/Mesh2Motion+mesh2motion-desktop+README.md",
+        "etag": "W/\"5e685b5226bc243794f1e742d5ec6fe1b60b346a\"",
+        "sha": "5e685b5226bc243794f1e742d5ec6fe1b60b346a",
+        "size": 3685,
+        "fetched_at": "2026-08-19T04:09:20.498573+00:00",
+        "status": "ok"
+      }
     },
     "fast/hawkeye": {
       "lists": [
@@ -243987,7 +244043,15 @@
         "pushed_at": "2026-08-19T03:37:05Z",
         "starred_at": "2023-01-07T16:43:22Z"
       },
-      "last_updated": "2026-08-19T04:00:52.233919+00:00"
+      "last_updated": "2026-08-19T04:00:52.233919+00:00",
+      "readme": {
+        "path": "readmes/fast+hawkeye+README.md",
+        "etag": "W/\"951113ee35f45406625de042490d1e4daebfe741\"",
+        "sha": "951113ee35f45406625de042490d1e4daebfe741",
+        "size": 12622,
+        "fetched_at": "2026-08-19T04:09:21.152464+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
