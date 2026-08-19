@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T04:00:52.233937+00:00",
+  "last_updated": "2026-08-19T04:08:54.768517+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -239616,7 +239616,8 @@
       "lists": [
         "Devops",
         "Infosec",
-        "Networking"
+        "Networking",
+        "DIY"
       ],
       "metadata": {
         "id": 73515052,
@@ -243803,7 +243804,10 @@
       }
     },
     "pg83/ix": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 598191799,
         "name": "ix",
@@ -243823,7 +243827,9 @@
       "last_updated": "2026-08-19T04:00:49.396296+00:00"
     },
     "pg83/solo": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1334236900,
         "name": "solo",
@@ -243843,7 +243849,11 @@
       "last_updated": "2026-08-19T04:00:49.732485+00:00"
     },
     "google/syzkaller": {
-      "lists": [],
+      "lists": [
+        "Fuzzing",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 44087204,
         "name": "syzkaller",
@@ -243863,7 +243873,11 @@
       "last_updated": "2026-08-19T04:00:50.098535+00:00"
     },
     "cachix/dotenv-ng": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Infosec",
+        "Rust"
+      ],
       "metadata": {
         "id": 1335584199,
         "name": "dotenv-ng",
@@ -243883,7 +243897,11 @@
       "last_updated": "2026-08-19T04:00:50.562309+00:00"
     },
     "RyanCodrai/turbovec": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python",
+        "Rust"
+      ],
       "metadata": {
         "id": 1192555574,
         "name": "turbovec",
@@ -243903,7 +243921,10 @@
       "last_updated": "2026-08-19T04:00:50.906855+00:00"
     },
     "pitiflautico/neobrowser": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1180162454,
         "name": "neobrowser",
@@ -243923,7 +243944,9 @@
       "last_updated": "2026-08-19T04:00:51.265105+00:00"
     },
     "Mesh2Motion/mesh2motion-desktop": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1254570428,
         "name": "mesh2motion-desktop",
@@ -243943,7 +243966,11 @@
       "last_updated": "2026-08-19T04:00:51.668732+00:00"
     },
     "fast/hawkeye": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 584255967,
         "name": "hawkeye",
