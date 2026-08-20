@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T04:00:33.187919+00:00",
+  "last_updated": "2026-08-20T04:08:59.786751+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244054,7 +244054,10 @@
       }
     },
     "JakeSwiz/splinter": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1275372378,
         "name": "splinter",
@@ -244074,7 +244077,11 @@
       "last_updated": "2026-08-20T04:00:32.365134+00:00"
     },
     "AprilNEA/OpenLogi": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Rust",
+        "Windows"
+      ],
       "metadata": {
         "id": 1248194723,
         "name": "OpenLogi",
@@ -244094,7 +244101,9 @@
       "last_updated": "2026-08-20T04:00:32.759901+00:00"
     },
     "esp32-open-mac/esp32-open-mac": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 728399444,
         "name": "esp32-open-mac",
