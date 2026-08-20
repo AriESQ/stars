@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T04:09:22.213753+00:00",
+  "last_updated": "2026-08-20T04:00:33.187919+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244052,6 +244052,66 @@
         "fetched_at": "2026-08-19T04:09:21.152464+00:00",
         "status": "ok"
       }
+    },
+    "JakeSwiz/splinter": {
+      "lists": [],
+      "metadata": {
+        "id": 1275372378,
+        "name": "splinter",
+        "full_name": "JakeSwiz/splinter",
+        "description": "An ESP32 firmware that is specifically designed to masquerade your digital/electronic footprint for signals that your devices emit. Drown surveillance out with realistic-looking, indeterministic signal generation. ",
+        "url": "https://github.com/JakeSwiz/splinter",
+        "homepage": null,
+        "language": "C",
+        "stars": 128,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-06-20T15:51:33Z",
+        "updated_at": "2026-08-19T17:36:01Z",
+        "pushed_at": "2026-07-04T03:42:55Z",
+        "starred_at": "2026-08-19T17:36:00Z"
+      },
+      "last_updated": "2026-08-20T04:00:32.365134+00:00"
+    },
+    "AprilNEA/OpenLogi": {
+      "lists": [],
+      "metadata": {
+        "id": 1248194723,
+        "name": "OpenLogi",
+        "full_name": "AprilNEA/OpenLogi",
+        "description": "\u26a1\ufe0fA native, local-first alternative to Logitech Options+, written in Rust \ud83e\udd80 \u2014 remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+        "url": "https://github.com/AprilNEA/OpenLogi",
+        "homepage": "https://openlogi.org",
+        "language": "Rust",
+        "stars": 10640,
+        "forks": 296,
+        "open_issues": 184,
+        "created_at": "2026-05-24T10:10:36Z",
+        "updated_at": "2026-08-20T04:00:13Z",
+        "pushed_at": "2026-08-20T03:02:16Z",
+        "starred_at": "2026-08-19T12:59:32Z"
+      },
+      "last_updated": "2026-08-20T04:00:32.759901+00:00"
+    },
+    "esp32-open-mac/esp32-open-mac": {
+      "lists": [],
+      "metadata": {
+        "id": 728399444,
+        "name": "esp32-open-mac",
+        "full_name": "esp32-open-mac/esp32-open-mac",
+        "description": "Reverse engineered wifi driver for the ESP32",
+        "url": "https://github.com/esp32-open-mac/esp32-open-mac",
+        "homepage": null,
+        "language": "C",
+        "stars": 844,
+        "forks": 40,
+        "open_issues": 8,
+        "created_at": "2023-12-06T21:27:41Z",
+        "updated_at": "2026-08-19T11:56:58Z",
+        "pushed_at": "2025-03-07T19:56:51Z",
+        "starred_at": "2026-08-19T11:33:56Z"
+      },
+      "last_updated": "2026-08-20T04:00:33.187803+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244061,5 +244121,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"cd1f6ded3b483f9a2732a03e4b459d16565bdc33485a71f7bb4fab3f97a711ef\""
+  "profile_etag": "W/\"1dc0771f11a0064ad5a963435d39c8988657479b0aa344b44513d0fa01dab45d\""
 }
