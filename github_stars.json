@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T04:08:59.786751+00:00",
+  "last_updated": "2026-08-20T04:09:18.300828+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244074,7 +244074,15 @@
         "pushed_at": "2026-07-04T03:42:55Z",
         "starred_at": "2026-08-19T17:36:00Z"
       },
-      "last_updated": "2026-08-20T04:00:32.365134+00:00"
+      "last_updated": "2026-08-20T04:00:32.365134+00:00",
+      "readme": {
+        "path": "readmes/JakeSwiz+splinter+README.md",
+        "etag": "W/\"5c5ad4e008a92e4ddab462e535640a619be6f825\"",
+        "sha": "5c5ad4e008a92e4ddab462e535640a619be6f825",
+        "size": 10094,
+        "fetched_at": "2026-08-20T04:09:17.984028+00:00",
+        "status": "ok"
+      }
     },
     "AprilNEA/OpenLogi": {
       "lists": [
@@ -244098,7 +244106,15 @@
         "pushed_at": "2026-08-20T03:02:16Z",
         "starred_at": "2026-08-19T12:59:32Z"
       },
-      "last_updated": "2026-08-20T04:00:32.759901+00:00"
+      "last_updated": "2026-08-20T04:00:32.759901+00:00",
+      "readme": {
+        "path": "readmes/AprilNEA+OpenLogi+README.md",
+        "etag": "W/\"c9bfe85886e33de7e2ec21a31eaa932698b8d698\"",
+        "sha": "c9bfe85886e33de7e2ec21a31eaa932698b8d698",
+        "size": 11966,
+        "fetched_at": "2026-08-20T04:09:17.704407+00:00",
+        "status": "ok"
+      }
     },
     "esp32-open-mac/esp32-open-mac": {
       "lists": [
@@ -244120,7 +244136,15 @@
         "pushed_at": "2025-03-07T19:56:51Z",
         "starred_at": "2026-08-19T11:33:56Z"
       },
-      "last_updated": "2026-08-20T04:00:33.187803+00:00"
+      "last_updated": "2026-08-20T04:00:33.187803+00:00",
+      "readme": {
+        "path": "readmes/esp32-open-mac+esp32-open-mac+README.md",
+        "etag": "W/\"f590ba9659a98042368b5f9f2d63add23d1aef5e\"",
+        "sha": "f590ba9659a98042368b5f9f2d63add23d1aef5e",
+        "size": 5591,
+        "fetched_at": "2026-08-20T04:09:18.293095+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
