@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T04:06:57.183023+00:00",
+  "last_updated": "2026-08-21T04:11:28.648836+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244166,7 +244166,15 @@
         "pushed_at": "2025-09-07T22:10:26Z",
         "starred_at": "2023-01-07T23:36:05Z"
       },
-      "last_updated": "2026-08-21T04:02:53.097538+00:00"
+      "last_updated": "2026-08-21T04:02:53.097538+00:00",
+      "readme": {
+        "path": "readmes/GRC-Engineer+awesome-security-GRC+README.md",
+        "etag": "W/\"0de1817df8c141c2521abeaf7d04097ee8816876\"",
+        "sha": "0de1817df8c141c2521abeaf7d04097ee8816876",
+        "size": 32461,
+        "fetched_at": "2026-08-21T04:11:28.635561+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
