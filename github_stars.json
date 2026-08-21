@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T04:09:18.300828+00:00",
+  "last_updated": "2026-08-21T04:02:53.097565+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244145,6 +244145,26 @@
         "fetched_at": "2026-08-20T04:09:18.293095+00:00",
         "status": "ok"
       }
+    },
+    "GRC-Engineer/awesome-security-GRC": {
+      "lists": [],
+      "metadata": {
+        "id": 351508399,
+        "name": "awesome-security-GRC",
+        "full_name": "GRC-Engineer/awesome-security-GRC",
+        "description": "Curated list of resources for security Governance, Risk Management, Compliance and Audit professionals and enthusiasts (if they exist).",
+        "url": "https://github.com/GRC-Engineer/awesome-security-GRC",
+        "homepage": "",
+        "language": null,
+        "stars": 1075,
+        "forks": 212,
+        "open_issues": 21,
+        "created_at": "2021-03-25T16:44:33Z",
+        "updated_at": "2026-08-20T21:07:47Z",
+        "pushed_at": "2025-09-07T22:10:26Z",
+        "starred_at": "2023-01-07T23:36:05Z"
+      },
+      "last_updated": "2026-08-21T04:02:53.097538+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244154,5 +244174,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1dc0771f11a0064ad5a963435d39c8988657479b0aa344b44513d0fa01dab45d\""
+  "profile_etag": "W/\"3487754abd90399d0106628762d789f5e6d9f84ea887204a958c4a40fcaece0b\""
 }
