@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T04:02:53.097565+00:00",
+  "last_updated": "2026-08-21T04:06:57.183023+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244147,7 +244147,9 @@
       }
     },
     "GRC-Engineer/awesome-security-GRC": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 351508399,
         "name": "awesome-security-GRC",
