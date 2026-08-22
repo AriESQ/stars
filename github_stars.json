@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T03:58:48.945297+00:00",
+  "last_updated": "2026-08-22T04:06:30.095816+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -82422,7 +82422,8 @@
     "ArthurBrussee/brush": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "DIY"
       ],
       "metadata": {
         "id": 762378215,
@@ -244177,7 +244178,11 @@
       }
     },
     "mkazhdan/PoissonRecon": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 39105709,
         "name": "PoissonRecon",
@@ -244197,7 +244202,11 @@
       "last_updated": "2026-08-22T03:58:45.852518+00:00"
     },
     "nmoehrle/mvs-texturing": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 27456043,
         "name": "mvs-texturing",
@@ -244217,7 +244226,11 @@
       "last_updated": "2026-08-22T03:58:46.205860+00:00"
     },
     "colmap/colmap": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 23007417,
         "name": "colmap",
@@ -244237,7 +244250,11 @@
       "last_updated": "2026-08-22T03:58:46.565074+00:00"
     },
     "cdcseacave/openMVS": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 35825593,
         "name": "openMVS",
@@ -244257,7 +244274,10 @@
       "last_updated": "2026-08-22T03:58:46.899777+00:00"
     },
     "edin45/simple_photogrammetry_gui": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 605726549,
         "name": "simple_photogrammetry_gui",
@@ -244277,7 +244297,10 @@
       "last_updated": "2026-08-22T03:58:47.244741+00:00"
     },
     "vercel-labs/lat.md": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1177225364,
         "name": "lat.md",
@@ -244297,7 +244320,9 @@
       "last_updated": "2026-08-22T03:58:47.813081+00:00"
     },
     "khangvum/homelab-iac-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 982409981,
         "name": "homelab-iac-config",
