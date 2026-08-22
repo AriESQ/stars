@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T04:11:28.648836+00:00",
+  "last_updated": "2026-08-22T03:58:48.945297+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244175,6 +244175,166 @@
         "fetched_at": "2026-08-21T04:11:28.635561+00:00",
         "status": "ok"
       }
+    },
+    "mkazhdan/PoissonRecon": {
+      "lists": [],
+      "metadata": {
+        "id": 39105709,
+        "name": "PoissonRecon",
+        "full_name": "mkazhdan/PoissonRecon",
+        "description": "Poisson Surface Reconstruction",
+        "url": "https://github.com/mkazhdan/PoissonRecon",
+        "homepage": null,
+        "language": "C",
+        "stars": 1848,
+        "forks": 470,
+        "open_issues": 172,
+        "created_at": "2015-07-14T23:31:43Z",
+        "updated_at": "2026-08-21T18:52:06Z",
+        "pushed_at": "2026-04-29T15:37:58Z",
+        "starred_at": "2026-08-21T09:34:31Z"
+      },
+      "last_updated": "2026-08-22T03:58:45.852518+00:00"
+    },
+    "nmoehrle/mvs-texturing": {
+      "lists": [],
+      "metadata": {
+        "id": 27456043,
+        "name": "mvs-texturing",
+        "full_name": "nmoehrle/mvs-texturing",
+        "description": "Algorithm to texture 3D reconstructions from multi-view stereo images",
+        "url": "https://github.com/nmoehrle/mvs-texturing",
+        "homepage": null,
+        "language": "C++",
+        "stars": 1092,
+        "forks": 371,
+        "open_issues": 72,
+        "created_at": "2014-12-02T22:08:53Z",
+        "updated_at": "2026-08-21T09:34:17Z",
+        "pushed_at": "2026-03-11T18:53:37Z",
+        "starred_at": "2026-08-21T09:34:16Z"
+      },
+      "last_updated": "2026-08-22T03:58:46.205860+00:00"
+    },
+    "colmap/colmap": {
+      "lists": [],
+      "metadata": {
+        "id": 23007417,
+        "name": "colmap",
+        "full_name": "colmap/colmap",
+        "description": "COLMAP - Structure-from-Motion and Multi-View Stereo",
+        "url": "https://github.com/colmap/colmap",
+        "homepage": "https://colmap.github.io/",
+        "language": "C++",
+        "stars": 12528,
+        "forks": 2120,
+        "open_issues": 704,
+        "created_at": "2014-08-16T00:55:31Z",
+        "updated_at": "2026-08-22T00:18:34Z",
+        "pushed_at": "2026-08-18T17:06:15Z",
+        "starred_at": "2026-08-21T09:33:49Z"
+      },
+      "last_updated": "2026-08-22T03:58:46.565074+00:00"
+    },
+    "cdcseacave/openMVS": {
+      "lists": [],
+      "metadata": {
+        "id": 35825593,
+        "name": "openMVS",
+        "full_name": "cdcseacave/openMVS",
+        "description": "open Multi-View Stereo reconstruction library",
+        "url": "https://github.com/cdcseacave/openMVS",
+        "homepage": "http://cdcseacave.github.io",
+        "language": "C++",
+        "stars": 4094,
+        "forks": 984,
+        "open_issues": 381,
+        "created_at": "2015-05-18T15:21:44Z",
+        "updated_at": "2026-08-21T09:30:30Z",
+        "pushed_at": "2026-08-18T07:00:34Z",
+        "starred_at": "2026-08-21T09:30:29Z"
+      },
+      "last_updated": "2026-08-22T03:58:46.899777+00:00"
+    },
+    "edin45/simple_photogrammetry_gui": {
+      "lists": [],
+      "metadata": {
+        "id": 605726549,
+        "name": "simple_photogrammetry_gui",
+        "full_name": "edin45/simple_photogrammetry_gui",
+        "description": null,
+        "url": "https://github.com/edin45/simple_photogrammetry_gui",
+        "homepage": "",
+        "language": "Dart",
+        "stars": 216,
+        "forks": 8,
+        "open_issues": 3,
+        "created_at": "2023-02-23T19:16:51Z",
+        "updated_at": "2026-08-22T03:48:10Z",
+        "pushed_at": "2026-08-21T19:08:51Z",
+        "starred_at": "2026-08-21T09:28:16Z"
+      },
+      "last_updated": "2026-08-22T03:58:47.244741+00:00"
+    },
+    "vercel-labs/lat.md": {
+      "lists": [],
+      "metadata": {
+        "id": 1177225364,
+        "name": "lat.md",
+        "full_name": "vercel-labs/lat.md",
+        "description": "Agent Lattice: a knowledge graph for your codebase, written in markdown.",
+        "url": "https://github.com/vercel-labs/lat.md",
+        "homepage": "https://www.lat.md",
+        "language": "TypeScript",
+        "stars": 1840,
+        "forks": 116,
+        "open_issues": 31,
+        "created_at": "2026-03-09T20:26:00Z",
+        "updated_at": "2026-08-22T00:50:15Z",
+        "pushed_at": "2026-08-22T00:30:29Z",
+        "starred_at": "2026-03-29T15:36:58Z"
+      },
+      "last_updated": "2026-08-22T03:58:47.813081+00:00"
+    },
+    "khangvum/homelab-iac-config": {
+      "lists": [],
+      "metadata": {
+        "id": 982409981,
+        "name": "homelab-iac-config",
+        "full_name": "khangvum/homelab-iac-config",
+        "description": "A homelab configuration automation solution powered by Ansible, containerized with Docker.",
+        "url": "https://github.com/khangvum/homelab-iac-config",
+        "homepage": "",
+        "language": "Jinja",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-05-12T20:56:37Z",
+        "updated_at": "2026-08-22T02:52:01Z",
+        "pushed_at": "2026-08-22T02:51:54Z",
+        "starred_at": "2025-09-11T21:00:31Z"
+      },
+      "last_updated": "2026-08-22T03:58:48.360676+00:00"
+    },
+    "ROCm/legacy-rocm-build": {
+      "lists": [],
+      "metadata": {
+        "id": 54160369,
+        "name": "legacy-rocm-build",
+        "full_name": "ROCm/legacy-rocm-build",
+        "description": "AMD ROCm\u2122 Software - GitHub Home",
+        "url": "https://github.com/ROCm/legacy-rocm-build",
+        "homepage": "https://rocm.docs.amd.com",
+        "language": "Shell",
+        "stars": 6812,
+        "forks": 601,
+        "open_issues": 319,
+        "created_at": "2016-03-18T00:24:29Z",
+        "updated_at": "2026-08-22T01:01:10Z",
+        "pushed_at": "2026-08-21T17:19:06Z",
+        "starred_at": "2025-03-24T17:49:09Z"
+      },
+      "last_updated": "2026-08-22T03:58:48.945245+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244184,5 +244344,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"3487754abd90399d0106628762d789f5e6d9f84ea887204a958c4a40fcaece0b\""
+  "profile_etag": "W/\"7afeb439b486f23913401d1b926594c8c75d7fe0af5c8497333196195012d7e4\""
 }
