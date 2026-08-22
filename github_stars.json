@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T04:06:30.095816+00:00",
+  "last_updated": "2026-08-22T04:06:51.470960+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244199,7 +244199,15 @@
         "pushed_at": "2026-04-29T15:37:58Z",
         "starred_at": "2026-08-21T09:34:31Z"
       },
-      "last_updated": "2026-08-22T03:58:45.852518+00:00"
+      "last_updated": "2026-08-22T03:58:45.852518+00:00",
+      "readme": {
+        "path": "readmes/mkazhdan+PoissonRecon+README.md",
+        "etag": "W/\"dc6e5b955481ad56e96b5f7cb909efd7f4525ce3\"",
+        "sha": "dc6e5b955481ad56e96b5f7cb909efd7f4525ce3",
+        "size": 108018,
+        "fetched_at": "2026-08-22T04:06:50.866108+00:00",
+        "status": "ok"
+      }
     },
     "nmoehrle/mvs-texturing": {
       "lists": [
@@ -244223,7 +244231,15 @@
         "pushed_at": "2026-03-11T18:53:37Z",
         "starred_at": "2026-08-21T09:34:16Z"
       },
-      "last_updated": "2026-08-22T03:58:46.205860+00:00"
+      "last_updated": "2026-08-22T03:58:46.205860+00:00",
+      "readme": {
+        "path": "readmes/nmoehrle+mvs-texturing+README.md",
+        "etag": "W/\"e3cb7a496f01950006a9e0107119cd0b263d19b3\"",
+        "sha": "e3cb7a496f01950006a9e0107119cd0b263d19b3",
+        "size": 3994,
+        "fetched_at": "2026-08-22T04:06:51.174410+00:00",
+        "status": "ok"
+      }
     },
     "colmap/colmap": {
       "lists": [
@@ -244247,7 +244263,15 @@
         "pushed_at": "2026-08-18T17:06:15Z",
         "starred_at": "2026-08-21T09:33:49Z"
       },
-      "last_updated": "2026-08-22T03:58:46.565074+00:00"
+      "last_updated": "2026-08-22T03:58:46.565074+00:00",
+      "readme": {
+        "path": "readmes/colmap+colmap+README.md",
+        "etag": "W/\"4056360623278bceb3b617154b7b275a2e3db483\"",
+        "sha": "4056360623278bceb3b617154b7b275a2e3db483",
+        "size": 6657,
+        "fetched_at": "2026-08-22T04:06:49.947549+00:00",
+        "status": "ok"
+      }
     },
     "cdcseacave/openMVS": {
       "lists": [
@@ -244271,7 +244295,15 @@
         "pushed_at": "2026-08-18T07:00:34Z",
         "starred_at": "2026-08-21T09:30:29Z"
       },
-      "last_updated": "2026-08-22T03:58:46.899777+00:00"
+      "last_updated": "2026-08-22T03:58:46.899777+00:00",
+      "readme": {
+        "path": "readmes/cdcseacave+openMVS+README.md",
+        "etag": "W/\"9cad520bb2c117a1e76f75885041d68f2961ef3c\"",
+        "sha": "9cad520bb2c117a1e76f75885041d68f2961ef3c",
+        "size": 2099,
+        "fetched_at": "2026-08-22T04:06:49.579850+00:00",
+        "status": "ok"
+      }
     },
     "edin45/simple_photogrammetry_gui": {
       "lists": [
@@ -244294,7 +244326,15 @@
         "pushed_at": "2026-08-21T19:08:51Z",
         "starred_at": "2026-08-21T09:28:16Z"
       },
-      "last_updated": "2026-08-22T03:58:47.244741+00:00"
+      "last_updated": "2026-08-22T03:58:47.244741+00:00",
+      "readme": {
+        "path": "readmes/edin45+simple_photogrammetry_gui+README.md",
+        "etag": "W/\"db7c69570bdf2b68906db62c6655f3405420936f\"",
+        "sha": "db7c69570bdf2b68906db62c6655f3405420936f",
+        "size": 4538,
+        "fetched_at": "2026-08-22T04:06:50.247478+00:00",
+        "status": "ok"
+      }
     },
     "vercel-labs/lat.md": {
       "lists": [
@@ -244317,7 +244357,15 @@
         "pushed_at": "2026-08-22T00:30:29Z",
         "starred_at": "2026-03-29T15:36:58Z"
       },
-      "last_updated": "2026-08-22T03:58:47.813081+00:00"
+      "last_updated": "2026-08-22T03:58:47.813081+00:00",
+      "readme": {
+        "path": "readmes/vercel-labs+lat.md+README.md",
+        "etag": "W/\"1e38898691fc396e60d846ee18b487cb2711d1b3\"",
+        "sha": "1e38898691fc396e60d846ee18b487cb2711d1b3",
+        "size": 5244,
+        "fetched_at": "2026-08-22T04:06:51.469850+00:00",
+        "status": "ok"
+      }
     },
     "khangvum/homelab-iac-config": {
       "lists": [
@@ -244339,7 +244387,15 @@
         "pushed_at": "2026-08-22T02:51:54Z",
         "starred_at": "2025-09-11T21:00:31Z"
       },
-      "last_updated": "2026-08-22T03:58:48.360676+00:00"
+      "last_updated": "2026-08-22T03:58:48.360676+00:00",
+      "readme": {
+        "path": "readmes/khangvum+homelab-iac-config+README.md",
+        "etag": "W/\"94924af8cefa4eaa887a58f12fb18e4eebfa0f94\"",
+        "sha": "94924af8cefa4eaa887a58f12fb18e4eebfa0f94",
+        "size": 24137,
+        "fetched_at": "2026-08-22T04:06:50.546008+00:00",
+        "status": "ok"
+      }
     },
     "ROCm/legacy-rocm-build": {
       "lists": [],
@@ -244359,7 +244415,15 @@
         "pushed_at": "2026-08-21T17:19:06Z",
         "starred_at": "2025-03-24T17:49:09Z"
       },
-      "last_updated": "2026-08-22T03:58:48.945245+00:00"
+      "last_updated": "2026-08-22T03:58:48.945245+00:00",
+      "readme": {
+        "path": "readmes/ROCm+legacy-rocm-build+README.md",
+        "etag": "W/\"4f68f75b07fd63b9feb78372d34b1ee7b2e5bc02\"",
+        "sha": "4f68f75b07fd63b9feb78372d34b1ee7b2e5bc02",
+        "size": 8219,
+        "fetched_at": "2026-08-22T04:06:49.262348+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
