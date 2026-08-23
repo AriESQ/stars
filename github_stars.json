@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T04:02:48.400213+00:00",
+  "last_updated": "2026-08-23T04:07:14.698682+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244426,7 +244426,10 @@
       }
     },
     "open-legal-products/mike": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1224854794,
         "name": "mike",
