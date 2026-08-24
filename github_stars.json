@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T04:10:57.799159+00:00",
+  "last_updated": "2026-08-24T04:07:23.172541+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244455,6 +244455,26 @@
         "fetched_at": "2026-08-23T04:10:57.795523+00:00",
         "status": "ok"
       }
+    },
+    "khangvum/homelab-iac": {
+      "lists": [],
+      "metadata": {
+        "id": 982409981,
+        "name": "homelab-iac",
+        "full_name": "khangvum/homelab-iac",
+        "description": "A homelab provisioning and configuration automation solution powered by Terraform and Ansible.",
+        "url": "https://github.com/khangvum/homelab-iac",
+        "homepage": "",
+        "language": "Jinja",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-05-12T20:56:37Z",
+        "updated_at": "2026-08-23T04:45:23Z",
+        "pushed_at": "2026-08-23T04:38:00Z",
+        "starred_at": "2025-09-11T21:00:31Z"
+      },
+      "last_updated": "2026-08-24T04:07:23.172451+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244464,5 +244484,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"6b2060572570ebb98d5afe04c895734474b2cd3d9e097f12747dea38019719ff\""
+  "profile_etag": "W/\"f55965ee024a5dd1a2f4f4a8257c16e4a7e50d342ec19dcb95b63a35d99dce5d\""
 }
