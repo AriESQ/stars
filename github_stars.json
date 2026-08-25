@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T04:15:38.766797+00:00",
+  "last_updated": "2026-08-25T04:01:22.560686+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244485,6 +244485,86 @@
         "fetched_at": "2026-08-24T04:15:38.761769+00:00",
         "status": "ok"
       }
+    },
+    "cjpais/Handy": {
+      "lists": [],
+      "metadata": {
+        "id": 931888694,
+        "name": "Handy",
+        "full_name": "cjpais/Handy",
+        "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+        "url": "https://github.com/cjpais/Handy",
+        "homepage": "https://handy.computer",
+        "language": "Rust",
+        "stars": 30249,
+        "forks": 2712,
+        "open_issues": 153,
+        "created_at": "2025-02-13T02:42:29Z",
+        "updated_at": "2026-08-25T03:39:29Z",
+        "pushed_at": "2026-08-25T00:06:44Z",
+        "starred_at": "2026-08-24T21:51:05Z"
+      },
+      "last_updated": "2026-08-25T04:01:21.838550+00:00"
+    },
+    "enigo-rs/enigo": {
+      "lists": [],
+      "metadata": {
+        "id": 80247571,
+        "name": "enigo",
+        "full_name": "enigo-rs/enigo",
+        "description": "Cross platform input simulation in Rust",
+        "url": "https://github.com/enigo-rs/enigo",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 1776,
+        "forks": 155,
+        "open_issues": 57,
+        "created_at": "2017-01-27T21:29:02Z",
+        "updated_at": "2026-08-24T17:45:27Z",
+        "pushed_at": "2026-08-10T09:09:50Z",
+        "starred_at": "2026-08-24T17:45:27Z"
+      },
+      "last_updated": "2026-08-25T04:01:22.082452+00:00"
+    },
+    "hate/keyless": {
+      "lists": [],
+      "metadata": {
+        "id": 1089067433,
+        "name": "keyless",
+        "full_name": "hate/keyless",
+        "description": "Privacy\u2011first, real\u2011time speech\u2011to\u2011text dictation. 100% local inference in Rust; hotkey to dictate anywhere (macOS, Linux, Windows).",
+        "url": "https://github.com/hate/keyless",
+        "homepage": "https://keyless.sh/",
+        "language": "Rust",
+        "stars": 25,
+        "forks": 5,
+        "open_issues": 16,
+        "created_at": "2025-11-03T20:55:36Z",
+        "updated_at": "2026-08-24T17:43:57Z",
+        "pushed_at": "2025-12-15T02:28:26Z",
+        "starred_at": "2026-08-24T17:43:57Z"
+      },
+      "last_updated": "2026-08-25T04:01:22.312526+00:00"
+    },
+    "s66lem/dropkick": {
+      "lists": [],
+      "metadata": {
+        "id": 1286559506,
+        "name": "dropkick",
+        "full_name": "s66lem/dropkick",
+        "description": "Reproducible projectM audio visualizer for Raspberry Pi 5 with GLES 3.1, preset packs, and phone remote",
+        "url": "https://github.com/s66lem/dropkick",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-01T22:48:23Z",
+        "updated_at": "2026-08-24T13:36:33Z",
+        "pushed_at": "2026-07-18T05:34:10Z",
+        "starred_at": "2026-08-24T13:36:32Z"
+      },
+      "last_updated": "2026-08-25T04:01:22.560566+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244494,5 +244574,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f55965ee024a5dd1a2f4f4a8257c16e4a7e50d342ec19dcb95b63a35d99dce5d\""
+  "profile_etag": "W/\"083cde2a48804c942b4f357caddea22bc878b2e2888adba67e2bf0735718d226\""
 }
