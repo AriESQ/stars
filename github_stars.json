@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:09:13.459299+00:00",
+  "last_updated": "2026-08-25T04:09:40.782876+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244507,7 +244507,15 @@
         "pushed_at": "2026-08-25T00:06:44Z",
         "starred_at": "2026-08-24T21:51:05Z"
       },
-      "last_updated": "2026-08-25T04:01:21.838550+00:00"
+      "last_updated": "2026-08-25T04:01:21.838550+00:00",
+      "readme": {
+        "path": "readmes/cjpais+Handy+README.md",
+        "etag": "W/\"c221a0a681ca7e4c08fe1cfd9541e25232e30568\"",
+        "sha": "c221a0a681ca7e4c08fe1cfd9541e25232e30568",
+        "size": 24982,
+        "fetched_at": "2026-08-25T04:09:39.826676+00:00",
+        "status": "ok"
+      }
     },
     "enigo-rs/enigo": {
       "lists": [
@@ -244529,7 +244537,15 @@
         "pushed_at": "2026-08-10T09:09:50Z",
         "starred_at": "2026-08-24T17:45:27Z"
       },
-      "last_updated": "2026-08-25T04:01:22.082452+00:00"
+      "last_updated": "2026-08-25T04:01:22.082452+00:00",
+      "readme": {
+        "path": "readmes/enigo-rs+enigo+README.md",
+        "etag": "W/\"c3ce06e5052cee063bc62ff9d478b81a618e1b45\"",
+        "sha": "c3ce06e5052cee063bc62ff9d478b81a618e1b45",
+        "size": 3447,
+        "fetched_at": "2026-08-25T04:09:40.157971+00:00",
+        "status": "ok"
+      }
     },
     "hate/keyless": {
       "lists": [
@@ -244551,7 +244567,15 @@
         "pushed_at": "2025-12-15T02:28:26Z",
         "starred_at": "2026-08-24T17:43:57Z"
       },
-      "last_updated": "2026-08-25T04:01:22.312526+00:00"
+      "last_updated": "2026-08-25T04:01:22.312526+00:00",
+      "readme": {
+        "path": "readmes/hate+keyless+README.md",
+        "etag": "W/\"e27907fec0014cfc8c49024e9892831ba90bc434\"",
+        "sha": "e27907fec0014cfc8c49024e9892831ba90bc434",
+        "size": 18571,
+        "fetched_at": "2026-08-25T04:09:40.487548+00:00",
+        "status": "ok"
+      }
     },
     "s66lem/dropkick": {
       "lists": [
@@ -244574,7 +244598,15 @@
         "pushed_at": "2026-07-18T05:34:10Z",
         "starred_at": "2026-08-24T13:36:32Z"
       },
-      "last_updated": "2026-08-25T04:01:22.560566+00:00"
+      "last_updated": "2026-08-25T04:01:22.560566+00:00",
+      "readme": {
+        "path": "readmes/s66lem+dropkick+README.md",
+        "etag": "W/\"b1e6dd73917f313348fe4ddc9568bed17345c8aa\"",
+        "sha": "b1e6dd73917f313348fe4ddc9568bed17345c8aa",
+        "size": 3709,
+        "fetched_at": "2026-08-25T04:09:40.780211+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
