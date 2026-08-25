@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:01:22.560686+00:00",
+  "last_updated": "2026-08-25T04:09:13.459299+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244487,7 +244487,10 @@
       }
     },
     "cjpais/Handy": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 931888694,
         "name": "Handy",
@@ -244507,7 +244510,9 @@
       "last_updated": "2026-08-25T04:01:21.838550+00:00"
     },
     "enigo-rs/enigo": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 80247571,
         "name": "enigo",
@@ -244527,7 +244532,9 @@
       "last_updated": "2026-08-25T04:01:22.082452+00:00"
     },
     "hate/keyless": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1089067433,
         "name": "keyless",
@@ -244547,7 +244554,10 @@
       "last_updated": "2026-08-25T04:01:22.312526+00:00"
     },
     "s66lem/dropkick": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1286559506,
         "name": "dropkick",
