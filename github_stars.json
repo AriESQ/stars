@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:09:40.782876+00:00",
+  "last_updated": "2026-08-26T04:05:27.861292+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244607,6 +244607,126 @@
         "fetched_at": "2026-08-25T04:09:40.780211+00:00",
         "status": "ok"
       }
+    },
+    "fulalas/wmbench": {
+      "lists": [],
+      "metadata": {
+        "id": 1343768726,
+        "name": "wmbench",
+        "full_name": "fulalas/wmbench",
+        "description": "Benchmarks and visual defect tests for Linux window managers",
+        "url": "https://github.com/fulalas/wmbench",
+        "homepage": "",
+        "language": "C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-08-23T12:54:12Z",
+        "updated_at": "2026-08-26T03:02:53Z",
+        "pushed_at": "2026-08-26T02:36:20Z",
+        "starred_at": "2026-08-26T03:02:53Z"
+      },
+      "last_updated": "2026-08-26T04:05:25.961824+00:00"
+    },
+    "darrylmorley/whatbattery": {
+      "lists": [],
+      "metadata": {
+        "id": 1272176363,
+        "name": "whatbattery",
+        "full_name": "darrylmorley/whatbattery",
+        "description": "WhatBattery: battery health and live power for your Mac, iPhone, and iPad. Open-source mirror.",
+        "url": "https://github.com/darrylmorley/whatbattery",
+        "homepage": "https://www.whatbattery.app",
+        "language": "Swift",
+        "stars": 24,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-06-17T11:07:03Z",
+        "updated_at": "2026-08-25T16:48:17Z",
+        "pushed_at": "2026-08-24T09:05:15Z",
+        "starred_at": "2026-08-25T16:48:17Z"
+      },
+      "last_updated": "2026-08-26T04:05:26.355273+00:00"
+    },
+    "darrylmorley/whatsd": {
+      "lists": [],
+      "metadata": {
+        "id": 1285887507,
+        "name": "whatsd",
+        "full_name": "darrylmorley/whatsd",
+        "description": "WhatSD: the truth about your SD card. macOS menu-bar app + CLI.",
+        "url": "https://github.com/darrylmorley/whatsd",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 14,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-07-01T08:33:09Z",
+        "updated_at": "2026-08-25T16:48:03Z",
+        "pushed_at": "2026-07-01T08:35:04Z",
+        "starred_at": "2026-08-25T16:48:02Z"
+      },
+      "last_updated": "2026-08-26T04:05:26.716991+00:00"
+    },
+    "darrylmorley/whatport": {
+      "lists": [],
+      "metadata": {
+        "id": 1243402766,
+        "name": "whatport",
+        "full_name": "darrylmorley/whatport",
+        "description": "macOS menu bar utility showing real-time USB-C port status (protocol, speed, power). Apple Silicon only.",
+        "url": "https://github.com/darrylmorley/whatport",
+        "homepage": "https://www.whatport.app",
+        "language": "Swift",
+        "stars": 51,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-05-19T10:01:51Z",
+        "updated_at": "2026-08-25T16:41:49Z",
+        "pushed_at": "2026-08-18T15:03:45Z",
+        "starred_at": "2026-08-25T16:41:49Z"
+      },
+      "last_updated": "2026-08-26T04:05:27.108252+00:00"
+    },
+    "xournalpp/xournalpp": {
+      "lists": [],
+      "metadata": {
+        "id": 11986447,
+        "name": "xournalpp",
+        "full_name": "xournalpp/xournalpp",
+        "description": "Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows 10. Supports pen input from devices such as Wacom Tablets.",
+        "url": "https://github.com/xournalpp/xournalpp",
+        "homepage": "https://xournalpp.github.io",
+        "language": "C++",
+        "stars": 15287,
+        "forks": 1114,
+        "open_issues": 1234,
+        "created_at": "2013-08-08T20:58:27Z",
+        "updated_at": "2026-08-26T03:14:17Z",
+        "pushed_at": "2026-08-23T04:28:34Z",
+        "starred_at": "2026-08-25T15:31:52Z"
+      },
+      "last_updated": "2026-08-26T04:05:27.482333+00:00"
+    },
+    "tobi/walgit": {
+      "lists": [],
+      "metadata": {
+        "id": 1344273611,
+        "name": "walgit",
+        "full_name": "tobi/walgit",
+        "description": null,
+        "url": "https://github.com/tobi/walgit",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 1611,
+        "forks": 87,
+        "open_issues": 3,
+        "created_at": "2026-08-23T22:28:01Z",
+        "updated_at": "2026-08-26T04:00:33Z",
+        "pushed_at": "2026-08-25T18:10:24Z",
+        "starred_at": "2026-08-25T04:37:31Z"
+      },
+      "last_updated": "2026-08-26T04:05:27.861193+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244616,5 +244736,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"083cde2a48804c942b4f357caddea22bc878b2e2888adba67e2bf0735718d226\""
+  "profile_etag": "W/\"ee29192836e86c5fc728b152f5f3140095742fda51d358a363442cfa20b8c4a9\""
 }
