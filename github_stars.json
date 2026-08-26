@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:05:27.861292+00:00",
+  "last_updated": "2026-08-26T04:13:15.325490+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -229346,7 +229346,8 @@
     },
     "Tencent/ncnn": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "Music and Video"
       ],
       "metadata": {
         "id": 95879426,
@@ -244609,7 +244610,9 @@
       }
     },
     "fulalas/wmbench": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1343768726,
         "name": "wmbench",
@@ -244629,7 +244632,9 @@
       "last_updated": "2026-08-26T04:05:25.961824+00:00"
     },
     "darrylmorley/whatbattery": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1272176363,
         "name": "whatbattery",
@@ -244649,7 +244654,9 @@
       "last_updated": "2026-08-26T04:05:26.355273+00:00"
     },
     "darrylmorley/whatsd": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1285887507,
         "name": "whatsd",
@@ -244669,7 +244676,9 @@
       "last_updated": "2026-08-26T04:05:26.716991+00:00"
     },
     "darrylmorley/whatport": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1243402766,
         "name": "whatport",
@@ -244709,7 +244718,11 @@
       "last_updated": "2026-08-26T04:05:27.482333+00:00"
     },
     "tobi/walgit": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Rust"
+      ],
       "metadata": {
         "id": 1344273611,
         "name": "walgit",
