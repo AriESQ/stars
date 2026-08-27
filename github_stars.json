@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T14:15:15.703530+00:00",
+  "last_updated": "2026-08-27T14:23:30.783336+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244790,7 +244790,9 @@
       }
     },
     "persian-thunder/chartty": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1196682939,
         "name": "chartty",
@@ -244810,7 +244812,10 @@
       "last_updated": "2026-08-27T14:15:14.356870+00:00"
     },
     "jundot/omlx": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1157171418,
         "name": "omlx",
@@ -244830,7 +244835,9 @@
       "last_updated": "2026-08-27T14:15:14.564775+00:00"
     },
     "FlashML-org/FreeToken": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1307001698,
         "name": "FreeToken",
@@ -244850,7 +244857,10 @@
       "last_updated": "2026-08-27T14:15:14.819385+00:00"
     },
     "ismail-bahloul/TouchDesigner-Linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1201521672,
         "name": "TouchDesigner-Linux",
@@ -244870,7 +244880,9 @@
       "last_updated": "2026-08-27T14:15:15.248989+00:00"
     },
     "microsoft/foundry-dev-tools": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 729302588,
         "name": "foundry-dev-tools",
