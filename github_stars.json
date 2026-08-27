@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T14:23:30.783336+00:00",
+  "last_updated": "2026-08-27T14:24:29.725648+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244809,7 +244809,15 @@
         "pushed_at": "2026-06-25T18:33:57Z",
         "starred_at": "2026-08-27T13:22:49Z"
       },
-      "last_updated": "2026-08-27T14:15:14.356870+00:00"
+      "last_updated": "2026-08-27T14:15:14.356870+00:00",
+      "readme": {
+        "path": "readmes/persian-thunder+chartty+README.md",
+        "etag": "W/\"2cecd4924cb3c6dbbbf0bec25f689b89839c814d\"",
+        "sha": "2cecd4924cb3c6dbbbf0bec25f689b89839c814d",
+        "size": 2339,
+        "fetched_at": "2026-08-27T14:24:29.722127+00:00",
+        "status": "ok"
+      }
     },
     "jundot/omlx": {
       "lists": [
@@ -244832,7 +244840,15 @@
         "pushed_at": "2026-08-27T13:27:34Z",
         "starred_at": "2026-08-27T02:34:23Z"
       },
-      "last_updated": "2026-08-27T14:15:14.564775+00:00"
+      "last_updated": "2026-08-27T14:15:14.564775+00:00",
+      "readme": {
+        "path": "readmes/jundot+omlx+README.md",
+        "etag": "W/\"10c14359d4a9fa9c417d0849322999b48d0e4865\"",
+        "sha": "10c14359d4a9fa9c417d0849322999b48d0e4865",
+        "size": 19597,
+        "fetched_at": "2026-08-27T14:24:28.967948+00:00",
+        "status": "ok"
+      }
     },
     "FlashML-org/FreeToken": {
       "lists": [
@@ -244854,7 +244870,15 @@
         "pushed_at": "2026-08-26T07:42:10Z",
         "starred_at": "2026-08-26T22:34:31Z"
       },
-      "last_updated": "2026-08-27T14:15:14.819385+00:00"
+      "last_updated": "2026-08-27T14:15:14.819385+00:00",
+      "readme": {
+        "path": "readmes/FlashML-org+FreeToken+README.md",
+        "etag": "W/\"2a56a086537ed077a0702666158bec275d1e9486\"",
+        "sha": "2a56a086537ed077a0702666158bec275d1e9486",
+        "size": 4820,
+        "fetched_at": "2026-08-27T14:24:28.413323+00:00",
+        "status": "ok"
+      }
     },
     "ismail-bahloul/TouchDesigner-Linux": {
       "lists": [
@@ -244877,7 +244901,15 @@
         "pushed_at": "2026-08-27T12:23:59Z",
         "starred_at": "2026-04-07T21:27:38Z"
       },
-      "last_updated": "2026-08-27T14:15:15.248989+00:00"
+      "last_updated": "2026-08-27T14:15:15.248989+00:00",
+      "readme": {
+        "path": "readmes/ismail-bahloul+TouchDesigner-Linux+README.md",
+        "etag": "W/\"8de7b96eed0921115133f9227220db55767fd48c\"",
+        "sha": "8de7b96eed0921115133f9227220db55767fd48c",
+        "size": 5587,
+        "fetched_at": "2026-08-27T14:24:28.692847+00:00",
+        "status": "ok"
+      }
     },
     "microsoft/foundry-dev-tools": {
       "lists": [
@@ -244899,7 +244931,15 @@
         "pushed_at": "2026-08-27T04:04:08Z",
         "starred_at": "2023-12-14T05:04:49Z"
       },
-      "last_updated": "2026-08-27T14:15:15.703462+00:00"
+      "last_updated": "2026-08-27T14:15:15.703462+00:00",
+      "readme": {
+        "path": "readmes/microsoft+foundry-dev-tools+README.md",
+        "etag": "W/\"71fc2af3c26a24f719883e1925ee4d8238877aa6\"",
+        "sha": "71fc2af3c26a24f719883e1925ee4d8238877aa6",
+        "size": 7515,
+        "fetched_at": "2026-08-27T14:24:29.243547+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
