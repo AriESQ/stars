@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T14:24:29.725648+00:00",
+  "last_updated": "2026-08-28T15:25:42.847226+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244940,6 +244940,126 @@
         "fetched_at": "2026-08-27T14:24:29.243547+00:00",
         "status": "ok"
       }
+    },
+    "amoghmunikote/cmpunlocker": {
+      "lists": [],
+      "metadata": {
+        "id": 1301096983,
+        "name": "cmpunlocker",
+        "full_name": "amoghmunikote/cmpunlocker",
+        "description": "A tool to unlobotomize your NVIDIA card!",
+        "url": "https://github.com/amoghmunikote/cmpunlocker",
+        "homepage": "https://github.com/amoghmunikote/cmpunlocker",
+        "language": "Shell",
+        "stars": 499,
+        "forks": 204,
+        "open_issues": 3,
+        "created_at": "2026-07-15T01:46:12Z",
+        "updated_at": "2026-08-28T13:59:50Z",
+        "pushed_at": "2026-08-26T16:06:36Z",
+        "starred_at": "2026-08-27T23:19:12Z"
+      },
+      "last_updated": "2026-08-28T15:25:40.523968+00:00"
+    },
+    "PicoPlus-devel/retroJam": {
+      "lists": [],
+      "metadata": {
+        "id": 1124072206,
+        "name": "retroJam",
+        "full_name": "PicoPlus-devel/retroJam",
+        "description": "This project is a multi retro console emulator for Adafruit Fruit Jam, capable of emulating a few classic 8-bit systems and even the 16-bit Sega Genesis",
+        "url": "https://github.com/PicoPlus-devel/retroJam",
+        "homepage": "",
+        "language": "C",
+        "stars": 19,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2025-12-28T09:10:21Z",
+        "updated_at": "2026-08-28T11:41:32Z",
+        "pushed_at": "2026-08-28T11:53:49Z",
+        "starred_at": "2026-04-06T21:19:03Z"
+      },
+      "last_updated": "2026-08-28T15:25:41.048287+00:00"
+    },
+    "PicoPlus-devel/pico-peanutGB": {
+      "lists": [],
+      "metadata": {
+        "id": 813210968,
+        "name": "pico-peanutGB",
+        "full_name": "PicoPlus-devel/pico-peanutGB",
+        "description": "a DMG Game Boy and Game Boy Color emulator with SD card and menu support for RP2040 and RP2350 based microcontroller boards like the RaspberryPi Pico 2. Sound and video are ouput over HDMI",
+        "url": "https://github.com/PicoPlus-devel/pico-peanutGB",
+        "homepage": "",
+        "language": "C",
+        "stars": 44,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2024-06-10T17:23:30Z",
+        "updated_at": "2026-08-28T11:55:48Z",
+        "pushed_at": "2026-08-28T11:53:43Z",
+        "starred_at": "2026-04-06T20:43:46Z"
+      },
+      "last_updated": "2026-08-28T15:25:41.377445+00:00"
+    },
+    "PicoPlus-devel/pico-genesisPlus": {
+      "lists": [],
+      "metadata": {
+        "id": 904352103,
+        "name": "pico-genesisPlus",
+        "full_name": "PicoPlus-devel/pico-genesisPlus",
+        "description": "Sega Genesis/Mega Drive emulator with SD card and menu support for the Raspberry PI Pico 2 (RP2350) microcontroller. Play your games from SD card on a HDMI display.",
+        "url": "https://github.com/PicoPlus-devel/pico-genesisPlus",
+        "homepage": "",
+        "language": "C",
+        "stars": 38,
+        "forks": 5,
+        "open_issues": 16,
+        "created_at": "2024-12-16T18:10:57Z",
+        "updated_at": "2026-08-28T11:53:56Z",
+        "pushed_at": "2026-08-28T11:53:36Z",
+        "starred_at": "2026-04-06T20:43:31Z"
+      },
+      "last_updated": "2026-08-28T15:25:41.721037+00:00"
+    },
+    "rosalyntg/srt-rs": {
+      "lists": [],
+      "metadata": {
+        "id": 122903838,
+        "name": "srt-rs",
+        "full_name": "rosalyntg/srt-rs",
+        "description": "SRT implementation in Rust",
+        "url": "https://github.com/rosalyntg/srt-rs",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 279,
+        "forks": 41,
+        "open_issues": 21,
+        "created_at": "2018-02-26T02:51:30Z",
+        "updated_at": "2026-08-22T04:15:51Z",
+        "pushed_at": "2024-05-31T17:37:10Z",
+        "starred_at": "2026-03-04T17:50:21Z"
+      },
+      "last_updated": "2026-08-28T15:25:42.279677+00:00"
+    },
+    "PicoPlus-devel/pico-infonesPlus": {
+      "lists": [],
+      "metadata": {
+        "id": 560124268,
+        "name": "pico-infonesPlus",
+        "full_name": "PicoPlus-devel/pico-infonesPlus",
+        "description": "NES Emulator with SD card and menu support for the Raspberry PI Pico, Pico 2 and other RP2040/RP2350  based microcontrollers. Play your games from SD card on a HDMI display.",
+        "url": "https://github.com/PicoPlus-devel/pico-infonesPlus",
+        "homepage": "",
+        "language": "C",
+        "stars": 522,
+        "forks": 51,
+        "open_issues": 15,
+        "created_at": "2022-10-31T19:37:38Z",
+        "updated_at": "2026-08-28T09:25:10Z",
+        "pushed_at": "2026-08-28T15:25:02Z",
+        "starred_at": "2025-12-23T01:16:07Z"
+      },
+      "last_updated": "2026-08-28T15:25:42.847170+00:00"
     }
   },
   "last_processed_index": 0,
@@ -244949,5 +245069,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"8531931f0d3355c973a3a27ccb245537f9102b7db02c84232fa6549998f7f543\""
+  "profile_etag": "W/\"9042de8d846771cc3c2d0726d7353169409e0720d7c20801e5bb2f9c7e8deb88\""
 }
