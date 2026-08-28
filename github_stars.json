@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T15:34:05.259250+00:00",
+  "last_updated": "2026-08-28T15:34:35.800080+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244961,7 +244961,15 @@
         "pushed_at": "2026-08-26T16:06:36Z",
         "starred_at": "2026-08-27T23:19:12Z"
       },
-      "last_updated": "2026-08-28T15:25:40.523968+00:00"
+      "last_updated": "2026-08-28T15:25:40.523968+00:00",
+      "readme": {
+        "path": "readmes/amoghmunikote+cmpunlocker+README.md",
+        "etag": "W/\"30fcd0d961539fccee500531bf8ec9e39d2a0841\"",
+        "sha": "30fcd0d961539fccee500531bf8ec9e39d2a0841",
+        "size": 2322,
+        "fetched_at": "2026-08-28T15:34:35.522000+00:00",
+        "status": "ok"
+      }
     },
     "PicoPlus-devel/retroJam": {
       "lists": [
@@ -244984,7 +244992,15 @@
         "pushed_at": "2026-08-28T11:53:49Z",
         "starred_at": "2026-04-06T21:19:03Z"
       },
-      "last_updated": "2026-08-28T15:25:41.048287+00:00"
+      "last_updated": "2026-08-28T15:25:41.048287+00:00",
+      "readme": {
+        "path": "readmes/PicoPlus-devel+retroJam+README.md",
+        "etag": "W/\"6b05f7c40d3d33dae5e5e7edcd1c6a6ec2479da3\"",
+        "sha": "6b05f7c40d3d33dae5e5e7edcd1c6a6ec2479da3",
+        "size": 11506,
+        "fetched_at": "2026-08-28T15:34:35.142653+00:00",
+        "status": "ok"
+      }
     },
     "PicoPlus-devel/pico-peanutGB": {
       "lists": [
@@ -245007,7 +245023,15 @@
         "pushed_at": "2026-08-28T11:53:43Z",
         "starred_at": "2026-04-06T20:43:46Z"
       },
-      "last_updated": "2026-08-28T15:25:41.377445+00:00"
+      "last_updated": "2026-08-28T15:25:41.377445+00:00",
+      "readme": {
+        "path": "readmes/PicoPlus-devel+pico-peanutGB+README.md",
+        "etag": "W/\"4bd3f2d1c2f8e1d9283fe81fd873289323819def\"",
+        "sha": "4bd3f2d1c2f8e1d9283fe81fd873289323819def",
+        "size": 29935,
+        "fetched_at": "2026-08-28T15:34:34.680900+00:00",
+        "status": "ok"
+      }
     },
     "PicoPlus-devel/pico-genesisPlus": {
       "lists": [
@@ -245030,7 +245054,15 @@
         "pushed_at": "2026-08-28T11:53:36Z",
         "starred_at": "2026-04-06T20:43:31Z"
       },
-      "last_updated": "2026-08-28T15:25:41.721037+00:00"
+      "last_updated": "2026-08-28T15:25:41.721037+00:00",
+      "readme": {
+        "path": "readmes/PicoPlus-devel+pico-genesisPlus+README.md",
+        "etag": "W/\"30bd8c09eb7ca95f9f8ca2197be2167fc9526b08\"",
+        "sha": "30bd8c09eb7ca95f9f8ca2197be2167fc9526b08",
+        "size": 38047,
+        "fetched_at": "2026-08-28T15:34:33.802780+00:00",
+        "status": "ok"
+      }
     },
     "rosalyntg/srt-rs": {
       "lists": [
@@ -245053,7 +245085,15 @@
         "pushed_at": "2024-05-31T17:37:10Z",
         "starred_at": "2026-03-04T17:50:21Z"
       },
-      "last_updated": "2026-08-28T15:25:42.279677+00:00"
+      "last_updated": "2026-08-28T15:25:42.279677+00:00",
+      "readme": {
+        "path": "readmes/rosalyntg+srt-rs+README.md",
+        "etag": "W/\"c06e298c40d6bd43b205dcd0d2f66dc566407856\"",
+        "sha": "c06e298c40d6bd43b205dcd0d2f66dc566407856",
+        "size": 2143,
+        "fetched_at": "2026-08-28T15:34:35.797204+00:00",
+        "status": "ok"
+      }
     },
     "PicoPlus-devel/pico-infonesPlus": {
       "lists": [
@@ -245076,7 +245116,15 @@
         "pushed_at": "2026-08-28T15:25:02Z",
         "starred_at": "2025-12-23T01:16:07Z"
       },
-      "last_updated": "2026-08-28T15:25:42.847170+00:00"
+      "last_updated": "2026-08-28T15:25:42.847170+00:00",
+      "readme": {
+        "path": "readmes/PicoPlus-devel+pico-infonesPlus+README.md",
+        "etag": "W/\"5bf4cf70bb5502a9d08b2a8561e1d71847acb69a\"",
+        "sha": "5bf4cf70bb5502a9d08b2a8561e1d71847acb69a",
+        "size": 97046,
+        "fetched_at": "2026-08-28T15:34:34.155427+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
