@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T15:25:42.847226+00:00",
+  "last_updated": "2026-08-28T15:34:05.259250+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -244942,7 +244942,9 @@
       }
     },
     "amoghmunikote/cmpunlocker": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1301096983,
         "name": "cmpunlocker",
@@ -244962,7 +244964,10 @@
       "last_updated": "2026-08-28T15:25:40.523968+00:00"
     },
     "PicoPlus-devel/retroJam": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1124072206,
         "name": "retroJam",
@@ -244982,7 +244987,10 @@
       "last_updated": "2026-08-28T15:25:41.048287+00:00"
     },
     "PicoPlus-devel/pico-peanutGB": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 813210968,
         "name": "pico-peanutGB",
@@ -245002,7 +245010,10 @@
       "last_updated": "2026-08-28T15:25:41.377445+00:00"
     },
     "PicoPlus-devel/pico-genesisPlus": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 904352103,
         "name": "pico-genesisPlus",
@@ -245022,7 +245033,10 @@
       "last_updated": "2026-08-28T15:25:41.721037+00:00"
     },
     "rosalyntg/srt-rs": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 122903838,
         "name": "srt-rs",
@@ -245042,7 +245056,10 @@
       "last_updated": "2026-08-28T15:25:42.279677+00:00"
     },
     "PicoPlus-devel/pico-infonesPlus": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 560124268,
         "name": "pico-infonesPlus",
