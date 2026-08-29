@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T15:34:35.800080+00:00",
+  "last_updated": "2026-08-29T10:06:54.143021+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245125,6 +245125,66 @@
         "fetched_at": "2026-08-28T15:34:34.155427+00:00",
         "status": "ok"
       }
+    },
+    "stemdeckapp/stemdeck": {
+      "lists": [],
+      "metadata": {
+        "id": 1227920501,
+        "name": "stemdeck",
+        "full_name": "stemdeckapp/stemdeck",
+        "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+        "url": "https://github.com/stemdeckapp/stemdeck",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 2769,
+        "forks": 250,
+        "open_issues": 8,
+        "created_at": "2026-05-03T10:51:20Z",
+        "updated_at": "2026-08-29T10:06:30Z",
+        "pushed_at": "2026-08-29T01:41:50Z",
+        "starred_at": "2026-08-29T03:00:30Z"
+      },
+      "last_updated": "2026-08-29T10:06:53.446792+00:00"
+    },
+    "Lakr233/vphone-cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1167515091,
+        "name": "vphone-cli",
+        "full_name": "Lakr233/vphone-cli",
+        "description": null,
+        "url": "https://github.com/Lakr233/vphone-cli",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 8960,
+        "forks": 1256,
+        "open_issues": 23,
+        "created_at": "2026-02-26T11:29:08Z",
+        "updated_at": "2026-08-29T10:03:24Z",
+        "pushed_at": "2026-08-29T00:45:34Z",
+        "starred_at": "2026-08-29T03:00:10Z"
+      },
+      "last_updated": "2026-08-29T10:06:53.792710+00:00"
+    },
+    "gurjar1/OmniDictate": {
+      "lists": [],
+      "metadata": {
+        "id": 957391487,
+        "name": "OmniDictate",
+        "full_name": "gurjar1/OmniDictate",
+        "description": "Free, open-source, real-time dictation for Windows. Runs locally (no cloud!), uses AI, and types directly into any application via a user-friendly GUI.",
+        "url": "https://github.com/gurjar1/OmniDictate",
+        "homepage": "",
+        "language": "Python",
+        "stars": 152,
+        "forks": 20,
+        "open_issues": 7,
+        "created_at": "2025-03-30T08:50:32Z",
+        "updated_at": "2026-08-29T01:32:16Z",
+        "pushed_at": "2026-07-08T07:10:07Z",
+        "starred_at": "2026-08-29T01:32:15Z"
+      },
+      "last_updated": "2026-08-29T10:06:54.142906+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245134,5 +245194,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"9042de8d846771cc3c2d0726d7353169409e0720d7c20801e5bb2f9c7e8deb88\""
+  "profile_etag": "W/\"7f4891cf738fd379e95ee0437a6dd2dedf57d342bbc14efa317f972dcdd681ae\""
 }
