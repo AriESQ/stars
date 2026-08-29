@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T10:06:54.143021+00:00",
+  "last_updated": "2026-08-29T10:14:31.791221+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245127,7 +245127,11 @@
       }
     },
     "stemdeckapp/stemdeck": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1227920501,
         "name": "stemdeck",
@@ -245147,7 +245151,9 @@
       "last_updated": "2026-08-29T10:06:53.446792+00:00"
     },
     "Lakr233/vphone-cli": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1167515091,
         "name": "vphone-cli",
@@ -245167,7 +245173,9 @@
       "last_updated": "2026-08-29T10:06:53.792710+00:00"
     },
     "gurjar1/OmniDictate": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 957391487,
         "name": "OmniDictate",
