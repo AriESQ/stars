@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T10:14:31.791221+00:00",
+  "last_updated": "2026-08-29T10:15:01.328775+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245148,7 +245148,15 @@
         "pushed_at": "2026-08-29T01:41:50Z",
         "starred_at": "2026-08-29T03:00:30Z"
       },
-      "last_updated": "2026-08-29T10:06:53.446792+00:00"
+      "last_updated": "2026-08-29T10:06:53.446792+00:00",
+      "readme": {
+        "path": "readmes/stemdeckapp+stemdeck+README.md",
+        "etag": "W/\"2bb45ed4a6b8c63e02124bea89b8bef350a8b85a\"",
+        "sha": "2bb45ed4a6b8c63e02124bea89b8bef350a8b85a",
+        "size": 25907,
+        "fetched_at": "2026-08-29T10:15:01.326461+00:00",
+        "status": "ok"
+      }
     },
     "Lakr233/vphone-cli": {
       "lists": [
@@ -245170,7 +245178,15 @@
         "pushed_at": "2026-08-29T00:45:34Z",
         "starred_at": "2026-08-29T03:00:10Z"
       },
-      "last_updated": "2026-08-29T10:06:53.792710+00:00"
+      "last_updated": "2026-08-29T10:06:53.792710+00:00",
+      "readme": {
+        "path": "readmes/Lakr233+vphone-cli+README.md",
+        "etag": "W/\"079064d19fea9f90febe82e81a0faf4602520463\"",
+        "sha": "079064d19fea9f90febe82e81a0faf4602520463",
+        "size": 9903,
+        "fetched_at": "2026-08-29T10:15:00.692117+00:00",
+        "status": "ok"
+      }
     },
     "gurjar1/OmniDictate": {
       "lists": [
@@ -245192,7 +245208,15 @@
         "pushed_at": "2026-07-08T07:10:07Z",
         "starred_at": "2026-08-29T01:32:15Z"
       },
-      "last_updated": "2026-08-29T10:06:54.142906+00:00"
+      "last_updated": "2026-08-29T10:06:54.142906+00:00",
+      "readme": {
+        "path": "readmes/gurjar1+OmniDictate+README.md",
+        "etag": "W/\"6f23c9b2018aeb7868c0a28b3c0985f602bc1c06\"",
+        "sha": "6f23c9b2018aeb7868c0a28b3c0985f602bc1c06",
+        "size": 8265,
+        "fetched_at": "2026-08-29T10:15:00.981787+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
