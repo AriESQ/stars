@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T10:15:01.328775+00:00",
+  "last_updated": "2026-08-30T09:16:25.736483+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245217,6 +245217,46 @@
         "fetched_at": "2026-08-29T10:15:00.981787+00:00",
         "status": "ok"
       }
+    },
+    "kunchenguid/firstmate": {
+      "lists": [],
+      "metadata": {
+        "id": 1266884317,
+        "name": "firstmate",
+        "full_name": "kunchenguid/firstmate",
+        "description": "Talk to one agent. Ship with a crew.",
+        "url": "https://github.com/kunchenguid/firstmate",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 4387,
+        "forks": 1449,
+        "open_issues": 821,
+        "created_at": "2026-06-12T03:21:10Z",
+        "updated_at": "2026-08-30T08:23:22Z",
+        "pushed_at": "2026-08-30T08:59:05Z",
+        "starred_at": "2026-08-29T18:48:13Z"
+      },
+      "last_updated": "2026-08-30T09:16:25.444170+00:00"
+    },
+    "zackb/tether": {
+      "lists": [],
+      "metadata": {
+        "id": 1208291223,
+        "name": "tether",
+        "full_name": "zackb/tether",
+        "description": "Linux + iPhone Continuity / iMessage / SMS",
+        "url": "https://github.com/zackb/tether",
+        "homepage": "",
+        "language": "C++",
+        "stars": 707,
+        "forks": 13,
+        "open_issues": 9,
+        "created_at": "2026-04-12T04:31:45Z",
+        "updated_at": "2026-08-30T09:16:17Z",
+        "pushed_at": "2026-08-30T03:38:23Z",
+        "starred_at": "2026-08-29T16:57:20Z"
+      },
+      "last_updated": "2026-08-30T09:16:25.736379+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245226,5 +245266,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7f4891cf738fd379e95ee0437a6dd2dedf57d342bbc14efa317f972dcdd681ae\""
+  "profile_etag": "W/\"20073a542a226127cf7f81c558bed3819dd67da8c0c732a716b342b8c5d1c91c\""
 }
