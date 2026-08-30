@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T09:21:04.064561+00:00",
+  "last_updated": "2026-08-30T09:24:52.792459+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245238,7 +245238,15 @@
         "pushed_at": "2026-08-30T08:59:05Z",
         "starred_at": "2026-08-29T18:48:13Z"
       },
-      "last_updated": "2026-08-30T09:16:25.444170+00:00"
+      "last_updated": "2026-08-30T09:16:25.444170+00:00",
+      "readme": {
+        "path": "readmes/kunchenguid+firstmate+README.md",
+        "etag": "W/\"937cba18f4ba639a3b193578a4aee586fb08c67c\"",
+        "sha": "937cba18f4ba639a3b193578a4aee586fb08c67c",
+        "size": 18041,
+        "fetched_at": "2026-08-30T09:24:52.444048+00:00",
+        "status": "ok"
+      }
     },
     "zackb/tether": {
       "lists": [
@@ -245261,7 +245269,15 @@
         "pushed_at": "2026-08-30T03:38:23Z",
         "starred_at": "2026-08-29T16:57:20Z"
       },
-      "last_updated": "2026-08-30T09:16:25.736379+00:00"
+      "last_updated": "2026-08-30T09:16:25.736379+00:00",
+      "readme": {
+        "path": "readmes/zackb+tether+README.md",
+        "etag": "W/\"40e93ebda87fedd3db25e6a613d1e6b477f398f3\"",
+        "sha": "40e93ebda87fedd3db25e6a613d1e6b477f398f3",
+        "size": 8778,
+        "fetched_at": "2026-08-30T09:24:52.791965+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
