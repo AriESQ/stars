@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T09:16:25.736483+00:00",
+  "last_updated": "2026-08-30T09:21:04.064561+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245219,7 +245219,9 @@
       }
     },
     "kunchenguid/firstmate": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1266884317,
         "name": "firstmate",
@@ -245239,7 +245241,10 @@
       "last_updated": "2026-08-30T09:16:25.444170+00:00"
     },
     "zackb/tether": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1208291223,
         "name": "tether",
