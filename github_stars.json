@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T09:55:47.471396+00:00",
+  "last_updated": "2026-08-31T09:56:24.755572+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245301,7 +245301,15 @@
         "pushed_at": "2026-08-29T10:24:24Z",
         "starred_at": "2026-08-31T01:36:03Z"
       },
-      "last_updated": "2026-08-31T09:47:31.886274+00:00"
+      "last_updated": "2026-08-31T09:47:31.886274+00:00",
+      "readme": {
+        "path": "readmes/ASCIT31+Dark-Moon+README.md",
+        "etag": "W/\"36b74129a14b8aa539575e0d0b3f9998d3099244\"",
+        "sha": "36b74129a14b8aa539575e0d0b3f9998d3099244",
+        "size": 15481,
+        "fetched_at": "2026-08-31T09:56:24.745461+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
