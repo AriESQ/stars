@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T09:24:52.792459+00:00",
+  "last_updated": "2026-08-31T09:47:31.886387+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245278,6 +245278,26 @@
         "fetched_at": "2026-08-30T09:24:52.791965+00:00",
         "status": "ok"
       }
+    },
+    "ASCIT31/Dark-Moon": {
+      "lists": [],
+      "metadata": {
+        "id": 894433723,
+        "name": "Dark-Moon",
+        "full_name": "ASCIT31/Dark-Moon",
+        "description": "Autonomous AI pentesting engine, continuous offensive security across web, cloud, identity, CI/CD, IaC, databases, Active Directory, Kubernetes and IoT firmware. Agentic reasoning plus real exploit execution deliver proof-based vulnerabilities. Privacy gateway: the LLM never sees your real IPs, hosts or creds, nothing leaves your perimeter.",
+        "url": "https://github.com/ASCIT31/Dark-Moon",
+        "homepage": "https://dark-moon.org/",
+        "language": "Python",
+        "stars": 879,
+        "forks": 153,
+        "open_issues": 2,
+        "created_at": "2024-11-26T10:54:02Z",
+        "updated_at": "2026-08-31T01:36:03Z",
+        "pushed_at": "2026-08-29T10:24:24Z",
+        "starred_at": "2026-08-31T01:36:03Z"
+      },
+      "last_updated": "2026-08-31T09:47:31.886274+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245287,5 +245307,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"20073a542a226127cf7f81c558bed3819dd67da8c0c732a716b342b8c5d1c91c\""
+  "profile_etag": "W/\"313e9c4e18aef4f95e517d42edb6040e4a6e9f9c52384515632a048fd8ca8dd2\""
 }
