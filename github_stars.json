@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T08:06:36.316759+00:00",
+  "last_updated": "2026-09-03T08:05:54.279216+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245401,6 +245401,46 @@
         "fetched_at": "2026-09-02T08:06:36.036395+00:00",
         "status": "ok"
       }
+    },
+    "aubepkg/aube": {
+      "lists": [],
+      "metadata": {
+        "id": 1214542327,
+        "name": "aube",
+        "full_name": "aubepkg/aube",
+        "description": "A fast Node.js package manager",
+        "url": "https://github.com/aubepkg/aube",
+        "homepage": "https://aube.sh",
+        "language": "Rust",
+        "stars": 1954,
+        "forks": 61,
+        "open_issues": 4,
+        "created_at": "2026-04-18T18:06:49Z",
+        "updated_at": "2026-09-03T05:08:48Z",
+        "pushed_at": "2026-09-03T03:08:55Z",
+        "starred_at": "2026-05-06T18:46:01Z"
+      },
+      "last_updated": "2026-09-03T08:05:53.837522+00:00"
+    },
+    "mazupo/pi-webrtc": {
+      "lists": [],
+      "metadata": {
+        "id": 490155405,
+        "name": "pi-webrtc",
+        "full_name": "mazupo/pi-webrtc",
+        "description": "Real-time WebRTC streaming for Raspberry Pi and NVIDIA Jetson with 100\u2013200 ms glass-to-glass latency.",
+        "url": "https://github.com/mazupo/pi-webrtc",
+        "homepage": "https://picamera.live",
+        "language": "C++",
+        "stars": 987,
+        "forks": 60,
+        "open_issues": 4,
+        "created_at": "2022-05-09T06:06:35Z",
+        "updated_at": "2026-09-03T07:35:05Z",
+        "pushed_at": "2026-09-03T07:34:23Z",
+        "starred_at": "2024-09-15T20:17:18Z"
+      },
+      "last_updated": "2026-09-03T08:05:54.279138+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245410,5 +245450,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"bc771bbb0926355aab472465f19472ee0827bfd97e8c845de7860336c68082b1\""
+  "profile_etag": "W/\"b2beede7c62a7a619a5c0a39d27278213b5717b9c30f9ee6d304e2a4615165a2\""
 }
