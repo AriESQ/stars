@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T08:13:49.402199+00:00",
+  "last_updated": "2026-09-03T08:14:49.976125+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245422,7 +245422,15 @@
         "pushed_at": "2026-09-03T03:08:55Z",
         "starred_at": "2026-05-06T18:46:01Z"
       },
-      "last_updated": "2026-09-03T08:05:53.837522+00:00"
+      "last_updated": "2026-09-03T08:05:53.837522+00:00",
+      "readme": {
+        "path": "readmes/aubepkg+aube+README.md",
+        "etag": "W/\"0c045e251e9d0549196d9be2d71d01b7d7e17d88\"",
+        "sha": "0c045e251e9d0549196d9be2d71d01b7d7e17d88",
+        "size": 12556,
+        "fetched_at": "2026-09-03T08:14:49.601020+00:00",
+        "status": "ok"
+      }
     },
     "mazupo/pi-webrtc": {
       "lists": [
@@ -245445,7 +245453,15 @@
         "pushed_at": "2026-09-03T07:34:23Z",
         "starred_at": "2024-09-15T20:17:18Z"
       },
-      "last_updated": "2026-09-03T08:05:54.279138+00:00"
+      "last_updated": "2026-09-03T08:05:54.279138+00:00",
+      "readme": {
+        "path": "readmes/mazupo+pi-webrtc+README.md",
+        "etag": "W/\"217b8b9cb1e782e9584494c31f12b49077bb6501\"",
+        "sha": "217b8b9cb1e782e9584494c31f12b49077bb6501",
+        "size": 5709,
+        "fetched_at": "2026-09-03T08:14:49.970465+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
