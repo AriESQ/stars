@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T08:05:54.279216+00:00",
+  "last_updated": "2026-09-03T08:13:49.402199+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245403,7 +245403,9 @@
       }
     },
     "aubepkg/aube": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1214542327,
         "name": "aube",
@@ -245423,7 +245425,10 @@
       "last_updated": "2026-09-03T08:05:53.837522+00:00"
     },
     "mazupo/pi-webrtc": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 490155405,
         "name": "pi-webrtc",
