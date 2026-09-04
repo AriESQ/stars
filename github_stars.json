@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T08:09:57.983083+00:00",
+  "last_updated": "2026-09-04T08:10:31.232957+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245484,7 +245484,15 @@
         "pushed_at": "2024-03-17T14:55:04Z",
         "starred_at": "2026-09-03T17:06:31Z"
       },
-      "last_updated": "2026-09-04T08:01:16.258052+00:00"
+      "last_updated": "2026-09-04T08:01:16.258052+00:00",
+      "readme": {
+        "path": "readmes/StefanPetrick+animartrix+README.md",
+        "etag": "W/\"eab1eb59e926d9da7ef8cf2f03dab0162087d55d\"",
+        "sha": "eab1eb59e926d9da7ef8cf2f03dab0162087d55d",
+        "size": 2756,
+        "fetched_at": "2026-09-04T08:10:29.864573+00:00",
+        "status": "ok"
+      }
     },
     "shibco/ableton-linux": {
       "lists": [
@@ -245506,7 +245514,15 @@
         "pushed_at": "2026-08-31T12:14:41Z",
         "starred_at": "2026-09-03T12:28:39Z"
       },
-      "last_updated": "2026-09-04T08:01:16.516438+00:00"
+      "last_updated": "2026-09-04T08:01:16.516438+00:00",
+      "readme": {
+        "path": "readmes/shibco+ableton-linux+README.md",
+        "etag": "W/\"d3e5b48a877f6fb7786080b18da7eb3585fd18b7\"",
+        "sha": "d3e5b48a877f6fb7786080b18da7eb3585fd18b7",
+        "size": 18343,
+        "fetched_at": "2026-09-04T08:10:30.704420+00:00",
+        "status": "ok"
+      }
     },
     "weave-os/router": {
       "lists": [
@@ -245529,7 +245545,15 @@
         "pushed_at": "2026-09-04T06:59:10Z",
         "starred_at": "2026-06-26T17:14:28Z"
       },
-      "last_updated": "2026-09-04T08:01:16.977006+00:00"
+      "last_updated": "2026-09-04T08:01:16.977006+00:00",
+      "readme": {
+        "path": "readmes/weave-os+router+README.md",
+        "etag": "W/\"2ae621af67cbfbad0352102adefdbc176c95aca5\"",
+        "sha": "2ae621af67cbfbad0352102adefdbc176c95aca5",
+        "size": 29518,
+        "fetched_at": "2026-09-04T08:10:31.232054+00:00",
+        "status": "ok"
+      }
     },
     "nunchux-ai/nunchaku": {
       "lists": [
@@ -245552,7 +245576,15 @@
         "pushed_at": "2026-03-07T06:42:49Z",
         "starred_at": "2025-02-22T02:02:22Z"
       },
-      "last_updated": "2026-09-04T08:01:17.448503+00:00"
+      "last_updated": "2026-09-04T08:01:17.448503+00:00",
+      "readme": {
+        "path": "readmes/nunchux-ai+nunchaku+README.md",
+        "etag": "W/\"e4f63bea9d0bafb9d9ecbbb01bc28871c68e9037\"",
+        "sha": "e4f63bea9d0bafb9d9ecbbb01bc28871c68e9037",
+        "size": 17614,
+        "fetched_at": "2026-09-04T08:10:30.268953+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
