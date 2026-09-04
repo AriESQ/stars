@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T08:01:17.448535+00:00",
+  "last_updated": "2026-09-04T08:09:57.983083+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245464,7 +245464,10 @@
       }
     },
     "StefanPetrick/animartrix": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 618441706,
         "name": "animartrix",
@@ -245484,7 +245487,9 @@
       "last_updated": "2026-09-04T08:01:16.258052+00:00"
     },
     "shibco/ableton-linux": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1300418295,
         "name": "ableton-linux",
@@ -245504,7 +245509,10 @@
       "last_updated": "2026-09-04T08:01:16.516438+00:00"
     },
     "weave-os/router": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1222789989,
         "name": "router",
@@ -245524,7 +245532,10 @@
       "last_updated": "2026-09-04T08:01:16.977006+00:00"
     },
     "nunchux-ai/nunchaku": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 884123664,
         "name": "nunchaku",
