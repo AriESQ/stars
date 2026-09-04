@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T08:14:49.976125+00:00",
+  "last_updated": "2026-09-04T08:01:17.448535+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245462,6 +245462,86 @@
         "fetched_at": "2026-09-03T08:14:49.970465+00:00",
         "status": "ok"
       }
+    },
+    "StefanPetrick/animartrix": {
+      "lists": [],
+      "metadata": {
+        "id": 618441706,
+        "name": "animartrix",
+        "full_name": "StefanPetrick/animartrix",
+        "description": "High fidelity & high-res LED animations for microcontrollers with hardware FPU (Teensy 4.x, 3.5, 3.6 & ESP32 S3) ",
+        "url": "https://github.com/StefanPetrick/animartrix",
+        "homepage": "https://www.youtube.com/@stefanpetrick",
+        "language": "C++",
+        "stars": 81,
+        "forks": 14,
+        "open_issues": 6,
+        "created_at": "2023-03-24T13:29:14Z",
+        "updated_at": "2026-09-03T17:06:32Z",
+        "pushed_at": "2024-03-17T14:55:04Z",
+        "starred_at": "2026-09-03T17:06:31Z"
+      },
+      "last_updated": "2026-09-04T08:01:16.258052+00:00"
+    },
+    "shibco/ableton-linux": {
+      "lists": [],
+      "metadata": {
+        "id": 1300418295,
+        "name": "ableton-linux",
+        "full_name": "shibco/ableton-linux",
+        "description": "Run Ableton 12 and Push on Linux",
+        "url": "https://github.com/shibco/ableton-linux",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 477,
+        "forks": 25,
+        "open_issues": 34,
+        "created_at": "2026-07-14T11:40:27Z",
+        "updated_at": "2026-09-04T01:28:25Z",
+        "pushed_at": "2026-08-31T12:14:41Z",
+        "starred_at": "2026-09-03T12:28:39Z"
+      },
+      "last_updated": "2026-09-04T08:01:16.516438+00:00"
+    },
+    "weave-os/router": {
+      "lists": [],
+      "metadata": {
+        "id": 1222789989,
+        "name": "router",
+        "full_name": "weave-os/router",
+        "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+        "url": "https://github.com/weave-os/router",
+        "homepage": "https://weaveos.com/products/router",
+        "language": "Go",
+        "stars": 3795,
+        "forks": 105,
+        "open_issues": 106,
+        "created_at": "2026-04-27T17:56:27Z",
+        "updated_at": "2026-09-04T07:53:33Z",
+        "pushed_at": "2026-09-04T06:59:10Z",
+        "starred_at": "2026-06-26T17:14:28Z"
+      },
+      "last_updated": "2026-09-04T08:01:16.977006+00:00"
+    },
+    "nunchux-ai/nunchaku": {
+      "lists": [],
+      "metadata": {
+        "id": 884123664,
+        "name": "nunchaku",
+        "full_name": "nunchux-ai/nunchaku",
+        "description": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models",
+        "url": "https://github.com/nunchux-ai/nunchaku",
+        "homepage": "https://nunchaku.tech/docs/nunchaku/",
+        "language": "Python",
+        "stars": 3942,
+        "forks": 277,
+        "open_issues": 25,
+        "created_at": "2024-11-06T07:24:40Z",
+        "updated_at": "2026-09-04T07:46:20Z",
+        "pushed_at": "2026-03-07T06:42:49Z",
+        "starred_at": "2025-02-22T02:02:22Z"
+      },
+      "last_updated": "2026-09-04T08:01:17.448503+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245471,5 +245551,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"b2beede7c62a7a619a5c0a39d27278213b5717b9c30f9ee6d304e2a4615165a2\""
+  "profile_etag": "W/\"1daa2b21c1dd76a90f6dcde11e9bf093ba4081bdc9dcd0d9b3c8ef4b49dc8f96\""
 }
