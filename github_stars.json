@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T08:10:31.232957+00:00",
+  "last_updated": "2026-09-05T07:42:40.610060+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245585,6 +245585,106 @@
         "fetched_at": "2026-09-04T08:10:30.268953+00:00",
         "status": "ok"
       }
+    },
+    "NeoLabHQ/context-engineering-kit": {
+      "lists": [],
+      "metadata": {
+        "id": 1096085345,
+        "name": "context-engineering-kit",
+        "full_name": "NeoLabHQ/context-engineering-kit",
+        "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others. Includes CodeRabbit open-source alternative.",
+        "url": "https://github.com/NeoLabHQ/context-engineering-kit",
+        "homepage": "https://neolab.gitbook.io/cek",
+        "language": "TypeScript",
+        "stars": 1578,
+        "forks": 155,
+        "open_issues": 9,
+        "created_at": "2025-11-13T23:23:04Z",
+        "updated_at": "2026-09-05T07:24:11Z",
+        "pushed_at": "2026-08-26T21:08:01Z",
+        "starred_at": "2026-09-05T01:13:26Z"
+      },
+      "last_updated": "2026-09-05T07:42:39.344358+00:00"
+    },
+    "naveenrajm7/vagrant_utm": {
+      "lists": [],
+      "metadata": {
+        "id": 828730262,
+        "name": "vagrant_utm",
+        "full_name": "naveenrajm7/vagrant_utm",
+        "description": " UTM provider for Vagrant",
+        "url": "https://github.com/naveenrajm7/vagrant_utm",
+        "homepage": "https://naveenrajm7.github.io/vagrant_utm/",
+        "language": "Ruby",
+        "stars": 114,
+        "forks": 19,
+        "open_issues": 8,
+        "created_at": "2024-07-15T02:28:29Z",
+        "updated_at": "2026-09-04T21:30:57Z",
+        "pushed_at": "2026-08-20T07:19:07Z",
+        "starred_at": "2026-09-04T21:30:56Z"
+      },
+      "last_updated": "2026-09-05T07:42:39.656843+00:00"
+    },
+    "PeteHaughie/vm1-video-mixer": {
+      "lists": [],
+      "metadata": {
+        "id": 1030331831,
+        "name": "vm1-video-mixer",
+        "full_name": "PeteHaughie/vm1-video-mixer",
+        "description": "Live video mixing.",
+        "url": "https://github.com/PeteHaughie/vm1-video-mixer",
+        "homepage": "",
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-08-01T13:09:41Z",
+        "updated_at": "2026-09-04T17:28:43Z",
+        "pushed_at": "2025-07-30T20:36:46Z",
+        "starred_at": "2026-09-04T17:28:43Z"
+      },
+      "last_updated": "2026-09-05T07:42:39.961620+00:00"
+    },
+    "igrigorik/gharchive.org": {
+      "lists": [],
+      "metadata": {
+        "id": 3683692,
+        "name": "gharchive.org",
+        "full_name": "igrigorik/gharchive.org",
+        "description": "GH Archive is a project to record the public GitHub timeline, archive it, and make it easily accessible for further analysis.",
+        "url": "https://github.com/igrigorik/gharchive.org",
+        "homepage": "https://www.gharchive.org",
+        "language": "Ruby",
+        "stars": 3072,
+        "forks": 230,
+        "open_issues": 36,
+        "created_at": "2012-03-11T00:44:31Z",
+        "updated_at": "2026-09-04T17:28:33Z",
+        "pushed_at": "2025-05-25T05:42:50Z",
+        "starred_at": "2026-09-04T17:28:32Z"
+      },
+      "last_updated": "2026-09-05T07:42:40.267908+00:00"
+    },
+    "kholbrook1303/RPI5-Bookworm-ProjectM-Audio-Receiver": {
+      "lists": [],
+      "metadata": {
+        "id": 757518848,
+        "name": "RPI5-Bookworm-ProjectM-Audio-Receiver",
+        "full_name": "kholbrook1303/RPI5-Bookworm-ProjectM-Audio-Receiver",
+        "description": "Audio manager for the Raspberry Pi 5 supporting projectM visualizations.",
+        "url": "https://github.com/kholbrook1303/RPI5-Bookworm-ProjectM-Audio-Receiver",
+        "homepage": "",
+        "language": "Python",
+        "stars": 49,
+        "forks": 3,
+        "open_issues": 6,
+        "created_at": "2024-02-14T16:53:21Z",
+        "updated_at": "2026-09-04T16:46:26Z",
+        "pushed_at": "2026-02-02T14:24:33Z",
+        "starred_at": "2026-09-04T16:46:25Z"
+      },
+      "last_updated": "2026-09-05T07:42:40.609949+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245594,5 +245694,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1daa2b21c1dd76a90f6dcde11e9bf093ba4081bdc9dcd0d9b3c8ef4b49dc8f96\""
+  "profile_etag": "W/\"54a0514125f560e0d0dfe2ee940d46cb264049fbf4595552065d5e7c61069d45\""
 }
