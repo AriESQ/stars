@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T07:56:42.697230+00:00",
+  "last_updated": "2026-09-06T08:03:57.676433+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245587,7 +245587,9 @@
       }
     },
     "NeoLabHQ/context-engineering-kit": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1096085345,
         "name": "context-engineering-kit",
@@ -245607,7 +245609,10 @@
       "last_updated": "2026-09-05T07:42:39.344358+00:00"
     },
     "naveenrajm7/vagrant_utm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Devops"
+      ],
       "metadata": {
         "id": 828730262,
         "name": "vagrant_utm",
@@ -245627,7 +245632,9 @@
       "last_updated": "2026-09-05T07:42:39.656843+00:00"
     },
     "PeteHaughie/vm1-video-mixer": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1030331831,
         "name": "vm1-video-mixer",
@@ -245647,7 +245654,11 @@
       "last_updated": "2026-09-05T07:42:39.961620+00:00"
     },
     "igrigorik/gharchive.org": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Infosec"
+      ],
       "metadata": {
         "id": 3683692,
         "name": "gharchive.org",
@@ -245667,7 +245678,10 @@
       "last_updated": "2026-09-05T07:42:40.267908+00:00"
     },
     "kholbrook1303/RPI5-Bookworm-ProjectM-Audio-Receiver": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 757518848,
         "name": "RPI5-Bookworm-ProjectM-Audio-Receiver",
@@ -245687,7 +245701,10 @@
       "last_updated": "2026-09-05T07:42:40.609949+00:00"
     },
     "okf-memory/okf-agent-memory": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1358571386,
         "name": "okf-agent-memory",
