@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T08:03:57.676433+00:00",
+  "last_updated": "2026-09-06T08:04:51.468310+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245606,7 +245606,15 @@
         "pushed_at": "2026-08-26T21:08:01Z",
         "starred_at": "2026-09-05T01:13:26Z"
       },
-      "last_updated": "2026-09-05T07:42:39.344358+00:00"
+      "last_updated": "2026-09-05T07:42:39.344358+00:00",
+      "readme": {
+        "path": "readmes/NeoLabHQ+context-engineering-kit+README.md",
+        "etag": "W/\"01143e20c87bc83afdf955838c21905f7a1266a4\"",
+        "sha": "01143e20c87bc83afdf955838c21905f7a1266a4",
+        "size": 44610,
+        "fetched_at": "2026-09-06T08:04:49.300472+00:00",
+        "status": "ok"
+      }
     },
     "naveenrajm7/vagrant_utm": {
       "lists": [
@@ -245629,7 +245637,15 @@
         "pushed_at": "2026-08-20T07:19:07Z",
         "starred_at": "2026-09-04T21:30:56Z"
       },
-      "last_updated": "2026-09-05T07:42:39.656843+00:00"
+      "last_updated": "2026-09-05T07:42:39.656843+00:00",
+      "readme": {
+        "path": "readmes/naveenrajm7+vagrant_utm+README.md",
+        "etag": "W/\"25a90953105f67f279a1b1d33b4eeb157b417242\"",
+        "sha": "25a90953105f67f279a1b1d33b4eeb157b417242",
+        "size": 2323,
+        "fetched_at": "2026-09-06T08:04:51.094615+00:00",
+        "status": "ok"
+      }
     },
     "PeteHaughie/vm1-video-mixer": {
       "lists": [
@@ -245651,7 +245667,15 @@
         "pushed_at": "2025-07-30T20:36:46Z",
         "starred_at": "2026-09-04T17:28:43Z"
       },
-      "last_updated": "2026-09-05T07:42:39.961620+00:00"
+      "last_updated": "2026-09-05T07:42:39.961620+00:00",
+      "readme": {
+        "path": "readmes/PeteHaughie+vm1-video-mixer+README.md",
+        "etag": "W/\"ac168d56c45c0796fed7e685d135f816623e7b2b\"",
+        "sha": "ac168d56c45c0796fed7e685d135f816623e7b2b",
+        "size": 1298,
+        "fetched_at": "2026-09-06T08:04:49.791033+00:00",
+        "status": "ok"
+      }
     },
     "igrigorik/gharchive.org": {
       "lists": [
@@ -245675,7 +245699,15 @@
         "pushed_at": "2025-05-25T05:42:50Z",
         "starred_at": "2026-09-04T17:28:32Z"
       },
-      "last_updated": "2026-09-05T07:42:40.267908+00:00"
+      "last_updated": "2026-09-05T07:42:40.267908+00:00",
+      "readme": {
+        "path": "readmes/igrigorik+gharchive.org+README.md",
+        "etag": "W/\"601c6f6e4f0bb8ae533ccdf226ff1c764b52c3dc\"",
+        "sha": "601c6f6e4f0bb8ae533ccdf226ff1c764b52c3dc",
+        "size": 1446,
+        "fetched_at": "2026-09-06T08:04:50.156837+00:00",
+        "status": "ok"
+      }
     },
     "kholbrook1303/RPI5-Bookworm-ProjectM-Audio-Receiver": {
       "lists": [
@@ -245698,7 +245730,15 @@
         "pushed_at": "2026-02-02T14:24:33Z",
         "starred_at": "2026-09-04T16:46:25Z"
       },
-      "last_updated": "2026-09-05T07:42:40.609949+00:00"
+      "last_updated": "2026-09-05T07:42:40.609949+00:00",
+      "readme": {
+        "path": "readmes/kholbrook1303+RPI5-Bookworm-ProjectM-Audio-Receiver+README.md",
+        "etag": "W/\"13b12bb5f0191c55b585e413a827a7d136254afa\"",
+        "sha": "13b12bb5f0191c55b585e413a827a7d136254afa",
+        "size": 7045,
+        "fetched_at": "2026-09-06T08:04:50.632199+00:00",
+        "status": "ok"
+      }
     },
     "okf-memory/okf-agent-memory": {
       "lists": [
@@ -245721,7 +245761,15 @@
         "pushed_at": "2026-09-05T21:30:17Z",
         "starred_at": "2026-09-05T23:50:25Z"
       },
-      "last_updated": "2026-09-06T07:56:42.697092+00:00"
+      "last_updated": "2026-09-06T07:56:42.697092+00:00",
+      "readme": {
+        "path": "readmes/okf-memory+okf-agent-memory+README.md",
+        "etag": "W/\"dd2394c65ff4a1160ce4ff93ae3ebc8a3a8d3e2a\"",
+        "sha": "dd2394c65ff4a1160ce4ff93ae3ebc8a3a8d3e2a",
+        "size": 10807,
+        "fetched_at": "2026-09-06T08:04:51.464057+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
