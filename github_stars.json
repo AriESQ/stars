@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T08:16:09.306147+00:00",
+  "last_updated": "2026-09-08T08:16:37.099277+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245792,7 +245792,15 @@
         "pushed_at": "2026-09-08T02:16:13Z",
         "starred_at": "2026-04-19T16:54:40Z"
       },
-      "last_updated": "2026-09-08T08:07:41.307325+00:00"
+      "last_updated": "2026-09-08T08:07:41.307325+00:00",
+      "readme": {
+        "path": "readmes/purelogiccode+SimpleLauncher+README.md",
+        "etag": "W/\"7f08a773802eeb4465018faa88da0d90b7aa74e3\"",
+        "sha": "7f08a773802eeb4465018faa88da0d90b7aa74e3",
+        "size": 14260,
+        "fetched_at": "2026-09-08T08:16:37.095798+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
