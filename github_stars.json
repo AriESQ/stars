@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T08:07:41.307409+00:00",
+  "last_updated": "2026-09-08T08:16:09.306147+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -113044,7 +113044,8 @@
     },
     "zbanks/radiance": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "Rust"
       ],
       "metadata": {
         "id": 51273557,
@@ -245772,7 +245773,9 @@
       }
     },
     "purelogiccode/SimpleLauncher": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 682297489,
         "name": "SimpleLauncher",
