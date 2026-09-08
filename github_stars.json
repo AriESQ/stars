@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T08:29:51.610027+00:00",
+  "last_updated": "2026-09-08T08:07:41.307409+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245770,6 +245770,26 @@
         "fetched_at": "2026-09-06T08:04:51.464057+00:00",
         "status": "ok"
       }
+    },
+    "purelogiccode/SimpleLauncher": {
+      "lists": [],
+      "metadata": {
+        "id": 682297489,
+        "name": "SimpleLauncher",
+        "full_name": "purelogiccode/SimpleLauncher",
+        "description": "Simple Launcher is an open-source emulator frontend. Designed for both casual gamers and power users, it provides a seamless interface to organize, browse, and launch your retro gaming collection with deep integration for modern emulators and RetroAchievements.",
+        "url": "https://github.com/purelogiccode/SimpleLauncher",
+        "homepage": "https://purelogiccode.github.io/SimpleLauncher/",
+        "language": "C#",
+        "stars": 258,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2023-08-23T21:49:29Z",
+        "updated_at": "2026-09-08T02:14:13Z",
+        "pushed_at": "2026-09-08T02:16:13Z",
+        "starred_at": "2026-04-19T16:54:40Z"
+      },
+      "last_updated": "2026-09-08T08:07:41.307325+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245779,5 +245799,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5059164d05a502915615f166c371e1acdf023a72e47d7a4f80e82aed9a1a1152\""
+  "profile_etag": "W/\"1375675ce3ff942fc9b253f3c1e9cca13555bcd1840d6a16ff76e262f01ac23b\""
 }
