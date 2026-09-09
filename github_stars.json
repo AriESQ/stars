@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T08:10:49.114269+00:00",
+  "last_updated": "2026-09-09T08:18:52.614118+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245803,7 +245803,11 @@
       }
     },
     "danielbaldwin47/resolve-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1323433703,
         "name": "resolve-mcp",
@@ -245823,7 +245827,11 @@
       "last_updated": "2026-09-09T08:10:48.342191+00:00"
     },
     "lordhoell/davinci-resolve-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1200011027,
         "name": "davinci-resolve-mcp",
@@ -245843,7 +245851,10 @@
       "last_updated": "2026-09-09T08:10:48.585545+00:00"
     },
     "samuelgursky/davinci-resolve-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 950355259,
         "name": "davinci-resolve-mcp",
@@ -245863,7 +245874,9 @@
       "last_updated": "2026-09-09T08:10:48.888298+00:00"
     },
     "parsiya/prub": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1357886891,
         "name": "prub",
