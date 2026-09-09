@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T08:18:52.614118+00:00",
+  "last_updated": "2026-09-09T08:19:31.201466+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245824,7 +245824,15 @@
         "pushed_at": "2026-08-16T04:23:16Z",
         "starred_at": "2026-09-09T05:10:30Z"
       },
-      "last_updated": "2026-09-09T08:10:48.342191+00:00"
+      "last_updated": "2026-09-09T08:10:48.342191+00:00",
+      "readme": {
+        "path": "readmes/danielbaldwin47+resolve-mcp+README.md",
+        "etag": "W/\"8d2d4f3403bc5af92d3688cedda7d2f8a726d5c7\"",
+        "sha": "8d2d4f3403bc5af92d3688cedda7d2f8a726d5c7",
+        "size": 18371,
+        "fetched_at": "2026-09-09T08:19:29.803146+00:00",
+        "status": "ok"
+      }
     },
     "lordhoell/davinci-resolve-mcp": {
       "lists": [
@@ -245848,7 +245856,15 @@
         "pushed_at": "2026-04-03T02:08:39Z",
         "starred_at": "2026-09-09T05:09:50Z"
       },
-      "last_updated": "2026-09-09T08:10:48.585545+00:00"
+      "last_updated": "2026-09-09T08:10:48.585545+00:00",
+      "readme": {
+        "path": "readmes/lordhoell+davinci-resolve-mcp+README.md",
+        "etag": "W/\"d07297bdfa08861edf5a3d5c3a493d34d16166dd\"",
+        "sha": "d07297bdfa08861edf5a3d5c3a493d34d16166dd",
+        "size": 7804,
+        "fetched_at": "2026-09-09T08:19:30.223991+00:00",
+        "status": "ok"
+      }
     },
     "samuelgursky/davinci-resolve-mcp": {
       "lists": [
@@ -245871,7 +245887,15 @@
         "pushed_at": "2026-09-09T07:41:31Z",
         "starred_at": "2026-09-09T05:07:54Z"
       },
-      "last_updated": "2026-09-09T08:10:48.888298+00:00"
+      "last_updated": "2026-09-09T08:10:48.888298+00:00",
+      "readme": {
+        "path": "readmes/samuelgursky+davinci-resolve-mcp+README.md",
+        "etag": "W/\"56422c38ba033aaf665030015f5b1b23a1473967\"",
+        "sha": "56422c38ba033aaf665030015f5b1b23a1473967",
+        "size": 31979,
+        "fetched_at": "2026-09-09T08:19:31.198657+00:00",
+        "status": "ok"
+      }
     },
     "parsiya/prub": {
       "lists": [
@@ -245893,7 +245917,15 @@
         "pushed_at": "2026-09-08T03:37:21Z",
         "starred_at": "2026-09-09T04:21:09Z"
       },
-      "last_updated": "2026-09-09T08:10:49.114158+00:00"
+      "last_updated": "2026-09-09T08:10:49.114158+00:00",
+      "readme": {
+        "path": "readmes/parsiya+prub+README.md",
+        "etag": "W/\"31e84cc21342444efcdfb93f83daa1bebbd96023\"",
+        "sha": "31e84cc21342444efcdfb93f83daa1bebbd96023",
+        "size": 7032,
+        "fetched_at": "2026-09-09T08:19:30.747280+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
