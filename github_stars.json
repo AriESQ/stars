@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T08:16:37.099277+00:00",
+  "last_updated": "2026-09-09T08:10:49.114269+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245801,6 +245801,86 @@
         "fetched_at": "2026-09-08T08:16:37.095798+00:00",
         "status": "ok"
       }
+    },
+    "danielbaldwin47/resolve-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1323433703,
+        "name": "resolve-mcp",
+        "full_name": "danielbaldwin47/resolve-mcp",
+        "description": null,
+        "url": "https://github.com/danielbaldwin47/resolve-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 6,
+        "created_at": "2026-08-04T22:42:35Z",
+        "updated_at": "2026-09-09T05:10:30Z",
+        "pushed_at": "2026-08-16T04:23:16Z",
+        "starred_at": "2026-09-09T05:10:30Z"
+      },
+      "last_updated": "2026-09-09T08:10:48.342191+00:00"
+    },
+    "lordhoell/davinci-resolve-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1200011027,
+        "name": "davinci-resolve-mcp",
+        "full_name": "lordhoell/davinci-resolve-mcp",
+        "description": "MCP server + Claude Code skill exposing the complete DaVinci Resolve scripting API (440+ tools) for AI-assisted video editing, color grading, and rendering",
+        "url": "https://github.com/lordhoell/davinci-resolve-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 7,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-04-03T00:11:30Z",
+        "updated_at": "2026-09-09T06:45:12Z",
+        "pushed_at": "2026-04-03T02:08:39Z",
+        "starred_at": "2026-09-09T05:09:50Z"
+      },
+      "last_updated": "2026-09-09T08:10:48.585545+00:00"
+    },
+    "samuelgursky/davinci-resolve-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 950355259,
+        "name": "davinci-resolve-mcp",
+        "full_name": "samuelgursky/davinci-resolve-mcp",
+        "description": "MCP server integration for DaVinci Resolve Studio",
+        "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2555,
+        "forks": 300,
+        "open_issues": 2,
+        "created_at": "2025-03-18T03:11:04Z",
+        "updated_at": "2026-09-09T07:43:14Z",
+        "pushed_at": "2026-09-09T07:41:31Z",
+        "starred_at": "2026-09-09T05:07:54Z"
+      },
+      "last_updated": "2026-09-09T08:10:48.888298+00:00"
+    },
+    "parsiya/prub": {
+      "lists": [],
+      "metadata": {
+        "id": 1357886891,
+        "name": "prub",
+        "full_name": "parsiya/prub",
+        "description": "Reverse engineering the Burp project format to create a extractor tool.",
+        "url": "https://github.com/parsiya/prub",
+        "homepage": "",
+        "language": "Python",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-05T06:11:54Z",
+        "updated_at": "2026-09-09T04:21:10Z",
+        "pushed_at": "2026-09-08T03:37:21Z",
+        "starred_at": "2026-09-09T04:21:09Z"
+      },
+      "last_updated": "2026-09-09T08:10:49.114158+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245810,5 +245890,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1375675ce3ff942fc9b253f3c1e9cca13555bcd1840d6a16ff76e262f01ac23b\""
+  "profile_etag": "W/\"827a53ff1a73692cf1f5148bfb97eef08ce18bb2abc25a1ebc990a62b8dbfa5f\""
 }
