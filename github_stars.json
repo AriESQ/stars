@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T08:19:31.201466+00:00",
+  "last_updated": "2026-09-10T08:10:42.389861+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245926,6 +245926,166 @@
         "fetched_at": "2026-09-09T08:19:30.747280+00:00",
         "status": "ok"
       }
+    },
+    "alex/what-happens-when": {
+      "lists": [],
+      "metadata": {
+        "id": 14194174,
+        "name": "what-happens-when",
+        "full_name": "alex/what-happens-when",
+        "description": "An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\"",
+        "url": "https://github.com/alex/what-happens-when",
+        "homepage": "",
+        "language": null,
+        "stars": 43313,
+        "forks": 5738,
+        "open_issues": 2064,
+        "created_at": "2013-11-07T04:30:06Z",
+        "updated_at": "2026-09-10T06:06:33Z",
+        "pushed_at": "2024-08-19T13:02:25Z",
+        "starred_at": "2026-09-09T20:43:52Z"
+      },
+      "last_updated": "2026-09-10T08:10:39.868657+00:00"
+    },
+    "chros73/bscpylgtv": {
+      "lists": [],
+      "metadata": {
+        "id": 408158707,
+        "name": "bscpylgtv",
+        "full_name": "chros73/bscpylgtv",
+        "description": "Library to control webOS based LG TV devices",
+        "url": "https://github.com/chros73/bscpylgtv",
+        "homepage": "",
+        "language": "Roff",
+        "stars": 350,
+        "forks": 31,
+        "open_issues": 0,
+        "created_at": "2021-09-19T15:06:54Z",
+        "updated_at": "2026-09-09T20:28:59Z",
+        "pushed_at": "2026-09-01T08:40:12Z",
+        "starred_at": "2026-09-09T20:28:59Z"
+      },
+      "last_updated": "2026-09-10T08:10:40.198620+00:00"
+    },
+    "qoaimei/ms21xx-firmware": {
+      "lists": [],
+      "metadata": {
+        "id": 851960859,
+        "name": "ms21xx-firmware",
+        "full_name": "qoaimei/ms21xx-firmware",
+        "description": "Tool to generate ms21xx firmware with custom VID, PID, EDID, descriptors and serial number",
+        "url": "https://github.com/qoaimei/ms21xx-firmware",
+        "homepage": "",
+        "language": null,
+        "stars": 7,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2024-09-04T01:32:25Z",
+        "updated_at": "2026-09-09T19:54:24Z",
+        "pushed_at": "2024-07-26T10:17:51Z",
+        "starred_at": "2026-09-09T19:54:23Z"
+      },
+      "last_updated": "2026-09-10T08:10:40.517231+00:00"
+    },
+    "bealesh/neckbeard": {
+      "lists": [],
+      "metadata": {
+        "id": 1361658687,
+        "name": "neckbeard",
+        "full_name": "bealesh/neckbeard",
+        "description": "Agent plugin that scaffolds tested, cost-honest cloud infrastructure from a versioned module catalog",
+        "url": "https://github.com/bealesh/neckbeard",
+        "homepage": null,
+        "language": "Go",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-09-08T16:46:55Z",
+        "updated_at": "2026-09-10T05:12:40Z",
+        "pushed_at": "2026-09-09T17:56:23Z",
+        "starred_at": "2026-09-09T18:48:43Z"
+      },
+      "last_updated": "2026-09-10T08:10:40.827897+00:00"
+    },
+    "cursor/plugins": {
+      "lists": [],
+      "metadata": {
+        "id": 1140229822,
+        "name": "plugins",
+        "full_name": "cursor/plugins",
+        "description": "Cursor plugin specification and official plugins",
+        "url": "https://github.com/cursor/plugins",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 7299,
+        "forks": 637,
+        "open_issues": 122,
+        "created_at": "2026-01-23T01:57:42Z",
+        "updated_at": "2026-09-10T08:04:48Z",
+        "pushed_at": "2026-09-10T02:51:50Z",
+        "starred_at": "2026-09-09T14:48:10Z"
+      },
+      "last_updated": "2026-09-10T08:10:41.195448+00:00"
+    },
+    "michael-denyer/pstack-claude": {
+      "lists": [],
+      "metadata": {
+        "id": 1250276806,
+        "name": "pstack-claude",
+        "full_name": "michael-denyer/pstack-claude",
+        "description": "Claude Code, Codex, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated to other agents.",
+        "url": "https://github.com/michael-denyer/pstack-claude",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 301,
+        "forks": 38,
+        "open_issues": 0,
+        "created_at": "2026-05-26T13:26:00Z",
+        "updated_at": "2026-09-10T08:06:46Z",
+        "pushed_at": "2026-09-09T00:38:11Z",
+        "starred_at": "2026-09-09T14:46:52Z"
+      },
+      "last_updated": "2026-09-10T08:10:41.489561+00:00"
+    },
+    "ericlitman/open-pstack": {
+      "lists": [],
+      "metadata": {
+        "id": 1345013588,
+        "name": "open-pstack",
+        "full_name": "ericlitman/open-pstack",
+        "description": "pstack for Claude Code and Codex, tracking Cursor pstack upstream",
+        "url": "https://github.com/ericlitman/open-pstack",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 247,
+        "forks": 39,
+        "open_issues": 22,
+        "created_at": "2026-08-24T13:53:28Z",
+        "updated_at": "2026-09-10T05:31:31Z",
+        "pushed_at": "2026-09-08T23:14:02Z",
+        "starred_at": "2026-09-09T14:46:18Z"
+      },
+      "last_updated": "2026-09-10T08:10:41.815272+00:00"
+    },
+    "metainternal/llama-cookbook": {
+      "lists": [],
+      "metadata": {
+        "id": 667297720,
+        "name": "llama-cookbook",
+        "full_name": "metainternal/llama-cookbook",
+        "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  ",
+        "url": "https://github.com/metainternal/llama-cookbook",
+        "homepage": "https://www.llama.com",
+        "language": "Jupyter Notebook",
+        "stars": 18560,
+        "forks": 2760,
+        "open_issues": 92,
+        "created_at": "2023-07-17T07:33:48Z",
+        "updated_at": "2026-09-09T15:29:37Z",
+        "pushed_at": "2026-05-19T18:42:31Z",
+        "starred_at": "2024-10-28T01:09:12Z"
+      },
+      "last_updated": "2026-09-10T08:10:42.389810+00:00"
     }
   },
   "last_processed_index": 0,
@@ -245935,5 +246095,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"827a53ff1a73692cf1f5148bfb97eef08ce18bb2abc25a1ebc990a62b8dbfa5f\""
+  "profile_etag": "W/\"68ec2f16a41c4269dbbcf8556d95de5e1248e11f7e7bacc9cc311176bd0f1f27\""
 }
