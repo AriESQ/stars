@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T08:10:42.389861+00:00",
+  "last_updated": "2026-09-10T08:18:54.018045+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -245928,7 +245928,9 @@
       }
     },
     "alex/what-happens-when": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 14194174,
         "name": "what-happens-when",
@@ -245948,7 +245950,10 @@
       "last_updated": "2026-09-10T08:10:39.868657+00:00"
     },
     "chros73/bscpylgtv": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 408158707,
         "name": "bscpylgtv",
@@ -245968,7 +245973,9 @@
       "last_updated": "2026-09-10T08:10:40.198620+00:00"
     },
     "qoaimei/ms21xx-firmware": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 851960859,
         "name": "ms21xx-firmware",
@@ -245988,7 +245995,10 @@
       "last_updated": "2026-09-10T08:10:40.517231+00:00"
     },
     "bealesh/neckbeard": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1361658687,
         "name": "neckbeard",
@@ -246008,7 +246018,9 @@
       "last_updated": "2026-09-10T08:10:40.827897+00:00"
     },
     "cursor/plugins": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1140229822,
         "name": "plugins",
@@ -246028,7 +246040,9 @@
       "last_updated": "2026-09-10T08:10:41.195448+00:00"
     },
     "michael-denyer/pstack-claude": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1250276806,
         "name": "pstack-claude",
@@ -246048,7 +246062,9 @@
       "last_updated": "2026-09-10T08:10:41.489561+00:00"
     },
     "ericlitman/open-pstack": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1345013588,
         "name": "open-pstack",
@@ -246068,7 +246084,9 @@
       "last_updated": "2026-09-10T08:10:41.815272+00:00"
     },
     "metainternal/llama-cookbook": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 667297720,
         "name": "llama-cookbook",
