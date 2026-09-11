@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T08:05:29.519867+00:00",
+  "last_updated": "2026-09-11T08:13:06.842141+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246170,7 +246170,12 @@
       }
     },
     "dbt-labs/dbt": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 53548867,
         "name": "dbt",
