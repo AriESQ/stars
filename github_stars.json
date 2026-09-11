@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T08:13:06.842141+00:00",
+  "last_updated": "2026-09-11T08:13:38.382329+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246192,7 +246192,15 @@
         "pushed_at": "2026-09-11T05:03:06Z",
         "starred_at": "2022-12-09T01:36:11Z"
       },
-      "last_updated": "2026-09-11T08:05:29.519789+00:00"
+      "last_updated": "2026-09-11T08:05:29.519789+00:00",
+      "readme": {
+        "path": "readmes/dbt-labs+dbt+README.md",
+        "etag": "W/\"6a9d249ef54b10bdacb0349f9ee21cc20914b52b\"",
+        "sha": "6a9d249ef54b10bdacb0349f9ee21cc20914b52b",
+        "size": 4636,
+        "fetched_at": "2026-09-11T08:13:38.375068+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
