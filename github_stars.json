@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T08:20:05.781948+00:00",
+  "last_updated": "2026-09-11T08:05:29.519867+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246168,6 +246168,26 @@
         "fetched_at": "2026-09-10T08:20:04.855300+00:00",
         "status": "ok"
       }
+    },
+    "dbt-labs/dbt": {
+      "lists": [],
+      "metadata": {
+        "id": 53548867,
+        "name": "dbt",
+        "full_name": "dbt-labs/dbt",
+        "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+        "url": "https://github.com/dbt-labs/dbt",
+        "homepage": "https://getdbt.com",
+        "language": "Rust",
+        "stars": 13804,
+        "forks": 2561,
+        "open_issues": 1518,
+        "created_at": "2016-03-10T02:38:00Z",
+        "updated_at": "2026-09-11T06:31:43Z",
+        "pushed_at": "2026-09-11T05:03:06Z",
+        "starred_at": "2022-12-09T01:36:11Z"
+      },
+      "last_updated": "2026-09-11T08:05:29.519789+00:00"
     }
   },
   "last_processed_index": 0,
@@ -246177,5 +246197,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"68ec2f16a41c4269dbbcf8556d95de5e1248e11f7e7bacc9cc311176bd0f1f27\""
+  "profile_etag": "W/\"cdce18a2e3b09f80a1b6edd59cc45c1b2b60693e4c3e0fa2bc9cd331da7c6389\""
 }
