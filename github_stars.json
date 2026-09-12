@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T07:57:36.311604+00:00",
+  "last_updated": "2026-09-12T08:04:57.627737+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246203,7 +246203,10 @@
       }
     },
     "ErikHellman/txt": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Rust"
+      ],
       "metadata": {
         "id": 1199223873,
         "name": "txt",
@@ -246223,7 +246226,10 @@
       "last_updated": "2026-09-12T07:57:33.603260+00:00"
     },
     "kennethwolters/litelm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1181122228,
         "name": "litelm",
@@ -246243,7 +246249,11 @@
       "last_updated": "2026-09-12T07:57:33.857780+00:00"
     },
     "apple-aiml-research/ml-sharp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1114899133,
         "name": "ml-sharp",
@@ -246263,7 +246273,9 @@
       "last_updated": "2026-09-12T07:57:34.353532+00:00"
     },
     "apple-aiml-research/pico-banana-400k": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1080777367,
         "name": "pico-banana-400k",
@@ -246283,7 +246295,9 @@
       "last_updated": "2026-09-12T07:57:34.839026+00:00"
     },
     "apple-aiml-research/ml-fastvlm": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 976325482,
         "name": "ml-fastvlm",
@@ -246323,7 +246337,10 @@
       "last_updated": "2026-09-12T07:57:35.819940+00:00"
     },
     "apple-aiml-research/ml-ane-transformers": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 499580907,
         "name": "ml-ane-transformers",
