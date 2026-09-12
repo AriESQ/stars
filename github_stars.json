@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T08:13:38.382329+00:00",
+  "last_updated": "2026-09-12T07:57:36.311604+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246201,6 +246201,146 @@
         "fetched_at": "2026-09-11T08:13:38.375068+00:00",
         "status": "ok"
       }
+    },
+    "ErikHellman/txt": {
+      "lists": [],
+      "metadata": {
+        "id": 1199223873,
+        "name": "txt",
+        "full_name": "ErikHellman/txt",
+        "description": "A fast, keyboard-driven terminal text editor for engineers in the age of AI coding.",
+        "url": "https://github.com/ErikHellman/txt",
+        "homepage": "http://txt.hellman.io/",
+        "language": "Rust",
+        "stars": 40,
+        "forks": 3,
+        "open_issues": 14,
+        "created_at": "2026-04-02T06:38:12Z",
+        "updated_at": "2026-09-12T07:55:28Z",
+        "pushed_at": "2026-09-11T00:46:10Z",
+        "starred_at": "2026-09-11T21:59:09Z"
+      },
+      "last_updated": "2026-09-12T07:57:33.603260+00:00"
+    },
+    "kennethwolters/litelm": {
+      "lists": [],
+      "metadata": {
+        "id": 1181122228,
+        "name": "litelm",
+        "full_name": "kennethwolters/litelm",
+        "description": "litellm without the bloat",
+        "url": "https://github.com/kennethwolters/litelm",
+        "homepage": "",
+        "language": "Python",
+        "stars": 135,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-03-13T19:18:37Z",
+        "updated_at": "2026-09-12T07:37:18Z",
+        "pushed_at": "2026-09-11T17:34:59Z",
+        "starred_at": "2026-09-11T21:57:10Z"
+      },
+      "last_updated": "2026-09-12T07:57:33.857780+00:00"
+    },
+    "apple-aiml-research/ml-sharp": {
+      "lists": [],
+      "metadata": {
+        "id": 1114899133,
+        "name": "ml-sharp",
+        "full_name": "apple-aiml-research/ml-sharp",
+        "description": "Sharp Monocular View Synthesis in Less Than a Second",
+        "url": "https://github.com/apple-aiml-research/ml-sharp",
+        "homepage": "https://apple-aiml-research.github.io/ml-sharp/",
+        "language": "Python",
+        "stars": 8884,
+        "forks": 649,
+        "open_issues": 77,
+        "created_at": "2025-12-12T03:46:09Z",
+        "updated_at": "2026-09-11T16:32:21Z",
+        "pushed_at": "2026-09-11T16:04:32Z",
+        "starred_at": "2025-12-18T19:58:25Z"
+      },
+      "last_updated": "2026-09-12T07:57:34.353532+00:00"
+    },
+    "apple-aiml-research/pico-banana-400k": {
+      "lists": [],
+      "metadata": {
+        "id": 1080777367,
+        "name": "pico-banana-400k",
+        "full_name": "apple-aiml-research/pico-banana-400k",
+        "description": null,
+        "url": "https://github.com/apple-aiml-research/pico-banana-400k",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1849,
+        "forks": 81,
+        "open_issues": 11,
+        "created_at": "2025-10-21T21:15:35Z",
+        "updated_at": "2026-09-11T16:07:46Z",
+        "pushed_at": "2026-09-11T16:07:41Z",
+        "starred_at": "2025-10-26T23:26:16Z"
+      },
+      "last_updated": "2026-09-12T07:57:34.839026+00:00"
+    },
+    "apple-aiml-research/ml-fastvlm": {
+      "lists": [],
+      "metadata": {
+        "id": 976325482,
+        "name": "ml-fastvlm",
+        "full_name": "apple-aiml-research/ml-fastvlm",
+        "description": "This repository contains the official implementation of \"FastVLM: Efficient Vision Encoding for Vision Language Models\" - CVPR 2025",
+        "url": "https://github.com/apple-aiml-research/ml-fastvlm",
+        "homepage": "",
+        "language": "Python",
+        "stars": 7416,
+        "forks": 560,
+        "open_issues": 57,
+        "created_at": "2025-05-01T22:56:43Z",
+        "updated_at": "2026-09-12T02:34:38Z",
+        "pushed_at": "2026-09-11T15:56:44Z",
+        "starred_at": "2025-05-13T20:25:15Z"
+      },
+      "last_updated": "2026-09-12T07:57:35.341103+00:00"
+    },
+    "apple-aiml-research/ml-depth-pro": {
+      "lists": [],
+      "metadata": {
+        "id": 847933360,
+        "name": "ml-depth-pro",
+        "full_name": "apple-aiml-research/ml-depth-pro",
+        "description": "Depth Pro: Sharp Monocular Metric Depth in Less Than a Second.",
+        "url": "https://github.com/apple-aiml-research/ml-depth-pro",
+        "homepage": "",
+        "language": "Python",
+        "stars": 5712,
+        "forks": 430,
+        "open_issues": 79,
+        "created_at": "2024-08-26T20:26:05Z",
+        "updated_at": "2026-09-12T03:35:53Z",
+        "pushed_at": "2026-09-11T15:56:05Z",
+        "starred_at": "2024-10-04T23:06:59Z"
+      },
+      "last_updated": "2026-09-12T07:57:35.819940+00:00"
+    },
+    "apple-aiml-research/ml-ane-transformers": {
+      "lists": [],
+      "metadata": {
+        "id": 499580907,
+        "name": "ml-ane-transformers",
+        "full_name": "apple-aiml-research/ml-ane-transformers",
+        "description": "Reference implementation of the Transformer architecture optimized for Apple Neural Engine (ANE)",
+        "url": "https://github.com/apple-aiml-research/ml-ane-transformers",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2742,
+        "forks": 93,
+        "open_issues": 5,
+        "created_at": "2022-06-03T16:36:06Z",
+        "updated_at": "2026-09-11T15:50:42Z",
+        "pushed_at": "2026-09-11T15:50:36Z",
+        "starred_at": "2023-12-29T18:59:35Z"
+      },
+      "last_updated": "2026-09-12T07:57:36.311557+00:00"
     }
   },
   "last_processed_index": 0,
@@ -246210,5 +246350,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"cdce18a2e3b09f80a1b6edd59cc45c1b2b60693e4c3e0fa2bc9cd331da7c6389\""
+  "profile_etag": "W/\"142eb8966e2e72899d608b7c6054cc1de4766e4d6d247a81f22aa0662216826c\""
 }
