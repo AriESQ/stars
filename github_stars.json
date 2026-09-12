@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T08:04:57.627737+00:00",
+  "last_updated": "2026-09-12T08:05:22.393100+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246223,7 +246223,15 @@
         "pushed_at": "2026-09-11T00:46:10Z",
         "starred_at": "2026-09-11T21:59:09Z"
       },
-      "last_updated": "2026-09-12T07:57:33.603260+00:00"
+      "last_updated": "2026-09-12T07:57:33.603260+00:00",
+      "readme": {
+        "path": "readmes/ErikHellman+txt+README.md",
+        "etag": "W/\"cd001d57a3444abba0cec1078056a61658b28d8a\"",
+        "sha": "cd001d57a3444abba0cec1078056a61658b28d8a",
+        "size": 13185,
+        "fetched_at": "2026-09-12T08:05:20.808038+00:00",
+        "status": "ok"
+      }
     },
     "kennethwolters/litelm": {
       "lists": [
@@ -246246,7 +246254,15 @@
         "pushed_at": "2026-09-11T17:34:59Z",
         "starred_at": "2026-09-11T21:57:10Z"
       },
-      "last_updated": "2026-09-12T07:57:33.857780+00:00"
+      "last_updated": "2026-09-12T07:57:33.857780+00:00",
+      "readme": {
+        "path": "readmes/kennethwolters+litelm+README.md",
+        "etag": "W/\"aca353f6e6cfd80f9b10f28ef0a70772e5bf0563\"",
+        "sha": "aca353f6e6cfd80f9b10f28ef0a70772e5bf0563",
+        "size": 7109,
+        "fetched_at": "2026-09-12T08:05:22.387397+00:00",
+        "status": "ok"
+      }
     },
     "apple-aiml-research/ml-sharp": {
       "lists": [
@@ -246270,7 +246286,15 @@
         "pushed_at": "2026-09-11T16:04:32Z",
         "starred_at": "2025-12-18T19:58:25Z"
       },
-      "last_updated": "2026-09-12T07:57:34.353532+00:00"
+      "last_updated": "2026-09-12T07:57:34.353532+00:00",
+      "readme": {
+        "path": "readmes/apple-aiml-research+ml-sharp+README.md",
+        "etag": "W/\"59557530e111c9a4454323b3aba4dbefba87c494\"",
+        "sha": "59557530e111c9a4454323b3aba4dbefba87c494",
+        "size": 4204,
+        "fetched_at": "2026-09-12T08:05:21.910405+00:00",
+        "status": "ok"
+      }
     },
     "apple-aiml-research/pico-banana-400k": {
       "lists": [
@@ -246292,7 +246316,15 @@
         "pushed_at": "2026-09-11T16:07:41Z",
         "starred_at": "2025-10-26T23:26:16Z"
       },
-      "last_updated": "2026-09-12T07:57:34.839026+00:00"
+      "last_updated": "2026-09-12T07:57:34.839026+00:00",
+      "readme": {
+        "path": "readmes/apple-aiml-research+pico-banana-400k+README.md",
+        "etag": "W/\"6535ce88d57cf36ab17353e188a2b7940763c520\"",
+        "sha": "6535ce88d57cf36ab17353e188a2b7940763c520",
+        "size": 8362,
+        "fetched_at": "2026-09-12T08:05:22.179108+00:00",
+        "status": "ok"
+      }
     },
     "apple-aiml-research/ml-fastvlm": {
       "lists": [
@@ -246314,7 +246346,15 @@
         "pushed_at": "2026-09-11T15:56:44Z",
         "starred_at": "2025-05-13T20:25:15Z"
       },
-      "last_updated": "2026-09-12T07:57:35.341103+00:00"
+      "last_updated": "2026-09-12T07:57:35.341103+00:00",
+      "readme": {
+        "path": "readmes/apple-aiml-research+ml-fastvlm+README.md",
+        "etag": "W/\"cba16212e40d94e711c091da02bebcd4ca6a293a\"",
+        "sha": "cba16212e40d94e711c091da02bebcd4ca6a293a",
+        "size": 5111,
+        "fetched_at": "2026-09-12T08:05:21.664272+00:00",
+        "status": "ok"
+      }
     },
     "apple-aiml-research/ml-depth-pro": {
       "lists": [],
@@ -246334,7 +246374,15 @@
         "pushed_at": "2026-09-11T15:56:05Z",
         "starred_at": "2024-10-04T23:06:59Z"
       },
-      "last_updated": "2026-09-12T07:57:35.819940+00:00"
+      "last_updated": "2026-09-12T07:57:35.819940+00:00",
+      "readme": {
+        "path": "readmes/apple-aiml-research+ml-depth-pro+README.md",
+        "etag": "W/\"2b5d926d385a3791efecce5b80d9485f5691ed4c\"",
+        "sha": "2b5d926d385a3791efecce5b80d9485f5691ed4c",
+        "size": 3776,
+        "fetched_at": "2026-09-12T08:05:21.349166+00:00",
+        "status": "ok"
+      }
     },
     "apple-aiml-research/ml-ane-transformers": {
       "lists": [
@@ -246357,7 +246405,15 @@
         "pushed_at": "2026-09-11T15:50:36Z",
         "starred_at": "2023-12-29T18:59:35Z"
       },
-      "last_updated": "2026-09-12T07:57:36.311557+00:00"
+      "last_updated": "2026-09-12T07:57:36.311557+00:00",
+      "readme": {
+        "path": "readmes/apple-aiml-research+ml-ane-transformers+README.md",
+        "etag": "W/\"dad2ff5db843081dabd3a7f3a007c8bbdcd036f8\"",
+        "sha": "dad2ff5db843081dabd3a7f3a007c8bbdcd036f8",
+        "size": 5759,
+        "fetched_at": "2026-09-12T08:05:21.130250+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
