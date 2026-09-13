@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T08:21:15.652164+00:00",
+  "last_updated": "2026-09-13T08:28:24.018132+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246416,7 +246416,10 @@
       }
     },
     "LBVPstuff/Easy-Camera-Circuit-Bend": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 928373474,
         "name": "Easy-Camera-Circuit-Bend",
@@ -246436,7 +246439,10 @@
       "last_updated": "2026-09-13T08:21:15.329608+00:00"
     },
     "gotalab/cc-sdd": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1021219064,
         "name": "cc-sdd",
