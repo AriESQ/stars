@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T08:05:22.393100+00:00",
+  "last_updated": "2026-09-13T08:21:15.652164+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246414,6 +246414,46 @@
         "fetched_at": "2026-09-12T08:05:21.130250+00:00",
         "status": "ok"
       }
+    },
+    "LBVPstuff/Easy-Camera-Circuit-Bend": {
+      "lists": [],
+      "metadata": {
+        "id": 928373474,
+        "name": "Easy-Camera-Circuit-Bend",
+        "full_name": "LBVPstuff/Easy-Camera-Circuit-Bend",
+        "description": "An easy way to circuit bend toy camera with a CMOS cheap to take glitchy pictures, with almost no skills needed in soldering.",
+        "url": "https://github.com/LBVPstuff/Easy-Camera-Circuit-Bend",
+        "homepage": null,
+        "language": null,
+        "stars": 50,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-02-06T14:30:39Z",
+        "updated_at": "2026-09-12T21:42:19Z",
+        "pushed_at": "2025-02-17T01:27:39Z",
+        "starred_at": "2026-09-12T21:42:18Z"
+      },
+      "last_updated": "2026-09-13T08:21:15.329608+00:00"
+    },
+    "gotalab/cc-sdd": {
+      "lists": [],
+      "metadata": {
+        "id": 1021219064,
+        "name": "cc-sdd",
+        "full_name": "gotalab/cc-sdd",
+        "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
+        "url": "https://github.com/gotalab/cc-sdd",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 3664,
+        "forks": 281,
+        "open_issues": 31,
+        "created_at": "2025-07-17T04:41:37Z",
+        "updated_at": "2026-09-12T16:16:56Z",
+        "pushed_at": "2026-05-20T08:45:14Z",
+        "starred_at": "2026-09-12T16:16:56Z"
+      },
+      "last_updated": "2026-09-13T08:21:15.652042+00:00"
     }
   },
   "last_processed_index": 0,
@@ -246423,5 +246463,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"142eb8966e2e72899d608b7c6054cc1de4766e4d6d247a81f22aa0662216826c\""
+  "profile_etag": "W/\"32718b039c032d0800a2e7ff27ba626cb5d6d6d297b274e6bc750a9f9b3ccefb\""
 }
