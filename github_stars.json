@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T08:28:24.018132+00:00",
+  "last_updated": "2026-09-13T08:29:19.139738+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246436,7 +246436,15 @@
         "pushed_at": "2025-02-17T01:27:39Z",
         "starred_at": "2026-09-12T21:42:18Z"
       },
-      "last_updated": "2026-09-13T08:21:15.329608+00:00"
+      "last_updated": "2026-09-13T08:21:15.329608+00:00",
+      "readme": {
+        "path": "readmes/LBVPstuff+Easy-Camera-Circuit-Bend+README.md",
+        "etag": "W/\"61f5832c8065166a1b2691458bc11d10d6c0b69d\"",
+        "sha": "61f5832c8065166a1b2691458bc11d10d6c0b69d",
+        "size": 8870,
+        "fetched_at": "2026-09-13T08:29:18.727271+00:00",
+        "status": "ok"
+      }
     },
     "gotalab/cc-sdd": {
       "lists": [
@@ -246459,7 +246467,15 @@
         "pushed_at": "2026-05-20T08:45:14Z",
         "starred_at": "2026-09-12T16:16:56Z"
       },
-      "last_updated": "2026-09-13T08:21:15.652042+00:00"
+      "last_updated": "2026-09-13T08:21:15.652042+00:00",
+      "readme": {
+        "path": "readmes/gotalab+cc-sdd+README.md",
+        "etag": "W/\"08a79a0e24096da77c318e8983b710ace48af66a\"",
+        "sha": "08a79a0e24096da77c318e8983b710ace48af66a",
+        "size": 11889,
+        "fetched_at": "2026-09-13T08:29:19.131772+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
