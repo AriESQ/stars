@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T08:58:01.457383+00:00",
+  "last_updated": "2026-09-14T09:06:08.910503+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246478,7 +246478,10 @@
       }
     },
     "mohamdev/InstantHMR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1224469108,
         "name": "InstantHMR",
@@ -246498,7 +246501,11 @@
       "last_updated": "2026-09-14T08:57:55.896026+00:00"
     },
     "Containerpak/cpak": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 689732765,
         "name": "cpak",
@@ -246518,7 +246525,11 @@
       "last_updated": "2026-09-14T08:57:56.374701+00:00"
     },
     "Speedstu/CUDA-for-AMD-Windows": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 1368407470,
         "name": "CUDA-for-AMD-Windows",
@@ -246538,7 +246549,9 @@
       "last_updated": "2026-09-14T08:57:56.700109+00:00"
     },
     "sekigon-gonnoc/Pico-PIO-USB": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 439504278,
         "name": "Pico-PIO-USB",
@@ -246558,7 +246571,9 @@
       "last_updated": "2026-09-14T08:57:57.063741+00:00"
     },
     "pazos/rp2040-macropad": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 732002738,
         "name": "rp2040-macropad",
@@ -246578,7 +246593,9 @@
       "last_updated": "2026-09-14T08:57:57.550865+00:00"
     },
     "paulcager/hid-passthrough": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1104910085,
         "name": "hid-passthrough",
@@ -246598,7 +246615,10 @@
       "last_updated": "2026-09-14T08:57:57.899690+00:00"
     },
     "hbldh/bleak": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Python"
+      ],
       "metadata": {
         "id": 131211505,
         "name": "bleak",
@@ -246618,7 +246638,9 @@
       "last_updated": "2026-09-14T08:57:58.231157+00:00"
     },
     "Aminiow/ESP32-HID-Web-Remote-Controller": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1358830620,
         "name": "ESP32-HID-Web-Remote-Controller",
@@ -246638,7 +246660,9 @@
       "last_updated": "2026-09-14T08:57:58.569094+00:00"
     },
     "maxiwoj/wifi-usb-hid": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1126706338,
         "name": "wifi-usb-hid",
@@ -246658,7 +246682,10 @@
       "last_updated": "2026-09-14T08:57:58.880698+00:00"
     },
     "localai-org/free-splatter.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1279232184,
         "name": "free-splatter.cpp",
@@ -246678,7 +246705,10 @@
       "last_updated": "2026-09-14T08:57:59.221366+00:00"
     },
     "localai-org/vibevoice.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1223351434,
         "name": "vibevoice.cpp",
@@ -246698,7 +246728,10 @@
       "last_updated": "2026-09-14T08:57:59.597807+00:00"
     },
     "localai-org/animate-any-mesh.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1331908641,
         "name": "animate-any-mesh.cpp",
@@ -246718,7 +246751,10 @@
       "last_updated": "2026-09-14T08:57:59.970304+00:00"
     },
     "localai-org/skin-tokens.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1350016125,
         "name": "skin-tokens.cpp",
@@ -246738,7 +246774,10 @@
       "last_updated": "2026-09-14T08:58:00.334777+00:00"
     },
     "localai-org/trellis2cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1293116217,
         "name": "trellis2cpp",
@@ -246758,7 +246797,10 @@
       "last_updated": "2026-09-14T08:58:00.737587+00:00"
     },
     "localai-org/motion-bricks.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1354807227,
         "name": "motion-bricks.cpp",
@@ -246778,7 +246820,10 @@
       "last_updated": "2026-09-14T08:58:01.076463+00:00"
     },
     "localai-org/sam3d.cpp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1363847344,
         "name": "sam3d.cpp",
