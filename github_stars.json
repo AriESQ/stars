@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T08:29:19.139738+00:00",
+  "last_updated": "2026-09-14T08:58:01.457383+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246476,6 +246476,326 @@
         "fetched_at": "2026-09-13T08:29:19.131772+00:00",
         "status": "ok"
       }
+    },
+    "mohamdev/InstantHMR": {
+      "lists": [],
+      "metadata": {
+        "id": 1224469108,
+        "name": "InstantHMR",
+        "full_name": "mohamdev/InstantHMR",
+        "description": null,
+        "url": "https://github.com/mohamdev/InstantHMR",
+        "homepage": null,
+        "language": "Python",
+        "stars": 61,
+        "forks": 9,
+        "open_issues": 2,
+        "created_at": "2026-04-29T10:06:27Z",
+        "updated_at": "2026-09-14T04:32:03Z",
+        "pushed_at": "2026-09-12T22:21:11Z",
+        "starred_at": "2026-09-14T00:23:34Z"
+      },
+      "last_updated": "2026-09-14T08:57:55.896026+00:00"
+    },
+    "Containerpak/cpak": {
+      "lists": [],
+      "metadata": {
+        "id": 689732765,
+        "name": "cpak",
+        "full_name": "Containerpak/cpak",
+        "description": "A fast, decentralized, portable, powerful and low-memory footprint package format for Linux.",
+        "url": "https://github.com/Containerpak/cpak",
+        "homepage": "cpak.it",
+        "language": "Go",
+        "stars": 179,
+        "forks": 2,
+        "open_issues": 4,
+        "created_at": "2023-09-10T18:24:02Z",
+        "updated_at": "2026-09-14T05:29:08Z",
+        "pushed_at": "2026-09-14T08:03:39Z",
+        "starred_at": "2026-09-13T18:39:23Z"
+      },
+      "last_updated": "2026-09-14T08:57:56.374701+00:00"
+    },
+    "Speedstu/CUDA-for-AMD-Windows": {
+      "lists": [],
+      "metadata": {
+        "id": 1368407470,
+        "name": "CUDA-for-AMD-Windows",
+        "full_name": "Speedstu/CUDA-for-AMD-Windows",
+        "description": "Run CUDA-targeted Windows applications on AMD GPUs with ZLUDA + ROCm/HIP.",
+        "url": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 97,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2026-09-13T13:23:31Z",
+        "updated_at": "2026-09-14T08:52:53Z",
+        "pushed_at": "2026-09-13T15:57:56Z",
+        "starred_at": "2026-09-13T18:36:26Z"
+      },
+      "last_updated": "2026-09-14T08:57:56.700109+00:00"
+    },
+    "sekigon-gonnoc/Pico-PIO-USB": {
+      "lists": [],
+      "metadata": {
+        "id": 439504278,
+        "name": "Pico-PIO-USB",
+        "full_name": "sekigon-gonnoc/Pico-PIO-USB",
+        "description": "USB host/device implementation using PIO of raspberry pi pico (RP2040/RP2350).",
+        "url": "https://github.com/sekigon-gonnoc/Pico-PIO-USB",
+        "homepage": "",
+        "language": "C",
+        "stars": 1750,
+        "forks": 222,
+        "open_issues": 63,
+        "created_at": "2021-12-18T01:49:36Z",
+        "updated_at": "2026-09-13T17:00:37Z",
+        "pushed_at": "2026-07-22T12:01:32Z",
+        "starred_at": "2026-09-13T17:00:37Z"
+      },
+      "last_updated": "2026-09-14T08:57:57.063741+00:00"
+    },
+    "pazos/rp2040-macropad": {
+      "lists": [],
+      "metadata": {
+        "id": 732002738,
+        "name": "rp2040-macropad",
+        "full_name": "pazos/rp2040-macropad",
+        "description": "Turn your dummy usb numeric keypad into a fully hackable macropad.",
+        "url": "https://github.com/pazos/rp2040-macropad",
+        "homepage": "",
+        "language": "C++",
+        "stars": 7,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2023-12-15T11:51:39Z",
+        "updated_at": "2026-09-13T16:59:46Z",
+        "pushed_at": "2023-12-15T11:53:24Z",
+        "starred_at": "2026-09-13T16:59:46Z"
+      },
+      "last_updated": "2026-09-14T08:57:57.550865+00:00"
+    },
+    "paulcager/hid-passthrough": {
+      "lists": [],
+      "metadata": {
+        "id": 1104910085,
+        "name": "hid-passthrough",
+        "full_name": "paulcager/hid-passthrough",
+        "description": "HID (keyboard) pass-through demo",
+        "url": "https://github.com/paulcager/hid-passthrough",
+        "homepage": null,
+        "language": "C",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2025-11-26T21:37:49Z",
+        "updated_at": "2026-09-13T16:58:59Z",
+        "pushed_at": "2025-11-27T20:33:41Z",
+        "starred_at": "2026-09-13T16:58:59Z"
+      },
+      "last_updated": "2026-09-14T08:57:57.899690+00:00"
+    },
+    "hbldh/bleak": {
+      "lists": [],
+      "metadata": {
+        "id": 131211505,
+        "name": "bleak",
+        "full_name": "hbldh/bleak",
+        "description": "A cross platform Bluetooth Low Energy Client for Python using asyncio",
+        "url": "https://github.com/hbldh/bleak",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2518,
+        "forks": 367,
+        "open_issues": 122,
+        "created_at": "2018-04-26T21:15:45Z",
+        "updated_at": "2026-09-14T01:00:39Z",
+        "pushed_at": "2026-09-13T23:01:39Z",
+        "starred_at": "2026-09-13T16:43:32Z"
+      },
+      "last_updated": "2026-09-14T08:57:58.231157+00:00"
+    },
+    "Aminiow/ESP32-HID-Web-Remote-Controller": {
+      "lists": [],
+      "metadata": {
+        "id": 1358830620,
+        "name": "ESP32-HID-Web-Remote-Controller",
+        "full_name": "Aminiow/ESP32-HID-Web-Remote-Controller",
+        "description": "ESP32\u2011S3 Wi\u2011Fi to USB HID bridge with web\u2011based mouse/keyboard control, captive portal, and STA/AP mode.",
+        "url": "https://github.com/Aminiow/ESP32-HID-Web-Remote-Controller",
+        "homepage": null,
+        "language": "C++",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-09-06T05:51:53Z",
+        "updated_at": "2026-09-13T16:40:22Z",
+        "pushed_at": "2026-09-12T14:36:59Z",
+        "starred_at": "2026-09-13T16:40:21Z"
+      },
+      "last_updated": "2026-09-14T08:57:58.569094+00:00"
+    },
+    "maxiwoj/wifi-usb-hid": {
+      "lists": [],
+      "metadata": {
+        "id": 1126706338,
+        "name": "wifi-usb-hid",
+        "full_name": "maxiwoj/wifi-usb-hid",
+        "description": "ESP8266 WIFI HID emulator with web GUI",
+        "url": "https://github.com/maxiwoj/wifi-usb-hid",
+        "homepage": "",
+        "language": "C++",
+        "stars": 8,
+        "forks": 2,
+        "open_issues": 4,
+        "created_at": "2026-01-02T12:36:04Z",
+        "updated_at": "2026-09-13T16:37:36Z",
+        "pushed_at": "2026-04-11T10:11:05Z",
+        "starred_at": "2026-09-13T16:37:36Z"
+      },
+      "last_updated": "2026-09-14T08:57:58.880698+00:00"
+    },
+    "localai-org/free-splatter.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1279232184,
+        "name": "free-splatter.cpp",
+        "full_name": "localai-org/free-splatter.cpp",
+        "description": "Turn images into 3D scenes - GGML port of FreeSplatter: Pose-free Gaussian Splatting for Sparse-view 3D Reconstruction ",
+        "url": "https://github.com/localai-org/free-splatter.cpp",
+        "homepage": null,
+        "language": "C++",
+        "stars": 39,
+        "forks": 7,
+        "open_issues": 0,
+        "created_at": "2026-06-24T13:48:22Z",
+        "updated_at": "2026-09-13T14:32:28Z",
+        "pushed_at": "2026-07-01T14:47:26Z",
+        "starred_at": "2026-09-13T14:32:27Z"
+      },
+      "last_updated": "2026-09-14T08:57:59.221366+00:00"
+    },
+    "localai-org/vibevoice.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1223351434,
+        "name": "vibevoice.cpp",
+        "full_name": "localai-org/vibevoice.cpp",
+        "description": "C++ port of Microsoft VibeVoice built on ggml",
+        "url": "https://github.com/localai-org/vibevoice.cpp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 127,
+        "forks": 17,
+        "open_issues": 7,
+        "created_at": "2026-04-28T08:37:12Z",
+        "updated_at": "2026-09-13T16:39:19Z",
+        "pushed_at": "2026-07-09T21:39:19Z",
+        "starred_at": "2026-09-13T14:32:12Z"
+      },
+      "last_updated": "2026-09-14T08:57:59.597807+00:00"
+    },
+    "localai-org/animate-any-mesh.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1331908641,
+        "name": "animate-any-mesh.cpp",
+        "full_name": "localai-org/animate-any-mesh.cpp",
+        "description": "AnimateAnyMesh conversion to C++/GGML - It animates any mesh!",
+        "url": "https://github.com/localai-org/animate-any-mesh.cpp",
+        "homepage": null,
+        "language": "C++",
+        "stars": 12,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-08-12T10:39:01Z",
+        "updated_at": "2026-09-13T14:31:08Z",
+        "pushed_at": "2026-08-12T10:39:14Z",
+        "starred_at": "2026-09-13T14:31:08Z"
+      },
+      "last_updated": "2026-09-14T08:57:59.970304+00:00"
+    },
+    "localai-org/skin-tokens.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1350016125,
+        "name": "skin-tokens.cpp",
+        "full_name": "localai-org/skin-tokens.cpp",
+        "description": "C++/GGML conversion of VAST-AI SkinTokens; Auto rigs a mesh ready for animation",
+        "url": "https://github.com/localai-org/skin-tokens.cpp",
+        "homepage": null,
+        "language": "C++",
+        "stars": 203,
+        "forks": 16,
+        "open_issues": 2,
+        "created_at": "2026-08-28T20:39:20Z",
+        "updated_at": "2026-09-14T04:50:48Z",
+        "pushed_at": "2026-09-01T19:06:11Z",
+        "starred_at": "2026-09-13T14:29:48Z"
+      },
+      "last_updated": "2026-09-14T08:58:00.334777+00:00"
+    },
+    "localai-org/trellis2cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1293116217,
+        "name": "trellis2cpp",
+        "full_name": "localai-org/trellis2cpp",
+        "description": "C++/ggml port of TRELLIS.2 stage-1 geometry (image -> watertight mesh)",
+        "url": "https://github.com/localai-org/trellis2cpp",
+        "homepage": null,
+        "language": "C++",
+        "stars": 17,
+        "forks": 10,
+        "open_issues": 0,
+        "created_at": "2026-07-08T05:51:24Z",
+        "updated_at": "2026-09-13T14:29:33Z",
+        "pushed_at": "2026-09-07T13:32:35Z",
+        "starred_at": "2026-09-13T14:29:32Z"
+      },
+      "last_updated": "2026-09-14T08:58:00.737587+00:00"
+    },
+    "localai-org/motion-bricks.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1354807227,
+        "name": "motion-bricks.cpp",
+        "full_name": "localai-org/motion-bricks.cpp",
+        "description": "NVIDIA MotionBricks ported to GGML/C++; dynamically generates animations from keyframes using a neural network. Can be used in games or with robots",
+        "url": "https://github.com/localai-org/motion-bricks.cpp",
+        "homepage": null,
+        "language": "C++",
+        "stars": 195,
+        "forks": 18,
+        "open_issues": 0,
+        "created_at": "2026-09-02T13:36:52Z",
+        "updated_at": "2026-09-14T08:18:54Z",
+        "pushed_at": "2026-09-10T19:37:01Z",
+        "starred_at": "2026-09-13T14:29:01Z"
+      },
+      "last_updated": "2026-09-14T08:58:01.076463+00:00"
+    },
+    "localai-org/sam3d.cpp": {
+      "lists": [],
+      "metadata": {
+        "id": 1363847344,
+        "name": "sam3d.cpp",
+        "full_name": "localai-org/sam3d.cpp",
+        "description": "Track and extract any 3D object from video. C++/GGML convertion of Meta's sam3d PyTorch model plus a demo app",
+        "url": "https://github.com/localai-org/sam3d.cpp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 39,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-09-10T09:40:51Z",
+        "updated_at": "2026-09-14T04:51:29Z",
+        "pushed_at": "2026-09-11T20:57:44Z",
+        "starred_at": "2026-09-13T14:28:39Z"
+      },
+      "last_updated": "2026-09-14T08:58:01.457286+00:00"
     }
   },
   "last_processed_index": 0,
@@ -246485,5 +246805,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"32718b039c032d0800a2e7ff27ba626cb5d6d6d297b274e6bc750a9f9b3ccefb\""
+  "profile_etag": "W/\"557e8eb3f5f21bf8458abbfb0e255956c24a3712c098a632edd1bfcf69a790b3\""
 }
