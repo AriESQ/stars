@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T08:47:43.709414+00:00",
+  "last_updated": "2026-09-15T08:52:29.181189+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246993,7 +246993,15 @@
         "pushed_at": "2026-09-15T07:42:06Z",
         "starred_at": "2023-09-04T21:16:59Z"
       },
-      "last_updated": "2026-09-15T08:43:38.480912+00:00"
+      "last_updated": "2026-09-15T08:43:38.480912+00:00",
+      "readme": {
+        "path": "readmes/notdodo+nuvola+README.md",
+        "etag": "W/\"082e64c924860908ab002b81aaec7455e2d462d8\"",
+        "sha": "082e64c924860908ab002b81aaec7455e2d462d8",
+        "size": 4463,
+        "fetched_at": "2026-09-15T08:52:29.177277+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
