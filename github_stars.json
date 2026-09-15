@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T08:43:38.480996+00:00",
+  "last_updated": "2026-09-15T08:47:43.709414+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246971,7 +246971,12 @@
       }
     },
     "notdodo/nuvola": {
-      "lists": [],
+      "lists": [
+        "AWS",
+        "Devops",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 426240030,
         "name": "nuvola",
