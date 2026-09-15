@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T09:06:36.366892+00:00",
+  "last_updated": "2026-09-15T08:43:38.480996+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -246969,6 +246969,26 @@
         "fetched_at": "2026-09-14T09:06:32.911167+00:00",
         "status": "ok"
       }
+    },
+    "notdodo/nuvola": {
+      "lists": [],
+      "metadata": {
+        "id": 426240030,
+        "name": "nuvola",
+        "full_name": "notdodo/nuvola",
+        "description": null,
+        "url": "https://github.com/notdodo/nuvola",
+        "homepage": "https://github.com/notdodo/nuvola",
+        "language": "Go",
+        "stars": 144,
+        "forks": 19,
+        "open_issues": 0,
+        "created_at": "2021-11-09T13:29:01Z",
+        "updated_at": "2026-09-15T07:42:09Z",
+        "pushed_at": "2026-09-15T07:42:06Z",
+        "starred_at": "2023-09-04T21:16:59Z"
+      },
+      "last_updated": "2026-09-15T08:43:38.480912+00:00"
     }
   },
   "last_processed_index": 0,
@@ -246978,5 +246998,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"557e8eb3f5f21bf8458abbfb0e255956c24a3712c098a632edd1bfcf69a790b3\""
+  "profile_etag": "W/\"a4373a8e1482a01e9f3cebf92bfe4672433d5edc8f67bf9602133bf1d8506c42\""
 }
