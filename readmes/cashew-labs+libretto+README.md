@@ -1,0 +1,145 @@
+<!-- Generated from packages/libretto/README.template.md by `pnpm sync:mirrors`. Do not edit directly. -->
+
+<p align="center">
+  <img src="packages/libretto/assets/readme-banner.png" alt="Libretto" />
+</p>
+
+# Libretto
+
+[![npm version](https://img.shields.io/npm/v/libretto)](https://www.npmjs.com/package/libretto)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Discussions](https://img.shields.io/github/discussions/saffron-health/libretto)](https://github.com/saffron-health/libretto/discussions)
+[![Discord](https://img.shields.io/badge/Discord-Join%20chat-5865F2?logo=discord&logoColor=white)](https://discord.gg/NYrG56hVDt)
+
+Libretto is a toolkit for building robust web integrations. It gives your coding agent a live browser and a token-efficient CLI to:
+
+- Inspect live pages with minimal context overhead
+- Capture network traffic to reverse-engineer site APIs
+- Record user actions and replay them as automation scripts
+- Debug broken workflows interactively against the real site
+
+We at [Saffron Health](https://saffron.health) built Libretto to help us maintain our browser integrations to common healthcare software. We're open-sourcing it so other teams have an easier time doing the same thing.
+
+https://github.com/user-attachments/assets/9b9a0ab3-5133-4b20-b3be-459943349d18
+
+### Quick Links
+
+- Website: [libretto.sh](https://libretto.sh)
+- Docs: [libretto.sh/docs](https://libretto.sh/docs)
+- Repository: [github.com/saffron-health/libretto](https://github.com/saffron-health/libretto)
+- Discord: [discord.gg/NYrG56hVDt](https://discord.gg/NYrG56hVDt)
+
+## Installation
+
+```bash
+# Add Libretto to your project. Requires Node.js and npm.
+npm install libretto
+
+# First-time onboarding: install skills and download Chromium
+npx libretto setup
+
+# Check workspace readiness at any time
+npx libretto status
+```
+
+`setup` creates the `.libretto/` directory, installs agent skills, and downloads Chromium unless you pass `--skip-browsers`.
+
+## Use cases
+
+Libretto is designed to be used as a skill through your coding agent. Here are some example prompts:
+
+### One-shot script generation
+
+> Use the Libretto skill. Go on LinkedIn and scrape the first 10 posts for content, who posted it, the number of reactions, the first 25 comments, and the first 25 reposts.
+
+Your coding agent will open a window for you to log into LinkedIn, and then automatically start exploring.
+
+### Interactive script building
+
+> I'm gonna show you a workflow in the eclinicalworks EHR to get a patient's primary insurance ID. Use libretto skill to turn it into a playwright script that takes patient name and dob as input to get back the insurance ID. URL is ...
+
+Libretto can read your actions you perform in the browser, so you can perform a workflow, then ask it to use your actions to rebuild the workflow.
+
+### Convert browser automation to network requests
+
+> We have a browser script at ./integration.ts that automates going to Hacker News and getting the first 10 posts. Convert it to direct network scripts instead. Use the Libretto skill.
+
+Libretto can read network requests from the browser, which it can use to reverse engineer the API and create a script that directly calls those requests. Directly making API calls is faster, and more reliable, than UI automation. You can also ask Libretto to conduct a security analysis which analyzes the requests for common security cookies, so you can understand whether a network request approach will be safe.
+
+### Fix broken integrations
+
+> We have a browser script at ./integration.ts that is supposed to go to Availity and perform an eligibility check for a patient. But I'm getting a broken selector error when I run it. Fix it. Use the Libretto skill.
+
+Agents can use Libretto to reproduce the failure, pause the workflow at any point, inspect the live page, and fix issues, all autonomously.
+
+### CLI usage
+
+You can also use Libretto directly from the command line. All commands accept `--session <name>` to target a specific session.
+
+```bash
+npx libretto open <url>                    # launch browser and open a URL
+npx libretto run ./integration.ts --headless # run a workflow and close on success
+npx libretto run ./integration.ts --headless --stay-open-on-success # keep a successful run inspectable
+npx libretto snapshot --session <name>     # capture a screenshot and compact accessibility tree
+npx libretto exec "<code>"                 # execute Playwright TypeScript against the open page
+npx libretto close                         # close the browser
+```
+
+`run` sessions are inspectable through the same daemon-backed commands as `open` sessions. Successful runs close the browser by default; pass `--stay-open-on-success` to keep the browser open for `pages`, `snapshot`, and `exec`. Failed or paused workflows keep the browser open so you can inspect the exact page state before fixing or resuming the workflow.
+
+Run `npx libretto help` for the full list of commands.
+
+## Configuration
+
+All Libretto state lives in a `.libretto/` directory at your project root. See the [configuration docs](https://libretto.sh/docs/understand-libretto/configuration) for details on config files, sessions, and profiles.
+
+## Telemetry
+
+Libretto records CLI telemetry to help understand CLI usage and help us prioritize improvements. Each resolved command can send only an install id, timestamp, command event name such as `libretto run`, error boolean, package version, build channel (`node_modules`, `source`, or `unknown`), and, when signed into Libretto Cloud, the configured cloud user id. Libretto does not send command arguments, URLs, project paths, session cookies, API keys, error messages or details, or emails.
+
+The install id is stored in the telemetry file at `~/.libretto/telemetry.json`. The implementation lives in [`packages/libretto/src/cli/core/telemetry.ts`](packages/libretto/src/cli/core/telemetry.ts).
+
+To disable telemetry, set `LIBRETTO_TELEMETRY_DISABLED=1`, set `DO_NOT_TRACK=1`, run with `CI=1`, or edit `~/.libretto/telemetry.json` and set `"enabled": false`.
+
+## Join the Community
+
+Join our Discord to connect with other developers, get help, and share what you've built:
+
+[![Discord](https://img.shields.io/badge/Discord-Join%20chat-5865F2?logo=discord&logoColor=white)](https://discord.gg/NYrG56hVDt)
+
+For longer-form threads, head to [GitHub Discussions](https://github.com/saffron-health/libretto/discussions). Found a bug? [Open an issue](https://github.com/saffron-health/libretto/issues/new).
+
+## License
+
+[MIT License](LICENSE) — use it freely in commercial and open-source projects.
+
+## Development
+
+For local development in this repository:
+
+```bash
+pnpm i
+pnpm build
+pnpm type-check
+pnpm test
+```
+
+Source layout:
+
+- `packages/libretto/src/cli/` — CLI commands
+- `packages/libretto/src/runtime/` — browser runtime (network, recovery, downloads)
+- `packages/libretto/src/shared/` — shared utilities (config, LLM client, logging, state)
+- `packages/libretto/test/` — test files (`*.spec.ts`)
+- `packages/libretto/README.template.md` — source of truth for the repo and package READMEs
+- `packages/libretto/skills/libretto/` — source of truth for the Libretto skill
+
+Run `pnpm sync:mirrors` after editing `packages/libretto/README.template.md` or anything under `packages/libretto/skills/libretto/`.
+
+To check that generated READMEs, skill mirrors, and skill version metadata are in sync without fixing them, run `pnpm check:mirrors`. To release, run `pnpm prepare-release`.
+
+---
+
+> [!NOTE]
+> This is an early-stage project under active development. APIs may change before version 1.0. We recommend pinning to specific versions in production.
+
+Built by the team at [Saffron Health](https://saffron.health).
