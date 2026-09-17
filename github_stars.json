@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T08:41:58.478731+00:00",
+  "last_updated": "2026-09-17T08:46:48.011716+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247004,7 +247004,9 @@
       }
     },
     "radiodoc/uv-5r": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 5635422,
         "name": "uv-5r",
@@ -247024,7 +247026,12 @@
       "last_updated": "2026-09-17T08:41:57.786938+00:00"
     },
     "cloudx-io/setup-go": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions",
+        "GoLang"
+      ],
       "metadata": {
         "id": 1332486035,
         "name": "setup-go",
@@ -247044,7 +247051,10 @@
       "last_updated": "2026-09-17T08:41:58.016568+00:00"
     },
     "cashew-labs/libretto": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1171010355,
         "name": "libretto",
