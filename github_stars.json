@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T08:17:35.238095+00:00",
+  "last_updated": "2026-09-18T08:22:05.208689+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247098,7 +247098,11 @@
       }
     },
     "withzombies/jev-go": {
-      "lists": [],
+      "lists": [
+        "API",
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1374837960,
         "name": "jev-go",
