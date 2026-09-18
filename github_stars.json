@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T08:22:05.208689+00:00",
+  "last_updated": "2026-09-18T08:25:47.668242+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247119,7 +247119,15 @@
         "pushed_at": "2026-09-17T20:15:44Z",
         "starred_at": "2026-09-17T17:56:10Z"
       },
-      "last_updated": "2026-09-18T08:17:35.237970+00:00"
+      "last_updated": "2026-09-18T08:17:35.237970+00:00",
+      "readme": {
+        "path": "readmes/withzombies+jev-go+README.md",
+        "etag": "W/\"61b086c74991f528e84645b2a9b96fea8842b00f\"",
+        "sha": "61b086c74991f528e84645b2a9b96fea8842b00f",
+        "size": 4076,
+        "fetched_at": "2026-09-18T08:25:47.667415+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
