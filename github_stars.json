@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T08:44:30.917747+00:00",
+  "last_updated": "2026-09-20T08:44:47.110446+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247149,7 +247149,15 @@
         "pushed_at": "2026-09-20T05:24:25Z",
         "starred_at": "2025-09-11T21:00:31Z"
       },
-      "last_updated": "2026-09-20T08:37:12.684222+00:00"
+      "last_updated": "2026-09-20T08:37:12.684222+00:00",
+      "readme": {
+        "path": "readmes/khangvum-com+ansible-config+README.md",
+        "etag": "W/\"336001591183468cef1124ea1dbbea10d88b393b\"",
+        "sha": "336001591183468cef1124ea1dbbea10d88b393b",
+        "size": 23589,
+        "fetched_at": "2026-09-20T08:44:47.105620+00:00",
+        "status": "ok"
+      }
     },
     "builtbybel/Flyoobe": {
       "lists": [
@@ -247171,7 +247179,15 @@
         "pushed_at": "2026-09-19T19:22:22Z",
         "starred_at": "2025-09-09T23:36:11Z"
       },
-      "last_updated": "2026-09-20T08:37:12.927643+00:00"
+      "last_updated": "2026-09-20T08:37:12.927643+00:00",
+      "readme": {
+        "path": "readmes/builtbybel+Flyoobe+README.md",
+        "etag": "W/\"436313d2f39c4ccd8c92b34d1eeb8d874c6c3b3e\"",
+        "sha": "436313d2f39c4ccd8c92b34d1eeb8d874c6c3b3e",
+        "size": 4114,
+        "fetched_at": "2026-09-20T08:44:46.771345+00:00",
+        "status": "ok"
+      }
     },
     "EvanCarroll/coding-agent-podman": {
       "lists": [
@@ -247194,7 +247210,15 @@
         "pushed_at": "2026-09-20T08:21:30Z",
         "starred_at": "2025-06-07T21:25:51Z"
       },
-      "last_updated": "2026-09-20T08:37:13.368485+00:00"
+      "last_updated": "2026-09-20T08:37:13.368485+00:00",
+      "readme": {
+        "path": "readmes/EvanCarroll+coding-agent-podman+README.md",
+        "etag": "W/\"62f91cd1afd6ee8fe12d0e90d355a4c1e2fc7432\"",
+        "sha": "62f91cd1afd6ee8fe12d0e90d355a4c1e2fc7432",
+        "size": 6450,
+        "fetched_at": "2026-09-20T08:44:46.565143+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
