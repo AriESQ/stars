@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T08:37:13.368560+00:00",
+  "last_updated": "2026-09-20T08:44:30.917747+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247130,7 +247130,9 @@
       }
     },
     "khangvum-com/ansible-config": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 982409981,
         "name": "ansible-config",
@@ -247150,7 +247152,9 @@
       "last_updated": "2026-09-20T08:37:12.684222+00:00"
     },
     "builtbybel/Flyoobe": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 875403491,
         "name": "Flyoobe",
@@ -247170,7 +247174,10 @@
       "last_updated": "2026-09-20T08:37:12.927643+00:00"
     },
     "EvanCarroll/coding-agent-podman": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 976363475,
         "name": "coding-agent-podman",
