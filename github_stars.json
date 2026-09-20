@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T08:13:12.433114+00:00",
+  "last_updated": "2026-09-20T08:37:13.368560+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247128,6 +247128,66 @@
         "fetched_at": "2026-09-18T08:25:47.667415+00:00",
         "status": "ok"
       }
+    },
+    "khangvum-com/ansible-config": {
+      "lists": [],
+      "metadata": {
+        "id": 982409981,
+        "name": "ansible-config",
+        "full_name": "khangvum-com/ansible-config",
+        "description": "A declarative configuration automation solution powered by Ansible.",
+        "url": "https://github.com/khangvum-com/ansible-config",
+        "homepage": "",
+        "language": "Jinja",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-05-12T20:56:37Z",
+        "updated_at": "2026-09-20T05:24:27Z",
+        "pushed_at": "2026-09-20T05:24:25Z",
+        "starred_at": "2025-09-11T21:00:31Z"
+      },
+      "last_updated": "2026-09-20T08:37:12.684222+00:00"
+    },
+    "builtbybel/Flyoobe": {
+      "lists": [],
+      "metadata": {
+        "id": 875403491,
+        "name": "Flyoobe",
+        "full_name": "builtbybel/Flyoobe",
+        "description": "Fly through your Windows 11 setup \ud83d\udc1d",
+        "url": "https://github.com/builtbybel/Flyoobe",
+        "homepage": "https://builtbybel.github.io/Flyoobe/",
+        "language": "C#",
+        "stars": 7326,
+        "forks": 380,
+        "open_issues": 122,
+        "created_at": "2024-10-19T22:03:51Z",
+        "updated_at": "2026-09-20T06:46:52Z",
+        "pushed_at": "2026-09-19T19:22:22Z",
+        "starred_at": "2025-09-09T23:36:11Z"
+      },
+      "last_updated": "2026-09-20T08:37:12.927643+00:00"
+    },
+    "EvanCarroll/coding-agent-podman": {
+      "lists": [],
+      "metadata": {
+        "id": 976363475,
+        "name": "coding-agent-podman",
+        "full_name": "EvanCarroll/coding-agent-podman",
+        "description": "Run claude with rootless podman",
+        "url": "https://github.com/EvanCarroll/coding-agent-podman",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 22,
+        "forks": 9,
+        "open_issues": 0,
+        "created_at": "2025-05-02T01:25:08Z",
+        "updated_at": "2026-09-20T08:21:34Z",
+        "pushed_at": "2026-09-20T08:21:30Z",
+        "starred_at": "2025-06-07T21:25:51Z"
+      },
+      "last_updated": "2026-09-20T08:37:13.368485+00:00"
     }
   },
   "last_processed_index": 0,
@@ -247137,5 +247197,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"517da090904e28bb046d0ef135afdcafbb144be6b447c2d788f8108d567f0069\""
+  "profile_etag": "W/\"f747af846d53ce3dd9bd8e418132e4d41c906af633107f8bfa99c76a69971235\""
 }
