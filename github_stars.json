@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T08:44:47.110446+00:00",
+  "last_updated": "2026-09-21T08:59:25.183063+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247219,6 +247219,106 @@
         "fetched_at": "2026-09-20T08:44:46.565143+00:00",
         "status": "ok"
       }
+    },
+    "mizorewww/laya-coreml": {
+      "lists": [],
+      "metadata": {
+        "id": 1377694077,
+        "name": "laya-coreml",
+        "full_name": "mizorewww/laya-coreml",
+        "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+        "url": "https://github.com/mizorewww/laya-coreml",
+        "homepage": "https://github.com/mizorewww/laya-coreml#readme",
+        "language": "Python",
+        "stars": 535,
+        "forks": 32,
+        "open_issues": 0,
+        "created_at": "2026-09-19T23:14:13Z",
+        "updated_at": "2026-09-21T08:57:01Z",
+        "pushed_at": "2026-09-20T03:52:14Z",
+        "starred_at": "2026-09-21T01:38:25Z"
+      },
+      "last_updated": "2026-09-21T08:59:23.513566+00:00"
+    },
+    "google/ax": {
+      "lists": [],
+      "metadata": {
+        "id": 1196447493,
+        "name": "ax",
+        "full_name": "google/ax",
+        "description": "Google's open agentic orchestrator",
+        "url": "https://github.com/google/ax",
+        "homepage": "https://agentexecutor.io",
+        "language": "Go",
+        "stars": 4180,
+        "forks": 187,
+        "open_issues": 14,
+        "created_at": "2026-03-30T17:55:01Z",
+        "updated_at": "2026-09-21T08:59:16Z",
+        "pushed_at": "2026-09-20T03:33:20Z",
+        "starred_at": "2026-09-20T23:33:39Z"
+      },
+      "last_updated": "2026-09-21T08:59:24.037978+00:00"
+    },
+    "agent-substrate/substrate": {
+      "lists": [],
+      "metadata": {
+        "id": 1238047523,
+        "name": "substrate",
+        "full_name": "agent-substrate/substrate",
+        "description": "Agent Substrate: the core system",
+        "url": "https://github.com/agent-substrate/substrate",
+        "homepage": null,
+        "language": "Go",
+        "stars": 2402,
+        "forks": 346,
+        "open_issues": 512,
+        "created_at": "2026-05-13T19:02:38Z",
+        "updated_at": "2026-09-21T08:54:17Z",
+        "pushed_at": "2026-09-21T00:02:59Z",
+        "starred_at": "2026-09-20T23:32:07Z"
+      },
+      "last_updated": "2026-09-21T08:59:24.490810+00:00"
+    },
+    "paulneja/Linux-on-esp32-S3": {
+      "lists": [],
+      "metadata": {
+        "id": 1299607949,
+        "name": "Linux-on-esp32-S3",
+        "full_name": "paulneja/Linux-on-esp32-S3",
+        "description": "Real Linux 6.11 running natively on the ESP32-S3's Xtensa cores (not emulated), with working WiFi and the chip's hardware RSA accelerator exposed to the Linux Crypto API and fork(). One flashable image; 16MB flash / 8MB PSRAM; NOMMU; STA-only.",
+        "url": "https://github.com/paulneja/Linux-on-esp32-S3",
+        "homepage": null,
+        "language": "C",
+        "stars": 181,
+        "forks": 17,
+        "open_issues": 6,
+        "created_at": "2026-07-13T18:20:32Z",
+        "updated_at": "2026-09-21T04:35:18Z",
+        "pushed_at": "2026-09-15T10:11:17Z",
+        "starred_at": "2026-09-20T18:35:03Z"
+      },
+      "last_updated": "2026-09-21T08:59:24.831600+00:00"
+    },
+    "planetscale/lead": {
+      "lists": [],
+      "metadata": {
+        "id": 1374570446,
+        "name": "lead",
+        "full_name": "planetscale/lead",
+        "description": "A non-production Postgres text-search extension for exercising TIN-compatible application SQL in development, test, CI, and staging environments",
+        "url": "https://github.com/planetscale/lead",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 144,
+        "forks": 9,
+        "open_issues": 2,
+        "created_at": "2026-09-17T14:29:30Z",
+        "updated_at": "2026-09-21T06:49:19Z",
+        "pushed_at": "2026-09-19T14:50:42Z",
+        "starred_at": "2026-09-20T17:27:43Z"
+      },
+      "last_updated": "2026-09-21T08:59:25.182953+00:00"
     }
   },
   "last_processed_index": 0,
@@ -247228,5 +247328,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f747af846d53ce3dd9bd8e418132e4d41c906af633107f8bfa99c76a69971235\""
+  "profile_etag": "W/\"485fafc41e7b45557f69eec1d321cb6933a55781d9042d81df2cd52e580ee690\""
 }
