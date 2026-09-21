@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T08:59:25.183063+00:00",
+  "last_updated": "2026-09-21T09:07:36.998918+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247241,7 +247241,11 @@
       "last_updated": "2026-09-21T08:59:23.513566+00:00"
     },
     "google/ax": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "K8S - Kubernetes",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1196447493,
         "name": "ax",
@@ -247261,7 +247265,11 @@
       "last_updated": "2026-09-21T08:59:24.037978+00:00"
     },
     "agent-substrate/substrate": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "K8S - Kubernetes",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1238047523,
         "name": "substrate",
@@ -247281,7 +247289,9 @@
       "last_updated": "2026-09-21T08:59:24.490810+00:00"
     },
     "paulneja/Linux-on-esp32-S3": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1299607949,
         "name": "Linux-on-esp32-S3",
@@ -247301,7 +247311,10 @@
       "last_updated": "2026-09-21T08:59:24.831600+00:00"
     },
     "planetscale/lead": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Rust"
+      ],
       "metadata": {
         "id": 1374570446,
         "name": "lead",
