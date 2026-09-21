@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T09:07:36.998918+00:00",
+  "last_updated": "2026-09-21T09:08:09.585961+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247238,7 +247238,15 @@
         "pushed_at": "2026-09-20T03:52:14Z",
         "starred_at": "2026-09-21T01:38:25Z"
       },
-      "last_updated": "2026-09-21T08:59:23.513566+00:00"
+      "last_updated": "2026-09-21T08:59:23.513566+00:00",
+      "readme": {
+        "path": "readmes/mizorewww+laya-coreml+README.md",
+        "etag": "W/\"77b9c3006b12fc7cc85fc988c3efc27006b01777\"",
+        "sha": "77b9c3006b12fc7cc85fc988c3efc27006b01777",
+        "size": 8704,
+        "fetched_at": "2026-09-21T09:08:08.865755+00:00",
+        "status": "ok"
+      }
     },
     "google/ax": {
       "lists": [
@@ -247262,7 +247270,15 @@
         "pushed_at": "2026-09-20T03:33:20Z",
         "starred_at": "2026-09-20T23:33:39Z"
       },
-      "last_updated": "2026-09-21T08:59:24.037978+00:00"
+      "last_updated": "2026-09-21T08:59:24.037978+00:00",
+      "readme": {
+        "path": "readmes/google+ax+README.md",
+        "etag": "W/\"27e220270c9e48da63968ae3b39063df324e3bf7\"",
+        "sha": "27e220270c9e48da63968ae3b39063df324e3bf7",
+        "size": 7357,
+        "fetched_at": "2026-09-21T09:08:08.548819+00:00",
+        "status": "ok"
+      }
     },
     "agent-substrate/substrate": {
       "lists": [
@@ -247286,7 +247302,15 @@
         "pushed_at": "2026-09-21T00:02:59Z",
         "starred_at": "2026-09-20T23:32:07Z"
       },
-      "last_updated": "2026-09-21T08:59:24.490810+00:00"
+      "last_updated": "2026-09-21T08:59:24.490810+00:00",
+      "readme": {
+        "path": "readmes/agent-substrate+substrate+README.md",
+        "etag": "W/\"109fe123479cfd5dd5a6b4bf212c918ba330af4b\"",
+        "sha": "109fe123479cfd5dd5a6b4bf212c918ba330af4b",
+        "size": 15559,
+        "fetched_at": "2026-09-21T09:08:08.230507+00:00",
+        "status": "ok"
+      }
     },
     "paulneja/Linux-on-esp32-S3": {
       "lists": [
@@ -247308,7 +247332,15 @@
         "pushed_at": "2026-09-15T10:11:17Z",
         "starred_at": "2026-09-20T18:35:03Z"
       },
-      "last_updated": "2026-09-21T08:59:24.831600+00:00"
+      "last_updated": "2026-09-21T08:59:24.831600+00:00",
+      "readme": {
+        "path": "readmes/paulneja+Linux-on-esp32-S3+README.md",
+        "etag": "W/\"10f0a15156d98ffd16d08701477a9f1b92ef8984\"",
+        "sha": "10f0a15156d98ffd16d08701477a9f1b92ef8984",
+        "size": 15727,
+        "fetched_at": "2026-09-21T09:08:09.261050+00:00",
+        "status": "ok"
+      }
     },
     "planetscale/lead": {
       "lists": [
@@ -247331,7 +247363,15 @@
         "pushed_at": "2026-09-19T14:50:42Z",
         "starred_at": "2026-09-20T17:27:43Z"
       },
-      "last_updated": "2026-09-21T08:59:25.182953+00:00"
+      "last_updated": "2026-09-21T08:59:25.182953+00:00",
+      "readme": {
+        "path": "readmes/planetscale+lead+README.md",
+        "etag": "W/\"01245a6dab36b00be10cd2d5dc10532518e37c83\"",
+        "sha": "01245a6dab36b00be10cd2d5dc10532518e37c83",
+        "size": 3619,
+        "fetched_at": "2026-09-21T09:08:09.583407+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
