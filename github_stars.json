@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T09:08:09.585961+00:00",
+  "last_updated": "2026-09-22T08:35:18.331664+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247372,6 +247372,26 @@
         "fetched_at": "2026-09-21T09:08:09.583407+00:00",
         "status": "ok"
       }
+    },
+    "jaredpalmer/kev": {
+      "lists": [],
+      "metadata": {
+        "id": 1375069862,
+        "name": "kev",
+        "full_name": "jaredpalmer/kev",
+        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "url": "https://github.com/jaredpalmer/kev",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2838,
+        "forks": 142,
+        "open_issues": 3,
+        "created_at": "2026-09-17T20:49:39Z",
+        "updated_at": "2026-09-22T08:35:10Z",
+        "pushed_at": "2026-09-22T00:44:00Z",
+        "starred_at": "2026-09-21T16:42:59Z"
+      },
+      "last_updated": "2026-09-22T08:35:18.331542+00:00"
     }
   },
   "last_processed_index": 0,
@@ -247381,5 +247401,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"485fafc41e7b45557f69eec1d321cb6933a55781d9042d81df2cd52e580ee690\""
+  "profile_etag": "W/\"09304f7a052b3f543d8ae9245188c38afc7a0cb628f2f5fac7d3c98ca44a71d6\""
 }
