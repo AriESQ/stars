@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T08:35:18.331664+00:00",
+  "last_updated": "2026-09-22T08:43:23.462179+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247374,7 +247374,11 @@
       }
     },
     "jaredpalmer/kev": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1375069862,
         "name": "kev",
