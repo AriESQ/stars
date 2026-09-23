@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T08:37:43.690160+00:00",
+  "last_updated": "2026-09-23T08:45:37.721931+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247406,7 +247406,11 @@
       }
     },
     "josegonzalez/python-github-backup": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "Python"
+      ],
       "metadata": {
         "id": 14876085,
         "name": "python-github-backup",
@@ -247426,7 +247430,9 @@
       "last_updated": "2026-09-23T08:37:41.959844+00:00"
     },
     "tashfeenahmed/freellmapi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1217040185,
         "name": "freellmapi",
@@ -247446,7 +247452,9 @@
       "last_updated": "2026-09-23T08:37:42.339877+00:00"
     },
     "ojrgb/appletd": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1344088479,
         "name": "appletd",
@@ -247466,7 +247474,10 @@
       "last_updated": "2026-09-23T08:37:42.707195+00:00"
     },
     "wrr/drop": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1026136236,
         "name": "drop",
@@ -247486,7 +247497,9 @@
       "last_updated": "2026-09-23T08:37:43.094849+00:00"
     },
     "daisyaudio/pd2dsy": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 265958991,
         "name": "pd2dsy",
