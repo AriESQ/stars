@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T08:45:37.721931+00:00",
+  "last_updated": "2026-09-23T08:46:14.708665+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247427,7 +247427,15 @@
         "pushed_at": "2026-08-12T17:22:10Z",
         "starred_at": "2026-09-23T03:34:05Z"
       },
-      "last_updated": "2026-09-23T08:37:41.959844+00:00"
+      "last_updated": "2026-09-23T08:37:41.959844+00:00",
+      "readme": {
+        "path": "readmes/josegonzalez+python-github-backup+README.rst",
+        "etag": "W/\"3d7d1a226d2cd93e66504d00e0a61f0016a0eb44\"",
+        "sha": "3d7d1a226d2cd93e66504d00e0a61f0016a0eb44",
+        "size": 35078,
+        "fetched_at": "2026-09-23T08:46:13.508458+00:00",
+        "status": "ok"
+      }
     },
     "tashfeenahmed/freellmapi": {
       "lists": [
@@ -247449,7 +247457,15 @@
         "pushed_at": "2026-09-23T06:21:41Z",
         "starred_at": "2026-09-22T18:44:52Z"
       },
-      "last_updated": "2026-09-23T08:37:42.339877+00:00"
+      "last_updated": "2026-09-23T08:37:42.339877+00:00",
+      "readme": {
+        "path": "readmes/tashfeenahmed+freellmapi+README.md",
+        "etag": "W/\"47ae469b070d86b651984ba6c162a33ff5ead974\"",
+        "sha": "47ae469b070d86b651984ba6c162a33ff5ead974",
+        "size": 57188,
+        "fetched_at": "2026-09-23T08:46:14.325657+00:00",
+        "status": "ok"
+      }
     },
     "ojrgb/appletd": {
       "lists": [
@@ -247471,7 +247487,15 @@
         "pushed_at": "2026-09-13T19:01:50Z",
         "starred_at": "2026-09-22T18:38:48Z"
       },
-      "last_updated": "2026-09-23T08:37:42.707195+00:00"
+      "last_updated": "2026-09-23T08:37:42.707195+00:00",
+      "readme": {
+        "path": "readmes/ojrgb+appletd+README.md",
+        "etag": "W/\"8bc26abcbce72ec88c77c86257ed70e0f7e69c9a\"",
+        "sha": "8bc26abcbce72ec88c77c86257ed70e0f7e69c9a",
+        "size": 7723,
+        "fetched_at": "2026-09-23T08:46:13.903151+00:00",
+        "status": "ok"
+      }
     },
     "wrr/drop": {
       "lists": [
@@ -247494,7 +247518,15 @@
         "pushed_at": "2026-09-21T10:35:15Z",
         "starred_at": "2026-09-22T16:52:08Z"
       },
-      "last_updated": "2026-09-23T08:37:43.094849+00:00"
+      "last_updated": "2026-09-23T08:37:43.094849+00:00",
+      "readme": {
+        "path": "readmes/wrr+drop+README.md",
+        "etag": "W/\"0249b386fb362e945923dedee1e61977656738b0\"",
+        "sha": "0249b386fb362e945923dedee1e61977656738b0",
+        "size": 6741,
+        "fetched_at": "2026-09-23T08:46:14.707959+00:00",
+        "status": "ok"
+      }
     },
     "daisyaudio/pd2dsy": {
       "lists": [
@@ -247516,7 +247548,15 @@
         "pushed_at": "2025-03-18T22:38:33Z",
         "starred_at": "2023-11-13T16:09:21Z"
       },
-      "last_updated": "2026-09-23T08:37:43.690077+00:00"
+      "last_updated": "2026-09-23T08:37:43.690077+00:00",
+      "readme": {
+        "path": "readmes/daisyaudio+pd2dsy+README.md",
+        "etag": "W/\"6801192b32c0b8131aebab5f2bc5b48ac283b15e\"",
+        "sha": "6801192b32c0b8131aebab5f2bc5b48ac283b15e",
+        "size": 18122,
+        "fetched_at": "2026-09-23T08:46:13.023614+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
