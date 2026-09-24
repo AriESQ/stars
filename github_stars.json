@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T08:38:10.194757+00:00",
+  "last_updated": "2026-09-24T08:38:49.801233+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247578,7 +247578,15 @@
         "pushed_at": "2026-09-23T08:38:57Z",
         "starred_at": "2026-09-24T05:11:13Z"
       },
-      "last_updated": "2026-09-24T08:30:14.533622+00:00"
+      "last_updated": "2026-09-24T08:30:14.533622+00:00",
+      "readme": {
+        "path": "readmes/ai-boost+awesome-harness-engineering+README.md",
+        "etag": "W/\"19758664a710c002fd463f5025645080f83131b0\"",
+        "sha": "19758664a710c002fd463f5025645080f83131b0",
+        "size": 257021,
+        "fetched_at": "2026-09-24T08:38:47.976712+00:00",
+        "status": "ok"
+      }
     },
     "aarongayle/tvtop-kiosk-firmware": {
       "lists": [
@@ -247601,7 +247609,15 @@
         "pushed_at": "2026-09-22T03:43:11Z",
         "starred_at": "2026-09-24T04:45:29Z"
       },
-      "last_updated": "2026-09-24T08:30:14.914765+00:00"
+      "last_updated": "2026-09-24T08:30:14.914765+00:00",
+      "readme": {
+        "path": "readmes/aarongayle+tvtop-kiosk-firmware+README.md",
+        "etag": "W/\"6992bccfbc0397d8b363325b0690173527d72a39\"",
+        "sha": "6992bccfbc0397d8b363325b0690173527d72a39",
+        "size": 7563,
+        "fetched_at": "2026-09-24T08:38:47.428642+00:00",
+        "status": "ok"
+      }
     },
     "wshobson/agents": {
       "lists": [
@@ -247623,7 +247639,15 @@
         "pushed_at": "2026-09-21T01:09:57Z",
         "starred_at": "2026-09-24T04:10:30Z"
       },
-      "last_updated": "2026-09-24T08:30:15.214412+00:00"
+      "last_updated": "2026-09-24T08:30:15.214412+00:00",
+      "readme": {
+        "path": "readmes/wshobson+agents+README.md",
+        "etag": "W/\"2bb1ca4409c1804566cb93a7db67f95c60a79c56\"",
+        "sha": "2bb1ca4409c1804566cb93a7db67f95c60a79c56",
+        "size": 10444,
+        "fetched_at": "2026-09-24T08:38:49.435898+00:00",
+        "status": "ok"
+      }
     },
     "Tencent-Hunyuan/Hunyuan3D-Omni": {
       "lists": [
@@ -247647,7 +247671,15 @@
         "pushed_at": "2025-10-17T10:13:05Z",
         "starred_at": "2026-09-24T03:25:07Z"
       },
-      "last_updated": "2026-09-24T08:30:15.550299+00:00"
+      "last_updated": "2026-09-24T08:30:15.550299+00:00",
+      "readme": {
+        "path": "readmes/Tencent-Hunyuan+Hunyuan3D-Omni+README.md",
+        "etag": "W/\"51bd0f200f0f5955951a450a0859cfc5ecaa4ccd\"",
+        "sha": "51bd0f200f0f5955951a450a0859cfc5ecaa4ccd",
+        "size": 6469,
+        "fetched_at": "2026-09-24T08:38:46.682994+00:00",
+        "status": "ok"
+      }
     },
     "Tencent-Hunyuan/Hunyuan3D-1": {
       "lists": [
@@ -247671,7 +247703,15 @@
         "pushed_at": "2025-11-19T07:07:41Z",
         "starred_at": "2026-09-24T03:22:11Z"
       },
-      "last_updated": "2026-09-24T08:30:15.916282+00:00"
+      "last_updated": "2026-09-24T08:30:15.916282+00:00",
+      "readme": {
+        "path": "readmes/Tencent-Hunyuan+Hunyuan3D-1+README.md",
+        "etag": "W/\"4a2f36f200145073c6f7ebb3a73119169c067f9b\"",
+        "sha": "4a2f36f200145073c6f7ebb3a73119169c067f9b",
+        "size": 12130,
+        "fetched_at": "2026-09-24T08:38:45.878872+00:00",
+        "status": "ok"
+      }
     },
     "Tencent-Hunyuan/Hunyuan3D-Part": {
       "lists": [
@@ -247695,7 +247735,15 @@
         "pushed_at": "2025-12-05T03:43:28Z",
         "starred_at": "2026-09-24T03:21:03Z"
       },
-      "last_updated": "2026-09-24T08:30:16.245203+00:00"
+      "last_updated": "2026-09-24T08:30:16.245203+00:00",
+      "readme": {
+        "path": "readmes/Tencent-Hunyuan+Hunyuan3D-Part+README.md",
+        "etag": "W/\"0494427911bd8d7b6ab01656cadc4260a2d49342\"",
+        "sha": "0494427911bd8d7b6ab01656cadc4260a2d49342",
+        "size": 3061,
+        "fetched_at": "2026-09-24T08:38:47.047647+00:00",
+        "status": "ok"
+      }
     },
     "Tencent-Hunyuan/Hunyuan3D-2.1": {
       "lists": [
@@ -247718,7 +247766,15 @@
         "pushed_at": "2025-10-17T10:10:07Z",
         "starred_at": "2026-09-24T03:20:04Z"
       },
-      "last_updated": "2026-09-24T08:30:16.561490+00:00"
+      "last_updated": "2026-09-24T08:30:16.561490+00:00",
+      "readme": {
+        "path": "readmes/Tencent-Hunyuan+Hunyuan3D-2.1+README.md",
+        "etag": "W/\"e670cb0139d2cd35788043768249037e1aca6f68\"",
+        "sha": "e670cb0139d2cd35788043768249037e1aca6f68",
+        "size": 10203,
+        "fetched_at": "2026-09-24T08:38:46.251267+00:00",
+        "status": "ok"
+      }
     },
     "youssef02/meshy2glb": {
       "lists": [
@@ -247741,7 +247797,15 @@
         "pushed_at": "2026-09-22T19:01:57Z",
         "starred_at": "2026-09-24T03:13:01Z"
       },
-      "last_updated": "2026-09-24T08:30:16.870414+00:00"
+      "last_updated": "2026-09-24T08:30:16.870414+00:00",
+      "readme": {
+        "path": "readmes/youssef02+meshy2glb+README.md",
+        "etag": "W/\"fab76a3029e6a9ffbfabf7eb25cc6a6c1a1e65f2\"",
+        "sha": "fab76a3029e6a9ffbfabf7eb25cc6a6c1a1e65f2",
+        "size": 1862,
+        "fetched_at": "2026-09-24T08:38:49.800504+00:00",
+        "status": "ok"
+      }
     },
     "darkreader/darkreader": {
       "lists": [
@@ -247763,7 +247827,15 @@
         "pushed_at": "2026-09-23T19:23:52Z",
         "starred_at": "2026-09-24T03:07:53Z"
       },
-      "last_updated": "2026-09-24T08:30:17.297766+00:00"
+      "last_updated": "2026-09-24T08:30:17.297766+00:00",
+      "readme": {
+        "path": "readmes/darkreader+darkreader+README.md",
+        "etag": "W/\"6628c1fd0536b7ac2ce47bc51fc7d462c055d454\"",
+        "sha": "6628c1fd0536b7ac2ce47bc51fc7d462c055d454",
+        "size": 15928,
+        "fetched_at": "2026-09-24T08:38:48.337515+00:00",
+        "status": "ok"
+      }
     },
     "Fabric-Project/Satin": {
       "lists": [
@@ -247786,7 +247858,15 @@
         "pushed_at": "2026-09-07T20:07:10Z",
         "starred_at": "2026-09-23T17:10:27Z"
       },
-      "last_updated": "2026-09-24T08:30:17.682445+00:00"
+      "last_updated": "2026-09-24T08:30:17.682445+00:00",
+      "readme": {
+        "path": "readmes/Fabric-Project+Satin+README.md",
+        "etag": "W/\"cc71e12177b5155055d204459b307fe292b14c98\"",
+        "sha": "cc71e12177b5155055d204459b307fe292b14c98",
+        "size": 8383,
+        "fetched_at": "2026-09-24T08:38:45.036699+00:00",
+        "status": "ok"
+      }
     },
     "flolu/davinci-resolve-linux": {
       "lists": [
@@ -247809,7 +247889,15 @@
         "pushed_at": "2025-03-31T16:09:05Z",
         "starred_at": "2026-09-23T16:55:53Z"
       },
-      "last_updated": "2026-09-24T08:30:17.960080+00:00"
+      "last_updated": "2026-09-24T08:30:17.960080+00:00",
+      "readme": {
+        "path": "readmes/flolu+davinci-resolve-linux+README.md",
+        "etag": "W/\"885de6865fe0245f92481063717d50eea2bb9e93\"",
+        "sha": "885de6865fe0245f92481063717d50eea2bb9e93",
+        "size": 8094,
+        "fetched_at": "2026-09-24T08:38:48.688909+00:00",
+        "status": "ok"
+      }
     },
     "Fabric-Project/Fabric": {
       "lists": [
@@ -247832,7 +247920,15 @@
         "pushed_at": "2026-09-24T04:42:51Z",
         "starred_at": "2026-09-23T16:38:51Z"
       },
-      "last_updated": "2026-09-24T08:30:18.272402+00:00"
+      "last_updated": "2026-09-24T08:30:18.272402+00:00",
+      "readme": {
+        "path": "readmes/Fabric-Project+Fabric+README.md",
+        "etag": "W/\"2581ead97448dc0ea051831f5daf062f62066e54\"",
+        "sha": "2581ead97448dc0ea051831f5daf062f62066e54",
+        "size": 6923,
+        "fetched_at": "2026-09-24T08:38:44.484460+00:00",
+        "status": "ok"
+      }
     },
     "getsentry/MobileBuildMCP": {
       "lists": [
@@ -247854,7 +247950,15 @@
         "pushed_at": "2026-09-23T20:18:03Z",
         "starred_at": "2026-05-09T19:00:30Z"
       },
-      "last_updated": "2026-09-24T08:30:18.788266+00:00"
+      "last_updated": "2026-09-24T08:30:18.788266+00:00",
+      "readme": {
+        "path": "readmes/getsentry+MobileBuildMCP+README.md",
+        "etag": "W/\"032a398821b27ba19882e5f9563001e70e8f99f0\"",
+        "sha": "032a398821b27ba19882e5f9563001e70e8f99f0",
+        "size": 7056,
+        "fetched_at": "2026-09-24T08:38:49.064767+00:00",
+        "status": "ok"
+      }
     },
     "LibreChat-AI/LibreChat": {
       "lists": [
@@ -247877,7 +247981,15 @@
         "pushed_at": "2026-09-24T07:16:47Z",
         "starred_at": "2025-01-07T17:43:54Z"
       },
-      "last_updated": "2026-09-24T08:30:19.301332+00:00"
+      "last_updated": "2026-09-24T08:30:19.301332+00:00",
+      "readme": {
+        "path": "readmes/LibreChat-AI+LibreChat+README.md",
+        "etag": "W/\"279604df75e9546391cf347446d317ddd27c82d2\"",
+        "sha": "279604df75e9546391cf347446d317ddd27c82d2",
+        "size": 14751,
+        "fetched_at": "2026-09-24T08:38:45.398250+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
