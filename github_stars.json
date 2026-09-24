@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T08:30:19.301367+00:00",
+  "last_updated": "2026-09-24T08:38:10.194757+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247559,7 +247559,9 @@
       }
     },
     "ai-boost/awesome-harness-engineering": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1195371847,
         "name": "awesome-harness-engineering",
@@ -247579,7 +247581,10 @@
       "last_updated": "2026-09-24T08:30:14.533622+00:00"
     },
     "aarongayle/tvtop-kiosk-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1373444500,
         "name": "tvtop-kiosk-firmware",
@@ -247599,7 +247604,9 @@
       "last_updated": "2026-09-24T08:30:14.914765+00:00"
     },
     "wshobson/agents": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1025856648,
         "name": "agents",
@@ -247619,7 +247626,11 @@
       "last_updated": "2026-09-24T08:30:15.214412+00:00"
     },
     "Tencent-Hunyuan/Hunyuan3D-Omni": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1064043780,
         "name": "Hunyuan3D-Omni",
@@ -247639,7 +247650,11 @@
       "last_updated": "2026-09-24T08:30:15.550299+00:00"
     },
     "Tencent-Hunyuan/Hunyuan3D-1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 881283060,
         "name": "Hunyuan3D-1",
@@ -247659,7 +247674,11 @@
       "last_updated": "2026-09-24T08:30:15.916282+00:00"
     },
     "Tencent-Hunyuan/Hunyuan3D-Part": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1064044497,
         "name": "Hunyuan3D-Part",
@@ -247679,7 +247698,10 @@
       "last_updated": "2026-09-24T08:30:16.245203+00:00"
     },
     "Tencent-Hunyuan/Hunyuan3D-2.1": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1001565199,
         "name": "Hunyuan3D-2.1",
@@ -247699,7 +247721,10 @@
       "last_updated": "2026-09-24T08:30:16.561490+00:00"
     },
     "youssef02/meshy2glb": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1154637171,
         "name": "meshy2glb",
@@ -247719,7 +247744,9 @@
       "last_updated": "2026-09-24T08:30:16.870414+00:00"
     },
     "darkreader/darkreader": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 26682105,
         "name": "darkreader",
@@ -247739,7 +247766,10 @@
       "last_updated": "2026-09-24T08:30:17.297766+00:00"
     },
     "Fabric-Project/Satin": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 967588924,
         "name": "Satin",
@@ -247759,7 +247789,10 @@
       "last_updated": "2026-09-24T08:30:17.682445+00:00"
     },
     "flolu/davinci-resolve-linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 225925163,
         "name": "davinci-resolve-linux",
@@ -247779,7 +247812,10 @@
       "last_updated": "2026-09-24T08:30:17.960080+00:00"
     },
     "Fabric-Project/Fabric": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 973892516,
         "name": "Fabric",
@@ -247799,7 +247835,9 @@
       "last_updated": "2026-09-24T08:30:18.272402+00:00"
     },
     "getsentry/MobileBuildMCP": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 945551361,
         "name": "MobileBuildMCP",
@@ -247819,7 +247857,10 @@
       "last_updated": "2026-09-24T08:30:18.788266+00:00"
     },
     "LibreChat-AI/LibreChat": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 600596928,
         "name": "LibreChat",
