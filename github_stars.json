@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T08:46:14.708665+00:00",
+  "last_updated": "2026-09-24T08:30:19.301367+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -247557,6 +247557,286 @@
         "fetched_at": "2026-09-23T08:46:13.023614+00:00",
         "status": "ok"
       }
+    },
+    "ai-boost/awesome-harness-engineering": {
+      "lists": [],
+      "metadata": {
+        "id": 1195371847,
+        "name": "awesome-harness-engineering",
+        "full_name": "ai-boost/awesome-harness-engineering",
+        "description": "Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration.",
+        "url": "https://github.com/ai-boost/awesome-harness-engineering",
+        "homepage": "https://github.com/ai-boost/awesome-harness-engineering",
+        "language": "Python",
+        "stars": 4497,
+        "forks": 575,
+        "open_issues": 215,
+        "created_at": "2026-03-29T15:39:49Z",
+        "updated_at": "2026-09-24T07:24:10Z",
+        "pushed_at": "2026-09-23T08:38:57Z",
+        "starred_at": "2026-09-24T05:11:13Z"
+      },
+      "last_updated": "2026-09-24T08:30:14.533622+00:00"
+    },
+    "aarongayle/tvtop-kiosk-firmware": {
+      "lists": [],
+      "metadata": {
+        "id": 1373444500,
+        "name": "tvtop-kiosk-firmware",
+        "full_name": "aarongayle/tvtop-kiosk-firmware",
+        "description": "Firmware for the TV-Top Kiosk HDMI stick (RP2040/RP2350)",
+        "url": "https://github.com/aarongayle/tvtop-kiosk-firmware",
+        "homepage": null,
+        "language": "C",
+        "stars": 32,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-09-16T17:52:00Z",
+        "updated_at": "2026-09-24T04:45:30Z",
+        "pushed_at": "2026-09-22T03:43:11Z",
+        "starred_at": "2026-09-24T04:45:29Z"
+      },
+      "last_updated": "2026-09-24T08:30:14.914765+00:00"
+    },
+    "wshobson/agents": {
+      "lists": [],
+      "metadata": {
+        "id": 1025856648,
+        "name": "agents",
+        "full_name": "wshobson/agents",
+        "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+        "url": "https://github.com/wshobson/agents",
+        "homepage": "https://sethhobson.com",
+        "language": "Python",
+        "stars": 39915,
+        "forks": 4251,
+        "open_issues": 17,
+        "created_at": "2025-07-24T23:28:14Z",
+        "updated_at": "2026-09-24T05:47:41Z",
+        "pushed_at": "2026-09-21T01:09:57Z",
+        "starred_at": "2026-09-24T04:10:30Z"
+      },
+      "last_updated": "2026-09-24T08:30:15.214412+00:00"
+    },
+    "Tencent-Hunyuan/Hunyuan3D-Omni": {
+      "lists": [],
+      "metadata": {
+        "id": 1064043780,
+        "name": "Hunyuan3D-Omni",
+        "full_name": "Tencent-Hunyuan/Hunyuan3D-Omni",
+        "description": "Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni",
+        "homepage": "https://3d.hunyuan.tencent.com/",
+        "language": "Python",
+        "stars": 629,
+        "forks": 59,
+        "open_issues": 8,
+        "created_at": "2025-09-25T13:13:53Z",
+        "updated_at": "2026-09-24T03:25:07Z",
+        "pushed_at": "2025-10-17T10:13:05Z",
+        "starred_at": "2026-09-24T03:25:07Z"
+      },
+      "last_updated": "2026-09-24T08:30:15.550299+00:00"
+    },
+    "Tencent-Hunyuan/Hunyuan3D-1": {
+      "lists": [],
+      "metadata": {
+        "id": 881283060,
+        "name": "Hunyuan3D-1",
+        "full_name": "Tencent-Hunyuan/Hunyuan3D-1",
+        "description": "Tencent Hunyuan3D-1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-1",
+        "homepage": "https://3d.hunyuan.tencent.com/",
+        "language": "Python",
+        "stars": 3488,
+        "forks": 280,
+        "open_issues": 31,
+        "created_at": "2024-10-31T09:04:57Z",
+        "updated_at": "2026-09-24T03:22:11Z",
+        "pushed_at": "2025-11-19T07:07:41Z",
+        "starred_at": "2026-09-24T03:22:11Z"
+      },
+      "last_updated": "2026-09-24T08:30:15.916282+00:00"
+    },
+    "Tencent-Hunyuan/Hunyuan3D-Part": {
+      "lists": [],
+      "metadata": {
+        "id": 1064044497,
+        "name": "Hunyuan3D-Part",
+        "full_name": "Tencent-Hunyuan/Hunyuan3D-Part",
+        "description": "Hunyuan 3D Part Segmentation and Generation Pipeline ",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Part",
+        "homepage": "",
+        "language": "Python",
+        "stars": 542,
+        "forks": 62,
+        "open_issues": 11,
+        "created_at": "2025-09-25T13:14:55Z",
+        "updated_at": "2026-09-24T03:21:04Z",
+        "pushed_at": "2025-12-05T03:43:28Z",
+        "starred_at": "2026-09-24T03:21:03Z"
+      },
+      "last_updated": "2026-09-24T08:30:16.245203+00:00"
+    },
+    "Tencent-Hunyuan/Hunyuan3D-2.1": {
+      "lists": [],
+      "metadata": {
+        "id": 1001565199,
+        "name": "Hunyuan3D-2.1",
+        "full_name": "Tencent-Hunyuan/Hunyuan3D-2.1",
+        "description": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+        "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+        "homepage": "https://3d.hunyuan.tencent.com/",
+        "language": "Python",
+        "stars": 4068,
+        "forks": 611,
+        "open_issues": 153,
+        "created_at": "2025-06-13T15:45:50Z",
+        "updated_at": "2026-09-24T07:25:16Z",
+        "pushed_at": "2025-10-17T10:10:07Z",
+        "starred_at": "2026-09-24T03:20:04Z"
+      },
+      "last_updated": "2026-09-24T08:30:16.561490+00:00"
+    },
+    "youssef02/meshy2glb": {
+      "lists": [],
+      "metadata": {
+        "id": 1154637171,
+        "name": "meshy2glb",
+        "full_name": "youssef02/meshy2glb",
+        "description": "reverse enginnered the file downloader and now i can download glb thanks to this script, the file is encrypted, and local decryption failed, but was able to inject the code into the webapp directly ",
+        "url": "https://github.com/youssef02/meshy2glb",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 77,
+        "forks": 10,
+        "open_issues": 4,
+        "created_at": "2026-02-10T16:03:26Z",
+        "updated_at": "2026-09-24T03:13:02Z",
+        "pushed_at": "2026-09-22T19:01:57Z",
+        "starred_at": "2026-09-24T03:13:01Z"
+      },
+      "last_updated": "2026-09-24T08:30:16.870414+00:00"
+    },
+    "darkreader/darkreader": {
+      "lists": [],
+      "metadata": {
+        "id": 26682105,
+        "name": "darkreader",
+        "full_name": "darkreader/darkreader",
+        "description": "Dark Reader Chrome and Firefox extension",
+        "url": "https://github.com/darkreader/darkreader",
+        "homepage": "https://darkreader.org/",
+        "language": "TypeScript",
+        "stars": 22396,
+        "forks": 2750,
+        "open_issues": 1454,
+        "created_at": "2014-11-15T14:22:52Z",
+        "updated_at": "2026-09-24T07:38:12Z",
+        "pushed_at": "2026-09-23T19:23:52Z",
+        "starred_at": "2026-09-24T03:07:53Z"
+      },
+      "last_updated": "2026-09-24T08:30:17.297766+00:00"
+    },
+    "Fabric-Project/Satin": {
+      "lists": [],
+      "metadata": {
+        "id": 967588924,
+        "name": "Satin",
+        "full_name": "Fabric-Project/Satin",
+        "description": "A 3D Graphics Framework built on Apple's Metal",
+        "url": "https://github.com/Fabric-Project/Satin",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 98,
+        "forks": 10,
+        "open_issues": 10,
+        "created_at": "2025-04-16T17:28:20Z",
+        "updated_at": "2026-09-23T17:10:28Z",
+        "pushed_at": "2026-09-07T20:07:10Z",
+        "starred_at": "2026-09-23T17:10:27Z"
+      },
+      "last_updated": "2026-09-24T08:30:17.682445+00:00"
+    },
+    "flolu/davinci-resolve-linux": {
+      "lists": [],
+      "metadata": {
+        "id": 225925163,
+        "name": "davinci-resolve-linux",
+        "full_name": "flolu/davinci-resolve-linux",
+        "description": "Setup Davinci Resolve on Linux an Fix Issues with Importing and Exporting Media",
+        "url": "https://github.com/flolu/davinci-resolve-linux",
+        "homepage": "https://youtu.be/pTbthVKFPiM",
+        "language": null,
+        "stars": 266,
+        "forks": 21,
+        "open_issues": 2,
+        "created_at": "2019-12-04T17:51:08Z",
+        "updated_at": "2026-09-23T16:55:54Z",
+        "pushed_at": "2025-03-31T16:09:05Z",
+        "starred_at": "2026-09-23T16:55:53Z"
+      },
+      "last_updated": "2026-09-24T08:30:17.960080+00:00"
+    },
+    "Fabric-Project/Fabric": {
+      "lists": [],
+      "metadata": {
+        "id": 973892516,
+        "name": "Fabric",
+        "full_name": "Fabric-Project/Fabric",
+        "description": "Node Creative Coding / 3D / Image Processing tool inspired by Quartz Composer",
+        "url": "https://github.com/Fabric-Project/Fabric",
+        "homepage": "https://fabric.graphics",
+        "language": "Swift",
+        "stars": 567,
+        "forks": 31,
+        "open_issues": 52,
+        "created_at": "2025-04-28T00:10:44Z",
+        "updated_at": "2026-09-24T04:42:55Z",
+        "pushed_at": "2026-09-24T04:42:51Z",
+        "starred_at": "2026-09-23T16:38:51Z"
+      },
+      "last_updated": "2026-09-24T08:30:18.272402+00:00"
+    },
+    "getsentry/MobileBuildMCP": {
+      "lists": [],
+      "metadata": {
+        "id": 945551361,
+        "name": "MobileBuildMCP",
+        "full_name": "getsentry/MobileBuildMCP",
+        "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+        "url": "https://github.com/getsentry/MobileBuildMCP",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 6416,
+        "forks": 321,
+        "open_issues": 23,
+        "created_at": "2025-03-09T17:31:18Z",
+        "updated_at": "2026-09-23T20:15:26Z",
+        "pushed_at": "2026-09-23T20:18:03Z",
+        "starred_at": "2026-05-09T19:00:30Z"
+      },
+      "last_updated": "2026-09-24T08:30:18.788266+00:00"
+    },
+    "LibreChat-AI/LibreChat": {
+      "lists": [],
+      "metadata": {
+        "id": 600596928,
+        "name": "LibreChat",
+        "full_name": "LibreChat-AI/LibreChat",
+        "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+        "url": "https://github.com/LibreChat-AI/LibreChat",
+        "homepage": "https://librechat.ai/",
+        "language": "TypeScript",
+        "stars": 44827,
+        "forks": 9187,
+        "open_issues": 777,
+        "created_at": "2023-02-12T01:06:52Z",
+        "updated_at": "2026-09-24T08:26:13Z",
+        "pushed_at": "2026-09-24T07:16:47Z",
+        "starred_at": "2025-01-07T17:43:54Z"
+      },
+      "last_updated": "2026-09-24T08:30:19.301332+00:00"
     }
   },
   "last_processed_index": 0,
@@ -247566,5 +247846,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"e38103e1195d2063f032a5c621df8342219fa0d8a1e8980902db14254cac318c\""
+  "profile_etag": "W/\"1810906e32c19b3d50f3cf6e181b5b92541f5131846120eb3fdbf690d14dcff0\""
 }
