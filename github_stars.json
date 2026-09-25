@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T08:52:12.505322+00:00",
+  "last_updated": "2026-09-25T08:56:31.327382+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248012,7 +248012,9 @@
       "last_updated": "2026-09-25T08:52:11.038374+00:00"
     },
     "BroadwellConsultingInc/SerialWombat": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 316861072,
         "name": "SerialWombat",
@@ -248032,7 +248034,9 @@
       "last_updated": "2026-09-25T08:52:11.408959+00:00"
     },
     "BroadwellConsultingInc/SerialWombatArdLib": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 325869460,
         "name": "SerialWombatArdLib",
@@ -248052,7 +248056,9 @@
       "last_updated": "2026-09-25T08:52:11.732206+00:00"
     },
     "ChristopherHX/runner-image-blobs": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 678943264,
         "name": "runner-image-blobs",
@@ -248072,7 +248078,9 @@
       "last_updated": "2026-09-25T08:52:12.193971+00:00"
     },
     "catthehacker/docker_images": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 328744075,
         "name": "docker_images",
