@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T08:38:17.308159+00:00",
+  "last_updated": "2026-09-26T08:45:54.956250+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -122491,7 +122491,8 @@
     },
     "fdivitto/FabGL": {
       "lists": [
-        "DIY"
+        "DIY",
+        "Music and Video"
       ],
       "metadata": {
         "id": 169951787,
@@ -248140,7 +248141,9 @@
       }
     },
     "KhronosGroup/glTF-Sample-Assets": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 639988571,
         "name": "glTF-Sample-Assets",
@@ -248160,7 +248163,9 @@
       "last_updated": "2026-09-26T08:38:14.489776+00:00"
     },
     "kampfz/TD-GLB": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1181325155,
         "name": "TD-GLB",
@@ -248180,7 +248185,9 @@
       "last_updated": "2026-09-26T08:38:14.756440+00:00"
     },
     "3Dickulus/FragM": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 96042091,
         "name": "FragM",
@@ -248200,7 +248207,9 @@
       "last_updated": "2026-09-26T08:38:15.004987+00:00"
     },
     "Coollab-Art/Coollab": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 368971275,
         "name": "Coollab",
@@ -248220,7 +248229,9 @@
       "last_updated": "2026-09-26T08:38:15.328715+00:00"
     },
     "aria2/aria2": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1116542,
         "name": "aria2",
@@ -248240,7 +248251,10 @@
       "last_updated": "2026-09-26T08:38:15.659674+00:00"
     },
     "robertsdotpm/tiddlyinstall": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Python"
+      ],
       "metadata": {
         "id": 1380733744,
         "name": "tiddlyinstall",
@@ -248260,7 +248274,10 @@
       "last_updated": "2026-09-26T08:38:15.929649+00:00"
     },
     "fg1998/ESP32TinyFlashback": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1291605577,
         "name": "ESP32TinyFlashback",
@@ -248280,7 +248297,10 @@
       "last_updated": "2026-09-26T08:38:16.282150+00:00"
     },
     "mvschwarz/openrig": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1198124295,
         "name": "openrig",
@@ -248300,7 +248320,9 @@
       "last_updated": "2026-09-26T08:38:16.578780+00:00"
     },
     "ollaya-dev/ollaya": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1384260430,
         "name": "ollaya",
@@ -248320,7 +248342,10 @@
       "last_updated": "2026-09-26T08:38:17.037354+00:00"
     },
     "stellanjoh2/mozayk": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1330319590,
         "name": "mozayk",
