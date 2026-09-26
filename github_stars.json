@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T09:01:04.641243+00:00",
+  "last_updated": "2026-09-26T08:38:17.308159+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248138,6 +248138,206 @@
         "fetched_at": "2026-09-25T09:01:04.450531+00:00",
         "status": "ok"
       }
+    },
+    "KhronosGroup/glTF-Sample-Assets": {
+      "lists": [],
+      "metadata": {
+        "id": 639988571,
+        "name": "glTF-Sample-Assets",
+        "full_name": "KhronosGroup/glTF-Sample-Assets",
+        "description": "An assortment of assets that demonstrate features and capabilities of the glTF format",
+        "url": "https://github.com/KhronosGroup/glTF-Sample-Assets",
+        "homepage": "https://www.khronos.org/gltf/",
+        "language": "TypeScript",
+        "stars": 1088,
+        "forks": 109,
+        "open_issues": 67,
+        "created_at": "2023-05-12T17:40:39Z",
+        "updated_at": "2026-09-26T05:43:01Z",
+        "pushed_at": "2026-09-23T13:57:44Z",
+        "starred_at": "2026-09-26T05:43:00Z"
+      },
+      "last_updated": "2026-09-26T08:38:14.489776+00:00"
+    },
+    "kampfz/TD-GLB": {
+      "lists": [],
+      "metadata": {
+        "id": 1181325155,
+        "name": "TD-GLB",
+        "full_name": "kampfz/TD-GLB",
+        "description": null,
+        "url": "https://github.com/kampfz/TD-GLB",
+        "homepage": null,
+        "language": "C++",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-03-14T02:02:52Z",
+        "updated_at": "2026-09-26T05:34:18Z",
+        "pushed_at": "2026-03-14T16:44:48Z",
+        "starred_at": "2026-09-26T05:34:17Z"
+      },
+      "last_updated": "2026-09-26T08:38:14.756440+00:00"
+    },
+    "3Dickulus/FragM": {
+      "lists": [],
+      "metadata": {
+        "id": 96042091,
+        "name": "FragM",
+        "full_name": "3Dickulus/FragM",
+        "description": "Derived from https://github.com/Syntopia/Fragmentarium/",
+        "url": "https://github.com/3Dickulus/FragM",
+        "homepage": "",
+        "language": "C++",
+        "stars": 386,
+        "forks": 34,
+        "open_issues": 8,
+        "created_at": "2017-07-02T18:37:44Z",
+        "updated_at": "2026-09-26T05:09:23Z",
+        "pushed_at": "2025-11-28T01:44:44Z",
+        "starred_at": "2026-09-26T05:09:22Z"
+      },
+      "last_updated": "2026-09-26T08:38:15.004987+00:00"
+    },
+    "Coollab-Art/Coollab": {
+      "lists": [],
+      "metadata": {
+        "id": 368971275,
+        "name": "Coollab",
+        "full_name": "Coollab-Art/Coollab",
+        "description": "\u2728 Generative visuals for everyone \u2728",
+        "url": "https://github.com/Coollab-Art/Coollab",
+        "homepage": "https://coollab-art.com/",
+        "language": "C++",
+        "stars": 110,
+        "forks": 9,
+        "open_issues": 41,
+        "created_at": "2021-05-19T18:50:04Z",
+        "updated_at": "2026-09-26T08:37:47Z",
+        "pushed_at": "2026-09-24T17:23:18Z",
+        "starred_at": "2026-09-26T05:07:41Z"
+      },
+      "last_updated": "2026-09-26T08:38:15.328715+00:00"
+    },
+    "aria2/aria2": {
+      "lists": [],
+      "metadata": {
+        "id": 1116542,
+        "name": "aria2",
+        "full_name": "aria2/aria2",
+        "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+        "url": "https://github.com/aria2/aria2",
+        "homepage": "https://aria2.github.io/",
+        "language": "C++",
+        "stars": 42728,
+        "forks": 3937,
+        "open_issues": 1179,
+        "created_at": "2010-11-27T09:41:48Z",
+        "updated_at": "2026-09-26T08:23:21Z",
+        "pushed_at": "2026-06-25T14:49:35Z",
+        "starred_at": "2026-09-26T04:33:37Z"
+      },
+      "last_updated": "2026-09-26T08:38:15.659674+00:00"
+    },
+    "robertsdotpm/tiddlyinstall": {
+      "lists": [],
+      "metadata": {
+        "id": 1380733744,
+        "name": "tiddlyinstall",
+        "full_name": "robertsdotpm/tiddlyinstall",
+        "description": "A single HTML file that makes installers for all your projects.",
+        "url": "https://github.com/robertsdotpm/tiddlyinstall",
+        "homepage": "https://robertsdotpm.github.io/_static/tiddlyinstall.html",
+        "language": "HTML",
+        "stars": 10,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-09-22T01:46:42Z",
+        "updated_at": "2026-09-26T08:24:42Z",
+        "pushed_at": "2026-09-25T07:10:30Z",
+        "starred_at": "2026-09-26T04:17:32Z"
+      },
+      "last_updated": "2026-09-26T08:38:15.929649+00:00"
+    },
+    "fg1998/ESP32TinyFlashback": {
+      "lists": [],
+      "metadata": {
+        "id": 1291605577,
+        "name": "ESP32TinyFlashback",
+        "full_name": "fg1998/ESP32TinyFlashback",
+        "description": "Port of REminiscence Flashback game to ESP32",
+        "url": "https://github.com/fg1998/ESP32TinyFlashback",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-07T00:24:33Z",
+        "updated_at": "2026-09-26T03:13:57Z",
+        "pushed_at": "2024-10-06T11:58:02Z",
+        "starred_at": "2026-09-26T03:13:57Z"
+      },
+      "last_updated": "2026-09-26T08:38:16.282150+00:00"
+    },
+    "mvschwarz/openrig": {
+      "lists": [],
+      "metadata": {
+        "id": 1198124295,
+        "name": "openrig",
+        "full_name": "mvschwarz/openrig",
+        "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+        "url": "https://github.com/mvschwarz/openrig",
+        "homepage": "https://openrig.dev",
+        "language": "TypeScript",
+        "stars": 478,
+        "forks": 64,
+        "open_issues": 32,
+        "created_at": "2026-04-01T06:22:40Z",
+        "updated_at": "2026-09-26T08:37:16Z",
+        "pushed_at": "2026-09-26T08:06:42Z",
+        "starred_at": "2026-09-26T01:50:49Z"
+      },
+      "last_updated": "2026-09-26T08:38:16.578780+00:00"
+    },
+    "ollaya-dev/ollaya": {
+      "lists": [],
+      "metadata": {
+        "id": 1384260430,
+        "name": "ollaya",
+        "full_name": "ollaya-dev/ollaya",
+        "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
+        "url": "https://github.com/ollaya-dev/ollaya",
+        "homepage": "https://ollaya.dev",
+        "language": "Rust",
+        "stars": 261,
+        "forks": 12,
+        "open_issues": 3,
+        "created_at": "2026-09-23T22:11:15Z",
+        "updated_at": "2026-09-26T08:38:13Z",
+        "pushed_at": "2026-09-26T08:13:51Z",
+        "starred_at": "2026-09-25T20:43:39Z"
+      },
+      "last_updated": "2026-09-26T08:38:17.037354+00:00"
+    },
+    "stellanjoh2/mozayk": {
+      "lists": [],
+      "metadata": {
+        "id": 1330319590,
+        "name": "mozayk",
+        "full_name": "stellanjoh2/mozayk",
+        "description": "Browser mosaic studio for grid compositions, animation, and image-driven layouts. Runs locally \u2014 no account.",
+        "url": "https://github.com/stellanjoh2/mozayk",
+        "homepage": "https://stellanjoh2.github.io/mozayk/",
+        "language": "TypeScript",
+        "stars": 9,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-08-10T23:19:29Z",
+        "updated_at": "2026-09-26T03:16:26Z",
+        "pushed_at": "2026-09-23T11:20:27Z",
+        "starred_at": "2026-09-25T20:36:59Z"
+      },
+      "last_updated": "2026-09-26T08:38:17.308050+00:00"
     }
   },
   "last_processed_index": 0,
@@ -248147,5 +248347,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5a2287540a0888c02f12ba43c323a2e69acbe3ed4fc768e2758f78c738f1ebd0\""
+  "profile_etag": "W/\"b76094825b91d62f67c4eb581291e5da242cca7f9112b9b0ba4c0e18eb88bcff\""
 }
