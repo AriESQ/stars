@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T09:58:08.769677+00:00",
+  "last_updated": "2026-09-28T09:58:41.369717+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248464,7 +248464,15 @@
         "pushed_at": "2026-06-29T03:59:31Z",
         "starred_at": "2026-09-27T22:20:51Z"
       },
-      "last_updated": "2026-09-28T09:49:31.893760+00:00"
+      "last_updated": "2026-09-28T09:49:31.893760+00:00",
+      "readme": {
+        "path": "readmes/NickvisionApps+Parabolic+README.md",
+        "etag": "W/\"f2b9e6d378a1a242e3361d3be9020fa67158f8c0\"",
+        "sha": "f2b9e6d378a1a242e3361d3be9020fa67158f8c0",
+        "size": 6157,
+        "fetched_at": "2026-09-28T09:58:36.938627+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/trusted-publishing-examples": {
       "lists": [
@@ -248491,7 +248499,15 @@
         "pushed_at": "2026-08-20T15:09:37Z",
         "starred_at": "2026-09-27T22:18:14Z"
       },
-      "last_updated": "2026-09-28T09:49:32.235818+00:00"
+      "last_updated": "2026-09-28T09:49:32.235818+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+trusted-publishing-examples+README.md",
+        "etag": "W/\"8ad4bb92d7d3da0907b1ff3118a08bd589543866\"",
+        "sha": "8ad4bb92d7d3da0907b1ff3118a08bd589543866",
+        "size": 986,
+        "fetched_at": "2026-09-28T09:58:40.312507+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/actionlint": {
       "lists": [
@@ -248513,7 +248529,15 @@
         "pushed_at": "2026-08-21T19:42:06Z",
         "starred_at": "2026-09-27T22:17:41Z"
       },
-      "last_updated": "2026-09-28T09:49:32.617300+00:00"
+      "last_updated": "2026-09-28T09:49:32.617300+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+actionlint+README.md",
+        "etag": "W/\"bf8d2c88f3778b8ac21a1558fb16c79df2b293c6\"",
+        "sha": "bf8d2c88f3778b8ac21a1558fb16c79df2b293c6",
+        "size": 8166,
+        "fetched_at": "2026-09-28T09:58:37.507031+00:00",
+        "status": "ok"
+      }
     },
     "Majored/rs-async-zip": {
       "lists": [
@@ -248535,7 +248559,15 @@
         "pushed_at": "2026-09-13T14:34:16Z",
         "starred_at": "2026-09-27T22:17:23Z"
       },
-      "last_updated": "2026-09-28T09:49:33.024874+00:00"
+      "last_updated": "2026-09-28T09:49:33.024874+00:00",
+      "readme": {
+        "path": "readmes/Majored+rs-async-zip+README.md",
+        "etag": "W/\"4078ad87684eaefac78a3573d901864a1fcfcec1\"",
+        "sha": "4078ad87684eaefac78a3573d901864a1fcfcec1",
+        "size": 4283,
+        "fetched_at": "2026-09-28T09:58:36.693552+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/attest-action": {
       "lists": [
@@ -248558,7 +248590,15 @@
         "pushed_at": "2026-09-01T19:46:09Z",
         "starred_at": "2026-09-27T22:16:27Z"
       },
-      "last_updated": "2026-09-28T09:49:33.342483+00:00"
+      "last_updated": "2026-09-28T09:49:33.342483+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+attest-action+README.md",
+        "etag": "W/\"d4ff69aba5de417006671cbe1767e030881dc215\"",
+        "sha": "d4ff69aba5de417006671cbe1767e030881dc215",
+        "size": 4995,
+        "fetched_at": "2026-09-28T09:58:38.665613+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/rs-async-zip": {
       "lists": [
@@ -248580,7 +248620,15 @@
         "pushed_at": "2026-08-27T21:08:21Z",
         "starred_at": "2026-09-27T22:15:49Z"
       },
-      "last_updated": "2026-09-28T09:49:33.736484+00:00"
+      "last_updated": "2026-09-28T09:49:33.736484+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+rs-async-zip+README.md",
+        "etag": "W/\"222f6f229412e52342c5527231b13e4a164bb9da\"",
+        "sha": "222f6f229412e52342c5527231b13e4a164bb9da",
+        "size": 594,
+        "fetched_at": "2026-09-28T09:58:39.613501+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/astral-tl": {
       "lists": [
@@ -248602,7 +248650,15 @@
         "pushed_at": "2026-08-28T18:31:46Z",
         "starred_at": "2026-09-27T22:15:11Z"
       },
-      "last_updated": "2026-09-28T09:49:34.121386+00:00"
+      "last_updated": "2026-09-28T09:49:34.121386+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+astral-tl+README.md",
+        "etag": "W/\"fe16654b2c41fcd63bdabb46dd3f29dfa431b4bd\"",
+        "sha": "fe16654b2c41fcd63bdabb46dd3f29dfa431b4bd",
+        "size": 256,
+        "fetched_at": "2026-09-28T09:58:38.212783+00:00",
+        "status": "ok"
+      }
     },
     "prefix-dev/async_http_range_reader": {
       "lists": [
@@ -248624,7 +248680,15 @@
         "pushed_at": "2026-09-03T10:38:41Z",
         "starred_at": "2026-09-27T20:36:54Z"
       },
-      "last_updated": "2026-09-28T09:49:34.464727+00:00"
+      "last_updated": "2026-09-28T09:49:34.464727+00:00",
+      "readme": {
+        "path": "readmes/prefix-dev+async_http_range_reader+README.md",
+        "etag": "W/\"a2718ed4ee08b66068b4d27c83519dde294212f4\"",
+        "sha": "a2718ed4ee08b66068b4d27c83519dde294212f4",
+        "size": 852,
+        "fetched_at": "2026-09-28T09:58:41.366504+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/aghs-testbed": {
       "lists": [
@@ -248646,7 +248710,15 @@
         "pushed_at": "2026-09-10T18:17:13Z",
         "starred_at": "2026-09-27T20:36:32Z"
       },
-      "last_updated": "2026-09-28T09:49:34.832546+00:00"
+      "last_updated": "2026-09-28T09:49:34.832546+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+aghs-testbed+README.md",
+        "etag": "W/\"3be5268657dba4fe5a0497c2bb665388d5c32fdc\"",
+        "sha": "3be5268657dba4fe5a0497c2bb665388d5c32fdc",
+        "size": 7462,
+        "fetched_at": "2026-09-28T09:58:37.871461+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/hawk": {
       "lists": [
@@ -248668,7 +248740,15 @@
         "pushed_at": "2026-09-22T17:55:57Z",
         "starred_at": "2026-09-27T20:35:37Z"
       },
-      "last_updated": "2026-09-28T09:49:35.162015+00:00"
+      "last_updated": "2026-09-28T09:49:35.162015+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+hawk+README.md",
+        "etag": "W/\"40175383339c8a3728005c1a1014b0c65bfb0302\"",
+        "sha": "40175383339c8a3728005c1a1014b0c65bfb0302",
+        "size": 6401,
+        "fetched_at": "2026-09-28T09:58:38.940585+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/tar-codec": {
       "lists": [
@@ -248690,7 +248770,15 @@
         "pushed_at": "2026-09-22T20:50:03Z",
         "starred_at": "2026-09-27T20:35:20Z"
       },
-      "last_updated": "2026-09-28T09:49:35.533429+00:00"
+      "last_updated": "2026-09-28T09:49:35.533429+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+tar-codec+README.md",
+        "etag": "W/\"211ba980e67486f0ba267cc2971252d6351e1908\"",
+        "sha": "211ba980e67486f0ba267cc2971252d6351e1908",
+        "size": 2355,
+        "fetched_at": "2026-09-28T09:58:39.949530+00:00",
+        "status": "ok"
+      }
     },
     "SchemaStore/schemastore": {
       "lists": [
@@ -248712,7 +248800,15 @@
         "pushed_at": "2026-09-28T04:29:45Z",
         "starred_at": "2026-09-27T20:34:18Z"
       },
-      "last_updated": "2026-09-28T09:49:35.870575+00:00"
+      "last_updated": "2026-09-28T09:49:35.870575+00:00",
+      "readme": {
+        "path": "readmes/SchemaStore+schemastore+README.md",
+        "etag": "W/\"a92492c103b05dc88bfdac5c7cf04ba17dc3c5ea\"",
+        "sha": "a92492c103b05dc88bfdac5c7cf04ba17dc3c5ea",
+        "size": 2321,
+        "fetched_at": "2026-09-28T09:58:37.159862+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/uv-pre-commit": {
       "lists": [
@@ -248734,7 +248830,15 @@
         "pushed_at": "2026-09-25T06:32:53Z",
         "starred_at": "2026-09-27T20:34:04Z"
       },
-      "last_updated": "2026-09-28T09:49:36.245919+00:00"
+      "last_updated": "2026-09-28T09:49:36.245919+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+uv-pre-commit+README.md",
+        "etag": "W/\"d1815b125fbddcdc5190d5bcc503b1efe5e92f15\"",
+        "sha": "d1815b125fbddcdc5190d5bcc503b1efe5e92f15",
+        "size": 4889,
+        "fetched_at": "2026-09-28T09:58:40.565793+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/xeme": {
       "lists": [
@@ -248756,7 +248860,15 @@
         "pushed_at": "2026-09-25T16:52:11Z",
         "starred_at": "2026-09-27T20:33:38Z"
       },
-      "last_updated": "2026-09-28T09:49:36.603986+00:00"
+      "last_updated": "2026-09-28T09:49:36.603986+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+xeme+README.md",
+        "etag": "W/\"e0fdb604218fdd6604df04dd8be227af175a15be\"",
+        "sha": "e0fdb604218fdd6604df04dd8be227af175a15be",
+        "size": 2745,
+        "fetched_at": "2026-09-28T09:58:40.936696+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/packse": {
       "lists": [
@@ -248778,7 +248890,15 @@
         "pushed_at": "2026-09-27T20:28:52Z",
         "starred_at": "2026-09-27T20:33:27Z"
       },
-      "last_updated": "2026-09-28T09:49:36.974396+00:00"
+      "last_updated": "2026-09-28T09:49:36.974396+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+packse+README.md",
+        "etag": "W/\"a0b8bf4f2d5ee40fb6bca64738d543af9a3ebf1a\"",
+        "sha": "a0b8bf4f2d5ee40fb6bca64738d543af9a3ebf1a",
+        "size": 5307,
+        "fetched_at": "2026-09-28T09:58:39.291329+00:00",
+        "status": "ok"
+      }
     },
     "INTI-CMNB/KiAuto": {
       "lists": [
@@ -248800,7 +248920,15 @@
         "pushed_at": "2026-07-14T12:55:20Z",
         "starred_at": "2026-09-27T17:09:25Z"
       },
-      "last_updated": "2026-09-28T09:49:37.361007+00:00"
+      "last_updated": "2026-09-28T09:49:37.361007+00:00",
+      "readme": {
+        "path": "readmes/INTI-CMNB+KiAuto+README.md",
+        "etag": "W/\"7b4140a069af43fb892307c52921a513ac411400\"",
+        "sha": "7b4140a069af43fb892307c52921a513ac411400",
+        "size": 13874,
+        "fetched_at": "2026-09-28T09:58:36.142948+00:00",
+        "status": "ok"
+      }
     },
     "INTI-CMNB/KiBot": {
       "lists": [
@@ -248823,7 +248951,15 @@
         "pushed_at": "2026-09-25T13:23:52Z",
         "starred_at": "2026-09-27T16:49:03Z"
       },
-      "last_updated": "2026-09-28T09:49:37.691105+00:00"
+      "last_updated": "2026-09-28T09:49:37.691105+00:00",
+      "readme": {
+        "path": "readmes/INTI-CMNB+KiBot+README.md",
+        "etag": "W/\"f9f15ac3b7eece5ff28e6282e0416668cfc4da03\"",
+        "sha": "f9f15ac3b7eece5ff28e6282e0416668cfc4da03",
+        "size": 2041,
+        "fetched_at": "2026-09-28T09:58:36.413892+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
