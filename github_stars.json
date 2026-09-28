@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T09:49:37.691204+00:00",
+  "last_updated": "2026-09-28T09:58:08.769677+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248445,7 +248445,9 @@
       }
     },
     "NickvisionApps/Parabolic": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 439665747,
         "name": "Parabolic",
@@ -248465,7 +248467,14 @@
       "last_updated": "2026-09-28T09:49:31.893760+00:00"
     },
     "astral-sh/trusted-publishing-examples": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Infosec",
+        "Python",
+        "SBOM and Reproducible Builds",
+        "Sigstore"
+      ],
       "metadata": {
         "id": 879936079,
         "name": "trusted-publishing-examples",
@@ -248485,7 +248494,9 @@
       "last_updated": "2026-09-28T09:49:32.235818+00:00"
     },
     "astral-sh/actionlint": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 1339782727,
         "name": "actionlint",
@@ -248505,7 +248516,9 @@
       "last_updated": "2026-09-28T09:49:32.617300+00:00"
     },
     "Majored/rs-async-zip": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 394926756,
         "name": "rs-async-zip",
@@ -248525,7 +248538,10 @@
       "last_updated": "2026-09-28T09:49:33.024874+00:00"
     },
     "astral-sh/attest-action": {
-      "lists": [],
+      "lists": [
+        "Github Actions",
+        "Python"
+      ],
       "metadata": {
         "id": 1101470881,
         "name": "attest-action",
@@ -248545,7 +248561,9 @@
       "last_updated": "2026-09-28T09:49:33.342483+00:00"
     },
     "astral-sh/rs-async-zip": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 749184902,
         "name": "rs-async-zip",
@@ -248565,7 +248583,9 @@
       "last_updated": "2026-09-28T09:49:33.736484+00:00"
     },
     "astral-sh/astral-tl": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 842591746,
         "name": "astral-tl",
@@ -248585,7 +248605,9 @@
       "last_updated": "2026-09-28T09:49:34.121386+00:00"
     },
     "prefix-dev/async_http_range_reader": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 708432636,
         "name": "async_http_range_reader",
@@ -248605,7 +248627,9 @@
       "last_updated": "2026-09-28T09:49:34.464727+00:00"
     },
     "astral-sh/aghs-testbed": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 1357148725,
         "name": "aghs-testbed",
@@ -248625,7 +248649,9 @@
       "last_updated": "2026-09-28T09:49:34.832546+00:00"
     },
     "astral-sh/hawk": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1250064322,
         "name": "hawk",
@@ -248645,7 +248671,9 @@
       "last_updated": "2026-09-28T09:49:35.162015+00:00"
     },
     "astral-sh/tar-codec": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1253843230,
         "name": "tar-codec",
@@ -248665,7 +248693,9 @@
       "last_updated": "2026-09-28T09:49:35.533429+00:00"
     },
     "SchemaStore/schemastore": {
-      "lists": [],
+      "lists": [
+        "JSON"
+      ],
       "metadata": {
         "id": 26785339,
         "name": "schemastore",
@@ -248685,7 +248715,9 @@
       "last_updated": "2026-09-28T09:49:35.870575+00:00"
     },
     "astral-sh/uv-pre-commit": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 776138366,
         "name": "uv-pre-commit",
@@ -248705,7 +248737,9 @@
       "last_updated": "2026-09-28T09:49:36.245919+00:00"
     },
     "astral-sh/xeme": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1363377535,
         "name": "xeme",
@@ -248725,7 +248759,9 @@
       "last_updated": "2026-09-28T09:49:36.603986+00:00"
     },
     "astral-sh/packse": {
-      "lists": [],
+      "lists": [
+        "Github Actions"
+      ],
       "metadata": {
         "id": 730909670,
         "name": "packse",
@@ -248745,7 +248781,9 @@
       "last_updated": "2026-09-28T09:49:36.974396+00:00"
     },
     "INTI-CMNB/KiAuto": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 244897875,
         "name": "KiAuto",
@@ -248765,7 +248803,10 @@
       "last_updated": "2026-09-28T09:49:37.361007+00:00"
     },
     "INTI-CMNB/KiBot": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Python"
+      ],
       "metadata": {
         "id": 246344800,
         "name": "KiBot",
