@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T14:55:02.771140+00:00",
+  "last_updated": "2026-09-28T09:49:37.691204+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248443,6 +248443,346 @@
         "fetched_at": "2026-09-26T08:46:27.648992+00:00",
         "status": "ok"
       }
+    },
+    "NickvisionApps/Parabolic": {
+      "lists": [],
+      "metadata": {
+        "id": 439665747,
+        "name": "Parabolic",
+        "full_name": "NickvisionApps/Parabolic",
+        "description": "Download web video and audio",
+        "url": "https://github.com/NickvisionApps/Parabolic",
+        "homepage": "https://flathub.org/apps/details/org.nickvision.tubeconverter",
+        "language": "C#",
+        "stars": 7174,
+        "forks": 345,
+        "open_issues": 102,
+        "created_at": "2021-12-18T16:43:09Z",
+        "updated_at": "2026-09-28T07:43:56Z",
+        "pushed_at": "2026-06-29T03:59:31Z",
+        "starred_at": "2026-09-27T22:20:51Z"
+      },
+      "last_updated": "2026-09-28T09:49:31.893760+00:00"
+    },
+    "astral-sh/trusted-publishing-examples": {
+      "lists": [],
+      "metadata": {
+        "id": 879936079,
+        "name": "trusted-publishing-examples",
+        "full_name": "astral-sh/trusted-publishing-examples",
+        "description": "A complete, self-contained example for trusted publishing with uv ",
+        "url": "https://github.com/astral-sh/trusted-publishing-examples",
+        "homepage": "https://docs.astral.sh/uv/guides/publish/ ",
+        "language": "Python",
+        "stars": 30,
+        "forks": 3,
+        "open_issues": 3,
+        "created_at": "2024-10-28T20:14:28Z",
+        "updated_at": "2026-09-27T22:18:14Z",
+        "pushed_at": "2026-08-20T15:09:37Z",
+        "starred_at": "2026-09-27T22:18:14Z"
+      },
+      "last_updated": "2026-09-28T09:49:32.235818+00:00"
+    },
+    "astral-sh/actionlint": {
+      "lists": [],
+      "metadata": {
+        "id": 1339782727,
+        "name": "actionlint",
+        "full_name": "astral-sh/actionlint",
+        "description": "Astral's fork of actionlint, a static checker for GitHub Actions workflow files",
+        "url": "https://github.com/astral-sh/actionlint",
+        "homepage": "https://rhysd.github.io/actionlint/",
+        "language": "Go",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 7,
+        "created_at": "2026-08-19T16:14:02Z",
+        "updated_at": "2026-09-27T22:17:42Z",
+        "pushed_at": "2026-08-21T19:42:06Z",
+        "starred_at": "2026-09-27T22:17:41Z"
+      },
+      "last_updated": "2026-09-28T09:49:32.617300+00:00"
+    },
+    "Majored/rs-async-zip": {
+      "lists": [],
+      "metadata": {
+        "id": 394926756,
+        "name": "rs-async-zip",
+        "full_name": "Majored/rs-async-zip",
+        "description": "An asynchronous ZIP archive reading/writing crate.",
+        "url": "https://github.com/Majored/rs-async-zip",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 191,
+        "forks": 67,
+        "open_issues": 19,
+        "created_at": "2021-08-11T08:59:37Z",
+        "updated_at": "2026-09-27T22:17:24Z",
+        "pushed_at": "2026-09-13T14:34:16Z",
+        "starred_at": "2026-09-27T22:17:23Z"
+      },
+      "last_updated": "2026-09-28T09:49:33.024874+00:00"
+    },
+    "astral-sh/attest-action": {
+      "lists": [],
+      "metadata": {
+        "id": 1101470881,
+        "name": "attest-action",
+        "full_name": "astral-sh/attest-action",
+        "description": "Generates PEP 740 attestations for your Python package distributions.",
+        "url": "https://github.com/astral-sh/attest-action",
+        "homepage": null,
+        "language": "Python",
+        "stars": 11,
+        "forks": 3,
+        "open_issues": 1,
+        "created_at": "2025-11-21T18:09:14Z",
+        "updated_at": "2026-09-27T22:16:27Z",
+        "pushed_at": "2026-09-01T19:46:09Z",
+        "starred_at": "2026-09-27T22:16:27Z"
+      },
+      "last_updated": "2026-09-28T09:49:33.342483+00:00"
+    },
+    "astral-sh/rs-async-zip": {
+      "lists": [],
+      "metadata": {
+        "id": 749184902,
+        "name": "rs-async-zip",
+        "full_name": "astral-sh/rs-async-zip",
+        "description": "An asynchronous ZIP archive reading/writing crate.",
+        "url": "https://github.com/astral-sh/rs-async-zip",
+        "homepage": "https://crates.io/crates/astral_async_zip",
+        "language": "Rust",
+        "stars": 18,
+        "forks": 12,
+        "open_issues": 11,
+        "created_at": "2024-01-27T20:19:50Z",
+        "updated_at": "2026-09-27T22:15:49Z",
+        "pushed_at": "2026-08-27T21:08:21Z",
+        "starred_at": "2026-09-27T22:15:49Z"
+      },
+      "last_updated": "2026-09-28T09:49:33.736484+00:00"
+    },
+    "astral-sh/astral-tl": {
+      "lists": [],
+      "metadata": {
+        "id": 842591746,
+        "name": "astral-tl",
+        "full_name": "astral-sh/astral-tl",
+        "description": "Fast, zero-copy HTML Parser written in Rust",
+        "url": "https://github.com/astral-sh/astral-tl",
+        "homepage": "https://docs.rs/astral-tl",
+        "language": "Rust",
+        "stars": 32,
+        "forks": 9,
+        "open_issues": 6,
+        "created_at": "2024-08-14T16:58:46Z",
+        "updated_at": "2026-09-27T22:15:12Z",
+        "pushed_at": "2026-08-28T18:31:46Z",
+        "starred_at": "2026-09-27T22:15:11Z"
+      },
+      "last_updated": "2026-09-28T09:49:34.121386+00:00"
+    },
+    "prefix-dev/async_http_range_reader": {
+      "lists": [],
+      "metadata": {
+        "id": 708432636,
+        "name": "async_http_range_reader",
+        "full_name": "prefix-dev/async_http_range_reader",
+        "description": "A library for streaming reading of files over HTTP using range requests",
+        "url": "https://github.com/prefix-dev/async_http_range_reader",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 16,
+        "forks": 15,
+        "open_issues": 1,
+        "created_at": "2023-10-22T14:51:36Z",
+        "updated_at": "2026-09-27T20:36:54Z",
+        "pushed_at": "2026-09-03T10:38:41Z",
+        "starred_at": "2026-09-27T20:36:54Z"
+      },
+      "last_updated": "2026-09-28T09:49:34.464727+00:00"
+    },
+    "astral-sh/aghs-testbed": {
+      "lists": [],
+      "metadata": {
+        "id": 1357148725,
+        "name": "aghs-testbed",
+        "full_name": "astral-sh/aghs-testbed",
+        "description": "Testbed for Astral GitHub services: STS, environment-gate, and dispatch.",
+        "url": "https://github.com/astral-sh/aghs-testbed",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-09-04T13:05:11Z",
+        "updated_at": "2026-09-27T20:36:33Z",
+        "pushed_at": "2026-09-10T18:17:13Z",
+        "starred_at": "2026-09-27T20:36:32Z"
+      },
+      "last_updated": "2026-09-28T09:49:34.832546+00:00"
+    },
+    "astral-sh/hawk": {
+      "lists": [],
+      "metadata": {
+        "id": 1250064322,
+        "name": "hawk",
+        "full_name": "astral-sh/hawk",
+        "description": "A workspace-aware Cargo lint for unnecessary public Rust APIs.",
+        "url": "https://github.com/astral-sh/hawk",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 331,
+        "forks": 14,
+        "open_issues": 6,
+        "created_at": "2026-05-26T09:16:23Z",
+        "updated_at": "2026-09-27T20:35:37Z",
+        "pushed_at": "2026-09-22T17:55:57Z",
+        "starred_at": "2026-09-27T20:35:37Z"
+      },
+      "last_updated": "2026-09-28T09:49:35.162015+00:00"
+    },
+    "astral-sh/tar-codec": {
+      "lists": [],
+      "metadata": {
+        "id": 1253843230,
+        "name": "tar-codec",
+        "full_name": "astral-sh/tar-codec",
+        "description": "A strict, constrained, async tar encoder/decoder for Rust",
+        "url": "https://github.com/astral-sh/tar-codec",
+        "homepage": "https://crates.io/crates/tar-codec",
+        "language": "Rust",
+        "stars": 10,
+        "forks": 3,
+        "open_issues": 24,
+        "created_at": "2026-05-29T21:45:58Z",
+        "updated_at": "2026-09-27T20:35:20Z",
+        "pushed_at": "2026-09-22T20:50:03Z",
+        "starred_at": "2026-09-27T20:35:20Z"
+      },
+      "last_updated": "2026-09-28T09:49:35.533429+00:00"
+    },
+    "SchemaStore/schemastore": {
+      "lists": [],
+      "metadata": {
+        "id": 26785339,
+        "name": "schemastore",
+        "full_name": "SchemaStore/schemastore",
+        "description": "A collection of JSON schema files including full API",
+        "url": "https://github.com/SchemaStore/schemastore",
+        "homepage": "https://schemastore.org/",
+        "language": "JavaScript",
+        "stars": 3850,
+        "forks": 2337,
+        "open_issues": 80,
+        "created_at": "2014-11-18T01:02:10Z",
+        "updated_at": "2026-09-28T04:39:48Z",
+        "pushed_at": "2026-09-28T04:29:45Z",
+        "starred_at": "2026-09-27T20:34:18Z"
+      },
+      "last_updated": "2026-09-28T09:49:35.870575+00:00"
+    },
+    "astral-sh/uv-pre-commit": {
+      "lists": [],
+      "metadata": {
+        "id": 776138366,
+        "name": "uv-pre-commit",
+        "full_name": "astral-sh/uv-pre-commit",
+        "description": null,
+        "url": "https://github.com/astral-sh/uv-pre-commit",
+        "homepage": null,
+        "language": "Python",
+        "stars": 350,
+        "forks": 26,
+        "open_issues": 28,
+        "created_at": "2024-03-22T18:56:51Z",
+        "updated_at": "2026-09-27T20:34:04Z",
+        "pushed_at": "2026-09-25T06:32:53Z",
+        "starred_at": "2026-09-27T20:34:04Z"
+      },
+      "last_updated": "2026-09-28T09:49:36.245919+00:00"
+    },
+    "astral-sh/xeme": {
+      "lists": [],
+      "metadata": {
+        "id": 1363377535,
+        "name": "xeme",
+        "full_name": "astral-sh/xeme",
+        "description": "A streaming XML parser written in Rust, with an Expat-compatible C API.",
+        "url": "https://github.com/astral-sh/xeme",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 4,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-09-10T01:07:27Z",
+        "updated_at": "2026-09-27T20:33:39Z",
+        "pushed_at": "2026-09-25T16:52:11Z",
+        "starred_at": "2026-09-27T20:33:38Z"
+      },
+      "last_updated": "2026-09-28T09:49:36.603986+00:00"
+    },
+    "astral-sh/packse": {
+      "lists": [],
+      "metadata": {
+        "id": 730909670,
+        "name": "packse",
+        "full_name": "astral-sh/packse",
+        "description": "Python packaging scenarios",
+        "url": "https://github.com/astral-sh/packse",
+        "homepage": null,
+        "language": "Python",
+        "stars": 137,
+        "forks": 9,
+        "open_issues": 15,
+        "created_at": "2023-12-13T00:08:43Z",
+        "updated_at": "2026-09-27T20:33:28Z",
+        "pushed_at": "2026-09-27T20:28:52Z",
+        "starred_at": "2026-09-27T20:33:27Z"
+      },
+      "last_updated": "2026-09-28T09:49:36.974396+00:00"
+    },
+    "INTI-CMNB/KiAuto": {
+      "lists": [],
+      "metadata": {
+        "id": 244897875,
+        "name": "KiAuto",
+        "full_name": "INTI-CMNB/KiAuto",
+        "description": "A bunch of scripts to automate KiCad processes",
+        "url": "https://github.com/INTI-CMNB/KiAuto",
+        "homepage": null,
+        "language": "PostScript",
+        "stars": 92,
+        "forks": 19,
+        "open_issues": 1,
+        "created_at": "2020-03-04T12:44:32Z",
+        "updated_at": "2026-09-27T17:09:26Z",
+        "pushed_at": "2026-07-14T12:55:20Z",
+        "starred_at": "2026-09-27T17:09:25Z"
+      },
+      "last_updated": "2026-09-28T09:49:37.361007+00:00"
+    },
+    "INTI-CMNB/KiBot": {
+      "lists": [],
+      "metadata": {
+        "id": 246344800,
+        "name": "KiBot",
+        "full_name": "INTI-CMNB/KiBot",
+        "description": "KiCad automation utility",
+        "url": "https://github.com/INTI-CMNB/KiBot",
+        "homepage": "",
+        "language": "Python",
+        "stars": 745,
+        "forks": 83,
+        "open_issues": 25,
+        "created_at": "2020-03-10T15:56:43Z",
+        "updated_at": "2026-09-27T16:49:04Z",
+        "pushed_at": "2026-09-25T13:23:52Z",
+        "starred_at": "2026-09-27T16:49:03Z"
+      },
+      "last_updated": "2026-09-28T09:49:37.691105+00:00"
     }
   },
   "last_processed_index": 0,
@@ -248452,5 +248792,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"0c184eff51e5817f2613aa1f2a8d0e84fb016681ffb6f2f33c86ff457fb40584\""
+  "profile_etag": "W/\"46d2d5124df47f6e8a6c5c4d07ba5db6cc060537d201ed9f4daef9c714e5b0fc\""
 }
