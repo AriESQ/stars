@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T10:01:14.571613+00:00",
+  "last_updated": "2026-09-29T10:01:46.923047+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248984,7 +248984,15 @@
         "pushed_at": "2026-09-29T09:39:31Z",
         "starred_at": "2026-09-29T04:40:17Z"
       },
-      "last_updated": "2026-09-29T09:52:59.588158+00:00"
+      "last_updated": "2026-09-29T09:52:59.588158+00:00",
+      "readme": {
+        "path": "readmes/t8y2+dbx+README.md",
+        "etag": "W/\"a31b05f76b4043f3067a1f6d1a5349fa1dd3af3a\"",
+        "sha": "a31b05f76b4043f3067a1f6d1a5349fa1dd3af3a",
+        "size": 42778,
+        "fetched_at": "2026-09-29T10:01:46.557975+00:00",
+        "status": "ok"
+      }
     },
     "robss2020/microllm-lab": {
       "lists": [
@@ -249007,7 +249015,15 @@
         "pushed_at": "2026-09-25T17:37:01Z",
         "starred_at": "2026-09-29T03:14:19Z"
       },
-      "last_updated": "2026-09-29T09:52:59.975791+00:00"
+      "last_updated": "2026-09-29T09:52:59.975791+00:00",
+      "readme": {
+        "path": "readmes/robss2020+microllm-lab+README.md",
+        "etag": "W/\"5afce48efff808b87e636bf1ff0631aad8aebddc\"",
+        "sha": "5afce48efff808b87e636bf1ff0631aad8aebddc",
+        "size": 8164,
+        "fetched_at": "2026-09-29T10:01:46.295961+00:00",
+        "status": "ok"
+      }
     },
     "wangyz1999/3d-emoji-assets-generator": {
       "lists": [
@@ -249029,7 +249045,15 @@
         "pushed_at": "2026-03-30T16:28:15Z",
         "starred_at": "2026-09-29T02:42:54Z"
       },
-      "last_updated": "2026-09-29T09:53:00.362205+00:00"
+      "last_updated": "2026-09-29T09:53:00.362205+00:00",
+      "readme": {
+        "path": "readmes/wangyz1999+3d-emoji-assets-generator+README.md",
+        "etag": "W/\"310e38d31feb98293d11dd7f9ca0a8e17a5b2e41\"",
+        "sha": "310e38d31feb98293d11dd7f9ca0a8e17a5b2e41",
+        "size": 5551,
+        "fetched_at": "2026-09-29T10:01:46.921838+00:00",
+        "status": "ok"
+      }
     },
     "firelex/jeff": {
       "lists": [
@@ -249051,7 +249075,15 @@
         "pushed_at": "2026-09-29T05:33:18Z",
         "starred_at": "2026-09-29T02:20:38Z"
       },
-      "last_updated": "2026-09-29T09:53:00.763980+00:00"
+      "last_updated": "2026-09-29T09:53:00.763980+00:00",
+      "readme": {
+        "path": "readmes/firelex+jeff+README.md",
+        "etag": "W/\"196eabc46b720ddea040b1e8c9e496d2a80d8b4b\"",
+        "sha": "196eabc46b720ddea040b1e8c9e496d2a80d8b4b",
+        "size": 15287,
+        "fetched_at": "2026-09-29T10:01:45.503432+00:00",
+        "status": "ok"
+      }
     },
     "clickysteve/bendr": {
       "lists": [
@@ -249074,7 +249106,15 @@
         "pushed_at": "2026-09-09T09:53:51Z",
         "starred_at": "2026-09-28T20:42:15Z"
       },
-      "last_updated": "2026-09-29T09:53:01.179417+00:00"
+      "last_updated": "2026-09-29T09:53:01.179417+00:00",
+      "readme": {
+        "path": "readmes/clickysteve+bendr+README.md",
+        "etag": "W/\"bfc95a47a731fd4c3c17a3ba26ea18166396f940\"",
+        "sha": "bfc95a47a731fd4c3c17a3ba26ea18166396f940",
+        "size": 38244,
+        "fetched_at": "2026-09-29T10:01:44.562887+00:00",
+        "status": "ok"
+      }
     },
     "chainguard-dev/athena": {
       "lists": [
@@ -249096,7 +249136,15 @@
         "pushed_at": "2026-09-28T15:24:35Z",
         "starred_at": "2026-09-28T20:37:37Z"
       },
-      "last_updated": "2026-09-29T09:53:01.568181+00:00"
+      "last_updated": "2026-09-29T09:53:01.568181+00:00",
+      "readme": {
+        "path": "readmes/chainguard-dev+athena+README.md",
+        "etag": "W/\"0bacf9e3d6937becaf25be3cea2807773b68ca3c\"",
+        "sha": "0bacf9e3d6937becaf25be3cea2807773b68ca3c",
+        "size": 1053,
+        "fetched_at": "2026-09-29T10:01:44.274541+00:00",
+        "status": "ok"
+      }
     },
     "dotsimulate/TDFam": {
       "lists": [
@@ -249118,7 +249166,15 @@
         "pushed_at": "2026-09-03T22:17:25Z",
         "starred_at": "2026-09-28T19:59:36Z"
       },
-      "last_updated": "2026-09-29T09:53:01.985183+00:00"
+      "last_updated": "2026-09-29T09:53:01.985183+00:00",
+      "readme": {
+        "path": "readmes/dotsimulate+TDFam+README.md",
+        "etag": "W/\"d5eecd021042a320e77d3fdb59c1f9eb27fd8f7f\"",
+        "sha": "d5eecd021042a320e77d3fdb59c1f9eb27fd8f7f",
+        "size": 9801,
+        "fetched_at": "2026-09-29T10:01:44.905289+00:00",
+        "status": "ok"
+      }
     },
     "nsaintot/cdj3k-emu": {
       "lists": [
@@ -249140,7 +249196,15 @@
         "pushed_at": "2026-09-26T10:58:46Z",
         "starred_at": "2026-09-28T17:19:42Z"
       },
-      "last_updated": "2026-09-29T09:53:02.399966+00:00"
+      "last_updated": "2026-09-29T09:53:02.399966+00:00",
+      "readme": {
+        "path": "readmes/nsaintot+cdj3k-emu+README.md",
+        "etag": "W/\"45a3176be0fb7888c2b5cc5df2dc4fc8516f90ba\"",
+        "sha": "45a3176be0fb7888c2b5cc5df2dc4fc8516f90ba",
+        "size": 14852,
+        "fetched_at": "2026-09-29T10:01:46.062629+00:00",
+        "status": "ok"
+      }
     },
     "erhan-/rb4tab": {
       "lists": [
@@ -249162,7 +249226,15 @@
         "pushed_at": "2026-09-20T18:25:03Z",
         "starred_at": "2026-09-28T17:19:08Z"
       },
-      "last_updated": "2026-09-29T09:53:02.794124+00:00"
+      "last_updated": "2026-09-29T09:53:02.794124+00:00",
+      "readme": {
+        "path": "readmes/erhan-+rb4tab+README.md",
+        "etag": "W/\"da2019e9b34867afc79549df5ca8ec95716226c3\"",
+        "sha": "da2019e9b34867afc79549df5ca8ec95716226c3",
+        "size": 10339,
+        "fetched_at": "2026-09-29T10:01:45.265797+00:00",
+        "status": "ok"
+      }
     },
     "ip2k/mvave-fm1-open-firmware": {
       "lists": [
@@ -249185,7 +249257,15 @@
         "pushed_at": "2026-09-09T00:45:07Z",
         "starred_at": "2026-09-28T15:59:25Z"
       },
-      "last_updated": "2026-09-29T09:53:03.200608+00:00"
+      "last_updated": "2026-09-29T09:53:03.200608+00:00",
+      "readme": {
+        "path": "readmes/ip2k+mvave-fm1-open-firmware+README.md",
+        "etag": "W/\"ac7d462c32c77ee870d1fbf4f3f8db4c4b695bd1\"",
+        "sha": "ac7d462c32c77ee870d1fbf4f3f8db4c4b695bd1",
+        "size": 8447,
+        "fetched_at": "2026-09-29T10:01:45.829281+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/astral-codec": {
       "lists": [
@@ -249207,7 +249287,15 @@
         "pushed_at": "2026-09-28T22:00:20Z",
         "starred_at": "2026-09-27T20:35:20Z"
       },
-      "last_updated": "2026-09-29T09:53:03.593569+00:00"
+      "last_updated": "2026-09-29T09:53:03.593569+00:00",
+      "readme": {
+        "path": "readmes/astral-sh+astral-codec+README.md",
+        "etag": "W/\"576e32d3acf2c83e5e50479adc9b7024e46587ad\"",
+        "sha": "576e32d3acf2c83e5e50479adc9b7024e46587ad",
+        "size": 1129,
+        "fetched_at": "2026-09-29T10:01:43.964017+00:00",
+        "status": "ok"
+      }
     },
     "KhronosGroupArchives/glTF-Sample-Models": {
       "lists": [
@@ -249229,7 +249317,15 @@
         "pushed_at": "2023-12-22T16:15:52Z",
         "starred_at": "2025-08-22T15:45:47Z"
       },
-      "last_updated": "2026-09-29T09:53:04.145352+00:00"
+      "last_updated": "2026-09-29T09:53:04.145352+00:00",
+      "readme": {
+        "path": "readmes/KhronosGroupArchives+glTF-Sample-Models+README.md",
+        "etag": "W/\"2ef8778e4fd4a22be2fc6ed11662f06bcb60918b\"",
+        "sha": "2ef8778e4fd4a22be2fc6ed11662f06bcb60918b",
+        "size": 4362,
+        "fetched_at": "2026-09-29T10:01:43.583208+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
