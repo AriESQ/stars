@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T09:58:41.369717+00:00",
+  "last_updated": "2026-09-29T09:53:04.145401+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248960,6 +248960,246 @@
         "fetched_at": "2026-09-28T09:58:36.413892+00:00",
         "status": "ok"
       }
+    },
+    "t8y2/dbx": {
+      "lists": [],
+      "metadata": {
+        "id": 1224172037,
+        "name": "dbx",
+        "full_name": "t8y2/dbx",
+        "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | \u8f7b\u91cf\u7ea7\u8de8\u5e73\u53f0\u6570\u636e\u5e93\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301 MySQL\u3001PostgreSQL\u3001SQLite\u3001Redis\u3001MongoDB\u3001\u8fbe\u68a6\u7b49 100+ \u6570\u636e\u5e93\uff0c\u63d0\u4f9b\u684c\u9762\u7aef\u3001Docker\u3001CLI\u3001\u5185\u7f6e AI \u52a9\u624b\u548c MCP\u3002",
+        "url": "https://github.com/t8y2/dbx",
+        "homepage": "https://dbxio.com",
+        "language": "Rust",
+        "stars": 21603,
+        "forks": 2067,
+        "open_issues": 1262,
+        "created_at": "2026-04-29T03:00:36Z",
+        "updated_at": "2026-09-29T09:51:28Z",
+        "pushed_at": "2026-09-29T09:39:31Z",
+        "starred_at": "2026-09-29T04:40:17Z"
+      },
+      "last_updated": "2026-09-29T09:52:59.588158+00:00"
+    },
+    "robss2020/microllm-lab": {
+      "lists": [],
+      "metadata": {
+        "id": 1378650188,
+        "name": "microllm-lab",
+        "full_name": "robss2020/microllm-lab",
+        "description": "Tiny LLMs, Q4, in the browser. WebGPU lab inspired by yangqi0/petitgpt.",
+        "url": "https://github.com/robss2020/microllm-lab",
+        "homepage": "https://stateofutopia.com/experiments/petitgptlab",
+        "language": "JavaScript",
+        "stars": 21,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-20T18:20:27Z",
+        "updated_at": "2026-09-29T09:49:09Z",
+        "pushed_at": "2026-09-25T17:37:01Z",
+        "starred_at": "2026-09-29T03:14:19Z"
+      },
+      "last_updated": "2026-09-29T09:52:59.975791+00:00"
+    },
+    "wangyz1999/3d-emoji-assets-generator": {
+      "lists": [],
+      "metadata": {
+        "id": 1194075405,
+        "name": "3d-emoji-assets-generator",
+        "full_name": "wangyz1999/3d-emoji-assets-generator",
+        "description": "SVG-based 3D emoji generator, export in format like GLB, OBJ, STL, or USDZ for games, AR, and 3D projects.",
+        "url": "https://github.com/wangyz1999/3d-emoji-assets-generator",
+        "homepage": "https://www.emoji3d.org/",
+        "language": "TypeScript",
+        "stars": 51,
+        "forks": 8,
+        "open_issues": 1,
+        "created_at": "2026-03-27T22:26:32Z",
+        "updated_at": "2026-09-29T02:42:55Z",
+        "pushed_at": "2026-03-30T16:28:15Z",
+        "starred_at": "2026-09-29T02:42:54Z"
+      },
+      "last_updated": "2026-09-29T09:53:00.362205+00:00"
+    },
+    "firelex/jeff": {
+      "lists": [],
+      "metadata": {
+        "id": 1393229560,
+        "name": "jeff",
+        "full_name": "firelex/jeff",
+        "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+        "url": "https://github.com/firelex/jeff",
+        "homepage": null,
+        "language": "Python",
+        "stars": 751,
+        "forks": 26,
+        "open_issues": 3,
+        "created_at": "2026-09-28T16:18:39Z",
+        "updated_at": "2026-09-29T09:52:00Z",
+        "pushed_at": "2026-09-29T05:33:18Z",
+        "starred_at": "2026-09-29T02:20:38Z"
+      },
+      "last_updated": "2026-09-29T09:53:00.763980+00:00"
+    },
+    "clickysteve/bendr": {
+      "lists": [],
+      "metadata": {
+        "id": 1321052506,
+        "name": "bendr",
+        "full_name": "clickysteve/bendr",
+        "description": "Web-based glitch art video processor, inspired by circuit bent analogue video hardware.",
+        "url": "https://github.com/clickysteve/bendr",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 43,
+        "forks": 10,
+        "open_issues": 3,
+        "created_at": "2026-08-03T01:08:11Z",
+        "updated_at": "2026-09-28T20:42:16Z",
+        "pushed_at": "2026-09-09T09:53:51Z",
+        "starred_at": "2026-09-28T20:42:15Z"
+      },
+      "last_updated": "2026-09-29T09:53:01.179417+00:00"
+    },
+    "chainguard-dev/athena": {
+      "lists": [],
+      "metadata": {
+        "id": 1387443295,
+        "name": "athena",
+        "full_name": "chainguard-dev/athena",
+        "description": "Public vulnerability disclosures and patches for open source software.",
+        "url": "https://github.com/chainguard-dev/athena",
+        "homepage": "",
+        "language": null,
+        "stars": 2,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-25T12:21:00Z",
+        "updated_at": "2026-09-28T20:37:38Z",
+        "pushed_at": "2026-09-28T15:24:35Z",
+        "starred_at": "2026-09-28T20:37:37Z"
+      },
+      "last_updated": "2026-09-29T09:53:01.568181+00:00"
+    },
+    "dotsimulate/TDFam": {
+      "lists": [],
+      "metadata": {
+        "id": 1107317297,
+        "name": "TDFam",
+        "full_name": "dotsimulate/TDFam",
+        "description": "TouchDesigner custom operator families \u2014 TAB menu integration, manifests, placement, stubs, and updates in one .tox component.",
+        "url": "https://github.com/dotsimulate/TDFam",
+        "homepage": "",
+        "language": "Python",
+        "stars": 83,
+        "forks": 0,
+        "open_issues": 13,
+        "created_at": "2025-12-01T00:56:53Z",
+        "updated_at": "2026-09-28T19:59:36Z",
+        "pushed_at": "2026-09-03T22:17:25Z",
+        "starred_at": "2026-09-28T19:59:36Z"
+      },
+      "last_updated": "2026-09-29T09:53:01.985183+00:00"
+    },
+    "nsaintot/cdj3k-emu": {
+      "lists": [],
+      "metadata": {
+        "id": 1233907061,
+        "name": "cdj3k-emu",
+        "full_name": "nsaintot/cdj3k-emu",
+        "description": "An emulator for the CDJs in QEMU on Apple Silicon, with emulated SPI controls, jog LCD, USB, PC-LINK and Pro DJ Link network",
+        "url": "https://github.com/nsaintot/cdj3k-emu",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 294,
+        "forks": 31,
+        "open_issues": 1,
+        "created_at": "2026-05-09T14:00:17Z",
+        "updated_at": "2026-09-28T19:42:16Z",
+        "pushed_at": "2026-09-26T10:58:46Z",
+        "starred_at": "2026-09-28T17:19:42Z"
+      },
+      "last_updated": "2026-09-29T09:53:02.399966+00:00"
+    },
+    "erhan-/rb4tab": {
+      "lists": [],
+      "metadata": {
+        "id": 1378653248,
+        "name": "rb4tab",
+        "full_name": "erhan-/rb4tab",
+        "description": "Run CDJ3000X on a tablet - Insta @i.erhan.es",
+        "url": "https://github.com/erhan-/rb4tab",
+        "homepage": "https://www.instagram.com/i.erhan.es/",
+        "language": "Python",
+        "stars": 12,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-09-20T18:24:07Z",
+        "updated_at": "2026-09-28T17:19:09Z",
+        "pushed_at": "2026-09-20T18:25:03Z",
+        "starred_at": "2026-09-28T17:19:08Z"
+      },
+      "last_updated": "2026-09-29T09:53:02.794124+00:00"
+    },
+    "ip2k/mvave-fm1-open-firmware": {
+      "lists": [],
+      "metadata": {
+        "id": 1359570557,
+        "name": "mvave-fm1-open-firmware",
+        "full_name": "ip2k/mvave-fm1-open-firmware",
+        "description": "Research toward an open-source firmware for the M-VAVE FM-1 FM synthesizer (JieLi AC791N, msfa/Dexed engine)",
+        "url": "https://github.com/ip2k/mvave-fm1-open-firmware",
+        "homepage": null,
+        "language": "Python",
+        "stars": 9,
+        "forks": 1,
+        "open_issues": 2,
+        "created_at": "2026-09-06T23:08:35Z",
+        "updated_at": "2026-09-29T05:29:50Z",
+        "pushed_at": "2026-09-09T00:45:07Z",
+        "starred_at": "2026-09-28T15:59:25Z"
+      },
+      "last_updated": "2026-09-29T09:53:03.200608+00:00"
+    },
+    "astral-sh/astral-codec": {
+      "lists": [],
+      "metadata": {
+        "id": 1253843230,
+        "name": "astral-codec",
+        "full_name": "astral-sh/astral-codec",
+        "description": "A strict, constrained, async tar encoder/decoder for Rust",
+        "url": "https://github.com/astral-sh/astral-codec",
+        "homepage": "https://crates.io/crates/tar-codec",
+        "language": "Rust",
+        "stars": 10,
+        "forks": 3,
+        "open_issues": 28,
+        "created_at": "2026-05-29T21:45:58Z",
+        "updated_at": "2026-09-28T19:05:36Z",
+        "pushed_at": "2026-09-28T22:00:20Z",
+        "starred_at": "2026-09-27T20:35:20Z"
+      },
+      "last_updated": "2026-09-29T09:53:03.593569+00:00"
+    },
+    "KhronosGroupArchives/glTF-Sample-Models": {
+      "lists": [],
+      "metadata": {
+        "id": 71492395,
+        "name": "glTF-Sample-Models",
+        "full_name": "KhronosGroupArchives/glTF-Sample-Models",
+        "description": "glTF Sample Models",
+        "url": "https://github.com/KhronosGroupArchives/glTF-Sample-Models",
+        "homepage": null,
+        "language": "Mathematica",
+        "stars": 3614,
+        "forks": 1352,
+        "open_issues": 0,
+        "created_at": "2016-10-20T18:30:42Z",
+        "updated_at": "2026-09-28T18:21:01Z",
+        "pushed_at": "2023-12-22T16:15:52Z",
+        "starred_at": "2025-08-22T15:45:47Z"
+      },
+      "last_updated": "2026-09-29T09:53:04.145352+00:00"
     }
   },
   "last_processed_index": 0,
@@ -248969,5 +249209,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"46d2d5124df47f6e8a6c5c4d07ba5db6cc060537d201ed9f4daef9c714e5b0fc\""
+  "profile_etag": "W/\"6b3c31881cc06a565b7e95819739ea4b9a37b6cecd40583d586d4b1a9a24e6f3\""
 }
