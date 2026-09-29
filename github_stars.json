@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T09:53:04.145401+00:00",
+  "last_updated": "2026-09-29T10:01:14.571613+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -248962,7 +248962,12 @@
       }
     },
     "t8y2/dbx": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1224172037,
         "name": "dbx",
@@ -248982,7 +248987,10 @@
       "last_updated": "2026-09-29T09:52:59.588158+00:00"
     },
     "robss2020/microllm-lab": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1378650188,
         "name": "microllm-lab",
@@ -249002,7 +249010,9 @@
       "last_updated": "2026-09-29T09:52:59.975791+00:00"
     },
     "wangyz1999/3d-emoji-assets-generator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1194075405,
         "name": "3d-emoji-assets-generator",
@@ -249022,7 +249032,9 @@
       "last_updated": "2026-09-29T09:53:00.362205+00:00"
     },
     "firelex/jeff": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1393229560,
         "name": "jeff",
@@ -249042,7 +249054,10 @@
       "last_updated": "2026-09-29T09:53:00.763980+00:00"
     },
     "clickysteve/bendr": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1321052506,
         "name": "bendr",
@@ -249062,7 +249077,9 @@
       "last_updated": "2026-09-29T09:53:01.179417+00:00"
     },
     "chainguard-dev/athena": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1387443295,
         "name": "athena",
@@ -249082,7 +249099,9 @@
       "last_updated": "2026-09-29T09:53:01.568181+00:00"
     },
     "dotsimulate/TDFam": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1107317297,
         "name": "TDFam",
@@ -249102,7 +249121,9 @@
       "last_updated": "2026-09-29T09:53:01.985183+00:00"
     },
     "nsaintot/cdj3k-emu": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1233907061,
         "name": "cdj3k-emu",
@@ -249122,7 +249143,9 @@
       "last_updated": "2026-09-29T09:53:02.399966+00:00"
     },
     "erhan-/rb4tab": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1378653248,
         "name": "rb4tab",
@@ -249142,7 +249165,10 @@
       "last_updated": "2026-09-29T09:53:02.794124+00:00"
     },
     "ip2k/mvave-fm1-open-firmware": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1359570557,
         "name": "mvave-fm1-open-firmware",
@@ -249162,7 +249188,9 @@
       "last_updated": "2026-09-29T09:53:03.200608+00:00"
     },
     "astral-sh/astral-codec": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1253843230,
         "name": "astral-codec",
@@ -249182,7 +249210,9 @@
       "last_updated": "2026-09-29T09:53:03.593569+00:00"
     },
     "KhronosGroupArchives/glTF-Sample-Models": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 71492395,
         "name": "glTF-Sample-Models",
