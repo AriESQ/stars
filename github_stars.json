@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T10:01:46.923047+00:00",
+  "last_updated": "2026-09-30T09:45:13.917164+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249326,6 +249326,26 @@
         "fetched_at": "2026-09-29T10:01:43.583208+00:00",
         "status": "ok"
       }
+    },
+    "Anil-matcha/open-dots": {
+      "lists": [],
+      "metadata": {
+        "id": 645381450,
+        "name": "open-dots",
+        "full_name": "Anil-matcha/open-dots",
+        "description": "Open-source alternative to OpenAI Dots: self-hosted AI chat, tools, approvals, connectors, and computer tasks.",
+        "url": "https://github.com/Anil-matcha/open-dots",
+        "homepage": "",
+        "language": "Python",
+        "stars": 4660,
+        "forks": 528,
+        "open_issues": 0,
+        "created_at": "2023-05-25T14:21:12Z",
+        "updated_at": "2026-09-30T09:44:54Z",
+        "pushed_at": "2026-09-30T09:17:42Z",
+        "starred_at": "2023-06-09T04:28:15Z"
+      },
+      "last_updated": "2026-09-30T09:45:13.917089+00:00"
     }
   },
   "last_processed_index": 0,
@@ -249335,5 +249355,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"6b3c31881cc06a565b7e95819739ea4b9a37b6cecd40583d586d4b1a9a24e6f3\""
+  "profile_etag": "W/\"1173a45647d6f565dfa89cc24b27eb3470407f3e46a186bae3ee421452a67028\""
 }
