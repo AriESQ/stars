@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T09:45:13.917164+00:00",
+  "last_updated": "2026-09-30T09:53:40.116585+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249328,7 +249328,11 @@
       }
     },
     "Anil-matcha/open-dots": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 645381450,
         "name": "open-dots",
