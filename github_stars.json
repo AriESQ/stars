@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T09:54:14.955293+00:00",
+  "last_updated": "2026-10-01T10:11:10.655882+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249358,6 +249358,126 @@
         "fetched_at": "2026-09-30T09:54:14.944129+00:00",
         "status": "ok"
       }
+    },
+    "urchade/GLiNER": {
+      "lists": [],
+      "metadata": {
+        "id": 718748920,
+        "name": "GLiNER",
+        "full_name": "urchade/GLiNER",
+        "description": "Generalist and Lightweight Model for Named Entity Recognition (Extract any entity types from texts)",
+        "url": "https://github.com/urchade/GLiNER",
+        "homepage": "https://urchade.github.io/GLiNER",
+        "language": "Python",
+        "stars": 3979,
+        "forks": 317,
+        "open_issues": 57,
+        "created_at": "2023-11-14T18:11:11Z",
+        "updated_at": "2026-09-30T22:00:55Z",
+        "pushed_at": "2026-09-23T11:12:54Z",
+        "starred_at": "2026-09-30T22:00:54Z"
+      },
+      "last_updated": "2026-10-01T10:11:09.014891+00:00"
+    },
+    "lokutor-ai/oido": {
+      "lists": [],
+      "metadata": {
+        "id": 1397693323,
+        "name": "oido",
+        "full_name": "lokutor-ai/oido",
+        "description": "O\u00eddo: open-vocabulary speech recognition that fits in a $5 ESP32-S3. 3.7% LibriSpeech WER, no cloud, no NPU.",
+        "url": "https://github.com/lokutor-ai/oido",
+        "homepage": "https://lokutor.com",
+        "language": "C",
+        "stars": 47,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-30T11:15:19Z",
+        "updated_at": "2026-10-01T08:15:21Z",
+        "pushed_at": "2026-09-30T14:51:13Z",
+        "starred_at": "2026-09-30T21:59:22Z"
+      },
+      "last_updated": "2026-10-01T10:11:09.307929+00:00"
+    },
+    "vsg-dev/VulkanSceneGraph": {
+      "lists": [],
+      "metadata": {
+        "id": 148609004,
+        "name": "VulkanSceneGraph",
+        "full_name": "vsg-dev/VulkanSceneGraph",
+        "description": "Vulkan & C++17 based Scene Graph Project",
+        "url": "https://github.com/vsg-dev/VulkanSceneGraph",
+        "homepage": "http://www.vulkanscenegraph.org",
+        "language": "C++",
+        "stars": 1820,
+        "forks": 283,
+        "open_issues": 54,
+        "created_at": "2018-09-13T08:43:58Z",
+        "updated_at": "2026-09-30T21:39:18Z",
+        "pushed_at": "2026-09-29T08:28:44Z",
+        "starred_at": "2026-09-30T21:39:17Z"
+      },
+      "last_updated": "2026-10-01T10:11:09.655020+00:00"
+    },
+    "AlphaPixel/osgSlug": {
+      "lists": [],
+      "metadata": {
+        "id": 1212727734,
+        "name": "osgSlug",
+        "full_name": "AlphaPixel/osgSlug",
+        "description": "Slug support for OpenSceneGraph via SlugHorn",
+        "url": "https://github.com/AlphaPixel/osgSlug",
+        "homepage": null,
+        "language": "C++",
+        "stars": 14,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2026-04-16T17:09:31Z",
+        "updated_at": "2026-10-01T01:40:35Z",
+        "pushed_at": "2026-09-28T08:52:13Z",
+        "starred_at": "2026-09-30T21:37:32Z"
+      },
+      "last_updated": "2026-10-01T10:11:09.988606+00:00"
+    },
+    "mogrinz/AMT630A": {
+      "lists": [],
+      "metadata": {
+        "id": 1378675509,
+        "name": "AMT630A",
+        "full_name": "mogrinz/AMT630A",
+        "description": "An Arduino Library for working with the AMT630A chip",
+        "url": "https://github.com/mogrinz/AMT630A",
+        "homepage": null,
+        "language": "C++",
+        "stars": 21,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-09-20T18:50:56Z",
+        "updated_at": "2026-10-01T05:32:24Z",
+        "pushed_at": "2026-09-30T18:34:35Z",
+        "starred_at": "2026-09-30T16:32:52Z"
+      },
+      "last_updated": "2026-10-01T10:11:10.329550+00:00"
+    },
+    "AlphaPixel/slughorn": {
+      "lists": [],
+      "metadata": {
+        "id": 1204143287,
+        "name": "slughorn",
+        "full_name": "AlphaPixel/slughorn",
+        "description": "Library for shoehorning the Slug text/graphics GPU rendering library into projects.",
+        "url": "https://github.com/AlphaPixel/slughorn",
+        "homepage": null,
+        "language": "C++",
+        "stars": 226,
+        "forks": 13,
+        "open_issues": 3,
+        "created_at": "2026-04-07T18:22:56Z",
+        "updated_at": "2026-10-01T10:09:11Z",
+        "pushed_at": "2026-09-27T07:50:26Z",
+        "starred_at": "2026-09-30T16:32:07Z"
+      },
+      "last_updated": "2026-10-01T10:11:10.655779+00:00"
     }
   },
   "last_processed_index": 0,
@@ -249367,5 +249487,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"1173a45647d6f565dfa89cc24b27eb3470407f3e46a186bae3ee421452a67028\""
+  "profile_etag": "W/\"7069dd3474a57ba9494bdc6ecbc460a5082fe9cd2a542a056ba7377ad956370b\""
 }
