@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T10:18:48.130687+00:00",
+  "last_updated": "2026-10-01T10:19:43.732635+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249379,7 +249379,15 @@
         "pushed_at": "2026-09-23T11:12:54Z",
         "starred_at": "2026-09-30T22:00:54Z"
       },
-      "last_updated": "2026-10-01T10:11:09.014891+00:00"
+      "last_updated": "2026-10-01T10:11:09.014891+00:00",
+      "readme": {
+        "path": "readmes/urchade+GLiNER+README.md",
+        "etag": "W/\"9c9edaad5a4e65c22707c94565584ccd187d5a53\"",
+        "sha": "9c9edaad5a4e65c22707c94565584ccd187d5a53",
+        "size": 17577,
+        "fetched_at": "2026-10-01T10:19:43.408061+00:00",
+        "status": "ok"
+      }
     },
     "lokutor-ai/oido": {
       "lists": [
@@ -249402,7 +249410,15 @@
         "pushed_at": "2026-09-30T14:51:13Z",
         "starred_at": "2026-09-30T21:59:22Z"
       },
-      "last_updated": "2026-10-01T10:11:09.307929+00:00"
+      "last_updated": "2026-10-01T10:11:09.307929+00:00",
+      "readme": {
+        "path": "readmes/lokutor-ai+oido+README.md",
+        "etag": "W/\"f1237e5334b863c7ada2079545edab669c5e0678\"",
+        "sha": "f1237e5334b863c7ada2079545edab669c5e0678",
+        "size": 8796,
+        "fetched_at": "2026-10-01T10:19:42.724868+00:00",
+        "status": "ok"
+      }
     },
     "vsg-dev/VulkanSceneGraph": {
       "lists": [
@@ -249424,7 +249440,15 @@
         "pushed_at": "2026-09-29T08:28:44Z",
         "starred_at": "2026-09-30T21:39:17Z"
       },
-      "last_updated": "2026-10-01T10:11:09.655020+00:00"
+      "last_updated": "2026-10-01T10:11:09.655020+00:00",
+      "readme": {
+        "path": "readmes/vsg-dev+VulkanSceneGraph+README.md",
+        "etag": "W/\"d4d6ef6fc176253b0117ef9f434f127a386adfb8\"",
+        "sha": "d4d6ef6fc176253b0117ef9f434f127a386adfb8",
+        "size": 5725,
+        "fetched_at": "2026-10-01T10:19:43.731650+00:00",
+        "status": "ok"
+      }
     },
     "AlphaPixel/osgSlug": {
       "lists": [
@@ -249446,7 +249470,15 @@
         "pushed_at": "2026-09-28T08:52:13Z",
         "starred_at": "2026-09-30T21:37:32Z"
       },
-      "last_updated": "2026-10-01T10:11:09.988606+00:00"
+      "last_updated": "2026-10-01T10:11:09.988606+00:00",
+      "readme": {
+        "path": "readmes/AlphaPixel+osgSlug+README.md",
+        "etag": "W/\"d30c6eaef81cc16efbffad19fbf262013207f8a0\"",
+        "sha": "d30c6eaef81cc16efbffad19fbf262013207f8a0",
+        "size": 9425,
+        "fetched_at": "2026-10-01T10:19:42.088791+00:00",
+        "status": "ok"
+      }
     },
     "mogrinz/AMT630A": {
       "lists": [
@@ -249469,7 +249501,15 @@
         "pushed_at": "2026-09-30T18:34:35Z",
         "starred_at": "2026-09-30T16:32:52Z"
       },
-      "last_updated": "2026-10-01T10:11:10.329550+00:00"
+      "last_updated": "2026-10-01T10:11:10.329550+00:00",
+      "readme": {
+        "path": "readmes/mogrinz+AMT630A+README.md",
+        "etag": "W/\"096edef98d6a87a3f99ac75772107666368e4377\"",
+        "sha": "096edef98d6a87a3f99ac75772107666368e4377",
+        "size": 29496,
+        "fetched_at": "2026-10-01T10:19:43.074642+00:00",
+        "status": "ok"
+      }
     },
     "AlphaPixel/slughorn": {
       "lists": [
@@ -249491,7 +249531,15 @@
         "pushed_at": "2026-09-27T07:50:26Z",
         "starred_at": "2026-09-30T16:32:07Z"
       },
-      "last_updated": "2026-10-01T10:11:10.655779+00:00"
+      "last_updated": "2026-10-01T10:11:10.655779+00:00",
+      "readme": {
+        "path": "readmes/AlphaPixel+slughorn+README.md",
+        "etag": "W/\"2c056c2454f5d6e8db23812bf00adac2784d019f\"",
+        "sha": "2c056c2454f5d6e8db23812bf00adac2784d019f",
+        "size": 17806,
+        "fetched_at": "2026-10-01T10:19:42.406712+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
