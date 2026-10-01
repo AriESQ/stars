@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T10:11:10.655882+00:00",
+  "last_updated": "2026-10-01T10:18:48.130687+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249360,7 +249360,9 @@
       }
     },
     "urchade/GLiNER": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 718748920,
         "name": "GLiNER",
@@ -249380,7 +249382,10 @@
       "last_updated": "2026-10-01T10:11:09.014891+00:00"
     },
     "lokutor-ai/oido": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1397693323,
         "name": "oido",
@@ -249400,7 +249405,9 @@
       "last_updated": "2026-10-01T10:11:09.307929+00:00"
     },
     "vsg-dev/VulkanSceneGraph": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 148609004,
         "name": "VulkanSceneGraph",
@@ -249420,7 +249427,9 @@
       "last_updated": "2026-10-01T10:11:09.655020+00:00"
     },
     "AlphaPixel/osgSlug": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1212727734,
         "name": "osgSlug",
@@ -249440,7 +249449,10 @@
       "last_updated": "2026-10-01T10:11:09.988606+00:00"
     },
     "mogrinz/AMT630A": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1378675509,
         "name": "AMT630A",
@@ -249460,7 +249472,9 @@
       "last_updated": "2026-10-01T10:11:10.329550+00:00"
     },
     "AlphaPixel/slughorn": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1204143287,
         "name": "slughorn",
