@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T09:48:51.032247+00:00",
+  "last_updated": "2026-10-02T09:56:51.352710+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249562,7 +249562,10 @@
       "last_updated": "2026-10-02T09:48:49.712420+00:00"
     },
     "Vibra-Ingenn/Janus": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1384801119,
         "name": "Janus",
@@ -249582,7 +249585,10 @@
       "last_updated": "2026-10-02T09:48:50.099646+00:00"
     },
     "ip2k/lunar-modulator": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1359570557,
         "name": "lunar-modulator",
@@ -249602,7 +249608,10 @@
       "last_updated": "2026-10-02T09:48:50.493142+00:00"
     },
     "Nx-Nass/NassCAD": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "WASM"
+      ],
       "metadata": {
         "id": 1222551432,
         "name": "NassCAD",
