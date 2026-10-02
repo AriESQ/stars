@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T10:19:43.732635+00:00",
+  "last_updated": "2026-10-02T09:48:51.032247+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249540,6 +249540,86 @@
         "fetched_at": "2026-10-01T10:19:42.406712+00:00",
         "status": "ok"
       }
+    },
+    "maanHimself/OpenDLSS-NR": {
+      "lists": [],
+      "metadata": {
+        "id": 1378832559,
+        "name": "OpenDLSS-NR",
+        "full_name": "maanHimself/OpenDLSS-NR",
+        "description": "A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original.",
+        "url": "https://github.com/maanHimself/OpenDLSS-NR",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 760,
+        "forks": 62,
+        "open_issues": 0,
+        "created_at": "2026-09-20T22:35:35Z",
+        "updated_at": "2026-10-02T07:59:41Z",
+        "pushed_at": "2026-09-21T16:16:55Z",
+        "starred_at": "2026-10-02T06:03:43Z"
+      },
+      "last_updated": "2026-10-02T09:48:49.712420+00:00"
+    },
+    "Vibra-Ingenn/Janus": {
+      "lists": [],
+      "metadata": {
+        "id": 1384801119,
+        "name": "Janus",
+        "full_name": "Vibra-Ingenn/Janus",
+        "description": "Janus is a API router for AI models written in Go and has a Vulkan Model runner",
+        "url": "https://github.com/Vibra-Ingenn/Janus",
+        "homepage": null,
+        "language": "Go",
+        "stars": 69,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-09-24T06:02:09Z",
+        "updated_at": "2026-10-02T09:44:06Z",
+        "pushed_at": "2026-10-01T22:06:07Z",
+        "starred_at": "2026-10-02T04:29:47Z"
+      },
+      "last_updated": "2026-10-02T09:48:50.099646+00:00"
+    },
+    "ip2k/lunar-modulator": {
+      "lists": [],
+      "metadata": {
+        "id": 1359570557,
+        "name": "lunar-modulator",
+        "full_name": "ip2k/lunar-modulator",
+        "description": "Lunar Modulator \u2014 INTERGALACTIC MODULATION STATION. Open firmware for the M-VAVE FM-1 FM synthesizer (JieLi AC791N): Mutable-derived engines, a Movy-style sequencer, and a virtual FM-1 in the browser. Research stage; nothing flashed.",
+        "url": "https://github.com/ip2k/lunar-modulator",
+        "homepage": "https://ip2k.github.io/lunar-modulator/",
+        "language": "Python",
+        "stars": 14,
+        "forks": 1,
+        "open_issues": 4,
+        "created_at": "2026-09-06T23:08:35Z",
+        "updated_at": "2026-10-02T09:16:38Z",
+        "pushed_at": "2026-10-02T09:18:29Z",
+        "starred_at": "2026-09-28T15:59:25Z"
+      },
+      "last_updated": "2026-10-02T09:48:50.493142+00:00"
+    },
+    "Nx-Nass/NassCAD": {
+      "lists": [],
+      "metadata": {
+        "id": 1222551432,
+        "name": "NassCAD",
+        "full_name": "Nx-Nass/NassCAD",
+        "description": "Parametric 3D CAD with local processing: STEP, IFC, sketches and B-Rep tools. MEDUSA engine for booleans.",
+        "url": "https://github.com/Nx-Nass/NassCAD",
+        "homepage": "https://www.nasscad.com/",
+        "language": "HTML",
+        "stars": 62,
+        "forks": 3,
+        "open_issues": 5,
+        "created_at": "2026-04-27T13:28:35Z",
+        "updated_at": "2026-10-02T07:45:18Z",
+        "pushed_at": "2026-10-02T03:14:10Z",
+        "starred_at": "2026-07-02T00:07:40Z"
+      },
+      "last_updated": "2026-10-02T09:48:51.032162+00:00"
     }
   },
   "last_processed_index": 0,
@@ -249549,5 +249629,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7069dd3474a57ba9494bdc6ecbc460a5082fe9cd2a542a056ba7377ad956370b\""
+  "profile_etag": "W/\"9a2ba4b3bea647bb835b9da620d702ae1e7440cc01fb2db00a484ff4436d6c29\""
 }
