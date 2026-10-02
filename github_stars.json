@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T09:56:51.352710+00:00",
+  "last_updated": "2026-10-02T09:57:14.793137+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249559,7 +249559,15 @@
         "pushed_at": "2026-09-21T16:16:55Z",
         "starred_at": "2026-10-02T06:03:43Z"
       },
-      "last_updated": "2026-10-02T09:48:49.712420+00:00"
+      "last_updated": "2026-10-02T09:48:49.712420+00:00",
+      "readme": {
+        "path": "readmes/maanHimself+OpenDLSS-NR+README.md",
+        "etag": "W/\"8c8cbef36d4f1c640a5aade0383b464e44a75b7f\"",
+        "sha": "8c8cbef36d4f1c640a5aade0383b464e44a75b7f",
+        "size": 10937,
+        "fetched_at": "2026-10-02T09:57:14.787088+00:00",
+        "status": "ok"
+      }
     },
     "Vibra-Ingenn/Janus": {
       "lists": [
@@ -249582,7 +249590,15 @@
         "pushed_at": "2026-10-01T22:06:07Z",
         "starred_at": "2026-10-02T04:29:47Z"
       },
-      "last_updated": "2026-10-02T09:48:50.099646+00:00"
+      "last_updated": "2026-10-02T09:48:50.099646+00:00",
+      "readme": {
+        "path": "readmes/Vibra-Ingenn+Janus+README.md",
+        "etag": "W/\"306adc2562a05ca19c4559897afbd60d35c6ee47\"",
+        "sha": "306adc2562a05ca19c4559897afbd60d35c6ee47",
+        "size": 5671,
+        "fetched_at": "2026-10-02T09:57:14.180915+00:00",
+        "status": "ok"
+      }
     },
     "ip2k/lunar-modulator": {
       "lists": [
@@ -249605,7 +249621,15 @@
         "pushed_at": "2026-10-02T09:18:29Z",
         "starred_at": "2026-09-28T15:59:25Z"
       },
-      "last_updated": "2026-10-02T09:48:50.493142+00:00"
+      "last_updated": "2026-10-02T09:48:50.493142+00:00",
+      "readme": {
+        "path": "readmes/ip2k+lunar-modulator+README.md",
+        "etag": "W/\"ee645cfba5f42f6bcc8bc74912cd5e406b63bb1e\"",
+        "sha": "ee645cfba5f42f6bcc8bc74912cd5e406b63bb1e",
+        "size": 23825,
+        "fetched_at": "2026-10-02T09:57:14.461280+00:00",
+        "status": "ok"
+      }
     },
     "Nx-Nass/NassCAD": {
       "lists": [
@@ -249628,7 +249652,15 @@
         "pushed_at": "2026-10-02T03:14:10Z",
         "starred_at": "2026-07-02T00:07:40Z"
       },
-      "last_updated": "2026-10-02T09:48:51.032162+00:00"
+      "last_updated": "2026-10-02T09:48:51.032162+00:00",
+      "readme": {
+        "path": "readmes/Nx-Nass+NassCAD+README.md",
+        "etag": "W/\"71279111a5e04ebf2f9211795d88d58daeefdb4f\"",
+        "sha": "71279111a5e04ebf2f9211795d88d58daeefdb4f",
+        "size": 13948,
+        "fetched_at": "2026-10-02T09:57:13.904785+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
