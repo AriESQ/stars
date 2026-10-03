@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T09:11:52.701998+00:00",
+  "last_updated": "2026-10-03T09:20:05.603406+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249542,7 +249542,10 @@
       }
     },
     "maanHimself/OpenDLSS-NR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1378832559,
         "name": "OpenDLSS-NR",
@@ -249663,7 +249666,10 @@
       }
     },
     "google-deepmind/representations4d": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1007013027,
         "name": "representations4d",
@@ -249683,7 +249689,10 @@
       "last_updated": "2026-10-03T09:11:51.486443+00:00"
     },
     "google-deepmind/tapnet": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 561376900,
         "name": "tapnet",
@@ -249703,7 +249712,10 @@
       "last_updated": "2026-10-03T09:11:51.795840+00:00"
     },
     "dylanroscover/Embody": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 807680674,
         "name": "Embody",
@@ -249723,7 +249735,9 @@
       "last_updated": "2026-10-03T09:11:52.102872+00:00"
     },
     "microsoft/ProcMon-Linux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 278748700,
         "name": "ProcMon-Linux",
