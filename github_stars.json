@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T09:20:36.005031+00:00",
+  "last_updated": "2026-10-04T09:50:08.079606+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249787,6 +249787,26 @@
         "fetched_at": "2026-10-03T09:20:36.000835+00:00",
         "status": "ok"
       }
+    },
+    "andreasfertig/cppinsights": {
+      "lists": [],
+      "metadata": {
+        "id": 131510015,
+        "name": "cppinsights",
+        "full_name": "andreasfertig/cppinsights",
+        "description": "C++ Insights - See your source code with the eyes of a compiler",
+        "url": "https://github.com/andreasfertig/cppinsights",
+        "homepage": "https://cppinsights.io",
+        "language": "C++",
+        "stars": 4639,
+        "forks": 269,
+        "open_issues": 25,
+        "created_at": "2018-04-29T16:21:08Z",
+        "updated_at": "2026-10-04T09:11:51Z",
+        "pushed_at": "2026-08-26T10:38:02Z",
+        "starred_at": "2026-10-03T16:23:19Z"
+      },
+      "last_updated": "2026-10-04T09:50:08.079492+00:00"
     }
   },
   "last_processed_index": 0,
@@ -249796,5 +249816,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ef5aafc04f7d58df1dab0625c58c672ae061e6487235fa89dcaa523c8be6236a\""
+  "profile_etag": "W/\"7ab7099a7de6beda68757bc3fed852be8dce77bac85f3edcea2d24363d0b20e8\""
 }
