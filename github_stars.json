@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T10:29:29.896425+00:00",
+  "last_updated": "2026-10-05T10:36:41.166214+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249819,7 +249819,9 @@
       }
     },
     "Alaghast/Delaunay-Triangulation-POP": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1165079992,
         "name": "Delaunay-Triangulation-POP",
@@ -249839,7 +249841,9 @@
       "last_updated": "2026-10-05T10:29:29.113582+00:00"
     },
     "isod89/sloop-fm1": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1404547122,
         "name": "sloop-fm1",
@@ -249859,7 +249863,9 @@
       "last_updated": "2026-10-05T10:29:29.513514+00:00"
     },
     "Niko1221/Strata": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1385946301,
         "name": "Strata",
