@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T10:36:41.166214+00:00",
+  "last_updated": "2026-10-05T10:37:38.282037+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249838,7 +249838,15 @@
         "pushed_at": "2026-09-07T15:38:42Z",
         "starred_at": "2026-10-05T01:35:49Z"
       },
-      "last_updated": "2026-10-05T10:29:29.113582+00:00"
+      "last_updated": "2026-10-05T10:29:29.113582+00:00",
+      "readme": {
+        "path": "readmes/Alaghast+Delaunay-Triangulation-POP+README.md",
+        "etag": "W/\"2515b8ad57a32cf7d139f6b251c3be9866550b0e\"",
+        "sha": "2515b8ad57a32cf7d139f6b251c3be9866550b0e",
+        "size": 4659,
+        "fetched_at": "2026-10-05T10:37:37.613293+00:00",
+        "status": "ok"
+      }
     },
     "isod89/sloop-fm1": {
       "lists": [
@@ -249860,7 +249868,15 @@
         "pushed_at": "2026-10-05T03:19:54Z",
         "starred_at": "2026-10-04T23:01:45Z"
       },
-      "last_updated": "2026-10-05T10:29:29.513514+00:00"
+      "last_updated": "2026-10-05T10:29:29.513514+00:00",
+      "readme": {
+        "path": "readmes/isod89+sloop-fm1+README.md",
+        "etag": "W/\"da7138528adf287d25d99fd648dac3fa9ca822bc\"",
+        "sha": "da7138528adf287d25d99fd648dac3fa9ca822bc",
+        "size": 7286,
+        "fetched_at": "2026-10-05T10:37:38.276311+00:00",
+        "status": "ok"
+      }
     },
     "Niko1221/Strata": {
       "lists": [
@@ -249882,7 +249898,15 @@
         "pushed_at": "2026-10-04T12:32:47Z",
         "starred_at": "2026-10-04T17:42:12Z"
       },
-      "last_updated": "2026-10-05T10:29:29.896308+00:00"
+      "last_updated": "2026-10-05T10:29:29.896308+00:00",
+      "readme": {
+        "path": "readmes/Niko1221+Strata+README.md",
+        "etag": "W/\"ae464b410d9d9d8542cf62db93c27fc1dd025f34\"",
+        "sha": "ae464b410d9d9d8542cf62db93c27fc1dd025f34",
+        "size": 12951,
+        "fetched_at": "2026-10-05T10:37:37.940955+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
