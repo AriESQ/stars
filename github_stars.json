@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T10:27:49.433256+00:00",
+  "last_updated": "2026-10-06T10:28:54.753309+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249929,7 +249929,15 @@
         "pushed_at": "2026-10-03T13:34:39Z",
         "starred_at": "2026-10-06T05:28:39Z"
       },
-      "last_updated": "2026-10-06T10:20:29.271226+00:00"
+      "last_updated": "2026-10-06T10:20:29.271226+00:00",
+      "readme": {
+        "path": "readmes/amalahama+smk37-firmware-custom-mod+README.md",
+        "etag": "W/\"444def80522d4be2d2f01cb15e2fa9e190dfa11a\"",
+        "sha": "444def80522d4be2d2f01cb15e2fa9e190dfa11a",
+        "size": 7043,
+        "fetched_at": "2026-10-06T10:28:53.197712+00:00",
+        "status": "ok"
+      }
     },
     "kurogedelic/FM-1-transporter": {
       "lists": [
@@ -249952,7 +249960,15 @@
         "pushed_at": "2026-10-01T12:45:19Z",
         "starred_at": "2026-10-06T04:08:31Z"
       },
-      "last_updated": "2026-10-06T10:20:29.572133+00:00"
+      "last_updated": "2026-10-06T10:20:29.572133+00:00",
+      "readme": {
+        "path": "readmes/kurogedelic+FM-1-transporter+README.md",
+        "etag": "W/\"0e83b2a35aae06416063617f6004ee8071f070be\"",
+        "sha": "0e83b2a35aae06416063617f6004ee8071f070be",
+        "size": 4604,
+        "fetched_at": "2026-10-06T10:28:54.748434+00:00",
+        "status": "ok"
+      }
     },
     "amandaghassaei/OrigamiSimulator": {
       "lists": [
@@ -249974,7 +249990,15 @@
         "pushed_at": "2025-11-20T03:34:16Z",
         "starred_at": "2026-10-06T03:23:11Z"
       },
-      "last_updated": "2026-10-06T10:20:29.940544+00:00"
+      "last_updated": "2026-10-06T10:20:29.940544+00:00",
+      "readme": {
+        "path": "readmes/amandaghassaei+OrigamiSimulator+README.md",
+        "etag": "W/\"2c688326860a8d802ea5bbaf7ea683676233f605\"",
+        "sha": "2c688326860a8d802ea5bbaf7ea683676233f605",
+        "size": 5723,
+        "fetched_at": "2026-10-06T10:28:53.526837+00:00",
+        "status": "ok"
+      }
     },
     "astral-sh/ecosystem-analyzer": {
       "lists": [
@@ -249996,7 +250020,11 @@
         "pushed_at": "2026-10-05T13:56:04Z",
         "starred_at": "2026-10-06T00:54:10Z"
       },
-      "last_updated": "2026-10-06T10:20:30.300580+00:00"
+      "last_updated": "2026-10-06T10:20:30.300580+00:00",
+      "readme": {
+        "fetched_at": "2026-10-06T10:28:53.948295+00:00",
+        "status": "missing"
+      }
     },
     "johnneerdael/ProjectM-TV": {
       "lists": [
@@ -250018,7 +250046,15 @@
         "pushed_at": "2026-10-06T10:11:46Z",
         "starred_at": "2026-10-05T19:14:58Z"
       },
-      "last_updated": "2026-10-06T10:20:30.664811+00:00"
+      "last_updated": "2026-10-06T10:20:30.664811+00:00",
+      "readme": {
+        "path": "readmes/johnneerdael+ProjectM-TV+README.md",
+        "etag": "W/\"218f4a852e1e768aac8eb02e7428b4a90a3535f0\"",
+        "sha": "218f4a852e1e768aac8eb02e7428b4a90a3535f0",
+        "size": 34895,
+        "fetched_at": "2026-10-06T10:28:54.361821+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
