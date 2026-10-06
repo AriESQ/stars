@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T10:20:30.664970+00:00",
+  "last_updated": "2026-10-06T10:27:49.433256+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -249909,7 +249909,10 @@
       }
     },
     "amalahama/smk37-firmware-custom-mod": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1402959883,
         "name": "smk37-firmware-custom-mod",
@@ -249929,7 +249932,10 @@
       "last_updated": "2026-10-06T10:20:29.271226+00:00"
     },
     "kurogedelic/FM-1-transporter": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1397447041,
         "name": "FM-1-transporter",
@@ -249949,7 +249955,9 @@
       "last_updated": "2026-10-06T10:20:29.572133+00:00"
     },
     "amandaghassaei/OrigamiSimulator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 82958851,
         "name": "OrigamiSimulator",
@@ -249969,7 +249977,9 @@
       "last_updated": "2026-10-06T10:20:29.940544+00:00"
     },
     "astral-sh/ecosystem-analyzer": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 1003560206,
         "name": "ecosystem-analyzer",
@@ -249989,7 +249999,9 @@
       "last_updated": "2026-10-06T10:20:30.300580+00:00"
     },
     "johnneerdael/ProjectM-TV": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1036756804,
         "name": "ProjectM-TV",
