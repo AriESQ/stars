@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T10:18:55.507831+00:00",
+  "last_updated": "2026-10-07T10:23:31.399754+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250057,7 +250057,9 @@
       }
     },
     "pit711/ESPsoup": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1398566317,
         "name": "ESPsoup",
@@ -250077,7 +250079,9 @@
       "last_updated": "2026-10-07T10:18:54.938169+00:00"
     },
     "z2labs/sdrpp-esp-sdr-source": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1402879559,
         "name": "sdrpp-esp-sdr-source",
@@ -250097,7 +250101,10 @@
       "last_updated": "2026-10-07T10:18:55.232502+00:00"
     },
     "can1357/oh-my-pi": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1125856365,
         "name": "oh-my-pi",
