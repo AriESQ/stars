@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T10:23:31.399754+00:00",
+  "last_updated": "2026-10-07T10:27:20.003761+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250076,7 +250076,15 @@
         "pushed_at": "2026-10-05T14:18:38Z",
         "starred_at": "2026-10-07T07:02:54Z"
       },
-      "last_updated": "2026-10-07T10:18:54.938169+00:00"
+      "last_updated": "2026-10-07T10:18:54.938169+00:00",
+      "readme": {
+        "path": "readmes/pit711+ESPsoup+README.md",
+        "etag": "W/\"2713be89071b0e05cc0fd196757d999cf5368397\"",
+        "sha": "2713be89071b0e05cc0fd196757d999cf5368397",
+        "size": 18414,
+        "fetched_at": "2026-10-07T10:27:19.674118+00:00",
+        "status": "ok"
+      }
     },
     "z2labs/sdrpp-esp-sdr-source": {
       "lists": [
@@ -250098,7 +250106,15 @@
         "pushed_at": "2026-10-07T09:12:24Z",
         "starred_at": "2026-10-07T06:54:23Z"
       },
-      "last_updated": "2026-10-07T10:18:55.232502+00:00"
+      "last_updated": "2026-10-07T10:18:55.232502+00:00",
+      "readme": {
+        "path": "readmes/z2labs+sdrpp-esp-sdr-source+README.md",
+        "etag": "W/\"2b7283298843e5dc9ac5d90376abccd43fef3e2a\"",
+        "sha": "2b7283298843e5dc9ac5d90376abccd43fef3e2a",
+        "size": 15296,
+        "fetched_at": "2026-10-07T10:27:20.003238+00:00",
+        "status": "ok"
+      }
     },
     "can1357/oh-my-pi": {
       "lists": [
@@ -250121,7 +250137,15 @@
         "pushed_at": "2026-10-07T10:15:13Z",
         "starred_at": "2026-10-06T17:42:33Z"
       },
-      "last_updated": "2026-10-07T10:18:55.507724+00:00"
+      "last_updated": "2026-10-07T10:18:55.507724+00:00",
+      "readme": {
+        "path": "readmes/can1357+oh-my-pi+README.md",
+        "etag": "W/\"0ec361bfc86cd5a41a25407b7a5bac949a6b8536\"",
+        "sha": "0ec361bfc86cd5a41a25407b7a5bac949a6b8536",
+        "size": 45443,
+        "fetched_at": "2026-10-07T10:27:19.391387+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
