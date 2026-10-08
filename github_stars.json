@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T10:37:57.578225+00:00",
+  "last_updated": "2026-10-08T10:45:44.132229+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250148,7 +250148,11 @@
       }
     },
     "docker/docker-agent": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1048418394,
         "name": "docker-agent",
@@ -250168,7 +250172,9 @@
       "last_updated": "2026-10-08T10:37:56.090218+00:00"
     },
     "lauriparonen/gradient-lab": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1010056849,
         "name": "gradient-lab",
@@ -250188,7 +250194,9 @@
       "last_updated": "2026-10-08T10:37:56.358558+00:00"
     },
     "szabadkai/c64-keyboard-font": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1405604903,
         "name": "c64-keyboard-font",
@@ -250208,7 +250216,9 @@
       "last_updated": "2026-10-08T10:37:56.601670+00:00"
     },
     "function-store/FNSTools": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 667189533,
         "name": "FNSTools",
@@ -250228,7 +250238,9 @@
       "last_updated": "2026-10-08T10:37:57.089413+00:00"
     },
     "hybrid-analysis/Sandbox_Scryer": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 511657129,
         "name": "Sandbox_Scryer",
