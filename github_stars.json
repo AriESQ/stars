@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T10:27:20.003761+00:00",
+  "last_updated": "2026-10-08T10:37:57.578225+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250146,6 +250146,106 @@
         "fetched_at": "2026-10-07T10:27:19.391387+00:00",
         "status": "ok"
       }
+    },
+    "docker/docker-agent": {
+      "lists": [],
+      "metadata": {
+        "id": 1048418394,
+        "name": "docker-agent",
+        "full_name": "docker/docker-agent",
+        "description": "AI Agent Builder and Runtime by Docker Engineering",
+        "url": "https://github.com/docker/docker-agent",
+        "homepage": "https://docker.github.io/docker-agent/",
+        "language": "Go",
+        "stars": 4001,
+        "forks": 490,
+        "open_issues": 43,
+        "created_at": "2025-09-01T12:14:45Z",
+        "updated_at": "2026-10-08T10:35:30Z",
+        "pushed_at": "2026-10-08T09:43:36Z",
+        "starred_at": "2026-10-07T21:12:24Z"
+      },
+      "last_updated": "2026-10-08T10:37:56.090218+00:00"
+    },
+    "lauriparonen/gradient-lab": {
+      "lists": [],
+      "metadata": {
+        "id": 1010056849,
+        "name": "gradient-lab",
+        "full_name": "lauriparonen/gradient-lab",
+        "description": "grainy gradient web UI workshop",
+        "url": "https://github.com/lauriparonen/gradient-lab",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-06-28T08:48:52Z",
+        "updated_at": "2026-10-07T20:30:19Z",
+        "pushed_at": "2025-07-04T15:52:41Z",
+        "starred_at": "2026-10-07T20:30:19Z"
+      },
+      "last_updated": "2026-10-08T10:37:56.358558+00:00"
+    },
+    "szabadkai/c64-keyboard-font": {
+      "lists": [],
+      "metadata": {
+        "id": 1405604903,
+        "name": "c64-keyboard-font",
+        "full_name": "szabadkai/c64-keyboard-font",
+        "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
+        "url": "https://github.com/szabadkai/c64-keyboard-font",
+        "homepage": "https://szabadkai.github.io/c64-keyboard-font/",
+        "language": "Python",
+        "stars": 519,
+        "forks": 11,
+        "open_issues": 3,
+        "created_at": "2026-10-05T11:03:06Z",
+        "updated_at": "2026-10-08T10:37:13Z",
+        "pushed_at": "2026-10-07T21:18:43Z",
+        "starred_at": "2026-10-07T16:24:20Z"
+      },
+      "last_updated": "2026-10-08T10:37:56.601670+00:00"
+    },
+    "function-store/FNSTools": {
+      "lists": [],
+      "metadata": {
+        "id": 667189533,
+        "name": "FNSTools",
+        "full_name": "function-store/FNSTools",
+        "description": "TouchDesigner workflow tools and UX improvements and more",
+        "url": "https://github.com/function-store/FNSTools",
+        "homepage": "https://functionstore.tools",
+        "language": "Python",
+        "stars": 295,
+        "forks": 5,
+        "open_issues": 13,
+        "created_at": "2023-07-16T23:48:07Z",
+        "updated_at": "2026-10-07T23:41:06Z",
+        "pushed_at": "2026-10-07T03:53:18Z",
+        "starred_at": "2024-10-25T05:20:22Z"
+      },
+      "last_updated": "2026-10-08T10:37:57.089413+00:00"
+    },
+    "hybrid-analysis/Sandbox_Scryer": {
+      "lists": [],
+      "metadata": {
+        "id": 511657129,
+        "name": "Sandbox_Scryer",
+        "full_name": "hybrid-analysis/Sandbox_Scryer",
+        "description": null,
+        "url": "https://github.com/hybrid-analysis/Sandbox_Scryer",
+        "homepage": null,
+        "language": "C#",
+        "stars": 228,
+        "forks": 30,
+        "open_issues": 1,
+        "created_at": "2022-07-07T19:53:50Z",
+        "updated_at": "2026-10-07T16:18:42Z",
+        "pushed_at": "2022-09-08T15:07:08Z",
+        "starred_at": "2022-09-13T02:17:33Z"
+      },
+      "last_updated": "2026-10-08T10:37:57.578090+00:00"
     }
   },
   "last_processed_index": 0,
@@ -250155,5 +250255,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"74e3da173c0d13562f8bc45b30de925e92b84d2da808205fb3e6e1e561c74b12\""
+  "profile_etag": "W/\"7e50a061f29003d51b14b5f651bb64569f5df6a2bdd363323757abb8e5203d38\""
 }
