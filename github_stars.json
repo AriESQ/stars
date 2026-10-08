@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T10:45:44.132229+00:00",
+  "last_updated": "2026-10-08T10:46:45.346793+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250169,7 +250169,15 @@
         "pushed_at": "2026-10-08T09:43:36Z",
         "starred_at": "2026-10-07T21:12:24Z"
       },
-      "last_updated": "2026-10-08T10:37:56.090218+00:00"
+      "last_updated": "2026-10-08T10:37:56.090218+00:00",
+      "readme": {
+        "path": "readmes/docker+docker-agent+README.md",
+        "etag": "W/\"c6eb7835ac4eba2ca12418c50ab5e01c2e811e44\"",
+        "sha": "c6eb7835ac4eba2ca12418c50ab5e01c2e811e44",
+        "size": 4380,
+        "fetched_at": "2026-10-08T10:46:43.677260+00:00",
+        "status": "ok"
+      }
     },
     "lauriparonen/gradient-lab": {
       "lists": [
@@ -250191,7 +250199,15 @@
         "pushed_at": "2025-07-04T15:52:41Z",
         "starred_at": "2026-10-07T20:30:19Z"
       },
-      "last_updated": "2026-10-08T10:37:56.358558+00:00"
+      "last_updated": "2026-10-08T10:37:56.358558+00:00",
+      "readme": {
+        "path": "readmes/lauriparonen+gradient-lab+README.md",
+        "etag": "W/\"7959ce4269342e8ede1d06bded69ec800d8503d9\"",
+        "sha": "7959ce4269342e8ede1d06bded69ec800d8503d9",
+        "size": 2269,
+        "fetched_at": "2026-10-08T10:46:45.020972+00:00",
+        "status": "ok"
+      }
     },
     "szabadkai/c64-keyboard-font": {
       "lists": [
@@ -250213,7 +250229,15 @@
         "pushed_at": "2026-10-07T21:18:43Z",
         "starred_at": "2026-10-07T16:24:20Z"
       },
-      "last_updated": "2026-10-08T10:37:56.601670+00:00"
+      "last_updated": "2026-10-08T10:37:56.601670+00:00",
+      "readme": {
+        "path": "readmes/szabadkai+c64-keyboard-font+README.md",
+        "etag": "W/\"690db94d67a0a92941efc9e2badae5e59f82d5a0\"",
+        "sha": "690db94d67a0a92941efc9e2badae5e59f82d5a0",
+        "size": 3557,
+        "fetched_at": "2026-10-08T10:46:45.343711+00:00",
+        "status": "ok"
+      }
     },
     "function-store/FNSTools": {
       "lists": [
@@ -250235,7 +250259,15 @@
         "pushed_at": "2026-10-07T03:53:18Z",
         "starred_at": "2024-10-25T05:20:22Z"
       },
-      "last_updated": "2026-10-08T10:37:57.089413+00:00"
+      "last_updated": "2026-10-08T10:37:57.089413+00:00",
+      "readme": {
+        "path": "readmes/function-store+FNSTools+README.md",
+        "etag": "W/\"fd729fb0e52bd9ee0a271f454fa936d0a11a9e4f\"",
+        "sha": "fd729fb0e52bd9ee0a271f454fa936d0a11a9e4f",
+        "size": 9672,
+        "fetched_at": "2026-10-08T10:46:44.013338+00:00",
+        "status": "ok"
+      }
     },
     "hybrid-analysis/Sandbox_Scryer": {
       "lists": [
@@ -250257,7 +250289,15 @@
         "pushed_at": "2022-09-08T15:07:08Z",
         "starred_at": "2022-09-13T02:17:33Z"
       },
-      "last_updated": "2026-10-08T10:37:57.578090+00:00"
+      "last_updated": "2026-10-08T10:37:57.578090+00:00",
+      "readme": {
+        "path": "readmes/hybrid-analysis+Sandbox_Scryer+README.md",
+        "etag": "W/\"364a22e203e05f17161723c1990a1f7569975bfc\"",
+        "sha": "364a22e203e05f17161723c1990a1f7569975bfc",
+        "size": 5498,
+        "fetched_at": "2026-10-08T10:46:44.433192+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
