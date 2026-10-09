@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T10:46:45.346793+00:00",
+  "last_updated": "2026-10-09T10:36:21.245076+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250298,6 +250298,66 @@
         "fetched_at": "2026-10-08T10:46:44.433192+00:00",
         "status": "ok"
       }
+    },
+    "lucas-romanenko/bmdwire": {
+      "lists": [],
+      "metadata": {
+        "id": 1366801846,
+        "name": "bmdwire",
+        "full_name": "lucas-romanenko/bmdwire",
+        "description": "Python libraries for Blackmagic broadcast hardware: ATEM switchers, HyperDeck recorders, Ultimatte keyers and Videohub routers.",
+        "url": "https://github.com/lucas-romanenko/bmdwire",
+        "homepage": null,
+        "language": "Python",
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-12T00:19:32Z",
+        "updated_at": "2026-10-09T01:28:30Z",
+        "pushed_at": "2026-09-16T22:30:21Z",
+        "starred_at": "2026-10-09T01:28:29Z"
+      },
+      "last_updated": "2026-10-09T10:36:20.674256+00:00"
+    },
+    "lucas-romanenko/webatem": {
+      "lists": [],
+      "metadata": {
+        "id": 1324184180,
+        "name": "webatem",
+        "full_name": "lucas-romanenko/webatem",
+        "description": "Browser control for Blackmagic ATEM switchers. Run the server on a Mac, Windows PC or Linux box; control your switchers from any browser on the network \u2014 desktop, laptop, tablet or phone.",
+        "url": "https://github.com/lucas-romanenko/webatem",
+        "homepage": "https://github.com/lucas-romanenko/webatem/releases/latest",
+        "language": "Python",
+        "stars": 22,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-08-05T15:05:01Z",
+        "updated_at": "2026-10-09T05:19:57Z",
+        "pushed_at": "2026-10-08T15:13:24Z",
+        "starred_at": "2026-10-09T01:27:39Z"
+      },
+      "last_updated": "2026-10-09T10:36:20.918532+00:00"
+    },
+    "cactus-compute/cactus": {
+      "lists": [],
+      "metadata": {
+        "id": 971447302,
+        "name": "cactus",
+        "full_name": "cactus-compute/cactus",
+        "description": "Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots. ",
+        "url": "https://github.com/cactus-compute/cactus",
+        "homepage": "https://cactuscompute.com",
+        "language": "C++",
+        "stars": 6113,
+        "forks": 516,
+        "open_issues": 113,
+        "created_at": "2025-04-23T14:33:43Z",
+        "updated_at": "2026-10-09T04:11:37Z",
+        "pushed_at": "2026-09-26T03:14:00Z",
+        "starred_at": "2026-10-08T20:03:47Z"
+      },
+      "last_updated": "2026-10-09T10:36:21.244978+00:00"
     }
   },
   "last_processed_index": 0,
@@ -250307,5 +250367,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7e50a061f29003d51b14b5f651bb64569f5df6a2bdd363323757abb8e5203d38\""
+  "profile_etag": "W/\"37d06d23dfa86dc974cbf884f35933811040845000bda5c99d13050dd17d9a77\""
 }
