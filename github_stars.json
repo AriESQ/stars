@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T10:36:21.245076+00:00",
+  "last_updated": "2026-10-09T10:44:26.040193+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250300,7 +250300,10 @@
       }
     },
     "lucas-romanenko/bmdwire": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1366801846,
         "name": "bmdwire",
@@ -250320,7 +250323,11 @@
       "last_updated": "2026-10-09T10:36:20.674256+00:00"
     },
     "lucas-romanenko/webatem": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1324184180,
         "name": "webatem",
@@ -250340,7 +250347,9 @@
       "last_updated": "2026-10-09T10:36:20.918532+00:00"
     },
     "cactus-compute/cactus": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 971447302,
         "name": "cactus",
