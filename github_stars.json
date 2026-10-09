@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T10:44:26.040193+00:00",
+  "last_updated": "2026-10-09T10:44:59.672080+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250320,7 +250320,15 @@
         "pushed_at": "2026-09-16T22:30:21Z",
         "starred_at": "2026-10-09T01:28:29Z"
       },
-      "last_updated": "2026-10-09T10:36:20.674256+00:00"
+      "last_updated": "2026-10-09T10:36:20.674256+00:00",
+      "readme": {
+        "path": "readmes/lucas-romanenko+bmdwire+README.md",
+        "etag": "W/\"35223fa9067109ef2154575dfadce42fd7df42ca\"",
+        "sha": "35223fa9067109ef2154575dfadce42fd7df42ca",
+        "size": 5091,
+        "fetched_at": "2026-10-09T10:44:59.302268+00:00",
+        "status": "ok"
+      }
     },
     "lucas-romanenko/webatem": {
       "lists": [
@@ -250344,7 +250352,15 @@
         "pushed_at": "2026-10-08T15:13:24Z",
         "starred_at": "2026-10-09T01:27:39Z"
       },
-      "last_updated": "2026-10-09T10:36:20.918532+00:00"
+      "last_updated": "2026-10-09T10:36:20.918532+00:00",
+      "readme": {
+        "path": "readmes/lucas-romanenko+webatem+README.md",
+        "etag": "W/\"0c8f954f13406f45ef8729e9b01e6bf724820850\"",
+        "sha": "0c8f954f13406f45ef8729e9b01e6bf724820850",
+        "size": 25190,
+        "fetched_at": "2026-10-09T10:44:59.667594+00:00",
+        "status": "ok"
+      }
     },
     "cactus-compute/cactus": {
       "lists": [
@@ -250366,7 +250382,15 @@
         "pushed_at": "2026-09-26T03:14:00Z",
         "starred_at": "2026-10-08T20:03:47Z"
       },
-      "last_updated": "2026-10-09T10:36:21.244978+00:00"
+      "last_updated": "2026-10-09T10:36:21.244978+00:00",
+      "readme": {
+        "path": "readmes/cactus-compute+cactus+README.md",
+        "etag": "W/\"5ab4db76e69ab77795b25fb64a0d557fcdf2e23a\"",
+        "sha": "5ab4db76e69ab77795b25fb64a0d557fcdf2e23a",
+        "size": 18713,
+        "fetched_at": "2026-10-09T10:44:58.956024+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
