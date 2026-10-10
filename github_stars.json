@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T09:57:46.390954+00:00",
+  "last_updated": "2026-10-10T10:01:57.307774+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250413,7 +250413,15 @@
         "pushed_at": "2026-10-10T09:51:09Z",
         "starred_at": "2026-10-09T22:06:09Z"
       },
-      "last_updated": "2026-10-10T09:52:26.660511+00:00"
+      "last_updated": "2026-10-10T09:52:26.660511+00:00",
+      "readme": {
+        "path": "readmes/morluto+rea+README.md",
+        "etag": "W/\"bd3bd394fe260dde4da7e2a28ee3d744097b3436\"",
+        "sha": "bd3bd394fe260dde4da7e2a28ee3d744097b3436",
+        "size": 17115,
+        "fetched_at": "2026-10-10T10:01:57.303492+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
