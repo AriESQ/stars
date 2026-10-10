@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T09:52:26.660611+00:00",
+  "last_updated": "2026-10-10T09:57:46.390954+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250393,7 +250393,10 @@
       }
     },
     "morluto/rea": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1209966933,
         "name": "rea",
