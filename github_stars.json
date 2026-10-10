@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T10:44:59.672080+00:00",
+  "last_updated": "2026-10-10T09:52:26.660611+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250391,6 +250391,26 @@
         "fetched_at": "2026-10-09T10:44:58.956024+00:00",
         "status": "ok"
       }
+    },
+    "morluto/rea": {
+      "lists": [],
+      "metadata": {
+        "id": 1209966933,
+        "name": "rea",
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "url": "https://github.com/morluto/rea",
+        "homepage": "https://rea.tools",
+        "language": "TypeScript",
+        "stars": 58134,
+        "forks": 11454,
+        "open_issues": 142,
+        "created_at": "2026-04-14T00:51:32Z",
+        "updated_at": "2026-10-10T09:52:20Z",
+        "pushed_at": "2026-10-10T09:51:09Z",
+        "starred_at": "2026-10-09T22:06:09Z"
+      },
+      "last_updated": "2026-10-10T09:52:26.660511+00:00"
     }
   },
   "last_processed_index": 0,
@@ -250400,5 +250420,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"37d06d23dfa86dc974cbf884f35933811040845000bda5c99d13050dd17d9a77\""
+  "profile_etag": "W/\"b6362f4d984c4595ff5039061c996b43a845dc09d85ea97475ced4e11d9f6281\""
 }
