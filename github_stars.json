@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T10:01:57.307774+00:00",
+  "last_updated": "2026-10-11T10:02:40.646860+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250422,6 +250422,186 @@
         "fetched_at": "2026-10-10T10:01:57.303492+00:00",
         "status": "ok"
       }
+    },
+    "academa-labs/manimgx": {
+      "lists": [],
+      "metadata": {
+        "id": 1406372374,
+        "name": "manimgx",
+        "full_name": "academa-labs/manimgx",
+        "description": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
+        "url": "https://github.com/academa-labs/manimgx",
+        "homepage": "https://manimgx.academa.ai",
+        "language": "Python",
+        "stars": 164,
+        "forks": 8,
+        "open_issues": 0,
+        "created_at": "2026-10-05T20:57:05Z",
+        "updated_at": "2026-10-11T10:02:18Z",
+        "pushed_at": "2026-10-11T00:19:57Z",
+        "starred_at": "2026-10-11T04:13:22Z"
+      },
+      "last_updated": "2026-10-11T10:02:38.050226+00:00"
+    },
+    "Gnomalab/VDMX-ISF-Effects-Suite": {
+      "lists": [],
+      "metadata": {
+        "id": 1128293249,
+        "name": "VDMX-ISF-Effects-Suite",
+        "full_name": "Gnomalab/VDMX-ISF-Effects-Suite",
+        "description": "Collection of ISF (Interactive Shader Format) effects for VDMX5/6 - Real-time visual performance shaders",
+        "url": "https://github.com/Gnomalab/VDMX-ISF-Effects-Suite",
+        "homepage": "",
+        "language": "GLSL",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-01-05T12:26:38Z",
+        "updated_at": "2026-10-11T04:49:25Z",
+        "pushed_at": "2026-01-22T10:23:38Z",
+        "starred_at": "2026-10-11T00:44:05Z"
+      },
+      "last_updated": "2026-10-11T10:02:38.378149+00:00"
+    },
+    "VAST-AI-Research/UniRig": {
+      "lists": [],
+      "metadata": {
+        "id": 962634954,
+        "name": "UniRig",
+        "full_name": "VAST-AI-Research/UniRig",
+        "description": "[SIGGRAPH 2025] One Model to Rig Them All: Diverse Skeleton Rigging with UniRig",
+        "url": "https://github.com/VAST-AI-Research/UniRig",
+        "homepage": "https://zjp-shadow.github.io/works/UniRig/",
+        "language": "Python",
+        "stars": 1820,
+        "forks": 181,
+        "open_issues": 28,
+        "created_at": "2025-04-08T12:56:37Z",
+        "updated_at": "2026-10-11T08:52:32Z",
+        "pushed_at": "2026-06-04T07:15:34Z",
+        "starred_at": "2026-10-10T22:37:01Z"
+      },
+      "last_updated": "2026-10-11T10:02:38.693442+00:00"
+    },
+    "VAST-AI-Research/AniGen": {
+      "lists": [],
+      "metadata": {
+        "id": 1168764387,
+        "name": "AniGen",
+        "full_name": "VAST-AI-Research/AniGen",
+        "description": "[SIGGRAPH 2026] AniGen: Unified S^3 Fields for Animatable 3D Asset Generation",
+        "url": "https://github.com/VAST-AI-Research/AniGen",
+        "homepage": "https://yihua7.github.io/AniGen_web/",
+        "language": "Python",
+        "stars": 519,
+        "forks": 42,
+        "open_issues": 5,
+        "created_at": "2026-02-27T19:13:50Z",
+        "updated_at": "2026-10-10T21:31:38Z",
+        "pushed_at": "2026-07-15T20:48:41Z",
+        "starred_at": "2026-10-10T21:31:38Z"
+      },
+      "last_updated": "2026-10-11T10:02:39.035959+00:00"
+    },
+    "VAST-AI-Research/SkinTokens": {
+      "lists": [],
+      "metadata": {
+        "id": 1153128230,
+        "name": "SkinTokens",
+        "full_name": "VAST-AI-Research/SkinTokens",
+        "description": "SkinTokens: A Learned Compact Representation for Unified Autoregressive Rigging",
+        "url": "https://github.com/VAST-AI-Research/SkinTokens",
+        "homepage": "https://zjp-shadow.github.io/works/SkinTokens/",
+        "language": "Python",
+        "stars": 467,
+        "forks": 69,
+        "open_issues": 9,
+        "created_at": "2026-02-08T23:39:58Z",
+        "updated_at": "2026-10-11T09:51:46Z",
+        "pushed_at": "2026-05-12T13:07:30Z",
+        "starred_at": "2026-10-10T21:31:06Z"
+      },
+      "last_updated": "2026-10-11T10:02:39.347260+00:00"
+    },
+    "Bingeljell/image-to-3dlab": {
+      "lists": [],
+      "metadata": {
+        "id": 1320384572,
+        "name": "image-to-3dlab",
+        "full_name": "Bingeljell/image-to-3dlab",
+        "description": "AssetFurnace: the most complete open-source image-to-3D pipeline (Oct 2026). Prompt or picture \u2192 textured, rigged, animated game character, locally on Apple Silicon or NVIDIA. Pixal3D, TRELLIS.2, Hunyuan3D, SF3D, auto-rig and 21 moves. For indie game devs and 3D artists. Free, Apache-2.0.",
+        "url": "https://github.com/Bingeljell/image-to-3dlab",
+        "homepage": "https://assetfurnace.com",
+        "language": "Python",
+        "stars": 647,
+        "forks": 67,
+        "open_issues": 0,
+        "created_at": "2026-08-02T16:36:25Z",
+        "updated_at": "2026-10-11T10:00:15Z",
+        "pushed_at": "2026-10-10T08:25:56Z",
+        "starred_at": "2026-10-10T21:19:20Z"
+      },
+      "last_updated": "2026-10-11T10:02:39.641940+00:00"
+    },
+    "Friedrich-M/UniMate": {
+      "lists": [],
+      "metadata": {
+        "id": 1309249926,
+        "name": "UniMate",
+        "full_name": "Friedrich-M/UniMate",
+        "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+        "url": "https://github.com/Friedrich-M/UniMate",
+        "homepage": "https://linzhanmou.com/unimate/",
+        "language": "Python",
+        "stars": 1689,
+        "forks": 162,
+        "open_issues": 3,
+        "created_at": "2026-07-22T20:57:39Z",
+        "updated_at": "2026-10-11T09:45:50Z",
+        "pushed_at": "2026-10-08T02:52:24Z",
+        "starred_at": "2026-10-10T21:18:45Z"
+      },
+      "last_updated": "2026-10-11T10:02:39.947197+00:00"
+    },
+    "Mixar-AI/mixar-app": {
+      "lists": [],
+      "metadata": {
+        "id": 1242402978,
+        "name": "mixar-app",
+        "full_name": "Mixar-AI/mixar-app",
+        "description": "AI-powered 3D suite built on Blender, with an integrated agent, moodboard, generation tools and layer-based painting",
+        "url": "https://github.com/Mixar-AI/mixar-app",
+        "homepage": "https://www.mixar.app",
+        "language": "Python",
+        "stars": 494,
+        "forks": 89,
+        "open_issues": 9,
+        "created_at": "2026-05-18T11:52:17Z",
+        "updated_at": "2026-10-11T05:31:31Z",
+        "pushed_at": "2026-10-11T01:28:21Z",
+        "starred_at": "2026-10-10T18:26:14Z"
+      },
+      "last_updated": "2026-10-11T10:02:40.271374+00:00"
+    },
+    "EmbarkStudios/texture-synthesis": {
+      "lists": [],
+      "metadata": {
+        "id": 204427049,
+        "name": "texture-synthesis",
+        "full_name": "EmbarkStudios/texture-synthesis",
+        "description": "\ud83c\udfa8 Example-based texture synthesis written in Rust \ud83e\udd80",
+        "url": "https://github.com/EmbarkStudios/texture-synthesis",
+        "homepage": "http://embark.rs",
+        "language": "Rust",
+        "stars": 1819,
+        "forks": 93,
+        "open_issues": 11,
+        "created_at": "2019-08-26T08:06:48Z",
+        "updated_at": "2026-10-11T06:31:58Z",
+        "pushed_at": "2023-01-22T17:30:52Z",
+        "starred_at": "2026-10-10T12:22:48Z"
+      },
+      "last_updated": "2026-10-11T10:02:40.646760+00:00"
     }
   },
   "last_processed_index": 0,
@@ -250431,5 +250611,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"b6362f4d984c4595ff5039061c996b43a845dc09d85ea97475ced4e11d9f6281\""
+  "profile_etag": "W/\"6d2453db662b18ff5ff4ef401564d527c81a34b8684ca731d881c14ad999f470\""
 }
