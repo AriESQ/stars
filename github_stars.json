@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T10:02:40.646860+00:00",
+  "last_updated": "2026-10-11T10:10:13.825134+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250424,7 +250424,11 @@
       }
     },
     "academa-labs/manimgx": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python",
+        "Rust"
+      ],
       "metadata": {
         "id": 1406372374,
         "name": "manimgx",
@@ -250444,7 +250448,9 @@
       "last_updated": "2026-10-11T10:02:38.050226+00:00"
     },
     "Gnomalab/VDMX-ISF-Effects-Suite": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1128293249,
         "name": "VDMX-ISF-Effects-Suite",
@@ -250464,7 +250470,11 @@
       "last_updated": "2026-10-11T10:02:38.378149+00:00"
     },
     "VAST-AI-Research/UniRig": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 962634954,
         "name": "UniRig",
@@ -250484,7 +250494,11 @@
       "last_updated": "2026-10-11T10:02:38.693442+00:00"
     },
     "VAST-AI-Research/AniGen": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1168764387,
         "name": "AniGen",
@@ -250504,7 +250518,11 @@
       "last_updated": "2026-10-11T10:02:39.035959+00:00"
     },
     "VAST-AI-Research/SkinTokens": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1153128230,
         "name": "SkinTokens",
@@ -250524,7 +250542,11 @@
       "last_updated": "2026-10-11T10:02:39.347260+00:00"
     },
     "Bingeljell/image-to-3dlab": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1320384572,
         "name": "image-to-3dlab",
@@ -250544,7 +250566,9 @@
       "last_updated": "2026-10-11T10:02:39.641940+00:00"
     },
     "Friedrich-M/UniMate": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1309249926,
         "name": "UniMate",
@@ -250564,7 +250588,11 @@
       "last_updated": "2026-10-11T10:02:39.947197+00:00"
     },
     "Mixar-AI/mixar-app": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1242402978,
         "name": "mixar-app",
@@ -250584,7 +250612,10 @@
       "last_updated": "2026-10-11T10:02:40.271374+00:00"
     },
     "EmbarkStudios/texture-synthesis": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 204427049,
         "name": "texture-synthesis",
