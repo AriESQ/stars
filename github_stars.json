@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T10:10:13.825134+00:00",
+  "last_updated": "2026-10-11T10:10:41.255446+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250445,7 +250445,15 @@
         "pushed_at": "2026-10-11T00:19:57Z",
         "starred_at": "2026-10-11T04:13:22Z"
       },
-      "last_updated": "2026-10-11T10:02:38.050226+00:00"
+      "last_updated": "2026-10-11T10:02:38.050226+00:00",
+      "readme": {
+        "path": "readmes/academa-labs+manimgx+README.md",
+        "etag": "W/\"27950cc5986698bb9d8310c196b42176c48793ed\"",
+        "sha": "27950cc5986698bb9d8310c196b42176c48793ed",
+        "size": 12613,
+        "fetched_at": "2026-10-11T10:10:41.246173+00:00",
+        "status": "ok"
+      }
     },
     "Gnomalab/VDMX-ISF-Effects-Suite": {
       "lists": [
@@ -250467,7 +250475,15 @@
         "pushed_at": "2026-01-22T10:23:38Z",
         "starred_at": "2026-10-11T00:44:05Z"
       },
-      "last_updated": "2026-10-11T10:02:38.378149+00:00"
+      "last_updated": "2026-10-11T10:02:38.378149+00:00",
+      "readme": {
+        "path": "readmes/Gnomalab+VDMX-ISF-Effects-Suite+README.md",
+        "etag": "W/\"c64008b7808b9d44aa5daa65635fb253400241d3\"",
+        "sha": "c64008b7808b9d44aa5daa65635fb253400241d3",
+        "size": 4895,
+        "fetched_at": "2026-10-11T10:10:40.002330+00:00",
+        "status": "ok"
+      }
     },
     "VAST-AI-Research/UniRig": {
       "lists": [
@@ -250491,7 +250507,15 @@
         "pushed_at": "2026-06-04T07:15:34Z",
         "starred_at": "2026-10-10T22:37:01Z"
       },
-      "last_updated": "2026-10-11T10:02:38.693442+00:00"
+      "last_updated": "2026-10-11T10:02:38.693442+00:00",
+      "readme": {
+        "path": "readmes/VAST-AI-Research+UniRig+README.md",
+        "etag": "W/\"3ae2962ab8109b119228ea40e9cd013c33b9e38e\"",
+        "sha": "3ae2962ab8109b119228ea40e9cd013c33b9e38e",
+        "size": 21054,
+        "fetched_at": "2026-10-11T10:10:41.028901+00:00",
+        "status": "ok"
+      }
     },
     "VAST-AI-Research/AniGen": {
       "lists": [
@@ -250515,7 +250539,15 @@
         "pushed_at": "2026-07-15T20:48:41Z",
         "starred_at": "2026-10-10T21:31:38Z"
       },
-      "last_updated": "2026-10-11T10:02:39.035959+00:00"
+      "last_updated": "2026-10-11T10:02:39.035959+00:00",
+      "readme": {
+        "path": "readmes/VAST-AI-Research+AniGen+README.md",
+        "etag": "W/\"5cd93f15fc157f2dfddb7bf49f8c69146adcbe56\"",
+        "sha": "5cd93f15fc157f2dfddb7bf49f8c69146adcbe56",
+        "size": 15216,
+        "fetched_at": "2026-10-11T10:10:40.496880+00:00",
+        "status": "ok"
+      }
     },
     "VAST-AI-Research/SkinTokens": {
       "lists": [
@@ -250539,7 +250571,15 @@
         "pushed_at": "2026-05-12T13:07:30Z",
         "starred_at": "2026-10-10T21:31:06Z"
       },
-      "last_updated": "2026-10-11T10:02:39.347260+00:00"
+      "last_updated": "2026-10-11T10:02:39.347260+00:00",
+      "readme": {
+        "path": "readmes/VAST-AI-Research+SkinTokens+README.md",
+        "etag": "W/\"7b9d14a47adcc29d6bc99367e6d7780980ddd055\"",
+        "sha": "7b9d14a47adcc29d6bc99367e6d7780980ddd055",
+        "size": 8735,
+        "fetched_at": "2026-10-11T10:10:40.773287+00:00",
+        "status": "ok"
+      }
     },
     "Bingeljell/image-to-3dlab": {
       "lists": [
@@ -250563,7 +250603,15 @@
         "pushed_at": "2026-10-10T08:25:56Z",
         "starred_at": "2026-10-10T21:19:20Z"
       },
-      "last_updated": "2026-10-11T10:02:39.641940+00:00"
+      "last_updated": "2026-10-11T10:02:39.641940+00:00",
+      "readme": {
+        "path": "readmes/Bingeljell+image-to-3dlab+README.md",
+        "etag": "W/\"56d65c599c996d5dce86e787b47e493fda8fe641\"",
+        "sha": "56d65c599c996d5dce86e787b47e493fda8fe641",
+        "size": 23402,
+        "fetched_at": "2026-10-11T10:10:39.239271+00:00",
+        "status": "ok"
+      }
     },
     "Friedrich-M/UniMate": {
       "lists": [
@@ -250585,7 +250633,15 @@
         "pushed_at": "2026-10-08T02:52:24Z",
         "starred_at": "2026-10-10T21:18:45Z"
       },
-      "last_updated": "2026-10-11T10:02:39.947197+00:00"
+      "last_updated": "2026-10-11T10:02:39.947197+00:00",
+      "readme": {
+        "path": "readmes/Friedrich-M+UniMate+README.md",
+        "etag": "W/\"aa52a87cdd6620e8a70a044a2fa93c51c533e56f\"",
+        "sha": "aa52a87cdd6620e8a70a044a2fa93c51c533e56f",
+        "size": 24863,
+        "fetched_at": "2026-10-11T10:10:39.706431+00:00",
+        "status": "ok"
+      }
     },
     "Mixar-AI/mixar-app": {
       "lists": [
@@ -250609,7 +250665,15 @@
         "pushed_at": "2026-10-11T01:28:21Z",
         "starred_at": "2026-10-10T18:26:14Z"
       },
-      "last_updated": "2026-10-11T10:02:40.271374+00:00"
+      "last_updated": "2026-10-11T10:02:40.271374+00:00",
+      "readme": {
+        "path": "readmes/Mixar-AI+mixar-app+README.md",
+        "etag": "W/\"35d6946b64b86a59b08e32c4f10a0f0e056fc091\"",
+        "sha": "35d6946b64b86a59b08e32c4f10a0f0e056fc091",
+        "size": 11550,
+        "fetched_at": "2026-10-11T10:10:40.245206+00:00",
+        "status": "ok"
+      }
     },
     "EmbarkStudios/texture-synthesis": {
       "lists": [
@@ -250632,7 +250696,15 @@
         "pushed_at": "2023-01-22T17:30:52Z",
         "starred_at": "2026-10-10T12:22:48Z"
       },
-      "last_updated": "2026-10-11T10:02:40.646760+00:00"
+      "last_updated": "2026-10-11T10:02:40.646760+00:00",
+      "readme": {
+        "path": "readmes/EmbarkStudios+texture-synthesis+README.md",
+        "etag": "W/\"cf7149515b6a44e0a4681ef01d8e8b688593ccf8\"",
+        "sha": "cf7149515b6a44e0a4681ef01d8e8b688593ccf8",
+        "size": 18956,
+        "fetched_at": "2026-10-11T10:10:39.475020+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
