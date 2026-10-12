@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T11:01:36.032660+00:00",
+  "last_updated": "2026-10-12T11:02:13.137034+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250727,7 +250727,15 @@
         "pushed_at": "2023-11-11T09:22:57Z",
         "starred_at": "2026-10-11T23:50:54Z"
       },
-      "last_updated": "2026-10-12T10:52:52.807290+00:00"
+      "last_updated": "2026-10-12T10:52:52.807290+00:00",
+      "readme": {
+        "path": "readmes/Akascape+Pixelort+README.md",
+        "etag": "W/\"6b80f40618dec9894a9c2dad84a5cbefdfac2d58\"",
+        "sha": "6b80f40618dec9894a9c2dad84a5cbefdfac2d58",
+        "size": 3978,
+        "fetched_at": "2026-10-12T11:02:11.153317+00:00",
+        "status": "ok"
+      }
     },
     "MoonModules/MoonLight": {
       "lists": [
@@ -250749,7 +250757,15 @@
         "pushed_at": "2026-10-12T10:36:59Z",
         "starred_at": "2026-10-11T22:19:30Z"
       },
-      "last_updated": "2026-10-12T10:52:53.134571+00:00"
+      "last_updated": "2026-10-12T10:52:53.134571+00:00",
+      "readme": {
+        "path": "readmes/MoonModules+MoonLight+README.md",
+        "etag": "W/\"968b92df0ee18806718eae95bea813eb2c1986ee\"",
+        "sha": "968b92df0ee18806718eae95bea813eb2c1986ee",
+        "size": 18636,
+        "fetched_at": "2026-10-12T11:02:11.494538+00:00",
+        "status": "ok"
+      }
     },
     "cicloid/awesome-fm-1": {
       "lists": [
@@ -250772,7 +250788,15 @@
         "pushed_at": "2026-10-10T18:20:20Z",
         "starred_at": "2026-10-11T20:56:20Z"
       },
-      "last_updated": "2026-10-12T10:52:53.453257+00:00"
+      "last_updated": "2026-10-12T10:52:53.453257+00:00",
+      "readme": {
+        "path": "readmes/cicloid+awesome-fm-1+README.md",
+        "etag": "W/\"b3210a41372b73ac5b01d3d7e749cb88b2afc6c8\"",
+        "sha": "b3210a41372b73ac5b01d3d7e749cb88b2afc6c8",
+        "size": 29851,
+        "fetched_at": "2026-10-12T11:02:11.850586+00:00",
+        "status": "ok"
+      }
     },
     "d0mzw/pixel6-kgdb-usb": {
       "lists": [
@@ -250795,7 +250819,15 @@
         "pushed_at": "2026-10-12T10:20:42Z",
         "starred_at": "2026-10-11T17:54:14Z"
       },
-      "last_updated": "2026-10-12T10:52:53.870362+00:00"
+      "last_updated": "2026-10-12T10:52:53.870362+00:00",
+      "readme": {
+        "path": "readmes/d0mzw+pixel6-kgdb-usb+README.md",
+        "etag": "W/\"17a17017edfcaaa9aa1958a72780449be3529407\"",
+        "sha": "17a17017edfcaaa9aa1958a72780449be3529407",
+        "size": 41943,
+        "fetched_at": "2026-10-12T11:02:12.186721+00:00",
+        "status": "ok"
+      }
     },
     "star-history/star-history": {
       "lists": [
@@ -250817,7 +250849,15 @@
         "pushed_at": "2026-09-12T16:00:22Z",
         "starred_at": "2026-10-11T16:47:22Z"
       },
-      "last_updated": "2026-10-12T10:52:54.254795+00:00"
+      "last_updated": "2026-10-12T10:52:54.254795+00:00",
+      "readme": {
+        "path": "readmes/star-history+star-history+README.md",
+        "etag": "W/\"d031550bbee3d758346d4a270360c630ce0a836a\"",
+        "sha": "d031550bbee3d758346d4a270360c630ce0a836a",
+        "size": 6737,
+        "fetched_at": "2026-10-12T11:02:13.134683+00:00",
+        "status": "ok"
+      }
     },
     "ircv3/ircv3-specifications": {
       "lists": [],
@@ -250837,7 +250877,15 @@
         "pushed_at": "2026-08-03T20:19:05Z",
         "starred_at": "2026-10-11T16:11:47Z"
       },
-      "last_updated": "2026-10-12T10:52:54.598137+00:00"
+      "last_updated": "2026-10-12T10:52:54.598137+00:00",
+      "readme": {
+        "path": "readmes/ircv3+ircv3-specifications+README.md",
+        "etag": "W/\"6d528f7f14ca1728c46599cc6bdf14f4e6502da8\"",
+        "sha": "6d528f7f14ca1728c46599cc6bdf14f4e6502da8",
+        "size": 473,
+        "fetched_at": "2026-10-12T11:02:12.521329+00:00",
+        "status": "ok"
+      }
     },
     "johnneerdael/ProjectM-Android": {
       "lists": [
@@ -250859,7 +250907,15 @@
         "pushed_at": "2026-10-12T10:40:51Z",
         "starred_at": "2026-10-05T19:14:58Z"
       },
-      "last_updated": "2026-10-12T10:52:54.907457+00:00"
+      "last_updated": "2026-10-12T10:52:54.907457+00:00",
+      "readme": {
+        "path": "readmes/johnneerdael+ProjectM-Android+README.md",
+        "etag": "W/\"3227343935d6984dd3696fc6661db6d13ba4dfbc\"",
+        "sha": "3227343935d6984dd3696fc6661db6d13ba4dfbc",
+        "size": 17366,
+        "fetched_at": "2026-10-12T11:02:12.817714+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
