@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T10:52:54.907535+00:00",
+  "last_updated": "2026-10-12T11:01:36.032660+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250707,7 +250707,10 @@
       }
     },
     "Akascape/Pixelort": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 715974792,
         "name": "Pixelort",
@@ -250727,7 +250730,9 @@
       "last_updated": "2026-10-12T10:52:52.807290+00:00"
     },
     "MoonModules/MoonLight": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1242240138,
         "name": "MoonLight",
@@ -250747,7 +250752,10 @@
       "last_updated": "2026-10-12T10:52:53.134571+00:00"
     },
     "cicloid/awesome-fm-1": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1406459859,
         "name": "awesome-fm-1",
@@ -250767,7 +250775,10 @@
       "last_updated": "2026-10-12T10:52:53.453257+00:00"
     },
     "d0mzw/pixel6-kgdb-usb": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1413807000,
         "name": "pixel6-kgdb-usb",
@@ -250787,7 +250798,9 @@
       "last_updated": "2026-10-12T10:52:53.870362+00:00"
     },
     "star-history/star-history": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 42976210,
         "name": "star-history",
@@ -250827,7 +250840,9 @@
       "last_updated": "2026-10-12T10:52:54.598137+00:00"
     },
     "johnneerdael/ProjectM-Android": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1036756804,
         "name": "ProjectM-Android",
