@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T11:02:13.137034+00:00",
+  "last_updated": "2026-10-13T10:39:06.306493+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250916,6 +250916,86 @@
         "fetched_at": "2026-10-12T11:02:12.817714+00:00",
         "status": "ok"
       }
+    },
+    "snuri00/ps2-web-recomp": {
+      "lists": [],
+      "metadata": {
+        "id": 1409890709,
+        "name": "ps2-web-recomp",
+        "full_name": "snuri00/ps2-web-recomp",
+        "description": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime",
+        "url": "https://github.com/snuri00/ps2-web-recomp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 510,
+        "forks": 33,
+        "open_issues": 0,
+        "created_at": "2026-10-08T07:06:56Z",
+        "updated_at": "2026-10-13T10:37:48Z",
+        "pushed_at": "2026-10-13T08:45:20Z",
+        "starred_at": "2026-10-12T21:40:34Z"
+      },
+      "last_updated": "2026-10-13T10:39:05.512689+00:00"
+    },
+    "mainframed/Hackers-Plymouth": {
+      "lists": [],
+      "metadata": {
+        "id": 834977183,
+        "name": "Hackers-Plymouth",
+        "full_name": "mainframed/Hackers-Plymouth",
+        "description": "Hacker bootsplash themes just like in the movie!",
+        "url": "https://github.com/mainframed/Hackers-Plymouth",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 96,
+        "forks": 5,
+        "open_issues": 3,
+        "created_at": "2024-07-28T22:02:05Z",
+        "updated_at": "2026-10-12T20:56:10Z",
+        "pushed_at": "2024-07-28T22:55:46Z",
+        "starred_at": "2026-10-12T20:56:09Z"
+      },
+      "last_updated": "2026-10-13T10:39:05.759984+00:00"
+    },
+    "h0m3us3r/w1700k-sdr": {
+      "lists": [],
+      "metadata": {
+        "id": 1414851145,
+        "name": "w1700k-sdr",
+        "full_name": "h0m3us3r/w1700k-sdr",
+        "description": null,
+        "url": "https://github.com/h0m3us3r/w1700k-sdr",
+        "homepage": null,
+        "language": "C",
+        "stars": 495,
+        "forks": 45,
+        "open_issues": 2,
+        "created_at": "2026-10-11T23:21:22Z",
+        "updated_at": "2026-10-13T10:35:47Z",
+        "pushed_at": "2026-10-13T03:25:43Z",
+        "starred_at": "2026-10-12T18:21:26Z"
+      },
+      "last_updated": "2026-10-13T10:39:06.008710+00:00"
+    },
+    "tridant-io/owlette": {
+      "lists": [],
+      "metadata": {
+        "id": 690196860,
+        "name": "owlette",
+        "full_name": "tridant-io/owlette",
+        "description": "owlette keeps your installations running 24/7",
+        "url": "https://github.com/tridant-io/owlette",
+        "homepage": "https://owlette.app",
+        "language": "TypeScript",
+        "stars": 33,
+        "forks": 1,
+        "open_issues": 31,
+        "created_at": "2023-09-11T18:10:35Z",
+        "updated_at": "2026-10-12T17:25:32Z",
+        "pushed_at": "2026-10-13T04:57:18Z",
+        "starred_at": "2026-10-12T17:25:31Z"
+      },
+      "last_updated": "2026-10-13T10:39:06.306381+00:00"
     }
   },
   "last_processed_index": 0,
@@ -250925,5 +251005,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"cdce51c2ceece817dd97d20b6f9b9c4e449411c45ecd6338c1eca663f55a9e0f\""
+  "profile_etag": "W/\"73ef9275c55657b8ad8ac05e65e1760474175f0162e0984d10006f77826398de\""
 }
