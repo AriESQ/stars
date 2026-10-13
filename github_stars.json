@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T10:49:02.376154+00:00",
+  "last_updated": "2026-10-13T10:49:24.399050+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250938,7 +250938,15 @@
         "pushed_at": "2026-10-13T08:45:20Z",
         "starred_at": "2026-10-12T21:40:34Z"
       },
-      "last_updated": "2026-10-13T10:39:05.512689+00:00"
+      "last_updated": "2026-10-13T10:39:05.512689+00:00",
+      "readme": {
+        "path": "readmes/snuri00+ps2-web-recomp+README.md",
+        "etag": "W/\"3f1f35f059be1953ddc21e238fd6e3d84aa86ab2\"",
+        "sha": "3f1f35f059be1953ddc21e238fd6e3d84aa86ab2",
+        "size": 15088,
+        "fetched_at": "2026-10-13T10:49:23.923188+00:00",
+        "status": "ok"
+      }
     },
     "mainframed/Hackers-Plymouth": {
       "lists": [
@@ -250960,7 +250968,15 @@
         "pushed_at": "2024-07-28T22:55:46Z",
         "starred_at": "2026-10-12T20:56:09Z"
       },
-      "last_updated": "2026-10-13T10:39:05.759984+00:00"
+      "last_updated": "2026-10-13T10:39:05.759984+00:00",
+      "readme": {
+        "path": "readmes/mainframed+Hackers-Plymouth+README.md",
+        "etag": "W/\"00097fba015081945af594a47704988d4a10345e\"",
+        "sha": "00097fba015081945af594a47704988d4a10345e",
+        "size": 5809,
+        "fetched_at": "2026-10-13T10:49:23.611295+00:00",
+        "status": "ok"
+      }
     },
     "h0m3us3r/w1700k-sdr": {
       "lists": [
@@ -250982,7 +250998,15 @@
         "pushed_at": "2026-10-13T03:25:43Z",
         "starred_at": "2026-10-12T18:21:26Z"
       },
-      "last_updated": "2026-10-13T10:39:06.008710+00:00"
+      "last_updated": "2026-10-13T10:39:06.008710+00:00",
+      "readme": {
+        "path": "readmes/h0m3us3r+w1700k-sdr+README.md",
+        "etag": "W/\"5936d6fb8ad69869420590ebda90e3de329fa4a9\"",
+        "sha": "5936d6fb8ad69869420590ebda90e3de329fa4a9",
+        "size": 7391,
+        "fetched_at": "2026-10-13T10:49:23.154463+00:00",
+        "status": "ok"
+      }
     },
     "tridant-io/owlette": {
       "lists": [
@@ -251004,7 +251028,15 @@
         "pushed_at": "2026-10-13T04:57:18Z",
         "starred_at": "2026-10-12T17:25:31Z"
       },
-      "last_updated": "2026-10-13T10:39:06.306381+00:00"
+      "last_updated": "2026-10-13T10:39:06.306381+00:00",
+      "readme": {
+        "path": "readmes/tridant-io+owlette+README.md",
+        "etag": "W/\"1908a3e92f0e0419818b7e262b9824146adf8288\"",
+        "sha": "1908a3e92f0e0419818b7e262b9824146adf8288",
+        "size": 8634,
+        "fetched_at": "2026-10-13T10:49:24.397604+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
