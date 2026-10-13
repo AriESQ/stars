@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T10:39:06.306493+00:00",
+  "last_updated": "2026-10-13T10:49:02.376154+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -250918,7 +250918,10 @@
       }
     },
     "snuri00/ps2-web-recomp": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1409890709,
         "name": "ps2-web-recomp",
@@ -250938,7 +250941,9 @@
       "last_updated": "2026-10-13T10:39:05.512689+00:00"
     },
     "mainframed/Hackers-Plymouth": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 834977183,
         "name": "Hackers-Plymouth",
@@ -250958,7 +250963,9 @@
       "last_updated": "2026-10-13T10:39:05.759984+00:00"
     },
     "h0m3us3r/w1700k-sdr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1414851145,
         "name": "w1700k-sdr",
@@ -250978,7 +250985,9 @@
       "last_updated": "2026-10-13T10:39:06.008710+00:00"
     },
     "tridant-io/owlette": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 690196860,
         "name": "owlette",
