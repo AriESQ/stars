@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T08:29:06.223837+00:00",
+  "last_updated": "2026-10-15T08:29:38.038711+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251059,7 +251059,15 @@
         "pushed_at": "2026-01-26T18:59:19Z",
         "starred_at": "2026-10-13T21:31:16Z"
       },
-      "last_updated": "2026-10-14T08:45:51.145779+00:00"
+      "last_updated": "2026-10-14T08:45:51.145779+00:00",
+      "readme": {
+        "path": "readmes/IntentDev+Keyframer+README.md",
+        "etag": "W/\"013ea4decc323ca0590528ff7984f518afd5c916\"",
+        "sha": "013ea4decc323ca0590528ff7984f518afd5c916",
+        "size": 2204,
+        "fetched_at": "2026-10-15T08:29:36.764009+00:00",
+        "status": "ok"
+      }
     },
     "rohitg00/tailclaude": {
       "lists": [
@@ -251081,7 +251089,15 @@
         "pushed_at": "2026-02-26T16:54:53Z",
         "starred_at": "2026-10-13T20:01:03Z"
       },
-      "last_updated": "2026-10-14T08:45:51.438259+00:00"
+      "last_updated": "2026-10-14T08:45:51.438259+00:00",
+      "readme": {
+        "path": "readmes/rohitg00+tailclaude+README.md",
+        "etag": "W/\"d23c8ef143803ac1d3a33f7c0a36166cbbe7ab82\"",
+        "sha": "d23c8ef143803ac1d3a33f7c0a36166cbbe7ab82",
+        "size": 19324,
+        "fetched_at": "2026-10-15T08:29:38.036115+00:00",
+        "status": "ok"
+      }
     },
     "Arhythmetic-Units/PotatoChips": {
       "lists": [
@@ -251103,7 +251119,15 @@
         "pushed_at": "2026-10-14T03:37:27Z",
         "starred_at": "2024-11-13T00:12:23Z"
       },
-      "last_updated": "2026-10-14T08:45:51.925548+00:00"
+      "last_updated": "2026-10-14T08:45:51.925548+00:00",
+      "readme": {
+        "path": "readmes/Arhythmetic-Units+PotatoChips+README.md",
+        "etag": "W/\"5dc5f13ae33bbd1f0e5ac494fbc18c09caddfc15\"",
+        "sha": "5dc5f13ae33bbd1f0e5ac494fbc18c09caddfc15",
+        "size": 8615,
+        "fetched_at": "2026-10-15T08:29:36.349948+00:00",
+        "status": "ok"
+      }
     },
     "pypa/pip-tools": {
       "lists": [
@@ -251125,7 +251149,15 @@
         "pushed_at": "2026-10-13T22:14:19Z",
         "starred_at": "2023-07-18T02:42:35Z"
       },
-      "last_updated": "2026-10-14T08:45:52.435655+00:00"
+      "last_updated": "2026-10-14T08:45:52.435655+00:00",
+      "readme": {
+        "path": "readmes/pypa+pip-tools+README.md",
+        "etag": "W/\"78e9a5b3a6100c601ad0f399d5f7038afe5ed75e\"",
+        "sha": "78e9a5b3a6100c601ad0f399d5f7038afe5ed75e",
+        "size": 22808,
+        "fetched_at": "2026-10-15T08:29:37.676956+00:00",
+        "status": "ok"
+      }
     },
     "android/architecture-templates": {
       "lists": [],
@@ -251145,7 +251177,15 @@
         "pushed_at": "2026-10-09T12:24:16Z",
         "starred_at": "2026-10-15T01:27:51Z"
       },
-      "last_updated": "2026-10-15T08:21:11.793972+00:00"
+      "last_updated": "2026-10-15T08:21:11.793972+00:00",
+      "readme": {
+        "path": "readmes/android+architecture-templates+README.md",
+        "etag": "W/\"05849db1a65630329a300229c1242072c10d88d9\"",
+        "sha": "05849db1a65630329a300229c1242072c10d88d9",
+        "size": 3307,
+        "fetched_at": "2026-10-15T08:29:37.089925+00:00",
+        "status": "ok"
+      }
     },
     "cables-gl/cables_electron": {
       "lists": [
@@ -251167,7 +251207,15 @@
         "pushed_at": "2026-10-15T07:43:42Z",
         "starred_at": "2026-10-14T16:48:03Z"
       },
-      "last_updated": "2026-10-15T08:21:12.057732+00:00"
+      "last_updated": "2026-10-15T08:21:12.057732+00:00",
+      "readme": {
+        "path": "readmes/cables-gl+cables_electron+README.md",
+        "etag": "W/\"3d00c8a1d8eaa745726ecbf233670c8800c592bf\"",
+        "sha": "3d00c8a1d8eaa745726ecbf233670c8800c592bf",
+        "size": 6036,
+        "fetched_at": "2026-10-15T08:29:37.385870+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
