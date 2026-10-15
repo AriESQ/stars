@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T08:21:12.057845+00:00",
+  "last_updated": "2026-10-15T08:29:06.223837+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -98444,7 +98444,8 @@
     },
     "cables-gl/cables": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "JavaScript"
       ],
       "metadata": {
         "id": 36925626,
@@ -251039,7 +251040,9 @@
       }
     },
     "IntentDev/Keyframer": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 742549746,
         "name": "Keyframer",
@@ -251059,7 +251062,9 @@
       "last_updated": "2026-10-14T08:45:51.145779+00:00"
     },
     "rohitg00/tailclaude": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1165646300,
         "name": "tailclaude",
@@ -251079,7 +251084,9 @@
       "last_updated": "2026-10-14T08:45:51.438259+00:00"
     },
     "Arhythmetic-Units/PotatoChips": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 274401571,
         "name": "PotatoChips",
@@ -251099,7 +251106,9 @@
       "last_updated": "2026-10-14T08:45:51.925548+00:00"
     },
     "pypa/pip-tools": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 5746963,
         "name": "pip-tools",
@@ -251139,7 +251148,9 @@
       "last_updated": "2026-10-15T08:21:11.793972+00:00"
     },
     "cables-gl/cables_electron": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 723060310,
         "name": "cables_electron",
