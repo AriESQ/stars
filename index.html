@@ -459,7 +459,10 @@ function filterAndSort() {
   let entries = Object.entries(data.repositories);
   entries = entries.filter(([name, repo]) => {
     if (q && !name.toLowerCase().includes(q) && !(repo.metadata?.description ?? '').toLowerCase().includes(q)) return false;
-    if (activeLists.size && !(repo.lists || []).some(l => activeLists.has(l))) return false;
+    if (activeLists.size) {
+      const repoLists = repo.lists || [];
+      for (const l of activeLists) if (!repoLists.includes(l)) return false;
+    }
     if (activeLangs.size && !activeLangs.has(repo.metadata?.language || 'Unknown')) return false;
     const active = conditions.filter(c => c.value);
     if (active.length === 0) return true;
@@ -484,8 +487,7 @@ function filterAndSort() {
 function render() {
   if (!data) return;
   const entries = filterAndSort();
-  const total = Object.keys(data.repositories).length;
-  document.getElementById('heading').innerHTML = `Stars <span class="count-badge">${total}</span>`;
+  document.getElementById('heading').innerHTML = `Stars <span class="count-badge">${fmt(entries.length)}</span>`;
   renderChart(entries);
 
   document.getElementById('repos').innerHTML = entries.map(([name, repo]) => {
@@ -778,10 +780,11 @@ function renderTreemap(container, tooltip, entries, width) {
   const height = Math.min(width * 0.55, 450);
 
   const listCounts = {};
+  const emptyLabel = 'Unlisted';
   entries.forEach(([, r]) => {
     const lists = r.lists || [];
-    if (lists.length === 0) { listCounts['Unlisted'] = (listCounts['Unlisted'] || 0) + 1; }
-    else { lists.forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; }); }
+    if (lists.length === 0) listCounts[emptyLabel] = (listCounts[emptyLabel] || 0) + 1;
+    else lists.forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; });
   });
 
   const children = Object.entries(listCounts)
@@ -803,9 +806,11 @@ function renderTreemap(container, tooltip, entries, width) {
     .attr('width', d => d.x1 - d.x0)
     .attr('height', d => d.y1 - d.y0)
     .attr('fill', d => LIST_COLORS[d.data.name] || '#8b949e')
-    .attr('opacity', 0.85)
+    .attr('opacity', d => activeLists.size && !activeLists.has(d.data.name) ? 0.6 : 0.85)
+    .attr('stroke', d => activeLists.has(d.data.name) ? '#fff' : null)
+    .attr('stroke-width', d => activeLists.has(d.data.name) ? 2 : null)
     .attr('rx', 3)
-    .style('cursor', 'pointer')
+    .style('cursor', d => d.data.name === emptyLabel ? 'default' : 'pointer')
     .on('mouseenter', (e, d) => {
       tooltip.style.opacity = 1;
       tooltip.innerHTML = `<strong>${esc(d.data.name)}</strong><br>${d.data.value} repos`;
@@ -816,6 +821,7 @@ function renderTreemap(container, tooltip, entries, width) {
     })
     .on('mouseleave', () => { tooltip.style.opacity = 0; })
     .on('click', (e, d) => {
+      if (d.data.name === emptyLabel) return;
       if (activeLists.has(d.data.name)) activeLists.delete(d.data.name);
       else activeLists.add(d.data.name);
       document.querySelectorAll('#list-filter .tag').forEach(t => {
