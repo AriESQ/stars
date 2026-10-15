@@ -49,7 +49,14 @@
   .profile-bio { font-size: var(--font-sm); color: var(--color-text-muted); }
 
   /* Controls */
-  .stars-header { font-size: var(--font-xl); font-weight: 300; margin-bottom: var(--gap); }
+  .stars-header { font-size: var(--font-xl); font-weight: 300; }
+  .stars-header-row { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin-bottom: var(--gap); }
+  .share-btn {
+    display: inline-flex; align-items: center; gap: .375rem; padding: 2px 10px; font-size: var(--font-sm);
+    background: transparent; border: 1px solid var(--color-border); border-radius: 9999px;
+    color: var(--color-text-secondary); cursor: pointer;
+  }
+  .share-btn:hover { background: var(--color-bg-tertiary); border-color: var(--color-border-hover); color: var(--color-text); }
   .controls-row { display: flex; flex-wrap: wrap; gap: var(--gap); align-items: stretch; margin-bottom: 1rem; }
   .search-form { display: flex; flex: 1 1 100%; }
   .search-form input {
@@ -161,7 +168,13 @@
 <div class="container">
   <a id="profile-header" class="profile-header" target="_blank"></a>
   <div class="main">
-      <h2 class="stars-header" id="heading">Stars</h2>
+      <div class="stars-header-row">
+        <h2 class="stars-header" id="heading">Stars</h2>
+        <button class="share-btn" id="share-btn" type="button" title="Copy a link to this view">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg>
+          <span id="share-label">Copy link</span>
+        </button>
+      </div>
       <div id="chart" class="chart-container open"></div>
       <div id="chart-tooltip" class="chart-tooltip"></div>
       <div class="controls-row">
@@ -232,6 +245,8 @@ function syncURL() {
   if (conjunction !== 'AND') params.set('conj', conjunction);
   const active = conditions.filter(c => c.value);
   if (active.length) params.set('c', JSON.stringify(active));
+  if (chartType !== 'treemap') params.set('chart', chartType);
+  if (expanded) params.set('open', expanded);
   const qs = params.toString();
   const url = qs ? `${location.pathname}?${qs}` : location.pathname;
   history.replaceState(null, '', url);
@@ -260,6 +275,8 @@ function loadFromURL() {
   if (params.has('c')) {
     try { conditions = JSON.parse(params.get('c')); } catch (e) { /* ignore malformed */ }
   }
+  if (CHART_TYPES.some(t => t.id === params.get('chart'))) chartType = params.get('chart');
+  if (data.repositories[params.get('open')]) expanded = params.get('open');
   if (activeLists.size) {
     document.getElementById('list-filter').classList.add('open');
   }
@@ -279,6 +296,7 @@ fetch(base + 'github_stars.json').then(r => r.json()).then(d => {
   buildListFilter();
   if (conditions.length) renderAdvanced();
   render();
+  revealExpanded();
 }).catch(e => {
   document.getElementById('repos').innerHTML = `<div class="loading">Error loading data: ${esc(e.message)}</div>`;
 });
@@ -342,6 +360,26 @@ document.getElementById('repos').addEventListener('click', e => {
   expanded = expanded === name ? null : name;
   if (prev) updateRow(prev);
   if (expanded) updateRow(expanded);
+  syncURL();
+});
+
+document.getElementById('share-btn').addEventListener('click', async () => {
+  syncURL();
+  const url = location.href;
+  const label = document.getElementById('share-label');
+  // Phones get the native share sheet; desktops copy to the clipboard
+  if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+    try { await navigator.share({ title: document.title, url }); return; }
+    catch (e) { if (e.name === 'AbortError') return; }
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    label.textContent = '✓ Copied';
+    clearTimeout(label._timer);
+    label._timer = setTimeout(() => { label.textContent = 'Copy link'; }, 2000);
+  } catch {
+    prompt('Copy this link:', url);
+  }
 });
 
 // --- List filter ---
@@ -554,6 +592,19 @@ function observeMore() {
   if (shownCount < currentEntries.length) moreObserver.observe(el);
 }
 
+// For shared ?open= links: render rows down to the expanded repo and scroll to it
+function revealExpanded() {
+  const idx = currentEntries.findIndex(([name]) => name === expanded);
+  if (idx < 0) return;
+  if (idx >= shownCount) {
+    document.getElementById('repos').insertAdjacentHTML('beforeend', rowsHTML(shownCount, idx + 1));
+    shownCount = idx + 1;
+    observeMore();
+  }
+  document.querySelector(`#repos .repo-top[data-name="${CSS.escape(expanded)}"]`)
+    ?.closest('.repo-item').scrollIntoView({ block: 'center' });
+}
+
 function updateRow(name) {
   const top = document.querySelector(`#repos .repo-top[data-name="${CSS.escape(name)}"]`);
   if (top) top.closest('.repo-item').outerHTML = repoHTML(name, data.repositories[name]);
@@ -643,6 +694,8 @@ let chartType = 'treemap';
 
 // Color palette for star lists
 const LIST_COLORS = {};
+const LIST_TOTALS = {}; // repos per list across all stars
+const SELECTED_SHARE = 0.3; // fraction of treemap width given to the selected-lists column
 const LIST_PALETTE = [
   '#58a6ff','#f78166','#7ee787','#d2a8ff','#ff7b72',
   '#79c0ff','#ffa657','#56d364','#bc8cff','#ffa198',
@@ -658,6 +711,7 @@ function assignListColors() {
   Object.values(data.repositories).forEach(r => {
     (r.lists || []).forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; });
   });
+  Object.assign(LIST_TOTALS, listCounts);
   const sorted = Object.entries(listCounts).sort((a, b) => b[1] - a[1]);
   sorted.forEach(([name], i) => { LIST_COLORS[name] = LIST_PALETTE[i % LIST_PALETTE.length]; });
   LIST_COLORS['Unlisted'] = '#30363d';
@@ -694,7 +748,7 @@ function renderChart(entries) {
     const btn = document.createElement('button');
     btn.textContent = label;
     btn.style.cssText = `flex:1;padding:8px;font-size:.75rem;border:none;cursor:pointer;min-width:80px;background:${chartType === id ? 'var(--color-bg-tertiary)' : 'transparent'};color:${chartType === id ? 'var(--color-text)' : 'var(--color-text-muted)'};border-bottom:${chartType === id ? '2px solid var(--color-link)' : '2px solid transparent'};`;
-    btn.addEventListener('click', () => { chartType = id; renderChart(entries); });
+    btn.addEventListener('click', () => { chartType = id; renderChart(entries); syncURL(); });
     selector.appendChild(btn);
   });
   container.appendChild(selector);
@@ -841,6 +895,16 @@ function renderAreaChart(container, tooltip, entries, width) {
 
 // --- Treemap (by star lists) ---
 
+// Lay out tiles (largest first) in a w×h box shifted right by dx; returns positioned leaves
+function layoutTreemap(children, w, h, tile, dx) {
+  if (!children.length || w <= 0) return [];
+  const root = d3.hierarchy({ children }).sum(d => d.size).sort((a, b) => b.value - a.value);
+  d3.treemap().tile(tile).size([w, h]).padding(2).round(true)(root);
+  const leaves = root.leaves();
+  leaves.forEach(d => { d.x0 += dx; d.x1 += dx; });
+  return leaves;
+}
+
 function renderTreemap(container, tooltip, entries, width) {
   const height = Math.min(width * 0.55, 450);
 
@@ -852,18 +916,39 @@ function renderTreemap(container, tooltip, entries, width) {
     else lists.forEach(l => { listCounts[l] = (listCounts[l] || 0) + 1; });
   });
 
-  const children = Object.entries(listCounts)
-    .sort((a, b) => b[1] - a[1])
-    .map(([name, value]) => ({ name, value }));
-
-  const root = d3.hierarchy({ children }).sum(d => d.value);
-  d3.treemap().size([width, height]).padding(2).round(true)(root);
+  // Tile area ("size") is decoupled from the count shown in labels ("value").
+  const children = Object.entries(listCounts).map(([name, value]) => ({ name, value }));
+  let leaves;
+  if (activeLists.size) {
+    // Selected lists contain every shown repo, so at true scale they'd swamp the chart.
+    // They get a fixed left column, stacked largest first by each list's total across all
+    // stars; remaining lists fill the rest at sqrt scale so small ones stay big enough to click.
+    const selected = children.filter(c => activeLists.has(c.name));
+    const others = children.filter(c => !activeLists.has(c.name));
+    selected.forEach(c => { c.size = LIST_TOTALS[c.name] || c.value; });
+    others.forEach(c => { c.size = Math.sqrt(c.value); });
+    const colW = Math.round(width * SELECTED_SHARE);
+    if (!others.length) {
+      const note = document.createElement('div');
+      note.textContent = 'These repos are in no other lists';
+      note.style.cssText = `position:absolute;left:${colW}px;right:0;top:0;bottom:0;display:flex;align-items:center;justify-content:center;color:var(--color-text-muted);font-size:.8125rem;`;
+      container.style.position = 'relative';
+      container.appendChild(note);
+    }
+    leaves = [
+      ...layoutTreemap(selected, colW, height, d3.treemapSlice, 0),
+      ...layoutTreemap(others, width - colW, height, d3.treemapSquarify, colW),
+    ];
+  } else {
+    children.forEach(c => { c.size = c.value; });
+    leaves = layoutTreemap(children, width, height, d3.treemapSquarify, 0);
+  }
 
   const svg = d3.select(container).append('svg')
     .attr('width', width).attr('height', height);
 
   const nodes = svg.selectAll('g')
-    .data(root.leaves().filter(d => d.data.name))
+    .data(leaves)
     .join('g')
     .attr('transform', d => `translate(${d.x0},${d.y0})`);
 
@@ -878,7 +963,8 @@ function renderTreemap(container, tooltip, entries, width) {
     .style('cursor', d => d.data.name === emptyLabel ? 'default' : 'pointer')
     .on('mouseenter', (e, d) => {
       tooltip.style.opacity = 1;
-      tooltip.innerHTML = `<strong>${esc(d.data.name)}</strong><br>${d.data.value} repos`;
+      const total = activeLists.has(d.data.name) && LIST_TOTALS[d.data.name];
+      tooltip.innerHTML = `<strong>${esc(d.data.name)}</strong><br>${d.data.value} repo${d.data.value === 1 ? '' : 's'}${total ? ` shown (${fmt(total)} in list)` : ''}`;
     })
     .on('mousemove', e => {
       tooltip.style.left = (e.pageX + 12) + 'px';
@@ -910,7 +996,7 @@ function renderTreemap(container, tooltip, entries, width) {
       g.append('text')
         .attr('x', 6).attr('y', 32)
         .attr('fill', 'rgba(255,255,255,0.7)').attr('font-size', 11)
-        .text(d.data.value + ' repos');
+        .text(d.data.value + (d.data.value === 1 ? ' repo' : ' repos'));
     }
   });
 }
