@@ -26,7 +26,8 @@ jobs:
         mkdir -p _site
         cp index.html _site/
         cp favicon.ico _site/
-        cp github_stars.json _site/
+        # Publish only the fields the dashboard reads (see scripts/slim_stars.jq)
+        jq -c -f scripts/slim_stars.jq github_stars.json > _site/github_stars.json
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
