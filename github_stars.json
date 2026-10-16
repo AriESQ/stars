@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T08:21:28.643304+00:00",
+  "last_updated": "2026-10-16T08:21:55.520811+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251238,7 +251238,15 @@
         "pushed_at": "2026-10-15T21:37:33Z",
         "starred_at": "2026-10-16T02:07:26Z"
       },
-      "last_updated": "2026-10-16T08:13:36.544738+00:00"
+      "last_updated": "2026-10-16T08:13:36.544738+00:00",
+      "readme": {
+        "path": "readmes/joakimeriksson+fm1-emu+README.md",
+        "etag": "W/\"5f3c17df9a861bf468070dec825f3546a3f3bb17\"",
+        "sha": "5f3c17df9a861bf468070dec825f3546a3f3bb17",
+        "size": 26489,
+        "fetched_at": "2026-10-16T08:21:55.221415+00:00",
+        "status": "ok"
+      }
     },
     "luigifcruz/BirriaSDR": {
       "lists": [
@@ -251260,7 +251268,15 @@
         "pushed_at": "2026-10-14T17:56:09Z",
         "starred_at": "2026-10-16T02:03:11Z"
       },
-      "last_updated": "2026-10-16T08:13:36.882312+00:00"
+      "last_updated": "2026-10-16T08:13:36.882312+00:00",
+      "readme": {
+        "path": "readmes/luigifcruz+BirriaSDR+README.md",
+        "etag": "W/\"6f5eb55336c1efb32ac1eedde31743d67391e417\"",
+        "sha": "6f5eb55336c1efb32ac1eedde31743d67391e417",
+        "size": 15923,
+        "fetched_at": "2026-10-16T08:21:55.515943+00:00",
+        "status": "ok"
+      }
     },
     "getarcaneapp/arcane": {
       "lists": [
@@ -251282,7 +251298,15 @@
         "pushed_at": "2026-10-16T04:21:29Z",
         "starred_at": "2026-10-16T00:45:03Z"
       },
-      "last_updated": "2026-10-16T08:13:37.268358+00:00"
+      "last_updated": "2026-10-16T08:13:37.268358+00:00",
+      "readme": {
+        "path": "readmes/getarcaneapp+arcane+README.md",
+        "etag": "W/\"deafc9e1590d9a8461919045a1a1811e4f709370\"",
+        "sha": "deafc9e1590d9a8461919045a1a1811e4f709370",
+        "size": 2142,
+        "fetched_at": "2026-10-16T08:21:54.543162+00:00",
+        "status": "ok"
+      }
     },
     "Finsys/dockhand": {
       "lists": [
@@ -251304,7 +251328,15 @@
         "pushed_at": "2026-10-15T14:12:43Z",
         "starred_at": "2026-10-16T00:44:02Z"
       },
-      "last_updated": "2026-10-16T08:13:37.671533+00:00"
+      "last_updated": "2026-10-16T08:13:37.671533+00:00",
+      "readme": {
+        "path": "readmes/Finsys+dockhand+README.md",
+        "etag": "W/\"f6dec59d9a0eccfc3a3f8206d713904f2a924e08\"",
+        "sha": "f6dec59d9a0eccfc3a3f8206d713904f2a924e08",
+        "size": 8318,
+        "fetched_at": "2026-10-16T08:21:53.970275+00:00",
+        "status": "ok"
+      }
     },
     "andunieee/flipflop": {
       "lists": [
@@ -251328,7 +251360,15 @@
         "pushed_at": "2026-10-15T04:21:48Z",
         "starred_at": "2026-10-15T21:11:54Z"
       },
-      "last_updated": "2026-10-16T08:13:38.149176+00:00"
+      "last_updated": "2026-10-16T08:13:38.149176+00:00",
+      "readme": {
+        "path": "readmes/andunieee+flipflop+README.md",
+        "etag": "W/\"03737a2e83cafd5fc61bf51efac171fba0811cb3\"",
+        "sha": "03737a2e83cafd5fc61bf51efac171fba0811cb3",
+        "size": 1004,
+        "fetched_at": "2026-10-16T08:21:54.238049+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
