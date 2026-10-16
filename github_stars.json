@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T08:13:38.149282+00:00",
+  "last_updated": "2026-10-16T08:21:28.643304+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -88468,7 +88468,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Rust"
+        "Rust",
+        "Docker and OCI containers"
       ],
       "metadata": {
         "id": 469321930,
@@ -251218,7 +251219,9 @@
       }
     },
     "joakimeriksson/fm1-emu": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1415821668,
         "name": "fm1-emu",
@@ -251238,7 +251241,9 @@
       "last_updated": "2026-10-16T08:13:36.544738+00:00"
     },
     "luigifcruz/BirriaSDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1416428935,
         "name": "BirriaSDR",
@@ -251258,7 +251263,9 @@
       "last_updated": "2026-10-16T08:13:36.882312+00:00"
     },
     "getarcaneapp/arcane": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 968905557,
         "name": "arcane",
@@ -251278,7 +251285,9 @@
       "last_updated": "2026-10-16T08:13:37.268358+00:00"
     },
     "Finsys/dockhand": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1124326845,
         "name": "dockhand",
@@ -251298,7 +251307,11 @@
       "last_updated": "2026-10-16T08:13:37.671533+00:00"
     },
     "andunieee/flipflop": {
-      "lists": [],
+      "lists": [
+        "Networking",
+        "QUIC",
+        "Rust"
+      ],
       "metadata": {
         "id": 1358604172,
         "name": "flipflop",
