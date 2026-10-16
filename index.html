@@ -198,7 +198,7 @@
           <button class="ctrl-btn" id="sort-dir">&#9660;</button>
         </div>
       </div>
-      <div id="list-filter" class="list-filter"></div>
+      <div id="list-filter" class="list-filter open"></div>
       <div id="advanced" class="advanced"></div>
       <div id="repos"><div class="loading">Loading...</div></div>
       <div id="more"></div>
@@ -277,9 +277,6 @@ function loadFromURL() {
   }
   if (CHART_TYPES.some(t => t.id === params.get('chart'))) chartType = params.get('chart');
   if (data.repositories[params.get('open')]) expanded = params.get('open');
-  if (activeLists.size) {
-    document.getElementById('list-filter').classList.add('open');
-  }
   if (conditions.length) {
     document.getElementById('advanced').classList.add('open');
   }
