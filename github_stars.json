@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T08:04:34.485218+00:00",
+  "last_updated": "2026-10-18T08:12:36.985625+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -83581,7 +83581,8 @@
     },
     "thestk/rtmidi": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "DIY"
       ],
       "metadata": {
         "id": 13499878,
@@ -251371,7 +251372,9 @@
       }
     },
     "m-vave/fm1_open": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1416743005,
         "name": "fm1_open",
@@ -251391,7 +251394,9 @@
       "last_updated": "2026-10-18T08:04:31.247754+00:00"
     },
     "yuvi1-1/echoes_in_light-VJ": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1408184061,
         "name": "echoes_in_light-VJ",
@@ -251411,7 +251416,9 @@
       "last_updated": "2026-10-18T08:04:31.503593+00:00"
     },
     "dylanroscover/Sndviz": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 256874444,
         "name": "Sndviz",
@@ -251431,7 +251438,9 @@
       "last_updated": "2026-10-18T08:04:31.772205+00:00"
     },
     "t3kt/tektshared": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 12547708,
         "name": "tektshared",
@@ -251451,7 +251460,10 @@
       "last_updated": "2026-10-18T08:04:32.003682+00:00"
     },
     "obsidianmd/pele": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1406482535,
         "name": "pele",
@@ -251471,7 +251483,9 @@
       "last_updated": "2026-10-18T08:04:32.310801+00:00"
     },
     "adbar/trafilatura": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 180136168,
         "name": "trafilatura",
@@ -251491,7 +251505,10 @@
       "last_updated": "2026-10-18T08:04:32.539752+00:00"
     },
     "microsoft/MIDI": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 495959471,
         "name": "MIDI",
@@ -251511,7 +251528,9 @@
       "last_updated": "2026-10-18T08:04:32.793841+00:00"
     },
     "flit/MidiKeys": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 21475473,
         "name": "MidiKeys",
@@ -251531,7 +251550,9 @@
       "last_updated": "2026-10-18T08:04:33.030293+00:00"
     },
     "super-linter/super-linter": {
-      "lists": [],
+      "lists": [
+        "CI/CD"
+      ],
       "metadata": {
         "id": 216581567,
         "name": "super-linter",
@@ -251551,7 +251572,9 @@
       "last_updated": "2026-10-18T08:04:33.308108+00:00"
     },
     "Trashsurgery/Thauma-Synth-Portable-Alpha": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1423058172,
         "name": "Thauma-Synth-Portable-Alpha",
@@ -251571,7 +251594,9 @@
       "last_updated": "2026-10-18T08:04:33.536700+00:00"
     },
     "murong-xu/SlicerCADSWholeBodyCTSeg": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 820626600,
         "name": "SlicerCADSWholeBodyCTSeg",
@@ -251591,7 +251616,9 @@
       "last_updated": "2026-10-18T08:04:33.795875+00:00"
     },
     "CLoaKY233/siltop": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1422333894,
         "name": "siltop",
@@ -251611,7 +251638,9 @@
       "last_updated": "2026-10-18T08:04:34.049148+00:00"
     },
     "chrisle/rbxport": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1388234142,
         "name": "rbxport",
@@ -251631,7 +251660,10 @@
       "last_updated": "2026-10-18T08:04:34.266298+00:00"
     },
     "paper-instruments/feather-train": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1396579214,
         "name": "feather-train",
