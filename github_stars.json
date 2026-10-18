@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T07:58:43.033670+00:00",
+  "last_updated": "2026-10-18T08:04:34.485218+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251369,6 +251369,286 @@
         "fetched_at": "2026-10-16T08:21:54.238049+00:00",
         "status": "ok"
       }
+    },
+    "m-vave/fm1_open": {
+      "lists": [],
+      "metadata": {
+        "id": 1416743005,
+        "name": "fm1_open",
+        "full_name": "m-vave/fm1_open",
+        "description": null,
+        "url": "https://github.com/m-vave/fm1_open",
+        "homepage": null,
+        "language": "C",
+        "stars": 85,
+        "forks": 16,
+        "open_issues": 1,
+        "created_at": "2026-10-13T08:59:19Z",
+        "updated_at": "2026-10-18T07:48:32Z",
+        "pushed_at": "2026-10-17T06:57:33Z",
+        "starred_at": "2026-10-18T03:40:16Z"
+      },
+      "last_updated": "2026-10-18T08:04:31.247754+00:00"
+    },
+    "yuvi1-1/echoes_in_light-VJ": {
+      "lists": [],
+      "metadata": {
+        "id": 1408184061,
+        "name": "echoes_in_light-VJ",
+        "full_name": "yuvi1-1/echoes_in_light-VJ",
+        "description": "1st Touch Designer Project. Audio-reactive VJ engine for TouchDesigner: beat, mood and drop detection",
+        "url": "https://github.com/yuvi1-1/echoes_in_light-VJ",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-07T03:19:26Z",
+        "updated_at": "2026-10-18T03:27:42Z",
+        "pushed_at": "2026-10-07T03:24:26Z",
+        "starred_at": "2026-10-18T03:27:42Z"
+      },
+      "last_updated": "2026-10-18T08:04:31.503593+00:00"
+    },
+    "dylanroscover/Sndviz": {
+      "lists": [],
+      "metadata": {
+        "id": 256874444,
+        "name": "Sndviz",
+        "full_name": "dylanroscover/Sndviz",
+        "description": "Modular sound visualization toolkit for TouchDesigner",
+        "url": "https://github.com/dylanroscover/Sndviz",
+        "homepage": "",
+        "language": null,
+        "stars": 23,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2020-04-18T23:34:24Z",
+        "updated_at": "2026-10-18T03:26:54Z",
+        "pushed_at": "2023-07-20T23:02:14Z",
+        "starred_at": "2026-10-18T03:26:53Z"
+      },
+      "last_updated": "2026-10-18T08:04:31.772205+00:00"
+    },
+    "t3kt/tektshared": {
+      "lists": [],
+      "metadata": {
+        "id": 12547708,
+        "name": "tektshared",
+        "full_name": "t3kt/tektshared",
+        "description": "Shared TouchDesigner components",
+        "url": "https://github.com/t3kt/tektshared",
+        "homepage": null,
+        "language": "Python",
+        "stars": 55,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2013-09-02T19:44:43Z",
+        "updated_at": "2026-10-18T03:23:28Z",
+        "pushed_at": "2015-09-26T17:32:20Z",
+        "starred_at": "2026-10-18T03:23:28Z"
+      },
+      "last_updated": "2026-10-18T08:04:32.003682+00:00"
+    },
+    "obsidianmd/pele": {
+      "lists": [],
+      "metadata": {
+        "id": 1406482535,
+        "name": "pele",
+        "full_name": "obsidianmd/pele",
+        "description": "Renders Mermaid diagrams faster than you'd run from a volcano! \ud83c\udf0b ",
+        "url": "https://github.com/obsidianmd/pele",
+        "homepage": "https://pele.run",
+        "language": "TypeScript",
+        "stars": 1063,
+        "forks": 28,
+        "open_issues": 8,
+        "created_at": "2026-10-05T23:32:40Z",
+        "updated_at": "2026-10-18T08:03:15Z",
+        "pushed_at": "2026-10-17T20:46:38Z",
+        "starred_at": "2026-10-18T02:38:03Z"
+      },
+      "last_updated": "2026-10-18T08:04:32.310801+00:00"
+    },
+    "adbar/trafilatura": {
+      "lists": [],
+      "metadata": {
+        "id": 180136168,
+        "name": "trafilatura",
+        "full_name": "adbar/trafilatura",
+        "description": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML",
+        "url": "https://github.com/adbar/trafilatura",
+        "homepage": "https://trafilatura.readthedocs.io",
+        "language": "Python",
+        "stars": 6979,
+        "forks": 459,
+        "open_issues": 87,
+        "created_at": "2019-04-08T11:38:48Z",
+        "updated_at": "2026-10-18T02:25:24Z",
+        "pushed_at": "2026-10-06T19:31:29Z",
+        "starred_at": "2026-10-18T02:25:23Z"
+      },
+      "last_updated": "2026-10-18T08:04:32.539752+00:00"
+    },
+    "microsoft/MIDI": {
+      "lists": [],
+      "metadata": {
+        "id": 495959471,
+        "name": "MIDI",
+        "full_name": "microsoft/MIDI",
+        "description": "Windows MIDI Services",
+        "url": "https://github.com/microsoft/MIDI",
+        "homepage": "",
+        "language": "C++",
+        "stars": 706,
+        "forks": 77,
+        "open_issues": 53,
+        "created_at": "2022-05-24T19:22:56Z",
+        "updated_at": "2026-10-18T04:08:11Z",
+        "pushed_at": "2026-10-18T02:38:10Z",
+        "starred_at": "2026-10-18T02:17:28Z"
+      },
+      "last_updated": "2026-10-18T08:04:32.793841+00:00"
+    },
+    "flit/MidiKeys": {
+      "lists": [],
+      "metadata": {
+        "id": 21475473,
+        "name": "MidiKeys",
+        "full_name": "flit/MidiKeys",
+        "description": "On-screen MIDI keyboard with hotkeys support",
+        "url": "https://github.com/flit/MidiKeys",
+        "homepage": "",
+        "language": "Objective-C",
+        "stars": 147,
+        "forks": 14,
+        "open_issues": 21,
+        "created_at": "2014-07-03T20:08:23Z",
+        "updated_at": "2026-10-17T21:50:33Z",
+        "pushed_at": "2023-06-03T23:35:54Z",
+        "starred_at": "2026-10-17T21:50:33Z"
+      },
+      "last_updated": "2026-10-18T08:04:33.030293+00:00"
+    },
+    "super-linter/super-linter": {
+      "lists": [],
+      "metadata": {
+        "id": 216581567,
+        "name": "super-linter",
+        "full_name": "super-linter/super-linter",
+        "description": "Combination of multiple linters to run as a GitHub Action or standalone",
+        "url": "https://github.com/super-linter/super-linter",
+        "homepage": "https://github.com/super-linter/super-linter",
+        "language": "Shell",
+        "stars": 10628,
+        "forks": 1080,
+        "open_issues": 56,
+        "created_at": "2019-10-21T13:56:50Z",
+        "updated_at": "2026-10-18T07:01:24Z",
+        "pushed_at": "2026-10-16T13:33:20Z",
+        "starred_at": "2026-10-17T20:26:50Z"
+      },
+      "last_updated": "2026-10-18T08:04:33.308108+00:00"
+    },
+    "Trashsurgery/Thauma-Synth-Portable-Alpha": {
+      "lists": [],
+      "metadata": {
+        "id": 1423058172,
+        "name": "Thauma-Synth-Portable-Alpha",
+        "full_name": "Trashsurgery/Thauma-Synth-Portable-Alpha",
+        "description": "Portable app, no other code provided until I get out of \"alpha\"",
+        "url": "https://github.com/Trashsurgery/Thauma-Synth-Portable-Alpha",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-17T07:13:34Z",
+        "updated_at": "2026-10-17T20:03:55Z",
+        "pushed_at": "2026-10-17T10:08:22Z",
+        "starred_at": "2026-10-17T20:03:55Z"
+      },
+      "last_updated": "2026-10-18T08:04:33.536700+00:00"
+    },
+    "murong-xu/SlicerCADSWholeBodyCTSeg": {
+      "lists": [],
+      "metadata": {
+        "id": 820626600,
+        "name": "SlicerCADSWholeBodyCTSeg",
+        "full_name": "murong-xu/SlicerCADSWholeBodyCTSeg",
+        "description": "\ud83e\ude7b A 3D Slicer plugin for fully automated segmentation of 167 anatomical structures in CT.",
+        "url": "https://github.com/murong-xu/SlicerCADSWholeBodyCTSeg",
+        "homepage": "",
+        "language": "Python",
+        "stars": 33,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2024-06-26T21:19:13Z",
+        "updated_at": "2026-10-17T19:19:29Z",
+        "pushed_at": "2026-04-20T10:46:51Z",
+        "starred_at": "2026-10-17T19:19:29Z"
+      },
+      "last_updated": "2026-10-18T08:04:33.795875+00:00"
+    },
+    "CLoaKY233/siltop": {
+      "lists": [],
+      "metadata": {
+        "id": 1422333894,
+        "name": "siltop",
+        "full_name": "CLoaKY233/siltop",
+        "description": "Terminal system monitor for Apple Silicon Macs: CPU, GPU, power, temperatures, processes.",
+        "url": "https://github.com/CLoaKY233/siltop",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 31,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-10-16T15:25:14Z",
+        "updated_at": "2026-10-18T02:46:40Z",
+        "pushed_at": "2026-10-17T12:58:37Z",
+        "starred_at": "2026-10-17T11:21:31Z"
+      },
+      "last_updated": "2026-10-18T08:04:34.049148+00:00"
+    },
+    "chrisle/rbxport": {
+      "lists": [],
+      "metadata": {
+        "id": 1388234142,
+        "name": "rbxport",
+        "full_name": "chrisle/rbxport",
+        "description": "A focused music library manager inspired by rekordbox, with USB export and PRO DJ LINK. Built for a faster, simpler workflow.",
+        "url": "https://github.com/chrisle/rbxport",
+        "homepage": "https://rbxport.com",
+        "language": "Rust",
+        "stars": 210,
+        "forks": 33,
+        "open_issues": 99,
+        "created_at": "2026-09-25T22:07:44Z",
+        "updated_at": "2026-10-18T07:24:55Z",
+        "pushed_at": "2026-10-18T08:02:47Z",
+        "starred_at": "2026-10-17T10:53:27Z"
+      },
+      "last_updated": "2026-10-18T08:04:34.266298+00:00"
+    },
+    "paper-instruments/feather-train": {
+      "lists": [],
+      "metadata": {
+        "id": 1396579214,
+        "name": "feather-train",
+        "full_name": "paper-instruments/feather-train",
+        "description": "Feather agent harness, training integrations, and evaluation tools for knowledge work",
+        "url": "https://github.com/paper-instruments/feather-train",
+        "homepage": null,
+        "language": "Python",
+        "stars": 207,
+        "forks": 21,
+        "open_issues": 21,
+        "created_at": "2026-09-29T20:49:28Z",
+        "updated_at": "2026-10-18T04:52:42Z",
+        "pushed_at": "2026-10-16T11:51:29Z",
+        "starred_at": "2026-10-17T10:43:43Z"
+      },
+      "last_updated": "2026-10-18T08:04:34.485122+00:00"
     }
   },
   "last_processed_index": 0,
@@ -251378,5 +251658,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"be345bc43467dd8b39c0c7cb83c8b73fd710f5455683eaf124137e56c6ca7ab4\""
+  "profile_etag": "W/\"530d6d6c93b99dbc04ce19ed8631967babaf9280d5a0e92ce0ab9842c10a4af2\""
 }
