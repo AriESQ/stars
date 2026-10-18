@@ -1,0 +1,178 @@
+# CADS 3D Slicer Plugin
+This repository provides the 3D Slicer extension of the [CADS-model](https://github.com/murong-xu/CADS), enabling one-click, fully automated segmentation of 167 anatomical structures in whole-body CT directly inside 3D Slicer.
+
+<img src="Screenshot_01.png" alt="overview" width="95%">
+
+[CADS-model](https://github.com/murong-xu/CADS) is part of the broader CADS project, which also includes the [CADS-dataset](https://huggingface.co/datasets/mrmrx/CADS-dataset), a comprehensive collection of more than 22,000 CT scans with annotations for 167 anatomical structures.
+
+👉 This repository focuses only on the plugin for [CADS-model](https://github.com/murong-xu/CADS), providing an easy-to-use interface for clinical and research workflows.
+
+## Useful Links
+- [📄 CADS Paper Preprint](https://arxiv.org/abs/2507.22953)
+- [🤗 CADS-dataset](https://huggingface.co/datasets/mrmrx/CADS-dataset)
+- [📦 CADS-model Weights](https://github.com/murong-xu/CADS/releases/tag/cads-model_v1.0.0)
+- [🔧 CADS-model Codebase](https://github.com/murong-xu/CADS)
+- [🛠 CADS-model 3D Slicer Plugin](https://github.com/murong-xu/SlicerCADSWholeBodyCTSeg)
+
+If you use this software and find this work useful, please cite:
+
+```bibtex
+@article{xu2025cads,
+  title={CADS: A Comprehensive Anatomical Dataset and Segmentation for Whole-Body Anatomy in Computed Tomography},
+  author={Xu, Murong and Amiranashvili, Tamaz and Navarro, Fernando and Fritsak, Maksym and Hamamci, Ibrahim Ethem and Shit, Suprosanna and Wittmann, Bastian and Er, Sezgin and Christ, Sebastian M. and de la Rosa, Ezequiel and Deseoe, Julian and Graf, Robert and Möller, Hendrik and Sekuboyina, Anjany and Peeken, Jan C. and Becker, Sven and Baldini, Giulia and Haubold, Johannes and Nensa, Felix and Hosch, René and Mirajkar, Nikhil and Khalid, Saad and Zachow, Stefan and Weber, Marc-André and Langs, Georg and Wasserthal, Jakob and Ozdemir, Mehmet Kemal and Fedorov, Andrey and Kikinis, Ron and Tanadini-Lang, Stephanie and Kirschke, Jan S. and Combs, Stephanie E. and Menze, Bjoern},
+  journal={arXiv preprint arXiv:2507.22953},
+  year={2025}
+}
+```
+
+## Installation
+1. **Install 3D Slicer**  
+   Download and install the latest version of [3D Slicer](https://download.slicer.org/).  
+   Compatibility note (verified on 2025-12-18): Our extension has been tested with stable release **5.10.0** and preview release **5.11.0**.
+
+2. **Install PyTorch**  
+   Slicer makes it easy to set up the correct PyTorch version:  
+   - Open `Extension Manager` in Slicer → search for `PyTorch` → click `Install`.  
+     (Slicer will ask you to restart after installation.)  
+   - After restarting, go to the `PyTorch Utils` module.  
+     In the `Torch version requirement` box, type <mark>>=2.1.2</mark>, then click `Install PyTorch`. Any PyTorch version between <mark>2.1.2</mark> and <mark>2.8.0</mark> (inclusive) should work correctly.
+
+3. **Install nnUNet**  
+   Slicer makes it easy to set up the correct nnUNet:  
+   - Open `Extension Manager` in Slicer → search for `NNUNet` → click `Install`.  
+     (Slicer will ask you to restart after installation.)  
+   - After restarting, go to the `nnUNet` module.  
+     In the `To install` box, type <mark>==2.5.2</mark>, then click `Install`.  
+     ⚠️ **Important:** Please install **exactly** <mark>nnUNet==2.5.2</mark> to ensure reproducible results and compatibility with our extension.
+
+4. **Install CADSWholeBodyCTSeg Extension**  
+   - Open `Extension Manager` → search for `CADSWholeBodyCTSeg` → click `Install`.
+     (Again, restart Slicer after installation.)
+   - Once restarted, open the `CADSWholeBodyCTSeg` module in Slicer and you should see the user interface ready to use.
+
+## Quick Start
+1. **Open the CADSWholeBodyCTSeg extension** in 3D Slicer.  
+2. **Load your CT image file.**  
+3. **Set the input parameters:**  
+   - `Input volume`: The CT image you want to segment.  
+   - `Segmentation task`: Choose a specific task from the dropdown menu (the targets for each task will be displayed in the UI), or select **All** to run every task in sequence.  
+   - `Target mode`: 
+     - `All targets`: Generate a complete segmentation for the chosen task.  
+     - `Select targets`: Pick only the structures you want from the list below.  
+   - `Advanced options`: 
+     - `Use standard segment names` (default: *Yes*): Displays segmentation results using SNOMED-CT terminology.  
+     - `Force to use CPU` (default: *No*): Runs inference on CPU if you don’t have a GPU. (Note: CPU is slower and will take longer.)  
+     - `CADSWholeBodyCTSeg Python package`:  
+       - `Force install dependencies`: Re-installs the CADSWholeBodyCTSeg package.  
+       - `Get package information`: Shows the current CADSWholeBodyCTSeg package version.  
+4. **Run**: Click `Apply`, the CADS-model will begin segmenting your CT scan.  
+5. **View the results:**  
+   - Once finished, the results will appear automatically. You can then go to the `Data` tab to view the list of structures.
+   - You can view the segmentations in the three orthogonal 2D views, or drag them into the 3D viewer.  
+   - Hovering over a structure name will show detailed structure information in SNOMED-CT terminology.  
+
+<img src="Screenshot_02.png" alt="overview" width="95%">
+
+## Target Structures in Each Task
+Each task represents a specific anatomical group.
+
+**Task - Core organs**:
+Spleen, Kidney R/L, Gallbladder, Liver, Stomach, Aorta, Inferior vena cava, Portal and splenic vein, Pancreas, Adrenal gland R/L, Upper/Lower lobe of left lung, Upper/Middle/Lower lobe of right lung.
+
+**Task - Spine complete**:
+Vertebrae C1-C7, T1-T12, L1-L5.
+
+**Task - Heart & vessels**:
+Esophagus, Trachea, Myocardium, Heart atrium R/L, Heart ventricle R/L, Pulmonary artery, Brain, Common iliac artery R/L, Common iliac vein R/L, Small intestine, Duodenum, Colon, Urinary bladder, Face.
+
+**Task - Trunk muscles**:
+Humerus R/L, Scapula R/L, Clavicle R/L, Femur R/L, Hip stucture R/L, Bone structure of sacrum, Gluteus maximus/medius/minimus muscles R/L, Deep muscle of back R/L, Iliopsoas muscle R/L.
+
+**Task - Ribs complete**:
+Ribs 1-12 R/L.
+
+**Task - RT risk organs**:
+Spinal canal, Larynx, Heart, Bowel space, Sigmoid colon, Rectum, Prostate, Seminal vesicle, Mammary gland R/L, Sternum, Psoas major muscle R/L, Rectus abdominis muscle R/L.
+
+**Task - Brain tissues**:
+White matter, Gray matter, Cerebrospinal fluid, Scalp, Eyeballs, Compact bone, Spongy bone, Vascular structure of head, Rectus eye muscle structure.
+
+**Task - Head-neck organs**:
+Carotid artery R/L, Arytenoid cartilage, Mandible, Brain stem, Buccal mucosa, Oral cavity, Cochlea R/L, Cricopharyngeus, Cervical esophagus, Anterior/Posterior eyeball segment R/L, Lacrimal gland R/L, Submandibular gland R/L, Thyroid, Glottis, Supraglottis, Lip, Optic chiasm, Optic nerve R/L, Parotid gland R/L, Pituitary gland.
+
+**Task - Body regions**:
+Subcutaneous tissue, Muscle, Abdominopelvic cavity, Thoracic cavity, Bone structure, Gland structure, Pericardium, Breast implant, Mediastinum, Spinal cord.
+
+## License and Citation
+
+- **Codebase** (the `cads` package and all source code in this repository) is licensed under the [Apache License 2.0](LICENSE).  
+- **Model weights** released in the [Releases](https://github.com/murong-xu/CADS/releases) section are licensed under [CC BY-NC-SA 4.0](MODEL_LICENSE) for research-only purposes.
+A more open CC BY 4.0 version is currently under preparation and will be released in the near future.
+
+If you use any component of CADS (CADS-dataset, its curated segmentation masks, pretrained CADS-model, or the 3D Slicer extension), please cite:
+
+```bibtex
+@article{xu2025cads,
+  title={CADS: A Comprehensive Anatomical Dataset and Segmentation for Whole-Body Anatomy in Computed Tomography},
+  author={Xu, Murong and Amiranashvili, Tamaz and Navarro, Fernando and Fritsak, Maksym and Hamamci, Ibrahim Ethem and Shit, Suprosanna and Wittmann, Bastian and Er, Sezgin and Christ, Sebastian M. and de la Rosa, Ezequiel and Deseoe, Julian and Graf, Robert and Möller, Hendrik and Sekuboyina, Anjany and Peeken, Jan C. and Becker, Sven and Baldini, Giulia and Haubold, Johannes and Nensa, Felix and Hosch, René and Mirajkar, Nikhil and Khalid, Saad and Zachow, Stefan and Weber, Marc-André and Langs, Georg and Wasserthal, Jakob and Ozdemir, Mehmet Kemal and Fedorov, Andrey and Kikinis, Ron and Tanadini-Lang, Stephanie and Kirschke, Jan S. and Combs, Stephanie E. and Menze, Bjoern},
+  journal={arXiv preprint arXiv:2507.22953},
+  year={2025}
+}
+```
+
+## Troubleshooting
+### CUDA Memory Error (torch.OutOfMemoryError)
+
+Even though the model is designed to automatically manage available GPU/CPU resources during prediction, you may still run into out-of-memory errors. This usually happens if:
+1. Your GPU has very limited VRAM (e.g., around 4 GB), or
+2. The input CT image is large.
+
+In these cases, I recommend switching to `Force to use CPU` mode. It will be slower than GPU (CPU-only needs around 10+ minutes for a chest+abdomen CT), but it will run more reliably and avoid memory issues.
+
+### Disk Space Issues
+Each task requires downloading a pre-trained model of about **727 MB**.
+If you plan to use several or all nine tasks, make sure there’s enough free space (**around 7 GB** recommended) on the drive where 3D Slicer is installed.
+
+If your disk runs out of space, you might see error messages during model download or loading.
+If that happens, pls try freeing up some space and run the setup again.
+
+### Windows Installation Issue (Slicer ≤5.10.0)
+
+Windows users running **3D Slicer 5.10.0 (stable release) or earlier versions (e.g., 5.9.0)** may encounter errors during the CADS package installation process (in Step 4: Install CADSWholeBodyCTSeg Extension). This is caused by backslash path escaping issues on Windows.
+
+**Recommended Solution:**  
+Upgrade to the latest **3D Slicer 5.11.0 preview release**, which already includes the bug-fixed version of the extension code.
+
+**Alternative Solution (if you prefer to keep your current Slicer version):**  
+Please manually apply the fix by modifying the `CADSWholeBodyCTSeg.py` file:
+
+1. **Locate the file:**  
+   Open 3D Slicer, go to the Python Console (`View` → `Python Console`) and run:
+   ```
+   import slicer
+   print(slicer.util.getModule('CADSWholeBodyCTSeg').path)
+   ```
+      This will print the full path to the file you need to edit.
+
+2. **Apply the following changes** to the file (see [commit 2240640](https://github.com/murong-xu/SlicerCADSWholeBodyCTSeg/commit/2240640447aef61dff34c91bf4f0f3c0f27301c2) for details):
+
+   - Around **line 759**, add:
+     ```
+     import pathlib
+     ``` 
+        
+   - Around **lines 797-799**, replace:
+     ```
+     slicer.util.pip_install(f"{package_dir} --no-deps")
+     ```
+     with:
+     ```
+     install_path = pathlib.Path(package_dir).as_posix()
+     slicer.util.pip_install(f"{install_path} --no-deps")
+     ```
+3. **Restart 3D Slicer** and retry the installation.
+
+## Contact
+If you encounter any issues or have suggestions, please open an issue in this GitHub repository.  
+
+We truly appreciate your feedback and ideas, it helps us make the project better!  

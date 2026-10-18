@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T08:12:36.985625+00:00",
+  "last_updated": "2026-10-18T08:12:56.678609+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251391,7 +251391,15 @@
         "pushed_at": "2026-10-17T06:57:33Z",
         "starred_at": "2026-10-18T03:40:16Z"
       },
-      "last_updated": "2026-10-18T08:04:31.247754+00:00"
+      "last_updated": "2026-10-18T08:04:31.247754+00:00",
+      "readme": {
+        "path": "readmes/m-vave+fm1_open+README.md",
+        "etag": "W/\"e37c011de4a0d6bec0dd4037c3786d3e043c6675\"",
+        "sha": "e37c011de4a0d6bec0dd4037c3786d3e043c6675",
+        "size": 1862,
+        "fetched_at": "2026-10-18T08:12:54.822512+00:00",
+        "status": "ok"
+      }
     },
     "yuvi1-1/echoes_in_light-VJ": {
       "lists": [
@@ -251413,7 +251421,15 @@
         "pushed_at": "2026-10-07T03:24:26Z",
         "starred_at": "2026-10-18T03:27:42Z"
       },
-      "last_updated": "2026-10-18T08:04:31.503593+00:00"
+      "last_updated": "2026-10-18T08:04:31.503593+00:00",
+      "readme": {
+        "path": "readmes/yuvi1-1+echoes_in_light-VJ+README.md",
+        "etag": "W/\"d32a69e26feb41c10fbfad2a99843528cd5862f2\"",
+        "sha": "d32a69e26feb41c10fbfad2a99843528cd5862f2",
+        "size": 4585,
+        "fetched_at": "2026-10-18T08:12:56.678021+00:00",
+        "status": "ok"
+      }
     },
     "dylanroscover/Sndviz": {
       "lists": [
@@ -251435,7 +251451,15 @@
         "pushed_at": "2023-07-20T23:02:14Z",
         "starred_at": "2026-10-18T03:26:53Z"
       },
-      "last_updated": "2026-10-18T08:04:31.772205+00:00"
+      "last_updated": "2026-10-18T08:04:31.772205+00:00",
+      "readme": {
+        "path": "readmes/dylanroscover+Sndviz+README.md",
+        "etag": "W/\"bfcabe21a40da8c9c6ddaba53870762e3cbc4aba\"",
+        "sha": "bfcabe21a40da8c9c6ddaba53870762e3cbc4aba",
+        "size": 10925,
+        "fetched_at": "2026-10-18T08:12:54.276402+00:00",
+        "status": "ok"
+      }
     },
     "t3kt/tektshared": {
       "lists": [
@@ -251457,7 +251481,15 @@
         "pushed_at": "2015-09-26T17:32:20Z",
         "starred_at": "2026-10-18T03:23:28Z"
       },
-      "last_updated": "2026-10-18T08:04:32.003682+00:00"
+      "last_updated": "2026-10-18T08:04:32.003682+00:00",
+      "readme": {
+        "path": "readmes/t3kt+tektshared+README.md",
+        "etag": "W/\"77fdfe5744683b7f28c80e77e25cf84667130adf\"",
+        "sha": "77fdfe5744683b7f28c80e77e25cf84667130adf",
+        "size": 1188,
+        "fetched_at": "2026-10-18T08:12:56.395491+00:00",
+        "status": "ok"
+      }
     },
     "obsidianmd/pele": {
       "lists": [
@@ -251480,7 +251512,15 @@
         "pushed_at": "2026-10-17T20:46:38Z",
         "starred_at": "2026-10-18T02:38:03Z"
       },
-      "last_updated": "2026-10-18T08:04:32.310801+00:00"
+      "last_updated": "2026-10-18T08:04:32.310801+00:00",
+      "readme": {
+        "path": "readmes/obsidianmd+pele+README.md",
+        "etag": "W/\"1db907e147e7183b0eb7b043269a4abcb22f4c1e\"",
+        "sha": "1db907e147e7183b0eb7b043269a4abcb22f4c1e",
+        "size": 2921,
+        "fetched_at": "2026-10-18T08:12:55.552195+00:00",
+        "status": "ok"
+      }
     },
     "adbar/trafilatura": {
       "lists": [
@@ -251502,7 +251542,15 @@
         "pushed_at": "2026-10-06T19:31:29Z",
         "starred_at": "2026-10-18T02:25:23Z"
       },
-      "last_updated": "2026-10-18T08:04:32.539752+00:00"
+      "last_updated": "2026-10-18T08:04:32.539752+00:00",
+      "readme": {
+        "path": "readmes/adbar+trafilatura+README.md",
+        "etag": "W/\"45803b2c3152052216cda053cc029ba374186192\"",
+        "sha": "45803b2c3152052216cda053cc029ba374186192",
+        "size": 9293,
+        "fetched_at": "2026-10-18T08:12:53.707477+00:00",
+        "status": "ok"
+      }
     },
     "microsoft/MIDI": {
       "lists": [
@@ -251525,7 +251573,15 @@
         "pushed_at": "2026-10-18T02:38:10Z",
         "starred_at": "2026-10-18T02:17:28Z"
       },
-      "last_updated": "2026-10-18T08:04:32.793841+00:00"
+      "last_updated": "2026-10-18T08:04:32.793841+00:00",
+      "readme": {
+        "path": "readmes/microsoft+MIDI+README.md",
+        "etag": "W/\"5b03718b9bb97f1bde5afaa47d5899e368b53c0b\"",
+        "sha": "5b03718b9bb97f1bde5afaa47d5899e368b53c0b",
+        "size": 4788,
+        "fetched_at": "2026-10-18T08:12:55.043211+00:00",
+        "status": "ok"
+      }
     },
     "flit/MidiKeys": {
       "lists": [
@@ -251547,7 +251603,15 @@
         "pushed_at": "2023-06-03T23:35:54Z",
         "starred_at": "2026-10-17T21:50:33Z"
       },
-      "last_updated": "2026-10-18T08:04:33.030293+00:00"
+      "last_updated": "2026-10-18T08:04:33.030293+00:00",
+      "readme": {
+        "path": "readmes/flit+MidiKeys+README.md",
+        "etag": "W/\"949fdf5b58bb4fe460946bf6fa4a728d010948ab\"",
+        "sha": "949fdf5b58bb4fe460946bf6fa4a728d010948ab",
+        "size": 785,
+        "fetched_at": "2026-10-18T08:12:54.588626+00:00",
+        "status": "ok"
+      }
     },
     "super-linter/super-linter": {
       "lists": [
@@ -251569,7 +251633,15 @@
         "pushed_at": "2026-10-16T13:33:20Z",
         "starred_at": "2026-10-17T20:26:50Z"
       },
-      "last_updated": "2026-10-18T08:04:33.308108+00:00"
+      "last_updated": "2026-10-18T08:04:33.308108+00:00",
+      "readme": {
+        "path": "readmes/super-linter+super-linter+README.md",
+        "etag": "W/\"93441e5064ff2ada3188d722ce28fd104eeebc01\"",
+        "sha": "93441e5064ff2ada3188d722ce28fd104eeebc01",
+        "size": 180012,
+        "fetched_at": "2026-10-18T08:12:56.058216+00:00",
+        "status": "ok"
+      }
     },
     "Trashsurgery/Thauma-Synth-Portable-Alpha": {
       "lists": [
@@ -251591,7 +251663,15 @@
         "pushed_at": "2026-10-17T10:08:22Z",
         "starred_at": "2026-10-17T20:03:55Z"
       },
-      "last_updated": "2026-10-18T08:04:33.536700+00:00"
+      "last_updated": "2026-10-18T08:04:33.536700+00:00",
+      "readme": {
+        "path": "readmes/Trashsurgery+Thauma-Synth-Portable-Alpha+README.md",
+        "etag": "W/\"09e393e2e26c0688a1d557f052fd9d2dc9621be1\"",
+        "sha": "09e393e2e26c0688a1d557f052fd9d2dc9621be1",
+        "size": 11771,
+        "fetched_at": "2026-10-18T08:12:53.500462+00:00",
+        "status": "ok"
+      }
     },
     "murong-xu/SlicerCADSWholeBodyCTSeg": {
       "lists": [
@@ -251613,7 +251693,15 @@
         "pushed_at": "2026-04-20T10:46:51Z",
         "starred_at": "2026-10-17T19:19:29Z"
       },
-      "last_updated": "2026-10-18T08:04:33.795875+00:00"
+      "last_updated": "2026-10-18T08:04:33.795875+00:00",
+      "readme": {
+        "path": "readmes/murong-xu+SlicerCADSWholeBodyCTSeg+README.md",
+        "etag": "W/\"cb3a68abaab988f4190aa9f511f140cff5ffbf62\"",
+        "sha": "cb3a68abaab988f4190aa9f511f140cff5ffbf62",
+        "size": 11201,
+        "fetched_at": "2026-10-18T08:12:55.292087+00:00",
+        "status": "ok"
+      }
     },
     "CLoaKY233/siltop": {
       "lists": [
@@ -251635,7 +251723,15 @@
         "pushed_at": "2026-10-17T12:58:37Z",
         "starred_at": "2026-10-17T11:21:31Z"
       },
-      "last_updated": "2026-10-18T08:04:34.049148+00:00"
+      "last_updated": "2026-10-18T08:04:34.049148+00:00",
+      "readme": {
+        "path": "readmes/CLoaKY233+siltop+README.md",
+        "etag": "W/\"4a7be498d41058dba836fe45d5dff65675a510f5\"",
+        "sha": "4a7be498d41058dba836fe45d5dff65675a510f5",
+        "size": 7601,
+        "fetched_at": "2026-10-18T08:12:53.218272+00:00",
+        "status": "ok"
+      }
     },
     "chrisle/rbxport": {
       "lists": [
@@ -251657,7 +251753,15 @@
         "pushed_at": "2026-10-18T08:02:47Z",
         "starred_at": "2026-10-17T10:53:27Z"
       },
-      "last_updated": "2026-10-18T08:04:34.266298+00:00"
+      "last_updated": "2026-10-18T08:04:34.266298+00:00",
+      "readme": {
+        "path": "readmes/chrisle+rbxport+README.md",
+        "etag": "W/\"54d3239923c63328e40c51b85140577134744897\"",
+        "sha": "54d3239923c63328e40c51b85140577134744897",
+        "size": 5061,
+        "fetched_at": "2026-10-18T08:12:53.921934+00:00",
+        "status": "ok"
+      }
     },
     "paper-instruments/feather-train": {
       "lists": [
@@ -251680,7 +251784,15 @@
         "pushed_at": "2026-10-16T11:51:29Z",
         "starred_at": "2026-10-17T10:43:43Z"
       },
-      "last_updated": "2026-10-18T08:04:34.485122+00:00"
+      "last_updated": "2026-10-18T08:04:34.485122+00:00",
+      "readme": {
+        "path": "readmes/paper-instruments+feather-train+README.md",
+        "etag": "W/\"c1e80415c16524c24d0b9cb88c81714b9b532e9e\"",
+        "sha": "c1e80415c16524c24d0b9cb88c81714b9b532e9e",
+        "size": 5692,
+        "fetched_at": "2026-10-18T08:12:55.795805+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
