@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T08:12:56.678609+00:00",
+  "last_updated": "2026-10-19T08:55:29.121265+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251793,6 +251793,26 @@
         "fetched_at": "2026-10-18T08:12:55.795805+00:00",
         "status": "ok"
       }
+    },
+    "raid5atemyhomework/zfsbootmenu-installer": {
+      "lists": [],
+      "metadata": {
+        "id": 1424636037,
+        "name": "zfsbootmenu-installer",
+        "full_name": "raid5atemyhomework/zfsbootmenu-installer",
+        "description": "An installer for ZFSBootMenu, with multi-device array setup, Secure Boot, and multiple distros",
+        "url": "https://github.com/raid5atemyhomework/zfsbootmenu-installer",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-18T17:29:01Z",
+        "updated_at": "2026-10-19T06:08:03Z",
+        "pushed_at": "2026-10-19T06:07:58Z",
+        "starred_at": "2026-10-19T05:49:31Z"
+      },
+      "last_updated": "2026-10-19T08:55:29.121126+00:00"
     }
   },
   "last_processed_index": 0,
@@ -251802,5 +251822,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"530d6d6c93b99dbc04ce19ed8631967babaf9280d5a0e92ce0ab9842c10a4af2\""
+  "profile_etag": "W/\"02178d2313e72774d09311418c97271ab603502bb9b49800190d63f85ad6a0ba\""
 }
