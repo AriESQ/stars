@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T08:55:29.121265+00:00",
+  "last_updated": "2026-10-19T08:59:41.524347+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251795,7 +251795,9 @@
       }
     },
     "raid5atemyhomework/zfsbootmenu-installer": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1424636037,
         "name": "zfsbootmenu-installer",
