@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T08:59:41.524347+00:00",
+  "last_updated": "2026-10-19T09:04:01.440420+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251814,7 +251814,15 @@
         "pushed_at": "2026-10-19T06:07:58Z",
         "starred_at": "2026-10-19T05:49:31Z"
       },
-      "last_updated": "2026-10-19T08:55:29.121126+00:00"
+      "last_updated": "2026-10-19T08:55:29.121126+00:00",
+      "readme": {
+        "path": "readmes/raid5atemyhomework+zfsbootmenu-installer+README.md",
+        "etag": "W/\"057279df3adefba73c2631c57d0917432a2cce0c\"",
+        "sha": "057279df3adefba73c2631c57d0917432a2cce0c",
+        "size": 18570,
+        "fetched_at": "2026-10-19T09:04:01.437579+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
