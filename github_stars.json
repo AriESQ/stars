@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T08:35:02.921633+00:00",
+  "last_updated": "2026-10-20T08:43:33.579611+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251825,7 +251825,9 @@
       }
     },
     "kksimp/Mac.apk": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 1243130061,
         "name": "Mac.apk",
@@ -251845,7 +251847,9 @@
       "last_updated": "2026-10-20T08:35:02.152617+00:00"
     },
     "herdrdev/herdr": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1193909050,
         "name": "herdr",
@@ -251865,7 +251869,10 @@
       "last_updated": "2026-10-20T08:35:02.441518+00:00"
     },
     "hackrdotsh/ghostty-shaders": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 874345122,
         "name": "ghostty-shaders",
