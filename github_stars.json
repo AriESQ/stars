@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T09:04:01.440420+00:00",
+  "last_updated": "2026-10-20T08:35:02.921633+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251823,6 +251823,66 @@
         "fetched_at": "2026-10-19T09:04:01.437579+00:00",
         "status": "ok"
       }
+    },
+    "kksimp/Mac.apk": {
+      "lists": [],
+      "metadata": {
+        "id": 1243130061,
+        "name": "Mac.apk",
+        "full_name": "kksimp/Mac.apk",
+        "description": "Mac.apk: Run Android apps natively on Apple Silicon Macs",
+        "url": "https://github.com/kksimp/Mac.apk",
+        "homepage": "https://projects.voltare.us/macapk.html",
+        "language": "Java",
+        "stars": 989,
+        "forks": 21,
+        "open_issues": 12,
+        "created_at": "2026-05-19T04:32:35Z",
+        "updated_at": "2026-10-20T08:34:54Z",
+        "pushed_at": "2026-10-20T05:42:15Z",
+        "starred_at": "2026-10-19T20:06:43Z"
+      },
+      "last_updated": "2026-10-20T08:35:02.152617+00:00"
+    },
+    "herdrdev/herdr": {
+      "lists": [],
+      "metadata": {
+        "id": 1193909050,
+        "name": "herdr",
+        "full_name": "herdrdev/herdr",
+        "description": "the runtime your coding agents live on",
+        "url": "https://github.com/herdrdev/herdr",
+        "homepage": "https://herdr.dev",
+        "language": "Rust",
+        "stars": 44883,
+        "forks": 3575,
+        "open_issues": 393,
+        "created_at": "2026-03-27T17:54:33Z",
+        "updated_at": "2026-10-20T08:32:29Z",
+        "pushed_at": "2026-10-18T18:57:09Z",
+        "starred_at": "2026-10-19T14:42:58Z"
+      },
+      "last_updated": "2026-10-20T08:35:02.441518+00:00"
+    },
+    "hackrdotsh/ghostty-shaders": {
+      "lists": [],
+      "metadata": {
+        "id": 874345122,
+        "name": "ghostty-shaders",
+        "full_name": "hackrdotsh/ghostty-shaders",
+        "description": "A repository containing many free shaders to use with ghostty (the terminal)",
+        "url": "https://github.com/hackrdotsh/ghostty-shaders",
+        "homepage": null,
+        "language": "GLSL",
+        "stars": 1545,
+        "forks": 99,
+        "open_issues": 13,
+        "created_at": "2024-10-17T16:56:40Z",
+        "updated_at": "2026-10-19T07:20:09Z",
+        "pushed_at": "2026-07-13T07:26:54Z",
+        "starred_at": "2026-05-21T18:33:44Z"
+      },
+      "last_updated": "2026-10-20T08:35:02.921568+00:00"
     }
   },
   "last_processed_index": 0,
@@ -251832,5 +251892,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"02178d2313e72774d09311418c97271ab603502bb9b49800190d63f85ad6a0ba\""
+  "profile_etag": "W/\"df2415e5f6ca7e6a923acdde5467ef3b6ecebaefea350325c789817b10cd6a40\""
 }
