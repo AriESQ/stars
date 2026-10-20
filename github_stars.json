@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T08:43:33.579611+00:00",
+  "last_updated": "2026-10-20T08:44:05.464052+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251844,7 +251844,15 @@
         "pushed_at": "2026-10-20T05:42:15Z",
         "starred_at": "2026-10-19T20:06:43Z"
       },
-      "last_updated": "2026-10-20T08:35:02.152617+00:00"
+      "last_updated": "2026-10-20T08:35:02.152617+00:00",
+      "readme": {
+        "path": "readmes/kksimp+Mac.apk+README.md",
+        "etag": "W/\"7629b45a63ec73f061c64f7e49eaf371695d48a2\"",
+        "sha": "7629b45a63ec73f061c64f7e49eaf371695d48a2",
+        "size": 9091,
+        "fetched_at": "2026-10-20T08:44:05.459047+00:00",
+        "status": "ok"
+      }
     },
     "herdrdev/herdr": {
       "lists": [
@@ -251866,7 +251874,15 @@
         "pushed_at": "2026-10-18T18:57:09Z",
         "starred_at": "2026-10-19T14:42:58Z"
       },
-      "last_updated": "2026-10-20T08:35:02.441518+00:00"
+      "last_updated": "2026-10-20T08:35:02.441518+00:00",
+      "readme": {
+        "path": "readmes/herdrdev+herdr+README.md",
+        "etag": "W/\"55ea278919613ffcd4840c42f343c5fd2ed1aa02\"",
+        "sha": "55ea278919613ffcd4840c42f343c5fd2ed1aa02",
+        "size": 5003,
+        "fetched_at": "2026-10-20T08:44:05.090109+00:00",
+        "status": "ok"
+      }
     },
     "hackrdotsh/ghostty-shaders": {
       "lists": [
@@ -251889,7 +251905,15 @@
         "pushed_at": "2026-07-13T07:26:54Z",
         "starred_at": "2026-05-21T18:33:44Z"
       },
-      "last_updated": "2026-10-20T08:35:02.921568+00:00"
+      "last_updated": "2026-10-20T08:35:02.921568+00:00",
+      "readme": {
+        "path": "readmes/hackrdotsh+ghostty-shaders+Readme.md",
+        "etag": "W/\"3ea6c8774a18452218330066402ff59fb8e640d3\"",
+        "sha": "3ea6c8774a18452218330066402ff59fb8e640d3",
+        "size": 429,
+        "fetched_at": "2026-10-20T08:44:04.675993+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
