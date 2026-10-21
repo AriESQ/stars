@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T08:37:18.854182+00:00",
+  "last_updated": "2026-10-21T08:45:25.290508+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251916,7 +251916,9 @@
       }
     },
     "olegchomp/tdx-rnd": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1402389231,
         "name": "tdx-rnd",
@@ -251936,7 +251938,9 @@
       "last_updated": "2026-10-21T08:37:17.438871+00:00"
     },
     "TAdeJong/moire-lattice-generator": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 292806144,
         "name": "moire-lattice-generator",
@@ -251956,7 +251960,9 @@
       "last_updated": "2026-10-21T08:37:17.818473+00:00"
     },
     "Hugo-Dz/spritefusion-sprite-normals": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1425658028,
         "name": "spritefusion-sprite-normals",
@@ -251976,7 +251982,9 @@
       "last_updated": "2026-10-21T08:37:18.137034+00:00"
     },
     "google-pytorch/torch_tpu": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1177068914,
         "name": "torch_tpu",
@@ -251996,7 +252004,10 @@
       "last_updated": "2026-10-21T08:37:18.496401+00:00"
     },
     "Gathin23/cleanyourtv": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1423101235,
         "name": "cleanyourtv",
