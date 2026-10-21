@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T08:45:25.290508+00:00",
+  "last_updated": "2026-10-21T08:45:53.663075+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251935,7 +251935,15 @@
         "pushed_at": "2026-10-19T15:52:19Z",
         "starred_at": "2026-10-21T03:55:19Z"
       },
-      "last_updated": "2026-10-21T08:37:17.438871+00:00"
+      "last_updated": "2026-10-21T08:37:17.438871+00:00",
+      "readme": {
+        "path": "readmes/olegchomp+tdx-rnd+README.md",
+        "etag": "W/\"03720a164191ac9809a37dea6c2da31e0c52d097\"",
+        "sha": "03720a164191ac9809a37dea6c2da31e0c52d097",
+        "size": 723,
+        "fetched_at": "2026-10-21T08:45:53.659260+00:00",
+        "status": "ok"
+      }
     },
     "TAdeJong/moire-lattice-generator": {
       "lists": [
@@ -251957,7 +251965,15 @@
         "pushed_at": "2023-03-15T20:11:34Z",
         "starred_at": "2026-10-21T00:58:50Z"
       },
-      "last_updated": "2026-10-21T08:37:17.818473+00:00"
+      "last_updated": "2026-10-21T08:37:17.818473+00:00",
+      "readme": {
+        "path": "readmes/TAdeJong+moire-lattice-generator+README.md",
+        "etag": "W/\"0145043cbbf1bd387d4e9c267f447e1c2ddae53d\"",
+        "sha": "0145043cbbf1bd387d4e9c267f447e1c2ddae53d",
+        "size": 4315,
+        "fetched_at": "2026-10-21T08:45:53.034588+00:00",
+        "status": "ok"
+      }
     },
     "Hugo-Dz/spritefusion-sprite-normals": {
       "lists": [
@@ -251979,7 +251995,15 @@
         "pushed_at": "2026-10-20T10:31:00Z",
         "starred_at": "2026-10-20T23:37:40Z"
       },
-      "last_updated": "2026-10-21T08:37:18.137034+00:00"
+      "last_updated": "2026-10-21T08:37:18.137034+00:00",
+      "readme": {
+        "path": "readmes/Hugo-Dz+spritefusion-sprite-normals+README.md",
+        "etag": "W/\"0c445c33315cfb23d3d465f8bbb21b364aad121a\"",
+        "sha": "0c445c33315cfb23d3d465f8bbb21b364aad121a",
+        "size": 5313,
+        "fetched_at": "2026-10-21T08:45:52.749371+00:00",
+        "status": "ok"
+      }
     },
     "google-pytorch/torch_tpu": {
       "lists": [
@@ -252001,7 +252025,15 @@
         "pushed_at": "2026-10-21T08:37:13Z",
         "starred_at": "2026-10-20T20:33:16Z"
       },
-      "last_updated": "2026-10-21T08:37:18.496401+00:00"
+      "last_updated": "2026-10-21T08:37:18.496401+00:00",
+      "readme": {
+        "path": "readmes/google-pytorch+torch_tpu+README.md",
+        "etag": "W/\"863db8253103eccf7c6f7b1135ff4dc650dd9758\"",
+        "sha": "863db8253103eccf7c6f7b1135ff4dc650dd9758",
+        "size": 8064,
+        "fetched_at": "2026-10-21T08:45:53.356618+00:00",
+        "status": "ok"
+      }
     },
     "Gathin23/cleanyourtv": {
       "lists": [
@@ -252024,7 +252056,15 @@
         "pushed_at": "2026-10-21T07:06:31Z",
         "starred_at": "2026-10-20T19:27:16Z"
       },
-      "last_updated": "2026-10-21T08:37:18.854062+00:00"
+      "last_updated": "2026-10-21T08:37:18.854062+00:00",
+      "readme": {
+        "path": "readmes/Gathin23+cleanyourtv+README.md",
+        "etag": "W/\"c9aafb767eae11c0a62ad42b83890bd5ce6ea9e0\"",
+        "sha": "c9aafb767eae11c0a62ad42b83890bd5ce6ea9e0",
+        "size": 35867,
+        "fetched_at": "2026-10-21T08:45:52.415764+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
