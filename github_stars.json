@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T08:44:05.464052+00:00",
+  "last_updated": "2026-10-21T08:37:18.854182+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -251914,6 +251914,106 @@
         "fetched_at": "2026-10-20T08:44:04.675993+00:00",
         "status": "ok"
       }
+    },
+    "olegchomp/tdx-rnd": {
+      "lists": [],
+      "metadata": {
+        "id": 1402389231,
+        "name": "tdx-rnd",
+        "full_name": "olegchomp/tdx-rnd",
+        "description": "TouchDesigner components.",
+        "url": "https://github.com/olegchomp/tdx-rnd",
+        "homepage": "",
+        "language": null,
+        "stars": 23,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-02T21:48:37Z",
+        "updated_at": "2026-10-21T03:55:19Z",
+        "pushed_at": "2026-10-19T15:52:19Z",
+        "starred_at": "2026-10-21T03:55:19Z"
+      },
+      "last_updated": "2026-10-21T08:37:17.438871+00:00"
+    },
+    "TAdeJong/moire-lattice-generator": {
+      "lists": [],
+      "metadata": {
+        "id": 292806144,
+        "name": "moire-lattice-generator",
+        "full_name": "TAdeJong/moire-lattice-generator",
+        "description": "Simple python code to interactively generate visualizations of moire patterns of hexagonal lattices such as magic angle bilayer graphene.",
+        "url": "https://github.com/TAdeJong/moire-lattice-generator",
+        "homepage": null,
+        "language": "Jupyter Notebook",
+        "stars": 80,
+        "forks": 14,
+        "open_issues": 0,
+        "created_at": "2020-09-04T09:24:47Z",
+        "updated_at": "2026-10-21T00:58:51Z",
+        "pushed_at": "2023-03-15T20:11:34Z",
+        "starred_at": "2026-10-21T00:58:50Z"
+      },
+      "last_updated": "2026-10-21T08:37:17.818473+00:00"
+    },
+    "Hugo-Dz/spritefusion-sprite-normals": {
+      "lists": [],
+      "metadata": {
+        "id": 1425658028,
+        "name": "spritefusion-sprite-normals",
+        "full_name": "Hugo-Dz/spritefusion-sprite-normals",
+        "description": "A tool to generate normal maps from any sprite and animated sprite sheet.",
+        "url": "https://github.com/Hugo-Dz/spritefusion-sprite-normals",
+        "homepage": "https://www.spritefusion.com/sprite-normals",
+        "language": "Rust",
+        "stars": 441,
+        "forks": 27,
+        "open_issues": 0,
+        "created_at": "2026-10-19T13:26:45Z",
+        "updated_at": "2026-10-21T08:32:05Z",
+        "pushed_at": "2026-10-20T10:31:00Z",
+        "starred_at": "2026-10-20T23:37:40Z"
+      },
+      "last_updated": "2026-10-21T08:37:18.137034+00:00"
+    },
+    "google-pytorch/torch_tpu": {
+      "lists": [],
+      "metadata": {
+        "id": 1177068914,
+        "name": "torch_tpu",
+        "full_name": "google-pytorch/torch_tpu",
+        "description": null,
+        "url": "https://github.com/google-pytorch/torch_tpu",
+        "homepage": "https://torchtpu.readthedocs.io",
+        "language": "C++",
+        "stars": 445,
+        "forks": 22,
+        "open_issues": 273,
+        "created_at": "2026-03-09T16:59:42Z",
+        "updated_at": "2026-10-21T08:35:30Z",
+        "pushed_at": "2026-10-21T08:37:13Z",
+        "starred_at": "2026-10-20T20:33:16Z"
+      },
+      "last_updated": "2026-10-21T08:37:18.496401+00:00"
+    },
+    "Gathin23/cleanyourtv": {
+      "lists": [],
+      "metadata": {
+        "id": 1423101235,
+        "name": "cleanyourtv",
+        "full_name": "Gathin23/cleanyourtv",
+        "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "url": "https://github.com/Gathin23/cleanyourtv",
+        "homepage": "https://cleanyour.tv",
+        "language": "Java",
+        "stars": 14524,
+        "forks": 1608,
+        "open_issues": 168,
+        "created_at": "2026-10-17T08:12:35Z",
+        "updated_at": "2026-10-21T08:37:03Z",
+        "pushed_at": "2026-10-21T07:06:31Z",
+        "starred_at": "2026-10-20T19:27:16Z"
+      },
+      "last_updated": "2026-10-21T08:37:18.854062+00:00"
     }
   },
   "last_processed_index": 0,
@@ -251923,5 +252023,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"df2415e5f6ca7e6a923acdde5467ef3b6ecebaefea350325c789817b10cd6a40\""
+  "profile_etag": "W/\"31cb3332a2f961d90ec15b73c137478f1c756dc592a7f28199c75777e2ae8dfb\""
 }
