@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T08:39:52.707678+00:00",
+  "last_updated": "2026-10-22T08:48:13.037482+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252067,7 +252067,9 @@
       }
     },
     "Delavari-Alireza/RealTime_DepthMap_3D-Mesh": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 916078422,
         "name": "RealTime_DepthMap_3D-Mesh",
@@ -252087,7 +252089,10 @@
       "last_updated": "2026-10-22T08:39:48.234813+00:00"
     },
     "q3k/chubby75": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 159067998,
         "name": "chubby75",
@@ -252107,7 +252112,10 @@
       "last_updated": "2026-10-22T08:39:48.614871+00:00"
     },
     "enjoy-digital/colorlite": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 251380669,
         "name": "colorlite",
@@ -252127,7 +252135,9 @@
       "last_updated": "2026-10-22T08:39:48.982512+00:00"
     },
     "enjoy-digital/liteeth": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 42048653,
         "name": "liteeth",
@@ -252147,7 +252157,11 @@
       "last_updated": "2026-10-22T08:39:49.336847+00:00"
     },
     "perplexityai/SPACE": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1400568925,
         "name": "SPACE",
@@ -252187,7 +252201,9 @@
       "last_updated": "2026-10-22T08:39:50.104190+00:00"
     },
     "olegchomp/ntsc-td": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1376451727,
         "name": "ntsc-td",
@@ -252207,7 +252223,9 @@
       "last_updated": "2026-10-22T08:39:50.475833+00:00"
     },
     "dmtrKovalenko/fframes": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 430744346,
         "name": "fframes",
@@ -252227,7 +252245,9 @@
       "last_updated": "2026-10-22T08:39:50.822861+00:00"
     },
     "mrsarac/awesome-fframes": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1423656523,
         "name": "awesome-fframes",
@@ -252247,7 +252267,9 @@
       "last_updated": "2026-10-22T08:39:51.209961+00:00"
     },
     "mrsarac/ff-tracking": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1411715229,
         "name": "ff-tracking",
@@ -252267,7 +252289,9 @@
       "last_updated": "2026-10-22T08:39:51.558946+00:00"
     },
     "joshuacline/WinPloy": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 551262304,
         "name": "WinPloy",
@@ -252287,7 +252311,11 @@
       "last_updated": "2026-10-22T08:39:52.149730+00:00"
     },
     "Anil-matcha/open-duet": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 645381450,
         "name": "open-duet",
