@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T08:45:53.663075+00:00",
+  "last_updated": "2026-10-22T08:39:52.707678+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252065,6 +252065,246 @@
         "fetched_at": "2026-10-21T08:45:52.415764+00:00",
         "status": "ok"
       }
+    },
+    "Delavari-Alireza/RealTime_DepthMap_3D-Mesh": {
+      "lists": [],
+      "metadata": {
+        "id": 916078422,
+        "name": "RealTime_DepthMap_3D-Mesh",
+        "full_name": "Delavari-Alireza/RealTime_DepthMap_3D-Mesh",
+        "description": "This repository provides a set of Python scripts demonstrating how to utilize the DepthAnything V2 model for depth estimation and 3D reconstruction from images and videos. These examples leverage the transformers library and Open3D to create depth maps, point clouds, and 3D meshes.",
+        "url": "https://github.com/Delavari-Alireza/RealTime_DepthMap_3D-Mesh",
+        "homepage": "",
+        "language": "Python",
+        "stars": 22,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-01-13T12:18:16Z",
+        "updated_at": "2026-10-22T02:39:17Z",
+        "pushed_at": "2025-05-25T16:07:24Z",
+        "starred_at": "2026-10-22T02:39:17Z"
+      },
+      "last_updated": "2026-10-22T08:39:48.234813+00:00"
+    },
+    "q3k/chubby75": {
+      "lists": [],
+      "metadata": {
+        "id": 159067998,
+        "name": "chubby75",
+        "full_name": "q3k/chubby75",
+        "description": "Linsn RV901T HUB75 LED \"Receiver Card\" Reverse Engineering",
+        "url": "https://github.com/q3k/chubby75",
+        "homepage": "",
+        "language": "Python",
+        "stars": 649,
+        "forks": 117,
+        "open_issues": 33,
+        "created_at": "2018-11-25T19:44:52Z",
+        "updated_at": "2026-10-22T02:20:46Z",
+        "pushed_at": "2025-05-30T03:20:00Z",
+        "starred_at": "2026-10-22T02:20:45Z"
+      },
+      "last_updated": "2026-10-22T08:39:48.614871+00:00"
+    },
+    "enjoy-digital/colorlite": {
+      "lists": [],
+      "metadata": {
+        "id": 251380669,
+        "name": "colorlite",
+        "full_name": "enjoy-digital/colorlite",
+        "description": "Take control of your Colorlight FPGA board with LiteX/LiteEth :)",
+        "url": "https://github.com/enjoy-digital/colorlite",
+        "homepage": "",
+        "language": "Python",
+        "stars": 114,
+        "forks": 15,
+        "open_issues": 3,
+        "created_at": "2020-03-30T17:35:37Z",
+        "updated_at": "2026-10-22T02:19:19Z",
+        "pushed_at": "2023-08-30T10:13:51Z",
+        "starred_at": "2026-10-22T02:19:18Z"
+      },
+      "last_updated": "2026-10-22T08:39:48.982512+00:00"
+    },
+    "enjoy-digital/liteeth": {
+      "lists": [],
+      "metadata": {
+        "id": 42048653,
+        "name": "liteeth",
+        "full_name": "enjoy-digital/liteeth",
+        "description": "Small footprint and configurable Ethernet core",
+        "url": "https://github.com/enjoy-digital/liteeth",
+        "homepage": "",
+        "language": "Python",
+        "stars": 309,
+        "forks": 113,
+        "open_issues": 31,
+        "created_at": "2015-09-07T11:13:19Z",
+        "updated_at": "2026-10-22T02:18:56Z",
+        "pushed_at": "2026-10-21T12:07:59Z",
+        "starred_at": "2026-10-22T02:18:56Z"
+      },
+      "last_updated": "2026-10-22T08:39:49.336847+00:00"
+    },
+    "perplexityai/SPACE": {
+      "lists": [],
+      "metadata": {
+        "id": 1400568925,
+        "name": "SPACE",
+        "full_name": "perplexityai/SPACE",
+        "description": "Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation.",
+        "url": "https://github.com/perplexityai/SPACE",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 1826,
+        "forks": 153,
+        "open_issues": 150,
+        "created_at": "2026-10-01T18:43:46Z",
+        "updated_at": "2026-10-22T08:34:56Z",
+        "pushed_at": "2026-10-22T08:06:09Z",
+        "starred_at": "2026-10-21T16:12:11Z"
+      },
+      "last_updated": "2026-10-22T08:39:49.715393+00:00"
+    },
+    "microg/GmsCore": {
+      "lists": [],
+      "metadata": {
+        "id": 19082715,
+        "name": "GmsCore",
+        "full_name": "microg/GmsCore",
+        "description": "Free implementation of Play Services",
+        "url": "https://github.com/microg/GmsCore",
+        "homepage": "https://microg.org",
+        "language": "Java",
+        "stars": 15022,
+        "forks": 3280,
+        "open_issues": 1456,
+        "created_at": "2014-04-23T19:28:47Z",
+        "updated_at": "2026-10-22T07:14:37Z",
+        "pushed_at": "2026-09-29T10:34:22Z",
+        "starred_at": "2026-10-21T11:38:11Z"
+      },
+      "last_updated": "2026-10-22T08:39:50.104190+00:00"
+    },
+    "olegchomp/ntsc-td": {
+      "lists": [],
+      "metadata": {
+        "id": 1376451727,
+        "name": "ntsc-td",
+        "full_name": "olegchomp/ntsc-td",
+        "description": null,
+        "url": "https://github.com/olegchomp/ntsc-td",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 9,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-09-18T21:30:51Z",
+        "updated_at": "2026-10-21T09:10:11Z",
+        "pushed_at": "2026-10-02T21:58:34Z",
+        "starred_at": "2026-10-21T09:10:11Z"
+      },
+      "last_updated": "2026-10-22T08:39:50.475833+00:00"
+    },
+    "dmtrKovalenko/fframes": {
+      "lists": [],
+      "metadata": {
+        "id": 430744346,
+        "name": "fframes",
+        "full_name": "dmtrKovalenko/fframes",
+        "description": "programmatic video rendering framework that is actually fast",
+        "url": "https://github.com/dmtrKovalenko/fframes",
+        "homepage": "https://fframes.studio/",
+        "language": "Rust",
+        "stars": 2930,
+        "forks": 76,
+        "open_issues": 14,
+        "created_at": "2021-11-22T14:40:26Z",
+        "updated_at": "2026-10-22T08:06:18Z",
+        "pushed_at": "2026-10-22T06:35:34Z",
+        "starred_at": "2026-10-21T09:08:34Z"
+      },
+      "last_updated": "2026-10-22T08:39:50.822861+00:00"
+    },
+    "mrsarac/awesome-fframes": {
+      "lists": [],
+      "metadata": {
+        "id": 1423656523,
+        "name": "awesome-fframes",
+        "full_name": "mrsarac/awesome-fframes",
+        "description": "A curated list of fframes resources: crates, bindings, agent skills, templates and source-available showcase videos.",
+        "url": "https://github.com/mrsarac/awesome-fframes",
+        "homepage": null,
+        "language": "Python",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2026-10-17T19:08:07Z",
+        "updated_at": "2026-10-21T09:07:44Z",
+        "pushed_at": "2026-10-17T20:04:42Z",
+        "starred_at": "2026-10-21T09:07:44Z"
+      },
+      "last_updated": "2026-10-22T08:39:51.209961+00:00"
+    },
+    "mrsarac/ff-tracking": {
+      "lists": [],
+      "metadata": {
+        "id": 1411715229,
+        "name": "ff-tracking",
+        "full_name": "mrsarac/ff-tracking",
+        "description": "A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.",
+        "url": "https://github.com/mrsarac/ff-tracking",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 505,
+        "forks": 31,
+        "open_issues": 2,
+        "created_at": "2026-10-09T11:12:47Z",
+        "updated_at": "2026-10-22T07:28:02Z",
+        "pushed_at": "2026-10-14T22:48:00Z",
+        "starred_at": "2026-10-21T08:56:45Z"
+      },
+      "last_updated": "2026-10-22T08:39:51.558946+00:00"
+    },
+    "joshuacline/WinPloy": {
+      "lists": [],
+      "metadata": {
+        "id": 551262304,
+        "name": "WinPloy",
+        "full_name": "joshuacline/WinPloy",
+        "description": "A comprehensive Windows deployment tool featuring MenuScript technology. Made with 100% authentic human ingenuity, no debugger or IDE, by an engineer minded developer.",
+        "url": "https://github.com/joshuacline/WinPloy",
+        "homepage": "",
+        "language": "Batchfile",
+        "stars": 393,
+        "forks": 22,
+        "open_issues": 0,
+        "created_at": "2022-10-14T04:57:19Z",
+        "updated_at": "2026-10-22T00:59:13Z",
+        "pushed_at": "2026-10-22T01:25:08Z",
+        "starred_at": "2024-07-27T04:30:35Z"
+      },
+      "last_updated": "2026-10-22T08:39:52.149730+00:00"
+    },
+    "Anil-matcha/open-duet": {
+      "lists": [],
+      "metadata": {
+        "id": 645381450,
+        "name": "open-duet",
+        "full_name": "Anil-matcha/open-duet",
+        "description": "Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. Also an alternative to OpenAI Dots, Meta Muse, Grok Bot, Manus Cue and ChatGPT agent.",
+        "url": "https://github.com/Anil-matcha/open-duet",
+        "homepage": "",
+        "language": "Python",
+        "stars": 5937,
+        "forks": 724,
+        "open_issues": 1,
+        "created_at": "2023-05-25T14:21:12Z",
+        "updated_at": "2026-10-22T08:38:27Z",
+        "pushed_at": "2026-10-22T08:26:25Z",
+        "starred_at": "2023-06-09T04:28:15Z"
+      },
+      "last_updated": "2026-10-22T08:39:52.707657+00:00"
     }
   },
   "last_processed_index": 0,
@@ -252074,5 +252314,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"31cb3332a2f961d90ec15b73c137478f1c756dc592a7f28199c75777e2ae8dfb\""
+  "profile_etag": "W/\"ac079380ed0b9d5f654d77e00df915e6989b597eb3c4172ad792cf6739929c97\""
 }
