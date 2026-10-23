@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T08:42:53.462875+00:00",
+  "last_updated": "2026-10-23T08:43:52.384933+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252455,7 +252455,15 @@
         "pushed_at": "2026-10-22T06:53:08Z",
         "starred_at": "2026-10-23T06:35:05Z"
       },
-      "last_updated": "2026-10-23T08:35:10.019557+00:00"
+      "last_updated": "2026-10-23T08:35:10.019557+00:00",
+      "readme": {
+        "path": "readmes/oosexgang+hackios-xnu-kernel+README.md",
+        "etag": "W/\"2fa1d2cffad7a32225bfb35c89b74bd6db5beb70\"",
+        "sha": "2fa1d2cffad7a32225bfb35c89b74bd6db5beb70",
+        "size": 13514,
+        "fetched_at": "2026-10-23T08:43:51.863345+00:00",
+        "status": "ok"
+      }
     },
     "openai/openai-cli": {
       "lists": [
@@ -252479,7 +252487,15 @@
         "pushed_at": "2026-10-23T07:48:31Z",
         "starred_at": "2026-10-22T12:08:28Z"
       },
-      "last_updated": "2026-10-23T08:35:10.404517+00:00"
+      "last_updated": "2026-10-23T08:35:10.404517+00:00",
+      "readme": {
+        "path": "readmes/openai+openai-cli+README.md",
+        "etag": "W/\"ce429d2c3f3432752b1e4946f4893ba294503c7f\"",
+        "sha": "ce429d2c3f3432752b1e4946f4893ba294503c7f",
+        "size": 9010,
+        "fetched_at": "2026-10-23T08:43:52.381368+00:00",
+        "status": "ok"
+      }
     },
     "boykopovar/AnyPS5": {
       "lists": [
@@ -252502,7 +252518,15 @@
         "pushed_at": "2026-10-23T08:34:14Z",
         "starred_at": "2026-10-22T12:07:29Z"
       },
-      "last_updated": "2026-10-23T08:35:10.754375+00:00"
+      "last_updated": "2026-10-23T08:35:10.754375+00:00",
+      "readme": {
+        "path": "readmes/boykopovar+AnyPS5+README.md",
+        "etag": "W/\"3e7fc3ccf473eb12a3d3bc27e1e35703e581d21a\"",
+        "sha": "3e7fc3ccf473eb12a3d3bc27e1e35703e581d21a",
+        "size": 3237,
+        "fetched_at": "2026-10-23T08:43:51.045132+00:00",
+        "status": "ok"
+      }
     },
     "nkapila6/mcpsurfr": {
       "lists": [
@@ -252524,7 +252548,15 @@
         "pushed_at": "2026-10-23T08:32:36Z",
         "starred_at": "2025-07-14T08:00:16Z"
       },
-      "last_updated": "2026-10-23T08:35:11.271634+00:00"
+      "last_updated": "2026-10-23T08:35:11.271634+00:00",
+      "readme": {
+        "path": "readmes/nkapila6+mcpsurfr+README.md",
+        "etag": "W/\"56a115180f9044b8e467351079ee849224c64b02\"",
+        "sha": "56a115180f9044b8e467351079ee849224c64b02",
+        "size": 8174,
+        "fetched_at": "2026-10-23T08:43:51.493591+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
