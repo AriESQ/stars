@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T08:35:11.271726+00:00",
+  "last_updated": "2026-10-23T08:42:53.462875+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -207151,7 +207151,12 @@
       }
     },
     "open-policy-agent/conftest": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 178249461,
         "name": "conftest",
@@ -252431,7 +252436,9 @@
       }
     },
     "oosexgang/hackios-xnu-kernel": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1429328794,
         "name": "hackios-xnu-kernel",
@@ -252451,7 +252458,11 @@
       "last_updated": "2026-10-23T08:35:10.019557+00:00"
     },
     "openai/openai-cli": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1226632695,
         "name": "openai-cli",
@@ -252471,7 +252482,10 @@
       "last_updated": "2026-10-23T08:35:10.404517+00:00"
     },
     "boykopovar/AnyPS5": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1322250666,
         "name": "AnyPS5",
@@ -252491,7 +252505,9 @@
       "last_updated": "2026-10-23T08:35:10.754375+00:00"
     },
     "nkapila6/mcpsurfr": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 947802631,
         "name": "mcpsurfr",
