@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T08:48:37.529777+00:00",
+  "last_updated": "2026-10-23T08:35:11.271726+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252429,6 +252429,86 @@
         "fetched_at": "2026-10-22T08:48:33.210880+00:00",
         "status": "ok"
       }
+    },
+    "oosexgang/hackios-xnu-kernel": {
+      "lists": [],
+      "metadata": {
+        "id": 1429328794,
+        "name": "hackios-xnu-kernel",
+        "full_name": "oosexgang/hackios-xnu-kernel",
+        "description": null,
+        "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+        "homepage": null,
+        "language": "C",
+        "stars": 739,
+        "forks": 131,
+        "open_issues": 5,
+        "created_at": "2026-10-22T06:20:11Z",
+        "updated_at": "2026-10-23T08:29:25Z",
+        "pushed_at": "2026-10-22T06:53:08Z",
+        "starred_at": "2026-10-23T06:35:05Z"
+      },
+      "last_updated": "2026-10-23T08:35:10.019557+00:00"
+    },
+    "openai/openai-cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1226632695,
+        "name": "openai-cli",
+        "full_name": "openai/openai-cli",
+        "description": "Official CLI for the OpenAI API",
+        "url": "https://github.com/openai/openai-cli",
+        "homepage": "",
+        "language": "Go",
+        "stars": 1078,
+        "forks": 85,
+        "open_issues": 26,
+        "created_at": "2026-05-01T16:40:05Z",
+        "updated_at": "2026-10-23T07:52:51Z",
+        "pushed_at": "2026-10-23T07:48:31Z",
+        "starred_at": "2026-10-22T12:08:28Z"
+      },
+      "last_updated": "2026-10-23T08:35:10.404517+00:00"
+    },
+    "boykopovar/AnyPS5": {
+      "lists": [],
+      "metadata": {
+        "id": 1322250666,
+        "name": "AnyPS5",
+        "full_name": "boykopovar/AnyPS5",
+        "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+        "url": "https://github.com/boykopovar/AnyPS5",
+        "homepage": "https://boykopovar.github.io/AnyPS5/",
+        "language": "C++",
+        "stars": 47026,
+        "forks": 4362,
+        "open_issues": 1461,
+        "created_at": "2026-08-03T21:30:25Z",
+        "updated_at": "2026-10-23T08:34:21Z",
+        "pushed_at": "2026-10-23T08:34:14Z",
+        "starred_at": "2026-10-22T12:07:29Z"
+      },
+      "last_updated": "2026-10-23T08:35:10.754375+00:00"
+    },
+    "nkapila6/mcpsurfr": {
+      "lists": [],
+      "metadata": {
+        "id": 947802631,
+        "name": "mcpsurfr",
+        "full_name": "nkapila6/mcpsurfr",
+        "description": "\"primitive\" RAG-like web search model context protocol (MCP) server that runs locally. \u2728 no APIs \u2728",
+        "url": "https://github.com/nkapila6/mcpsurfr",
+        "homepage": "",
+        "language": "Python",
+        "stars": 134,
+        "forks": 21,
+        "open_issues": 5,
+        "created_at": "2025-03-13T09:20:19Z",
+        "updated_at": "2026-10-23T08:31:12Z",
+        "pushed_at": "2026-10-23T08:32:36Z",
+        "starred_at": "2025-07-14T08:00:16Z"
+      },
+      "last_updated": "2026-10-23T08:35:11.271634+00:00"
     }
   },
   "last_processed_index": 0,
@@ -252438,5 +252518,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ac079380ed0b9d5f654d77e00df915e6989b597eb3c4172ad792cf6739929c97\""
+  "profile_etag": "W/\"8e4c9f2c9b1a00af164de3ff6daaaf55ee01f72ca5eaa00ae147c0034980bea8\""
 }
