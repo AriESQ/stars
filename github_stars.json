@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T08:18:04.978829+00:00",
+  "last_updated": "2026-10-24T08:18:33.708716+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252578,7 +252578,15 @@
         "pushed_at": "2026-10-21T16:08:47Z",
         "starred_at": "2026-10-23T19:35:20Z"
       },
-      "last_updated": "2026-10-24T08:10:10.012317+00:00"
+      "last_updated": "2026-10-24T08:10:10.012317+00:00",
+      "readme": {
+        "path": "readmes/CoretechR+PicoLab+README.md",
+        "etag": "W/\"8cd8b6b4cddd191ee385b473621138edad7a168e\"",
+        "sha": "8cd8b6b4cddd191ee385b473621138edad7a168e",
+        "size": 7383,
+        "fetched_at": "2026-10-24T08:18:33.401777+00:00",
+        "status": "ok"
+      }
     },
     "Naturalpad-studio/InstantHMR": {
       "lists": [
@@ -252601,7 +252609,15 @@
         "pushed_at": "2026-10-21T18:40:35Z",
         "starred_at": "2026-09-14T00:23:34Z"
       },
-      "last_updated": "2026-10-24T08:10:10.552726+00:00"
+      "last_updated": "2026-10-24T08:10:10.552726+00:00",
+      "readme": {
+        "path": "readmes/Naturalpad-studio+InstantHMR+README.md",
+        "etag": "W/\"3faecb4983e6baaaaa3662eabfc732ba420756fa\"",
+        "sha": "3faecb4983e6baaaaa3662eabfc732ba420756fa",
+        "size": 20833,
+        "fetched_at": "2026-10-24T08:18:33.695846+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
