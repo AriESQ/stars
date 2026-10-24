@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T08:10:10.552785+00:00",
+  "last_updated": "2026-10-24T08:18:04.978829+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252559,7 +252559,9 @@
       }
     },
     "CoretechR/PicoLab": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1424690602,
         "name": "PicoLab",
@@ -252579,7 +252581,10 @@
       "last_updated": "2026-10-24T08:10:10.012317+00:00"
     },
     "Naturalpad-studio/InstantHMR": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1224469108,
         "name": "InstantHMR",
