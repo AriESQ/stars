@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T08:35:42.287846+00:00",
+  "last_updated": "2026-10-25T08:36:17.509269+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252641,7 +252641,15 @@
         "pushed_at": "2026-10-09T12:33:59Z",
         "starred_at": "2026-10-25T03:29:45Z"
       },
-      "last_updated": "2026-10-25T08:27:49.035294+00:00"
+      "last_updated": "2026-10-25T08:27:49.035294+00:00",
+      "readme": {
+        "path": "readmes/tonistiigi+binfmt+README.md",
+        "etag": "W/\"2330c07f46527da6a37b5ae17832d439706fc7b2\"",
+        "sha": "2330c07f46527da6a37b5ae17832d439706fc7b2",
+        "size": 3247,
+        "fetched_at": "2026-10-25T08:36:17.507278+00:00",
+        "status": "ok"
+      }
     },
     "kittennbfive/Colorlight-i9-tools": {
       "lists": [
@@ -252664,7 +252672,15 @@
         "pushed_at": "2024-07-24T17:42:01Z",
         "starred_at": "2026-10-25T02:18:58Z"
       },
-      "last_updated": "2026-10-25T08:27:49.411529+00:00"
+      "last_updated": "2026-10-25T08:27:49.411529+00:00",
+      "readme": {
+        "path": "readmes/kittennbfive+Colorlight-i9-tools+README.md",
+        "etag": "W/\"f9891b12068f54bb246429a609793dd2c8328db5\"",
+        "sha": "f9891b12068f54bb246429a609793dd2c8328db5",
+        "size": 1169,
+        "fetched_at": "2026-10-25T08:36:17.110520+00:00",
+        "status": "ok"
+      }
     },
     "kittennbfive/5A-75B-tools": {
       "lists": [
@@ -252687,7 +252703,15 @@
         "pushed_at": "2023-10-20T19:21:34Z",
         "starred_at": "2026-10-25T02:18:19Z"
       },
-      "last_updated": "2026-10-25T08:27:49.767543+00:00"
+      "last_updated": "2026-10-25T08:27:49.767543+00:00",
+      "readme": {
+        "path": "readmes/kittennbfive+5A-75B-tools+README.md",
+        "etag": "W/\"e0406d5baf230bca56b45e7fec13978397c3b0ef\"",
+        "sha": "e0406d5baf230bca56b45e7fec13978397c3b0ef",
+        "size": 1961,
+        "fetched_at": "2026-10-25T08:36:16.643680+00:00",
+        "status": "ok"
+      }
     },
     "JustAResearcher/gpu-unlock-ada": {
       "lists": [],
@@ -252707,7 +252731,15 @@
         "pushed_at": "2026-10-24T22:55:49Z",
         "starred_at": "2026-10-24T23:25:08Z"
       },
-      "last_updated": "2026-10-25T08:27:50.179341+00:00"
+      "last_updated": "2026-10-25T08:27:50.179341+00:00",
+      "readme": {
+        "path": "readmes/JustAResearcher+gpu-unlock-ada+README.md",
+        "etag": "W/\"75cfea73ed3a5d49c7b4b237075c2f334e5b3ff7\"",
+        "sha": "75cfea73ed3a5d49c7b4b237075c2f334e5b3ff7",
+        "size": 13878,
+        "fetched_at": "2026-10-25T08:36:15.339639+00:00",
+        "status": "ok"
+      }
     },
     "ahtx/kindi": {
       "lists": [
@@ -252730,7 +252762,15 @@
         "pushed_at": "2026-10-24T23:08:50Z",
         "starred_at": "2026-10-24T21:03:20Z"
       },
-      "last_updated": "2026-10-25T08:27:50.551073+00:00"
+      "last_updated": "2026-10-25T08:27:50.551073+00:00",
+      "readme": {
+        "path": "readmes/ahtx+kindi+README.md",
+        "etag": "W/\"1f106e30a0efe31f1d733e65d1c8bf29b8c86c66\"",
+        "sha": "1f106e30a0efe31f1d733e65d1c8bf29b8c86c66",
+        "size": 18301,
+        "fetched_at": "2026-10-25T08:36:16.151204+00:00",
+        "status": "ok"
+      }
     },
     "Zagitta/gpu-unlock": {
       "lists": [
@@ -252752,7 +252792,15 @@
         "pushed_at": "2026-10-24T15:47:28Z",
         "starred_at": "2026-10-24T18:58:35Z"
       },
-      "last_updated": "2026-10-25T08:27:50.907351+00:00"
+      "last_updated": "2026-10-25T08:27:50.907351+00:00",
+      "readme": {
+        "path": "readmes/Zagitta+gpu-unlock+README.md",
+        "etag": "W/\"53c8f77ffa806def77846babe605465e26e4fd97\"",
+        "sha": "53c8f77ffa806def77846babe605465e26e4fd97",
+        "size": 11092,
+        "fetched_at": "2026-10-25T08:36:15.734575+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
