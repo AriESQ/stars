@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T08:27:50.907467+00:00",
+  "last_updated": "2026-10-25T08:35:42.287846+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252620,7 +252620,11 @@
       }
     },
     "tonistiigi/binfmt": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 243668393,
         "name": "binfmt",
@@ -252640,7 +252644,10 @@
       "last_updated": "2026-10-25T08:27:49.035294+00:00"
     },
     "kittennbfive/Colorlight-i9-tools": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 771152449,
         "name": "Colorlight-i9-tools",
@@ -252660,7 +252667,10 @@
       "last_updated": "2026-10-25T08:27:49.411529+00:00"
     },
     "kittennbfive/5A-75B-tools": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 296694324,
         "name": "5A-75B-tools",
@@ -252700,7 +252710,10 @@
       "last_updated": "2026-10-25T08:27:50.179341+00:00"
     },
     "ahtx/kindi": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1426323151,
         "name": "kindi",
@@ -252720,7 +252733,9 @@
       "last_updated": "2026-10-25T08:27:50.551073+00:00"
     },
     "Zagitta/gpu-unlock": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1423892373,
         "name": "gpu-unlock",
