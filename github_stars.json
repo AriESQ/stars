@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T08:18:33.708716+00:00",
+  "last_updated": "2026-10-25T08:27:50.907467+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252618,6 +252618,126 @@
         "fetched_at": "2026-10-24T08:18:33.695846+00:00",
         "status": "ok"
       }
+    },
+    "tonistiigi/binfmt": {
+      "lists": [],
+      "metadata": {
+        "id": 243668393,
+        "name": "binfmt",
+        "full_name": "tonistiigi/binfmt",
+        "description": "Cross-platform emulator collection distributed with Docker images.",
+        "url": "https://github.com/tonistiigi/binfmt",
+        "homepage": "",
+        "language": "Go",
+        "stars": 1552,
+        "forks": 105,
+        "open_issues": 62,
+        "created_at": "2020-02-28T03:16:08Z",
+        "updated_at": "2026-10-25T07:03:30Z",
+        "pushed_at": "2026-10-09T12:33:59Z",
+        "starred_at": "2026-10-25T03:29:45Z"
+      },
+      "last_updated": "2026-10-25T08:27:49.035294+00:00"
+    },
+    "kittennbfive/Colorlight-i9-tools": {
+      "lists": [],
+      "metadata": {
+        "id": 771152449,
+        "name": "Colorlight-i9-tools",
+        "full_name": "kittennbfive/Colorlight-i9-tools",
+        "description": "A collection of tools and notes made while messing with the Colorlight i9 and the external \"breakout\" board from Muse Labs",
+        "url": "https://github.com/kittennbfive/Colorlight-i9-tools",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2024-03-12T19:28:09Z",
+        "updated_at": "2026-10-25T02:18:59Z",
+        "pushed_at": "2024-07-24T17:42:01Z",
+        "starred_at": "2026-10-25T02:18:58Z"
+      },
+      "last_updated": "2026-10-25T08:27:49.411529+00:00"
+    },
+    "kittennbfive/5A-75B-tools": {
+      "lists": [],
+      "metadata": {
+        "id": 296694324,
+        "name": "5A-75B-tools",
+        "full_name": "kittennbfive/5A-75B-tools",
+        "description": "a collection of tools made while messing with the Colorlight 5A-75B V7.0 and some notes using ECP5 with Yosys",
+        "url": "https://github.com/kittennbfive/5A-75B-tools",
+        "homepage": "",
+        "language": "HTML",
+        "stars": 24,
+        "forks": 3,
+        "open_issues": 1,
+        "created_at": "2020-09-18T17:59:51Z",
+        "updated_at": "2026-10-25T02:18:20Z",
+        "pushed_at": "2023-10-20T19:21:34Z",
+        "starred_at": "2026-10-25T02:18:19Z"
+      },
+      "last_updated": "2026-10-25T08:27:49.767543+00:00"
+    },
+    "JustAResearcher/gpu-unlock-ada": {
+      "lists": [],
+      "metadata": {
+        "id": 1431545439,
+        "name": "gpu-unlock-ada",
+        "full_name": "JustAResearcher/gpu-unlock-ada",
+        "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+        "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+        "homepage": null,
+        "language": "C",
+        "stars": 1474,
+        "forks": 176,
+        "open_issues": 17,
+        "created_at": "2026-10-23T21:00:53Z",
+        "updated_at": "2026-10-25T08:27:01Z",
+        "pushed_at": "2026-10-24T22:55:49Z",
+        "starred_at": "2026-10-24T23:25:08Z"
+      },
+      "last_updated": "2026-10-25T08:27:50.179341+00:00"
+    },
+    "ahtx/kindi": {
+      "lists": [],
+      "metadata": {
+        "id": 1426323151,
+        "name": "kindi",
+        "full_name": "ahtx/kindi",
+        "description": "A custom LLM inference engine for low-cost NVIDIA GPUs: Quadro K420 and K1200, two K1200s joined into one 8 GB card, GTX 1080 and RTX 3080. Runs Bonsai 2B, 4B, 9B and 27B models with an OpenAI-compatible server.",
+        "url": "https://github.com/ahtx/kindi",
+        "homepage": "https://amirhusain.com/kindi/",
+        "language": "Python",
+        "stars": 53,
+        "forks": 12,
+        "open_issues": 0,
+        "created_at": "2026-10-20T00:25:56Z",
+        "updated_at": "2026-10-25T07:45:55Z",
+        "pushed_at": "2026-10-24T23:08:50Z",
+        "starred_at": "2026-10-24T21:03:20Z"
+      },
+      "last_updated": "2026-10-25T08:27:50.551073+00:00"
+    },
+    "Zagitta/gpu-unlock": {
+      "lists": [],
+      "metadata": {
+        "id": 1423892373,
+        "name": "gpu-unlock",
+        "full_name": "Zagitta/gpu-unlock",
+        "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+        "url": "https://github.com/Zagitta/gpu-unlock",
+        "homepage": "",
+        "language": "C",
+        "stars": 4030,
+        "forks": 450,
+        "open_issues": 70,
+        "created_at": "2026-10-18T01:28:31Z",
+        "updated_at": "2026-10-25T08:27:42Z",
+        "pushed_at": "2026-10-24T15:47:28Z",
+        "starred_at": "2026-10-24T18:58:35Z"
+      },
+      "last_updated": "2026-10-25T08:27:50.907351+00:00"
     }
   },
   "last_processed_index": 0,
@@ -252627,5 +252747,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f69cf860d82e93cbda60f78b1c526a25ae08753b34d96754708d88b223f7a7a5\""
+  "profile_etag": "W/\"314ead6a97a41c559141a9877011d34a282bb1d49ab6db41c87b348b884e55e5\""
 }
