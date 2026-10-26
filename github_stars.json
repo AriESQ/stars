@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T08:36:17.509269+00:00",
+  "last_updated": "2026-10-26T08:57:52.504778+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252801,6 +252801,26 @@
         "fetched_at": "2026-10-25T08:36:15.734575+00:00",
         "status": "ok"
       }
+    },
+    "LioraLabs/ppu.toys": {
+      "lists": [],
+      "metadata": {
+        "id": 1375075688,
+        "name": "ppu.toys",
+        "full_name": "LioraLabs/ppu.toys",
+        "description": "SNES PPU + S-DSP emulator and the ppu CLI behind ppu.toys",
+        "url": "https://github.com/LioraLabs/ppu.toys",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 14,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-09-17T20:57:06Z",
+        "updated_at": "2026-10-26T05:36:04Z",
+        "pushed_at": "2026-10-18T20:20:06Z",
+        "starred_at": "2026-10-25T17:32:06Z"
+      },
+      "last_updated": "2026-10-26T08:57:52.504646+00:00"
     }
   },
   "last_processed_index": 0,
@@ -252810,5 +252830,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"314ead6a97a41c559141a9877011d34a282bb1d49ab6db41c87b348b884e55e5\""
+  "profile_etag": "W/\"ff3aff1df49c0fbce122d587cabce162d737ebf8716a97d0d3571ad4a9d2e145\""
 }
