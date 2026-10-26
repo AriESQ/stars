@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T08:57:52.504778+00:00",
+  "last_updated": "2026-10-26T09:05:59.566167+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -1047,7 +1047,8 @@
     "HKUDS/CLI-Anything": {
       "lists": [
         "Machine Learning",
-        "Python"
+        "Python",
+        "Linux CLI Tools"
       ],
       "metadata": {
         "id": 1176011916,
@@ -225288,7 +225289,8 @@
     },
     "cactus-compute/needle": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "DIY"
       ],
       "metadata": {
         "id": 1165361576,
@@ -250372,7 +250374,9 @@
     },
     "cactus-compute/cactus": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "DIY",
+        "Python"
       ],
       "metadata": {
         "id": 971447302,
@@ -252803,7 +252807,10 @@
       }
     },
     "LioraLabs/ppu.toys": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1375075688,
         "name": "ppu.toys",
