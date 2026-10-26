@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T09:05:59.566167+00:00",
+  "last_updated": "2026-10-26T09:06:32.686218+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252827,7 +252827,15 @@
         "pushed_at": "2026-10-18T20:20:06Z",
         "starred_at": "2026-10-25T17:32:06Z"
       },
-      "last_updated": "2026-10-26T08:57:52.504646+00:00"
+      "last_updated": "2026-10-26T08:57:52.504646+00:00",
+      "readme": {
+        "path": "readmes/LioraLabs+ppu.toys+README.md",
+        "etag": "W/\"73157f79b616ad3382ec12c180b98d8a4dea4d42\"",
+        "sha": "73157f79b616ad3382ec12c180b98d8a4dea4d42",
+        "size": 2779,
+        "fetched_at": "2026-10-26T09:06:32.677249+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
