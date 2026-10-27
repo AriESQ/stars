@@ -1,0 +1,93 @@
+# Widscan58
+
+**A 5.8 GHz FPV channel scanner made from an ESP32-C5.**
+
+Widscan58 uses the Wi-Fi radio inside the ESP32-C5 as a software-defined radio.
+Instead of decoding Wi-Fi, it reads raw I/Q samples straight from the radio,
+and shows what is on each FPV video channel: signal strength, noise floor, SNR,
+video bandwidth / peak, and a live spectrum of the whole band.
+Use it at the field to find a clear channel or check pilot VTX frequencies from the web browser interface.
+
+The device can also act as an 8 channel RX5808 array for RotorHazard race timing,
+or a simple standalone lap timer running in the web browser.
+
+widscan58 is a words smash-em-up of WiFi, Video, Scan and 5.8GHz
+
+## ▶ [Open the live web UI](https://capnbry.github.io/widscan58/)
+
+**https://capnbry.github.io/widscan58/** (Chrome, Edge or Firefox on desktop,
+or Chrome on Android)
+
+![The Widscan58 web UI scanning Raceband R1–R8 on an ESP32-C5](images/webui.png)
+
+*Live from a XIAO ESP32-C5 scanning Raceband: two VTXs on R1 and R6 (SNR 36 and
+41 dB), with Wi-Fi bursts around R3–R4. Each channel updates about 50 times a
+second.*
+
+## Features
+
+- **Eight channels at once.** any eight channels from across the bands, 
+  each one updates about 60 times a second in monitor mode.
+- **Per-channel readings:** RSSI, noise floor, SNR, the measured center of the
+  video signal (to spot a VTX that is off frequency), and the 99 %
+  occupied bandwidth.
+- **Band panorama:** one spectrum stitched together across the whole band, with
+  max-hold and average traces, plus a waterfall underneath.
+- **Channel zoom:** a close-up spectrum of the selected channel with markers for
+  the nominal frequency, the measured center and the occupied band.
+- **RSSI history:** a lap-timer style graph of every channel over the last 30 s
+  or more.
+- **Flash from the browser:** the page installs the firmware on the board, so you
+  don't need a toolchain.
+- **Simulator:** press *Simulate* to try the whole UI without any hardware.
+- **Record and replay** a session to a file.
+- **[RotorHazard](https://github.com/RotorHazard/RotorHazard) timer node:**
+  automatically switches to an 8-seat receiver for lap timing. See
+  [our docs](docs/RotorHazard.md) for setup and configuration.
+- **Standalone lap timer:** with short lap rejection, fastest N, and voice time callouts.
+- **Power meter mode:** to estimate VTX output power.
+- **Deep diagnostics** for the curious: hop timing, raw I/Q snapshots with a
+  constellation view, scanner settings and a command console.
+- **Channel editor:** pick your channels on a frequency chart that looks like
+  the usual FPV band charts, or select a whole band with one click.
+
+![The channel editor: Raceband selected on a 5.6–5.95 GHz frequency chart](images/channel-editor.png)
+
+## Hardware
+
+Widscan58 runs on the **ESP32-C5**, Espressif's dual-band (2.4 + 5 GHz) Wi-Fi
+chip. It is developed and tested on the
+[Seeed Studio XIAO ESP32-C5](https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/).
+Other ESP32-C5 boards work too, such as the C5 devkit.
+
+> The firmware also builds for the ESP32-S3, but the S3 has no 5 GHz radio. It
+> runs a scaled-down mock-up of the band at 2.4 GHz and is only used for
+> development.
+
+## Getting started
+
+1. Plug the ESP32-C5 into your computer or Android phone over USB.
+2. Open the [web UI](https://capnbry.github.io/widscan58/) in Chrome, Edge or
+   Firefox on desktop, or Chrome on Android.
+3. Click **Flash device** and follow the steps to install the firmware.
+4. Click **Connect device** and pick the board. Chrome remembers it, so next time
+   it reconnects by itself.
+
+## Credits
+
+Widscan58 would not exist without **[C5VRX](https://github.com/Twotoz/C5VRX)** and
+the derived **[esp-sdr](https://github.com/ESPARGOS/esp-sdr)** projects.
+The hidden debug path that lets an ESP32 capture raw I/Q samples from its own radio
+is instrumental to the explosion of projects using this path. The radio capture,
+tuning and calibration code in this project build on their work.
+If you like this project, go look at theirs!
+
+This project is almost entirely written by AI apart from the esp-sdr source.
+
+## License
+
+GPL-3.0-or-later (see [LICENSE](LICENSE)), the same as esp-sdr. Files derived
+from esp-sdr say so in their headers.
+
+Developers: see [CLAUDE.md](CLAUDE.md) for building, flashing, the tools and the
+device protocol, and [PLAN.md](PLAN.md) for the design.
