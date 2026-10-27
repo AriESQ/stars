@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T09:02:33.994823+00:00",
+  "last_updated": "2026-10-27T09:12:15.255339+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -27608,7 +27608,8 @@
     "github/spec-kit": {
       "lists": [
         "Machine Learning",
-        "Python"
+        "Python",
+        "Devops"
       ],
       "metadata": {
         "id": 1042367133,
@@ -213459,7 +213460,8 @@
     "NVIDIA/OpenShell": {
       "lists": [
         "Infosec",
-        "Machine Learning"
+        "Machine Learning",
+        "Rust"
       ],
       "metadata": {
         "id": 1166129534,
@@ -252838,7 +252840,9 @@
       }
     },
     "mw00/project-maya": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1407997858,
         "name": "project-maya",
@@ -252878,7 +252882,9 @@
       "last_updated": "2026-10-27T09:02:29.103719+00:00"
     },
     "strands-agents/box": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 1402328864,
         "name": "box",
@@ -252898,7 +252904,9 @@
       "last_updated": "2026-10-27T09:02:29.518105+00:00"
     },
     "tesslio/cli": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1055420402,
         "name": "cli",
@@ -252918,7 +252926,9 @@
       "last_updated": "2026-10-27T09:02:29.942186+00:00"
     },
     "kirodotdev/Kiro": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1003854381,
         "name": "Kiro",
@@ -252938,7 +252948,9 @@
       "last_updated": "2026-10-27T09:02:30.383153+00:00"
     },
     "yazeed/proc-cli": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1130490731,
         "name": "proc-cli",
@@ -252958,7 +252970,9 @@
       "last_updated": "2026-10-27T09:02:30.776042+00:00"
     },
     "ESPARGOS/esp-web-sdr": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1392255000,
         "name": "esp-web-sdr",
@@ -252978,7 +252992,9 @@
       "last_updated": "2026-10-27T09:02:31.147183+00:00"
     },
     "ESPARGOS/SoapyESPSDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1298182922,
         "name": "SoapyESPSDR",
@@ -252998,7 +253014,9 @@
       "last_updated": "2026-10-27T09:02:31.529773+00:00"
     },
     "z2labs/esp-sdr-bridge": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1401267561,
         "name": "esp-sdr-bridge",
@@ -253018,7 +253036,10 @@
       "last_updated": "2026-10-27T09:02:31.918692+00:00"
     },
     "ESPARGOS/esp-sdr": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1392255587,
         "name": "esp-sdr",
@@ -253038,7 +253059,10 @@
       "last_updated": "2026-10-27T09:02:32.268436+00:00"
     },
     "CapnBry/widscan58": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1413278021,
         "name": "widscan58",
@@ -253058,7 +253082,10 @@
       "last_updated": "2026-10-27T09:02:32.724085+00:00"
     },
     "LouisHitchcock/FPVGateC5RX": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1402209631,
         "name": "FPVGateC5RX",
@@ -253078,7 +253105,10 @@
       "last_updated": "2026-10-27T09:02:33.110572+00:00"
     },
     "Twotoz/C5VRX": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1351354803,
         "name": "C5VRX",
@@ -253098,7 +253128,10 @@
       "last_updated": "2026-10-27T09:02:33.476716+00:00"
     },
     "yoloytang/Awesome-LLMs-for-Video-Understanding": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 666960664,
         "name": "Awesome-LLMs-for-Video-Understanding",
