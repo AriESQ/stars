@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T09:06:32.686218+00:00",
+  "last_updated": "2026-10-27T09:02:33.994823+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -252836,6 +252836,286 @@
         "fetched_at": "2026-10-26T09:06:32.677249+00:00",
         "status": "ok"
       }
+    },
+    "mw00/project-maya": {
+      "lists": [],
+      "metadata": {
+        "id": 1407997858,
+        "name": "project-maya",
+        "full_name": "mw00/project-maya",
+        "description": "Project Maya - run GLM-5.3-Flash (321B MoE) and DeepSeek-V4.1-Flash-1017 (748B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
+        "url": "https://github.com/mw00/project-maya",
+        "homepage": "https://huggingface.co/peasantsmith",
+        "language": "Cuda",
+        "stars": 2016,
+        "forks": 258,
+        "open_issues": 130,
+        "created_at": "2026-10-06T22:55:13Z",
+        "updated_at": "2026-10-27T08:30:47Z",
+        "pushed_at": "2026-10-27T07:28:47Z",
+        "starred_at": "2026-10-27T04:09:09Z"
+      },
+      "last_updated": "2026-10-27T09:02:28.732577+00:00"
+    },
+    "emostr/ssh-touchid-macos": {
+      "lists": [],
+      "metadata": {
+        "id": 1389260400,
+        "name": "ssh-touchid-macos",
+        "full_name": "emostr/ssh-touchid-macos",
+        "description": "Use Touch ID on your Mac instead of typing an SSH passphrase",
+        "url": "https://github.com/emostr/ssh-touchid-macos",
+        "homepage": null,
+        "language": "Objective-C",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-09-26T13:30:19Z",
+        "updated_at": "2026-10-26T22:55:04Z",
+        "pushed_at": "2026-09-26T13:32:30Z",
+        "starred_at": "2026-10-26T22:55:03Z"
+      },
+      "last_updated": "2026-10-27T09:02:29.103719+00:00"
+    },
+    "strands-agents/box": {
+      "lists": [],
+      "metadata": {
+        "id": 1402328864,
+        "name": "box",
+        "full_name": "strands-agents/box",
+        "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.",
+        "url": "https://github.com/strands-agents/box",
+        "homepage": "https://strandsagents.com",
+        "language": "Rust",
+        "stars": 482,
+        "forks": 33,
+        "open_issues": 68,
+        "created_at": "2026-10-02T20:34:08Z",
+        "updated_at": "2026-10-27T06:08:45Z",
+        "pushed_at": "2026-10-27T06:56:13Z",
+        "starred_at": "2026-10-26T18:03:36Z"
+      },
+      "last_updated": "2026-10-27T09:02:29.518105+00:00"
+    },
+    "tesslio/cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1055420402,
+        "name": "cli",
+        "full_name": "tesslio/cli",
+        "description": "Tessl - your Agent Enablement Platform",
+        "url": "https://github.com/tesslio/cli",
+        "homepage": "https://docs.tessl.io/",
+        "language": null,
+        "stars": 71,
+        "forks": 3,
+        "open_issues": 3,
+        "created_at": "2025-09-12T08:39:01Z",
+        "updated_at": "2026-10-26T15:17:17Z",
+        "pushed_at": "2026-03-05T16:57:28Z",
+        "starred_at": "2026-10-26T15:17:16Z"
+      },
+      "last_updated": "2026-10-27T09:02:29.942186+00:00"
+    },
+    "kirodotdev/Kiro": {
+      "lists": [],
+      "metadata": {
+        "id": 1003854381,
+        "name": "Kiro",
+        "full_name": "kirodotdev/Kiro",
+        "description": "Kiro is an agentic IDE that works alongside you from prototype to production.",
+        "url": "https://github.com/kirodotdev/Kiro",
+        "homepage": "https://kiro.dev",
+        "language": "TypeScript",
+        "stars": 4403,
+        "forks": 328,
+        "open_issues": 1511,
+        "created_at": "2025-06-17T19:12:20Z",
+        "updated_at": "2026-10-26T22:01:19Z",
+        "pushed_at": "2026-10-18T11:35:32Z",
+        "starred_at": "2026-10-26T15:15:10Z"
+      },
+      "last_updated": "2026-10-27T09:02:30.383153+00:00"
+    },
+    "yazeed/proc-cli": {
+      "lists": [],
+      "metadata": {
+        "id": 1130490731,
+        "name": "proc-cli",
+        "full_name": "yazeed/proc-cli",
+        "description": "Semantic CLI tool for process management. Target by port, PID, name or path.",
+        "url": "https://github.com/yazeed/proc-cli",
+        "homepage": "https://proc-cli.com/",
+        "language": "Rust",
+        "stars": 58,
+        "forks": 2,
+        "open_issues": 2,
+        "created_at": "2026-01-08T15:26:40Z",
+        "updated_at": "2026-10-27T08:47:40Z",
+        "pushed_at": "2026-10-27T08:47:36Z",
+        "starred_at": "2026-10-26T13:34:22Z"
+      },
+      "last_updated": "2026-10-27T09:02:30.776042+00:00"
+    },
+    "ESPARGOS/esp-web-sdr": {
+      "lists": [],
+      "metadata": {
+        "id": 1392255000,
+        "name": "esp-web-sdr",
+        "full_name": "ESPARGOS/esp-web-sdr",
+        "description": "Web interface that displays the frequency spectrum and waterfall diagram for esp-sdr",
+        "url": "https://github.com/ESPARGOS/esp-web-sdr",
+        "homepage": "https://espargos.net/espsdr/",
+        "language": "JavaScript",
+        "stars": 88,
+        "forks": 25,
+        "open_issues": 1,
+        "created_at": "2026-09-28T08:49:55Z",
+        "updated_at": "2026-10-27T08:49:19Z",
+        "pushed_at": "2026-10-17T13:31:27Z",
+        "starred_at": "2026-10-26T12:44:50Z"
+      },
+      "last_updated": "2026-10-27T09:02:31.147183+00:00"
+    },
+    "ESPARGOS/SoapyESPSDR": {
+      "lists": [],
+      "metadata": {
+        "id": 1298182922,
+        "name": "SoapyESPSDR",
+        "full_name": "ESPARGOS/SoapyESPSDR",
+        "description": "ESP-SDR plugin for SoapySDR: Stream I/Q samples from ESP32-S31 to various SDR applications (gqrx, GNU Radio, ...) over USB or Ethernet via SoapySDR",
+        "url": "https://github.com/ESPARGOS/SoapyESPSDR",
+        "homepage": "",
+        "language": "C++",
+        "stars": 60,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-07-12T10:25:28Z",
+        "updated_at": "2026-10-26T12:43:38Z",
+        "pushed_at": "2026-10-17T13:31:00Z",
+        "starred_at": "2026-10-26T12:43:38Z"
+      },
+      "last_updated": "2026-10-27T09:02:31.529773+00:00"
+    },
+    "z2labs/esp-sdr-bridge": {
+      "lists": [],
+      "metadata": {
+        "id": 1401267561,
+        "name": "esp-sdr-bridge",
+        "full_name": "z2labs/esp-sdr-bridge",
+        "description": "SpyServer + rtl_tcp bridge for ESP-SDR on the ESP32-S3: real IQ over USB into SDR++, SDR#, GNU Radio and gqrx",
+        "url": "https://github.com/z2labs/esp-sdr-bridge",
+        "homepage": "https://www.z2labs.io",
+        "language": "Python",
+        "stars": 29,
+        "forks": 6,
+        "open_issues": 2,
+        "created_at": "2026-10-02T06:54:38Z",
+        "updated_at": "2026-10-26T12:43:32Z",
+        "pushed_at": "2026-10-02T21:15:51Z",
+        "starred_at": "2026-10-26T12:43:31Z"
+      },
+      "last_updated": "2026-10-27T09:02:31.918692+00:00"
+    },
+    "ESPARGOS/esp-sdr": {
+      "lists": [],
+      "metadata": {
+        "id": 1392255587,
+        "name": "esp-sdr",
+        "full_name": "ESPARGOS/esp-sdr",
+        "description": "ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios",
+        "url": "https://github.com/ESPARGOS/esp-sdr",
+        "homepage": "https://espargos.net/espsdr/",
+        "language": "C",
+        "stars": 1142,
+        "forks": 160,
+        "open_issues": 9,
+        "created_at": "2026-09-28T08:50:16Z",
+        "updated_at": "2026-10-27T08:45:36Z",
+        "pushed_at": "2026-10-26T21:23:29Z",
+        "starred_at": "2026-10-26T12:42:41Z"
+      },
+      "last_updated": "2026-10-27T09:02:32.268436+00:00"
+    },
+    "CapnBry/widscan58": {
+      "lists": [],
+      "metadata": {
+        "id": 1413278021,
+        "name": "widscan58",
+        "full_name": "CapnBry/widscan58",
+        "description": "ESP-SDR Scanner for FPV VTX channels",
+        "url": "https://github.com/CapnBry/widscan58",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 62,
+        "forks": 16,
+        "open_issues": 0,
+        "created_at": "2026-10-10T14:20:09Z",
+        "updated_at": "2026-10-27T04:27:14Z",
+        "pushed_at": "2026-10-27T00:11:18Z",
+        "starred_at": "2026-10-26T12:42:01Z"
+      },
+      "last_updated": "2026-10-27T09:02:32.724085+00:00"
+    },
+    "LouisHitchcock/FPVGateC5RX": {
+      "lists": [],
+      "metadata": {
+        "id": 1402209631,
+        "name": "FPVGateC5RX",
+        "full_name": "LouisHitchcock/FPVGateC5RX",
+        "description": "ESP32-C5 firmware: drop-in RX5808 replacement for FPVGate",
+        "url": "https://github.com/LouisHitchcock/FPVGateC5RX",
+        "homepage": "https://fpvgate.xyz/",
+        "language": "C++",
+        "stars": 11,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-10-02T18:33:47Z",
+        "updated_at": "2026-10-26T12:39:18Z",
+        "pushed_at": "2026-10-16T18:39:59Z",
+        "starred_at": "2026-10-26T12:39:17Z"
+      },
+      "last_updated": "2026-10-27T09:02:33.110572+00:00"
+    },
+    "Twotoz/C5VRX": {
+      "lists": [],
+      "metadata": {
+        "id": 1351354803,
+        "name": "C5VRX",
+        "full_name": "Twotoz/C5VRX",
+        "description": "Ultra-minimal, zero-CPU 5.8 GHz analog FPV video receiver using ESP32-C5 Wi-Fi 6 PHY MODEM_DIAG, BitScrambler WBFM demodulation & resistor DAC CVBS",
+        "url": "https://github.com/Twotoz/C5VRX",
+        "homepage": null,
+        "language": "C",
+        "stars": 463,
+        "forks": 68,
+        "open_issues": 8,
+        "created_at": "2026-08-30T11:52:11Z",
+        "updated_at": "2026-10-27T08:36:34Z",
+        "pushed_at": "2026-10-26T23:58:01Z",
+        "starred_at": "2026-10-26T12:37:51Z"
+      },
+      "last_updated": "2026-10-27T09:02:33.476716+00:00"
+    },
+    "yoloytang/Awesome-LLMs-for-Video-Understanding": {
+      "lists": [],
+      "metadata": {
+        "id": 666960664,
+        "name": "Awesome-LLMs-for-Video-Understanding",
+        "full_name": "yoloytang/Awesome-LLMs-for-Video-Understanding",
+        "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 [IEEE TCSVT] Latest Papers, Codes and Datasets on Vid-LLMs.",
+        "url": "https://github.com/yoloytang/Awesome-LLMs-for-Video-Understanding",
+        "homepage": "",
+        "language": null,
+        "stars": 3301,
+        "forks": 154,
+        "open_issues": 7,
+        "created_at": "2023-07-16T07:00:11Z",
+        "updated_at": "2026-10-27T08:23:46Z",
+        "pushed_at": "2026-10-27T08:32:29Z",
+        "starred_at": "2025-12-03T22:53:16Z"
+      },
+      "last_updated": "2026-10-27T09:02:33.994747+00:00"
     }
   },
   "last_processed_index": 0,
@@ -252845,5 +253125,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ff3aff1df49c0fbce122d587cabce162d737ebf8716a97d0d3571ad4a9d2e145\""
+  "profile_etag": "W/\"62cacf471828aef813407707c6a8fbbbe39bf63b536f5b2004265f4826b41498\""
 }
