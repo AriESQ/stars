@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T09:12:45.162149+00:00",
+  "last_updated": "2026-10-28T09:42:51.545350+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253261,6 +253261,66 @@
         "fetched_at": "2026-10-27T09:12:44.837495+00:00",
         "status": "ok"
       }
+    },
+    "embedthis/goahead": {
+      "lists": [],
+      "metadata": {
+        "id": 907199918,
+        "name": "goahead",
+        "full_name": "embedthis/goahead",
+        "description": "EmbedThis GoAhead Embedded Web Server",
+        "url": "https://github.com/embedthis/goahead",
+        "homepage": "https://www.embedthis.com/goahead/",
+        "language": "C",
+        "stars": 42,
+        "forks": 10,
+        "open_issues": 0,
+        "created_at": "2024-12-23T04:02:15Z",
+        "updated_at": "2026-10-28T03:14:48Z",
+        "pushed_at": "2026-10-19T02:45:39Z",
+        "starred_at": "2026-10-27T20:51:58Z"
+      },
+      "last_updated": "2026-10-28T09:42:50.811217+00:00"
+    },
+    "beriberikix/usb-macos-vm": {
+      "lists": [],
+      "metadata": {
+        "id": 1334594819,
+        "name": "usb-macos-vm",
+        "full_name": "beriberikix/usb-macos-vm",
+        "description": "USB passthrough on macOS 27 (VZUSBPassthroughDevice): capture a debug probe from the host and drive real hardware with probe-rs inside a Linux VM. No Xcode.",
+        "url": "https://github.com/beriberikix/usb-macos-vm",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 28,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-08-14T21:36:04Z",
+        "updated_at": "2026-10-27T19:25:49Z",
+        "pushed_at": "2026-09-14T19:42:11Z",
+        "starred_at": "2026-10-27T19:25:48Z"
+      },
+      "last_updated": "2026-10-28T09:42:51.156309+00:00"
+    },
+    "MusicTribeOpenSource/0700-AAM": {
+      "lists": [],
+      "metadata": {
+        "id": 1418892638,
+        "name": "0700-AAM",
+        "full_name": "MusicTribeOpenSource/0700-AAM",
+        "description": "Professional Standalone Music Production Center with 7\" Touch Screen, Sampler, Touch Strip and Music Tribe JAM DAW",
+        "url": "https://github.com/MusicTribeOpenSource/0700-AAM",
+        "homepage": null,
+        "language": "C++",
+        "stars": 306,
+        "forks": 49,
+        "open_issues": 8,
+        "created_at": "2026-10-14T12:42:03Z",
+        "updated_at": "2026-10-28T09:23:56Z",
+        "pushed_at": "2026-10-23T07:51:28Z",
+        "starred_at": "2026-10-27T18:40:27Z"
+      },
+      "last_updated": "2026-10-28T09:42:51.545234+00:00"
     }
   },
   "last_processed_index": 0,
@@ -253270,5 +253330,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"62cacf471828aef813407707c6a8fbbbe39bf63b536f5b2004265f4826b41498\""
+  "profile_etag": "W/\"f4b1462f5988f0b1590674a4c243e87cbf20f85ced85a248b63b801fe696adb8\""
 }
