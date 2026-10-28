@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T09:52:31.814671+00:00",
+  "last_updated": "2026-10-28T09:53:29.339229+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253283,7 +253283,15 @@
         "pushed_at": "2026-10-19T02:45:39Z",
         "starred_at": "2026-10-27T20:51:58Z"
       },
-      "last_updated": "2026-10-28T09:42:50.811217+00:00"
+      "last_updated": "2026-10-28T09:42:50.811217+00:00",
+      "readme": {
+        "path": "readmes/embedthis+goahead+README.md",
+        "etag": "W/\"e97b4d7656dae6954019f31bcf1dbfc03e38b476\"",
+        "sha": "e97b4d7656dae6954019f31bcf1dbfc03e38b476",
+        "size": 8140,
+        "fetched_at": "2026-10-28T09:53:29.332746+00:00",
+        "status": "ok"
+      }
     },
     "beriberikix/usb-macos-vm": {
       "lists": [
@@ -253306,7 +253314,15 @@
         "pushed_at": "2026-09-14T19:42:11Z",
         "starred_at": "2026-10-27T19:25:48Z"
       },
-      "last_updated": "2026-10-28T09:42:51.156309+00:00"
+      "last_updated": "2026-10-28T09:42:51.156309+00:00",
+      "readme": {
+        "path": "readmes/beriberikix+usb-macos-vm+README.md",
+        "etag": "W/\"317617cdf13d1b76e66fbe742978269189539452\"",
+        "sha": "317617cdf13d1b76e66fbe742978269189539452",
+        "size": 9179,
+        "fetched_at": "2026-10-28T09:53:28.892899+00:00",
+        "status": "ok"
+      }
     },
     "MusicTribeOpenSource/0700-AAM": {
       "lists": [
@@ -253329,7 +253345,15 @@
         "pushed_at": "2026-10-23T07:51:28Z",
         "starred_at": "2026-10-27T18:40:27Z"
       },
-      "last_updated": "2026-10-28T09:42:51.545234+00:00"
+      "last_updated": "2026-10-28T09:42:51.545234+00:00",
+      "readme": {
+        "path": "readmes/MusicTribeOpenSource+0700-AAM+README.md",
+        "etag": "W/\"f57a8faa276ae454b011962f1b3a708fdff2d7ef\"",
+        "sha": "f57a8faa276ae454b011962f1b3a708fdff2d7ef",
+        "size": 2222,
+        "fetched_at": "2026-10-28T09:53:28.368251+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
