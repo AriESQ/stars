@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T10:11:10.362782+00:00",
+  "last_updated": "2026-10-29T10:11:41.750838+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253377,7 +253377,15 @@
         "pushed_at": "2026-10-29T08:23:21Z",
         "starred_at": "2026-10-29T03:02:10Z"
       },
-      "last_updated": "2026-10-29T10:01:07.349163+00:00"
+      "last_updated": "2026-10-29T10:01:07.349163+00:00",
+      "readme": {
+        "path": "readmes/gominimal+minimal+README.md",
+        "etag": "W/\"c1d56c32652f225ff7fa7bbb7968a3975d8a0140\"",
+        "sha": "c1d56c32652f225ff7fa7bbb7968a3975d8a0140",
+        "size": 14920,
+        "fetched_at": "2026-10-29T10:11:40.064339+00:00",
+        "status": "ok"
+      }
     },
     "ahujasid/mcp-for-blender": {
       "lists": [
@@ -253399,7 +253407,15 @@
         "pushed_at": "2026-10-29T09:13:34Z",
         "starred_at": "2026-10-29T00:15:30Z"
       },
-      "last_updated": "2026-10-29T10:01:07.786016+00:00"
+      "last_updated": "2026-10-29T10:01:07.786016+00:00",
+      "readme": {
+        "path": "readmes/ahujasid+mcp-for-blender+README.md",
+        "etag": "W/\"57f0ac8c8cc9972058462ca6035c06cce39ab5e2\"",
+        "sha": "57f0ac8c8cc9972058462ca6035c06cce39ab5e2",
+        "size": 37453,
+        "fetched_at": "2026-10-29T10:11:38.911066+00:00",
+        "status": "ok"
+      }
     },
     "OpenShot/OpenShot-ComfyUI": {
       "lists": [
@@ -253421,7 +253437,15 @@
         "pushed_at": "2026-04-16T05:04:40Z",
         "starred_at": "2026-10-29T00:13:20Z"
       },
-      "last_updated": "2026-10-29T10:01:08.228364+00:00"
+      "last_updated": "2026-10-29T10:01:08.228364+00:00",
+      "readme": {
+        "path": "readmes/OpenShot+OpenShot-ComfyUI+README.md",
+        "etag": "W/\"00b5c21969dacafde7c1877e1afb0498005521a8\"",
+        "sha": "00b5c21969dacafde7c1877e1afb0498005521a8",
+        "size": 5619,
+        "fetched_at": "2026-10-29T10:11:37.799154+00:00",
+        "status": "ok"
+      }
     },
     "VelornLabs/velorn": {
       "lists": [
@@ -253443,7 +253467,15 @@
         "pushed_at": "2026-10-12T16:41:11Z",
         "starred_at": "2026-10-29T00:12:47Z"
       },
-      "last_updated": "2026-10-29T10:01:08.663891+00:00"
+      "last_updated": "2026-10-29T10:01:08.663891+00:00",
+      "readme": {
+        "path": "readmes/VelornLabs+velorn+README.md",
+        "etag": "W/\"07d00bc875adaf4e0aea0d7f71547cf4d943c321\"",
+        "sha": "07d00bc875adaf4e0aea0d7f71547cf4d943c321",
+        "size": 14255,
+        "fetched_at": "2026-10-29T10:11:38.365615+00:00",
+        "status": "ok"
+      }
     },
     "OpenShot/libopenshot": {
       "lists": [
@@ -253465,7 +253497,15 @@
         "pushed_at": "2026-10-29T05:39:07Z",
         "starred_at": "2026-10-29T00:09:59Z"
       },
-      "last_updated": "2026-10-29T10:01:09.090169+00:00"
+      "last_updated": "2026-10-29T10:01:09.090169+00:00",
+      "readme": {
+        "path": "readmes/OpenShot+libopenshot+README.md",
+        "etag": "W/\"eabc32fe16f3b2291e41d1cdbc1b3a9756fbe188\"",
+        "sha": "eabc32fe16f3b2291e41d1cdbc1b3a9756fbe188",
+        "size": 4366,
+        "fetched_at": "2026-10-29T10:11:38.065279+00:00",
+        "status": "ok"
+      }
     },
     "anan0110692/blender-mcp-vse": {
       "lists": [
@@ -253487,7 +253527,15 @@
         "pushed_at": "2026-01-30T20:57:53Z",
         "starred_at": "2026-10-29T00:08:50Z"
       },
-      "last_updated": "2026-10-29T10:01:09.496943+00:00"
+      "last_updated": "2026-10-29T10:01:09.496943+00:00",
+      "readme": {
+        "path": "readmes/anan0110692+blender-mcp-vse+README.md",
+        "etag": "W/\"086249cfc56e33463fd7cdd740860c41df164699\"",
+        "sha": "086249cfc56e33463fd7cdd740860c41df164699",
+        "size": 9313,
+        "fetched_at": "2026-10-29T10:11:39.672038+00:00",
+        "status": "ok"
+      }
     },
     "alecray/openshot-mcp": {
       "lists": [
@@ -253509,7 +253557,15 @@
         "pushed_at": "2026-09-10T17:21:13Z",
         "starred_at": "2026-10-29T00:05:45Z"
       },
-      "last_updated": "2026-10-29T10:01:09.911337+00:00"
+      "last_updated": "2026-10-29T10:01:09.911337+00:00",
+      "readme": {
+        "path": "readmes/alecray+openshot-mcp+README.md",
+        "etag": "W/\"db72b1513a51e60b00b583bc250bffe28a7eaa5f\"",
+        "sha": "db72b1513a51e60b00b583bc250bffe28a7eaa5f",
+        "size": 6742,
+        "fetched_at": "2026-10-29T10:11:39.302761+00:00",
+        "status": "ok"
+      }
     },
     "hiteshK03/davinci-resolve-mcp": {
       "lists": [
@@ -253532,7 +253588,15 @@
         "pushed_at": "2026-03-28T04:30:13Z",
         "starred_at": "2026-10-29T00:03:56Z"
       },
-      "last_updated": "2026-10-29T10:01:10.382301+00:00"
+      "last_updated": "2026-10-29T10:01:10.382301+00:00",
+      "readme": {
+        "path": "readmes/hiteshK03+davinci-resolve-mcp+README.md",
+        "etag": "W/\"408f9040c77fb0b07f2db1cf824ce7ff56c4a904\"",
+        "sha": "408f9040c77fb0b07f2db1cf824ce7ff56c4a904",
+        "size": 8814,
+        "fetched_at": "2026-10-29T10:11:40.370786+00:00",
+        "status": "ok"
+      }
     },
     "adileo/squirreldisk": {
       "lists": [
@@ -253554,7 +253618,15 @@
         "pushed_at": "2026-10-18T13:58:31Z",
         "starred_at": "2026-10-28T23:45:13Z"
       },
-      "last_updated": "2026-10-29T10:01:10.835589+00:00"
+      "last_updated": "2026-10-29T10:01:10.835589+00:00",
+      "readme": {
+        "path": "readmes/adileo+squirreldisk+README.md",
+        "etag": "W/\"da768da1f40bc6bb85d441c709d1efa08312ae5e\"",
+        "sha": "da768da1f40bc6bb85d441c709d1efa08312ae5e",
+        "size": 10577,
+        "fetched_at": "2026-10-29T10:11:38.635497+00:00",
+        "status": "ok"
+      }
     },
     "MaxGhenis/openmessage": {
       "lists": [],
@@ -253574,7 +253646,15 @@
         "pushed_at": "2026-10-24T23:38:35Z",
         "starred_at": "2026-10-28T19:17:32Z"
       },
-      "last_updated": "2026-10-29T10:01:11.236961+00:00"
+      "last_updated": "2026-10-29T10:01:11.236961+00:00",
+      "readme": {
+        "path": "readmes/MaxGhenis+openmessage+README.md",
+        "etag": "W/\"1a0bdad4191a81c106be85a54c7b1c9b96150f13\"",
+        "sha": "1a0bdad4191a81c106be85a54c7b1c9b96150f13",
+        "size": 16503,
+        "fetched_at": "2026-10-29T10:11:37.471097+00:00",
+        "status": "ok"
+      }
     },
     "zorenkonte/textport": {
       "lists": [],
@@ -253594,7 +253674,15 @@
         "pushed_at": "2026-07-18T11:44:18Z",
         "starred_at": "2026-10-28T18:54:06Z"
       },
-      "last_updated": "2026-10-29T10:01:11.743492+00:00"
+      "last_updated": "2026-10-29T10:01:11.743492+00:00",
+      "readme": {
+        "path": "readmes/zorenkonte+textport+README.md",
+        "etag": "W/\"692333cf73eabc9b81fb611795a02ddaef8b2aa1\"",
+        "sha": "692333cf73eabc9b81fb611795a02ddaef8b2aa1",
+        "size": 6788,
+        "fetched_at": "2026-10-29T10:11:41.750351+00:00",
+        "status": "ok"
+      }
     },
     "oosexgang/hakios-xnu-kernel": {
       "lists": [
@@ -253616,7 +253704,15 @@
         "pushed_at": "2026-10-28T19:07:44Z",
         "starred_at": "2026-10-23T06:35:05Z"
       },
-      "last_updated": "2026-10-29T10:01:12.139697+00:00"
+      "last_updated": "2026-10-29T10:01:12.139697+00:00",
+      "readme": {
+        "path": "readmes/oosexgang+hakios-xnu-kernel+README.md",
+        "etag": "W/\"0be9761574499bce6d5b70e13baae19d6d485f3f\"",
+        "sha": "0be9761574499bce6d5b70e13baae19d6d485f3f",
+        "size": 10127,
+        "fetched_at": "2026-10-29T10:11:41.293213+00:00",
+        "status": "ok"
+      }
     },
     "meta/dotslash": {
       "lists": [
@@ -253638,7 +253734,15 @@
         "pushed_at": "2026-10-29T03:05:34Z",
         "starred_at": "2025-06-14T20:50:28Z"
       },
-      "last_updated": "2026-10-29T10:01:12.665950+00:00"
+      "last_updated": "2026-10-29T10:01:12.665950+00:00",
+      "readme": {
+        "path": "readmes/meta+dotslash+README.md",
+        "etag": "W/\"6c45c408fadbb16f50f5a7560c5dc14bf67359eb\"",
+        "sha": "6c45c408fadbb16f50f5a7560c5dc14bf67359eb",
+        "size": 3998,
+        "fetched_at": "2026-10-29T10:11:41.029735+00:00",
+        "status": "ok"
+      }
     },
     "meta/docusaurus": {
       "lists": [
@@ -253661,7 +253765,15 @@
         "pushed_at": "2026-10-23T20:44:37Z",
         "starred_at": "2023-08-20T13:32:30Z"
       },
-      "last_updated": "2026-10-29T10:01:13.258755+00:00"
+      "last_updated": "2026-10-29T10:01:13.258755+00:00",
+      "readme": {
+        "path": "readmes/meta+docusaurus+README.md",
+        "etag": "W/\"84333e25d5cacf44f730203306089b123702f017\"",
+        "sha": "84333e25d5cacf44f730203306089b123702f017",
+        "size": 7169,
+        "fetched_at": "2026-10-29T10:11:40.655220+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
