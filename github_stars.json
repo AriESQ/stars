@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T10:01:13.258795+00:00",
+  "last_updated": "2026-10-29T10:11:10.362782+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253356,7 +253356,11 @@
       }
     },
     "gominimal/minimal": {
-      "lists": [],
+      "lists": [
+        "Docker and OCI containers",
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1037556932,
         "name": "minimal",
@@ -253376,7 +253380,9 @@
       "last_updated": "2026-10-29T10:01:07.349163+00:00"
     },
     "ahujasid/mcp-for-blender": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 944414751,
         "name": "mcp-for-blender",
@@ -253396,7 +253402,9 @@
       "last_updated": "2026-10-29T10:01:07.786016+00:00"
     },
     "OpenShot/OpenShot-ComfyUI": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1168893322,
         "name": "OpenShot-ComfyUI",
@@ -253416,7 +253424,9 @@
       "last_updated": "2026-10-29T10:01:08.228364+00:00"
     },
     "VelornLabs/velorn": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1176355905,
         "name": "velorn",
@@ -253436,7 +253446,9 @@
       "last_updated": "2026-10-29T10:01:08.663891+00:00"
     },
     "OpenShot/libopenshot": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 31920792,
         "name": "libopenshot",
@@ -253456,7 +253468,9 @@
       "last_updated": "2026-10-29T10:01:09.090169+00:00"
     },
     "anan0110692/blender-mcp-vse": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1146265460,
         "name": "blender-mcp-vse",
@@ -253476,7 +253490,9 @@
       "last_updated": "2026-10-29T10:01:09.496943+00:00"
     },
     "alecray/openshot-mcp": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1364563280,
         "name": "openshot-mcp",
@@ -253496,7 +253512,10 @@
       "last_updated": "2026-10-29T10:01:09.911337+00:00"
     },
     "hiteshK03/davinci-resolve-mcp": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1192890086,
         "name": "davinci-resolve-mcp",
@@ -253516,7 +253535,9 @@
       "last_updated": "2026-10-29T10:01:10.382301+00:00"
     },
     "adileo/squirreldisk": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 594784624,
         "name": "squirreldisk",
@@ -253576,7 +253597,9 @@
       "last_updated": "2026-10-29T10:01:11.743492+00:00"
     },
     "oosexgang/hakios-xnu-kernel": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1429328794,
         "name": "hakios-xnu-kernel",
@@ -253596,7 +253619,9 @@
       "last_updated": "2026-10-29T10:01:12.139697+00:00"
     },
     "meta/dotslash": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 753431230,
         "name": "dotslash",
@@ -253616,7 +253641,10 @@
       "last_updated": "2026-10-29T10:01:12.665950+00:00"
     },
     "meta/docusaurus": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 94911145,
         "name": "docusaurus",
