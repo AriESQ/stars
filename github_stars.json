@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T09:53:29.339229+00:00",
+  "last_updated": "2026-10-29T10:01:13.258795+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253354,6 +253354,286 @@
         "fetched_at": "2026-10-28T09:53:28.368251+00:00",
         "status": "ok"
       }
+    },
+    "gominimal/minimal": {
+      "lists": [],
+      "metadata": {
+        "id": 1037556932,
+        "name": "minimal",
+        "full_name": "gominimal/minimal",
+        "description": "Run your agent in a Minimal box. Ship and run software with isolation on your own computer.",
+        "url": "https://github.com/gominimal/minimal",
+        "homepage": "https://minimal.dev",
+        "language": "Rust",
+        "stars": 231,
+        "forks": 15,
+        "open_issues": 246,
+        "created_at": "2025-08-13T18:52:15Z",
+        "updated_at": "2026-10-29T05:32:32Z",
+        "pushed_at": "2026-10-29T08:23:21Z",
+        "starred_at": "2026-10-29T03:02:10Z"
+      },
+      "last_updated": "2026-10-29T10:01:07.349163+00:00"
+    },
+    "ahujasid/mcp-for-blender": {
+      "lists": [],
+      "metadata": {
+        "id": 944414751,
+        "name": "mcp-for-blender",
+        "full_name": "ahujasid/mcp-for-blender",
+        "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+        "url": "https://github.com/ahujasid/mcp-for-blender",
+        "homepage": "https://www.mcp-for-blender.com/",
+        "language": "Python",
+        "stars": 32659,
+        "forks": 2962,
+        "open_issues": 57,
+        "created_at": "2025-03-07T09:58:58Z",
+        "updated_at": "2026-10-29T09:42:50Z",
+        "pushed_at": "2026-10-29T09:13:34Z",
+        "starred_at": "2026-10-29T00:15:30Z"
+      },
+      "last_updated": "2026-10-29T10:01:07.786016+00:00"
+    },
+    "OpenShot/OpenShot-ComfyUI": {
+      "lists": [],
+      "metadata": {
+        "id": 1168893322,
+        "name": "OpenShot-ComfyUI",
+        "full_name": "OpenShot/OpenShot-ComfyUI",
+        "description": "OpenShot-ComfyUI provides production-focused ComfyUI nodes built for OpenShot integration.",
+        "url": "https://github.com/OpenShot/OpenShot-ComfyUI",
+        "homepage": "",
+        "language": "Python",
+        "stars": 18,
+        "forks": 4,
+        "open_issues": 1,
+        "created_at": "2026-02-27T23:11:40Z",
+        "updated_at": "2026-10-29T00:13:20Z",
+        "pushed_at": "2026-04-16T05:04:40Z",
+        "starred_at": "2026-10-29T00:13:20Z"
+      },
+      "last_updated": "2026-10-29T10:01:08.228364+00:00"
+    },
+    "VelornLabs/velorn": {
+      "lists": [],
+      "metadata": {
+        "id": 1176355905,
+        "name": "velorn",
+        "full_name": "VelornLabs/velorn",
+        "description": "AI-native video editing built around real creative timelines, generative workflows, and local agent control.",
+        "url": "https://github.com/VelornLabs/velorn",
+        "homepage": "https://velorn.ai",
+        "language": "JavaScript",
+        "stars": 515,
+        "forks": 73,
+        "open_issues": 26,
+        "created_at": "2026-03-08T23:56:50Z",
+        "updated_at": "2026-10-29T00:12:47Z",
+        "pushed_at": "2026-10-12T16:41:11Z",
+        "starred_at": "2026-10-29T00:12:47Z"
+      },
+      "last_updated": "2026-10-29T10:01:08.663891+00:00"
+    },
+    "OpenShot/libopenshot": {
+      "lists": [],
+      "metadata": {
+        "id": 31920792,
+        "name": "libopenshot",
+        "full_name": "OpenShot/libopenshot",
+        "description": "OpenShot Video Library (libopenshot) is a free, open-source project dedicated to delivering high quality video editing, animation, and playback solutions to the world. API currently supports C++, Python, and Ruby.",
+        "url": "https://github.com/OpenShot/libopenshot",
+        "homepage": "http://www.openshot.org",
+        "language": "C++",
+        "stars": 1581,
+        "forks": 333,
+        "open_issues": 71,
+        "created_at": "2015-03-09T20:26:42Z",
+        "updated_at": "2026-10-29T00:09:59Z",
+        "pushed_at": "2026-10-29T05:39:07Z",
+        "starred_at": "2026-10-29T00:09:59Z"
+      },
+      "last_updated": "2026-10-29T10:01:09.090169+00:00"
+    },
+    "anan0110692/blender-mcp-vse": {
+      "lists": [],
+      "metadata": {
+        "id": 1146265460,
+        "name": "blender-mcp-vse",
+        "full_name": "anan0110692/blender-mcp-vse",
+        "description": "AI-powered video editing in Blender through Claude    and MCP",
+        "url": "https://github.com/anan0110692/blender-mcp-vse",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-01-30T20:57:02Z",
+        "updated_at": "2026-10-29T00:08:50Z",
+        "pushed_at": "2026-01-30T20:57:53Z",
+        "starred_at": "2026-10-29T00:08:50Z"
+      },
+      "last_updated": "2026-10-29T10:01:09.496943+00:00"
+    },
+    "alecray/openshot-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1364563280,
+        "name": "openshot-mcp",
+        "full_name": "alecray/openshot-mcp",
+        "description": "MCP server that edits OpenShot 4.0 projects: import media, detect a music beat grid, place clips on it",
+        "url": "https://github.com/alecray/openshot-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2026-09-10T16:40:10Z",
+        "updated_at": "2026-10-29T00:05:45Z",
+        "pushed_at": "2026-09-10T17:21:13Z",
+        "starred_at": "2026-10-29T00:05:45Z"
+      },
+      "last_updated": "2026-10-29T10:01:09.911337+00:00"
+    },
+    "hiteshK03/davinci-resolve-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1192890086,
+        "name": "davinci-resolve-mcp",
+        "full_name": "hiteshK03/davinci-resolve-mcp",
+        "description": "Control DaVinci Resolve from AI assistants (Cursor, Claude) via MCP. Full read + write bridge with 44 tools and local Whisper transcription.",
+        "url": "https://github.com/hiteshK03/davinci-resolve-mcp",
+        "homepage": null,
+        "language": "Python",
+        "stars": 150,
+        "forks": 15,
+        "open_issues": 3,
+        "created_at": "2026-03-26T16:59:07Z",
+        "updated_at": "2026-10-29T00:03:57Z",
+        "pushed_at": "2026-03-28T04:30:13Z",
+        "starred_at": "2026-10-29T00:03:56Z"
+      },
+      "last_updated": "2026-10-29T10:01:10.382301+00:00"
+    },
+    "adileo/squirreldisk": {
+      "lists": [],
+      "metadata": {
+        "id": 594784624,
+        "name": "squirreldisk",
+        "full_name": "adileo/squirreldisk",
+        "description": "Free, open-source disk usage analyzer for macOS, Windows and Linux. See what fills your disk, servers (SSH) and cloud storage in an animated sunburst or treemap, and clean it up safely. A DaisyDisk, WizTree and WinDirStat alternative, in native Rust \ud83e\udd80",
+        "url": "https://github.com/adileo/squirreldisk",
+        "homepage": "https://www.squirreldisk.com",
+        "language": "Rust",
+        "stars": 2099,
+        "forks": 101,
+        "open_issues": 25,
+        "created_at": "2023-01-29T16:29:58Z",
+        "updated_at": "2026-10-29T09:31:21Z",
+        "pushed_at": "2026-10-18T13:58:31Z",
+        "starred_at": "2026-10-28T23:45:13Z"
+      },
+      "last_updated": "2026-10-29T10:01:10.835589+00:00"
+    },
+    "MaxGhenis/openmessage": {
+      "lists": [],
+      "metadata": {
+        "id": 1151850320,
+        "name": "openmessage",
+        "full_name": "MaxGhenis/openmessage",
+        "description": "Local-first Google Messages + WhatsApp inbox for Mac, web, and MCP.",
+        "url": "https://github.com/MaxGhenis/openmessage",
+        "homepage": "https://openmessage.ai",
+        "language": "Go",
+        "stars": 67,
+        "forks": 35,
+        "open_issues": 69,
+        "created_at": "2026-02-07T01:28:54Z",
+        "updated_at": "2026-10-28T19:17:33Z",
+        "pushed_at": "2026-10-24T23:38:35Z",
+        "starred_at": "2026-10-28T19:17:32Z"
+      },
+      "last_updated": "2026-10-29T10:01:11.236961+00:00"
+    },
+    "zorenkonte/textport": {
+      "lists": [],
+      "metadata": {
+        "id": 1292432377,
+        "name": "textport",
+        "full_name": "zorenkonte/textport",
+        "description": null,
+        "url": "https://github.com/zorenkonte/textport",
+        "homepage": null,
+        "language": "Kotlin",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-07-07T14:19:47Z",
+        "updated_at": "2026-10-28T18:54:07Z",
+        "pushed_at": "2026-07-18T11:44:18Z",
+        "starred_at": "2026-10-28T18:54:06Z"
+      },
+      "last_updated": "2026-10-29T10:01:11.743492+00:00"
+    },
+    "oosexgang/hakios-xnu-kernel": {
+      "lists": [],
+      "metadata": {
+        "id": 1429328794,
+        "name": "hakios-xnu-kernel",
+        "full_name": "oosexgang/hakios-xnu-kernel",
+        "description": null,
+        "url": "https://github.com/oosexgang/hakios-xnu-kernel",
+        "homepage": null,
+        "language": "C",
+        "stars": 1927,
+        "forks": 331,
+        "open_issues": 19,
+        "created_at": "2026-10-22T06:20:11Z",
+        "updated_at": "2026-10-29T09:49:56Z",
+        "pushed_at": "2026-10-28T19:07:44Z",
+        "starred_at": "2026-10-23T06:35:05Z"
+      },
+      "last_updated": "2026-10-29T10:01:12.139697+00:00"
+    },
+    "meta/dotslash": {
+      "lists": [],
+      "metadata": {
+        "id": 753431230,
+        "name": "dotslash",
+        "full_name": "meta/dotslash",
+        "description": "Simplified executable deployment",
+        "url": "https://github.com/meta/dotslash",
+        "homepage": "https://dotslash-cli.com",
+        "language": "Rust",
+        "stars": 911,
+        "forks": 80,
+        "open_issues": 36,
+        "created_at": "2024-02-06T05:21:56Z",
+        "updated_at": "2026-10-29T03:02:55Z",
+        "pushed_at": "2026-10-29T03:05:34Z",
+        "starred_at": "2025-06-14T20:50:28Z"
+      },
+      "last_updated": "2026-10-29T10:01:12.665950+00:00"
+    },
+    "meta/docusaurus": {
+      "lists": [],
+      "metadata": {
+        "id": 94911145,
+        "name": "docusaurus",
+        "full_name": "meta/docusaurus",
+        "description": "Easy to maintain open source documentation websites.",
+        "url": "https://github.com/meta/docusaurus",
+        "homepage": "https://docusaurus.io",
+        "language": "TypeScript",
+        "stars": 66601,
+        "forks": 10107,
+        "open_issues": 448,
+        "created_at": "2017-06-20T16:13:53Z",
+        "updated_at": "2026-10-29T09:15:15Z",
+        "pushed_at": "2026-10-23T20:44:37Z",
+        "starred_at": "2023-08-20T13:32:30Z"
+      },
+      "last_updated": "2026-10-29T10:01:13.258755+00:00"
     }
   },
   "last_processed_index": 0,
@@ -253363,5 +253643,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f4b1462f5988f0b1590674a4c243e87cbf20f85ced85a248b63b801fe696adb8\""
+  "profile_etag": "W/\"5adbb21146a852d34f2739fbaa3a8d67a6db3c48b7da29897ebf5157d30167c1\""
 }
