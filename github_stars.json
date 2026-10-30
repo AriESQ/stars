@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T10:13:14.763937+00:00",
+  "last_updated": "2026-10-30T10:14:13.488091+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253796,7 +253796,15 @@
         "pushed_at": "2026-10-29T13:05:44Z",
         "starred_at": "2026-10-29T23:24:39Z"
       },
-      "last_updated": "2026-10-30T10:03:37.889664+00:00"
+      "last_updated": "2026-10-30T10:03:37.889664+00:00",
+      "readme": {
+        "path": "readmes/daveebbelaar+bama+README.md",
+        "etag": "W/\"02f32c2bc508fea0a6969c3ee0a90b22f734779f\"",
+        "sha": "02f32c2bc508fea0a6969c3ee0a90b22f734779f",
+        "size": 8533,
+        "fetched_at": "2026-10-30T10:14:12.551393+00:00",
+        "status": "ok"
+      }
     },
     "terraseraph/nikon-remote": {
       "lists": [
@@ -253819,7 +253827,15 @@
         "pushed_at": "2026-10-27T14:10:54Z",
         "starred_at": "2026-10-29T20:56:45Z"
       },
-      "last_updated": "2026-10-30T10:03:38.175348+00:00"
+      "last_updated": "2026-10-30T10:03:38.175348+00:00",
+      "readme": {
+        "path": "readmes/terraseraph+nikon-remote+README.md",
+        "etag": "W/\"81e98f1b42c14c15b353e0f31f5ec826bbdd07de\"",
+        "sha": "81e98f1b42c14c15b353e0f31f5ec826bbdd07de",
+        "size": 26003,
+        "fetched_at": "2026-10-30T10:14:13.486431+00:00",
+        "status": "ok"
+      }
     },
     "keirf/greaseweazle": {
       "lists": [
@@ -253842,7 +253858,15 @@
         "pushed_at": "2026-10-22T19:12:29Z",
         "starred_at": "2026-10-29T20:25:42Z"
       },
-      "last_updated": "2026-10-30T10:03:38.449742+00:00"
+      "last_updated": "2026-10-30T10:03:38.449742+00:00",
+      "readme": {
+        "path": "readmes/keirf+greaseweazle+README.md",
+        "etag": "W/\"03137350d2956bb3a1961dd5711a53a61422167f\"",
+        "sha": "03137350d2956bb3a1961dd5711a53a61422167f",
+        "size": 2027,
+        "fetched_at": "2026-10-30T10:14:13.008896+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
