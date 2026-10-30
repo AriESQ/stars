@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T10:11:41.750838+00:00",
+  "last_updated": "2026-10-30T10:03:38.449846+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253774,6 +253774,66 @@
         "fetched_at": "2026-10-29T10:11:40.655220+00:00",
         "status": "ok"
       }
+    },
+    "daveebbelaar/bama": {
+      "lists": [],
+      "metadata": {
+        "id": 1431986839,
+        "name": "bama",
+        "full_name": "daveebbelaar/bama",
+        "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+        "url": "https://github.com/daveebbelaar/bama",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 843,
+        "forks": 120,
+        "open_issues": 0,
+        "created_at": "2026-10-24T08:44:36Z",
+        "updated_at": "2026-10-30T09:51:32Z",
+        "pushed_at": "2026-10-29T13:05:44Z",
+        "starred_at": "2026-10-29T23:24:39Z"
+      },
+      "last_updated": "2026-10-30T10:03:37.889664+00:00"
+    },
+    "terraseraph/nikon-remote": {
+      "lists": [],
+      "metadata": {
+        "id": 1435258853,
+        "name": "nikon-remote",
+        "full_name": "terraseraph/nikon-remote",
+        "description": "USB camera remote for Windows: live view, exposure control, AI shot assist, voice/gesture triggers. Desktop app or browser.",
+        "url": "https://github.com/terraseraph/nikon-remote",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 14,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-27T04:47:33Z",
+        "updated_at": "2026-10-30T06:00:55Z",
+        "pushed_at": "2026-10-27T14:10:54Z",
+        "starred_at": "2026-10-29T20:56:45Z"
+      },
+      "last_updated": "2026-10-30T10:03:38.175348+00:00"
+    },
+    "keirf/greaseweazle": {
+      "lists": [],
+      "metadata": {
+        "id": 126182850,
+        "name": "greaseweazle",
+        "full_name": "keirf/greaseweazle",
+        "description": "Tools for accessing a floppy drive at the raw flux level",
+        "url": "https://github.com/keirf/greaseweazle",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1439,
+        "forks": 149,
+        "open_issues": 84,
+        "created_at": "2018-03-21T13:27:45Z",
+        "updated_at": "2026-10-29T22:25:34Z",
+        "pushed_at": "2026-10-22T19:12:29Z",
+        "starred_at": "2026-10-29T20:25:42Z"
+      },
+      "last_updated": "2026-10-30T10:03:38.449742+00:00"
     }
   },
   "last_processed_index": 0,
@@ -253783,5 +253843,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5adbb21146a852d34f2739fbaa3a8d67a6db3c48b7da29897ebf5157d30167c1\""
+  "profile_etag": "W/\"30c3483da6e242bb05230d53a7a26332b5518afa60750311ca3b16d14ff4c973\""
 }
