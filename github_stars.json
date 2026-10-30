@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T10:03:38.449846+00:00",
+  "last_updated": "2026-10-30T10:13:14.763937+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253776,7 +253776,10 @@
       }
     },
     "daveebbelaar/bama": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1431986839,
         "name": "bama",
@@ -253796,7 +253799,10 @@
       "last_updated": "2026-10-30T10:03:37.889664+00:00"
     },
     "terraseraph/nikon-remote": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1435258853,
         "name": "nikon-remote",
@@ -253816,7 +253822,10 @@
       "last_updated": "2026-10-30T10:03:38.175348+00:00"
     },
     "keirf/greaseweazle": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 126182850,
         "name": "greaseweazle",
