@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T09:51:06.543004+00:00",
+  "last_updated": "2026-10-31T09:51:32.584576+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253886,7 +253886,15 @@
         "pushed_at": "2026-10-29T16:40:56Z",
         "starred_at": "2026-10-31T01:01:23Z"
       },
-      "last_updated": "2026-10-31T09:41:21.718720+00:00"
+      "last_updated": "2026-10-31T09:41:21.718720+00:00",
+      "readme": {
+        "path": "readmes/chris124567+cfsolve+README.md",
+        "etag": "W/\"f77875af59be9bd5e77c3e3bb69db844aba018e1\"",
+        "sha": "f77875af59be9bd5e77c3e3bb69db844aba018e1",
+        "size": 7687,
+        "fetched_at": "2026-10-31T09:51:31.907263+00:00",
+        "status": "ok"
+      }
     },
     "deskflow/deskflow": {
       "lists": [
@@ -253908,7 +253916,15 @@
         "pushed_at": "2026-10-30T16:36:32Z",
         "starred_at": "2026-10-30T16:05:02Z"
       },
-      "last_updated": "2026-10-31T09:41:22.042915+00:00"
+      "last_updated": "2026-10-31T09:41:22.042915+00:00",
+      "readme": {
+        "path": "readmes/deskflow+deskflow+README.md",
+        "etag": "W/\"667ed74b914cacf6df3d93298aaae0fb98572908\"",
+        "sha": "667ed74b914cacf6df3d93298aaae0fb98572908",
+        "size": 11049,
+        "fetched_at": "2026-10-31T09:51:32.117136+00:00",
+        "status": "ok"
+      }
     },
     "google/elephant-goldfish-model": {
       "lists": [
@@ -253930,7 +253946,15 @@
         "pushed_at": "2026-10-30T09:33:24Z",
         "starred_at": "2026-10-30T11:54:42Z"
       },
-      "last_updated": "2026-10-31T09:41:22.367208+00:00"
+      "last_updated": "2026-10-31T09:41:22.367208+00:00",
+      "readme": {
+        "path": "readmes/google+elephant-goldfish-model+README.md",
+        "etag": "W/\"2368ca78124df2b931bc274d5aa3eba2e155ea15\"",
+        "sha": "2368ca78124df2b931bc274d5aa3eba2e155ea15",
+        "size": 7976,
+        "fetched_at": "2026-10-31T09:51:32.331408+00:00",
+        "status": "ok"
+      }
     },
     "herdrdev/herdr-app": {
       "lists": [
@@ -253954,7 +253978,15 @@
         "pushed_at": "2026-10-31T00:49:27Z",
         "starred_at": "2026-10-30T11:36:05Z"
       },
-      "last_updated": "2026-10-31T09:41:22.668626+00:00"
+      "last_updated": "2026-10-31T09:41:22.668626+00:00",
+      "readme": {
+        "path": "readmes/herdrdev+herdr-app+README.md",
+        "etag": "W/\"6af61fd8931db4ff07d0dd05e2b176359f332977\"",
+        "sha": "6af61fd8931db4ff07d0dd05e2b176359f332977",
+        "size": 7345,
+        "fetched_at": "2026-10-31T09:51:32.578091+00:00",
+        "status": "ok"
+      }
     },
     "ajnart/self-host": {
       "lists": [
@@ -253978,7 +254010,15 @@
         "pushed_at": "2026-10-30T20:02:26Z",
         "starred_at": "2025-04-01T22:27:09Z"
       },
-      "last_updated": "2026-10-31T09:41:23.197024+00:00"
+      "last_updated": "2026-10-31T09:41:23.197024+00:00",
+      "readme": {
+        "path": "readmes/ajnart+self-host+README.md",
+        "etag": "W/\"5a70f8622472ab228ffbca3b079c98d3f15c6479\"",
+        "sha": "5a70f8622472ab228ffbca3b079c98d3f15c6479",
+        "size": 29961,
+        "fetched_at": "2026-10-31T09:51:31.683575+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
