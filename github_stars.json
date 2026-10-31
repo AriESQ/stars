@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T09:41:23.197053+00:00",
+  "last_updated": "2026-10-31T09:51:06.543004+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -253889,7 +253889,9 @@
       "last_updated": "2026-10-31T09:41:21.718720+00:00"
     },
     "deskflow/deskflow": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 25135037,
         "name": "deskflow",
@@ -253909,7 +253911,9 @@
       "last_updated": "2026-10-31T09:41:22.042915+00:00"
     },
     "google/elephant-goldfish-model": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1368596582,
         "name": "elephant-goldfish-model",
@@ -253929,7 +253933,11 @@
       "last_updated": "2026-10-31T09:41:22.367208+00:00"
     },
     "herdrdev/herdr-app": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1422648476,
         "name": "herdr-app",
@@ -253949,7 +253957,11 @@
       "last_updated": "2026-10-31T09:41:22.668626+00:00"
     },
     "ajnart/self-host": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 950728976,
         "name": "self-host",
