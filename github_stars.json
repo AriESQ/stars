@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T10:30:01.149658+00:00",
+  "last_updated": "2026-11-01T10:39:20.557894+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -219001,7 +219001,8 @@
       "lists": [
         "CI/CD",
         "Devops",
-        "Github Actions"
+        "Github Actions",
+        "GoLang"
       ],
       "metadata": {
         "id": 1151630728,
@@ -253869,7 +253870,10 @@
       }
     },
     "chris124567/cfsolve": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1433819596,
         "name": "cfsolve",
@@ -254021,7 +254025,14 @@
       }
     },
     "webfactory/ssh-agent": {
-      "lists": [],
+      "lists": [
+        "CI/CD",
+        "Devops",
+        "Github Actions",
+        "Infosec",
+        "JavaScript",
+        "PKI"
+      ],
       "metadata": {
         "id": 208510314,
         "name": "ssh-agent",
@@ -254041,7 +254052,9 @@
       "last_updated": "2026-11-01T10:29:59.799025+00:00"
     },
     "NQRLabs/Veilocity": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1094469075,
         "name": "Veilocity",
@@ -254061,7 +254074,9 @@
       "last_updated": "2026-11-01T10:30:00.140079+00:00"
     },
     "mrexodia/TitanHide": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 71595650,
         "name": "TitanHide",
@@ -254081,7 +254096,10 @@
       "last_updated": "2026-11-01T10:30:00.463933+00:00"
     },
     "samneggs/FruitJam": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1342956287,
         "name": "FruitJam",
@@ -254101,7 +254119,10 @@
       "last_updated": "2026-11-01T10:30:00.803153+00:00"
     },
     "microsoft/TokenEconomizer": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1416442720,
         "name": "TokenEconomizer",
