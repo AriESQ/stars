@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T10:39:20.557894+00:00",
+  "last_updated": "2026-11-01T10:39:48.777139+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254049,7 +254049,15 @@
         "pushed_at": "2026-09-11T08:40:58Z",
         "starred_at": "2026-11-01T03:11:26Z"
       },
-      "last_updated": "2026-11-01T10:29:59.799025+00:00"
+      "last_updated": "2026-11-01T10:29:59.799025+00:00",
+      "readme": {
+        "path": "readmes/webfactory+ssh-agent+README.md",
+        "etag": "W/\"30282018e6e3cc1b06196fd3008705a229167e71\"",
+        "sha": "30282018e6e3cc1b06196fd3008705a229167e71",
+        "size": 16731,
+        "fetched_at": "2026-11-01T10:39:48.776307+00:00",
+        "status": "ok"
+      }
     },
     "NQRLabs/Veilocity": {
       "lists": [
@@ -254071,7 +254079,15 @@
         "pushed_at": "2026-03-11T18:19:11Z",
         "starred_at": "2026-10-31T23:19:42Z"
       },
-      "last_updated": "2026-11-01T10:30:00.140079+00:00"
+      "last_updated": "2026-11-01T10:30:00.140079+00:00",
+      "readme": {
+        "path": "readmes/NQRLabs+Veilocity+README.md",
+        "etag": "W/\"97b3ad431e6fa3ea0324613eb1ff268e3d89dd32\"",
+        "sha": "97b3ad431e6fa3ea0324613eb1ff268e3d89dd32",
+        "size": 7471,
+        "fetched_at": "2026-11-01T10:39:47.869884+00:00",
+        "status": "ok"
+      }
     },
     "mrexodia/TitanHide": {
       "lists": [
@@ -254093,7 +254109,15 @@
         "pushed_at": "2026-07-18T13:36:20Z",
         "starred_at": "2026-10-31T20:39:50Z"
       },
-      "last_updated": "2026-11-01T10:30:00.463933+00:00"
+      "last_updated": "2026-11-01T10:30:00.463933+00:00",
+      "readme": {
+        "path": "readmes/mrexodia+TitanHide+README.md",
+        "etag": "W/\"e0a554b058326af34288429abdbdcff3dd3ad219\"",
+        "sha": "e0a554b058326af34288429abdbdcff3dd3ad219",
+        "size": 3427,
+        "fetched_at": "2026-11-01T10:39:48.324364+00:00",
+        "status": "ok"
+      }
     },
     "samneggs/FruitJam": {
       "lists": [
@@ -254116,7 +254140,11 @@
         "pushed_at": "2026-10-31T17:08:21Z",
         "starred_at": "2026-10-31T17:55:32Z"
       },
-      "last_updated": "2026-11-01T10:30:00.803153+00:00"
+      "last_updated": "2026-11-01T10:30:00.803153+00:00",
+      "readme": {
+        "fetched_at": "2026-11-01T10:39:48.527042+00:00",
+        "status": "missing"
+      }
     },
     "microsoft/TokenEconomizer": {
       "lists": [
@@ -254139,7 +254167,15 @@
         "pushed_at": "2026-10-31T22:53:30Z",
         "starred_at": "2026-10-31T15:11:12Z"
       },
-      "last_updated": "2026-11-01T10:30:01.149543+00:00"
+      "last_updated": "2026-11-01T10:30:01.149543+00:00",
+      "readme": {
+        "path": "readmes/microsoft+TokenEconomizer+README.md",
+        "etag": "W/\"44d9b770651d876cbf01b5dfe3b287ef4c8acc3c\"",
+        "sha": "44d9b770651d876cbf01b5dfe3b287ef4c8acc3c",
+        "size": 22120,
+        "fetched_at": "2026-11-01T10:39:48.080252+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
