@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T11:20:14.790869+00:00",
+  "last_updated": "2026-11-02T11:20:35.133158+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254197,7 +254197,15 @@
         "pushed_at": "2026-10-31T13:26:15Z",
         "starred_at": "2026-11-01T17:26:28Z"
       },
-      "last_updated": "2026-11-02T11:09:41.875384+00:00"
+      "last_updated": "2026-11-02T11:09:41.875384+00:00",
+      "readme": {
+        "path": "readmes/mc4bbs+qBtGuard-Clean+README.md",
+        "etag": "W/\"a6e4b59c5176c6fbf3dca9f97e24717e8deb3221\"",
+        "sha": "a6e4b59c5176c6fbf3dca9f97e24717e8deb3221",
+        "size": 10611,
+        "fetched_at": "2026-11-02T11:20:34.743682+00:00",
+        "status": "ok"
+      }
     },
     "opencv/opencv-python": {
       "lists": [
@@ -254220,7 +254228,15 @@
         "pushed_at": "2026-09-04T08:16:50Z",
         "starred_at": "2026-11-01T17:25:13Z"
       },
-      "last_updated": "2026-11-02T11:09:42.261942+00:00"
+      "last_updated": "2026-11-02T11:09:42.261942+00:00",
+      "readme": {
+        "path": "readmes/opencv+opencv-python+README.md",
+        "etag": "W/\"96b7dd520291ef5719df36fddb53a6d914e30ead\"",
+        "sha": "96b7dd520291ef5719df36fddb53a6d914e30ead",
+        "size": 17919,
+        "fetched_at": "2026-11-02T11:20:35.129947+00:00",
+        "status": "ok"
+      }
     },
     "emdash-cms/emdash": {
       "lists": [
@@ -254242,7 +254258,15 @@
         "pushed_at": "2026-11-02T10:49:27Z",
         "starred_at": "2026-11-01T17:02:41Z"
       },
-      "last_updated": "2026-11-02T11:09:42.606414+00:00"
+      "last_updated": "2026-11-02T11:09:42.606414+00:00",
+      "readme": {
+        "path": "readmes/emdash-cms+emdash+README.md",
+        "etag": "W/\"3daa6a95add8137f57a57ccccb1a1e20f5374b8a\"",
+        "sha": "3daa6a95add8137f57a57ccccb1a1e20f5374b8a",
+        "size": 8725,
+        "fetched_at": "2026-11-02T11:20:33.783823+00:00",
+        "status": "ok"
+      }
     },
     "kerlenton/bootgpt": {
       "lists": [
@@ -254264,7 +254288,15 @@
         "pushed_at": "2026-10-31T15:07:55Z",
         "starred_at": "2026-11-01T11:37:20Z"
       },
-      "last_updated": "2026-11-02T11:09:42.959766+00:00"
+      "last_updated": "2026-11-02T11:09:42.959766+00:00",
+      "readme": {
+        "path": "readmes/kerlenton+bootgpt+README.md",
+        "etag": "W/\"e28b67ae4d99b8705ba4d4454f4c1cd62a882c66\"",
+        "sha": "e28b67ae4d99b8705ba4d4454f4c1cd62a882c66",
+        "size": 3293,
+        "fetched_at": "2026-11-02T11:20:34.165145+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
