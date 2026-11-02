@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T10:39:48.777139+00:00",
+  "last_updated": "2026-11-02T11:09:42.959875+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254176,6 +254176,86 @@
         "fetched_at": "2026-11-01T10:39:48.080252+00:00",
         "status": "ok"
       }
+    },
+    "mc4bbs/qBtGuard-Clean": {
+      "lists": [],
+      "metadata": {
+        "id": 1413838947,
+        "name": "qBtGuard-Clean",
+        "full_name": "mc4bbs/qBtGuard-Clean",
+        "description": "Read-only qBittorrent security and compliance auditor for Windows",
+        "url": "https://github.com/mc4bbs/qBtGuard-Clean",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-10-11T02:01:55Z",
+        "updated_at": "2026-11-01T17:26:28Z",
+        "pushed_at": "2026-10-31T13:26:15Z",
+        "starred_at": "2026-11-01T17:26:28Z"
+      },
+      "last_updated": "2026-11-02T11:09:41.875384+00:00"
+    },
+    "opencv/opencv-python": {
+      "lists": [],
+      "metadata": {
+        "id": 55781523,
+        "name": "opencv-python",
+        "full_name": "opencv/opencv-python",
+        "description": "Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless packages.",
+        "url": "https://github.com/opencv/opencv-python",
+        "homepage": "https://pypi.org/project/opencv-python/",
+        "language": "Python",
+        "stars": 5443,
+        "forks": 1053,
+        "open_issues": 208,
+        "created_at": "2016-04-08T13:36:40Z",
+        "updated_at": "2026-11-01T17:25:14Z",
+        "pushed_at": "2026-09-04T08:16:50Z",
+        "starred_at": "2026-11-01T17:25:13Z"
+      },
+      "last_updated": "2026-11-02T11:09:42.261942+00:00"
+    },
+    "emdash-cms/emdash": {
+      "lists": [],
+      "metadata": {
+        "id": 1198246700,
+        "name": "emdash",
+        "full_name": "emdash-cms/emdash",
+        "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+        "url": "https://github.com/emdash-cms/emdash",
+        "homepage": "https://emdashcms.com",
+        "language": "TypeScript",
+        "stars": 14107,
+        "forks": 1360,
+        "open_issues": 362,
+        "created_at": "2026-04-01T08:45:02Z",
+        "updated_at": "2026-11-02T10:54:32Z",
+        "pushed_at": "2026-11-02T10:49:27Z",
+        "starred_at": "2026-11-01T17:02:41Z"
+      },
+      "last_updated": "2026-11-02T11:09:42.606414+00:00"
+    },
+    "kerlenton/bootgpt": {
+      "lists": [],
+      "metadata": {
+        "id": 1440248149,
+        "name": "bootgpt",
+        "full_name": "kerlenton/bootgpt",
+        "description": "A language model that lives in a boot sector",
+        "url": "https://github.com/kerlenton/bootgpt",
+        "homepage": null,
+        "language": "Python",
+        "stars": 65,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-10-30T21:28:17Z",
+        "updated_at": "2026-11-02T11:07:27Z",
+        "pushed_at": "2026-10-31T15:07:55Z",
+        "starred_at": "2026-11-01T11:37:20Z"
+      },
+      "last_updated": "2026-11-02T11:09:42.959766+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254185,5 +254265,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"722907f1e41f1d25eac70e4fe7ec79da62f0c8d08d5b968794de0e66ada5827c\""
+  "profile_etag": "W/\"f29208a7ce3d38d6bda081486a67fca1d261974dbc895b2818b0c55430e3be3d\""
 }
