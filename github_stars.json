@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T11:09:42.959875+00:00",
+  "last_updated": "2026-11-02T11:20:14.790869+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254178,7 +254178,9 @@
       }
     },
     "mc4bbs/qBtGuard-Clean": {
-      "lists": [],
+      "lists": [
+        "Windows"
+      ],
       "metadata": {
         "id": 1413838947,
         "name": "qBtGuard-Clean",
@@ -254198,7 +254200,10 @@
       "last_updated": "2026-11-02T11:09:41.875384+00:00"
     },
     "opencv/opencv-python": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 55781523,
         "name": "opencv-python",
@@ -254218,7 +254223,9 @@
       "last_updated": "2026-11-02T11:09:42.261942+00:00"
     },
     "emdash-cms/emdash": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1198246700,
         "name": "emdash",
@@ -254238,7 +254245,9 @@
       "last_updated": "2026-11-02T11:09:42.606414+00:00"
     },
     "kerlenton/bootgpt": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1440248149,
         "name": "bootgpt",
