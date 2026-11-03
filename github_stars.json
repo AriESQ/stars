@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T11:20:35.133158+00:00",
+  "last_updated": "2026-11-03T10:55:49.052400+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254297,6 +254297,66 @@
         "fetched_at": "2026-11-02T11:20:34.165145+00:00",
         "status": "ok"
       }
+    },
+    "MasterCatsUK/intensity-shuttle-usb-3.0-driver": {
+      "lists": [],
+      "metadata": {
+        "id": 1424273926,
+        "name": "intensity-shuttle-usb-3.0-driver",
+        "full_name": "MasterCatsUK/intensity-shuttle-usb-3.0-driver",
+        "description": "Community macOS driver + Shuttle Video/Player for Intensity Shuttle USB 3.0: VHS capture, Final Cut/Premiere output, scopes and web-video playback. Tested on Apple-silicon Mac Studio. Experimental, unsigned; main extensions require SIP disabled. Intel untested.",
+        "url": "https://github.com/MasterCatsUK/intensity-shuttle-usb-3.0-driver",
+        "homepage": "https://github.com/MasterCatsUK/intensity-shuttle-usb-3.0-driver/releases/latest",
+        "language": "Objective-C++",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-18T10:58:23Z",
+        "updated_at": "2026-11-02T23:42:17Z",
+        "pushed_at": "2026-10-29T10:25:36Z",
+        "starred_at": "2026-11-02T23:42:16Z"
+      },
+      "last_updated": "2026-11-03T10:55:48.420881+00:00"
+    },
+    "windows-GPU-UNLOCK/Windows-GPU-UNLOCK": {
+      "lists": [],
+      "metadata": {
+        "id": 1426503435,
+        "name": "Windows-GPU-UNLOCK",
+        "full_name": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+        "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
+        "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+        "homepage": null,
+        "language": "C",
+        "stars": 1561,
+        "forks": 151,
+        "open_issues": 178,
+        "created_at": "2026-10-20T04:41:07Z",
+        "updated_at": "2026-11-03T10:52:59Z",
+        "pushed_at": "2026-11-01T12:34:19Z",
+        "starred_at": "2026-11-02T17:02:44Z"
+      },
+      "last_updated": "2026-11-03T10:55:48.721024+00:00"
+    },
+    "eeeeaaii/vodka": {
+      "lists": [],
+      "metadata": {
+        "id": 1405119,
+        "name": "vodka",
+        "full_name": "eeeeaaii/vodka",
+        "description": "Creative Coding Environment",
+        "url": "https://github.com/eeeeaaii/vodka",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 127,
+        "forks": 4,
+        "open_issues": 187,
+        "created_at": "2011-02-24T03:01:57Z",
+        "updated_at": "2026-11-02T16:36:48Z",
+        "pushed_at": "2026-11-02T11:28:00Z",
+        "starred_at": "2026-11-02T16:36:48Z"
+      },
+      "last_updated": "2026-11-03T10:55:49.052296+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254306,5 +254366,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f29208a7ce3d38d6bda081486a67fca1d261974dbc895b2818b0c55430e3be3d\""
+  "profile_etag": "W/\"6da1d6f882169bbcc2dee22bc86d9e786fa6ab4e9ca1c6f854b1520d6465bfac\""
 }
