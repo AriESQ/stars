@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T11:06:14.587680+00:00",
+  "last_updated": "2026-11-03T11:06:35.216211+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254318,7 +254318,15 @@
         "pushed_at": "2026-10-29T10:25:36Z",
         "starred_at": "2026-11-02T23:42:16Z"
       },
-      "last_updated": "2026-11-03T10:55:48.420881+00:00"
+      "last_updated": "2026-11-03T10:55:48.420881+00:00",
+      "readme": {
+        "path": "readmes/MasterCatsUK+intensity-shuttle-usb-3.0-driver+README.md",
+        "etag": "W/\"5d4533f3eceea4fb21664a51025b2155463c2e60\"",
+        "sha": "5d4533f3eceea4fb21664a51025b2155463c2e60",
+        "size": 19612,
+        "fetched_at": "2026-11-03T11:06:34.218282+00:00",
+        "status": "ok"
+      }
     },
     "windows-GPU-UNLOCK/Windows-GPU-UNLOCK": {
       "lists": [
@@ -254341,7 +254349,15 @@
         "pushed_at": "2026-11-01T12:34:19Z",
         "starred_at": "2026-11-02T17:02:44Z"
       },
-      "last_updated": "2026-11-03T10:55:48.721024+00:00"
+      "last_updated": "2026-11-03T10:55:48.721024+00:00",
+      "readme": {
+        "path": "readmes/windows-GPU-UNLOCK+Windows-GPU-UNLOCK+README.md",
+        "etag": "W/\"8fa99bac96348e250b60930d1652b9a66b5392db\"",
+        "sha": "8fa99bac96348e250b60930d1652b9a66b5392db",
+        "size": 16368,
+        "fetched_at": "2026-11-03T11:06:35.215205+00:00",
+        "status": "ok"
+      }
     },
     "eeeeaaii/vodka": {
       "lists": [
@@ -254363,7 +254379,15 @@
         "pushed_at": "2026-11-02T11:28:00Z",
         "starred_at": "2026-11-02T16:36:48Z"
       },
-      "last_updated": "2026-11-03T10:55:49.052296+00:00"
+      "last_updated": "2026-11-03T10:55:49.052296+00:00",
+      "readme": {
+        "path": "readmes/eeeeaaii+vodka+README.md",
+        "etag": "W/\"7ce1676131766a7a0ec1b159cee58114b71d4f69\"",
+        "sha": "7ce1676131766a7a0ec1b159cee58114b71d4f69",
+        "size": 4476,
+        "fetched_at": "2026-11-03T11:06:34.849366+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
