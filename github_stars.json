@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T10:55:49.052400+00:00",
+  "last_updated": "2026-11-03T11:06:14.587680+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254299,7 +254299,9 @@
       }
     },
     "MasterCatsUK/intensity-shuttle-usb-3.0-driver": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1424273926,
         "name": "intensity-shuttle-usb-3.0-driver",
@@ -254319,7 +254321,10 @@
       "last_updated": "2026-11-03T10:55:48.420881+00:00"
     },
     "windows-GPU-UNLOCK/Windows-GPU-UNLOCK": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Windows"
+      ],
       "metadata": {
         "id": 1426503435,
         "name": "Windows-GPU-UNLOCK",
@@ -254339,7 +254344,9 @@
       "last_updated": "2026-11-03T10:55:48.721024+00:00"
     },
     "eeeeaaii/vodka": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1405119,
         "name": "vodka",
