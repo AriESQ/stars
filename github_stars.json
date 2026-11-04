@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T11:06:35.216211+00:00",
+  "last_updated": "2026-11-04T10:58:27.013509+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254388,6 +254388,106 @@
         "fetched_at": "2026-11-03T11:06:34.849366+00:00",
         "status": "ok"
       }
+    },
+    "guitmz/syscall.el": {
+      "lists": [],
+      "metadata": {
+        "id": 1444328376,
+        "name": "syscall.el",
+        "full_name": "guitmz/syscall.el",
+        "description": "Look up Linux syscalls, registers and calling conventions for many architectures right inside Emacs, offline",
+        "url": "https://github.com/guitmz/syscall.el",
+        "homepage": "https://syscall.sh/emacs",
+        "language": "Emacs Lisp",
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-03T13:28:30Z",
+        "updated_at": "2026-11-03T18:23:21Z",
+        "pushed_at": "2026-11-03T16:10:02Z",
+        "starred_at": "2026-11-03T18:23:21Z"
+      },
+      "last_updated": "2026-11-04T10:58:25.056944+00:00"
+    },
+    "rxhanson/Rectangle": {
+      "lists": [],
+      "metadata": {
+        "id": 193162629,
+        "name": "Rectangle",
+        "full_name": "rxhanson/Rectangle",
+        "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
+        "url": "https://github.com/rxhanson/Rectangle",
+        "homepage": "https://rectangleapp.com",
+        "language": "Swift",
+        "stars": 30230,
+        "forks": 1040,
+        "open_issues": 57,
+        "created_at": "2019-06-21T21:34:53Z",
+        "updated_at": "2026-11-04T10:37:34Z",
+        "pushed_at": "2026-11-03T22:14:06Z",
+        "starred_at": "2026-11-03T15:21:09Z"
+      },
+      "last_updated": "2026-11-04T10:58:25.530770+00:00"
+    },
+    "nikitabobko/AeroSpace": {
+      "lists": [],
+      "metadata": {
+        "id": 643647588,
+        "name": "AeroSpace",
+        "full_name": "nikitabobko/AeroSpace",
+        "description": "AeroSpace is an i3-like tiling window manager for macOS",
+        "url": "https://github.com/nikitabobko/AeroSpace",
+        "homepage": "https://nikitabobko.github.io/AeroSpace/guide",
+        "language": "Swift",
+        "stars": 23732,
+        "forks": 796,
+        "open_issues": 251,
+        "created_at": "2023-05-21T20:20:17Z",
+        "updated_at": "2026-11-04T10:36:07Z",
+        "pushed_at": "2026-11-02T15:24:33Z",
+        "starred_at": "2026-11-03T15:20:38Z"
+      },
+      "last_updated": "2026-11-04T10:58:25.957383+00:00"
+    },
+    "gouwsxander/Reef": {
+      "lists": [],
+      "metadata": {
+        "id": 1058972912,
+        "name": "Reef",
+        "full_name": "gouwsxander/Reef",
+        "description": "The macOS window manager that gives every app its own Alt-Tab.",
+        "url": "https://github.com/gouwsxander/Reef",
+        "homepage": "https://GetReef.app",
+        "language": "Swift",
+        "stars": 618,
+        "forks": 34,
+        "open_issues": 41,
+        "created_at": "2025-09-17T20:03:16Z",
+        "updated_at": "2026-11-03T17:32:31Z",
+        "pushed_at": "2026-09-26T21:22:47Z",
+        "starred_at": "2026-11-03T15:16:18Z"
+      },
+      "last_updated": "2026-11-04T10:58:26.412324+00:00"
+    },
+    "Neywa-Labs/nativ": {
+      "lists": [],
+      "metadata": {
+        "id": 1306758289,
+        "name": "nativ",
+        "full_name": "Neywa-Labs/nativ",
+        "description": "Nativ is an open-source local AI app for Mac. It runs open AI models on Apple Silicon, and nothing leaves your Mac.",
+        "url": "https://github.com/Neywa-Labs/nativ",
+        "homepage": "https://neywa-labs.github.io/nativ/",
+        "language": "Swift",
+        "stars": 1573,
+        "forks": 112,
+        "open_issues": 43,
+        "created_at": "2026-07-20T15:37:29Z",
+        "updated_at": "2026-11-04T00:38:17Z",
+        "pushed_at": "2026-11-04T00:38:12Z",
+        "starred_at": "2026-07-21T02:12:55Z"
+      },
+      "last_updated": "2026-11-04T10:58:27.013469+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254397,5 +254497,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"6da1d6f882169bbcc2dee22bc86d9e786fa6ab4e9ca1c6f854b1520d6465bfac\""
+  "profile_etag": "W/\"16f3de152fda6bb97999241aa3c33519340cc0b06b8ab9cca14665339ca17a43\""
 }
