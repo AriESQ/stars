@@ -1,0 +1,255 @@
+# Rectangle
+
+English | [简体中文](README.zh-Hans.md)
+
+Rectangle is a window management app for macOS based on Spectacle.
+
+<img width="612" height="810" alt="image" src="https://github.com/user-attachments/assets/c088d1e2-3661-4041-ac30-95da89ac4a41" />
+
+## System Requirements
+
+Rectangle supports macOS v14+. 
+
+For macOS 10.15 - 13: [v1.100](https://github.com/rxhanson/Rectangle/releases/tag/v1.100)
+
+For macOS 10.13 and 10.14: [v0.73](https://github.com/rxhanson/Rectangle/releases/tag/v0.73)
+
+## Installation
+
+You can download the latest dmg from <https://rectangleapp.com> or the [Releases page](https://github.com/rxhanson/Rectangle/releases).
+
+Or install with brew cask:
+
+```bash
+brew install --cask rectangle
+```
+
+## How to use it
+
+The [keyboard shortcuts](https://support.apple.com/guide/mac-help/what-are-those-symbols-shown-in-menus-cpmh0011/mac) are self explanatory, but the snap areas can use some explanation if you've never used them on Windows or other window management apps.
+
+Drag a window to the edge of the screen. When the mouse cursor reaches the edge of the screen, you'll see a footprint that Rectangle will attempt to resize and move the window to when the click is released.
+
+| Snap Area                                              | Resulting Action                       |
+|--------------------------------------------------------|----------------------------------------|
+| Left or right edge                                     | Left or right half                     |
+| Top                                                    | Maximize                               |
+| Corners                                                | Quarter in respective corner           |
+| Left or right edge, just above or below a corner       | Top or bottom half                     |
+| Bottom left, center, or right third                    | Respective third                       |
+| Bottom left or right third, then drag to bottom center | First or last two thirds, respectively |
+
+In **Behavior** > **Extras**, enable **Animate windows** for smooth window resizing, or in **Snap Areas**, enable **Blur footprint** for a blurred snap preview. Both are off by default. Animated snapping keeps the selected edge or center aligned when an app limits its window size or aspect ratio. Dragging a snapped window starts restoring its previous size as the window begins moving, and a quick release lets the remaining restore animation continue. Far-right title-bar grabs can still show visible jumps. Title-bar double-click maximize/restore follows the same animation setting and timing as snapping. Window animation has been tested in known scenarios, but remains experimental because repeatedly updating the window's size and position during the transition may cause issues in some edge cases.
+
+### Tile windows in rows or columns
+
+In **Behavior** > **Extras**, enable **Show Extra shortcuts in menu** to include Rows and Columns in the **Tiling** submenu. Their keyboard shortcuts remain available when the submenu is hidden.
+
+In Settings > **Shortcuts**, expand **⋯** and then **Extra** to assign separate keys to **Tile in Rows** and **Tile in Columns**. Each action arranges ordinary windows in the current Space on the display containing the focused window, including windows covered by others. When no ordinary window is focused, the display under the mouse pointer is used instead. **Tile All** uses the same display-selection rule. Normally, windows on another display stay in place, and an empty target display does nothing. When Rectangle's combined-display mode is enabled and macOS "Displays have separate Spaces" is disabled, Rows and Columns instead tile across the combined display area. Rows run from top to bottom; columns run from left to right. Within either direction, Rectangle uses the windows' upper-left positions before moving them to choose their order.
+
+From an unrecognized layout, the first press starts with one window per row or column. Repeating the action cycles through distinct grid layouts. Click the gear button next to **Tile in Rows** to set **Maximum windows per column** and **Maximum windows per row**, which control the cycle independently. Both default to 3 and are independent of the single-window **Repeated commands** setting. Set either limit to 1 to keep that action's original one-window-per-row-or-column behavior. Existing saved limits are preserved.
+
+Windows are balanced across occupied rows or columns, with no deliberately empty cells. For example, six windows with a column limit of 3 cycle through six columns of one, three columns of two, two columns of three, then repeat. Five windows cycle through column populations `1,1,1,1,1`, `2,2,1`, and `3,2`. A column with fewer windows still fills its full height; rows behave the same way across their full width. Duplicate layouts are skipped, so four windows with a limit of 3 alternate between four groups of one and two groups of two. Limits above the number of windows add no layouts.
+
+Columns have equal widths and rows have equal heights, within one display pixel, when the apps allow it. The grid fills the selected work area inside macOS reservations (such as the menu bar and Dock) and Rectangle's configured screen-edge gaps. App size restrictions take precedence: if two columns share 1000 pixels and one requires at least 600, a feasible allocation is 600/400. If no allocation satisfies all app restrictions, Rectangle still attempts the layout, which may leave a gap or overlap. If an app does not respond in time, the layout may remain partial.
+
+Moving or resizing a window, opening or closing one, or changing screen-edge gaps does not rearrange windows automatically. The next press of the same action reapplies its active grid layout using the current windows and their positions. A press that would leave the layout unchanged advances immediately. Lowering a limit below the active layout uses the greatest allowed layout on the next press. Rectangle keeps the active layout only while it is running. After a restart, the first press advances from an intact, recognizable grid; otherwise it starts with one window per row or column.
+
+The Todo window is excluded using the same rules as Rectangle's other multi-window actions. The bands respect the existing Todo sidebar reservation. For example, with 1000 pixels available and a 200-pixel sidebar reservation, the other windows tile within the remaining 800 pixels while Todo stays in place.
+
+### Cycle stacked windows
+
+When several windows are snapped to the same area, such as three windows on the left half, only the front one is visible. In Settings > **Behavior** > **Stacked Windows**, assign keys to **Cycle stacked windows** and **Cycle stacked windows backward**. Each press brings forward one window from the stack that the focused window belongs to.
+
+A window is in the stack when it sits at the same position as the window focused at the first press, or is offset from it by **Offset window position on overlap**, whatever its size. With **Only stack windows of the same size** on, it must also be the same size (within 24 points in width and height, so terminal windows that snap to whole character cells still count), so a maximized window that shares a corner with a half is not in that half's stack. The stacked window list follows the same setting. **Cycle stacked windows** first brings forward the window at the back of the stack; **Cycle stacked windows backward** first brings forward the window just behind the front one. Repeated presses visit every window in the stack. Pressing either shortcut while a window outside the stack is focused starts over from that window's stack. When the focused window has nothing stacked with it, Rectangle beeps.
+
+### Mouse button shortcuts
+
+A window action's shortcut can be a mouse button instead of a key, such as one of the side buttons found on many mice. The side buttons pair well with **Cycle stacked windows** and **Cycle stacked windows backward**. To assign one, click the action's shortcut field in Settings, either on the **Shortcuts** tab or in **Behavior** > **Stacked Windows**, then press the middle button or an extra button with the pointer over the Settings window. Hold any of ⌃, ⌥, ⇧ and ⌘ while pressing to include them, just as in a keyboard shortcut. Each action has one shortcut, so a mouse button replaces the action's keyboard shortcut. Left and right clicks can't be assigned.
+
+A press of an assigned button goes only to Rectangle, so the app under the pointer doesn't also act on it, for example by going back in a browser. Buttons that aren't assigned work as usual. Like keyboard shortcuts, mouse button shortcuts are off while an ignored app is frontmost or a shortcut is being recorded, and assigning one button to several actions cycles through them.
+
+Mouse button shortcuts act on the focused window, as keyboard shortcuts do. To have them act on the window under the pointer instead, turn on **Mouse button shortcuts act on the window under the pointer** in **Behavior** > **Extras**. Focus stays where it is, except with actions that work by bringing windows forward, such as the cycle actions. When there's no window under the pointer, Rectangle beeps.
+
+If pressing a button doesn't record it, other software, such as your mouse's own utility, may be remapping the button before Rectangle sees it.
+
+### Ignore an app
+
+Ignoring an app means that when the app is frontmost, keyboard shortcuts are un-registered from macOS. When the app is no longer frontmost, keyboard shortcuts are re-registered with macOS. This is useful for apps that have the same shortcuts like Rectangle and you do not want to change them. Double-clicking the title bar of an ignored app's window does not trigger Rectangle's title bar action either.
+
+1. Focus the app that you want to ignore (make a window from that app frontmost).
+1. Open the Rectangle menu and select "Ignore app"
+
+To un-ignore an app that you have selected to ignore, simply bring that app frontmost again, open the Rectangle menu, and deselect "Ignore".
+
+## Execute an action by URL
+
+Open the URL `rectangle://execute-action?name=[name]`. Do not activate Rectangle if possible.
+
+Available values for `[name]`: `left-half`, `right-half`, `center-half`, `top-half`, `bottom-half`, `top-left`, `top-right`, `bottom-left`, `bottom-right`, `first-third`, `center-third`, `last-third`, `first-two-thirds`, `last-two-thirds`, `maximize`, `almost-maximize`, `maximize-height`, `smaller`, `larger`, `center`, `center-prominently`, `restore`, `next-display`, `previous-display`, `move-left`, `move-right`, `move-up`, `move-down`, `first-fourth`, `second-fourth`, `third-fourth`, `last-fourth`, `first-three-fourths`, `last-three-fourths`, `top-left-sixth`, `top-center-sixth`, `top-right-sixth`, `bottom-left-sixth`, `bottom-center-sixth`, `bottom-right-sixth`, `specified`, `reverse-all`, `top-left-ninth`, `top-center-ninth`, `top-right-ninth`, `middle-left-ninth`, `middle-center-ninth`, `middle-right-ninth`, `bottom-left-ninth`, `bottom-center-ninth`, `bottom-right-ninth`, `top-left-third`, `top-right-third`, `bottom-left-third`, `bottom-right-third`, `top-left-eighth`, `top-center-left-eighth`, `top-center-right-eighth`, `top-right-eighth`, `bottom-left-eighth`, `bottom-center-left-eighth`, `bottom-center-right-eighth`, `bottom-right-eighth`, `tile-all`, `tile-rows`, `tile-columns`, `cascade-all`, `cascade-active-app`, `cycle-stacked-windows`, `cycle-stacked-windows-backward`
+
+Example, from a shell: `open -g "rectangle://execute-action?name=left-half"`
+
+URLs can also be used to ignore/unignore apps. 
+
+```
+rectangle://execute-task?name=ignore-app
+rectangle://execute-task?name=unignore-app
+```
+A bundle identifier can also be specified, for example:
+```
+rectangle://execute-task?name=ignore-app&app-bundle-id=com.apple.Safari
+```
+
+## Terminal Commands for Hidden Preferences
+
+See [TerminalCommands.md](TerminalCommands.md)
+
+## Differences with Spectacle
+
+* Rectangle uses [MASShortcut](https://github.com/rxhanson/MASShortcut) for keyboard shortcut recording. Spectacle used its own shortcut recorder.
+* Rectangle has additional window actions: move windows to each edge without resizing, maximize only the height of a window, almost maximizing a window.
+* Next/prev screen thirds is replaced with explicitly first third, first two thirds, center third, last two thirds, and last third. Screen orientation is taken into account, as in first third will be left third on landscape and top third on portrait.
+  * You can however emulate Spectacle's third cycling using first and last third actions. So, if you repeatedly execute first third, it will cycle through thirds (first, center, last) and vice-versa with the last third.
+* There's an option to have windows traverse across displays on repeated side actions. Left/Right Half use the display ordering. Top/Bottom Half move to the nearest display above/below with horizontal overlap, landing on its facing half. At the top or bottom of a display stack, traversal wraps to its opposite end, just like left/right cycling. The combined traverse-and-resize option cycles sizes at the boundary instead.
+* Windows will snap when dragged to edges/corners of the screen. This can be disabled.
+
+## Common Known Issues
+
+### Rectangle doesn't have the ability to move to other desktops/spaces
+
+Apple never released a public API for doing this. Rectangle Pro has next/prev Space actions, but there are no plans to add those into Rectangle at this time.
+
+### Windows overlap when using thirds or other small layouts
+
+Some apps enforce a minimum window size that is larger than the requested layout. For example, a window with a minimum width of 600 points cannot fit a 504-point third of a display. Rectangle keeps the window on screen and briefly shows a “Minimum window size reached” HUD with a window icon when the app leaves it larger than the requested size. Use a larger layout, such as halves, or reduce the adjacent window manually. Rectangle cannot override an app's minimum window size.
+
+### Window resizing is off slightly for iTerm2
+
+By default iTerm2 will only resize in increments of character widths. There might be a setting inside iTerm2 to disable this, but you can change it with the following command.
+
+```bash
+defaults write com.googlecode.iterm2 DisableWindowSizeSnap -integer 1
+```
+
+### Rectangle appears to cause Notification Center to freeze
+
+This appears to affect only a small amount of users. To prevent this from happening, uncheck the box for "Snap windows by dragging".
+See issue [317](https://github.com/rxhanson/Rectangle/issues/317).
+
+### Troubleshooting
+
+If windows aren't resizing or moving as you expect, here's some initial steps to get to the bottom of it. Most issues of this type have been caused by other apps.
+
+**Quick fixes (try these first):**
+
+1. **Lock and unlock your Mac** – This simple step resolves many issues, especially after system updates.
+1. Make sure macOS is up to date.
+1. Restart your Mac (this often fixes things right after a macOS update).
+
+**Diagnose the issue:**
+
+4. **Enable debug logging** (see instructions in the following section) – This helps identify whether Rectangle is working correctly.
+1. The logs are straightforward. If your calculated rect and your resulting rect are identical, chances are that there is another application causing issues.
+
+**Check for conflicts:**
+
+6. Make sure there are no other window manager applications running.
+1. Make sure that the app whose windows are not behaving properly does not have any conflicting keyboard shortcuts.
+1. Try using the menu items to execute a window action or changing the keyboard shortcut to something different so we can tell if it's a keyboard shortcut issue or not.
+
+**Advanced troubleshooting:**
+
+9. If you suspect there may be another application causing issues, try creating and logging in as a new macOS user.
+1. Save your logs to attach to an issue if you need to create one.
+
+#### Try resetting the macOS accessibility permissions for Rectangle:
+
+```bash
+tccutil reset All com.knollsoft.Rectangle
+```
+
+Or, this can be done with the following steps instead of the tccutil terminal command.
+1. Close Rectangle if it's running
+2. In System Settings -> Privacy & Security -> Accessibility, first disable Rectangle, then remove it with the minus button. (it's important to do both of those steps in that order)
+3. Restart your mac.
+4. Launch Rectangle and enable settings for it as prompted.
+
+## View Debug Logging
+
+1. Hold down the alt (option) key with the Rectangle menu open.
+1. Select the "View Logging..." menu item, which is in place of the "About" menu item.
+1. Logging will appear in the window as you perform Rectangle commands.
+
+## Import & export JSON config
+
+There are buttons for importing and exporting the config as a JSON file on the **App Settings** tab of the Settings window.
+
+Upon launch, Rectangle will load a config file at `~/Library/Application Support/Rectangle/RectangleConfig.json` if it is present and will rename that file with a time/date stamp so that it isn't read on subsequent launches.
+
+## Preferences Storage
+
+The configuration for Rectangle is stored using NSUserDefaults, meaning it is stored in the following location:
+`~/Library/Preferences/com.knollsoft.Rectangle.plist`
+Note that shortcuts in v0.41+ are stored in a different format and will not load in prior versions.
+
+That file can be backed up or transferred to other machines.
+
+If you are using Rectangle v0.44+, you can also use the import/export buttons on the **App Settings** tab of the Settings window to share your preferences and keyboard shortcuts across machines using a JSON file.
+
+> [!NOTE]  
+> If you are having issues with configuration options persisting after an application restart and you've installed using Homebrew, you will need to uninstall and reinstall with the `--zap` flag.
+
+```
+brew uninstall --zap rectangle
+brew install rectangle
+```
+
+## Uninstallation
+
+Rectangle can be uninstalled by quitting the app and moving it to the trash. You can remove the Rectangle defaults from your machine with the following terminal command:
+
+```bash
+defaults delete com.knollsoft.Rectangle
+```
+
+> [!TIP]  
+> If you are uninstalling after installing with Homebrew, you should include the `--zap` flag to ensure it removes the plist entries too. 
+
+```
+brew uninstall --zap rectangle
+```
+
+---
+
+## Contributing
+
+Logic from Rectangle is used in the [Multitouch](https://multitouch.app) app. The [Rectangle Pro](https://rectangleapp.com/pro) app is entirely built on top of Rectangle. If you contribute significant code or localizations that get merged into Rectangle, send me an email for a free license of Multitouch or Rectangle Pro. Contributors to Sparkle, MASShortcut, or Spectacle can also receive free Multitouch or Rectangle Pro licenses.
+
+### Contributing additional sizes and positions
+
+Rectangle's UI is intentionally simple. If you want to add a size and position that's not in the main list of the Shortcuts tab, then you can now add them into the "Extra" section, inside the collapsible "⋯" section at the bottom of the Shortcuts tab.
+
+### Localization
+
+If you would like to contribute to localization, all of the translations are held in the Main.strings.
+
+Pull requests for new localizations or improvements on existing localizations are welcome.
+
+### Running the app in Xcode (for developers)
+
+Rectangle uses [Swift Package Manager](https://www.swift.org/package-manager/) to install Sparkle and MASShortcut.
+
+The original repository for MASShortcut was archived, so Rectangle uses my [fork](https://github.com/rxhanson/MASShortcut). If you want to make any changes that involve MASShortcut, please make a pull request on my fork. 
+
+Debug builds use the bundle identifier `com.knollsoft.Rectangle.debug`, so a build from Xcode gets its own Accessibility permission and preferences instead of sharing the installed copy's. Quit the installed Rectangle while running a Debug build, since both respond to the same shortcuts and window drags. Use the `.debug` identifier with `defaults` and `tccutil`. For example, an ad-hoc signed build needs its permission granted again after rebuilding, and `tccutil reset Accessibility com.knollsoft.Rectangle.debug` clears the stale entry.
+
+Due to the addition of the Liquid Glass icon with a fallback for older versions of macOS, there will be a build failure on macOS versions < 26. You can delete the "Asset Catalog Other Flags" to build locally on versions < 26 (but don't check that change in if you create a pull request).
+
+## Credits
+
+As mentioned above, Rectangle uses a forked version of [MASShortcut](https://github.com/rxhanson/MASShortcut), which still works great, and it uses [Sparkle](https://sparkle-project.org) for updates. 
+
+The Big Sur variant of the Rectangle app icon was created by Giovanni Maria Cusaro (@gmcusaro). The Liquid Glass variant of the app icon was created by [Alexander Käßner](https://www.alexkaessner.de) (@alexkaessner).
+
+And of course, there's been a lot of community contributions over the years :)
