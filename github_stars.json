@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T10:59:05.729508+00:00",
+  "last_updated": "2026-11-05T11:09:31.585116+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254390,7 +254390,10 @@
       }
     },
     "guitmz/syscall.el": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1444328376,
         "name": "syscall.el",
@@ -254410,7 +254413,9 @@
       "last_updated": "2026-11-04T10:58:25.056944+00:00"
     },
     "rxhanson/Rectangle": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 193162629,
         "name": "Rectangle",
@@ -254430,7 +254435,9 @@
       "last_updated": "2026-11-04T10:58:25.530770+00:00"
     },
     "nikitabobko/AeroSpace": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 643647588,
         "name": "AeroSpace",
@@ -254450,7 +254457,10 @@
       "last_updated": "2026-11-04T10:58:25.957383+00:00"
     },
     "gouwsxander/Reef": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1058972912,
         "name": "Reef",
@@ -254470,7 +254480,10 @@
       "last_updated": "2026-11-04T10:58:26.412324+00:00"
     },
     "Neywa-Labs/nativ": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1306758289,
         "name": "nativ",
@@ -254490,7 +254503,9 @@
       "last_updated": "2026-11-04T10:58:27.013469+00:00"
     },
     "Shrike-Lab/HomeLab-PDU-V1": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1122096862,
         "name": "HomeLab-PDU-V1",
@@ -254510,7 +254525,9 @@
       "last_updated": "2026-11-05T10:59:02.114030+00:00"
     },
     "bitmerse/romu": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1332094777,
         "name": "romu",
@@ -254530,7 +254547,10 @@
       "last_updated": "2026-11-05T10:59:02.580128+00:00"
     },
     "peterretief/codemap": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "GoLang"
+      ],
       "metadata": {
         "id": 1445805728,
         "name": "codemap",
@@ -254550,7 +254570,9 @@
       "last_updated": "2026-11-05T10:59:02.955871+00:00"
     },
     "orailnoor/cross-platform-llm-client": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1220937125,
         "name": "cross-platform-llm-client",
@@ -254570,7 +254592,9 @@
       "last_updated": "2026-11-05T10:59:03.364236+00:00"
     },
     "Irdroid/authKi": {
-      "lists": [],
+      "lists": [
+        "Authentication"
+      ],
       "metadata": {
         "id": 572874153,
         "name": "authKi",
@@ -254590,7 +254614,10 @@
       "last_updated": "2026-11-05T10:59:03.783251+00:00"
     },
     "jvanderberg/kicad-skills": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1432458454,
         "name": "kicad-skills",
@@ -254610,7 +254637,9 @@
       "last_updated": "2026-11-05T10:59:04.150068+00:00"
     },
     "JiaFeiMiao-K-Cat/DiscImageStudio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1343344945,
         "name": "DiscImageStudio",
@@ -254650,7 +254679,10 @@
       "last_updated": "2026-11-05T10:59:05.093916+00:00"
     },
     "polozab/resolve-beat-marker": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 579322655,
         "name": "resolve-beat-marker",
