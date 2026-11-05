@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T10:58:27.013509+00:00",
+  "last_updated": "2026-11-05T10:59:05.729508+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254488,6 +254488,186 @@
         "starred_at": "2026-07-21T02:12:55Z"
       },
       "last_updated": "2026-11-04T10:58:27.013469+00:00"
+    },
+    "Shrike-Lab/HomeLab-PDU-V1": {
+      "lists": [],
+      "metadata": {
+        "id": 1122096862,
+        "name": "HomeLab-PDU-V1",
+        "full_name": "Shrike-Lab/HomeLab-PDU-V1",
+        "description": "USB-C based homelab PDU for mini and full racks",
+        "url": "https://github.com/Shrike-Lab/HomeLab-PDU-V1",
+        "homepage": "https://shrikelab.co/",
+        "language": null,
+        "stars": 946,
+        "forks": 79,
+        "open_issues": 5,
+        "created_at": "2025-12-24T05:16:00Z",
+        "updated_at": "2026-11-05T03:56:00Z",
+        "pushed_at": "2026-10-14T22:59:11Z",
+        "starred_at": "2026-11-05T03:55:59Z"
+      },
+      "last_updated": "2026-11-05T10:59:02.114030+00:00"
+    },
+    "bitmerse/romu": {
+      "lists": [],
+      "metadata": {
+        "id": 1332094777,
+        "name": "romu",
+        "full_name": "bitmerse/romu",
+        "description": "A Raspberry Pi board that fits inside your USB port",
+        "url": "https://github.com/bitmerse/romu",
+        "homepage": "https://www.crowdsupply.com/bitmerse/romu",
+        "language": "Python",
+        "stars": 17,
+        "forks": 2,
+        "open_issues": 0,
+        "created_at": "2026-08-12T14:03:27Z",
+        "updated_at": "2026-11-04T20:31:43Z",
+        "pushed_at": "2026-10-28T08:31:21Z",
+        "starred_at": "2026-11-04T20:31:42Z"
+      },
+      "last_updated": "2026-11-05T10:59:02.580128+00:00"
+    },
+    "peterretief/codemap": {
+      "lists": [],
+      "metadata": {
+        "id": 1445805728,
+        "name": "codemap",
+        "full_name": "peterretief/codemap",
+        "description": "One HTML page that maps a Go module: packages, dependencies, files and functions",
+        "url": "https://github.com/peterretief/codemap",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 51,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-04T14:57:39Z",
+        "updated_at": "2026-11-05T08:07:53Z",
+        "pushed_at": "2026-11-04T18:20:51Z",
+        "starred_at": "2026-11-04T20:22:27Z"
+      },
+      "last_updated": "2026-11-05T10:59:02.955871+00:00"
+    },
+    "orailnoor/cross-platform-llm-client": {
+      "lists": [],
+      "metadata": {
+        "id": 1220937125,
+        "name": "cross-platform-llm-client",
+        "full_name": "orailnoor/cross-platform-llm-client",
+        "description": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
+        "url": "https://github.com/orailnoor/cross-platform-llm-client",
+        "homepage": null,
+        "language": "C++",
+        "stars": 1386,
+        "forks": 282,
+        "open_issues": 15,
+        "created_at": "2026-04-25T14:37:00Z",
+        "updated_at": "2026-11-05T10:55:11Z",
+        "pushed_at": "2026-11-04T15:05:41Z",
+        "starred_at": "2026-11-04T16:46:44Z"
+      },
+      "last_updated": "2026-11-05T10:59:03.364236+00:00"
+    },
+    "Irdroid/authKi": {
+      "lists": [],
+      "metadata": {
+        "id": 572874153,
+        "name": "authKi",
+        "full_name": "Irdroid/authKi",
+        "description": "Open Source Crypto Authentication USB Dongle",
+        "url": "https://github.com/Irdroid/authKi",
+        "homepage": "https://irdroid.github.io/authKi/",
+        "language": "Shell",
+        "stars": 22,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2022-12-01T08:06:20Z",
+        "updated_at": "2026-11-04T16:44:12Z",
+        "pushed_at": "2025-10-03T11:48:26Z",
+        "starred_at": "2026-11-04T16:44:12Z"
+      },
+      "last_updated": "2026-11-05T10:59:03.783251+00:00"
+    },
+    "jvanderberg/kicad-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1432458454,
+        "name": "kicad-skills",
+        "full_name": "jvanderberg/kicad-skills",
+        "description": "Claude Code skills and tools for designing, reviewing and sourcing KiCad PCBs (hobby boards, JLCPCB)",
+        "url": "https://github.com/jvanderberg/kicad-skills",
+        "homepage": null,
+        "language": "Python",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-24T18:06:27Z",
+        "updated_at": "2026-11-04T16:02:51Z",
+        "pushed_at": "2026-11-02T04:31:52Z",
+        "starred_at": "2026-11-04T16:02:50Z"
+      },
+      "last_updated": "2026-11-05T10:59:04.150068+00:00"
+    },
+    "JiaFeiMiao-K-Cat/DiscImageStudio": {
+      "lists": [],
+      "metadata": {
+        "id": 1343344945,
+        "name": "DiscImageStudio",
+        "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+        "description": null,
+        "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+        "homepage": null,
+        "language": "C#",
+        "stars": 6941,
+        "forks": 246,
+        "open_issues": 76,
+        "created_at": "2026-08-23T03:40:14Z",
+        "updated_at": "2026-11-05T10:58:51Z",
+        "pushed_at": "2026-11-05T09:19:51Z",
+        "starred_at": "2026-11-04T15:49:05Z"
+      },
+      "last_updated": "2026-11-05T10:59:04.498817+00:00"
+    },
+    "ericlewis/libpo": {
+      "lists": [],
+      "metadata": {
+        "id": 1194137972,
+        "name": "libpo",
+        "full_name": "ericlewis/libpo",
+        "description": "Freestanding C99 library for Pocket Operator data transfers and instrument synthesis.",
+        "url": "https://github.com/ericlewis/libpo",
+        "homepage": "",
+        "language": "C",
+        "stars": 212,
+        "forks": 13,
+        "open_issues": 0,
+        "created_at": "2026-03-28T00:56:42Z",
+        "updated_at": "2026-11-05T07:02:46Z",
+        "pushed_at": "2026-11-05T07:02:40Z",
+        "starred_at": "2026-04-01T00:24:11Z"
+      },
+      "last_updated": "2026-11-05T10:59:05.093916+00:00"
+    },
+    "polozab/resolve-beat-marker": {
+      "lists": [],
+      "metadata": {
+        "id": 579322655,
+        "name": "resolve-beat-marker",
+        "full_name": "polozab/resolve-beat-marker",
+        "description": "beat-marker is a Python script that creates markers in the current timeline or on an audio clip in DaVinci Resolve accoring to a given BPM.",
+        "url": "https://github.com/polozab/resolve-beat-marker",
+        "homepage": "",
+        "language": "JavaScript",
+        "stars": 5,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2022-12-17T10:02:00Z",
+        "updated_at": "2024-12-24T17:41:13Z",
+        "pushed_at": "2024-04-23T16:40:10Z",
+        "starred_at": "2024-12-24T17:41:12Z"
+      },
+      "last_updated": "2026-11-05T10:59:05.729446+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254497,5 +254677,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"16f3de152fda6bb97999241aa3c33519340cc0b06b8ab9cca14665339ca17a43\""
+  "profile_etag": "W/\"5f4f5b0b4a6923c754d3c6ddb28694cec8dd4cee841453509e6b4142d3d67deb\""
 }
