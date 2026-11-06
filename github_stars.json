@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T11:05:42.903069+00:00",
+  "last_updated": "2026-11-06T11:06:15.997087+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254833,7 +254833,15 @@
         "pushed_at": "2026-11-05T03:27:46Z",
         "starred_at": "2026-11-05T16:40:56Z"
       },
-      "last_updated": "2026-11-06T10:55:31.762252+00:00"
+      "last_updated": "2026-11-06T10:55:31.762252+00:00",
+      "readme": {
+        "path": "readmes/occupysaas+zeroauthy+README.md",
+        "etag": "W/\"030526be8d73ff0d9de66078ed0301f97f18e674\"",
+        "sha": "030526be8d73ff0d9de66078ed0301f97f18e674",
+        "size": 25017,
+        "fetched_at": "2026-11-06T11:06:15.993081+00:00",
+        "status": "ok"
+      }
     },
     "cactus-compute/engine": {
       "lists": [
@@ -254857,7 +254865,15 @@
         "pushed_at": "2026-11-05T21:04:02Z",
         "starred_at": "2026-10-08T20:03:47Z"
       },
-      "last_updated": "2026-11-06T10:55:32.235831+00:00"
+      "last_updated": "2026-11-06T10:55:32.235831+00:00",
+      "readme": {
+        "path": "readmes/cactus-compute+engine+README.md",
+        "etag": "W/\"5ab4db76e69ab77795b25fb64a0d557fcdf2e23a\"",
+        "sha": "5ab4db76e69ab77795b25fb64a0d557fcdf2e23a",
+        "size": 18713,
+        "fetched_at": "2026-11-06T11:06:15.631916+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
