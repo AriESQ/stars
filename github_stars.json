@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T11:10:10.471357+00:00",
+  "last_updated": "2026-11-06T10:55:32.235920+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254812,6 +254812,46 @@
         "fetched_at": "2026-11-05T11:10:10.166206+00:00",
         "status": "ok"
       }
+    },
+    "occupysaas/zeroauthy": {
+      "lists": [],
+      "metadata": {
+        "id": 1419870198,
+        "name": "zeroauthy",
+        "full_name": "occupysaas/zeroauthy",
+        "description": "A clean room recreation of Auth0 with 1:1 drop in replacement feature parity.",
+        "url": "https://github.com/occupysaas/zeroauthy",
+        "homepage": "",
+        "language": "Go",
+        "stars": 348,
+        "forks": 32,
+        "open_issues": 3,
+        "created_at": "2026-10-14T21:28:27Z",
+        "updated_at": "2026-11-06T10:02:09Z",
+        "pushed_at": "2026-11-05T03:27:46Z",
+        "starred_at": "2026-11-05T16:40:56Z"
+      },
+      "last_updated": "2026-11-06T10:55:31.762252+00:00"
+    },
+    "cactus-compute/engine": {
+      "lists": [],
+      "metadata": {
+        "id": 971447302,
+        "name": "engine",
+        "full_name": "cactus-compute/engine",
+        "description": "2bit quants, kernels and runtime for consumer devices. ",
+        "url": "https://github.com/cactus-compute/engine",
+        "homepage": "https://cactuscompute.com",
+        "language": "C++",
+        "stars": 6182,
+        "forks": 516,
+        "open_issues": 116,
+        "created_at": "2025-04-23T14:33:43Z",
+        "updated_at": "2026-11-06T08:09:52Z",
+        "pushed_at": "2026-11-05T21:04:02Z",
+        "starred_at": "2026-10-08T20:03:47Z"
+      },
+      "last_updated": "2026-11-06T10:55:32.235831+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254821,5 +254861,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5f4f5b0b4a6923c754d3c6ddb28694cec8dd4cee841453509e6b4142d3d67deb\""
+  "profile_etag": "W/\"7626b234751c3b644918d1082d7b3d385ce8f3668d46b5c8e05e9e17a7dc6d7c\""
 }
