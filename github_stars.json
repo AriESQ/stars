@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T10:55:32.235920+00:00",
+  "last_updated": "2026-11-06T11:05:42.903069+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254814,7 +254814,9 @@
       }
     },
     "occupysaas/zeroauthy": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1419870198,
         "name": "zeroauthy",
@@ -254834,7 +254836,11 @@
       "last_updated": "2026-11-06T10:55:31.762252+00:00"
     },
     "cactus-compute/engine": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 971447302,
         "name": "engine",
