@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T11:06:15.997087+00:00",
+  "last_updated": "2026-11-07T10:11:37.492455+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254874,6 +254874,86 @@
         "fetched_at": "2026-11-06T11:06:15.631916+00:00",
         "status": "ok"
       }
+    },
+    "anomalyco/rune": {
+      "lists": [],
+      "metadata": {
+        "id": 1429303647,
+        "name": "rune",
+        "full_name": "anomalyco/rune",
+        "description": "Rune: Native UI framework",
+        "url": "https://github.com/anomalyco/rune",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 2923,
+        "forks": 72,
+        "open_issues": 80,
+        "created_at": "2026-10-22T05:51:40Z",
+        "updated_at": "2026-11-07T10:11:04Z",
+        "pushed_at": "2026-11-07T10:09:51Z",
+        "starred_at": "2026-11-06T18:53:25Z"
+      },
+      "last_updated": "2026-11-07T10:11:35.900435+00:00"
+    },
+    "tmux/tmux": {
+      "lists": [],
+      "metadata": {
+        "id": 36836475,
+        "name": "tmux",
+        "full_name": "tmux/tmux",
+        "description": "tmux source code",
+        "url": "https://github.com/tmux/tmux",
+        "homepage": "",
+        "language": "C",
+        "stars": 50190,
+        "forks": 3001,
+        "open_issues": 64,
+        "created_at": "2015-06-03T23:32:55Z",
+        "updated_at": "2026-11-07T08:53:36Z",
+        "pushed_at": "2026-11-06T15:33:19Z",
+        "starred_at": "2026-11-06T17:48:10Z"
+      },
+      "last_updated": "2026-11-07T10:11:36.324912+00:00"
+    },
+    "mark-coniglio/Syphon-Virtual-Webcam": {
+      "lists": [],
+      "metadata": {
+        "id": 275105026,
+        "name": "Syphon-Virtual-Webcam",
+        "full_name": "mark-coniglio/Syphon-Virtual-Webcam",
+        "description": "This free app, created for you by TroikaTronix/Isadora, allows you to send a Syphon video stream to a compatible application that supports video input from a webcam.",
+        "url": "https://github.com/mark-coniglio/Syphon-Virtual-Webcam",
+        "homepage": null,
+        "language": "Objective-C",
+        "stars": 37,
+        "forks": 1,
+        "open_issues": 2,
+        "created_at": "2020-06-26T08:06:48Z",
+        "updated_at": "2026-10-23T06:05:18Z",
+        "pushed_at": "2026-07-14T10:10:16Z",
+        "starred_at": "2025-08-09T00:08:27Z"
+      },
+      "last_updated": "2026-11-07T10:11:36.944413+00:00"
+    },
+    "ClickHouse/ClickStack": {
+      "lists": [],
+      "metadata": {
+        "id": 690825026,
+        "name": "ClickStack",
+        "full_name": "ClickHouse/ClickStack",
+        "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
+        "url": "https://github.com/ClickHouse/ClickStack",
+        "homepage": "https://hyperdx.io/",
+        "language": "TypeScript",
+        "stars": 9995,
+        "forks": 517,
+        "open_issues": 270,
+        "created_at": "2023-09-13T00:46:19Z",
+        "updated_at": "2026-11-07T08:57:20Z",
+        "pushed_at": "2026-11-07T03:22:22Z",
+        "starred_at": "2023-09-18T17:41:50Z"
+      },
+      "last_updated": "2026-11-07T10:11:37.492364+00:00"
     }
   },
   "last_processed_index": 0,
@@ -254883,5 +254963,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"7626b234751c3b644918d1082d7b3d385ce8f3668d46b5c8e05e9e17a7dc6d7c\""
+  "profile_etag": "W/\"ab5c67931db5262a8d123289a9d67a37a5be46d579424f93882fc4717b0b8721\""
 }
