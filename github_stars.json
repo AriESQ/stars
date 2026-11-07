@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:21:26.585815+00:00",
+  "last_updated": "2026-11-07T10:21:55.049378+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254896,7 +254896,15 @@
         "pushed_at": "2026-11-07T10:09:51Z",
         "starred_at": "2026-11-06T18:53:25Z"
       },
-      "last_updated": "2026-11-07T10:11:35.900435+00:00"
+      "last_updated": "2026-11-07T10:11:35.900435+00:00",
+      "readme": {
+        "path": "readmes/anomalyco+rune+README.md",
+        "etag": "W/\"229cfb9a1f69319312f230de3ce39ce4193a5d30\"",
+        "sha": "229cfb9a1f69319312f230de3ce39ce4193a5d30",
+        "size": 2505,
+        "fetched_at": "2026-11-07T10:21:54.361137+00:00",
+        "status": "ok"
+      }
     },
     "tmux/tmux": {
       "lists": [
@@ -254918,7 +254926,15 @@
         "pushed_at": "2026-11-06T15:33:19Z",
         "starred_at": "2026-11-06T17:48:10Z"
       },
-      "last_updated": "2026-11-07T10:11:36.324912+00:00"
+      "last_updated": "2026-11-07T10:11:36.324912+00:00",
+      "readme": {
+        "path": "readmes/tmux+tmux+README.md",
+        "etag": "W/\"ac427bf1dfd0296e38bea9139568ce0bcc9a57cb\"",
+        "sha": "ac427bf1dfd0296e38bea9139568ce0bcc9a57cb",
+        "size": 2897,
+        "fetched_at": "2026-11-07T10:21:55.047810+00:00",
+        "status": "ok"
+      }
     },
     "mark-coniglio/Syphon-Virtual-Webcam": {
       "lists": [
@@ -254940,7 +254956,15 @@
         "pushed_at": "2026-07-14T10:10:16Z",
         "starred_at": "2025-08-09T00:08:27Z"
       },
-      "last_updated": "2026-11-07T10:11:36.944413+00:00"
+      "last_updated": "2026-11-07T10:11:36.944413+00:00",
+      "readme": {
+        "path": "readmes/mark-coniglio+Syphon-Virtual-Webcam+README.md",
+        "etag": "W/\"27381e8982595dead20357d3124a186d891d1db6\"",
+        "sha": "27381e8982595dead20357d3124a186d891d1db6",
+        "size": 6591,
+        "fetched_at": "2026-11-07T10:21:54.783014+00:00",
+        "status": "ok"
+      }
     },
     "ClickHouse/ClickStack": {
       "lists": [
@@ -254963,7 +254987,15 @@
         "pushed_at": "2026-11-07T03:22:22Z",
         "starred_at": "2023-09-18T17:41:50Z"
       },
-      "last_updated": "2026-11-07T10:11:37.492364+00:00"
+      "last_updated": "2026-11-07T10:11:37.492364+00:00",
+      "readme": {
+        "path": "readmes/ClickHouse+ClickStack+README.md",
+        "etag": "W/\"448ae5a0761a9774162799d68989e476d664bd92\"",
+        "sha": "448ae5a0761a9774162799d68989e476d664bd92",
+        "size": 8070,
+        "fetched_at": "2026-11-07T10:21:54.074296+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
