@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:11:37.492455+00:00",
+  "last_updated": "2026-11-07T10:21:26.585815+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254876,7 +254876,10 @@
       }
     },
     "anomalyco/rune": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 1429303647,
         "name": "rune",
@@ -254896,7 +254899,9 @@
       "last_updated": "2026-11-07T10:11:35.900435+00:00"
     },
     "tmux/tmux": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 36836475,
         "name": "tmux",
@@ -254916,7 +254921,9 @@
       "last_updated": "2026-11-07T10:11:36.324912+00:00"
     },
     "mark-coniglio/Syphon-Virtual-Webcam": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 275105026,
         "name": "Syphon-Virtual-Webcam",
@@ -254936,7 +254943,10 @@
       "last_updated": "2026-11-07T10:11:36.944413+00:00"
     },
     "ClickHouse/ClickStack": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 690825026,
         "name": "ClickStack",
