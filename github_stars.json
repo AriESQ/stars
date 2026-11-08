@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:21:55.049378+00:00",
+  "last_updated": "2026-11-08T10:24:54.468199+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254996,6 +254996,106 @@
         "fetched_at": "2026-11-07T10:21:54.074296+00:00",
         "status": "ok"
       }
+    },
+    "pypackaging-native/pypackaging-native": {
+      "lists": [],
+      "metadata": {
+        "id": 578682097,
+        "name": "pypackaging-native",
+        "full_name": "pypackaging-native/pypackaging-native",
+        "description": "A collection of content about key Python packaging topics and issues for projects using native code",
+        "url": "https://github.com/pypackaging-native/pypackaging-native",
+        "homepage": null,
+        "language": null,
+        "stars": 176,
+        "forks": 17,
+        "open_issues": 7,
+        "created_at": "2022-12-15T16:22:53Z",
+        "updated_at": "2026-11-08T01:13:11Z",
+        "pushed_at": "2025-05-26T18:40:42Z",
+        "starred_at": "2026-11-08T01:13:10Z"
+      },
+      "last_updated": "2026-11-08T10:24:52.676615+00:00"
+    },
+    "pypa/abi3audit": {
+      "lists": [],
+      "metadata": {
+        "id": 538788509,
+        "name": "abi3audit",
+        "full_name": "pypa/abi3audit",
+        "description": "Scans Python packages for abi3 violations and inconsistencies",
+        "url": "https://github.com/pypa/abi3audit",
+        "homepage": "https://pypi.org/project/abi3audit",
+        "language": "Python",
+        "stars": 128,
+        "forks": 19,
+        "open_issues": 16,
+        "created_at": "2022-09-20T03:07:25Z",
+        "updated_at": "2026-11-08T00:55:06Z",
+        "pushed_at": "2026-11-03T23:50:43Z",
+        "starred_at": "2026-11-08T00:55:06Z"
+      },
+      "last_updated": "2026-11-08T10:24:53.077611+00:00"
+    },
+    "nikopueringer/CorridorKey2.0": {
+      "lists": [],
+      "metadata": {
+        "id": 1302069600,
+        "name": "CorridorKey2.0",
+        "full_name": "nikopueringer/CorridorKey2.0",
+        "description": "Corridor Key 2.0 for all your green and blue screen needs",
+        "url": "https://github.com/nikopueringer/CorridorKey2.0",
+        "homepage": "https://corridorkey.com",
+        "language": "Python",
+        "stars": 2107,
+        "forks": 244,
+        "open_issues": 13,
+        "created_at": "2026-07-15T22:03:55Z",
+        "updated_at": "2026-11-08T09:25:58Z",
+        "pushed_at": "2026-10-15T18:09:53Z",
+        "starred_at": "2026-11-07T22:01:03Z"
+      },
+      "last_updated": "2026-11-08T10:24:53.479782+00:00"
+    },
+    "Video-Rebirth/hyperflow-h3-flash": {
+      "lists": [],
+      "metadata": {
+        "id": 1448016137,
+        "name": "hyperflow-h3-flash",
+        "full_name": "Video-Rebirth/hyperflow-h3-flash",
+        "description": "HyperFlow H3 Flash: Video Rebirth's 13.7B, 4- to 8-step compressed MiniMax-H3 for joint video and audio generation (INT8 and GGUF)",
+        "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+        "homepage": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+        "language": "Python",
+        "stars": 115,
+        "forks": 3,
+        "open_issues": 3,
+        "created_at": "2026-11-06T08:31:59Z",
+        "updated_at": "2026-11-08T10:08:12Z",
+        "pushed_at": "2026-11-06T12:52:55Z",
+        "starred_at": "2026-11-07T21:54:28Z"
+      },
+      "last_updated": "2026-11-08T10:24:53.889514+00:00"
+    },
+    "FFmpeg-Builds/FFmpeg-Builds": {
+      "lists": [],
+      "metadata": {
+        "id": 292087234,
+        "name": "FFmpeg-Builds",
+        "full_name": "FFmpeg-Builds/FFmpeg-Builds",
+        "description": null,
+        "url": "https://github.com/FFmpeg-Builds/FFmpeg-Builds",
+        "homepage": null,
+        "language": "Shell",
+        "stars": 11952,
+        "forks": 1568,
+        "open_issues": 29,
+        "created_at": "2020-09-01T19:19:40Z",
+        "updated_at": "2026-11-08T07:05:55Z",
+        "pushed_at": "2026-11-07T20:38:18Z",
+        "starred_at": "2024-09-28T23:27:08Z"
+      },
+      "last_updated": "2026-11-08T10:24:54.468143+00:00"
     }
   },
   "last_processed_index": 0,
@@ -255005,5 +255105,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ab5c67931db5262a8d123289a9d67a37a5be46d579424f93882fc4717b0b8721\""
+  "profile_etag": "W/\"0caae9b8cbcbcfa046419a61675ec6a90e89dccdc53acfd96e8d9a805c285c40\""
 }
