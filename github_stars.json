@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T11:34:01.905711+00:00",
+  "last_updated": "2026-11-09T11:44:18.359355+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -254998,7 +254998,11 @@
       }
     },
     "pypackaging-native/pypackaging-native": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Python",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 578682097,
         "name": "pypackaging-native",
@@ -255018,7 +255022,11 @@
       "last_updated": "2026-11-08T10:24:52.676615+00:00"
     },
     "pypa/abi3audit": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Python",
+        "SBOM and Reproducible Builds"
+      ],
       "metadata": {
         "id": 538788509,
         "name": "abi3audit",
@@ -255038,7 +255046,11 @@
       "last_updated": "2026-11-08T10:24:53.077611+00:00"
     },
     "nikopueringer/CorridorKey2.0": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1302069600,
         "name": "CorridorKey2.0",
@@ -255058,7 +255070,11 @@
       "last_updated": "2026-11-08T10:24:53.479782+00:00"
     },
     "Video-Rebirth/hyperflow-h3-flash": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1448016137,
         "name": "hyperflow-h3-flash",
@@ -255078,7 +255094,10 @@
       "last_updated": "2026-11-08T10:24:53.889514+00:00"
     },
     "FFmpeg-Builds/FFmpeg-Builds": {
-      "lists": [],
+      "lists": [
+        "FFmpeg",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 292087234,
         "name": "FFmpeg-Builds",
@@ -255098,7 +255117,10 @@
       "last_updated": "2026-11-08T10:24:54.468143+00:00"
     },
     "kunchenguid/lavish-axi": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1235863714,
         "name": "lavish-axi",
@@ -255118,7 +255140,10 @@
       "last_updated": "2026-11-09T11:33:59.290246+00:00"
     },
     "rkaehn/uniform": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "WASM"
+      ],
       "metadata": {
         "id": 1302655863,
         "name": "uniform",
@@ -255138,7 +255163,9 @@
       "last_updated": "2026-11-09T11:33:59.711692+00:00"
     },
     "andrewboldi/tmux-restore": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1441322398,
         "name": "tmux-restore",
@@ -255158,7 +255185,9 @@
       "last_updated": "2026-11-09T11:34:00.120177+00:00"
     },
     "Uzaaft/awesome-libghostty": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1152388310,
         "name": "awesome-libghostty",
@@ -255178,7 +255207,10 @@
       "last_updated": "2026-11-09T11:34:00.563088+00:00"
     },
     "abrignoni/iLEAPP": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Infosec"
+      ],
       "metadata": {
         "id": 229842283,
         "name": "iLEAPP",
@@ -255198,7 +255230,9 @@
       "last_updated": "2026-11-09T11:34:00.920437+00:00"
     },
     "graealex/WaveDudeNext": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1424817557,
         "name": "WaveDudeNext",
@@ -255218,7 +255252,9 @@
       "last_updated": "2026-11-09T11:34:01.274106+00:00"
     },
     "Joranalogue/test-3": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 121401718,
         "name": "test-3",
