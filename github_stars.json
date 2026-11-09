@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T11:44:18.359355+00:00",
+  "last_updated": "2026-11-09T11:44:45.935549+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255019,7 +255019,15 @@
         "pushed_at": "2025-05-26T18:40:42Z",
         "starred_at": "2026-11-08T01:13:10Z"
       },
-      "last_updated": "2026-11-08T10:24:52.676615+00:00"
+      "last_updated": "2026-11-08T10:24:52.676615+00:00",
+      "readme": {
+        "path": "readmes/pypackaging-native+pypackaging-native+README.md",
+        "etag": "W/\"87c57121cda9114a3beff8e6dfa4865ba23816f8\"",
+        "sha": "87c57121cda9114a3beff8e6dfa4865ba23816f8",
+        "size": 1654,
+        "fetched_at": "2026-11-09T11:44:45.600123+00:00",
+        "status": "ok"
+      }
     },
     "pypa/abi3audit": {
       "lists": [
@@ -255043,7 +255051,15 @@
         "pushed_at": "2026-11-03T23:50:43Z",
         "starred_at": "2026-11-08T00:55:06Z"
       },
-      "last_updated": "2026-11-08T10:24:53.077611+00:00"
+      "last_updated": "2026-11-08T10:24:53.077611+00:00",
+      "readme": {
+        "path": "readmes/pypa+abi3audit+README.md",
+        "etag": "W/\"5f85ac116621661258d1e2861db99201f7fffe86\"",
+        "sha": "5f85ac116621661258d1e2861db99201f7fffe86",
+        "size": 7922,
+        "fetched_at": "2026-11-09T11:44:45.248988+00:00",
+        "status": "ok"
+      }
     },
     "nikopueringer/CorridorKey2.0": {
       "lists": [
@@ -255067,7 +255083,15 @@
         "pushed_at": "2026-10-15T18:09:53Z",
         "starred_at": "2026-11-07T22:01:03Z"
       },
-      "last_updated": "2026-11-08T10:24:53.479782+00:00"
+      "last_updated": "2026-11-08T10:24:53.479782+00:00",
+      "readme": {
+        "path": "readmes/nikopueringer+CorridorKey2.0+README.md",
+        "etag": "W/\"c1791f90be40fa7e91c437256a94d56eb717b838\"",
+        "sha": "c1791f90be40fa7e91c437256a94d56eb717b838",
+        "size": 22018,
+        "fetched_at": "2026-11-09T11:44:44.975175+00:00",
+        "status": "ok"
+      }
     },
     "Video-Rebirth/hyperflow-h3-flash": {
       "lists": [
@@ -255091,7 +255115,15 @@
         "pushed_at": "2026-11-06T12:52:55Z",
         "starred_at": "2026-11-07T21:54:28Z"
       },
-      "last_updated": "2026-11-08T10:24:53.889514+00:00"
+      "last_updated": "2026-11-08T10:24:53.889514+00:00",
+      "readme": {
+        "path": "readmes/Video-Rebirth+hyperflow-h3-flash+README.md",
+        "etag": "W/\"5f151b9f85fa499051681b651344bb5e6377c826\"",
+        "sha": "5f151b9f85fa499051681b651344bb5e6377c826",
+        "size": 23680,
+        "fetched_at": "2026-11-09T11:44:43.792811+00:00",
+        "status": "ok"
+      }
     },
     "FFmpeg-Builds/FFmpeg-Builds": {
       "lists": [
@@ -255114,7 +255146,15 @@
         "pushed_at": "2026-11-07T20:38:18Z",
         "starred_at": "2024-09-28T23:27:08Z"
       },
-      "last_updated": "2026-11-08T10:24:54.468143+00:00"
+      "last_updated": "2026-11-08T10:24:54.468143+00:00",
+      "readme": {
+        "path": "readmes/FFmpeg-Builds+FFmpeg-Builds+README.md",
+        "etag": "W/\"cc039ac82a2b9a55a1cabb8a9fcf6fbbb4b126fc\"",
+        "sha": "cc039ac82a2b9a55a1cabb8a9fcf6fbbb4b126fc",
+        "size": 2777,
+        "fetched_at": "2026-11-09T11:44:43.041441+00:00",
+        "status": "ok"
+      }
     },
     "kunchenguid/lavish-axi": {
       "lists": [
@@ -255137,7 +255177,15 @@
         "pushed_at": "2026-10-29T14:38:29Z",
         "starred_at": "2026-11-09T04:49:03Z"
       },
-      "last_updated": "2026-11-09T11:33:59.290246+00:00"
+      "last_updated": "2026-11-09T11:33:59.290246+00:00",
+      "readme": {
+        "path": "readmes/kunchenguid+lavish-axi+README.md",
+        "etag": "W/\"ded6c58ce8399306ea7607a266e9a682fc3337cf\"",
+        "sha": "ded6c58ce8399306ea7607a266e9a682fc3337cf",
+        "size": 62424,
+        "fetched_at": "2026-11-09T11:44:44.754851+00:00",
+        "status": "ok"
+      }
     },
     "rkaehn/uniform": {
       "lists": [
@@ -255160,7 +255208,15 @@
         "pushed_at": "2026-11-08T06:57:22Z",
         "starred_at": "2026-11-09T04:35:01Z"
       },
-      "last_updated": "2026-11-09T11:33:59.711692+00:00"
+      "last_updated": "2026-11-09T11:33:59.711692+00:00",
+      "readme": {
+        "path": "readmes/rkaehn+uniform+README.md",
+        "etag": "W/\"e067105d7acf80a15175342b02f8400561f4de29\"",
+        "sha": "e067105d7acf80a15175342b02f8400561f4de29",
+        "size": 46775,
+        "fetched_at": "2026-11-09T11:44:45.932938+00:00",
+        "status": "ok"
+      }
     },
     "andrewboldi/tmux-restore": {
       "lists": [
@@ -255182,7 +255238,15 @@
         "pushed_at": "2026-11-09T02:33:09Z",
         "starred_at": "2026-11-08T17:58:47Z"
       },
-      "last_updated": "2026-11-09T11:34:00.120177+00:00"
+      "last_updated": "2026-11-09T11:34:00.120177+00:00",
+      "readme": {
+        "path": "readmes/andrewboldi+tmux-restore+README.md",
+        "etag": "W/\"14090d140acdb96935494631f778ee9ac522efe5\"",
+        "sha": "14090d140acdb96935494631f778ee9ac522efe5",
+        "size": 3249,
+        "fetched_at": "2026-11-09T11:44:44.252116+00:00",
+        "status": "ok"
+      }
     },
     "Uzaaft/awesome-libghostty": {
       "lists": [
@@ -255204,7 +255268,15 @@
         "pushed_at": "2026-11-08T23:06:16Z",
         "starred_at": "2026-11-08T17:51:40Z"
       },
-      "last_updated": "2026-11-09T11:34:00.563088+00:00"
+      "last_updated": "2026-11-09T11:34:00.563088+00:00",
+      "readme": {
+        "path": "readmes/Uzaaft+awesome-libghostty+README.md",
+        "etag": "W/\"7c6ac8f56a131ae7060f8026dd0bd3925389cd01\"",
+        "sha": "7c6ac8f56a131ae7060f8026dd0bd3925389cd01",
+        "size": 20939,
+        "fetched_at": "2026-11-09T11:44:43.554509+00:00",
+        "status": "ok"
+      }
     },
     "abrignoni/iLEAPP": {
       "lists": [
@@ -255227,7 +255299,15 @@
         "pushed_at": "2026-11-09T06:51:55Z",
         "starred_at": "2026-11-08T16:22:20Z"
       },
-      "last_updated": "2026-11-09T11:34:00.920437+00:00"
+      "last_updated": "2026-11-09T11:34:00.920437+00:00",
+      "readme": {
+        "path": "readmes/abrignoni+iLEAPP+README.md",
+        "etag": "W/\"8a678ceae1332816126dcfa6419fd49c098a34f2\"",
+        "sha": "8a678ceae1332816126dcfa6419fd49c098a34f2",
+        "size": 15755,
+        "fetched_at": "2026-11-09T11:44:43.998357+00:00",
+        "status": "ok"
+      }
     },
     "graealex/WaveDudeNext": {
       "lists": [
@@ -255249,7 +255329,15 @@
         "pushed_at": "2026-11-09T00:57:40Z",
         "starred_at": "2026-11-08T13:59:35Z"
       },
-      "last_updated": "2026-11-09T11:34:01.274106+00:00"
+      "last_updated": "2026-11-09T11:34:01.274106+00:00",
+      "readme": {
+        "path": "readmes/graealex+WaveDudeNext+README.md",
+        "etag": "W/\"d9c7de9c4eb21f9803d32d53a2eaddfe3d48ee6f\"",
+        "sha": "d9c7de9c4eb21f9803d32d53a2eaddfe3d48ee6f",
+        "size": 7244,
+        "fetched_at": "2026-11-09T11:44:44.493244+00:00",
+        "status": "ok"
+      }
     },
     "Joranalogue/test-3": {
       "lists": [
@@ -255271,7 +255359,15 @@
         "pushed_at": "2018-02-13T15:49:34Z",
         "starred_at": "2024-06-13T00:59:00Z"
       },
-      "last_updated": "2026-11-09T11:34:01.905625+00:00"
+      "last_updated": "2026-11-09T11:34:01.905625+00:00",
+      "readme": {
+        "path": "readmes/Joranalogue+test-3+README.md",
+        "etag": "W/\"a8da87fcf1cb73b652c561627a2303bfd9cf18cb\"",
+        "sha": "a8da87fcf1cb73b652c561627a2303bfd9cf18cb",
+        "size": 9186,
+        "fetched_at": "2026-11-09T11:44:43.293325+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
