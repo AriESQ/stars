@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T11:14:29.692630+00:00",
+  "last_updated": "2026-11-10T11:25:03.137083+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -101517,7 +101517,8 @@
     "vimeo/psalm": {
       "lists": [
         "Devops",
-        "Infosec"
+        "Infosec",
+        "CI/CD"
       ],
       "metadata": {
         "id": 74386167,
@@ -255370,7 +255371,9 @@
       }
     },
     "FreeRTOS/FreeRTOS": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 206121828,
         "name": "FreeRTOS",
@@ -255390,7 +255393,9 @@
       "last_updated": "2026-11-10T11:14:24.151257+00:00"
     },
     "lizTheDeveloper/flyover-scrub": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1449880877,
         "name": "flyover-scrub",
@@ -255410,7 +255415,10 @@
       "last_updated": "2026-11-10T11:14:24.562379+00:00"
     },
     "andrisgauracs/whistle-esp32": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1425100463,
         "name": "whistle-esp32",
@@ -255430,7 +255438,9 @@
       "last_updated": "2026-11-10T11:14:24.951826+00:00"
     },
     "inmusic-software/az0x-open-source": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1445866743,
         "name": "az0x-open-source",
@@ -255450,7 +255460,10 @@
       "last_updated": "2026-11-10T11:14:25.375207+00:00"
     },
     "trailofbits/dropkit": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1085158702,
         "name": "dropkit",
@@ -255470,7 +255483,9 @@
       "last_updated": "2026-11-10T11:14:25.799811+00:00"
     },
     "emidan19/deep-tempest": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 819608460,
         "name": "deep-tempest",
@@ -255490,7 +255505,11 @@
       "last_updated": "2026-11-10T11:14:26.181960+00:00"
     },
     "exa-labs/company-researcher": {
-      "lists": [],
+      "lists": [
+        "API",
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 888966372,
         "name": "company-researcher",
@@ -255510,7 +255529,9 @@
       "last_updated": "2026-11-10T11:14:26.594533+00:00"
     },
     "exa-labs/exa-py": {
-      "lists": [],
+      "lists": [
+        "API"
+      ],
       "metadata": {
         "id": 662334952,
         "name": "exa-py",
@@ -255530,7 +255551,9 @@
       "last_updated": "2026-11-10T11:14:27.007223+00:00"
     },
     "storytold/soundcraft": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1408486424,
         "name": "soundcraft",
@@ -255550,7 +255573,9 @@
       "last_updated": "2026-11-10T11:14:27.522870+00:00"
     },
     "woodgrain816/WG-DAW-Converter-releases": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1282139483,
         "name": "WG-DAW-Converter-releases",
@@ -255570,7 +255595,9 @@
       "last_updated": "2026-11-10T11:14:27.900688+00:00"
     },
     "ikey4u/zebkit": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1413350549,
         "name": "zebkit",
@@ -255590,7 +255617,9 @@
       "last_updated": "2026-11-10T11:14:28.289279+00:00"
     },
     "marius-jopen/lab-tdvjpatches": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 700772896,
         "name": "lab-tdvjpatches",
@@ -255610,7 +255639,9 @@
       "last_updated": "2026-11-10T11:14:28.813725+00:00"
     },
     "marius-jopen/lab-tdvjstudio": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 690222153,
         "name": "lab-tdvjstudio",
@@ -255630,7 +255661,11 @@
       "last_updated": "2026-11-10T11:14:29.183282+00:00"
     },
     "Anil-matcha/suparagent": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 645381450,
         "name": "suparagent",
