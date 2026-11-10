@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T11:25:03.137083+00:00",
+  "last_updated": "2026-11-10T11:25:45.711678+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255390,7 +255390,15 @@
         "pushed_at": "2026-11-04T00:46:36Z",
         "starred_at": "2026-11-10T06:48:20Z"
       },
-      "last_updated": "2026-11-10T11:14:24.151257+00:00"
+      "last_updated": "2026-11-10T11:14:24.151257+00:00",
+      "readme": {
+        "path": "readmes/FreeRTOS+FreeRTOS+README.md",
+        "etag": "W/\"d467899130e9020f5a95bcf8d5e179168c70e8b6\"",
+        "sha": "d467899130e9020f5a95bcf8d5e179168c70e8b6",
+        "size": 7099,
+        "fetched_at": "2026-11-10T11:25:40.179424+00:00",
+        "status": "ok"
+      }
     },
     "lizTheDeveloper/flyover-scrub": {
       "lists": [
@@ -255412,7 +255420,15 @@
         "pushed_at": "2026-11-10T05:29:28Z",
         "starred_at": "2026-11-10T06:18:05Z"
       },
-      "last_updated": "2026-11-10T11:14:24.562379+00:00"
+      "last_updated": "2026-11-10T11:14:24.562379+00:00",
+      "readme": {
+        "path": "readmes/lizTheDeveloper+flyover-scrub+README.md",
+        "etag": "W/\"7b92c0a21b8bda06f74374627b66fb601b8ae156\"",
+        "sha": "7b92c0a21b8bda06f74374627b66fb601b8ae156",
+        "size": 9570,
+        "fetched_at": "2026-11-10T11:25:43.368248+00:00",
+        "status": "ok"
+      }
     },
     "andrisgauracs/whistle-esp32": {
       "lists": [
@@ -255435,7 +255451,15 @@
         "pushed_at": "2026-10-21T14:55:15Z",
         "starred_at": "2026-11-10T01:47:14Z"
       },
-      "last_updated": "2026-11-10T11:14:24.951826+00:00"
+      "last_updated": "2026-11-10T11:14:24.951826+00:00",
+      "readme": {
+        "path": "readmes/andrisgauracs+whistle-esp32+README.md",
+        "etag": "W/\"21fdd6d3d22d0de618055902d0264d1ce04d94fa\"",
+        "sha": "21fdd6d3d22d0de618055902d0264d1ce04d94fa",
+        "size": 13579,
+        "fetched_at": "2026-11-10T11:25:40.578559+00:00",
+        "status": "ok"
+      }
     },
     "inmusic-software/az0x-open-source": {
       "lists": [
@@ -255457,7 +255481,15 @@
         "pushed_at": "2026-11-09T10:47:02Z",
         "starred_at": "2026-11-10T01:41:14Z"
       },
-      "last_updated": "2026-11-10T11:14:25.375207+00:00"
+      "last_updated": "2026-11-10T11:14:25.375207+00:00",
+      "readme": {
+        "path": "readmes/inmusic-software+az0x-open-source+README.md",
+        "etag": "W/\"5299e50dc5305c59aa5c6653123ae8154681c10e\"",
+        "sha": "5299e50dc5305c59aa5c6653123ae8154681c10e",
+        "size": 1663,
+        "fetched_at": "2026-11-10T11:25:42.804080+00:00",
+        "status": "ok"
+      }
     },
     "trailofbits/dropkit": {
       "lists": [
@@ -255480,7 +255512,15 @@
         "pushed_at": "2026-11-04T17:02:03Z",
         "starred_at": "2026-11-09T22:23:43Z"
       },
-      "last_updated": "2026-11-10T11:14:25.799811+00:00"
+      "last_updated": "2026-11-10T11:14:25.799811+00:00",
+      "readme": {
+        "path": "readmes/trailofbits+dropkit+README.md",
+        "etag": "W/\"329520acf330c2701d1080210da89c4b1354285e\"",
+        "sha": "329520acf330c2701d1080210da89c4b1354285e",
+        "size": 12312,
+        "fetched_at": "2026-11-10T11:25:45.244451+00:00",
+        "status": "ok"
+      }
     },
     "emidan19/deep-tempest": {
       "lists": [
@@ -255502,7 +255542,15 @@
         "pushed_at": "2025-05-28T14:13:19Z",
         "starred_at": "2026-11-09T18:44:07Z"
       },
-      "last_updated": "2026-11-10T11:14:26.181960+00:00"
+      "last_updated": "2026-11-10T11:14:26.181960+00:00",
+      "readme": {
+        "path": "readmes/emidan19+deep-tempest+README.md",
+        "etag": "W/\"a8d700d0f27c18fec0f38fbff18e8337513d48cd\"",
+        "sha": "a8d700d0f27c18fec0f38fbff18e8337513d48cd",
+        "size": 9001,
+        "fetched_at": "2026-11-10T11:25:40.930494+00:00",
+        "status": "ok"
+      }
     },
     "exa-labs/company-researcher": {
       "lists": [
@@ -255526,7 +255574,15 @@
         "pushed_at": "2026-09-27T22:55:35Z",
         "starred_at": "2026-11-09T17:42:12Z"
       },
-      "last_updated": "2026-11-10T11:14:26.594533+00:00"
+      "last_updated": "2026-11-10T11:14:26.594533+00:00",
+      "readme": {
+        "path": "readmes/exa-labs+company-researcher+README.md",
+        "etag": "W/\"4dd66cae422d30fa3ac4507b1b7ff28d9be30e9d\"",
+        "sha": "4dd66cae422d30fa3ac4507b1b7ff28d9be30e9d",
+        "size": 9166,
+        "fetched_at": "2026-11-10T11:25:41.351556+00:00",
+        "status": "ok"
+      }
     },
     "exa-labs/exa-py": {
       "lists": [
@@ -255548,7 +255604,15 @@
         "pushed_at": "2026-11-06T21:03:47Z",
         "starred_at": "2026-11-09T17:41:31Z"
       },
-      "last_updated": "2026-11-10T11:14:27.007223+00:00"
+      "last_updated": "2026-11-10T11:14:27.007223+00:00",
+      "readme": {
+        "path": "readmes/exa-labs+exa-py+README.md",
+        "etag": "W/\"1604add0c66ca86b936a2f37c434dcb6760ba3b6\"",
+        "sha": "1604add0c66ca86b936a2f37c434dcb6760ba3b6",
+        "size": 14480,
+        "fetched_at": "2026-11-10T11:25:41.931809+00:00",
+        "status": "ok"
+      }
     },
     "storytold/soundcraft": {
       "lists": [
@@ -255570,7 +255634,15 @@
         "pushed_at": "2026-11-09T11:54:20Z",
         "starred_at": "2026-11-09T17:33:26Z"
       },
-      "last_updated": "2026-11-10T11:14:27.522870+00:00"
+      "last_updated": "2026-11-10T11:14:27.522870+00:00",
+      "readme": {
+        "path": "readmes/storytold+soundcraft+README.md",
+        "etag": "W/\"d4a810a1e9a741dcf099afcc65be56cc0f604ebf\"",
+        "sha": "d4a810a1e9a741dcf099afcc65be56cc0f604ebf",
+        "size": 28341,
+        "fetched_at": "2026-11-10T11:25:44.789710+00:00",
+        "status": "ok"
+      }
     },
     "woodgrain816/WG-DAW-Converter-releases": {
       "lists": [
@@ -255592,7 +255664,15 @@
         "pushed_at": "2026-11-09T22:56:15Z",
         "starred_at": "2026-11-09T17:32:00Z"
       },
-      "last_updated": "2026-11-10T11:14:27.900688+00:00"
+      "last_updated": "2026-11-10T11:14:27.900688+00:00",
+      "readme": {
+        "path": "readmes/woodgrain816+WG-DAW-Converter-releases+README.md",
+        "etag": "W/\"14ef00ca556689c7339f0133db7eaddbd861c0fc\"",
+        "sha": "14ef00ca556689c7339f0133db7eaddbd861c0fc",
+        "size": 1919,
+        "fetched_at": "2026-11-10T11:25:45.710851+00:00",
+        "status": "ok"
+      }
     },
     "ikey4u/zebkit": {
       "lists": [
@@ -255614,7 +255694,15 @@
         "pushed_at": "2026-11-10T09:50:34Z",
         "starred_at": "2026-11-09T15:42:31Z"
       },
-      "last_updated": "2026-11-10T11:14:28.289279+00:00"
+      "last_updated": "2026-11-10T11:14:28.289279+00:00",
+      "readme": {
+        "path": "readmes/ikey4u+zebkit+README.md",
+        "etag": "W/\"14b06584380b79b37d2f749f87665de71164e69c\"",
+        "sha": "14b06584380b79b37d2f749f87665de71164e69c",
+        "size": 31300,
+        "fetched_at": "2026-11-10T11:25:42.472187+00:00",
+        "status": "ok"
+      }
     },
     "marius-jopen/lab-tdvjpatches": {
       "lists": [
@@ -255636,7 +255724,15 @@
         "pushed_at": "2024-04-07T11:10:15Z",
         "starred_at": "2024-10-25T03:25:44Z"
       },
-      "last_updated": "2026-11-10T11:14:28.813725+00:00"
+      "last_updated": "2026-11-10T11:14:28.813725+00:00",
+      "readme": {
+        "path": "readmes/marius-jopen+lab-tdvjpatches+readme.md",
+        "etag": "W/\"eefd16c4684fda05726157358de362e5e0e13c82\"",
+        "sha": "eefd16c4684fda05726157358de362e5e0e13c82",
+        "size": 461,
+        "fetched_at": "2026-11-10T11:25:43.959935+00:00",
+        "status": "ok"
+      }
     },
     "marius-jopen/lab-tdvjstudio": {
       "lists": [
@@ -255658,7 +255754,15 @@
         "pushed_at": "2024-04-07T11:15:39Z",
         "starred_at": "2024-10-25T03:25:33Z"
       },
-      "last_updated": "2026-11-10T11:14:29.183282+00:00"
+      "last_updated": "2026-11-10T11:14:29.183282+00:00",
+      "readme": {
+        "path": "readmes/marius-jopen+lab-tdvjstudio+readme.md",
+        "etag": "W/\"fdc2ec2f91b63eea3b3df463f65fe67e3f45008b\"",
+        "sha": "fdc2ec2f91b63eea3b3df463f65fe67e3f45008b",
+        "size": 476,
+        "fetched_at": "2026-11-10T11:25:44.442967+00:00",
+        "status": "ok"
+      }
     },
     "Anil-matcha/suparagent": {
       "lists": [
@@ -255682,7 +255786,15 @@
         "pushed_at": "2026-11-10T10:00:59Z",
         "starred_at": "2023-06-09T04:28:15Z"
       },
-      "last_updated": "2026-11-10T11:14:29.692590+00:00"
+      "last_updated": "2026-11-10T11:14:29.692590+00:00",
+      "readme": {
+        "path": "readmes/Anil-matcha+suparagent+README.md",
+        "etag": "W/\"319145a31562eeec63b2802adc3703ac050c3b85\"",
+        "sha": "319145a31562eeec63b2802adc3703ac050c3b85",
+        "size": 12838,
+        "fetched_at": "2026-11-10T11:25:39.771776+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
