@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T11:44:45.935549+00:00",
+  "last_updated": "2026-11-10T11:14:29.692630+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255368,6 +255368,286 @@
         "fetched_at": "2026-11-09T11:44:43.293325+00:00",
         "status": "ok"
       }
+    },
+    "FreeRTOS/FreeRTOS": {
+      "lists": [],
+      "metadata": {
+        "id": 206121828,
+        "name": "FreeRTOS",
+        "full_name": "FreeRTOS/FreeRTOS",
+        "description": "'Classic' FreeRTOS distribution.  Started as Git clone of FreeRTOS SourceForge SVN repo.  Submodules the kernel.",
+        "url": "https://github.com/FreeRTOS/FreeRTOS",
+        "homepage": "https://www.FreeRTOS.org",
+        "language": "C",
+        "stars": 7974,
+        "forks": 2117,
+        "open_issues": 43,
+        "created_at": "2019-09-03T16:25:27Z",
+        "updated_at": "2026-11-10T09:15:19Z",
+        "pushed_at": "2026-11-04T00:46:36Z",
+        "starred_at": "2026-11-10T06:48:20Z"
+      },
+      "last_updated": "2026-11-10T11:14:24.151257+00:00"
+    },
+    "lizTheDeveloper/flyover-scrub": {
+      "lists": [],
+      "metadata": {
+        "id": 1449880877,
+        "name": "flyover-scrub",
+        "full_name": "lizTheDeveloper/flyover-scrub",
+        "description": "Remove aircraft Doppler signatures from audio/video so recordings can't be geolocated from flyovers. Includes a reference attack scorer to measure it.",
+        "url": "https://github.com/lizTheDeveloper/flyover-scrub",
+        "homepage": null,
+        "language": "Python",
+        "stars": 74,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-11-08T01:33:12Z",
+        "updated_at": "2026-11-10T11:11:08Z",
+        "pushed_at": "2026-11-10T05:29:28Z",
+        "starred_at": "2026-11-10T06:18:05Z"
+      },
+      "last_updated": "2026-11-10T11:14:24.562379+00:00"
+    },
+    "andrisgauracs/whistle-esp32": {
+      "lists": [],
+      "metadata": {
+        "id": 1425100463,
+        "name": "whistle-esp32",
+        "full_name": "andrisgauracs/whistle-esp32",
+        "description": "Whistle speech-to-text running fully on an ESP32-S3: hold a button, say a colour in one of 7 languages, the LED does it. No network.",
+        "url": "https://github.com/andrisgauracs/whistle-esp32",
+        "homepage": null,
+        "language": "C",
+        "stars": 222,
+        "forks": 38,
+        "open_issues": 2,
+        "created_at": "2026-10-19T04:19:26Z",
+        "updated_at": "2026-11-10T05:19:42Z",
+        "pushed_at": "2026-10-21T14:55:15Z",
+        "starred_at": "2026-11-10T01:47:14Z"
+      },
+      "last_updated": "2026-11-10T11:14:24.951826+00:00"
+    },
+    "inmusic-software/az0x-open-source": {
+      "lists": [],
+      "metadata": {
+        "id": 1445866743,
+        "name": "az0x-open-source",
+        "full_name": "inmusic-software/az0x-open-source",
+        "description": "Open source components used in inMusic software. Published in compliance with the terms of their various software licenses.",
+        "url": "https://github.com/inmusic-software/az0x-open-source",
+        "homepage": "",
+        "language": null,
+        "stars": 196,
+        "forks": 23,
+        "open_issues": 0,
+        "created_at": "2026-11-04T15:47:23Z",
+        "updated_at": "2026-11-10T08:49:02Z",
+        "pushed_at": "2026-11-09T10:47:02Z",
+        "starred_at": "2026-11-10T01:41:14Z"
+      },
+      "last_updated": "2026-11-10T11:14:25.375207+00:00"
+    },
+    "trailofbits/dropkit": {
+      "lists": [],
+      "metadata": {
+        "id": 1085158702,
+        "name": "dropkit",
+        "full_name": "trailofbits/dropkit",
+        "description": "A CLI tool for managing DigitalOcean droplets with automated setup, SSH configuration, and lifecycle management.",
+        "url": "https://github.com/trailofbits/dropkit",
+        "homepage": null,
+        "language": "Python",
+        "stars": 130,
+        "forks": 14,
+        "open_issues": 4,
+        "created_at": "2025-10-28T16:58:41Z",
+        "updated_at": "2026-11-09T22:23:44Z",
+        "pushed_at": "2026-11-04T17:02:03Z",
+        "starred_at": "2026-11-09T22:23:43Z"
+      },
+      "last_updated": "2026-11-10T11:14:25.799811+00:00"
+    },
+    "emidan19/deep-tempest": {
+      "lists": [],
+      "metadata": {
+        "id": 819608460,
+        "name": "deep-tempest",
+        "full_name": "emidan19/deep-tempest",
+        "description": "Restoration for TEMPEST images using deep-learning",
+        "url": "https://github.com/emidan19/deep-tempest",
+        "homepage": "",
+        "language": "Python",
+        "stars": 787,
+        "forks": 113,
+        "open_issues": 10,
+        "created_at": "2024-06-24T21:21:49Z",
+        "updated_at": "2026-11-10T11:08:47Z",
+        "pushed_at": "2025-05-28T14:13:19Z",
+        "starred_at": "2026-11-09T18:44:07Z"
+      },
+      "last_updated": "2026-11-10T11:14:26.181960+00:00"
+    },
+    "exa-labs/company-researcher": {
+      "lists": [],
+      "metadata": {
+        "id": 888966372,
+        "name": "company-researcher",
+        "full_name": "exa-labs/company-researcher",
+        "description": "Company Researcher tool helps you instantly understand any company inside out.",
+        "url": "https://github.com/exa-labs/company-researcher",
+        "homepage": "https://company-researcher-exa.vercel.app",
+        "language": "TypeScript",
+        "stars": 1539,
+        "forks": 143,
+        "open_issues": 2,
+        "created_at": "2024-11-15T10:51:51Z",
+        "updated_at": "2026-11-09T17:42:12Z",
+        "pushed_at": "2026-09-27T22:55:35Z",
+        "starred_at": "2026-11-09T17:42:12Z"
+      },
+      "last_updated": "2026-11-10T11:14:26.594533+00:00"
+    },
+    "exa-labs/exa-py": {
+      "lists": [],
+      "metadata": {
+        "id": 662334952,
+        "name": "exa-py",
+        "full_name": "exa-labs/exa-py",
+        "description": "The Official Exa Python Package",
+        "url": "https://github.com/exa-labs/exa-py",
+        "homepage": "https://pypi.org/project/exa-py/",
+        "language": "Python",
+        "stars": 238,
+        "forks": 56,
+        "open_issues": 5,
+        "created_at": "2023-07-04T22:56:45Z",
+        "updated_at": "2026-11-09T17:41:32Z",
+        "pushed_at": "2026-11-06T21:03:47Z",
+        "starred_at": "2026-11-09T17:41:31Z"
+      },
+      "last_updated": "2026-11-10T11:14:27.007223+00:00"
+    },
+    "storytold/soundcraft": {
+      "lists": [],
+      "metadata": {
+        "id": 1408486424,
+        "name": "soundcraft",
+        "full_name": "storytold/soundcraft",
+        "description": "SoundCraft: an open-source, clean-room digital audio workstation (DAW) in pure Rust",
+        "url": "https://github.com/storytold/soundcraft",
+        "homepage": "https://getartcraft.com/apps/soundcraft",
+        "language": "Rust",
+        "stars": 4211,
+        "forks": 2546,
+        "open_issues": 617,
+        "created_at": "2026-10-07T08:31:31Z",
+        "updated_at": "2026-11-10T11:13:46Z",
+        "pushed_at": "2026-11-09T11:54:20Z",
+        "starred_at": "2026-11-09T17:33:26Z"
+      },
+      "last_updated": "2026-11-10T11:14:27.522870+00:00"
+    },
+    "woodgrain816/WG-DAW-Converter-releases": {
+      "lists": [],
+      "metadata": {
+        "id": 1282139483,
+        "name": "WG-DAW-Converter-releases",
+        "full_name": "woodgrain816/WG-DAW-Converter-releases",
+        "description": "Installers + auto-update channel for the Pro Tools to Cubase Converter",
+        "url": "https://github.com/woodgrain816/WG-DAW-Converter-releases",
+        "homepage": null,
+        "language": null,
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 1,
+        "created_at": "2026-06-27T11:26:02Z",
+        "updated_at": "2026-11-10T10:27:34Z",
+        "pushed_at": "2026-11-09T22:56:15Z",
+        "starred_at": "2026-11-09T17:32:00Z"
+      },
+      "last_updated": "2026-11-10T11:14:27.900688+00:00"
+    },
+    "ikey4u/zebkit": {
+      "lists": [],
+      "metadata": {
+        "id": 1413350549,
+        "name": "zebkit",
+        "full_name": "ikey4u/zebkit",
+        "description": "A slim cross-platform browser engine for applications",
+        "url": "https://github.com/ikey4u/zebkit",
+        "homepage": "",
+        "language": "C++",
+        "stars": 202,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2026-10-10T15:27:27Z",
+        "updated_at": "2026-11-10T10:39:18Z",
+        "pushed_at": "2026-11-10T09:50:34Z",
+        "starred_at": "2026-11-09T15:42:31Z"
+      },
+      "last_updated": "2026-11-10T11:14:28.289279+00:00"
+    },
+    "marius-jopen/lab-tdvjpatches": {
+      "lists": [],
+      "metadata": {
+        "id": 700772896,
+        "name": "lab-tdvjpatches",
+        "full_name": "marius-jopen/lab-tdvjpatches",
+        "description": null,
+        "url": "https://github.com/marius-jopen/lab-tdvjpatches",
+        "homepage": null,
+        "language": null,
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2023-10-05T09:10:01Z",
+        "updated_at": "2026-11-10T03:28:24Z",
+        "pushed_at": "2024-04-07T11:10:15Z",
+        "starred_at": "2024-10-25T03:25:44Z"
+      },
+      "last_updated": "2026-11-10T11:14:28.813725+00:00"
+    },
+    "marius-jopen/lab-tdvjstudio": {
+      "lists": [],
+      "metadata": {
+        "id": 690222153,
+        "name": "lab-tdvjstudio",
+        "full_name": "marius-jopen/lab-tdvjstudio",
+        "description": null,
+        "url": "https://github.com/marius-jopen/lab-tdvjstudio",
+        "homepage": null,
+        "language": null,
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2023-09-11T19:16:57Z",
+        "updated_at": "2026-11-10T03:28:23Z",
+        "pushed_at": "2024-04-07T11:15:39Z",
+        "starred_at": "2024-10-25T03:25:33Z"
+      },
+      "last_updated": "2026-11-10T11:14:29.183282+00:00"
+    },
+    "Anil-matcha/suparagent": {
+      "lists": [],
+      "metadata": {
+        "id": 645381450,
+        "name": "suparagent",
+        "full_name": "Anil-matcha/suparagent",
+        "description": "Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.",
+        "url": "https://github.com/Anil-matcha/suparagent",
+        "homepage": "https://suparagent.ai",
+        "language": "Python",
+        "stars": 6970,
+        "forks": 902,
+        "open_issues": 11,
+        "created_at": "2023-05-25T14:21:12Z",
+        "updated_at": "2026-11-10T11:03:54Z",
+        "pushed_at": "2026-11-10T10:00:59Z",
+        "starred_at": "2023-06-09T04:28:15Z"
+      },
+      "last_updated": "2026-11-10T11:14:29.692590+00:00"
     }
   },
   "last_processed_index": 0,
@@ -255377,5 +255657,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"57e3500b8527d90b3148ae3af2a3bb3b162476a301fa6fa8fb208a1999dfe745\""
+  "profile_etag": "W/\"c0ab4014eb23f881c1c77de7104aecb9f7b82f6a59b9accd3bb98e099492d2e8\""
 }
