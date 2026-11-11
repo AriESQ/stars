@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T11:25:45.711678+00:00",
+  "last_updated": "2026-11-11T11:00:36.802461+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255795,6 +255795,106 @@
         "fetched_at": "2026-11-10T11:25:39.771776+00:00",
         "status": "ok"
       }
+    },
+    "joostd/openssh-hybrid-sk-provider": {
+      "lists": [],
+      "metadata": {
+        "id": 1285060649,
+        "name": "openssh-hybrid-sk-provider",
+        "full_name": "joostd/openssh-hybrid-sk-provider",
+        "description": "OpenSSH SK Provider for FIDO authenticators over hybrid transport",
+        "url": "https://github.com/joostd/openssh-hybrid-sk-provider",
+        "homepage": null,
+        "language": "C",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-06-30T12:50:08Z",
+        "updated_at": "2026-11-11T05:45:41Z",
+        "pushed_at": "2026-06-30T12:55:28Z",
+        "starred_at": "2026-11-11T05:45:41Z"
+      },
+      "last_updated": "2026-11-11T11:00:34.817964+00:00"
+    },
+    "izawa/sk-icloud-keychain": {
+      "lists": [],
+      "metadata": {
+        "id": 1444026951,
+        "name": "sk-icloud-keychain",
+        "full_name": "izawa/sk-icloud-keychain",
+        "description": "Use one SSH key on all your Macs: iCloud Keychain sync + Touch ID, as an OpenSSH sk provider",
+        "url": "https://github.com/izawa/sk-icloud-keychain",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-03T08:45:12Z",
+        "updated_at": "2026-11-11T05:45:23Z",
+        "pushed_at": "2026-11-11T02:59:04Z",
+        "starred_at": "2026-11-11T05:45:23Z"
+      },
+      "last_updated": "2026-11-11T11:00:35.180243+00:00"
+    },
+    "microsoft/Procexp-Mac": {
+      "lists": [],
+      "metadata": {
+        "id": 1291511187,
+        "name": "Procexp-Mac",
+        "full_name": "microsoft/Procexp-Mac",
+        "description": "Process Explorer for MacOS",
+        "url": "https://github.com/microsoft/Procexp-Mac",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 418,
+        "forks": 13,
+        "open_issues": 9,
+        "created_at": "2026-07-06T21:43:46Z",
+        "updated_at": "2026-11-11T10:54:04Z",
+        "pushed_at": "2026-11-10T23:39:39Z",
+        "starred_at": "2026-11-11T03:10:17Z"
+      },
+      "last_updated": "2026-11-11T11:00:35.573096+00:00"
+    },
+    "macterm/macterm": {
+      "lists": [],
+      "metadata": {
+        "id": 1208287465,
+        "name": "macterm",
+        "full_name": "macterm/macterm",
+        "description": "A feature-rich macOS terminal built to be pleasant, native, and lightweight",
+        "url": "https://github.com/macterm/macterm",
+        "homepage": "https://macterm.thdxg.dev",
+        "language": "Swift",
+        "stars": 523,
+        "forks": 43,
+        "open_issues": 5,
+        "created_at": "2026-04-12T04:22:18Z",
+        "updated_at": "2026-11-11T09:19:17Z",
+        "pushed_at": "2026-11-11T07:45:10Z",
+        "starred_at": "2026-05-21T00:29:34Z"
+      },
+      "last_updated": "2026-11-11T11:00:36.128743+00:00"
+    },
+    "SunshineStream/Sunshine": {
+      "lists": [],
+      "metadata": {
+        "id": 438803890,
+        "name": "Sunshine",
+        "full_name": "SunshineStream/Sunshine",
+        "description": "Self-hosted game stream host for Moonlight.",
+        "url": "https://github.com/SunshineStream/Sunshine",
+        "homepage": "https://sunshine.lizardbyte.dev",
+        "language": "C++",
+        "stars": 43260,
+        "forks": 2375,
+        "open_issues": 179,
+        "created_at": "2021-12-15T23:38:57Z",
+        "updated_at": "2026-11-11T09:56:42Z",
+        "pushed_at": "2026-11-11T07:43:30Z",
+        "starred_at": "2025-12-13T20:21:53Z"
+      },
+      "last_updated": "2026-11-11T11:00:36.802412+00:00"
     }
   },
   "last_processed_index": 0,
@@ -255804,5 +255904,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"c0ab4014eb23f881c1c77de7104aecb9f7b82f6a59b9accd3bb98e099492d2e8\""
+  "profile_etag": "W/\"100a6c784016806f825c9177fe2d4203518bdde4ca7a531bd128e7953cc1468d\""
 }
