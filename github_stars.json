@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T11:00:36.802461+00:00",
+  "last_updated": "2026-11-11T11:10:24.750146+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255797,7 +255797,9 @@
       }
     },
     "joostd/openssh-hybrid-sk-provider": {
-      "lists": [],
+      "lists": [
+        "PKI"
+      ],
       "metadata": {
         "id": 1285060649,
         "name": "openssh-hybrid-sk-provider",
@@ -255817,7 +255819,9 @@
       "last_updated": "2026-11-11T11:00:34.817964+00:00"
     },
     "izawa/sk-icloud-keychain": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1444026951,
         "name": "sk-icloud-keychain",
@@ -255837,7 +255841,9 @@
       "last_updated": "2026-11-11T11:00:35.180243+00:00"
     },
     "microsoft/Procexp-Mac": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1291511187,
         "name": "Procexp-Mac",
@@ -255857,7 +255863,9 @@
       "last_updated": "2026-11-11T11:00:35.573096+00:00"
     },
     "macterm/macterm": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 1208287465,
         "name": "macterm",
@@ -255877,7 +255885,9 @@
       "last_updated": "2026-11-11T11:00:36.128743+00:00"
     },
     "SunshineStream/Sunshine": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 438803890,
         "name": "Sunshine",
