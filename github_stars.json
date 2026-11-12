@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T11:23:19.971776+00:00",
+  "last_updated": "2026-11-12T11:23:40.818366+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255968,7 +255968,15 @@
         "pushed_at": "2026-11-11T00:32:10Z",
         "starred_at": "2026-11-11T21:21:21Z"
       },
-      "last_updated": "2026-11-12T11:12:30.607567+00:00"
+      "last_updated": "2026-11-12T11:12:30.607567+00:00",
+      "readme": {
+        "path": "readmes/aws+aws-emulator+README.md",
+        "etag": "W/\"fd88d6dcbe3367ee5c01726c6b51cc76d2781603\"",
+        "sha": "fd88d6dcbe3367ee5c01726c6b51cc76d2781603",
+        "size": 8902,
+        "fetched_at": "2026-11-12T11:23:40.270592+00:00",
+        "status": "ok"
+      }
     },
     "neondatabase/electric-pglite": {
       "lists": [
@@ -255990,7 +255998,15 @@
         "pushed_at": "2026-11-10T15:15:09Z",
         "starred_at": "2026-04-11T05:04:36Z"
       },
-      "last_updated": "2026-11-12T11:12:31.131934+00:00"
+      "last_updated": "2026-11-12T11:12:31.131934+00:00",
+      "readme": {
+        "path": "readmes/neondatabase+electric-pglite+README.md",
+        "etag": "W/\"bf3a1809de711dbc986a3225026d098dbccbf634\"",
+        "sha": "bf3a1809de711dbc986a3225026d098dbccbf634",
+        "size": 8544,
+        "fetched_at": "2026-11-12T11:23:40.533924+00:00",
+        "status": "ok"
+      }
     },
     "pluja/anysub": {
       "lists": [
@@ -256012,7 +256028,15 @@
         "pushed_at": "2026-11-12T09:13:03Z",
         "starred_at": "2023-08-29T05:01:13Z"
       },
-      "last_updated": "2026-11-12T11:12:31.653634+00:00"
+      "last_updated": "2026-11-12T11:12:31.653634+00:00",
+      "readme": {
+        "path": "readmes/pluja+anysub+README.md",
+        "etag": "W/\"880b11b6327028158239459a81d9d9508f69fdc7\"",
+        "sha": "880b11b6327028158239459a81d9d9508f69fdc7",
+        "size": 2863,
+        "fetched_at": "2026-11-12T11:23:40.814514+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
