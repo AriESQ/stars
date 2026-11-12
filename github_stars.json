@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T11:11:20.463996+00:00",
+  "last_updated": "2026-11-12T11:12:31.653654+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255945,6 +255945,66 @@
         "fetched_at": "2026-11-11T11:11:18.470559+00:00",
         "status": "ok"
       }
+    },
+    "aws/aws-emulator": {
+      "lists": [],
+      "metadata": {
+        "id": 1366593263,
+        "name": "aws-emulator",
+        "full_name": "aws/aws-emulator",
+        "description": "AWS Emulator is a local emulator of the AWS APIs.",
+        "url": "https://github.com/aws/aws-emulator",
+        "homepage": "https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html",
+        "language": "Rust",
+        "stars": 3507,
+        "forks": 84,
+        "open_issues": 67,
+        "created_at": "2026-09-11T19:01:12Z",
+        "updated_at": "2026-11-12T11:12:15Z",
+        "pushed_at": "2026-11-11T00:32:10Z",
+        "starred_at": "2026-11-11T21:21:21Z"
+      },
+      "last_updated": "2026-11-12T11:12:30.607567+00:00"
+    },
+    "neondatabase/electric-pglite": {
+      "lists": [],
+      "metadata": {
+        "id": 759893102,
+        "name": "electric-pglite",
+        "full_name": "neondatabase/electric-pglite",
+        "description": "Embeddable Postgres with real-time, reactive bindings.",
+        "url": "https://github.com/neondatabase/electric-pglite",
+        "homepage": "https://pglite.dev",
+        "language": "TypeScript",
+        "stars": 16267,
+        "forks": 474,
+        "open_issues": 163,
+        "created_at": "2024-02-19T14:37:38Z",
+        "updated_at": "2026-11-12T03:15:57Z",
+        "pushed_at": "2026-11-10T15:15:09Z",
+        "starred_at": "2026-04-11T05:04:36Z"
+      },
+      "last_updated": "2026-11-12T11:12:31.131934+00:00"
+    },
+    "pluja/anysub": {
+      "lists": [],
+      "metadata": {
+        "id": 683336280,
+        "name": "anysub",
+        "full_name": "pluja/anysub",
+        "description": "Turn audio and video into subtitles with an easy-to-use web UI. Everything runs on your own machine.",
+        "url": "https://github.com/pluja/anysub",
+        "homepage": "",
+        "language": "TypeScript",
+        "stars": 3108,
+        "forks": 183,
+        "open_issues": 30,
+        "created_at": "2023-08-26T08:34:13Z",
+        "updated_at": "2026-11-12T10:54:55Z",
+        "pushed_at": "2026-11-12T09:13:03Z",
+        "starred_at": "2023-08-29T05:01:13Z"
+      },
+      "last_updated": "2026-11-12T11:12:31.653634+00:00"
     }
   },
   "last_processed_index": 0,
@@ -255954,5 +256014,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"100a6c784016806f825c9177fe2d4203518bdde4ca7a531bd128e7953cc1468d\""
+  "profile_etag": "W/\"57c203beebc892b521e6ba8ffa0cc67875d41c3de6a72387c40d3f4f57ef746f\""
 }
