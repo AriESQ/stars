@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T11:12:31.653654+00:00",
+  "last_updated": "2026-11-12T11:23:19.971776+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255947,7 +255947,11 @@
       }
     },
     "aws/aws-emulator": {
-      "lists": [],
+      "lists": [
+        "AWS",
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 1366593263,
         "name": "aws-emulator",
@@ -255967,7 +255971,9 @@
       "last_updated": "2026-11-12T11:12:30.607567+00:00"
     },
     "neondatabase/electric-pglite": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 759893102,
         "name": "electric-pglite",
@@ -255987,7 +255993,9 @@
       "last_updated": "2026-11-12T11:12:31.131934+00:00"
     },
     "pluja/anysub": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 683336280,
         "name": "anysub",
