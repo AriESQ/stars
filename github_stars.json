@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T11:23:40.818366+00:00",
+  "last_updated": "2026-11-13T11:01:25.556637+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256037,6 +256037,306 @@
         "fetched_at": "2026-11-12T11:23:40.814514+00:00",
         "status": "ok"
       }
+    },
+    "dwarvesf/claude-guardrails": {
+      "lists": [],
+      "metadata": {
+        "id": 1169779473,
+        "name": "claude-guardrails",
+        "full_name": "dwarvesf/claude-guardrails",
+        "description": "Hardened security configuration for Claude Code; permission deny rules, shell hooks, and prompt injection defense in full and lite variants.",
+        "url": "https://github.com/dwarvesf/claude-guardrails",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 44,
+        "forks": 6,
+        "open_issues": 6,
+        "created_at": "2026-03-01T07:39:13Z",
+        "updated_at": "2026-11-13T06:28:39Z",
+        "pushed_at": "2026-11-08T23:50:13Z",
+        "starred_at": "2026-11-13T06:28:39Z"
+      },
+      "last_updated": "2026-11-13T11:01:20.302395+00:00"
+    },
+    "tldrsec/prompt-injection-defenses": {
+      "lists": [],
+      "metadata": {
+        "id": 780262908,
+        "name": "prompt-injection-defenses",
+        "full_name": "tldrsec/prompt-injection-defenses",
+        "description": "Every practical and proposed defense against prompt injection.",
+        "url": "https://github.com/tldrsec/prompt-injection-defenses",
+        "homepage": "https://tldrsec.com/subscribe",
+        "language": null,
+        "stars": 743,
+        "forks": 66,
+        "open_issues": 12,
+        "created_at": "2024-04-01T05:08:06Z",
+        "updated_at": "2026-11-13T06:25:52Z",
+        "pushed_at": "2025-02-22T11:50:13Z",
+        "starred_at": "2026-11-13T06:25:52Z"
+      },
+      "last_updated": "2026-11-13T11:01:20.636235+00:00"
+    },
+    "tailscale/tailcat": {
+      "lists": [],
+      "metadata": {
+        "id": 880414192,
+        "name": "tailcat",
+        "full_name": "tailscale/tailcat",
+        "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "url": "https://github.com/tailscale/tailcat",
+        "homepage": "https://tailscale.com/tailcat",
+        "language": "Go",
+        "stars": 9158,
+        "forks": 421,
+        "open_issues": 41,
+        "created_at": "2024-10-29T17:21:12Z",
+        "updated_at": "2026-11-13T10:59:18Z",
+        "pushed_at": "2026-11-05T15:10:23Z",
+        "starred_at": "2026-11-12T23:02:26Z"
+      },
+      "last_updated": "2026-11-13T11:01:21.042185+00:00"
+    },
+    "TensaikunYT/Videohub": {
+      "lists": [],
+      "metadata": {
+        "id": 1454079196,
+        "name": "Videohub",
+        "full_name": "TensaikunYT/Videohub",
+        "description": null,
+        "url": "https://github.com/TensaikunYT/Videohub",
+        "homepage": "https://www.youtube.com/@tensaikunai",
+        "language": "JavaScript",
+        "stars": 110,
+        "forks": 29,
+        "open_issues": 4,
+        "created_at": "2026-11-11T14:23:18Z",
+        "updated_at": "2026-11-13T10:42:58Z",
+        "pushed_at": "2026-11-13T09:26:31Z",
+        "starred_at": "2026-11-12T22:36:58Z"
+      },
+      "last_updated": "2026-11-13T11:01:21.416455+00:00"
+    },
+    "scottbez1/FaderBuddy": {
+      "lists": [],
+      "metadata": {
+        "id": 922424174,
+        "name": "FaderBuddy",
+        "full_name": "scottbez1/FaderBuddy",
+        "description": "Plug-and-play motorized faders for ESPHome and more",
+        "url": "https://github.com/scottbez1/FaderBuddy",
+        "homepage": "",
+        "language": "C++",
+        "stars": 903,
+        "forks": 41,
+        "open_issues": 2,
+        "created_at": "2025-01-26T06:49:53Z",
+        "updated_at": "2026-11-12T20:34:54Z",
+        "pushed_at": "2026-11-11T02:02:16Z",
+        "starred_at": "2026-11-12T20:34:53Z"
+      },
+      "last_updated": "2026-11-13T11:01:21.770420+00:00"
+    },
+    "USC-ICT/ICT-FaceKit": {
+      "lists": [],
+      "metadata": {
+        "id": 241524330,
+        "name": "ICT-FaceKit",
+        "full_name": "USC-ICT/ICT-FaceKit",
+        "description": "ICT's Vision and Graphics Lab's morphable face model and toolkit",
+        "url": "https://github.com/USC-ICT/ICT-FaceKit",
+        "homepage": null,
+        "language": "Python",
+        "stars": 778,
+        "forks": 121,
+        "open_issues": 15,
+        "created_at": "2020-02-19T03:32:10Z",
+        "updated_at": "2026-11-13T10:22:15Z",
+        "pushed_at": "2020-12-01T11:57:17Z",
+        "starred_at": "2026-11-12T19:39:17Z"
+      },
+      "last_updated": "2026-11-13T11:01:22.165643+00:00"
+    },
+    "GloriousEggroll/HWS_VIDEO_CAPTURE_GENERIC": {
+      "lists": [],
+      "metadata": {
+        "id": 1447946875,
+        "name": "HWS_VIDEO_CAPTURE_GENERIC",
+        "full_name": "GloriousEggroll/HWS_VIDEO_CAPTURE_GENERIC",
+        "description": "Generic linux kernel driver for ACASIS and AVMATRIX PCI-E capture cards.",
+        "url": "https://github.com/GloriousEggroll/HWS_VIDEO_CAPTURE_GENERIC",
+        "homepage": null,
+        "language": "C",
+        "stars": 1,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-11-06T07:11:10Z",
+        "updated_at": "2026-11-12T18:06:24Z",
+        "pushed_at": "2026-11-06T07:47:41Z",
+        "starred_at": "2026-11-12T18:06:24Z"
+      },
+      "last_updated": "2026-11-13T11:01:22.616974+00:00"
+    },
+    "GloriousEggroll/AVMATRIX-VC12-4K-CAPTURE": {
+      "lists": [],
+      "metadata": {
+        "id": 625062687,
+        "name": "AVMATRIX-VC12-4K-CAPTURE",
+        "full_name": "GloriousEggroll/AVMATRIX-VC12-4K-CAPTURE",
+        "description": "Linux driver module for the AVMATRIX VC12-4k PCI-E capture card",
+        "url": "https://github.com/GloriousEggroll/AVMATRIX-VC12-4K-CAPTURE",
+        "homepage": null,
+        "language": "C",
+        "stars": 48,
+        "forks": 15,
+        "open_issues": 4,
+        "created_at": "2023-04-08T00:54:36Z",
+        "updated_at": "2026-11-12T18:06:03Z",
+        "pushed_at": "2026-11-06T07:59:06Z",
+        "starred_at": "2026-11-12T18:06:03Z"
+      },
+      "last_updated": "2026-11-13T11:01:22.940811+00:00"
+    },
+    "GloriousEggroll/AVMATRIX-VC41-VC42-CAPTURE": {
+      "lists": [],
+      "metadata": {
+        "id": 627046241,
+        "name": "AVMATRIX-VC41-VC42-CAPTURE",
+        "full_name": "GloriousEggroll/AVMATRIX-VC41-VC42-CAPTURE",
+        "description": "Linux driver module for the AVMATRIX VC41 and VC42 PCI-E capture cards",
+        "url": "https://github.com/GloriousEggroll/AVMATRIX-VC41-VC42-CAPTURE",
+        "homepage": null,
+        "language": "C",
+        "stars": 12,
+        "forks": 4,
+        "open_issues": 3,
+        "created_at": "2023-04-12T17:11:21Z",
+        "updated_at": "2026-11-12T18:05:46Z",
+        "pushed_at": "2026-11-06T07:59:12Z",
+        "starred_at": "2026-11-12T18:05:46Z"
+      },
+      "last_updated": "2026-11-13T11:01:23.303129+00:00"
+    },
+    "GloriousEggroll/XenosRecomp": {
+      "lists": [],
+      "metadata": {
+        "id": 1430728256,
+        "name": "XenosRecomp",
+        "full_name": "GloriousEggroll/XenosRecomp",
+        "description": "A tool for converting Xbox 360 shaders to HLSL.",
+        "url": "https://github.com/GloriousEggroll/XenosRecomp",
+        "homepage": "",
+        "language": "C++",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-10-23T07:35:45Z",
+        "updated_at": "2026-11-12T18:05:21Z",
+        "pushed_at": "2026-11-06T21:05:35Z",
+        "starred_at": "2026-11-12T18:05:20Z"
+      },
+      "last_updated": "2026-11-13T11:01:23.727428+00:00"
+    },
+    "GloriousEggroll/chromium-widevine-helper": {
+      "lists": [],
+      "metadata": {
+        "id": 1307206128,
+        "name": "chromium-widevine-helper",
+        "full_name": "GloriousEggroll/chromium-widevine-helper",
+        "description": "This extension downloads and installs Google Widevine from Google for 3rd party linux browsers that don't or can't include it within their packaging and do not include an internal toggle for it. Examples of such browsers include Ungoogled Chromium, Helium, Iridium, Mullvad Browser, and Zen Browser.",
+        "url": "https://github.com/GloriousEggroll/chromium-widevine-helper",
+        "homepage": null,
+        "language": "Python",
+        "stars": 53,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-07-21T03:00:38Z",
+        "updated_at": "2026-11-12T18:04:45Z",
+        "pushed_at": "2026-08-24T11:41:21Z",
+        "starred_at": "2026-11-12T18:04:45Z"
+      },
+      "last_updated": "2026-11-13T11:01:24.062470+00:00"
+    },
+    "rinste/turbo-mlx": {
+      "lists": [],
+      "metadata": {
+        "id": 1391167101,
+        "name": "turbo-mlx",
+        "full_name": "rinste/turbo-mlx",
+        "description": "Local AI image & video generation for Apple Silicon: a native macOS app with an MLX Swift engine. FLUX.2 Klein, Z-Image Turbo, Qwen-Image 2512, Ming-Image and LTX-2.3 (video with sound). Sandboxed, no Python.",
+        "url": "https://github.com/rinste/turbo-mlx",
+        "homepage": null,
+        "language": "Swift",
+        "stars": 122,
+        "forks": 18,
+        "open_issues": 14,
+        "created_at": "2026-09-27T16:55:19Z",
+        "updated_at": "2026-11-13T10:47:55Z",
+        "pushed_at": "2026-11-03T17:28:25Z",
+        "starred_at": "2026-11-12T17:58:49Z"
+      },
+      "last_updated": "2026-11-13T11:01:24.434342+00:00"
+    },
+    "janestreet/agent_skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1444573070,
+        "name": "agent_skills",
+        "full_name": "janestreet/agent_skills",
+        "description": "Agent skills",
+        "url": "https://github.com/janestreet/agent_skills",
+        "homepage": "",
+        "language": null,
+        "stars": 8009,
+        "forks": 519,
+        "open_issues": 9,
+        "created_at": "2026-11-03T16:50:21Z",
+        "updated_at": "2026-11-13T11:00:21Z",
+        "pushed_at": "2026-11-03T18:14:13Z",
+        "starred_at": "2026-11-12T16:32:48Z"
+      },
+      "last_updated": "2026-11-13T11:01:24.822654+00:00"
+    },
+    "KaiwetN/Witrn-K2-PD-Analyzer": {
+      "lists": [],
+      "metadata": {
+        "id": 1078836587,
+        "name": "Witrn-K2-PD-Analyzer",
+        "full_name": "KaiwetN/Witrn-K2-PD-Analyzer",
+        "description": "A PD analysis host software for Witrn K2",
+        "url": "https://github.com/KaiwetN/Witrn-K2-PD-Analyzer",
+        "homepage": null,
+        "language": null,
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2025-10-18T14:28:15Z",
+        "updated_at": "2026-11-12T14:31:55Z",
+        "pushed_at": "2025-10-18T15:45:29Z",
+        "starred_at": "2026-11-12T14:31:55Z"
+      },
+      "last_updated": "2026-11-13T11:01:25.201542+00:00"
+    },
+    "CWNE88/opensticksetup": {
+      "lists": [],
+      "metadata": {
+        "id": 1453302817,
+        "name": "opensticksetup",
+        "full_name": "CWNE88/opensticksetup",
+        "description": "Instructions to set up Debian OpenStick",
+        "url": "https://github.com/CWNE88/opensticksetup",
+        "homepage": null,
+        "language": null,
+        "stars": 56,
+        "forks": 5,
+        "open_issues": 2,
+        "created_at": "2026-11-10T23:26:40Z",
+        "updated_at": "2026-11-13T10:54:37Z",
+        "pushed_at": "2026-11-11T00:26:40Z",
+        "starred_at": "2026-11-12T13:56:52Z"
+      },
+      "last_updated": "2026-11-13T11:01:25.556535+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256046,5 +256346,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"57c203beebc892b521e6ba8ffa0cc67875d41c3de6a72387c40d3f4f57ef746f\""
+  "profile_etag": "W/\"acddf96761b146dfa60a7bf1d4c4a157305b84c74dd501db9669d60371e609a5\""
 }
