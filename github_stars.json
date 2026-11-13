@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T11:01:25.556637+00:00",
+  "last_updated": "2026-11-13T11:11:32.203816+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -106374,7 +106374,8 @@
     },
     "jhmaster2000/NoclipUtils": {
       "lists": [
-        "Music and Video"
+        "Music and Video",
+        "JavaScript"
       ],
       "metadata": {
         "id": 364578037,
@@ -256039,7 +256040,10 @@
       }
     },
     "dwarvesf/claude-guardrails": {
-      "lists": [],
+      "lists": [
+        "Linux CLI Tools",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1169779473,
         "name": "claude-guardrails",
@@ -256059,7 +256063,10 @@
       "last_updated": "2026-11-13T11:01:20.302395+00:00"
     },
     "tldrsec/prompt-injection-defenses": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 780262908,
         "name": "prompt-injection-defenses",
@@ -256079,7 +256086,9 @@
       "last_updated": "2026-11-13T11:01:20.636235+00:00"
     },
     "tailscale/tailcat": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 880414192,
         "name": "tailcat",
@@ -256099,7 +256108,9 @@
       "last_updated": "2026-11-13T11:01:21.042185+00:00"
     },
     "TensaikunYT/Videohub": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1454079196,
         "name": "Videohub",
@@ -256119,7 +256130,10 @@
       "last_updated": "2026-11-13T11:01:21.416455+00:00"
     },
     "scottbez1/FaderBuddy": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 922424174,
         "name": "FaderBuddy",
@@ -256139,7 +256153,9 @@
       "last_updated": "2026-11-13T11:01:21.770420+00:00"
     },
     "USC-ICT/ICT-FaceKit": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 241524330,
         "name": "ICT-FaceKit",
@@ -256159,7 +256175,10 @@
       "last_updated": "2026-11-13T11:01:22.165643+00:00"
     },
     "GloriousEggroll/HWS_VIDEO_CAPTURE_GENERIC": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1447946875,
         "name": "HWS_VIDEO_CAPTURE_GENERIC",
@@ -256179,7 +256198,10 @@
       "last_updated": "2026-11-13T11:01:22.616974+00:00"
     },
     "GloriousEggroll/AVMATRIX-VC12-4K-CAPTURE": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 625062687,
         "name": "AVMATRIX-VC12-4K-CAPTURE",
@@ -256199,7 +256221,10 @@
       "last_updated": "2026-11-13T11:01:22.940811+00:00"
     },
     "GloriousEggroll/AVMATRIX-VC41-VC42-CAPTURE": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 627046241,
         "name": "AVMATRIX-VC41-VC42-CAPTURE",
@@ -256219,7 +256244,9 @@
       "last_updated": "2026-11-13T11:01:23.303129+00:00"
     },
     "GloriousEggroll/XenosRecomp": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1430728256,
         "name": "XenosRecomp",
@@ -256239,7 +256266,9 @@
       "last_updated": "2026-11-13T11:01:23.727428+00:00"
     },
     "GloriousEggroll/chromium-widevine-helper": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1307206128,
         "name": "chromium-widevine-helper",
@@ -256259,7 +256288,10 @@
       "last_updated": "2026-11-13T11:01:24.062470+00:00"
     },
     "rinste/turbo-mlx": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1391167101,
         "name": "turbo-mlx",
@@ -256279,7 +256311,9 @@
       "last_updated": "2026-11-13T11:01:24.434342+00:00"
     },
     "janestreet/agent_skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1444573070,
         "name": "agent_skills",
@@ -256299,7 +256333,9 @@
       "last_updated": "2026-11-13T11:01:24.822654+00:00"
     },
     "KaiwetN/Witrn-K2-PD-Analyzer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1078836587,
         "name": "Witrn-K2-PD-Analyzer",
@@ -256319,7 +256355,9 @@
       "last_updated": "2026-11-13T11:01:25.201542+00:00"
     },
     "CWNE88/opensticksetup": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1453302817,
         "name": "opensticksetup",
