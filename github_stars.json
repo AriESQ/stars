@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T11:11:32.203816+00:00",
+  "last_updated": "2026-11-13T11:12:38.762450+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256060,7 +256060,15 @@
         "pushed_at": "2026-11-08T23:50:13Z",
         "starred_at": "2026-11-13T06:28:39Z"
       },
-      "last_updated": "2026-11-13T11:01:20.302395+00:00"
+      "last_updated": "2026-11-13T11:01:20.302395+00:00",
+      "readme": {
+        "path": "readmes/dwarvesf+claude-guardrails+README.md",
+        "etag": "W/\"fd2733e646554ca847c7c5bfd41d8fd9116aa272\"",
+        "sha": "fd2733e646554ca847c7c5bfd41d8fd9116aa272",
+        "size": 10774,
+        "fetched_at": "2026-11-13T11:12:36.912342+00:00",
+        "status": "ok"
+      }
     },
     "tldrsec/prompt-injection-defenses": {
       "lists": [
@@ -256083,7 +256091,15 @@
         "pushed_at": "2025-02-22T11:50:13Z",
         "starred_at": "2026-11-13T06:25:52Z"
       },
-      "last_updated": "2026-11-13T11:01:20.636235+00:00"
+      "last_updated": "2026-11-13T11:01:20.636235+00:00",
+      "readme": {
+        "path": "readmes/tldrsec+prompt-injection-defenses+README.md",
+        "etag": "W/\"ff415d47218d62339917317457a309e9a883209c\"",
+        "sha": "ff415d47218d62339917317457a309e9a883209c",
+        "size": 36063,
+        "fetched_at": "2026-11-13T11:12:38.760868+00:00",
+        "status": "ok"
+      }
     },
     "tailscale/tailcat": {
       "lists": [
@@ -256105,7 +256121,15 @@
         "pushed_at": "2026-11-05T15:10:23Z",
         "starred_at": "2026-11-12T23:02:26Z"
       },
-      "last_updated": "2026-11-13T11:01:21.042185+00:00"
+      "last_updated": "2026-11-13T11:01:21.042185+00:00",
+      "readme": {
+        "path": "readmes/tailscale+tailcat+README.md",
+        "etag": "W/\"3082f93efd9a2717c2bb0906625997d9d26264cb\"",
+        "sha": "3082f93efd9a2717c2bb0906625997d9d26264cb",
+        "size": 31435,
+        "fetched_at": "2026-11-13T11:12:38.408490+00:00",
+        "status": "ok"
+      }
     },
     "TensaikunYT/Videohub": {
       "lists": [
@@ -256127,7 +256151,15 @@
         "pushed_at": "2026-11-13T09:26:31Z",
         "starred_at": "2026-11-12T22:36:58Z"
       },
-      "last_updated": "2026-11-13T11:01:21.416455+00:00"
+      "last_updated": "2026-11-13T11:01:21.416455+00:00",
+      "readme": {
+        "path": "readmes/TensaikunYT+Videohub+README.md",
+        "etag": "W/\"5d2436d5c354155235271f36594e2a479a26b607\"",
+        "sha": "5d2436d5c354155235271f36594e2a479a26b607",
+        "size": 17806,
+        "fetched_at": "2026-11-13T11:12:36.058377+00:00",
+        "status": "ok"
+      }
     },
     "scottbez1/FaderBuddy": {
       "lists": [
@@ -256150,7 +256182,15 @@
         "pushed_at": "2026-11-11T02:02:16Z",
         "starred_at": "2026-11-12T20:34:53Z"
       },
-      "last_updated": "2026-11-13T11:01:21.770420+00:00"
+      "last_updated": "2026-11-13T11:01:21.770420+00:00",
+      "readme": {
+        "path": "readmes/scottbez1+FaderBuddy+README.md",
+        "etag": "W/\"8a286bc1ff7f689f9fdf10a48134faf2ebbe0984\"",
+        "sha": "8a286bc1ff7f689f9fdf10a48134faf2ebbe0984",
+        "size": 16652,
+        "fetched_at": "2026-11-13T11:12:38.038316+00:00",
+        "status": "ok"
+      }
     },
     "USC-ICT/ICT-FaceKit": {
       "lists": [
@@ -256172,7 +256212,15 @@
         "pushed_at": "2020-12-01T11:57:17Z",
         "starred_at": "2026-11-12T19:39:17Z"
       },
-      "last_updated": "2026-11-13T11:01:22.165643+00:00"
+      "last_updated": "2026-11-13T11:01:22.165643+00:00",
+      "readme": {
+        "path": "readmes/USC-ICT+ICT-FaceKit+README.md",
+        "etag": "W/\"f2c28d2df697af93f8174cab595f93275f709610\"",
+        "sha": "f2c28d2df697af93f8174cab595f93275f709610",
+        "size": 15029,
+        "fetched_at": "2026-11-13T11:12:36.451913+00:00",
+        "status": "ok"
+      }
     },
     "GloriousEggroll/HWS_VIDEO_CAPTURE_GENERIC": {
       "lists": [
@@ -256195,7 +256243,15 @@
         "pushed_at": "2026-11-06T07:47:41Z",
         "starred_at": "2026-11-12T18:06:24Z"
       },
-      "last_updated": "2026-11-13T11:01:22.616974+00:00"
+      "last_updated": "2026-11-13T11:01:22.616974+00:00",
+      "readme": {
+        "path": "readmes/GloriousEggroll+HWS_VIDEO_CAPTURE_GENERIC+README.md",
+        "etag": "W/\"4ca535d8595b13ab08da92825c7d5f5de40a9771\"",
+        "sha": "4ca535d8595b13ab08da92825c7d5f5de40a9771",
+        "size": 19141,
+        "fetched_at": "2026-11-13T11:12:34.199264+00:00",
+        "status": "ok"
+      }
     },
     "GloriousEggroll/AVMATRIX-VC12-4K-CAPTURE": {
       "lists": [
@@ -256218,7 +256274,15 @@
         "pushed_at": "2026-11-06T07:59:06Z",
         "starred_at": "2026-11-12T18:06:03Z"
       },
-      "last_updated": "2026-11-13T11:01:22.940811+00:00"
+      "last_updated": "2026-11-13T11:01:22.940811+00:00",
+      "readme": {
+        "path": "readmes/GloriousEggroll+AVMATRIX-VC12-4K-CAPTURE+README.md",
+        "etag": "W/\"90fd1ad7925155698a9b24cc19aa6c0a955d4ebe\"",
+        "sha": "90fd1ad7925155698a9b24cc19aa6c0a955d4ebe",
+        "size": 12516,
+        "fetched_at": "2026-11-13T11:12:33.461969+00:00",
+        "status": "ok"
+      }
     },
     "GloriousEggroll/AVMATRIX-VC41-VC42-CAPTURE": {
       "lists": [
@@ -256241,7 +256305,15 @@
         "pushed_at": "2026-11-06T07:59:12Z",
         "starred_at": "2026-11-12T18:05:46Z"
       },
-      "last_updated": "2026-11-13T11:01:23.303129+00:00"
+      "last_updated": "2026-11-13T11:01:23.303129+00:00",
+      "readme": {
+        "path": "readmes/GloriousEggroll+AVMATRIX-VC41-VC42-CAPTURE+README.md",
+        "etag": "W/\"7069d20981dbab79b7a25d4e1d365d28c9343863\"",
+        "sha": "7069d20981dbab79b7a25d4e1d365d28c9343863",
+        "size": 12136,
+        "fetched_at": "2026-11-13T11:12:33.768956+00:00",
+        "status": "ok"
+      }
     },
     "GloriousEggroll/XenosRecomp": {
       "lists": [
@@ -256263,7 +256335,15 @@
         "pushed_at": "2026-11-06T21:05:35Z",
         "starred_at": "2026-11-12T18:05:20Z"
       },
-      "last_updated": "2026-11-13T11:01:23.727428+00:00"
+      "last_updated": "2026-11-13T11:01:23.727428+00:00",
+      "readme": {
+        "path": "readmes/GloriousEggroll+XenosRecomp+README.md",
+        "etag": "W/\"506d9d2524cd7c6732071ad0d41a31e1643416f3\"",
+        "sha": "506d9d2524cd7c6732071ad0d41a31e1643416f3",
+        "size": 12007,
+        "fetched_at": "2026-11-13T11:12:34.693589+00:00",
+        "status": "ok"
+      }
     },
     "GloriousEggroll/chromium-widevine-helper": {
       "lists": [
@@ -256285,7 +256365,15 @@
         "pushed_at": "2026-08-24T11:41:21Z",
         "starred_at": "2026-11-12T18:04:45Z"
       },
-      "last_updated": "2026-11-13T11:01:24.062470+00:00"
+      "last_updated": "2026-11-13T11:01:24.062470+00:00",
+      "readme": {
+        "path": "readmes/GloriousEggroll+chromium-widevine-helper+README.md",
+        "etag": "W/\"53901a35f525cc8e59048cccc11e137249b4faf2\"",
+        "sha": "53901a35f525cc8e59048cccc11e137249b4faf2",
+        "size": 7298,
+        "fetched_at": "2026-11-13T11:12:35.196850+00:00",
+        "status": "ok"
+      }
     },
     "rinste/turbo-mlx": {
       "lists": [
@@ -256308,7 +256396,15 @@
         "pushed_at": "2026-11-03T17:28:25Z",
         "starred_at": "2026-11-12T17:58:49Z"
       },
-      "last_updated": "2026-11-13T11:01:24.434342+00:00"
+      "last_updated": "2026-11-13T11:01:24.434342+00:00",
+      "readme": {
+        "path": "readmes/rinste+turbo-mlx+README.md",
+        "etag": "W/\"70cedee231794d10d237b20b85c1198e8a5f3e7a\"",
+        "sha": "70cedee231794d10d237b20b85c1198e8a5f3e7a",
+        "size": 34734,
+        "fetched_at": "2026-11-13T11:12:37.663868+00:00",
+        "status": "ok"
+      }
     },
     "janestreet/agent_skills": {
       "lists": [
@@ -256330,7 +256426,15 @@
         "pushed_at": "2026-11-03T18:14:13Z",
         "starred_at": "2026-11-12T16:32:48Z"
       },
-      "last_updated": "2026-11-13T11:01:24.822654+00:00"
+      "last_updated": "2026-11-13T11:01:24.822654+00:00",
+      "readme": {
+        "path": "readmes/janestreet+agent_skills+README.md",
+        "etag": "W/\"171eb3d3fe482f59bc204fb7e897e25a47da0adc\"",
+        "sha": "171eb3d3fe482f59bc204fb7e897e25a47da0adc",
+        "size": 755,
+        "fetched_at": "2026-11-13T11:12:37.261837+00:00",
+        "status": "ok"
+      }
     },
     "KaiwetN/Witrn-K2-PD-Analyzer": {
       "lists": [
@@ -256352,7 +256456,15 @@
         "pushed_at": "2025-10-18T15:45:29Z",
         "starred_at": "2026-11-12T14:31:55Z"
       },
-      "last_updated": "2026-11-13T11:01:25.201542+00:00"
+      "last_updated": "2026-11-13T11:01:25.201542+00:00",
+      "readme": {
+        "path": "readmes/KaiwetN+Witrn-K2-PD-Analyzer+README.md",
+        "etag": "W/\"abd8ad24219b0a94bbf443d7e3431b4af5865186\"",
+        "sha": "abd8ad24219b0a94bbf443d7e3431b4af5865186",
+        "size": 3286,
+        "fetched_at": "2026-11-13T11:12:35.708106+00:00",
+        "status": "ok"
+      }
     },
     "CWNE88/opensticksetup": {
       "lists": [
@@ -256374,7 +256486,15 @@
         "pushed_at": "2026-11-11T00:26:40Z",
         "starred_at": "2026-11-12T13:56:52Z"
       },
-      "last_updated": "2026-11-13T11:01:25.556535+00:00"
+      "last_updated": "2026-11-13T11:01:25.556535+00:00",
+      "readme": {
+        "path": "readmes/CWNE88+opensticksetup+README.md",
+        "etag": "W/\"1b82685a26f4c4b74a75221ce5134df3276fec57\"",
+        "sha": "1b82685a26f4c4b74a75221ce5134df3276fec57",
+        "size": 3794,
+        "fetched_at": "2026-11-13T11:12:33.096412+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
