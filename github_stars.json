@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T10:37:50.474417+00:00",
+  "last_updated": "2026-11-14T10:38:13.590243+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256519,7 +256519,15 @@
         "pushed_at": "2026-11-13T17:49:16Z",
         "starred_at": "2026-11-14T09:08:22Z"
       },
-      "last_updated": "2026-11-14T10:28:04.565962+00:00"
+      "last_updated": "2026-11-14T10:28:04.565962+00:00",
+      "readme": {
+        "path": "readmes/git-bug+git-bug+README.md",
+        "etag": "W/\"cc014b3a9ef66f9e79cbd9610941a981e943ec58\"",
+        "sha": "cc014b3a9ef66f9e79cbd9610941a981e943ec58",
+        "size": 8636,
+        "fetched_at": "2026-11-14T10:38:13.359030+00:00",
+        "status": "ok"
+      }
     },
     "meta/astryx": {
       "lists": [
@@ -256541,7 +256549,15 @@
         "pushed_at": "2026-11-14T10:28:01Z",
         "starred_at": "2026-11-13T15:58:16Z"
       },
-      "last_updated": "2026-11-14T10:28:04.898839+00:00"
+      "last_updated": "2026-11-14T10:28:04.898839+00:00",
+      "readme": {
+        "path": "readmes/meta+astryx+README.md",
+        "etag": "W/\"29b89543395d69bd2a5385a9e768ec9bd9015f73\"",
+        "sha": "29b89543395d69bd2a5385a9e768ec9bd9015f73",
+        "size": 9105,
+        "fetched_at": "2026-11-14T10:38:13.585678+00:00",
+        "status": "ok"
+      }
     },
     "electric-sql/electric-pglite": {
       "lists": [
@@ -256563,7 +256579,15 @@
         "pushed_at": "2026-11-10T15:15:09Z",
         "starred_at": "2026-04-11T05:04:36Z"
       },
-      "last_updated": "2026-11-14T10:28:05.353462+00:00"
+      "last_updated": "2026-11-14T10:28:05.353462+00:00",
+      "readme": {
+        "path": "readmes/electric-sql+electric-pglite+README.md",
+        "etag": "W/\"bf3a1809de711dbc986a3225026d098dbccbf634\"",
+        "sha": "bf3a1809de711dbc986a3225026d098dbccbf634",
+        "size": 8544,
+        "fetched_at": "2026-11-14T10:38:13.093949+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
