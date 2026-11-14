@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T11:12:38.762450+00:00",
+  "last_updated": "2026-11-14T10:28:05.353521+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256495,6 +256495,66 @@
         "fetched_at": "2026-11-13T11:12:33.096412+00:00",
         "status": "ok"
       }
+    },
+    "git-bug/git-bug": {
+      "lists": [],
+      "metadata": {
+        "id": 140680839,
+        "name": "git-bug",
+        "full_name": "git-bug/git-bug",
+        "description": "Distributed, offline-first bug tracker integrated in git",
+        "url": "https://github.com/git-bug/git-bug",
+        "homepage": "",
+        "language": "Go",
+        "stars": 10858,
+        "forks": 347,
+        "open_issues": 135,
+        "created_at": "2018-07-12T07:55:57Z",
+        "updated_at": "2026-11-14T09:08:23Z",
+        "pushed_at": "2026-11-13T17:49:16Z",
+        "starred_at": "2026-11-14T09:08:22Z"
+      },
+      "last_updated": "2026-11-14T10:28:04.565962+00:00"
+    },
+    "meta/astryx": {
+      "lists": [],
+      "metadata": {
+        "id": 1131202426,
+        "name": "astryx",
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "url": "https://github.com/meta/astryx",
+        "homepage": "http://astryx.atmeta.com",
+        "language": "TypeScript",
+        "stars": 27645,
+        "forks": 2151,
+        "open_issues": 681,
+        "created_at": "2026-01-09T16:20:32Z",
+        "updated_at": "2026-11-14T10:27:08Z",
+        "pushed_at": "2026-11-14T10:28:01Z",
+        "starred_at": "2026-11-13T15:58:16Z"
+      },
+      "last_updated": "2026-11-14T10:28:04.898839+00:00"
+    },
+    "electric-sql/electric-pglite": {
+      "lists": [],
+      "metadata": {
+        "id": 759893102,
+        "name": "electric-pglite",
+        "full_name": "electric-sql/electric-pglite",
+        "description": "Embeddable Postgres with real-time, reactive bindings.",
+        "url": "https://github.com/electric-sql/electric-pglite",
+        "homepage": "https://pglite.dev",
+        "language": "TypeScript",
+        "stars": 16274,
+        "forks": 475,
+        "open_issues": 166,
+        "created_at": "2024-02-19T14:37:38Z",
+        "updated_at": "2026-11-14T00:21:13Z",
+        "pushed_at": "2026-11-10T15:15:09Z",
+        "starred_at": "2026-04-11T05:04:36Z"
+      },
+      "last_updated": "2026-11-14T10:28:05.353462+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256504,5 +256564,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"acddf96761b146dfa60a7bf1d4c4a157305b84c74dd501db9669d60371e609a5\""
+  "profile_etag": "W/\"ea03370313e5244f8d84f7b5dcb7ce059bd79ba1dcc95264bb3f7bc8553cb74e\""
 }
