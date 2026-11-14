@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T10:28:05.353521+00:00",
+  "last_updated": "2026-11-14T10:37:50.474417+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256497,7 +256497,12 @@
       }
     },
     "git-bug/git-bug": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Github Actions",
+        "GoLang",
+        "Linux CLI Tools"
+      ],
       "metadata": {
         "id": 140680839,
         "name": "git-bug",
@@ -256517,7 +256522,9 @@
       "last_updated": "2026-11-14T10:28:04.565962+00:00"
     },
     "meta/astryx": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1131202426,
         "name": "astryx",
@@ -256537,7 +256544,9 @@
       "last_updated": "2026-11-14T10:28:04.898839+00:00"
     },
     "electric-sql/electric-pglite": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 759893102,
         "name": "electric-pglite",
