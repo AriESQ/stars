@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T11:05:23.702276+00:00",
+  "last_updated": "2026-11-15T11:06:15.128942+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256609,7 +256609,15 @@
         "pushed_at": "2026-11-13T18:28:47Z",
         "starred_at": "2026-11-15T10:34:22Z"
       },
-      "last_updated": "2026-11-15T10:55:59.965129+00:00"
+      "last_updated": "2026-11-15T10:55:59.965129+00:00",
+      "readme": {
+        "path": "readmes/vorssaint+vorssaint-utils+README.md",
+        "etag": "W/\"88d6b66a244ab9feac36f75521050f4870ff4bf0\"",
+        "sha": "88d6b66a244ab9feac36f75521050f4870ff4bf0",
+        "size": 17639,
+        "fetched_at": "2026-11-15T11:06:14.928502+00:00",
+        "status": "ok"
+      }
     },
     "wavedudenext/WaveDudeNext": {
       "lists": [
@@ -256631,7 +256639,15 @@
         "pushed_at": "2026-11-14T22:40:46Z",
         "starred_at": "2026-11-08T13:59:35Z"
       },
-      "last_updated": "2026-11-15T10:56:00.380264+00:00"
+      "last_updated": "2026-11-15T10:56:00.380264+00:00",
+      "readme": {
+        "path": "readmes/wavedudenext+WaveDudeNext+README.md",
+        "etag": "W/\"fef6c8bd4f909f4d8d3a1783fc0d34c52fcbeb97\"",
+        "sha": "fef6c8bd4f909f4d8d3a1783fc0d34c52fcbeb97",
+        "size": 7256,
+        "fetched_at": "2026-11-15T11:06:15.128047+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
