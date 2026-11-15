@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T10:38:13.590243+00:00",
+  "last_updated": "2026-11-15T10:56:00.380347+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256588,6 +256588,46 @@
         "fetched_at": "2026-11-14T10:38:13.093949+00:00",
         "status": "ok"
       }
+    },
+    "vorssaint/vorssaint-utils": {
+      "lists": [],
+      "metadata": {
+        "id": 1267485499,
+        "name": "vorssaint-utils",
+        "full_name": "vorssaint/vorssaint-utils",
+        "description": "Free and open-source macOS menu bar toolkit.",
+        "url": "https://github.com/vorssaint/vorssaint-utils",
+        "homepage": "https://vorssaint.com",
+        "language": "Swift",
+        "stars": 34778,
+        "forks": 1764,
+        "open_issues": 1607,
+        "created_at": "2026-06-12T15:25:43Z",
+        "updated_at": "2026-11-15T10:52:03Z",
+        "pushed_at": "2026-11-13T18:28:47Z",
+        "starred_at": "2026-11-15T10:34:22Z"
+      },
+      "last_updated": "2026-11-15T10:55:59.965129+00:00"
+    },
+    "wavedudenext/WaveDudeNext": {
+      "lists": [],
+      "metadata": {
+        "id": 1424817557,
+        "name": "WaveDudeNext",
+        "full_name": "wavedudenext/WaveDudeNext",
+        "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export.",
+        "url": "https://github.com/wavedudenext/WaveDudeNext",
+        "homepage": "https://wavedude.com",
+        "language": "C#",
+        "stars": 283,
+        "forks": 27,
+        "open_issues": 9,
+        "created_at": "2026-10-18T20:59:41Z",
+        "updated_at": "2026-11-15T03:36:54Z",
+        "pushed_at": "2026-11-14T22:40:46Z",
+        "starred_at": "2026-11-08T13:59:35Z"
+      },
+      "last_updated": "2026-11-15T10:56:00.380264+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256597,5 +256637,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ea03370313e5244f8d84f7b5dcb7ce059bd79ba1dcc95264bb3f7bc8553cb74e\""
+  "profile_etag": "W/\"406abe460e716ee89648ee6b5482dfad8fbd531554b9985f8ea7d69f7ff8f20e\""
 }
