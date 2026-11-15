@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T10:56:00.380347+00:00",
+  "last_updated": "2026-11-15T11:05:23.702276+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256590,7 +256590,9 @@
       }
     },
     "vorssaint/vorssaint-utils": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization"
+      ],
       "metadata": {
         "id": 1267485499,
         "name": "vorssaint-utils",
@@ -256610,7 +256612,9 @@
       "last_updated": "2026-11-15T10:55:59.965129+00:00"
     },
     "wavedudenext/WaveDudeNext": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1424817557,
         "name": "WaveDudeNext",
