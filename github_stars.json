@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T11:55:11.791518+00:00",
+  "last_updated": "2026-11-17T12:05:18.135855+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256650,7 +256650,10 @@
       }
     },
     "digitalwannabe/vvvv-mcp": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1010577747,
         "name": "vvvv-mcp",
@@ -256670,7 +256673,13 @@
       "last_updated": "2026-11-17T11:55:08.941803+00:00"
     },
     "antoniomika/lend": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "GoLang",
+        "Linux CLI Tools",
+        "Machine Learning",
+        "PKI"
+      ],
       "metadata": {
         "id": 1456080868,
         "name": "lend",
@@ -256690,7 +256699,9 @@
       "last_updated": "2026-11-17T11:55:09.362281+00:00"
     },
     "BurntSushi/jiff": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 759017108,
         "name": "jiff",
@@ -256710,7 +256721,10 @@
       "last_updated": "2026-11-17T11:55:09.709846+00:00"
     },
     "anomalyco/browse": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1435849068,
         "name": "browse",
@@ -256730,7 +256744,9 @@
       "last_updated": "2026-11-17T11:55:10.024448+00:00"
     },
     "Alex4SSB/ADB-Explorer": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 374465260,
         "name": "ADB-Explorer",
@@ -256750,7 +256766,10 @@
       "last_updated": "2026-11-17T11:55:10.311520+00:00"
     },
     "BaaRai/ARTEX": {
-      "lists": [],
+      "lists": [
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 1410961834,
         "name": "ARTEX",
@@ -256770,7 +256789,9 @@
       "last_updated": "2026-11-17T11:55:10.615380+00:00"
     },
     "dekajoule/oos": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1449731206,
         "name": "oos",
@@ -256790,7 +256811,12 @@
       "last_updated": "2026-11-17T11:55:10.937983+00:00"
     },
     "IliasHad/orcah-studio": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1079947190,
         "name": "orcah-studio",
@@ -256810,7 +256836,9 @@
       "last_updated": "2026-11-17T11:55:11.363311+00:00"
     },
     "gvisor/gvisor": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 131212638,
         "name": "gvisor",
