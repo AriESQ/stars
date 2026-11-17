@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T12:05:18.135855+00:00",
+  "last_updated": "2026-11-17T12:05:55.981189+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256670,7 +256670,15 @@
         "pushed_at": "2026-09-05T21:06:52Z",
         "starred_at": "2026-11-17T05:34:08Z"
       },
-      "last_updated": "2026-11-17T11:55:08.941803+00:00"
+      "last_updated": "2026-11-17T11:55:08.941803+00:00",
+      "readme": {
+        "path": "readmes/digitalwannabe+vvvv-mcp+README.md",
+        "etag": "W/\"08527eccf936e0c271ed6a9ac05ee02eb13881f1\"",
+        "sha": "08527eccf936e0c271ed6a9ac05ee02eb13881f1",
+        "size": 19780,
+        "fetched_at": "2026-11-17T12:05:55.690482+00:00",
+        "status": "ok"
+      }
     },
     "antoniomika/lend": {
       "lists": [
@@ -256696,7 +256704,15 @@
         "pushed_at": "2026-11-17T00:32:58Z",
         "starred_at": "2026-11-17T03:36:55Z"
       },
-      "last_updated": "2026-11-17T11:55:09.362281+00:00"
+      "last_updated": "2026-11-17T11:55:09.362281+00:00",
+      "readme": {
+        "path": "readmes/antoniomika+lend+README.md",
+        "etag": "W/\"485c7aaea7ce1cc3bc2517952916d4d365aec7da\"",
+        "sha": "485c7aaea7ce1cc3bc2517952916d4d365aec7da",
+        "size": 39437,
+        "fetched_at": "2026-11-17T12:05:54.827682+00:00",
+        "status": "ok"
+      }
     },
     "BurntSushi/jiff": {
       "lists": [
@@ -256718,7 +256734,15 @@
         "pushed_at": "2026-11-15T21:45:07Z",
         "starred_at": "2026-11-17T01:33:30Z"
       },
-      "last_updated": "2026-11-17T11:55:09.709846+00:00"
+      "last_updated": "2026-11-17T11:55:09.709846+00:00",
+      "readme": {
+        "path": "readmes/BurntSushi+jiff+README.md",
+        "etag": "W/\"746a7ec67ab09b6b7ee996a286977831666121fd\"",
+        "sha": "746a7ec67ab09b6b7ee996a286977831666121fd",
+        "size": 8711,
+        "fetched_at": "2026-11-17T12:05:53.949034+00:00",
+        "status": "ok"
+      }
     },
     "anomalyco/browse": {
       "lists": [
@@ -256741,7 +256765,15 @@
         "pushed_at": "2026-11-17T11:53:32Z",
         "starred_at": "2026-11-17T01:29:12Z"
       },
-      "last_updated": "2026-11-17T11:55:10.024448+00:00"
+      "last_updated": "2026-11-17T11:55:10.024448+00:00",
+      "readme": {
+        "path": "readmes/anomalyco+browse+README.md",
+        "etag": "W/\"bec7e38739bbbda3796acc337546ae0ad683d56b\"",
+        "sha": "bec7e38739bbbda3796acc337546ae0ad683d56b",
+        "size": 28794,
+        "fetched_at": "2026-11-17T12:05:54.555615+00:00",
+        "status": "ok"
+      }
     },
     "Alex4SSB/ADB-Explorer": {
       "lists": [
@@ -256763,7 +256795,15 @@
         "pushed_at": "2026-11-16T21:47:08Z",
         "starred_at": "2026-11-16T19:41:04Z"
       },
-      "last_updated": "2026-11-17T11:55:10.311520+00:00"
+      "last_updated": "2026-11-17T11:55:10.311520+00:00",
+      "readme": {
+        "path": "readmes/Alex4SSB+ADB-Explorer+README.md",
+        "etag": "W/\"871cd80c1252ca41bf12f881540b9e08193e121d\"",
+        "sha": "871cd80c1252ca41bf12f881540b9e08193e121d",
+        "size": 2407,
+        "fetched_at": "2026-11-17T12:05:53.390693+00:00",
+        "status": "ok"
+      }
     },
     "BaaRai/ARTEX": {
       "lists": [
@@ -256786,7 +256826,15 @@
         "pushed_at": "2026-11-17T01:09:02Z",
         "starred_at": "2026-11-16T14:49:19Z"
       },
-      "last_updated": "2026-11-17T11:55:10.615380+00:00"
+      "last_updated": "2026-11-17T11:55:10.615380+00:00",
+      "readme": {
+        "path": "readmes/BaaRai+ARTEX+README.md",
+        "etag": "W/\"d15b112cc419100a37f625e1456d458da4d8e5be\"",
+        "sha": "d15b112cc419100a37f625e1456d458da4d8e5be",
+        "size": 34944,
+        "fetched_at": "2026-11-17T12:05:53.694599+00:00",
+        "status": "ok"
+      }
     },
     "dekajoule/oos": {
       "lists": [
@@ -256808,7 +256856,15 @@
         "pushed_at": "2026-11-17T09:44:53Z",
         "starred_at": "2026-11-16T14:37:19Z"
       },
-      "last_updated": "2026-11-17T11:55:10.937983+00:00"
+      "last_updated": "2026-11-17T11:55:10.937983+00:00",
+      "readme": {
+        "path": "readmes/dekajoule+oos+README.md",
+        "etag": "W/\"051bdc434682f44f8c05f227e83672ee22e40f18\"",
+        "sha": "051bdc434682f44f8c05f227e83672ee22e40f18",
+        "size": 57579,
+        "fetched_at": "2026-11-17T12:05:55.223020+00:00",
+        "status": "ok"
+      }
     },
     "IliasHad/orcah-studio": {
       "lists": [
@@ -256833,7 +256889,15 @@
         "pushed_at": "2026-11-03T12:57:34Z",
         "starred_at": "2026-06-14T16:57:09Z"
       },
-      "last_updated": "2026-11-17T11:55:11.363311+00:00"
+      "last_updated": "2026-11-17T11:55:11.363311+00:00",
+      "readme": {
+        "path": "readmes/IliasHad+orcah-studio+README.md",
+        "etag": "W/\"c860056008714792e783704bac1c8f48d243fd61\"",
+        "sha": "c860056008714792e783704bac1c8f48d243fd61",
+        "size": 9521,
+        "fetched_at": "2026-11-17T12:05:54.238680+00:00",
+        "status": "ok"
+      }
     },
     "gvisor/gvisor": {
       "lists": [
@@ -256855,7 +256919,15 @@
         "pushed_at": "2026-11-17T10:36:43Z",
         "starred_at": "2025-06-14T20:09:41Z"
       },
-      "last_updated": "2026-11-17T11:55:11.791439+00:00"
+      "last_updated": "2026-11-17T11:55:11.791439+00:00",
+      "readme": {
+        "path": "readmes/gvisor+gvisor+README.md",
+        "etag": "W/\"751fda13dd219c79fec78108aa4c197dbf969ca4\"",
+        "sha": "751fda13dd219c79fec78108aa4c197dbf969ca4",
+        "size": 7597,
+        "fetched_at": "2026-11-17T12:05:55.975848+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
