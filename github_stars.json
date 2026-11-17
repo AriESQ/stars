@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T11:31:06.585414+00:00",
+  "last_updated": "2026-11-17T11:55:11.791518+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256648,6 +256648,186 @@
         "fetched_at": "2026-11-15T11:06:15.128047+00:00",
         "status": "ok"
       }
+    },
+    "digitalwannabe/vvvv-mcp": {
+      "lists": [],
+      "metadata": {
+        "id": 1010577747,
+        "name": "vvvv-mcp",
+        "full_name": "digitalwannabe/vvvv-mcp",
+        "description": null,
+        "url": "https://github.com/digitalwannabe/vvvv-mcp",
+        "homepage": null,
+        "language": "C#",
+        "stars": 11,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2025-06-29T11:24:47Z",
+        "updated_at": "2026-11-17T05:34:09Z",
+        "pushed_at": "2026-09-05T21:06:52Z",
+        "starred_at": "2026-11-17T05:34:08Z"
+      },
+      "last_updated": "2026-11-17T11:55:08.941803+00:00"
+    },
+    "antoniomika/lend": {
+      "lists": [],
+      "metadata": {
+        "id": 1456080868,
+        "name": "lend",
+        "full_name": "antoniomika/lend",
+        "description": "Approve remote requests for local commands and SSH keys",
+        "url": "https://github.com/antoniomika/lend",
+        "homepage": "https://lend.antonio.cx",
+        "language": "Go",
+        "stars": 19,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-11-13T02:53:06Z",
+        "updated_at": "2026-11-17T11:22:20Z",
+        "pushed_at": "2026-11-17T00:32:58Z",
+        "starred_at": "2026-11-17T03:36:55Z"
+      },
+      "last_updated": "2026-11-17T11:55:09.362281+00:00"
+    },
+    "BurntSushi/jiff": {
+      "lists": [],
+      "metadata": {
+        "id": 759017108,
+        "name": "jiff",
+        "full_name": "BurntSushi/jiff",
+        "description": "A datetime library for Rust that encourages you to jump into the pit of success.",
+        "url": "https://github.com/BurntSushi/jiff",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 3122,
+        "forks": 141,
+        "open_issues": 13,
+        "created_at": "2024-02-17T18:31:06Z",
+        "updated_at": "2026-11-17T11:37:10Z",
+        "pushed_at": "2026-11-15T21:45:07Z",
+        "starred_at": "2026-11-17T01:33:30Z"
+      },
+      "last_updated": "2026-11-17T11:55:09.709846+00:00"
+    },
+    "anomalyco/browse": {
+      "lists": [],
+      "metadata": {
+        "id": 1435849068,
+        "name": "browse",
+        "full_name": "anomalyco/browse",
+        "description": "Let your AI agents use your real browser: an MCP server and a Chromium extension",
+        "url": "https://github.com/anomalyco/browse",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 795,
+        "forks": 62,
+        "open_issues": 29,
+        "created_at": "2026-10-27T14:33:24Z",
+        "updated_at": "2026-11-17T11:47:50Z",
+        "pushed_at": "2026-11-17T11:53:32Z",
+        "starred_at": "2026-11-17T01:29:12Z"
+      },
+      "last_updated": "2026-11-17T11:55:10.024448+00:00"
+    },
+    "Alex4SSB/ADB-Explorer": {
+      "lists": [],
+      "metadata": {
+        "id": 374465260,
+        "name": "ADB-Explorer",
+        "full_name": "Alex4SSB/ADB-Explorer",
+        "description": "A fluent UI for ADB on Windows",
+        "url": "https://github.com/Alex4SSB/ADB-Explorer",
+        "homepage": "",
+        "language": "C#",
+        "stars": 1030,
+        "forks": 87,
+        "open_issues": 9,
+        "created_at": "2021-06-06T21:15:11Z",
+        "updated_at": "2026-11-16T19:41:05Z",
+        "pushed_at": "2026-11-16T21:47:08Z",
+        "starred_at": "2026-11-16T19:41:04Z"
+      },
+      "last_updated": "2026-11-17T11:55:10.311520+00:00"
+    },
+    "BaaRai/ARTEX": {
+      "lists": [],
+      "metadata": {
+        "id": 1410961834,
+        "name": "ARTEX",
+        "full_name": "BaaRai/ARTEX",
+        "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+        "url": "https://github.com/BaaRai/ARTEX",
+        "homepage": null,
+        "language": "Go",
+        "stars": 5251,
+        "forks": 2392,
+        "open_issues": 17,
+        "created_at": "2026-10-08T21:14:39Z",
+        "updated_at": "2026-11-17T11:54:50Z",
+        "pushed_at": "2026-11-17T01:09:02Z",
+        "starred_at": "2026-11-16T14:49:19Z"
+      },
+      "last_updated": "2026-11-17T11:55:10.615380+00:00"
+    },
+    "dekajoule/oos": {
+      "lists": [],
+      "metadata": {
+        "id": 1449731206,
+        "name": "oos",
+        "full_name": "dekajoule/oos",
+        "description": null,
+        "url": "https://github.com/dekajoule/oos",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 99,
+        "forks": 8,
+        "open_issues": 23,
+        "created_at": "2026-11-07T20:54:05Z",
+        "updated_at": "2026-11-17T09:17:50Z",
+        "pushed_at": "2026-11-17T09:44:53Z",
+        "starred_at": "2026-11-16T14:37:19Z"
+      },
+      "last_updated": "2026-11-17T11:55:10.937983+00:00"
+    },
+    "IliasHad/orcah-studio": {
+      "lists": [],
+      "metadata": {
+        "id": 1079947190,
+        "name": "orcah-studio",
+        "full_name": "IliasHad/orcah-studio",
+        "description": "Local-first Video Knowledge Base. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready.",
+        "url": "https://github.com/IliasHad/orcah-studio",
+        "homepage": "https://orcah.app",
+        "language": "TypeScript",
+        "stars": 1836,
+        "forks": 123,
+        "open_issues": 13,
+        "created_at": "2025-10-20T16:21:57Z",
+        "updated_at": "2026-11-17T11:41:54Z",
+        "pushed_at": "2026-11-03T12:57:34Z",
+        "starred_at": "2026-06-14T16:57:09Z"
+      },
+      "last_updated": "2026-11-17T11:55:11.363311+00:00"
+    },
+    "gvisor/gvisor": {
+      "lists": [],
+      "metadata": {
+        "id": 131212638,
+        "name": "gvisor",
+        "full_name": "gvisor/gvisor",
+        "description": "Application Kernel for Containers",
+        "url": "https://github.com/gvisor/gvisor",
+        "homepage": "https://gvisor.dev",
+        "language": "Go",
+        "stars": 20027,
+        "forks": 2081,
+        "open_issues": 1187,
+        "created_at": "2018-04-26T21:28:49Z",
+        "updated_at": "2026-11-17T09:42:25Z",
+        "pushed_at": "2026-11-17T10:36:43Z",
+        "starred_at": "2025-06-14T20:09:41Z"
+      },
+      "last_updated": "2026-11-17T11:55:11.791439+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256657,5 +256837,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ec1da298147cb008ceb2d0b834aee4ef1669cd1b7d34b212d19d14ce1dbae234\""
+  "profile_etag": "W/\"92e05fa1a39854610c7a8a52bd27b91b6cad7c919bf779746d28a61e58d2227e\""
 }
