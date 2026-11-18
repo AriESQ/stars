@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T12:05:55.981189+00:00",
+  "last_updated": "2026-11-18T11:45:05.510845+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256928,6 +256928,26 @@
         "fetched_at": "2026-11-17T12:05:55.975848+00:00",
         "status": "ok"
       }
+    },
+    "flipperdevices/BirriaSDR": {
+      "lists": [],
+      "metadata": {
+        "id": 1451719664,
+        "name": "BirriaSDR",
+        "full_name": "flipperdevices/BirriaSDR",
+        "description": null,
+        "url": "https://github.com/flipperdevices/BirriaSDR",
+        "homepage": null,
+        "language": null,
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-09T18:15:53Z",
+        "updated_at": "2026-11-18T02:16:09Z",
+        "pushed_at": "2026-11-12T19:28:24Z",
+        "starred_at": "2026-11-18T02:16:09Z"
+      },
+      "last_updated": "2026-11-18T11:45:05.510722+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256937,5 +256957,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"92e05fa1a39854610c7a8a52bd27b91b6cad7c919bf779746d28a61e58d2227e\""
+  "profile_etag": "W/\"2d426fc13553af1efef51247a0b3d64471de753d6d9bab41b31185ce1cede435\""
 }
