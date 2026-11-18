@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T11:45:05.510845+00:00",
+  "last_updated": "2026-11-18T11:52:20.893176+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256808,7 +256808,8 @@
     "BaaRai/ARTEX": {
       "lists": [
         "GoLang",
-        "Infosec"
+        "Infosec",
+        "Machine Learning"
       ],
       "metadata": {
         "id": 1410961834,
@@ -256930,7 +256931,9 @@
       }
     },
     "flipperdevices/BirriaSDR": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1451719664,
         "name": "BirriaSDR",
