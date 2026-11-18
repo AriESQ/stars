@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T11:52:20.893176+00:00",
+  "last_updated": "2026-11-18T11:56:27.917355+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256950,7 +256950,15 @@
         "pushed_at": "2026-11-12T19:28:24Z",
         "starred_at": "2026-11-18T02:16:09Z"
       },
-      "last_updated": "2026-11-18T11:45:05.510722+00:00"
+      "last_updated": "2026-11-18T11:45:05.510722+00:00",
+      "readme": {
+        "path": "readmes/flipperdevices+BirriaSDR+README.md",
+        "etag": "W/\"931d20b568c3d72c70417b3ea0ac1610d9ce6e94\"",
+        "sha": "931d20b568c3d72c70417b3ea0ac1610d9ce6e94",
+        "size": 18096,
+        "fetched_at": "2026-11-18T11:56:27.910492+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
