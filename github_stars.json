@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T11:53:54.990068+00:00",
+  "last_updated": "2026-11-19T19:48:18.393979+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256991,6 +256991,106 @@
         "fetched_at": "2026-11-19T11:53:54.981261+00:00",
         "status": "ok"
       }
+    },
+    "Sanrax/testdpc-qr": {
+      "lists": [],
+      "metadata": {
+        "id": 1462146200,
+        "name": "testdpc-qr",
+        "full_name": "Sanrax/testdpc-qr",
+        "description": "Website for generating a TestDPC enrollment code, usable during Android setup",
+        "url": "https://github.com/Sanrax/testdpc-qr",
+        "homepage": "https://sanrax.github.io/testdpc-qr/",
+        "language": "JavaScript",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-18T00:50:16Z",
+        "updated_at": "2026-11-19T18:42:14Z",
+        "pushed_at": "2026-11-18T01:12:42Z",
+        "starred_at": "2026-11-19T18:42:14Z"
+      },
+      "last_updated": "2026-11-19T19:48:16.852377+00:00"
+    },
+    "Noelo-Lab/kuna": {
+      "lists": [],
+      "metadata": {
+        "id": 1262212892,
+        "name": "kuna",
+        "full_name": "Noelo-Lab/kuna",
+        "description": "An agent-first decompiler designed to be refined by other agents. Kuna is written in Rust and was originally ported from Ghidra.",
+        "url": "https://github.com/Noelo-Lab/kuna",
+        "homepage": "https://kuna.noelo.org",
+        "language": "Rust",
+        "stars": 933,
+        "forks": 83,
+        "open_issues": 113,
+        "created_at": "2026-06-07T18:01:35Z",
+        "updated_at": "2026-11-19T19:40:30Z",
+        "pushed_at": "2026-11-19T16:43:54Z",
+        "starred_at": "2026-11-19T15:32:26Z"
+      },
+      "last_updated": "2026-11-19T19:48:17.179309+00:00"
+    },
+    "radareorg/radare2": {
+      "lists": [],
+      "metadata": {
+        "id": 4869294,
+        "name": "radare2",
+        "full_name": "radareorg/radare2",
+        "description": "UNIX-like reverse engineering framework and command-line toolset",
+        "url": "https://github.com/radareorg/radare2",
+        "homepage": "https://www.radare.org",
+        "language": "C",
+        "stars": 25466,
+        "forks": 3458,
+        "open_issues": 819,
+        "created_at": "2012-07-03T07:42:26Z",
+        "updated_at": "2026-11-19T19:45:12Z",
+        "pushed_at": "2026-11-19T19:42:16Z",
+        "starred_at": "2026-11-19T15:30:17Z"
+      },
+      "last_updated": "2026-11-19T19:48:17.523691+00:00"
+    },
+    "mastra-ai/template-factory": {
+      "lists": [],
+      "metadata": {
+        "id": 1435967629,
+        "name": "template-factory",
+        "full_name": "mastra-ai/template-factory",
+        "description": "An agent-powered software delivery environment built on Mastra.",
+        "url": "https://github.com/mastra-ai/template-factory",
+        "homepage": null,
+        "language": "TypeScript",
+        "stars": 49,
+        "forks": 1,
+        "open_issues": 0,
+        "created_at": "2026-10-27T16:08:23Z",
+        "updated_at": "2026-11-19T19:31:03Z",
+        "pushed_at": "2026-11-18T05:41:02Z",
+        "starred_at": "2026-11-19T15:00:15Z"
+      },
+      "last_updated": "2026-11-19T19:48:17.830125+00:00"
+    },
+    "r-spring/touchdesigner-mcp-server": {
+      "lists": [],
+      "metadata": {
+        "id": 1028313689,
+        "name": "touchdesigner-mcp-server",
+        "full_name": "r-spring/touchdesigner-mcp-server",
+        "description": "TouchDesigner Documentation MCP Server v2.6.1 - FIXED Python API tools! Features 629 operators + 14 tutorials + 69 Python API classes with working get_python_api & search_python_api tools. Zero-configuration setup for VS Code/Codium.",
+        "url": "https://github.com/r-spring/touchdesigner-mcp-server",
+        "homepage": "https://www.npmjs.com/package/@bottobot/td-mcp",
+        "language": "HTML",
+        "stars": 81,
+        "forks": 11,
+        "open_issues": 7,
+        "created_at": "2025-07-29T10:47:42Z",
+        "updated_at": "2026-11-14T09:09:36Z",
+        "pushed_at": "2026-09-30T00:23:08Z",
+        "starred_at": "2026-05-18T02:46:38Z"
+      },
+      "last_updated": "2026-11-19T19:48:18.393881+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257000,5 +257100,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d208932443403c98d48e69d631e59eee07d0353606d377eae8b3a8f0fb0b894e\""
+  "profile_etag": "W/\"dd6cbd55eb6e738920fe7570b30d87fc88569412639010f00335df7953ec7224\""
 }
