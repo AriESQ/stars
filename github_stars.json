@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T19:48:18.393979+00:00",
+  "last_updated": "2026-11-19T19:58:44.041955+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256993,7 +256993,9 @@
       }
     },
     "Sanrax/testdpc-qr": {
-      "lists": [],
+      "lists": [
+        "Infosec"
+      ],
       "metadata": {
         "id": 1462146200,
         "name": "testdpc-qr",
@@ -257013,7 +257015,11 @@
       "last_updated": "2026-11-19T19:48:16.852377+00:00"
     },
     "Noelo-Lab/kuna": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Linux CLI Tools",
+        "Rust"
+      ],
       "metadata": {
         "id": 1262212892,
         "name": "kuna",
@@ -257033,7 +257039,11 @@
       "last_updated": "2026-11-19T19:48:17.179309+00:00"
     },
     "radareorg/radare2": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Linux CLI Tools",
+        "Python"
+      ],
       "metadata": {
         "id": 4869294,
         "name": "radare2",
@@ -257053,7 +257063,10 @@
       "last_updated": "2026-11-19T19:48:17.523691+00:00"
     },
     "mastra-ai/template-factory": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1435967629,
         "name": "template-factory",
@@ -257073,7 +257086,10 @@
       "last_updated": "2026-11-19T19:48:17.830125+00:00"
     },
     "r-spring/touchdesigner-mcp-server": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1028313689,
         "name": "touchdesigner-mcp-server",
