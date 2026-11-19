@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T11:56:27.917355+00:00",
+  "last_updated": "2026-11-19T11:42:41.597527+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256959,6 +256959,26 @@
         "fetched_at": "2026-11-18T11:56:27.910492+00:00",
         "status": "ok"
       }
+    },
+    "aryamandarda/tamserve": {
+      "lists": [],
+      "metadata": {
+        "id": 1453712334,
+        "name": "tamserve",
+        "full_name": "aryamandarda/tamserve",
+        "description": "Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.",
+        "url": "https://github.com/aryamandarda/tamserve",
+        "homepage": "",
+        "language": "Python",
+        "stars": 203,
+        "forks": 12,
+        "open_issues": 1,
+        "created_at": "2026-11-11T08:25:48Z",
+        "updated_at": "2026-11-19T11:31:58Z",
+        "pushed_at": "2026-11-19T03:07:02Z",
+        "starred_at": "2026-11-19T02:43:42Z"
+      },
+      "last_updated": "2026-11-19T11:42:41.597381+00:00"
     }
   },
   "last_processed_index": 0,
@@ -256968,5 +256988,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"2d426fc13553af1efef51247a0b3d64471de753d6d9bab41b31185ce1cede435\""
+  "profile_etag": "W/\"d208932443403c98d48e69d631e59eee07d0353606d377eae8b3a8f0fb0b894e\""
 }
