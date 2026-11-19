@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T11:42:41.597527+00:00",
+  "last_updated": "2026-11-19T11:53:18.799920+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256961,7 +256961,11 @@
       }
     },
     "aryamandarda/tamserve": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1453712334,
         "name": "tamserve",
