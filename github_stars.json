@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T11:53:18.799920+00:00",
+  "last_updated": "2026-11-19T11:53:54.990068+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -256982,7 +256982,15 @@
         "pushed_at": "2026-11-19T03:07:02Z",
         "starred_at": "2026-11-19T02:43:42Z"
       },
-      "last_updated": "2026-11-19T11:42:41.597381+00:00"
+      "last_updated": "2026-11-19T11:42:41.597381+00:00",
+      "readme": {
+        "path": "readmes/aryamandarda+tamserve+README.md",
+        "etag": "W/\"e836cea4ae01c2d5f9e050ffdffa5e8e9761e2da\"",
+        "sha": "e836cea4ae01c2d5f9e050ffdffa5e8e9761e2da",
+        "size": 29222,
+        "fetched_at": "2026-11-19T11:53:54.981261+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
