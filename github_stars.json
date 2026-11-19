@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T19:58:44.041955+00:00",
+  "last_updated": "2026-11-19T19:59:24.864570+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257012,7 +257012,15 @@
         "pushed_at": "2026-11-18T01:12:42Z",
         "starred_at": "2026-11-19T18:42:14Z"
       },
-      "last_updated": "2026-11-19T19:48:16.852377+00:00"
+      "last_updated": "2026-11-19T19:48:16.852377+00:00",
+      "readme": {
+        "path": "readmes/Sanrax+testdpc-qr+README.md",
+        "etag": "W/\"7a5d24220e642ec29dab1cba65d21ca04099f505\"",
+        "sha": "7a5d24220e642ec29dab1cba65d21ca04099f505",
+        "size": 3602,
+        "fetched_at": "2026-11-19T19:59:23.937310+00:00",
+        "status": "ok"
+      }
     },
     "Noelo-Lab/kuna": {
       "lists": [
@@ -257036,7 +257044,15 @@
         "pushed_at": "2026-11-19T16:43:54Z",
         "starred_at": "2026-11-19T15:32:26Z"
       },
-      "last_updated": "2026-11-19T19:48:17.179309+00:00"
+      "last_updated": "2026-11-19T19:48:17.179309+00:00",
+      "readme": {
+        "path": "readmes/Noelo-Lab+kuna+README.md",
+        "etag": "W/\"93a1c20ebcd3932372fbe6d806e54153071e660b\"",
+        "sha": "93a1c20ebcd3932372fbe6d806e54153071e660b",
+        "size": 12002,
+        "fetched_at": "2026-11-19T19:59:23.570470+00:00",
+        "status": "ok"
+      }
     },
     "radareorg/radare2": {
       "lists": [
@@ -257060,7 +257076,15 @@
         "pushed_at": "2026-11-19T19:42:16Z",
         "starred_at": "2026-11-19T15:30:17Z"
       },
-      "last_updated": "2026-11-19T19:48:17.523691+00:00"
+      "last_updated": "2026-11-19T19:48:17.523691+00:00",
+      "readme": {
+        "path": "readmes/radareorg+radare2+README.md",
+        "etag": "W/\"51aaf280797835b2d3f0008fb8ecf7cfef321ebd\"",
+        "sha": "51aaf280797835b2d3f0008fb8ecf7cfef321ebd",
+        "size": 10657,
+        "fetched_at": "2026-11-19T19:59:24.862012+00:00",
+        "status": "ok"
+      }
     },
     "mastra-ai/template-factory": {
       "lists": [
@@ -257083,7 +257107,15 @@
         "pushed_at": "2026-11-18T05:41:02Z",
         "starred_at": "2026-11-19T15:00:15Z"
       },
-      "last_updated": "2026-11-19T19:48:17.830125+00:00"
+      "last_updated": "2026-11-19T19:48:17.830125+00:00",
+      "readme": {
+        "path": "readmes/mastra-ai+template-factory+README.md",
+        "etag": "W/\"989cc6cc36d64f1699fde498aef1a5440c952dfe\"",
+        "sha": "989cc6cc36d64f1699fde498aef1a5440c952dfe",
+        "size": 7739,
+        "fetched_at": "2026-11-19T19:59:24.231301+00:00",
+        "status": "ok"
+      }
     },
     "r-spring/touchdesigner-mcp-server": {
       "lists": [
@@ -257106,7 +257138,15 @@
         "pushed_at": "2026-09-30T00:23:08Z",
         "starred_at": "2026-05-18T02:46:38Z"
       },
-      "last_updated": "2026-11-19T19:48:18.393881+00:00"
+      "last_updated": "2026-11-19T19:48:18.393881+00:00",
+      "readme": {
+        "path": "readmes/r-spring+touchdesigner-mcp-server+README.md",
+        "etag": "W/\"031368cac6daddd13f728441544af466fc277a32\"",
+        "sha": "031368cac6daddd13f728441544af466fc277a32",
+        "size": 30054,
+        "fetched_at": "2026-11-19T19:59:24.585362+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
