@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T11:52:48.256950+00:00",
+  "last_updated": "2026-11-20T11:53:26.629964+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257168,7 +257168,15 @@
         "pushed_at": "2026-11-20T10:33:20Z",
         "starred_at": "2026-11-20T01:27:50Z"
       },
-      "last_updated": "2026-11-20T11:42:37.372104+00:00"
+      "last_updated": "2026-11-20T11:42:37.372104+00:00",
+      "readme": {
+        "path": "readmes/toyxyz+toyxyz_RGBMocap+README.md",
+        "etag": "W/\"7d02ea03ebb0a2d58e4fda798894e0ee70b67a26\"",
+        "sha": "7d02ea03ebb0a2d58e4fda798894e0ee70b67a26",
+        "size": 17232,
+        "fetched_at": "2026-11-20T11:53:26.628653+00:00",
+        "status": "ok"
+      }
     },
     "lukeponio/sidemdm": {
       "lists": [
@@ -257190,7 +257198,15 @@
         "pushed_at": "2026-11-13T03:43:09Z",
         "starred_at": "2026-11-19T23:53:53Z"
       },
-      "last_updated": "2026-11-20T11:42:37.780577+00:00"
+      "last_updated": "2026-11-20T11:42:37.780577+00:00",
+      "readme": {
+        "path": "readmes/lukeponio+sidemdm+README.md",
+        "etag": "W/\"adc9f2ade044a4d44250b7fbea982860898ab7bd\"",
+        "sha": "adc9f2ade044a4d44250b7fbea982860898ab7bd",
+        "size": 8289,
+        "fetched_at": "2026-11-20T11:53:26.329628+00:00",
+        "status": "ok"
+      }
     },
     "lentm88/cancunn-freedom": {
       "lists": [
@@ -257212,7 +257228,15 @@
         "pushed_at": "2026-11-18T19:41:27Z",
         "starred_at": "2026-11-19T22:43:48Z"
       },
-      "last_updated": "2026-11-20T11:42:38.290916+00:00"
+      "last_updated": "2026-11-20T11:42:38.290916+00:00",
+      "readme": {
+        "path": "readmes/lentm88+cancunn-freedom+README.md",
+        "etag": "W/\"bb47818ad75985fee70759ef00df6d67e7251038\"",
+        "sha": "bb47818ad75985fee70759ef00df6d67e7251038",
+        "size": 8038,
+        "fetched_at": "2026-11-20T11:53:25.964964+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
