@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T19:59:24.864570+00:00",
+  "last_updated": "2026-11-20T11:42:38.291024+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257147,6 +257147,66 @@
         "fetched_at": "2026-11-19T19:59:24.585362+00:00",
         "status": "ok"
       }
+    },
+    "toyxyz/toyxyz_RGBMocap": {
+      "lists": [],
+      "metadata": {
+        "id": 1434992606,
+        "name": "toyxyz_RGBMocap",
+        "full_name": "toyxyz/toyxyz_RGBMocap",
+        "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+        "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+        "homepage": null,
+        "language": "Python",
+        "stars": 2420,
+        "forks": 331,
+        "open_issues": 29,
+        "created_at": "2026-10-26T22:26:28Z",
+        "updated_at": "2026-11-20T11:31:01Z",
+        "pushed_at": "2026-11-20T10:33:20Z",
+        "starred_at": "2026-11-20T01:27:50Z"
+      },
+      "last_updated": "2026-11-20T11:42:37.372104+00:00"
+    },
+    "lukeponio/sidemdm": {
+      "lists": [],
+      "metadata": {
+        "id": 1455950350,
+        "name": "sidemdm",
+        "full_name": "lukeponio/sidemdm",
+        "description": "Local MDM Server for Android Device Setup",
+        "url": "https://github.com/lukeponio/sidemdm",
+        "homepage": null,
+        "language": "Python",
+        "stars": 6,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2026-11-12T23:45:58Z",
+        "updated_at": "2026-11-19T23:53:54Z",
+        "pushed_at": "2026-11-13T03:43:09Z",
+        "starred_at": "2026-11-19T23:53:53Z"
+      },
+      "last_updated": "2026-11-20T11:42:37.780577+00:00"
+    },
+    "lentm88/cancunn-freedom": {
+      "lists": [],
+      "metadata": {
+        "id": 1463234612,
+        "name": "cancunn-freedom",
+        "full_name": "lentm88/cancunn-freedom",
+        "description": "Modem (md1img) SIM-unlock scripts for the Moto G Power 2024 (XT2415V / cancunn, V1UDS35H.26-14-6-2-11) and possibly for other Moto MTK devices / firmwares",
+        "url": "https://github.com/lentm88/cancunn-freedom",
+        "homepage": "",
+        "language": "Python",
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-18T19:17:56Z",
+        "updated_at": "2026-11-19T22:43:48Z",
+        "pushed_at": "2026-11-18T19:41:27Z",
+        "starred_at": "2026-11-19T22:43:48Z"
+      },
+      "last_updated": "2026-11-20T11:42:38.290916+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257156,5 +257216,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"dd6cbd55eb6e738920fe7570b30d87fc88569412639010f00335df7953ec7224\""
+  "profile_etag": "W/\"d6cddef2ccd3fee1deb013eb2425e249c9d210628a01219a40e05d4b3504b453\""
 }
