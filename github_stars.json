@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T11:42:38.291024+00:00",
+  "last_updated": "2026-11-20T11:52:48.256950+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257149,7 +257149,9 @@
       }
     },
     "toyxyz/toyxyz_RGBMocap": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1434992606,
         "name": "toyxyz_RGBMocap",
@@ -257169,7 +257171,9 @@
       "last_updated": "2026-11-20T11:42:37.372104+00:00"
     },
     "lukeponio/sidemdm": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1455950350,
         "name": "sidemdm",
@@ -257189,7 +257193,9 @@
       "last_updated": "2026-11-20T11:42:37.780577+00:00"
     },
     "lentm88/cancunn-freedom": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1463234612,
         "name": "cancunn-freedom",
