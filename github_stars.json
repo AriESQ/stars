@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T11:03:38.101701+00:00",
+  "last_updated": "2026-11-21T11:13:38.865670+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257239,7 +257239,9 @@
       }
     },
     "stride3d/stride": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 136570231,
         "name": "stride",
@@ -257259,7 +257261,9 @@
       "last_updated": "2026-11-21T11:03:35.817924+00:00"
     },
     "TheFuseLab/VL.Fuse": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 310026250,
         "name": "VL.Fuse",
@@ -257279,7 +257283,11 @@
       "last_updated": "2026-11-21T11:03:36.155978+00:00"
     },
     "openai/orchard": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "CI/CD",
+        "Devops"
+      ],
       "metadata": {
         "id": 585615779,
         "name": "orchard",
@@ -257299,7 +257307,9 @@
       "last_updated": "2026-11-21T11:03:36.450012+00:00"
     },
     "openai/vetu": {
-      "lists": [],
+      "lists": [
+        "GoLang"
+      ],
       "metadata": {
         "id": 686979440,
         "name": "vetu",
@@ -257319,7 +257329,12 @@
       "last_updated": "2026-11-21T11:03:36.759140+00:00"
     },
     "sohzm/winedroid": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "DIY",
+        "WASM",
+        "Windows"
+      ],
       "metadata": {
         "id": 1465810238,
         "name": "winedroid",
@@ -257339,7 +257354,10 @@
       "last_updated": "2026-11-21T11:03:37.014790+00:00"
     },
     "heeen/supvan-cups": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Rust"
+      ],
       "metadata": {
         "id": 1148909278,
         "name": "supvan-cups",
@@ -257359,7 +257377,11 @@
       "last_updated": "2026-11-21T11:03:37.339511+00:00"
     },
     "kobimusic/dettato": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video",
+        "Python"
+      ],
       "metadata": {
         "id": 1459780170,
         "name": "dettato",
@@ -257379,7 +257401,11 @@
       "last_updated": "2026-11-21T11:03:37.664165+00:00"
     },
     "ai-openshell/openshell": {
-      "lists": [],
+      "lists": [
+        "Infosec",
+        "Machine Learning",
+        "Rust"
+      ],
       "metadata": {
         "id": 1166129534,
         "name": "openshell",
