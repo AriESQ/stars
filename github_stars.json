@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T11:53:26.629964+00:00",
+  "last_updated": "2026-11-21T11:03:38.101701+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257237,6 +257237,166 @@
         "fetched_at": "2026-11-20T11:53:25.964964+00:00",
         "status": "ok"
       }
+    },
+    "stride3d/stride": {
+      "lists": [],
+      "metadata": {
+        "id": 136570231,
+        "name": "stride",
+        "full_name": "stride3d/stride",
+        "description": "Stride (formerly Xenko), a free and open-source cross-platform C# game engine.",
+        "url": "https://github.com/stride3d/stride",
+        "homepage": "https://stride3d.net",
+        "language": "C#",
+        "stars": 7961,
+        "forks": 1191,
+        "open_issues": 693,
+        "created_at": "2018-06-08T05:25:16Z",
+        "updated_at": "2026-11-21T10:49:07Z",
+        "pushed_at": "2026-11-21T07:40:27Z",
+        "starred_at": "2026-11-21T03:48:10Z"
+      },
+      "last_updated": "2026-11-21T11:03:35.817924+00:00"
+    },
+    "TheFuseLab/VL.Fuse": {
+      "lists": [],
+      "metadata": {
+        "id": 310026250,
+        "name": "VL.Fuse",
+        "full_name": "TheFuseLab/VL.Fuse",
+        "description": "A library for visually programming on the GPU, built to enable rapid workflows and modular approaches to accelerated graphics, logic and computation.",
+        "url": "https://github.com/TheFuseLab/VL.Fuse",
+        "homepage": "https://www.thefuselab.io",
+        "language": "C",
+        "stars": 316,
+        "forks": 35,
+        "open_issues": 68,
+        "created_at": "2020-11-04T14:27:13Z",
+        "updated_at": "2026-11-21T03:47:17Z",
+        "pushed_at": "2026-11-20T14:34:09Z",
+        "starred_at": "2026-11-21T03:47:17Z"
+      },
+      "last_updated": "2026-11-21T11:03:36.155978+00:00"
+    },
+    "openai/orchard": {
+      "lists": [],
+      "metadata": {
+        "id": 585615779,
+        "name": "orchard",
+        "full_name": "openai/orchard",
+        "description": "Orchestrator for running Tart Virtual Machines on a cluster of Apple Silicon devices",
+        "url": "https://github.com/openai/orchard",
+        "homepage": "",
+        "language": "Go",
+        "stars": 621,
+        "forks": 73,
+        "open_issues": 44,
+        "created_at": "2023-01-05T16:15:26Z",
+        "updated_at": "2026-11-21T00:56:04Z",
+        "pushed_at": "2026-11-20T05:20:36Z",
+        "starred_at": "2026-11-21T00:56:03Z"
+      },
+      "last_updated": "2026-11-21T11:03:36.450012+00:00"
+    },
+    "openai/vetu": {
+      "lists": [],
+      "metadata": {
+        "id": 686979440,
+        "name": "vetu",
+        "full_name": "openai/vetu",
+        "description": "Create, publish and virtualize ephemeral Linux VMs with ease",
+        "url": "https://github.com/openai/vetu",
+        "homepage": null,
+        "language": "Go",
+        "stars": 314,
+        "forks": 23,
+        "open_issues": 12,
+        "created_at": "2023-09-04T10:59:11Z",
+        "updated_at": "2026-11-21T00:54:19Z",
+        "pushed_at": "2026-08-18T03:13:30Z",
+        "starred_at": "2026-11-21T00:54:19Z"
+      },
+      "last_updated": "2026-11-21T11:03:36.759140+00:00"
+    },
+    "sohzm/winedroid": {
+      "lists": [],
+      "metadata": {
+        "id": 1465810238,
+        "name": "winedroid",
+        "full_name": "sohzm/winedroid",
+        "description": "run android apps on web, linux, macOS and windows",
+        "url": "https://github.com/sohzm/winedroid",
+        "homepage": "https://winedroid.soham.sh/",
+        "language": "Rust",
+        "stars": 130,
+        "forks": 6,
+        "open_issues": 5,
+        "created_at": "2026-11-20T19:14:05Z",
+        "updated_at": "2026-11-21T10:58:40Z",
+        "pushed_at": "2026-11-20T19:16:27Z",
+        "starred_at": "2026-11-21T00:09:16Z"
+      },
+      "last_updated": "2026-11-21T11:03:37.014790+00:00"
+    },
+    "heeen/supvan-cups": {
+      "lists": [],
+      "metadata": {
+        "id": 1148909278,
+        "name": "supvan-cups",
+        "full_name": "heeen/supvan-cups",
+        "description": "Supvan T50 Pro / Katasymbol M50 Pro thermal label printer driver for Linux (PAPPL + CUPS)",
+        "url": "https://github.com/heeen/supvan-cups",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 46,
+        "forks": 9,
+        "open_issues": 7,
+        "created_at": "2026-02-03T14:05:59Z",
+        "updated_at": "2026-11-20T22:18:17Z",
+        "pushed_at": "2026-10-12T11:44:45Z",
+        "starred_at": "2026-11-20T22:18:17Z"
+      },
+      "last_updated": "2026-11-21T11:03:37.339511+00:00"
+    },
+    "kobimusic/dettato": {
+      "lists": [],
+      "metadata": {
+        "id": 1459780170,
+        "name": "dettato",
+        "full_name": "kobimusic/dettato",
+        "description": "KobiMusic's multi-instrument audio-to-MIDI transcriber: notes, instrument tracks and drums from any recording",
+        "url": "https://github.com/kobimusic/dettato",
+        "homepage": "https://huggingface.co/collections/kobimusic/dettato",
+        "language": "Python",
+        "stars": 197,
+        "forks": 13,
+        "open_issues": 0,
+        "created_at": "2026-11-16T09:06:56Z",
+        "updated_at": "2026-11-21T10:53:00Z",
+        "pushed_at": "2026-11-20T05:29:52Z",
+        "starred_at": "2026-11-20T14:46:57Z"
+      },
+      "last_updated": "2026-11-21T11:03:37.664165+00:00"
+    },
+    "ai-openshell/openshell": {
+      "lists": [],
+      "metadata": {
+        "id": 1166129534,
+        "name": "openshell",
+        "full_name": "ai-openshell/openshell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "url": "https://github.com/ai-openshell/openshell",
+        "homepage": "https://docs.nvidia.com/openshell/latest/",
+        "language": "Rust",
+        "stars": 21846,
+        "forks": 2152,
+        "open_issues": 781,
+        "created_at": "2026-02-24T22:52:22Z",
+        "updated_at": "2026-11-21T09:47:57Z",
+        "pushed_at": "2026-11-21T05:47:46Z",
+        "starred_at": "2026-04-03T22:57:09Z"
+      },
+      "last_updated": "2026-11-21T11:03:38.101587+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257246,5 +257406,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"d6cddef2ccd3fee1deb013eb2425e249c9d210628a01219a40e05d4b3504b453\""
+  "profile_etag": "W/\"ed16c45c96191efe9945c8181470239ad36b829fc42485d823aa0665af9dd617\""
 }
