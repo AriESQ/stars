@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T11:13:38.865670+00:00",
+  "last_updated": "2026-11-21T11:13:57.302656+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257258,7 +257258,15 @@
         "pushed_at": "2026-11-21T07:40:27Z",
         "starred_at": "2026-11-21T03:48:10Z"
       },
-      "last_updated": "2026-11-21T11:03:35.817924+00:00"
+      "last_updated": "2026-11-21T11:03:35.817924+00:00",
+      "readme": {
+        "path": "readmes/stride3d+stride+README.md",
+        "etag": "W/\"d1865d1fb682e84ce527951c035d97b1b7c66622\"",
+        "sha": "d1865d1fb682e84ce527951c035d97b1b7c66622",
+        "size": 39183,
+        "fetched_at": "2026-11-21T11:13:57.301034+00:00",
+        "status": "ok"
+      }
     },
     "TheFuseLab/VL.Fuse": {
       "lists": [
@@ -257280,7 +257288,15 @@
         "pushed_at": "2026-11-20T14:34:09Z",
         "starred_at": "2026-11-21T03:47:17Z"
       },
-      "last_updated": "2026-11-21T11:03:36.155978+00:00"
+      "last_updated": "2026-11-21T11:03:36.155978+00:00",
+      "readme": {
+        "path": "readmes/TheFuseLab+VL.Fuse+README.md",
+        "etag": "W/\"4247cd11f5b5370856353c96c0dddb777e5f1ed5\"",
+        "sha": "4247cd11f5b5370856353c96c0dddb777e5f1ed5",
+        "size": 3786,
+        "fetched_at": "2026-11-21T11:13:55.555771+00:00",
+        "status": "ok"
+      }
     },
     "openai/orchard": {
       "lists": [
@@ -257304,7 +257320,15 @@
         "pushed_at": "2026-11-20T05:20:36Z",
         "starred_at": "2026-11-21T00:56:03Z"
       },
-      "last_updated": "2026-11-21T11:03:36.450012+00:00"
+      "last_updated": "2026-11-21T11:03:36.450012+00:00",
+      "readme": {
+        "path": "readmes/openai+orchard+README.md",
+        "etag": "W/\"ee7d3ed68e207d84931374bdf3c959de634a7f73\"",
+        "sha": "ee7d3ed68e207d84931374bdf3c959de634a7f73",
+        "size": 2595,
+        "fetched_at": "2026-11-21T11:13:56.615774+00:00",
+        "status": "ok"
+      }
     },
     "openai/vetu": {
       "lists": [
@@ -257326,7 +257350,15 @@
         "pushed_at": "2026-08-18T03:13:30Z",
         "starred_at": "2026-11-21T00:54:19Z"
       },
-      "last_updated": "2026-11-21T11:03:36.759140+00:00"
+      "last_updated": "2026-11-21T11:03:36.759140+00:00",
+      "readme": {
+        "path": "readmes/openai+vetu+README.md",
+        "etag": "W/\"38d66c251ebf9dad910d56b11123f3a99984c3bc\"",
+        "sha": "38d66c251ebf9dad910d56b11123f3a99984c3bc",
+        "size": 3668,
+        "fetched_at": "2026-11-21T11:13:56.869479+00:00",
+        "status": "ok"
+      }
     },
     "sohzm/winedroid": {
       "lists": [
@@ -257351,7 +257383,15 @@
         "pushed_at": "2026-11-20T19:16:27Z",
         "starred_at": "2026-11-21T00:09:16Z"
       },
-      "last_updated": "2026-11-21T11:03:37.014790+00:00"
+      "last_updated": "2026-11-21T11:03:37.014790+00:00",
+      "readme": {
+        "path": "readmes/sohzm+winedroid+README.md",
+        "etag": "W/\"d861bfbb89b82bb01f21c9fa3d61cb536ed14175\"",
+        "sha": "d861bfbb89b82bb01f21c9fa3d61cb536ed14175",
+        "size": 5733,
+        "fetched_at": "2026-11-21T11:13:57.072966+00:00",
+        "status": "ok"
+      }
     },
     "heeen/supvan-cups": {
       "lists": [
@@ -257374,7 +257414,15 @@
         "pushed_at": "2026-10-12T11:44:45Z",
         "starred_at": "2026-11-20T22:18:17Z"
       },
-      "last_updated": "2026-11-21T11:03:37.339511+00:00"
+      "last_updated": "2026-11-21T11:03:37.339511+00:00",
+      "readme": {
+        "path": "readmes/heeen+supvan-cups+README.md",
+        "etag": "W/\"c766897a5ec456104a95170a6fe9ac36dc439ffe\"",
+        "sha": "c766897a5ec456104a95170a6fe9ac36dc439ffe",
+        "size": 8074,
+        "fetched_at": "2026-11-21T11:13:56.148152+00:00",
+        "status": "ok"
+      }
     },
     "kobimusic/dettato": {
       "lists": [
@@ -257398,7 +257446,15 @@
         "pushed_at": "2026-11-20T05:29:52Z",
         "starred_at": "2026-11-20T14:46:57Z"
       },
-      "last_updated": "2026-11-21T11:03:37.664165+00:00"
+      "last_updated": "2026-11-21T11:03:37.664165+00:00",
+      "readme": {
+        "path": "readmes/kobimusic+dettato+README.md",
+        "etag": "W/\"4a18f73bf14bf67b9fa8c526e067417110096cdd\"",
+        "sha": "4a18f73bf14bf67b9fa8c526e067417110096cdd",
+        "size": 10726,
+        "fetched_at": "2026-11-21T11:13:56.364553+00:00",
+        "status": "ok"
+      }
     },
     "ai-openshell/openshell": {
       "lists": [
@@ -257422,7 +257478,15 @@
         "pushed_at": "2026-11-21T05:47:46Z",
         "starred_at": "2026-04-03T22:57:09Z"
       },
-      "last_updated": "2026-11-21T11:03:38.101587+00:00"
+      "last_updated": "2026-11-21T11:03:38.101587+00:00",
+      "readme": {
+        "path": "readmes/ai-openshell+openshell+README.md",
+        "etag": "W/\"0752ddaf1385b78f39a08f8718268762d15db2d1\"",
+        "sha": "0752ddaf1385b78f39a08f8718268762d15db2d1",
+        "size": 8586,
+        "fetched_at": "2026-11-21T11:13:55.807205+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
