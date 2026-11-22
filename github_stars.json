@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T11:13:57.302656+00:00",
+  "last_updated": "2026-11-22T11:27:29.718417+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257487,6 +257487,126 @@
         "fetched_at": "2026-11-21T11:13:55.807205+00:00",
         "status": "ok"
       }
+    },
+    "ItsNotRexed/Leonida": {
+      "lists": [],
+      "metadata": {
+        "id": 1465855400,
+        "name": "Leonida",
+        "full_name": "ItsNotRexed/Leonida",
+        "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+        "url": "https://github.com/ItsNotRexed/Leonida",
+        "homepage": "",
+        "language": "Python",
+        "stars": 9299,
+        "forks": 718,
+        "open_issues": 167,
+        "created_at": "2026-11-20T20:07:13Z",
+        "updated_at": "2026-11-22T11:27:20Z",
+        "pushed_at": "2026-11-22T11:25:25Z",
+        "starred_at": "2026-11-22T08:28:58Z"
+      },
+      "last_updated": "2026-11-22T11:27:28.243069+00:00"
+    },
+    "pithings/unkernel": {
+      "lists": [],
+      "metadata": {
+        "id": 1455879258,
+        "name": "unkernel",
+        "full_name": "pithings/unkernel",
+        "description": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+        "url": "https://github.com/pithings/unkernel",
+        "homepage": "https://unkernel.dev",
+        "language": "TypeScript",
+        "stars": 785,
+        "forks": 46,
+        "open_issues": 7,
+        "created_at": "2026-11-12T22:06:00Z",
+        "updated_at": "2026-11-22T11:24:47Z",
+        "pushed_at": "2026-11-22T11:08:05Z",
+        "starred_at": "2026-11-22T05:20:59Z"
+      },
+      "last_updated": "2026-11-22T11:27:28.512943+00:00"
+    },
+    "newsnowlabs/runcvm": {
+      "lists": [],
+      "metadata": {
+        "id": 514606231,
+        "name": "runcvm",
+        "full_name": "newsnowlabs/runcvm",
+        "description": "RunCVM (Run Container VM) is an open-source Docker container runtime, for launching standard container workloads - as well as Systemd, Docker, even OpenWrt - in VMs using 'docker run`",
+        "url": "https://github.com/newsnowlabs/runcvm",
+        "homepage": "",
+        "language": "Python",
+        "stars": 281,
+        "forks": 15,
+        "open_issues": 22,
+        "created_at": "2022-07-16T14:51:38Z",
+        "updated_at": "2026-11-22T06:11:03Z",
+        "pushed_at": "2026-11-20T21:57:10Z",
+        "starred_at": "2026-11-22T05:19:37Z"
+      },
+      "last_updated": "2026-11-22T11:27:28.822998+00:00"
+    },
+    "ShinMegamiBoson/lookatmyquant": {
+      "lists": [],
+      "metadata": {
+        "id": 1441104149,
+        "name": "lookatmyquant",
+        "full_name": "ShinMegamiBoson/lookatmyquant",
+        "description": "A quantization compiler that delivers 12\u00d7 lower KL than Q4_K_M at the same file size",
+        "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+        "homepage": "https://lookatmyquant.pages.dev",
+        "language": "Python",
+        "stars": 409,
+        "forks": 19,
+        "open_issues": 10,
+        "created_at": "2026-10-31T17:40:04Z",
+        "updated_at": "2026-11-22T11:23:10Z",
+        "pushed_at": "2026-11-22T07:24:58Z",
+        "starred_at": "2026-11-22T02:59:40Z"
+      },
+      "last_updated": "2026-11-22T11:27:29.089698+00:00"
+    },
+    "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
+      "lists": [],
+      "metadata": {
+        "id": 710425233,
+        "name": "universal-android-debloater-next-generation",
+        "full_name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+        "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+        "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+        "homepage": "",
+        "language": "Rust",
+        "stars": 10261,
+        "forks": 452,
+        "open_issues": 279,
+        "created_at": "2023-10-26T17:00:49Z",
+        "updated_at": "2026-11-22T11:03:50Z",
+        "pushed_at": "2026-11-21T04:28:25Z",
+        "starred_at": "2026-11-21T19:25:52Z"
+      },
+      "last_updated": "2026-11-22T11:27:29.389101+00:00"
+    },
+    "parsimo2010/moto-g-power-2026-straight-talk-wifi-root-guide": {
+      "lists": [],
+      "metadata": {
+        "id": 1458275415,
+        "name": "moto-g-power-2026-straight-talk-wifi-root-guide",
+        "full_name": "parsimo2010/moto-g-power-2026-straight-talk-wifi-root-guide",
+        "description": "Firmware-specific XT2617V guide: Wi-Fi setup without a Straight Talk plan, Val Protocol unlock, persistent Magisk root, and reversible carrier debloat.",
+        "url": "https://github.com/parsimo2010/moto-g-power-2026-straight-talk-wifi-root-guide",
+        "homepage": null,
+        "language": "PowerShell",
+        "stars": 45,
+        "forks": 2,
+        "open_issues": 4,
+        "created_at": "2026-11-14T23:26:45Z",
+        "updated_at": "2026-11-21T15:43:21Z",
+        "pushed_at": "2026-11-14T23:27:13Z",
+        "starred_at": "2026-11-21T15:43:21Z"
+      },
+      "last_updated": "2026-11-22T11:27:29.718293+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257496,5 +257616,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"ed16c45c96191efe9945c8181470239ad36b829fc42485d823aa0665af9dd617\""
+  "profile_etag": "W/\"b21ff0d64189f6e8a884ef50aebe0080c63fc7de5f480f1dde35e7eaa33d1bd8\""
 }
