@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T11:27:29.718417+00:00",
+  "last_updated": "2026-11-22T11:37:37.816363+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257489,7 +257489,9 @@
       }
     },
     "ItsNotRexed/Leonida": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1465855400,
         "name": "Leonida",
@@ -257509,7 +257511,9 @@
       "last_updated": "2026-11-22T11:27:28.243069+00:00"
     },
     "pithings/unkernel": {
-      "lists": [],
+      "lists": [
+        "WASM"
+      ],
       "metadata": {
         "id": 1455879258,
         "name": "unkernel",
@@ -257529,7 +257533,10 @@
       "last_updated": "2026-11-22T11:27:28.512943+00:00"
     },
     "newsnowlabs/runcvm": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Docker and OCI containers"
+      ],
       "metadata": {
         "id": 514606231,
         "name": "runcvm",
@@ -257549,7 +257556,10 @@
       "last_updated": "2026-11-22T11:27:28.822998+00:00"
     },
     "ShinMegamiBoson/lookatmyquant": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 1441104149,
         "name": "lookatmyquant",
@@ -257569,7 +257579,9 @@
       "last_updated": "2026-11-22T11:27:29.089698+00:00"
     },
     "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
-      "lists": [],
+      "lists": [
+        "Rust"
+      ],
       "metadata": {
         "id": 710425233,
         "name": "universal-android-debloater-next-generation",
@@ -257589,7 +257601,9 @@
       "last_updated": "2026-11-22T11:27:29.389101+00:00"
     },
     "parsimo2010/moto-g-power-2026-straight-talk-wifi-root-guide": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1458275415,
         "name": "moto-g-power-2026-straight-talk-wifi-root-guide",
