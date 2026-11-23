@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T12:54:35.824101+00:00",
+  "last_updated": "2026-11-23T12:55:11.920358+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257691,7 +257691,15 @@
         "pushed_at": "2026-10-06T23:22:35Z",
         "starred_at": "2026-11-23T05:44:35Z"
       },
-      "last_updated": "2026-11-23T12:43:23.432150+00:00"
+      "last_updated": "2026-11-23T12:43:23.432150+00:00",
+      "readme": {
+        "path": "readmes/zhouxt1+vasn+README.md",
+        "etag": "W/\"7bec8d0b6b22657c5f08e42f24b6f6e8e827accd\"",
+        "sha": "7bec8d0b6b22657c5f08e42f24b6f6e8e827accd",
+        "size": 10576,
+        "fetched_at": "2026-11-23T12:55:11.919700+00:00",
+        "status": "ok"
+      }
     },
     "AFK-surf/xnulinux": {
       "lists": [
@@ -257715,7 +257723,15 @@
         "pushed_at": "2026-11-23T11:25:48Z",
         "starred_at": "2026-11-23T04:56:23Z"
       },
-      "last_updated": "2026-11-23T12:43:23.778314+00:00"
+      "last_updated": "2026-11-23T12:43:23.778314+00:00",
+      "readme": {
+        "path": "readmes/AFK-surf+xnulinux+README.md",
+        "etag": "W/\"7a15eca8ee5f59567ccfbc7eb6f93bc70d0a8d99\"",
+        "sha": "7a15eca8ee5f59567ccfbc7eb6f93bc70d0a8d99",
+        "size": 9044,
+        "fetched_at": "2026-11-23T12:55:11.194652+00:00",
+        "status": "ok"
+      }
     },
     "dmitrykurash/holospot": {
       "lists": [
@@ -257737,7 +257753,15 @@
         "pushed_at": "2026-11-17T14:02:04Z",
         "starred_at": "2026-11-23T03:02:59Z"
       },
-      "last_updated": "2026-11-23T12:43:24.484895+00:00"
+      "last_updated": "2026-11-23T12:43:24.484895+00:00",
+      "readme": {
+        "path": "readmes/dmitrykurash+holospot+README.md",
+        "etag": "W/\"c330fd2f3c874b9e3e0f075f18689d9215a9f616\"",
+        "sha": "c330fd2f3c874b9e3e0f075f18689d9215a9f616",
+        "size": 12550,
+        "fetched_at": "2026-11-23T12:55:11.477501+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
