@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T11:38:02.794698+00:00",
+  "last_updated": "2026-11-23T12:43:24.485027+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257669,6 +257669,66 @@
         "fetched_at": "2026-11-22T11:38:02.349394+00:00",
         "status": "ok"
       }
+    },
+    "zhouxt1/vasn": {
+      "lists": [],
+      "metadata": {
+        "id": 1386527155,
+        "name": "vasn",
+        "full_name": "zhouxt1/vasn",
+        "description": null,
+        "url": "https://github.com/zhouxt1/vasn",
+        "homepage": null,
+        "language": "Rust",
+        "stars": 5,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-09-25T00:37:24Z",
+        "updated_at": "2026-11-23T05:44:36Z",
+        "pushed_at": "2026-10-06T23:22:35Z",
+        "starred_at": "2026-11-23T05:44:35Z"
+      },
+      "last_updated": "2026-11-23T12:43:23.432150+00:00"
+    },
+    "AFK-surf/xnulinux": {
+      "lists": [],
+      "metadata": {
+        "id": 1465281397,
+        "name": "xnulinux",
+        "full_name": "AFK-surf/xnulinux",
+        "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+        "url": "https://github.com/AFK-surf/xnulinux",
+        "homepage": "",
+        "language": "Objective-C++",
+        "stars": 940,
+        "forks": 31,
+        "open_issues": 1,
+        "created_at": "2026-11-20T10:18:31Z",
+        "updated_at": "2026-11-23T12:42:49Z",
+        "pushed_at": "2026-11-23T11:25:48Z",
+        "starred_at": "2026-11-23T04:56:23Z"
+      },
+      "last_updated": "2026-11-23T12:43:23.778314+00:00"
+    },
+    "dmitrykurash/holospot": {
+      "lists": [],
+      "metadata": {
+        "id": 1461462071,
+        "name": "holospot",
+        "full_name": "dmitrykurash/holospot",
+        "description": "The holographic materials of holo.spot for your own three.js scenes, made to be handed to an AI agent",
+        "url": "https://github.com/dmitrykurash/holospot",
+        "homepage": "https://www.holo.spot",
+        "language": "TypeScript",
+        "stars": 222,
+        "forks": 20,
+        "open_issues": 0,
+        "created_at": "2026-11-17T13:38:59Z",
+        "updated_at": "2026-11-23T12:05:15Z",
+        "pushed_at": "2026-11-17T14:02:04Z",
+        "starred_at": "2026-11-23T03:02:59Z"
+      },
+      "last_updated": "2026-11-23T12:43:24.484895+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257678,5 +257738,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"b21ff0d64189f6e8a884ef50aebe0080c63fc7de5f480f1dde35e7eaa33d1bd8\""
+  "profile_etag": "W/\"041f8efa79591ee398cfbfd59a807e859e69c5c7ed9d3620eb85d166e2a6c85b\""
 }
