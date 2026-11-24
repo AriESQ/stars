@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T12:55:11.920358+00:00",
+  "last_updated": "2026-11-24T13:46:17.387522+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257762,6 +257762,106 @@
         "fetched_at": "2026-11-23T12:55:11.477501+00:00",
         "status": "ok"
       }
+    },
+    "fzakaria/trynix": {
+      "lists": [],
+      "metadata": {
+        "id": 1357670785,
+        "name": "trynix",
+        "full_name": "fzakaria/trynix",
+        "description": "Boot anything nixpkgs ever shipped, in your browser.",
+        "url": "https://github.com/fzakaria/trynix",
+        "homepage": "https://trynix.dev/",
+        "language": "JavaScript",
+        "stars": 209,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-09-04T23:24:32Z",
+        "updated_at": "2026-11-24T13:25:32Z",
+        "pushed_at": "2026-11-24T06:07:51Z",
+        "starred_at": "2026-11-24T12:33:27Z"
+      },
+      "last_updated": "2026-11-24T13:46:15.914639+00:00"
+    },
+    "Neywa-Labs/mlx-vlm": {
+      "lists": [],
+      "metadata": {
+        "id": 787462297,
+        "name": "mlx-vlm",
+        "full_name": "Neywa-Labs/mlx-vlm",
+        "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+        "url": "https://github.com/Neywa-Labs/mlx-vlm",
+        "homepage": "https://neywa-labs.github.io/mlx-vlm/",
+        "language": "Python",
+        "stars": 5929,
+        "forks": 913,
+        "open_issues": 302,
+        "created_at": "2024-04-16T15:10:12Z",
+        "updated_at": "2026-11-24T06:16:31Z",
+        "pushed_at": "2026-11-23T20:24:02Z",
+        "starred_at": "2026-11-24T06:16:30Z"
+      },
+      "last_updated": "2026-11-24T13:46:16.299307+00:00"
+    },
+    "liontariai/cobalt": {
+      "lists": [],
+      "metadata": {
+        "id": 965545754,
+        "name": "cobalt",
+        "full_name": "liontariai/cobalt",
+        "description": "Use your typescript backend as if it was your local code. With the power of GraphQL, but without \"GraphQL\".... it's the last framework that actually makes sense, in the age of AI.",
+        "url": "https://github.com/liontariai/cobalt",
+        "homepage": "https://cobalt27.dev",
+        "language": "TypeScript",
+        "stars": 54,
+        "forks": 3,
+        "open_issues": 0,
+        "created_at": "2025-04-13T12:02:29Z",
+        "updated_at": "2026-11-24T12:26:49Z",
+        "pushed_at": "2026-10-28T17:42:56Z",
+        "starred_at": "2026-11-24T00:34:18Z"
+      },
+      "last_updated": "2026-11-24T13:46:16.680186+00:00"
+    },
+    "zed-industries/gpui": {
+      "lists": [],
+      "metadata": {
+        "id": 505576546,
+        "name": "gpui",
+        "full_name": "zed-industries/gpui",
+        "description": "A GPU-accelerated, open-source UI framework for Rust that combines immediate and retained modes.",
+        "url": "https://github.com/zed-industries/gpui",
+        "homepage": "https://gpui.rs/",
+        "language": null,
+        "stars": 1240,
+        "forks": 12,
+        "open_issues": 3,
+        "created_at": "2022-06-20T19:43:39Z",
+        "updated_at": "2026-11-24T13:45:49Z",
+        "pushed_at": "2026-11-23T19:17:45Z",
+        "starred_at": "2026-11-23T23:01:34Z"
+      },
+      "last_updated": "2026-11-24T13:46:17.045229+00:00"
+    },
+    "os6/nospeaker": {
+      "lists": [],
+      "metadata": {
+        "id": 1467519193,
+        "name": "nospeaker",
+        "full_name": "os6/nospeaker",
+        "description": "make your macbook's trackpad talk using its haptic motor",
+        "url": "https://github.com/os6/nospeaker",
+        "homepage": "https://x.com/codycollier",
+        "language": "Swift",
+        "stars": 1645,
+        "forks": 82,
+        "open_issues": 14,
+        "created_at": "2026-11-22T12:05:54Z",
+        "updated_at": "2026-11-24T13:46:11Z",
+        "pushed_at": "2026-11-24T02:43:05Z",
+        "starred_at": "2026-11-23T20:48:58Z"
+      },
+      "last_updated": "2026-11-24T13:46:17.387395+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257771,5 +257871,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"041f8efa79591ee398cfbfd59a807e859e69c5c7ed9d3620eb85d166e2a6c85b\""
+  "profile_etag": "W/\"687e11df4e1f1449f536e4abee0f1067cc095e68d7f96a8c1596152a5d0901b5\""
 }
