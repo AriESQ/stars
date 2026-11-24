@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T13:57:22.646983+00:00",
+  "last_updated": "2026-11-24T13:57:53.612342+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257785,7 +257785,15 @@
         "pushed_at": "2026-11-24T06:07:51Z",
         "starred_at": "2026-11-24T12:33:27Z"
       },
-      "last_updated": "2026-11-24T13:46:15.914639+00:00"
+      "last_updated": "2026-11-24T13:46:15.914639+00:00",
+      "readme": {
+        "path": "readmes/fzakaria+trynix+README.md",
+        "etag": "W/\"a62edaf8c3bca44bdc9de936bff7ae541f7f066b\"",
+        "sha": "a62edaf8c3bca44bdc9de936bff7ae541f7f066b",
+        "size": 8283,
+        "fetched_at": "2026-11-24T13:57:52.555207+00:00",
+        "status": "ok"
+      }
     },
     "Neywa-Labs/mlx-vlm": {
       "lists": [
@@ -257809,7 +257817,15 @@
         "pushed_at": "2026-11-23T20:24:02Z",
         "starred_at": "2026-11-24T06:16:30Z"
       },
-      "last_updated": "2026-11-24T13:46:16.299307+00:00"
+      "last_updated": "2026-11-24T13:46:16.299307+00:00",
+      "readme": {
+        "path": "readmes/Neywa-Labs+mlx-vlm+README.md",
+        "etag": "W/\"e3ca52e5ae88e752fcae248cedbe5098b6926323\"",
+        "sha": "e3ca52e5ae88e752fcae248cedbe5098b6926323",
+        "size": 85624,
+        "fetched_at": "2026-11-24T13:57:52.245280+00:00",
+        "status": "ok"
+      }
     },
     "liontariai/cobalt": {
       "lists": [
@@ -257832,7 +257848,15 @@
         "pushed_at": "2026-10-28T17:42:56Z",
         "starred_at": "2026-11-24T00:34:18Z"
       },
-      "last_updated": "2026-11-24T13:46:16.680186+00:00"
+      "last_updated": "2026-11-24T13:46:16.680186+00:00",
+      "readme": {
+        "path": "readmes/liontariai+cobalt+README.md",
+        "etag": "W/\"ef236f0d228cf41e8b9fae09a5c95f304867b65d\"",
+        "sha": "ef236f0d228cf41e8b9fae09a5c95f304867b65d",
+        "size": 3191,
+        "fetched_at": "2026-11-24T13:57:52.970462+00:00",
+        "status": "ok"
+      }
     },
     "zed-industries/gpui": {
       "lists": [
@@ -257855,7 +257879,15 @@
         "pushed_at": "2026-11-23T19:17:45Z",
         "starred_at": "2026-11-23T23:01:34Z"
       },
-      "last_updated": "2026-11-24T13:46:17.045229+00:00"
+      "last_updated": "2026-11-24T13:46:17.045229+00:00",
+      "readme": {
+        "path": "readmes/zed-industries+gpui+README.md",
+        "etag": "W/\"25f28057f18a0c723342a5a38bf4694b805873e9\"",
+        "sha": "25f28057f18a0c723342a5a38bf4694b805873e9",
+        "size": 108,
+        "fetched_at": "2026-11-24T13:57:53.611836+00:00",
+        "status": "ok"
+      }
     },
     "os6/nospeaker": {
       "lists": [
@@ -257878,7 +257910,15 @@
         "pushed_at": "2026-11-24T02:43:05Z",
         "starred_at": "2026-11-23T20:48:58Z"
       },
-      "last_updated": "2026-11-24T13:46:17.387395+00:00"
+      "last_updated": "2026-11-24T13:46:17.387395+00:00",
+      "readme": {
+        "path": "readmes/os6+nospeaker+README.md",
+        "etag": "W/\"8b0bd5d220bc94546cefece635cb379c41f7eedb\"",
+        "sha": "8b0bd5d220bc94546cefece635cb379c41f7eedb",
+        "size": 6852,
+        "fetched_at": "2026-11-24T13:57:53.271278+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
