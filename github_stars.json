@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T13:46:17.387522+00:00",
+  "last_updated": "2026-11-24T13:57:22.646983+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257764,7 +257764,11 @@
       }
     },
     "fzakaria/trynix": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript",
+        "WASM"
+      ],
       "metadata": {
         "id": 1357670785,
         "name": "trynix",
@@ -257784,7 +257788,11 @@
       "last_updated": "2026-11-24T13:46:15.914639+00:00"
     },
     "Neywa-Labs/mlx-vlm": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "Machine Learning",
+        "Python"
+      ],
       "metadata": {
         "id": 787462297,
         "name": "mlx-vlm",
@@ -257804,7 +257812,10 @@
       "last_updated": "2026-11-24T13:46:16.299307+00:00"
     },
     "liontariai/cobalt": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "JavaScript"
+      ],
       "metadata": {
         "id": 965545754,
         "name": "cobalt",
@@ -257824,7 +257835,10 @@
       "last_updated": "2026-11-24T13:46:16.680186+00:00"
     },
     "zed-industries/gpui": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Rust"
+      ],
       "metadata": {
         "id": 505576546,
         "name": "gpui",
@@ -257844,7 +257858,10 @@
       "last_updated": "2026-11-24T13:46:17.045229+00:00"
     },
     "os6/nospeaker": {
-      "lists": [],
+      "lists": [
+        "Apple and M1 virtualization",
+        "DIY"
+      ],
       "metadata": {
         "id": 1467519193,
         "name": "nospeaker",
