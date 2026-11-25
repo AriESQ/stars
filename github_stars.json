@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T13:09:34.140419+00:00",
+  "last_updated": "2026-11-25T13:10:16.867516+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257939,7 +257939,15 @@
         "pushed_at": "2026-10-30T13:36:57Z",
         "starred_at": "2026-11-25T07:04:55Z"
       },
-      "last_updated": "2026-11-25T12:58:43.856978+00:00"
+      "last_updated": "2026-11-25T12:58:43.856978+00:00",
+      "readme": {
+        "path": "readmes/pschatzmann+TinyWifiDongle+README.md",
+        "etag": "W/\"39779aa042719e07e57ce395e1a0bcf97d9e52f6\"",
+        "sha": "39779aa042719e07e57ce395e1a0bcf97d9e52f6",
+        "size": 5007,
+        "fetched_at": "2026-11-25T13:10:16.863686+00:00",
+        "status": "ok"
+      }
     },
     "DrWhax/esp32-usb-wifi": {
       "lists": [
@@ -257961,7 +257969,15 @@
         "pushed_at": "2026-07-21T17:35:04Z",
         "starred_at": "2026-11-25T07:03:21Z"
       },
-      "last_updated": "2026-11-25T12:58:44.145319+00:00"
+      "last_updated": "2026-11-25T12:58:44.145319+00:00",
+      "readme": {
+        "path": "readmes/DrWhax+esp32-usb-wifi+README.md",
+        "etag": "W/\"69452c3b1d42c180772e658416da692617860a75\"",
+        "sha": "69452c3b1d42c180772e658416da692617860a75",
+        "size": 4971,
+        "fetched_at": "2026-11-25T13:10:14.324293+00:00",
+        "status": "ok"
+      }
     },
     "joshwcomeau/button-sounds": {
       "lists": [
@@ -257984,7 +258000,15 @@
         "pushed_at": "2026-11-24T21:54:36Z",
         "starred_at": "2026-11-25T05:02:53Z"
       },
-      "last_updated": "2026-11-25T12:58:44.485103+00:00"
+      "last_updated": "2026-11-25T12:58:44.485103+00:00",
+      "readme": {
+        "path": "readmes/joshwcomeau+button-sounds+README.md",
+        "etag": "W/\"db3c9315e82267a96ed4926b7734a135c877729f\"",
+        "sha": "db3c9315e82267a96ed4926b7734a135c877729f",
+        "size": 4731,
+        "fetched_at": "2026-11-25T13:10:15.457549+00:00",
+        "status": "ok"
+      }
     },
     "oar-team/nixos-compose": {
       "lists": [
@@ -258006,7 +258030,15 @@
         "pushed_at": "2026-05-26T13:39:56Z",
         "starred_at": "2026-11-25T02:31:14Z"
       },
-      "last_updated": "2026-11-25T12:58:44.838559+00:00"
+      "last_updated": "2026-11-25T12:58:44.838559+00:00",
+      "readme": {
+        "path": "readmes/oar-team+nixos-compose+README.md",
+        "etag": "W/\"9db27d8b1520cfb5c858d1b8e7e3aab8aeb3db05\"",
+        "sha": "9db27d8b1520cfb5c858d1b8e7e3aab8aeb3db05",
+        "size": 1170,
+        "fetched_at": "2026-11-25T13:10:16.270527+00:00",
+        "status": "ok"
+      }
     },
     "ebu/ograf": {
       "lists": [
@@ -258028,7 +258060,15 @@
         "pushed_at": "2026-10-29T14:54:35Z",
         "starred_at": "2026-11-25T00:37:51Z"
       },
-      "last_updated": "2026-11-25T12:58:45.171077+00:00"
+      "last_updated": "2026-11-25T12:58:45.171077+00:00",
+      "readme": {
+        "path": "readmes/ebu+ograf+README.md",
+        "etag": "W/\"eef6773823a5f2ce2b6a95057a4cdc51b42df0cf\"",
+        "sha": "eef6773823a5f2ce2b6a95057a4cdc51b42df0cf",
+        "size": 2253,
+        "fetched_at": "2026-11-25T13:10:14.751586+00:00",
+        "status": "ok"
+      }
     },
     "4lwayz/portwatch-vi": {
       "lists": [
@@ -258050,7 +258090,15 @@
         "pushed_at": "2026-11-25T12:28:22Z",
         "starred_at": "2026-11-25T00:29:21Z"
       },
-      "last_updated": "2026-11-25T12:58:45.509158+00:00"
+      "last_updated": "2026-11-25T12:58:45.509158+00:00",
+      "readme": {
+        "path": "readmes/4lwayz+portwatch-vi+README.md",
+        "etag": "W/\"502b56ad752783b3a640015dae1ed1bf47b06fef\"",
+        "sha": "502b56ad752783b3a640015dae1ed1bf47b06fef",
+        "size": 8624,
+        "fetched_at": "2026-11-25T13:10:13.926938+00:00",
+        "status": "ok"
+      }
     },
     "fzakaria/rewindvm": {
       "lists": [
@@ -258074,7 +258122,15 @@
         "pushed_at": "2026-11-25T05:06:49Z",
         "starred_at": "2026-11-24T17:08:50Z"
       },
-      "last_updated": "2026-11-25T12:58:45.828044+00:00"
+      "last_updated": "2026-11-25T12:58:45.828044+00:00",
+      "readme": {
+        "path": "readmes/fzakaria+rewindvm+README.md",
+        "etag": "W/\"d185b3b20c169be61055445ed8697a1e976a2c9e\"",
+        "sha": "d185b3b20c169be61055445ed8697a1e976a2c9e",
+        "size": 17621,
+        "fetched_at": "2026-11-25T13:10:15.095129+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
