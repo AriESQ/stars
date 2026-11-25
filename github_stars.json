@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T13:57:53.612342+00:00",
+  "last_updated": "2026-11-25T12:58:45.828172+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -257919,6 +257919,146 @@
         "fetched_at": "2026-11-24T13:57:53.271278+00:00",
         "status": "ok"
       }
+    },
+    "pschatzmann/TinyWifiDongle": {
+      "lists": [],
+      "metadata": {
+        "id": 1439548520,
+        "name": "TinyWifiDongle",
+        "full_name": "pschatzmann/TinyWifiDongle",
+        "description": "A Header-Only C++ Arduino library that turns a Microcontroller into a USB WiFi dongle",
+        "url": "https://github.com/pschatzmann/TinyWifiDongle",
+        "homepage": "",
+        "language": "C++",
+        "stars": 52,
+        "forks": 5,
+        "open_issues": 0,
+        "created_at": "2026-10-30T09:55:35Z",
+        "updated_at": "2026-11-25T07:04:55Z",
+        "pushed_at": "2026-10-30T13:36:57Z",
+        "starred_at": "2026-11-25T07:04:55Z"
+      },
+      "last_updated": "2026-11-25T12:58:43.856978+00:00"
+    },
+    "DrWhax/esp32-usb-wifi": {
+      "lists": [],
+      "metadata": {
+        "id": 1305342732,
+        "name": "esp32-usb-wifi",
+        "full_name": "DrWhax/esp32-usb-wifi",
+        "description": "a driverless USB Wi-Fi adapter (USB CDC-NCM device bridging to a Wi-Fi station",
+        "url": "https://github.com/DrWhax/esp32-usb-wifi",
+        "homepage": null,
+        "language": "C",
+        "stars": 10,
+        "forks": 1,
+        "open_issues": 2,
+        "created_at": "2026-07-19T01:42:51Z",
+        "updated_at": "2026-11-25T12:56:49Z",
+        "pushed_at": "2026-07-21T17:35:04Z",
+        "starred_at": "2026-11-25T07:03:21Z"
+      },
+      "last_updated": "2026-11-25T12:58:44.145319+00:00"
+    },
+    "joshwcomeau/button-sounds": {
+      "lists": [],
+      "metadata": {
+        "id": 1380226222,
+        "name": "button-sounds",
+        "full_name": "joshwcomeau/button-sounds",
+        "description": null,
+        "url": "https://github.com/joshwcomeau/button-sounds",
+        "homepage": "https://buttons.joshwcomeau.com/",
+        "language": "TypeScript",
+        "stars": 267,
+        "forks": 9,
+        "open_issues": 2,
+        "created_at": "2026-09-21T17:30:06Z",
+        "updated_at": "2026-11-25T12:57:53Z",
+        "pushed_at": "2026-11-24T21:54:36Z",
+        "starred_at": "2026-11-25T05:02:53Z"
+      },
+      "last_updated": "2026-11-25T12:58:44.485103+00:00"
+    },
+    "oar-team/nixos-compose": {
+      "lists": [],
+      "metadata": {
+        "id": 553015701,
+        "name": "nixos-compose",
+        "full_name": "oar-team/nixos-compose",
+        "description": "Ease reproducible experiments of distributed systems",
+        "url": "https://github.com/oar-team/nixos-compose",
+        "homepage": "",
+        "language": "Python",
+        "stars": 36,
+        "forks": 5,
+        "open_issues": 3,
+        "created_at": "2022-10-17T15:23:52Z",
+        "updated_at": "2026-11-25T02:31:14Z",
+        "pushed_at": "2026-05-26T13:39:56Z",
+        "starred_at": "2026-11-25T02:31:14Z"
+      },
+      "last_updated": "2026-11-25T12:58:44.838559+00:00"
+    },
+    "ebu/ograf": {
+      "lists": [],
+      "metadata": {
+        "id": 943273684,
+        "name": "ograf",
+        "full_name": "ebu/ograf",
+        "description": "OGraf is an Open specification for HTML based Graphics, used in live television and post production workflows.",
+        "url": "https://github.com/ebu/ograf",
+        "homepage": "https://ograf.ebu.io",
+        "language": "JavaScript",
+        "stars": 150,
+        "forks": 18,
+        "open_issues": 17,
+        "created_at": "2025-03-05T12:49:36Z",
+        "updated_at": "2026-11-25T00:37:52Z",
+        "pushed_at": "2026-10-29T14:54:35Z",
+        "starred_at": "2026-11-25T00:37:51Z"
+      },
+      "last_updated": "2026-11-25T12:58:45.171077+00:00"
+    },
+    "4lwayz/portwatch-vi": {
+      "lists": [],
+      "metadata": {
+        "id": 1467035512,
+        "name": "portwatch-vi",
+        "full_name": "4lwayz/portwatch-vi",
+        "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+        "url": "https://github.com/4lwayz/portwatch-vi",
+        "homepage": "portwatch-vi.xyz",
+        "language": "JavaScript",
+        "stars": 3360,
+        "forks": 93,
+        "open_issues": 77,
+        "created_at": "2026-11-21T23:16:41Z",
+        "updated_at": "2026-11-25T12:58:35Z",
+        "pushed_at": "2026-11-25T12:28:22Z",
+        "starred_at": "2026-11-25T00:29:21Z"
+      },
+      "last_updated": "2026-11-25T12:58:45.509158+00:00"
+    },
+    "fzakaria/rewindvm": {
+      "lists": [],
+      "metadata": {
+        "id": 1398732423,
+        "name": "rewindvm",
+        "full_name": "fzakaria/rewindvm",
+        "description": "Deterministic Linux VMs you can scrub, rewind and fork. Find and replay flaky builds and tests.",
+        "url": "https://github.com/fzakaria/rewindvm",
+        "homepage": "https://rewindvm.dev/",
+        "language": "Rust",
+        "stars": 224,
+        "forks": 7,
+        "open_issues": 0,
+        "created_at": "2026-09-30T20:54:55Z",
+        "updated_at": "2026-11-25T12:26:21Z",
+        "pushed_at": "2026-11-25T05:06:49Z",
+        "starred_at": "2026-11-24T17:08:50Z"
+      },
+      "last_updated": "2026-11-25T12:58:45.828044+00:00"
     }
   },
   "last_processed_index": 0,
@@ -257928,5 +258068,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"687e11df4e1f1449f536e4abee0f1067cc095e68d7f96a8c1596152a5d0901b5\""
+  "profile_etag": "W/\"5da8a7ff619ea64a430e78c8f6b1cd73c51d5e41695143c556e1716a1deccfc6\""
 }
