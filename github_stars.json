@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T12:58:45.828172+00:00",
+  "last_updated": "2026-11-25T13:09:34.140419+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -124513,7 +124513,8 @@
     "Comfy-Org/ComfyUI": {
       "lists": [
         "Machine Learning",
-        "Music and Video"
+        "Music and Video",
+        "Python"
       ],
       "metadata": {
         "id": 589831718,
@@ -257941,7 +257942,9 @@
       "last_updated": "2026-11-25T12:58:43.856978+00:00"
     },
     "DrWhax/esp32-usb-wifi": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 1305342732,
         "name": "esp32-usb-wifi",
@@ -257961,7 +257964,10 @@
       "last_updated": "2026-11-25T12:58:44.145319+00:00"
     },
     "joshwcomeau/button-sounds": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1380226222,
         "name": "button-sounds",
@@ -257981,7 +257987,9 @@
       "last_updated": "2026-11-25T12:58:44.485103+00:00"
     },
     "oar-team/nixos-compose": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 553015701,
         "name": "nixos-compose",
@@ -258001,7 +258009,9 @@
       "last_updated": "2026-11-25T12:58:44.838559+00:00"
     },
     "ebu/ograf": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 943273684,
         "name": "ograf",
@@ -258021,7 +258031,9 @@
       "last_updated": "2026-11-25T12:58:45.171077+00:00"
     },
     "4lwayz/portwatch-vi": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1467035512,
         "name": "portwatch-vi",
@@ -258041,7 +258053,11 @@
       "last_updated": "2026-11-25T12:58:45.509158+00:00"
     },
     "fzakaria/rewindvm": {
-      "lists": [],
+      "lists": [
+        "Devops",
+        "Linux CLI Tools",
+        "Rust"
+      ],
       "metadata": {
         "id": 1398732423,
         "name": "rewindvm",
