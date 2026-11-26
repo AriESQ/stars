@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T12:47:45.056345+00:00",
+  "last_updated": "2026-11-26T12:48:09.189437+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -258154,7 +258154,15 @@
         "pushed_at": "2026-11-06T08:42:41Z",
         "starred_at": "2026-11-26T04:57:58Z"
       },
-      "last_updated": "2026-11-26T12:37:14.749834+00:00"
+      "last_updated": "2026-11-26T12:37:14.749834+00:00",
+      "readme": {
+        "path": "readmes/arjun988+blender-skills+README.md",
+        "etag": "W/\"9b8bf1f445ac7c7f1855a838da4989440bc7d78f\"",
+        "sha": "9b8bf1f445ac7c7f1855a838da4989440bc7d78f",
+        "size": 10285,
+        "fetched_at": "2026-11-26T12:48:05.717119+00:00",
+        "status": "ok"
+      }
     },
     "blackdev43/bluestacks": {
       "lists": [
@@ -258177,7 +258185,15 @@
         "pushed_at": "2026-11-25T11:47:45Z",
         "starred_at": "2026-11-26T03:36:07Z"
       },
-      "last_updated": "2026-11-26T12:37:15.070059+00:00"
+      "last_updated": "2026-11-26T12:37:15.070059+00:00",
+      "readme": {
+        "path": "readmes/blackdev43+bluestacks+README.md",
+        "etag": "W/\"e9c21494405a540e0dcaf10562b77f3dfaa5016b\"",
+        "sha": "e9c21494405a540e0dcaf10562b77f3dfaa5016b",
+        "size": 7319,
+        "fetched_at": "2026-11-26T12:48:06.076022+00:00",
+        "status": "ok"
+      }
     },
     "EL4CTEO/blender-skills": {
       "lists": [
@@ -258199,7 +258215,15 @@
         "pushed_at": "2026-11-21T14:35:50Z",
         "starred_at": "2026-11-26T03:03:06Z"
       },
-      "last_updated": "2026-11-26T12:37:15.396839+00:00"
+      "last_updated": "2026-11-26T12:37:15.396839+00:00",
+      "readme": {
+        "path": "readmes/EL4CTEO+blender-skills+README.md",
+        "etag": "W/\"bf16651dc5cade9014fa0a5d127f563efc3629d2\"",
+        "sha": "bf16651dc5cade9014fa0a5d127f563efc3629d2",
+        "size": 4417,
+        "fetched_at": "2026-11-26T12:48:03.436540+00:00",
+        "status": "ok"
+      }
     },
     "freshtechbro/claudedesignskills": {
       "lists": [
@@ -258221,7 +258245,15 @@
         "pushed_at": "2025-11-20T01:58:04Z",
         "starred_at": "2026-11-26T03:01:40Z"
       },
-      "last_updated": "2026-11-26T12:37:15.748328+00:00"
+      "last_updated": "2026-11-26T12:37:15.748328+00:00",
+      "readme": {
+        "path": "readmes/freshtechbro+claudedesignskills+README.md",
+        "etag": "W/\"5e85d1c911805f1ff5a9dc3ff0ada454eeb0aadb\"",
+        "sha": "5e85d1c911805f1ff5a9dc3ff0ada454eeb0aadb",
+        "size": 10238,
+        "fetched_at": "2026-11-26T12:48:06.424703+00:00",
+        "status": "ok"
+      }
     },
     "RobLe3/cc-blender-skill": {
       "lists": [
@@ -258243,7 +258275,15 @@
         "pushed_at": "2026-10-12T15:39:04Z",
         "starred_at": "2026-11-26T02:59:49Z"
       },
-      "last_updated": "2026-11-26T12:37:16.041229+00:00"
+      "last_updated": "2026-11-26T12:37:16.041229+00:00",
+      "readme": {
+        "path": "readmes/RobLe3+cc-blender-skill+README.md",
+        "etag": "W/\"eb03cf8b0b40814522389ae9e3868236f169104d\"",
+        "sha": "eb03cf8b0b40814522389ae9e3868236f169104d",
+        "size": 23256,
+        "fetched_at": "2026-11-26T12:48:04.190468+00:00",
+        "status": "ok"
+      }
     },
     "SFKislev/Flue": {
       "lists": [
@@ -258265,7 +258305,15 @@
         "pushed_at": "2026-10-18T06:56:37Z",
         "starred_at": "2026-11-26T02:56:47Z"
       },
-      "last_updated": "2026-11-26T12:37:16.424746+00:00"
+      "last_updated": "2026-11-26T12:37:16.424746+00:00",
+      "readme": {
+        "path": "readmes/SFKislev+Flue+README.md",
+        "etag": "W/\"60d00d2bc8054a2a2695b13725801c107a38165e\"",
+        "sha": "60d00d2bc8054a2a2695b13725801c107a38165e",
+        "size": 4857,
+        "fetched_at": "2026-11-26T12:48:04.535995+00:00",
+        "status": "ok"
+      }
     },
     "apache/nuttx": {
       "lists": [
@@ -258287,7 +258335,15 @@
         "pushed_at": "2026-11-26T12:34:40Z",
         "starred_at": "2026-11-25T22:59:00Z"
       },
-      "last_updated": "2026-11-26T12:37:16.766335+00:00"
+      "last_updated": "2026-11-26T12:37:16.766335+00:00",
+      "readme": {
+        "path": "readmes/apache+nuttx+README.md",
+        "etag": "W/\"2adc6f705168ae5f47d6659f94ecf28cfdb04a65\"",
+        "sha": "2adc6f705168ae5f47d6659f94ecf28cfdb04a65",
+        "size": 3020,
+        "fetched_at": "2026-11-26T12:48:05.374750+00:00",
+        "status": "ok"
+      }
     },
     "heygen-com/hyperframes-community-skills": {
       "lists": [
@@ -258309,7 +258365,15 @@
         "pushed_at": "2026-11-24T02:32:24Z",
         "starred_at": "2026-11-25T20:49:23Z"
       },
-      "last_updated": "2026-11-26T12:37:17.104764+00:00"
+      "last_updated": "2026-11-26T12:37:17.104764+00:00",
+      "readme": {
+        "path": "readmes/heygen-com+hyperframes-community-skills+README.md",
+        "etag": "W/\"0a019dd5c25cbc3b74964938eba72a25c7351f1c\"",
+        "sha": "0a019dd5c25cbc3b74964938eba72a25c7351f1c",
+        "size": 5955,
+        "fetched_at": "2026-11-26T12:48:07.098697+00:00",
+        "status": "ok"
+      }
     },
     "tebjan/vvvv-skills": {
       "lists": [
@@ -258332,7 +258396,15 @@
         "pushed_at": "2026-11-05T17:00:23Z",
         "starred_at": "2026-11-25T20:40:07Z"
       },
-      "last_updated": "2026-11-26T12:37:17.460011+00:00"
+      "last_updated": "2026-11-26T12:37:17.460011+00:00",
+      "readme": {
+        "path": "readmes/tebjan+vvvv-skills+README.md",
+        "etag": "W/\"27673d43e3370ec025cf16b7c3b3f4d419b0267c\"",
+        "sha": "27673d43e3370ec025cf16b7c3b3f4d419b0267c",
+        "size": 9461,
+        "fetched_at": "2026-11-26T12:48:09.187757+00:00",
+        "status": "ok"
+      }
     },
     "sw33tLie/bbscope": {
       "lists": [
@@ -258357,7 +258429,15 @@
         "pushed_at": "2026-11-17T01:55:58Z",
         "starred_at": "2026-11-25T19:45:52Z"
       },
-      "last_updated": "2026-11-26T12:37:17.844646+00:00"
+      "last_updated": "2026-11-26T12:37:17.844646+00:00",
+      "readme": {
+        "path": "readmes/sw33tLie+bbscope+README.md",
+        "etag": "W/\"012f18e0fd817804504ac6804b28cb9a470ed141\"",
+        "sha": "012f18e0fd817804504ac6804b28cb9a470ed141",
+        "size": 13722,
+        "fetched_at": "2026-11-26T12:48:08.625411+00:00",
+        "status": "ok"
+      }
     },
     "jaydens-tasty-slop/rockbox": {
       "lists": [
@@ -258380,7 +258460,15 @@
         "pushed_at": "2026-11-22T01:06:30Z",
         "starred_at": "2026-11-25T18:46:20Z"
       },
-      "last_updated": "2026-11-26T12:37:18.179033+00:00"
+      "last_updated": "2026-11-26T12:37:18.179033+00:00",
+      "readme": {
+        "path": "readmes/jaydens-tasty-slop+rockbox+README",
+        "etag": "W/\"4e591df1f075838516b39870131600b0720e4938\"",
+        "sha": "4e591df1f075838516b39870131600b0720e4938",
+        "size": 2311,
+        "fetched_at": "2026-11-26T12:48:07.464428+00:00",
+        "status": "ok"
+      }
     },
     "openldap/openldap": {
       "lists": [
@@ -258406,7 +258494,15 @@
         "pushed_at": "2026-11-24T16:12:50Z",
         "starred_at": "2026-11-25T15:35:47Z"
       },
-      "last_updated": "2026-11-26T12:37:18.576302+00:00"
+      "last_updated": "2026-11-26T12:37:18.576302+00:00",
+      "readme": {
+        "path": "readmes/openldap+openldap+README",
+        "etag": "W/\"4cd0beeb7a461dd80ea2d0404b8eafe43b0004a4\"",
+        "sha": "4cd0beeb7a461dd80ea2d0404b8eafe43b0004a4",
+        "size": 1584,
+        "fetched_at": "2026-11-26T12:48:08.249672+00:00",
+        "status": "ok"
+      }
     },
     "389ds/389-ds-base": {
       "lists": [
@@ -258432,7 +258528,15 @@
         "pushed_at": "2026-11-25T22:25:47Z",
         "starred_at": "2026-11-25T15:34:42Z"
       },
-      "last_updated": "2026-11-26T12:37:18.860079+00:00"
+      "last_updated": "2026-11-26T12:37:18.860079+00:00",
+      "readme": {
+        "path": "readmes/389ds+389-ds-base+README.md",
+        "etag": "W/\"d26633aa2ed4dca40b24016e2ccc31e0e25ad599\"",
+        "sha": "d26633aa2ed4dca40b24016e2ccc31e0e25ad599",
+        "size": 1698,
+        "fetched_at": "2026-11-26T12:48:03.055684+00:00",
+        "status": "ok"
+      }
     },
     "glauth/glauth": {
       "lists": [
@@ -258459,7 +258563,15 @@
         "pushed_at": "2026-11-21T21:59:05Z",
         "starred_at": "2026-11-25T15:33:52Z"
       },
-      "last_updated": "2026-11-26T12:37:19.184078+00:00"
+      "last_updated": "2026-11-26T12:37:19.184078+00:00",
+      "readme": {
+        "path": "readmes/glauth+glauth+README.md",
+        "etag": "W/\"546c67f150ad18691fb4acac560be29f4a5d27d5\"",
+        "sha": "546c67f150ad18691fb4acac560be29f4a5d27d5",
+        "size": 4891,
+        "fetched_at": "2026-11-26T12:48:06.751462+00:00",
+        "status": "ok"
+      }
     },
     "OpenIdentityPlatform/OpenDJ": {
       "lists": [
@@ -258484,7 +258596,15 @@
         "pushed_at": "2026-11-26T11:10:48Z",
         "starred_at": "2026-11-25T15:33:06Z"
       },
-      "last_updated": "2026-11-26T12:37:19.564264+00:00"
+      "last_updated": "2026-11-26T12:37:19.564264+00:00",
+      "readme": {
+        "path": "readmes/OpenIdentityPlatform+OpenDJ+README.md",
+        "etag": "W/\"d4d1fa0924b263149be394c1c60045c70dbc7356\"",
+        "sha": "d4d1fa0924b263149be394c1c60045c70dbc7356",
+        "size": 5189,
+        "fetched_at": "2026-11-26T12:48:03.779220+00:00",
+        "status": "ok"
+      }
     },
     "VibhuviOiO/openldap-docker": {
       "lists": [
@@ -258510,7 +258630,15 @@
         "pushed_at": "2026-11-21T09:32:17Z",
         "starred_at": "2026-11-25T15:32:22Z"
       },
-      "last_updated": "2026-11-26T12:37:19.916267+00:00"
+      "last_updated": "2026-11-26T12:37:19.916267+00:00",
+      "readme": {
+        "path": "readmes/VibhuviOiO+openldap-docker+README.md",
+        "etag": "W/\"9dee5dbf2573b7ae3b70c62311410e3867cfac33\"",
+        "sha": "9dee5dbf2573b7ae3b70c62311410e3867cfac33",
+        "size": 19941,
+        "fetched_at": "2026-11-26T12:48:05.037671+00:00",
+        "status": "ok"
+      }
     },
     "n8n-io/nod": {
       "lists": [
@@ -258532,7 +258660,15 @@
         "pushed_at": "2026-11-26T12:35:39Z",
         "starred_at": "2026-11-25T15:25:47Z"
       },
-      "last_updated": "2026-11-26T12:37:20.316102+00:00"
+      "last_updated": "2026-11-26T12:37:20.316102+00:00",
+      "readme": {
+        "path": "readmes/n8n-io+nod+README.md",
+        "etag": "W/\"bbfc9d699f5082c0d73d48494e2edabbb51d7357\"",
+        "sha": "bbfc9d699f5082c0d73d48494e2edabbb51d7357",
+        "size": 19311,
+        "fetched_at": "2026-11-26T12:48:07.837586+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
