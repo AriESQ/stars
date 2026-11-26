@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T12:37:20.316210+00:00",
+  "last_updated": "2026-11-26T12:47:45.056345+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -255860,7 +255860,8 @@
     },
     "microsoft/Procexp-Mac": {
       "lists": [
-        "Apple and M1 virtualization"
+        "Apple and M1 virtualization",
+        "Windows"
       ],
       "metadata": {
         "id": 1291511187,
@@ -258133,7 +258134,10 @@
       }
     },
     "arjun988/blender-skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1289817225,
         "name": "blender-skills",
@@ -258153,7 +258157,10 @@
       "last_updated": "2026-11-26T12:37:14.749834+00:00"
     },
     "blackdev43/bluestacks": {
-      "lists": [],
+      "lists": [
+        "Music and Video",
+        "Windows"
+      ],
       "metadata": {
         "id": 1470125402,
         "name": "bluestacks",
@@ -258173,7 +258180,9 @@
       "last_updated": "2026-11-26T12:37:15.070059+00:00"
     },
     "EL4CTEO/blender-skills": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1419708427,
         "name": "blender-skills",
@@ -258193,7 +258202,9 @@
       "last_updated": "2026-11-26T12:37:15.396839+00:00"
     },
     "freshtechbro/claudedesignskills": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1083248160,
         "name": "claudedesignskills",
@@ -258213,7 +258224,9 @@
       "last_updated": "2026-11-26T12:37:15.748328+00:00"
     },
     "RobLe3/cc-blender-skill": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1222745356,
         "name": "cc-blender-skill",
@@ -258233,7 +258246,9 @@
       "last_updated": "2026-11-26T12:37:16.041229+00:00"
     },
     "SFKislev/Flue": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1213281616,
         "name": "Flue",
@@ -258253,7 +258268,9 @@
       "last_updated": "2026-11-26T12:37:16.424746+00:00"
     },
     "apache/nuttx": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 228103273,
         "name": "nuttx",
@@ -258273,7 +258290,9 @@
       "last_updated": "2026-11-26T12:37:16.766335+00:00"
     },
     "heygen-com/hyperframes-community-skills": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1345718310,
         "name": "hyperframes-community-skills",
@@ -258293,7 +258312,10 @@
       "last_updated": "2026-11-26T12:37:17.104764+00:00"
     },
     "tebjan/vvvv-skills": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1157495102,
         "name": "vvvv-skills",
@@ -258313,7 +258335,12 @@
       "last_updated": "2026-11-26T12:37:17.460011+00:00"
     },
     "sw33tLie/bbscope": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Devops",
+        "GoLang",
+        "Infosec"
+      ],
       "metadata": {
         "id": 318600060,
         "name": "bbscope",
@@ -258333,7 +258360,10 @@
       "last_updated": "2026-11-26T12:37:17.844646+00:00"
     },
     "jaydens-tasty-slop/rockbox": {
-      "lists": [],
+      "lists": [
+        "DIY",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1466935464,
         "name": "rockbox",
@@ -258353,7 +258383,13 @@
       "last_updated": "2026-11-26T12:37:18.179033+00:00"
     },
     "openldap/openldap": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Authentication",
+        "Devops",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 57230414,
         "name": "openldap",
@@ -258373,7 +258409,13 @@
       "last_updated": "2026-11-26T12:37:18.576302+00:00"
     },
     "389ds/389-ds-base": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Authentication",
+        "Devops",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 294943581,
         "name": "389-ds-base",
@@ -258393,7 +258435,14 @@
       "last_updated": "2026-11-26T12:37:18.860079+00:00"
     },
     "glauth/glauth": {
-      "lists": [],
+      "lists": [
+        "API",
+        "Authentication",
+        "Devops",
+        "GoLang",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 130928221,
         "name": "glauth",
@@ -258413,7 +258462,12 @@
       "last_updated": "2026-11-26T12:37:19.184078+00:00"
     },
     "OpenIdentityPlatform/OpenDJ": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "Devops",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 106611094,
         "name": "OpenDJ",
@@ -258433,7 +258487,13 @@
       "last_updated": "2026-11-26T12:37:19.564264+00:00"
     },
     "VibhuviOiO/openldap-docker": {
-      "lists": [],
+      "lists": [
+        "Authentication",
+        "Devops",
+        "Docker and OCI containers",
+        "Infosec",
+        "PKI"
+      ],
       "metadata": {
         "id": 815082662,
         "name": "openldap-docker",
@@ -258453,7 +258513,9 @@
       "last_updated": "2026-11-26T12:37:19.916267+00:00"
     },
     "n8n-io/nod": {
-      "lists": [],
+      "lists": [
+        "JavaScript"
+      ],
       "metadata": {
         "id": 1387586059,
         "name": "nod",
