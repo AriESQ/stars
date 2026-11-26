@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T13:10:16.867516+00:00",
+  "last_updated": "2026-11-26T12:37:20.316210+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -258131,6 +258131,346 @@
         "fetched_at": "2026-11-25T13:10:15.095129+00:00",
         "status": "ok"
       }
+    },
+    "arjun988/blender-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1289817225,
+        "name": "blender-skills",
+        "full_name": "arjun988/blender-skills",
+        "description": "94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.",
+        "url": "https://github.com/arjun988/blender-skills",
+        "homepage": "https://blender-skills.vercel.app",
+        "language": "TypeScript",
+        "stars": 5001,
+        "forks": 461,
+        "open_issues": 6,
+        "created_at": "2026-07-05T08:36:06Z",
+        "updated_at": "2026-11-26T12:09:26Z",
+        "pushed_at": "2026-11-06T08:42:41Z",
+        "starred_at": "2026-11-26T04:57:58Z"
+      },
+      "last_updated": "2026-11-26T12:37:14.749834+00:00"
+    },
+    "blackdev43/bluestacks": {
+      "lists": [],
+      "metadata": {
+        "id": 1470125402,
+        "name": "bluestacks",
+        "full_name": "blackdev43/bluestacks",
+        "description": "Bluestacks for Windows 10/11. Runs Android apps and games on your PC in a resizable window, letting you install titles from the Play Store and control them with a keyboard, mouse or gamepad.",
+        "url": "https://github.com/blackdev43/bluestacks",
+        "homepage": "https://blackdev43.github.io/bluestacks/",
+        "language": null,
+        "stars": 200,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-24T12:20:44Z",
+        "updated_at": "2026-11-26T12:34:39Z",
+        "pushed_at": "2026-11-25T11:47:45Z",
+        "starred_at": "2026-11-26T03:36:07Z"
+      },
+      "last_updated": "2026-11-26T12:37:15.070059+00:00"
+    },
+    "EL4CTEO/blender-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1419708427,
+        "name": "blender-skills",
+        "full_name": "EL4CTEO/blender-skills",
+        "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+        "url": "https://github.com/EL4CTEO/blender-skills",
+        "homepage": "",
+        "language": "Python",
+        "stars": 2937,
+        "forks": 290,
+        "open_issues": 1,
+        "created_at": "2026-10-14T19:08:14Z",
+        "updated_at": "2026-11-26T12:31:24Z",
+        "pushed_at": "2026-11-21T14:35:50Z",
+        "starred_at": "2026-11-26T03:03:06Z"
+      },
+      "last_updated": "2026-11-26T12:37:15.396839+00:00"
+    },
+    "freshtechbro/claudedesignskills": {
+      "lists": [],
+      "metadata": {
+        "id": 1083248160,
+        "name": "claudedesignskills",
+        "full_name": "freshtechbro/claudedesignskills",
+        "description": "A comprehensive collection of Claude Code skills for modern web development, specializing in 3D graphics, animation, and interactive web experiences.",
+        "url": "https://github.com/freshtechbro/claudedesignskills",
+        "homepage": null,
+        "language": "Python",
+        "stars": 1452,
+        "forks": 226,
+        "open_issues": 7,
+        "created_at": "2025-10-25T16:30:04Z",
+        "updated_at": "2026-11-26T10:27:08Z",
+        "pushed_at": "2025-11-20T01:58:04Z",
+        "starred_at": "2026-11-26T03:01:40Z"
+      },
+      "last_updated": "2026-11-26T12:37:15.748328+00:00"
+    },
+    "RobLe3/cc-blender-skill": {
+      "lists": [],
+      "metadata": {
+        "id": 1222745356,
+        "name": "cc-blender-skill",
+        "full_name": "RobLe3/cc-blender-skill",
+        "description": "Claude Code skill plugin: drive Blender 5.x like a senior 3D artist via natural language. 10 chain-loadable skills (modeling, materials, lighting, cameras, rendering, animation, export, wireframe-to-3d, pro-workflow). Validated on 6 scene classes.",
+        "url": "https://github.com/RobLe3/cc-blender-skill",
+        "homepage": "https://github.com/RobLe3/cc-blender-skill/blob/main/README.md",
+        "language": "Python",
+        "stars": 187,
+        "forks": 22,
+        "open_issues": 0,
+        "created_at": "2026-04-27T17:03:58Z",
+        "updated_at": "2026-11-26T02:59:50Z",
+        "pushed_at": "2026-10-12T15:39:04Z",
+        "starred_at": "2026-11-26T02:59:49Z"
+      },
+      "last_updated": "2026-11-26T12:37:16.041229+00:00"
+    },
+    "SFKislev/Flue": {
+      "lists": [],
+      "metadata": {
+        "id": 1213281616,
+        "name": "Flue",
+        "full_name": "SFKislev/Flue",
+        "description": "Let agents control many desktop software directly from the cli, with one pip install, and no MCP servers.",
+        "url": "https://github.com/SFKislev/Flue",
+        "homepage": "",
+        "language": "Python",
+        "stars": 112,
+        "forks": 5,
+        "open_issues": 1,
+        "created_at": "2026-04-17T08:12:35Z",
+        "updated_at": "2026-11-26T02:56:47Z",
+        "pushed_at": "2026-10-18T06:56:37Z",
+        "starred_at": "2026-11-26T02:56:47Z"
+      },
+      "last_updated": "2026-11-26T12:37:16.424746+00:00"
+    },
+    "apache/nuttx": {
+      "lists": [],
+      "metadata": {
+        "id": 228103273,
+        "name": "nuttx",
+        "full_name": "apache/nuttx",
+        "description": "Apache NuttX is a mature, real-time embedded operating system (RTOS)",
+        "url": "https://github.com/apache/nuttx",
+        "homepage": "https://nuttx.apache.org/",
+        "language": "C",
+        "stars": 4135,
+        "forks": 1784,
+        "open_issues": 696,
+        "created_at": "2019-12-14T23:27:55Z",
+        "updated_at": "2026-11-26T09:03:56Z",
+        "pushed_at": "2026-11-26T12:34:40Z",
+        "starred_at": "2026-11-25T22:59:00Z"
+      },
+      "last_updated": "2026-11-26T12:37:16.766335+00:00"
+    },
+    "heygen-com/hyperframes-community-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1345718310,
+        "name": "hyperframes-community-skills",
+        "full_name": "heygen-com/hyperframes-community-skills",
+        "description": "Community-maintained skills for specialized HyperFrames workflows.",
+        "url": "https://github.com/heygen-com/hyperframes-community-skills",
+        "homepage": null,
+        "language": "JavaScript",
+        "stars": 300,
+        "forks": 28,
+        "open_issues": 11,
+        "created_at": "2026-08-25T05:26:54Z",
+        "updated_at": "2026-11-26T08:24:49Z",
+        "pushed_at": "2026-11-24T02:32:24Z",
+        "starred_at": "2026-11-25T20:49:23Z"
+      },
+      "last_updated": "2026-11-26T12:37:17.104764+00:00"
+    },
+    "tebjan/vvvv-skills": {
+      "lists": [],
+      "metadata": {
+        "id": 1157495102,
+        "name": "vvvv-skills",
+        "full_name": "tebjan/vvvv-skills",
+        "description": "Skills to help AI Agents master the vvvv gamma ecosystem",
+        "url": "https://github.com/tebjan/vvvv-skills",
+        "homepage": "https://vvvv.org",
+        "language": "Python",
+        "stars": 35,
+        "forks": 6,
+        "open_issues": 0,
+        "created_at": "2026-02-13T22:11:55Z",
+        "updated_at": "2026-11-25T20:40:08Z",
+        "pushed_at": "2026-11-05T17:00:23Z",
+        "starred_at": "2026-11-25T20:40:07Z"
+      },
+      "last_updated": "2026-11-26T12:37:17.460011+00:00"
+    },
+    "sw33tLie/bbscope": {
+      "lists": [],
+      "metadata": {
+        "id": 318600060,
+        "name": "bbscope",
+        "full_name": "sw33tLie/bbscope",
+        "description": "Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, and Immunefi!",
+        "url": "https://github.com/sw33tLie/bbscope",
+        "homepage": "https://bbscope.com",
+        "language": "Go",
+        "stars": 1459,
+        "forks": 214,
+        "open_issues": 18,
+        "created_at": "2020-12-04T18:15:17Z",
+        "updated_at": "2026-11-26T00:05:30Z",
+        "pushed_at": "2026-11-17T01:55:58Z",
+        "starred_at": "2026-11-25T19:45:52Z"
+      },
+      "last_updated": "2026-11-26T12:37:17.844646+00:00"
+    },
+    "jaydens-tasty-slop/rockbox": {
+      "lists": [],
+      "metadata": {
+        "id": 1466935464,
+        "name": "rockbox",
+        "full_name": "jaydens-tasty-slop/rockbox",
+        "description": "Rockbox for cheap MP3 players: the YP3 (SL6801) port, a Bluetooth stack, games",
+        "url": "https://github.com/jaydens-tasty-slop/rockbox",
+        "homepage": null,
+        "language": "C",
+        "stars": 3,
+        "forks": 1,
+        "open_issues": 1,
+        "created_at": "2026-11-21T20:37:43Z",
+        "updated_at": "2026-11-26T00:11:34Z",
+        "pushed_at": "2026-11-22T01:06:30Z",
+        "starred_at": "2026-11-25T18:46:20Z"
+      },
+      "last_updated": "2026-11-26T12:37:18.179033+00:00"
+    },
+    "openldap/openldap": {
+      "lists": [],
+      "metadata": {
+        "id": 57230414,
+        "name": "openldap",
+        "full_name": "openldap/openldap",
+        "description": "Mirror of OpenLDAP repository",
+        "url": "https://github.com/openldap/openldap",
+        "homepage": "http://www.openldap.org/devel/contributing.html",
+        "language": "C",
+        "stars": 613,
+        "forks": 214,
+        "open_issues": 0,
+        "created_at": "2016-04-27T16:53:11Z",
+        "updated_at": "2026-11-25T15:35:48Z",
+        "pushed_at": "2026-11-24T16:12:50Z",
+        "starred_at": "2026-11-25T15:35:47Z"
+      },
+      "last_updated": "2026-11-26T12:37:18.576302+00:00"
+    },
+    "389ds/389-ds-base": {
+      "lists": [],
+      "metadata": {
+        "id": 294943581,
+        "name": "389-ds-base",
+        "full_name": "389ds/389-ds-base",
+        "description": "The enterprise-class Open Source LDAP server for Linux",
+        "url": "https://github.com/389ds/389-ds-base",
+        "homepage": "https://www.port389.org/",
+        "language": "C",
+        "stars": 302,
+        "forks": 133,
+        "open_issues": 419,
+        "created_at": "2020-09-12T12:54:14Z",
+        "updated_at": "2026-11-25T15:34:42Z",
+        "pushed_at": "2026-11-25T22:25:47Z",
+        "starred_at": "2026-11-25T15:34:42Z"
+      },
+      "last_updated": "2026-11-26T12:37:18.860079+00:00"
+    },
+    "glauth/glauth": {
+      "lists": [],
+      "metadata": {
+        "id": 130928221,
+        "name": "glauth",
+        "full_name": "glauth/glauth",
+        "description": "A lightweight LDAP server for development, home use, or CI",
+        "url": "https://github.com/glauth/glauth",
+        "homepage": "",
+        "language": "Go",
+        "stars": 2868,
+        "forks": 249,
+        "open_issues": 31,
+        "created_at": "2018-04-25T00:20:14Z",
+        "updated_at": "2026-11-25T15:33:52Z",
+        "pushed_at": "2026-11-21T21:59:05Z",
+        "starred_at": "2026-11-25T15:33:52Z"
+      },
+      "last_updated": "2026-11-26T12:37:19.184078+00:00"
+    },
+    "OpenIdentityPlatform/OpenDJ": {
+      "lists": [],
+      "metadata": {
+        "id": 106611094,
+        "name": "OpenDJ",
+        "full_name": "OpenIdentityPlatform/OpenDJ",
+        "description": "OpenDJ is an open-source LDAP directory server written in Java. It provides robust, scalable, and secure directory services for identity management, access control, and authentication in enterprise environments. OpenDJ supports LDAPv3 standard, replication, REST APIs, and high-performance",
+        "url": "https://github.com/OpenIdentityPlatform/OpenDJ",
+        "homepage": "https://www.openidentityplatform.org/opendj",
+        "language": "Java",
+        "stars": 446,
+        "forks": 114,
+        "open_issues": 12,
+        "created_at": "2017-10-11T21:23:25Z",
+        "updated_at": "2026-11-25T15:33:06Z",
+        "pushed_at": "2026-11-26T11:10:48Z",
+        "starred_at": "2026-11-25T15:33:06Z"
+      },
+      "last_updated": "2026-11-26T12:37:19.564264+00:00"
+    },
+    "VibhuviOiO/openldap-docker": {
+      "lists": [],
+      "metadata": {
+        "id": 815082662,
+        "name": "openldap-docker",
+        "full_name": "VibhuviOiO/openldap-docker",
+        "description": "Production-ready OpenLDAP container with TLS, replication, overlays, and security hardening. Docker image: docker.io/vibhuvioio/openldap",
+        "url": "https://github.com/VibhuviOiO/openldap-docker",
+        "homepage": "https://vibhuvioio.com/openldap-docker/",
+        "language": "Shell",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 2,
+        "created_at": "2024-06-14T10:08:17Z",
+        "updated_at": "2026-11-25T15:32:23Z",
+        "pushed_at": "2026-11-21T09:32:17Z",
+        "starred_at": "2026-11-25T15:32:22Z"
+      },
+      "last_updated": "2026-11-26T12:37:19.916267+00:00"
+    },
+    "n8n-io/nod": {
+      "lists": [],
+      "metadata": {
+        "id": 1387586059,
+        "name": "nod",
+        "full_name": "n8n-io/nod",
+        "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+        "url": "https://github.com/n8n-io/nod",
+        "homepage": "https://nod.n8n.io/",
+        "language": "TypeScript",
+        "stars": 3758,
+        "forks": 596,
+        "open_issues": 73,
+        "created_at": "2026-09-25T13:46:42Z",
+        "updated_at": "2026-11-26T12:35:58Z",
+        "pushed_at": "2026-11-26T12:35:39Z",
+        "starred_at": "2026-11-25T15:25:47Z"
+      },
+      "last_updated": "2026-11-26T12:37:20.316102+00:00"
     }
   },
   "last_processed_index": 0,
@@ -258140,5 +258480,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"5da8a7ff619ea64a430e78c8f6b1cd73c51d5e41695143c556e1716a1deccfc6\""
+  "profile_etag": "W/\"f3affa9bc7058c9e31c2978b07041bc71f2645f914646ac367799d862ad462ab\""
 }
