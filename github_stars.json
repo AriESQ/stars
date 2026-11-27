@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T12:23:02.260306+00:00",
+  "last_updated": "2026-11-27T12:33:03.353887+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -7094,7 +7094,8 @@
     },
     "MODSetter/SurfSense": {
       "lists": [
-        "Machine Learning"
+        "Machine Learning",
+        "JavaScript"
       ],
       "metadata": {
         "id": 835975784,
@@ -258671,7 +258672,9 @@
       }
     },
     "gasparoff/rays": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1468010720,
         "name": "rays",
@@ -258691,7 +258694,10 @@
       "last_updated": "2026-11-27T12:22:57.974916+00:00"
     },
     "Vincentwei1021/video-shotcraft": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1305663861,
         "name": "video-shotcraft",
@@ -258711,7 +258717,11 @@
       "last_updated": "2026-11-27T12:22:58.357742+00:00"
     },
     "pmndrs/react-postprocessing": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 262026124,
         "name": "react-postprocessing",
@@ -258731,7 +258741,10 @@
       "last_updated": "2026-11-27T12:22:58.724631+00:00"
     },
     "joeseesun/opus-video-prompts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1389900426,
         "name": "opus-video-prompts",
@@ -258751,7 +258764,10 @@
       "last_updated": "2026-11-27T12:22:59.068233+00:00"
     },
     "yihui-dev/awesome-opus5-5-videos": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1390273274,
         "name": "awesome-opus5-5-videos",
@@ -258771,7 +258787,10 @@
       "last_updated": "2026-11-27T12:22:59.413972+00:00"
     },
     "patch-gg/pixelfx": {
-      "lists": [],
+      "lists": [
+        "Machine Learning",
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1439372976,
         "name": "pixelfx",
@@ -258791,7 +258810,10 @@
       "last_updated": "2026-11-27T12:22:59.761325+00:00"
     },
     "lemomo-ai/lemo-opuscar": {
-      "lists": [],
+      "lists": [
+        "JavaScript",
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1389011744,
         "name": "lemo-opuscar",
@@ -258811,7 +258833,9 @@
       "last_updated": "2026-11-27T12:23:00.076010+00:00"
     },
     "progrium/minipg": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 1427577741,
         "name": "minipg",
@@ -258831,7 +258855,9 @@
       "last_updated": "2026-11-27T12:23:00.438298+00:00"
     },
     "gary23w/f-ck_data_brokers": {
-      "lists": [],
+      "lists": [
+        "Python"
+      ],
       "metadata": {
         "id": 1473500322,
         "name": "f-ck_data_brokers",
@@ -258851,7 +258877,9 @@
       "last_updated": "2026-11-27T12:23:00.815592+00:00"
     },
     "progrium/hyper9": {
-      "lists": [],
+      "lists": [
+        "Devops"
+      ],
       "metadata": {
         "id": 1443350855,
         "name": "hyper9",
@@ -258871,7 +258899,9 @@
       "last_updated": "2026-11-27T12:23:01.147064+00:00"
     },
     "vnkbln/lottielume": {
-      "lists": [],
+      "lists": [
+        "Music and Video"
+      ],
       "metadata": {
         "id": 1464085596,
         "name": "lottielume",
@@ -258891,7 +258921,9 @@
       "last_updated": "2026-11-27T12:23:01.524504+00:00"
     },
     "stew675/llama-cpp-rdna-boosts": {
-      "lists": [],
+      "lists": [
+        "Machine Learning"
+      ],
       "metadata": {
         "id": 1346702053,
         "name": "llama-cpp-rdna-boosts",
@@ -258911,7 +258943,9 @@
       "last_updated": "2026-11-27T12:23:01.866501+00:00"
     },
     "OpenKinect/libfreenect2": {
-      "lists": [],
+      "lists": [
+        "DIY"
+      ],
       "metadata": {
         "id": 14847048,
         "name": "libfreenect2",
