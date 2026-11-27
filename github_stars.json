@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T12:48:09.189437+00:00",
+  "last_updated": "2026-11-27T12:23:02.260306+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -258669,6 +258669,266 @@
         "fetched_at": "2026-11-26T12:48:07.837586+00:00",
         "status": "ok"
       }
+    },
+    "gasparoff/rays": {
+      "lists": [],
+      "metadata": {
+        "id": 1468010720,
+        "name": "rays",
+        "full_name": "gasparoff/rays",
+        "description": "Open-source, beat-synced DMX lighting for DJs. Native on macOS.",
+        "url": "https://github.com/gasparoff/rays",
+        "homepage": "",
+        "language": "Swift",
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 10,
+        "created_at": "2026-11-22T21:36:48Z",
+        "updated_at": "2026-11-27T09:55:03Z",
+        "pushed_at": "2026-11-26T19:38:56Z",
+        "starred_at": "2026-11-27T03:03:41Z"
+      },
+      "last_updated": "2026-11-27T12:22:57.974916+00:00"
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "lists": [],
+      "metadata": {
+        "id": 1305663861,
+        "name": "video-shotcraft",
+        "full_name": "Vincentwei1021/video-shotcraft",
+        "description": "AI video skill for Claude Code & Codex \u2014 cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+        "url": "https://github.com/Vincentwei1021/video-shotcraft",
+        "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+        "language": "TypeScript",
+        "stars": 23025,
+        "forks": 2104,
+        "open_issues": 12,
+        "created_at": "2026-07-19T11:44:41Z",
+        "updated_at": "2026-11-27T12:15:51Z",
+        "pushed_at": "2026-11-25T10:01:07Z",
+        "starred_at": "2026-11-27T02:50:43Z"
+      },
+      "last_updated": "2026-11-27T12:22:58.357742+00:00"
+    },
+    "pmndrs/react-postprocessing": {
+      "lists": [],
+      "metadata": {
+        "id": 262026124,
+        "name": "react-postprocessing",
+        "full_name": "pmndrs/react-postprocessing",
+        "description": "\ud83d\udcec  Postprocessing for react-three-fiber",
+        "url": "https://github.com/pmndrs/react-postprocessing",
+        "homepage": "https://docs.pmnd.rs/react-postprocessing",
+        "language": "TypeScript",
+        "stars": 1791,
+        "forks": 191,
+        "open_issues": 12,
+        "created_at": "2020-05-07T11:00:08Z",
+        "updated_at": "2026-11-27T11:54:41Z",
+        "pushed_at": "2026-10-21T17:20:15Z",
+        "starred_at": "2026-11-27T02:48:53Z"
+      },
+      "last_updated": "2026-11-27T12:22:58.724631+00:00"
+    },
+    "joeseesun/opus-video-prompts": {
+      "lists": [],
+      "metadata": {
+        "id": 1389900426,
+        "name": "opus-video-prompts",
+        "full_name": "joeseesun/opus-video-prompts",
+        "description": "Claude Opus 5.5 \u7528\u4ee3\u7801\u751f\u6210\u89c6\u9891\uff1a\u5168\u7f51\u6848\u4f8b\u4e0e\u53ef\u76f4\u63a5\u590d\u5236\u7684\u63d0\u793a\u8bcd | Copy-ready prompts & 54 cases of Opus 5.5 code-rendered videos",
+        "url": "https://github.com/joeseesun/opus-video-prompts",
+        "homepage": null,
+        "language": null,
+        "stars": 1251,
+        "forks": 127,
+        "open_issues": 0,
+        "created_at": "2026-09-27T00:16:07Z",
+        "updated_at": "2026-11-27T12:19:09Z",
+        "pushed_at": "2026-09-27T00:16:11Z",
+        "starred_at": "2026-11-27T02:45:55Z"
+      },
+      "last_updated": "2026-11-27T12:22:59.068233+00:00"
+    },
+    "yihui-dev/awesome-opus5-5-videos": {
+      "lists": [],
+      "metadata": {
+        "id": 1390273274,
+        "name": "awesome-opus5-5-videos",
+        "full_name": "yihui-dev/awesome-opus5-5-videos",
+        "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+        "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+        "homepage": "https://skillry.dev/ai-videos/opus-5-5",
+        "language": null,
+        "stars": 16621,
+        "forks": 1786,
+        "open_issues": 14,
+        "created_at": "2026-09-27T06:19:36Z",
+        "updated_at": "2026-11-27T12:19:05Z",
+        "pushed_at": "2026-10-13T14:46:44Z",
+        "starred_at": "2026-11-27T02:45:33Z"
+      },
+      "last_updated": "2026-11-27T12:22:59.413972+00:00"
+    },
+    "patch-gg/pixelfx": {
+      "lists": [],
+      "metadata": {
+        "id": 1439372976,
+        "name": "pixelfx",
+        "full_name": "patch-gg/pixelfx",
+        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+        "url": "https://github.com/patch-gg/pixelfx",
+        "homepage": "https://patch-gg.github.io/pixelfx/",
+        "language": "JavaScript",
+        "stars": 9590,
+        "forks": 1237,
+        "open_issues": 19,
+        "created_at": "2026-10-30T06:43:25Z",
+        "updated_at": "2026-11-27T12:22:13Z",
+        "pushed_at": "2026-11-13T08:43:39Z",
+        "starred_at": "2026-11-27T02:42:11Z"
+      },
+      "last_updated": "2026-11-27T12:22:59.761325+00:00"
+    },
+    "lemomo-ai/lemo-opuscar": {
+      "lists": [],
+      "metadata": {
+        "id": 1389011744,
+        "name": "lemo-opuscar",
+        "full_name": "lemomo-ai/lemo-opuscar",
+        "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. \u00b7 \u4e00\u5957\u7528\u4ee3\u7801\u505a\u7247\u7684\u98ce\u683c\u5de5\u5177\u7bb1\uff1a99 \u79cd\u73b0\u6210\u98ce\u683c\uff0c\u4e5f\u80fd\u505a\u51fa\u4f60\u81ea\u5df1\u7684",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar",
+        "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
+        "language": "JavaScript",
+        "stars": 21810,
+        "forks": 2822,
+        "open_issues": 1,
+        "created_at": "2026-09-26T10:10:41Z",
+        "updated_at": "2026-11-27T12:20:05Z",
+        "pushed_at": "2026-11-26T09:48:06Z",
+        "starred_at": "2026-11-27T02:40:29Z"
+      },
+      "last_updated": "2026-11-27T12:23:00.076010+00:00"
+    },
+    "progrium/minipg": {
+      "lists": [],
+      "metadata": {
+        "id": 1427577741,
+        "name": "minipg",
+        "full_name": "progrium/minipg",
+        "description": "SQLite and PostgreSQL had a baby",
+        "url": "https://github.com/progrium/minipg",
+        "homepage": "https://progrium.github.io/minipg/",
+        "language": "Zig",
+        "stars": 230,
+        "forks": 6,
+        "open_issues": 1,
+        "created_at": "2026-10-20T21:22:01Z",
+        "updated_at": "2026-11-27T11:28:38Z",
+        "pushed_at": "2026-11-26T21:38:59Z",
+        "starred_at": "2026-11-27T00:30:46Z"
+      },
+      "last_updated": "2026-11-27T12:23:00.438298+00:00"
+    },
+    "gary23w/f-ck_data_brokers": {
+      "lists": [],
+      "metadata": {
+        "id": 1473500322,
+        "name": "f-ck_data_brokers",
+        "full_name": "gary23w/f-ck_data_brokers",
+        "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+        "url": "https://github.com/gary23w/f-ck_data_brokers",
+        "homepage": "https://agent.garrettstimpson.ca/remove",
+        "language": "Python",
+        "stars": 496,
+        "forks": 23,
+        "open_issues": 0,
+        "created_at": "2026-11-26T17:53:07Z",
+        "updated_at": "2026-11-27T12:18:46Z",
+        "pushed_at": "2026-11-27T11:54:31Z",
+        "starred_at": "2026-11-27T00:29:35Z"
+      },
+      "last_updated": "2026-11-27T12:23:00.815592+00:00"
+    },
+    "progrium/hyper9": {
+      "lists": [],
+      "metadata": {
+        "id": 1443350855,
+        "name": "hyper9",
+        "full_name": "progrium/hyper9",
+        "description": "run isolated Plan 9 and Linux executables anywhere, fast",
+        "url": "https://github.com/progrium/hyper9",
+        "homepage": "https://progrium.github.io/hyper9/",
+        "language": "Zig",
+        "stars": 79,
+        "forks": 2,
+        "open_issues": 14,
+        "created_at": "2026-11-02T18:43:57Z",
+        "updated_at": "2026-11-27T11:10:29Z",
+        "pushed_at": "2026-11-27T10:35:48Z",
+        "starred_at": "2026-11-27T00:05:08Z"
+      },
+      "last_updated": "2026-11-27T12:23:01.147064+00:00"
+    },
+    "vnkbln/lottielume": {
+      "lists": [],
+      "metadata": {
+        "id": 1464085596,
+        "name": "lottielume",
+        "full_name": "vnkbln/lottielume",
+        "description": "Play, recolor and spawn vector animations in Resolume.",
+        "url": "https://github.com/vnkbln/lottielume",
+        "homepage": null,
+        "language": "C++",
+        "stars": 3,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-19T11:59:10Z",
+        "updated_at": "2026-11-26T23:19:18Z",
+        "pushed_at": "2026-11-20T09:08:10Z",
+        "starred_at": "2026-11-26T23:19:18Z"
+      },
+      "last_updated": "2026-11-27T12:23:01.524504+00:00"
+    },
+    "stew675/llama-cpp-rdna-boosts": {
+      "lists": [],
+      "metadata": {
+        "id": 1346702053,
+        "name": "llama-cpp-rdna-boosts",
+        "full_name": "stew675/llama-cpp-rdna-boosts",
+        "description": "A set of performant RDNA/HIP patches against llama.cpp focusing on high speed inferencing with numerics assurance",
+        "url": "https://github.com/stew675/llama-cpp-rdna-boosts",
+        "homepage": "",
+        "language": "Shell",
+        "stars": 401,
+        "forks": 31,
+        "open_issues": 8,
+        "created_at": "2026-08-25T23:03:12Z",
+        "updated_at": "2026-11-27T12:20:37Z",
+        "pushed_at": "2026-11-27T03:29:03Z",
+        "starred_at": "2026-11-26T22:21:47Z"
+      },
+      "last_updated": "2026-11-27T12:23:01.866501+00:00"
+    },
+    "OpenKinect/libfreenect2": {
+      "lists": [],
+      "metadata": {
+        "id": 14847048,
+        "name": "libfreenect2",
+        "full_name": "OpenKinect/libfreenect2",
+        "description": "Open source drivers for the Kinect for Windows v2 device",
+        "url": "https://github.com/OpenKinect/libfreenect2",
+        "homepage": null,
+        "language": "C++",
+        "stars": 2273,
+        "forks": 800,
+        "open_issues": 169,
+        "created_at": "2013-12-01T21:59:22Z",
+        "updated_at": "2026-11-26T22:15:52Z",
+        "pushed_at": "2024-04-09T23:36:01Z",
+        "starred_at": "2026-11-26T22:15:51Z"
+      },
+      "last_updated": "2026-11-27T12:23:02.260196+00:00"
     }
   },
   "last_processed_index": 0,
@@ -258678,5 +258938,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"f3affa9bc7058c9e31c2978b07041bc71f2645f914646ac367799d862ad462ab\""
+  "profile_etag": "W/\"31e2e4f3d6dd944e50a0bdc95a348b6cb1b36d1b1ec07d70222c6ccd31cdc03c\""
 }
