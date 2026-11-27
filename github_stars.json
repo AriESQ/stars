@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T12:33:03.353887+00:00",
+  "last_updated": "2026-11-27T12:33:46.067360+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -258691,7 +258691,15 @@
         "pushed_at": "2026-11-26T19:38:56Z",
         "starred_at": "2026-11-27T03:03:41Z"
       },
-      "last_updated": "2026-11-27T12:22:57.974916+00:00"
+      "last_updated": "2026-11-27T12:22:57.974916+00:00",
+      "readme": {
+        "path": "readmes/gasparoff+rays+README.md",
+        "etag": "W/\"5178f358fec5ef977e9c2191508645e7fc35bea9\"",
+        "sha": "5178f358fec5ef977e9c2191508645e7fc35bea9",
+        "size": 9936,
+        "fetched_at": "2026-11-27T12:33:43.324894+00:00",
+        "status": "ok"
+      }
     },
     "Vincentwei1021/video-shotcraft": {
       "lists": [
@@ -258714,7 +258722,15 @@
         "pushed_at": "2026-11-25T10:01:07Z",
         "starred_at": "2026-11-27T02:50:43Z"
       },
-      "last_updated": "2026-11-27T12:22:58.357742+00:00"
+      "last_updated": "2026-11-27T12:22:58.357742+00:00",
+      "readme": {
+        "path": "readmes/Vincentwei1021+video-shotcraft+README.md",
+        "etag": "W/\"b5d8fe40f16031f1fa786eb7597e51f65b7411d4\"",
+        "sha": "b5d8fe40f16031f1fa786eb7597e51f65b7411d4",
+        "size": 21759,
+        "fetched_at": "2026-11-27T12:33:42.612009+00:00",
+        "status": "ok"
+      }
     },
     "pmndrs/react-postprocessing": {
       "lists": [
@@ -258738,7 +258754,15 @@
         "pushed_at": "2026-10-21T17:20:15Z",
         "starred_at": "2026-11-27T02:48:53Z"
       },
-      "last_updated": "2026-11-27T12:22:58.724631+00:00"
+      "last_updated": "2026-11-27T12:22:58.724631+00:00",
+      "readme": {
+        "path": "readmes/pmndrs+react-postprocessing+README.md",
+        "etag": "W/\"c86329ef4ab5157e1f86649eeaac11e4019a60c7\"",
+        "sha": "c86329ef4ab5157e1f86649eeaac11e4019a60c7",
+        "size": 4069,
+        "fetched_at": "2026-11-27T12:33:44.489026+00:00",
+        "status": "ok"
+      }
     },
     "joeseesun/opus-video-prompts": {
       "lists": [
@@ -258761,7 +258785,15 @@
         "pushed_at": "2026-09-27T00:16:11Z",
         "starred_at": "2026-11-27T02:45:55Z"
       },
-      "last_updated": "2026-11-27T12:22:59.068233+00:00"
+      "last_updated": "2026-11-27T12:22:59.068233+00:00",
+      "readme": {
+        "path": "readmes/joeseesun+opus-video-prompts+README.md",
+        "etag": "W/\"25acd3c800a1cb175a39596f767fc5f781ae05e5\"",
+        "sha": "25acd3c800a1cb175a39596f767fc5f781ae05e5",
+        "size": 41358,
+        "fetched_at": "2026-11-27T12:33:43.607284+00:00",
+        "status": "ok"
+      }
     },
     "yihui-dev/awesome-opus5-5-videos": {
       "lists": [
@@ -258784,7 +258816,15 @@
         "pushed_at": "2026-10-13T14:46:44Z",
         "starred_at": "2026-11-27T02:45:33Z"
       },
-      "last_updated": "2026-11-27T12:22:59.413972+00:00"
+      "last_updated": "2026-11-27T12:22:59.413972+00:00",
+      "readme": {
+        "path": "readmes/yihui-dev+awesome-opus5-5-videos+README.md",
+        "etag": "W/\"d6a22a120bc2e3b1b4ec9bc549f98c8af4655eb6\"",
+        "sha": "d6a22a120bc2e3b1b4ec9bc549f98c8af4655eb6",
+        "size": 63328,
+        "fetched_at": "2026-11-27T12:33:46.066689+00:00",
+        "status": "ok"
+      }
     },
     "patch-gg/pixelfx": {
       "lists": [
@@ -258807,7 +258847,15 @@
         "pushed_at": "2026-11-13T08:43:39Z",
         "starred_at": "2026-11-27T02:42:11Z"
       },
-      "last_updated": "2026-11-27T12:22:59.761325+00:00"
+      "last_updated": "2026-11-27T12:22:59.761325+00:00",
+      "readme": {
+        "path": "readmes/patch-gg+pixelfx+README.md",
+        "etag": "W/\"7306bb34a3dbff6fb91aba6f9e9a003f328a9bcc\"",
+        "sha": "7306bb34a3dbff6fb91aba6f9e9a003f328a9bcc",
+        "size": 12139,
+        "fetched_at": "2026-11-27T12:33:44.202756+00:00",
+        "status": "ok"
+      }
     },
     "lemomo-ai/lemo-opuscar": {
       "lists": [
@@ -258830,7 +258878,15 @@
         "pushed_at": "2026-11-26T09:48:06Z",
         "starred_at": "2026-11-27T02:40:29Z"
       },
-      "last_updated": "2026-11-27T12:23:00.076010+00:00"
+      "last_updated": "2026-11-27T12:23:00.076010+00:00",
+      "readme": {
+        "path": "readmes/lemomo-ai+lemo-opuscar+README.md",
+        "etag": "W/\"738eb10249d596d33153663f68095cf6061e5bac\"",
+        "sha": "738eb10249d596d33153663f68095cf6061e5bac",
+        "size": 100080,
+        "fetched_at": "2026-11-27T12:33:43.932084+00:00",
+        "status": "ok"
+      }
     },
     "progrium/minipg": {
       "lists": [
@@ -258852,7 +258908,15 @@
         "pushed_at": "2026-11-26T21:38:59Z",
         "starred_at": "2026-11-27T00:30:46Z"
       },
-      "last_updated": "2026-11-27T12:23:00.438298+00:00"
+      "last_updated": "2026-11-27T12:23:00.438298+00:00",
+      "readme": {
+        "path": "readmes/progrium+minipg+README.md",
+        "etag": "W/\"2c735b145f47620c8d57c94374de23fe324a1a4b\"",
+        "sha": "2c735b145f47620c8d57c94374de23fe324a1a4b",
+        "size": 13935,
+        "fetched_at": "2026-11-27T12:33:45.084661+00:00",
+        "status": "ok"
+      }
     },
     "gary23w/f-ck_data_brokers": {
       "lists": [
@@ -258874,7 +258938,15 @@
         "pushed_at": "2026-11-27T11:54:31Z",
         "starred_at": "2026-11-27T00:29:35Z"
       },
-      "last_updated": "2026-11-27T12:23:00.815592+00:00"
+      "last_updated": "2026-11-27T12:23:00.815592+00:00",
+      "readme": {
+        "path": "readmes/gary23w+f-ck_data_brokers+README.md",
+        "etag": "W/\"4fe413bd6bfeb56106cc422237c71cd758cd52b5\"",
+        "sha": "4fe413bd6bfeb56106cc422237c71cd758cd52b5",
+        "size": 16359,
+        "fetched_at": "2026-11-27T12:33:42.916027+00:00",
+        "status": "ok"
+      }
     },
     "progrium/hyper9": {
       "lists": [
@@ -258896,7 +258968,15 @@
         "pushed_at": "2026-11-27T10:35:48Z",
         "starred_at": "2026-11-27T00:05:08Z"
       },
-      "last_updated": "2026-11-27T12:23:01.147064+00:00"
+      "last_updated": "2026-11-27T12:23:01.147064+00:00",
+      "readme": {
+        "path": "readmes/progrium+hyper9+README.md",
+        "etag": "W/\"6fee89ecda11d1ee47c36955dc38f1013cc3d4fb\"",
+        "sha": "6fee89ecda11d1ee47c36955dc38f1013cc3d4fb",
+        "size": 4848,
+        "fetched_at": "2026-11-27T12:33:44.771913+00:00",
+        "status": "ok"
+      }
     },
     "vnkbln/lottielume": {
       "lists": [
@@ -258918,7 +258998,15 @@
         "pushed_at": "2026-11-20T09:08:10Z",
         "starred_at": "2026-11-26T23:19:18Z"
       },
-      "last_updated": "2026-11-27T12:23:01.524504+00:00"
+      "last_updated": "2026-11-27T12:23:01.524504+00:00",
+      "readme": {
+        "path": "readmes/vnkbln+lottielume+README.md",
+        "etag": "W/\"beb2021dc9ce3b849d67a336bf562baddb92f6c9\"",
+        "sha": "beb2021dc9ce3b849d67a336bf562baddb92f6c9",
+        "size": 4671,
+        "fetched_at": "2026-11-27T12:33:45.780376+00:00",
+        "status": "ok"
+      }
     },
     "stew675/llama-cpp-rdna-boosts": {
       "lists": [
@@ -258940,7 +259028,15 @@
         "pushed_at": "2026-11-27T03:29:03Z",
         "starred_at": "2026-11-26T22:21:47Z"
       },
-      "last_updated": "2026-11-27T12:23:01.866501+00:00"
+      "last_updated": "2026-11-27T12:23:01.866501+00:00",
+      "readme": {
+        "path": "readmes/stew675+llama-cpp-rdna-boosts+README.md",
+        "etag": "W/\"7f0a8c557281fc020d8bfd11e7082f4ae8bb980a\"",
+        "sha": "7f0a8c557281fc020d8bfd11e7082f4ae8bb980a",
+        "size": 78844,
+        "fetched_at": "2026-11-27T12:33:45.391302+00:00",
+        "status": "ok"
+      }
     },
     "OpenKinect/libfreenect2": {
       "lists": [
@@ -258962,7 +259058,15 @@
         "pushed_at": "2024-04-09T23:36:01Z",
         "starred_at": "2026-11-26T22:15:51Z"
       },
-      "last_updated": "2026-11-27T12:23:02.260196+00:00"
+      "last_updated": "2026-11-27T12:23:02.260196+00:00",
+      "readme": {
+        "path": "readmes/OpenKinect+libfreenect2+README.md",
+        "etag": "W/\"3bde4ceb001b0fe923d4964c57425700e0d0c8aa\"",
+        "sha": "3bde4ceb001b0fe923d4964c57425700e0d0c8aa",
+        "size": 13546,
+        "fetched_at": "2026-11-27T12:33:42.324672+00:00",
+        "status": "ok"
+      }
     }
   },
   "last_processed_index": 0,
