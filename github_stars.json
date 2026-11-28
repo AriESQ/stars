@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T12:33:46.067360+00:00",
+  "last_updated": "2026-11-28T11:47:46.887151+00:00",
   "repositories": {
     "lzap/ViscosityTouchID": {
       "lists": [
@@ -259067,6 +259067,86 @@
         "fetched_at": "2026-11-27T12:33:42.324672+00:00",
         "status": "ok"
       }
+    },
+    "sapozhkov/ascii-lab-public": {
+      "lists": [],
+      "metadata": {
+        "id": 1467901572,
+        "name": "ascii-lab-public",
+        "full_name": "sapozhkov/ascii-lab-public",
+        "description": null,
+        "url": "https://github.com/sapozhkov/ascii-lab-public",
+        "homepage": null,
+        "language": "HTML",
+        "stars": 52,
+        "forks": 4,
+        "open_issues": 1,
+        "created_at": "2026-11-22T19:15:38Z",
+        "updated_at": "2026-11-28T10:10:11Z",
+        "pushed_at": "2026-11-26T23:02:17Z",
+        "starred_at": "2026-11-28T04:40:16Z"
+      },
+      "last_updated": "2026-11-28T11:47:45.874937+00:00"
+    },
+    "Octonove/octorig-studio": {
+      "lists": [],
+      "metadata": {
+        "id": 1459290266,
+        "name": "octorig-studio",
+        "full_name": "Octonove/octorig-studio",
+        "description": "Open-source 3D character rigging and body and facial animation toolkit for Blender and UniRig.",
+        "url": "https://github.com/Octonove/octorig-studio",
+        "homepage": "https://invokard.com/tools/octorig",
+        "language": "Python",
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "created_at": "2026-11-15T22:13:12Z",
+        "updated_at": "2026-11-27T16:52:21Z",
+        "pushed_at": "2026-11-15T22:31:50Z",
+        "starred_at": "2026-11-27T16:52:20Z"
+      },
+      "last_updated": "2026-11-28T11:47:46.213184+00:00"
+    },
+    "nv-tlabs/kimodo": {
+      "lists": [],
+      "metadata": {
+        "id": 1183645536,
+        "name": "kimodo",
+        "full_name": "nv-tlabs/kimodo",
+        "description": "Official implementation of Kimodo, a kinematic motion diffusion model for high-quality human(oid) motion generation.",
+        "url": "https://github.com/nv-tlabs/kimodo",
+        "homepage": "",
+        "language": "Python",
+        "stars": 4431,
+        "forks": 484,
+        "open_issues": 22,
+        "created_at": "2026-03-16T20:19:30Z",
+        "updated_at": "2026-11-28T11:02:18Z",
+        "pushed_at": "2026-10-15T20:42:34Z",
+        "starred_at": "2026-11-27T16:24:04Z"
+      },
+      "last_updated": "2026-11-28T11:47:46.538502+00:00"
+    },
+    "bartinstruments/open-source": {
+      "lists": [],
+      "metadata": {
+        "id": 1220897076,
+        "name": "open-source",
+        "full_name": "bartinstruments/open-source",
+        "description": "All b:art instruments schematics, PCB designs and code made available for everyone to download.",
+        "url": "https://github.com/bartinstruments/open-source",
+        "homepage": null,
+        "language": null,
+        "stars": 133,
+        "forks": 4,
+        "open_issues": 0,
+        "created_at": "2026-04-25T13:36:03Z",
+        "updated_at": "2026-11-28T10:50:31Z",
+        "pushed_at": "2026-11-26T14:26:43Z",
+        "starred_at": "2026-11-27T15:40:44Z"
+      },
+      "last_updated": "2026-11-28T11:47:46.887032+00:00"
     }
   },
   "last_processed_index": 0,
@@ -259076,5 +259156,5 @@
     "avatar_url": "https://avatars.githubusercontent.com/u/19827230?v=4",
     "bio": null
   },
-  "profile_etag": "W/\"31e2e4f3d6dd944e50a0bdc95a348b6cb1b36d1b1ec07d70222c6ccd31cdc03c\""
+  "profile_etag": "W/\"1aefb44b87cab00927c76a7ef933ef2545888db2cf1161053a64ea9e0b26cff0\""
 }
